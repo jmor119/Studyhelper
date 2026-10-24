@@ -43,5 +43,8 @@ if (binDir) {
   env[key] = `${binDir}${path.delimiter}${env[key] ?? ''}`;
   env.JAVA_HOME = path.dirname(binDir);
 }
-const child = spawn(cmd, args, { stdio: 'inherit', env, shell: process.platform === 'win32' });
+// On Windows the command runs through the shell (firebase is a .cmd), so re-quote arguments with spaces.
+const isWin = process.platform === 'win32';
+const quoted = isWin ? args.map((a) => (/\s/.test(a) ? `"${a.replace(/"/g, '\\"')}"` : a)) : args;
+const child = spawn(cmd, quoted, { stdio: 'inherit', env, shell: isWin });
 child.on('exit', (code) => process.exit(code ?? 1));

@@ -1,0 +1,31 @@
+rules_version = '2';
+
+// Study Helper — Cloud Storage rules.
+// Students upload assignment photos, worksheets, class notes and handwritten working to
+// uploads/<uid>/<file>. Linked parents can view them. Nothing else is client-accessible.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() { return request.auth != null; }
+    function isLinkedParentOf(studentUid) {
+      return signedIn()
+        && firestore.exists(/databases/(default)/documents/links/$(request.auth.uid + '_' + studentUid));
+    }
+
+    match /uploads/{userId}/{fileName} {
+      allow read: if signedIn() && (request.auth.uid == userId || isLinkedParentOf(userId));
+      allow create: if signedIn()
+        && request.auth.uid == userId
+        && fileName.matches('^[A-Za-z0-9._-]{1,100}$')
+        && request.resource.size < 10 * 1024 * 1024
+        && (request.resource.contentType.matches('image/(png|jpeg|webp|heic|heif|gif)')
+            || request.resource.contentType == 'application/pdf');
+      allow update: if false;
+      allow delete: if signedIn() && request.auth.uid == userId;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

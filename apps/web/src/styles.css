@@ -1,0 +1,129 @@
+@import 'tailwindcss';
+@import 'katex/dist/katex.min.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Design tokens. Components use these semantic names, so light/dark is handled in one place. */
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-200: #99f6e4;
+  --color-brand-300: #5eead4;
+  --color-brand-400: #2dd4bf;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+  --color-brand-900: #134e4a;
+
+  --color-xp: #f59e0b;
+  --color-streak: #f97316;
+  --color-good: #059669;
+  --color-bad: #e11d48;
+
+  --color-surface: #ffffff;
+  --color-canvas: #f8fafc;
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-line: #e2e8f0;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  .dark {
+    color-scheme: dark;
+    --color-surface: #0f172a;
+    --color-canvas: #020617;
+    --color-ink: #e2e8f0;
+    --color-muted: #94a3b8;
+    --color-line: #1e293b;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-canvas text-ink antialiased;
+    font-family: var(--font-sans);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+/* Rendered Markdown (lessons, questions, tutor). */
+.prose-study {
+  line-height: 1.6;
+}
+.prose-study p {
+  margin: 0.5em 0;
+}
+.prose-study ul,
+.prose-study ol {
+  margin: 0.5em 0;
+  padding-left: 1.4em;
+}
+.prose-study ul {
+  list-style: disc;
+}
+.prose-study ol {
+  list-style: decimal;
+}
+.prose-study li {
+  margin: 0.2em 0;
+}
+.prose-study h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 1em 0 0.4em;
+}
+.prose-study h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 1em 0 0.3em;
+}
+.prose-study strong {
+  font-weight: 700;
+}
+.prose-study blockquote {
+  border-left: 4px solid var(--color-brand-400);
+  background: color-mix(in srgb, var(--color-brand-500) 8%, transparent);
+  padding: 0.5em 0.9em;
+  border-radius: 0 0.5em 0.5em 0;
+  margin: 0.75em 0;
+}
+.prose-study table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  font-size: 0.95em;
+}
+.prose-study th,
+.prose-study td {
+  border: 1px solid var(--color-line);
+  padding: 0.35em 0.7em;
+  text-align: left;
+}
+.prose-study th {
+  background: color-mix(in srgb, var(--color-muted) 10%, transparent);
+}
+.prose-study code:not(.math) {
+  background: color-mix(in srgb, var(--color-muted) 15%, transparent);
+  padding: 0.1em 0.35em;
+  border-radius: 0.3em;
+  font-size: 0.9em;
+}
+.prose-study .math-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0.6em 0;
+}
+.katex {
+  font-size: 1.08em;
+}

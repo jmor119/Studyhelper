@@ -66,6 +66,61 @@ export interface StudentStats {
   totalCorrect: number;
   badges: string[];
   updatedAt: number;
+  /** Current run of consecutive correct answers. */
+  runOfCorrect?: number;
+  flashcardsReviewed?: number;
+  examsTaken?: number;
+  /** Monday (NZ) of the week the week* counters belong to. */
+  weekStart?: DateKey;
+  weekAnswered?: number;
+  weekCorrect?: number;
+  weekXp?: number;
+  weekMinutes?: number;
+  todayMinutes?: number;
+}
+
+export type GoalMetric = 'questions' | 'correct' | 'minutes' | 'xp' | 'sessions' | 'flashcards' | 'exams';
+export type GoalPeriod = 'day' | 'week' | 'once';
+
+export interface Goal {
+  id?: string;
+  title: string;
+  metric: GoalMetric;
+  target: number;
+  period: GoalPeriod;
+  reward?: string;
+  createdBy: string;
+  createdAt: number;
+  progress: number;
+  status: 'active' | 'paused' | 'achieved' | 'archived';
+  periodStart?: string;
+  /** Recurring goals: how many periods have been achieved. */
+  achievedCount?: number;
+  lastAchievedPeriod?: string;
+  achievedAt?: number;
+}
+
+export interface AttemptRecord {
+  questionId: string;
+  topicId: string;
+  subject: Subject;
+  difficulty: number;
+  type: string;
+  correct: boolean;
+  score: number;
+  marksAwarded: number;
+  marksAvailable: number;
+  hintsUsed: number;
+  timeMs: number;
+  context: 'practice' | 'review' | 'exam' | 'plan' | 'mcp';
+  createdAt: number;
+  /** Short summary of what the student answered (for parents and the mistakes list). */
+  answerText?: string;
+  needsReview?: boolean;
+  selfMarked?: boolean;
+  aiMarked?: boolean;
+  examId?: string;
+  feedback?: string;
 }
 
 export interface MasteryRecord {

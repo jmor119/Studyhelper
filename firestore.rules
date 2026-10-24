@@ -1,0 +1,170 @@
+rules_version = '2';
+
+// Study Helper — Firestore security rules.
+//
+// Principles:
+//  * Deny by default. Every collection is listed explicitly.
+//  * Anything that affects trust — progress, XP, family links, the shared question bank, AI keys,
+//    usage, OAuth state — is written only by Cloud Functions (Admin SDK bypasses these rules).
+//  * Parents can read a student's data only through an active link document whose id is
+//    "<parentUid>_<studentUid>", so the check is a single exists() lookup.
+//  * Clients may write only small, validated, low-stakes documents: profile display fields,
+//    flashcard scheduling state, study plans, study settings, and (parents) goals.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- helpers ----------
+    function signedIn() { return request.auth != null; }
+    function uid() { return request.auth.uid; }
+    function isSelf(userId) { return signedIn() && uid() == userId; }
+    function isAdmin() { return signedIn() && request.auth.token.admin == true; }
+    function linkPath(parentUid, studentUid) {
+      return /databases/$(database)/documents/links/$(parentUid + '_' + studentUid);
+    }
+    function isLinkedParentOf(studentUid) { return signedIn() && exists(linkPath(uid(), studentUid)); }
+    function isLinkedStudentOf(parentUid) { return signedIn() && exists(linkPath(parentUid, uid())); }
+    function canReadStudent(studentUid) { return isSelf(studentUid) || isLinkedParentOf(studentUid) || isAdmin(); }
+
+    function changedKeys() { return request.resource.data.diff(resource.data).affectedKeys(); }
+    function isShortString(v, max) { return v is string && v.size() <= max; }
+    function isOptionalShortString(data, key, max) { return !(key in data) || isShortString(data[key], max); }
+
+    // ---------- user profiles ----------
+    match /users/{userId} {
+      allow read: if isSelf(userId) || isLinkedParentOf(userId) || isLinkedStudentOf(userId) || isAdmin();
+      // Created by the completeOnboarding function. Users may edit only cosmetic fields.
+      allow create, delete: if false;
+      allow update: if isSelf(userId)
+        && changedKeys().hasOnly(['displayName', 'avatar', 'prefs'])
+        && isShortString(request.resource.data.displayName, 60)
+        && request.resource.data.displayName.size() >= 1
+        && isOptionalShortString(request.resource.data, 'avatar', 16)
+        && (!('prefs' in request.resource.data) || validPrefs(request.resource.data.prefs));
+
+      function validPrefs(p) {
+        return p is map
+          && p.keys().hasOnly(['theme', 'weeklyEmail', 'shareAiKey', 'dailyGoal', 'subjects'])
+          && (!('theme' in p) || p.theme in ['system', 'light', 'dark'])
+          && (!('weeklyEmail' in p) || p.weeklyEmail is bool)
+          && (!('shareAiKey' in p) || p.shareAiKey is bool)
+          && (!('dailyGoal' in p) || (p.dailyGoal is int && p.dailyGoal >= 5 && p.dailyGoal <= 200))
+          && (!('subjects' in p) || (p.subjects is list && p.subjects.size() <= 4));
+      }
+
+      // AI key summary (provider, last four characters, model, caps). Never the key itself.
+      match /private/{docId} {
+        allow read: if isSelf(userId);
+        allow write: if false;
+      }
+    }
+
+    // ---------- family links (written by acceptInvite / createChildAccount / unlink) ----------
+    match /links/{linkId} {
+      allow read: if signedIn() && (resource.data.parentUid == uid() || resource.data.studentUid == uid());
+      allow write: if false;
+    }
+    match /invites/{code} { allow read, write: if false; }
+    match /usernames/{name} { allow read, write: if false; }
+
+    // ---------- shared question bank ----------
+    // Public question data only; answers live in bankAnswers, which clients can never read.
+    match /bank/{questionId} {
+      allow read: if signedIn() && (
+        resource.data.status in ['verified', 'unverified']
+        || (resource.data.status == 'pending' && uid() in resource.data.get('visibleTo', []))
+        || isAdmin()
+      );
+      allow write: if false;
+    }
+    match /bankAnswers/{questionId} { allow read, write: if false; }
+    match /bankFlags/{flagId} { allow read, write: if false; }
+    match /bankStats/{docId} { allow read: if isAdmin(); allow write: if false; }
+
+    // ---------- student progress ----------
+    match /students/{studentId} {
+      allow read: if canReadStudent(studentId);
+      allow write: if false;
+
+      // Everything below is readable by the student and linked parents; writes are denied unless
+      // a more specific rule below allows them.
+      match /{document=**} {
+        allow read: if canReadStudent(studentId);
+      }
+
+      // Flashcard spaced-repetition state: low stakes, written by the student's own device.
+      match /cards/{cardId} {
+        allow create, update: if isSelf(studentId)
+          && request.resource.data.keys().hasOnly(['cardId', 'topicId', 'due', 'stability', 'difficulty',
+               'elapsedDays', 'scheduledDays', 'reps', 'lapses', 'state', 'lastReview', 'learningSteps'])
+          && request.resource.data.cardId == cardId
+          && isShortString(request.resource.data.topicId, 60)
+          && request.resource.data.due is number
+          && request.resource.data.reps is int
+          && request.resource.data.state is int;
+        allow delete: if isSelf(studentId);
+      }
+
+      // Study plans (exam date, topics, daily minutes).
+      match /plans/{planId} {
+        allow create, update: if isSelf(studentId)
+          && request.resource.data.keys().hasOnly(['title', 'subject', 'examDate', 'topicIds', 'minutesPerDay',
+               'restDays', 'createdAt', 'updatedAt'])
+          && isShortString(request.resource.data.title, 80)
+          && request.resource.data.subject in ['maths', 'science', 'mixed']
+          && request.resource.data.examDate is string && request.resource.data.examDate.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+          && request.resource.data.topicIds is list && request.resource.data.topicIds.size() <= 60
+          && request.resource.data.minutesPerDay is int
+          && request.resource.data.minutesPerDay >= 10 && request.resource.data.minutesPerDay <= 240;
+        allow delete: if isSelf(studentId);
+      }
+
+      // Study settings: which topics the student's school covers, current focus, etc.
+      match /settings/{docId} {
+        allow write: if isSelf(studentId)
+          && docId in ['study']
+          && request.resource.data.keys().hasOnly(['schoolTopics', 'focusTopics', 'updatedAt'])
+          && (!('schoolTopics' in request.resource.data) || (request.resource.data.schoolTopics is list && request.resource.data.schoolTopics.size() <= 120))
+          && (!('focusTopics' in request.resource.data) || (request.resource.data.focusTopics is list && request.resource.data.focusTopics.size() <= 30));
+      }
+
+      // Goals and rewards set by a linked parent. Progress is tracked by Cloud Functions.
+      match /goals/{goalId} {
+        allow create: if isLinkedParentOf(studentId)
+          && request.resource.data.keys().hasOnly(['title', 'metric', 'target', 'period', 'reward', 'createdBy',
+               'createdAt', 'progress', 'status', 'periodStart', 'subject'])
+          && request.resource.data.createdBy == uid()
+          && isShortString(request.resource.data.title, 80)
+          && request.resource.data.metric in ['questions', 'correct', 'minutes', 'xp', 'sessions', 'flashcards', 'exams']
+          && request.resource.data.target is int && request.resource.data.target > 0 && request.resource.data.target <= 100000
+          && request.resource.data.period in ['day', 'week', 'once']
+          && isOptionalShortString(request.resource.data, 'reward', 200)
+          && request.resource.data.progress == 0
+          && request.resource.data.status == 'active';
+        allow update: if isLinkedParentOf(studentId)
+          && changedKeys().hasOnly(['title', 'target', 'reward', 'status'])
+          && isShortString(request.resource.data.title, 80)
+          && request.resource.data.target is int && request.resource.data.target > 0
+          && isOptionalShortString(request.resource.data, 'reward', 200)
+          && request.resource.data.status in ['active', 'paused', 'achieved', 'archived'];
+        allow delete: if isLinkedParentOf(studentId);
+      }
+    }
+
+    // ---------- AI usage (per key owner) ----------
+    match /usage/{ownerId}/{document=**} {
+      allow read: if isSelf(ownerId) || isAdmin();
+      allow write: if false;
+    }
+
+    // ---------- server-only collections ----------
+    match /secrets/{ownerId} { allow read, write: if false; }
+    match /apiTokens/{tokenId} { allow read, write: if false; }
+    match /oauthClients/{clientId} { allow read, write: if false; }
+    match /oauthRequests/{requestId} { allow read, write: if false; }
+    match /oauthCodes/{code} { allow read, write: if false; }
+    match /oauthTokens/{tokenId} { allow read, write: if false; }
+    match /rateLimits/{key} { allow read, write: if false; }
+    match /mail/{mailId} { allow read, write: if false; }
+  }
+}
