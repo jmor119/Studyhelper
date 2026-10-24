@@ -1,0 +1,114 @@
+[
+  {
+    "id": "s9.bio.cells.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which part of a cell controls the cell's activities and contains its genetic information?",
+    "options": [
+      { "id": "a", "text": "Nucleus" },
+      { "id": "b", "text": "Cell membrane" },
+      { "id": "c", "text": "Cytoplasm" },
+      { "id": "d", "text": "Vacuole" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The cell membrane controls what goes in and out of the cell, not the cell's activities.",
+      "c": "Cytoplasm is the jelly-like substance where many reactions happen.",
+      "d": "The vacuole stores water and other substances."
+    },
+    "hints": ["Think about where DNA is kept."],
+    "solution": "The **nucleus** contains DNA, which carries the instructions that control the cell's activities."
+  },
+  {
+    "id": "s9.bio.cells.q002",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the structures found in plant cells but **not** in animal cells.",
+    "options": [
+      { "id": "a", "text": "Cell wall" },
+      { "id": "b", "text": "Chloroplast" },
+      { "id": "c", "text": "Nucleus" },
+      { "id": "d", "text": "Cell membrane" },
+      { "id": "e", "text": "Large permanent vacuole" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Two of the options are found in every plant and animal cell.", "Think about what a plant needs to do that an animal doesn't, such as photosynthesis and staying rigid."],
+    "solution": "Plant cells have a **cell wall** (support), **chloroplasts** (photosynthesis) and a **large permanent vacuole** (stores water and keeps the cell firm). Both plant and animal cells have a nucleus and a cell membrane."
+  },
+  {
+    "id": "s9.bio.cells.q003",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each cell part to its job.",
+    "pairs": [
+      { "left": { "id": "mito", "text": "Mitochondria" }, "right": { "id": "resp", "text": "Release energy by respiration" } },
+      { "left": { "id": "chlor", "text": "Chloroplast" }, "right": { "id": "photo", "text": "Carry out photosynthesis" } },
+      { "left": { "id": "memb", "text": "Cell membrane" }, "right": { "id": "control", "text": "Control what enters and leaves the cell" } },
+      { "left": { "id": "wall", "text": "Cell wall" }, "right": { "id": "support", "text": "Support and protect the cell" } }
+    ],
+    "hints": ["Mitochondria are often called the cell's 'powerhouse'."],
+    "solution": "Mitochondria → respiration; chloroplast → photosynthesis; cell membrane → controls what enters and leaves; cell wall → support."
+  },
+  {
+    "id": "s9.bio.cells.q004",
+    "type": "order",
+    "difficulty": 1,
+    "prompt": "Put these levels of organisation in order, from smallest to largest.",
+    "items": [
+      { "id": "cell", "text": "Cell" },
+      { "id": "tissue", "text": "Tissue" },
+      { "id": "organ", "text": "Organ" },
+      { "id": "system", "text": "Organ system" },
+      { "id": "organism", "text": "Organism" }
+    ],
+    "hints": ["A group of similar cells working together forms a tissue."],
+    "solution": "Cell → tissue → organ → organ system → organism. For example: muscle cell → muscle tissue → heart → circulatory system → human."
+  },
+  {
+    "id": "s9.bio.cells.q005",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A microscope has a ×10 eyepiece lens and a ×40 objective lens. What is the total magnification?",
+    "answer": 400,
+    "units": "×",
+    "hints": ["Total magnification = eyepiece magnification × objective magnification."],
+    "solution": "Total magnification $= 10 \\times 40 = 400$, so the image is **×400**."
+  },
+  {
+    "id": "s9.bio.cells.q006",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Name the green structures in a leaf cell where photosynthesis happens.",
+    "accepted": ["chloroplasts", "chloroplast"],
+    "hints": ["They contain the green pigment chlorophyll."],
+    "solution": "**Chloroplasts.** They contain chlorophyll, which absorbs light energy for photosynthesis."
+  },
+  {
+    "id": "s9.bio.cells.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Animal cells have a cell [[a]] but no cell [[b]], so they do not have a fixed shape.",
+    "blanks": [
+      { "id": "a", "accepted": ["membrane"], "options": ["membrane", "wall", "vacuole"] },
+      { "id": "b", "accepted": ["wall"], "options": ["membrane", "wall", "nucleus"] }
+    ],
+    "hints": ["One of these structures is rigid and found only in plants (and some other organisms)."],
+    "solution": "Animal cells have a cell **membrane** but no cell **wall**. The rigid cell wall is what gives plant cells their fixed shape."
+  },
+  {
+    "id": "s9.bio.cells.q008",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Root cells of a plant do not contain chloroplasts, but leaf cells do. Explain why.",
+    "modelAnswer": "Chloroplasts are where photosynthesis happens, and photosynthesis needs light. Leaf cells are exposed to sunlight, so they have chloroplasts to absorb light energy and make glucose. Root cells are underground where there is no light, so chloroplasts would be no use to them.",
+    "rubric": [
+      { "criterion": "States that chloroplasts carry out photosynthesis", "marks": 1 },
+      { "criterion": "States that photosynthesis needs light (energy)", "marks": 1 },
+      { "criterion": "Links this to roots being underground with no light, so chloroplasts aren't needed", "marks": 1 }
+    ],
+    "hints": ["What do chloroplasts do, and what do they need to do it?"],
+    "solution": "Chloroplasts carry out photosynthesis, which needs light energy. Leaves receive light; roots grow in the dark soil, so chloroplasts would have no light to use."
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "study-helper",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "functions"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "emulators": "node scripts/with-java.mjs firebase emulators:start --project demo-study-helper --import .emulator-data --export-on-exit .emulator-data",
+    "build": "npm run build -w functions && npm run build -w apps/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:rules": "node scripts/with-java.mjs firebase emulators:exec --only firestore,storage,auth --project demo-study-helper \"npx vitest run --config tests/rules/vitest.config.ts\"",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "seed": "tsx scripts/seed.ts",
+    "set-admin": "tsx scripts/set-admin.ts",
+    "deploy": "firebase deploy --project study-helper-11021"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "6.0.0",
+    "@types/node": "26.6.5",
+    "esbuild": "0.28.2",
+    "firebase": "13.1.0",
+    "firebase-admin": "14.5.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  },
+  "overrides": {
+    "katex": "0.19.1",
+    "@firebase/firestore": {
+      "@grpc/grpc-js": "1.14.6"
+    }
+  }
+}

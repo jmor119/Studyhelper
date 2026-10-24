@@ -1,0 +1,59 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "runtime": "nodejs22",
+      "predeploy": ["npm --prefix \"$RESOURCE_DIR\" run build"],
+      "ignore": ["node_modules", "src", "**/*.test.ts", "tsconfig.json", "build.mjs", ".secret.local"]
+    }
+  ],
+  "hosting": {
+    "public": "apps/web/dist",
+    "predeploy": ["npm --prefix apps/web run build"],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      { "source": "/mcp", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/.well-known/oauth-protected-resource", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/.well-known/oauth-protected-resource/**", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/.well-known/oauth-authorization-server", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/.well-known/oauth-authorization-server/**", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/oauth/register", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/oauth/authorize", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "/oauth/token", "function": { "functionId": "mcp", "region": "australia-southeast1" } },
+      { "source": "**", "destination": "/index.html" }
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          { "key": "X-Content-Type-Options", "value": "nosniff" },
+          { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+          { "key": "X-Frame-Options", "value": "DENY" },
+          { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), payment=()" },
+          { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" }
+        ]
+      },
+      {
+        "source": "/assets/**",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      }
+    ]
+  },
+  "emulators": {
+    "singleProjectMode": true,
+    "auth": { "port": 9099 },
+    "functions": { "port": 5001 },
+    "firestore": { "port": 8080 },
+    "storage": { "port": 9199 },
+    "hosting": { "port": 5002 },
+    "ui": { "enabled": true, "port": 4000 }
+  }
+}

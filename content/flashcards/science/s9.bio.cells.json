@@ -1,0 +1,10 @@
+[
+  { "id": "s9.bio.cells.f01", "front": "What does the **nucleus** do?", "back": "Controls the cell's activities and contains the genetic information (DNA)." },
+  { "id": "s9.bio.cells.f02", "front": "What does the **cell membrane** do?", "back": "Controls what enters and leaves the cell." },
+  { "id": "s9.bio.cells.f03", "front": "What is **cytoplasm**?", "back": "The jelly-like substance inside the cell where many chemical reactions happen." },
+  { "id": "s9.bio.cells.f04", "front": "What do **mitochondria** do?", "back": "Release energy from glucose by respiration." },
+  { "id": "s9.bio.cells.f05", "front": "Three structures found in plant cells but not animal cells", "back": "Cell wall, chloroplasts, large permanent vacuole." },
+  { "id": "s9.bio.cells.f06", "front": "How do you calculate total magnification?", "back": "Eyepiece magnification × objective magnification, e.g. $10 \\times 40 = 400$." },
+  { "id": "s9.bio.cells.f07", "front": "Levels of organisation (smallest to largest)", "back": "Cell → tissue → organ → organ system → organism." },
+  { "id": "s9.bio.cells.f08", "front": "What is a **tissue**?", "back": "A group of similar cells working together to do a particular job." }
+]

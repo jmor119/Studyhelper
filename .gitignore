@@ -1,0 +1,30 @@
+# Dependencies & build output
+node_modules/
+dist/
+/functions/lib/
+apps/web/dev-dist/
+*.tsbuildinfo
+coverage/
+
+# Firebase local state
+.firebase/
+.emulator-data/
+*-debug.log*
+firebase-debug.log*
+
+# Secrets — never commit credentials or env files
+*-firebase-adminsdk-*.json
+service-account*.json
+serviceAccount*.json
+credentials*.json
+.env
+.env.*
+!.env.example
+.secret.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
