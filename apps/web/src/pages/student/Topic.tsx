@@ -57,7 +57,7 @@ export default function Topic() {
     <div>
       <PageHeader title={topic.title} subtitle={topic.summary} back={{ to: '/learn', label: `${subjectLabel(topic.subject)} topics` }} />
 
-      <div className="grid gap-5 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
         <div className="grid gap-5 lg:col-span-2">
           <Card>
             <div className="flex flex-wrap items-center justify-between gap-3">

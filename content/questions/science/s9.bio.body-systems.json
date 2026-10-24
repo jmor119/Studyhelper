@@ -1,0 +1,717 @@
+[
+  {
+    "id": "s9.bio.body-systems.q001",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "Which type of blood vessel carries blood **away** from the heart?",
+    "accepted": [
+      "arteries",
+      "artery"
+    ],
+    "hints": [
+      "The three types of blood vessel are arteries, veins and capillaries."
+    ],
+    "solution": "**Arteries** carry blood away from the heart. Veins carry blood back to the heart."
+  },
+  {
+    "id": "s9.bio.body-systems.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for the tiny air sacs in the lungs where gas exchange happens?",
+    "accepted": [
+      "alveoli",
+      "alveolus"
+    ],
+    "hints": [
+      "They are at the very ends of the smallest airways (the bronchioles)."
+    ],
+    "solution": "The **alveoli** (one is an alveolus). Oxygen diffuses from the air in the alveoli into the blood, and carbon dioxide diffuses the other way."
+  },
+  {
+    "id": "s9.bio.body-systems.q003",
+    "type": "order",
+    "difficulty": 1,
+    "prompt": "Put these parts of the digestive system in the order that food passes through them.",
+    "items": [
+      {
+        "id": "mouth",
+        "text": "Mouth"
+      },
+      {
+        "id": "oes",
+        "text": "Oesophagus"
+      },
+      {
+        "id": "stom",
+        "text": "Stomach"
+      },
+      {
+        "id": "si",
+        "text": "Small intestine"
+      },
+      {
+        "id": "li",
+        "text": "Large intestine"
+      },
+      {
+        "id": "rect",
+        "text": "Rectum"
+      },
+      {
+        "id": "anus",
+        "text": "Anus"
+      }
+    ],
+    "hints": [
+      "The oesophagus is the tube from your mouth to your stomach.",
+      "The small intestine comes before the large intestine."
+    ],
+    "solution": "Mouth → oesophagus → stomach → small intestine → large intestine → rectum → anus."
+  },
+  {
+    "id": "s9.bio.body-systems.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which part of the blood carries most of the oxygen around the body?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Red blood cells"
+      },
+      {
+        "id": "b",
+        "text": "White blood cells"
+      },
+      {
+        "id": "c",
+        "text": "Platelets"
+      },
+      {
+        "id": "d",
+        "text": "Plasma"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "White blood cells help fight infection.",
+      "c": "Platelets help blood to clot.",
+      "d": "Plasma carries dissolved substances such as glucose and carbon dioxide, but very little oxygen."
+    },
+    "hints": [
+      "Oxygen is carried by a red substance called haemoglobin."
+    ],
+    "solution": "**Red blood cells** contain haemoglobin, which picks up oxygen in the lungs and releases it in the body's tissues."
+  },
+  {
+    "id": "s9.bio.body-systems.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each part of the blood to its job.",
+    "pairs": [
+      {
+        "left": {
+          "id": "rbc",
+          "text": "Red blood cells"
+        },
+        "right": {
+          "id": "oxy",
+          "text": "Carry oxygen"
+        }
+      },
+      {
+        "left": {
+          "id": "wbc",
+          "text": "White blood cells"
+        },
+        "right": {
+          "id": "inf",
+          "text": "Fight infection"
+        }
+      },
+      {
+        "left": {
+          "id": "plat",
+          "text": "Platelets"
+        },
+        "right": {
+          "id": "clot",
+          "text": "Help blood to clot"
+        }
+      },
+      {
+        "left": {
+          "id": "plas",
+          "text": "Plasma"
+        },
+        "right": {
+          "id": "diss",
+          "text": "Carries dissolved food, carbon dioxide and wastes"
+        }
+      }
+    ],
+    "hints": [
+      "Plasma is the yellowish liquid part of the blood."
+    ],
+    "solution": "Red blood cells → carry oxygen. White blood cells → fight infection. Platelets → clotting. Plasma → carries dissolved substances such as glucose, carbon dioxide and urea."
+  },
+  {
+    "id": "s9.bio.body-systems.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "The enzyme [[a]] breaks down starch into sugars. Protease enzymes break down proteins into [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "amylase"
+        ],
+        "options": [
+          "amylase",
+          "lipase",
+          "protease"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "amino acids"
+        ],
+        "options": [
+          "amino acids",
+          "fatty acids",
+          "glucose"
+        ]
+      }
+    ],
+    "hints": [
+      "Lipase works on fats.",
+      "Proteins are long chains of smaller building blocks."
+    ],
+    "solution": "**Amylase** breaks starch into sugars. Protease breaks proteins into **amino acids**. Lipase breaks fats into fatty acids and glycerol."
+  },
+  {
+    "id": "s9.bio.body-systems.q007",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name of the sheet of muscle under the lungs that helps you breathe?",
+    "accepted": [
+      "diaphragm"
+    ],
+    "hints": [
+      "It separates the chest from the abdomen."
+    ],
+    "solution": "The **diaphragm**. When it contracts, it flattens, which makes the chest bigger and draws air into the lungs."
+  },
+  {
+    "id": "s9.bio.body-systems.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "In which organ are most digested food molecules absorbed into the blood?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Small intestine"
+      },
+      {
+        "id": "b",
+        "text": "Stomach"
+      },
+      {
+        "id": "c",
+        "text": "Large intestine"
+      },
+      {
+        "id": "d",
+        "text": "Oesophagus"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The stomach churns food and starts digesting protein, but very little food is absorbed there.",
+      "c": "The large intestine mainly absorbs water.",
+      "d": "The oesophagus just moves food down to the stomach."
+    },
+    "hints": [
+      "This organ is lined with millions of tiny finger-like villi."
+    ],
+    "solution": "Digested food is absorbed in the **small intestine**. Its lining has millions of villi, which give it a huge surface area, thin walls and a rich blood supply."
+  },
+  {
+    "id": "s9.bio.body-systems.q009",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the features of alveoli that make gas exchange fast and efficient.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Very thin walls (one cell thick)"
+      },
+      {
+        "id": "b",
+        "text": "A very large total surface area"
+      },
+      {
+        "id": "c",
+        "text": "A moist lining"
+      },
+      {
+        "id": "d",
+        "text": "A rich supply of blood capillaries"
+      },
+      {
+        "id": "e",
+        "text": "Thick, muscular walls"
+      },
+      {
+        "id": "f",
+        "text": "Rings of cartilage to keep them open"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Gases move in and out of the alveoli by diffusion. What makes diffusion faster?",
+      "Cartilage rings are found in the trachea, not the alveoli."
+    ],
+    "solution": "Alveoli have **thin walls** (short distance), a **huge surface area**, a **moist lining** (gases dissolve before diffusing) and a **rich blood supply** (keeps the concentration difference high). Thick walls would slow diffusion down. Cartilage rings hold open the trachea, not the alveoli."
+  },
+  {
+    "id": "s9.bio.body-systems.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why does the left ventricle of the heart have a thicker, more muscular wall than the right ventricle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It pumps blood all the way around the body, which needs more pressure"
+      },
+      {
+        "id": "b",
+        "text": "It pumps blood only to the lungs, which are close to the heart"
+      },
+      {
+        "id": "c",
+        "text": "It holds a lot more blood than the right ventricle does"
+      },
+      {
+        "id": "d",
+        "text": "It receives blood straight from the body through the veins"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The right ventricle pumps blood to the lungs. That trip is short, so it needs less force.",
+      "c": "Both ventricles pump about the same volume of blood with each beat. The left one pumps it harder.",
+      "d": "Blood from the body returns to the right atrium, not the left ventricle."
+    },
+    "hints": [
+      "Where does each ventricle send its blood?",
+      "Which journey is longer?"
+    ],
+    "solution": "The left ventricle pumps oxygen-rich blood to the **whole body**, so it needs to create a much higher pressure. The right ventricle only pumps blood to the nearby lungs."
+  },
+  {
+    "id": "s9.bio.body-systems.q011",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Capillary walls are only [[a]] cell thick, so substances such as oxygen and glucose can [[b]] quickly between the blood and the body's cells.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "one"
+        ],
+        "options": [
+          "one",
+          "two",
+          "ten"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "diffuse"
+        ],
+        "options": [
+          "diffuse",
+          "pump",
+          "digest"
+        ]
+      }
+    ],
+    "hints": [
+      "The thinner the wall, the shorter the distance substances have to travel."
+    ],
+    "solution": "Capillary walls are only **one** cell thick, so oxygen and glucose can **diffuse** quickly out of the blood into the cells. Carbon dioxide diffuses the other way."
+  },
+  {
+    "id": "s9.bio.body-systems.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "When you breathe in, the diaphragm [[a]] and flattens, and the ribs move up and out. The volume inside the chest [[b]], so air flows into the lungs.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "contracts"
+        ],
+        "options": [
+          "contracts",
+          "relaxes"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "increases"
+        ],
+        "options": [
+          "increases",
+          "decreases"
+        ]
+      }
+    ],
+    "hints": [
+      "Muscles do work by contracting.",
+      "Air flows in when there is more space inside the chest, because the pressure inside drops."
+    ],
+    "solution": "Breathing in: the diaphragm **contracts** and flattens, and the rib muscles pull the ribs up and out. The chest volume **increases**, the pressure inside drops, and air flows in."
+  },
+  {
+    "id": "s9.bio.body-systems.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "How is the air you breathe out different from the air you breathe in?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has less oxygen and more carbon dioxide"
+      },
+      {
+        "id": "b",
+        "text": "It has no oxygen left in it at all"
+      },
+      {
+        "id": "c",
+        "text": "It has more oxygen and less carbon dioxide"
+      },
+      {
+        "id": "d",
+        "text": "Its gases are exactly the same; it is just warmer"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Breathed-out air still has about 16% oxygen. That's why rescue breathing can help someone.",
+      "c": "This is the wrong way round. Your body takes oxygen in and gives carbon dioxide out.",
+      "d": "Breathed-out air is warmer, but the amounts of oxygen and carbon dioxide change too."
+    },
+    "hints": [
+      "Your cells use one gas for respiration and make the other as waste."
+    ],
+    "solution": "| Gas | Breathed in | Breathed out |\n|---|---|---|\n| Oxygen | about 21% | about 16% |\n| Carbon dioxide | about 0.04% | about 4% |\n\nBreathed-out air has **less oxygen** and **more carbon dioxide**. It is also warmer and contains more water vapour."
+  },
+  {
+    "id": "s9.bio.body-systems.q014",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "Chewing breaks food into smaller pieces without changing the chemicals in it. What type of digestion is this?",
+    "accepted": [
+      "mechanical",
+      "mechanical digestion",
+      "physical",
+      "physical digestion"
+    ],
+    "hints": [
+      "The other type, chemical digestion, uses enzymes."
+    ],
+    "solution": "This is **mechanical** (physical) digestion. Smaller pieces have a bigger surface area, so enzymes can then digest the food faster (chemical digestion)."
+  },
+  {
+    "id": "s9.bio.body-systems.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Sione counts 21 heartbeats in 15 seconds. What is his heart rate in beats per minute?",
+    "answer": 84,
+    "hints": [
+      "How many lots of 15 seconds are in one minute?"
+    ],
+    "solution": "There are 4 lots of 15 seconds in a minute, so $21 \\times 4 = 84$ beats per minute."
+  },
+  {
+    "id": "s9.bio.body-systems.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Veins contain valves. What do the valves do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stop blood from flowing backwards"
+      },
+      {
+        "id": "b",
+        "text": "Pump blood back to the heart"
+      },
+      {
+        "id": "c",
+        "text": "Add oxygen to the blood"
+      },
+      {
+        "id": "d",
+        "text": "Raise the blood pressure in the veins"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The heart is the pump. Valves are flaps that only let blood go one way.",
+      "c": "Blood picks up oxygen in the lungs.",
+      "d": "Blood pressure in veins is low. That's exactly why the valves are needed."
+    },
+    "hints": [
+      "Blood in veins is at low pressure, and much of it has to travel upwards to the heart."
+    ],
+    "solution": "Blood in veins is at **low pressure**, so it could flow backwards. Valves are flaps that only open one way, which keeps the blood moving towards the heart."
+  },
+  {
+    "id": "s9.bio.body-systems.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "A muscle cell needs glucose and oxygen for respiration. Explain how the digestive, respiratory and circulatory systems work together to supply it.",
+    "modelAnswer": "Respiration in the muscle cell needs glucose and oxygen: glucose + oxygen → carbon dioxide + water (+ energy). The digestive system breaks down food, such as starch, into small glucose molecules, which are absorbed into the blood through the wall of the small intestine. The respiratory system brings air into the alveoli, where oxygen diffuses into the blood in the capillaries, and carbon dioxide diffuses out to be breathed out. The circulatory system carries the glucose and oxygen in the blood, pumped by the heart, to the muscle. In the capillaries, they diffuse into the muscle cell, and the carbon dioxide it makes is carried away.",
+    "rubric": [
+      {
+        "criterion": "States that respiration needs glucose and oxygen (or gives the word equation)",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the digestive system breaking food into glucose that is absorbed into the blood in the small intestine",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the respiratory system: oxygen diffuses from the alveoli into the blood (and carbon dioxide is removed)",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the circulatory system: the heart pumps blood carrying glucose and oxygen to the muscle, where they pass into the cell through the capillaries",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Start with the word equation for respiration.",
+      "For each system, say what it supplies and how that substance gets into the blood."
+    ],
+    "solution": "Digestive system → glucose into the blood. Respiratory system → oxygen into the blood (and carbon dioxide out). Circulatory system → heart and blood vessels deliver both to the muscle cell, through the capillaries."
+  },
+  {
+    "id": "s9.bio.body-systems.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "During a netball game, Losa's heart rate and breathing rate both increase. Explain why.",
+    "modelAnswer": "Losa's muscles are working harder, so they need to release more energy by respiration. Respiration needs glucose and oxygen, so these must be delivered to the muscles faster. The muscles also make more carbon dioxide, which must be removed. A faster heart rate pumps blood around the body more quickly, delivering more oxygen and glucose to the muscles and carrying carbon dioxide away. Faster, deeper breathing brings more oxygen into the lungs and gets rid of more carbon dioxide.",
+    "rubric": [
+      {
+        "criterion": "States that the muscles respire more to release more energy",
+        "marks": 1
+      },
+      {
+        "criterion": "States that more oxygen (and glucose) must be delivered and more carbon dioxide removed",
+        "marks": 1
+      },
+      {
+        "criterion": "Links the faster heart rate to faster blood flow, and the faster breathing to more gas exchange in the lungs",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What do working muscles need more of?",
+      "What does the heart do, and what do the lungs do, to help?"
+    ],
+    "solution": "More exercise → more respiration in muscles → more oxygen and glucose needed, more carbon dioxide made. The heart beats faster to deliver blood faster, and breathing speeds up to take in oxygen and remove carbon dioxide."
+  },
+  {
+    "id": "s9.bio.body-systems.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The pulmonary artery carries blood from the heart to the lungs. What is unusual about this artery?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It carries blood that is low in oxygen"
+      },
+      {
+        "id": "b",
+        "text": "It carries blood towards the heart"
+      },
+      {
+        "id": "c",
+        "text": "It has valves all along its length, like a vein"
+      },
+      {
+        "id": "d",
+        "text": "Its walls are only one cell thick"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "All arteries, including this one, carry blood away from the heart.",
+      "c": "Valves all along a vessel are a feature of veins. Arteries don't need them, because their blood is at high pressure.",
+      "d": "Walls one cell thick are a feature of capillaries."
+    },
+    "hints": [
+      "Why is blood going to the lungs?"
+    ],
+    "solution": "Most arteries carry oxygen-rich blood to the body. The pulmonary artery carries **oxygen-poor blood** from the right ventricle to the lungs, to pick up oxygen. It is still an artery, because it carries blood **away** from the heart."
+  },
+  {
+    "id": "s9.bio.body-systems.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Hana tests how fast a human digestive enzyme works at 20 °C, 37 °C and 60 °C. What result is most likely?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fastest at 37 °C, and very slow or stopped at 60 °C"
+      },
+      {
+        "id": "b",
+        "text": "Fastest at 60 °C, because heat always speeds up reactions"
+      },
+      {
+        "id": "c",
+        "text": "The same at all three, because enzymes are not used up"
+      },
+      {
+        "id": "d",
+        "text": "Fastest at 20 °C, because enzymes work best when cool"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Heat only speeds up enzyme reactions up to a point. At high temperatures the enzyme's shape is damaged (it is denatured) and it stops working.",
+      "c": "Enzymes aren't used up, but how fast they work still depends on temperature.",
+      "d": "Cooler temperatures slow enzymes down. Human enzymes work best at body temperature."
+    },
+    "hints": [
+      "What is the normal temperature inside the human body?"
+    ],
+    "solution": "Human enzymes work best at about **37 °C**, body temperature. At 20 °C they work more slowly. At 60 °C the enzyme's shape is damaged (**denatured**), so it stops working."
+  },
+  {
+    "id": "s9.bio.body-systems.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "In the lung disease emphysema, which is often caused by smoking, the walls between alveoli break down. The lungs end up with fewer, larger air sacs. Why does this make a person breathless?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The total surface area for gas exchange is smaller, so less oxygen diffuses into the blood"
+      },
+      {
+        "id": "b",
+        "text": "The larger air sacs hold more air, so too much oxygen enters the blood"
+      },
+      {
+        "id": "c",
+        "text": "The heart has to pump air into the lungs instead of pumping blood"
+      },
+      {
+        "id": "d",
+        "text": "The diaphragm stops working once the alveoli have broken down"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The problem is surface area, not the volume of air. Less surface area means less oxygen gets into the blood.",
+      "c": "The heart pumps blood, never air. Air is moved by breathing.",
+      "d": "The diaphragm still works. The problem is in the alveoli, where gas exchange happens."
+    },
+    "hints": [
+      "Think about why it is useful to have millions of tiny alveoli rather than a few big ones.",
+      "What happens to the rate of diffusion if the surface area gets smaller?"
+    ],
+    "solution": "Millions of tiny alveoli give a huge surface area. Fewer, larger sacs have a much **smaller total surface area**, so less oxygen can diffuse into the blood with each breath. The person's cells don't get enough oxygen, so they feel breathless."
+  },
+  {
+    "id": "s9.bio.body-systems.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Sofia fills a bag of Visking tubing with starch solution and the enzyme amylase. She puts the bag into a beaker of warm water. After 30 minutes, she tests the water outside the bag: it contains sugar, but no starch. What does this show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Amylase broke the starch into sugar, which is small enough to pass through the tubing, like the wall of the small intestine"
+      },
+      {
+        "id": "b",
+        "text": "Starch passed through the tubing first, and then it turned into sugar in the water outside"
+      },
+      {
+        "id": "c",
+        "text": "The warm water broke down the starch by itself, so the enzyme wasn't needed at all"
+      },
+      {
+        "id": "d",
+        "text": "The sugar was already in the water at the start, because sugar can't pass through the tubing"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "There was no starch in the water, so the starch didn't pass through the tubing.",
+      "c": "Starch breaks down extremely slowly in water alone. The amylase did the work. (A control bag with no amylase would show this.)",
+      "d": "The sugar came from digesting the starch, and it is small enough to pass through the tubing."
+    },
+    "hints": [
+      "Starch molecules are very large. Sugar molecules are small.",
+      "What does amylase do to starch?"
+    ],
+    "solution": "Starch molecules are too big to pass through the tiny holes in the tubing. **Amylase** digested the starch into small sugar molecules, which passed through into the water. This is a model of the gut: food must be digested into small, soluble molecules before it can be absorbed through the wall of the small intestine into the blood."
+  },
+  {
+    "id": "s9.bio.body-systems.q023",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these in order to show the path of an oxygen molecule from the air to a muscle cell in your leg.",
+    "items": [
+      {
+        "id": "nose",
+        "text": "Nose or mouth"
+      },
+      {
+        "id": "trach",
+        "text": "Trachea (windpipe)"
+      },
+      {
+        "id": "bron",
+        "text": "Bronchus"
+      },
+      {
+        "id": "bronch",
+        "text": "Bronchiole"
+      },
+      {
+        "id": "alv",
+        "text": "Alveolus"
+      },
+      {
+        "id": "rbc",
+        "text": "Red blood cell in a lung capillary"
+      },
+      {
+        "id": "musc",
+        "text": "Muscle cell"
+      }
+    ],
+    "hints": [
+      "The airways branch into smaller and smaller tubes.",
+      "Oxygen enters the blood in the lungs."
+    ],
+    "solution": "Nose or mouth → trachea → bronchus → bronchiole → alveolus → (diffuses into) red blood cell in a lung capillary → (carried by the circulatory system to) muscle cell."
+  }
+]

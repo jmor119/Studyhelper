@@ -1,0 +1,363 @@
+[
+  {
+    "id": "s9.phy.pressure-floating.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which formula is used to calculate density?",
+    "options": [
+      { "id": "a", "text": "density = mass ÷ volume" },
+      { "id": "b", "text": "density = volume ÷ mass" },
+      { "id": "c", "text": "density = mass × volume" },
+      { "id": "d", "text": "density = mass − volume" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's upside down. Density is the mass in each unit of volume.",
+      "c": "Multiplying makes the number bigger for bigger objects, but density doesn't depend on size.",
+      "d": "You can't subtract a volume from a mass."
+    },
+    "hints": ["Density's units are g/cm³: grams per cubic centimetre."],
+    "solution": "**Density = mass ÷ volume** ($\\rho = \\frac{m}{V}$). The units g/cm³ show this: grams divided by cm³."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the upward force that a liquid or gas pushes on an object in it?",
+    "accepted": ["upthrust", "buoyancy", "buoyant force", "buoyancy force", "up thrust"],
+    "hints": ["It pushes *up*, and it's what keeps boats afloat."],
+    "solution": "**Upthrust** (also called **buoyancy**). When an object floats, upthrust equals its weight."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "A rock has a mass of 60 g and a volume of 20 cm³. What is its density?",
+    "answer": 3,
+    "units": "g/cm³",
+    "hints": ["Density = mass ÷ volume."],
+    "solution": "$\\rho = \\dfrac{m}{V} = \\dfrac{60}{20} = 3$ g/cm³"
+  },
+  {
+    "id": "s9.phy.pressure-floating.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "A solid object will float in water if its density is...",
+    "options": [
+      { "id": "a", "text": "less than the density of water (1 g/cm³)" },
+      { "id": "b", "text": "more than the density of water (1 g/cm³)" },
+      { "id": "c", "text": "more than 10 g/cm³" },
+      { "id": "d", "text": "anything, as long as the object is small" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Objects denser than water sink.",
+      "c": "Something that dense, like lead or gold, sinks quickly.",
+      "d": "Size doesn't decide floating. A tiny steel ball bearing still sinks."
+    },
+    "hints": ["Compare the object's density with the liquid's density."],
+    "solution": "An object floats if it is **less dense than the liquid**. Water's density is 1 g/cm³."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "The pressure in a liquid [[a]] as you go deeper. Air pressure [[b]] as you go higher up a mountain.",
+    "blanks": [
+      { "id": "a", "accepted": ["increases"], "options": ["increases", "decreases", "stays the same"] },
+      { "id": "b", "accepted": ["decreases"], "options": ["increases", "decreases", "stays the same"] }
+    ],
+    "hints": ["Think about how much water or air is above you."],
+    "solution": "Liquid pressure **increases** with depth (more water above). Air pressure **decreases** with altitude (less air above)."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q006",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "den", "text": "Density" }, "right": { "id": "mv", "text": "Mass per unit of volume" } },
+      { "left": { "id": "up", "text": "Upthrust" }, "right": { "id": "push", "text": "The upward push of a fluid on an object" } },
+      { "left": { "id": "fl", "text": "Fluid" }, "right": { "id": "flow", "text": "A substance that can flow: a liquid or a gas" } },
+      { "left": { "id": "pr", "text": "Pressure" }, "right": { "id": "area", "text": "How much force acts on each unit of area" } }
+    ],
+    "hints": ["Upthrust is also called buoyancy."],
+    "solution": "Density → mass per unit volume. Upthrust → upward push of a fluid. Fluid → liquid or gas. Pressure → force on each unit of area."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q007",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Use the densities to decide which of these will **float** in water (density 1.00 g/cm³). Select all that apply.",
+    "options": [
+      { "id": "a", "text": "Cork, 0.24 g/cm³" },
+      { "id": "b", "text": "Ice, 0.92 g/cm³" },
+      { "id": "c", "text": "Aluminium, 2.7 g/cm³" },
+      { "id": "d", "text": "Pine wood, 0.5 g/cm³" },
+      { "id": "e", "text": "Glass, 2.5 g/cm³" },
+      { "id": "f", "text": "Steel, 7.9 g/cm³" }
+    ],
+    "correct": ["a", "b", "d"],
+    "hints": ["Anything with a density less than 1.00 g/cm³ floats in water."],
+    "solution": "**Cork (0.24), ice (0.92) and pine (0.5)** are less dense than water, so they float. Aluminium, glass and steel are denser than water, so solid pieces of them sink."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q008",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What word describes any substance that can flow, such as a liquid or a gas?",
+    "accepted": ["fluid", "fluids", "a fluid"],
+    "hints": ["It starts with \"f\"."],
+    "solution": "A **fluid**. Both liquids (like water) and gases (like air) are fluids, and both can give upthrust and pressure."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "Aluminium has a density of 2.7 g/cm³. What is the mass of a 10 cm³ piece of aluminium?",
+    "answer": 27,
+    "units": "g",
+    "hints": ["Rearrange density = mass ÷ volume to make mass the subject."],
+    "solution": "$m = \\rho \\times V = 2.7 \\times 10 = 27$ g"
+  },
+  {
+    "id": "s9.phy.pressure-floating.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A tall bottle of water has three holes at different heights. From which hole does the water squirt out the furthest?",
+    "options": [
+      { "id": "a", "text": "The bottom hole" },
+      { "id": "b", "text": "The middle hole" },
+      { "id": "c", "text": "The top hole" },
+      { "id": "d", "text": "They all squirt the same distance" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "There's more water above the bottom hole than the middle one.",
+      "c": "The top hole has the least water above it, so the lowest pressure.",
+      "d": "The pressure is different at each depth, so the jets are different."
+    },
+    "hints": ["Where is the water pressure greatest?"],
+    "solution": "Pressure increases with depth, so the water pressure is greatest at the **bottom hole**. It pushes the water out fastest, so that jet goes furthest."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do your ears often pop when you drive up a steep road into the mountains?",
+    "options": [
+      { "id": "a", "text": "The air pressure outside drops, so the air pressure inside your ear has to adjust" },
+      { "id": "b", "text": "The air pressure outside rises as you go higher" },
+      { "id": "c", "text": "The car's engine makes the air vibrate" },
+      { "id": "d", "text": "It gets colder, which shrinks your ears" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It's the other way round: air pressure falls as you go higher.",
+      "c": "Engine noise doesn't change the pressure in your ears.",
+      "d": "Temperature isn't the cause. The pressure difference is."
+    },
+    "hints": ["What happens to air pressure as altitude increases?"],
+    "solution": "Air pressure **decreases with altitude**. For a while the air trapped inside your ear is at a higher pressure than the air outside. Your ears \"pop\" when the pressures even out."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A rectangular block measures 6 cm × 5 cm × 2 cm and has a mass of 42 g. What is its density?",
+    "answer": 0.7,
+    "units": "g/cm³",
+    "hints": ["First find the volume: length × width × height.", "Then density = mass ÷ volume."],
+    "solution": "Volume $= 6 \\times 5 \\times 2 = 60$ cm³. Density $= \\dfrac{42}{60} = 0.7$ g/cm³. It is less dense than water, so it would float."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A boat is floating still on a lake. How does the upthrust on the boat compare with its weight?",
+    "options": [
+      { "id": "a", "text": "The upthrust is equal to the weight" },
+      { "id": "b", "text": "The upthrust is bigger than the weight" },
+      { "id": "c", "text": "The upthrust is smaller than the weight" },
+      { "id": "d", "text": "There is no upthrust on a floating boat" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "If upthrust were bigger, the boat would rise up out of the water.",
+      "c": "If upthrust were smaller, the boat would sink.",
+      "d": "Upthrust is exactly what holds the boat up."
+    },
+    "hints": ["The boat isn't moving up or down. What does that tell you about the forces?"],
+    "solution": "The boat is not moving up or down, so the vertical forces are **balanced**: **upthrust = weight**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A stone with a mass of 39 g is lowered into a measuring cylinder. The water level rises from 40 mL to 55 mL. What is the density of the stone? (1 mL = 1 cm³)",
+    "answer": 2.6,
+    "units": "g/cm³",
+    "hints": ["The rise in water level is the stone's volume.", "Then use density = mass ÷ volume."],
+    "solution": "Volume $= 55 - 40 = 15$ mL $= 15$ cm³. Density $= \\dfrac{39}{15} = 2.6$ g/cm³."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Hydro dams, like the Clyde Dam on the Clutha River, are much thicker at the bottom than at the top. Why?",
+    "options": [
+      { "id": "a", "text": "The water pressure is greatest at the bottom of the lake" },
+      { "id": "b", "text": "The water is warmer at the bottom" },
+      { "id": "c", "text": "It's easier to build that way, but it doesn't affect strength" },
+      { "id": "d", "text": "Air pressure pushes hardest at the top of the dam" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Temperature isn't the reason.",
+      "c": "The shape matters a lot: the bottom must withstand the biggest push.",
+      "d": "Air pressure is about the same over the whole dam and is small compared with the water pressure."
+    },
+    "hints": ["How does water pressure change with depth?"],
+    "solution": "Water pressure **increases with depth**, so the deepest part of the dam is pushed hardest. It has to be thickest at the bottom to withstand that pressure."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Steel is about 8 times as dense as water, yet a large steel ship floats. Explain why.",
+    "modelAnswer": "A solid lump of steel would sink because it is denser than water. But a ship's hull is hollow and full of air, so the average density of the whole ship (steel plus the air inside) is less than the density of water. The hull's shape pushes aside (displaces) a very large volume of water, which creates a large upthrust. The ship settles until the upthrust equals its weight, so it floats.",
+    "rubric": [
+      { "criterion": "The hull contains a lot of air, so the ship's average density is less than water's", "marks": 1 },
+      { "criterion": "The ship displaces (pushes aside) a large volume of water", "marks": 1 },
+      { "criterion": "This gives a large upthrust that balances (equals) the ship's weight", "marks": 1 }
+    ],
+    "hints": ["Is a ship solid steel all the way through?", "What force holds the ship up, and what does it need to equal?"],
+    "solution": "The hollow hull full of air gives the ship a low **average density**, and it displaces lots of water, giving an **upthrust equal to its weight**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A cargo ship sails from the sea into a freshwater harbour. What happens to how low it sits in the water?",
+    "options": [
+      { "id": "a", "text": "It sits lower, because fresh water is less dense than sea water" },
+      { "id": "b", "text": "It sits higher, because fresh water is less dense than sea water" },
+      { "id": "c", "text": "It sits at exactly the same level" },
+      { "id": "d", "text": "It sinks, because ships can only float in salt water" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Less dense water gives less upthrust for each cubic metre pushed aside, so the ship must sink a bit deeper.",
+      "c": "The upthrust from each cubic metre of water changes, so the level changes.",
+      "d": "Ships float in fresh water too. They just sit a little lower."
+    },
+    "hints": ["The ship's weight doesn't change, so the upthrust must stay the same.", "Which water gives more upthrust per cubic metre displaced?"],
+    "solution": "Fresh water is **less dense** than sea water, so each cubic metre it displaces gives less upthrust. To get the same total upthrust (equal to its weight), the ship must displace more water, so it **sits lower**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A sealed packet of chips bought in Taupō puffs up when it is taken to the top of a ski field on Mt Ruapehu. Why?",
+    "options": [
+      { "id": "a", "text": "The air pressure outside is lower than the pressure of the air sealed inside" },
+      { "id": "b", "text": "The air pressure outside is higher than the pressure inside" },
+      { "id": "c", "text": "The cold makes the air inside expand" },
+      { "id": "d", "text": "The chips release gas at high altitude" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Higher outside pressure would squash the packet, not puff it up.",
+      "c": "Cold air contracts rather than expands. The pressure difference is the cause.",
+      "d": "The chips don't produce gas. The air sealed in the packet stays the same."
+    },
+    "hints": ["How does air pressure change as you go up a mountain?"],
+    "solution": "Air pressure **decreases with altitude**. At the ski field the outside air pushes on the packet less than the air sealed inside pushes outwards, so the packet **puffs up**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A concrete block measures 2 m × 0.5 m × 0.5 m and has a mass of 1,200 kg. What is its density in kg/m³?",
+    "answer": 2400,
+    "units": "kg/m³",
+    "hints": ["Find the volume in m³ first.", "Then density = mass ÷ volume."],
+    "solution": "Volume $= 2 \\times 0.5 \\times 0.5 = 0.5$ m³. Density $= \\dfrac{1200}{0.5} = 2400$ kg/m³ (which is 2.4 g/cm³)."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain why the pressure **increases** as a diver goes deeper underwater, but **decreases** as a climber goes higher up a mountain.",
+    "modelAnswer": "Pressure in a fluid is caused by the weight of the fluid above pushing down. As the diver goes deeper, there is more water above them, so the pressure increases. As the climber goes higher, there is less air above them, so the air pressure decreases. Both changes have the same cause: the amount (weight) of fluid above.",
+    "rubric": [
+      { "criterion": "Pressure in a fluid is caused by the weight of the fluid above", "marks": 1 },
+      { "criterion": "Deeper underwater there is more water above, so more pressure", "marks": 1 },
+      { "criterion": "Higher up a mountain there is less air above, so less pressure", "marks": 1 }
+    ],
+    "hints": ["Both water and air are fluids that have weight.", "How much fluid is above the diver and the climber?"],
+    "solution": "In both cases the pressure depends on the **weight of fluid above**: more water above the diver means more pressure; less air above the climber means less pressure."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A tall jar holds three liquids that don't mix: cooking oil (0.92 g/cm³), water (1.00 g/cm³) and golden syrup (about 1.4 g/cm³). A plastic bead with a density of 1.2 g/cm³ is dropped in. Where does it end up?",
+    "options": [
+      { "id": "a", "text": "Floating on top of the golden syrup, under the water" },
+      { "id": "b", "text": "Floating on top of the oil" },
+      { "id": "c", "text": "Between the oil and the water" },
+      { "id": "d", "text": "On the bottom of the jar, under the syrup" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The bead is denser than oil, so it sinks through the oil.",
+      "c": "The bead is denser than water too, so it sinks through the water.",
+      "d": "The bead is less dense than golden syrup, so it floats on it."
+    },
+    "hints": ["First work out the order of the layers: the densest liquid is at the bottom.", "The bead sinks through any liquid it is denser than."],
+    "solution": "The layers are oil (top), water, then syrup (bottom). The bead (1.2) is denser than oil and water, so it sinks through them. It is less dense than syrup (1.4), so it **floats on top of the syrup layer**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "prompt": "A toy boat with a mass of 1.2 kg floats in a bath. The upthrust on a floating object equals the weight of the water it pushes aside (displaces). What volume of water does the boat displace, in litres? (1 litre of water has a mass of 1 kg.)",
+    "answer": 1.2,
+    "units": "L",
+    "hints": ["When the boat floats, upthrust = its weight.", "So the displaced water must have the same weight, and therefore the same mass, as the boat."],
+    "solution": "Floating means upthrust = weight of the boat. The upthrust equals the weight of the displaced water, so the displaced water has the **same mass as the boat**: 1.2 kg. At 1 kg per litre, that is **1.2 L** of water."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Tevita drinks a bottle of water at the top of a mountain, puts the lid on tightly, and drives back down to sea level. At the bottom, the empty plastic bottle has been squashed. Explain why.",
+    "modelAnswer": "At the top of the mountain the air pressure is low, so the bottle was sealed with low-pressure air inside. As Tevita drove down, the air pressure outside increased, because there is more air above at lower altitude. At sea level the air outside the bottle is at a higher pressure than the air inside, so the air pushes harder on the outside of the bottle than the inside pushes out. This bigger force from outside squashes the bottle.",
+    "rubric": [
+      { "criterion": "The bottle was sealed with low-pressure air inside (air pressure is low at altitude)", "marks": 1 },
+      { "criterion": "Air pressure outside increases on the way down / at lower altitude", "marks": 1 },
+      { "criterion": "The higher pressure outside pushes harder than the air inside, so the bottle is squashed", "marks": 1 }
+    ],
+    "hints": ["What was the air pressure inside the bottle when the lid went on?", "Which is bigger at sea level: the pressure inside or outside the bottle?"],
+    "solution": "Low-pressure air was sealed in at the top. Lower down, the outside air pressure is higher than inside, so the bigger push from outside **squashes** the bottle."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q024",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these materials in order from **least dense** to **most dense**.",
+    "items": [
+      { "id": "cork", "text": "Cork" },
+      { "id": "ice", "text": "Ice" },
+      { "id": "water", "text": "Water" },
+      { "id": "al", "text": "Aluminium" },
+      { "id": "lead", "text": "Lead" }
+    ],
+    "hints": ["Cork floats high in water; ice floats with most of it under the surface.", "Lead is one of the densest common metals; aluminium is a light metal."],
+    "solution": "Cork (about 0.24 g/cm³) → ice (0.92) → water (1.00) → aluminium (2.7) → lead (11.3)."
+  }
+]

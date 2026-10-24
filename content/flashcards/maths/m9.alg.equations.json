@@ -1,0 +1,13 @@
+[
+  { "id": "m9.alg.equations.f01", "front": "What is an **equation**?", "back": "A statement that two expressions are equal, e.g. $3x + 5 = 20$." },
+  { "id": "m9.alg.equations.f02", "front": "What does **solve** mean?", "back": "Find the value of the unknown that makes the equation true." },
+  { "id": "m9.alg.equations.f03", "front": "What is a **solution**?", "back": "The value that makes an equation true, e.g. $x = 5$ for $3x + 5 = 20$." },
+  { "id": "m9.alg.equations.f04", "front": "What is an **inverse operation**?", "back": "An operation that undoes another: $+$ and $-$ undo each other, and so do $\\times$ and $\\div$." },
+  { "id": "m9.alg.equations.f05", "front": "The **balance** rule for equations", "back": "Whatever you do to one side of an equation, you must do to the other side." },
+  { "id": "m9.alg.equations.f06", "front": "In $3x + 5 = 20$, which operation do you undo first?", "back": "The $+5$ (subtract 5), then the $\\times 3$ (divide by 3). Undo in reverse order: $x = 5$." },
+  { "id": "m9.alg.equations.f07", "front": "How do you check a solution?", "back": "Substitute it into the original equation. Both sides should give the same number." },
+  { "id": "m9.alg.equations.f08", "front": "First step for unknowns on both sides, e.g. $7x - 4 = 3x + 12$", "back": "Get the $x$ terms on one side: subtract $3x$ from both sides to get $4x - 4 = 12$." },
+  { "id": "m9.alg.equations.f09", "front": "How do you solve $\\dfrac{x + 4}{3} = 5$?", "back": "Multiply both sides by 3 to clear the fraction: $x + 4 = 15$, so $x = 11$." },
+  { "id": "m9.alg.equations.f10", "front": "How do you solve $\\frac{2}{3}x = 8$?", "back": "Multiply both sides by the reciprocal, $\\frac{3}{2}$: $x = 8 \\times \\frac{3}{2} = 12$." },
+  { "id": "m9.alg.equations.f11", "front": "Steps for a word problem", "back": "Choose a letter and say what it means, write an equation, solve it, then answer in a sentence with units." }
+]

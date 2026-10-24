@@ -1,0 +1,18 @@
+[
+  { "id": "s9.phy.forces.f01", "front": "What is a **force**?", "back": "A push or a pull, measured in newtons (N) with a force meter." },
+  { "id": "s9.phy.forces.f02", "front": "Contact vs non-contact forces", "back": "Contact: friction, air resistance, support, tension, thrust. Non-contact: gravity, magnetic, electrostatic." },
+  { "id": "s9.phy.forces.f03", "front": "**Mass** vs **weight**", "back": "Mass is the amount of matter (kg) and is the same everywhere. Weight is the pull of gravity (N) and changes with g." },
+  { "id": "s9.phy.forces.f04", "front": "Formula for weight", "back": "$W = mg$. On Earth $g = 10$ N/kg, so a 50 kg person weighs 500 N." },
+  { "id": "s9.phy.forces.f05", "front": "What is the **net force**?", "back": "The overall force when all forces are combined. Add forces in the same direction; subtract opposite ones." },
+  { "id": "s9.phy.forces.f06", "front": "**Balanced** vs **unbalanced** forces", "back": "Balanced: net force zero, so the motion doesn't change. Unbalanced: the object speeds up, slows down or changes direction." },
+  { "id": "s9.phy.forces.f07", "front": "**Newton's first law**", "back": "An object stays at rest or keeps moving at a constant velocity unless an unbalanced force acts on it." },
+  { "id": "s9.phy.forces.f08", "front": "What is **inertia**?", "back": "An object's resistance to changes in its motion. More mass means more inertia." },
+  { "id": "s9.phy.forces.f09", "front": "**Newton's second law**", "back": "$F = ma$: net force (N) = mass (kg) × acceleration (m/s²)." },
+  { "id": "s9.phy.forces.f10", "front": "Rearranging $F = ma$", "back": "$a = \\dfrac{F}{m}$ and $m = \\dfrac{F}{a}$." },
+  { "id": "s9.phy.forces.f11", "front": "**Newton's third law**", "back": "If A pushes on B, then B pushes on A with an equal and opposite force. The pair acts on different objects." },
+  { "id": "s9.phy.forces.f12", "front": "What is a **free-body diagram**?", "back": "A diagram of one object with labelled arrows for every force on it. Arrow length shows size, and direction shows direction." },
+  { "id": "s9.phy.forces.f13", "front": "What does friction do, and how can you reduce it?", "back": "It opposes motion between surfaces. Reduce it with lubricants (oil), smoother surfaces, or wheels and ball bearings." },
+  { "id": "s9.phy.forces.f14", "front": "How does air resistance change with speed?", "back": "It increases as the speed increases. Streamlined shapes reduce it." },
+  { "id": "s9.phy.forces.f15", "front": "What is **terminal velocity**?", "back": "The constant speed of a falling object when air resistance equals its weight (balanced forces)." },
+  { "id": "s9.phy.forces.f16", "front": "Are a book's weight and the table's support force a third-law pair?", "back": "No. They act on the same object (the book) and are different types of force. They are balanced forces." }
+]

@@ -1,0 +1,19 @@
+[
+  { "id": "s9.bio.genetics.f01", "front": "What is **DNA**?", "back": "The chemical in the nucleus that carries genetic information. It is shaped like a twisted ladder (a double helix)." },
+  { "id": "s9.bio.genetics.f02", "front": "What is a **chromosome**?", "back": "A long, tightly coiled strand of DNA. Human body cells have 46 chromosomes (23 pairs)." },
+  { "id": "s9.bio.genetics.f03", "front": "What is a **gene**?", "back": "A section of DNA that carries the instructions for making one protein." },
+  { "id": "s9.bio.genetics.f04", "front": "How many chromosomes are in a human egg or sperm cell?", "back": "23, one from each pair." },
+  { "id": "s9.bio.genetics.f05", "front": "What is a **phenotype**?", "back": "The characteristics an organism shows, produced by its genes and its environment together." },
+  { "id": "s9.bio.genetics.f06", "front": "What is a **trait**?", "back": "A characteristic, such as height, blood group or flower colour." },
+  { "id": "s9.bio.genetics.f07", "front": "What is **continuous** variation?", "back": "Variation where the characteristic can take any value in a range, e.g. height. It is usually caused by many genes plus the environment, and it is shown on a histogram." },
+  { "id": "s9.bio.genetics.f08", "front": "What is **discontinuous** variation?", "back": "Variation that falls into distinct groups, e.g. ABO blood group. It is usually controlled by one gene, and it is shown on a bar chart." },
+  { "id": "s9.bio.genetics.f09", "front": "Four types of protein", "back": "Enzymes, hormones (e.g. insulin), antibodies and structural proteins (e.g. keratin, collagen)." },
+  { "id": "s9.bio.genetics.f10", "front": "What do **enzymes** do?", "back": "They speed up chemical reactions. For example, amylase breaks down starch." },
+  { "id": "s9.bio.genetics.f11", "front": "What do **antibodies** do?", "back": "They help the body fight germs." },
+  { "id": "s9.bio.genetics.f12", "front": "What are **structural proteins**?", "back": "Proteins that build body parts, e.g. keratin in hair and nails, collagen in skin." },
+  { "id": "s9.bio.genetics.f13", "front": "What is **inheritance**?", "back": "The passing of genetic information (genes) from parents to their offspring." },
+  { "id": "s9.bio.genetics.f14", "front": "Why do identical twins have the same genes?", "back": "They grow from one fertilised egg that splits in two." },
+  { "id": "s9.bio.genetics.f15", "front": "What is an **acquired characteristic**?", "back": "A feature gained during life, such as a scar or fitness from training. It isn't in the genes, so it isn't inherited." },
+  { "id": "s9.bio.genetics.f16", "front": "The four DNA bases", "back": "A, T, C and G. The order of the bases in a gene is the code for a protein." },
+  { "id": "s9.bio.genetics.f17", "front": "Sexual vs asexual reproduction", "back": "Sexual: two parents, and the offspring vary. Asexual: one parent, and the offspring are identical clones." }
+]

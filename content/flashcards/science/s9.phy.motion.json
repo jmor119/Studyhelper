@@ -1,0 +1,18 @@
+[
+  { "id": "s9.phy.motion.f01", "front": "Formula for **speed**", "back": "$v = \\dfrac{d}{t}$: speed = distance ÷ time." },
+  { "id": "s9.phy.motion.f02", "front": "Rearranging the speed formula", "back": "Distance $d = v \\times t$; time $t = \\dfrac{d}{v}$." },
+  { "id": "s9.phy.motion.f03", "front": "SI unit of speed", "back": "Metres per second (m/s)." },
+  { "id": "s9.phy.motion.f04", "front": "How do you change km/h into m/s?", "back": "Divide by 3.6, e.g. 72 km/h ÷ 3.6 = 20 m/s." },
+  { "id": "s9.phy.motion.f05", "front": "How do you change m/s into km/h?", "back": "Multiply by 3.6, e.g. 15 m/s × 3.6 = 54 km/h." },
+  { "id": "s9.phy.motion.f06", "front": "**Average speed** vs **instantaneous speed**", "back": "Average speed = total distance ÷ total time. Instantaneous speed is the speed at one moment (a speedometer reading)." },
+  { "id": "s9.phy.motion.f07", "front": "What is **velocity**?", "back": "Speed in a particular direction, e.g. 15 m/s north." },
+  { "id": "s9.phy.motion.f08", "front": "Formula for **acceleration**", "back": "$a = \\dfrac{\\Delta v}{t}$: change in velocity ÷ time taken." },
+  { "id": "s9.phy.motion.f09", "front": "Unit of acceleration", "back": "Metres per second per second (m/s²)." },
+  { "id": "s9.phy.motion.f10", "front": "What does an acceleration of 3 m/s² mean?", "back": "The velocity increases by 3 m/s every second." },
+  { "id": "s9.phy.motion.f11", "front": "What is **deceleration**?", "back": "Slowing down. It gives a negative acceleration, e.g. −5 m/s²." },
+  { "id": "s9.phy.motion.f12", "front": "Distance–time graph: horizontal line", "back": "The object is stopped (stationary). Its distance isn't changing." },
+  { "id": "s9.phy.motion.f13", "front": "Distance–time graph: straight sloping line", "back": "Constant speed. The steeper the line, the faster. Speed = gradient." },
+  { "id": "s9.phy.motion.f14", "front": "Speed–time graph: horizontal line", "back": "Constant speed (stopped only if the line is at zero)." },
+  { "id": "s9.phy.motion.f15", "front": "Speed–time graph: line sloping up", "back": "Speeding up (accelerating). Acceleration = gradient = change in speed ÷ time." },
+  { "id": "s9.phy.motion.f16", "front": "Can an object accelerate at a steady speed?", "back": "Yes, if its direction changes (e.g. going round a roundabout), because its velocity changes." }
+]

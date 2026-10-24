@@ -1,0 +1,383 @@
+[
+  {
+    "id": "s9.phy.electricity.q001",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the unit of electric current? (Give the name or the symbol.)",
+    "accepted": ["amps", "amp", "ampere", "amperes", "A"],
+    "hints": ["It's measured with an **am**meter."],
+    "solution": "Current is measured in **amps (A)**, using an ammeter."
+  },
+  {
+    "id": "s9.phy.electricity.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What do we call a material that lets electric current flow through it easily?",
+    "accepted": ["conductor", "a conductor", "conductors", "electrical conductor"],
+    "hints": ["Copper wire is a good example."],
+    "solution": "A **conductor**. Metals such as copper are good conductors. Materials that don't let current flow, like plastic, are **insulators**."
+  },
+  {
+    "id": "s9.phy.electricity.q003",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each item to the correct description.",
+    "pairs": [
+      { "left": { "id": "cur", "text": "Current" }, "right": { "id": "amps", "text": "Measured in amps (A)" } },
+      { "left": { "id": "volt", "text": "Voltage" }, "right": { "id": "volts", "text": "Measured in volts (V)" } },
+      { "left": { "id": "res", "text": "Resistance" }, "right": { "id": "ohms", "text": "Measured in ohms (Ω)" } },
+      { "left": { "id": "amm", "text": "Ammeter" }, "right": { "id": "mcur", "text": "Measures current" } },
+      { "left": { "id": "vm", "text": "Voltmeter" }, "right": { "id": "mvolt", "text": "Measures voltage" } }
+    ],
+    "hints": ["The names of the meters give you a clue: AMmeter → AMps, VOLTmeter → VOLTs."],
+    "solution": "Current → amps; voltage → volts; resistance → ohms; ammeter → measures current; voltmeter → measures voltage."
+  },
+  {
+    "id": "s9.phy.electricity.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Two objects both have a negative charge. What happens when they are brought close together?",
+    "options": [
+      { "id": "a", "text": "They repel (push apart)" },
+      { "id": "b", "text": "They attract (pull together)" },
+      { "id": "c", "text": "Nothing happens" },
+      { "id": "d", "text": "They both become positive" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Opposite (unlike) charges attract. These two charges are the same.",
+      "c": "Charged objects always push or pull on each other.",
+      "d": "Bringing them close together doesn't change their charge."
+    },
+    "hints": ["Like charges repel; unlike charges attract."],
+    "solution": "They have **like** (the same) charges, so they **repel**."
+  },
+  {
+    "id": "s9.phy.electricity.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the materials that are good electrical **conductors**.",
+    "options": [
+      { "id": "a", "text": "Copper" },
+      { "id": "b", "text": "Aluminium foil" },
+      { "id": "c", "text": "Graphite (pencil \"lead\")" },
+      { "id": "d", "text": "Plastic" },
+      { "id": "e", "text": "Rubber" },
+      { "id": "f", "text": "Glass" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Metals are conductors. One non-metal on the list also conducts."],
+    "solution": "**Copper, aluminium and graphite** conduct electricity. Plastic, rubber and glass are insulators."
+  },
+  {
+    "id": "s9.phy.electricity.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What type of circuit is shown in the diagram?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 250' width='360' height='250' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><line x1='40' y1='50' x2='164' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='164' y1='36' x2='164' y2='64' stroke='#1f2937' stroke-width='2'/><line x1='172' y1='43' x2='172' y2='57' stroke='#1f2937' stroke-width='5'/><line x1='188' y1='36' x2='188' y2='64' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='43' x2='196' y2='57' stroke='#1f2937' stroke-width='5'/><line x1='172' y1='50' x2='188' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='50' x2='320' y2='50' stroke='#1f2937' stroke-width='2'/><text x='180' y='24' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>6 V</text><line x1='40' y1='50' x2='40' y2='112' stroke='#1f2937' stroke-width='2'/><circle cx='40' cy='125' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='37' y='126' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='46' y='130' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>1</text><line x1='40' y1='138' x2='40' y2='200' stroke='#1f2937' stroke-width='2'/><line x1='320' y1='50' x2='320' y2='112' stroke='#1f2937' stroke-width='2'/><circle cx='320' cy='125' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='317' y='126' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='326' y='130' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>2</text><line x1='320' y1='138' x2='320' y2='200' stroke='#1f2937' stroke-width='2'/><line x1='40' y1='200' x2='117' y2='200' stroke='#1f2937' stroke-width='2'/><circle cx='130' cy='200' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='120.8' y1='190.8' x2='139.2' y2='209.2' stroke='#1f2937' stroke-width='2'/><line x1='120.8' y1='209.2' x2='139.2' y2='190.8' stroke='#1f2937' stroke-width='2'/><line x1='143' y1='200' x2='217' y2='200' stroke='#1f2937' stroke-width='2'/><circle cx='230' cy='200' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='220.8' y1='190.8' x2='239.2' y2='209.2' stroke='#1f2937' stroke-width='2'/><line x1='220.8' y1='209.2' x2='239.2' y2='190.8' stroke='#1f2937' stroke-width='2'/><line x1='243' y1='200' x2='320' y2='200' stroke='#1f2937' stroke-width='2'/><text x='130' y='228' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L1</text><text x='230' y='228' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L2</text></svg>", "alt": "Circuit: a 6 V battery on the top wire, ammeter A1 on the left side, ammeter A2 on the right side, and lamps L1 and L2 one after the other on the bottom wire. There is only one loop." },
+    "options": [
+      { "id": "a", "text": "A series circuit" },
+      { "id": "b", "text": "A parallel circuit" },
+      { "id": "c", "text": "An incomplete circuit" },
+      { "id": "d", "text": "A short circuit" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A parallel circuit has separate branches. This one has just one loop.",
+      "c": "The loop is complete. There are no gaps or open switches.",
+      "d": "A short circuit is a path that goes around the components. There isn't one here."
+    },
+    "hints": ["Count the paths a current could take around the circuit."],
+    "solution": "Everything is in **one single loop**, one after another, so it is a **series** circuit."
+  },
+  {
+    "id": "s9.phy.electricity.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "An ammeter is connected in [[a]] with a component. A voltmeter is connected in [[b]], across the component.",
+    "blanks": [
+      { "id": "a", "accepted": ["series"], "options": ["series", "parallel"] },
+      { "id": "b", "accepted": ["parallel"], "options": ["series", "parallel"] }
+    ],
+    "hints": ["An ammeter measures the current flowing **through** something; a voltmeter compares the two **sides** of it."],
+    "solution": "Ammeter: in **series** (the current must flow through it). Voltmeter: in **parallel**, across the component."
+  },
+  {
+    "id": "s9.phy.electricity.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Ella rubs a balloon on her hair. The balloon becomes **negatively** charged. Why?",
+    "options": [
+      { "id": "a", "text": "Electrons moved from her hair onto the balloon" },
+      { "id": "b", "text": "Positive charges moved from the balloon onto her hair" },
+      { "id": "c", "text": "Rubbing created new negative charges on the balloon" },
+      { "id": "d", "text": "Electrons moved from the balloon onto her hair" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Positive charges don't move when you rub materials. Only electrons do.",
+      "c": "Charge can't be created. It moves from one object to another.",
+      "d": "If the balloon lost electrons, it would become positive."
+    },
+    "hints": ["Only electrons (negative charges) can move when you rub two materials together."],
+    "solution": "Electrons (negative) moved from the hair **onto** the balloon. The balloon gained electrons, so it's negative; her hair lost electrons, so it's positive."
+  },
+  {
+    "id": "s9.phy.electricity.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Two lamps are connected in **series** with a battery. One lamp blows. What happens to the other lamp?",
+    "options": [
+      { "id": "a", "text": "It goes out, because the circuit is now broken" },
+      { "id": "b", "text": "It stays on at the same brightness" },
+      { "id": "c", "text": "It gets brighter, because it gets all the current" },
+      { "id": "d", "text": "It flickers on and off" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That happens in a parallel circuit, where each lamp has its own branch.",
+      "c": "With the loop broken, no current flows at all.",
+      "d": "Once the loop is broken, no current flows, so the lamp stays off."
+    },
+    "hints": ["A series circuit has only one path for the current."],
+    "solution": "In a series circuit there's only **one path**. A blown lamp breaks the loop, so no current flows and the other lamp **goes out**."
+  },
+  {
+    "id": "s9.phy.electricity.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "In the series circuit shown, ammeter A1 reads 0.25 A. What does ammeter A2 read?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 250' width='360' height='250' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><line x1='40' y1='50' x2='164' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='164' y1='36' x2='164' y2='64' stroke='#1f2937' stroke-width='2'/><line x1='172' y1='43' x2='172' y2='57' stroke='#1f2937' stroke-width='5'/><line x1='188' y1='36' x2='188' y2='64' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='43' x2='196' y2='57' stroke='#1f2937' stroke-width='5'/><line x1='172' y1='50' x2='188' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='50' x2='320' y2='50' stroke='#1f2937' stroke-width='2'/><text x='180' y='24' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>6 V</text><line x1='40' y1='50' x2='40' y2='112' stroke='#1f2937' stroke-width='2'/><circle cx='40' cy='125' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='37' y='126' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='46' y='130' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>1</text><line x1='40' y1='138' x2='40' y2='200' stroke='#1f2937' stroke-width='2'/><line x1='320' y1='50' x2='320' y2='112' stroke='#1f2937' stroke-width='2'/><circle cx='320' cy='125' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='317' y='126' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='326' y='130' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>2</text><line x1='320' y1='138' x2='320' y2='200' stroke='#1f2937' stroke-width='2'/><line x1='40' y1='200' x2='117' y2='200' stroke='#1f2937' stroke-width='2'/><circle cx='130' cy='200' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='120.8' y1='190.8' x2='139.2' y2='209.2' stroke='#1f2937' stroke-width='2'/><line x1='120.8' y1='209.2' x2='139.2' y2='190.8' stroke='#1f2937' stroke-width='2'/><line x1='143' y1='200' x2='217' y2='200' stroke='#1f2937' stroke-width='2'/><circle cx='230' cy='200' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='220.8' y1='190.8' x2='239.2' y2='209.2' stroke='#1f2937' stroke-width='2'/><line x1='220.8' y1='209.2' x2='239.2' y2='190.8' stroke='#1f2937' stroke-width='2'/><line x1='243' y1='200' x2='320' y2='200' stroke='#1f2937' stroke-width='2'/><text x='130' y='228' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L1</text><text x='230' y='228' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L2</text></svg>", "alt": "Series circuit: a 6 V battery on the top wire, ammeter A1 on the left side, ammeter A2 on the right side, and lamps L1 and L2 one after the other on the bottom wire. There is only one loop." },
+    "answer": 0.25,
+    "units": "A",
+    "hints": ["How many paths can the current take in a series circuit?"],
+    "solution": "In a series circuit the current is **the same everywhere**, so A2 also reads **0.25 A**. The current isn't \"used up\" by the lamps."
+  },
+  {
+    "id": "s9.phy.electricity.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "In the parallel circuit shown, ammeter A1 reads 0.9 A and ammeter A2 reads 0.35 A. What does ammeter A3 read?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 260' width='380' height='260' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><line x1='60' y1='40' x2='87' y2='40' stroke='#1f2937' stroke-width='2'/><circle cx='100' cy='40' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='97' y='41' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='106' y='45' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>1</text><line x1='113' y1='40' x2='184' y2='40' stroke='#1f2937' stroke-width='2'/><line x1='174' y1='26' x2='174' y2='54' stroke='#1f2937' stroke-width='2'/><line x1='182' y1='33' x2='182' y2='47' stroke='#1f2937' stroke-width='5'/><line x1='198' y1='26' x2='198' y2='54' stroke='#1f2937' stroke-width='2'/><line x1='206' y1='33' x2='206' y2='47' stroke='#1f2937' stroke-width='5'/><line x1='182' y1='40' x2='198' y2='40' stroke='#1f2937' stroke-width='2'/><line x1='206' y1='40' x2='320' y2='40' stroke='#1f2937' stroke-width='2'/><text x='190' y='14' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>6 V</text><line x1='60' y1='40' x2='60' y2='220' stroke='#1f2937' stroke-width='2'/><line x1='320' y1='40' x2='320' y2='220' stroke='#1f2937' stroke-width='2'/><line x1='60' y1='130' x2='107' y2='130' stroke='#1f2937' stroke-width='2'/><circle cx='120' cy='130' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='117' y='131' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='126' y='135' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>2</text><line x1='133' y1='130' x2='207' y2='130' stroke='#1f2937' stroke-width='2'/><circle cx='220' cy='130' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='120.8' x2='229.2' y2='139.2' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='139.2' x2='229.2' y2='120.8' stroke='#1f2937' stroke-width='2'/><line x1='233' y1='130' x2='320' y2='130' stroke='#1f2937' stroke-width='2'/><text x='220' y='156' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L1</text><line x1='60' y1='220' x2='107' y2='220' stroke='#1f2937' stroke-width='2'/><circle cx='120' cy='220' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='117' y='221' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='126' y='225' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>3</text><line x1='133' y1='220' x2='207' y2='220' stroke='#1f2937' stroke-width='2'/><circle cx='220' cy='220' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='210.8' x2='229.2' y2='229.2' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='229.2' x2='229.2' y2='210.8' stroke='#1f2937' stroke-width='2'/><line x1='233' y1='220' x2='320' y2='220' stroke='#1f2937' stroke-width='2'/><text x='220' y='246' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L2</text><circle cx='60' cy='130' r='4' fill='#1f2937'/><circle cx='320' cy='130' r='4' fill='#1f2937'/></svg>", "alt": "Parallel circuit: a 6 V battery and ammeter A1 on the main top wire. The circuit splits into two branches: one with ammeter A2 and lamp L1, the other with ammeter A3 and lamp L2." },
+    "answer": 0.55,
+    "units": "A",
+    "hints": ["A1 measures the total current. The current splits between the two branches.", "The branch currents add up to the total."],
+    "solution": "Branch currents add up to the total: $0.35 + A_3 = 0.9$, so $A_3 = 0.9 - 0.35 = 0.55$ A."
+  },
+  {
+    "id": "s9.phy.electricity.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A 6 V battery is connected in series with two **different** lamps. A voltmeter across the first lamp reads 2.5 V. What would a voltmeter across the second lamp read?",
+    "answer": 3.5,
+    "units": "V",
+    "hints": ["In a series circuit the battery's voltage is shared between the components.", "The two lamp voltages add up to the battery voltage."],
+    "solution": "In series the voltages add up to the supply: $6 - 2.5 = 3.5$ V across the second lamp."
+  },
+  {
+    "id": "s9.phy.electricity.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why are the lights and power points in a house wired in **parallel**?",
+    "options": [
+      { "id": "a", "text": "Each one gets the full voltage and can be switched on or off without affecting the others" },
+      { "id": "b", "text": "Parallel circuits use less wire" },
+      { "id": "c", "text": "In parallel, all the appliances share the voltage, which is safer" },
+      { "id": "d", "text": "In parallel, if one appliance is switched off, they all turn off" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Parallel wiring usually needs more wire, not less.",
+      "c": "Sharing the voltage happens in series. In parallel each branch gets the full voltage.",
+      "d": "That would happen in series. Parallel branches work independently."
+    },
+    "hints": ["Think about what you want when you switch off one light."],
+    "solution": "In parallel, **each branch gets the full voltage**, and each branch works **independently**, so you can switch one appliance on or off without affecting the rest."
+  },
+  {
+    "id": "s9.phy.electricity.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "In the parallel circuit shown, which ammeter reads the **largest** current?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 260' width='380' height='260' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><line x1='60' y1='40' x2='87' y2='40' stroke='#1f2937' stroke-width='2'/><circle cx='100' cy='40' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='97' y='41' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='106' y='45' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>1</text><line x1='113' y1='40' x2='184' y2='40' stroke='#1f2937' stroke-width='2'/><line x1='174' y1='26' x2='174' y2='54' stroke='#1f2937' stroke-width='2'/><line x1='182' y1='33' x2='182' y2='47' stroke='#1f2937' stroke-width='5'/><line x1='198' y1='26' x2='198' y2='54' stroke='#1f2937' stroke-width='2'/><line x1='206' y1='33' x2='206' y2='47' stroke='#1f2937' stroke-width='5'/><line x1='182' y1='40' x2='198' y2='40' stroke='#1f2937' stroke-width='2'/><line x1='206' y1='40' x2='320' y2='40' stroke='#1f2937' stroke-width='2'/><text x='190' y='14' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>6 V</text><line x1='60' y1='40' x2='60' y2='220' stroke='#1f2937' stroke-width='2'/><line x1='320' y1='40' x2='320' y2='220' stroke='#1f2937' stroke-width='2'/><line x1='60' y1='130' x2='107' y2='130' stroke='#1f2937' stroke-width='2'/><circle cx='120' cy='130' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='117' y='131' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='126' y='135' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>2</text><line x1='133' y1='130' x2='207' y2='130' stroke='#1f2937' stroke-width='2'/><circle cx='220' cy='130' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='120.8' x2='229.2' y2='139.2' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='139.2' x2='229.2' y2='120.8' stroke='#1f2937' stroke-width='2'/><line x1='233' y1='130' x2='320' y2='130' stroke='#1f2937' stroke-width='2'/><text x='220' y='156' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L1</text><line x1='60' y1='220' x2='107' y2='220' stroke='#1f2937' stroke-width='2'/><circle cx='120' cy='220' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='117' y='221' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='126' y='225' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>3</text><line x1='133' y1='220' x2='207' y2='220' stroke='#1f2937' stroke-width='2'/><circle cx='220' cy='220' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='210.8' x2='229.2' y2='229.2' stroke='#1f2937' stroke-width='2'/><line x1='210.8' y1='229.2' x2='229.2' y2='210.8' stroke='#1f2937' stroke-width='2'/><line x1='233' y1='220' x2='320' y2='220' stroke='#1f2937' stroke-width='2'/><text x='220' y='246' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>L2</text><circle cx='60' cy='130' r='4' fill='#1f2937'/><circle cx='320' cy='130' r='4' fill='#1f2937'/></svg>", "alt": "Parallel circuit: a 6 V battery and ammeter A1 on the main top wire. The circuit splits into two branches: one with ammeter A2 and lamp L1, the other with ammeter A3 and lamp L2." },
+    "options": [
+      { "id": "a", "text": "A1" },
+      { "id": "b", "text": "A2" },
+      { "id": "c", "text": "A3" },
+      { "id": "d", "text": "They all read the same" }
+    ],
+    "correct": "a",
+    "shuffle": false,
+    "feedback": {
+      "b": "A2 only measures the current in one branch.",
+      "c": "A3 only measures the current in one branch.",
+      "d": "That's true in a series circuit, not a parallel one."
+    },
+    "hints": ["Which ammeter is in the main wire, before the current splits?"],
+    "solution": "**A1** is in the main wire, so it measures the **total** current. The total splits between the branches (A2 and A3), so each branch current is smaller than A1."
+  },
+  {
+    "id": "s9.phy.electricity.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Two balloons are both rubbed on a wool jersey and then hung on threads next to each other. What happens?",
+    "options": [
+      { "id": "a", "text": "They push apart, because they have the same type of charge" },
+      { "id": "b", "text": "They pull together, because they have opposite charges" },
+      { "id": "c", "text": "Nothing, because balloons are insulators" },
+      { "id": "d", "text": "They pull together, because all charged objects attract" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Both balloons were charged the same way, so their charges are the same, not opposite.",
+      "c": "Insulators can hold static charge. That's why static builds up on them.",
+      "d": "Like charges repel. Only unlike charges attract."
+    },
+    "hints": ["Both balloons were rubbed with the same material in the same way."],
+    "solution": "Both balloons gain the **same** type of charge, and **like charges repel**, so they push apart."
+  },
+  {
+    "id": "s9.phy.electricity.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain why a balloon that has been rubbed on your hair is then attracted to your hair.",
+    "modelAnswer": "When the balloon is rubbed on the hair, electrons (negative charges) move from the hair onto the balloon. The balloon gains electrons, so it becomes negatively charged. The hair loses electrons, so it becomes positively charged. Unlike (opposite) charges attract, so the balloon and hair pull towards each other.",
+    "rubric": [
+      { "criterion": "Electrons move from the hair to the balloon when they are rubbed", "marks": 1 },
+      { "criterion": "The balloon becomes negative and the hair becomes positive", "marks": 1 },
+      { "criterion": "Opposite (unlike) charges attract", "marks": 1 }
+    ],
+    "hints": ["Which particles move when two materials are rubbed together?", "What charge does each object end up with?"],
+    "solution": "Rubbing moves **electrons** from the hair to the balloon. Balloon: negative. Hair: positive. **Unlike charges attract.**"
+  },
+  {
+    "id": "s9.phy.electricity.q017",
+    "type": "cloze",
+    "difficulty": 4,
+    "prompt": "A third lamp is added in **series** to a circuit with two lamps. The total resistance [[a]], so the current [[b]], and all the lamps get [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["increases"], "options": ["increases", "decreases", "stays the same"] },
+      { "id": "b", "accepted": ["decreases"], "options": ["increases", "decreases", "stays the same"] },
+      { "id": "c", "accepted": ["dimmer"], "options": ["dimmer", "brighter", "no change"] }
+    ],
+    "hints": ["Each lamp resists the current. What happens when there are more of them in one loop?"],
+    "solution": "More lamps in series means more **resistance**, so the **current decreases** and every lamp gets **dimmer**. The battery's voltage is also shared between more lamps."
+  },
+  {
+    "id": "s9.phy.electricity.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Two lamps are connected in **parallel** to a battery. Lamp L1 is unscrewed. What happens to lamp L2?",
+    "options": [
+      { "id": "a", "text": "It stays on, at about the same brightness" },
+      { "id": "b", "text": "It goes out" },
+      { "id": "c", "text": "It gets much brighter, because it now gets all the voltage" },
+      { "id": "d", "text": "It gets dimmer" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That happens in series. In parallel, L2 has its own complete path.",
+      "c": "L2 already had the full battery voltage across it, so it doesn't change.",
+      "d": "L2's branch still has the full voltage across it."
+    },
+    "hints": ["Does L2's branch still make a complete loop with the battery?"],
+    "solution": "L2 is on its own branch, which still makes a complete loop with the battery, and it still has the full battery voltage. It **stays on at the same brightness**."
+  },
+  {
+    "id": "s9.phy.electricity.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "Compare **series** and **parallel** circuits. In your answer, describe the paths for the current, what happens to the current and the voltage, and what happens if one lamp breaks.",
+    "modelAnswer": "A series circuit has only one path (one loop), while a parallel circuit has two or more separate branches. In series, the current is the same everywhere in the circuit; in parallel, the current splits at the junctions and the branch currents add up to the total. In series, the battery voltage is shared between the components; in parallel, each branch gets the full battery voltage. If one lamp breaks in a series circuit, the loop is broken and all the lamps go out; in a parallel circuit, the other branches still work.",
+    "rubric": [
+      { "criterion": "Paths: series has one loop; parallel has separate branches", "marks": 1 },
+      { "criterion": "Current: the same everywhere in series; splits and adds up in parallel", "marks": 1 },
+      { "criterion": "Voltage: shared between components in series; full voltage across each branch in parallel", "marks": 1 },
+      { "criterion": "Broken lamp: all go out in series; the others stay on in parallel", "marks": 1 }
+    ],
+    "hints": ["Make each point a comparison: \"In series… but in parallel…\"."],
+    "solution": "Series: one loop, same current everywhere, voltage shared, one break turns everything off. Parallel: branches, current splits and adds up, full voltage on each branch, branches work independently."
+  },
+  {
+    "id": "s9.phy.electricity.q020",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A parallel circuit has **three** branches. The total current from the battery is 1.2 A. The currents in two of the branches are 0.5 A and 0.4 A. What is the current in the third branch?",
+    "answer": 0.3,
+    "units": "A",
+    "hints": ["All the branch currents together add up to the total current."],
+    "solution": "$1.2 - 0.5 - 0.4 = 0.3$ A. Check: $0.5 + 0.4 + 0.3 = 1.2$ A ✓"
+  },
+  {
+    "id": "s9.phy.electricity.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A negatively charged balloon sticks to a wall, even though the wall has no overall charge. Which explanation is best?",
+    "options": [
+      { "id": "a", "text": "The balloon repels electrons in the wall's surface a little way back, leaving the surface slightly positive, which attracts the balloon" },
+      { "id": "b", "text": "The wall is always positively charged" },
+      { "id": "c", "text": "The balloon's electrons flow into the wall and glue it in place" },
+      { "id": "d", "text": "Air pressure pushes the balloon against the wall" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The wall is neutral overall: it has equal amounts of positive and negative charge.",
+      "c": "The wall is an insulator, so charge doesn't flow into it easily, and charge isn't a glue.",
+      "d": "Air pressure acts on all sides of the balloon equally."
+    },
+    "hints": ["Like charges repel. What would the balloon's negative charge do to the electrons in the wall?", "Which charges are then left closest to the balloon?"],
+    "solution": "The negative balloon **repels** electrons in the wall's surface slightly away. This leaves the part of the wall nearest the balloon slightly **positive**. Unlike charges attract, and they are close together, so the balloon sticks."
+  },
+  {
+    "id": "s9.phy.electricity.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Circuit X has two identical lamps in **series** with a battery. Circuit Y has two of the same lamps in **parallel** with an identical battery. Which lamps are brighter?",
+    "options": [
+      { "id": "a", "text": "The lamps in circuit Y (parallel)" },
+      { "id": "b", "text": "The lamps in circuit X (series)" },
+      { "id": "c", "text": "They are all equally bright" },
+      { "id": "d", "text": "In each circuit, the lamp nearest the battery is brightest" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In series the lamps share the battery voltage, so each gets less.",
+      "c": "Series lamps share the voltage, but parallel lamps each get the full voltage.",
+      "d": "Current isn't used up along a wire, so position doesn't matter."
+    },
+    "hints": ["Compare the voltage across each lamp in the two circuits."],
+    "solution": "In series, the two lamps **share** the battery voltage (half each). In parallel, **each** lamp gets the **full** battery voltage, so more current flows through each one and the parallel lamps are **brighter**."
+  },
+  {
+    "id": "s9.phy.electricity.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Lightning is a giant spark of static electricity. Explain how lightning happens, using ideas about electric charge.",
+    "modelAnswer": "Inside a storm cloud, ice crystals and water droplets are thrown around and rub or collide with each other. This moves charge between them, so the cloud becomes charged: usually the bottom of the cloud is negative. A huge amount of charge builds up, and the large difference in charge between the cloud and the ground (opposite charges attract) becomes so great that the charge suddenly jumps through the air as a giant spark. This sudden flow of charge, a discharge, is lightning.",
+    "rubric": [
+      { "criterion": "Collisions/rubbing between ice and water particles in the cloud move charge, so charge builds up (e.g. the bottom of the cloud is negative)", "marks": 1 },
+      { "criterion": "There is a large difference in charge between the cloud and the ground; opposite charges attract", "marks": 1 },
+      { "criterion": "When the charge is big enough it suddenly flows through the air as a giant spark (discharge)", "marks": 1 }
+    ],
+    "hints": ["Static charge builds up when things rub together. What is rubbing together inside a storm cloud?", "What happens when the charge gets very large?"],
+    "solution": "Rubbing and colliding ice and water particles charge the cloud. A large charge builds up, opposite to the ground. When it's big enough, the charge suddenly jumps through the air (a **discharge**), and that spark is lightning."
+  },
+  {
+    "id": "s9.phy.electricity.q024",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each circuit symbol description to its component.",
+    "pairs": [
+      { "left": { "id": "lamp", "text": "A circle with a cross inside" }, "right": { "id": "l", "text": "Lamp" } },
+      { "left": { "id": "cell", "text": "A long thin line next to a short thick line" }, "right": { "id": "c", "text": "Cell" } },
+      { "left": { "id": "amm", "text": "A circle with A inside" }, "right": { "id": "a", "text": "Ammeter" } },
+      { "left": { "id": "res", "text": "A small rectangle" }, "right": { "id": "r", "text": "Resistor" } },
+      { "left": { "id": "sw", "text": "A gap in the wire with a line hinged up from one side" }, "right": { "id": "s", "text": "Open switch" } }
+    ],
+    "hints": ["A lamp's symbol looks a bit like a light with a filament crossing it."],
+    "solution": "Circle with cross → lamp; long and short lines → cell; circle with A → ammeter; rectangle → resistor; gap with hinged line → open switch."
+  }
+]

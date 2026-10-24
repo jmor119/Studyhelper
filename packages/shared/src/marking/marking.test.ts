@@ -46,6 +46,55 @@ describe('parseNumber', () => {
     }
   });
 
+  it('understands magnification and micro units', () => {
+    for (const v of ['×400', 'x400', '400x', '400×', 'X 400']) {
+      const r = parseNumber(v);
+      expect(r.ok && r.value, v).toBe(400);
+    }
+    const mag = QuestionSchema.parse({
+      id: 'test.mag', subject: 'science', yearLevel: 9, topicId: 's9.bio.cells', difficulty: 2,
+      prompt: 'Magnification?', solution: '.', type: 'numeric', answer: 400, units: '×',
+    });
+    expect(markResponse(mag, { type: 'numeric', value: '400x' }).correct).toBe(true);
+    expect(markResponse(mag, { type: 'numeric', value: '×400' }).correct).toBe(true);
+    const size = QuestionSchema.parse({
+      id: 'test.size', subject: 'science', yearLevel: 9, topicId: 's9.bio.cells', difficulty: 2,
+      prompt: 'Size?', solution: '.', type: 'numeric', answer: 50, units: 'µm',
+    });
+    for (const v of ['50 um', '50 μm', '50µm', '50 micrometres']) {
+      expect(markResponse(size, { type: 'numeric', value: v }).correct, v).toBe(true);
+    }
+    expect(parseNumber('x = 5').ok && (parseNumber('x = 5') as { value: number }).value).toBe(5);
+  });
+
+  it('accepts unit words', () => {
+    const force = QuestionSchema.parse({
+      id: 'test.force', subject: 'science', yearLevel: 9, topicId: 's9.phy.forces', difficulty: 2,
+      prompt: 'Force?', solution: '.', type: 'numeric', answer: 500, units: 'N',
+    });
+    for (const v of ['500', '500 N', '500 newtons', '500N']) expect(markResponse(force, { type: 'numeric', value: v }).correct, v).toBe(true);
+    const speed = QuestionSchema.parse({
+      id: 'test.speed', subject: 'science', yearLevel: 9, topicId: 's9.phy.motion', difficulty: 2,
+      prompt: 'Speed?', solution: '.', type: 'numeric', answer: 60, units: 'km/h',
+    });
+    for (const v of ['60 km/h', '60 kph', '60 km/hr']) expect(markResponse(speed, { type: 'numeric', value: v }).correct, v).toBe(true);
+    const current = QuestionSchema.parse({
+      id: 'test.amps', subject: 'science', yearLevel: 9, topicId: 's9.phy.electricity', difficulty: 2,
+      prompt: 'Current?', solution: '.', type: 'numeric', answer: 2, units: 'A',
+    });
+    expect(markResponse(current, { type: 'numeric', value: '2 amps' }).correct).toBe(true);
+  });
+
+  it('checks the letter in "y = …" answers when the question names one', () => {
+    const q = QuestionSchema.parse({
+      id: 'test.line', subject: 'maths', yearLevel: 9, topicId: 'm9.alg.linear-graphs', difficulty: 2,
+      prompt: 'Equation of the horizontal line?', solution: '.', type: 'numeric', answer: -3, variable: 'y',
+    });
+    expect(markResponse(q, { type: 'numeric', value: 'y = -3' }).correct).toBe(true);
+    expect(markResponse(q, { type: 'numeric', value: '-3' }).correct).toBe(true);
+    expect(markResponse(q, { type: 'numeric', value: 'x = -3' }).correct).toBe(false);
+  });
+
   it('splits units and percentages', () => {
     const cm = parseNumber('12.5 cm');
     expect(cm.ok && cm.unit).toBe('cm');
@@ -89,10 +138,30 @@ describe('expressions', () => {
     expect(isSimplified(parseExpression('5x+2', vars), model)).toBe(true);
     expect(isSimplified(parseExpression('2x + 3x + 2', vars), model)).toBe(false);
   });
+  it('reads a letter before a bracket as multiplication, and accepts capitals', () => {
+    const v = ['x', 'y'];
+    expect(areEquivalent(parseExpression('3x(2y+1)', v), parseExpression('6*x*y + 3*x', v), v)).toBe(true);
+    const lw = ['l', 'w', 'p'];
+    expect(areEquivalent(parseExpression('P/2 - L', lw), parseExpression('p/2 - l', lw), lw)).toBe(true);
+    // "x = 2x + 1" is an equation, not an expression for something else.
+    expect(() => parseExpression('x = 2x + 1', ['x'])).toThrow();
+    expect(areEquivalent(parseExpression('y = 2x + 1', ['x']), parseExpression('2x+1', ['x']), ['x'])).toBe(true);
+  });
+  it('requires full factorisation and collected terms', () => {
+    expect(isFactorised(parseExpression('3(4x+6)', vars), vars)).toBe(false);
+    expect(isFactorised(parseExpression('2(6x+9)', vars), vars)).toBe(false);
+    expect(isFactorised(parseExpression('6(2x+3)', vars), vars)).toBe(true);
+    expect(isFactorised(parseExpression('x(x+3)', vars), vars)).toBe(true);
+    const ab = ['a', 'b'];
+    const model = parseExpression('12ab', ab);
+    expect(isSimplified(parseExpression('3a*4b', ab), model)).toBe(false);
+    expect(isSimplified(parseExpression('12ab', ab), model)).toBe(true);
+    expect(isSimplified(parseExpression('2*x*x', vars), parseExpression('2x^2', vars))).toBe(false);
+  });
   it('rejects unknown symbols and unsafe input', () => {
     expect(() => parseExpression('y + 1', vars)).toThrow();
     expect(() => parseExpression('import(1)', vars)).toThrow();
-    expect(() => parseExpression('x = 3', vars)).not.toThrow(); // "x = " prefix is stripped
+    expect(() => parseExpression('x = 3', vars)).toThrow(); // an equation in x, not an expression
   });
 });
 
@@ -103,6 +172,21 @@ describe('textMatches', () => {
     expect(textMatches('photosynthesis', 'photosynthesis', true)).toBe(true);
     expect(textMatches('photosyntesis', 'photosynthesis', true)).toBe(true);
     expect(textMatches('kōura', 'koura', true)).toBe(true);
+  });
+  it('does not accept a different word as a typo', () => {
+    expect(textMatches('invertebrate', 'vertebrate', true)).toBe(false);
+    expect(textMatches('vertebrate', 'invertebrate', true)).toBe(false);
+    expect(textMatches('genus', 'genes', true)).toBe(false);
+    expect(textMatches('father', 'mother', true)).toBe(false);
+    expect(textMatches('endothermic', 'exothermic', true)).toBe(false);
+    expect(textMatches('chlorophyl', 'chlorophyll', true)).toBe(true);
+    expect(textMatches('mitochondrion', 'mitochondria', true)).toBe(true);
+    expect(textMatches('enzymes', 'enzyme', true)).toBe(true);
+  });
+  it('keeps inequality signs', () => {
+    expect(textMatches('x < 4', 'x<4', true)).toBe(true);
+    expect(textMatches('x > 4', 'x < 4', true)).toBe(false);
+    expect(textMatches('x ≥ 2', 'x >= 2', true)).toBe(true);
   });
   it('is strict with short words and formulae', () => {
     expect(textMatches('ion', 'iron', true)).toBe(false);

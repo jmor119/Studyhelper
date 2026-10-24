@@ -35,6 +35,9 @@ function markNumeric(q: QuestionOfType<'numeric'>, value: string): MarkResult {
       parsed.reason === 'empty' ? 'Enter an answer.' : 'Enter a single number (fractions like 3/4 are fine).',
     );
   }
+  if (q.variable && parsed.variable && parsed.variable !== q.variable) {
+    return result(q, 0, { feedback: `Check the letter — the answer is ${q.variable} = …, not ${parsed.variable} = ….` });
+  }
   let v = parsed.value;
   const expectsPercent = q.units === '%';
   if (parsed.percent && !expectsPercent) v /= 100;
@@ -113,7 +116,9 @@ function markExpression(q: QuestionOfType<'expression'>, value: string): MarkRes
       if (!isExpanded(student)) return result(q, 0.5, { feedback: 'Equivalent, but expand the brackets fully.' });
       break;
     case 'factorised':
-      if (!isFactorised(student)) return result(q, 0.5, { feedback: 'Equivalent, but write it in factorised form.' });
+      if (!isFactorised(student, q.variables)) {
+        return result(q, 0.5, { feedback: 'Equivalent, but factorise fully — take out the highest common factor.' });
+      }
       break;
     case 'simplified':
       if (!isSimplified(student, model)) return result(q, 0.5, { feedback: 'Equivalent, but simplify further.' });

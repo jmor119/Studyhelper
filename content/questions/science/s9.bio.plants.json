@@ -1,0 +1,714 @@
+[
+  {
+    "id": "s9.bio.plants.q001",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the green pigment in chloroplasts that absorbs light energy?",
+    "accepted": [
+      "chlorophyll"
+    ],
+    "hints": [
+      "It's what makes leaves look green."
+    ],
+    "solution": "**Chlorophyll** absorbs light energy, which the plant uses for photosynthesis. It absorbs red and blue light and reflects green light, which is why leaves look green."
+  },
+  {
+    "id": "s9.bio.plants.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which gas do plants take in from the air for photosynthesis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "b",
+        "text": "Oxygen"
+      },
+      {
+        "id": "c",
+        "text": "Nitrogen"
+      },
+      {
+        "id": "d",
+        "text": "Hydrogen"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Oxygen is a product of photosynthesis, so plants give it out. (They do use some oxygen for respiration.)",
+      "c": "Nitrogen makes up most of the air, but plants can't use nitrogen gas directly.",
+      "d": "There is almost no hydrogen gas in the air."
+    },
+    "hints": [
+      "It's the gas you breathe out more of."
+    ],
+    "solution": "Plants take in **carbon dioxide** through their stomata. Photosynthesis turns carbon dioxide and water into glucose and oxygen."
+  },
+  {
+    "id": "s9.bio.plants.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which tissue carries water from the roots up to the leaves?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Xylem"
+      },
+      {
+        "id": "b",
+        "text": "Phloem"
+      },
+      {
+        "id": "c",
+        "text": "Epidermis"
+      },
+      {
+        "id": "d",
+        "text": "Palisade mesophyll"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Phloem carries dissolved sugars from the leaves to the rest of the plant.",
+      "c": "The epidermis is the outer layer of cells that covers the leaf.",
+      "d": "The palisade mesophyll is where most photosynthesis happens."
+    },
+    "hints": [
+      "It's made of long, hollow tubes of dead cells."
+    ],
+    "solution": "**Xylem** carries water and dissolved minerals up from the roots to the leaves."
+  },
+  {
+    "id": "s9.bio.plants.q004",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What are the tiny pores, mostly on the underside of a leaf, that let gases in and out?",
+    "accepted": [
+      "stomata",
+      "stoma",
+      "stomates",
+      "stomas"
+    ],
+    "hints": [
+      "Each pore has a pair of guard cells around it."
+    ],
+    "solution": "**Stomata** (one is a stoma). They let carbon dioxide in and oxygen and water vapour out. Guard cells open and close them."
+  },
+  {
+    "id": "s9.bio.plants.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Complete the word equation for photosynthesis: [[a]] + water → [[b]] + oxygen",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "carbon dioxide"
+        ],
+        "options": [
+          "carbon dioxide",
+          "oxygen",
+          "nitrogen"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "glucose"
+        ],
+        "options": [
+          "glucose",
+          "starch",
+          "carbon dioxide"
+        ]
+      }
+    ],
+    "hints": [
+      "One reactant comes from the air, through the stomata.",
+      "The product is the sugar that the plant makes first."
+    ],
+    "solution": "**carbon dioxide** + water → **glucose** + oxygen. It needs light energy, absorbed by chlorophyll. The plant can turn the glucose into starch later, but glucose is made first."
+  },
+  {
+    "id": "s9.bio.plants.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Complete the word equation for respiration: glucose + [[a]] → carbon dioxide + [[b]] (+ energy released)",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "oxygen"
+        ],
+        "options": [
+          "oxygen",
+          "carbon dioxide",
+          "water"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "water"
+        ],
+        "options": [
+          "water",
+          "glucose",
+          "oxygen"
+        ]
+      }
+    ],
+    "hints": [
+      "Respiration is the reverse of photosynthesis."
+    ],
+    "solution": "glucose + **oxygen** → carbon dioxide + **water** (+ energy released). It happens in the mitochondria of every living cell."
+  },
+  {
+    "id": "s9.bio.plants.q007",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each part of a leaf to its job.",
+    "pairs": [
+      {
+        "left": {
+          "id": "cut",
+          "text": "Waxy cuticle"
+        },
+        "right": {
+          "id": "loss",
+          "text": "Reduces water loss"
+        }
+      },
+      {
+        "left": {
+          "id": "pal",
+          "text": "Palisade mesophyll"
+        },
+        "right": {
+          "id": "photo",
+          "text": "Where most photosynthesis happens"
+        }
+      },
+      {
+        "left": {
+          "id": "spon",
+          "text": "Spongy mesophyll"
+        },
+        "right": {
+          "id": "air",
+          "text": "Air spaces let gases diffuse through the leaf"
+        }
+      },
+      {
+        "left": {
+          "id": "guard",
+          "text": "Guard cells"
+        },
+        "right": {
+          "id": "open",
+          "text": "Open and close the stomata"
+        }
+      },
+      {
+        "left": {
+          "id": "xyl",
+          "text": "Xylem"
+        },
+        "right": {
+          "id": "water",
+          "text": "Brings water to the leaf cells"
+        }
+      }
+    ],
+    "hints": [
+      "The cuticle is a shiny, waterproof layer on top of the leaf.",
+      "Palisade cells are packed with chloroplasts."
+    ],
+    "solution": "Cuticle → reduces water loss. Palisade mesophyll → most photosynthesis. Spongy mesophyll → air spaces for gas diffusion. Guard cells → open and close stomata. Xylem → brings water."
+  },
+  {
+    "id": "s9.bio.plants.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What does phloem carry around a plant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dissolved sugars, from the leaves to other parts of the plant"
+      },
+      {
+        "id": "b",
+        "text": "Water and minerals, from the roots up to the leaves"
+      },
+      {
+        "id": "c",
+        "text": "Oxygen, from the leaves down to the roots"
+      },
+      {
+        "id": "d",
+        "text": "Starch grains, from the roots up to the leaves"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's the job of the xylem.",
+      "c": "Gases move through a plant by diffusion through air spaces, not in the phloem.",
+      "d": "Starch doesn't dissolve, so it can't be carried. Plants move sugars and turn them into starch where it is stored."
+    },
+    "hints": [
+      "Phloem moves the food that the leaves make."
+    ],
+    "solution": "**Phloem** carries dissolved sugars made in the leaves to the parts of the plant that need them, such as roots, fruits and growing tips. It can carry them up or down."
+  },
+  {
+    "id": "s9.bio.plants.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "When do plants carry out respiration?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All the time, day and night"
+      },
+      {
+        "id": "b",
+        "text": "Only at night, when it is dark"
+      },
+      {
+        "id": "c",
+        "text": "Only in the daytime, when it is light"
+      },
+      {
+        "id": "d",
+        "text": "Only on days when they can't photosynthesise"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plants respire at night, but they also respire during the day.",
+      "c": "Respiration doesn't need light. Photosynthesis does.",
+      "d": "Plants need energy all the time, so they respire all the time."
+    },
+    "hints": [
+      "Every living cell needs a constant supply of energy."
+    ],
+    "solution": "Every living plant cell respires **all the time**, day and night, to release energy. In daylight, photosynthesis is usually faster than respiration, so overall the plant gives out oxygen. At night, it only respires, so it gives out carbon dioxide."
+  },
+  {
+    "id": "s9.bio.plants.q010",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the ways that leaves are adapted for photosynthesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A broad, flat shape"
+      },
+      {
+        "id": "b",
+        "text": "Thin, so gases don't have far to travel"
+      },
+      {
+        "id": "c",
+        "text": "Many chloroplasts near the upper surface"
+      },
+      {
+        "id": "d",
+        "text": "Stomata that let carbon dioxide in"
+      },
+      {
+        "id": "e",
+        "text": "A thick layer of bark covering the leaf"
+      },
+      {
+        "id": "f",
+        "text": "No air spaces, so the leaf is solid"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Think about what a leaf needs: light, carbon dioxide and water.",
+      "Gases need to diffuse through the leaf easily."
+    ],
+    "solution": "A **broad, flat** shape gives a large surface area to absorb light. Being **thin** keeps diffusion distances short. **Chloroplasts near the top** catch the most light. **Stomata** let carbon dioxide in. Bark would block light. Leaves need air spaces so gases can diffuse to the cells."
+  },
+  {
+    "id": "s9.bio.plants.q011",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these steps for testing a leaf for starch in the correct order.",
+    "items": [
+      {
+        "id": "boil",
+        "text": "Boil the leaf in water for about a minute"
+      },
+      {
+        "id": "eth",
+        "text": "Put the leaf in hot ethanol (heated in a water bath, not over a flame) until it turns pale"
+      },
+      {
+        "id": "rinse",
+        "text": "Rinse the leaf in warm water to soften it"
+      },
+      {
+        "id": "iod",
+        "text": "Spread the leaf on a white tile and add iodine solution"
+      },
+      {
+        "id": "look",
+        "text": "Look for a blue-black colour, which shows starch"
+      }
+    ],
+    "hints": [
+      "The chlorophyll has to be removed before you add iodine, or the green colour hides the result.",
+      "The ethanol step makes the leaf brittle, so it needs softening afterwards."
+    ],
+    "solution": "1. Boil in water (kills the cells and softens the leaf). 2. Hot ethanol in a water bath removes the chlorophyll. Ethanol is flammable, so never heat it over a flame. 3. Rinse in warm water to soften the brittle leaf. 4. Add iodine on a white tile. 5. Blue-black = starch; yellow-brown = no starch."
+  },
+  {
+    "id": "s9.bio.plants.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Water moves up the stem in the [[a]] and evaporates from the leaves through the stomata. This loss of water vapour from the leaves is called [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "xylem"
+        ],
+        "options": [
+          "xylem",
+          "phloem"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "transpiration"
+        ],
+        "options": [
+          "transpiration",
+          "respiration",
+          "photosynthesis"
+        ]
+      }
+    ],
+    "hints": [
+      "One transport tissue carries water, and the other carries sugars."
+    ],
+    "solution": "Water travels up the **xylem**. Its evaporation from the leaves is called **transpiration**, and it pulls more water up the xylem behind it."
+  },
+  {
+    "id": "s9.bio.plants.q013",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these in order to show the path water takes through a plant.",
+    "items": [
+      {
+        "id": "soil",
+        "text": "Water in the soil"
+      },
+      {
+        "id": "root",
+        "text": "Root hair cell"
+      },
+      {
+        "id": "xroot",
+        "text": "Xylem in the root"
+      },
+      {
+        "id": "xstem",
+        "text": "Xylem in the stem"
+      },
+      {
+        "id": "meso",
+        "text": "Mesophyll cell in the leaf"
+      },
+      {
+        "id": "air",
+        "text": "Air space inside the leaf"
+      },
+      {
+        "id": "out",
+        "text": "Out through a stoma"
+      }
+    ],
+    "hints": [
+      "Water enters at the roots and leaves through the leaves.",
+      "It evaporates from the leaf cells into the air spaces before it escapes."
+    ],
+    "solution": "Soil → root hair cell (by osmosis) → xylem in the root → xylem in the stem → mesophyll cell in the leaf → evaporates into an air space → diffuses out through a stoma (transpiration)."
+  },
+  {
+    "id": "s9.bio.plants.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A variegated leaf has green parts and white parts. The white parts have no chlorophyll. After a sunny day, the leaf is tested for starch with iodine. What happens, and what does it show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the green parts turn blue-black, showing chlorophyll is needed for photosynthesis"
+      },
+      {
+        "id": "b",
+        "text": "The whole leaf turns blue-black, showing every part of a leaf photosynthesises"
+      },
+      {
+        "id": "c",
+        "text": "Only the white parts turn blue-black, showing that white parts store the starch"
+      },
+      {
+        "id": "d",
+        "text": "No part turns blue-black, because iodine only detects glucose"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The white parts have no chlorophyll, so they can't photosynthesise and make starch.",
+      "c": "The white parts can't photosynthesise, so they don't make starch.",
+      "d": "Iodine detects starch, not glucose. Leaves store the glucose they make as starch."
+    },
+    "hints": [
+      "Which parts of the leaf can absorb light?"
+    ],
+    "solution": "Only the **green parts** have chlorophyll, so only they can photosynthesise and make starch. They turn blue-black, and the white parts stay yellow-brown. This shows that **chlorophyll is needed** for photosynthesis."
+  },
+  {
+    "id": "s9.bio.plants.q015",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "Plants change some of the glucose they make into an insoluble substance that can be stored. What is this substance?",
+    "accepted": [
+      "starch"
+    ],
+    "hints": [
+      "Kūmara and potatoes are full of it.",
+      "It turns iodine blue-black."
+    ],
+    "solution": "**Starch**. It doesn't dissolve, so it is a good way to store glucose. It is stored in places such as kūmara roots, potato tubers and seeds."
+  },
+  {
+    "id": "s9.bio.plants.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "Compare photosynthesis and respiration in a plant. Include the word equations, where in the cell each happens, when each happens, and what each does with energy.",
+    "modelAnswer": "Photosynthesis: carbon dioxide + water → glucose + oxygen. It happens in the chloroplasts, so only in green cells, and only when there is light. It traps light energy and stores it in glucose. Respiration: glucose + oxygen → carbon dioxide + water. It happens in the mitochondria of every living cell, all the time, day and night. It releases the energy stored in glucose so the cell can use it. The two reactions are opposites: the products of one are the reactants of the other.",
+    "rubric": [
+      {
+        "criterion": "Gives both word equations correctly (or clearly states that the products of one are the reactants of the other)",
+        "marks": 1
+      },
+      {
+        "criterion": "States where each happens: photosynthesis in chloroplasts, respiration in mitochondria (in all living cells)",
+        "marks": 1
+      },
+      {
+        "criterion": "States when each happens: photosynthesis only in light, respiration all the time",
+        "marks": 1
+      },
+      {
+        "criterion": "States that photosynthesis stores energy in glucose, while respiration releases energy from glucose",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Write the two word equations next to each other. What do you notice?",
+      "Which reaction needs light?"
+    ],
+    "solution": "| | Photosynthesis | Respiration |\n|---|---|---|\n| Equation | carbon dioxide + water → glucose + oxygen | glucose + oxygen → carbon dioxide + water |\n| Where | Chloroplasts (green cells) | Mitochondria (all living cells) |\n| When | Only in light | All the time |\n| Energy | Stores light energy in glucose | Releases energy from glucose |"
+  },
+  {
+    "id": "s9.bio.plants.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Aroha shines a lamp on some pondweed in water and counts the bubbles it gives off each minute. When she moves the lamp closer, she counts more bubbles. What is the best conclusion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As light intensity increases, the rate of photosynthesis increases"
+      },
+      {
+        "id": "b",
+        "text": "The bubbles are carbon dioxide, so the plant is respiring faster"
+      },
+      {
+        "id": "c",
+        "text": "The heat from the lamp is making the water boil, which makes bubbles"
+      },
+      {
+        "id": "d",
+        "text": "Pondweed can only photosynthesise when a lamp is very close to it"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The bubbles are mostly oxygen, which is a product of photosynthesis.",
+      "c": "The water is nowhere near boiling. A cool LED lamp, or a beaker of water between the lamp and the plant, stops the lamp warming the water.",
+      "d": "Pondweed photosynthesises in any light, including sunlight. Brighter light just makes it faster."
+    },
+    "hints": [
+      "What gas is given off by photosynthesis?",
+      "What changes when the lamp moves closer?"
+    ],
+    "solution": "The bubbles are **oxygen** from photosynthesis. A closer lamp means **brighter light** (higher light intensity), and the plant gives off more oxygen, so the **rate of photosynthesis increases** as light intensity increases."
+  },
+  {
+    "id": "s9.bio.plants.q018",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "If an animal strips a complete ring of bark from around a tree's trunk, the tree usually dies. The phloem is just under the bark. Why does the tree die?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sugars made in the leaves can't reach the roots, so the roots can't respire and they die"
+      },
+      {
+        "id": "b",
+        "text": "Water can't reach the leaves any more, because the xylem is in the bark"
+      },
+      {
+        "id": "c",
+        "text": "The leaves can't get carbon dioxide any more, because it enters through the bark"
+      },
+      {
+        "id": "d",
+        "text": "The roots can no longer make glucose to send up to the rest of the tree"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The xylem is deeper, in the wood. Water can still travel up for a while, which is why the leaves stay green at first.",
+      "c": "Carbon dioxide enters through the stomata in the leaves.",
+      "d": "Roots don't photosynthesise. Glucose is made in the leaves."
+    },
+    "hints": [
+      "Where are sugars made, and which tissue carries them?",
+      "What do root cells need sugar for?"
+    ],
+    "solution": "Removing the bark removes the **phloem**. Sugars made in the leaves can no longer travel down to the roots. Without sugar, the root cells can't **respire**, so they die, and then the whole tree dies."
+  },
+  {
+    "id": "s9.bio.plants.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "On hot, dry, windy days, many plants close their stomata. What is the main advantage and disadvantage of doing this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It reduces water loss, but it also lets less carbon dioxide in for photosynthesis"
+      },
+      {
+        "id": "b",
+        "text": "It stops oxygen escaping, but it also stops the plant from respiring"
+      },
+      {
+        "id": "c",
+        "text": "It keeps heat out of the leaf, but it also blocks light from reaching the chloroplasts"
+      },
+      {
+        "id": "d",
+        "text": "It stops sugars leaking out, but it also stops water moving up the phloem"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plants don't need to keep oxygen in, and they can still respire using oxygen already inside the leaf.",
+      "c": "Stomata don't control heat or light. Light passes through the transparent upper layers.",
+      "d": "Sugars travel in the phloem, and water travels in the xylem. Neither leaks out through stomata."
+    },
+    "hints": [
+      "What escapes through open stomata?",
+      "What does the plant need to get in through its stomata?"
+    ],
+    "solution": "Closing the stomata **reduces water loss** by transpiration, which stops the plant wilting. But carbon dioxide also enters through the stomata, so **less carbon dioxide gets in** and photosynthesis slows down."
+  },
+  {
+    "id": "s9.bio.plants.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Palisade cells near the top of a leaf need carbon dioxide, water and light for photosynthesis. Explain how each one reaches them.",
+    "modelAnswer": "Water is absorbed from the soil by root hair cells (by osmosis) and carried up the stem to the leaf in the xylem, inside the veins. Carbon dioxide diffuses from the air into the leaf through the stomata on the underside, then through the air spaces in the spongy layer to the palisade cells. Light passes through the transparent waxy cuticle and upper epidermis, and is absorbed by chlorophyll in the many chloroplasts in the palisade cells.",
+    "rubric": [
+      {
+        "criterion": "Water: absorbed by the roots and carried up to the leaf in the xylem",
+        "marks": 1
+      },
+      {
+        "criterion": "Carbon dioxide: diffuses into the leaf through the stomata and through the air spaces",
+        "marks": 1
+      },
+      {
+        "criterion": "Light: passes through the transparent upper layers and is absorbed by chlorophyll in the chloroplasts",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Take each one in turn: where does it start, and which part of the plant carries it?",
+      "Remember that the stomata are mostly on the underside of the leaf."
+    ],
+    "solution": "Water: roots → xylem → leaf. Carbon dioxide: air → stomata → air spaces → palisade cells, by diffusion. Light: through the transparent upper layers → absorbed by chlorophyll."
+  },
+  {
+    "id": "s9.bio.plants.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Around dawn and dusk, there can be a time when a plant gives out no oxygen and takes in no carbon dioxide overall, even though it is still photosynthesising. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Photosynthesis and respiration are happening at the same rate, so their gases cancel out"
+      },
+      {
+        "id": "b",
+        "text": "The plant stops all of its chemical reactions at dawn and at dusk"
+      },
+      {
+        "id": "c",
+        "text": "The plant has used up all the carbon dioxide inside its leaves"
+      },
+      {
+        "id": "d",
+        "text": "There is no light at all at dawn and dusk, so photosynthesis has stopped"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Living cells never stop all their reactions. Respiration carries on all the time.",
+      "c": "Carbon dioxide keeps being made by respiration, so it doesn't simply run out.",
+      "d": "The question says the plant is still photosynthesising, so there must be some light."
+    },
+    "hints": [
+      "Two processes are going on in the plant. One uses carbon dioxide and the other makes it.",
+      "What happens if both go at exactly the same speed?"
+    ],
+    "solution": "In dim light, photosynthesis is slow. At one point it goes at **exactly the same rate as respiration**. The oxygen made by photosynthesis is all used by respiration, and the carbon dioxide made by respiration is all used by photosynthesis, so there is no overall gas exchange."
+  },
+  {
+    "id": "s9.bio.plants.q022",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What type of energy do plants need for photosynthesis?",
+    "accepted": [
+      "light",
+      "light energy",
+      "sunlight",
+      "energy from sunlight",
+      "solar energy",
+      "energy from the sun",
+      "solar"
+    ],
+    "hints": [
+      "Plants kept in a dark cupboard can't photosynthesise."
+    ],
+    "solution": "Plants need **light energy**, usually from the Sun. It is absorbed by chlorophyll and stored as chemical energy in glucose."
+  }
+]

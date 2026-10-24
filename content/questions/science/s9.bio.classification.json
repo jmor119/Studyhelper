@@ -1,0 +1,745 @@
+[
+  {
+    "id": "s9.bio.classification.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "In MRS GREN, which life process means getting rid of waste made by the body's cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Excretion"
+      },
+      {
+        "id": "b",
+        "text": "Nutrition"
+      },
+      {
+        "id": "c",
+        "text": "Respiration"
+      },
+      {
+        "id": "d",
+        "text": "Sensitivity"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Nutrition means taking in or making food.",
+      "c": "Respiration releases energy from food. It makes waste carbon dioxide, but getting rid of that waste is excretion.",
+      "d": "Sensitivity means detecting and responding to changes in the surroundings."
+    },
+    "hints": [
+      "Examples of this waste are carbon dioxide (breathed out) and urea (in urine)."
+    ],
+    "solution": "**Excretion** is getting rid of waste made by cells, such as carbon dioxide and urea. Getting rid of undigested food (faeces) is called egestion. It isn't excretion, because that food was never part of the body's cells."
+  },
+  {
+    "id": "s9.bio.classification.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "In MRS GREN, what does the **S** stand for?",
+    "accepted": [
+      "sensitivity",
+      "sensitive",
+      "being sensitive"
+    ],
+    "hints": [
+      "It's about detecting and responding to changes, such as a plant growing towards light or you pulling your hand away from something hot."
+    ],
+    "solution": "**S = Sensitivity**: detecting changes in the surroundings (stimuli) and responding to them."
+  },
+  {
+    "id": "s9.bio.classification.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Animals that have a backbone are called [[a]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "vertebrates"
+        ],
+        "options": [
+          "vertebrates",
+          "invertebrates",
+          "arthropods"
+        ]
+      }
+    ],
+    "hints": [
+      "Fish, amphibians, reptiles, birds and mammals all belong to this group."
+    ],
+    "solution": "An animal with a backbone is a **vertebrate**. Animals without a backbone, such as wētā and earthworms, are invertebrates."
+  },
+  {
+    "id": "s9.bio.classification.q004",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each group of vertebrates to its main features.",
+    "pairs": [
+      {
+        "left": {
+          "id": "fish",
+          "text": "Fish"
+        },
+        "right": {
+          "id": "gills",
+          "text": "Scales, fins and gills"
+        }
+      },
+      {
+        "left": {
+          "id": "amph",
+          "text": "Amphibians"
+        },
+        "right": {
+          "id": "moist",
+          "text": "Smooth, moist skin with no scales"
+        }
+      },
+      {
+        "left": {
+          "id": "rept",
+          "text": "Reptiles"
+        },
+        "right": {
+          "id": "dry",
+          "text": "Dry, scaly skin; eggs with leathery shells"
+        }
+      },
+      {
+        "left": {
+          "id": "bird",
+          "text": "Birds"
+        },
+        "right": {
+          "id": "feath",
+          "text": "Feathers and a beak; eggs with hard shells"
+        }
+      },
+      {
+        "left": {
+          "id": "mamm",
+          "text": "Mammals"
+        },
+        "right": {
+          "id": "fur",
+          "text": "Hair or fur; feed their young on milk"
+        }
+      }
+    ],
+    "hints": [
+      "Start with the features you are most sure of, such as feathers or fur.",
+      "Amphibians, such as frogs, have skin that must stay damp."
+    ],
+    "solution": "Fish → scales, fins and gills. Amphibians → smooth, moist skin. Reptiles → dry, scaly skin and leathery eggs. Birds → feathers, beak and hard-shelled eggs. Mammals → hair or fur, and milk for their young."
+  },
+  {
+    "id": "s9.bio.classification.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "The tuatara looks like a lizard. It has a backbone and dry, scaly skin, and it lays eggs with leathery shells on land. Which group of vertebrates does it belong to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reptiles"
+      },
+      {
+        "id": "b",
+        "text": "Amphibians"
+      },
+      {
+        "id": "c",
+        "text": "Mammals"
+      },
+      {
+        "id": "d",
+        "text": "Fish"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Amphibians have smooth, moist skin with no scales.",
+      "c": "Mammals have hair or fur and feed their young on milk.",
+      "d": "Fish have fins and gills and live in water."
+    },
+    "hints": [
+      "Which group has dry, scaly skin?"
+    ],
+    "solution": "Dry, scaly skin and leathery eggs laid on land are features of **reptiles**. But tuatara aren't lizards. They are the only survivors of an ancient group of reptiles that lived alongside the dinosaurs."
+  },
+  {
+    "id": "s9.bio.classification.q006",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Wētā are insects. Select **all** the features that every adult insect has.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Six legs"
+      },
+      {
+        "id": "b",
+        "text": "Three body parts (head, thorax and abdomen)"
+      },
+      {
+        "id": "c",
+        "text": "A hard outer skeleton (exoskeleton)"
+      },
+      {
+        "id": "d",
+        "text": "Wings"
+      },
+      {
+        "id": "e",
+        "text": "Eight legs"
+      },
+      {
+        "id": "f",
+        "text": "A backbone"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Not every insect can fly.",
+      "Spiders are not insects, and insects are invertebrates."
+    ],
+    "solution": "Every adult insect has **six legs**, **three body parts** (head, thorax and abdomen) and an **exoskeleton**. Not all insects have wings. Wētā, for example, have none. Eight legs is a feature of spiders. No insect has a backbone, because insects are invertebrates."
+  },
+  {
+    "id": "s9.bio.classification.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Species that live naturally in New Zealand and nowhere else in the world are called [[a]]. Species that were brought here by people, such as possums and stoats, are called [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "endemic"
+        ],
+        "options": [
+          "endemic",
+          "native",
+          "introduced"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "introduced"
+        ],
+        "options": [
+          "endemic",
+          "native",
+          "introduced"
+        ]
+      }
+    ],
+    "hints": [
+      "Native species got here without help from people, but some of them also live in other countries."
+    ],
+    "solution": "**Endemic** species, such as kiwi and tuatara, are found naturally only here. **Introduced** species were brought by people. *Native* is a wider word: native species got here by themselves, and some of them, like the pūkeko, also live in other countries."
+  },
+  {
+    "id": "s9.bio.classification.q008",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the word for the place where an organism lives?",
+    "accepted": [
+      "habitat",
+      "habitats"
+    ],
+    "hints": [
+      "A rocky shore, a stream and a kauri forest are all examples."
+    ],
+    "solution": "A **habitat** is the place where an organism lives. It gives the organism the food, water, shelter and conditions it needs."
+  },
+  {
+    "id": "s9.bio.classification.q009",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.classification.key1",
+    "part": "a",
+    "stem": "Use this dichotomous key to identify some New Zealand animals.\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has a backbone | Go to 2 |\n| 1b | Has no backbone | Go to 4 |\n| 2a | Has feathers | Go to 3 |\n| 2b | Has dry, scaly skin | Tuatara |\n| 3a | Can fly | Tūī |\n| 3b | Cannot fly | Kiwi |\n| 4a | Has jointed legs | Wētā |\n| 4b | Has no legs | Earthworm |",
+    "prompt": "An animal has a backbone and feathers, but it cannot fly. Use the key to identify it.",
+    "accepted": [
+      "kiwi",
+      "kiwis"
+    ],
+    "hints": [
+      "Start at step 1 and follow the 'go to' instructions.",
+      "Backbone → step 2. Feathers → step 3."
+    ],
+    "solution": "1a (has a backbone) → go to 2. 2a (has feathers) → go to 3. 3b (cannot fly) → **kiwi**."
+  },
+  {
+    "id": "s9.bio.classification.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.classification.key1",
+    "part": "b",
+    "stem": "Use this dichotomous key to identify some New Zealand animals.\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has a backbone | Go to 2 |\n| 1b | Has no backbone | Go to 4 |\n| 2a | Has feathers | Go to 3 |\n| 2b | Has dry, scaly skin | Tuatara |\n| 3a | Can fly | Tūī |\n| 3b | Cannot fly | Kiwi |\n| 4a | Has jointed legs | Wētā |\n| 4b | Has no legs | Earthworm |",
+    "prompt": "Which pair of statements in the key separates the tūī from the kiwi?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Statements 1a and 1b"
+      },
+      {
+        "id": "b",
+        "text": "Statements 2a and 2b"
+      },
+      {
+        "id": "c",
+        "text": "Statements 3a and 3b"
+      },
+      {
+        "id": "d",
+        "text": "Statements 4a and 4b"
+      }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "Both the tūī and the kiwi have a backbone, so step 1 sends them the same way.",
+      "b": "Both birds have feathers, so step 2 sends them the same way.",
+      "d": "Step 4 is only for animals with no backbone."
+    },
+    "hints": [
+      "Follow the key for both birds. Where do their paths split?"
+    ],
+    "solution": "Both birds go 1a → 2a → step 3. At step 3 the tūī can fly (3a) and the kiwi cannot (3b), so **statements 3a and 3b** separate them."
+  },
+  {
+    "id": "s9.bio.classification.q011",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Kiwi have nostrils at the tip of their long beak. This is a [[a]] adaptation that helps them find [[b]] under the ground.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "structural"
+        ],
+        "options": [
+          "structural",
+          "behavioural",
+          "physiological"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "food"
+        ],
+        "options": [
+          "food",
+          "water",
+          "shelter"
+        ]
+      }
+    ],
+    "hints": [
+      "Is this adaptation a body feature, something the bird does, or a process inside its body?",
+      "What do kiwi probe the soil for?"
+    ],
+    "solution": "It is a **structural** adaptation, because it is a body feature. Kiwi probe the soil with their beak and smell worms and grubs, so it helps them find **food**. Kiwi are the only birds with nostrils at the tip of the beak."
+  },
+  {
+    "id": "s9.bio.classification.q012",
+    "type": "match",
+    "difficulty": 3,
+    "prompt": "Match each New Zealand example to the type of adaptation it shows.",
+    "pairs": [
+      {
+        "left": {
+          "id": "noct",
+          "text": "Kiwi are active at night (nocturnal)"
+        },
+        "right": {
+          "id": "beh",
+          "text": "Behavioural adaptation"
+        }
+      },
+      {
+        "left": {
+          "id": "freeze",
+          "text": "Mountain stone wētā can survive their bodies freezing in winter"
+        },
+        "right": {
+          "id": "phys",
+          "text": "Physiological adaptation"
+        }
+      },
+      {
+        "left": {
+          "id": "green",
+          "text": "Kākāpō have green feathers that blend in with the forest"
+        },
+        "right": {
+          "id": "struct",
+          "text": "Structural adaptation"
+        }
+      }
+    ],
+    "hints": [
+      "Structural = a body feature. Behavioural = something the organism does. Physiological = a process inside the body."
+    ],
+    "solution": "Being nocturnal is something kiwi **do**, so it's **behavioural**. Surviving freezing depends on processes inside the wētā's body, so it's **physiological**. Green feathers are a body feature, so they're **structural**."
+  },
+  {
+    "id": "s9.bio.classification.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Kai says a fire is alive because it grows, moves, uses oxygen and gives off waste gases. What is the best reason that fire is **not** alive?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is not made of cells"
+      },
+      {
+        "id": "b",
+        "text": "It does not move or change position"
+      },
+      {
+        "id": "c",
+        "text": "It does not use any oxygen"
+      },
+      {
+        "id": "d",
+        "text": "It does not get bigger over time"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Fire does move as it spreads, so this isn't a good reason.",
+      "c": "Fire does use oxygen, as Kai said.",
+      "d": "Fire can grow, as Kai said."
+    },
+    "hints": [
+      "Kai's points are all true. Look for something that every living thing has but fire doesn't."
+    ],
+    "solution": "Fire shows some things that look like life processes, but it isn't made of **cells**, and every living thing is. To be alive, something must be made of cells and carry out all seven MRS GREN processes."
+  },
+  {
+    "id": "s9.bio.classification.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why does New Zealand have so many endemic species?",
+    "options": [
+      {
+        "id": "a",
+        "text": "New Zealand has been separated from other land for about 80 million years, so its species evolved on their own"
+      },
+      {
+        "id": "b",
+        "text": "Most of New Zealand's species were brought here by early sailors and settlers"
+      },
+      {
+        "id": "c",
+        "text": "Plants and animals from other countries could easily travel to New Zealand"
+      },
+      {
+        "id": "d",
+        "text": "New Zealand has never had any predators, so its species have never died out"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Species brought here by people are introduced, not endemic.",
+      "c": "If species could travel here easily, they would also live in other places, so they wouldn't be endemic.",
+      "d": "New Zealand had native predators, such as Haast's eagle, and many species, such as the moa, have died out."
+    },
+    "hints": [
+      "Endemic species are found in only one place. What would stop species mixing with those in other countries?"
+    ],
+    "solution": "New Zealand split away from the supercontinent Gondwana about 80 million years ago. Because it is so **isolated**, its plants and animals evolved separately from those elsewhere, and many became species found nowhere else."
+  },
+  {
+    "id": "s9.bio.classification.q015",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the species below that are endemic to New Zealand.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kiwi"
+      },
+      {
+        "id": "b",
+        "text": "Tuatara"
+      },
+      {
+        "id": "c",
+        "text": "Kauri"
+      },
+      {
+        "id": "d",
+        "text": "Kākāpō"
+      },
+      {
+        "id": "e",
+        "text": "Pūkeko"
+      },
+      {
+        "id": "f",
+        "text": "Brushtail possum"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Endemic means found naturally here and nowhere else.",
+      "One of these birds also lives naturally in Australia, and one animal was brought here from Australia by people."
+    ],
+    "solution": "Kiwi, tuatara, kauri and kākāpō are found naturally only in New Zealand, so they are **endemic**. The pūkeko is **native**: it got here by itself, but it also lives in Australia and other countries. The brushtail possum is **introduced**: people brought it from Australia in the 1800s."
+  },
+  {
+    "id": "s9.bio.classification.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Before people arrived, New Zealand's only land mammals were bats. Many New Zealand birds, such as kiwi and kākāpō, are flightless. Explain why flightless birds could survive here, and why they are now in danger from introduced mammals such as stoats and rats.",
+    "modelAnswer": "There were no mammal predators hunting on the ground, so birds did not need to fly to escape danger. Flying uses a lot of energy, so over many generations, birds that fed and nested on the ground survived and reproduced well without flying. When people brought mammals such as stoats, rats and cats, these predators hunted on the ground, often at night and by smell. Flightless birds can't fly away from them, and their eggs and chicks on the ground are easy to reach, so many are killed.",
+    "rubric": [
+      {
+        "criterion": "States that there were no (or very few) predators on the ground, so flying wasn't needed to escape",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that flying uses a lot of energy, or that ground-living birds survived and reproduced without flying over many generations",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that introduced predators hunt on the ground, and flightless birds (or their eggs and chicks) can't escape them",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Why do most birds fly? Think about escaping danger.",
+      "How and where do stoats and rats hunt?"
+    ],
+    "solution": "No ground predators meant flight wasn't needed, and flying costs a lot of energy, so flightless birds survived well. Introduced mammals hunt on the ground, so flightless birds, and their eggs and chicks, can't escape."
+  },
+  {
+    "id": "s9.bio.classification.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "When a kākāpō senses danger, it freezes and stays completely still, and its green feathers blend in with the plants around it. This worked well against its natural predators, such as Haast's eagle, but it doesn't protect kākāpō from stoats. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its natural predators were birds that hunted by sight, but stoats hunt mainly by smell"
+      },
+      {
+        "id": "b",
+        "text": "Stoats are much bigger than the eagles that once hunted kākāpō"
+      },
+      {
+        "id": "c",
+        "text": "Kākāpō have lost the ability to freeze since stoats arrived"
+      },
+      {
+        "id": "d",
+        "text": "Stoats only hunt in the daytime, when kākāpō are easy to spot"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Stoats are small. Haast's eagle was the largest eagle known to have lived.",
+      "c": "Kākāpō still freeze when they are threatened. Adaptations don't disappear within a few lifetimes.",
+      "d": "Kākāpō are nocturnal, and stoats hunt by day and by night. The problem is how stoats find their prey."
+    },
+    "hints": [
+      "Camouflage and keeping still fool one particular sense.",
+      "How does a stoat find its prey?"
+    ],
+    "solution": "Staying still and being camouflaged works against predators that hunt **by sight**, like Haast's eagle and other birds of prey. Stoats hunt mainly **by smell**, and kākāpō have a strong, musty smell, so freezing doesn't hide them."
+  },
+  {
+    "id": "s9.bio.classification.q018",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Scientists sort organisms into groups that get smaller, with members that are more and more alike. Put these groups in order from the **largest** to the **smallest**.",
+    "items": [
+      {
+        "id": "k",
+        "text": "Kingdom"
+      },
+      {
+        "id": "p",
+        "text": "Phylum"
+      },
+      {
+        "id": "c",
+        "text": "Class"
+      },
+      {
+        "id": "o",
+        "text": "Order"
+      },
+      {
+        "id": "f",
+        "text": "Family"
+      },
+      {
+        "id": "g",
+        "text": "Genus"
+      },
+      {
+        "id": "s",
+        "text": "Species"
+      }
+    ],
+    "hints": [
+      "Kingdom is the largest group, and species is the smallest.",
+      "In a scientific name, the genus comes just before the species."
+    ],
+    "solution": "Kingdom → phylum → class → order → family → genus → species. A memory aid: **K**ing **P**hilip **C**ame **O**ver **F**or **G**ood **S**oup."
+  },
+  {
+    "id": "s9.bio.classification.q019",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "A wētā (an insect) and a spider are both arthropods. How many more legs does an adult spider have than an adult wētā?",
+    "answer": 2,
+    "hints": [
+      "How many legs does every insect have?",
+      "Spiders belong to a group called arachnids. How many legs do they have?"
+    ],
+    "solution": "Insects have 6 legs and spiders have 8 legs, so a spider has $8 - 6 = 2$ more legs."
+  },
+  {
+    "id": "s9.bio.classification.q020",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Archey's frog is one of New Zealand's native frogs. It lays its eggs in damp places on land, not in water, and its young skip the free-swimming tadpole stage. A student says this means it should be classified as a reptile. Explain why it is still classified as an amphibian.",
+    "modelAnswer": "Scientists classify organisms using many features, not just one. Archey's frog has smooth, moist skin with no scales, and it can take in oxygen through its skin. These are amphibian features. Reptiles have dry, scaly skin and lay eggs with leathery shells, but Archey's frog's eggs have no shell. They are covered in jelly and must stay damp. So even though it doesn't lay its eggs in water, most of its features match amphibians, not reptiles.",
+    "rubric": [
+      {
+        "criterion": "Gives an amphibian feature the frog has (e.g. smooth, moist skin with no scales; breathing through its skin; eggs with no shell)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a reptile feature the frog does not have (dry, scaly skin or leathery-shelled eggs)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that classification is based on many shared features, not on one feature such as where eggs are laid",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Compare the frog's skin and eggs with the features of reptiles.",
+      "Do scientists classify using one feature or many?"
+    ],
+    "solution": "Archey's frog has moist, scaleless skin and shell-less eggs, which are amphibian features. It has none of the key reptile features (dry, scaly skin and leathery eggs). Classification uses many features together, so it is an amphibian."
+  },
+  {
+    "id": "s9.bio.classification.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Ana says, \"Plants don't do respiration, because they don't breathe.\" Which statement best corrects her?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All living cells, including plant cells, respire to release energy from food. Breathing just moves air in and out."
+      },
+      {
+        "id": "b",
+        "text": "Plants only respire at night, when it is too dark for them to photosynthesise."
+      },
+      {
+        "id": "c",
+        "text": "Plants breathe in through their roots, so they are able to respire."
+      },
+      {
+        "id": "d",
+        "text": "Plants don't need any energy, so it doesn't matter that they don't respire."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plants respire all the time, day and night.",
+      "c": "Plants don't breathe. Gases enter plants by diffusion, which isn't the same as breathing.",
+      "d": "Plants need energy to grow, reproduce and carry out their other life processes."
+    },
+    "hints": [
+      "Respiration and breathing are not the same thing.",
+      "Which life process releases energy inside every living cell?"
+    ],
+    "solution": "**Respiration** is a chemical reaction that releases energy from glucose inside cells, and every living cell does it, including plant cells. **Breathing** is just moving air in and out of the lungs. Plants don't breathe, but they respire all the time."
+  },
+  {
+    "id": "s9.bio.classification.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The scientific name of the North Island brown kiwi is *Apteryx mantelli*. The rowi (Ōkārito kiwi) is *Apteryx rowi*. What does this tell you about these two birds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are different species in the same genus, so they are closely related"
+      },
+      {
+        "id": "b",
+        "text": "They are the same species, because their names start with the same word"
+      },
+      {
+        "id": "c",
+        "text": "They belong to different genera, because the second words are different"
+      },
+      {
+        "id": "d",
+        "text": "They are not related, because scientific names are chosen at random"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The first word is the genus. The second word names the species, and these are different.",
+      "c": "The genus is the first word, and both birds share it.",
+      "d": "Scientific names show relationships. Organisms in the same genus are closely related."
+    },
+    "hints": [
+      "In a scientific name, the first word is one level of classification and the second word is another."
+    ],
+    "solution": "A scientific name has two parts: the **genus** first, then the **species**. Both birds are in the genus *Apteryx*, so they are closely related, but they are different species."
+  },
+  {
+    "id": "s9.bio.classification.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "groupId": "s9.bio.classification.key1",
+    "part": "c",
+    "stem": "Use this dichotomous key to identify some New Zealand animals.\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has a backbone | Go to 2 |\n| 1b | Has no backbone | Go to 4 |\n| 2a | Has feathers | Go to 3 |\n| 2b | Has dry, scaly skin | Tuatara |\n| 3a | Can fly | Tūī |\n| 3b | Cannot fly | Kiwi |\n| 4a | Has jointed legs | Wētā |\n| 4b | Has no legs | Earthworm |",
+    "prompt": "A kākāpō is a large, flightless, green parrot with a short, hooked beak. What would this key identify a kākāpō as? Explain why, and describe how you would change the key so it can identify both the kiwi and the kākāpō.",
+    "modelAnswer": "A kākāpō has a backbone (1a → go to 2), feathers (2a → go to 3) and cannot fly (3b), so the key would wrongly identify it as a kiwi. This happens because the key has no statement that separates two flightless birds. To fix it, change 3b to \"Cannot fly → go to 5\" and add a new step: 5a \"Long, thin beak with nostrils at the tip → kiwi\" and 5b \"Short, hooked beak → kākāpō\".",
+    "rubric": [
+      {
+        "criterion": "Follows the key correctly (1a, 2a, 3b) and states that it identifies the kākāpō as a kiwi",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the key has no step that separates the two flightless birds",
+        "marks": 1
+      },
+      {
+        "criterion": "Adds a new pair of opposite statements, based on a clear physical feature (e.g. beak shape), that leads to kiwi and kākāpō",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Work through the key for the kākāpō step by step.",
+      "A new step needs two opposite statements about a feature you can see."
+    ],
+    "solution": "1a → 2a → 3b gives **kiwi**, which is wrong. The key needs one more step after 3b, for example: 5a long, thin beak with nostrils at the tip → kiwi; 5b short, hooked beak → kākāpō."
+  }
+]

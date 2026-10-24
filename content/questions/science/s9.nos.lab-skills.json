@@ -1,0 +1,354 @@
+[
+  {
+    "id": "s9.nos.lab-skills.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which flame do you get when the air hole of a Bunsen burner is **closed**?",
+    "options": [
+      { "id": "a", "text": "The yellow safety flame" },
+      { "id": "b", "text": "The blue heating flame" },
+      { "id": "c", "text": "No flame, because the gas won't light" },
+      { "id": "d", "text": "An extra-hot blue flame" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The blue flame needs the air hole open, so air mixes with the gas before it burns.",
+      "c": "The gas still lights. It burns with air around the top of the barrel.",
+      "d": "Closing the air hole gives a cooler flame, not a hotter one."
+    },
+    "hints": ["The safety flame is the one that is easy to see."],
+    "solution": "With the air hole closed you get the **yellow safety flame**. It is cooler and easy to see."
+  },
+  {
+    "id": "s9.nos.lab-skills.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the curved surface of a liquid in a measuring cylinder?",
+    "accepted": ["meniscus", "a meniscus", "menisci"],
+    "hints": ["It starts with \"m\". You read the volume from the bottom of it."],
+    "solution": "The curved surface is the **meniscus**. For water, read the volume from the bottom of the meniscus, with your eye level with it."
+  },
+  {
+    "id": "s9.nos.lab-skills.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which piece of equipment should you use to measure out 35 mL of water accurately?",
+    "options": [
+      { "id": "a", "text": "Measuring cylinder" },
+      { "id": "b", "text": "Beaker" },
+      { "id": "c", "text": "Conical flask" },
+      { "id": "d", "text": "Test tube" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The marks on a beaker only give a rough volume.",
+      "c": "The marks on a conical flask only give a rough volume.",
+      "d": "A test tube has no scale, and most hold less than 35 mL."
+    },
+    "hints": ["You need the piece of equipment with an accurate scale."],
+    "solution": "A **measuring cylinder** has an accurate scale for measuring volume. Beakers and conical flasks only have rough markings."
+  },
+  {
+    "id": "s9.nos.lab-skills.q004",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each piece of equipment to its main use.",
+    "pairs": [
+      { "left": { "id": "beaker", "text": "Beaker" }, "right": { "id": "hold", "text": "Holding, mixing and heating liquids" } },
+      { "left": { "id": "cyl", "text": "Measuring cylinder" }, "right": { "id": "measure", "text": "Measuring the volume of a liquid accurately" } },
+      { "left": { "id": "tripod", "text": "Tripod" }, "right": { "id": "support", "text": "Holding a gauze mat and beaker above a Bunsen burner" } },
+      { "left": { "id": "flask", "text": "Conical flask" }, "right": { "id": "swirl", "text": "Swirling liquids without splashing them out" } },
+      { "left": { "id": "tube", "text": "Test tube" }, "right": { "id": "small", "text": "Holding small amounts of chemicals for a reaction" } }
+    ],
+    "hints": ["A conical flask has a narrow neck. Think about what that is good for."],
+    "solution": "Beaker → holding, mixing and heating liquids. Measuring cylinder → measuring volume accurately. Tripod → supporting a gauze mat and beaker over the flame. Conical flask → swirling without splashing. Test tube → small amounts for reactions."
+  },
+  {
+    "id": "s9.nos.lab-skills.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the things you should do to stay safe in a science lab.",
+    "options": [
+      { "id": "a", "text": "Wear safety glasses when heating or using chemicals" },
+      { "id": "b", "text": "Tie back long hair" },
+      { "id": "c", "text": "Eat your lunch at the bench if you finish early" },
+      { "id": "d", "text": "Tell the teacher straight away about spills or breakages" },
+      { "id": "e", "text": "Smell a chemical by putting your nose right over it" },
+      { "id": "f", "text": "Stand up when you are heating something" }
+    ],
+    "correct": ["a", "b", "d", "f"],
+    "hints": ["Two of these could let chemicals get into your body.", "Think about eyes, hair, spills and moving out of the way."],
+    "solution": "Safe: **safety glasses** (protect your eyes), **tie back hair** (it can catch fire), **report spills and breakages** (so they're dealt with safely) and **stand when heating** (so you can move away quickly). Never eat in the lab, and waft smells towards your nose instead of sniffing directly."
+  },
+  {
+    "id": "s9.nos.lab-skills.q006",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "Put the steps for lighting a Bunsen burner in the correct order.",
+    "items": [
+      { "id": "mat", "text": "Put the Bunsen burner on a heatproof mat and connect the hose to the gas tap" },
+      { "id": "close", "text": "Close the air hole" },
+      { "id": "match", "text": "Light the match and hold it just above the top of the barrel" },
+      { "id": "gas", "text": "Turn on the gas tap" },
+      { "id": "open", "text": "Open the air hole to get a blue flame for heating" }
+    ],
+    "hints": ["The flame should be ready **before** any gas comes out.", "You always light the Bunsen burner on the safety flame."],
+    "solution": "Heatproof mat and hose → close the air hole → light the match → turn on the gas → open the air hole to heat. Lighting the match first stops unburnt gas building up, and starting with the air hole closed gives a visible yellow flame."
+  },
+  {
+    "id": "s9.nos.lab-skills.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "When the air hole of a Bunsen burner is closed, the flame is [[a]] and is called the [[b]] flame. When the air hole is open, the flame is blue and much [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["yellow"], "options": ["yellow", "blue", "invisible"] },
+      { "id": "b", "accepted": ["safety"], "options": ["safety", "heating", "roaring"] },
+      { "id": "c", "accepted": ["hotter"], "options": ["hotter", "cooler", "sootier"] }
+    ],
+    "hints": ["The flame you leave on when you're not heating has to be easy to see."],
+    "solution": "Air hole closed: **yellow** **safety** flame. Air hole open: blue flame, which is much **hotter** and is used for heating."
+  },
+  {
+    "id": "s9.nos.lab-skills.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Why should you switch a Bunsen burner back to the safety flame when you are not heating anything?",
+    "options": [
+      { "id": "a", "text": "It is bright yellow, so people can see the burner is lit" },
+      { "id": "b", "text": "It is the hottest flame, so it keeps the equipment warm" },
+      { "id": "c", "text": "It stops soot building up on the equipment" },
+      { "id": "d", "text": "It is quieter, so you can hear the teacher" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The yellow safety flame is cooler than the blue flame.",
+      "c": "It's the other way round: the yellow flame is the one that makes soot.",
+      "d": "It is quieter, but that isn't the safety reason."
+    },
+    "hints": ["What is the danger of a flame that is hard to see?"],
+    "solution": "The blue flame is almost invisible in a bright room, so someone could reach across it and get burned. The **yellow safety flame is easy to see**, so everyone knows the burner is on."
+  },
+  {
+    "id": "s9.nos.lab-skills.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name of the square of wire mesh that sits on a tripod, supports a beaker and spreads the heat evenly?",
+    "accepted": ["gauze mat", "gauze", "wire gauze", "gauze square", "gauze pad", "ceramic gauze"],
+    "hints": ["It's a ______ mat."],
+    "solution": "A **gauze mat** (wire gauze). It supports the beaker on the tripod and spreads the heat from the flame across the bottom of the beaker."
+  },
+  {
+    "id": "s9.nos.lab-skills.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "What volume of water is in this measuring cylinder?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 260 310' width='260' height='310' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><path d='M 101 114 Q 135.0 126 169 114 L 169 298 L 101 298 Z' fill='#bfdbfe' stroke='#2563eb' stroke-width='1.5'/><path d='M 100 20 L 100 298 L 170 298 L 170 20' fill='none' stroke='#1f2937' stroke-width='2'/><line x1='75' y1='298' x2='195' y2='298' stroke='#1f2937' stroke-width='3'/><line x1='100' y1='250.0' x2='118' y2='250.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='250.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>30</text><line x1='100' y1='240.0' x2='109' y2='240.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='230.0' x2='109' y2='230.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='220.0' x2='109' y2='220.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='210.0' x2='109' y2='210.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='200.0' x2='118' y2='200.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='200.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>35</text><line x1='100' y1='190.0' x2='109' y2='190.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='180.0' x2='109' y2='180.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='170.0' x2='109' y2='170.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='160.0' x2='109' y2='160.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='150.0' x2='118' y2='150.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='150.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>40</text><line x1='100' y1='140.0' x2='109' y2='140.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='130.0' x2='109' y2='130.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='120.0' x2='109' y2='120.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='110.0' x2='109' y2='110.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='100.0' x2='118' y2='100.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='100.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>45</text><line x1='100' y1='90.0' x2='109' y2='90.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='80.0' x2='109' y2='80.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='70.0' x2='109' y2='70.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='60.0' x2='109' y2='60.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='50.0' x2='118' y2='50.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='50.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>50</text><text x='92' y='30' text-anchor='end' fill='#1f2937'>mL</text></svg>", "alt": "Measuring cylinder with a scale from 30 to 50 mL, labelled every 5 mL with a small mark every 1 mL. The bottom of the meniscus is on the third small mark above 40." },
+    "answer": 43,
+    "units": "mL",
+    "hints": ["First work out what each small mark is worth: count the spaces between 40 and 45.", "Read from the **bottom** of the curved surface."],
+    "solution": "There are 5 spaces between 40 mL and 45 mL, so each small mark is $5 \\div 5 = 1$ mL. The bottom of the meniscus is 3 marks above 40, so the volume is **43 mL**."
+  },
+  {
+    "id": "s9.nos.lab-skills.q011",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "What volume of water is in this measuring cylinder?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 260 310' width='260' height='310' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><path d='M 101 174 Q 135.0 186 169 174 L 169 298 L 101 298 Z' fill='#bfdbfe' stroke='#2563eb' stroke-width='1.5'/><path d='M 100 20 L 100 298 L 170 298 L 170 20' fill='none' stroke='#1f2937' stroke-width='2'/><line x1='75' y1='298' x2='195' y2='298' stroke='#1f2937' stroke-width='3'/><line x1='100' y1='250.0' x2='118' y2='250.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='250.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>60</text><line x1='100' y1='240.0' x2='109' y2='240.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='230.0' x2='109' y2='230.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='220.0' x2='109' y2='220.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='210.0' x2='109' y2='210.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='200.0' x2='118' y2='200.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='200.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>70</text><line x1='100' y1='190.0' x2='109' y2='190.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='180.0' x2='109' y2='180.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='170.0' x2='109' y2='170.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='160.0' x2='109' y2='160.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='150.0' x2='118' y2='150.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='150.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>80</text><line x1='100' y1='140.0' x2='109' y2='140.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='130.0' x2='109' y2='130.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='120.0' x2='109' y2='120.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='110.0' x2='109' y2='110.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='100.0' x2='118' y2='100.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='100.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>90</text><line x1='100' y1='90.0' x2='109' y2='90.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='80.0' x2='109' y2='80.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='70.0' x2='109' y2='70.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='60.0' x2='109' y2='60.0' stroke='#1f2937' stroke-width='1'/><line x1='100' y1='50.0' x2='118' y2='50.0' stroke='#1f2937' stroke-width='1.5'/><text x='92' y='50.0' text-anchor='end' dominant-baseline='middle' fill='#1f2937'>100</text><text x='92' y='30' text-anchor='end' fill='#1f2937'>mL</text></svg>", "alt": "Measuring cylinder with a scale from 60 to 100 mL, labelled every 10 mL with a small mark every 2 mL. The bottom of the meniscus is on the second small mark above 70." },
+    "answer": 74,
+    "units": "mL",
+    "hints": ["Count the spaces between 70 and 80. How many mL is each one worth?", "Read from the bottom of the meniscus."],
+    "solution": "There are 5 spaces between 70 mL and 80 mL, so each small mark is $10 \\div 5 = 2$ mL. The bottom of the meniscus is 2 marks above 70, so the volume is $70 + 2 \\times 2 =$ **74 mL**. (A common mistake is to assume each mark is 1 mL and answer 72 mL.)"
+  },
+  {
+    "id": "s9.nos.lab-skills.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which is the safest way to heat a liquid in a test tube?",
+    "options": [
+      { "id": "a", "text": "Hold it with a test-tube holder, point it away from everyone, and heat it gently while moving it" },
+      { "id": "b", "text": "Hold it with your fingers near the top so you can feel when it gets hot" },
+      { "id": "c", "text": "Point the open end towards yourself so you can watch the liquid closely" },
+      { "id": "d", "text": "Fill it right to the top and hold it still in the hottest part of the flame" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Glass gets hot very quickly. Always use a test-tube holder.",
+      "c": "Hot liquid can suddenly spit out of the tube, so never point it at anyone, including yourself.",
+      "d": "A full tube held still can boil over or spit out. Fill it no more than about a third and keep it moving."
+    },
+    "hints": ["Think about what happens if the liquid suddenly boils and spits out."],
+    "solution": "Use a **test-tube holder**, point the open end **away from people**, and heat **gently while moving** the tube so it doesn't boil suddenly. Fill it no more than about a third full."
+  },
+  {
+    "id": "s9.nos.lab-skills.q013",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Ana wants to heat 100 mL of water in a beaker using a Bunsen burner. As well as the beaker, which **other** pieces of equipment does she need? Select all that apply.",
+    "options": [
+      { "id": "a", "text": "Tripod" },
+      { "id": "b", "text": "Gauze mat" },
+      { "id": "c", "text": "Heatproof mat" },
+      { "id": "d", "text": "Test-tube holder" },
+      { "id": "e", "text": "Conical flask" },
+      { "id": "f", "text": "Bunsen burner" }
+    ],
+    "correct": ["a", "b", "c", "f"],
+    "hints": ["The beaker needs to be held safely above the flame.", "Something must protect the bench under the burner."],
+    "solution": "She needs a **Bunsen burner** on a **heatproof mat**, with a **tripod** and **gauze mat** to hold the beaker above the flame. A test-tube holder is for test tubes, and a conical flask isn't needed because the water is already in the beaker."
+  },
+  {
+    "id": "s9.nos.lab-skills.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Where should your eye be when you read the volume in a measuring cylinder?",
+    "options": [
+      { "id": "a", "text": "Level with the bottom of the meniscus" },
+      { "id": "b", "text": "Above the liquid, looking down into the cylinder" },
+      { "id": "c", "text": "Below the liquid, looking up at it" },
+      { "id": "d", "text": "Level with the top of the cylinder" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Looking from above gives a reading that is too high (parallax error).",
+      "c": "Looking from below gives a reading that is too low (parallax error).",
+      "d": "Your eye needs to be level with the liquid surface, not the top of the cylinder."
+    },
+    "hints": ["Reading at an angle causes parallax error."],
+    "solution": "Put your eye **level with the bottom of the meniscus**. Reading from above or below gives a wrong value. This is called parallax error."
+  },
+  {
+    "id": "s9.nos.lab-skills.q015",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "A bottle of ethanol has a hazard symbol showing a flame. What one word describes what this symbol warns you about?",
+    "accepted": ["flammable", "inflammable", "highly flammable", "it is flammable"],
+    "hints": ["It describes a substance that catches fire easily."],
+    "solution": "The flame symbol means **flammable**: the substance catches fire easily, so keep it well away from Bunsen flames and other heat sources."
+  },
+  {
+    "id": "s9.nos.lab-skills.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Where is the hottest part of a blue Bunsen burner flame?",
+    "options": [
+      { "id": "a", "text": "Just above the tip of the inner blue cone" },
+      { "id": "b", "text": "Inside the inner blue cone, near the top of the barrel" },
+      { "id": "c", "text": "At the very top of the flame" },
+      { "id": "d", "text": "Every part of the flame is the same temperature" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The inner cone holds gas that hasn't burned yet, so it is cooler.",
+      "c": "The flame cools as it rises away from where the gas burns.",
+      "d": "Different parts of the flame are at different temperatures."
+    },
+    "hints": ["The inner cone contains gas and air that haven't burned yet."],
+    "solution": "The hottest part is **just above the tip of the inner blue cone**. Hold things you are heating there."
+  },
+  {
+    "id": "s9.nos.lab-skills.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "After heating some water, Aroha notices the bottom of her beaker is covered in black soot. What has she most likely done wrong?",
+    "options": [
+      { "id": "a", "text": "She heated it with the yellow safety flame instead of the blue flame" },
+      { "id": "b", "text": "She had the air hole fully open" },
+      { "id": "c", "text": "She put a gauze mat between the beaker and the flame" },
+      { "id": "d", "text": "She heated the water for too long" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A fully open air hole gives the clean blue flame, which doesn't make soot.",
+      "c": "A gauze mat is the correct way to heat a beaker. It doesn't cause soot.",
+      "d": "A blue flame stays clean no matter how long you heat with it."
+    },
+    "hints": ["Which flame makes soot?"],
+    "solution": "The yellow safety flame makes soot because the gas doesn't burn completely. She should have **opened the air hole** to heat with the blue flame, which is hotter and clean."
+  },
+  {
+    "id": "s9.nos.lab-skills.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain why we use the **blue** flame for heating, but switch back to the **yellow safety flame** when the Bunsen burner is not being used.",
+    "modelAnswer": "The blue flame (air hole open) is much hotter and doesn't leave soot on the equipment, so it heats things quickly and cleanly. But the blue flame is very hard to see in a bright lab, so someone could put their hand or sleeve in it by accident. The yellow safety flame is bright and easy to see, so everyone knows the burner is lit and won't get burned.",
+    "rubric": [
+      { "criterion": "States the blue flame is hotter (and/or clean, with no soot), so it is best for heating", "marks": 1 },
+      { "criterion": "States the blue flame is hard to see / nearly invisible", "marks": 1 },
+      { "criterion": "Explains the yellow flame is easy to see, so people know it is lit and avoid being burned", "marks": 1 }
+    ],
+    "hints": ["Think about two things: how hot each flame is, and how easy each one is to see."],
+    "solution": "Blue flame: hotter and clean, so it is good for heating, but nearly invisible. Yellow flame: cooler and sooty, but easy to see, which makes it the safe choice when the burner is just sitting there."
+  },
+  {
+    "id": "s9.nos.lab-skills.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Which of these would measure 18 mL of water most accurately?",
+    "options": [
+      { "id": "a", "text": "A 25 mL measuring cylinder" },
+      { "id": "b", "text": "A 100 mL measuring cylinder" },
+      { "id": "c", "text": "A 50 mL beaker" },
+      { "id": "d", "text": "A 250 mL conical flask" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It would work, but its scale marks are further apart in mL, so it's less precise for a small volume.",
+      "c": "The marks on a beaker only give a rough volume.",
+      "d": "The marks on a conical flask only give a rough volume, and it's far too big."
+    },
+    "hints": ["Use a measuring cylinder, but which size?", "A smaller cylinder has finer scale marks."],
+    "solution": "Use the **smallest measuring cylinder that holds the volume**: the 25 mL cylinder. Its scale has smaller divisions than a 100 mL cylinder, so you can read 18 mL more accurately."
+  },
+  {
+    "id": "s9.nos.lab-skills.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "Sione is heating some copper sulfate solution in a test tube. He is sitting down, his long hair is loose, he isn't wearing safety glasses, and the open end of the test tube is pointing at his lab partner.\n\nDescribe **four** changes Sione should make, and give a reason for each.",
+    "modelAnswer": "1. Stand up while heating, so he can move away quickly if the hot liquid spills.\n2. Tie his hair back, so it can't catch fire in the Bunsen flame.\n3. Wear safety glasses, to protect his eyes if hot liquid spits out.\n4. Point the test tube away from people, because hot liquid can suddenly spit out of the tube and burn someone.",
+    "rubric": [
+      { "criterion": "Stand up, with a reason (can move away quickly from spills)", "marks": 1 },
+      { "criterion": "Tie hair back, with a reason (it could catch fire)", "marks": 1 },
+      { "criterion": "Wear safety glasses, with a reason (protect eyes from splashes)", "marks": 1 },
+      { "criterion": "Point the test tube away from people, with a reason (hot liquid can spit out)", "marks": 1 }
+    ],
+    "hints": ["There are four problems in the description. Give one fix for each, plus why."],
+    "solution": "Each change needs a reason: **stand up** (move away from spills), **tie hair back** (fire risk), **wear safety glasses** (eye protection), **point the tube away from people** (hot liquid can spit out). Heating gently while moving the tube is also good practice."
+  },
+  {
+    "id": "s9.nos.lab-skills.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Mere reads the water level in a measuring cylinder by looking **down** at the meniscus from above. How will her reading compare with the true volume?",
+    "options": [
+      { "id": "a", "text": "It will be too high" },
+      { "id": "b", "text": "It will be too low" },
+      { "id": "c", "text": "It will be correct, because the meniscus is curved" },
+      { "id": "d", "text": "It will be correct, as long as she reads the bottom of the meniscus" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's what happens when you look up from below.",
+      "c": "The curve doesn't fix the problem. The angle you look from does matter.",
+      "d": "She must read the bottom of the meniscus **and** have her eye level with it."
+    },
+    "hints": ["The scale is on the outside of the cylinder, but the liquid surface is inside.", "Imagine a line from her eye, down through the meniscus. Where does it cross the scale?"],
+    "solution": "Her line of sight slopes downwards, so it crosses the scale on the outside of the cylinder **above** the real liquid level. Her reading will be **too high**. This is **parallax error**, and you avoid it by putting your eye level with the meniscus."
+  },
+  {
+    "id": "s9.nos.lab-skills.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The yellow safety flame leaves black soot on glassware, but the blue flame does not. Use the idea of **oxygen** to explain why.",
+    "modelAnswer": "With the air hole closed, air (and so oxygen) can only reach the gas at the top of the barrel, so there isn't enough oxygen for all the gas to burn. The gas burns incompletely, and some of the carbon is left as tiny soot particles. These glow yellow and stick to the glassware. With the air hole open, air mixes with the gas before it burns, so there is enough oxygen for complete combustion. The gas burns to carbon dioxide and water, with no soot, and gives out more heat.",
+    "rubric": [
+      { "criterion": "Air hole closed means not enough oxygen mixes with the gas", "marks": 1 },
+      { "criterion": "So the gas burns incompletely, leaving unburnt carbon as soot (which glows yellow)", "marks": 1 },
+      { "criterion": "Air hole open gives enough oxygen for complete combustion (carbon dioxide and water), so no soot", "marks": 1 }
+    ],
+    "hints": ["What does the air hole let in?", "Gas needs oxygen to burn completely. What is left over if it doesn't?"],
+    "solution": "Closed air hole → too little oxygen → **incomplete combustion** → unburnt carbon (soot). Open air hole → plenty of oxygen → **complete combustion** to carbon dioxide and water → no soot, and a hotter flame."
+  }
+]

@@ -86,6 +86,8 @@ export const NumericSchema = z.object({
   /** Unit shown after the input, e.g. "cm²", "$", "%". */
   units: z.string().max(12).optional(),
   form: z.enum(NUMERIC_FORMS).default('any'),
+  /** If the student writes "letter = value", the letter must be this (e.g. "y" for y = 3). */
+  variable: z.string().regex(/^[a-z]$/).optional(),
 });
 
 export const ExpressionSchema = z.object({

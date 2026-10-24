@@ -1,0 +1,354 @@
+[
+  {
+    "id": "s9.phy.energy.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each form of energy to an example.",
+    "pairs": [
+      { "left": { "id": "ke", "text": "Kinetic energy" }, "right": { "id": "car", "text": "A car driving along the road" } },
+      { "left": { "id": "gpe", "text": "Gravitational potential energy" }, "right": { "id": "shelf", "text": "A book on a high shelf" } },
+      { "left": { "id": "epe", "text": "Elastic potential energy" }, "right": { "id": "band", "text": "A stretched rubber band" } },
+      { "left": { "id": "chem", "text": "Chemical energy" }, "right": { "id": "food", "text": "A muesli bar" } },
+      { "left": { "id": "snd", "text": "Sound energy" }, "right": { "id": "drum", "text": "A vibrating drum skin" } }
+    ],
+    "hints": ["Potential energies are stored. Kinetic energy is energy of movement."],
+    "solution": "Kinetic → moving car. Gravitational potential → book up high. Elastic potential → stretched rubber band. Chemical → food. Sound → vibrating drum."
+  },
+  {
+    "id": "s9.phy.energy.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the unit of energy? (Give the name or the symbol.)",
+    "accepted": ["joule", "joules", "J"],
+    "hints": ["It's named after the scientist James Joule."],
+    "solution": "Energy is measured in **joules (J)**. 1 kJ = 1,000 J."
+  },
+  {
+    "id": "s9.phy.energy.q003",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "Food, petrol and batteries all store the same form of energy. What is it called?",
+    "accepted": ["chemical", "chemical energy", "chemical potential energy", "chemical potential"],
+    "hints": ["It's stored in the substances they are made of, and released by chemical reactions."],
+    "solution": "**Chemical (potential) energy.** It is released by chemical reactions such as respiration in your cells or burning petrol."
+  },
+  {
+    "id": "s9.phy.energy.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is a **renewable** energy source?",
+    "options": [
+      { "id": "a", "text": "Wind" },
+      { "id": "b", "text": "Coal" },
+      { "id": "c", "text": "Natural gas" },
+      { "id": "d", "text": "Oil" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Coal took millions of years to form and will run out, so it's non-renewable.",
+      "c": "Natural gas is a fossil fuel, so it's non-renewable.",
+      "d": "Oil is a fossil fuel, so it's non-renewable."
+    },
+    "hints": ["Renewable sources are naturally replaced and won't run out."],
+    "solution": "**Wind** keeps blowing and won't run out, so it is renewable. Coal, natural gas and oil are fossil fuels, which are non-renewable."
+  },
+  {
+    "id": "s9.phy.energy.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "The law of conservation of energy says that energy cannot be [[a]] or destroyed. It can only be [[b]] from one form to another.",
+    "blanks": [
+      { "id": "a", "accepted": ["created"], "options": ["created", "measured", "stored"] },
+      { "id": "b", "accepted": ["transformed"], "options": ["transformed", "used up", "deleted"] }
+    ],
+    "hints": ["The total amount of energy always stays the same."],
+    "solution": "Energy cannot be **created** or destroyed. It can only be **transformed** from one form to another (or transferred from place to place)."
+  },
+  {
+    "id": "s9.phy.energy.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "A solar panel transforms [[a]] energy into [[b]] energy.",
+    "blanks": [
+      { "id": "a", "accepted": ["light"], "options": ["light", "chemical", "sound", "kinetic"] },
+      { "id": "b", "accepted": ["electrical"], "options": ["electrical", "chemical", "sound", "kinetic"] }
+    ],
+    "hints": ["What goes into a solar panel, and what comes out along the wires?"],
+    "solution": "A solar panel transforms **light** energy into **electrical** energy. Some of the energy is also wasted as heat."
+  },
+  {
+    "id": "s9.phy.energy.q007",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the renewable energy sources that are used to generate electricity in New Zealand.",
+    "options": [
+      { "id": "a", "text": "Hydro (falling water)" },
+      { "id": "b", "text": "Geothermal" },
+      { "id": "c", "text": "Wind" },
+      { "id": "d", "text": "Solar" },
+      { "id": "e", "text": "Coal" },
+      { "id": "f", "text": "Natural gas" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Two of the options are fossil fuels."],
+    "solution": "**Hydro, geothermal, wind and solar** are renewable, and all are used in NZ. Hydro is the biggest source of our electricity. Coal and natural gas are non-renewable fossil fuels."
+  },
+  {
+    "id": "s9.phy.energy.q008",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each type of heat transfer to an example.",
+    "pairs": [
+      { "left": { "id": "cond", "text": "Conduction" }, "right": { "id": "spoon", "text": "A metal spoon in hot tea gets hot at the handle" } },
+      { "left": { "id": "conv", "text": "Convection" }, "right": { "id": "air", "text": "Warm air rises from a heater and circulates around a room" } },
+      { "left": { "id": "rad", "text": "Radiation" }, "right": { "id": "sun", "text": "You feel the Sun's warmth on your face" } }
+    ],
+    "hints": ["Which method can cross empty space? Which one needs a fluid that can flow?"],
+    "solution": "Conduction → heat travels through the solid spoon. Convection → warm air rises and circulates. Radiation → infrared from the Sun crosses empty space."
+  },
+  {
+    "id": "s9.phy.energy.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Which type of heat transfer can travel through empty space, which is how the Sun's heat reaches Earth?",
+    "accepted": ["radiation", "infrared radiation", "infrared", "thermal radiation", "heat radiation"],
+    "hints": ["Space is a vacuum, with no particles to pass the heat along."],
+    "solution": "**Radiation** (infrared radiation). It needs no particles, so it can cross the vacuum of space."
+  },
+  {
+    "id": "s9.phy.energy.q010",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put the energy changes in a hydro power station in order, starting with the water in the lake.",
+    "items": [
+      { "id": "gpe", "text": "Gravitational potential energy of water stored high in the lake" },
+      { "id": "kew", "text": "Kinetic energy of water rushing down the pipes" },
+      { "id": "ket", "text": "Kinetic energy of the spinning turbine" },
+      { "id": "el", "text": "Electrical energy from the generator" }
+    ],
+    "hints": ["The water starts high up and still. What does it have because of its height?"],
+    "solution": "Gravitational potential (water up high) → kinetic (falling water) → kinetic (turbine) → electrical (generator)."
+  },
+  {
+    "id": "s9.phy.energy.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "In every energy transformation, some energy is \"wasted\". What usually happens to it?",
+    "options": [
+      { "id": "a", "text": "It becomes heat (thermal energy) that spreads out into the surroundings" },
+      { "id": "b", "text": "It is destroyed" },
+      { "id": "c", "text": "It is used up and disappears" },
+      { "id": "d", "text": "It turns back into the original form of energy" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Energy can never be destroyed. That's the law of conservation of energy.",
+      "c": "Energy doesn't disappear. It changes into a less useful form.",
+      "d": "It changes into a less useful form, usually heat, not back into the original form."
+    },
+    "hints": ["Energy is conserved, so it must still exist somewhere. What form is it in?"],
+    "solution": "The wasted energy usually becomes **heat** (thermal energy), often caused by friction or electric currents. It spreads into the surroundings, so we can't use it. It isn't destroyed."
+  },
+  {
+    "id": "s9.phy.energy.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "An electric motor is supplied with 800 J of electrical energy. It gives out 600 J of useful kinetic energy. What is its efficiency?",
+    "answer": 75,
+    "units": "%",
+    "hints": ["Efficiency = useful energy out ÷ total energy in × 100%."],
+    "solution": "$\\text{efficiency} = \\dfrac{600}{800} \\times 100\\% = 75\\%$. The other 200 J is wasted as heat and sound."
+  },
+  {
+    "id": "s9.phy.energy.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A heater near the floor on one side of a room gradually warms the whole room. How does the heat get around the room?",
+    "options": [
+      { "id": "a", "text": "Warm air becomes less dense and rises; cooler air sinks to replace it, making a convection current" },
+      { "id": "b", "text": "Heat is conducted quickly through the air from particle to particle" },
+      { "id": "c", "text": "Cold air rises because it is lighter" },
+      { "id": "d", "text": "The heater pushes cold out of the room" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Air is a poor conductor (an insulator), so conduction through air is very slow.",
+      "c": "It's the other way round: warm air is less dense and rises.",
+      "d": "Cold isn't a thing that moves. Heat flows from hot to cold."
+    },
+    "hints": ["What happens to the density of air when it is heated?"],
+    "solution": "Air near the heater warms, expands, becomes **less dense** and **rises**. Cooler, denser air sinks and moves in to be heated. This **convection current** carries heat around the room."
+  },
+  {
+    "id": "s9.phy.energy.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A bungy jumper leaps from the Kawarau Bridge near Queenstown. At the very lowest point, when the cord is stretched as far as it goes, what form of energy is mainly stored in the cord?",
+    "options": [
+      { "id": "a", "text": "Elastic potential energy" },
+      { "id": "b", "text": "Kinetic energy" },
+      { "id": "c", "text": "Gravitational potential energy" },
+      { "id": "d", "text": "Chemical energy" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "At the lowest point the jumper stops for an instant, so there's almost no kinetic energy.",
+      "c": "The jumper is at the lowest point, so gravitational potential energy is at its minimum.",
+      "d": "Chemical energy is stored in food and fuels, not in a stretched cord."
+    },
+    "hints": ["The cord is stretched. What kind of energy do stretched things store?"],
+    "solution": "The stretched cord stores **elastic potential energy**. The jumper's gravitational potential energy became kinetic energy during the fall, and then elastic energy in the cord. The cord then pulls the jumper back up."
+  },
+  {
+    "id": "s9.phy.energy.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do pots and pans often have handles made of wood or plastic?",
+    "options": [
+      { "id": "a", "text": "Wood and plastic are poor conductors (insulators), so heat doesn't travel along them quickly" },
+      { "id": "b", "text": "Wood and plastic are good conductors, so the heat escapes" },
+      { "id": "c", "text": "Wood and plastic reflect heat radiation" },
+      { "id": "d", "text": "Wood and plastic stop convection in the food" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "If they were good conductors, the handle would get hot and burn you.",
+      "c": "The handle is protected mainly because heat can't conduct along it, not by reflection.",
+      "d": "The handle has nothing to do with convection in the food."
+    },
+    "hints": ["Heat travels along a solid handle by conduction."],
+    "solution": "Wood and plastic are **insulators** (poor conductors), so heat conducts along them very slowly and the handle stays cool enough to hold."
+  },
+  {
+    "id": "s9.phy.energy.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "An electric kettle is 85% efficient. It is supplied with 200 kJ of electrical energy. How much energy is wasted?",
+    "answer": 30,
+    "units": "kJ",
+    "hints": ["85% of the energy is useful. What percentage is wasted?", "Find that percentage of 200 kJ."],
+    "solution": "Useful energy $= 0.85 \\times 200 = 170$ kJ. Wasted energy $= 200 - 170 = 30$ kJ (or 15% of 200 kJ). It is mostly lost as heat to the surroundings."
+  },
+  {
+    "id": "s9.phy.energy.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A torch's batteries supply 100 J of energy. The bulb gives out 20 J of light.\n\nDescribe the energy transformations in the torch, say how much energy is wasted and in what form, and explain how this fits the law of conservation of energy.",
+    "modelAnswer": "Chemical energy in the batteries is transformed into electrical energy, which the bulb transforms into light energy (useful) and heat (wasted). 100 − 20 = 80 J is wasted, mostly as heat. Energy is conserved because the total energy out (20 J of light + 80 J of heat) equals the 100 J put in. No energy was created or destroyed; most of it was just transformed into a form we didn't want.",
+    "rubric": [
+      { "criterion": "Correct chain: chemical → electrical → light (+ heat)", "marks": 1 },
+      { "criterion": "80 J is wasted, mainly as heat (thermal energy)", "marks": 1 },
+      { "criterion": "Conservation: 20 J + 80 J = 100 J; energy is not created or destroyed, only transformed", "marks": 1 }
+    ],
+    "hints": ["Where is the energy stored at the start?", "If 20 J is light, where did the rest of the 100 J go?"],
+    "solution": "Chemical → electrical → light + heat. Wasted = 80 J (heat). Total out = 20 + 80 = 100 J = total in, so energy is conserved."
+  },
+  {
+    "id": "s9.phy.energy.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A vacuum flask keeps soup hot for hours. Why does the **vacuum** between its two walls reduce heat loss?",
+    "options": [
+      { "id": "a", "text": "A vacuum has no particles, so heat can't pass through it by conduction or convection" },
+      { "id": "b", "text": "A vacuum is very cold, so it keeps the soup cool" },
+      { "id": "c", "text": "A vacuum reflects all infrared radiation" },
+      { "id": "d", "text": "A vacuum sucks the heat back into the soup" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A vacuum flask keeps hot things hot. A vacuum doesn't have a temperature of its own.",
+      "c": "Radiation can cross a vacuum. The **shiny walls** reduce radiation.",
+      "d": "A vacuum doesn't suck heat anywhere. It just has no particles to carry heat."
+    },
+    "hints": ["Conduction and convection both need particles. What is a vacuum?"],
+    "solution": "Conduction and convection both need particles to carry the energy. A vacuum has **no particles**, so it blocks both. The shiny walls reflect radiation, and the stopper stops convection out of the top."
+  },
+  {
+    "id": "s9.phy.energy.q019",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the changes that would reduce heat loss from a house in winter.",
+    "options": [
+      { "id": "a", "text": "Putting insulation in the ceiling" },
+      { "id": "b", "text": "Installing double-glazed windows" },
+      { "id": "c", "text": "Closing thick curtains at night" },
+      { "id": "d", "text": "Leaving the windows open" },
+      { "id": "e", "text": "Blocking draughts around doors" },
+      { "id": "f", "text": "Replacing carpet with bare concrete floors" }
+    ],
+    "correct": ["a", "b", "c", "e"],
+    "hints": ["Trapped air is a poor conductor.", "Warm air escaping through gaps is convection."],
+    "solution": "**Ceiling insulation, double glazing and thick curtains** all trap air, which is a poor conductor. **Blocking draughts** stops warm air escaping by convection. Open windows let warm air escape, and bare concrete conducts heat away faster than carpet."
+  },
+  {
+    "id": "s9.phy.energy.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain the difference between renewable and non-renewable energy sources. Give a New Zealand example of each, and describe one disadvantage of a renewable source.",
+    "modelAnswer": "A renewable energy source is naturally replaced and won't run out, for example hydro power from the Waikato River, geothermal power at Wairākei, or wind. A non-renewable source took millions of years to form and will eventually run out, for example coal burned at Huntly Power Station or natural gas from Taranaki. A disadvantage of hydro is that it depends on rain: in a dry year the lakes get low and less electricity can be made. (Other examples: wind farms only work when the wind blows; dams flood land and change rivers.)",
+    "rubric": [
+      { "criterion": "Renewable = naturally replaced / won't run out, with a valid NZ example (hydro, geothermal, wind, solar)", "marks": 1 },
+      { "criterion": "Non-renewable = will run out / took millions of years to form, with a valid example (coal, natural gas, oil)", "marks": 1 },
+      { "criterion": "A valid disadvantage of a named renewable source (e.g. hydro needs rain, wind is variable, dams affect rivers)", "marks": 1 }
+    ],
+    "hints": ["Think about whether the source can run out.", "Even renewable sources have problems. What happens to hydro in a drought?"],
+    "solution": "Renewable sources are replaced naturally (hydro, geothermal, wind, solar). Non-renewable sources will run out (coal, gas, oil). One disadvantage: hydro output drops in dry years, and wind only works when it's windy."
+  },
+  {
+    "id": "s9.phy.energy.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A ball is dropped and bounces. Each bounce is lower than the one before. What has happened to the energy?",
+    "options": [
+      { "id": "a", "text": "Some is transformed into heat and sound at each bounce (and by air resistance), so less is left to lift the ball" },
+      { "id": "b", "text": "Some energy is destroyed every time the ball hits the ground" },
+      { "id": "c", "text": "The ball's gravitational potential energy is used up and disappears" },
+      { "id": "d", "text": "The energy is stored in the ball and makes it heavier" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Energy can't be destroyed. It is transformed into other forms.",
+      "c": "It doesn't disappear. It turns into kinetic energy, then partly into heat and sound.",
+      "d": "The ball's mass doesn't change."
+    },
+    "hints": ["What can you hear when the ball hits the ground?", "Energy is always conserved."],
+    "solution": "At each bounce some of the energy is transformed into **sound** and **heat** (in the ball, the ground and the air). Energy is conserved, but less of it is left as useful kinetic and gravitational potential energy, so each bounce is lower."
+  },
+  {
+    "id": "s9.phy.energy.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "On a cold morning, a metal seat and a wooden seat in a park are at the **same** temperature. The metal seat feels much colder to sit on. Why?",
+    "options": [
+      { "id": "a", "text": "Metal is a better conductor, so it carries heat away from your body faster" },
+      { "id": "b", "text": "The metal is at a lower temperature than the wood" },
+      { "id": "c", "text": "Metal lets cold flow into your body" },
+      { "id": "d", "text": "Wood produces its own heat" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The question says they are at the same temperature. Left outside overnight, they both cool to the air temperature.",
+      "c": "Cold doesn't flow. Heat flows from your warm body into the colder seat.",
+      "d": "Wood doesn't make heat. It is just a poor conductor."
+    },
+    "hints": ["Heat flows from your warm body into the seat. Which material conducts heat better?"],
+    "solution": "Both seats are at the same temperature, but **metal is a good conductor**, so heat flows from your body into the metal much faster than into the wood (an insulator). You lose heat faster, so the metal **feels** colder."
+  },
+  {
+    "id": "s9.phy.energy.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Energy from the Sun ends up as electrical energy at a hydro power station. Explain the steps in how this happens.",
+    "modelAnswer": "Energy from the Sun heats water in the sea, lakes and rivers, so some of it evaporates. The water vapour rises, cools and condenses into clouds, then falls as rain or snow on high ground. This water collects in a lake behind a dam, high up, so it has gravitational potential energy. When it flows down through pipes, this becomes kinetic energy, which turns the turbines. The generator transforms the turbines' kinetic energy into electrical energy.",
+    "rubric": [
+      { "criterion": "The Sun's energy evaporates water, which later falls as rain (or snow) on high ground", "marks": 1 },
+      { "criterion": "Water stored high up in a lake / behind a dam has gravitational potential energy", "marks": 1 },
+      { "criterion": "Falling water's kinetic energy turns turbines, and the generator transforms this into electrical energy", "marks": 1 }
+    ],
+    "hints": ["Think about the water cycle. How does water get up into the hills?", "What form of energy does water have when it's stored high up?"],
+    "solution": "Sun → evaporation → rain in the hills → water stored high in lakes (gravitational potential energy) → falls through turbines (kinetic energy) → generator (electrical energy)."
+  }
+]

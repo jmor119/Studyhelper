@@ -1,0 +1,17 @@
+[
+  { "id": "s9.phy.pressure-floating.f01", "front": "What is **density**?", "back": "How much mass is packed into a certain volume: mass per unit volume." },
+  { "id": "s9.phy.pressure-floating.f02", "front": "Formula for density", "back": "$\\rho = \\dfrac{m}{V}$: density = mass ÷ volume." },
+  { "id": "s9.phy.pressure-floating.f03", "front": "Units of density", "back": "g/cm³ (or kg/m³). Water is 1.00 g/cm³ = 1,000 kg/m³." },
+  { "id": "s9.phy.pressure-floating.f04", "front": "How do you find the volume of an irregular object?", "back": "Displacement: lower it into a measuring cylinder of water. The rise in the water level is its volume (1 mL = 1 cm³)." },
+  { "id": "s9.phy.pressure-floating.f05", "front": "What is **upthrust** (buoyancy)?", "back": "The upward force a fluid (liquid or gas) pushes on an object in it." },
+  { "id": "s9.phy.pressure-floating.f06", "front": "When does an object float?", "back": "When it is less dense than the fluid. A floating object has upthrust = weight." },
+  { "id": "s9.phy.pressure-floating.f07", "front": "When does an object sink?", "back": "When it is denser than the fluid, so its weight is bigger than the upthrust." },
+  { "id": "s9.phy.pressure-floating.f08", "front": "Why does a steel ship float?", "back": "Its hollow hull holds air, so its average density is less than water's, and it displaces a large volume of water, giving a big upthrust." },
+  { "id": "s9.phy.pressure-floating.f09", "front": "What is a **fluid**?", "back": "Any substance that can flow: a liquid or a gas." },
+  { "id": "s9.phy.pressure-floating.f10", "front": "What is **pressure**?", "back": "How concentrated a force is: the force acting on each unit of area. The same force on a smaller area gives more pressure." },
+  { "id": "s9.phy.pressure-floating.f11", "front": "How does pressure change with depth in a liquid?", "back": "It increases with depth, because there is more liquid above pushing down." },
+  { "id": "s9.phy.pressure-floating.f12", "front": "How does air pressure change with altitude?", "back": "It decreases as you go higher, because there is less air above you." },
+  { "id": "s9.phy.pressure-floating.f13", "front": "Why are dams thicker at the bottom?", "back": "Water pressure is greatest at the bottom, where the water is deepest." },
+  { "id": "s9.phy.pressure-floating.f14", "front": "Why do ships float higher in sea water than in fresh water?", "back": "Sea water is denser, so it gives more upthrust for each cubic metre displaced." },
+  { "id": "s9.phy.pressure-floating.f15", "front": "Why does a sealed chip packet puff up on a mountain?", "back": "The air pressure outside is lower than the pressure of the air sealed inside." }
+]

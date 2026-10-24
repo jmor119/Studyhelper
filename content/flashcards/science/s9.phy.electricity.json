@@ -1,0 +1,18 @@
+[
+  { "id": "s9.phy.electricity.f01", "front": "What is **static electricity**?", "back": "A build-up of electric charge that stays in one place on an object, usually caused by rubbing two insulators together." },
+  { "id": "s9.phy.electricity.f02", "front": "What moves when objects become charged by rubbing?", "back": "Electrons (negative charges). Positive charges don't move." },
+  { "id": "s9.phy.electricity.f03", "front": "Gaining vs losing electrons", "back": "Gaining electrons makes an object negative. Losing electrons makes it positive." },
+  { "id": "s9.phy.electricity.f04", "front": "The rule for charges", "back": "Like charges repel; unlike (opposite) charges attract." },
+  { "id": "s9.phy.electricity.f05", "front": "What is electric **current**?", "back": "The flow of electric charge around a circuit. Measured in amps (A) with an ammeter." },
+  { "id": "s9.phy.electricity.f06", "front": "What is **voltage**?", "back": "The \"push\" that drives the current (the energy given to the charges). Measured in volts (V) with a voltmeter." },
+  { "id": "s9.phy.electricity.f07", "front": "What is **resistance**?", "back": "How much a component opposes the current. Measured in ohms (Ω). More resistance means less current." },
+  { "id": "s9.phy.electricity.f08", "front": "How are ammeters and voltmeters connected?", "back": "Ammeter: in series (in the loop). Voltmeter: in parallel (across the component)." },
+  { "id": "s9.phy.electricity.f09", "front": "**Conductor** vs **insulator**", "back": "Conductors let current flow (metals, graphite). Insulators don't (plastic, rubber, glass, wood)." },
+  { "id": "s9.phy.electricity.f10", "front": "Why must a circuit be complete?", "back": "Current can only flow around an unbroken loop. An open switch or a gap stops it." },
+  { "id": "s9.phy.electricity.f11", "front": "Series circuit: current", "back": "The same everywhere, because there is only one path." },
+  { "id": "s9.phy.electricity.f12", "front": "Series circuit: voltage", "back": "Shared between the components. The voltages add up to the battery voltage." },
+  { "id": "s9.phy.electricity.f13", "front": "Parallel circuit: current", "back": "It splits between the branches, and the branch currents add up to the total current." },
+  { "id": "s9.phy.electricity.f14", "front": "Parallel circuit: voltage", "back": "Each branch gets the full battery voltage." },
+  { "id": "s9.phy.electricity.f15", "front": "What happens if one lamp breaks: series vs parallel?", "back": "Series: all the lamps go out. Parallel: the other lamps stay on." },
+  { "id": "s9.phy.electricity.f16", "front": "Symbols: lamp, cell, ammeter", "back": "Lamp: circle with a cross. Cell: long thin line and short thick line. Ammeter: circle with A." }
+]

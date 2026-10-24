@@ -1,0 +1,339 @@
+[
+  {
+    "id": "s9.phy.motion.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What is the SI unit of speed?",
+    "options": [
+      { "id": "a", "text": "metres per second (m/s)" },
+      { "id": "b", "text": "metres per second per second (m/s²)" },
+      { "id": "c", "text": "newtons (N)" },
+      { "id": "d", "text": "seconds (s)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "m/s² is the unit of acceleration.",
+      "c": "Newtons measure force.",
+      "d": "Seconds measure time."
+    },
+    "hints": ["Speed = distance ÷ time. Divide the units too."],
+    "solution": "Speed = distance (m) ÷ time (s), so the SI unit is **metres per second (m/s)**."
+  },
+  {
+    "id": "s9.phy.motion.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "The distance–time graph shows Tama's walk. In which section is Tama standing still?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='118.3' y1='18' x2='118.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='118.3' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='174.7' y1='18' x2='174.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='174.7' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='287.3' y1='18' x2='287.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='287.3' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='343.7' y1='18' x2='343.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='343.7' y='263' text-anchor='middle' fill='#4b5563'>50</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>60</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>40</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>60</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>80</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>100</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Distance (m)</text><polyline points='62.0,248.0 174.7,156.0 287.3,156.0 400.0,18.0' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='107.1' y='174.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>A</text><text x='231.0' y='139.9' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>B</text><text x='326.8' y='59.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>C</text></svg>", "alt": "Distance–time graph. Section A: a straight line from 0 m at 0 s to 40 m at 20 s. Section B: horizontal at 40 m from 20 s to 40 s. Section C: a straight line from 40 m at 40 s to 100 m at 60 s." },
+    "options": [
+      { "id": "a", "text": "Section A" },
+      { "id": "b", "text": "Section B" },
+      { "id": "c", "text": "Section C" },
+      { "id": "d", "text": "He never stops" }
+    ],
+    "correct": "b",
+    "shuffle": false,
+    "feedback": {
+      "a": "In section A his distance is increasing, so he is moving.",
+      "c": "In section C his distance is increasing quickly, so he is moving fast.",
+      "d": "Look for a part of the graph where the distance stays the same."
+    },
+    "hints": ["If you're standing still, your distance doesn't change as time goes on."],
+    "solution": "In **section B** the line is horizontal: the distance stays at 40 m from 20 s to 40 s, so Tama is stationary."
+  },
+  {
+    "id": "s9.phy.motion.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "A sprinter runs 100 m in 20 s. What is her average speed?",
+    "answer": 5,
+    "units": "m/s",
+    "hints": ["Speed = distance ÷ time."],
+    "solution": "$v = \\dfrac{d}{t} = \\dfrac{100}{20} = 5$ m/s"
+  },
+  {
+    "id": "s9.phy.motion.q004",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each quantity to its SI unit.",
+    "pairs": [
+      { "left": { "id": "spd", "text": "Speed" }, "right": { "id": "ms", "text": "m/s" } },
+      { "left": { "id": "acc", "text": "Acceleration" }, "right": { "id": "ms2", "text": "m/s²" } },
+      { "left": { "id": "dist", "text": "Distance" }, "right": { "id": "m", "text": "m" } },
+      { "left": { "id": "time", "text": "Time" }, "right": { "id": "s", "text": "s" } }
+    ],
+    "hints": ["Acceleration is a change in velocity (m/s) every second."],
+    "solution": "Speed → m/s; acceleration → m/s²; distance → m; time → s."
+  },
+  {
+    "id": "s9.phy.motion.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Velocity is speed in a particular [[a]]. Acceleration is the rate of change of [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["direction"], "options": ["direction", "time", "distance"] },
+      { "id": "b", "accepted": ["velocity"], "options": ["velocity", "distance", "mass"] }
+    ],
+    "hints": ["\"15 m/s north\" is a velocity. What extra information does it have compared with a speed?"],
+    "solution": "Velocity is speed in a particular **direction**. Acceleration is the rate of change of **velocity**: how much the velocity changes each second."
+  },
+  {
+    "id": "s9.phy.motion.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "The speed–time graph shows a car's journey. What is the car doing between 10 s and 30 s?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='104.2' y1='18' x2='104.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.2' y='263' text-anchor='middle' fill='#4b5563'>5</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' fill='#4b5563'>15</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='273.2' y1='18' x2='273.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.2' y='263' text-anchor='middle' fill='#4b5563'>25</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' fill='#4b5563'>35</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>5</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>10</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>15</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>25</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Speed (m/s)</text><polyline points='62.0,248.0 146.5,64.0 315.5,64.0 400.0,248.0' fill='none' stroke='#2563eb' stroke-width='2.5'/></svg>", "alt": "Speed–time graph. The speed rises in a straight line from 0 m/s at 0 s to 20 m/s at 10 s, stays at 20 m/s until 30 s, then falls in a straight line to 0 m/s at 40 s." },
+    "options": [
+      { "id": "a", "text": "Moving at a constant speed of 20 m/s" },
+      { "id": "b", "text": "Stopped" },
+      { "id": "c", "text": "Speeding up" },
+      { "id": "d", "text": "Slowing down" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "On a **speed**–time graph, a flat line means the speed isn't changing. The car is only stopped when the speed is 0.",
+      "c": "Speeding up would be a line sloping upwards.",
+      "d": "Slowing down would be a line sloping downwards."
+    },
+    "hints": ["Read the axis labels: this is speed against time, not distance against time."],
+    "solution": "The line is flat at 20 m/s, so the speed isn't changing: the car is moving at a **constant speed of 20 m/s**."
+  },
+  {
+    "id": "s9.phy.motion.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which of these is an **instantaneous** speed?",
+    "options": [
+      { "id": "a", "text": "A car's speedometer reads 80 km/h as it passes a sign" },
+      { "id": "b", "text": "A family drives 240 km in 3 hours" },
+      { "id": "c", "text": "A runner finishes a 5 km race in 25 minutes" },
+      { "id": "d", "text": "A ferry takes 3 hours to cross 90 km of sea" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Total distance ÷ total time gives an average speed for the whole trip.",
+      "c": "This gives the runner's average speed over the whole race.",
+      "d": "This gives the ferry's average speed for the crossing."
+    },
+    "hints": ["Instantaneous means \"at one instant\" (one moment)."],
+    "solution": "The speedometer reading is the speed **at that moment**, so it is instantaneous. The others give average speeds (total distance ÷ total time)."
+  },
+  {
+    "id": "s9.phy.motion.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "How long does it take Sione to run 400 m at an average speed of 5 m/s?",
+    "answer": 80,
+    "units": "s",
+    "hints": ["Rearrange speed = distance ÷ time to make time the subject."],
+    "solution": "$t = \\dfrac{d}{v} = \\dfrac{400}{5} = 80$ s"
+  },
+  {
+    "id": "s9.phy.motion.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name of the quantity that tells you how quickly an object's velocity changes?",
+    "accepted": ["acceleration", "accelerate"],
+    "hints": ["Its unit is m/s²."],
+    "solution": "**Acceleration**: $a = \\dfrac{\\Delta v}{t}$, measured in m/s²."
+  },
+  {
+    "id": "s9.phy.motion.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "The distance–time graph shows Tama's walk. What is his speed during section A?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='118.3' y1='18' x2='118.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='118.3' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='174.7' y1='18' x2='174.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='174.7' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='287.3' y1='18' x2='287.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='287.3' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='343.7' y1='18' x2='343.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='343.7' y='263' text-anchor='middle' fill='#4b5563'>50</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>60</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>40</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>60</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>80</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>100</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Distance (m)</text><polyline points='62.0,248.0 174.7,156.0 287.3,156.0 400.0,18.0' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='107.1' y='174.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>A</text><text x='231.0' y='139.9' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>B</text><text x='326.8' y='59.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>C</text></svg>", "alt": "Distance–time graph. Section A: a straight line from 0 m at 0 s to 40 m at 20 s. Section B: horizontal at 40 m from 20 s to 40 s. Section C: a straight line from 40 m at 40 s to 100 m at 60 s." },
+    "answer": 2,
+    "units": "m/s",
+    "hints": ["Read how far he goes in section A and how long it takes.", "Speed = distance ÷ time."],
+    "solution": "In section A he goes 40 m in 20 s. Speed $= \\dfrac{40}{20} = 2$ m/s. (This is also the gradient of the line.)"
+  },
+  {
+    "id": "s9.phy.motion.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Look at the distance–time graph of Tama's walk. In which section is he moving **fastest**?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='118.3' y1='18' x2='118.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='118.3' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='174.7' y1='18' x2='174.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='174.7' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='287.3' y1='18' x2='287.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='287.3' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='343.7' y1='18' x2='343.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='343.7' y='263' text-anchor='middle' fill='#4b5563'>50</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>60</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>40</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>60</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>80</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>100</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Distance (m)</text><polyline points='62.0,248.0 174.7,156.0 287.3,156.0 400.0,18.0' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='107.1' y='174.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>A</text><text x='231.0' y='139.9' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>B</text><text x='326.8' y='59.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>C</text></svg>", "alt": "Distance–time graph. Section A: a straight line from 0 m at 0 s to 40 m at 20 s. Section B: horizontal at 40 m from 20 s to 40 s. Section C: a straight line from 40 m at 40 s to 100 m at 60 s." },
+    "options": [
+      { "id": "a", "text": "Section A" },
+      { "id": "b", "text": "Section B" },
+      { "id": "c", "text": "Section C" },
+      { "id": "d", "text": "He moves at the same speed in A and C" }
+    ],
+    "correct": "c",
+    "shuffle": false,
+    "feedback": {
+      "a": "He moves at 2 m/s in A. Compare how steep A and C are.",
+      "b": "Section B is flat, so he isn't moving at all.",
+      "d": "Both take 20 s, but he covers 40 m in A and 60 m in C."
+    },
+    "hints": ["On a distance–time graph, the steeper the line, the faster the motion."],
+    "solution": "Section C is the **steepest**: 60 m in 20 s = 3 m/s, compared with 2 m/s in section A."
+  },
+  {
+    "id": "s9.phy.motion.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "The speed–time graph shows a car's journey. What is the car's acceleration during the first 10 s?",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='104.2' y1='18' x2='104.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.2' y='263' text-anchor='middle' fill='#4b5563'>5</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' fill='#4b5563'>15</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='273.2' y1='18' x2='273.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.2' y='263' text-anchor='middle' fill='#4b5563'>25</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' fill='#4b5563'>35</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>5</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>10</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>15</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>25</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Speed (m/s)</text><polyline points='62.0,248.0 146.5,64.0 315.5,64.0 400.0,248.0' fill='none' stroke='#2563eb' stroke-width='2.5'/></svg>", "alt": "Speed–time graph. The speed rises in a straight line from 0 m/s at 0 s to 20 m/s at 10 s, stays at 20 m/s until 30 s, then falls in a straight line to 0 m/s at 40 s." },
+    "answer": 2,
+    "units": "m/s²",
+    "hints": ["Read the change in speed and the time taken from the graph.", "Acceleration = change in velocity ÷ time."],
+    "solution": "The speed changes from 0 to 20 m/s in 10 s. $a = \\dfrac{\\Delta v}{t} = \\dfrac{20 - 0}{10} = 2$ m/s²"
+  },
+  {
+    "id": "s9.phy.motion.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A car is travelling at 72 km/h. What is this speed in m/s?",
+    "answer": 20,
+    "units": "m/s",
+    "hints": ["1 km = 1,000 m and 1 h = 3,600 s.", "To change km/h into m/s, divide by 3.6."],
+    "solution": "$72 \\div 3.6 = 20$ m/s. (Check: 72 km/h is 72,000 m in 3,600 s, and $72000 \\div 3600 = 20$.)"
+  },
+  {
+    "id": "s9.phy.motion.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Olivia cycles 9 km in 30 minutes. What is her average speed in km/h?",
+    "answer": 18,
+    "units": "km/h",
+    "hints": ["For km/h you need the time in hours.", "30 minutes is half an hour."],
+    "solution": "30 min = 0.5 h. $v = \\dfrac{9}{0.5} = 18$ km/h. (Or: 9 km in half an hour means 18 km in a whole hour.)"
+  },
+  {
+    "id": "s9.phy.motion.q015",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which of these objects are **accelerating**? Select all that apply.",
+    "options": [
+      { "id": "a", "text": "A car speeding up as the traffic lights turn green" },
+      { "id": "b", "text": "A cyclist braking to stop at a crossing" },
+      { "id": "c", "text": "A car going round a roundabout at a steady 30 km/h" },
+      { "id": "d", "text": "A train moving in a straight line at a steady 80 km/h" },
+      { "id": "e", "text": "A car parked outside the dairy" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Acceleration is any change in **velocity**.", "Velocity includes direction."],
+    "solution": "Acceleration means the **velocity** changes. Speeding up (a) and slowing down (b) change the speed. Going round a roundabout (c) changes the **direction**, so the velocity changes even though the speed is steady. The steady train and the parked car have constant velocity, so they aren't accelerating."
+  },
+  {
+    "id": "s9.phy.motion.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "What shape is the line on a **distance–time** graph for an object moving at a constant speed?",
+    "options": [
+      { "id": "a", "text": "A straight line sloping upwards" },
+      { "id": "b", "text": "A horizontal line" },
+      { "id": "c", "text": "A curve that gets steeper" },
+      { "id": "d", "text": "A vertical line" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A horizontal line on a distance–time graph means the object is stopped.",
+      "c": "A curve getting steeper means the object is speeding up.",
+      "d": "A vertical line would mean moving a distance in no time at all, which is impossible."
+    },
+    "hints": ["At constant speed, the same distance is covered every second."],
+    "solution": "Constant speed means equal distances in equal times, which gives a **straight sloping line**. The steeper the line, the faster the speed."
+  },
+  {
+    "id": "s9.phy.motion.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "Use the distance–time graph of Tama's walk to find his **average speed** for the whole 60 s, including the time he stopped. Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='118.3' y1='18' x2='118.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='118.3' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='174.7' y1='18' x2='174.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='174.7' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='287.3' y1='18' x2='287.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='287.3' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='343.7' y1='18' x2='343.7' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='343.7' y='263' text-anchor='middle' fill='#4b5563'>50</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>60</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>40</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>60</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>80</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>100</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Distance (m)</text><polyline points='62.0,248.0 174.7,156.0 287.3,156.0 400.0,18.0' fill='none' stroke='#2563eb' stroke-width='2.5'/><text x='107.1' y='174.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>A</text><text x='231.0' y='139.9' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>B</text><text x='326.8' y='59.4' text-anchor='middle' fill='#1f2937' font-size='13' font-weight='bold'>C</text></svg>", "alt": "Distance–time graph. Section A: a straight line from 0 m at 0 s to 40 m at 20 s. Section B: horizontal at 40 m from 20 s to 40 s. Section C: a straight line from 40 m at 40 s to 100 m at 60 s." },
+    "answer": 1.7,
+    "decimals": 1,
+    "units": "m/s",
+    "hints": ["Average speed = total distance ÷ total time.", "Include the time he was standing still."],
+    "solution": "Total distance = 100 m and total time = 60 s. Average speed $= \\dfrac{100}{60} = 1.666\\ldots \\approx 1.7$ m/s. This is lower than his speed in sections A and C, because the average includes the 20 s he was stopped."
+  },
+  {
+    "id": "s9.phy.motion.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "Use the speed–time graph of the car's journey to find its acceleration between 30 s and 40 s. (Slowing down gives a negative acceleration, so include the minus sign.)",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='104.2' y1='18' x2='104.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.2' y='263' text-anchor='middle' fill='#4b5563'>5</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' fill='#4b5563'>15</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='273.2' y1='18' x2='273.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.2' y='263' text-anchor='middle' fill='#4b5563'>25</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' fill='#4b5563'>35</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>5</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>10</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>15</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>25</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Speed (m/s)</text><polyline points='62.0,248.0 146.5,64.0 315.5,64.0 400.0,248.0' fill='none' stroke='#2563eb' stroke-width='2.5'/></svg>", "alt": "Speed–time graph. The speed rises in a straight line from 0 m/s at 0 s to 20 m/s at 10 s, stays at 20 m/s until 30 s, then falls in a straight line to 0 m/s at 40 s." },
+    "answer": -2,
+    "units": "m/s²",
+    "hints": ["Find the change in speed (final − starting) from 30 s to 40 s.", "Divide by the time taken."],
+    "solution": "The speed goes from 20 m/s to 0 m/s in 10 s. $a = \\dfrac{0 - 20}{10} = -2$ m/s². The car is decelerating: it loses 2 m/s of speed every second."
+  },
+  {
+    "id": "s9.phy.motion.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A bus travels from Hamilton to Auckland, a distance of about 125 km, in 2 hours. Its speedometer sometimes shows 0 km/h and sometimes 100 km/h.\n\nUse this example to explain the difference between **average speed** and **instantaneous speed**. Include a calculation.",
+    "modelAnswer": "Average speed is the total distance divided by the total time for the whole trip: 125 km ÷ 2 h = 62.5 km/h. Instantaneous speed is the speed at one particular moment, which is what the speedometer shows. It changes during the trip, from 0 km/h when the bus is stopped at lights to 100 km/h on the motorway. The average of 62.5 km/h doesn't mean the bus was ever going at exactly that speed.",
+    "rubric": [
+      { "criterion": "Average speed = total distance ÷ total time for the whole journey", "marks": 1 },
+      { "criterion": "Correct calculation: 125 ÷ 2 = 62.5 km/h", "marks": 1 },
+      { "criterion": "Instantaneous speed is the speed at one moment (e.g. the speedometer reading), which varies during the trip", "marks": 1 }
+    ],
+    "hints": ["Which speed uses the whole trip, and which is at a single moment?"],
+    "solution": "Average speed $= \\dfrac{125 \\text{ km}}{2 \\text{ h}} = 62.5$ km/h for the whole trip. The speedometer shows the instantaneous speed, which goes up and down (0 to 100 km/h) during the journey."
+  },
+  {
+    "id": "s9.phy.motion.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Describe the motion of the car shown on this speed–time graph. Include numbers from the graph.",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='104.2' y1='18' x2='104.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.2' y='263' text-anchor='middle' fill='#4b5563'>5</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' fill='#4b5563'>15</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='273.2' y1='18' x2='273.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.2' y='263' text-anchor='middle' fill='#4b5563'>25</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' fill='#4b5563'>35</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='202.0' x2='400' y2='202.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>5</text><line x1='62' y1='156.0' x2='400' y2='156.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>10</text><line x1='62' y1='110.0' x2='400' y2='110.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>15</text><line x1='62' y1='64.0' x2='400' y2='64.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>25</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Time (s)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Speed (m/s)</text><polyline points='62.0,248.0 146.5,64.0 315.5,64.0 400.0,248.0' fill='none' stroke='#2563eb' stroke-width='2.5'/></svg>", "alt": "Speed–time graph. The speed rises in a straight line from 0 m/s at 0 s to 20 m/s at 10 s, stays at 20 m/s until 30 s, then falls in a straight line to 0 m/s at 40 s." },
+    "modelAnswer": "From 0 to 10 s the car speeds up steadily from rest to 20 m/s (an acceleration of 2 m/s²). From 10 s to 30 s it travels at a constant speed of 20 m/s. From 30 s to 40 s it slows down steadily until it stops at 40 s (an acceleration of −2 m/s²).",
+    "rubric": [
+      { "criterion": "0–10 s: speeds up steadily from 0 to 20 m/s", "marks": 1 },
+      { "criterion": "10–30 s: constant speed of 20 m/s", "marks": 1 },
+      { "criterion": "30–40 s: slows down steadily and stops (speed 0) at 40 s", "marks": 1 }
+    ],
+    "hints": ["Split the graph into three parts and describe each one.", "Sloping up = speeding up; flat = constant speed; sloping down = slowing down."],
+    "solution": "Speeds up from 0 to 20 m/s (0–10 s), travels at a steady 20 m/s (10–30 s), then slows down to a stop (30–40 s)."
+  },
+  {
+    "id": "s9.phy.motion.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "prompt": "A train travels 1.2 km in 1 minute 20 seconds. What is its average speed in **km/h**?",
+    "answer": 54,
+    "units": "km/h",
+    "hints": ["It's easiest to work in m/s first: change 1.2 km to metres and 1 min 20 s to seconds.", "Then multiply by 3.6 to change m/s into km/h."],
+    "solution": "Distance = 1,200 m. Time = 60 + 20 = 80 s. Speed $= \\dfrac{1200}{80} = 15$ m/s. In km/h: $15 \\times 3.6 = 54$ km/h."
+  },
+  {
+    "id": "s9.phy.motion.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Car A goes from 0 to 100 km/h in 8 s. Car B goes from 0 to 20 m/s in 5 s. Which car has the greater acceleration?",
+    "options": [
+      { "id": "a", "text": "Car B, about 4 m/s² compared with about 3.5 m/s²" },
+      { "id": "b", "text": "Car A, because 100 is bigger than 20" },
+      { "id": "c", "text": "Car A, about 12.5 m/s² compared with 4 m/s²" },
+      { "id": "d", "text": "They have the same acceleration" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The speeds are in different units, so you can't compare 100 and 20 directly.",
+      "c": "100 ÷ 8 = 12.5 uses km/h, not m/s. Change 100 km/h into m/s first.",
+      "d": "Work out both accelerations in m/s² and compare them."
+    },
+    "hints": ["Change Car A's speed into m/s first (divide by 3.6).", "Then use $a = \\dfrac{\\Delta v}{t}$ for each car."],
+    "solution": "Car A: $100 \\div 3.6 \\approx 27.8$ m/s, so $a \\approx \\dfrac{27.8}{8} \\approx 3.5$ m/s². Car B: $a = \\dfrac{20}{5} = 4$ m/s². **Car B** has the greater acceleration."
+  },
+  {
+    "id": "s9.phy.motion.q023",
+    "type": "order",
+    "difficulty": 4,
+    "prompt": "Put these speeds in order from **slowest** to **fastest**.",
+    "items": [
+      { "id": "s15", "text": "1.5 m/s" },
+      { "id": "k10", "text": "10 km/h" },
+      { "id": "s4", "text": "4 m/s" },
+      { "id": "k18", "text": "18 km/h" },
+      { "id": "m400", "text": "400 m in 1 minute" }
+    ],
+    "hints": ["Change them all into m/s so you can compare them.", "km/h ÷ 3.6 = m/s. For \"400 m in 1 minute\", divide by 60 s."],
+    "solution": "In m/s: 1.5; $10 \\div 3.6 \\approx 2.8$; 4; $18 \\div 3.6 = 5$; $400 \\div 60 \\approx 6.7$. So the order is 1.5 m/s → 10 km/h → 4 m/s → 18 km/h → 400 m in 1 minute."
+  }
+]

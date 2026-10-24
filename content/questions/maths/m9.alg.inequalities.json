@@ -1,0 +1,197 @@
+[
+  {
+    "id": "m9.alg.inequalities.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each symbol to its meaning.",
+    "pairs": [
+      { "left": { "id": "lt", "text": "$<$" }, "right": { "id": "r1", "text": "is less than" } },
+      { "left": { "id": "gt", "text": "$>$" }, "right": { "id": "r2", "text": "is greater than" } },
+      { "left": { "id": "le", "text": "$\\le$" }, "right": { "id": "r3", "text": "is less than or equal to" } },
+      { "left": { "id": "ge", "text": "$\\ge$" }, "right": { "id": "r4", "text": "is greater than or equal to" } }
+    ],
+    "hints": ["The extra line underneath means \"or equal to\"."],
+    "solution": "$<$ is less than, $>$ is greater than. Adding a line underneath includes \"or equal to\": $\\le$ and $\\ge$."
+  },
+  {
+    "id": "m9.alg.inequalities.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which inequality means \"$x$ is **at most** 8\"?",
+    "options": [
+      { "id": "a", "text": "$x \\le 8$" },
+      { "id": "b", "text": "$x < 8$" },
+      { "id": "c", "text": "$x \\ge 8$" },
+      { "id": "d", "text": "$x > 8$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"At most 8\" allows 8 itself, so you need \"or equal to\".",
+      "c": "This means at least 8: 8 or more.",
+      "d": "This means more than 8, but \"at most\" means 8 or less."
+    },
+    "hints": ["\"At most 8\" means 8 is the biggest value allowed. Is 8 itself allowed?"],
+    "solution": "\"At most 8\" means 8 or less, so $x \\le 8$."
+  },
+  {
+    "id": "m9.alg.inequalities.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the values of $x$ that satisfy $2x + 1 > 7$.",
+    "options": [
+      { "id": "a", "text": "$3$" },
+      { "id": "b", "text": "$4$" },
+      { "id": "c", "text": "$3.5$" },
+      { "id": "d", "text": "$10$" },
+      { "id": "e", "text": "$0$" },
+      { "id": "f", "text": "$-4$" }
+    ],
+    "correct": ["b", "c", "d"],
+    "hints": ["Solve the inequality first, or substitute each value.", "Is 3 itself included?"],
+    "solution": "Solving: $2x > 6$, so $x > 3$. That includes 4, 3.5 and 10. It does not include 3 (because $2 \\times 3 + 1 = 7$, which is not greater than 7), 0 or $-4$."
+  },
+  {
+    "id": "m9.alg.inequalities.q004",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Multiplying or dividing both sides of an inequality by a [[a]] number reverses the inequality sign. Adding or subtracting a number [[b]] change the sign.",
+    "blanks": [
+      { "id": "a", "accepted": ["negative"], "options": ["positive", "negative"] },
+      { "id": "b", "accepted": ["does not"], "options": ["does", "does not"] }
+    ],
+    "hints": ["Think about $2 < 5$. What happens if you multiply both sides by $-1$? What if you add 10?"],
+    "solution": "Multiplying or dividing by a **negative** number reverses the sign: $2 < 5$ but $-2 > -5$. Adding or subtracting **does not** change it: $2 + 10 < 5 + 10$ is still true."
+  },
+  {
+    "id": "m9.alg.inequalities.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The number line shows the solution of an inequality. Which inequality could it be the solution of?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 80\" width=\"400\" height=\"80\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"12\" y1=\"32\" x2=\"388\" y2=\"32\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"392,32 382,26 382,38\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"8,32 18,26 18,38\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"26\" x2=\"30\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"30\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">−4</text><line x1=\"64\" y1=\"26\" x2=\"64\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"64\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">−3</text><line x1=\"98\" y1=\"26\" x2=\"98\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"98\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">−2</text><line x1=\"132\" y1=\"26\" x2=\"132\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"132\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">−1</text><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"166\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">0</text><line x1=\"200\" y1=\"26\" x2=\"200\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"200\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">1</text><line x1=\"234\" y1=\"26\" x2=\"234\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"234\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2</text><line x1=\"268\" y1=\"26\" x2=\"268\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"268\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">3</text><line x1=\"302\" y1=\"26\" x2=\"302\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"302\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4</text><line x1=\"336\" y1=\"26\" x2=\"336\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"336\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">5</text><line x1=\"370\" y1=\"26\" x2=\"370\" y2=\"38\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"370\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">6</text><line x1=\"200\" y1=\"32\" x2=\"378\" y2=\"32\" stroke=\"#2563eb\" stroke-width=\"5\"/><polygon points=\"384,32 374,26 374,38\" fill=\"#2563eb\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"2\"/></svg>", "alt": "Number line from −4 to 6 with an open circle at 1 and an arrow pointing right." },
+    "options": [
+      { "id": "a", "text": "$2x + 3 > 5$" },
+      { "id": "b", "text": "$2x + 3 < 5$" },
+      { "id": "c", "text": "$2x + 3 \\ge 5$" },
+      { "id": "d", "text": "$x + 3 > 5$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This gives $x < 1$, but the arrow points to numbers greater than 1.",
+      "c": "This gives $x \\ge 1$, which would need a filled circle.",
+      "d": "This gives $x > 2$, so the circle would be at 2."
+    },
+    "hints": ["First write the inequality shown: open circle at 1, arrow to the right.", "Then solve each option."],
+    "solution": "The number line shows $x > 1$ (open circle, arrow right).\n\n$2x + 3 > 5 \\Rightarrow 2x > 2 \\Rightarrow x > 1$ ✓"
+  },
+  {
+    "id": "m9.alg.inequalities.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ana solved $3x - 4 < 11$ and wrote her final answer as $x = 5$. What is wrong with her answer?",
+    "options": [
+      { "id": "a", "text": "The answer should keep the inequality sign: $x < 5$" },
+      { "id": "b", "text": "The answer should be $x > 5$" },
+      { "id": "c", "text": "The answer should be $x < \\frac{7}{3}$" },
+      { "id": "d", "text": "Nothing is wrong" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by a positive number (3) doesn't reverse the sign.",
+      "c": "To undo $-4$, add 4: $3x < 15$.",
+      "d": "An inequality has a range of solutions, not just one. $x = 4$, for example, also works."
+    },
+    "hints": ["An inequality has many solutions. Does $x = 4$ work too?"],
+    "solution": "Add 4: $3x < 15$. Divide by 3: $x < 5$.\n\nThe solution is every number less than 5, not just one value. Writing $x = 5$ is wrong, and 5 isn't even a solution: $3 \\times 5 - 4 = 11$, which is not less than 11."
+  },
+  {
+    "id": "m9.alg.inequalities.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Movie tickets cost \\$14 each. Kai has **at most** \\$60 to spend. Which inequality shows the number of tickets, $t$, that Kai can buy?",
+    "options": [
+      { "id": "a", "text": "$14t \\le 60$" },
+      { "id": "b", "text": "$14t < 60$" },
+      { "id": "c", "text": "$14t \\ge 60$" },
+      { "id": "d", "text": "$t + 14 \\le 60$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Spending exactly \\$60 is allowed, so use $\\le$.",
+      "c": "This would mean spending at least \\$60.",
+      "d": "Each ticket costs \\$14, so $t$ tickets cost $14t$, not $t + 14$."
+    },
+    "hints": ["What is the cost of $t$ tickets?", "\"At most\" means the cost can equal \\$60 but not go over."],
+    "solution": "$t$ tickets cost $14t$ dollars, and that must be at most \\$60: $14t \\le 60$.\n\nSolving: $t \\le 4.28\\ldots$, so Kai can buy up to 4 tickets."
+  },
+  {
+    "id": "m9.alg.inequalities.q008",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Hemi solved $10 - x > 4$ and got $x > 6$. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "He should have reversed the sign: the answer is $x < 6$" },
+      { "id": "b", "text": "He is correct" },
+      { "id": "c", "text": "The answer is $x > -6$" },
+      { "id": "d", "text": "The answer is $x < -6$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Test $x = 7$: $10 - 7 = 3$, which is not greater than 4. So $x > 6$ can't be right.",
+      "c": "Subtracting 10 gives $-x > -6$. Multiplying by $-1$ changes $-6$ to $6$ and reverses the sign.",
+      "d": "Multiplying $-6$ by $-1$ gives $6$, not $-6$."
+    },
+    "hints": ["Subtract 10 from both sides first.", "Then multiply both sides by $-1$. What happens to the sign?"],
+    "solution": "Subtract 10: $-x > -6$. Multiply by $-1$ and **reverse** the sign: $x < 6$.\n\nCheck with $x = 5$: $10 - 5 = 5 > 4$ ✓. Hemi forgot to reverse the sign."
+  },
+  {
+    "id": "m9.alg.inequalities.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain why the inequality sign reverses when you multiply both sides by $-1$. Use an example with numbers.",
+    "modelAnswer": "Start with $3 < 7$, which is true. Multiplying both sides by $-1$ gives $-3$ and $-7$. On a number line, $-3$ is to the right of $-7$, so $-3 > -7$. Multiplying by $-1$ reflects the numbers to the other side of zero, which reverses their order, so the sign must reverse to keep the statement true.",
+    "rubric": [
+      { "criterion": "Gives a correct numerical example, e.g. $3 < 7$ becomes $-3 > -7$", "marks": 1 },
+      { "criterion": "Explains that multiplying by $-1$ swaps numbers to the other side of zero and reverses their order", "marks": 1 }
+    ],
+    "hints": ["Start with a true statement like $3 < 7$. Multiply both numbers by $-1$ and compare them."],
+    "solution": "$3 < 7$, but $-3 > -7$ because $-3$ is further right on the number line. Multiplying by $-1$ flips numbers across zero, so the bigger one becomes the smaller one. The sign must be reversed to keep the statement true."
+  },
+  {
+    "id": "m9.alg.inequalities.q010",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "If $a < b$, which of these **must** be true?",
+    "options": [
+      { "id": "a", "text": "$-a > -b$" },
+      { "id": "b", "text": "$-a < -b$" },
+      { "id": "c", "text": "$a - 5 > b - 5$" },
+      { "id": "d", "text": "$2a > 2b$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Multiplying both sides by $-1$ reverses the sign. Try $a = 1$, $b = 2$: $-1 < -2$ is false.",
+      "c": "Subtracting 5 from both sides keeps the sign the same: $a - 5 < b - 5$.",
+      "d": "Multiplying by a positive number keeps the sign the same: $2a < 2b$."
+    },
+    "hints": ["Try some numbers, such as $a = 1$ and $b = 2$.", "Which operation reverses an inequality?"],
+    "solution": "Multiplying both sides of $a < b$ by $-1$ reverses the sign, giving $-a > -b$.\n\nWith $a = 1$, $b = 2$: $-1 > -2$ ✓"
+  },
+  {
+    "id": "m9.alg.inequalities.q011",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "How many integers satisfy **both** $2x + 1 > 3$ and $x + 4 \\le 9$?",
+    "answer": 4,
+    "form": "integer",
+    "hints": ["Solve each inequality separately.", "Which integers are in both solution sets?"],
+    "solution": "$2x + 1 > 3 \\Rightarrow 2x > 2 \\Rightarrow x > 1$\n\n$x + 4 \\le 9 \\Rightarrow x \\le 5$\n\nThe integers that are greater than 1 and at most 5 are 2, 3, 4 and 5. That's **4** integers."
+  }
+]

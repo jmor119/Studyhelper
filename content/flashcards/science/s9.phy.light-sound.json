@@ -1,0 +1,19 @@
+[
+  { "id": "s9.phy.light-sound.f01", "front": "What is a **wave**?", "back": "A way of carrying energy from place to place without carrying matter." },
+  { "id": "s9.phy.light-sound.f02", "front": "How is sound made?", "back": "By vibrating objects. The vibrations are passed through a medium from particle to particle." },
+  { "id": "s9.phy.light-sound.f03", "front": "What is a **medium**?", "back": "The material a wave travels through, e.g. air, water or steel." },
+  { "id": "s9.phy.light-sound.f04", "front": "Why can't sound travel through a vacuum?", "back": "There are no particles to pass on the vibrations." },
+  { "id": "s9.phy.light-sound.f05", "front": "Speed of sound in air", "back": "About 340 m/s. It is faster in liquids and solids." },
+  { "id": "s9.phy.light-sound.f06", "front": "What is **frequency**?", "back": "The number of vibrations (waves) per second, measured in hertz (Hz)." },
+  { "id": "s9.phy.light-sound.f07", "front": "**Frequency** ↔ **pitch**", "back": "Higher frequency means a higher pitch." },
+  { "id": "s9.phy.light-sound.f08", "front": "**Amplitude** ↔ **loudness**", "back": "Bigger amplitude (taller wave) means a louder sound." },
+  { "id": "s9.phy.light-sound.f09", "front": "Range of human hearing", "back": "About 20 Hz to 20,000 Hz. Higher than that is ultrasound." },
+  { "id": "s9.phy.light-sound.f10", "front": "How does light travel?", "back": "In straight lines, at about 300,000 km/s. It can travel through a vacuum." },
+  { "id": "s9.phy.light-sound.f11", "front": "The **law of reflection**", "back": "Angle of incidence = angle of reflection, both measured from the normal." },
+  { "id": "s9.phy.light-sound.f12", "front": "What is the **normal**?", "back": "An imaginary line at 90° to a surface, drawn where a ray hits it." },
+  { "id": "s9.phy.light-sound.f13", "front": "What is **refraction**?", "back": "Light bending as it passes from one transparent material into another, because its speed changes." },
+  { "id": "s9.phy.light-sound.f14", "front": "Air → glass: which way does light bend?", "back": "It slows down and bends towards the normal (and away from the normal when it leaves the glass)." },
+  { "id": "s9.phy.light-sound.f15", "front": "Colours of the **spectrum**", "back": "Red, orange, yellow, green, blue, indigo, violet (ROY G BIV)." },
+  { "id": "s9.phy.light-sound.f16", "front": "Why does a red object look red?", "back": "It reflects red light and absorbs all the other colours." },
+  { "id": "s9.phy.light-sound.f17", "front": "How do you find distance from an echo?", "back": "Distance = speed × time ÷ 2, because the sound travels there and back." }
+]

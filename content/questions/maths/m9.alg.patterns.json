@@ -1,0 +1,199 @@
+[
+  {
+    "id": "m9.alg.patterns.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "seq", "text": "Sequence" }, "right": { "id": "r1", "text": "A list of numbers that follows a pattern" } },
+      { "left": { "id": "term", "text": "Term" }, "right": { "id": "r2", "text": "One of the numbers in a sequence" } },
+      { "left": { "id": "pos", "text": "Position" }, "right": { "id": "r3", "text": "Where a term is in the sequence: 1st, 2nd, 3rd, …" } },
+      { "left": { "id": "diff", "text": "Constant difference" }, "right": { "id": "r4", "text": "The same amount added or subtracted each time" } },
+      { "left": { "id": "rule", "text": "Rule" }, "right": { "id": "r5", "text": "Tells you how to work out the terms" } }
+    ],
+    "hints": ["In $5, 8, 11, \\ldots$ the number 8 is a term and its position is 2."],
+    "solution": "A **sequence** is a list following a pattern, and each number in it is a **term**. The **position** says where the term is. A **constant difference** is the same change each time. A **rule** tells you how to find the terms."
+  },
+  {
+    "id": "m9.alg.patterns.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these sequences is **linear**?",
+    "options": [
+      { "id": "a", "text": "$3, 7, 11, 15, \\ldots$" },
+      { "id": "b", "text": "$1, 4, 9, 16, \\ldots$" },
+      { "id": "c", "text": "$2, 4, 8, 16, \\ldots$" },
+      { "id": "d", "text": "$1, 1, 2, 3, 5, \\ldots$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "These are square numbers. The differences are 3, 5, 7, which aren't constant.",
+      "c": "Each term doubles. The differences are 2, 4, 8, which aren't constant.",
+      "d": "Each term is the sum of the two before it. The differences aren't constant."
+    },
+    "hints": ["A linear sequence has a constant difference. Find the differences in each one."],
+    "solution": "In $3, 7, 11, 15$ the difference is always 4, so it is linear. The other sequences have differences that change."
+  },
+  {
+    "id": "m9.alg.patterns.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The rule for a sequence is $4n - 1$. What are its first four terms?",
+    "options": [
+      { "id": "a", "text": "$3, 7, 11, 15$" },
+      { "id": "b", "text": "$4, 8, 12, 16$" },
+      { "id": "c", "text": "$-1, 3, 7, 11$" },
+      { "id": "d", "text": "$5, 9, 13, 17$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "These are the values of $4n$. You still need to subtract 1.",
+      "c": "This starts at $n = 0$. The first term is when $n = 1$.",
+      "d": "These are the values of $4n + 1$, not $4n - 1$."
+    },
+    "hints": ["Substitute $n = 1, 2, 3, 4$."],
+    "solution": "$n = 1$: $4 - 1 = 3$. $\\;n = 2$: $8 - 1 = 7$. $\\;n = 3$: $12 - 1 = 11$. $\\;n = 4$: $16 - 1 = 15$."
+  },
+  {
+    "id": "m9.alg.patterns.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "For the sequence $6, 11, 16, 21, \\ldots$, which of these is a **position-to-term** rule?",
+    "options": [
+      { "id": "a", "text": "$5n + 1$" },
+      { "id": "b", "text": "Add 5 each time" },
+      { "id": "c", "text": "$6n$" },
+      { "id": "d", "text": "$n + 5$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"Add 5\" is a term-to-term rule: it gets each term from the one before, not from the position.",
+      "c": "$6n$ gives $6, 12, 18, \\ldots$, which only matches the first term.",
+      "d": "$n + 5$ gives $6, 7, 8, \\ldots$, which goes up by 1, not 5."
+    },
+    "hints": ["A position-to-term rule uses $n$, the position, to find any term directly."],
+    "solution": "The difference is 5, so start with $5n$. When $n = 1$, $5n = 5$, and the term is 6, so add 1: the rule is $5n + 1$.\n\n\"Add 5 each time\" is true too, but it's a term-to-term rule."
+  },
+  {
+    "id": "m9.alg.patterns.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "The sequence $9, 13, 17, 21, \\ldots$ has a constant difference of [[a]]. A rule for the $n$th term is [[b]]$n$ + [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["4"] },
+      { "id": "b", "accepted": ["4"] },
+      { "id": "c", "accepted": ["5"] }
+    ],
+    "hints": ["Subtract one term from the next to find the difference.", "When $n = 1$, $4n = 4$, but the first term is 9."],
+    "solution": "The terms go up by **4**, so the rule starts with $4n$. When $n = 1$, $4n = 4$, and the first term is 9, so add **5**. The rule is $4n + 5$."
+  },
+  {
+    "id": "m9.alg.patterns.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The graph shows the first four terms of a linear sequence, plotted as (position, term). Which rule matches the graph?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 342\" width=\"200\" height=\"342\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"34\" y1=\"298\" x2=\"34\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"56\" y1=\"298\" x2=\"56\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"78\" y1=\"298\" x2=\"78\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"100\" y1=\"298\" x2=\"100\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"122\" y1=\"298\" x2=\"122\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"144\" y1=\"298\" x2=\"144\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"166\" y1=\"298\" x2=\"166\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"298\" x2=\"166\" y2=\"298\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"276\" x2=\"166\" y2=\"276\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"254\" x2=\"166\" y2=\"254\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"232\" x2=\"166\" y2=\"232\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"210\" x2=\"166\" y2=\"210\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"188\" x2=\"166\" y2=\"188\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"144\" x2=\"166\" y2=\"144\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"122\" x2=\"166\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"100\" x2=\"166\" y2=\"100\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"78\" x2=\"166\" y2=\"78\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"56\" x2=\"166\" y2=\"56\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"34\" x2=\"166\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"34\" y1=\"298\" x2=\"166\" y2=\"298\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"34\" y1=\"298\" x2=\"34\" y2=\"34\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"56\" y=\"311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"78\" y=\"311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"100\" y=\"311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"122\" y=\"311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"144\" y=\"311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"166\" y=\"311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"22\" y=\"276\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"22\" y=\"254\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"22\" y=\"232\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"22\" y=\"210\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"22\" y=\"188\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"22\" y=\"166\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"22\" y=\"144\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"22\" y=\"122\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"22\" y=\"100\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">9</text><text x=\"22\" y=\"78\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">10</text><text x=\"22\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">11</text><text x=\"22\" y=\"34\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">12</text><circle cx=\"56\" cy=\"232\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"78\" cy=\"188\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"100\" cy=\"144\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"122\" cy=\"100\" r=\"5\" fill=\"#2563eb\"/><text x=\"136\" y=\"326\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Position (n)</text><text x=\"64\" y=\"20\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Term</text></svg>", "alt": "Graph with position n from 0 to 6 across and term from 0 to 12 up. Four points are plotted at (1, 3), (2, 5), (3, 7) and (4, 9), in a straight line." },
+    "options": [
+      { "id": "a", "text": "$2n + 1$" },
+      { "id": "b", "text": "$n + 2$" },
+      { "id": "c", "text": "$3n$" },
+      { "id": "d", "text": "$2n + 3$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$n + 2$ goes up by 1 each time, but the points go up by 2.",
+      "c": "$3n$ gives 3, 6, 9, … which only matches the first point.",
+      "d": "$2n + 3$ gives 5 for $n = 1$, but the first point is at 3."
+    },
+    "hints": ["Read off the terms: what is the term at position 1, 2, 3 and 4?", "How much do the terms go up by each time?"],
+    "solution": "The points are $(1, 3)$, $(2, 5)$, $(3, 7)$, $(4, 9)$. The terms go up by 2, so start with $2n$. At $n = 1$, $2n = 2$ and the term is 3, so add 1: the rule is $2n + 1$."
+  },
+  {
+    "id": "m9.alg.patterns.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A row of $n$ squares made from matches uses $m = 3n + 1$ matches. What does the $+1$ represent?",
+    "options": [
+      { "id": "a", "text": "The extra match needed to close off the first square" },
+      { "id": "b", "text": "One extra square at the end of the row" },
+      { "id": "c", "text": "The number of squares in the row" },
+      { "id": "d", "text": "The number of matches added for each new square" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An extra square would need 3 more matches, not 1.",
+      "c": "The number of squares is $n$.",
+      "d": "Each new square adds 3 matches. That is the $3n$ part."
+    },
+    "hints": ["Think of building each square from 3 matches: top, bottom and right side. What's missing?"],
+    "solution": "Each square can be built from 3 matches (top, bottom and right side), which gives $3n$. The very first square also needs a left side, so there is 1 extra match: $3n + 1$."
+  },
+  {
+    "id": "m9.alg.patterns.q008",
+    "type": "expression",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.tables",
+    "part": "a",
+    "stem": "Square tables are pushed together in a row for a whānau dinner. One table seats 4 people, two tables seat 6, and three tables seat 8.",
+    "prompt": "Write a rule for the number of seats, $s$, when there are $n$ tables.",
+    "answer": "2*n + 2",
+    "variables": ["n"],
+    "hints": ["Make a table: 1 → 4, 2 → 6, 3 → 8. What is the constant difference?", "Start with (difference) × $n$, then adjust."],
+    "solution": "The seats go up by 2 for each table, so start with $2n$. When $n = 1$, $2n = 2$, but there are 4 seats, so add 2.\n\n$s = 2n + 2$. (Each table adds a seat on each long side, and there is one seat at each end of the row.)"
+  },
+  {
+    "id": "m9.alg.patterns.q009",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.tables",
+    "part": "b",
+    "stem": "Square tables are pushed together in a row for a whānau dinner. One table seats 4 people, two tables seat 6, and three tables seat 8.",
+    "prompt": "How many tables are needed to seat exactly 30 people?",
+    "answer": 14,
+    "hints": ["Use your rule $s = 2n + 2$.", "Solve $2n + 2 = 30$."],
+    "solution": "$2n + 2 = 30$\n\n$2n = 28$\n\n$n = 14$ tables. Check: $2 \\times 14 + 2 = 30$ ✓"
+  },
+  {
+    "id": "m9.alg.patterns.q010",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sione says the sequence $3, 7, 11, 15, \\ldots$ will never contain an even number. Is he right? Explain your answer.",
+    "modelAnswer": "Sione is right. The rule is $4n - 1$. $4n$ is always even (it's a multiple of 4), and an even number minus 1 is always odd, so every term is odd. Another way to see it: the sequence starts at an odd number and adds 4 each time, and adding an even number to an odd number always gives an odd number.",
+    "rubric": [
+      { "criterion": "States that Sione is right", "marks": 1 },
+      { "criterion": "Explains why, using the rule $4n - 1$ (even minus 1 is odd) or the odd start plus an even difference", "marks": 1 }
+    ],
+    "hints": ["Find the rule for the sequence.", "Is $4n$ odd or even? What about $4n - 1$?"],
+    "solution": "The rule is $4n - 1$. Since $4n$ is always even, $4n - 1$ is always odd. So no term is ever even, and Sione is right.\n\nChecking a few terms isn't enough on its own. The rule shows it is true for **every** term."
+  },
+  {
+    "id": "m9.alg.patterns.q011",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Aroha makes a conjecture: \"If you double every term of a linear sequence, you get another linear sequence.\" Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "True: the differences double too, so they are still constant" },
+      { "id": "b", "text": "False: doubling makes the terms grow faster and faster" },
+      { "id": "c", "text": "True, but only if the sequence starts at 1" },
+      { "id": "d", "text": "False: doubling $3, 5, 7$ gives $6, 10, 14$, which isn't linear" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Doubling a constant difference gives another constant difference, so the growth stays steady.",
+      "c": "It works for any linear sequence. The starting value doesn't matter.",
+      "d": "$6, 10, 14$ has a constant difference of 4, so it **is** linear."
+    },
+    "hints": ["Try it: double $3, 5, 7, 9$. What are the differences now?", "If a rule is $dn + c$, what happens when you double it?"],
+    "solution": "If the rule is $dn + c$, doubling gives $2dn + 2c$, which is still linear with difference $2d$.\n\nExample: $3, 5, 7, 9$ (difference 2) doubles to $6, 10, 14, 18$ (difference 4). Aroha's conjecture is true."
+  }
+]

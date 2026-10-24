@@ -30,7 +30,7 @@ interface PlanDoc {
 
 function greeting() {
   const h = new Date().getHours();
-  return h < 12 ? 'Mōrena' : h < 17 ? 'Kia ora' : 'Pō mārie';
+  return h < 12 ? 'Mōrena' : 'Kia ora';
 }
 
 export default function Home() {
@@ -86,7 +86,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <Card className="flex items-center gap-4">
           <ProgressRing value={(todayCount / dailyGoal) * 100} color="var(--color-good)">
             {todayCount}
@@ -146,7 +146,7 @@ export default function Home() {
         </Card>
       )}
 
-      <div className="mt-4 grid gap-4 lg:grid-cols-2">
+      <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
         <Card>
           <div className="flex items-center justify-between">
             <h2 className="flex items-center gap-2 font-bold">

@@ -1,0 +1,368 @@
+[
+  {
+    "id": "s9.nos.investigating.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "iv", "text": "Independent variable" }, "right": { "id": "change", "text": "The variable you change on purpose" } },
+      { "left": { "id": "dv", "text": "Dependent variable" }, "right": { "id": "measure", "text": "The variable you measure" } },
+      { "left": { "id": "cv", "text": "Controlled variable" }, "right": { "id": "same", "text": "A variable you keep the same" } },
+      { "left": { "id": "hyp", "text": "Hypothesis" }, "right": { "id": "predict", "text": "A testable prediction, with a reason" } }
+    ],
+    "hints": ["The dependent variable *depends* on the one you change."],
+    "solution": "Independent → you change it. Dependent → you measure it. Controlled → you keep it the same. Hypothesis → a testable prediction with a reason."
+  },
+  {
+    "id": "s9.nos.investigating.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "In an experiment, what is the variable you **measure** called?",
+    "options": [
+      { "id": "a", "text": "The dependent variable" },
+      { "id": "b", "text": "The independent variable" },
+      { "id": "c", "text": "The controlled variable" },
+      { "id": "d", "text": "The hypothesis" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The independent variable is the one you change.",
+      "c": "Controlled variables are the ones you keep the same.",
+      "d": "A hypothesis is a prediction, not a variable."
+    },
+    "hints": ["Its value *depends* on what you changed."],
+    "solution": "The variable you measure is the **dependent variable**, because its value depends on the independent variable you changed."
+  },
+  {
+    "id": "s9.nos.investigating.q003",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What do we call a test where only one variable is changed and all the others are kept the same?",
+    "accepted": ["fair test", "a fair test", "controlled experiment", "controlled test"],
+    "hints": ["It's a ____ test."],
+    "solution": "A **fair test**. Only the independent variable changes, so you know it caused any change in the results."
+  },
+  {
+    "id": "s9.nos.investigating.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is a **testable** question?",
+    "options": [
+      { "id": "a", "text": "How does the height of a ramp affect how far a toy car rolls?" },
+      { "id": "b", "text": "Are toy cars more fun than skateboards?" },
+      { "id": "c", "text": "What is the best toy car ever made?" },
+      { "id": "d", "text": "Why do people like fast cars?" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"Fun\" is an opinion, so you can't measure it.",
+      "c": "\"Best\" is an opinion unless you say what you will measure.",
+      "d": "This is about people's opinions, not something you can measure with a fair test."
+    },
+    "hints": ["A testable question links two things you can measure."],
+    "solution": "\"How does the height of a ramp affect how far a toy car rolls?\" is testable. You can change the ramp height and **measure** the distance."
+  },
+  {
+    "id": "s9.nos.investigating.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Tama tests how the area of a parachute affects how long it takes to fall to the ground. The independent variable is the [[a]]. The dependent variable is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["area of the parachute"], "options": ["area of the parachute", "time taken to fall", "drop height"] },
+      { "id": "b", "accepted": ["time taken to fall"], "options": ["area of the parachute", "time taken to fall", "drop height"] }
+    ],
+    "hints": ["Which one does Tama choose, and which one does he time with a stopwatch?"],
+    "solution": "Tama **changes** the **area of the parachute** (independent) and **measures** the **time taken to fall** (dependent). The drop height should be kept the same, so it's a controlled variable."
+  },
+  {
+    "id": "s9.nos.investigating.q006",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "In Tama's parachute investigation (area of parachute vs time to fall), which of these should be **controlled variables**? Select all that apply.",
+    "options": [
+      { "id": "a", "text": "The height the parachute is dropped from" },
+      { "id": "b", "text": "The mass hanging under the parachute" },
+      { "id": "c", "text": "The length of the strings" },
+      { "id": "d", "text": "The area of the parachute" },
+      { "id": "e", "text": "The time taken to fall" },
+      { "id": "f", "text": "The material the parachute is made from" }
+    ],
+    "correct": ["a", "b", "c", "f"],
+    "hints": ["Leave out the variable Tama changes and the one he measures."],
+    "solution": "Controlled: **drop height, hanging mass, string length and material**. The area is the independent variable and the time to fall is the dependent variable."
+  },
+  {
+    "id": "s9.nos.investigating.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Liam wraps three beakers of hot water in different materials (wool, cotton and aluminium foil) and measures how much each one cools in 20 minutes. What type of graph should he draw?",
+    "options": [
+      { "id": "a", "text": "A bar graph, because the materials are categories" },
+      { "id": "b", "text": "A line graph, because temperature is a number" },
+      { "id": "c", "text": "A pie graph, because there are three materials" },
+      { "id": "d", "text": "A scatter graph with no labels" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A line graph needs numbers on **both** axes. The independent variable here (material) is a category.",
+      "c": "Pie graphs show parts of a whole, not results from a fair test.",
+      "d": "Graphs always need labelled axes, and the materials aren't numbers."
+    },
+    "hints": ["Look at the independent variable. Is it a number or a category?"],
+    "solution": "The independent variable (type of material) is a **category**, so use a **bar graph**. Line graphs are for when both variables are numbers."
+  },
+  {
+    "id": "s9.nos.investigating.q008",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Scientists repeat each test several times and calculate the [[a]]. This makes their results more [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["mean"], "options": ["mean", "hypothesis", "variable"] },
+      { "id": "b", "accepted": ["reliable"], "options": ["reliable", "expensive", "exciting"] }
+    ],
+    "hints": ["One bad result has less effect when it is averaged with others."],
+    "solution": "Repeating and calculating the **mean** (average) makes results more **reliable**, because one-off mistakes have less effect."
+  },
+  {
+    "id": "s9.nos.investigating.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "Hana drops a paper helicopter three times. It takes 2.4 s, 2.6 s and 2.5 s to fall. What is the mean time?",
+    "answer": 2.5,
+    "units": "s",
+    "hints": ["Add the three times, then divide by 3."],
+    "solution": "$\\dfrac{2.4 + 2.6 + 2.5}{3} = \\dfrac{7.5}{3} = 2.5$ s"
+  },
+  {
+    "id": "s9.nos.investigating.q010",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What name is given to a result that doesn't fit the pattern of the other results?",
+    "accepted": ["outlier", "anomaly", "anomalous result", "anomalous", "outliers", "anomalous data", "anomalous reading"],
+    "hints": ["It \"lies out\" away from the others."],
+    "solution": "An **outlier** (or **anomalous result**). Check it or repeat that test, and leave it out when you calculate the mean."
+  },
+  {
+    "id": "s9.nos.investigating.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Mia is investigating how water temperature affects how fast sugar dissolves. Which is the best **hypothesis**?",
+    "options": [
+      { "id": "a", "text": "If the water is warmer, then the sugar will dissolve faster, because the water particles move faster." },
+      { "id": "b", "text": "Sugar dissolves in water." },
+      { "id": "c", "text": "I will put a sugar cube into water at 20 °C, 40 °C and 60 °C." },
+      { "id": "d", "text": "The sugar will dissolve." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is a fact, not a prediction about how one variable affects another.",
+      "c": "This is part of the method.",
+      "d": "This doesn't say how the temperature affects anything, so it can't be tested."
+    },
+    "hints": ["A hypothesis predicts how the independent variable affects the dependent variable, and gives a reason."],
+    "solution": "A good hypothesis predicts the effect of the independent variable on the dependent variable and gives a reason: **if the water is warmer, the sugar will dissolve faster, because the particles move faster**."
+  },
+  {
+    "id": "s9.nos.investigating.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Wiremu measures his reaction time by catching a falling ruler. He catches it at 14 cm, 15 cm, 13 cm and 31 cm. On the 4th go he was distracted.\n\nLeave out the outlier and calculate the mean catch distance.",
+    "answer": 14,
+    "units": "cm",
+    "hints": ["Which result doesn't fit the pattern?", "Find the mean of the other three results."],
+    "solution": "31 cm is the **outlier**: it's far from the others and has a known cause. Mean of the other three: $\\dfrac{14 + 15 + 13}{3} = \\dfrac{42}{3} = 14$ cm."
+  },
+  {
+    "id": "s9.nos.investigating.q013",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these stages of a science investigation in order.",
+    "items": [
+      { "id": "q", "text": "Ask a testable question" },
+      { "id": "h", "text": "Write a hypothesis" },
+      { "id": "p", "text": "Plan a fair test and decide on the variables" },
+      { "id": "r", "text": "Carry out the test and record results in a table" },
+      { "id": "g", "text": "Draw a graph of the results" },
+      { "id": "c", "text": "Write a conclusion and evaluate the method" }
+    ],
+    "hints": ["You need a question before you can predict an answer to it.", "You can't graph results you haven't collected yet."],
+    "solution": "Question → hypothesis → plan (variables, fair test) → carry out and record → graph → conclusion and evaluation."
+  },
+  {
+    "id": "s9.nos.investigating.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Isla puts an effervescent (fizzy) tablet into water at different temperatures and times how long it fizzes.\n\n| Water temperature (°C) | Time to stop fizzing (s) |\n|---|---|\n| 10 | 95 |\n| 20 | 70 |\n| 30 | 52 |\n| 40 | 38 |\n| 50 | 30 |\n\nWhich conclusion is best supported by her results?",
+    "options": [
+      { "id": "a", "text": "As the water temperature increases, the tablet takes less time to stop fizzing." },
+      { "id": "b", "text": "As the water temperature increases, the tablet takes more time to stop fizzing." },
+      { "id": "c", "text": "The water temperature has no effect on the time." },
+      { "id": "d", "text": "At 60 °C the tablet will stop fizzing after exactly 22 s." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Look again: the times get smaller as the temperature goes up.",
+      "c": "The times change a lot, from 95 s down to 30 s.",
+      "d": "Her results don't go up to 60 °C, so she can't say \"exactly\". The pattern is also levelling off."
+    },
+    "hints": ["Read down both columns. As one goes up, what does the other do?"],
+    "solution": "As the temperature rises from 10 °C to 50 °C, the time falls from 95 s to 30 s. So **the warmer the water, the faster the reaction** (the less time it takes)."
+  },
+  {
+    "id": "s9.nos.investigating.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Noah times how long a paper helicopter takes to fall 2 m, using a stopwatch. What is the most likely **source of error**?",
+    "options": [
+      { "id": "a", "text": "His reaction time when starting and stopping the stopwatch" },
+      { "id": "b", "text": "Using the same drop height every time" },
+      { "id": "c", "text": "Making every helicopter from the same type of paper" },
+      { "id": "d", "text": "Writing the results in a table" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Keeping the drop height the same is good practice. It's a controlled variable.",
+      "c": "Using the same paper is good practice. It's a controlled variable.",
+      "d": "Recording results in a table is correct practice, not a source of error."
+    },
+    "hints": ["The fall only takes a second or two. What makes that hard to time exactly?"],
+    "solution": "People take a fraction of a second to react, which is a big part of a 2-second fall. **Reaction time** is the main source of error. Repeating and averaging, or filming the drop, helps."
+  },
+  {
+    "id": "s9.nos.investigating.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do scientific ideas sometimes change over time?",
+    "options": [
+      { "id": "a", "text": "New evidence is found that the old idea can't explain" },
+      { "id": "b", "text": "Scientists vote to choose the most popular idea" },
+      { "id": "c", "text": "Old ideas are always replaced after 100 years" },
+      { "id": "d", "text": "A famous scientist disagrees, even without evidence" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Science isn't decided by a vote. It's decided by evidence.",
+      "c": "Ideas that keep matching the evidence can last for a very long time.",
+      "d": "Even famous scientists need evidence to change an accepted idea."
+    },
+    "hints": ["What do scientists use to decide whether an idea is right?"],
+    "solution": "Science ideas are based on **evidence**. When new evidence turns up, for example from better equipment, ideas are tested again and may be changed or replaced."
+  },
+  {
+    "id": "s9.nos.investigating.q017",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "The graph shows Mia's results for how long a sugar cube takes to dissolve in water at different temperatures. She did not test 50 °C.\n\nUse the line of best fit to estimate how long a sugar cube would take to dissolve at 50 °C.",
+    "figure": { "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62.0' y1='18' x2='62.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62.0' y='263' text-anchor='middle' fill='#4b5563'>0</text><line x1='104.2' y1='18' x2='104.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.2' y='263' text-anchor='middle' fill='#4b5563'>10</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' fill='#4b5563'>20</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' fill='#4b5563'>30</text><line x1='231.0' y1='18' x2='231.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231.0' y='263' text-anchor='middle' fill='#4b5563'>40</text><line x1='273.2' y1='18' x2='273.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.2' y='263' text-anchor='middle' fill='#4b5563'>50</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' fill='#4b5563'>60</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' fill='#4b5563'>70</text><line x1='400.0' y1='18' x2='400.0' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400.0' y='263' text-anchor='middle' fill='#4b5563'>80</text><line x1='62' y1='248.0' x2='400' y2='248.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>0</text><line x1='62' y1='215.1' x2='400' y2='215.1' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='215.1' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>20</text><line x1='62' y1='182.3' x2='400' y2='182.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='182.3' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>40</text><line x1='62' y1='149.4' x2='400' y2='149.4' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='149.4' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>60</text><line x1='62' y1='116.6' x2='400' y2='116.6' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='116.6' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>80</text><line x1='62' y1='83.7' x2='400' y2='83.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='83.7' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>100</text><line x1='62' y1='50.9' x2='400' y2='50.9' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='50.9' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>120</text><line x1='62' y1='18.0' x2='400' y2='18.0' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18.0' text-anchor='end' dominant-baseline='middle' fill='#4b5563'>140</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231.0' y='290' text-anchor='middle' fill='#1f2937' font-size='13'>Water temperature (°C)</text><text x='16' y='133.0' text-anchor='middle' fill='#1f2937' font-size='13' transform='rotate(-90 16 133.0)'>Time to dissolve (s)</text><polyline points='125.4,34.4 378.9,231.6' fill='none' stroke='#2563eb' stroke-width='2.5'/><line x1='141.5' y1='49.1' x2='151.5' y2='59.1' stroke='#1f2937' stroke-width='2'/><line x1='141.5' y1='59.1' x2='151.5' y2='49.1' stroke='#1f2937' stroke-width='2'/><line x1='183.8' y1='73.8' x2='193.8' y2='83.8' stroke='#1f2937' stroke-width='2'/><line x1='183.8' y1='83.8' x2='193.8' y2='73.8' stroke='#1f2937' stroke-width='2'/><line x1='226.0' y1='113.2' x2='236.0' y2='123.2' stroke='#1f2937' stroke-width='2'/><line x1='226.0' y1='123.2' x2='236.0' y2='113.2' stroke='#1f2937' stroke-width='2'/><line x1='310.5' y1='175.6' x2='320.5' y2='185.6' stroke='#1f2937' stroke-width='2'/><line x1='310.5' y1='185.6' x2='320.5' y2='175.6' stroke='#1f2937' stroke-width='2'/><line x1='352.8' y1='206.9' x2='362.8' y2='216.9' stroke='#1f2937' stroke-width='2'/><line x1='352.8' y1='216.9' x2='362.8' y2='206.9' stroke='#1f2937' stroke-width='2'/></svg>", "alt": "Line graph: time to dissolve (s, 0 to 140) against water temperature (°C, 0 to 80). Points at about (20, 118), (30, 103), (40, 79), (60, 41) and (70, 22), with a straight line of best fit going down from 120 s at 20 °C to 20 s at 70 °C." },
+    "answer": 60,
+    "tolerance": 4,
+    "units": "s",
+    "hints": ["Find 50 °C on the x-axis.", "Go straight up to the line, then across to the y-axis."],
+    "solution": "From 50 °C on the x-axis, go up to the line of best fit, then across to the y-axis: about **60 s**. Reading between your measured points like this is called **interpolation**."
+  },
+  {
+    "id": "s9.nos.investigating.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Hemi wants to find out whether wool or cotton keeps water warmer for longer. He wraps beaker A in wool and fills it with 200 mL of water at 80 °C. He wraps beaker B in cotton and fills it with 100 mL of water at 60 °C. After 20 minutes he measures both temperatures.\n\nExplain why this is **not a fair test**, and describe how Hemi should change his method.",
+    "modelAnswer": "It isn't a fair test because Hemi changed more than one variable: as well as the material, the volume of water (200 mL vs 100 mL) and the starting temperature (80 °C vs 60 °C) are different. These also affect how fast water cools, so he can't tell whether the material caused any difference. He should use the same volume of water (e.g. 200 mL) and the same starting temperature (e.g. 80 °C) in both beakers, so the only thing that changes is the material. He should measure how much the temperature drops in the same time.",
+    "rubric": [
+      { "criterion": "Identifies that the volume of water is different", "marks": 1 },
+      { "criterion": "Identifies that the starting temperature is different", "marks": 1 },
+      { "criterion": "Says only the material should change, with the volume and starting temperature kept the same (controlled)", "marks": 1 }
+    ],
+    "hints": ["List everything that is different between beaker A and beaker B.", "In a fair test, how many of those should be different?"],
+    "solution": "Two extra variables changed: the **volume of water** and the **starting temperature**. To make it fair, keep both the same in each beaker and change **only the material**."
+  },
+  {
+    "id": "s9.nos.investigating.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Aroha's hypothesis was: \"If the ramp is higher, then the toy car will roll further.\" Her results are:\n\n| Ramp height (cm) | Mean distance rolled (m) |\n|---|---|\n| 10 | 0.8 |\n| 20 | 1.4 |\n| 30 | 2.0 |\n| 40 | 2.5 |\n| 50 | 3.1 |\n\nWrite a conclusion for her investigation.",
+    "modelAnswer": "As the height of the ramp increased, the distance the car rolled also increased. At a height of 10 cm the car rolled 0.8 m, but at 50 cm it rolled 3.1 m, nearly four times as far. This supports Aroha's hypothesis that a higher ramp makes the car roll further.",
+    "rubric": [
+      { "criterion": "Describes the trend: as ramp height increases, the distance rolled increases", "marks": 1 },
+      { "criterion": "Uses data from the table as evidence (e.g. 10 cm → 0.8 m and 50 cm → 3.1 m)", "marks": 1 },
+      { "criterion": "States that the results support the hypothesis", "marks": 1 }
+    ],
+    "hints": ["A strong conclusion has three parts: the pattern, some data, and whether the hypothesis was supported."],
+    "solution": "Trend: higher ramp → further distance. Evidence: 0.8 m at 10 cm up to 3.1 m at 50 cm. This **supports** the hypothesis."
+  },
+  {
+    "id": "s9.nos.investigating.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Ruby grows two groups of bean plants. Group A is in sunlight **and** given fertiliser. Group B is in the shade with **no** fertiliser. After two weeks, group A is taller. Can Ruby conclude that fertiliser makes bean plants grow taller?",
+    "options": [
+      { "id": "a", "text": "No, because two variables were changed, so she can't tell which one made the difference" },
+      { "id": "b", "text": "Yes, because the plants with fertiliser grew taller" },
+      { "id": "c", "text": "Yes, because she used two groups of plants" },
+      { "id": "d", "text": "No, because bean plants don't need sunlight" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The fertilised plants also had more light, so the light could explain the difference.",
+      "c": "Using groups is good, but the groups must differ in only one way.",
+      "d": "Plants do need light for photosynthesis, which is exactly why light is a problem here."
+    },
+    "hints": ["How many things are different between group A and group B?"],
+    "solution": "**No.** Light and fertiliser were both changed, so the extra growth could be due to either one (or both). For a fair test, both groups should get the same light and only the fertiliser should differ."
+  },
+  {
+    "id": "s9.nos.investigating.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Grace dropped her paper helicopter only **once** for each wing length. Her teacher says her results are not reliable. Why?",
+    "options": [
+      { "id": "a", "text": "With only one trial, a single mistake (like a slow reaction on the stopwatch) could change a result, and she can't check it" },
+      { "id": "b", "text": "Paper helicopters always fall at exactly the same speed" },
+      { "id": "c", "text": "She should have changed the wing length and the paper at the same time" },
+      { "id": "d", "text": "One trial is more accurate because you don't get tired" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Small differences between drops, like reaction time or air movement, mean results vary.",
+      "c": "Changing two variables would make it an unfair test.",
+      "d": "Repeats help you spot and reduce errors. Being tired isn't the main issue."
+    },
+    "hints": ["How would she know if one of her results was wrong?"],
+    "solution": "With only one result for each wing length, there's no way to spot an error or average it out. **Repeating** each drop (e.g. three times) and finding the mean makes the results more reliable."
+  },
+  {
+    "id": "s9.nos.investigating.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A paper helicopter takes about 1.5 s to fall 2 m, and Noah's timing varies a lot. Which change would **best** reduce the error caused by his reaction time?",
+    "options": [
+      { "id": "a", "text": "Drop it from a greater height so the fall takes longer, and repeat each drop several times" },
+      { "id": "b", "text": "Use a stopwatch that shows thousandths of a second" },
+      { "id": "c", "text": "Drop it from a lower height so it's easier to watch" },
+      { "id": "d", "text": "Time only one drop so he stays focused" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A more precise display doesn't help if Noah's thumb is still about 0.2 s late. The reaction time error stays the same.",
+      "c": "A shorter fall makes the reaction time a **bigger** part of the measured time.",
+      "d": "One drop gives no way to check or average out errors."
+    },
+    "hints": ["His reaction time is roughly the same however long the fall is.", "What happens to the *size* of that error compared with the total time if the fall lasts longer?"],
+    "solution": "Reaction time adds roughly the same error to every measurement. If the fall takes longer, that error is a **smaller fraction** of the total time. Repeating and averaging reduces it further. A more precise stopwatch doesn't fix a human reaction-time error."
+  },
+  {
+    "id": "s9.nos.investigating.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "In 1912, Alfred Wegener suggested that the continents slowly move across the Earth. At first, most scientists rejected his idea. Today the theory of plate tectonics is accepted.\n\nUse this example to explain how scientific ideas are tested and can change over time.",
+    "modelAnswer": "Wegener had some evidence, such as the way the coastlines of South America and Africa fit together and matching fossils on different continents. Other scientists questioned his idea because he couldn't explain how continents could move, and scientists expect strong evidence before they accept a new idea. Later (in the 1950s and 1960s), new evidence from mapping and measuring the sea floor showed that the sea floor is spreading and the plates move. With this new evidence, scientists changed their thinking, and the idea developed into the theory of plate tectonics. This shows that science ideas are based on evidence and can change when new evidence is found.",
+    "rubric": [
+      { "criterion": "Explains that the idea was questioned/rejected because there wasn't enough evidence or no explanation of how it worked", "marks": 1 },
+      { "criterion": "States that new evidence was later found (e.g. from studying the sea floor)", "marks": 1 },
+      { "criterion": "Concludes that scientific ideas are based on evidence and change (or develop) when new evidence appears", "marks": 1 }
+    ],
+    "hints": ["Why might other scientists not have accepted the idea at first?", "What changed between 1912 and today?"],
+    "solution": "Scientists test new ideas against the evidence. Wegener's idea was doubted because it lacked a mechanism. Later evidence from the sea floor supported moving plates, so the idea was accepted and developed. Science changes when the **evidence** changes."
+  }
+]

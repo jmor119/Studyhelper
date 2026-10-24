@@ -42,7 +42,10 @@ export function normaliseText(s: string): string {
     .replace(/[\u0300-\u036f]/g, '') // strip macrons/diacritics: "kōura" → "koura"
     .toLowerCase()
     .replace(/[\u2018\u2019]/g, "'")
-    .replace(/[^a-z0-9'.\-+/ ]+/g, ' ')
+    .replace(/≤/g, '<=')
+    .replace(/≥/g, '>=')
+    .replace(/[^a-z0-9'.\-+/<>= ]+/g, ' ')
+    .replace(/\s*([<>]=?|=)\s*/g, ' $1 ')
     .replace(/\s+/g, ' ')
     .trim()
     .split(' ')
@@ -74,10 +77,12 @@ export function editDistance(a: string, b: string): number {
 
 /** How many typos to forgive for a target of this length. Short words must be exact. */
 function typoAllowance(len: number): number {
-  if (len < 5) return 0;
-  if (len < 9) return 1;
+  if (len < 6) return 0;
+  if (len < 10) return 1;
   return 2;
 }
+
+const isPluralOf = (a: string, b: string) => a === `${b}s` || a === `${b}es` || (b.endsWith('y') && a === `${b.slice(0, -1)}ies`);
 
 export function textMatches(given: string, target: string, allowTypos: boolean): boolean {
   const g = normaliseText(given);
@@ -87,15 +92,36 @@ export function textMatches(given: string, target: string, allowTypos: boolean):
   if (!allowTypos) return false;
   // Numbers and chemical formulae must be exact.
   if (/\d/.test(t)) return false;
+  // Singular/plural slips are fine ("cell" for "cells").
+  if (isPluralOf(g, t) || isPluralOf(t, g)) return true;
+  // A different word is not a typo: "invertebrate" ≠ "vertebrate", "endothermic" ≠ "exothermic".
+  if (differentPrefix(g, t)) return false;
+  // Real typos rarely change the first letter ("father" ≠ "mother").
+  if (g[0] !== t[0]) return false;
   return editDistance(g, t) <= typoAllowance(t.length);
 }
 
-/** True if a keyword (single word or phrase) appears in the answer, allowing small typos per word. */
+const PREFIXES = ['endo', 'exo', 'hyper', 'hypo', 'inter', 'intra', 'in', 'un', 'non', 'dis', 'sub', 'super', 'mono', 'poly', 'homo', 'hetero', 'micro', 'macro', 'uni', 'bi', 'tri', 'de', 're'];
+
+/** True when the two words differ by an added or swapped meaning-changing prefix. */
+function differentPrefix(a: string, b: string): boolean {
+  if (a.length - b.length >= 2 && a.endsWith(b)) return true;
+  if (b.length - a.length >= 2 && b.endsWith(a)) return true;
+  const split = (w: string) => {
+    const p = PREFIXES.find((x) => w.startsWith(x) && w.length - x.length >= 4);
+    return p ? [p, w.slice(p.length)] : ['', w];
+  };
+  const [pa, ra] = split(a);
+  const [pb, rb] = split(b);
+  return pa !== pb && ra === rb;
+}
+
+/** True if a keyword (single word or phrase) appears in the answer as whole words, allowing small typos per word. */
 export function containsKeyword(answer: string, keyword: string, allowTypos: boolean): boolean {
   const a = normaliseText(answer);
   const k = normaliseText(keyword);
   if (!k) return false;
-  if (a.includes(k)) return true;
+  if (` ${a} `.includes(` ${k} `)) return true;
   if (!allowTypos) return false;
   const words = a.split(' ');
   const kWords = k.split(' ');

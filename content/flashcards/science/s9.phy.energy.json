@@ -1,0 +1,19 @@
+[
+  { "id": "s9.phy.energy.f01", "front": "Unit of energy", "back": "The joule (J). 1 kJ = 1,000 J." },
+  { "id": "s9.phy.energy.f02", "front": "What is **kinetic energy**?", "back": "The energy of anything that is moving." },
+  { "id": "s9.phy.energy.f03", "front": "What is **gravitational potential energy**?", "back": "Stored energy an object has because it is raised up high, e.g. water behind a dam." },
+  { "id": "s9.phy.energy.f04", "front": "What is **elastic potential energy**?", "back": "Stored energy in something stretched or squashed, e.g. a bungy cord or a spring." },
+  { "id": "s9.phy.energy.f05", "front": "Name the nine forms of energy", "back": "Kinetic, gravitational potential, elastic, chemical, thermal, electrical, light, sound, nuclear." },
+  { "id": "s9.phy.energy.f06", "front": "What is an **energy transformation**?", "back": "A change of energy from one form to another, e.g. a solar panel changes light into electrical energy." },
+  { "id": "s9.phy.energy.f07", "front": "**Law of conservation of energy**", "back": "Energy cannot be created or destroyed, only transformed or transferred. The total stays the same." },
+  { "id": "s9.phy.energy.f08", "front": "Where does \"wasted\" energy usually go?", "back": "It becomes heat (thermal energy) that spreads into the surroundings, often caused by friction." },
+  { "id": "s9.phy.energy.f09", "front": "Formula for **efficiency**", "back": "Efficiency = useful energy out ÷ total energy in × 100%." },
+  { "id": "s9.phy.energy.f10", "front": "Energy flow in a torch", "back": "Chemical (battery) → electrical → light (useful) + heat (wasted)." },
+  { "id": "s9.phy.energy.f11", "front": "Energy flow in a hydro power station", "back": "Gravitational potential (lake) → kinetic (water) → kinetic (turbine) → electrical." },
+  { "id": "s9.phy.energy.f12", "front": "**Renewable** vs **non-renewable**", "back": "Renewable sources are naturally replaced (hydro, geothermal, wind, solar). Non-renewable sources will run out (coal, oil, natural gas)." },
+  { "id": "s9.phy.energy.f13", "front": "NZ's biggest source of electricity", "back": "Hydro (more than half). Geothermal and wind are other important renewables." },
+  { "id": "s9.phy.energy.f14", "front": "What is **conduction**?", "back": "Heat passing through a material as particles vibrate and pass energy on. Best in solids, especially metals." },
+  { "id": "s9.phy.energy.f15", "front": "What is **convection**?", "back": "Heat transfer in liquids and gases: warm fluid becomes less dense and rises, cooler fluid sinks, making a convection current." },
+  { "id": "s9.phy.energy.f16", "front": "What is **radiation** (heat)?", "back": "Heat travelling as infrared waves. It needs no particles, so it can cross empty space." },
+  { "id": "s9.phy.energy.f17", "front": "What is an **insulator** (for heat)?", "back": "A poor conductor of heat, e.g. wood, plastic, wool, polystyrene, trapped air." }
+]

@@ -1,0 +1,14 @@
+[
+  { "id": "m9.alg.linear-graphs.f01", "front": "How do you read the **coordinate** $(x, y)$?", "back": "Go across $x$ first, then up or down $y$." },
+  { "id": "m9.alg.linear-graphs.f02", "front": "What is the **origin**?", "back": "The point $(0, 0)$, where the axes cross." },
+  { "id": "m9.alg.linear-graphs.f03", "front": "The four **quadrants**", "back": "First: top right $(+, +)$. Second: top left $(-, +)$. Third: bottom left $(-, -)$. Fourth: bottom right $(+, -)$." },
+  { "id": "m9.alg.linear-graphs.f04", "front": "In $y = mx + c$, what is $m$?", "back": "The **gradient** (slope): it tells you the steepness and direction of the line." },
+  { "id": "m9.alg.linear-graphs.f05", "front": "In $y = mx + c$, what is $c$?", "back": "The **$y$-intercept**: the line crosses the $y$-axis at $(0, c)$." },
+  { "id": "m9.alg.linear-graphs.f06", "front": "Positive gradient vs negative gradient", "back": "Positive: the line goes **up** from left to right. Negative: it goes **down**." },
+  { "id": "m9.alg.linear-graphs.f07", "front": "Equation and gradient of a horizontal line", "back": "$y = c$ (e.g. $y = 3$), with gradient 0." },
+  { "id": "m9.alg.linear-graphs.f08", "front": "Equation of a vertical line", "back": "$x = $ a number, e.g. $x = 2$." },
+  { "id": "m9.alg.linear-graphs.f09", "front": "How do you test whether a point is on a line?", "back": "Substitute its $x$-value into the equation. If you get its $y$-value, the point is on the line." },
+  { "id": "m9.alg.linear-graphs.f10", "front": "Which is steeper: $y = -4x + 1$ or $y = 2x + 5$?", "back": "$y = -4x + 1$, because the size of its gradient (4) is bigger. The sign only gives the direction." },
+  { "id": "m9.alg.linear-graphs.f11", "front": "How do you find $c$ from a table of values?", "back": "It's the $y$-value when $x = 0$. If $x = 0$ isn't shown, work backwards using the constant difference." },
+  { "id": "m9.alg.linear-graphs.f12", "front": "What does it mean that a line is the set of solutions of its equation?", "back": "Every point on the line makes the equation true, and every solution is a point on the line. There are infinitely many." }
+]

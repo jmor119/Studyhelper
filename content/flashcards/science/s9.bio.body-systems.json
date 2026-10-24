@@ -1,0 +1,20 @@
+[
+  { "id": "s9.bio.body-systems.f01", "front": "What do **arteries** do?", "back": "Carry blood away from the heart at high pressure. They have thick, muscular, stretchy walls." },
+  { "id": "s9.bio.body-systems.f02", "front": "What do **veins** do?", "back": "Carry blood back to the heart at low pressure. They have thinner walls and valves to stop backflow." },
+  { "id": "s9.bio.body-systems.f03", "front": "What are **capillaries**?", "back": "Tiny blood vessels with walls one cell thick, where substances pass between the blood and the body's cells." },
+  { "id": "s9.bio.body-systems.f04", "front": "The four chambers of the heart", "back": "Two atria at the top (they receive blood) and two ventricles at the bottom (they pump blood out)." },
+  { "id": "s9.bio.body-systems.f05", "front": "Why is the left ventricle wall thicker than the right?", "back": "It pumps blood all around the body, which needs more pressure. The right ventricle only pumps blood to the lungs." },
+  { "id": "s9.bio.body-systems.f06", "front": "Job of **red blood cells**", "back": "Carry oxygen, using haemoglobin." },
+  { "id": "s9.bio.body-systems.f07", "front": "Jobs of **white blood cells** and **platelets**", "back": "White blood cells fight infection. Platelets help blood to clot." },
+  { "id": "s9.bio.body-systems.f08", "front": "What does **plasma** carry?", "back": "Dissolved substances such as glucose, carbon dioxide and urea." },
+  { "id": "s9.bio.body-systems.f09", "front": "Four ways alveoli are adapted for gas exchange", "back": "Huge surface area, walls one cell thick, a moist lining and a rich blood supply." },
+  { "id": "s9.bio.body-systems.f10", "front": "What happens when you breathe in?", "back": "The diaphragm contracts and flattens and the ribs move up and out, so the chest volume increases and air flows in." },
+  { "id": "s9.bio.body-systems.f11", "front": "Word equation for respiration", "back": "glucose + oxygen → carbon dioxide + water (+ energy released)" },
+  { "id": "s9.bio.body-systems.f12", "front": "Breathing vs respiration", "back": "Breathing moves air in and out of the lungs. Respiration is a chemical reaction in cells that releases energy from glucose." },
+  { "id": "s9.bio.body-systems.f13", "front": "What is an **enzyme**?", "back": "A protein that speeds up a chemical reaction without being used up (a biological catalyst)." },
+  { "id": "s9.bio.body-systems.f14", "front": "Amylase, protease and lipase", "back": "Amylase: starch → sugars. Protease: proteins → amino acids. Lipase: fats → fatty acids and glycerol." },
+  { "id": "s9.bio.body-systems.f15", "front": "What does **bile** do?", "back": "It breaks fat into tiny droplets so lipase can digest it faster. It is made by the liver and stored in the gall bladder." },
+  { "id": "s9.bio.body-systems.f16", "front": "What are **villi**?", "back": "Tiny finger-like folds lining the small intestine. They give a huge surface area for absorbing digested food." },
+  { "id": "s9.bio.body-systems.f17", "front": "Mechanical vs chemical digestion", "back": "Mechanical: breaking food into smaller pieces (teeth, stomach churning). Chemical: enzymes breaking large molecules into small ones." },
+  { "id": "s9.bio.body-systems.f18", "front": "Why must food be digested?", "back": "Large, insoluble molecules must be broken into small, soluble ones that can be absorbed into the blood." }
+]

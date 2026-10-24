@@ -1,0 +1,13 @@
+[
+  { "id": "m9.alg.patterns.f01", "front": "What is a **sequence**?", "back": "A list of numbers that follows a pattern, e.g. $5, 8, 11, 14, \\ldots$" },
+  { "id": "m9.alg.patterns.f02", "front": "What is a **term**?", "back": "One of the numbers in a sequence." },
+  { "id": "m9.alg.patterns.f03", "front": "What is the **position** of a term?", "back": "Where it is in the sequence (1st, 2nd, 3rd, …), usually called $n$." },
+  { "id": "m9.alg.patterns.f04", "front": "What is a **constant difference**?", "back": "The same amount added or subtracted each time. A sequence with one is **linear**." },
+  { "id": "m9.alg.patterns.f05", "front": "Term-to-term rule vs position-to-term rule", "back": "Term-to-term gets the next term from the one before (\"add 3\"). Position-to-term gets any term from $n$ ($3n + 2$)." },
+  { "id": "m9.alg.patterns.f06", "front": "Find the rule for $5, 8, 11, 14, \\ldots$", "back": "Difference 3, so start with $3n$. $3 \\times 1 = 3$, and the first term is 5, so add 2: $3n + 2$." },
+  { "id": "m9.alg.patterns.f07", "front": "Rule for $20, 17, 14, 11, \\ldots$", "back": "$23 - 3n$ (or $-3n + 23$). The difference is $-3$." },
+  { "id": "m9.alg.patterns.f08", "front": "How can you tell if a number is in a sequence?", "back": "Set the rule equal to the number and solve. If $n$ is a whole number, it's a term." },
+  { "id": "m9.alg.patterns.f09", "front": "What is a **conjecture**?", "back": "A statement you think is true but haven't proved yet." },
+  { "id": "m9.alg.patterns.f10", "front": "How do you show a conjecture is false?", "back": "Find one counterexample: a single case where it doesn't work." },
+  { "id": "m9.alg.patterns.f11", "front": "What does a linear pattern look like on a graph of position against term?", "back": "The points lie in a straight line. A bigger constant difference gives a steeper line." }
+]

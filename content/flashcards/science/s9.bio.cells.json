@@ -6,5 +6,15 @@
   { "id": "s9.bio.cells.f05", "front": "Three structures found in plant cells but not animal cells", "back": "Cell wall, chloroplasts, large permanent vacuole." },
   { "id": "s9.bio.cells.f06", "front": "How do you calculate total magnification?", "back": "Eyepiece magnification × objective magnification, e.g. $10 \\times 40 = 400$." },
   { "id": "s9.bio.cells.f07", "front": "Levels of organisation (smallest to largest)", "back": "Cell → tissue → organ → organ system → organism." },
-  { "id": "s9.bio.cells.f08", "front": "What is a **tissue**?", "back": "A group of similar cells working together to do a particular job." }
+  { "id": "s9.bio.cells.f08", "front": "What is a **tissue**?", "back": "A group of similar cells working together to do a particular job." },
+  { "id": "s9.bio.cells.f09", "front": "What do **chloroplasts** do?", "back": "Absorb light energy for photosynthesis. They contain the green pigment chlorophyll." },
+  { "id": "s9.bio.cells.f10", "front": "What does the **cell wall** do, and what is it made of?", "back": "It supports and protects a plant cell and gives it a fixed shape. It is made of cellulose." },
+  { "id": "s9.bio.cells.f11", "front": "What does the large permanent **vacuole** do?", "back": "Stores cell sap (water with dissolved sugars and salts) and keeps a plant cell firm." },
+  { "id": "s9.bio.cells.f12", "front": "Magnification formula using sizes", "back": "Magnification = image size ÷ actual size (both in the same units)." },
+  { "id": "s9.bio.cells.f13", "front": "How many micrometres (µm) are in 1 millimetre?", "back": "1 mm = 1000 µm." },
+  { "id": "s9.bio.cells.f14", "front": "What is an **organ**?", "back": "A group of different tissues working together to do a job, e.g. the heart, the stomach or a leaf." },
+  { "id": "s9.bio.cells.f15", "front": "What is an **organ system**?", "back": "A group of organs working together, e.g. the digestive system or the circulatory system." },
+  { "id": "s9.bio.cells.f16", "front": "What is a **specialised cell**?", "back": "A cell with a shape or features that suit its job, e.g. a red blood cell or a root hair cell." },
+  { "id": "s9.bio.cells.f17", "front": "Coarse focus vs fine focus", "back": "Coarse focus makes big movements to find the image. Fine focus makes small movements to sharpen it, and is the only one to use at high power." },
+  { "id": "s9.bio.cells.f18", "front": "Which stains are used for onion cells and cheek cells?", "back": "Iodine solution for onion (plant) cells; methylene blue for cheek (animal) cells." }
 ]

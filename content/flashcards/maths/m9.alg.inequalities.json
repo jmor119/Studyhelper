@@ -1,0 +1,13 @@
+[
+  { "id": "m9.alg.inequalities.f01", "front": "What is an **inequality**?", "back": "A statement that one side is less than or greater than the other, e.g. $2x + 3 < 11$." },
+  { "id": "m9.alg.inequalities.f02", "front": "What do $<$ and $>$ mean?", "back": "$<$ is **less than**; $>$ is **greater than**." },
+  { "id": "m9.alg.inequalities.f03", "front": "What do $\\le$ and $\\ge$ mean?", "back": "$\\le$ is less than or equal to; $\\ge$ is greater than or equal to." },
+  { "id": "m9.alg.inequalities.f04", "front": "What is a **solution set**?", "back": "All the values that make an inequality true. For $x < 4$ that is every number less than 4." },
+  { "id": "m9.alg.inequalities.f05", "front": "Open circle on a number line", "back": "The number is **not** included. Used for $<$ and $>$." },
+  { "id": "m9.alg.inequalities.f06", "front": "Filled circle on a number line", "back": "The number **is** included. Used for $\\le$ and $\\ge$." },
+  { "id": "m9.alg.inequalities.f07", "front": "When does the inequality sign reverse?", "back": "When you multiply or divide both sides by a negative number, such as $-1$." },
+  { "id": "m9.alg.inequalities.f08", "front": "Solve $-x > 4$", "back": "$x < -4$. Multiply both sides by $-1$ and reverse the sign." },
+  { "id": "m9.alg.inequalities.f09", "front": "\"At most 30\" and \"at least 18\" as inequalities", "back": "At most 30: $\\le 30$. At least 18: $\\ge 18$." },
+  { "id": "m9.alg.inequalities.f10", "front": "Largest integer that satisfies $x < 5$", "back": "4, because 5 itself isn't included." },
+  { "id": "m9.alg.inequalities.f11", "front": "Does adding or subtracting a negative number reverse the inequality sign?", "back": "No. Only multiplying or dividing by a negative number reverses it." }
+]

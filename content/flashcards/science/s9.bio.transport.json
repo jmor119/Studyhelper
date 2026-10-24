@@ -1,0 +1,17 @@
+[
+  { "id": "s9.bio.transport.f01", "front": "What is **diffusion**?", "back": "The net movement of particles from an area of high concentration to an area of low concentration. It doesn't need energy from the cell." },
+  { "id": "s9.bio.transport.f02", "front": "What is **osmosis**?", "back": "The diffusion of water across a partially permeable membrane, from a dilute solution to a more concentrated one." },
+  { "id": "s9.bio.transport.f03", "front": "What is **active transport**?", "back": "Moving particles from low to high concentration (against the concentration gradient), using energy from respiration." },
+  { "id": "s9.bio.transport.f04", "front": "What is a **concentration gradient**?", "back": "A difference in concentration between two areas. The steeper the gradient, the faster the diffusion." },
+  { "id": "s9.bio.transport.f05", "front": "What is a **partially permeable membrane**?", "back": "A membrane that lets small molecules, like water, through but not larger ones, like sugar." },
+  { "id": "s9.bio.transport.f06", "front": "Four things that make diffusion faster", "back": "Higher temperature, bigger concentration difference, shorter distance and larger surface area." },
+  { "id": "s9.bio.transport.f07", "front": "**Turgid** vs **flaccid** plant cells", "back": "Turgid: firm, with the vacuole full of water pushing on the cell wall. Flaccid: floppy, because the cell has lost water." },
+  { "id": "s9.bio.transport.f08", "front": "What happens to an animal cell in pure water?", "back": "Water enters by osmosis, so it swells and may burst. It has no cell wall to stop it." },
+  { "id": "s9.bio.transport.f09", "front": "Surface area and volume of a cube with side $L$", "back": "Surface area $= 6L^2$; volume $= L^3$." },
+  { "id": "s9.bio.transport.f10", "front": "What happens to the SA:V ratio as an object gets bigger?", "back": "It gets smaller. Small objects have a large SA:V ratio." },
+  { "id": "s9.bio.transport.f11", "front": "Why are cells so small?", "back": "A small cell has a large SA:V ratio and short distances, so substances can diffuse in and out fast enough to supply the whole cell." },
+  { "id": "s9.bio.transport.f12", "front": "Examples of exchange surfaces with a large surface area", "back": "Alveoli (lungs), villi (small intestine), root hairs (roots) and gills (fish)." },
+  { "id": "s9.bio.transport.f13", "front": "Two examples of active transport", "back": "Root hair cells taking in mineral ions from the soil; the small intestine absorbing glucose." },
+  { "id": "s9.bio.transport.f14", "front": "Percentage change in mass", "back": "(final mass − starting mass) ÷ starting mass × 100" },
+  { "id": "s9.bio.transport.f15", "front": "Diffusion vs active transport: direction and energy", "back": "Diffusion: high → low concentration, no energy needed. Active transport: low → high concentration, needs energy." }
+]

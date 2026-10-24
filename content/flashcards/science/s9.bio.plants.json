@@ -1,0 +1,18 @@
+[
+  { "id": "s9.bio.plants.f01", "front": "Word equation for **photosynthesis**", "back": "carbon dioxide + water → glucose + oxygen (using light energy absorbed by chlorophyll)" },
+  { "id": "s9.bio.plants.f02", "front": "Word equation for **respiration**", "back": "glucose + oxygen → carbon dioxide + water (+ energy released)" },
+  { "id": "s9.bio.plants.f03", "front": "What is **chlorophyll**?", "back": "The green pigment in chloroplasts that absorbs light energy for photosynthesis." },
+  { "id": "s9.bio.plants.f04", "front": "Where does photosynthesis happen?", "back": "In chloroplasts, mostly in the palisade mesophyll cells of leaves." },
+  { "id": "s9.bio.plants.f05", "front": "What are **stomata**?", "back": "Tiny pores, mostly on the underside of leaves. They let carbon dioxide in and oxygen and water vapour out." },
+  { "id": "s9.bio.plants.f06", "front": "What do **guard cells** do?", "back": "Open and close the stomata." },
+  { "id": "s9.bio.plants.f07", "front": "What does **xylem** do?", "back": "Carries water and minerals up from the roots to the leaves. It is made of dead, hollow cells." },
+  { "id": "s9.bio.plants.f08", "front": "What does **phloem** do?", "back": "Carries dissolved sugars from the leaves to other parts of the plant, up or down. It is made of living cells." },
+  { "id": "s9.bio.plants.f09", "front": "What is **transpiration**?", "back": "The loss of water vapour from leaves through the stomata. It pulls water up the xylem." },
+  { "id": "s9.bio.plants.f10", "front": "Palisade vs spongy mesophyll", "back": "Palisade: tall cells packed with chloroplasts, where most photosynthesis happens. Spongy: loosely packed cells with air spaces for gases to diffuse." },
+  { "id": "s9.bio.plants.f11", "front": "What does the **waxy cuticle** do?", "back": "It is a waterproof layer on the leaf surface that reduces water loss." },
+  { "id": "s9.bio.plants.f12", "front": "Five uses of the glucose a plant makes", "back": "Respiration, storage as starch, cellulose for cell walls, sugars for transport, and proteins (with nitrates from the soil)." },
+  { "id": "s9.bio.plants.f13", "front": "How do you test a leaf for starch?", "back": "Boil in water, decolourise in hot ethanol (water bath), rinse, then add iodine. Blue-black = starch." },
+  { "id": "s9.bio.plants.f14", "front": "When do plants respire?", "back": "All the time, day and night, in every living cell." },
+  { "id": "s9.bio.plants.f15", "front": "Three factors that affect the rate of photosynthesis", "back": "Light intensity, carbon dioxide concentration and temperature." },
+  { "id": "s9.bio.plants.f16", "front": "How are leaves adapted for photosynthesis?", "back": "Broad and flat (large surface area for light), thin (short distance for gases), many chloroplasts, stomata, and veins." }
+]

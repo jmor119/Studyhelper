@@ -32,10 +32,17 @@ export function normaliseExpressionInput(raw: string, variables: readonly string
     .replace(/²/g, '^2')
     .replace(/³/g, '^3')
     .replace(/√\s*\(/g, 'sqrt(')
-    .trim();
-  // Students sometimes write "y = 2x + 3" when the answer is the expression.
-  s = s.replace(/^[a-zA-Z]\s*=\s*/, '');
-  return splitVariables(s, variables);
+    .trim()
+    // Year 9 answers use single lowercase letters; accept capitals typed by accident ("P = 2L + 2W").
+    .toLowerCase();
+  // Students sometimes write "y = 2x + 3" when the answer is the expression. Only strip the prefix
+  // when that letter isn't part of the expression (otherwise it's an equation, e.g. "x = 2x + 1").
+  const prefix = s.match(/^([a-z])\s*=\s*/);
+  if (prefix && !variables.includes(prefix[1]!)) s = s.slice(prefix[0].length);
+  s = splitVariables(s, variables);
+  // A single-letter variable directly before a bracket is multiplication, not a function call:
+  // "3x(2y + 1)" → "3x*(2y + 1)".
+  return s.replace(/(^|[^a-z])([a-z])\s*\(/g, (_m, before: string, v: string) => (variables.includes(v) ? `${before}${v}*(` : `${before}${v}(`));
 }
 
 function validate(node: MathNode, variables: readonly string[]): void {
@@ -196,14 +203,45 @@ export function isExpanded(expr: ParsedExpression): boolean {
   return expanded;
 }
 
-/** True when the top level is a product/power containing a bracketed sum — e.g. "3(x + 2)". */
-export function isFactorised(expr: ParsedExpression): boolean {
+/** Leaves of a product chain: 3*x*(x+2) → [3, x, (x+2)]. */
+function factorsOf(node: MathNode): MathNode[] {
+  const n = unwrap(node);
+  if (opOf(n) === 'multiply') return argsOf(n).flatMap(factorsOf);
+  if (opOf(n) === 'unaryMinus') return [...factorsOf(argsOf(n)[0]!)];
+  return [n];
+}
+
+/** Integer coefficient of a monomial term (variables set to 1), or null if it isn't a whole number. */
+function termCoefficient(node: MathNode, variables: readonly string[]): number | null {
+  const scope = Object.fromEntries(variables.map((v) => [v, 1]));
+  const value = Math.abs(evaluateNode(node, scope));
+  return Number.isInteger(value) ? value : null;
+}
+
+function gcdAll(values: number[]): number {
+  const g2 = (a: number, b: number): number => (b ? g2(b, a % b) : a);
+  return values.reduce((g, v) => g2(g, v), 0);
+}
+
+/**
+ * True when the expression is a product with a bracketed sum, and every bracket is fully factorised
+ * (no common whole-number factor left inside) — "3(x + 2)" yes, "2(6x + 9)" no.
+ */
+export function isFactorised(expr: ParsedExpression, variables: readonly string[] = []): boolean {
   let root = unwrap(expr.node);
   if (opOf(root) === 'unaryMinus') root = unwrap(argsOf(root)[0]!);
   const op = opOf(root);
-  if (op === 'multiply') return argsOf(root).some((a) => isSum(a) || opOf(a) === 'pow' || opOf(a) === 'multiply');
-  if (op === 'pow') return isSum(argsOf(root)[0]!);
-  return false;
+  let hasBracket = false;
+  if (op === 'multiply') hasBracket = factorsOf(root).some((a) => isSum(a) || (opOf(a) === 'pow' && isSum(argsOf(a)[0]!)));
+  else if (op === 'pow') hasBracket = isSum(argsOf(root)[0]!);
+  if (!hasBracket) return false;
+  for (const f of factorsOf(root)) {
+    const inner = opOf(f) === 'pow' ? unwrap(argsOf(f)[0]!) : f;
+    if (!isSum(inner)) continue;
+    const coefficients = terms(inner).map((t) => termCoefficient(t, variables));
+    if (coefficients.every((c): c is number => c !== null && c > 0) && gcdAll(coefficients) > 1) return false;
+  }
+  return true;
 }
 
 function terms(node: MathNode): MathNode[] {
@@ -243,10 +281,19 @@ function termSignature(node: MathNode): string {
     .join('*');
 }
 
-/** Expanded with like terms collected, and no more terms than the model answer. */
+/** A term multiplies several numbers, or repeats a letter, e.g. "3a*4b" or "2*x*x". */
+function termNotCollected(node: MathNode): boolean {
+  const factors = factorsOf(node);
+  const numbers = factors.filter((f) => f.type === 'ConstantNode').length;
+  const letters = factors.filter((f) => f.type === 'SymbolNode').map((f) => (f as unknown as { name: string }).name);
+  return numbers > 1 || new Set(letters).size !== letters.length;
+}
+
+/** Expanded with like terms collected, each term written once, and no more terms than the model answer. */
 export function isSimplified(expr: ParsedExpression, model: ParsedExpression): boolean {
   if (!isExpanded(expr)) return false;
   const studentTerms = terms(expr.node);
+  if (studentTerms.some(termNotCollected)) return false;
   const signatures = studentTerms.map(termSignature);
   if (new Set(signatures).size !== signatures.length) return false;
   return studentTerms.length <= terms(model.node).length;

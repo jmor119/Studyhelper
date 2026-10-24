@@ -1,0 +1,14 @@
+[
+  { "id": "m9.alg.expressions.f01", "front": "What is a **variable**?", "back": "A letter that stands for a number that can change, such as $x$ or $n$." },
+  { "id": "m9.alg.expressions.f02", "front": "What is a **term**?", "back": "One part of an expression, separated by $+$ or $-$ signs. In $5x - 3y + 7$ the terms are $5x$, $-3y$ and $7$." },
+  { "id": "m9.alg.expressions.f03", "front": "What is a **coefficient**?", "back": "The number multiplying a variable. In $-4x$ the coefficient is $-4$." },
+  { "id": "m9.alg.expressions.f04", "front": "What are **like terms**?", "back": "Terms with exactly the same letter part, e.g. $3ab$ and $-5ba$. ($x$ and $x^2$ are **not** like terms.)" },
+  { "id": "m9.alg.expressions.f05", "front": "Simplify $3a \\times 4b$", "back": "$12ab$: multiply the numbers, then write the letters together." },
+  { "id": "m9.alg.expressions.f06", "front": "What does **expand** mean?", "back": "Multiply out a bracket: multiply every term inside by the term outside, e.g. $3(x + 4) = 3x + 12$." },
+  { "id": "m9.alg.expressions.f07", "front": "What does **factorise** mean?", "back": "Put an expression into brackets by taking out a common factor, e.g. $12x + 18 = 6(2x + 3)$." },
+  { "id": "m9.alg.expressions.f08", "front": "What does **factorise fully** mean?", "back": "Take out the **highest** common factor, so the terms left in the bracket have no common factor." },
+  { "id": "m9.alg.expressions.f09", "front": "The **distributive** property", "back": "$a(b + c) = ab + ac$: a number outside a bracket multiplies every term inside." },
+  { "id": "m9.alg.expressions.f10", "front": "The **commutative** property", "back": "Order doesn't matter for $+$ and $\\times$: $a + b = b + a$ and $ab = ba$. (Not true for $-$ or $\\div$.)" },
+  { "id": "m9.alg.expressions.f11", "front": "The **identity** and **inverse** properties", "back": "Identity: $a + 0 = a$ and $a \\times 1 = a$. Inverse: $a + (-a) = 0$ and $a \\times \\frac{1}{a} = 1$." },
+  { "id": "m9.alg.expressions.f12", "front": "Expand $-2(x - 5)$", "back": "$-2x + 10$. A negative times a negative is positive: $-2 \\times (-5) = +10$." }
+]

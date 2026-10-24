@@ -59,7 +59,7 @@ export default function Learn() {
             <section key={strand.id}>
               <h2 className="text-lg font-bold">{strand.title}</h2>
               <p className="mb-3 text-sm text-muted">{strand.description}</p>
-              <div className="grid gap-3 sm:grid-cols-2">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {topics.map((t) => {
                   const m = mastery.byTopic.get(t.id);
                   const level = levelFor(m);

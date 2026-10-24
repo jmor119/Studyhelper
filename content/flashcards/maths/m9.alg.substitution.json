@@ -1,0 +1,12 @@
+[
+  { "id": "m9.alg.substitution.f01", "front": "What does **substitute** mean?", "back": "Replace each letter with its value, then work out the answer." },
+  { "id": "m9.alg.substitution.f02", "front": "What is a **formula**?", "back": "A rule linking quantities using letters, e.g. $P = 2l + 2w$ for the perimeter of a rectangle." },
+  { "id": "m9.alg.substitution.f03", "front": "What is the **subject** of a formula?", "back": "The letter on its own on one side, e.g. $P$ in $P = 2l + 2w$." },
+  { "id": "m9.alg.substitution.f04", "front": "What does it mean to **rearrange** a formula?", "back": "Change its subject: use inverse operations on both sides to get a different letter on its own." },
+  { "id": "m9.alg.substitution.f05", "front": "$(-3)^2 = \\;?$", "back": "$9$. A negative times a negative is positive: $(-3) \\times (-3) = 9$." },
+  { "id": "m9.alg.substitution.f06", "front": "$2x^2$ when $x = 3$", "back": "$18$. Square first, then multiply: $2 \\times 9 = 18$. (Not $(2 \\times 3)^2 = 36$.)" },
+  { "id": "m9.alg.substitution.f07", "front": "Why put brackets around negative numbers when substituting?", "back": "To keep the sign with the number, e.g. $4 \\times (-2)$, and so $(-2)^2$ is squared correctly." },
+  { "id": "m9.alg.substitution.f08", "front": "Make $w$ the subject of $P = 2l + 2w$", "back": "$w = \\dfrac{P - 2l}{2}$ (subtract $2l$, then divide by 2)." },
+  { "id": "m9.alg.substitution.f09", "front": "Make $t$ the subject of $d = st$", "back": "$t = \\dfrac{d}{s}$ (divide both sides by $s$)." },
+  { "id": "m9.alg.substitution.f10", "front": "How do you find a letter that isn't the subject, e.g. $w$ when you know $P$ and $l$?", "back": "Substitute the values you know, then solve the equation that's left." }
+]

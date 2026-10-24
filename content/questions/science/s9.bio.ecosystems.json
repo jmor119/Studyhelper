@@ -1,0 +1,740 @@
+[
+  {
+    "id": "s9.bio.ecosystems.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What is a **producer**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An organism that makes its own food by photosynthesis"
+      },
+      {
+        "id": "b",
+        "text": "An animal that eats only plants"
+      },
+      {
+        "id": "c",
+        "text": "An organism that breaks down dead material"
+      },
+      {
+        "id": "d",
+        "text": "An animal that hunts and eats other animals"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An animal that eats only plants is a herbivore (a primary consumer).",
+      "c": "Organisms that break down dead material are decomposers.",
+      "d": "An animal that hunts other animals is a predator (a carnivore)."
+    },
+    "hints": [
+      "Every food chain starts with one."
+    ],
+    "solution": "A **producer**, such as a plant or seaweed, makes its own food by photosynthesis. Producers are at the start of every food chain."
+  },
+  {
+    "id": "s9.bio.ecosystems.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What name is given to organisms, such as many bacteria and fungi, that break down dead plants and animals?",
+    "accepted": [
+      "decomposers",
+      "decomposer"
+    ],
+    "hints": [
+      "They return nutrients from dead material to the soil."
+    ],
+    "solution": "**Decomposers** break down dead organisms and waste. This returns nutrients to the soil so that plants can use them again."
+  },
+  {
+    "id": "s9.bio.ecosystems.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the **abiotic** (non-living) factors.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Temperature"
+      },
+      {
+        "id": "b",
+        "text": "Amount of light"
+      },
+      {
+        "id": "c",
+        "text": "Rainfall"
+      },
+      {
+        "id": "d",
+        "text": "Soil pH"
+      },
+      {
+        "id": "e",
+        "text": "Predators"
+      },
+      {
+        "id": "f",
+        "text": "Disease"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Abiotic factors are physical or chemical parts of the environment.",
+      "Diseases are caused by living things such as bacteria and viruses."
+    ],
+    "solution": "Temperature, light, rainfall and soil pH are **abiotic** (non-living) factors. Predators and disease are **biotic** factors, because they involve living things."
+  },
+  {
+    "id": "s9.bio.ecosystems.q004",
+    "type": "order",
+    "difficulty": 1,
+    "prompt": "Put these levels of organisation in order, from the **smallest** to the **largest**.",
+    "items": [
+      {
+        "id": "org",
+        "text": "Organism"
+      },
+      {
+        "id": "pop",
+        "text": "Population"
+      },
+      {
+        "id": "com",
+        "text": "Community"
+      },
+      {
+        "id": "eco",
+        "text": "Ecosystem"
+      }
+    ],
+    "hints": [
+      "A population is all the organisms of one species in an area."
+    ],
+    "solution": "Organism → population (one species) → community (all the species in an area) → ecosystem (the community plus its non-living environment)."
+  },
+  {
+    "id": "s9.bio.ecosystems.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "pop",
+          "text": "Population"
+        },
+        "right": {
+          "id": "one",
+          "text": "All the organisms of one species living in an area"
+        }
+      },
+      {
+        "left": {
+          "id": "com",
+          "text": "Community"
+        },
+        "right": {
+          "id": "all",
+          "text": "All the populations of different species living in an area"
+        }
+      },
+      {
+        "left": {
+          "id": "eco",
+          "text": "Ecosystem"
+        },
+        "right": {
+          "id": "env",
+          "text": "A community together with its non-living environment"
+        }
+      },
+      {
+        "left": {
+          "id": "hab",
+          "text": "Habitat"
+        },
+        "right": {
+          "id": "place",
+          "text": "The place where an organism lives"
+        }
+      }
+    ],
+    "hints": [
+      "The ecosystem is the biggest idea: it includes the non-living parts too."
+    ],
+    "solution": "Population → one species in an area. Community → all the species in an area. Ecosystem → the community plus its non-living environment. Habitat → where an organism lives."
+  },
+  {
+    "id": "s9.bio.ecosystems.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "In a food chain, the arrows show the direction that [[a]] flows. Each arrow points from the organism that is eaten to the organism that [[b]] it.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "energy"
+        ],
+        "options": [
+          "energy",
+          "water",
+          "oxygen"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "eats"
+        ],
+        "options": [
+          "eats",
+          "avoids",
+          "produces"
+        ]
+      }
+    ],
+    "hints": [
+      "Food contains chemical energy that passes along the chain."
+    ],
+    "solution": "The arrows show the flow of **energy**, from the food to the organism that **eats** it. For example, leaves → tree wētā → ruru."
+  },
+  {
+    "id": "s9.bio.ecosystems.q007",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Carbon dioxide is removed from the air by [[a]]. It is returned to the air by respiration, [[b]] and burning fuels.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "photosynthesis"
+        ],
+        "options": [
+          "photosynthesis",
+          "respiration",
+          "evaporation"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "decomposition"
+        ],
+        "options": [
+          "decomposition",
+          "photosynthesis",
+          "condensation"
+        ]
+      }
+    ],
+    "hints": [
+      "Which process do plants use to make glucose from carbon dioxide?",
+      "Decomposers respire too as they break down dead material."
+    ],
+    "solution": "**Photosynthesis** takes carbon dioxide out of the air. Respiration, **decomposition** (decomposers respiring as they break down dead material) and burning (combustion) put it back."
+  },
+  {
+    "id": "s9.bio.ecosystems.q008",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the Māori lunar calendar, which is based on the phases of the moon?",
+    "accepted": [
+      "maramataka"
+    ],
+    "hints": [
+      "Its name includes the word *marama*, which means moon."
+    ],
+    "solution": "The **maramataka**. It is based on the phases of the moon and on careful observation of the environment, and it guides activities such as planting, harvesting and fishing."
+  },
+  {
+    "id": "s9.bio.ecosystems.q009",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.ecosystems.web1",
+    "stem": "This food web shows some feeding relationships in a New Zealand forest. Each arrow points from the food to the organism that eats it.\n\nIn words: native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats and kererū are eaten by stoats.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" width=\"420\" height=\"320\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"183.0\" y1=\"272.0\" x2=\"103.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210.0\" y1=\"272.0\" x2=\"210.0\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"237.0\" y1=\"272.0\" x2=\"316.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"222.7\" y1=\"272.0\" x2=\"316.6\" y2=\"139.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"126.0\" y1=\"184.0\" x2=\"281.0\" y2=\"135.4\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"75.0\" y1=\"182.0\" x2=\"75.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"95.8\" y1=\"182.0\" x2=\"238.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"314.2\" y1=\"102.0\" x2=\"276.6\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"215.6\" y1=\"182.0\" x2=\"254.1\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"125.0\" y=\"275.0\" width=\"170\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"290\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Native forest plants</text><rect x=\"27.0\" y=\"185.0\" width=\"96\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Tree wētā</text><rect x=\"165.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kererū</text><rect x=\"300.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Possum</text><rect x=\"285.0\" y=\"105.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"330\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ship rat</text><rect x=\"13.0\" y=\"25.0\" width=\"124\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ruru (morepork)</text><rect x=\"215.0\" y=\"25.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"260\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Stoat</text></svg>",
+      "alt": "Food web. Native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats are eaten by stoats. Kererū are eaten by stoats."
+    },
+    "part": "a",
+    "prompt": "Name **one** herbivore (an animal that eats only plants) in this food web.",
+    "accepted": [
+      "tree wētā",
+      "wētā",
+      "tree weta",
+      "weta",
+      "wetas",
+      "kererū",
+      "kereru",
+      "possum",
+      "possums",
+      "brushtail possum"
+    ],
+    "hints": [
+      "Look for animals whose only arrow in comes from the plants."
+    ],
+    "solution": "In this food web, **tree wētā**, **kererū** and **possums** eat only plants, so they are herbivores (primary consumers). Ship rats eat plants **and** wētā, so they are omnivores."
+  },
+  {
+    "id": "s9.bio.ecosystems.q010",
+    "type": "text",
+    "difficulty": 3,
+    "groupId": "s9.bio.ecosystems.web1",
+    "stem": "This food web shows some feeding relationships in a New Zealand forest. Each arrow points from the food to the organism that eats it.\n\nIn words: native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats and kererū are eaten by stoats.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" width=\"420\" height=\"320\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"183.0\" y1=\"272.0\" x2=\"103.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210.0\" y1=\"272.0\" x2=\"210.0\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"237.0\" y1=\"272.0\" x2=\"316.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"222.7\" y1=\"272.0\" x2=\"316.6\" y2=\"139.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"126.0\" y1=\"184.0\" x2=\"281.0\" y2=\"135.4\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"75.0\" y1=\"182.0\" x2=\"75.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"95.8\" y1=\"182.0\" x2=\"238.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"314.2\" y1=\"102.0\" x2=\"276.6\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"215.6\" y1=\"182.0\" x2=\"254.1\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"125.0\" y=\"275.0\" width=\"170\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"290\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Native forest plants</text><rect x=\"27.0\" y=\"185.0\" width=\"96\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Tree wētā</text><rect x=\"165.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kererū</text><rect x=\"300.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Possum</text><rect x=\"285.0\" y=\"105.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"330\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ship rat</text><rect x=\"13.0\" y=\"25.0\" width=\"124\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ruru (morepork)</text><rect x=\"215.0\" y=\"25.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"260\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Stoat</text></svg>",
+      "alt": "Food web. Native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats are eaten by stoats. Kererū are eaten by stoats."
+    },
+    "part": "b",
+    "prompt": "Name the organism in this food web that is **both** a primary consumer and a secondary consumer.",
+    "accepted": [
+      "ship rat",
+      "ship rats",
+      "rat",
+      "rats"
+    ],
+    "hints": [
+      "A primary consumer eats plants. A secondary consumer eats primary consumers.",
+      "Which animal has arrows coming in from both the plants and an animal?"
+    ],
+    "solution": "The **ship rat** eats forest plants (so it's a primary consumer) and tree wētā (so it's also a secondary consumer)."
+  },
+  {
+    "id": "s9.bio.ecosystems.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.ecosystems.web1",
+    "stem": "This food web shows some feeding relationships in a New Zealand forest. Each arrow points from the food to the organism that eats it.\n\nIn words: native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats and kererū are eaten by stoats.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" width=\"420\" height=\"320\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"183.0\" y1=\"272.0\" x2=\"103.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210.0\" y1=\"272.0\" x2=\"210.0\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"237.0\" y1=\"272.0\" x2=\"316.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"222.7\" y1=\"272.0\" x2=\"316.6\" y2=\"139.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"126.0\" y1=\"184.0\" x2=\"281.0\" y2=\"135.4\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"75.0\" y1=\"182.0\" x2=\"75.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"95.8\" y1=\"182.0\" x2=\"238.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"314.2\" y1=\"102.0\" x2=\"276.6\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"215.6\" y1=\"182.0\" x2=\"254.1\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"125.0\" y=\"275.0\" width=\"170\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"290\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Native forest plants</text><rect x=\"27.0\" y=\"185.0\" width=\"96\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Tree wētā</text><rect x=\"165.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kererū</text><rect x=\"300.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Possum</text><rect x=\"285.0\" y=\"105.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"330\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ship rat</text><rect x=\"13.0\" y=\"25.0\" width=\"124\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ruru (morepork)</text><rect x=\"215.0\" y=\"25.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"260\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Stoat</text></svg>",
+      "alt": "Food web. Native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats are eaten by stoats. Kererū are eaten by stoats."
+    },
+    "part": "c",
+    "prompt": "Which two organisms in this food web compete with each other for tree wētā?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ruru and stoats"
+      },
+      {
+        "id": "b",
+        "text": "Kererū and possums"
+      },
+      {
+        "id": "c",
+        "text": "Tree wētā and forest plants"
+      },
+      {
+        "id": "d",
+        "text": "Possums and stoats"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Kererū and possums do compete, but for plants, not wētā.",
+      "c": "Plants are eaten by wētā. They don't compete with them.",
+      "d": "In this web, possums eat only plants, so they don't compete with stoats for wētā."
+    },
+    "hints": [
+      "Follow the arrows that start at the tree wētā."
+    ],
+    "solution": "Arrows go from tree wētā to ruru, stoats and ship rats, so all three compete for wētā. Of the pairs given, **ruru and stoats** compete for wētā."
+  },
+  {
+    "id": "s9.bio.ecosystems.q012",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.ecosystems.web1",
+    "stem": "This food web shows some feeding relationships in a New Zealand forest. Each arrow points from the food to the organism that eats it.\n\nIn words: native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats and kererū are eaten by stoats.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" width=\"420\" height=\"320\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"183.0\" y1=\"272.0\" x2=\"103.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210.0\" y1=\"272.0\" x2=\"210.0\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"237.0\" y1=\"272.0\" x2=\"316.5\" y2=\"219.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"222.7\" y1=\"272.0\" x2=\"316.6\" y2=\"139.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"126.0\" y1=\"184.0\" x2=\"281.0\" y2=\"135.4\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"75.0\" y1=\"182.0\" x2=\"75.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"95.8\" y1=\"182.0\" x2=\"238.0\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"314.2\" y1=\"102.0\" x2=\"276.6\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"215.6\" y1=\"182.0\" x2=\"254.1\" y2=\"59.0\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"125.0\" y=\"275.0\" width=\"170\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"290\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Native forest plants</text><rect x=\"27.0\" y=\"185.0\" width=\"96\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Tree wētā</text><rect x=\"165.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kererū</text><rect x=\"300.0\" y=\"185.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Possum</text><rect x=\"285.0\" y=\"105.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"330\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ship rat</text><rect x=\"13.0\" y=\"25.0\" width=\"124\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Ruru (morepork)</text><rect x=\"215.0\" y=\"25.0\" width=\"90\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"260\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Stoat</text></svg>",
+      "alt": "Food web. Native forest plants are eaten by tree wētā, kererū, possums and ship rats. Tree wētā are eaten by ship rats, ruru (morepork) and stoats. Ship rats are eaten by stoats. Kererū are eaten by stoats."
+    },
+    "part": "d",
+    "prompt": "A community group traps all the stoats in this forest, but not the rats. Predict what could happen to the numbers of ship rats, tree wētā and kererū. Explain each prediction.",
+    "modelAnswer": "Ship rats would probably increase, because stoats were eating them and nothing else in this web eats them. Tree wētā might do better at first, because stoats no longer eat them, but with many more rats eating wētā, the wētā population is likely to fall. Kererū would probably increase, because stoats were their only predator in this web. This is why conservation projects try to control rats and stoats together.",
+    "rubric": [
+      {
+        "criterion": "Predicts that ship rats increase, because stoats no longer eat them",
+        "marks": 1
+      },
+      {
+        "criterion": "Predicts that tree wētā are likely to decrease because more rats eat them (or explains a short-term rise because stoats no longer eat them, followed by a fall)",
+        "marks": 1
+      },
+      {
+        "criterion": "Predicts that kererū increase, because stoats no longer eat them",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Start with the animals that stoats eat. What happens to them?",
+      "Then think about what the extra rats will eat."
+    ],
+    "solution": "No stoats → more rats → more wētā eaten (wētā likely to fall). No stoats → kererū have no predator in this web → kererū rise. Removing one predator can let another pest increase."
+  },
+  {
+    "id": "s9.bio.ecosystems.q013",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which statement best describes the maramataka?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A Māori lunar calendar, based on moon phases and signs in nature, that guides planting and fishing"
+      },
+      {
+        "id": "b",
+        "text": "A calendar based only on the Sun, with twelve months of exactly equal length"
+      },
+      {
+        "id": "c",
+        "text": "One fixed calendar that every iwi uses in exactly the same way"
+      },
+      {
+        "id": "d",
+        "text": "A modern system that uses satellites to forecast the weather"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The maramataka is based on the moon (it's a lunar calendar), not the Sun.",
+      "c": "Different iwi and hapū have their own maramataka, suited to their local area.",
+      "d": "The maramataka is built on generations of careful observation, long before satellites."
+    },
+    "hints": [
+      "*Marama* means moon."
+    ],
+    "solution": "The **maramataka** is the Māori lunar calendar. Each night of the lunar month has its own name and meaning. Together with signs in the environment, such as stars, plants flowering and the behaviour of birds and fish, it guides when to plant, harvest, fish and gather food. Different iwi and hapū have their own maramataka for their area."
+  },
+  {
+    "id": "s9.bio.ecosystems.q014",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "At the start of many kauri forest tracks, there are stations for cleaning your shoes. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kauri dieback disease is spread in soil, which can be carried on shoes"
+      },
+      {
+        "id": "b",
+        "text": "Mud on shoes makes the tracks slippery for other walkers"
+      },
+      {
+        "id": "c",
+        "text": "Shoes can carry kauri seeds out of the forest by accident"
+      },
+      {
+        "id": "d",
+        "text": "Cleaning stops walkers from spreading possums between forests"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Slippery tracks aren't the reason. The cleaning stations protect the trees.",
+      "c": "Kauri seeds aren't the problem. Something harmful in the soil is.",
+      "d": "Possums aren't carried on shoes. A microscopic organism in the soil is."
+    },
+    "hints": [
+      "The disease is caused by a microscopic organism that lives in the soil."
+    ],
+    "solution": "**Kauri dieback** is caused by a microscopic, fungus-like organism that lives in soil. Even a small amount of soil on a shoe can carry it to healthy trees. There is no cure, so stopping its spread is the main way to protect kauri: clean your shoes and stay on the track."
+  },
+  {
+    "id": "s9.bio.ecosystems.q015",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the ways that decomposers help an ecosystem.",
+    "options": [
+      {
+        "id": "a",
+        "text": "They break down dead organisms and animal waste"
+      },
+      {
+        "id": "b",
+        "text": "They return nutrients, such as nitrates, to the soil"
+      },
+      {
+        "id": "c",
+        "text": "They release carbon dioxide back into the air when they respire"
+      },
+      {
+        "id": "d",
+        "text": "They make food from sunlight by photosynthesis"
+      },
+      {
+        "id": "e",
+        "text": "They hunt and kill sick animals"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Think about what happens to a fallen leaf on the forest floor.",
+      "Decomposers are living things, so they respire."
+    ],
+    "solution": "Decomposers **break down dead material and waste**, **return nutrients** to the soil for plants to reuse, and **release carbon dioxide** when they respire. They don't photosynthesise (they aren't producers), and they don't hunt."
+  },
+  {
+    "id": "s9.bio.ecosystems.q016",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "Most plants can't use nitrogen gas from the air. Which type of bacteria, found in soil and in lumps on the roots of plants such as clover, turn nitrogen gas into nitrates that plants can use?",
+    "accepted": [
+      "nitrogen-fixing bacteria",
+      "nitrogen fixing bacteria",
+      "nitrogen-fixing",
+      "nitrogen fixing",
+      "nitrogen fixers",
+      "nitrogen-fixers",
+      "nitrogen-fixing bacterium"
+    ],
+    "hints": [
+      "Turning nitrogen gas into a form that plants can use is called 'fixing' nitrogen."
+    ],
+    "solution": "**Nitrogen-fixing bacteria**. They live in the soil and in root nodules of plants such as clover. That's why New Zealand farmers sow clover in pasture: it adds nitrates to the soil, which plants need to make proteins."
+  },
+  {
+    "id": "s9.bio.ecosystems.q017",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "A rāhui is a temporary [[a]] on taking resources, such as shellfish, from an area. If a rāhui is placed on gathering pipi at a beach, the pipi population there is likely to [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "restriction"
+        ],
+        "options": [
+          "restriction",
+          "competition",
+          "harvest"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "increase"
+        ],
+        "options": [
+          "increase",
+          "decrease",
+          "disappear"
+        ]
+      }
+    ],
+    "hints": [
+      "Think about what happens to a population when fewer of its members are taken."
+    ],
+    "solution": "A **rāhui** is a temporary **restriction** on taking resources from an area, often put in place by local iwi or hapū as kaitiaki (guardians). With fewer pipi being taken, more survive to breed, so the population is likely to **increase**."
+  },
+  {
+    "id": "s9.bio.ecosystems.q018",
+    "type": "order",
+    "difficulty": 4,
+    "prompt": "In a beech \"mast\" year, beech trees produce far more seed than usual. Put these events in the order that they happen.",
+    "items": [
+      {
+        "id": "seed",
+        "text": "Beech trees produce a huge crop of seed"
+      },
+      {
+        "id": "rodents",
+        "text": "With plenty of food, mouse and rat numbers boom"
+      },
+      {
+        "id": "stoats",
+        "text": "With plenty of prey, stoat numbers increase"
+      },
+      {
+        "id": "runout",
+        "text": "The seed runs out, so there is far less food for the mice and rats"
+      },
+      {
+        "id": "birds",
+        "text": "Large numbers of hungry stoats and rats turn to eating native birds, eggs and chicks"
+      }
+    ],
+    "hints": [
+      "Start with the producer. Each step is caused by a change in food supply.",
+      "Predator numbers rise after their prey numbers rise."
+    ],
+    "solution": "Seed crop → mice and rats boom → stoats increase → seed runs out → hungry predators eat more native birds, eggs and chicks. This is why the Department of Conservation increases pest control after a beech mast."
+  },
+  {
+    "id": "s9.bio.ecosystems.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "In some marine reserves, numbers of snapper and crayfish (kōura) have increased, because they can't be fished there. Snapper and crayfish eat kina, and kina graze on kelp. What is the most likely effect on the kelp forest?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kelp increases, because there are fewer kina to graze on it"
+      },
+      {
+        "id": "b",
+        "text": "Kelp decreases, because snapper and crayfish eat kelp"
+      },
+      {
+        "id": "c",
+        "text": "Kelp decreases, because more kina are produced"
+      },
+      {
+        "id": "d",
+        "text": "No change, because kelp is a producer and isn't affected"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Snapper and crayfish eat kina, not kelp.",
+      "c": "More predators means fewer kina, not more.",
+      "d": "Producers are affected by changes in the food web, because their consumers change."
+    },
+    "hints": [
+      "Follow the chain: kelp → kina → snapper and crayfish.",
+      "If there are more predators, what happens to their prey?"
+    ],
+    "solution": "More snapper and crayfish → **fewer kina** → less grazing → **kelp forests grow back**. This has happened in New Zealand marine reserves, such as the one at Leigh, north of Auckland."
+  },
+  {
+    "id": "s9.bio.ecosystems.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Forests are often described as carbon stores. Explain how carbon gets stored in a forest, and why cutting down and burning a forest increases the amount of carbon dioxide in the air.",
+    "modelAnswer": "Trees take in carbon dioxide from the air by photosynthesis. They use the carbon to make glucose, which they build into wood, leaves and roots. As long as the wood isn't burnt or rotted, that carbon stays locked up in the forest. When a forest is cut down and burnt, combustion releases the stored carbon back into the air as carbon dioxide. Any wood left to rot is broken down by decomposers, which also release carbon dioxide when they respire. There are also fewer trees left to take carbon dioxide out of the air.",
+    "rubric": [
+      {
+        "criterion": "Explains that trees take in carbon dioxide by photosynthesis and use the carbon to make glucose and wood",
+        "marks": 1
+      },
+      {
+        "criterion": "States that the carbon stays stored in the wood while it isn't burnt or decomposed",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that burning (or decomposing) releases the carbon as carbon dioxide, or that fewer trees are left to absorb it",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which process takes carbon dioxide out of the air?",
+      "What does burning wood produce?"
+    ],
+    "solution": "Photosynthesis locks carbon from carbon dioxide into wood. Burning or rotting releases it as carbon dioxide again, and fewer trees remain to absorb it."
+  },
+  {
+    "id": "s9.bio.ecosystems.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Imagine that all the decomposers in a forest suddenly died. What would most likely happen to the plants over the next few years?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They would grow less well, because nutrients in dead material wouldn't be returned to the soil"
+      },
+      {
+        "id": "b",
+        "text": "They would grow better, because no decomposers would be eating their roots"
+      },
+      {
+        "id": "c",
+        "text": "Nothing would change, because plants make all of their food from sunlight"
+      },
+      {
+        "id": "d",
+        "text": "They would grow better, because more dead leaves would pile up as food for them"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Decomposers break down dead material. They don't eat living roots.",
+      "c": "Plants make glucose by photosynthesis, but they also need minerals such as nitrates from the soil to make proteins and grow.",
+      "d": "Plants can't use dead leaves directly. The nutrients only become available once decomposers break the leaves down."
+    },
+    "hints": [
+      "Where do plants get nitrates and other minerals from?"
+    ],
+    "solution": "Decomposers recycle nutrients. Without them, dead leaves and bodies would pile up, and the **nutrients locked inside them would not return to the soil**. As the soil's nutrients ran out, plants would grow less well."
+  },
+  {
+    "id": "s9.bio.ecosystems.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "In a forest, there are far fewer stoats than tree wētā. What is the best explanation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "At each step of a food chain, most energy is used for life processes or lost as heat, so less is left for animals higher up"
+      },
+      {
+        "id": "b",
+        "text": "Stoats are bigger than wētā, so each stoat needs less energy to stay alive"
+      },
+      {
+        "id": "c",
+        "text": "Energy is created at each step of the food chain, but stoats waste most of it"
+      },
+      {
+        "id": "d",
+        "text": "Stoats breed more slowly than every other animal, so their numbers can never rise"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Bigger animals need more energy, not less.",
+      "c": "Energy can't be created. It is passed along the chain, and some is lost at every step.",
+      "d": "Breeding rate isn't the main reason. Even fast-breeding predators are limited by the energy they can get from their prey."
+    },
+    "hints": [
+      "Think about what happens to the energy in food at each link of a food chain."
+    ],
+    "solution": "Only a small fraction of the energy at one level passes to the next. The rest is used for movement and other life processes, or is lost as heat. So each level up the food chain has **less energy** available, and can support fewer animals. This is also why food chains rarely have more than four or five links."
+  },
+  {
+    "id": "s9.bio.ecosystems.q023",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Kererū are now the main native bird large enough to swallow the big fruit of trees such as taraire and tawa. They spread the seeds through the forest in their droppings. What would most likely happen to these trees if kererū disappeared?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fewer young trees would grow in new places, so over time these trees would become rarer"
+      },
+      {
+        "id": "b",
+        "text": "The trees would grow faster, because no birds would be eating their fruit"
+      },
+      {
+        "id": "c",
+        "text": "Nothing would happen, because the wind would spread the seeds instead"
+      },
+      {
+        "id": "d",
+        "text": "The trees would die straight away, because they need kererū to photosynthesise"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Eating fruit doesn't harm the tree, and it is how the tree spreads its seeds.",
+      "c": "These seeds are large and heavy, so the wind can't carry them far.",
+      "d": "Trees photosynthesise by themselves. Kererū help them reproduce, not feed."
+    },
+    "hints": [
+      "How do these trees spread their seeds to new places?",
+      "What happens to a tree species if few new seedlings grow?"
+    ],
+    "solution": "Seeds that just drop under the parent tree compete with it for light and space, so few grow well. Kererū carry the seeds to new places. Without them, **fewer young trees** would grow, and over many years these tree species would become rarer. Protecting kererū helps protect the whole forest."
+  }
+]

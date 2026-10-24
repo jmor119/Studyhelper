@@ -1,0 +1,202 @@
+[
+  {
+    "id": "m9.alg.substitution.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "In the formula $A = lw$, which letter is the **subject**?",
+    "options": [
+      { "id": "a", "text": "$A$" },
+      { "id": "b", "text": "$l$" },
+      { "id": "c", "text": "$w$" },
+      { "id": "d", "text": "There isn't one" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$l$ is one of the values you substitute. The subject is the letter on its own.",
+      "c": "$w$ is one of the values you substitute. The subject is the letter on its own.",
+      "d": "Every formula has a subject: the letter on its own on one side."
+    },
+    "hints": ["The subject is the letter on its own on one side of the formula."],
+    "solution": "$A$ is on its own, so $A$ is the subject. The formula tells you how to work out $A$ from $l$ and $w$."
+  },
+  {
+    "id": "m9.alg.substitution.q002",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $x^2$ when $x = -5$.",
+    "options": [
+      { "id": "a", "text": "$25$" },
+      { "id": "b", "text": "$-25$" },
+      { "id": "c", "text": "$-10$" },
+      { "id": "d", "text": "$10$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$(-5)^2 = (-5) \\times (-5)$. A negative times a negative is positive.",
+      "c": "Squaring means multiplying by itself, not by 2.",
+      "d": "Squaring means multiplying the number by itself: $(-5) \\times (-5)$."
+    },
+    "hints": ["Write it with brackets: $(-5)^2 = (-5) \\times (-5)$."],
+    "solution": "$(-5)^2 = (-5) \\times (-5) = 25$. A negative times a negative is positive."
+  },
+  {
+    "id": "m9.alg.substitution.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says that when $a = 3$, the value of $2a^2$ is 36. What mistake did he make?",
+    "options": [
+      { "id": "a", "text": "He squared $2a$ instead of squaring only $a$" },
+      { "id": "b", "text": "He added instead of multiplying" },
+      { "id": "c", "text": "He forgot to square" },
+      { "id": "d", "text": "He made no mistake" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2 + 3^2 = 11$, which isn't 36 either. Look at what has been squared.",
+      "c": "Without squaring, $2 \\times 3 = 6$, not 36.",
+      "d": "$2a^2$ means $2 \\times a^2$. Check what this gives when $a = 3$."
+    },
+    "hints": ["In $2a^2$, which part is squared: $a$, or $2a$?"],
+    "solution": "$2a^2$ means $2 \\times a^2$, so square first: $2 \\times 3^2 = 2 \\times 9 = 18$.\n\nTama worked out $(2 \\times 3)^2 = 6^2 = 36$, which squares the 2 as well."
+  },
+  {
+    "id": "m9.alg.substitution.q004",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the expressions that equal 12 when $x = 3$.",
+    "options": [
+      { "id": "a", "text": "$4x$" },
+      { "id": "b", "text": "$x + 9$" },
+      { "id": "c", "text": "$x^2 + 3$" },
+      { "id": "d", "text": "$2x + 3$" },
+      { "id": "e", "text": "$15 - x$" },
+      { "id": "f", "text": "$x^2$" }
+    ],
+    "correct": ["a", "b", "c", "e"],
+    "hints": ["Substitute $x = 3$ into each one."],
+    "solution": "$4 \\times 3 = 12$ ✓, $3 + 9 = 12$ ✓, $3^2 + 3 = 12$ ✓, $2 \\times 3 + 3 = 9$ ✗, $15 - 3 = 12$ ✓, $3^2 = 9$ ✗."
+  },
+  {
+    "id": "m9.alg.substitution.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A school hall costs $C = 150 + 12p$ dollars to hire, where $p$ is the number of people. What does the 12 represent?",
+    "options": [
+      { "id": "a", "text": "The extra cost for each person, in dollars" },
+      { "id": "b", "text": "The fixed cost of hiring the hall" },
+      { "id": "c", "text": "The number of people" },
+      { "id": "d", "text": "The total cost" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The fixed cost is the \\$150, which you pay however many people come.",
+      "c": "The number of people is $p$.",
+      "d": "The total cost is $C$."
+    },
+    "hints": ["What happens to $C$ each time $p$ goes up by 1?"],
+    "solution": "$12p$ means \\$12 for each person. Each extra person adds \\$12 to the cost. The \\$150 is a fixed charge."
+  },
+  {
+    "id": "m9.alg.substitution.q006",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "The area of a trapezium is $A = \\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides. Find $A$ when $a = 5$ cm, $b = 9$ cm and $h = 4$ cm.",
+    "answer": 28,
+    "units": "cm²",
+    "hints": ["Work out the bracket first: $a + b$.", "Then multiply by $h$ and halve it."],
+    "solution": "$A = \\frac{1}{2} \\times (5 + 9) \\times 4 = \\frac{1}{2} \\times 14 \\times 4 = 28$ cm²"
+  },
+  {
+    "id": "m9.alg.substitution.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is the correct rearrangement of $P = 2l + 2w$ to make $l$ the subject?",
+    "options": [
+      { "id": "a", "text": "$l = \\dfrac{P - 2w}{2}$" },
+      { "id": "b", "text": "$l = \\dfrac{P}{2} - 2w$" },
+      { "id": "c", "text": "$l = \\dfrac{P - w}{2}$" },
+      { "id": "d", "text": "$l = 2(P - 2w)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "When you divide by 2, you must divide the whole of the other side, including the $2w$.",
+      "c": "The formula has $2w$, so subtract $2w$, not $w$.",
+      "d": "$2l$ means $2 \\times l$, so divide by 2 to undo it, don't multiply."
+    },
+    "hints": ["First subtract $2w$ from both sides.", "Then divide **both** sides by 2."],
+    "solution": "Subtract $2w$: $P - 2w = 2l$. Divide both sides by 2: $l = \\dfrac{P - 2w}{2}$.\n\nCheck with $l = 5$, $w = 3$: $P = 16$, and $\\frac{16 - 6}{2} = 5$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q008",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "To make $t$ the subject of $v = u + at$, first [[a]] $u$ from both sides, then [[b]] both sides by $a$.",
+    "blanks": [
+      { "id": "a", "accepted": ["subtract"], "options": ["add", "subtract", "multiply", "divide"] },
+      { "id": "b", "accepted": ["divide"], "options": ["add", "subtract", "multiply", "divide"] }
+    ],
+    "hints": ["Undo the operations on $t$ in reverse order. What was done to $t$ last?"],
+    "solution": "$t$ was multiplied by $a$, then $u$ was added. Undo them in reverse order: **subtract** $u$ to get $v - u = at$, then **divide** by $a$ to get $t = \\dfrac{v - u}{a}$."
+  },
+  {
+    "id": "m9.alg.substitution.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana substitutes $x = -4$ into $x^2 + 3x$ and gets $-28$. Find her mistake and work out the correct value.",
+    "modelAnswer": "Ana worked out $x^2$ as $-16$. But $(-4)^2 = (-4) \\times (-4) = 16$, because a negative times a negative is positive. The correct value is $16 + 3 \\times (-4) = 16 - 12 = 4$.",
+    "rubric": [
+      { "criterion": "Identifies that $(-4)^2 = 16$, not $-16$", "marks": 1 },
+      { "criterion": "Gives the correct value, 4, with working", "marks": 1 }
+    ],
+    "hints": ["What is $(-4)^2$?", "How could Ana have got $-28$?"],
+    "solution": "Ana's answer comes from $-16 + (-12) = -28$, so she treated $(-4)^2$ as $-16$.\n\nCorrect: $(-4)^2 + 3 \\times (-4) = 16 - 12 = 4$."
+  },
+  {
+    "id": "m9.alg.substitution.q010",
+    "type": "expression",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.substitution.taxi",
+    "part": "a",
+    "stem": "A taxi company uses the formula $c = 4 + 2.5d$, where $c$ is the cost in dollars and $d$ is the distance in kilometres.",
+    "prompt": "Make $d$ the subject of the formula. Type the expression that $d$ is equal to.",
+    "answer": "(c - 4)/2.5",
+    "variables": ["c", "d"],
+    "hints": ["Subtract 4 from both sides first.", "Then divide both sides by 2.5."],
+    "solution": "Subtract 4: $c - 4 = 2.5d$. Divide by 2.5: $d = \\dfrac{c - 4}{2.5}$."
+  },
+  {
+    "id": "m9.alg.substitution.q011",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.alg.substitution.taxi",
+    "part": "b",
+    "stem": "A taxi company uses the formula $c = 4 + 2.5d$, where $c$ is the cost in dollars and $d$ is the distance in kilometres.",
+    "prompt": "Use your formula from part (a) to find how far you can travel for \\$29.",
+    "answer": 10,
+    "units": "km",
+    "hints": ["Substitute $c = 29$ into $d = \\dfrac{c - 4}{2.5}$."],
+    "solution": "$d = \\dfrac{29 - 4}{2.5} = \\dfrac{25}{2.5} = 10$ km.\n\nCheck: $4 + 2.5 \\times 10 = 29$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q012",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $\\dfrac{a^2 - b}{2c}$ when $a = -4$, $b = 6$ and $c = -5$.",
+    "answer": -1,
+    "hints": ["Work out the top and the bottom separately.", "$(-4)^2 = 16$ and $2 \\times (-5) = -10$."],
+    "solution": "Top: $(-4)^2 - 6 = 16 - 6 = 10$\n\nBottom: $2 \\times (-5) = -10$\n\n$\\dfrac{10}{-10} = -1$"
+  }
+]

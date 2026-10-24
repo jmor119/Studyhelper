@@ -13,6 +13,8 @@ export type ParsedNumber =
       percent: boolean;
       /** Unit text the student typed, if any. */
       unit?: string;
+      /** Letter the student wrote before "=", e.g. "y" in "y = 5". */
+      variable?: string;
     }
   | { ok: false; reason: string };
 
@@ -48,11 +50,50 @@ const UNIT_ALIASES: Record<string, string> = {
   meters: 'm',
   dollars: '$',
   dollar: '$',
+  millimetre: 'mm',
+  millimetres: 'mm',
+  millimeter: 'mm',
+  centimetre: 'cm',
+  centimetres: 'cm',
+  centimeter: 'cm',
+  kilometre: 'km',
+  kilometres: 'km',
+  kilometer: 'km',
+  micrometre: 'um',
+  micrometres: 'um',
+  micron: 'um',
+  microns: 'um',
+  newton: 'n',
+  newtons: 'n',
+  joule: 'j',
+  joules: 'j',
+  kph: 'km/h',
+  'km/hr': 'km/h',
+  'km/hour': 'km/h',
+  'kmph': 'km/h',
+  mps: 'm/s',
+  'm/s/s': 'm/s2',
+  'm/sec': 'm/s',
+  amp: 'a',
+  amps: 'a',
+  ampere: 'a',
+  amperes: 'a',
+  volt: 'v',
+  volts: 'v',
+  watt: 'w',
+  watts: 'w',
+  kilojoule: 'kj',
+  kilojoules: 'kj',
+  ohm: 'Ω',
+  ohms: 'Ω',
+  times: 'x',
+  '×': 'x',
 };
 
 /** Normalises unit text so "cm^2", "cm2", "cm²" and "CM²" compare equal. */
 export function normaliseUnit(unit: string): string {
-  let u = unit.trim().toLowerCase().replace(/\s+/g, '');
+  // Micro sign (U+00B5), Greek mu (U+03BC) and a plain "u" all mean micro.
+  let u = unit.trim().toLowerCase().replace(/\s+/g, '').replace(/[µμ]/g, 'u');
   u = u.replace(/\^\(?2\)?|²/g, '2').replace(/\^\(?3\)?|³/g, '3').replace(/·/g, '');
   u = u.replace(/\bper\b/g, '/');
   if (UNIT_ALIASES[u]) return UNIT_ALIASES[u]!;
@@ -83,6 +124,19 @@ function countDecimals(s: string): number {
 
 /** Parses a student's numeric answer. Accepts NZ formats: "1 234.5", "1,234", "-3/4", "2 1/2", "$12.50", "25%", "12 cm", "3.2 × 10^4", "x = 5". */
 export function parseNumber(raw: string): ParsedNumber {
+  const prefix = raw.trim().match(/^([a-zA-Z])\s*=\s*/);
+  const result = parseNumberInner(prefix ? raw.trim().slice(prefix[0].length) : raw);
+  return result.ok && prefix ? { ...result, variable: prefix[1]!.toLowerCase() } : result;
+}
+
+function parseNumberInner(raw: string): ParsedNumber {
+  // Magnification written as "×400", "x400" or "400×" (but not "x = 5" or "3 × 10^4").
+  const trimmed = raw.trim();
+  const magnification = trimmed.match(/^[×xX]\s*(\d[\d.,]*)$/) ?? trimmed.match(/^(\d[\d.,]*)\s*[×xX]$/);
+  if (magnification) {
+    const inner = parseNumber(magnification[1]!);
+    return inner.ok ? { ...inner, unit: '×' } : inner;
+  }
   let s = latexToPlain(raw)
     .replace(/[\u2212\u2013\u2014]/g, '-')
     .replace(/[×]/g, '*')
@@ -91,7 +145,7 @@ export function parseNumber(raw: string): ParsedNumber {
     .trim();
   if (!s) return { ok: false, reason: 'empty' };
 
-  // "x = 5" → "5"
+  // "x = 5" → "5" (parseNumber records the letter).
   s = s.replace(/^[a-zA-Z]\s*=\s*/, '');
 
   let percent = false;
@@ -108,7 +162,7 @@ export function parseNumber(raw: string): ParsedNumber {
   }
 
   // Trailing unit: everything after the last digit (or closing paren) that starts with a letter/° symbol.
-  const unitMatch = s.match(/^(.*?[\d)])\s*([a-zA-Zµ°²³][a-zA-Z0-9µ°²³/^·]*)$/);
+  const unitMatch = s.match(/^(.*?[\d)])\s*([a-zA-Zµμ°²³][a-zA-Z0-9µμ°²³/^·]*)$/);
   if (unitMatch && !/^(?:e[+-]?\d+)$/i.test(unitMatch[2]!)) {
     s = unitMatch[1]!.trim();
     unit = unitMatch[2]!;

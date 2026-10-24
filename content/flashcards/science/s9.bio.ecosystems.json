@@ -1,0 +1,20 @@
+[
+  { "id": "s9.bio.ecosystems.f01", "front": "What is an **ecosystem**?", "back": "A community of living things together with its non-living environment (soil, water, air, climate)." },
+  { "id": "s9.bio.ecosystems.f02", "front": "What is a **population**?", "back": "All the organisms of one species living in an area." },
+  { "id": "s9.bio.ecosystems.f03", "front": "What is a **community**?", "back": "All the populations of different species living in an area." },
+  { "id": "s9.bio.ecosystems.f04", "front": "What is a **producer**?", "back": "An organism that makes its own food by photosynthesis, e.g. a plant or seaweed." },
+  { "id": "s9.bio.ecosystems.f05", "front": "Primary vs secondary consumer", "back": "A primary consumer eats producers. A secondary consumer eats primary consumers." },
+  { "id": "s9.bio.ecosystems.f06", "front": "What is a **decomposer**?", "back": "An organism, such as a bacterium or fungus, that breaks down dead material and waste and returns nutrients to the soil." },
+  { "id": "s9.bio.ecosystems.f07", "front": "Herbivore, carnivore, omnivore", "back": "Herbivores eat plants. Carnivores eat animals. Omnivores eat both." },
+  { "id": "s9.bio.ecosystems.f08", "front": "What do the arrows in a food chain show?", "back": "The direction that energy flows: from the food to the organism that eats it." },
+  { "id": "s9.bio.ecosystems.f09", "front": "What is a **food web**?", "back": "A diagram of many linked food chains, showing all the feeding relationships in an ecosystem." },
+  { "id": "s9.bio.ecosystems.f10", "front": "**Biotic** vs **abiotic** factors", "back": "Biotic: living factors, e.g. predators, food, disease, competition. Abiotic: non-living factors, e.g. temperature, light, water, soil pH." },
+  { "id": "s9.bio.ecosystems.f11", "front": "Why are there fewer animals at the top of a food chain?", "back": "At each step, most energy is used for life processes or lost as heat, so less energy is left for the next level." },
+  { "id": "s9.bio.ecosystems.f12", "front": "Where is carbon stored?", "back": "In forests (wood), soils, oceans (dissolved and in shells) and fossil fuels." },
+  { "id": "s9.bio.ecosystems.f13", "front": "What do **nitrogen-fixing bacteria** do?", "back": "Turn nitrogen gas from the air into nitrates that plants can use. They live in soil and in root nodules of plants like clover." },
+  { "id": "s9.bio.ecosystems.f14", "front": "What is the **maramataka**?", "back": "The Māori lunar calendar. It is based on moon phases and signs in the environment, and it guides planting, harvesting and fishing. Each iwi may have its own." },
+  { "id": "s9.bio.ecosystems.f15", "front": "What is **kaitiakitanga**?", "back": "Guardianship: the responsibility to care for and protect the environment for future generations." },
+  { "id": "s9.bio.ecosystems.f16", "front": "What is a **rāhui**?", "back": "A temporary restriction on taking resources, such as shellfish, from an area." },
+  { "id": "s9.bio.ecosystems.f17", "front": "What is **Predator Free 2050**?", "back": "A national goal to rid New Zealand of possums, rats and mustelids (stoats, ferrets and weasels) by 2050." },
+  { "id": "s9.bio.ecosystems.f18", "front": "Why are introduced mammals such a threat to New Zealand wildlife?", "back": "Native species evolved without land mammal predators, so many can't escape them, and many nest on the ground." }
+]

@@ -1,0 +1,18 @@
+[
+  { "id": "s9.nos.investigating.f01", "front": "What is a **testable question**?", "back": "A question you can answer by measuring something, e.g. \"How does ramp height affect how far a car rolls?\"" },
+  { "id": "s9.nos.investigating.f02", "front": "What is a **hypothesis**?", "back": "A testable prediction with a reason: \"If… then… because…\"." },
+  { "id": "s9.nos.investigating.f03", "front": "**Independent variable**", "back": "The variable you change on purpose." },
+  { "id": "s9.nos.investigating.f04", "front": "**Dependent variable**", "back": "The variable you measure. Its value depends on the independent variable." },
+  { "id": "s9.nos.investigating.f05", "front": "**Controlled variables**", "back": "Variables you keep the same, so the test is fair." },
+  { "id": "s9.nos.investigating.f06", "front": "What makes a **fair test**?", "back": "Only the independent variable changes; all other variables are kept the same." },
+  { "id": "s9.nos.investigating.f07", "front": "How do you calculate the **mean** of repeated results?", "back": "Add the results and divide by how many there are. Leave out any outliers." },
+  { "id": "s9.nos.investigating.f08", "front": "What is an **outlier**?", "back": "A result that doesn't fit the pattern (an anomalous result). Check or repeat it, and leave it out of the mean." },
+  { "id": "s9.nos.investigating.f09", "front": "Which variable goes on which axis?", "back": "Independent variable on the x-axis (across); dependent variable on the y-axis (up)." },
+  { "id": "s9.nos.investigating.f10", "front": "Line graph or bar graph?", "back": "Line graph when both variables are numbers; bar graph when the independent variable is categories." },
+  { "id": "s9.nos.investigating.f11", "front": "Where do units go in a results table?", "back": "In the column headings, e.g. \"Time (s)\", not after every number." },
+  { "id": "s9.nos.investigating.f12", "front": "What makes results **reliable**?", "back": "Repeating the test gives similar results. Doing repeats and taking a mean makes results more reliable." },
+  { "id": "s9.nos.investigating.f13", "front": "Three parts of a good **conclusion**", "back": "The pattern (trend), data from your results as evidence, and whether your hypothesis was supported." },
+  { "id": "s9.nos.investigating.f14", "front": "Common **source of error** when timing with a stopwatch", "back": "Human reaction time when starting and stopping it. Repeat and average, or time a longer event." },
+  { "id": "s9.nos.investigating.f15", "front": "Why do science ideas change over time?", "back": "Scientists test ideas against evidence. When new evidence is found, ideas can be changed or replaced, e.g. continental drift → plate tectonics." },
+  { "id": "s9.nos.investigating.f16", "front": "How do scientists check each other's work?", "back": "They share methods and results (e.g. in journals) so others can check them and repeat the experiments." }
+]

@@ -1,0 +1,681 @@
+[
+  {
+    "id": "s9.bio.genetics.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Where is almost all of the DNA in an animal cell found?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nucleus"
+      },
+      {
+        "id": "b",
+        "text": "Cell membrane"
+      },
+      {
+        "id": "c",
+        "text": "Vacuole"
+      },
+      {
+        "id": "d",
+        "text": "Cell wall"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The cell membrane controls what enters and leaves the cell.",
+      "c": "Vacuoles store substances. Animal cells have only small ones, if any.",
+      "d": "Animal cells don't have a cell wall."
+    },
+    "hints": [
+      "Which part of the cell controls the cell's activities?"
+    ],
+    "solution": "Almost all of a cell's DNA is in the **nucleus**, packed into chromosomes. That's why the nucleus controls the cell."
+  },
+  {
+    "id": "s9.bio.genetics.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for a section of DNA that carries the instructions for making one protein?",
+    "accepted": [
+      "gene",
+      "genes"
+    ],
+    "allowTypos": false,
+    "hints": [
+      "Each chromosome carries hundreds or thousands of these."
+    ],
+    "solution": "A **gene** is a section of DNA that codes for one protein."
+  },
+  {
+    "id": "s9.bio.genetics.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "How many chromosomes are there in a normal human body cell?",
+    "answer": 46,
+    "hints": [
+      "Chromosomes come in pairs. One of each pair came from your mother and the other from your father."
+    ],
+    "solution": "A human body cell has **46** chromosomes, in 23 pairs."
+  },
+  {
+    "id": "s9.bio.genetics.q004",
+    "type": "order",
+    "difficulty": 1,
+    "prompt": "Put these in order from **smallest** to **largest**.",
+    "items": [
+      {
+        "id": "gene",
+        "text": "Gene"
+      },
+      {
+        "id": "chrom",
+        "text": "Chromosome"
+      },
+      {
+        "id": "nuc",
+        "text": "Nucleus"
+      },
+      {
+        "id": "cell",
+        "text": "Cell"
+      }
+    ],
+    "hints": [
+      "A gene is a short section of a chromosome."
+    ],
+    "solution": "Gene → chromosome → nucleus → cell. A gene is part of a chromosome, the chromosomes are inside the nucleus, and the nucleus is inside the cell."
+  },
+  {
+    "id": "s9.bio.genetics.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each type of protein to its job.",
+    "pairs": [
+      {
+        "left": {
+          "id": "enz",
+          "text": "Enzyme (e.g. amylase)"
+        },
+        "right": {
+          "id": "speed",
+          "text": "Speeds up chemical reactions, such as digesting food"
+        }
+      },
+      {
+        "left": {
+          "id": "horm",
+          "text": "Hormone (e.g. insulin)"
+        },
+        "right": {
+          "id": "mess",
+          "text": "A chemical messenger carried in the blood"
+        }
+      },
+      {
+        "left": {
+          "id": "anti",
+          "text": "Antibody"
+        },
+        "right": {
+          "id": "germ",
+          "text": "Helps the body fight germs"
+        }
+      },
+      {
+        "left": {
+          "id": "struct",
+          "text": "Structural protein (e.g. keratin)"
+        },
+        "right": {
+          "id": "build",
+          "text": "Builds body parts such as hair, nails and skin"
+        }
+      }
+    ],
+    "hints": [
+      "Amylase is found in saliva and helps break down starch."
+    ],
+    "solution": "Enzymes speed up reactions. Hormones are chemical messengers. Antibodies help fight germs. Structural proteins, like keratin and collagen, build body parts."
+  },
+  {
+    "id": "s9.bio.genetics.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "The characteristics that you can see or measure, such as your height, make up your [[a]]. They are produced by your [[b]] and your environment working together.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "phenotype"
+        ],
+        "options": [
+          "phenotype",
+          "chromosome",
+          "nucleus"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "genes",
+          "gene",
+          "dna"
+        ]
+      }
+    ],
+    "allowTypos": false,
+    "hints": [
+      "The second blank is the set of instructions you inherited from your parents."
+    ],
+    "solution": "Your **phenotype** is the set of characteristics you show. It is produced by your **genes** and your environment together."
+  },
+  {
+    "id": "s9.bio.genetics.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which of these is an example of **discontinuous** variation in humans?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ABO blood group"
+      },
+      {
+        "id": "b",
+        "text": "Height"
+      },
+      {
+        "id": "c",
+        "text": "Body mass"
+      },
+      {
+        "id": "d",
+        "text": "Hand span"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Height can be any value within a range, so it is continuous.",
+      "c": "Body mass can be any value within a range, so it is continuous.",
+      "d": "Hand span can be any value within a range, so it is continuous."
+    },
+    "hints": [
+      "Discontinuous variation falls into a few separate groups, with nothing in between."
+    ],
+    "solution": "Everyone's blood group is A, B, AB or O, with nothing in between, so blood group shows **discontinuous** variation. The other three can be measured and take any value in a range."
+  },
+  {
+    "id": "s9.bio.genetics.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the examples of **continuous** variation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Height"
+      },
+      {
+        "id": "b",
+        "text": "Body mass"
+      },
+      {
+        "id": "c",
+        "text": "Foot length"
+      },
+      {
+        "id": "d",
+        "text": "ABO blood group"
+      },
+      {
+        "id": "e",
+        "text": "Whether a pea seed is round or wrinkled"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Continuous variation can take any value in a range. Could you measure it with a ruler or scales?"
+    ],
+    "solution": "Height, body mass and foot length can be measured and take any value in a range, so they show **continuous** variation. Blood group and round or wrinkled pea seeds fall into separate groups, so they are **discontinuous**."
+  },
+  {
+    "id": "s9.bio.genetics.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the scientific word for the passing of genetic information from parents to their offspring?",
+    "accepted": [
+      "inheritance",
+      "heredity",
+      "inherited",
+      "inheriting"
+    ],
+    "hints": [
+      "It's the same word used when someone receives belongings left to them by a relative."
+    ],
+    "solution": "**Inheritance** (or heredity) is the passing of genes from parents to their offspring."
+  },
+  {
+    "id": "s9.bio.genetics.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Identical twins have exactly the same genes. One twin grows up with plenty of nutritious food, and the other has a poor diet. As adults, the first twin is 6 cm taller. What is the best explanation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Their environment (diet) was different, and environment affects height as well as genes"
+      },
+      {
+        "id": "b",
+        "text": "The taller twin's genes changed because of the healthy food"
+      },
+      {
+        "id": "c",
+        "text": "Height is controlled only by the environment, not by genes"
+      },
+      {
+        "id": "d",
+        "text": "The taller twin inherited more height genes from their parents"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Your genes don't change because of what you eat.",
+      "c": "Genes affect height too. That's why tall parents often have tall children.",
+      "d": "Identical twins have exactly the same genes, so this can't be the reason."
+    },
+    "hints": [
+      "If the genes are identical, what else is different?"
+    ],
+    "solution": "Identical twins have the same genes, so the difference must come from the **environment**. A good diet helps a person grow to the height their genes allow. Phenotype = genes + environment."
+  },
+  {
+    "id": "s9.bio.genetics.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which of these characteristics is caused **only** by the environment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A scar from falling off a bike"
+      },
+      {
+        "id": "b",
+        "text": "ABO blood group"
+      },
+      {
+        "id": "c",
+        "text": "Natural eye colour"
+      },
+      {
+        "id": "d",
+        "text": "Height"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Blood group is controlled by genes alone. Your environment can't change it.",
+      "c": "Natural eye colour is controlled by genes.",
+      "d": "Height depends on genes and on the environment, such as diet."
+    },
+    "hints": [
+      "Which one happened to the person during their life, rather than being in their genes?"
+    ],
+    "solution": "A scar is an **acquired** characteristic. It comes from something that happened during your life. It isn't in your genes, so you can't pass it on to your children."
+  },
+  {
+    "id": "s9.bio.genetics.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Talia measures the hand span of 30 students in her class. Which type of graph should she use to show her results?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A histogram, because hand span is continuous data"
+      },
+      {
+        "id": "b",
+        "text": "A bar chart with gaps, because each student is a separate category"
+      },
+      {
+        "id": "c",
+        "text": "A pie chart, because it shows the whole class at once"
+      },
+      {
+        "id": "d",
+        "text": "A line graph, because hand span changes over time"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Bar charts with gaps are for discontinuous data, such as blood groups. Hand span is measured, so it's continuous.",
+      "c": "A pie chart shows parts of a whole. It isn't good for showing how measurements are spread across a range.",
+      "d": "Talia measured each student once. Line graphs show how something changes over time."
+    },
+    "hints": [
+      "Is hand span continuous or discontinuous?"
+    ],
+    "solution": "Hand span can be any value in a range, so it is **continuous** data. Talia should group the measurements into classes (e.g. 16–17 cm, 17–18 cm) and draw a **histogram**, with the bars touching."
+  },
+  {
+    "id": "s9.bio.genetics.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A dog's body cells each contain 78 chromosomes. How many chromosomes are in a dog's egg cell?",
+    "answer": 39,
+    "hints": [
+      "Egg and sperm cells carry only one chromosome from each pair.",
+      "When an egg and a sperm join, the full number has to be restored."
+    ],
+    "solution": "Egg cells carry one chromosome from each pair, which is half the number: $78 \\div 2 = 39$.\n\nWhen a sperm (39) fertilises the egg (39), the puppy's cells get $39 + 39 = 78$ chromosomes."
+  },
+  {
+    "id": "s9.bio.genetics.q014",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Human body cells contain 23 [[a]] of chromosomes. In each pair, one chromosome came from the [[b]] and the other came from the father.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "pairs",
+          "pair"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "mother"
+        ],
+        "options": [
+          "mother",
+          "father",
+          "sister"
+        ]
+      }
+    ],
+    "hints": [
+      "46 chromosomes is 23 groups of two.",
+      "You have two biological parents."
+    ],
+    "solution": "Human body cells contain 23 **pairs** of chromosomes (46 in total). One chromosome of each pair came from the **mother** (in the egg) and the other from the father (in the sperm)."
+  },
+  {
+    "id": "s9.bio.genetics.q015",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "dna",
+          "text": "DNA"
+        },
+        "right": {
+          "id": "chem",
+          "text": "The chemical that carries genetic information"
+        }
+      },
+      {
+        "left": {
+          "id": "chrom",
+          "text": "Chromosome"
+        },
+        "right": {
+          "id": "coil",
+          "text": "A long, coiled strand of DNA"
+        }
+      },
+      {
+        "left": {
+          "id": "gene",
+          "text": "Gene"
+        },
+        "right": {
+          "id": "sect",
+          "text": "A section of DNA that codes for one protein"
+        }
+      },
+      {
+        "left": {
+          "id": "pheno",
+          "text": "Phenotype"
+        },
+        "right": {
+          "id": "chars",
+          "text": "The characteristics an organism shows"
+        }
+      }
+    ],
+    "hints": [
+      "Start with the biggest structure: which one is a whole long strand?"
+    ],
+    "solution": "DNA → the chemical that carries genetic information. Chromosome → a long, coiled strand of DNA. Gene → a section of DNA that codes for one protein. Phenotype → the characteristics an organism shows."
+  },
+  {
+    "id": "s9.bio.genetics.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Mia and her brother Leo have the same parents, but they look quite different. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each of them got a different mix of their parents' chromosomes"
+      },
+      {
+        "id": "b",
+        "text": "Mia got all her genes from her mother, and Leo got all his from their father"
+      },
+      {
+        "id": "c",
+        "text": "The older child always gets more of the parents' genes"
+      },
+      {
+        "id": "d",
+        "text": "Their genes keep changing as they grow, so they become different"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Every child gets half their chromosomes from each parent.",
+      "c": "Every child gets the same amount, half from each parent, whatever their age.",
+      "d": "Your genes stay the same throughout your life."
+    },
+    "hints": [
+      "Each egg and each sperm carries half of a parent's chromosomes. Is it always the same half?"
+    ],
+    "solution": "Each egg and each sperm carries a random half of the parent's chromosomes, and every one is a different mix. So each child gets a **different combination** of their parents' genes. Only identical twins share the same combination."
+  },
+  {
+    "id": "s9.bio.genetics.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Kai's dad is a professional rugby player who trains every day and is very fit. Kai says, \"I'll be fit too, because I'll inherit Dad's fitness.\" Explain why Kai is only partly right.",
+    "modelAnswer": "Kai inherits half his genes from his dad, so he may inherit some features that help in rugby, such as being tall or having a strong build. But fitness depends mostly on environment and lifestyle: how much you train, what you eat and how well you sleep. His dad became fit by training during his life. That is an acquired characteristic, which isn't stored in his DNA, so it can't be passed on. Kai will only be fit if he trains too.",
+    "rubric": [
+      {
+        "criterion": "States that genes from his dad may give Kai some helpful features (e.g. height or build)",
+        "marks": 1
+      },
+      {
+        "criterion": "States that fitness depends on environment or lifestyle, such as training and diet",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that characteristics acquired during life are not passed on in genes",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which parts of being a good rugby player could come from genes?",
+      "How did Kai's dad become fit? Is that stored in his DNA?"
+    ],
+    "solution": "Genes might give Kai a helpful build, but fitness comes from training (environment). An acquired characteristic like fitness isn't in the DNA, so it can't be inherited."
+  },
+  {
+    "id": "s9.bio.genetics.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Ruby takes cuttings from one hydrangea plant, so all the new plants have identical genes. She plants some in acidic soil and some in alkaline soil. The plants in acidic soil grow blue flowers, and the plants in alkaline soil grow pink flowers. What does this show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The environment can change the phenotype, even when the genes are the same"
+      },
+      {
+        "id": "b",
+        "text": "The type of soil changed the plants' genes"
+      },
+      {
+        "id": "c",
+        "text": "The blue plants and pink plants are now different species"
+      },
+      {
+        "id": "d",
+        "text": "Flower colour is controlled only by genes"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Soil doesn't change genes. The plants still have identical DNA.",
+      "c": "They are still the same species. In fact, they are clones of the same plant.",
+      "d": "If colour were controlled only by genes, identical plants would all have the same colour."
+    },
+    "hints": [
+      "The genes are identical. What is different?"
+    ],
+    "solution": "The plants are clones with identical genes, so the different flower colours must be caused by the **environment** (the soil). Phenotype = genes + environment."
+  },
+  {
+    "id": "s9.bio.genetics.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Human height shows continuous variation. What is the best explanation for this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Height is controlled by many genes and is also affected by the environment"
+      },
+      {
+        "id": "b",
+        "text": "Height is controlled by a single gene with two versions"
+      },
+      {
+        "id": "c",
+        "text": "Height is controlled only by the environment, such as diet"
+      },
+      {
+        "id": "d",
+        "text": "Height genes are only found in some of the body's cells"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A single gene usually gives a few distinct groups (discontinuous variation), not a smooth range.",
+      "c": "Genes affect height too. Tall parents tend to have tall children.",
+      "d": "Almost every body cell contains the full set of genes."
+    },
+    "hints": [
+      "What usually controls a characteristic that falls into a few distinct groups?",
+      "Why would a smooth range of values appear?"
+    ],
+    "solution": "When **many genes** each add a little to a characteristic, and the **environment** (such as diet) also has an effect, the result is a smooth range of values: **continuous variation**. Single-gene characteristics usually give distinct groups instead."
+  },
+  {
+    "id": "s9.bio.genetics.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "Compare continuous and discontinuous variation. For each one, give an example and say which type of graph you would use to show it.",
+    "modelAnswer": "Continuous variation can take any value within a range, for example height or hand span. It is usually controlled by many genes and is also affected by the environment. It is shown on a histogram, with the bars touching. Discontinuous variation falls into a few distinct groups, with nothing in between, for example ABO blood group. It is usually controlled by one gene (or a few), with little effect from the environment. It is shown on a bar chart with gaps between the bars.",
+    "rubric": [
+      {
+        "criterion": "Describes continuous variation as any value in a range, with a correct example",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes discontinuous variation as distinct groups, with a correct example",
+        "marks": 1
+      },
+      {
+        "criterion": "States that continuous variation is usually many genes plus environment, and discontinuous is usually one (or a few) genes",
+        "marks": 1
+      },
+      {
+        "criterion": "Matches continuous data to a histogram and discontinuous data to a bar chart",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Describe what each type looks like, then give an example of each.",
+      "Think about whether the bars on the graph should touch."
+    ],
+    "solution": "| | Continuous | Discontinuous |\n|---|---|---|\n| Values | Any value in a range | A few distinct groups |\n| Example | Height, hand span | ABO blood group |\n| Usually caused by | Many genes + environment | One gene (or a few) |\n| Graph | Histogram (bars touch) | Bar chart (gaps) |"
+  },
+  {
+    "id": "s9.bio.genetics.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Melanin is the pigment that colours skin, hair and eyes, and an enzyme is needed to make it. People with one type of albinism have faulty versions of the gene for this enzyme, so they have very pale skin and hair. Which explanation is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The faulty gene gives wrong instructions, so the enzyme doesn't work and very little melanin is made"
+      },
+      {
+        "id": "b",
+        "text": "Their skin cells have no DNA, so they can't make any proteins at all"
+      },
+      {
+        "id": "c",
+        "text": "Their skin cells have no nucleus, so melanin can't be stored there"
+      },
+      {
+        "id": "d",
+        "text": "Sunlight damaged their melanin gene sometime after they were born"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Their cells do have DNA. Only one gene is faulty, so all their other proteins are made normally.",
+      "c": "Skin cells do have a nucleus. The problem is the instructions in one gene.",
+      "d": "Albinism is inherited: people are born with it. It isn't caused by sunlight."
+    },
+    "hints": [
+      "Think about the chain gene → protein → characteristic.",
+      "What happens to the characteristic if the protein can't do its job?"
+    ],
+    "solution": "A gene holds the instructions for making a protein, in this case an enzyme. If the instructions are faulty, the enzyme doesn't work, so very little melanin is made and the person has very pale skin and hair. This shows the chain **gene → protein → characteristic**."
+  },
+  {
+    "id": "s9.bio.genetics.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Most bananas sold in shops are clones of one variety, called Cavendish, so they all have the same genes. Wild banana plants reproduce sexually. Explain why a new disease is a bigger threat to Cavendish bananas than to wild bananas.",
+    "modelAnswer": "Because Cavendish bananas are clones, they all have identical genes. If a disease can infect one plant, it can infect all of them, because none has different genes that might protect it. The whole variety could be wiped out. Wild bananas reproduce sexually, so each plant gets a different mix of genes from its two parents. Because of this variation, some wild plants may have genes that help them resist the disease. Those plants survive and reproduce, passing on their genes, so the wild population carries on.",
+    "rubric": [
+      {
+        "criterion": "States that the clones all have identical genes, so a disease that affects one is likely to affect them all",
+        "marks": 1
+      },
+      {
+        "criterion": "States that sexual reproduction produces variation (offspring have different combinations of genes)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that some of the varied wild plants may resist the disease and survive to reproduce",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What does it mean for the plants to be clones?",
+      "Why does variation matter when something in the environment changes?"
+    ],
+    "solution": "Identical clones would all be equally at risk. Sexual reproduction gives variation, so some wild plants may resist the disease, survive and pass on their genes."
+  }
+]

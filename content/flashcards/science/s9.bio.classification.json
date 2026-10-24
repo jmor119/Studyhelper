@@ -1,0 +1,18 @@
+[
+  { "id": "s9.bio.classification.f01", "front": "What does **MRS GREN** stand for?", "back": "Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition: the seven life processes." },
+  { "id": "s9.bio.classification.f02", "front": "What is **respiration** (the life process)?", "back": "Releasing energy from food (glucose) inside cells. It is not the same as breathing." },
+  { "id": "s9.bio.classification.f03", "front": "What is **excretion**?", "back": "Getting rid of waste made by cells, such as carbon dioxide and urea." },
+  { "id": "s9.bio.classification.f04", "front": "What is **sensitivity**?", "back": "Detecting changes in the surroundings and responding to them." },
+  { "id": "s9.bio.classification.f05", "front": "**Vertebrate** vs **invertebrate**", "back": "Vertebrates have a backbone. Invertebrates don't." },
+  { "id": "s9.bio.classification.f06", "front": "The five groups (classes) of vertebrates", "back": "Fish, amphibians, reptiles, birds and mammals." },
+  { "id": "s9.bio.classification.f07", "front": "Three features of every adult insect", "back": "Six legs, three body parts (head, thorax, abdomen) and an exoskeleton." },
+  { "id": "s9.bio.classification.f08", "front": "What is a **dichotomous key**?", "back": "A key made of pairs of opposite statements that lead you, step by step, to the name of an organism." },
+  { "id": "s9.bio.classification.f09", "front": "What is an **adaptation**?", "back": "A feature that helps an organism survive and reproduce in its habitat." },
+  { "id": "s9.bio.classification.f10", "front": "Structural vs behavioural vs physiological adaptations", "back": "Structural = a body feature. Behavioural = something the organism does. Physiological = a process inside the body." },
+  { "id": "s9.bio.classification.f11", "front": "What does **endemic** mean?", "back": "Found naturally in only one place. Kiwi, for example, are endemic to New Zealand." },
+  { "id": "s9.bio.classification.f12", "front": "**Native** vs **introduced** species", "back": "Native species got here without help from people. Introduced species were brought by people." },
+  { "id": "s9.bio.classification.f13", "front": "What is a **habitat**?", "back": "The place where an organism lives." },
+  { "id": "s9.bio.classification.f14", "front": "Classification groups, largest to smallest", "back": "Kingdom → phylum → class → order → family → genus → species." },
+  { "id": "s9.bio.classification.f15", "front": "What are the two parts of a scientific name?", "back": "Genus, then species, e.g. tuatara = *Sphenodon punctatus*." },
+  { "id": "s9.bio.classification.f16", "front": "Why does New Zealand have so many endemic species?", "back": "It has been isolated for about 80 million years, so its species evolved separately from those elsewhere." }
+]

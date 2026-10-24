@@ -1,0 +1,18 @@
+[
+  { "id": "s9.nos.lab-skills.f01", "front": "What is a **hazard**?", "back": "Anything that could cause harm, e.g. a flame, hot glass, broken glass or a corrosive chemical." },
+  { "id": "s9.nos.lab-skills.f02", "front": "Bunsen burner: what is the **safety flame**?", "back": "The yellow flame you get with the air hole closed. It is cooler, easy to see and sooty." },
+  { "id": "s9.nos.lab-skills.f03", "front": "Bunsen burner: what is the **blue flame**?", "back": "The flame you get with the air hole open. It is much hotter, clean (no soot) and hard to see. Use it for heating." },
+  { "id": "s9.nos.lab-skills.f04", "front": "Order for lighting a Bunsen burner", "back": "Heatproof mat → close the air hole → light the match and hold it over the barrel → turn on the gas. Open the air hole to heat." },
+  { "id": "s9.nos.lab-skills.f05", "front": "Where is the hottest part of a blue Bunsen flame?", "back": "Just above the tip of the inner blue cone." },
+  { "id": "s9.nos.lab-skills.f06", "front": "What is the **meniscus**?", "back": "The curved surface of a liquid in a narrow tube. For water, read the volume from the bottom of the meniscus." },
+  { "id": "s9.nos.lab-skills.f07", "front": "Why read a scale with your eye level with it?", "back": "To avoid parallax error. Looking from above reads too high; looking from below reads too low." },
+  { "id": "s9.nos.lab-skills.f08", "front": "**Beaker** vs **measuring cylinder**", "back": "A beaker holds, mixes and heats liquids (rough volume only). A measuring cylinder measures volume accurately." },
+  { "id": "s9.nos.lab-skills.f09", "front": "What is a **conical flask** good for?", "back": "Mixing and swirling liquids. Its narrow neck stops them splashing out." },
+  { "id": "s9.nos.lab-skills.f10", "front": "What do the **tripod** and **gauze mat** do?", "back": "The tripod holds the gauze mat and beaker above the Bunsen burner; the gauze mat supports the beaker and spreads the heat evenly." },
+  { "id": "s9.nos.lab-skills.f11", "front": "What is the **heatproof mat** for?", "back": "It goes under the Bunsen burner to protect the bench from heat." },
+  { "id": "s9.nos.lab-skills.f12", "front": "Rules for heating a test tube", "back": "No more than about a third full; use a test-tube holder; point it away from people; heat gently and keep it moving." },
+  { "id": "s9.nos.lab-skills.f13", "front": "What should you do if you burn yourself in the lab?", "back": "Cool the burn under cold running water straight away (NZ first-aid advice is 20 minutes) and tell the teacher." },
+  { "id": "s9.nos.lab-skills.f14", "front": "How should you smell a chemical safely?", "back": "Waft the smell towards your nose with your hand. Never sniff it directly." },
+  { "id": "s9.nos.lab-skills.f15", "front": "Hazard symbol: a **flame**", "back": "Flammable: it catches fire easily, so keep it away from flames and heat." },
+  { "id": "s9.nos.lab-skills.f16", "front": "Which measuring cylinder should you use for a small volume, e.g. 18 mL?", "back": "The smallest one that holds it (e.g. 25 mL). It has the finest scale, so it is the most accurate." }
+]

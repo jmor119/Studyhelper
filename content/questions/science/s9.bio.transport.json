@@ -1,0 +1,619 @@
+[
+  {
+    "id": "s9.bio.transport.q001",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for the net movement of particles from an area of high concentration to an area of low concentration?",
+    "accepted": [
+      "diffusion"
+    ],
+    "hints": [
+      "It's how the smell of hot chips spreads across a room."
+    ],
+    "solution": "**Diffusion**. Particles move randomly, so overall they spread out from where they are crowded to where there are fewer of them. It doesn't need energy from the cell."
+  },
+  {
+    "id": "s9.bio.transport.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Osmosis is the diffusion of which substance across a partially permeable membrane?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water"
+      },
+      {
+        "id": "b",
+        "text": "Salt"
+      },
+      {
+        "id": "c",
+        "text": "Sugar"
+      },
+      {
+        "id": "d",
+        "text": "Oxygen"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In osmosis it is the water that moves, not the salt.",
+      "c": "Sugar molecules are too big to pass through a partially permeable membrane. Osmosis is about water.",
+      "d": "Oxygen moves by diffusion, but osmosis refers only to water."
+    },
+    "hints": [
+      "Osmosis explains why a limp lettuce leaf goes crisp in a bowl of cold water."
+    ],
+    "solution": "Osmosis is the diffusion of **water** across a partially permeable membrane, from a dilute solution to a more concentrated one."
+  },
+  {
+    "id": "s9.bio.transport.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these needs energy from the cell (from respiration)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Active transport"
+      },
+      {
+        "id": "b",
+        "text": "Diffusion"
+      },
+      {
+        "id": "c",
+        "text": "Osmosis"
+      },
+      {
+        "id": "d",
+        "text": "Gas exchange in the alveoli"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Diffusion is passive: particles move down a concentration gradient without the cell using energy.",
+      "c": "Osmosis is a type of diffusion, so it doesn't need energy from the cell.",
+      "d": "Gas exchange in the alveoli happens by diffusion, which doesn't need energy from the cell."
+    },
+    "hints": [
+      "Which process moves substances the 'wrong way', from low concentration to high?"
+    ],
+    "solution": "**Active transport** moves substances against the concentration gradient (from low to high), so the cell has to use energy from respiration. Diffusion and osmosis are passive."
+  },
+  {
+    "id": "s9.bio.transport.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "In diffusion, particles move from an area of [[a]] concentration to an area of [[b]] concentration.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "high"
+        ],
+        "options": [
+          "high",
+          "low"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "low"
+        ],
+        "options": [
+          "high",
+          "low"
+        ]
+      }
+    ],
+    "hints": [
+      "Think about a drop of food colouring spreading out in a glass of water."
+    ],
+    "solution": "Particles diffuse from **high** concentration to **low** concentration, down the concentration gradient."
+  },
+  {
+    "id": "s9.bio.transport.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each example to the process that causes it.",
+    "pairs": [
+      {
+        "left": {
+          "id": "o2",
+          "text": "Oxygen moving from the alveoli into the blood"
+        },
+        "right": {
+          "id": "diff",
+          "text": "Diffusion"
+        }
+      },
+      {
+        "left": {
+          "id": "water",
+          "text": "Water moving from the soil into a root hair cell"
+        },
+        "right": {
+          "id": "osm",
+          "text": "Osmosis"
+        }
+      },
+      {
+        "left": {
+          "id": "nitrate",
+          "text": "A root hair cell taking in nitrate ions from soil that has fewer of them than the root"
+        },
+        "right": {
+          "id": "act",
+          "text": "Active transport"
+        }
+      }
+    ],
+    "hints": [
+      "Osmosis is only about water.",
+      "Which example moves particles from low concentration to high concentration?"
+    ],
+    "solution": "Oxygen into the blood → **diffusion** (high to low). Water into the root → **osmosis** (water across a membrane). Nitrate into the root, from low to high → **active transport**."
+  },
+  {
+    "id": "s9.bio.transport.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which change would make diffusion happen **faster**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Raising the temperature"
+      },
+      {
+        "id": "b",
+        "text": "Making the difference in concentration smaller"
+      },
+      {
+        "id": "c",
+        "text": "Making the distance the particles travel longer"
+      },
+      {
+        "id": "d",
+        "text": "Making the surface area smaller"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A smaller concentration difference makes diffusion slower. A bigger difference makes it faster.",
+      "c": "A longer distance makes diffusion slower.",
+      "d": "A smaller surface area makes diffusion slower."
+    },
+    "hints": [
+      "At a higher temperature, particles have more energy."
+    ],
+    "solution": "At a higher **temperature**, particles move faster, so diffusion speeds up. A bigger concentration difference, a shorter distance and a larger surface area also make diffusion faster."
+  },
+  {
+    "id": "s9.bio.transport.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "A cube of agar jelly has sides of 2 cm. What is its total surface area?",
+    "answer": 24,
+    "units": "cm²",
+    "hints": [
+      "A cube has 6 faces, and every face is the same square.",
+      "Area of one face = side × side."
+    ],
+    "solution": "Area of one face $= 2 \\times 2 = 4$ cm². There are 6 faces, so surface area $= 6 \\times 4 = 24$ cm²."
+  },
+  {
+    "id": "s9.bio.transport.q008",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What word describes a plant cell that is firm because its vacuole is full of water?",
+    "accepted": [
+      "turgid"
+    ],
+    "hints": [
+      "The opposite is flaccid (floppy)."
+    ],
+    "solution": "**Turgid**. The full vacuole pushes outwards against the cell wall, a bit like air in a tyre, and this keeps stems and leaves upright."
+  },
+  {
+    "id": "s9.bio.transport.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A cube of agar jelly has sides of 3 cm. Calculate its surface area to volume ratio.\n\nWrite the ratio in the form $n : 1$ and enter the value of $n$.",
+    "answer": 2,
+    "hints": [
+      "Surface area = 6 × side × side. Volume = side × side × side.",
+      "Divide the surface area by the volume to get n."
+    ],
+    "solution": "Surface area $= 6 \\times 3 \\times 3 = 54$ cm²\n\nVolume $= 3 \\times 3 \\times 3 = 27$ cm³\n\nSA : V $= 54 : 27 = 2 : 1$, so $n = 2$."
+  },
+  {
+    "id": "s9.bio.transport.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A potato chip is left in very salty water for an hour. What happens to it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It loses mass and goes floppy, because water leaves its cells by osmosis"
+      },
+      {
+        "id": "b",
+        "text": "It gains mass, because salt moves into its cells by osmosis"
+      },
+      {
+        "id": "c",
+        "text": "It gains mass and goes firm, because water enters its cells by osmosis"
+      },
+      {
+        "id": "d",
+        "text": "Nothing happens, because the cell walls stop water from moving"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In osmosis, water moves, not salt.",
+      "c": "Water moves towards the more concentrated solution. The salty water is more concentrated than the potato cells, so water leaves.",
+      "d": "Cell walls let water through easily, so osmosis still happens."
+    },
+    "hints": [
+      "Which is more concentrated: the salty water or the potato's cell sap?",
+      "Water moves by osmosis towards the more concentrated solution."
+    ],
+    "solution": "The salty water is more concentrated than the cell sap, so water moves **out of** the potato cells by osmosis. The chip **loses mass** and its cells become flaccid, so it goes floppy."
+  },
+  {
+    "id": "s9.bio.transport.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Red blood cells are placed in pure (distilled) water. What happens to them?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They swell and may burst, because water enters them by osmosis"
+      },
+      {
+        "id": "b",
+        "text": "They shrink, because water leaves them by osmosis"
+      },
+      {
+        "id": "c",
+        "text": "They stay the same, because water can't cross the cell membrane"
+      },
+      {
+        "id": "d",
+        "text": "They swell a little and then become firm, like plant cells"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Pure water is more dilute than the inside of the cell, so water moves in, not out.",
+      "c": "Water crosses cell membranes easily. That's what osmosis is.",
+      "d": "Plant cells stop swelling because their strong cell wall holds them in. Red blood cells have no cell wall, so they can burst."
+    },
+    "hints": [
+      "Is pure water more dilute or more concentrated than the inside of a cell?",
+      "Do red blood cells have a cell wall?"
+    ],
+    "solution": "Pure water is more dilute than the cytoplasm, so water moves **into** the cells by osmosis. Animal cells have no cell wall to stop them stretching, so they **swell and may burst**."
+  },
+  {
+    "id": "s9.bio.transport.q012",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these cubes in order from the **largest** surface area to volume ratio to the **smallest**.",
+    "items": [
+      {
+        "id": "c1mm",
+        "text": "A 1 mm cube"
+      },
+      {
+        "id": "c5mm",
+        "text": "A 5 mm cube"
+      },
+      {
+        "id": "c1cm",
+        "text": "A 1 cm cube"
+      },
+      {
+        "id": "c10cm",
+        "text": "A 10 cm cube"
+      }
+    ],
+    "hints": [
+      "Work out SA ÷ V for a cube with sides of 1 and a cube with sides of 2. What happens as the cube gets bigger?",
+      "Be careful with units: 1 cm = 10 mm."
+    ],
+    "solution": "For a cube, SA : V works out as $6 \\div \\text{side}$, so the smallest cube has the largest ratio. In millimetres: 1 mm → 6, 5 mm → 1.2, 1 cm (10 mm) → 0.6, 10 cm (100 mm) → 0.06.\n\nOrder: **1 mm → 5 mm → 1 cm → 10 cm**."
+  },
+  {
+    "id": "s9.bio.transport.q013",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the examples of osmosis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Raisins swell up when they are soaked in water"
+      },
+      {
+        "id": "b",
+        "text": "A limp stick of celery becomes firm when it stands in water"
+      },
+      {
+        "id": "c",
+        "text": "Water moves from the soil into root hair cells"
+      },
+      {
+        "id": "d",
+        "text": "The smell of perfume spreads across a room"
+      },
+      {
+        "id": "e",
+        "text": "Sugar dissolves when it is stirred into hot tea"
+      },
+      {
+        "id": "f",
+        "text": "Oxygen enters a leaf through its stomata"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Osmosis always involves water crossing a membrane."
+    ],
+    "solution": "Raisins swelling, celery firming up and water entering root hair cells all involve **water moving across cell membranes**, so they are osmosis. Perfume spreading and oxygen entering a leaf are diffusion of gases. Sugar dissolving in tea is dissolving, not osmosis."
+  },
+  {
+    "id": "s9.bio.transport.q014",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "A membrane that lets small molecules such as water through, but not larger molecules such as sugar, is called [[a]] permeable.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "partially",
+          "partly",
+          "selectively",
+          "semi",
+          "semi-",
+          "differentially"
+        ]
+      }
+    ],
+    "hints": [
+      "It is only *partly* permeable."
+    ],
+    "solution": "It is called **partially permeable** (you may also see *selectively permeable* or *semi-permeable*). Cell membranes are partially permeable."
+  },
+  {
+    "id": "s9.bio.transport.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A potato cylinder has a mass of 5.00 g. After an hour in a concentrated sugar solution, its mass is 4.40 g. By what percentage did its mass decrease?",
+    "answer": 12,
+    "units": "%",
+    "hints": [
+      "First find the change in mass.",
+      "Percentage change = change in mass ÷ starting mass × 100."
+    ],
+    "solution": "Change in mass $= 5.00 - 4.40 = 0.60$ g\n\nPercentage decrease $= \\dfrac{0.60}{5.00} \\times 100 = 12\\%$\n\nWater moved out of the potato cells by osmosis, because the sugar solution was more concentrated than the cell sap."
+  },
+  {
+    "id": "s9.bio.transport.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Kai cuts three cubes of agar jelly, with sides of 1 cm, 2 cm and 3 cm. He puts them into purple dye at the same time. Which cube will be coloured all the way through first, and why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The 1 cm cube, because it has the largest SA:V ratio and the shortest distance to its centre"
+      },
+      {
+        "id": "b",
+        "text": "The 3 cm cube, because it has the most surface area for the dye to get in"
+      },
+      {
+        "id": "c",
+        "text": "All three at the same time, because they are made of the same jelly"
+      },
+      {
+        "id": "d",
+        "text": "The 3 cm cube, because it has the most volume to soak up the dye"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The big cube does have the most surface area, but it has far more volume to fill, and its centre is further from the surface.",
+      "c": "The dye diffuses at the same speed into each cube, but it has much further to go in the bigger cubes.",
+      "d": "More volume means more jelly to fill, so it takes longer, not less time."
+    },
+    "hints": [
+      "The dye spreads in by diffusion from the surface.",
+      "Which cube's centre is closest to its surface?"
+    ],
+    "solution": "The **1 cm cube** has the largest SA:V ratio (6 : 1, compared with 3 : 1 and 2 : 1), and its centre is only 0.5 cm from the surface. Diffusion fills small objects quickly. This is why cells are small."
+  },
+  {
+    "id": "s9.bio.transport.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "An amoeba is a single-celled organism that gets all its oxygen by diffusion through its surface. Explain why a large organism, such as a human, can't rely on diffusion through its skin, and needs lungs and a circulatory system instead.",
+    "modelAnswer": "An amoeba is tiny, so it has a large surface area to volume ratio, and no part of it is far from the surface. Oxygen can diffuse in fast enough to supply the whole cell. A human is much larger, so it has a small SA:V ratio: there isn't enough skin surface for its huge volume, and most cells are far from the surface. Diffusion over those distances would be far too slow. So humans need lungs, where millions of alveoli give a huge surface area for gas exchange, and a circulatory system (the heart and blood) to carry oxygen quickly to every cell.",
+    "rubric": [
+      {
+        "criterion": "States that the amoeba has a large SA:V ratio or a short diffusion distance, so diffusion can supply the whole cell",
+        "marks": 1
+      },
+      {
+        "criterion": "States that a human has a small SA:V ratio and cells far from the surface, so diffusion alone would be too slow",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that lungs give a large surface area for gas exchange, and the heart and blood carry oxygen to all cells",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Compare the SA:V ratio of a tiny cell with that of a whole human.",
+      "How far would oxygen have to diffuse to reach a cell deep inside your body?"
+    ],
+    "solution": "Small organism → large SA:V and short distances → diffusion is enough. Large organism → small SA:V and long distances → it needs a specialised exchange surface (lungs) and a transport system (heart and blood)."
+  },
+  {
+    "id": "s9.bio.transport.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "Root hair cells take in water and mineral ions from the soil. Describe how each one enters the cell, and explain how the shape of a root hair cell helps.",
+    "modelAnswer": "Water enters by osmosis. The soil water is more dilute than the cell sap, so water moves into the root hair cell across its partially permeable membrane. Mineral ions, such as nitrate, are usually at a lower concentration in the soil than inside the root, so the cell has to move them in against the concentration gradient by active transport. Active transport needs energy from respiration, so the root cells need oxygen from air spaces in the soil. The root hair is a long, thin extension, which gives the cell a large surface area, so it can absorb more water and ions.",
+    "rubric": [
+      {
+        "criterion": "States that water enters by osmosis, from the more dilute soil water into the more concentrated cell sap",
+        "marks": 1
+      },
+      {
+        "criterion": "States that mineral ions enter by active transport, because they are at a lower concentration in the soil than in the root",
+        "marks": 1
+      },
+      {
+        "criterion": "States that active transport needs energy from respiration",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the long, thin root hair gives a large surface area for absorption",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Water and minerals enter in different ways. Which one is moving against a concentration gradient?",
+      "What does a long, thin shape do to the surface area?"
+    ],
+    "solution": "Water: osmosis (dilute soil water → more concentrated cell sap). Minerals: active transport (low → high concentration), using energy from respiration. The root hair's long, thin shape gives a large surface area for absorbing both."
+  },
+  {
+    "id": "s9.bio.transport.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The concentration of nitrate ions inside a root hair cell is higher than in the soil water around it. How does the cell take in more nitrate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By active transport, using energy to move the ions against the concentration gradient"
+      },
+      {
+        "id": "b",
+        "text": "By diffusion, because ions always move into cells by themselves"
+      },
+      {
+        "id": "c",
+        "text": "By osmosis, because the nitrate is dissolved in the soil water"
+      },
+      {
+        "id": "d",
+        "text": "It can't take in any more until the soil has more nitrate than the cell"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Diffusion moves particles from high to low concentration. Here, that would carry nitrate out of the cell.",
+      "c": "Osmosis is the movement of water only, not dissolved ions.",
+      "d": "Cells can take in substances against the gradient, but it costs energy."
+    },
+    "hints": [
+      "The nitrate has to move from low concentration to high concentration."
+    ],
+    "solution": "Moving nitrate from low concentration (the soil) to high concentration (the cell) is against the concentration gradient. This needs **active transport**, which uses energy from respiration."
+  },
+  {
+    "id": "s9.bio.transport.q020",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "Cube A has sides of 1 cm. Cube B has sides of 4 cm. How many times bigger is the surface area to volume ratio of cube A than that of cube B?",
+    "answer": 4,
+    "hints": [
+      "Work out SA : V for each cube, in the form n : 1.",
+      "Then divide cube A's value of n by cube B's."
+    ],
+    "solution": "Cube A: SA $= 6 \\times 1^2 = 6$ cm², V $= 1^3 = 1$ cm³, so SA : V $= 6 : 1$.\n\nCube B: SA $= 6 \\times 4^2 = 96$ cm², V $= 4^3 = 64$ cm³, so SA : V $= 96 : 64 = 1.5 : 1$.\n\n$6 \\div 1.5 = 4$, so cube A's ratio is **4 times** bigger."
+  },
+  {
+    "id": "s9.bio.transport.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "For their body size, mice must eat far more food than horses do. Which explanation uses surface area to volume ratio correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mice have a larger SA:V ratio, so they lose heat faster and must respire more food to stay warm"
+      },
+      {
+        "id": "b",
+        "text": "Mice have a smaller SA:V ratio, so they need more food to fill up their bodies"
+      },
+      {
+        "id": "c",
+        "text": "Mice have far more cells than horses, so they need more food to feed them all"
+      },
+      {
+        "id": "d",
+        "text": "Mice have a larger SA:V ratio, so they soak up heat from the air and need food to cool down"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Small animals have a larger SA:V ratio, not a smaller one.",
+      "c": "A horse has far more cells than a mouse.",
+      "d": "Mice are usually warmer than the air around them, so heat flows out of their bodies, not in. Releasing energy from food warms them; it doesn't cool them."
+    },
+    "hints": [
+      "Heat is lost through the surface of the body.",
+      "Which animal has more surface for each unit of body volume?"
+    ],
+    "solution": "A mouse has a much **larger SA:V ratio** than a horse, so it loses heat through its surface much faster for its size. To stay warm, it must respire more glucose to release more energy as heat, so it needs a lot of food for its size."
+  },
+  {
+    "id": "s9.bio.transport.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "When hospital patients need extra fluid through a drip, doctors use a salt solution with the same concentration as blood plasma, not pure water. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pure water would enter red blood cells by osmosis, making them swell and burst"
+      },
+      {
+        "id": "b",
+        "text": "Pure water would make the red blood cells shrink, because water would leave them"
+      },
+      {
+        "id": "c",
+        "text": "The salt solution gives the blood cells extra energy for active transport"
+      },
+      {
+        "id": "d",
+        "text": "Pure water can't mix with blood, because it is far too dilute"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Pure water is more dilute than the cells, so water would move into them, not out.",
+      "c": "Salt isn't a source of energy. Cells get energy from respiring glucose.",
+      "d": "Water mixes with blood easily. The problem is what happens to the cells."
+    },
+    "hints": [
+      "Compare pure water with the inside of a red blood cell.",
+      "What happens to an animal cell when lots of water enters it?"
+    ],
+    "solution": "Pure water is more dilute than the inside of red blood cells, so water would move **into** them by osmosis, and with no cell wall they would swell and burst. A solution with the **same concentration** as plasma causes no overall movement of water, so the cells stay normal."
+  }
+]

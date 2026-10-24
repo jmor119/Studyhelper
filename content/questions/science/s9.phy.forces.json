@@ -1,0 +1,364 @@
+[
+  {
+    "id": "s9.phy.forces.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What unit are forces measured in?",
+    "options": [
+      { "id": "a", "text": "Newtons (N)" },
+      { "id": "b", "text": "Kilograms (kg)" },
+      { "id": "c", "text": "Metres per second (m/s)" },
+      { "id": "d", "text": "Joules (J)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Kilograms measure mass, not force.",
+      "c": "m/s is the unit of speed.",
+      "d": "Joules measure energy."
+    },
+    "hints": ["The unit is named after the scientist who wrote the three laws of motion."],
+    "solution": "Forces are measured in **newtons (N)**, named after Isaac Newton."
+  },
+  {
+    "id": "s9.phy.forces.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the force that acts between two surfaces rubbing together and opposes motion?",
+    "accepted": ["friction", "frictional force", "friction force"],
+    "hints": ["It's what lets your shoes grip the ground."],
+    "solution": "**Friction.** It always acts against the direction of motion between surfaces."
+  },
+  {
+    "id": "s9.phy.forces.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Mass is measured in [[a]] and weight is measured in [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["kilograms"], "options": ["kilograms", "newtons", "metres"] },
+      { "id": "b", "accepted": ["newtons"], "options": ["kilograms", "newtons", "metres"] }
+    ],
+    "hints": ["Weight is a force."],
+    "solution": "Mass is measured in **kilograms** (kg). Weight is a force, so it is measured in **newtons** (N)."
+  },
+  {
+    "id": "s9.phy.forces.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which instrument is used to measure the size of a force?",
+    "options": [
+      { "id": "a", "text": "A force meter (spring balance)" },
+      { "id": "b", "text": "An electronic balance" },
+      { "id": "c", "text": "A measuring cylinder" },
+      { "id": "d", "text": "A thermometer" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An electronic balance is used to find mass in grams or kilograms.",
+      "c": "A measuring cylinder measures the volume of a liquid.",
+      "d": "A thermometer measures temperature."
+    },
+    "hints": ["It contains a spring that stretches more when the force is bigger."],
+    "solution": "A **force meter** (spring balance or newton meter) measures force in newtons. The spring stretches further for a bigger force."
+  },
+  {
+    "id": "s9.phy.forces.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the non-contact forces.",
+    "options": [
+      { "id": "a", "text": "Gravity" },
+      { "id": "b", "text": "Magnetic force" },
+      { "id": "c", "text": "Electrostatic (static electricity) force" },
+      { "id": "d", "text": "Friction" },
+      { "id": "e", "text": "Air resistance" },
+      { "id": "f", "text": "Tension in a rope" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Non-contact forces can act across a gap, without the objects touching."],
+    "solution": "**Gravity, magnetic force and electrostatic force** act without touching. Friction, air resistance and tension are contact forces."
+  },
+  {
+    "id": "s9.phy.forces.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "In a tug of war, the left team pulls with 2,000 N and the right team pulls with 2,000 N. The rope starts still. What happens?",
+    "options": [
+      { "id": "a", "text": "The rope stays still, because the forces are balanced" },
+      { "id": "b", "text": "The rope moves to the left" },
+      { "id": "c", "text": "The rope moves to the right" },
+      { "id": "d", "text": "The rope moves, because there is 4,000 N of force on it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The pulls are equal, so neither team wins.",
+      "c": "The pulls are equal, so neither team wins.",
+      "d": "Forces in opposite directions cancel out. The net force is 2,000 − 2,000 = 0 N."
+    },
+    "hints": ["Find the net force: the pulls are in opposite directions."],
+    "solution": "Net force = 2,000 − 2,000 = **0 N**. The forces are **balanced**, so the rope stays still (Newton's first law)."
+  },
+  {
+    "id": "s9.phy.forces.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "A Year 9 student has a mass of 50 kg. What is the student's weight on Earth? Use $g = 10$ N/kg.",
+    "answer": 500,
+    "units": "N",
+    "hints": ["Weight = mass × g."],
+    "solution": "$W = mg = 50 \\times 10 = 500$ N"
+  },
+  {
+    "id": "s9.phy.forces.q008",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each force to its description.",
+    "pairs": [
+      { "left": { "id": "w", "text": "Weight" }, "right": { "id": "grav", "text": "The pull of gravity on an object" } },
+      { "left": { "id": "f", "text": "Friction" }, "right": { "id": "rub", "text": "Opposes motion between two surfaces" } },
+      { "left": { "id": "ar", "text": "Air resistance" }, "right": { "id": "air", "text": "Drag on an object moving through air" } },
+      { "left": { "id": "s", "text": "Support force" }, "right": { "id": "push", "text": "A surface pushing up on an object resting on it" } },
+      { "left": { "id": "t", "text": "Thrust" }, "right": { "id": "fwd", "text": "A driving force that pushes an object forwards" } }
+    ],
+    "hints": ["Drag is another name for air resistance."],
+    "solution": "Weight → pull of gravity; friction → opposes motion between surfaces; air resistance → drag in air; support force → a surface pushing up; thrust → driving force forwards."
+  },
+  {
+    "id": "s9.phy.forces.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What word describes the tendency of an object to resist changes to its motion?",
+    "accepted": ["inertia"],
+    "hints": ["It starts with \"i\". Objects with more mass have more of it."],
+    "solution": "**Inertia.** The more mass an object has, the more inertia it has, so the harder it is to speed up, slow down or turn."
+  },
+  {
+    "id": "s9.phy.forces.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A car with a mass of 1,200 kg accelerates at 3 m/s². What is the net force acting on the car?",
+    "answer": 3600,
+    "units": "N",
+    "hints": ["Use Newton's second law: $F = ma$."],
+    "solution": "$F = ma = 1200 \\times 3 = 3600$ N"
+  },
+  {
+    "id": "s9.phy.forces.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A net force of 450 N acts on a quad bike and rider with a total mass of 150 kg. What is their acceleration?",
+    "answer": 3,
+    "units": "m/s²",
+    "hints": ["Rearrange $F = ma$ to make $a$ the subject."],
+    "solution": "$a = \\dfrac{F}{m} = \\dfrac{450}{150} = 3$ m/s²"
+  },
+  {
+    "id": "s9.phy.forces.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A swimmer pushes the water backwards with her hands. According to Newton's third law, what is the reaction force?",
+    "options": [
+      { "id": "a", "text": "The water pushes the swimmer forwards" },
+      { "id": "b", "text": "Gravity pulls the swimmer down" },
+      { "id": "c", "text": "The water pushes the swimmer upwards" },
+      { "id": "d", "text": "Water resistance slows the swimmer down" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Weight is a different force. A third-law pair is the same type of force, acting between the same two objects.",
+      "c": "Upthrust is a real force on the swimmer, but it isn't the reaction to pushing water backwards.",
+      "d": "Water resistance is a separate force that opposes her motion."
+    },
+    "hints": ["The reaction is equal in size and opposite in direction to the action."],
+    "solution": "Action: the swimmer pushes the water **backwards**. Reaction: the water pushes the swimmer **forwards** with an equal force. That's what moves her through the pool."
+  },
+  {
+    "id": "s9.phy.forces.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "An ice hockey puck slides across smooth ice at a **constant velocity**. What can you say about the forces on it?",
+    "options": [
+      { "id": "a", "text": "They are balanced, so the net force is zero" },
+      { "id": "b", "text": "There must be an unbalanced forward force to keep it moving" },
+      { "id": "c", "text": "There are no forces acting on it at all" },
+      { "id": "d", "text": "The forces are unbalanced, so it moves at a constant speed" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A common misconception. Moving objects don't need a forward force to keep going. An unbalanced force would make the puck speed up.",
+      "c": "Gravity still pulls it down, and the ice pushes it up. These forces are balanced.",
+      "d": "Unbalanced forces change motion. Constant velocity means balanced forces."
+    },
+    "hints": ["Newton's first law: what does a constant velocity tell you about the net force?"],
+    "solution": "Constant velocity means no change in motion, so by Newton's first law the forces are **balanced** (net force = 0). Its weight and the support force from the ice cancel, and there is almost no friction."
+  },
+  {
+    "id": "s9.phy.forces.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "An astronaut has a mass of 80 kg on Earth. What happens to her mass and weight when she goes to the Moon?",
+    "options": [
+      { "id": "a", "text": "Her mass stays 80 kg, but her weight is less" },
+      { "id": "b", "text": "Her mass and her weight are both less" },
+      { "id": "c", "text": "Her mass is less, but her weight stays the same" },
+      { "id": "d", "text": "Her mass and her weight both stay the same" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Mass is the amount of matter in her body, which doesn't change when she travels.",
+      "c": "It's the other way round: mass stays the same and weight changes.",
+      "d": "The Moon's gravity is weaker than Earth's, so her weight changes."
+    },
+    "hints": ["Mass is the amount of matter. Weight is the pull of gravity."],
+    "solution": "Her **mass stays 80 kg**, because it's the same amount of matter. The Moon's gravity is weaker ($g = 1.6$ N/kg), so her **weight drops** from 800 N to about 128 N."
+  },
+  {
+    "id": "s9.phy.forces.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do passengers lurch forwards when a bus brakes suddenly?",
+    "options": [
+      { "id": "a", "text": "Their bodies keep moving forwards because of their inertia" },
+      { "id": "b", "text": "The brakes push the passengers forwards" },
+      { "id": "c", "text": "Gravity pulls the passengers forwards" },
+      { "id": "d", "text": "Air in the bus pushes the passengers forwards" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The brakes act on the wheels, not on the passengers.",
+      "c": "Gravity pulls down, not forwards.",
+      "d": "There is no forward push. The passengers simply keep going."
+    },
+    "hints": ["Newton's first law: what does a moving object do if no force acts to stop it?"],
+    "solution": "The bus slows down, but nothing slows the passengers straight away. Because of their **inertia**, they keep moving forwards (Newton's first law) until a seatbelt or seat provides a force to slow them."
+  },
+  {
+    "id": "s9.phy.forces.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A 900 kg car has a forward driving force of 3,000 N. Friction and air resistance together act backwards with 300 N. What is the car's acceleration?",
+    "answer": 3,
+    "units": "m/s²",
+    "hints": ["First find the net force: the forces act in opposite directions.", "Then use $a = \\dfrac{F}{m}$."],
+    "solution": "Net force $= 3000 - 300 = 2700$ N forwards. $a = \\dfrac{F}{m} = \\dfrac{2700}{900} = 3$ m/s²"
+  },
+  {
+    "id": "s9.phy.forces.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A skydiver jumps from a plane. Explain, using forces, why her speed increases at first but then stays constant (terminal velocity).",
+    "modelAnswer": "When she first jumps, her weight is much bigger than the air resistance, so there is an unbalanced (net) force downwards and she speeds up. As her speed increases, the air resistance on her increases, so the net force gets smaller and she speeds up more slowly. Eventually the air resistance becomes equal to her weight. The forces are then balanced (net force zero), so she stops accelerating and falls at a constant speed. This is terminal velocity.",
+    "rubric": [
+      { "criterion": "At first, weight is bigger than air resistance, so the net force is downwards and she speeds up", "marks": 1 },
+      { "criterion": "Air resistance increases as her speed increases", "marks": 1 },
+      { "criterion": "When air resistance equals weight, the forces are balanced, so her speed is constant (terminal velocity)", "marks": 1 }
+    ],
+    "hints": ["Which force stays the same during the fall, and which one changes?", "What does air resistance depend on?"],
+    "solution": "Weight > air resistance → speeds up. Faster → more air resistance. When air resistance = weight → balanced forces → constant speed (**terminal velocity**)."
+  },
+  {
+    "id": "s9.phy.forces.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A Mars rover weighs 1,800 N on Earth, where $g = 10$ N/kg. What would it weigh on Mars, where $g = 3.7$ N/kg?",
+    "answer": 666,
+    "units": "N",
+    "hints": ["First find the rover's mass from its Earth weight.", "Its mass is the same on Mars. Then use $W = mg$ with the Mars value of $g$."],
+    "solution": "Mass: $m = \\dfrac{W}{g} = \\dfrac{1800}{10} = 180$ kg. Weight on Mars: $W = 180 \\times 3.7 = 666$ N."
+  },
+  {
+    "id": "s9.phy.forces.q019",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the changes that would **reduce** friction in a bike chain and wheels.",
+    "options": [
+      { "id": "a", "text": "Oiling the chain" },
+      { "id": "b", "text": "Using ball bearings in the wheel hubs" },
+      { "id": "c", "text": "Making the touching metal parts smoother" },
+      { "id": "d", "text": "Letting the chain get rusty" },
+      { "id": "e", "text": "Pressing the brake pads harder against the wheel" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Lubricants and smooth, rolling surfaces reduce friction."],
+    "solution": "**Oil** (a lubricant), **ball bearings** (rolling instead of sliding) and **smoother surfaces** all reduce friction. Rust makes surfaces rougher, and pressing the brakes harder **increases** friction, which is what brakes are for."
+  },
+  {
+    "id": "s9.phy.forces.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Use Newton's third law to explain how paddling makes a waka move forwards.",
+    "modelAnswer": "When the paddlers pull their paddles back through the water, the paddles push the water backwards (action). By Newton's third law, the water pushes the paddles, and so the waka, forwards with an equal and opposite force (reaction). This forward force moves the waka forwards.",
+    "rubric": [
+      { "criterion": "The paddle pushes the water backwards (action)", "marks": 1 },
+      { "criterion": "The water pushes the paddle/waka forwards with an equal and opposite force (reaction)", "marks": 1 }
+    ],
+    "hints": ["Which way does the paddle push the water?", "What does the water do back to the paddle?"],
+    "solution": "Paddle pushes water **backwards** → water pushes paddle and waka **forwards** with an equal and opposite force."
+  },
+  {
+    "id": "s9.phy.forces.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A book rests on a table. The Earth pulls down on the book with a force of 8 N (its weight). Which force forms a **Newton's third law pair** with the book's weight?",
+    "options": [
+      { "id": "a", "text": "The book pulls the Earth upwards with 8 N" },
+      { "id": "b", "text": "The table pushes the book upwards with 8 N" },
+      { "id": "c", "text": "The book pushes down on the table with 8 N" },
+      { "id": "d", "text": "Friction between the book and the table" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This force is equal and opposite, but it acts on the **same** object (the book) and it's a different type of force (a contact force, not gravity). Weight and support are balanced forces, not a third-law pair.",
+      "c": "This is the third-law partner of the table's support force, not of the weight.",
+      "d": "There's no sideways force, so there is no friction here."
+    },
+    "hints": ["The weight is a gravity force between the Earth and the book.", "A third-law pair acts on the two **different** objects involved, and is the same type of force."],
+    "solution": "The weight is the **Earth pulling the book** by gravity. Its third-law partner is the **book pulling the Earth** upwards by gravity, with the same 8 N. The table's support force is equal and opposite to the weight, but it acts on the same object, so it isn't the pair."
+  },
+  {
+    "id": "s9.phy.forces.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "prompt": "A 1,500 kg car accelerates steadily from rest to 20 m/s in 10 s. Friction and air resistance total 500 N. What driving force must the engine provide?",
+    "answer": 3500,
+    "units": "N",
+    "hints": ["First find the acceleration: $a = \\dfrac{\\Delta v}{t}$.", "Use $F = ma$ to find the net force, then add the resistance the engine also has to overcome."],
+    "solution": "Acceleration: $a = \\dfrac{20 - 0}{10} = 2$ m/s². Net force needed: $F = ma = 1500 \\times 2 = 3000$ N. The engine must also overcome 500 N of resistance, so the driving force $= 3000 + 500 = 3500$ N."
+  },
+  {
+    "id": "s9.phy.forces.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A skydiver is falling at terminal velocity when she opens her parachute. She slows down, then falls at a new, lower steady speed. Explain why, using forces.",
+    "modelAnswer": "When the parachute opens, its large area makes the air resistance increase suddenly, so it becomes much bigger than her weight. The net force is now upwards, against her motion, so she decelerates (slows down). She doesn't move upwards, because she is still falling. As her speed decreases, the air resistance decreases. When the air resistance has fallen until it equals her weight again, the forces are balanced, so she falls at a constant, lower speed: a new terminal velocity.",
+    "rubric": [
+      { "criterion": "Opening the parachute increases air resistance (larger area) so it is bigger than her weight", "marks": 1 },
+      { "criterion": "The net force is upwards, so she slows down", "marks": 1 },
+      { "criterion": "As she slows, air resistance decreases until it equals weight, giving balanced forces and a lower terminal velocity", "marks": 1 }
+    ],
+    "hints": ["What does the parachute change: her weight or her air resistance?", "As her speed drops, what happens to the air resistance?"],
+    "solution": "Parachute opens → air resistance > weight → net force up → she slows down. Slower → less air resistance → eventually air resistance = weight → balanced → new, lower **terminal velocity**."
+  },
+  {
+    "id": "s9.phy.forces.q024",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A car travels at a **constant speed** in a straight line along a flat road. What should its free-body diagram show?",
+    "options": [
+      { "id": "a", "text": "Thrust and drag equal in size; weight and support force equal in size" },
+      { "id": "b", "text": "Thrust bigger than drag; weight and support force equal in size" },
+      { "id": "c", "text": "Only a thrust arrow, because the car is moving forwards" },
+      { "id": "d", "text": "Thrust and drag equal in size, and no vertical forces" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "If thrust were bigger than drag, the car would speed up.",
+      "c": "Drag, weight and the support force still act on a moving car.",
+      "d": "Gravity (weight) and the road's support force still act on the car."
+    },
+    "hints": ["Constant speed in a straight line means the forces are balanced.", "Don't forget the vertical forces."],
+    "solution": "Constant velocity means **balanced forces** in both directions: thrust = drag horizontally, and weight = support force vertically. The arrows in each pair should be the same length."
+  }
+]

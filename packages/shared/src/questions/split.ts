@@ -131,6 +131,38 @@ function formatNumber(n: number): string {
   return String(Number(n.toPrecision(10)));
 }
 
+/** Best rational approximation (continued fractions) with a small denominator, or null. */
+function asFraction(x: number, maxDen = 1000): [number, number] | null {
+  const sign = x < 0 ? -1 : 1;
+  let v = Math.abs(x);
+  let [h1, h0, k1, k0] = [1, 0, 0, 1];
+  for (let i = 0; i < 30; i++) {
+    const a = Math.floor(v);
+    [h1, h0] = [a * h1 + h0, h1];
+    [k1, k0] = [a * k1 + k0, k1];
+    if (k1 > maxDen) return null;
+    if (Math.abs(h1 / k1 - Math.abs(x)) < 1e-9) return [sign * h1, k1];
+    v = 1 / (v - a);
+    if (!Number.isFinite(v)) break;
+  }
+  return Math.abs(h1 / k1 - Math.abs(x)) < 1e-9 ? [sign * h1, k1] : null;
+}
+
+/** Fraction-form answers display as fractions (LaTeX), e.g. 0.1 → $\frac{1}{10}$, 1.75 → $1\frac{3}{4}$. */
+function fractionAnswer(value: number, mixed: boolean): string | null {
+  const f = asFraction(value);
+  if (!f) return null;
+  const [n, d] = f;
+  const neg = n < 0 ? '-' : '';
+  const an = Math.abs(n);
+  if (mixed && an > d) {
+    const whole = Math.floor(an / d);
+    const rem = an % d;
+    return `$${neg}${whole}${rem ? `\\frac{${rem}}{${d}}` : ''}$`;
+  }
+  return `$${neg}\\frac{${an}}{${d}}$`;
+}
+
 /** A human-readable statement of the correct answer, shown after an attempt. */
 export function describeAnswer(q: Question): string {
   switch (q.type) {
@@ -142,6 +174,10 @@ export function describeAnswer(q: Question): string {
         .map((o) => o.text)
         .join('; ');
     case 'numeric': {
+      if (['fraction', 'simplest-fraction', 'mixed'].includes(q.form) && !Number.isInteger(q.answer)) {
+        const frac = fractionAnswer(q.answer, q.form === 'mixed');
+        if (frac) return q.units && q.units !== '$' ? `${frac} ${q.units}` : frac;
+      }
       const value =
         q.decimals !== undefined ? q.answer.toFixed(q.decimals) : formatNumber(q.answer);
       if (!q.units) return value;

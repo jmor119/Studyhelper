@@ -1,0 +1,201 @@
+[
+  {
+    "id": "m9.alg.expressions.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the expression $6x - 5$, what is the $-5$ called?",
+    "options": [
+      { "id": "a", "text": "A constant" },
+      { "id": "b", "text": "A coefficient" },
+      { "id": "c", "text": "A variable" },
+      { "id": "d", "text": "A like term" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A coefficient multiplies a variable, like the 6 in $6x$. The $-5$ has no variable.",
+      "c": "A variable is a letter, like $x$.",
+      "d": "Like terms are pairs of terms with the same letter part. $-5$ is a single number term."
+    },
+    "hints": ["Does $-5$ have a letter attached to it?"],
+    "solution": "A term with no variable is a **constant**: its value doesn't change. In $6x - 5$, the 6 is the coefficient of $x$ and $-5$ is the constant."
+  },
+  {
+    "id": "m9.alg.expressions.q002",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "var", "text": "Variable" }, "right": { "id": "r1", "text": "A letter that stands for a number" } },
+      { "left": { "id": "coef", "text": "Coefficient" }, "right": { "id": "r2", "text": "The number multiplying a variable" } },
+      { "left": { "id": "like", "text": "Like terms" }, "right": { "id": "r3", "text": "Terms with exactly the same letter part" } },
+      { "left": { "id": "exp", "text": "Expand" }, "right": { "id": "r4", "text": "Multiply out the brackets" } },
+      { "left": { "id": "fac", "text": "Factorise" }, "right": { "id": "r5", "text": "Write using brackets by taking out a common factor" } }
+    ],
+    "hints": ["Expanding and factorising are opposites of each other."],
+    "solution": "A **variable** is a letter standing for a number. A **coefficient** multiplies a variable (the 3 in $3x$). **Like terms** have the same letter part ($2a$ and $5a$). **Expand** means multiply out brackets. **Factorise** means put into brackets by taking out a common factor."
+  },
+  {
+    "id": "m9.alg.expressions.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the pairs of like terms.",
+    "options": [
+      { "id": "a", "text": "$3x$ and $-5x$" },
+      { "id": "b", "text": "$2ab$ and $7ba$" },
+      { "id": "c", "text": "$4x$ and $4x^2$" },
+      { "id": "d", "text": "$5y$ and $5$" },
+      { "id": "e", "text": "$-m$ and $9m$" },
+      { "id": "f", "text": "$3pq$ and $3p$" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Ignore the numbers. Compare only the letter parts.", "Is $ba$ the same as $ab$?"],
+    "solution": "Like terms have exactly the same letter part. $3x$ and $-5x$ (both $x$), $2ab$ and $7ba$ (since $ba = ab$), and $-m$ and $9m$ (both $m$) are like terms.\n\n$x$ and $x^2$ are different, $5y$ and $5$ are different (one has no letter), and $pq$ and $p$ are different."
+  },
+  {
+    "id": "m9.alg.expressions.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Simplify $3a \\times 4b$.",
+    "options": [
+      { "id": "a", "text": "$12ab$" },
+      { "id": "b", "text": "$7ab$" },
+      { "id": "c", "text": "$34ab$" },
+      { "id": "d", "text": "$12a + b$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The terms are multiplied, so multiply the numbers: $3 \\times 4 = 12$, not $3 + 4$.",
+      "c": "The 3 and 4 are multiplied, not written side by side.",
+      "d": "There is no adding here: everything is multiplied, so the answer is a single term."
+    },
+    "hints": ["$3a \\times 4b$ means $3 \\times a \\times 4 \\times b$. You can multiply in any order."],
+    "solution": "Multiplication can be done in any order (commutative and associative properties):\n\n$3a \\times 4b = 3 \\times 4 \\times a \\times b = 12ab$"
+  },
+  {
+    "id": "m9.alg.expressions.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which statement shows the **distributive** property?",
+    "options": [
+      { "id": "a", "text": "$5(x + 2) = 5x + 10$" },
+      { "id": "b", "text": "$x + 5 = 5 + x$" },
+      { "id": "c", "text": "$(2 \\times x) \\times 3 = 2 \\times (x \\times 3)$" },
+      { "id": "d", "text": "$x \\times 1 = x$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Changing the order of an addition is the commutative property.",
+      "c": "Changing how the multiplication is grouped is the associative property.",
+      "d": "Multiplying by 1 leaves a number unchanged. That is the identity property."
+    },
+    "hints": ["The distributive property is about multiplying a bracket."],
+    "solution": "The distributive property says a number multiplying a bracket multiplies every term inside it: $a(b + c) = ab + ac$. So $5(x + 2) = 5x + 10$ shows it."
+  },
+  {
+    "id": "m9.alg.expressions.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi simplified $5x + 3 + 2x$ and got $10x$. What mistake did he make?",
+    "options": [
+      { "id": "a", "text": "He combined unlike terms: the 3 has no $x$, so it can't be added to the $x$ terms" },
+      { "id": "b", "text": "He should have multiplied $5x$ and $2x$ instead of adding them" },
+      { "id": "c", "text": "He forgot to expand the brackets first" },
+      { "id": "d", "text": "He made no mistake: $5 + 3 + 2 = 10$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Simplifying an expression like this means adding like terms, not multiplying them.",
+      "c": "There are no brackets in this expression.",
+      "d": "The 3 is a constant, not a number of $x$'s. Try $x = 1$: $5 + 3 + 2 = 10$ works, but $x = 2$ gives $17$, not $20$."
+    },
+    "hints": ["Which terms are like terms?", "Test both expressions with $x = 2$."],
+    "solution": "Only $5x$ and $2x$ are like terms: $5x + 2x = 7x$. The constant 3 stays separate.\n\nThe correct answer is $7x + 3$. Checking with $x = 2$: $5 \\times 2 + 3 + 2 \\times 2 = 17$, and $7 \\times 2 + 3 = 17$ ✓, but $10 \\times 2 = 20$ ✗."
+  },
+  {
+    "id": "m9.alg.expressions.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which expression is **not** equivalent to $2(3x + 4)$?",
+    "options": [
+      { "id": "a", "text": "$6x + 4$" },
+      { "id": "b", "text": "$6x + 8$" },
+      { "id": "c", "text": "$8 + 6x$" },
+      { "id": "d", "text": "$2(4 + 3x)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the correct expansion: $2 \\times 3x = 6x$ and $2 \\times 4 = 8$.",
+      "c": "This is $6x + 8$ written in a different order, so it is equivalent.",
+      "d": "$4 + 3x$ is the same as $3x + 4$ (addition is commutative), so this is equivalent."
+    },
+    "hints": ["Expand $2(3x + 4)$ first, then compare."],
+    "solution": "$2(3x + 4) = 6x + 8$. Options b, c and d are all equal to $6x + 8$.\n\n$6x + 4$ is not, because only the $3x$ has been multiplied by 2. Both terms in the bracket must be multiplied."
+  },
+  {
+    "id": "m9.alg.expressions.q008",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these steps for factorising $18x - 12$ in the correct order.",
+    "items": [
+      { "id": "s1", "text": "Find the HCF of 18 and 12, which is 6" },
+      { "id": "s2", "text": "Write 6 in front of a bracket" },
+      { "id": "s3", "text": "Divide each term by 6 to get $3x$ and $-2$" },
+      { "id": "s4", "text": "Write the answer $6(3x - 2)$" },
+      { "id": "s5", "text": "Check by expanding: $6 \\times 3x - 6 \\times 2 = 18x - 12$" }
+    ],
+    "hints": ["You need to know the common factor before you can write anything in the bracket."],
+    "solution": "Find the HCF (6), write it outside a bracket, divide each term by it ($3x$ and $-2$), write $6(3x - 2)$, then check by expanding."
+  },
+  {
+    "id": "m9.alg.expressions.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $4(x + 3)$ and $4x + 3$ are **not** equivalent. Use a value of $x$ to support your answer.",
+    "modelAnswer": "In $4(x + 3)$ the 4 multiplies both terms in the bracket, so it equals $4x + 12$, not $4x + 3$. For example, when $x = 1$: $4(1 + 3) = 16$ but $4 \\times 1 + 3 = 7$. The values are different, so the expressions are not equivalent.",
+    "rubric": [
+      { "criterion": "Explains that the 4 multiplies both terms, so $4(x + 3) = 4x + 12$", "marks": 1 },
+      { "criterion": "Substitutes a value of $x$ into both expressions and shows the results are different", "marks": 1 }
+    ],
+    "hints": ["Expand $4(x + 3)$.", "Try $x = 1$ in both expressions."],
+    "solution": "$4(x + 3) = 4x + 12$ because the 4 multiplies every term in the bracket. Testing $x = 1$: $4(1 + 3) = 16$, but $4(1) + 3 = 7$. Equivalent expressions give the same value for **every** $x$, so these aren't equivalent."
+  },
+  {
+    "id": "m9.alg.expressions.q010",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri says that $12x + 8$ factorised fully is $2(6x + 4)$. Is he right? Explain, and give the correct answer if he is wrong.",
+    "modelAnswer": "He is not right. $2(6x + 4)$ is factorised, but not fully, because $6x + 4$ still has a common factor of 2. The highest common factor of $12x$ and 8 is 4, so the fully factorised form is $4(3x + 2)$.",
+    "rubric": [
+      { "criterion": "States he is wrong because the bracket still has a common factor (2), or the HCF is 4, not 2", "marks": 1 },
+      { "criterion": "Gives the correct answer $4(3x + 2)$", "marks": 1 }
+    ],
+    "hints": ["Look inside his bracket. Do $6x$ and $4$ have a common factor?"],
+    "solution": "The HCF of 12 and 8 is 4, not 2. In $2(6x + 4)$, the bracket can still be factorised: $6x + 4 = 2(3x + 2)$. So Rawiri's answer isn't fully factorised.\n\nCorrect answer: $12x + 8 = 4(3x + 2)$. Check: $4 \\times 3x + 4 \\times 2 = 12x + 8$ ✓"
+  },
+  {
+    "id": "m9.alg.expressions.q011",
+    "type": "expression",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "A rectangle has length $3x + 2$ and width $x - 1$ (both in cm).\n\nWrite a simplified expression for its perimeter.",
+    "answer": "8*x + 2",
+    "variables": ["x"],
+    "form": "simplified",
+    "hints": [
+      "Perimeter = 2 × length + 2 × width.",
+      "Write $2(3x + 2) + 2(x - 1)$, then expand and collect like terms."
+    ],
+    "solution": "Perimeter $= 2(3x + 2) + 2(x - 1)$\n\n$= 6x + 4 + 2x - 2$\n\n$= 8x + 2$ cm\n\nYou could also add all four sides: $(3x + 2) + (x - 1) + (3x + 2) + (x - 1) = 8x + 2$."
+  }
+]

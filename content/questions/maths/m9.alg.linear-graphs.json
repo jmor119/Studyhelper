@@ -1,0 +1,216 @@
+[
+  {
+    "id": "m9.alg.linear-graphs.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "grad", "text": "Gradient" }, "right": { "id": "r1", "text": "How steep a line is, and whether it goes up or down" } },
+      { "left": { "id": "yint", "text": "$y$-intercept" }, "right": { "id": "r2", "text": "Where a line crosses the $y$-axis" } },
+      { "left": { "id": "orig", "text": "Origin" }, "right": { "id": "r3", "text": "The point $(0, 0)$" } },
+      { "left": { "id": "quad", "text": "Quadrant" }, "right": { "id": "r4", "text": "One of the four regions the axes divide the grid into" } }
+    ],
+    "hints": ["The gradient is also called the slope."],
+    "solution": "The **gradient** (slope) describes steepness and direction. The **$y$-intercept** is where the line crosses the $y$-axis. The **origin** is $(0, 0)$. The axes split the grid into four **quadrants**."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which point lies on the $y$-axis?",
+    "options": [
+      { "id": "a", "text": "$(0, 4)$" },
+      { "id": "b", "text": "$(4, 0)$" },
+      { "id": "c", "text": "$(4, 4)$" },
+      { "id": "d", "text": "$(-4, 4)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$(4, 0)$ has $y = 0$, so it is on the $x$-axis.",
+      "c": "This point is 4 units to the right of the $y$-axis.",
+      "d": "This point is 4 units to the left of the $y$-axis."
+    },
+    "hints": ["On the $y$-axis you haven't moved left or right at all. What is $x$?"],
+    "solution": "Every point on the $y$-axis has $x = 0$, so $(0, 4)$ is on the $y$-axis."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the points that lie on the line $y = 2x - 3$.",
+    "options": [
+      { "id": "a", "text": "$(0, -3)$" },
+      { "id": "b", "text": "$(2, 1)$" },
+      { "id": "c", "text": "$(-1, -5)$" },
+      { "id": "d", "text": "$(3, 6)$" },
+      { "id": "e", "text": "$(1, 1)$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Substitute each $x$ value and see whether you get the matching $y$ value."],
+    "solution": "$x = 0$: $y = -3$ ✓. $\\;x = 2$: $y = 1$ ✓. $\\;x = -1$: $y = -5$ ✓. $\\;x = 3$: $y = 3$, not 6 ✗. $\\;x = 1$: $y = -1$, not 1 ✗.\n\nA point is on the line exactly when its coordinates make the equation true."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What is the equation of the line shown?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 318 318\" width=\"318\" height=\"318\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"294\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"51\" y1=\"294\" x2=\"51\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"78\" y1=\"294\" x2=\"78\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"105\" y1=\"294\" x2=\"105\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"132\" y1=\"294\" x2=\"132\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"159\" y1=\"294\" x2=\"159\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"186\" y1=\"294\" x2=\"186\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"213\" y1=\"294\" x2=\"213\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"240\" y1=\"294\" x2=\"240\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"267\" y1=\"294\" x2=\"267\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"294\" y1=\"294\" x2=\"294\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"294\" x2=\"294\" y2=\"294\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"267\" x2=\"294\" y2=\"267\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"240\" x2=\"294\" y2=\"240\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"213\" x2=\"294\" y2=\"213\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"186\" x2=\"294\" y2=\"186\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"159\" x2=\"294\" y2=\"159\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"132\" x2=\"294\" y2=\"132\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"105\" x2=\"294\" y2=\"105\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"78\" x2=\"294\" y2=\"78\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"51\" x2=\"294\" y2=\"51\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"294\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"159\" x2=\"294\" y2=\"159\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"159\" y1=\"294\" x2=\"159\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"51\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"78\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"105\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"132\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"186\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"213\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"240\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"267\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"294\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"147\" y=\"294\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"147\" y=\"267\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"147\" y=\"240\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"147\" y=\"213\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"147\" y=\"186\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"147\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"147\" y=\"105\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"147\" y=\"78\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"147\" y=\"51\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"147\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"306\" y=\"159\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"159\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><line x1=\"24\" y1=\"105\" x2=\"294\" y2=\"105\" stroke=\"#2563eb\" stroke-width=\"3\"/></svg>", "alt": "A horizontal straight line drawn on a coordinate grid from −5 to 5 on both axes, passing through the points (−5, 2) and (5, 2)." },
+    "options": [
+      { "id": "a", "text": "$y = 2$" },
+      { "id": "b", "text": "$x = 2$" },
+      { "id": "c", "text": "$y = 2x$" },
+      { "id": "d", "text": "$y = x + 2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$x = 2$ is a vertical line. On this line, it's $y$ that is always 2.",
+      "c": "$y = 2x$ goes through the origin and slopes up.",
+      "d": "$y = x + 2$ slopes up. This line is flat."
+    },
+    "hints": ["The line is horizontal. What is the $y$-coordinate of every point on it?"],
+    "solution": "Every point on this horizontal line has $y = 2$, for example $(-3, 2)$ and $(4, 2)$. So its equation is $y = 2$. Its gradient is 0."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "For the line $y = 4x - 7$, the gradient is [[a]] and the $y$-intercept is [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["4"] },
+      { "id": "b", "accepted": ["-7"] }
+    ],
+    "hints": ["In $y = mx + c$, $m$ is the gradient and $c$ is the $y$-intercept."],
+    "solution": "Comparing with $y = mx + c$: $m = 4$ and $c = -7$. So the gradient is **4** and the $y$-intercept is $(0, -7)$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "The graph shows two straight lines, A and B. Which statement is true?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 318 318\" width=\"318\" height=\"318\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"294\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"51\" y1=\"294\" x2=\"51\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"78\" y1=\"294\" x2=\"78\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"105\" y1=\"294\" x2=\"105\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"132\" y1=\"294\" x2=\"132\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"159\" y1=\"294\" x2=\"159\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"186\" y1=\"294\" x2=\"186\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"213\" y1=\"294\" x2=\"213\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"240\" y1=\"294\" x2=\"240\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"267\" y1=\"294\" x2=\"267\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"294\" y1=\"294\" x2=\"294\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"294\" x2=\"294\" y2=\"294\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"267\" x2=\"294\" y2=\"267\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"240\" x2=\"294\" y2=\"240\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"213\" x2=\"294\" y2=\"213\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"186\" x2=\"294\" y2=\"186\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"159\" x2=\"294\" y2=\"159\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"132\" x2=\"294\" y2=\"132\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"105\" x2=\"294\" y2=\"105\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"78\" x2=\"294\" y2=\"78\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"51\" x2=\"294\" y2=\"51\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"294\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"159\" x2=\"294\" y2=\"159\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"159\" y1=\"294\" x2=\"159\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"51\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"78\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"105\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"132\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"186\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"213\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"240\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"267\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"294\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"147\" y=\"294\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"147\" y=\"267\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"147\" y=\"240\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"147\" y=\"213\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"147\" y=\"186\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"147\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"147\" y=\"105\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"147\" y=\"78\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"147\" y=\"51\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"147\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"306\" y=\"159\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"159\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><line x1=\"78\" y1=\"294\" x2=\"213\" y2=\"24\" stroke=\"#2563eb\" stroke-width=\"3\"/><line x1=\"24\" y1=\"118.5\" x2=\"294\" y2=\"253.5\" stroke=\"#dc2626\" stroke-width=\"3\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">A</text><text x=\"288\" y=\"241.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#dc2626\" font-weight=\"bold\">B</text></svg>", "alt": "Two straight lines on a coordinate grid from −5 to 5. Line A passes through (−3, −5) and (2, 5). Line B passes through (−4, 1) and (4, −3)." },
+    "options": [
+      { "id": "a", "text": "Line A has a positive gradient and line B has a negative gradient" },
+      { "id": "b", "text": "Both lines have a positive gradient" },
+      { "id": "c", "text": "Line B crosses the $y$-axis at $(0, 1)$" },
+      { "id": "d", "text": "Line A has a negative gradient" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Read line B from left to right: it goes down, so its gradient is negative.",
+      "c": "Line B crosses the $y$-axis below the origin, at $(0, -1)$. Line A crosses at $(0, 1)$.",
+      "d": "Line A goes up from left to right, so its gradient is positive."
+    },
+    "hints": ["Read each line from left to right. Does it go up or down?"],
+    "solution": "Line A goes up from left to right (positive gradient) and crosses the $y$-axis at $(0, 1)$. Line B goes down (negative gradient) and crosses at $(0, -1)$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The table shows some points on a straight line.\n\n| $x$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $y$ | 8 | 6 | 4 | 2 |\n\nFor the line $y = mx + c$, which statement is true?",
+    "options": [
+      { "id": "a", "text": "$m$ is negative and $c = 8$" },
+      { "id": "b", "text": "$m$ is positive and $c = 8$" },
+      { "id": "c", "text": "$m$ is negative and $c = 2$" },
+      { "id": "d", "text": "$m$ is positive and $c = 6$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "As $x$ increases, $y$ decreases, so the gradient is negative.",
+      "c": "$c$ is the value of $y$ when $x = 0$, which is 8.",
+      "d": "6 is the value of $y$ when $x = 1$. And the $y$ values go down, so $m$ is negative."
+    },
+    "hints": ["$c$ is the value of $y$ when $x = 0$.", "As $x$ goes up, do the $y$ values go up or down?"],
+    "solution": "When $x = 0$, $y = 8$, so $c = 8$. As $x$ goes up by 1, $y$ goes down by 2, so $m$ is negative (in fact $m = -2$). The line is $y = -2x + 8$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q008",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A plumber's charge, in dollars, is $C = 60 + 40h$, where $h$ is the number of hours. The graph of $C$ against $h$ is a straight line. What does its intercept on the vertical ($C$) axis represent?",
+    "options": [
+      { "id": "a", "text": "The \\$60 call-out fee: the cost when $h = 0$" },
+      { "id": "b", "text": "The \\$40 charged for each hour" },
+      { "id": "c", "text": "The cost of a 1-hour job" },
+      { "id": "d", "text": "The number of hours worked" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\\$40 per hour is the gradient: how much the cost goes up for each extra hour.",
+      "c": "A 1-hour job costs $60 + 40 = 100$ dollars. The intercept is where $h = 0$.",
+      "d": "The number of hours is on the horizontal axis."
+    },
+    "hints": ["The intercept on the vertical axis is where $h = 0$."],
+    "solution": "At the intercept, $h = 0$, so $C = 60 + 40 \\times 0 = 60$. It represents the \\$60 call-out fee, charged even before any work is done. The 40 is the gradient: the extra cost per hour."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q009",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A straight line $y = mx + c$ passes through the points $(0, -2)$ and $(3, 4)$. Which statement is true?",
+    "options": [
+      { "id": "a", "text": "$m$ is positive and $c = -2$" },
+      { "id": "b", "text": "$m$ is negative and $c = -2$" },
+      { "id": "c", "text": "$m$ is positive and $c = 4$" },
+      { "id": "d", "text": "$m$ is negative and $c = 3$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "As $x$ goes from 0 to 3, $y$ goes up from $-2$ to 4, so the line slopes up.",
+      "c": "The $y$-intercept is the point where $x = 0$, which is $(0, -2)$.",
+      "d": "Check both: the point with $x = 0$ gives $c$, and $y$ increases as $x$ increases."
+    },
+    "hints": ["Which of the two points is on the $y$-axis?", "Does $y$ go up or down as $x$ increases?"],
+    "solution": "$(0, -2)$ is on the $y$-axis, so $c = -2$. Moving from $x = 0$ to $x = 3$, $y$ increases from $-2$ to 4, so the gradient is positive."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q010",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain how you can tell, **without plotting it**, that the line $y = 5 - 3x$ slopes downwards and crosses the $y$-axis at $(0, 5)$.",
+    "modelAnswer": "Written as $y = -3x + 5$, the gradient $m$ is $-3$. Because it is negative, the line slopes down from left to right. When $x = 0$, $y = 5 - 0 = 5$, so the line crosses the $y$-axis at $(0, 5)$.",
+    "rubric": [
+      { "criterion": "States the gradient is $-3$ (the coefficient of $x$), and negative means it slopes down", "marks": 1 },
+      { "criterion": "Shows that $x = 0$ gives $y = 5$, or that $c = 5$ is the $y$-intercept", "marks": 1 }
+    ],
+    "hints": ["Rewrite it in the form $y = mx + c$.", "What is $y$ when $x = 0$?"],
+    "solution": "$y = 5 - 3x$ is the same as $y = -3x + 5$, so $m = -3$ and $c = 5$. A negative gradient means the line slopes down, and $c = 5$ means it crosses the $y$-axis at $(0, 5)$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q011",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Which of these lines does **not** pass through the first quadrant (where $x$ and $y$ are both positive)?",
+    "options": [
+      { "id": "a", "text": "$y = -x - 2$" },
+      { "id": "b", "text": "$y = -x + 2$" },
+      { "id": "c", "text": "$y = x - 2$" },
+      { "id": "d", "text": "$y = 2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "When $x = 1$, $y = 1$, so the point $(1, 1)$ is in the first quadrant.",
+      "c": "When $x = 5$, $y = 3$, so the point $(5, 3)$ is in the first quadrant.",
+      "d": "The point $(1, 2)$ is on this line and is in the first quadrant."
+    },
+    "hints": ["Think about the sign of $m$ and the value of $c$ for each line.", "For each line, can you find a point with both coordinates positive?"],
+    "solution": "$y = -x - 2$ crosses the $y$-axis below the origin, at $(0, -2)$, and slopes down. So for every positive $x$, $y$ is less than $-2$. It never reaches the first quadrant.\n\nEach of the other lines has a point with both coordinates positive: $(1, 1)$, $(5, 3)$ and $(1, 2)$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q012",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Explain why a horizontal line has a gradient of 0 and an equation of the form $y = c$.",
+    "modelAnswer": "On a horizontal line every point has the same $y$-coordinate, so $y$ doesn't change at all as $x$ increases. That means the line has no steepness, so its gradient is 0. In $y = mx + c$, putting $m = 0$ gives $y = 0x + c$, which is just $y = c$: the $y$-value is always $c$, whatever $x$ is.",
+    "rubric": [
+      { "criterion": "Explains that $y$ stays the same as $x$ changes, so the steepness (gradient) is 0", "marks": 1 },
+      { "criterion": "Links $m = 0$ to $y = 0x + c = c$, or says every point has $y$-coordinate $c$", "marks": 1 }
+    ],
+    "hints": ["Pick some points on the line $y = 3$. What do you notice about their $y$-coordinates?"],
+    "solution": "On a horizontal line, like the one through $(-2, 3)$, $(0, 3)$ and $(4, 3)$, the $y$-value never changes, so the line isn't steep at all: gradient 0. With $m = 0$, $y = mx + c$ becomes $y = c$."
+  }
+]
