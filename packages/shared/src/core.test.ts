@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CURRICULA, getTopic } from './curriculum';
+import { inviteEmail, inviteMailto } from './invites';
 import { addDays, daysBetween, nzDateKey, weekStart } from './dates';
 import { buildExam, examGrade, type ExamCandidate } from './exam';
 import { applyActivity, currentStreak, emptyStats, levelForXp, newBadges, xpForAnswer } from './gamification';
@@ -17,6 +18,22 @@ describe('curriculum', () => {
         expect(t.id).not.toContain('/');
       }
     }
+  });
+});
+
+describe('invite emails', () => {
+  it('builds a clear message and a mailto link', () => {
+    const input = { fromName: 'Jo', forRole: 'student' as const, url: 'https://example.app/join/ABCD-EFGH', code: 'ABCD-EFGH', expiresAt: Date.UTC(2026, 10, 2) };
+    const m = inviteEmail(input);
+    expect(m.subject).toBe('Jo invited you to Study Helper');
+    expect(m.text).toContain('https://example.app/join/ABCD-EFGH');
+    expect(m.text).toContain('ABCD-EFGH');
+    expect(m.text).toContain('student account');
+    expect(m.html).not.toContain('<script');
+    const link = inviteMailto('kid@example.com', input);
+    expect(link.startsWith('mailto:kid%40example.com?subject=')).toBe(true);
+    expect(decodeURIComponent(link)).toContain('Accept and link');
+    expect(inviteEmail({ ...input, fromName: '<b>x</b>' }).html).toContain('&lt;b&gt;');
   });
 });
 

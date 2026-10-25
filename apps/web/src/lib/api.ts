@@ -70,6 +70,7 @@ export const api = {
   exportMyData: call<Record<string, never>, Record<string, unknown>>('exportMyData'),
 
   createInvite: call<Record<string, never>, { code: string; url: string; expiresAt: number; forRole: Role }>('createInvite'),
+  emailInvite: call<{ code: string; email: string }, { emailed: boolean }>('emailInvite'),
   peekInvite: call<{ code: string }, { fromName: string; fromRole: Role; forRole: Role }>('peekInvite'),
   acceptInvite: call<{ code: string }, { alreadyLinked: boolean; otherUid: string; otherName: string }>('acceptInvite'),
   unlink: call<{ otherUid: string }, { ok: true }>('unlink'),

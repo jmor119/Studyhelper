@@ -1,4 +1,4 @@
-import { AI_PROVIDERS, nzDateKey, nzMonthKey, type AiProvider, type FamilyLink, type UserPrefs, type UserProfile } from '@study-helper/shared';
+import { AI_PROVIDERS, nzDateKey, nzMonthKey, type AiProvider, type FamilyLink, type Role, type UserPrefs, type UserProfile } from '@study-helper/shared';
 import clsx from 'clsx';
 import { EmailAuthProvider, reauthenticateWithCredential, updatePassword, type User } from 'firebase/auth';
 import { collection, doc, orderBy, query, updateDoc, where } from 'firebase/firestore';
@@ -7,6 +7,7 @@ import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from
 import { Link, useLocation, useNavigate } from 'react-router';
 import { modelLabel, useAiStatus } from '../../components/assist/ai';
 import { CopyButton, CopyField } from '../../components/assist/CopyButton';
+import { InviteEmail } from '../../components/family/InviteEmail';
 import { Badge, Button, Card, Field, Input, Modal, Notice, PageHeader, ProgressBar, Select, Spinner, useToast } from '../../components/ui';
 import { api, errorMessage } from '../../lib/api';
 import { useUser } from '../../lib/auth';
@@ -392,7 +393,7 @@ function PasswordSection({ user }: { user: User }) {
 function FamilySection({ profile, links }: { profile: Profile; links: Links }) {
   const toast = useToast();
   const isStudent = profile.role === 'student';
-  const [invite, setInvite] = useState<{ code: string; url: string; expiresAt: number } | null>(null);
+  const [invite, setInvite] = useState<{ code: string; url: string; expiresAt: number; forRole: Role } | null>(null);
   const [inviting, setInviting] = useState(false);
   const [inviteError, setInviteError] = useState('');
   const [code, setCode] = useState('');
@@ -518,6 +519,9 @@ function FamilySection({ profile, links }: { profile: Profile; links: Links }) {
                 <CopyField value={invite.url} what="invite link" />
               </div>
               <p className="mt-2 text-xs text-muted">Works once. Expires {dateTimeFmt.format(invite.expiresAt)}.</p>
+              <div className="mt-4 border-t border-line pt-4">
+                <InviteEmail invite={invite} fromName={profile.displayName} />
+              </div>
               <div className="mt-3 flex flex-wrap gap-2">
                 {typeof navigator.share === 'function' && (
                   <Button size="sm" onClick={share}>

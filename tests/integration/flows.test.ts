@@ -81,7 +81,8 @@ describe('practice', () => {
     expect(set.questions.length).toBe(6);
     const tpl = set.questions.find((q) => q.id.startsWith('tpl:'))!;
     expect(tpl).toBeDefined();
-    expect(JSON.stringify(tpl)).not.toContain('solution');
+    expect(JSON.stringify(tpl)).not.toContain('"solution":');
+    expect(JSON.stringify(tpl)).not.toContain('"correct":');
 
     const right = await student.call('submitAnswer', { questionId: tpl.id, response: rightAnswer(tpl), hintsUsed: 0, timeMs: 15000 });
     expect(right.mark.correct).toBe(true);
@@ -148,6 +149,17 @@ describe('family', () => {
     await expect(parent.call('acceptInvite', { code: invite.code })).rejects.toThrow();
     const stats = await getDoc(doc(parent2.db, 'students', studentUid));
     expect(stats.exists()).toBe(true);
+  });
+
+  it('emails invites (or falls back to the email app), only for the inviter, max 3 addresses', async () => {
+    const invite = await parent.call<{ code: string }>('createInvite');
+    const res = await parent.call('emailInvite', { code: invite.code, email: 'Child@Example.com' });
+    expect(res.emailed).toBe(false); // no email service in the emulator → the browser opens the email app
+    await expect(student.call('emailInvite', { code: invite.code, email: 'x@example.com' })).rejects.toThrow();
+    await parent.call('emailInvite', { code: invite.code, email: 'b@example.com' });
+    await parent.call('emailInvite', { code: invite.code, email: 'c@example.com' });
+    await expect(parent.call('emailInvite', { code: invite.code, email: 'd@example.com' })).rejects.toThrow(/3 addresses/);
+    await expect(parent.call('emailInvite', { code: invite.code, email: 'not-an-email' })).rejects.toThrow();
   });
 
   it('tracks parent-set goals as the child practises', async () => {

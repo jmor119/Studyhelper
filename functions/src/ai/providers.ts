@@ -1,7 +1,7 @@
-import Anthropic from '@anthropic-ai/sdk';
-import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
-import OpenAI from 'openai';
-import { zodTextFormat } from 'openai/helpers/zod';
+// The SDKs are loaded on first use (dynamic import) so functions that never call an AI model
+// don't pay for loading them on every cold start.
+import type Anthropic from '@anthropic-ai/sdk';
+import type OpenAI from 'openai';
 import type { z } from 'zod';
 import type { AiProvider } from '@study-helper/shared';
 
@@ -114,8 +114,12 @@ function anthropicParams(model: string, req: ChatRequest) {
   };
 }
 
-function anthropicClient(apiKey: string, model: string): LlmClient {
-  const client = new Anthropic({ apiKey, maxRetries: 2, timeout: 180_000 });
+async function anthropicClient(apiKey: string, model: string): Promise<LlmClient> {
+  const [{ default: AnthropicSdk }, { zodOutputFormat }] = await Promise.all([
+    import('@anthropic-ai/sdk'),
+    import('@anthropic-ai/sdk/helpers/zod'),
+  ]);
+  const client = new AnthropicSdk({ apiKey, maxRetries: 2, timeout: 180_000 });
   return {
     provider: 'anthropic',
     model,
@@ -168,8 +172,9 @@ function openAiInput(turns: ChatTurn[]): OpenAiInput {
   });
 }
 
-function openAiClient(apiKey: string, model: string): LlmClient {
-  const client = new OpenAI({ apiKey, maxRetries: 2, timeout: 180_000 });
+async function openAiClient(apiKey: string, model: string): Promise<LlmClient> {
+  const [{ default: OpenAiSdk }, { zodTextFormat }] = await Promise.all([import('openai'), import('openai/helpers/zod')]);
+  const client = new OpenAiSdk({ apiKey, maxRetries: 2, timeout: 180_000 });
   return {
     provider: 'openai',
     model,
@@ -215,19 +220,21 @@ function openAiClient(apiKey: string, model: string): LlmClient {
 
 // ---------------------------------------------------------------------------------------------
 
-export function createLlm(provider: AiProvider, apiKey: string, model: string): LlmClient {
+export async function createLlm(provider: AiProvider, apiKey: string, model: string): Promise<LlmClient> {
   return provider === 'anthropic' ? anthropicClient(apiKey, model) : openAiClient(apiKey, model);
 }
 
 /** Lists chat-capable models for a key; also serves as the key validity check. */
 export async function listModels(provider: AiProvider, apiKey: string): Promise<ModelInfo[]> {
   if (provider === 'anthropic') {
-    const client = new Anthropic({ apiKey, maxRetries: 1, timeout: 20_000 });
+    const { default: AnthropicSdk } = await import('@anthropic-ai/sdk');
+    const client = new AnthropicSdk({ apiKey, maxRetries: 1, timeout: 20_000 });
     const out: ModelInfo[] = [];
     for await (const m of client.models.list({ limit: 100 })) out.push({ id: m.id, name: m.display_name });
     return out.filter((m) => m.id.startsWith('claude-'));
   }
-  const client = new OpenAI({ apiKey, maxRetries: 1, timeout: 20_000 });
+  const { default: OpenAiSdk } = await import('openai');
+  const client = new OpenAiSdk({ apiKey, maxRetries: 1, timeout: 20_000 });
   const out: ModelInfo[] = [];
   for await (const m of client.models.list()) {
     if (/^(gpt-|o\d)/.test(m.id) && !/(audio|realtime|transcribe|tts|image|search|embedding|instruct|codex)/.test(m.id)) {

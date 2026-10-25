@@ -17,7 +17,7 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "seed": "tsx scripts/seed.ts",
     "set-admin": "tsx scripts/set-admin.ts",
-    "deploy": "firebase deploy --project study-helper-11021",
+    "deploy": "node scripts/with-java.mjs firebase deploy --project study-helper-11021",
     "test:integration": "npm run build -w functions && node scripts/with-java.mjs firebase emulators:exec --only auth,firestore,functions,storage --project demo-study-helper \"npx tsx scripts/seed.ts --emulator && npx vitest run --config tests/integration/vitest.config.ts\"",
     "seed:emulator": "tsx scripts/seed.ts --emulator --allow-errors"
   },

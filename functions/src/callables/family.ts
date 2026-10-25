@@ -1,4 +1,4 @@
-import type { UserProfile } from '@study-helper/shared';
+import { inviteEmail, type UserProfile } from '@study-helper/shared';
 import { onCall } from 'firebase-functions/https';
 import { z } from 'zod';
 import { inviteCode } from '../lib/crypto';
@@ -47,6 +47,38 @@ export const createInvite = onCall(async (req) => {
     expiresAt: invite.expiresAt,
     forRole: me.role === 'parent' ? 'student' : 'parent',
   };
+});
+
+/** True once an email service is connected (the Trigger Email extension reading the `mail` collection). */
+const mailEnabled = () => process.env.MAIL_ENABLED === 'true';
+
+/**
+ * Emails an existing invite. If the app can't send email yet, returns emailed: false and the
+ * browser opens the user's own email app with the same message instead.
+ */
+export const emailInvite = onCall(async (req) => {
+  const uid = requireAuth(req);
+  const input = parseInput(z.object({ code: z.string().min(4).max(20), email: z.string().trim().toLowerCase().email().max(200) }), req.data);
+  const ref = db.doc(`invites/${normaliseCode(input.code)}`);
+  const invite = (await ref.get()).data() as (Invite & { sentTo?: string[] }) | undefined;
+  if (!invite || invite.fromUid !== uid) throw fail.notFound('That invite');
+  if (invite.usedBy || invite.expiresAt < Date.now()) throw fail.precondition('That invite has been used or has expired — make a new one.');
+  const sentTo = [...new Set([...(invite.sentTo ?? []), input.email])];
+  if (sentTo.length > 3) throw fail.precondition('This invite has already been sent to 3 addresses. Make a new one.');
+  await ref.update({ sentTo });
+
+  if (!mailEnabled()) return { emailed: false as const };
+  // Open sign-up means anyone could try to use this to email strangers, so keep the limits tight.
+  await rateLimit(`invite-email:${uid}`, 10, 86400, "You've emailed a lot of invites today — try again tomorrow.");
+  const message = inviteEmail({
+    fromName: invite.fromName,
+    forRole: invite.fromRole === 'parent' ? 'student' : 'parent',
+    url: `${appBaseUrl()}/join/${normaliseCode(input.code)}`,
+    code: normaliseCode(input.code),
+    expiresAt: invite.expiresAt,
+  });
+  await db.collection('mail').add({ to: [input.email], message, createdAt: Date.now(), kind: 'invite', fromUid: uid });
+  return { emailed: true as const };
 });
 
 /** Looks up an invite before accepting (shows "Aroha has invited you to link as their parent"). */

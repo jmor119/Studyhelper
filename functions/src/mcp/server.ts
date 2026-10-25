@@ -1,4 +1,3 @@
-import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { onRequest } from 'firebase-functions/https';
 import { logger } from 'firebase-functions';
 import { auth } from '../lib/firebase';
@@ -12,7 +11,6 @@ import {
   handleToken,
   protectedResourceMetadata,
 } from './auth';
-import { buildMcpServer } from './tools';
 
 // One HTTP function serves the MCP endpoint and the OAuth endpoints. Firebase Hosting rewrites
 // /mcp, /.well-known/oauth-* and /oauth/* on the app's domain to it (see firebase.json).
@@ -51,8 +49,13 @@ export const mcp = onRequest({ cors: true, timeoutSeconds: 120, memory: '512MiB'
         res.status(405).set('Allow', 'POST').json({ error: 'method_not_allowed' });
         return;
       }
+      // Loaded on demand so this function cold-starts quickly for OAuth/metadata requests.
+      const [{ StreamableHTTPServerTransport }, { buildMcpServer }] = await Promise.all([
+        import('@modelcontextprotocol/sdk/server/streamableHttp.js'),
+        import('./tools'),
+      ]);
       const user = await auth.getUser(uid);
-      const server = buildMcpServer(uid, profile, user.customClaims?.admin === true);
+      const server = await buildMcpServer(uid, profile, user.customClaims?.admin === true);
       const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
       res.on('close', () => {
         void transport.close();

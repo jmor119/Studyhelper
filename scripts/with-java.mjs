@@ -37,7 +37,8 @@ if (!cmd) {
   process.exit(1);
 }
 const binDir = findJavaBinDir();
-const env = { ...process.env };
+// The functions emulator gives up loading code after 10 s by default, which a busy machine can exceed.
+const env = { FUNCTIONS_DISCOVERY_TIMEOUT: '60', ...process.env };
 if (binDir) {
   const key = Object.keys(env).find((k) => k.toLowerCase() === 'path') ?? 'PATH';
   env[key] = `${binDir}${path.delimiter}${env[key] ?? ''}`;

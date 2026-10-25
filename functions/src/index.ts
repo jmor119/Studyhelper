@@ -12,7 +12,7 @@ export {
   deleteMyAccount,
   exportMyData,
 } from './callables/account';
-export { createInvite, peekInvite, acceptInvite, unlink } from './callables/family';
+export { createInvite, emailInvite, peekInvite, acceptInvite, unlink } from './callables/family';
 export { getPracticeSet, submitAnswer, selfMark, flagQuestion, logActivity } from './callables/practice';
 export { startExam, submitExam, selfMarkExam } from './callables/exams';
 export { adminReviewQueue, adminSetQuestionStatus, adminStats } from './callables/admin';

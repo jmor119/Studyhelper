@@ -1,4 +1,4 @@
-import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import {
   allTopics,
   describeAnswer,
@@ -86,8 +86,9 @@ function toResponse(type: string, answer: string): QuestionResponse {
   }
 }
 
-export function buildMcpServer(uid: string, profile: UserProfile, isAdminUser: boolean): McpServer {
-  const server = new McpServer(
+export async function buildMcpServer(uid: string, profile: UserProfile, isAdminUser: boolean): Promise<McpServer> {
+  const { McpServer: McpServerImpl } = await import('@modelcontextprotocol/sdk/server/mcp.js');
+  const server = new McpServerImpl(
     { name: 'study-helper', version: '1.0.0' },
     {
       instructions:

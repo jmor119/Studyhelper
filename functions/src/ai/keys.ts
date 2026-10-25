@@ -140,7 +140,7 @@ async function tryOwner(ownerUid: string): Promise<ResolvedAi | null> {
   return {
     ownerUid,
     ownerName: owner?.displayName ?? 'your family',
-    llm: createLlm(provider, apiKey, settings.model ?? defaultModel(provider, [])),
+    llm: await createLlm(provider, apiKey, settings.model ?? defaultModel(provider, [])),
     limitUsd: settings.monthlyLimitUsd ?? DEFAULT_LIMIT_USD,
     spentUsd: await monthSpend(ownerUid),
   };

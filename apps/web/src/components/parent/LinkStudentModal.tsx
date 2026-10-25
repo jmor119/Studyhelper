@@ -1,6 +1,8 @@
 import { KeyRound, Link2 } from 'lucide-react';
 import { useState, type FormEvent } from 'react';
 import { api, errorMessage } from '../../lib/api';
+import { useAuth } from '../../lib/auth';
+import { InviteEmail } from '../family/InviteEmail';
 import { Button, Field, Input, Modal, Notice, Tabs } from '../ui';
 import { CopyButton } from './bits';
 import { formatDateTime } from './format';
@@ -9,6 +11,7 @@ type Invite = Awaited<ReturnType<typeof api.createInvite>>;
 
 /** Link a student who already has their own account: send them an invite, or accept their code. */
 export function LinkStudentModal({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const { profile } = useAuth();
   const [mode, setMode] = useState<'invite' | 'accept'>('invite');
   const [invite, setInvite] = useState<Invite | null>(null);
   const [inviting, setInviting] = useState(false);
@@ -85,8 +88,9 @@ export function LinkStudentModal({ open, onClose }: { open: boolean; onClose: ()
                   <CopyButton text={invite.url} label="Copy link" />
                 </div>
               </div>
+              <InviteEmail invite={invite} fromName={profile?.displayName ?? 'Your parent'} />
               <div className="min-w-0">
-                <p className="text-sm font-semibold">Invite link</p>
+                <p className="text-sm font-semibold">Or share the link yourself</p>
                 <p className="mt-1 rounded-xl border border-line bg-canvas px-3 py-2 font-mono text-sm break-all">{invite.url}</p>
               </div>
               <div>
@@ -105,7 +109,7 @@ export function LinkStudentModal({ open, onClose }: { open: boolean; onClose: ()
             </div>
           ) : (
             <div className="grid gap-3">
-              <p className="text-sm">We’ll make a one-time code and link to send your child. It lasts for 7 days.</p>
+              <p className="text-sm">We’ll make a one-time invite you can email to your child, or share as a code or link. It lasts for 7 days.</p>
               <Button onClick={createInvite} loading={inviting} icon={<Link2 className="size-4" />} className="justify-self-start">
                 Create an invite
               </Button>
