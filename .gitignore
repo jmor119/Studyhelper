@@ -28,3 +28,6 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# Public web config is safe to commit
+!apps/web/.env.production
