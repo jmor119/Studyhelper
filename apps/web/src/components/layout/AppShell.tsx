@@ -1,4 +1,5 @@
-import { currentStreak, levelForXp, nzDateKey, xpForLevel } from '@study-helper/shared';
+import { nzDateKey } from '@study-helper/shared/dates';
+import { currentStreak, levelForXp, xpForLevel } from '@study-helper/shared/gamification';
 import clsx from 'clsx';
 import {
   BookOpen,

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "m9.num.percentages.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the quickest way to find 10% of an amount?",
+    "options": [
+      { "id": "a", "text": "Divide it by 10" },
+      { "id": "b", "text": "Multiply it by 10" },
+      { "id": "c", "text": "Divide it by 100" },
+      { "id": "d", "text": "Subtract 10 from it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Multiplying by 10 makes it 10 times bigger. 10% is a tenth, which is smaller.",
+      "c": "Dividing by 100 gives 1%.",
+      "d": "10% is a fraction of the amount, not 10 less than it."
+    },
+    "hints": ["10% = $\\frac{10}{100} = \\frac{1}{10}$."],
+    "solution": "10% is $\\frac{1}{10}$, so divide by 10. For example, 10% of 340 is 34."
+  },
+  {
+    "id": "m9.num.percentages.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each percentage to the equivalent fraction.",
+    "pairs": [
+      { "left": { "id": "p50", "text": "50%" }, "right": { "id": "f2", "text": "$\\frac{1}{2}$" } },
+      { "left": { "id": "p25", "text": "25%" }, "right": { "id": "f4", "text": "$\\frac{1}{4}$" } },
+      { "left": { "id": "p20", "text": "20%" }, "right": { "id": "f5", "text": "$\\frac{1}{5}$" } },
+      { "left": { "id": "p10", "text": "10%" }, "right": { "id": "f10", "text": "$\\frac{1}{10}$" } },
+      { "left": { "id": "p75", "text": "75%" }, "right": { "id": "f34", "text": "$\\frac{3}{4}$" } }
+    ],
+    "hints": ["Write each percentage over 100 and simplify."],
+    "solution": "50% = $\\frac{1}{2}$, 25% = $\\frac{1}{4}$, 20% = $\\frac{1}{5}$, 10% = $\\frac{1}{10}$, 75% = $\\frac{3}{4}$."
+  },
+  {
+    "id": "m9.num.percentages.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "Which calculation finds 15% of \\$60?",
+    "options": [
+      { "id": "a", "text": "$60 \\times 0.15$" },
+      { "id": "b", "text": "$60 \\div 15$" },
+      { "id": "c", "text": "$60 \\times 15$" },
+      { "id": "d", "text": "$60 \\div 0.15$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This finds how many 15s are in 60, not 15% of 60.",
+      "c": "This is 1500% of 60. Change 15% to a decimal first.",
+      "d": "Dividing by 0.15 gives a bigger number. That is the method for working backwards from a part."
+    },
+    "hints": ["15% as a decimal is 0.15.", "\"Of\" means multiply."],
+    "solution": "15% = 0.15, and \"of\" means multiply: $60 \\times 0.15 = 9$, so 15% of \\$60 is \\$9."
+  },
+  {
+    "id": "m9.num.percentages.q004",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "To decrease an amount by 35%, multiply it by [[a]]. To increase an amount by 35%, multiply it by [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["0.65", ".65"] },
+      { "id": "b", "accepted": ["1.35"] }
+    ],
+    "hints": ["The original amount is 100%.", "After a 35% decrease you have 65% left."],
+    "solution": "A decrease leaves $100\\% - 35\\% = 65\\%$, so multiply by **0.65**. An increase gives $100\\% + 35\\% = 135\\%$, so multiply by **1.35**."
+  },
+  {
+    "id": "m9.num.percentages.q005",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the calculations that increase \\$50 by 30%.",
+    "options": [
+      { "id": "a", "text": "$50 \\times 1.3$" },
+      { "id": "b", "text": "$50 + 0.3 \\times 50$" },
+      { "id": "c", "text": "$50 \\times 0.3$" },
+      { "id": "d", "text": "$50 + 15$" },
+      { "id": "e", "text": "$50 \\times 1.03$" }
+    ],
+    "correct": ["a", "b", "d"],
+    "hints": ["30% of 50 is 15.", "An increase of 30% means the new amount is 130% of the old one."],
+    "solution": "The new amount is $50 \\times 1.3 = 65$. This is the same as $50 + 0.3 \\times 50 = 50 + 15 = 65$. Option c only finds the 30% (15), and option e is a 3% increase."
+  },
+  {
+    "id": "m9.num.percentages.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A price rises by 10%, and then the new price falls by 10%. Compared with the original price, the final price is…",
+    "options": [
+      { "id": "a", "text": "lower than the original" },
+      { "id": "b", "text": "the same as the original" },
+      { "id": "c", "text": "higher than the original" },
+      { "id": "d", "text": "impossible to compare without knowing the price" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The 10% decrease is 10% of a *bigger* amount, so it takes off more than the increase added.",
+      "c": "Try an example: \\$100 becomes \\$110, then \\$99.",
+      "d": "It works for any price: multiplying by 1.1 then 0.9 is multiplying by 0.99."
+    },
+    "hints": ["Try it with a price of \\$100.", "Use multipliers: × 1.1, then × 0.9."],
+    "solution": "\\$100 → \\$110 → \\$99. In general, $1.1 \\times 0.9 = 0.99$, so the final price is always 99% of the original: 1% **lower**."
+  },
+  {
+    "id": "m9.num.percentages.q007",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Ella got 34 out of 40 in her first maths test and 42 out of 50 in her second. What was her **higher** percentage score?",
+    "answer": 85,
+    "units": "%",
+    "hints": ["Change each score to a percentage: part ÷ whole × 100.", "Compare the two percentages."],
+    "solution": "Test 1: $\\frac{34}{40} \\times 100 = 85\\%$. Test 2: $\\frac{42}{50} \\times 100 = 84\\%$. Her higher score was **85%**, in the first test, even though she got more marks in the second."
+  },
+  {
+    "id": "m9.num.percentages.q008",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "At Kauri School, 45% of the 260 students walk to school. At Tōtara School, 30% of the 420 students walk to school. Which school has more students who walk?",
+    "options": [
+      { "id": "a", "text": "Tōtara School: 126 students compared with 117" },
+      { "id": "b", "text": "Kauri School, because 45% is more than 30%" },
+      { "id": "c", "text": "They have the same number" },
+      { "id": "d", "text": "You can't tell from percentages" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A bigger percentage of a smaller school can be fewer students. Work out the actual numbers.",
+      "c": "Work out 45% of 260 and 30% of 420. They are not equal.",
+      "d": "You can: find each percentage of its school's roll."
+    },
+    "hints": ["Find 45% of 260 and 30% of 420."],
+    "solution": "Kauri: $0.45 \\times 260 = 117$. Tōtara: $0.3 \\times 420 = 126$. Tōtara School has more students who walk, even though its percentage is smaller."
+  },
+  {
+    "id": "m9.num.percentages.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A jacket is reduced by 20% and now costs \\$64. Aroha says the original price was \\$76.80, because 20% of \\$64 is \\$12.80 and $64 + 12.80 = 76.80$. Explain her mistake and find the correct original price.",
+    "modelAnswer": "The 20% discount was 20% of the original price, not 20% of \\$64. After the discount the jacket costs 80% of the original price, so 80% of the original is \\$64. The original price is $64 \\div 0.8 = 80$, so it was \\$80. Check: 20% of \\$80 is \\$16, and $80 - 16 = 64$ ✓.",
+    "rubric": [
+      { "criterion": "Explains that the 20% is a percentage of the original price, not of the sale price", "marks": 1 },
+      { "criterion": "Recognises \\$64 is 80% of the original (or divides by 0.8)", "marks": 1 },
+      { "criterion": "Correct original price of \\$80", "marks": 1 }
+    ],
+    "hints": ["What percentage of the original price is the sale price?", "Divide the sale price by the multiplier."],
+    "solution": "\\$64 is 80% of the original, so the original price is $64 \\div 0.8 = 80$: **\\$80**."
+  },
+  {
+    "id": "m9.num.percentages.q010",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A tūī population increased by 25% one year, and the next year it decreased by 20%. What was the overall change?",
+    "options": [
+      { "id": "a", "text": "No overall change" },
+      { "id": "b", "text": "An overall increase of 5%" },
+      { "id": "c", "text": "An overall decrease of 5%" },
+      { "id": "d", "text": "An overall increase of 45%" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You can't just subtract the percentages, because the 20% is of a bigger amount. Use multipliers.",
+      "c": "Use multipliers: × 1.25, then × 0.8.",
+      "d": "Increasing then decreasing can't give a bigger change than either one."
+    },
+    "hints": ["Use multipliers: an increase of 25% is × 1.25, and a decrease of 20% is × 0.8.", "Multiply the two multipliers together."],
+    "solution": "$1.25 \\times 0.8 = 1$, so the population ends up exactly where it started. For example, 100 tūī → 125 → 100."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": "m9.pro.experimental.f01", "front": "Trial", "back": "One go at an experiment, e.g. one toss of a coin or one drop of a drawing pin." },
+  { "id": "m9.pro.experimental.f02", "front": "Relative frequency", "back": "$\\dfrac{\\text{number of times the outcome happened}}{\\text{total number of trials}}$" },
+  { "id": "m9.pro.experimental.f03", "front": "Experimental probability", "back": "Another name for relative frequency: an estimate of a probability from an experiment." },
+  { "id": "m9.pro.experimental.f04", "front": "Expected number of times an outcome happens", "back": "Probability × number of trials." },
+  { "id": "m9.pro.experimental.f05", "front": "Law of Large Numbers", "back": "As the number of trials increases, the relative frequency tends to get closer to the true probability." },
+  { "id": "m9.pro.experimental.f06", "front": "Why do two sets of 20 trials give different results?", "back": "Chance variation: random results always vary, especially with few trials." },
+  { "id": "m9.pro.experimental.f07", "front": "Simulation", "back": "Using something random (dice, spinners, random numbers) to model a real situation and run many trials quickly." },
+  { "id": "m9.pro.experimental.f08", "front": "Give an example of a probability you can only find by experiment", "back": "A drawing pin landing point up, or a bottle cap landing top up. The outcomes aren't equally likely." },
+  { "id": "m9.pro.experimental.f09", "front": "How do you combine results from several groups?", "back": "Add all the successes and divide by all the trials (don't average the relative frequencies)." },
+  { "id": "m9.pro.experimental.f10", "front": "Reasons an experiment might not match the theory", "back": "Chance variation, too few trials, a biased object, or recording mistakes." }
+]

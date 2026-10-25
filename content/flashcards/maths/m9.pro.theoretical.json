@@ -1,0 +1,14 @@
+[
+  { "id": "m9.pro.theoretical.f01", "front": "Probability", "back": "A number from 0 (impossible) to 1 (certain) that measures how likely an event is." },
+  { "id": "m9.pro.theoretical.f02", "front": "Outcome", "back": "One possible result of an experiment, e.g. rolling a 4." },
+  { "id": "m9.pro.theoretical.f03", "front": "Sample space", "back": "The list of all possible outcomes, e.g. {1, 2, 3, 4, 5, 6} for a die." },
+  { "id": "m9.pro.theoretical.f04", "front": "Event", "back": "A set of outcomes you are interested in, e.g. \"an even number\" = {2, 4, 6}." },
+  { "id": "m9.pro.theoretical.f05", "front": "Theoretical probability (equally likely outcomes)", "back": "$P(\\text{event}) = \\dfrac{\\text{outcomes in the event}}{\\text{total outcomes}}$" },
+  { "id": "m9.pro.theoretical.f06", "front": "$P(\\text{not } A)$", "back": "$1 - P(A)$" },
+  { "id": "m9.pro.theoretical.f07", "front": "Mutually exclusive events", "back": "Events that can't happen at the same time, e.g. rolling a 2 and rolling a 5 on one roll." },
+  { "id": "m9.pro.theoretical.f08", "front": "When can you add probabilities for \"A or B\"?", "back": "Only when A and B are mutually exclusive. Otherwise count shared outcomes once." },
+  { "id": "m9.pro.theoretical.f09", "front": "Independent events", "back": "Events where one doesn't affect the other, e.g. two coin tosses, or drawing with replacement." },
+  { "id": "m9.pro.theoretical.f10", "front": "Dependent events", "back": "Events where the first affects the second, e.g. drawing two counters without replacement." },
+  { "id": "m9.pro.theoretical.f11", "front": "Tree diagram", "back": "A diagram with branches for each stage; each path is one outcome. Multiply along branches for joint probabilities." },
+  { "id": "m9.pro.theoretical.f12", "front": "How many outcomes when two dice are rolled?", "back": "$6 \\times 6 = 36$ equally likely outcomes." }
+]

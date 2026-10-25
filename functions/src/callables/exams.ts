@@ -41,7 +41,7 @@ export interface ExamResultItem {
 
 const StartSchema = z.object({
   title: z.string().max(80).optional(),
-  topicIds: z.array(z.string()).min(1).max(40),
+  topicIds: z.array(z.string()).min(1).max(60),
   durationMinutes: z.number().int().min(10).max(180),
   calculator: z.enum(['allowed', 'not-allowed']).default('allowed'),
 });
@@ -122,7 +122,7 @@ export const startExam = onCall(async (req) => {
   return startExamFor(uid, parseInput(StartSchema, req.data));
 });
 
-function summarise(items: ExamResultItem[]) {
+export function summarise(items: ExamResultItem[]) {
   const marked = items.filter((i) => !i.needsReview);
   const awarded = marked.reduce((s, i) => s + i.marksAwarded, 0);
   const available = items.reduce((s, i) => s + i.marksAvailable, 0);
@@ -154,37 +154,43 @@ export async function submitExamFor(uid: string, input: z.infer<typeof SubmitSch
   });
 
   const items: ExamResultItem[] = [];
-  for (const questionId of claimed.questionIds) {
-    const loaded = await loadQuestion(questionId);
-    if (!loaded) continue;
-    const q = loaded.question;
-    const response = input.responses[questionId];
-    let mark: MarkResult;
-    if (!response) {
-      mark = { correct: false, score: 0, marksAwarded: 0, marksAvailable: q.marks };
-    } else {
-      mark = markResponse(q, response);
-      if (mark.invalid) mark = { ...mark, invalid: false, correct: false, score: 0, marksAwarded: 0 };
-    }
-    const answerText = response ? describeResponse(q, response) : '';
-    const perQuestionMs = Math.round(input.timeTakenMs / Math.max(1, claimed.questionIds.length));
-    if (mark.needsReview && response) {
-      const attemptId = await recordPendingAttempt(uid, q, { hintsUsed: 0, timeMs: perQuestionMs, context: 'exam', answerText, examId: input.examId });
-      items.push({
-        questionId, topicId: q.topicId, correct: false, marksAwarded: 0, marksAvailable: q.marks, needsReview: true,
-        attemptId, solution: q.solution, answerText, expected: q.type === 'extended' ? q.modelAnswer : mark.expected,
+  try {
+    for (const questionId of claimed.questionIds) {
+      const loaded = await loadQuestion(questionId);
+      if (!loaded) continue;
+      const q = loaded.question;
+      const response = input.responses[questionId];
+      let mark: MarkResult;
+      if (!response) {
+        mark = { correct: false, score: 0, marksAwarded: 0, marksAvailable: q.marks };
+      } else {
+        mark = markResponse(q, response);
+        if (mark.invalid) mark = { ...mark, invalid: false, correct: false, score: 0, marksAwarded: 0 };
+      }
+      const answerText = response ? describeResponse(q, response) : '';
+      const perQuestionMs = Math.round(input.timeTakenMs / Math.max(1, claimed.questionIds.length));
+      if (mark.needsReview && response) {
+        const attemptId = await recordPendingAttempt(uid, q, { hintsUsed: 0, timeMs: perQuestionMs, context: 'exam', answerText, examId: input.examId });
+        items.push({
+          questionId, topicId: q.topicId, correct: false, marksAwarded: 0, marksAvailable: q.marks, needsReview: true,
+          attemptId, solution: q.solution, answerText, expected: q.type === 'extended' ? q.modelAnswer : mark.expected,
+        });
+        continue;
+      }
+      const progress = await recordAttempt(uid, q, mark, {
+        hintsUsed: 0, timeMs: perQuestionMs, context: 'exam', answerText, examId: input.examId, noXp: true,
       });
-      continue;
+      items.push({
+        questionId, topicId: q.topicId, correct: mark.correct, marksAwarded: mark.marksAwarded, marksAvailable: q.marks,
+        needsReview: false, attemptId: progress.attemptId, solution: q.solution, answerText,
+        ...(mark.feedback && { feedback: mark.feedback }),
+        ...(mark.expected && { expected: mark.expected }),
+      });
     }
-    const progress = await recordAttempt(uid, q, mark, {
-      hintsUsed: 0, timeMs: perQuestionMs, context: 'exam', answerText, examId: input.examId, noXp: true,
-    });
-    items.push({
-      questionId, topicId: q.topicId, correct: mark.correct, marksAwarded: mark.marksAwarded, marksAvailable: q.marks,
-      needsReview: false, attemptId: progress.attemptId, solution: q.solution, answerText,
-      ...(mark.feedback && { feedback: mark.feedback }),
-      ...(mark.expected && { expected: mark.expected }),
-    });
+  } catch (e) {
+    // Don't leave the exam stuck in "marking": let the student submit again.
+    await examRef.update({ status: 'in-progress' }).catch(() => undefined);
+    throw e;
   }
 
   const summary = summarise(items);

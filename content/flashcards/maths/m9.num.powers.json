@@ -1,0 +1,14 @@
+[
+  { "id": "m9.num.powers.f01", "front": "In $2^5$, what are the **base** and the **exponent**?", "back": "Base 2, exponent 5. It means $2 \\times 2 \\times 2 \\times 2 \\times 2 = 32$." },
+  { "id": "m9.num.powers.f02", "front": "Other names for the exponent", "back": "Index or power." },
+  { "id": "m9.num.powers.f03", "front": "Powers of 2 up to $2^{10}$", "back": "2, 4, 8, 16, 32, 64, 128, 256, 512, 1024." },
+  { "id": "m9.num.powers.f04", "front": "$a^1 = ?$ and $a^0 = ?$", "back": "$a^1 = a$, and $a^0 = 1$ (for any $a$ except 0)." },
+  { "id": "m9.num.powers.f05", "front": "What does a negative exponent mean?", "back": "Repeated division, giving a unit fraction: $a^{-n} = \\frac{1}{a^n}$, e.g. $3^{-2} = \\frac{1}{9}$." },
+  { "id": "m9.num.powers.f06", "front": "What's the difference between $3^{-2}$ and $-3^2$?", "back": "$3^{-2} = \\frac{1}{9}$ (positive). $-3^2 = -9$." },
+  { "id": "m9.num.powers.f07", "front": "What is a **perfect square**?", "back": "A whole number times itself: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, …" },
+  { "id": "m9.num.powers.f08", "front": "What is a **square root**?", "back": "The number that multiplies by itself to give the original number: $\\sqrt{49} = 7$." },
+  { "id": "m9.num.powers.f09", "front": "How do you find which whole numbers $\\sqrt{30}$ lies between?", "back": "Find the perfect squares either side: $25 < 30 < 36$, so $\\sqrt{30}$ is between 5 and 6." },
+  { "id": "m9.num.powers.f10", "front": "What is **scientific notation**?", "back": "A number written as $a \\times 10^k$, where $1 \\le a < 10$ and $k$ is an integer." },
+  { "id": "m9.num.powers.f11", "front": "Small numbers in scientific notation", "back": "They have a negative power of 10, e.g. $0.004 = 4 \\times 10^{-3}$." },
+  { "id": "m9.num.powers.f12", "front": "How do you compare numbers in scientific notation?", "back": "Compare the powers of 10 first. If they're equal, compare the front numbers." }
+]

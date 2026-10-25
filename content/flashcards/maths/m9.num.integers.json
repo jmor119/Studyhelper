@@ -1,0 +1,13 @@
+[
+  { "id": "m9.num.integers.f01", "front": "What is an **integer**?", "back": "A whole number that can be positive, negative or zero, e.g. $-3$, $0$, $12$." },
+  { "id": "m9.num.integers.f02", "front": "Adding a negative number, e.g. $5 + (-3)$", "back": "Same as subtracting: $5 + (-3) = 5 - 3 = 2$." },
+  { "id": "m9.num.integers.f03", "front": "Subtracting a negative number, e.g. $5 - (-3)$", "back": "Same as adding: $5 - (-3) = 5 + 3 = 8$." },
+  { "id": "m9.num.integers.f04", "front": "Sign rules for × and ÷", "back": "Same signs give a positive answer. Different signs give a negative answer." },
+  { "id": "m9.num.integers.f05", "front": "What does **GEMA** stand for?", "back": "Grouping, Exponents, Multiplication and division (left to right), Addition and subtraction (left to right)." },
+  { "id": "m9.num.integers.f06", "front": "What should you do when × and ÷ (or + and −) appear together?", "back": "Work from left to right, e.g. $12 \\div 3 \\times 2 = 4 \\times 2 = 8$." },
+  { "id": "m9.num.integers.f07", "front": "Is $(-3)^2$ the same as $-3^2$?", "back": "No. $(-3)^2 = 9$, but $-3^2 = -(3^2) = -9$." },
+  { "id": "m9.num.integers.f08", "front": "Multiplying several negative numbers: when is the answer negative?", "back": "When there is an odd number of negative factors. An even number gives a positive answer." },
+  { "id": "m9.num.integers.f09", "front": "What is a **reciprocal**?", "back": "The number you multiply by to get 1. The reciprocal of $\\frac{a}{b}$ is $\\frac{b}{a}$." },
+  { "id": "m9.num.integers.f10", "front": "Reciprocal of 5? Reciprocal of $-\\frac{2}{3}$?", "back": "$\\frac{1}{5}$ and $-\\frac{3}{2}$. A reciprocal keeps the same sign." },
+  { "id": "m9.num.integers.f11", "front": "Does 0 have a reciprocal?", "back": "No. Nothing multiplied by 0 gives 1." }
+]

@@ -178,10 +178,15 @@ export function describeAnswer(q: Question): string {
         const frac = fractionAnswer(q.answer, q.form === 'mixed');
         if (frac) return q.units && q.units !== '$' ? `${frac} ${q.units}` : frac;
       }
-      const value =
-        q.decimals !== undefined ? q.answer.toFixed(q.decimals) : formatNumber(q.answer);
+      let value = q.decimals !== undefined ? q.answer.toFixed(q.decimals) : formatNumber(q.answer);
+      // Recurring decimals like 0.3333333333 read better as fractions (common in probability).
+      if (q.decimals === undefined && !Number.isInteger(q.answer) && (value.split('.')[1]?.length ?? 0) > 4) {
+        const frac = fractionAnswer(q.answer, false);
+        if (frac) value = `${frac} (≈ ${q.answer.toFixed(3)})`;
+      }
       if (!q.units) return value;
       if (q.units === '$') return `$${value}`;
+      if (q.units === '°' || q.units === '%') return `${value}${q.units}`;
       return `${value} ${q.units}`;
     }
     case 'expression':

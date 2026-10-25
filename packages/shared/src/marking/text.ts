@@ -98,8 +98,34 @@ export function textMatches(given: string, target: string, allowTypos: boolean):
   if (differentPrefix(g, t)) return false;
   // Real typos rarely change the first letter ("father" ≠ "mother").
   if (g[0] !== t[0]) return false;
+  // If the student wrote a real, different subject term ("chlorine" for "chloride", "waning" for
+  // "waxing"), it's a misconception, not a typo.
+  const gw = g.split(' ');
+  const tw = t.split(' ');
+  if (gw.length === tw.length && gw.some((w, i) => w !== tw[i] && KNOWN_TERMS.has(w))) return false;
   return editDistance(g, t) <= typoAllowance(t.length);
 }
+
+/**
+ * Subject words that are easily confused with each other by spelling. A student answer containing
+ * one of these in place of the expected word is never treated as a typo.
+ */
+const KNOWN_TERMS = new Set(
+  `chloride chlorine fluoride fluorine bromide bromine iodide iodine sulfide sulfate sulfite oxide oxygen hydroxide hydrogen
+  carbonate carbon carbide nitrate nitrite nitride nitrogen sodium potassium calcium magnesium
+  conduction convection conductor conductors insulator insulators reflection refraction diffraction absorption
+  transmission series parallel current voltage kinetic potential friction gravity weight mass velocity acceleration
+  waxing waning crescent gibbous igneous sedimentary metamorphic magma lava mantle crust core erosion weathering
+  deposition evaporation condensation precipitation transpiration respiration photosynthesis fermentation
+  mitosis meiosis xylem phloem osmosis diffusion artery arteries vein veins capillary capillaries atrium ventricle
+  producer producers consumer consumers decomposer decomposers herbivore herbivores carnivore carnivores omnivore
+  omnivores predator predators prey vertebrate vertebrates invertebrate invertebrates genus genes gene species
+  habitat habitats nucleus nuclei neutron neutrons proton protons electron electrons element elements compound
+  compounds mixture mixtures solute solvent solution dissolve melt melting freezing boiling exothermic endothermic
+  acid acidic alkali alkaline base neutral mean median mode range maximum minimum quartile`
+    .split(/\s+/)
+    .filter(Boolean),
+);
 
 const PREFIXES = ['endo', 'exo', 'hyper', 'hypo', 'inter', 'intra', 'in', 'un', 'non', 'dis', 'sub', 'super', 'mono', 'poly', 'homo', 'hetero', 'micro', 'macro', 'uni', 'bi', 'tri', 'de', 're'];
 

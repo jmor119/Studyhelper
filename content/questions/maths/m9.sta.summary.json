@@ -1,0 +1,124 @@
+[
+  {
+    "id": "m9.sta.summary.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each summary statistic to how you find it.",
+    "pairs": [
+      { "left": { "id": "mean", "text": "Mean" }, "right": { "id": "add", "text": "Add all the values and divide by how many there are" } },
+      { "left": { "id": "median", "text": "Median" }, "right": { "id": "middle", "text": "The middle value when the data is in order" } },
+      { "left": { "id": "mode", "text": "Mode" }, "right": { "id": "often", "text": "The value that occurs most often" } },
+      { "left": { "id": "range", "text": "Range" }, "right": { "id": "maxmin", "text": "Maximum minus minimum" } },
+      { "left": { "id": "iqr", "text": "Interquartile range" }, "right": { "id": "q3q1", "text": "Upper quartile minus lower quartile" } }
+    ],
+    "hints": ["\"Median\" sounds like \"medium\": the one in the middle."],
+    "solution": "Mean: total ÷ number of values. Median: middle of the ordered data. Mode: most common value. Range: max − min. IQR: $Q_3 - Q_1$."
+  },
+  {
+    "id": "m9.sta.summary.q002",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "For the data 2, 4, 4, 5, 10, select **all** the statements that are true.",
+    "options": [
+      { "id": "a", "text": "The mean is 5." },
+      { "id": "b", "text": "The median is 4." },
+      { "id": "c", "text": "The mode is 4." },
+      { "id": "d", "text": "The range is 10." },
+      { "id": "e", "text": "The median is 5." }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["The data is already in order. Work out each statistic, then check each statement."],
+    "solution": "Mean: $2 + 4 + 4 + 5 + 10 = 25$ and $25 \\div 5 = 5$ ✓. Median: the 3rd value, 4 ✓ (so \"the median is 5\" is false). Mode: 4 ✓. Range: $10 - 2 = 8$, not 10."
+  },
+  {
+    "id": "m9.sta.summary.q003",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Tevita recorded how many minutes it took 7 students to get to school, in order:\n\n6, 9, 11, 14, 18, 25, 32\n\nWhat is the upper quartile ($Q_3$)?",
+    "options": [
+      { "id": "a", "text": "25" },
+      { "id": "b", "text": "21.5" },
+      { "id": "c", "text": "18" },
+      { "id": "d", "text": "28.5" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is what you get if you include the median (14) in the upper half. With an odd number of values, leave the median out.",
+      "c": "18 is the first value of the upper half, not its middle.",
+      "d": "28.5 is halfway between 25 and 32. The upper half has 3 values, so its middle is a single value."
+    },
+    "hints": ["The median is the 4th value, 14. Leave it out.", "The upper half is 18, 25, 32."],
+    "solution": "There are 7 values, so the median is the 4th value, 14. Leaving it out, the upper half is 18, 25, 32. Its middle value is **25**, so $Q_3 = 25$ minutes."
+  },
+  {
+    "id": "m9.sta.summary.q004",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The five-number summary of the arm spans (in cm) of a Year 9 class is:\n\nminimum 148, lower quartile 156, median 162, upper quartile 169, maximum 183.\n\nWhat is the interquartile range?",
+    "answer": 13,
+    "units": "cm",
+    "hints": ["IQR = upper quartile − lower quartile."],
+    "solution": "$\\text{IQR} = 169 - 156 = 13$ cm. (The range would be $183 - 148 = 35$ cm.)"
+  },
+  {
+    "id": "m9.sta.summary.q005",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The mean of six test scores is 70. Which of these changes would **not** change the mean?",
+    "options": [
+      { "id": "a", "text": "Adding a seventh score of 70" },
+      { "id": "b", "text": "Adding a seventh score of 77" },
+      { "id": "c", "text": "Removing a score of 64" },
+      { "id": "d", "text": "Increasing one score by 6" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The total goes up by 77 but the number of scores by only 1, so the mean goes up: $\\frac{420 + 77}{7} = 71$.",
+      "c": "Removing a below-average score makes the mean go up: $\\frac{420 - 64}{5} = 71.2$.",
+      "d": "The total goes up by 6 while there are still 6 scores, so the mean goes up by 1."
+    },
+    "hints": ["The total of the six scores is $6 \\times 70 = 420$.", "Work out the new mean for each option."],
+    "solution": "The total is $6 \\times 70 = 420$. Adding a score of 70 gives a total of 490 over 7 scores, and $490 \\div 7 = 70$. Adding a value equal to the mean leaves the mean unchanged."
+  },
+  {
+    "id": "m9.sta.summary.q006",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain how to find the lower and upper quartiles of a data set with 11 values.",
+    "modelAnswer": "Put the 11 values in order. The median is the 6th value. Leave the median out, so the lower half is values 1 to 5 and the upper half is values 7 to 11. The lower quartile is the median of the lower half (the 3rd value) and the upper quartile is the median of the upper half (the 9th value).",
+    "rubric": [
+      { "criterion": "Orders the data and identifies the median as the 6th value", "marks": 1 },
+      { "criterion": "Leaves the median out and identifies Q1 as the 3rd value and Q3 as the 9th value (medians of the halves)", "marks": 1 }
+    ],
+    "hints": ["Start by finding which value is the median.", "With an odd number of values, the median is not part of either half."],
+    "solution": "Order the data. With 11 values the median is the 6th. Leaving it out, each half has 5 values (positions 1–5 and 7–11). $Q_1$ is the middle of the lower half, the **3rd** value; $Q_3$ is the middle of the upper half, the **9th** value."
+  },
+  {
+    "id": "m9.sta.summary.q007",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Five whole numbers have a mean of 6, a median of 5, a mode of 3 and a range of 9. What is the largest of the five numbers?",
+    "answer": 12,
+    "hints": [
+      "Write the numbers in order as $a, b, c, d, e$. The median tells you $c$.",
+      "The mode is 3, so 3 appears more than once, and it must be below the median.",
+      "Use the range to find $e$, then check the total is $5 \\times 6 = 30$."
+    ],
+    "solution": "In order: $a, b, c, d, e$. The median is 5, so $c = 5$. The mode is 3, so at least two values are 3. They must be below 5, so $a = b = 3$.\n\nRange $= e - a = 9$, so $e = 12$.\n\nThe total is $5 \\times 6 = 30$, so $3 + 3 + 5 + d + 12 = 30$, giving $d = 7$.\n\nThe numbers are 3, 3, 5, 7, 12 (check: mean 6, median 5, mode 3, range 9 ✓). The largest is **12**."
+  },
+  {
+    "id": "m9.sta.summary.q008",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for the middle value of a data set once it is in order?",
+    "accepted": ["median", "the median"],
+    "hints": ["It sounds a bit like \"medium\"."],
+    "solution": "The **median** is the middle value of ordered data."
+  }
+]

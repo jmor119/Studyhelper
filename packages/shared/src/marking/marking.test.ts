@@ -182,6 +182,12 @@ describe('textMatches', () => {
     expect(textMatches('chlorophyl', 'chlorophyll', true)).toBe(true);
     expect(textMatches('mitochondrion', 'mitochondria', true)).toBe(true);
     expect(textMatches('enzymes', 'enzyme', true)).toBe(true);
+    expect(textMatches('waning', 'waxing', true)).toBe(false);
+    expect(textMatches('conduction', 'convection', true)).toBe(false);
+    expect(textMatches('sodium chlorine', 'sodium chloride', true)).toBe(false);
+    expect(textMatches('sodium cloride', 'sodium chloride', true)).toBe(true);
+    expect(textMatches('convecshun', 'convection', true)).toBe(false); // 3 edits: too far
+    expect(textMatches('convektion', 'convection', true)).toBe(true);
   });
   it('keeps inequality signs', () => {
     expect(textMatches('x < 4', 'x<4', true)).toBe(true);

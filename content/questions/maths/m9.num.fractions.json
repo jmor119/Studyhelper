@@ -1,0 +1,193 @@
+[
+  {
+    "id": "m9.num.fractions.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the fraction $\\frac{5}{8}$, the 5 is the [[a]] and the 8 is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["numerator"], "options": ["numerator", "denominator", "reciprocal"] },
+      { "id": "b", "accepted": ["denominator"], "options": ["numerator", "denominator", "reciprocal"] }
+    ],
+    "hints": ["The bottom number tells you how many equal parts the whole is split into."],
+    "solution": "5 is the **numerator** (the number of parts you have) and 8 is the **denominator** (the number of equal parts in the whole)."
+  },
+  {
+    "id": "m9.num.fractions.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which fraction is equivalent to $\\frac{2}{3}$?",
+    "options": [
+      { "id": "a", "text": "$\\frac{8}{12}$" },
+      { "id": "b", "text": "$\\frac{4}{5}$" },
+      { "id": "c", "text": "$\\frac{2}{6}$" },
+      { "id": "d", "text": "$\\frac{3}{2}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This adds 2 to the top and the bottom. To make an equivalent fraction you must multiply (or divide) both by the same number.",
+      "c": "Only the denominator has been multiplied by 3. $\\frac{2}{6} = \\frac{1}{3}$.",
+      "d": "This is the reciprocal of $\\frac{2}{3}$, not an equivalent fraction."
+    },
+    "hints": ["Multiply the numerator and denominator by the same number."],
+    "solution": "$\\frac{2}{3} = \\frac{2 \\times 4}{3 \\times 4} = \\frac{8}{12}$."
+  },
+  {
+    "id": "m9.num.fractions.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these fractions is already in simplest form?",
+    "options": [
+      { "id": "a", "text": "$\\frac{15}{28}$" },
+      { "id": "b", "text": "$\\frac{9}{12}$" },
+      { "id": "c", "text": "$\\frac{14}{21}$" },
+      { "id": "d", "text": "$\\frac{10}{25}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "9 and 12 are both divisible by 3: $\\frac{9}{12} = \\frac{3}{4}$.",
+      "c": "14 and 21 are both divisible by 7: $\\frac{14}{21} = \\frac{2}{3}$.",
+      "d": "10 and 25 are both divisible by 5: $\\frac{10}{25} = \\frac{2}{5}$."
+    },
+    "hints": ["Look for a number (other than 1) that divides into both the top and the bottom."],
+    "solution": "$15 = 3 \\times 5$ and $28 = 2 \\times 2 \\times 7$. They share no common factor except 1, so $\\frac{15}{28}$ is in simplest form."
+  },
+  {
+    "id": "m9.num.fractions.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Isla writes $\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$. What has she done wrong?",
+    "options": [
+      { "id": "a", "text": "She added the denominators. She needed a common denominator: the answer is $\\frac{5}{6}$." },
+      { "id": "b", "text": "Nothing. $\\frac{2}{5}$ is correct." },
+      { "id": "c", "text": "She should have multiplied the denominators and the numerators: the answer is $\\frac{1}{6}$." },
+      { "id": "d", "text": "She should have subtracted: the answer is $\\frac{1}{6}$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{2}{5}$ is less than $\\frac{1}{2}$, but adding $\\frac{1}{3}$ to $\\frac{1}{2}$ must make it bigger.",
+      "c": "That is how you multiply fractions, not add them.",
+      "d": "The question is an addition, so the answer must be bigger than both fractions."
+    },
+    "hints": ["Is $\\frac{2}{5}$ bigger or smaller than $\\frac{1}{2}$?", "What do you need before you can add fractions?"],
+    "solution": "To add, use a common denominator: $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$. Isla added the numerators and the denominators, which doesn't work."
+  },
+  {
+    "id": "m9.num.fractions.q005",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "num", "text": "Numerator" }, "right": { "id": "d1", "text": "The top number: how many parts you have" } },
+      { "left": { "id": "den", "text": "Denominator" }, "right": { "id": "d2", "text": "The bottom number: how many equal parts make a whole" } },
+      { "left": { "id": "imp", "text": "Improper fraction" }, "right": { "id": "d3", "text": "A fraction with the numerator bigger than the denominator" } },
+      { "left": { "id": "mix", "text": "Mixed number" }, "right": { "id": "d4", "text": "A whole number together with a proper fraction" } },
+      { "left": { "id": "rec", "text": "Reciprocal" }, "right": { "id": "d5", "text": "The flipped fraction; the two multiply to give 1" } }
+    ],
+    "hints": ["$2\\frac{1}{4}$ is a mixed number and $\\frac{9}{4}$ is an improper fraction."],
+    "solution": "Numerator: top number. Denominator: bottom number. Improper fraction: numerator bigger than the denominator, e.g. $\\frac{9}{4}$. Mixed number: whole number plus a proper fraction, e.g. $2\\frac{1}{4}$. Reciprocal: the flipped fraction, e.g. $\\frac{4}{9}$ for $\\frac{9}{4}$."
+  },
+  {
+    "id": "m9.num.fractions.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What is the correct way to write the answer to $\\frac{1}{4} - \\frac{2}{3}$?",
+    "options": [
+      { "id": "a", "text": "$-\\frac{5}{12}$" },
+      { "id": "b", "text": "$\\frac{5}{-12}$" },
+      { "id": "c", "text": "$\\frac{5}{12}$" },
+      { "id": "d", "text": "$-1$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This has the right value, but a fraction answer should have a positive whole-number denominator. Put the negative sign in front.",
+      "c": "$\\frac{2}{3}$ is bigger than $\\frac{1}{4}$, so the answer must be negative.",
+      "d": "This subtracts the tops ($1 - 2$) and the bottoms ($4 - 3$). Use a common denominator instead."
+    },
+    "hints": ["Use a common denominator of 12.", "Which fraction is bigger? What does that tell you about the sign?"],
+    "solution": "$\\frac{1}{4} - \\frac{2}{3} = \\frac{3}{12} - \\frac{8}{12} = -\\frac{5}{12}$. The negative sign goes in front of the fraction (or on the numerator), and the denominator stays positive."
+  },
+  {
+    "id": "m9.num.fractions.q007",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the expressions that are equal to $\\frac{3}{4} \\div \\frac{1}{2}$.",
+    "options": [
+      { "id": "a", "text": "$\\frac{3}{4} \\times 2$" },
+      { "id": "b", "text": "$\\frac{3}{2}$" },
+      { "id": "c", "text": "$1\\frac{1}{2}$" },
+      { "id": "d", "text": "$\\frac{3}{8}$" },
+      { "id": "e", "text": "$\\frac{4}{3} \\times \\frac{1}{2}$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Dividing by $\\frac{1}{2}$ is the same as multiplying by 2.", "Work out the value, then check each option."],
+    "solution": "$\\frac{3}{4} \\div \\frac{1}{2} = \\frac{3}{4} \\times \\frac{2}{1} = \\frac{6}{4} = \\frac{3}{2} = 1\\frac{1}{2}$. Option d is $\\frac{3}{4} \\times \\frac{1}{2}$ (multiplying instead of dividing), and option e flips the wrong fraction (it equals $\\frac{2}{3}$)."
+  },
+  {
+    "id": "m9.num.fractions.q008",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A recipe uses $\\frac{3}{4}$ of a cup of sugar. Hana makes $2\\frac{1}{2}$ times the recipe. How many cups of sugar does she need? Give your answer as a mixed number.",
+    "answer": 1.875,
+    "form": "mixed",
+    "hints": ["Work out $\\frac{3}{4} \\times 2\\frac{1}{2}$.", "Change $2\\frac{1}{2}$ to an improper fraction first."],
+    "solution": "$\\frac{3}{4} \\times 2\\frac{1}{2} = \\frac{3}{4} \\times \\frac{5}{2} = \\frac{15}{8} = 1\\frac{7}{8}$ cups."
+  },
+  {
+    "id": "m9.num.fractions.q009",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama spends $\\frac{1}{3}$ of his pocket money on food and $\\frac{2}{5}$ of it on a game. What fraction of his pocket money is left? Give your answer in simplest form.",
+    "answer": 0.26666666666666666,
+    "form": "simplest-fraction",
+    "hints": ["The whole of his pocket money is 1.", "Add the two fractions he spent, then subtract from 1."],
+    "solution": "Spent: $\\frac{1}{3} + \\frac{2}{5} = \\frac{5}{15} + \\frac{6}{15} = \\frac{11}{15}$.\n\nLeft: $1 - \\frac{11}{15} = \\frac{15}{15} - \\frac{11}{15} = \\frac{4}{15}$."
+  },
+  {
+    "id": "m9.num.fractions.q010",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Without working out the answers, which is bigger: $\\frac{5}{6} \\div \\frac{2}{3}$ or $\\frac{5}{6} \\times \\frac{2}{3}$?",
+    "options": [
+      { "id": "a", "text": "$\\frac{5}{6} \\div \\frac{2}{3}$, because dividing by a number less than 1 makes it bigger" },
+      { "id": "b", "text": "$\\frac{5}{6} \\times \\frac{2}{3}$, because multiplying always makes a number bigger" },
+      { "id": "c", "text": "They are equal, because they use the same two fractions" },
+      { "id": "d", "text": "You can't tell without working them both out" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Multiplying by a number less than 1, like $\\frac{2}{3}$, makes a number smaller.",
+      "c": "× and ÷ are different operations, so the answers are different.",
+      "d": "You can reason about it: compare each answer with $\\frac{5}{6}$."
+    },
+    "hints": ["Is $\\frac{2}{3}$ more or less than 1?", "What happens to $\\frac{5}{6}$ when you multiply it by a number less than 1? When you divide by one?"],
+    "solution": "$\\frac{2}{3}$ is less than 1. Multiplying by it makes $\\frac{5}{6}$ smaller, and dividing by it makes $\\frac{5}{6}$ bigger, so the division is bigger. (Check: $\\frac{5}{6} \\div \\frac{2}{3} = \\frac{5}{4}$ and $\\frac{5}{6} \\times \\frac{2}{3} = \\frac{5}{9}$.)"
+  },
+  {
+    "id": "m9.num.fractions.q011",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Explain why dividing by $\\frac{1}{4}$ gives the same answer as multiplying by 4. Use an example in your explanation.",
+    "modelAnswer": "Dividing by $\\frac{1}{4}$ asks how many quarters fit into a number. For example, $3 \\div \\frac{1}{4}$ asks how many quarters are in 3. Each whole has 4 quarters, so 3 wholes have $3 \\times 4 = 12$ quarters. So $3 \\div \\frac{1}{4} = 12 = 3 \\times 4$. This works because 4 is the reciprocal of $\\frac{1}{4}$: dividing by a fraction is the same as multiplying by its reciprocal.",
+    "rubric": [
+      { "criterion": "Describes dividing by $\\frac{1}{4}$ as finding how many quarters fit in", "marks": 1 },
+      { "criterion": "Gives a correct worked example, e.g. $3 \\div \\frac{1}{4} = 12 = 3 \\times 4$", "marks": 1 },
+      { "criterion": "Links the idea to the reciprocal: 4 and $\\frac{1}{4}$ are reciprocals (multiply to give 1)", "marks": 1 }
+    ],
+    "hints": ["Think about how many quarters are in one whole.", "Try a small example, like $2 \\div \\frac{1}{4}$."],
+    "solution": "Each whole contains 4 quarters, so the number of quarters in $n$ is $n \\times 4$. For example, $3 \\div \\frac{1}{4} = 12 = 3 \\times 4$. In general, dividing by a fraction is the same as multiplying by its reciprocal."
+  }
+]

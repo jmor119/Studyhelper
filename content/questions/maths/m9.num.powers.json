@@ -1,0 +1,187 @@
+[
+  {
+    "id": "m9.num.powers.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "base", "text": "Base" }, "right": { "id": "m1", "text": "The number being multiplied, e.g. the 2 in $2^5$" } },
+      { "left": { "id": "exp", "text": "Exponent" }, "right": { "id": "m2", "text": "How many lots of the base are multiplied, e.g. the 5 in $2^5$" } },
+      { "left": { "id": "sq", "text": "Perfect square" }, "right": { "id": "m3", "text": "A whole number times itself, e.g. 49" } },
+      { "left": { "id": "rt", "text": "Square root" }, "right": { "id": "m4", "text": "The number that multiplies by itself to give a number, e.g. 7 for 49" } },
+      { "left": { "id": "sci", "text": "Scientific notation" }, "right": { "id": "m5", "text": "A number written as $a \\times 10^k$ with $1 \\le a < 10$" } }
+    ],
+    "hints": ["The exponent is also called the index or power."],
+    "solution": "Base: the number being multiplied. Exponent: how many lots of it. Perfect square: a whole number squared. Square root: the number that squares to give it. Scientific notation: $a \\times 10^k$ with $1 \\le a < 10$."
+  },
+  {
+    "id": "m9.num.powers.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is $3^4$?",
+    "options": [
+      { "id": "a", "text": "$81$" },
+      { "id": "b", "text": "$12$" },
+      { "id": "c", "text": "$7$" },
+      { "id": "d", "text": "$64$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is $3 \\times 4$. The exponent tells you how many 3s to multiply together.",
+      "c": "This is $3 + 4$.",
+      "d": "This is $4^3 = 4 \\times 4 \\times 4$. The base and exponent have been swapped."
+    },
+    "hints": ["$3^4$ means four 3s multiplied together."],
+    "solution": "$3^4 = 3 \\times 3 \\times 3 \\times 3 = 9 \\times 9 = 81$."
+  },
+  {
+    "id": "m9.num.powers.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is equal to 1?",
+    "options": [
+      { "id": "a", "text": "$7^0$" },
+      { "id": "b", "text": "$7^1$" },
+      { "id": "c", "text": "$0^7$" },
+      { "id": "d", "text": "$7^{-1}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$7^1 = 7$: one lot of 7.",
+      "c": "$0^7 = 0 \\times 0 \\times \\cdots = 0$.",
+      "d": "$7^{-1} = \\frac{1}{7}$."
+    },
+    "hints": ["Think about the pattern $7^2 = 49$, $7^1 = 7$, … Each step divides by 7."],
+    "solution": "Any non-zero number to the power 0 is 1, so $7^0 = 1$. (Pattern: $7^1 = 7$, and $7 \\div 7 = 1$.)"
+  },
+  {
+    "id": "m9.num.powers.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which shows $\\frac{1}{8}$ as a power of 2?",
+    "options": [
+      { "id": "a", "text": "$2^{-3}$" },
+      { "id": "b", "text": "$2^{3}$" },
+      { "id": "c", "text": "$-2^{3}$" },
+      { "id": "d", "text": "$2^{-4}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2^3 = 8$, not $\\frac{1}{8}$.",
+      "c": "$-2^3 = -8$. A negative exponent is different from a negative number.",
+      "d": "$2^{-4} = \\frac{1}{16}$."
+    },
+    "hints": ["$8 = 2^3$.", "One over a power of 2 means a negative exponent."],
+    "solution": "$8 = 2^3$, so $\\frac{1}{8} = \\frac{1}{2^3} = 2^{-3}$."
+  },
+  {
+    "id": "m9.num.powers.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "$10\\,000 = 10^n$. What is $n$?",
+    "answer": 4,
+    "form": "integer",
+    "hints": ["Count the zeros."],
+    "solution": "$10\\,000 = 10 \\times 10 \\times 10 \\times 10 = 10^4$, so $n = 4$."
+  },
+  {
+    "id": "m9.num.powers.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which statement about $\\sqrt{50}$ is true?",
+    "options": [
+      { "id": "a", "text": "It is between 7 and 8, and closer to 7" },
+      { "id": "b", "text": "It is between 7 and 8, and closer to 8" },
+      { "id": "c", "text": "It is between 25 and 26" },
+      { "id": "d", "text": "It is exactly 7" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "50 is much closer to $7^2 = 49$ than to $8^2 = 64$.",
+      "c": "That is half of 50. A square root is not half the number.",
+      "d": "$7^2 = 49$, not 50, so $\\sqrt{50}$ is a little more than 7."
+    },
+    "hints": ["Which perfect squares are just below and just above 50?"],
+    "solution": "$7^2 = 49$ and $8^2 = 64$, so $\\sqrt{50}$ is between 7 and 8. 50 is only 1 more than 49, so it is very close to 7. (In fact $\\sqrt{50} \\approx 7.07$.)"
+  },
+  {
+    "id": "m9.num.powers.q007",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the numbers that are written correctly in scientific notation.",
+    "options": [
+      { "id": "a", "text": "$3.2 \\times 10^{5}$" },
+      { "id": "b", "text": "$32 \\times 10^{4}$" },
+      { "id": "c", "text": "$0.5 \\times 10^{3}$" },
+      { "id": "d", "text": "$1 \\times 10^{-6}$" },
+      { "id": "e", "text": "$9.99 \\times 10^{2}$" },
+      { "id": "f", "text": "$10 \\times 10^{3}$" }
+    ],
+    "correct": ["a", "d", "e"],
+    "hints": ["In scientific notation, the front number must be at least 1 and less than 10."],
+    "solution": "The front number must satisfy $1 \\le a < 10$. That is true for 3.2, 1 and 9.99. It is false for 32, 0.5 and 10, so b, c and f are not in scientific notation (even though their values are fine)."
+  },
+  {
+    "id": "m9.num.powers.q008",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A spreadsheet shows the number 4.7E-05. What does this mean?",
+    "options": [
+      { "id": "a", "text": "$4.7 \\times 10^{-5} = 0.000047$" },
+      { "id": "b", "text": "$-4.7 \\times 10^{5} = -470\\,000$" },
+      { "id": "c", "text": "$4.7 - 5 = -0.3$" },
+      { "id": "d", "text": "$4.7 \\times 10^{-5} = 0.00047$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The negative sign belongs to the power of 10, not to the number.",
+      "c": "\"E\" means \"times ten to the power of\", not subtraction.",
+      "d": "Count the places: the decimal point moves 5 places left, giving 0.000047."
+    },
+    "hints": ["\"E\" stands for \"× 10 to the power of\".", "A negative power means a small number."],
+    "solution": "4.7E-05 means $4.7 \\times 10^{-5}$. Move the decimal point 5 places to the left: $0.000047$."
+  },
+  {
+    "id": "m9.num.powers.q009",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A red blood cell is about $7 \\times 10^{-6}$ m across. A grain of sand is about $5 \\times 10^{-4}$ m across. Which is bigger, and about how many times bigger?",
+    "options": [
+      { "id": "a", "text": "The grain of sand, about 70 times bigger" },
+      { "id": "b", "text": "The red blood cell, about 70 times bigger" },
+      { "id": "c", "text": "The grain of sand, about 2 times bigger" },
+      { "id": "d", "text": "The red blood cell, because 7 is bigger than 5" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$10^{-4}$ is bigger than $10^{-6}$ (−4 is bigger than −6), so the sand grain is bigger.",
+      "c": "Compare the ordinary numbers: 0.0005 and 0.000007.",
+      "d": "Compare the powers of 10 first, not the front numbers."
+    },
+    "hints": ["Compare the powers of 10 first.", "Write both as ordinary numbers, then divide the bigger by the smaller."],
+    "solution": "$5 \\times 10^{-4} = 0.0005$ and $7 \\times 10^{-6} = 0.000007$. The sand grain is bigger: $0.0005 \\div 0.000007 = 500 \\div 7 \\approx 71$, so it is about **70 times** bigger."
+  },
+  {
+    "id": "m9.num.powers.q010",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain, using a pattern, why $5^0 = 1$.",
+    "modelAnswer": "$5^3 = 125$, $5^2 = 25$ and $5^1 = 5$. Each time the exponent goes down by 1, the answer is divided by 5. So the next one, $5^0$, is $5 \\div 5 = 1$.",
+    "rubric": [
+      { "criterion": "Shows a pattern of decreasing powers of 5, e.g. $5^3 = 125$, $5^2 = 25$, $5^1 = 5$", "marks": 1 },
+      { "criterion": "Explains that each step divides by 5, so $5^0 = 5 \\div 5 = 1$", "marks": 1 }
+    ],
+    "hints": ["Write out $5^3$, $5^2$ and $5^1$.", "What do you do to get from each one to the next?"],
+    "solution": "$5^3 = 125 \\to 5^2 = 25 \\to 5^1 = 5 \\to 5^0 = 1$, dividing by 5 each time."
+  }
+]

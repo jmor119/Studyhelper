@@ -1,0 +1,387 @@
+[
+  {
+    "id": "s9.earth.rocks.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each type of rock to how it forms.",
+    "pairs": [
+      { "left": { "id": "ig", "text": "Igneous" }, "right": { "id": "cool", "text": "Molten rock (magma or lava) cools and hardens" } },
+      { "left": { "id": "sed", "text": "Sedimentary" }, "right": { "id": "layers", "text": "Layers of sediment are compacted and cemented" } },
+      { "left": { "id": "meta", "text": "Metamorphic" }, "right": { "id": "change", "text": "Existing rock is changed by heat and pressure" } }
+    ],
+    "hints": ["*Meta* means change, and *morph* means shape or form."],
+    "solution": "Igneous: cooled molten rock. Sedimentary: compacted and cemented layers of sediment. Metamorphic: rock changed by heat and pressure without melting."
+  },
+  {
+    "id": "s9.earth.rocks.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which layer of the Earth is the **thinnest**?",
+    "options": [
+      { "id": "a", "text": "Crust" },
+      { "id": "b", "text": "Mantle" },
+      { "id": "c", "text": "Outer core" },
+      { "id": "d", "text": "Inner core" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The mantle is the thickest layer, about 2900 km.",
+      "c": "The outer core is about 2200 km thick.",
+      "d": "The inner core is over 1000 km in radius."
+    },
+    "hints": ["One layer is only tens of kilometres thick. The others are thousands of kilometres thick."],
+    "solution": "The **crust** is only about 5–50 km thick, very thin compared with the whole Earth, whose radius is about 6400 km. It's like the skin on an apple."
+  },
+  {
+    "id": "s9.earth.rocks.q003",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is molten rock called once it has come out onto Earth's surface?",
+    "accepted": ["lava"],
+    "hints": ["Underground it is called magma."],
+    "solution": "**Lava.** Molten rock underground is magma; when it erupts onto the surface it is called lava."
+  },
+  {
+    "id": "s9.earth.rocks.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "From the outside in, Earth's layers are the crust, the [[a]], the outer core and the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["mantle"], "options": ["mantle", "magma", "inner core"] },
+      { "id": "b", "accepted": ["inner core"], "options": ["inner core", "mantle", "crust"] }
+    ],
+    "hints": ["The thickest layer lies just under the crust."],
+    "solution": "Crust → **mantle** → outer core → **inner core**."
+  },
+  {
+    "id": "s9.earth.rocks.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which rock is most likely to contain **fossils**?",
+    "options": [
+      { "id": "a", "text": "Limestone" },
+      { "id": "b", "text": "Granite" },
+      { "id": "c", "text": "Basalt" },
+      { "id": "d", "text": "Marble" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Granite is igneous. It formed from molten rock, which would destroy any remains of living things.",
+      "c": "Basalt is igneous. It formed from lava, so fossils are very unlikely.",
+      "d": "Marble is metamorphic. The heat and pressure that formed it usually destroy fossils."
+    },
+    "hints": ["Fossils form when remains are buried in layers of sediment."],
+    "solution": "**Limestone** is a sedimentary rock, often made from the shells and skeletons of sea creatures, so it often contains fossils. Igneous rocks formed from molten rock, and metamorphic rocks were changed by heat and pressure, so fossils rarely survive in them."
+  },
+  {
+    "id": "s9.earth.rocks.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What is the difference between **weathering** and **erosion**?",
+    "options": [
+      { "id": "a", "text": "Weathering breaks rock down; erosion moves the pieces away" },
+      { "id": "b", "text": "Weathering moves rock; erosion breaks it down" },
+      { "id": "c", "text": "They are two words for the same thing" },
+      { "id": "d", "text": "Weathering only happens in cold places; erosion only happens in hot places" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's the wrong way round.",
+      "c": "They are linked, but they are different processes.",
+      "d": "Both happen everywhere, though freeze–thaw weathering needs freezing temperatures."
+    },
+    "hints": ["A rock can be broken up while it stays in the same place."],
+    "solution": "**Weathering** breaks rock into smaller pieces where it is. **Erosion** moves those pieces away, carried by water, wind, ice or gravity."
+  },
+  {
+    "id": "s9.earth.rocks.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "New Zealand sits on the boundary between the Pacific Plate and the [[a]] Plate.",
+    "blanks": [
+      { "id": "a", "accepted": ["Australian", "Indo-Australian", "Australia"] }
+    ],
+    "hints": ["This plate lies to the west of New Zealand, under the Tasman Sea."],
+    "solution": "New Zealand sits on the boundary between the Pacific Plate and the **Australian** Plate. Their movement causes our earthquakes and volcanoes."
+  },
+  {
+    "id": "s9.earth.rocks.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Which of these can **erode** rock (carry broken pieces away)? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Rivers" },
+      { "id": "b", "text": "Wind" },
+      { "id": "c", "text": "Glaciers" },
+      { "id": "d", "text": "Gravity (landslides)" },
+      { "id": "e", "text": "Magma" },
+      { "id": "f", "text": "Moonlight" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Erosion needs something that can pick up and move pieces of rock."],
+    "solution": "**Rivers, wind, glaciers and gravity** (as well as waves) all move weathered rock. Magma is molten rock underground, and moonlight can't move anything."
+  },
+  {
+    "id": "s9.earth.rocks.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Which metamorphic rock forms when **limestone** is heated and squeezed deep underground?",
+    "accepted": ["marble"],
+    "hints": ["It's often polished and used for statues and kitchen benches."],
+    "solution": "**Marble.** Tākaka Hill, near Nelson, is made of marble."
+  },
+  {
+    "id": "s9.earth.rocks.q010",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name for a crack in Earth's crust where blocks of rock move past each other?",
+    "accepted": ["fault", "a fault", "fault line", "faults"],
+    "hints": ["Earthquakes happen when rocks suddenly slip along one of these."],
+    "solution": "A **fault**. When stress builds up along a fault and the rocks suddenly slip, we feel an earthquake."
+  },
+  {
+    "id": "s9.earth.rocks.q011",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Which layer of the Earth is made of **liquid** iron and nickel?",
+    "accepted": ["outer core", "the outer core"],
+    "hints": ["The core has two parts, and only one of them is liquid."],
+    "solution": "The **outer core** is liquid iron and nickel. The inner core is also iron and nickel, but it is solid because of the huge pressure."
+  },
+  {
+    "id": "s9.earth.rocks.q012",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the things that make up soil.",
+    "options": [
+      { "id": "a", "text": "Small particles of weathered rock" },
+      { "id": "b", "text": "Humus (decayed plant and animal material)" },
+      { "id": "c", "text": "Water" },
+      { "id": "d", "text": "Air" },
+      { "id": "e", "text": "Magma" },
+      { "id": "f", "text": "Liquid iron" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Soil forms at the surface from rock and once-living material.", "Worms and plant roots need something to breathe in the soil."],
+    "solution": "Soil is a mixture of **weathered rock particles**, **humus**, **water** and **air**, plus living things such as worms, fungi and bacteria. Magma and liquid iron are found deep inside the Earth."
+  },
+  {
+    "id": "s9.earth.rocks.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Granite has large crystals that you can see easily. What does this tell you about how it formed?",
+    "options": [
+      { "id": "a", "text": "Magma cooled slowly deep underground, giving the crystals time to grow" },
+      { "id": "b", "text": "Lava cooled quickly at the surface" },
+      { "id": "c", "text": "Layers of sand were squashed together" },
+      { "id": "d", "text": "It was squeezed so hard that its crystals grew" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Quick cooling at the surface gives tiny crystals, as in basalt.",
+      "c": "That describes a sedimentary rock such as sandstone, which is made of grains, not crystals that grew from molten rock.",
+      "d": "Granite is igneous: it formed from molten rock, not by squeezing."
+    },
+    "hints": ["Crystals grow while molten rock is cooling. More time means bigger crystals."],
+    "solution": "Large crystals mean the magma **cooled slowly**, which happens deep underground, where the surrounding rock keeps it insulated. The crystals had plenty of time to grow. Granite is an igneous rock."
+  },
+  {
+    "id": "s9.earth.rocks.q014",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put the stages of fossil formation in order.",
+    "items": [
+      { "id": "die", "text": "A sea creature dies and sinks to the sea floor" },
+      { "id": "bury", "text": "It is quickly buried by sediment, and its soft parts rot away" },
+      { "id": "replace", "text": "Over millions of years, minerals replace the hard parts, such as shell and bone" },
+      { "id": "expose", "text": "The rock is pushed up and eroded, exposing the fossil" }
+    ],
+    "hints": ["The organism has to be covered before it can be preserved.", "The last step brings the fossil back to the surface."],
+    "solution": "Dies → quickly buried (the soft parts rot away) → minerals replace the hard parts over millions of years → uplift and erosion expose the fossil."
+  },
+  {
+    "id": "s9.earth.rocks.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "How do the plates mainly move along the **Alpine Fault** in the South Island?",
+    "options": [
+      { "id": "a", "text": "They slide past each other sideways" },
+      { "id": "b", "text": "One plate sinks down beneath the other" },
+      { "id": "c", "text": "They move apart, and new crust forms between them" },
+      { "id": "d", "text": "They don't move at all" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's subduction, which happens under the North Island.",
+      "c": "That happens at mid-ocean ridges, not in New Zealand.",
+      "d": "The plates move a few centimetres each year, and that's why the fault produces large earthquakes."
+    },
+    "hints": ["Rocks on either side of the fault have been shifted about 480 km along it."],
+    "solution": "Along the Alpine Fault the Pacific and Australian Plates mainly **slide past each other sideways**. They are also squeezed together, which pushes up the Southern Alps."
+  },
+  {
+    "id": "s9.earth.rocks.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which statement about Earth's **mantle** is correct?",
+    "options": [
+      { "id": "a", "text": "It is mostly solid rock that is hot enough to flow very slowly" },
+      { "id": "b", "text": "It is a layer of liquid magma" },
+      { "id": "c", "text": "It is the thinnest layer of the Earth" },
+      { "id": "d", "text": "It is made of solid iron and nickel" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is a common mistake. The mantle is mostly solid. Magma forms only where rock melts, for example above a subducting plate.",
+      "c": "The crust is the thinnest. The mantle is the thickest layer, about 2900 km.",
+      "d": "That describes the inner core."
+    },
+    "hints": ["It behaves a bit like very thick toffee."],
+    "solution": "The mantle is very hot rock that is **mostly solid but can flow very slowly**. Convection currents in the mantle help to move the tectonic plates."
+  },
+  {
+    "id": "s9.earth.rocks.q017",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Rocks at the surface are broken down by [[a]] and carried away by erosion. The sediment is deposited in layers, then compacted and cemented to form [[b]] rock. If this rock is buried deeply and heated and squeezed, it becomes [[c]] rock.",
+    "blanks": [
+      { "id": "a", "accepted": ["weathering"] },
+      { "id": "b", "accepted": ["sedimentary"] },
+      { "id": "c", "accepted": ["metamorphic"] }
+    ],
+    "hints": ["The process that breaks rock in place comes before erosion.", "Think about what the second rock is made from."],
+    "solution": "**Weathering** breaks rock down; the sediment forms **sedimentary** rock; heat and pressure turn it into **metamorphic** rock."
+  },
+  {
+    "id": "s9.earth.rocks.q018",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain how **freeze–thaw** weathering breaks up rocks high in the Southern Alps.",
+    "modelAnswer": "Rainwater or melted snow seeps into cracks in the rock. At night the water freezes and expands as it turns to ice, which pushes the crack wider. During the day the ice melts, and the water seeps further in. Freezing and thawing again and again widens the crack until pieces of rock break off.",
+    "rubric": [
+      { "criterion": "Water gets into cracks and expands when it freezes, pushing the crack wider", "marks": 1 },
+      { "criterion": "Repeated freezing and thawing widens the crack until pieces break off", "marks": 1 }
+    ],
+    "hints": ["What happens to the volume of water when it freezes?", "Why does this happen many times in the mountains?"],
+    "solution": "Water in cracks expands as it freezes, levering the crack open. Repeated day–night freezing and thawing eventually splits pieces off. That's why there are piles of broken rock (scree) on mountain slopes."
+  },
+  {
+    "id": "s9.earth.rocks.q019",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Suppose the rocks on either side of the Alpine Fault move past each other by about 3 cm each year. How far would they move in 1000 years? Give your answer in **metres**.",
+    "answer": 30,
+    "units": "m",
+    "hints": ["First find the distance in centimetres.", "There are 100 cm in 1 m."],
+    "solution": "$3 \\times 1000 = 3000$ cm, and $3000 \\div 100 = $ **30 m**. Over millions of years, small yearly movements add up to hundreds of kilometres."
+  },
+  {
+    "id": "s9.earth.rocks.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Describe how a piece of sandstone (a sedimentary rock) could eventually become part of an igneous rock. Name the processes involved.",
+    "modelAnswer": "The sandstone is buried deeper and deeper (for example as plates push together). The heat and pressure change it into a metamorphic rock (quartzite) without melting it. If it is carried deep enough to get even hotter, it melts and becomes magma. The magma then rises and cools and hardens, either underground or as lava at the surface, forming igneous rock.",
+    "rubric": [
+      { "criterion": "Buried deeply, heat and pressure change it into metamorphic rock", "marks": 1 },
+      { "criterion": "At high enough temperatures the rock melts to form magma", "marks": 1 },
+      { "criterion": "The magma cools and hardens (crystallises) to form igneous rock", "marks": 1 }
+    ],
+    "hints": ["What must happen to any rock before it can become igneous?", "There's usually a stage in between, as it gets buried deeper."],
+    "solution": "Burial → heat and pressure → metamorphic rock → melting → magma → cooling → igneous rock. (A sedimentary rock can also melt directly if it gets hot enough.)"
+  },
+  {
+    "id": "s9.earth.rocks.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A cliff shows three layers of sedimentary rock that have not been disturbed. The **bottom** layer contains fossil sea shells. The **middle** layer contains fossil leaves. The **top** layer contains no fossils. Which conclusion is best supported?",
+    "options": [
+      { "id": "a", "text": "The bottom layer is the oldest, and the area was once under the sea" },
+      { "id": "b", "text": "The top layer is the oldest because it has been exposed the longest" },
+      { "id": "c", "text": "All three layers formed at the same time" },
+      { "id": "d", "text": "The area has always been dry land" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Layers are laid down one on top of another, so the top layer is the youngest.",
+      "c": "Sediment builds up layer by layer over long periods of time.",
+      "d": "Fossil sea shells show that the area was once covered by the sea."
+    },
+    "hints": ["Which layer had to be laid down first?", "What do sea-shell fossils tell you about where that layer formed?"],
+    "solution": "In undisturbed layers, the **lowest is the oldest**, because each layer settles on top of the one before. Sea-shell fossils show that the bottom layer formed under the sea. The fossil leaves in the layer above suggest land plants grew nearby later."
+  },
+  {
+    "id": "s9.earth.rocks.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Fossils of sea shells are found in rocks high up in some of New Zealand's mountain ranges. What is the best explanation?",
+    "options": [
+      { "id": "a", "text": "The rocks formed under the sea and were later pushed up by plate movements" },
+      { "id": "b", "text": "Birds carried the shells up the mountains" },
+      { "id": "c", "text": "The sea used to cover the tops of the mountains as they are today" },
+      { "id": "d", "text": "The shellfish lived on the mountains" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Birds might move a few shells, but not whole layers of rock full of fossils.",
+      "c": "The rocks have moved up; the sea hasn't risen thousands of metres.",
+      "d": "These shells come from sea creatures, which can't live on land."
+    },
+    "hints": ["Where do sea shells form? How could that rock end up high on a mountain?"],
+    "solution": "The shells were buried in sediment on the **sea floor**, which became sedimentary rock. Over millions of years, plate movements **pushed the rock up** to form mountains. This is how fossils give evidence of past environments and Earth's movements."
+  },
+  {
+    "id": "s9.earth.rocks.q023",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which of these are mainly caused by the plates squeezing and sliding along the **Alpine Fault**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "The Southern Alps being pushed up" },
+      { "id": "b", "text": "Large earthquakes on the West Coast of the South Island" },
+      { "id": "c", "text": "Rock layers and streams that have been shifted sideways along the fault" },
+      { "id": "d", "text": "The volcanoes of the Taupō Volcanic Zone" },
+      { "id": "e", "text": "The geysers at Rotorua" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["The Alpine Fault is in the South Island.", "What causes the volcanoes and geysers of the central North Island?"],
+    "solution": "Along the Alpine Fault, squeezing pushes up the **Southern Alps**, sudden slips cause **large earthquakes**, and sideways movement **shifts rocks and streams**. The Taupō volcanoes and Rotorua's geysers come from subduction under the North Island."
+  },
+  {
+    "id": "s9.earth.rocks.q024",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 4,
+    "prompt": "The plate boundary behaves differently under the North Island and the South Island. Compare the two, and explain why the North Island has active volcanoes but the South Island does not.",
+    "modelAnswer": "Under the North Island, the Pacific Plate is subducting (sliding down) beneath the Australian Plate. As it goes deep into the hot mantle, rock melts to form magma, which rises and feeds the volcanoes of the Taupō Volcanic Zone. In the South Island, the plates mainly slide past each other along the Alpine Fault, and are squeezed together, pushing up the Southern Alps. There is no subduction along the Alpine Fault, so no magma forms under the South Island. It has large earthquakes but no active volcanoes.",
+    "rubric": [
+      { "criterion": "North Island: the Pacific Plate subducts beneath the Australian Plate", "marks": 1 },
+      { "criterion": "Subduction carries rock deep into the hot mantle, where melting makes magma that rises to form volcanoes (Taupō Volcanic Zone)", "marks": 1 },
+      { "criterion": "South Island: the plates slide past each other (and push together) along the Alpine Fault", "marks": 1 },
+      { "criterion": "No subduction along the Alpine Fault, so no magma forms under the South Island: earthquakes and mountains, but no active volcanoes", "marks": 1 }
+    ],
+    "hints": ["What does one plate do under the North Island?", "Volcanoes need magma. Where does magma come from?"],
+    "solution": "North Island: subduction → melting → magma → volcanoes. South Island: sideways sliding and squeezing along the Alpine Fault → earthquakes and the Southern Alps, but no magma, so no active volcanoes."
+  },
+  {
+    "id": "s9.earth.rocks.q025",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Limestone areas such as Waitomo have many caves, but granite areas have very few. Which explanation is best?",
+    "options": [
+      { "id": "a", "text": "Rainwater is slightly acidic, so it slowly dissolves limestone (calcium carbonate), but it barely affects granite" },
+      { "id": "b", "text": "Limestone is much softer, so rivers wear caves straight through it" },
+      { "id": "c", "text": "Granite is too hot underground for caves to form" },
+      { "id": "d", "text": "Caves form only in igneous rocks, and limestone is igneous" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Rivers do some of the work, but the key process is chemical: acidic water dissolves the limestone.",
+      "c": "Granite near the surface is not hot. The difference is how the rocks react with water.",
+      "d": "Limestone is sedimentary, and caves like Waitomo are not formed in igneous rock."
+    },
+    "hints": ["Rain absorbs some carbon dioxide from the air. What does that make it?", "Limestone is calcium carbonate. What happens when an acid meets a carbonate?"],
+    "solution": "Rain dissolves a little carbon dioxide from the air, so it is **slightly acidic**. Limestone is calcium carbonate, which reacts with acids, so over a very long time the water **dissolves** channels and caves through it. This is chemical weathering. Granite doesn't react with weak acid in the same way."
+  }
+]

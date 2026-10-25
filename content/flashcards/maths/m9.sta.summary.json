@@ -1,0 +1,13 @@
+[
+  { "id": "m9.sta.summary.f01", "front": "How do you find the mean?", "back": "Add all the values, then divide by the number of values." },
+  { "id": "m9.sta.summary.f02", "front": "How do you find the median?", "back": "Put the data in order and take the middle value (or halfway between the two middle values)." },
+  { "id": "m9.sta.summary.f03", "front": "What is the mode?", "back": "The value that occurs most often. A data set can have more than one mode, or none." },
+  { "id": "m9.sta.summary.f04", "front": "Range", "back": "Maximum − minimum. A simple measure of spread." },
+  { "id": "m9.sta.summary.f05", "front": "Lower quartile ($Q_1$)", "back": "The median of the lower half of the ordered data." },
+  { "id": "m9.sta.summary.f06", "front": "Upper quartile ($Q_3$)", "back": "The median of the upper half of the ordered data." },
+  { "id": "m9.sta.summary.f07", "front": "Finding quartiles when there is an odd number of values", "back": "Leave the median out of both halves, then find the median of each half." },
+  { "id": "m9.sta.summary.f08", "front": "Interquartile range (IQR)", "back": "$\\text{IQR} = Q_3 - Q_1$: the spread of the middle half of the data." },
+  { "id": "m9.sta.summary.f09", "front": "Five-number summary", "back": "Minimum, lower quartile, median, upper quartile, maximum." },
+  { "id": "m9.sta.summary.f10", "front": "Why is the IQR often better than the range?", "back": "It ignores the top and bottom quarters, so one extreme value (outlier) hardly changes it." },
+  { "id": "m9.sta.summary.f11", "front": "If you know the mean and the number of values, how do you find the total?", "back": "Total = mean × number of values." }
+]

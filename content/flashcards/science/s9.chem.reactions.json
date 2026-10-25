@@ -1,0 +1,22 @@
+[
+  { "id": "s9.chem.reactions.f01", "front": "What is a **physical change**?", "back": "A change where no new substance is made, often easy to reverse, e.g. melting, dissolving or cutting." },
+  { "id": "s9.chem.reactions.f02", "front": "What is a **chemical change**?", "back": "A change that makes one or more new substances, usually hard to reverse, e.g. burning, rusting or cooking." },
+  { "id": "s9.chem.reactions.f03", "front": "Five signs of a chemical reaction", "back": "A gas is given off, a colour change, a temperature change, a precipitate forms, or light or sound is given off." },
+  { "id": "s9.chem.reactions.f04", "front": "What is a **precipitate**?", "back": "An insoluble solid that forms when two solutions react, making the mixture cloudy." },
+  { "id": "s9.chem.reactions.f05", "front": "**Reactants** and **products**", "back": "Reactants are the substances you start with (left of the arrow). Products are the new substances made (right of the arrow)." },
+  { "id": "s9.chem.reactions.f06", "front": "In a word equation, what do '+' and '→' mean?", "back": "'+' means 'and'. '→' means 'react to make'." },
+  { "id": "s9.chem.reactions.f07", "front": "What is **conservation of mass**?", "back": "In a reaction, atoms are rearranged but not created or destroyed, so the total mass of the products equals the total mass of the reactants." },
+  { "id": "s9.chem.reactions.f08", "front": "**Exothermic** reaction", "back": "Gives out heat energy, so the temperature rises, e.g. combustion, respiration or neutralisation." },
+  { "id": "s9.chem.reactions.f09", "front": "**Endothermic** reaction", "back": "Takes in energy, so the temperature falls, e.g. photosynthesis, or citric acid + baking soda." },
+  { "id": "s9.chem.reactions.f10", "front": "What is **combustion**?", "back": "Burning: a fuel reacting with oxygen, giving out heat and light. Fuel + oxygen → carbon dioxide + water (for fuels containing carbon and hydrogen)." },
+  { "id": "s9.chem.reactions.f11", "front": "What is incomplete combustion?", "back": "Burning with too little oxygen. It makes soot (carbon) and poisonous carbon monoxide, and gives a yellow flame." },
+  { "id": "s9.chem.reactions.f12", "front": "The **fire triangle**", "back": "A fire needs fuel, heat and oxygen. Remove any one and the fire goes out." },
+  { "id": "s9.chem.reactions.f13", "front": "What is **oxidation**?", "back": "A reaction in which a substance combines with oxygen, e.g. burning and rusting." },
+  { "id": "s9.chem.reactions.f14", "front": "Word equation for **rusting**", "back": "iron + oxygen + water → rust (hydrated iron oxide)" },
+  { "id": "s9.chem.reactions.f15", "front": "How can rusting be prevented?", "back": "Keep oxygen and water away from the iron: paint, oil or grease, galvanising (a zinc coating) or a plastic coating." },
+  { "id": "s9.chem.reactions.f16", "front": "Word equation for **respiration**", "back": "glucose + oxygen → carbon dioxide + water (+ energy). It is exothermic and happens mainly in the mitochondria." },
+  { "id": "s9.chem.reactions.f17", "front": "Word equation for **photosynthesis**", "back": "carbon dioxide + water → glucose + oxygen (using light energy). It is endothermic and happens in the chloroplasts." },
+  { "id": "s9.chem.reactions.f18", "front": "Test for **hydrogen**", "back": "A lit splint held at the mouth of the tube gives a squeaky pop." },
+  { "id": "s9.chem.reactions.f19", "front": "Test for **oxygen**", "back": "It relights a glowing splint." },
+  { "id": "s9.chem.reactions.f20", "front": "Test for **carbon dioxide**", "back": "It turns limewater milky (cloudy)." }
+]

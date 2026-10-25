@@ -1,0 +1,14 @@
+[
+  { "id": "m9.sta.interpreting.f01", "front": "Outlier", "back": "A value that is much larger or much smaller than the rest of the data." },
+  { "id": "m9.sta.interpreting.f02", "front": "Which is affected more by an outlier: the mean or the median?", "back": "The mean. The median (and the IQR) hardly change." },
+  { "id": "m9.sta.interpreting.f03", "front": "Trend", "back": "The overall direction of the data, e.g. values rising over time or as another variable increases." },
+  { "id": "m9.sta.interpreting.f04", "front": "Variation", "back": "The natural differences between values. Another set of data would give slightly different results by chance." },
+  { "id": "m9.sta.interpreting.f05", "front": "What three parts should a good statistical statement have?", "back": "A claim, evidence (statistics with units) and context." },
+  { "id": "m9.sta.interpreting.f06", "front": "Why say \"tended to\" instead of \"always\"?", "back": "Data varies and groups overlap, so claims must allow for uncertainty." },
+  { "id": "m9.sta.interpreting.f07", "front": "Bias", "back": "When the way data is collected makes results lean one way, e.g. the people asked aren't representative." },
+  { "id": "m9.sta.interpreting.f08", "front": "Leading question", "back": "A survey question that pushes people towards an answer, e.g. \"Don't you agree…?\"" },
+  { "id": "m9.sta.interpreting.f09", "front": "Why is a bar graph axis that doesn't start at 0 misleading?", "back": "It cuts off the bottom of the bars, so small differences look much bigger than they are." },
+  { "id": "m9.sta.interpreting.f10", "front": "A picture is doubled in height and width. How much bigger does it look?", "back": "Four times the area, even though the amount only doubled." },
+  { "id": "m9.sta.interpreting.f11", "front": "Does a relationship in a scatter plot prove one thing causes the other?", "back": "No. It shows the variables are related, not that one causes the other." },
+  { "id": "m9.sta.interpreting.f12", "front": "Questions to ask about how data was collected", "back": "Who was asked, how many, how the question was worded, and who collected it (and why)." }
+]

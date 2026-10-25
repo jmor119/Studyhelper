@@ -1,0 +1,19 @@
+[
+  { "id": "s9.chem.particles.f01", "front": "What are the main ideas of the **particle model**?", "back": "All matter is made of tiny particles that are always moving, with spaces between them and forces of attraction pulling them together." },
+  { "id": "s9.chem.particles.f02", "front": "Particles in a **solid**", "back": "Packed closely in a regular pattern, vibrating in fixed positions. Fixed shape and volume." },
+  { "id": "s9.chem.particles.f03", "front": "Particles in a **liquid**", "back": "Close together but jumbled, able to slide past each other. Fixed volume, but takes the shape of its container." },
+  { "id": "s9.chem.particles.f04", "front": "Particles in a **gas**", "back": "Far apart, moving quickly and randomly in all directions. Fills its container and is easy to squash." },
+  { "id": "s9.chem.particles.f05", "front": "What is **melting**?", "back": "Solid → liquid. The particles gain energy and break out of their fixed positions." },
+  { "id": "s9.chem.particles.f06", "front": "What is **freezing**?", "back": "Liquid → solid. The particles lose energy and are pulled into fixed positions. It happens at the same temperature as melting." },
+  { "id": "s9.chem.particles.f07", "front": "What is **evaporation**?", "back": "Liquid → gas at the surface of a liquid. It can happen at any temperature." },
+  { "id": "s9.chem.particles.f08", "front": "What is **boiling**?", "back": "Liquid → gas throughout the liquid, at the boiling point. Water boils at 100 °C at sea level." },
+  { "id": "s9.chem.particles.f09", "front": "What is **condensation**?", "back": "Gas → liquid. The particles lose energy and come together, e.g. droplets on a cold mirror." },
+  { "id": "s9.chem.particles.f10", "front": "What is **sublimation**?", "back": "Solid → gas without becoming a liquid first, e.g. dry ice (solid carbon dioxide)." },
+  { "id": "s9.chem.particles.f11", "front": "What is **diffusion**?", "back": "The spreading of particles from an area of high concentration to an area of low concentration, caused by their random movement." },
+  { "id": "s9.chem.particles.f12", "front": "How does temperature affect particles?", "back": "Higher temperature → particles have more energy and move faster, so diffusion and evaporation speed up." },
+  { "id": "s9.chem.particles.f13", "front": "Why does the temperature stay the same while ice melts?", "back": "The energy goes into overcoming the forces between the particles, not into making them move faster." },
+  { "id": "s9.chem.particles.f14", "front": "Do particles get bigger when they are heated?", "back": "No. They move faster and spread further apart. The particles themselves stay the same size." },
+  { "id": "s9.chem.particles.f15", "front": "What is a **physical property**?", "back": "A property you can observe or measure without making a new substance, e.g. melting point, density, colour or conductivity." },
+  { "id": "s9.chem.particles.f16", "front": "How do you predict a substance's state from its melting and boiling points?", "back": "Below the melting point: solid. Between the melting and boiling points: liquid. Above the boiling point: gas." },
+  { "id": "s9.chem.particles.f17", "front": "Evaporation vs boiling", "back": "Evaporation: only at the surface, at any temperature. Boiling: throughout the liquid, only at the boiling point." }
+]

@@ -1,6 +1,7 @@
 import type { QuestionTemplate } from '../../types';
 import { num, round, tex } from '../../format';
-import { polygon, rightAngleMark, sideLabel, svgDoc, type Pt } from '../../svg';
+import { polygon, rightAngleMark, svgDoc, type Pt } from '../../svg';
+import { centroid, labelAway } from './figures';
 
 // m9.mea.pythagoras — Year 9 finds the hypotenuse and checks for right angles
 // (finding a shorter side is Year 10).
@@ -25,16 +26,16 @@ function rightTriangle(a: number, b: number, labels: { a: string; b: string; c: 
   const s = Math.min(maxW / b, maxH / a);
   const w = Math.max(60, b * s);
   const h = Math.max(50, a * s);
-  const A: Pt = { x: 50, y: 30 + h }; // right angle
-  const B: Pt = { x: 50 + w, y: 30 + h };
-  const C: Pt = { x: 50, y: 30 };
+  const A: Pt = { x: 70, y: 30 + h }; // right angle
+  const B: Pt = { x: 70 + w, y: 30 + h };
+  const C: Pt = { x: 70, y: 30 };
   const body =
     polygon([A, B, C]) +
     rightAngleMark(A, B, C) +
-    sideLabel(C, A, labels.a, 18) +
-    sideLabel(A, B, labels.b, 18) +
-    sideLabel(B, C, labels.c, 18);
-  return { svg: svgDoc(w + 110, h + 75, body), w, h };
+    labelAway(C, A, centroid([A, B, C]), labels.a) +
+    labelAway(A, B, centroid([A, B, C]), labels.b) +
+    labelAway(B, C, centroid([A, B, C]), labels.c);
+  return { svg: svgDoc(w + 160, h + 80, body), w, h };
 }
 
 export const hypotenuse: QuestionTemplate = {

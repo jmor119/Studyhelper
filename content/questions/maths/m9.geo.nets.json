@@ -1,0 +1,165 @@
+[
+  {
+    "id": "m9.geo.nets.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "face", "text": "Face" }, "right": { "id": "flat", "text": "A flat surface of a solid" } },
+      { "left": { "id": "edge", "text": "Edge" }, "right": { "id": "meet", "text": "A line where two faces meet" } },
+      { "left": { "id": "vertex", "text": "Vertex" }, "right": { "id": "corner", "text": "A corner where edges meet" } },
+      { "left": { "id": "apex", "text": "Apex" }, "right": { "id": "top", "text": "The point where the triangular faces of a pyramid meet" } },
+      { "left": { "id": "net", "text": "Net" }, "right": { "id": "flatpattern", "text": "A flat pattern that folds up to make a solid" } },
+      { "left": { "id": "cross", "text": "Cross-section" }, "right": { "id": "slice", "text": "The shape you see when you slice through a solid" } }
+    ],
+    "hints": ["The plural of vertex is vertices."],
+    "solution": "Face: flat surface. Edge: where two faces meet. Vertex: a corner. Apex: the top point of a pyramid. Net: flat pattern that folds into a solid. Cross-section: the shape of a slice."
+  },
+  {
+    "id": "m9.geo.nets.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these solids is **not** a prism?",
+    "options": [
+      { "id": "a", "text": "Square-based pyramid" },
+      { "id": "b", "text": "Cube" },
+      { "id": "c", "text": "Cuboid" },
+      { "id": "d", "text": "Triangular prism" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A cube has identical square ends joined by square faces, and the same cross-section all the way through, so it is a prism.",
+      "c": "A cuboid is a rectangular prism.",
+      "d": "It has two identical triangular ends joined by rectangles."
+    },
+    "hints": ["A prism has the same cross-section all the way through."],
+    "solution": "A **square-based pyramid** narrows to a point (the apex), so its cross-section changes. It is a pyramid, not a prism."
+  },
+  {
+    "id": "m9.geo.nets.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the solids that are **pyramids**.",
+    "options": [
+      { "id": "a", "text": "Tetrahedron (triangular pyramid)" },
+      { "id": "b", "text": "Square-based pyramid" },
+      { "id": "c", "text": "Hexagonal pyramid" },
+      { "id": "d", "text": "Cone" },
+      { "id": "e", "text": "Triangular prism" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["A pyramid has a polygon base and flat triangular faces meeting at an apex.", "A cone has a curved surface."],
+    "solution": "The tetrahedron, square-based pyramid and hexagonal pyramid are pyramids. A cone has a circular base and a curved surface, so it is not a pyramid. A triangular prism is a prism."
+  },
+  {
+    "id": "m9.geo.nets.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "A cylinder stands upright on one of its circular ends. What shape is its **plan view** (the view from directly above)?",
+    "options": [
+      { "id": "a", "text": "A circle" },
+      { "id": "b", "text": "A rectangle" },
+      { "id": "c", "text": "An oval" },
+      { "id": "d", "text": "A square" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rectangle is what you see from the front or the side.",
+      "c": "An oval appears when you look at the end at an angle. A plan view looks straight down.",
+      "d": "There are no corners when you look down on a cylinder."
+    },
+    "hints": ["Imagine looking straight down on a can of drink."],
+    "solution": "Looking straight down you see the circular top, so the plan view is a **circle**. The front and side views are rectangles."
+  },
+  {
+    "id": "m9.geo.nets.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A square-based pyramid stands on its base. What does its **front view** look like?",
+    "options": [
+      { "id": "a", "text": "A triangle" },
+      { "id": "b", "text": "A square with both diagonals drawn" },
+      { "id": "c", "text": "A square" },
+      { "id": "d", "text": "A rectangle" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the **plan view**: from above you see the square base with the four sloping edges meeting at the apex in the middle.",
+      "c": "A plain square is what you would see from directly underneath. From the front, the sloping faces narrow to a point.",
+      "d": "The faces narrow to a point, so the front view can't have a flat top."
+    },
+    "hints": ["Imagine standing in front of the pyramid at ground level."],
+    "solution": "From the front you see one triangular face rising from the base to the apex, so the front view is a **triangle**. The plan view is a square with its diagonals drawn."
+  },
+  {
+    "id": "m9.geo.nets.q006",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "For prisms and pyramids, faces + vertices − edges = 2 (Euler's rule). A solid has 7 faces and 15 edges. How many vertices does it have?",
+    "answer": 10,
+    "form": "integer",
+    "hints": ["Substitute into $F + V - E = 2$.", "$7 + V - 15 = 2$."],
+    "solution": "$7 + V - 15 = 2$, so $V - 8 = 2$ and $V = 10$. (It is a pentagonal prism: 7 faces, 15 edges, 10 vertices.)"
+  },
+  {
+    "id": "m9.geo.nets.q007",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why this arrangement of six squares is **not** a net of a cube.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 140\" width=\"260\" height=\"140\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"30,25 80,25 80,75 30,75\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"130,25 180,25 180,75 130,75\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"30,75 80,75 80,125 30,125\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"80,75 130,75 130,125 80,125\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"130,75 180,75 180,125 130,125\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"180,75 230,75 230,125 180,125\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/></svg>", "alt": "Six squares: a row of four squares, with one extra square above the first square of the row and another extra square above the third square of the row." },
+    "modelAnswer": "If the row of four is folded into a loop, it makes four sides of the cube. Both extra squares stick out on the same side of the row, so when they fold in they cover the same open end of the loop. They overlap, and the other end of the cube is left without a face.",
+    "rubric": [
+      { "criterion": "Recognises that the two extra squares fold onto the same face (they overlap)", "marks": 1 },
+      { "criterion": "States that this leaves one face of the cube open/missing", "marks": 1 }
+    ],
+    "hints": ["Fold the row of four into a loop first. Where do the two extra squares go?"],
+    "solution": "The row of four squares folds round to make four sides of the cube. The two extra squares are both on the **same** side of the row, so they fold onto the **same** end of the cube and overlap. The opposite end is left open, so it is not a net of a cube."
+  },
+  {
+    "id": "m9.geo.nets.q008",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain why every pyramid has the same number of faces as vertices.",
+    "modelAnswer": "If the base has n sides, the pyramid has n triangular faces (one on each side of the base) plus the base, so n + 1 faces. It has n vertices around the base plus the apex, so n + 1 vertices. Both are n + 1, so they are always equal.",
+    "rubric": [
+      { "criterion": "Shows faces = n + 1 (n triangles plus the base)", "marks": 1 },
+      { "criterion": "Shows vertices = n + 1 (n base corners plus the apex), so they are equal", "marks": 1 }
+    ],
+    "hints": ["Let the base have $n$ sides. Count the faces, then count the vertices."],
+    "solution": "With an $n$-sided base: faces $= n$ triangles $+ 1$ base $= n + 1$; vertices $= n$ base corners $+ 1$ apex $= n + 1$. They are always equal."
+  },
+  {
+    "id": "m9.geo.nets.q009",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Which of these could be the number of edges of a prism?",
+    "options": [
+      { "id": "a", "text": "27" },
+      { "id": "b", "text": "25" },
+      { "id": "c", "text": "26" },
+      { "id": "d", "text": "28" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A prism has $3n$ edges, so the number must be a multiple of 3. 25 isn't.",
+      "c": "26 is not a multiple of 3.",
+      "d": "28 is not a multiple of 3."
+    },
+    "hints": ["If the end of a prism has $n$ sides, how many edges does the prism have?"],
+    "solution": "A prism with $n$-sided ends has $n$ edges on each end and $n$ joining them: $3n$ edges. So the number of edges must be a multiple of 3. Only **27** works ($n = 9$, a nonagonal prism)."
+  },
+  {
+    "id": "m9.geo.nets.q010",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "A prism and a pyramid have the same number of edges. The pyramid's base has 9 sides. How many sides does each end of the prism have?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["A pyramid with an $n$-sided base has $2n$ edges.", "A prism with $n$-sided ends has $3n$ edges."],
+    "solution": "Pyramid: $2 \\times 9 = 18$ edges. Prism: $3n = 18$, so $n = 6$. The prism is a hexagonal prism."
+  }
+]

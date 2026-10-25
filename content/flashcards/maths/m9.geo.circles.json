@@ -1,0 +1,12 @@
+[
+  { "id": "m9.geo.circles.f01", "front": "What is a **circle**?", "back": "All the points that are the same distance (the radius) from a fixed point (the centre)." },
+  { "id": "m9.geo.circles.f02", "front": "What is the **radius**?", "back": "A straight line from the centre to the circle, or its length." },
+  { "id": "m9.geo.circles.f03", "front": "What is the **diameter**?", "back": "A straight line across the circle through the centre, or its length." },
+  { "id": "m9.geo.circles.f04", "front": "How are the radius and diameter related?", "back": "$d = 2r$, so the radius is half the diameter." },
+  { "id": "m9.geo.circles.f05", "front": "What is a **chord**?", "back": "A straight line joining any two points on a circle." },
+  { "id": "m9.geo.circles.f06", "front": "Which is the longest chord of a circle?", "back": "The diameter (the chord that passes through the centre)." },
+  { "id": "m9.geo.circles.f07", "front": "What is an **arc**?", "back": "Part of the curved edge (circumference) of a circle." },
+  { "id": "m9.geo.circles.f08", "front": "What is the **circumference**?", "back": "The whole curved edge of a circle: the distance all the way around." },
+  { "id": "m9.geo.circles.f09", "front": "Why is a triangle made of two radii and a chord isosceles?", "back": "Both radii of a circle are the same length, so the triangle has two equal sides." },
+  { "id": "m9.geo.circles.f10", "front": "What is a **semicircle**?", "back": "Half of a circle, cut off by a diameter." }
+]

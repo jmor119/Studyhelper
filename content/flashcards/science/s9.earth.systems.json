@@ -1,0 +1,21 @@
+[
+  { "id": "s9.earth.systems.f01", "front": "**Atmosphere**", "back": "The layer of gases around the Earth." },
+  { "id": "s9.earth.systems.f02", "front": "**Hydrosphere**", "back": "All of Earth's water: oceans, rivers, lakes, groundwater and ice." },
+  { "id": "s9.earth.systems.f03", "front": "**Geosphere**", "back": "The rocks, soil and minerals, and the inside of the Earth." },
+  { "id": "s9.earth.systems.f04", "front": "**Biosphere**", "back": "All living things and the places where they live." },
+  { "id": "s9.earth.systems.f05", "front": "What is dry air made of?", "back": "About 78% nitrogen, 21% oxygen, about 1% argon, plus about 0.04% carbon dioxide and traces of other gases." },
+  { "id": "s9.earth.systems.f06", "front": "The four main stages of the **water cycle**", "back": "Evaporation → condensation (clouds) → precipitation (rain, hail, snow) → collection (rivers, lakes, groundwater, sea)." },
+  { "id": "s9.earth.systems.f07", "front": "What is **transpiration**?", "back": "Water vapour escaping from the leaves of plants into the air." },
+  { "id": "s9.earth.systems.f08", "front": "What drives the water cycle?", "back": "Energy from the Sun evaporates water. Gravity brings precipitation down and makes rivers flow." },
+  { "id": "s9.earth.systems.f09", "front": "Why is rain fresh even though most of it comes from the sea?", "back": "When sea water evaporates, the salt is left behind." },
+  { "id": "s9.earth.systems.f10", "front": "Carbon cycle: processes that **remove** CO₂ from the air", "back": "Photosynthesis, and CO₂ dissolving in the oceans." },
+  { "id": "s9.earth.systems.f11", "front": "Carbon cycle: processes that **add** CO₂ to the air", "back": "Respiration, decomposition, combustion (burning fuels) and volcanic eruptions." },
+  { "id": "s9.earth.systems.f12", "front": "What is the **greenhouse effect**?", "back": "Gases such as CO₂ and methane absorb heat given off by Earth's surface and send some back, keeping Earth warm. Extra greenhouse gases cause global warming." },
+  { "id": "s9.earth.systems.f13", "front": "Weather vs **climate**", "back": "Weather: the conditions on a particular day. Climate: the average weather pattern over a long time (usually 30+ years)." },
+  { "id": "s9.earth.systems.f14", "front": "What is **latitude**?", "back": "How far north or south of the equator a place is, from 0° (equator) to 90° (poles). NZ is about 34° S to 47° S." },
+  { "id": "s9.earth.systems.f15", "front": "Why are the tropics hotter than the poles?", "back": "Near the equator, sunlight strikes more directly, so its energy is concentrated on a smaller area. Near the poles it arrives at a low angle and is spread out." },
+  { "id": "s9.earth.systems.f16", "front": "What is a **convection current**?", "back": "A circulating flow in a liquid or gas: warm, less dense fluid rises and cool, denser fluid sinks." },
+  { "id": "s9.earth.systems.f17", "front": "What drives surface and deep ocean currents?", "back": "Surface currents: mainly winds. Deep currents: differences in density (cold, salty water sinks)." },
+  { "id": "s9.earth.systems.f18", "front": "Why do coastal places have milder climates than inland places?", "back": "The sea heats up and cools down slowly, so it keeps nearby temperatures more even." },
+  { "id": "s9.earth.systems.f19", "front": "What is a **sea breeze**?", "back": "On a sunny day, warm air rises over the land and cooler air moves in from the sea to replace it." }
+]

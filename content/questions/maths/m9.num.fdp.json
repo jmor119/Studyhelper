@@ -1,0 +1,179 @@
+[
+  {
+    "id": "m9.num.fdp.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What does \"per cent\" mean?",
+    "options": [
+      { "id": "a", "text": "Out of 100" },
+      { "id": "b", "text": "Out of 10" },
+      { "id": "c", "text": "Out of 1000" },
+      { "id": "d", "text": "Part of a whole number" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Out of 10 is tenths. Per cent comes from the Latin for \"by the hundred\".",
+      "c": "Out of 1000 is thousandths (per mille).",
+      "d": "This is too vague. A percentage is a number of hundredths."
+    },
+    "hints": ["Think of a century: 100 years."],
+    "solution": "**Per cent** means \"out of 100\". For example, 35% means $\\frac{35}{100}$."
+  },
+  {
+    "id": "m9.num.fdp.q002",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each fraction to the same value as a decimal and percentage.",
+    "pairs": [
+      { "left": { "id": "q", "text": "$\\frac{1}{4}$" }, "right": { "id": "q2", "text": "0.25 = 25%" } },
+      { "left": { "id": "f", "text": "$\\frac{1}{5}$" }, "right": { "id": "f2", "text": "0.2 = 20%" } },
+      { "left": { "id": "e", "text": "$\\frac{1}{8}$" }, "right": { "id": "e2", "text": "0.125 = 12.5%" } },
+      { "left": { "id": "t", "text": "$\\frac{3}{4}$" }, "right": { "id": "t2", "text": "0.75 = 75%" } },
+      { "left": { "id": "h", "text": "$\\frac{1}{3}$" }, "right": { "id": "h2", "text": "0.333… ≈ 33.3%" } }
+    ],
+    "hints": ["Divide the numerator by the denominator to get the decimal, then multiply by 100."],
+    "solution": "$\\frac{1}{4} = 0.25 = 25\\%$, $\\frac{1}{5} = 0.2 = 20\\%$, $\\frac{1}{8} = 0.125 = 12.5\\%$, $\\frac{3}{4} = 0.75 = 75\\%$, $\\frac{1}{3} = 0.333\\ldots \\approx 33.3\\%$."
+  },
+  {
+    "id": "m9.num.fdp.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "A decimal that stops, like 0.375, is called a [[a]] decimal. A decimal that repeats forever, like 0.272727…, is called a [[b]] decimal.",
+    "blanks": [
+      { "id": "a", "accepted": ["terminating"], "options": ["terminating", "recurring", "rounded"] },
+      { "id": "b", "accepted": ["recurring"], "options": ["terminating", "recurring", "rounded"] }
+    ],
+    "hints": ["\"Terminate\" means to end."],
+    "solution": "0.375 is a **terminating** decimal (it ends). 0.272727… is a **recurring** decimal (the 27 repeats forever)."
+  },
+  {
+    "id": "m9.num.fdp.q004",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "How is $0.272727\\ldots$ written using dot notation?",
+    "options": [
+      { "id": "a", "text": "$0.\\dot{2}\\dot{7}$" },
+      { "id": "b", "text": "$0.2\\dot{7}$" },
+      { "id": "c", "text": "$0.\\dot{2}$" },
+      { "id": "d", "text": "$0.27$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$0.2\\dot{7}$ means $0.2777\\ldots$, where only the 7 repeats.",
+      "c": "$0.\\dot{2}$ means $0.222\\ldots$",
+      "d": "0.27 stops after two decimal places, so it is a terminating decimal."
+    },
+    "hints": ["Which digits repeat?", "For a repeating block, put a dot over the first and last digits of the block."],
+    "solution": "The block \"27\" repeats, so put a dot over the 2 and over the 7: $0.\\dot{2}\\dot{7}$."
+  },
+  {
+    "id": "m9.num.fdp.q005",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Select **all** the fractions that are equal to recurring decimals.",
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{3}$" },
+      { "id": "b", "text": "$\\frac{2}{9}$" },
+      { "id": "c", "text": "$\\frac{3}{8}$" },
+      { "id": "d", "text": "$\\frac{5}{6}$" },
+      { "id": "e", "text": "$\\frac{7}{20}$" },
+      { "id": "f", "text": "$\\frac{4}{11}$" }
+    ],
+    "correct": ["a", "b", "d", "f"],
+    "hints": ["Divide each numerator by its denominator.", "Shortcut: in simplest form, only denominators made of 2s and 5s give terminating decimals."],
+    "solution": "$\\frac{1}{3} = 0.\\dot{3}$, $\\frac{2}{9} = 0.\\dot{2}$, $\\frac{5}{6} = 0.8\\dot{3}$ and $\\frac{4}{11} = 0.\\dot{3}\\dot{6}$ recur. $\\frac{3}{8} = 0.375$ and $\\frac{7}{20} = 0.35$ terminate."
+  },
+  {
+    "id": "m9.num.fdp.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why is $0.\\dot{6}$ a rational number?",
+    "options": [
+      { "id": "a", "text": "It can be written as a fraction of two integers, $\\frac{2}{3}$" },
+      { "id": "b", "text": "It is less than 1" },
+      { "id": "c", "text": "It is written as a decimal" },
+      { "id": "d", "text": "Its digits go on forever" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Being less than 1 has nothing to do with it. For example, 5 is rational too.",
+      "c": "Being a decimal doesn't make a number rational. It must be possible to write it as a fraction of integers.",
+      "d": "Some numbers whose digits go on forever without repeating, like π, are not rational."
+    },
+    "hints": ["What is the definition of a rational number?"],
+    "solution": "A **rational number** can be written as a fraction of two integers. $0.\\dot{6} = 0.666\\ldots = \\frac{2}{3}$, so it is rational."
+  },
+  {
+    "id": "m9.num.fdp.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Mia says $\\frac{1}{3} = 0.33$. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. 0.33 is a rounded value; $\\frac{1}{3} = 0.333\\ldots$ recurs forever" },
+      { "id": "b", "text": "Yes, $\\frac{1}{3}$ is exactly 0.33" },
+      { "id": "c", "text": "No. $\\frac{1}{3} = 0.3$" },
+      { "id": "d", "text": "No. $\\frac{1}{3} = 3\\%$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$0.33 = \\frac{33}{100}$, which is slightly less than $\\frac{1}{3}$.",
+      "c": "$0.3 = \\frac{3}{10}$, which is less than $\\frac{1}{3}$.",
+      "d": "3% is 0.03. $\\frac{1}{3}$ is about 33.3%."
+    },
+    "hints": ["Work out $1 \\div 3$. Does it stop?"],
+    "solution": "$1 \\div 3 = 0.333\\ldots = 0.\\dot{3}$. The 3s go on forever, so 0.33 is only an approximation."
+  },
+  {
+    "id": "m9.num.fdp.q008",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these numbers in order from smallest to largest.",
+    "items": [
+      { "id": "c", "text": "$0.3$" },
+      { "id": "a", "text": "33%" },
+      { "id": "d", "text": "$\\frac{1}{3}$" },
+      { "id": "b", "text": "$0.34$" }
+    ],
+    "hints": ["Write each one as a decimal with 4 decimal places."],
+    "solution": "As decimals: $0.3 = 0.3000$, $33\\% = 0.3300$, $\\frac{1}{3} = 0.3333\\ldots$, $0.34 = 0.3400$. So the order is 0.3, 33%, $\\frac{1}{3}$, 0.34."
+  },
+  {
+    "id": "m9.num.fdp.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A number line goes from 0 to 1 and is split into 8 equal parts. What is each part worth?",
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{8} = 0.125 = 12.5\\%$" },
+      { "id": "b", "text": "$\\frac{1}{8} = 0.8 = 80\\%$" },
+      { "id": "c", "text": "$\\frac{1}{10} = 0.1 = 10\\%$" },
+      { "id": "d", "text": "$\\frac{1}{8} = 0.18 = 18\\%$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{1}{8}$ is not 0.8: work out $1 \\div 8$.",
+      "c": "There are 8 parts, not 10.",
+      "d": "You can't just write the digits 1 and 8 after the point. Work out $1 \\div 8$."
+    },
+    "hints": ["The whole (0 to 1) is split into 8 equal parts.", "$1 \\div 8 = ?$"],
+    "solution": "Each part is $\\frac{1}{8}$ of the whole: $1 \\div 8 = 0.125 = 12.5\\%$."
+  },
+  {
+    "id": "m9.num.fdp.q010",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain how you know there is a number between 0.41 and 0.42. Give an example, and explain how many such numbers there are.",
+    "modelAnswer": "0.415 is between them, because it is halfway: $(0.41 + 0.42) \\div 2 = 0.415$. You can keep going: halfway between 0.41 and 0.415 is 0.4125, and so on. You can always add more decimal places, so there are infinitely many numbers between 0.41 and 0.42.",
+    "rubric": [
+      { "criterion": "Gives a correct number between 0.41 and 0.42, e.g. 0.415", "marks": 1 },
+      { "criterion": "Explains that you can keep finding more (e.g. by halving or adding decimal places), so there are infinitely many", "marks": 1 }
+    ],
+    "hints": ["Write 0.41 as 0.410 and 0.42 as 0.420.", "Could you then find a number between your number and 0.41?"],
+    "solution": "For example, 0.415 (halfway). Because you can always find another number halfway between any two, there are infinitely many."
+  }
+]

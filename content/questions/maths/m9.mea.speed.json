@@ -1,0 +1,147 @@
+[
+  {
+    "id": "m9.mea.speed.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each quantity to the calculation that finds it.",
+    "pairs": [
+      { "left": { "id": "s", "text": "Speed" }, "right": { "id": "dt", "text": "distance ÷ time" } },
+      { "left": { "id": "d", "text": "Distance" }, "right": { "id": "st", "text": "speed × time" } },
+      { "left": { "id": "t", "text": "Time" }, "right": { "id": "ds", "text": "distance ÷ speed" } }
+    ],
+    "hints": ["Think of a formula triangle with D on top and S and T underneath."],
+    "solution": "Speed = distance ÷ time; distance = speed × time; time = distance ÷ speed."
+  },
+  {
+    "id": "m9.mea.speed.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is a unit of **speed**?",
+    "options": [
+      { "id": "a", "text": "m/s" },
+      { "id": "b", "text": "m²" },
+      { "id": "c", "text": "km" },
+      { "id": "d", "text": "h" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "m² is a unit of area.",
+      "c": "km is a unit of distance.",
+      "d": "h (hours) is a unit of time."
+    },
+    "hints": ["Speed is a distance divided by a time."],
+    "solution": "**m/s** (metres per second) is a distance unit divided by a time unit, so it measures speed."
+  },
+  {
+    "id": "m9.mea.speed.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "The graph shows Ana's walk from home. Which story matches the graph?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 278\" width=\"384\" height=\"278\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"112\" y1=\"228\" x2=\"112\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"112\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><line x1=\"162\" y1=\"228\" x2=\"162\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"162\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">10</text><line x1=\"212\" y1=\"228\" x2=\"212\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"212\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">15</text><line x1=\"262\" y1=\"228\" x2=\"262\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"262\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><line x1=\"312\" y1=\"228\" x2=\"312\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"312\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">25</text><line x1=\"362\" y1=\"228\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"362\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">30</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"228\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"62\" y1=\"207\" x2=\"362\" y2=\"207\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"186\" x2=\"362\" y2=\"186\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"186\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">400</text><line x1=\"62\" y1=\"165\" x2=\"362\" y2=\"165\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"144\" x2=\"362\" y2=\"144\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"144\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">800</text><line x1=\"62\" y1=\"123\" x2=\"362\" y2=\"123\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"102\" x2=\"362\" y2=\"102\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"102\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1200</text><line x1=\"62\" y1=\"81\" x2=\"362\" y2=\"81\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"60\" x2=\"362\" y2=\"60\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"60\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1600</text><line x1=\"62\" y1=\"39\" x2=\"362\" y2=\"39\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"18\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2000</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time (minutes)</text><text x=\"16\" y=\"123\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 123)\">Distance from home (m)</text><polyline points=\"62,228 162,102 212,102 362,39\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><circle cx=\"62\" cy=\"228\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"162\" cy=\"102\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"212\" cy=\"102\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"362\" cy=\"39\" r=\"3\" fill=\"#2563eb\"/></svg>", "alt": "A distance–time graph. The line rises steeply from 0 to 1200 m in the first 10 minutes, stays flat at 1200 m from 10 to 15 minutes, then rises gently to 1800 m at 30 minutes." },
+    "options": [
+      { "id": "a", "text": "She walks quickly, stops for a while, then walks on more slowly." },
+      { "id": "b", "text": "She walks slowly, stops for a while, then walks on more quickly." },
+      { "id": "c", "text": "She walks quickly, then walks back home." },
+      { "id": "d", "text": "She walks up a hill, walks along flat ground, then walks up a gentle slope." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The first section is the steepest, so it is the fastest part.",
+      "c": "The line never goes back down, so she never gets closer to home.",
+      "d": "The graph shows distance from home, not the shape of the land. A flat section means she has stopped."
+    },
+    "hints": ["Steeper line = faster. Flat line = stopped."],
+    "solution": "The first section is steep (fast: 1200 m in 10 min), the middle is flat (stopped for 5 min), and the last section is less steep (slower: 600 m in 15 min)."
+  },
+  {
+    "id": "m9.mea.speed.q004",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Which is faster: a car travelling at 70 km/h or a car travelling at 20 m/s?",
+    "options": [
+      { "id": "a", "text": "20 m/s is faster" },
+      { "id": "b", "text": "70 km/h is faster" },
+      { "id": "c", "text": "They are the same speed" },
+      { "id": "d", "text": "You can't compare them because the units are different" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Convert first: 20 m/s × 3.6 = 72 km/h, which is more than 70 km/h.",
+      "c": "20 m/s is 72 km/h, which is a little more than 70 km/h.",
+      "d": "You can compare them once they are in the same units."
+    },
+    "hints": ["Change 20 m/s into km/h by multiplying by 3.6."],
+    "solution": "$20 \\times 3.6 = 72$ km/h. Since 72 km/h > 70 km/h, **20 m/s is faster**."
+  },
+  {
+    "id": "m9.mea.speed.q005",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A snail moves at a steady 1.5 mm per second. How many **minutes** does it take to travel 45 cm?",
+    "answer": 5,
+    "units": "min",
+    "hints": ["Make the units match: change 45 cm into mm.", "Time = distance ÷ speed gives seconds. Then change to minutes."],
+    "solution": "45 cm = 450 mm. Time $= 450 \\div 1.5 = 300$ s. $300 \\div 60 = 5$ minutes."
+  },
+  {
+    "id": "m9.mea.speed.q006",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "Tevita runs 2 km at 10 km/h, then walks 2 km at 6 km/h. He says his average speed for the 4 km is $(10 + 6) \\div 2 = 8$ km/h. Is he right? Show your working and explain.",
+    "modelAnswer": "No. Time running = 2 ÷ 10 = 0.2 h. Time walking = 2 ÷ 6 ≈ 0.333 h. Total time ≈ 0.533 h. Average speed = total distance ÷ total time = 4 ÷ 0.533 = 7.5 km/h. It is less than 8 km/h because he spends more time going at the slower speed, so the slow part counts for more.",
+    "rubric": [
+      { "criterion": "Finds the time for each part (0.2 h and about 0.33 h, or 12 min and 20 min)", "marks": 1 },
+      { "criterion": "Uses total distance ÷ total time to get 7.5 km/h", "marks": 1 },
+      { "criterion": "Explains that he spends longer at the slower speed, so you can't just average the two speeds", "marks": 1 }
+    ],
+    "hints": ["Average speed = total distance ÷ total time.", "Find how long each part takes first."],
+    "solution": "Running: $2 \\div 10 = 0.2$ h (12 min). Walking: $2 \\div 6 = \\frac{1}{3}$ h (20 min). Total time: 32 min $= \\frac{8}{15}$ h.\n\nAverage speed $= 4 \\div \\frac{8}{15} = 7.5$ km/h. Tevita is **not** right: he spends more time at the slower speed, so the average is below 8 km/h."
+  },
+  {
+    "id": "m9.mea.speed.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "On a distance–time graph, the line for Car A is steeper than the line for Car B. What does this tell you?",
+    "options": [
+      { "id": "a", "text": "Car A is travelling faster than Car B" },
+      { "id": "b", "text": "Car A is travelling slower than Car B" },
+      { "id": "c", "text": "Car A has travelled for longer than Car B" },
+      { "id": "d", "text": "Car A is going uphill" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A steeper line covers more distance in the same time, so it is faster.",
+      "c": "Steepness shows speed, not how long the journey lasts.",
+      "d": "A distance–time graph is not a picture of the road. Steepness shows speed."
+    },
+    "hints": ["The gradient (steepness) of a distance–time graph is the speed."],
+    "solution": "The gradient of a distance–time graph is the speed. A steeper line means more distance each hour, so **Car A is faster**."
+  },
+  {
+    "id": "m9.mea.speed.q008",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "A train leaves at 9:40 am and arrives at 11:25 am. It travels 126 km. What is its average speed in km/h?",
+    "answer": 72,
+    "units": "km/h",
+    "hints": ["First find the journey time in hours and minutes, then as a decimal number of hours.", "45 minutes is 0.75 of an hour."],
+    "solution": "9:40 am to 11:25 am is 1 h 45 min = 1.75 h.\n\nSpeed $= 126 \\div 1.75 = 72$ km/h."
+  },
+  {
+    "id": "m9.mea.speed.q009",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A car is travelling at 90 km/h. The driver sees a hazard, and it takes her 1.5 seconds to react and start braking. How many **metres** does the car travel during those 1.5 seconds?",
+    "answer": 37.5,
+    "units": "m",
+    "hints": ["Change 90 km/h into m/s by dividing by 3.6.", "Then distance = speed × time."],
+    "solution": "$90 \\div 3.6 = 25$ m/s. Distance $= 25 \\times 1.5 = 37.5$ m. That's why leaving a big gap behind the car in front matters!"
+  }
+]

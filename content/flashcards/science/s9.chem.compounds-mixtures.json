@@ -1,0 +1,22 @@
+[
+  { "id": "s9.chem.compounds-mixtures.f01", "front": "What is a **compound**?", "back": "Two or more different elements chemically joined in a fixed ratio, e.g. water (H₂O)." },
+  { "id": "s9.chem.compounds-mixtures.f02", "front": "What is a **molecule**?", "back": "A particle made of two or more atoms joined together, e.g. O₂ (an element) or H₂O (a compound)." },
+  { "id": "s9.chem.compounds-mixtures.f03", "front": "What is a **mixture**?", "back": "Two or more substances that are not chemically joined. Each keeps its own properties, and they can be separated by physical methods." },
+  { "id": "s9.chem.compounds-mixtures.f04", "front": "What does **pure substance** mean in chemistry?", "back": "A substance made of only one element or one compound, e.g. distilled water. It melts and boils at fixed temperatures." },
+  { "id": "s9.chem.compounds-mixtures.f05", "front": "What does a **formula** such as H₂O tell you?", "back": "Which elements are present and how many atoms of each: 2 hydrogen atoms and 1 oxygen atom." },
+  { "id": "s9.chem.compounds-mixtures.f06", "front": "How do you read the small numbers in a formula?", "back": "A subscript counts the atom just before it (no number means 1). A number after a bracket multiplies everything inside the bracket." },
+  { "id": "s9.chem.compounds-mixtures.f07", "front": "How many atoms are in glucose, C₆H₁₂O₆?", "back": "6 carbon + 12 hydrogen + 6 oxygen = 24 atoms." },
+  { "id": "s9.chem.compounds-mixtures.f08", "front": "What is an **ionic lattice**?", "back": "A giant, regular 3D pattern of positive and negative ions, e.g. sodium chloride. It has a high melting point and conducts when melted or dissolved." },
+  { "id": "s9.chem.compounds-mixtures.f09", "front": "Properties of **molecular substances**", "back": "Usually low melting and boiling points, often liquids or gases at room temperature, and they don't conduct electricity." },
+  { "id": "s9.chem.compounds-mixtures.f10", "front": "**Solute**", "back": "The substance that dissolves, e.g. sugar." },
+  { "id": "s9.chem.compounds-mixtures.f11", "front": "**Solvent**", "back": "The liquid that the solute dissolves in, e.g. water." },
+  { "id": "s9.chem.compounds-mixtures.f12", "front": "**Solution**", "back": "The mixture made when a solute dissolves in a solvent." },
+  { "id": "s9.chem.compounds-mixtures.f13", "front": "**Solubility**", "back": "The mass of solute that can dissolve in a set amount of solvent (often 100 g of water) at a given temperature." },
+  { "id": "s9.chem.compounds-mixtures.f14", "front": "**Saturated** solution", "back": "A solution in which no more solute will dissolve at that temperature." },
+  { "id": "s9.chem.compounds-mixtures.f15", "front": "**Filtration** separates…", "back": "An insoluble solid from a liquid, e.g. sand from water. The solid left on the paper is the residue; the liquid that passes through is the filtrate." },
+  { "id": "s9.chem.compounds-mixtures.f16", "front": "**Evaporation** separates…", "back": "A dissolved solid from its solution, e.g. salt from salt water. The water is lost into the air." },
+  { "id": "s9.chem.compounds-mixtures.f17", "front": "**Distillation** separates…", "back": "A liquid from a solution (e.g. pure water from sea water), or liquids with different boiling points. It works by boiling, then condensing." },
+  { "id": "s9.chem.compounds-mixtures.f18", "front": "**Chromatography** separates…", "back": "Dissolved substances such as the dyes in ink, which travel different distances up the paper." },
+  { "id": "s9.chem.compounds-mixtures.f19", "front": "Mass of a solution", "back": "Mass of solute + mass of solvent. Nothing is lost when something dissolves." },
+  { "id": "s9.chem.compounds-mixtures.f20", "front": "How can you spot a compound in a particle diagram?", "back": "All the particles are the same, and each one is made of different kinds of atom joined together." }
+]

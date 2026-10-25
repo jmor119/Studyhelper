@@ -1,0 +1,14 @@
+[
+  { "id": "m9.sta.investigations.f01", "front": "What is a statistical question?", "back": "A question answered using data that varies. It names the variable, the group and the intent." },
+  { "id": "m9.sta.investigations.f02", "front": "What is a variable?", "back": "A characteristic that can change from one person or thing to the next, such as height or favourite sport." },
+  { "id": "m9.sta.investigations.f03", "front": "Categorical variable", "back": "A variable that puts each person or thing into a group or category, e.g. eye colour, postcode." },
+  { "id": "m9.sta.investigations.f04", "front": "Numerical variable", "back": "A variable that is a count or a measurement, e.g. number of pets, arm span in cm." },
+  { "id": "m9.sta.investigations.f05", "front": "Is a rugby jersey number categorical or numerical?", "back": "Categorical: the number is just a label for a position." },
+  { "id": "m9.sta.investigations.f06", "front": "Primary data vs secondary data", "back": "Primary data you collect yourself. Secondary data was collected by someone else (e.g. Stats NZ, a website)." },
+  { "id": "m9.sta.investigations.f07", "front": "Multivariate data", "back": "Data with more than two variables recorded for each person or thing." },
+  { "id": "m9.sta.investigations.f08", "front": "Summary investigation", "back": "Looks at one variable for one group, e.g. the typical arm span of Year 9 students." },
+  { "id": "m9.sta.investigations.f09", "front": "Comparison investigation", "back": "Compares one variable across two groups, e.g. travel times of walkers vs bus users." },
+  { "id": "m9.sta.investigations.f10", "front": "Relationship investigation", "back": "Looks for a link between two variables measured on the same people or things, e.g. height and arm span." },
+  { "id": "m9.sta.investigations.f11", "front": "Time-series investigation", "back": "Looks at how one variable changes over time, e.g. school roll each year." },
+  { "id": "m9.sta.investigations.f12", "front": "Observational study", "back": "A study where you record things as they are, without changing anything (unlike an experiment)." }
+]

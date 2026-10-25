@@ -1,0 +1,355 @@
+[
+  {
+    "id": "s9.chem.acids-bases.q001",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "What is the pH of a **neutral** solution, such as pure water?",
+    "answer": 7,
+    "hints": ["Acids have low pH numbers and alkalis have high pH numbers, on a scale from 0 to 14."],
+    "solution": "A neutral solution has a pH of **7**. Below 7 is acidic and above 7 is alkaline."
+  },
+  {
+    "id": "s9.chem.acids-bases.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What colour does **blue** litmus paper turn in an acid?",
+    "options": [
+      { "id": "a", "text": "Red" },
+      { "id": "b", "text": "It stays blue" },
+      { "id": "c", "text": "Green" },
+      { "id": "d", "text": "Purple" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Blue litmus stays blue in neutral or alkaline solutions, not in acids.",
+      "c": "Green is the neutral colour for universal indicator, not litmus.",
+      "d": "Purple is the colour of universal indicator in a strong alkali."
+    },
+    "hints": ["Litmus has only two colours: red and blue."],
+    "solution": "Acids turn blue litmus **red**. Alkalis turn red litmus blue."
+  },
+  {
+    "id": "s9.chem.acids-bases.q003",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "A base that **dissolves in water** has a special name. What is it?",
+    "accepted": ["alkali", "alkalis", "an alkali", "alkaline", "alkaline solution"],
+    "hints": ["Sodium hydroxide is an example. Its solutions have a pH above 7."],
+    "solution": "A soluble base is called an **alkali**. Every alkali is a base, but some bases (such as copper oxide) don't dissolve, so they aren't alkalis."
+  },
+  {
+    "id": "s9.chem.acids-bases.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Acids have a pH [[a]] than 7. Alkalis have a pH [[b]] than 7.",
+    "blanks": [
+      { "id": "a", "accepted": ["lower"], "options": ["lower", "higher"] },
+      { "id": "b", "accepted": ["higher"], "options": ["lower", "higher"] }
+    ],
+    "hints": ["Lemon juice has a pH of about 2."],
+    "solution": "Acids have a pH **lower** than 7, and alkalis have a pH **higher** than 7. Exactly 7 is neutral."
+  },
+  {
+    "id": "s9.chem.acids-bases.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each substance to its approximate pH.",
+    "pairs": [
+      { "left": { "id": "lemon", "text": "Lemon juice" }, "right": { "id": "p2", "text": "About pH 2" } },
+      { "left": { "id": "water", "text": "Pure water" }, "right": { "id": "p7", "text": "pH 7" } },
+      { "left": { "id": "soap", "text": "Soapy water" }, "right": { "id": "p10", "text": "About pH 10" } },
+      { "left": { "id": "drain", "text": "Drain cleaner (sodium hydroxide)" }, "right": { "id": "p14", "text": "About pH 14" } }
+    ],
+    "hints": ["Sour things are acidic. Strong cleaners are often strongly alkaline."],
+    "solution": "Lemon juice is acidic (about pH 2). Pure water is neutral (pH 7). Soapy water is weakly alkaline (about pH 10). Drain cleaner is strongly alkaline (about pH 14)."
+  },
+  {
+    "id": "s9.chem.acids-bases.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which of these household substances is an **acid**?",
+    "options": [
+      { "id": "a", "text": "Vinegar" },
+      { "id": "b", "text": "Baking soda" },
+      { "id": "c", "text": "Soap" },
+      { "id": "d", "text": "Oven cleaner" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Baking soda (sodium hydrogen carbonate) is a base.",
+      "c": "Soap is weakly alkaline.",
+      "d": "Oven cleaner contains sodium hydroxide, a strong alkali."
+    },
+    "hints": ["Which one tastes sour?"],
+    "solution": "**Vinegar** contains ethanoic acid. Baking soda, soap and oven cleaner are all bases."
+  },
+  {
+    "id": "s9.chem.acids-bases.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Complete the general word equation for neutralisation:\n\nacid + base → [[a]] + [[b]]",
+    "blanks": [
+      { "id": "a", "accepted": ["salt"], "options": ["salt", "hydrogen", "oxygen"] },
+      { "id": "b", "accepted": ["water"], "options": ["water", "carbon dioxide", "hydrogen"] }
+    ],
+    "hints": ["One product is a compound containing the metal from the base. The other is a very common liquid."],
+    "solution": "acid + base → **salt** + **water**."
+  },
+  {
+    "id": "s9.chem.acids-bases.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What colour is universal indicator in a **neutral** solution?",
+    "options": [
+      { "id": "a", "text": "Green" },
+      { "id": "b", "text": "Red" },
+      { "id": "c", "text": "Purple" },
+      { "id": "d", "text": "Orange" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Red means strongly acidic.",
+      "c": "Purple means strongly alkaline.",
+      "d": "Orange means acidic."
+    },
+    "hints": ["Neutral is in the middle of the colour range, between yellow and blue."],
+    "solution": "Universal indicator is **green** at pH 7. It goes red → orange → yellow on the acid side, and blue → purple on the alkali side."
+  },
+  {
+    "id": "s9.chem.acids-bases.q009",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the properties of acids.",
+    "options": [
+      { "id": "a", "text": "pH less than 7" },
+      { "id": "b", "text": "Turn blue litmus red" },
+      { "id": "c", "text": "React with carbonates to give carbon dioxide" },
+      { "id": "d", "text": "Feel soapy" },
+      { "id": "e", "text": "Turn red litmus blue" },
+      { "id": "f", "text": "pH more than 7" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Three of these describe alkalis instead."],
+    "solution": "Acids have a **pH below 7**, **turn blue litmus red**, and **react with carbonates** to give carbon dioxide. Feeling soapy, turning red litmus blue and a pH above 7 are properties of alkalis."
+  },
+  {
+    "id": "s9.chem.acids-bases.q010",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Which gas is produced when a metal such as magnesium reacts with an acid?",
+    "accepted": ["hydrogen", "hydrogen gas", "H2"],
+    "hints": ["It burns with a squeaky pop."],
+    "solution": "**Hydrogen.** Acid + metal → salt + hydrogen. Test it with a lit splint: you'll hear a squeaky pop."
+  },
+  {
+    "id": "s9.chem.acids-bases.q011",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "Put these in order from **most acidic** to **most alkaline**.",
+    "items": [
+      { "id": "lemon", "text": "Lemon juice (pH 2)" },
+      { "id": "coffee", "text": "Black coffee (pH 5)" },
+      { "id": "water", "text": "Pure water (pH 7)" },
+      { "id": "sea", "text": "Sea water (pH 8)" },
+      { "id": "bleach", "text": "Bleach (pH 13)" }
+    ],
+    "hints": ["The lower the pH, the more acidic."],
+    "solution": "Lowest pH = most acidic, so the order is lemon juice (2) → coffee (5) → pure water (7) → sea water (8) → bleach (13)."
+  },
+  {
+    "id": "s9.chem.acids-bases.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Complete the word equation:\n\nhydrochloric acid + sodium hydroxide → [[a]] + water",
+    "blanks": [
+      { "id": "a", "accepted": ["sodium chloride"] }
+    ],
+    "allowTypos": false,
+    "hints": ["The first part of the salt's name is the metal from the base.", "Hydrochloric acid makes salts called chlorides."],
+    "solution": "The metal in the base is sodium, and hydrochloric acid makes chlorides, so the salt is **sodium chloride**: table salt. (Not 'sodium chlorine'. Chlorine is the element; chloride is the name in a salt.)"
+  },
+  {
+    "id": "s9.chem.acids-bases.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A farmer tests her paddock and finds the soil is too acidic for good grass growth. What should she spread on it?",
+    "options": [
+      { "id": "a", "text": "Lime (calcium carbonate)" },
+      { "id": "b", "text": "Vinegar" },
+      { "id": "c", "text": "Citric acid" },
+      { "id": "d", "text": "More rainwater" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Vinegar is an acid, so it would make the soil even more acidic.",
+      "c": "Citric acid would make the soil even more acidic.",
+      "d": "Rain is naturally slightly acidic, so it won't neutralise the soil."
+    },
+    "hints": ["To raise the pH, you need to neutralise the acid with a base."],
+    "solution": "Lime (calcium carbonate) is a **base**. It neutralises some of the acid in the soil and raises the pH, which is why NZ farmers often spread lime on their paddocks."
+  },
+  {
+    "id": "s9.chem.acids-bases.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Indigestion can be caused by too much hydrochloric acid in the stomach. Antacid tablets contain magnesium hydroxide. How do they help?",
+    "options": [
+      { "id": "a", "text": "The base neutralises some of the stomach acid, raising the pH" },
+      { "id": "b", "text": "They add more acid to cancel the acid out" },
+      { "id": "c", "text": "They lower the pH of the stomach" },
+      { "id": "d", "text": "They turn the acid into hydrogen gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding acid would make the indigestion worse. Acids are cancelled out by bases.",
+      "c": "Lowering the pH would make the stomach more acidic.",
+      "d": "Hydrogen comes from acids reacting with metals, not with hydroxides. A hydroxide makes a salt and water."
+    },
+    "hints": ["Magnesium hydroxide is a base. What happens when a base meets an acid?"],
+    "solution": "Magnesium hydroxide is a base, so it **neutralises** some of the acid: hydrochloric acid + magnesium hydroxide → magnesium chloride + water. Less acid means a higher pH and less discomfort."
+  },
+  {
+    "id": "s9.chem.acids-bases.q015",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Complete the word equation:\n\ncalcium carbonate + hydrochloric acid → calcium chloride + water + [[a]]\n\nThe gas made turns [[b]] milky.",
+    "blanks": [
+      { "id": "a", "accepted": ["carbon dioxide", "CO2"] },
+      { "id": "b", "accepted": ["limewater", "lime water"] }
+    ],
+    "hints": ["Carbonates contain carbon and oxygen. Which gas do they make with acids?"],
+    "solution": "Acid + carbonate → salt + water + **carbon dioxide**. Carbon dioxide turns **limewater** milky."
+  },
+  {
+    "id": "s9.chem.acids-bases.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which acid and base would react to make **potassium nitrate**?",
+    "options": [
+      { "id": "a", "text": "Nitric acid and potassium hydroxide" },
+      { "id": "b", "text": "Hydrochloric acid and potassium hydroxide" },
+      { "id": "c", "text": "Nitric acid and sodium hydroxide" },
+      { "id": "d", "text": "Sulfuric acid and potassium hydroxide" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Hydrochloric acid makes chlorides, so this would give potassium chloride.",
+      "c": "Sodium hydroxide gives sodium salts, so this would give sodium nitrate.",
+      "d": "Sulfuric acid makes sulfates, so this would give potassium sulfate."
+    },
+    "hints": ["The metal in the salt comes from the base.", "Nitrates come from nitric acid."],
+    "solution": "'Potassium' comes from the base (potassium hydroxide), and 'nitrate' comes from **nitric acid**: nitric acid + potassium hydroxide → potassium nitrate + water."
+  },
+  {
+    "id": "s9.chem.acids-bases.q017",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Describe how you would use universal indicator to find out whether a solution is acidic, neutral or alkaline.",
+    "modelAnswer": "Put a small sample of the solution in a test tube and add a few drops of universal indicator (or dip universal indicator paper into it). Compare the colour with the universal indicator colour chart to find the pH. Red, orange or yellow (pH below 7) means acidic, green (pH 7) means neutral, and blue or purple (pH above 7) means alkaline.",
+    "rubric": [
+      { "criterion": "Add a few drops of universal indicator to a sample (or use universal indicator paper)", "marks": 1 },
+      { "criterion": "Compare the colour with the colour chart to find the pH (red/orange/yellow acidic, green neutral, blue/purple alkaline)", "marks": 1 }
+    ],
+    "hints": ["What do you do with the indicator, and how do you read the result?"],
+    "solution": "Add universal indicator to a sample, then match the colour to the chart: red to yellow is acidic, green is neutral, and blue to purple is alkaline."
+  },
+  {
+    "id": "s9.chem.acids-bases.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Universal indicator is added to some sodium hydroxide solution. Hydrochloric acid is then added slowly until there is far more acid than alkali. What colour changes would you see?",
+    "options": [
+      { "id": "a", "text": "Purple → blue → green → yellow → red" },
+      { "id": "b", "text": "Red → yellow → green → blue → purple" },
+      { "id": "c", "text": "Green → purple → red" },
+      { "id": "d", "text": "Purple → red → green" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That would happen if you started with acid and added alkali.",
+      "c": "Sodium hydroxide is a strong alkali, so the indicator starts purple, not green.",
+      "d": "The pH falls gradually, so the colour passes through green before it reaches red."
+    },
+    "hints": ["What colour is universal indicator in a strong alkali?", "As acid is added, the pH falls step by step through 7."],
+    "solution": "It starts **purple** (strong alkali). As acid is added the pH falls: blue → **green** (neutral, exactly neutralised) → yellow → **red** (excess acid)."
+  },
+  {
+    "id": "s9.chem.acids-bases.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A piece of magnesium ribbon is dropped into dilute sulfuric acid. Write the word equation for the reaction, and describe **two** things you would observe.",
+    "modelAnswer": "magnesium + sulfuric acid → magnesium sulfate + hydrogen. Observations: bubbles of gas (fizzing); the magnesium gets smaller and disappears; the test tube gets warm.",
+    "rubric": [
+      { "criterion": "Correct word equation: magnesium + sulfuric acid → magnesium sulfate + hydrogen", "marks": 1 },
+      { "criterion": "First observation, e.g. fizzing or bubbles of gas", "marks": 1 },
+      { "criterion": "Second observation, e.g. the magnesium gets smaller or disappears, or the tube gets warm", "marks": 1 }
+    ],
+    "hints": ["Acid + metal → salt + hydrogen.", "Sulfuric acid makes sulfates."],
+    "solution": "magnesium + sulfuric acid → magnesium sulfate + hydrogen. You would see fizzing (hydrogen), the magnesium shrinking until it disappears, and the tube warming up (the reaction is exothermic)."
+  },
+  {
+    "id": "s9.chem.acids-bases.q020",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which of these would react with dilute hydrochloric acid to produce a **gas**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Magnesium ribbon" },
+      { "id": "b", "text": "Marble chips (calcium carbonate)" },
+      { "id": "c", "text": "Baking soda (sodium hydrogen carbonate)" },
+      { "id": "d", "text": "Zinc granules" },
+      { "id": "e", "text": "Copper turnings" },
+      { "id": "f", "text": "Sodium hydroxide solution" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Metals give hydrogen and carbonates give carbon dioxide, but not every metal reacts with dilute acid.", "What does an acid make with a hydroxide?"],
+    "solution": "**Magnesium and zinc** give hydrogen. **Marble and baking soda** give carbon dioxide. Copper is not reactive enough to react with dilute hydrochloric acid, and sodium hydroxide neutralises the acid to make a salt and water, with no gas."
+  },
+  {
+    "id": "s9.chem.acids-bases.q021",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "It takes 25 mL of a sodium hydroxide solution to exactly neutralise 20 mL of an acid. How much of the same sodium hydroxide solution is needed to neutralise 60 mL of the same acid?",
+    "answer": 75,
+    "units": "mL",
+    "hints": ["60 mL of acid is how many times as much as 20 mL?"],
+    "solution": "60 mL is 3 times as much acid as 20 mL, so it needs 3 times as much alkali: $25 \\times 3 = $ **75 mL**."
+  },
+  {
+    "id": "s9.chem.acids-bases.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A student has three unlabelled, colourless solutions: an acid, an alkali and pure water. She has red litmus paper and blue litmus paper, but no universal indicator. Explain how she could identify all three solutions.",
+    "modelAnswer": "Test a drop of each solution with blue litmus paper. The one that turns blue litmus red is the acid. Then test the other two with red litmus paper. The one that turns red litmus blue is the alkali. The solution that changes neither colour of litmus paper is neutral, so it must be the pure water.",
+    "rubric": [
+      { "criterion": "Use blue litmus: the solution that turns it red is the acid", "marks": 1 },
+      { "criterion": "Use red litmus: the solution that turns it blue is the alkali", "marks": 1 },
+      { "criterion": "The solution that changes neither paper is neutral, so it is the water", "marks": 1 }
+    ],
+    "hints": ["Each colour of litmus can detect only one kind of solution.", "What does a neutral solution do to litmus?"],
+    "solution": "Blue litmus turning red means an acid. Red litmus turning blue means an alkali. No change with either paper means neutral, so that is the water."
+  },
+  {
+    "id": "s9.chem.acids-bases.q023",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A student keeps adding water to some lemon juice (pH 2). What happens to the pH?",
+    "options": [
+      { "id": "a", "text": "It rises towards 7, but never goes above 7" },
+      { "id": "b", "text": "It stays at 2, because the acid is still there" },
+      { "id": "c", "text": "It rises past 7 and the juice becomes alkaline" },
+      { "id": "d", "text": "It falls below 2, because there is more liquid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The acid is still there, but it is spread through more water, so it is less concentrated and less acidic.",
+      "c": "Water is neutral. Diluting can bring the pH close to 7, but adding water can't make a solution alkaline.",
+      "d": "More water makes the acid less concentrated, so it becomes less acidic, not more."
+    },
+    "hints": ["Adding water makes the acid more dilute.", "What is the pH of pure water?"],
+    "solution": "Adding water **dilutes** the acid, so the pH rises (it becomes less acidic). Water itself is neutral (pH 7), so however much you add, the pH gets closer and closer to 7 but never goes past it. Only a base can neutralise an acid."
+  }
+]

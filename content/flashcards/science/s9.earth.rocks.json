@@ -1,0 +1,22 @@
+[
+  { "id": "s9.earth.rocks.f01", "front": "**Igneous** rock", "back": "Forms when molten rock (magma or lava) cools and hardens, e.g. granite, basalt or pumice." },
+  { "id": "s9.earth.rocks.f02", "front": "**Sedimentary** rock", "back": "Forms when layers of sediment are compacted and cemented, e.g. sandstone, mudstone or limestone. It may contain fossils." },
+  { "id": "s9.earth.rocks.f03", "front": "**Metamorphic** rock", "back": "Existing rock changed by heat and pressure without melting, e.g. marble (from limestone), slate or schist." },
+  { "id": "s9.earth.rocks.f04", "front": "Magma vs lava", "back": "Magma is molten rock underground. Lava is molten rock that has reached the surface." },
+  { "id": "s9.earth.rocks.f05", "front": "What does crystal size tell you about an igneous rock?", "back": "Large crystals: it cooled slowly underground (granite). Small crystals: it cooled quickly at the surface (basalt)." },
+  { "id": "s9.earth.rocks.f06", "front": "The **rock cycle** in one line", "back": "Weathering and erosion → deposition → compaction and cementation (sedimentary) → heat and pressure (metamorphic) → melting → cooling (igneous) → uplift." },
+  { "id": "s9.earth.rocks.f07", "front": "The **crust**", "back": "Earth's thin, solid outer layer: about 5–10 km thick under the oceans and 30–50 km under the continents." },
+  { "id": "s9.earth.rocks.f08", "front": "The **mantle**", "back": "A thick layer (about 2900 km) of very hot rock that is mostly solid but flows very slowly." },
+  { "id": "s9.earth.rocks.f09", "front": "The **core**", "back": "Iron and nickel. The outer core is liquid; the inner core is solid because of the huge pressure." },
+  { "id": "s9.earth.rocks.f10", "front": "What is a **tectonic plate**?", "back": "A huge slab of crust and upper mantle that moves slowly (a few cm per year), driven partly by convection currents in the mantle." },
+  { "id": "s9.earth.rocks.f11", "front": "Which plates meet under New Zealand?", "back": "The Pacific Plate and the Australian Plate." },
+  { "id": "s9.earth.rocks.f12", "front": "What is **subduction**?", "back": "One plate sliding down beneath another. Under the North Island, the Pacific Plate subducts beneath the Australian Plate." },
+  { "id": "s9.earth.rocks.f13", "front": "The **Alpine Fault**", "back": "A plate boundary running about 600 km along the South Island, where the plates slide past each other and push up the Southern Alps. The last big earthquake was in 1717." },
+  { "id": "s9.earth.rocks.f14", "front": "The **Taupō Volcanic Zone**", "back": "An area of volcanoes and geothermal activity from Ruapehu to Whakaari/White Island, caused by subduction under the North Island." },
+  { "id": "s9.earth.rocks.f15", "front": "What causes an earthquake?", "back": "Stress builds up in rocks along a fault until they suddenly slip, sending out shaking waves." },
+  { "id": "s9.earth.rocks.f16", "front": "**Weathering**", "back": "Breaking rock into smaller pieces where it is, e.g. by freeze–thaw, plant roots or acidic rain." },
+  { "id": "s9.earth.rocks.f17", "front": "**Erosion**", "back": "Moving weathered rock away, by rivers, waves, wind, glaciers or gravity." },
+  { "id": "s9.earth.rocks.f18", "front": "What is **soil** made of?", "back": "Weathered rock particles (sand, silt, clay), humus, water, air and living things." },
+  { "id": "s9.earth.rocks.f19", "front": "What is a **fossil**?", "back": "The preserved remains or traces of a living thing from long ago, usually found in sedimentary rock." },
+  { "id": "s9.earth.rocks.f20", "front": "In undisturbed rock layers, which layer is oldest?", "back": "The bottom layer, because each layer settles on top of the one before." }
+]

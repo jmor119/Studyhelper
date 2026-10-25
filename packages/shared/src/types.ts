@@ -116,6 +116,8 @@ export interface AttemptRecord {
   createdAt: number;
   /** Short summary of what the student answered (for parents and the mistakes list). */
   answerText?: string;
+  /** The correct answer, recorded once the attempt is marked. */
+  expected?: string;
   needsReview?: boolean;
   selfMarked?: boolean;
   aiMarked?: boolean;

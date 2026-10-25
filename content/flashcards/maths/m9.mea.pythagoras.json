@@ -1,0 +1,12 @@
+[
+  { "id": "m9.mea.pythagoras.f01", "front": "What is the **hypotenuse**?", "back": "The longest side of a right-angled triangle, opposite the right angle." },
+  { "id": "m9.mea.pythagoras.f02", "front": "State **Pythagoras' theorem**", "back": "$a^2 + b^2 = c^2$, where $c$ is the hypotenuse of a right-angled triangle." },
+  { "id": "m9.mea.pythagoras.f03", "front": "Pythagoras' theorem in words (squares on the sides)", "back": "The square on the hypotenuse equals the sum of the squares on the other two sides." },
+  { "id": "m9.mea.pythagoras.f04", "front": "Steps to find the hypotenuse", "back": "Square the two shorter sides, add them, then take the square root." },
+  { "id": "m9.mea.pythagoras.f05", "front": "How do you check if a triangle is right-angled?", "back": "See if (shorter side)² + (shorter side)² = (longest side)². If yes, it is right-angled." },
+  { "id": "m9.mea.pythagoras.f06", "front": "What is a **Pythagorean triple**?", "back": "Three whole numbers that fit $a^2 + b^2 = c^2$, such as (3, 4, 5)." },
+  { "id": "m9.mea.pythagoras.f07", "front": "Name four Pythagorean triples", "back": "(3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25)." },
+  { "id": "m9.mea.pythagoras.f08", "front": "How can you make new Pythagorean triples?", "back": "Multiply every number in a triple by the same number, e.g. (3, 4, 5) × 2 = (6, 8, 10)." },
+  { "id": "m9.mea.pythagoras.f09", "front": "Common mistake: is $(a + b)^2$ the same as $a^2 + b^2$?", "back": "No. Square each side first, then add: $3^2 + 4^2 = 25$, but $(3 + 4)^2 = 49$." },
+  { "id": "m9.mea.pythagoras.f10", "front": "Builders' 3-4-5 rule", "back": "Measure 3 m along one side and 4 m along the other. If the gap between them is exactly 5 m, the corner is a right angle." }
+]

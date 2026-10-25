@@ -1,0 +1,14 @@
+[
+  { "id": "m9.sta.displays.f01", "front": "Dot plot", "back": "One dot per value above a number line; equal values stack up. Good for small numerical data sets." },
+  { "id": "m9.sta.displays.f02", "front": "Box plot", "back": "Shows the five-number summary: whiskers to the minimum and maximum, a box from $Q_1$ to $Q_3$, and a line at the median." },
+  { "id": "m9.sta.displays.f03", "front": "What fraction of the data is in each section of a box plot?", "back": "About a quarter (25%), whatever the length of the section." },
+  { "id": "m9.sta.displays.f04", "front": "Histogram", "back": "Bars for numerical data grouped into equal class intervals. The bars touch and the heights are frequencies." },
+  { "id": "m9.sta.displays.f05", "front": "Bar graph vs histogram", "back": "Bar graph: categories, with gaps between bars. Histogram: a numerical scale in intervals, bars touching." },
+  { "id": "m9.sta.displays.f06", "front": "Scatter plot", "back": "Shows the relationship between two numerical variables; each point is one person or thing." },
+  { "id": "m9.sta.displays.f07", "front": "Explanatory variable", "back": "The variable that might explain or influence the other. It goes on the x-axis." },
+  { "id": "m9.sta.displays.f08", "front": "Response variable", "back": "The variable that may respond to (depend on) the other. It goes on the y-axis." },
+  { "id": "m9.sta.displays.f09", "front": "Line of best fit", "back": "A line drawn by eye through the middle of the points, following the trend, used to make predictions." },
+  { "id": "m9.sta.displays.f10", "front": "Time-series graph", "back": "Shows one variable over time: time on the x-axis, points joined by lines. Look for a trend and repeating patterns." },
+  { "id": "m9.sta.displays.f11", "front": "Two-way table", "back": "A table showing counts for two categorical variables at once, with row and column totals." },
+  { "id": "m9.sta.displays.f12", "front": "Distribution", "back": "How the values of a numerical variable are spread out: where they cluster, how spread out they are, and any unusual values." }
+]

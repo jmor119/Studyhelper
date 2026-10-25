@@ -1,0 +1,161 @@
+[
+  {
+    "id": "m9.geo.transformations.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "trans", "text": "Translation" }, "right": { "id": "slide", "text": "Slides a shape without turning or flipping it" } },
+      { "left": { "id": "refl", "text": "Reflection" }, "right": { "id": "flip", "text": "Flips a shape over a mirror line" } },
+      { "left": { "id": "rot", "text": "Rotation" }, "right": { "id": "turn", "text": "Turns a shape about a fixed point" } },
+      { "left": { "id": "image", "text": "Image" }, "right": { "id": "after", "text": "The shape after it has been transformed" } },
+      { "left": { "id": "centre", "text": "Centre of rotation" }, "right": { "id": "fixed", "text": "The fixed point a shape turns about" } }
+    ],
+    "hints": ["Slide, flip, turn."],
+    "solution": "Translation = slide. Reflection = flip over a mirror line. Rotation = turn about a point. Image = the shape after the transformation. Centre of rotation = the fixed point it turns about."
+  },
+  {
+    "id": "m9.geo.transformations.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "After a transformation, the new shape is called the [[a]]. If the original corner is A, the new corner is labelled [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["image"], "options": ["image", "object", "mirror", "vector"] },
+      { "id": "b", "accepted": ["A′"], "options": ["A′", "A²", "B", "−A"] }
+    ],
+    "hints": ["The starting shape is called the object."],
+    "solution": "The new shape is the **image**, and image points are labelled with a dash: **A′**."
+  },
+  {
+    "id": "m9.geo.transformations.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "A shape is translated, reflected or rotated. Select **all** the things that always stay the same.",
+    "options": [
+      { "id": "a", "text": "The lengths of its sides" },
+      { "id": "b", "text": "The sizes of its angles" },
+      { "id": "c", "text": "Its area" },
+      { "id": "d", "text": "Its position on the grid" },
+      { "id": "e", "text": "The direction it faces" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["These transformations move a shape, but they don't stretch or shrink it.", "Think about whether a rotation changes which way a shape points."],
+    "solution": "Translations, reflections and rotations keep the size and shape the same, so side lengths, angles and area don't change: the image is **congruent** to the object. The position changes, and reflections and rotations can change the direction the shape faces."
+  },
+  {
+    "id": "m9.geo.transformations.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which transformation produces a **mirror image**, so the shape is reversed (like a left hand becoming a right hand)?",
+    "options": [
+      { "id": "a", "text": "Reflection" },
+      { "id": "b", "text": "Translation" },
+      { "id": "c", "text": "Rotation of 90°" },
+      { "id": "d", "text": "Rotation of 180°" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A translation just slides the shape. It still faces the same way.",
+      "c": "A rotation turns the shape but does not reverse it.",
+      "d": "Even a half turn doesn't reverse a shape. A left hand turned upside down is still a left hand."
+    },
+    "hints": ["Think about what you see in a mirror."],
+    "solution": "A **reflection** reverses the shape. Translations and rotations do not."
+  },
+  {
+    "id": "m9.geo.transformations.q005",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 3,
+    "prompt": "Describe fully the single transformation that maps triangle A onto triangle B.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" width=\"360\" height=\"360\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"336\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"50\" y1=\"336\" x2=\"50\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"76\" y1=\"336\" x2=\"76\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"102\" y1=\"336\" x2=\"102\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"128\" y1=\"336\" x2=\"128\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"154\" y1=\"336\" x2=\"154\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"180\" y1=\"336\" x2=\"180\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"206\" y1=\"336\" x2=\"206\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"232\" y1=\"336\" x2=\"232\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"258\" y1=\"336\" x2=\"258\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"284\" y1=\"336\" x2=\"284\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"310\" y1=\"336\" x2=\"310\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"336\" y1=\"336\" x2=\"336\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"336\" x2=\"336\" y2=\"336\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"310\" x2=\"336\" y2=\"310\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"284\" x2=\"336\" y2=\"284\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"258\" x2=\"336\" y2=\"258\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"232\" x2=\"336\" y2=\"232\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"206\" x2=\"336\" y2=\"206\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"180\" x2=\"336\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"154\" x2=\"336\" y2=\"154\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"128\" x2=\"336\" y2=\"128\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"102\" x2=\"336\" y2=\"102\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"76\" x2=\"336\" y2=\"76\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"50\" x2=\"336\" y2=\"50\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"336\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"180\" x2=\"336\" y2=\"180\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"336\" x2=\"180\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"50\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"76\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"102\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"128\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"154\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"206\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"232\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"258\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"284\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"310\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"336\" y=\"193\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"168\" y=\"336\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"168\" y=\"310\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"168\" y=\"284\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"168\" y=\"258\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"168\" y=\"232\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"168\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"168\" y=\"154\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"168\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"168\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"168\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"168\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"168\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"348\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"180\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><polygon points=\"206,154 284,154 206,102\" fill=\"rgba(37,99,235,0.25)\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><polygon points=\"206,206 206,284 258,206\" fill=\"rgba(245,158,11,0.3)\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"232\" y=\"136.67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1d4ed8\" font-weight=\"bold\">A</text><text x=\"223.33\" y=\"232\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#b45309\" font-weight=\"bold\">B</text></svg>", "alt": "A coordinate grid. Triangle A has corners (1, 1), (4, 1) and (1, 3). Triangle B has corners (1, −1), (1, −4) and (3, −1)." },
+    "modelAnswer": "A rotation of 90° clockwise about the origin (0, 0).",
+    "rubric": [
+      { "criterion": "Names the transformation as a rotation", "marks": 1 },
+      { "criterion": "Gives the angle and direction: 90° clockwise (or 270° anticlockwise)", "marks": 1 },
+      { "criterion": "Gives the centre of rotation: the origin (0, 0)", "marks": 1 }
+    ],
+    "hints": ["The triangle has turned, so it is a rotation. A full description needs three things.", "Check a corner: (4, 1) → (1, −4). Which rule does that match?"],
+    "solution": "Each point $(x, y)$ goes to $(y, -x)$: for example $(4, 1) \\to (1, -4)$. That is a **rotation of 90° clockwise about the origin**. A full answer must give all three: rotation, 90° clockwise, centre (0, 0)."
+  },
+  {
+    "id": "m9.geo.transformations.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A shape is translated by $\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}$ and then by $\\begin{pmatrix} -5 \\\\ 1 \\end{pmatrix}$. Which single vector would do the same thing?",
+    "options": [
+      { "id": "a", "text": "$\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}$" },
+      { "id": "b", "text": "$\\begin{pmatrix} 7 \\\\ -4 \\end{pmatrix}$" },
+      { "id": "c", "text": "$\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$" },
+      { "id": "d", "text": "$\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This subtracts the moves. Two translations one after another add together.",
+      "c": "Check the bottom numbers: −3 + 1 = −2.",
+      "d": "This is the reverse of the combined move."
+    },
+    "hints": ["Add the top numbers, and add the bottom numbers."],
+    "solution": "Across: $2 + (-5) = -3$. Up/down: $-3 + 1 = -2$. Single vector: $\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}$ (3 left and 2 down)."
+  },
+  {
+    "id": "m9.geo.transformations.q007",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A shape is reflected in the $x$-axis, and then its image is reflected in the $y$-axis. Which **single** transformation would have the same effect on every point of the shape?",
+    "options": [
+      { "id": "a", "text": "A rotation of 180° about the origin" },
+      { "id": "b", "text": "A rotation of 90° clockwise about the origin" },
+      { "id": "c", "text": "A reflection in the line $y = x$" },
+      { "id": "d", "text": "A translation by $\\begin{pmatrix} -6 \\\\ -8 \\end{pmatrix}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A 90° clockwise rotation sends (3, 4) to (4, −3), not (−3, −4).",
+      "c": "Reflecting in $y = x$ swaps the coordinates: (3, 4) → (4, 3).",
+      "d": "This works for the point (3, 4), but not for every point. A transformation has to work for the whole shape."
+    },
+    "hints": ["Follow one point, such as (3, 4): reflect it in the $x$-axis, then in the $y$-axis. Where does it end up?", "Which transformation changes the sign of both coordinates of every point?"],
+    "solution": "(3, 4) → (3, −4) → (−3, −4). Both signs have changed, which is exactly what a **rotation of 180° about the origin** does to every point: $(x, y) \\to (-x, -y)$."
+  },
+  {
+    "id": "m9.geo.transformations.q008",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A shape is rotated 90° clockwise about the origin, and then rotated another 90° clockwise about the origin. Which single transformation does the same thing?",
+    "options": [
+      { "id": "a", "text": "A rotation of 180° about the origin" },
+      { "id": "b", "text": "A rotation of 90° anticlockwise about the origin" },
+      { "id": "c", "text": "A reflection in the $x$-axis" },
+      { "id": "d", "text": "Nothing changes: it ends up where it started" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Two clockwise quarter turns can't add up to an anticlockwise turn.",
+      "c": "Rotations never reverse a shape, but reflections do.",
+      "d": "It takes four quarter turns (360°) to get back to the start."
+    },
+    "hints": ["Two quarter turns make how much of a full turn?"],
+    "solution": "90° + 90° = 180°, so it is a **rotation of 180° about the origin** (a half turn)."
+  },
+  {
+    "id": "m9.geo.transformations.q009",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Which transformation maps **every** point $(x, y)$ to $(y, x)$?",
+    "options": [
+      { "id": "a", "text": "A reflection in the line $y = x$" },
+      { "id": "b", "text": "A rotation of 90° clockwise about the origin" },
+      { "id": "c", "text": "A rotation of 90° anticlockwise about the origin" },
+      { "id": "d", "text": "A reflection in the $y$-axis" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "90° clockwise sends $(x, y)$ to $(y, -x)$. Try (2, 5): it goes to (5, −2), not (5, 2).",
+      "c": "90° anticlockwise sends $(x, y)$ to $(-y, x)$. Try (2, 5): it goes to (−5, 2).",
+      "d": "Reflecting in the $y$-axis sends $(x, y)$ to $(-x, y)$."
+    },
+    "hints": ["Test a point such as (2, 5). Where should it go?", "Points on the line $y = x$, such as (3, 3), don't move under this transformation."],
+    "solution": "Swapping the coordinates is a **reflection in the line $y = x$**. For example, (2, 5) → (5, 2): both are the same distance from the line $y = x$, on opposite sides. Points on the line, like (3, 3), stay put."
+  }
+]

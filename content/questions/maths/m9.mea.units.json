@@ -1,0 +1,163 @@
+[
+  {
+    "id": "m9.mea.units.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which unit is the most sensible for the mass of one kiwifruit?",
+    "options": [
+      { "id": "a", "text": "grams (g)" },
+      { "id": "b", "text": "kilograms (kg)" },
+      { "id": "c", "text": "milligrams (mg)" },
+      { "id": "d", "text": "tonnes (t)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A kiwifruit is much lighter than 1 kg, so you would get an awkward decimal like 0.09 kg.",
+      "c": "Milligrams are tiny (1000 mg = 1 g). You would get a huge number like 90 000 mg.",
+      "d": "Tonnes are for very heavy things such as trucks (1 t = 1000 kg)."
+    },
+    "hints": ["Choose the unit that gives a sensible-sized number, not a tiny decimal or a huge number."],
+    "solution": "A kiwifruit has a mass of roughly 80–120 **grams**. Grams give a sensible whole number."
+  },
+  {
+    "id": "m9.mea.units.q002",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each metric prefix to what it means.",
+    "pairs": [
+      { "left": { "id": "kilo", "text": "kilo (k)" }, "right": { "id": "k", "text": "× 1000" } },
+      { "left": { "id": "mega", "text": "mega (M)" }, "right": { "id": "m6", "text": "× 1 000 000" } },
+      { "left": { "id": "giga", "text": "giga (G)" }, "right": { "id": "g9", "text": "× 1 000 000 000" } },
+      { "left": { "id": "centi", "text": "centi (c)" }, "right": { "id": "c2", "text": "÷ 100" } },
+      { "left": { "id": "milli", "text": "milli (m)" }, "right": { "id": "m3", "text": "÷ 1000" } },
+      { "left": { "id": "micro", "text": "micro (μ)" }, "right": { "id": "u6", "text": "÷ 1 000 000" } }
+    ],
+    "hints": ["Kilo, mega and giga make a unit bigger. Centi, milli and micro make it smaller.", "Think of 1 km = 1000 m and 1 m = 100 cm = 1000 mm."],
+    "solution": "kilo × 1000; mega × 1 000 000; giga × 1 000 000 000; centi ÷ 100; milli ÷ 1000; micro ÷ 1 000 000."
+  },
+  {
+    "id": "m9.mea.units.q003",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these lengths in order from **shortest** to **longest**.",
+    "items": [
+      { "id": "a", "text": "0.04 km" },
+      { "id": "b", "text": "4800 cm" },
+      { "id": "c", "text": "50 000 mm" },
+      { "id": "d", "text": "450 m" },
+      { "id": "e", "text": "0.5 km" }
+    ],
+    "hints": ["Convert every length to the same unit first. Metres are a good choice.", "1 km = 1000 m, 1 m = 100 cm, 1 m = 1000 mm."],
+    "solution": "In metres: 0.04 km = 40 m, 4800 cm = 48 m, 50 000 mm = 50 m, 450 m, 0.5 km = 500 m.\n\nSo the order is 0.04 km, 4800 cm, 50 000 mm, 450 m, 0.5 km."
+  },
+  {
+    "id": "m9.mea.units.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha says that 1.5 hours is the same as 1 hour 50 minutes. What is 1.5 hours really?",
+    "options": [
+      { "id": "a", "text": "1 hour 30 minutes" },
+      { "id": "b", "text": "1 hour 50 minutes" },
+      { "id": "c", "text": "1 hour 5 minutes" },
+      { "id": "d", "text": "1 hour 15 minutes" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That treats an hour as 100 minutes. There are only 60 minutes in an hour.",
+      "c": "0.5 of an hour is half an hour, which is more than 5 minutes.",
+      "d": "15 minutes is a quarter of an hour (0.25 h), not half an hour."
+    },
+    "hints": ["0.5 means one half.", "What is half of 60 minutes?"],
+    "solution": "0.5 h $= 0.5 \\times 60 = 30$ minutes, so 1.5 h = **1 hour 30 minutes**. Time works in 60s, not 100s."
+  },
+  {
+    "id": "m9.mea.units.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Two pieces of timber are measured as 3.4 m (to the nearest 0.1 m) and 2.16 m (to the nearest 0.01 m). Their total length is calculated. Which answer is given to a sensible precision?",
+    "options": [
+      { "id": "a", "text": "5.6 m" },
+      { "id": "b", "text": "5.56 m" },
+      { "id": "c", "text": "5.560 m" },
+      { "id": "d", "text": "6 m" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is more precise than the 3.4 m measurement, which is only known to 0.1 m.",
+      "c": "Extra zeros claim a precision of 1 mm, which nobody measured.",
+      "d": "This throws away more precision than needed. Both lengths are known to at least 0.1 m."
+    },
+    "hints": ["Which measurement is the least precise?", "An answer can't be more precise than the least precise measurement used."],
+    "solution": "$3.4 + 2.16 = 5.56$ m. The least precise measurement (3.4 m) is to the nearest 0.1 m, so round the answer to 0.1 m: **5.6 m**."
+  },
+  {
+    "id": "m9.mea.units.q006",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Complete the facts about area units.\n\n1 m² = [[a]] cm²\n\n1 cm² = [[b]] mm²\n\n1 km² = [[c]] m²",
+    "blanks": [
+      { "id": "a", "accepted": ["10 000"], "options": ["100", "1000", "10 000", "1 000 000"] },
+      { "id": "b", "accepted": ["100"], "options": ["10", "100", "1000", "10 000"] },
+      { "id": "c", "accepted": ["1 000 000"], "options": ["1000", "10 000", "100 000", "1 000 000"] }
+    ],
+    "hints": ["A 1 m by 1 m square is 100 cm by 100 cm.", "Area conversions square the length conversion factor."],
+    "solution": "1 m² = 100 × 100 = **10 000** cm². 1 cm² = 10 × 10 = **100** mm². 1 km² = 1000 × 1000 = **1 000 000** m²."
+  },
+  {
+    "id": "m9.mea.units.q007",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Hemi says: \"1 m = 100 cm, so 1 m² must be 100 cm².\" Explain why Hemi is wrong, and give the correct number of square centimetres in 1 m².",
+    "modelAnswer": "A square metre is a square that is 1 m long and 1 m wide. That is 100 cm long and 100 cm wide, so it holds 100 rows of 100 one-centimetre squares. 1 m² = 100 × 100 = 10 000 cm². Hemi only converted one direction, but area has two dimensions.",
+    "rubric": [
+      { "criterion": "Explains that a square metre is 100 cm by 100 cm (area has two dimensions, so both lengths are converted)", "marks": 1 },
+      { "criterion": "States that 1 m² = 10 000 cm²", "marks": 1 }
+    ],
+    "hints": ["Sketch a square 1 m by 1 m. How long is each side in centimetres?"],
+    "solution": "1 m² is a 1 m by 1 m square, which is 100 cm by 100 cm. Its area is $100 \\times 100 = 10\\,000$ cm². Hemi forgot that area involves two lengths multiplied together."
+  },
+  {
+    "id": "m9.mea.units.q008",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A movie starts at 7:45 pm and runs for 145 minutes. What time does it finish?",
+    "options": [
+      { "id": "a", "text": "10:10 pm" },
+      { "id": "b", "text": "9:30 pm" },
+      { "id": "c", "text": "9:10 pm" },
+      { "id": "d", "text": "10:30 pm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This treats 145 minutes as 1 hour 45 minutes. But 145 minutes is 2 hours 25 minutes.",
+      "c": "Check the minutes: 7:45 pm plus 2 hours is 9:45 pm, then add 25 more minutes.",
+      "d": "This adds 2 hours 45 minutes. 145 minutes is 2 hours 25 minutes."
+    },
+    "hints": ["Change 145 minutes into hours and minutes: how many lots of 60 are in 145?"],
+    "solution": "145 min = 120 min + 25 min = 2 h 25 min.\n\n7:45 pm + 2 h = 9:45 pm. Then + 25 min: 15 min gets to 10:00 pm, and 10 more gives **10:10 pm**."
+  },
+  {
+    "id": "m9.mea.units.q009",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "allowed",
+    "prompt": "A computer processor carries out one instruction every 0.5 nanoseconds. How many instructions can it carry out in 1 second? You can write your answer as $a \\times 10^n$.",
+    "answer": 2000000000,
+    "hints": ["1 nanosecond is $10^{-9}$ seconds, so there are 1 000 000 000 ns in one second.", "How many lots of 0.5 ns fit into 1 000 000 000 ns?"],
+    "solution": "1 s = 1 000 000 000 ns. Each instruction takes 0.5 ns, so the number of instructions is $1\\,000\\,000\\,000 \\div 0.5 = 2\\,000\\,000\\,000$, which is $2 \\times 10^9$ (2 billion)."
+  },
+  {
+    "id": "m9.mea.units.q010",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "In 1 km/h, the unit is made by dividing a distance unit by a time unit. What is the name for a unit like this, built from other units?",
+    "accepted": ["derived unit", "derived units", "a derived unit", "derived", "compound unit", "compound units"],
+    "hints": ["It begins with the letter d. Units such as m² and km/h are '…' from base units."],
+    "solution": "It is a **derived unit**: it is built (derived) from other units, here kilometres and hours."
+  }
+]

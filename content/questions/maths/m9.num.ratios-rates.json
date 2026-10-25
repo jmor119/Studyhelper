@@ -1,0 +1,180 @@
+[
+  {
+    "id": "m9.num.ratios-rates.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A fruit bowl has 4 apples and 7 bananas. What is the ratio of bananas to apples?",
+    "options": [
+      { "id": "a", "text": "$7 : 4$" },
+      { "id": "b", "text": "$4 : 7$" },
+      { "id": "c", "text": "$7 : 11$" },
+      { "id": "d", "text": "$4 : 11$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is apples to bananas. The order of the words tells you the order of the numbers.",
+      "c": "This compares bananas with all the fruit (part : whole).",
+      "d": "This compares apples with all the fruit."
+    },
+    "hints": ["\"Bananas to apples\": bananas come first."],
+    "solution": "Bananas to apples is $7 : 4$."
+  },
+  {
+    "id": "m9.num.ratios-rates.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "A [[a]] compares quantities measured in different units, such as 80 km/h. A [[b]] compares quantities of the same kind, such as 3 red : 2 blue.",
+    "blanks": [
+      { "id": "a", "accepted": ["rate"], "options": ["rate", "ratio", "fraction"] },
+      { "id": "b", "accepted": ["ratio"], "options": ["rate", "ratio", "fraction"] }
+    ],
+    "hints": ["Speed is an example of one of these."],
+    "solution": "80 km/h is a **rate** (kilometres compared with hours). 3 red : 2 blue is a **ratio**."
+  },
+  {
+    "id": "m9.num.ratios-rates.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the ratios that are equivalent to $2 : 3$.",
+    "options": [
+      { "id": "a", "text": "$4 : 6$" },
+      { "id": "b", "text": "$6 : 9$" },
+      { "id": "c", "text": "$3 : 2$" },
+      { "id": "d", "text": "$10 : 15$" },
+      { "id": "e", "text": "$5 : 6$" }
+    ],
+    "correct": ["a", "b", "d"],
+    "hints": ["Equivalent ratios come from multiplying both parts by the same number."],
+    "solution": "$2 : 3 = 4 : 6$ (× 2) $= 6 : 9$ (× 3) $= 10 : 15$ (× 5). $3 : 2$ is the reverse, and $5 : 6$ adds 3 to each part, which doesn't keep the ratio the same."
+  },
+  {
+    "id": "m9.num.ratios-rates.q004",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "ratio", "text": "Ratio" }, "right": { "id": "m1", "text": "A comparison of quantities of the same kind, e.g. 2 : 3" } },
+      { "left": { "id": "rate", "text": "Rate" }, "right": { "id": "m2", "text": "A comparison of quantities with different units, e.g. 60 km/h" } },
+      { "left": { "id": "unit", "text": "Unit rate" }, "right": { "id": "m3", "text": "The amount for one unit, e.g. \\$4.20 per kg" } },
+      { "left": { "id": "per", "text": "Per" }, "right": { "id": "m4", "text": "For every, or for each" } },
+      { "left": { "id": "simp", "text": "Simplest form" }, "right": { "id": "m5", "text": "Whole numbers with no common factor except 1" } }
+    ],
+    "hints": ["A unit rate is \"how much for one\"."],
+    "solution": "Ratio: same kind of quantity. Rate: different units. Unit rate: the amount for one unit. Per: for every. Simplest form: whole numbers with no common factor except 1."
+  },
+  {
+    "id": "m9.num.ratios-rates.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Tama shares 20 lollies with Mere in the ratio $3 : 2$. He says he gets 3 lollies and Mere gets 2. What is wrong?",
+    "options": [
+      { "id": "a", "text": "The ratio gives parts, not amounts. There are 5 parts of 4 lollies, so Tama gets 12 and Mere gets 8." },
+      { "id": "b", "text": "Nothing, the ratio says Tama gets 3 and Mere gets 2." },
+      { "id": "c", "text": "He has them the wrong way round: Tama should get 2 and Mere 3." },
+      { "id": "d", "text": "Tama should get 15 and Mere 5, because $20 - 5 = 15$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That only uses 5 of the 20 lollies.",
+      "c": "The order is right; the problem is that all 20 lollies must be shared.",
+      "d": "Check the ratio: $15 : 5 = 3 : 1$, not $3 : 2$."
+    },
+    "hints": ["How many parts are there altogether?", "How many lollies is one part worth?"],
+    "solution": "There are $3 + 2 = 5$ parts and $20 \\div 5 = 4$ lollies per part. Tama gets $3 \\times 4 = 12$ and Mere gets $2 \\times 4 = 8$. Check: $12 + 8 = 20$ ✓"
+  },
+  {
+    "id": "m9.num.ratios-rates.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which rate is the same as 90 km/h?",
+    "options": [
+      { "id": "a", "text": "1.5 km per minute" },
+      { "id": "b", "text": "15 km per minute" },
+      { "id": "c", "text": "9 km per minute" },
+      { "id": "d", "text": "1.5 km per second" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That would be 900 km in an hour. Divide 90 by 60.",
+      "c": "Dividing by 10 is not right. There are 60 minutes in an hour.",
+      "d": "There are 3600 seconds in an hour, not 60."
+    },
+    "hints": ["There are 60 minutes in an hour.", "Divide the distance in one hour by 60."],
+    "solution": "In 1 hour (60 minutes) you travel 90 km, so in 1 minute you travel $90 \\div 60 = 1.5$ km."
+  },
+  {
+    "id": "m9.num.ratios-rates.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Concrete is made from cement, sand and gravel in the ratio $1 : 2 : 4$. How much sand is in 350 kg of concrete mix?",
+    "options": [
+      { "id": "a", "text": "100 kg" },
+      { "id": "b", "text": "200 kg" },
+      { "id": "c", "text": "50 kg" },
+      { "id": "d", "text": "116.7 kg" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the amount of gravel (4 parts).",
+      "c": "This is one part, which is the amount of cement.",
+      "d": "This divides by 3 (the number of ingredients) instead of the total number of parts."
+    },
+    "hints": ["Total parts: $1 + 2 + 4$.", "Sand is 2 parts."],
+    "solution": "There are $1 + 2 + 4 = 7$ parts. One part is $350 \\div 7 = 50$ kg. Sand is 2 parts: $2 \\times 50 = 100$ kg."
+  },
+  {
+    "id": "m9.num.ratios-rates.q008",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A recipe for 6 people uses 450 g of mince. Losa is cooking for 10 people. How much mince does she need?",
+    "answer": 750,
+    "units": "g",
+    "hints": ["Find how much mince is used per person.", "Then multiply by 10."],
+    "solution": "Per person: $450 \\div 6 = 75$ g. For 10 people: $75 \\times 10 = 750$ g."
+  },
+  {
+    "id": "m9.num.ratios-rates.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A 2 L bottle of milk costs \\$4.40 and a 3 L bottle costs \\$6.30. Which bottle is better value? Show your working.",
+    "modelAnswer": "2 L bottle: $4.40 \\div 2 = 2.20$, so \\$2.20 per litre. 3 L bottle: $6.30 \\div 3 = 2.10$, so \\$2.10 per litre. The 3 L bottle is cheaper per litre, so it is better value.",
+    "rubric": [
+      { "criterion": "Finds the unit price of the 2 L bottle (\\$2.20 per litre) or another fair comparison", "marks": 1 },
+      { "criterion": "Finds the unit price of the 3 L bottle (\\$2.10 per litre)", "marks": 1 },
+      { "criterion": "Concludes the 3 L bottle is better value, giving the reason (lower price per litre)", "marks": 1 }
+    ],
+    "hints": ["Compare the price for the same amount, e.g. the price per litre."],
+    "solution": "\\$2.20 per litre compared with \\$2.10 per litre, so the **3 L bottle** is better value. (Another fair method: 6 L would cost \\$13.20 in 2 L bottles but \\$12.60 in 3 L bottles.)"
+  },
+  {
+    "id": "m9.num.ratios-rates.q010",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a kapa haka group the ratio of girls to boys is $5 : 3$. There are 10 more girls than boys. How many students are in the group?",
+    "options": [
+      { "id": "a", "text": "40" },
+      { "id": "b", "text": "18" },
+      { "id": "c", "text": "25" },
+      { "id": "d", "text": "80" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This adds $5 + 3 + 10$. The numbers in the ratio are parts, not students. Use the difference to find what one part is worth.",
+      "c": "25 is the number of girls, not the whole group.",
+      "d": "Check: the difference is 2 parts, so one part is $10 \\div 2 = 5$, not 10."
+    },
+    "hints": ["The difference between girls and boys is $5 - 3 = 2$ parts.", "2 parts = 10 students. What is one part?"],
+    "solution": "The difference is $5 - 3 = 2$ parts, which is 10 students, so one part is 5. Girls: $5 \\times 5 = 25$. Boys: $3 \\times 5 = 15$. Total: $25 + 15 = 40$ (or $8 \\times 5 = 40$)."
+  }
+]

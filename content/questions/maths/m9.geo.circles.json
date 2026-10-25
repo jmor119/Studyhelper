@@ -1,0 +1,145 @@
+[
+  {
+    "id": "m9.geo.circles.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each part of a circle to its description.",
+    "pairs": [
+      { "left": { "id": "centre", "text": "Centre" }, "right": { "id": "c", "text": "The point the same distance from every point on the circle" } },
+      { "left": { "id": "radius", "text": "Radius" }, "right": { "id": "r", "text": "A line from the centre to the circle" } },
+      { "left": { "id": "diameter", "text": "Diameter" }, "right": { "id": "d", "text": "A line across the circle through the centre" } },
+      { "left": { "id": "chord", "text": "Chord" }, "right": { "id": "ch", "text": "A line joining any two points on the circle" } },
+      { "left": { "id": "arc", "text": "Arc" }, "right": { "id": "a", "text": "Part of the curved edge of the circle" } },
+      { "left": { "id": "circ", "text": "Circumference" }, "right": { "id": "ci", "text": "The whole distance around the circle" } }
+    ],
+    "hints": ["Three of them are straight lines; two are about the curved edge."],
+    "solution": "Centre: the middle point. Radius: centre to circle. Diameter: across through the centre. Chord: joins two points on the circle. Arc: part of the curved edge. Circumference: all the way around."
+  },
+  {
+    "id": "m9.geo.circles.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "A circle is the set of all points that are the same distance from one fixed point. What is that fixed distance called?",
+    "options": [
+      { "id": "a", "text": "The radius" },
+      { "id": "b", "text": "The diameter" },
+      { "id": "c", "text": "The circumference" },
+      { "id": "d", "text": "The chord" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The diameter goes right across the circle. It is twice the distance from the centre.",
+      "c": "The circumference is the distance around the circle.",
+      "d": "A chord joins two points on the circle; it is not measured from the centre."
+    },
+    "hints": ["Think about how a compass draws a circle. What stays the same as the pencil turns?"],
+    "solution": "Every point on the circle is one **radius** away from the centre."
+  },
+  {
+    "id": "m9.geo.circles.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "The diameter of a circle is [[a]] times as long as the radius. The longest chord in any circle is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["2"], "options": ["2", "3", "π", "½"] },
+      { "id": "b", "accepted": ["diameter"], "options": ["diameter", "radius", "arc", "circumference"] }
+    ],
+    "hints": ["A diameter is made of two radii end to end."],
+    "solution": "$d = 2r$, so the diameter is **2** times the radius. The **diameter** is the longest chord, because it goes through the centre."
+  },
+  {
+    "id": "m9.geo.circles.q004",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A round table top has a radius of 0.65 m. How wide is it, measured straight across through the centre?",
+    "answer": 1.3,
+    "units": "m",
+    "hints": ["Straight across through the centre is the diameter.", "$d = 2r$."],
+    "solution": "The width through the centre is the diameter: $d = 2 \\times 0.65 = 1.3$ m."
+  },
+  {
+    "id": "m9.geo.circles.q005",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "O is the centre of the circle. Select **all** the lines that are **chords**.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" width=\"300\" height=\"250\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"150\" cy=\"125\" r=\"100\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"125\" r=\"3.5\" fill=\"#1f2937\"/><text x=\"154\" y=\"139\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">O</text><line x1=\"56.03\" y1=\"90.8\" x2=\"243.97\" y2=\"159.2\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><text x=\"113.02\" y=\"97.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">1</text><line x1=\"200\" y1=\"38.4\" x2=\"85.72\" y2=\"48.4\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><text x=\"152.86\" y=\"33.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">2</text><line x1=\"150\" y1=\"125\" x2=\"124.12\" y2=\"221.59\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><text x=\"144.47\" y=\"172.96\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">3</text><line x1=\"184.2\" y1=\"218.97\" x2=\"243.97\" y2=\"90.8\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><text x=\"221.1\" y=\"151.29\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">4</text><line x1=\"56.03\" y1=\"159.2\" x2=\"125\" y2=\"180\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><text x=\"100.52\" y=\"159.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">5</text></svg>", "alt": "A circle with centre O and five numbered blue lines. Line 1 goes across the circle through O. Line 2 joins two points near the top of the circle. Line 3 goes from O to the circle. Line 4 joins two points on the right of the circle. Line 5 goes from a point on the circle to a point inside the circle." },
+    "options": [
+      { "id": "1", "text": "Line 1" },
+      { "id": "2", "text": "Line 2" },
+      { "id": "3", "text": "Line 3" },
+      { "id": "4", "text": "Line 4" },
+      { "id": "5", "text": "Line 5" }
+    ],
+    "correct": ["1", "2", "4"],
+    "shuffle": false,
+    "hints": ["A chord is any straight line with **both** ends on the circle.", "A diameter has both ends on the circle too."],
+    "solution": "Lines 1, 2 and 4 have both ends on the circle, so they are chords. Line 1 passes through the centre, so it is also a diameter (the longest chord). Line 3 is a radius (one end at the centre), and line 5 ends inside the circle."
+  },
+  {
+    "id": "m9.geo.circles.q006",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "O is the centre of a circle, and A and B are two different points on the circle. Explain why triangle OAB must be isosceles.",
+    "modelAnswer": "Every point on a circle is the same distance (one radius) from the centre. OA and OB both go from the centre to the circle, so they are both radii and are equal in length. A triangle with two equal sides is isosceles.",
+    "rubric": [
+      { "criterion": "States that OA and OB are both radii", "marks": 1 },
+      { "criterion": "Concludes that OA = OB, so the triangle has two equal sides and is isosceles", "marks": 1 }
+    ],
+    "hints": ["What kind of line goes from the centre O to a point on the circle?"],
+    "solution": "OA and OB are both radii of the same circle, so OA = OB. A triangle with two equal sides is isosceles."
+  },
+  {
+    "id": "m9.geo.circles.q007",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Three identical circles fit exactly inside a rectangle 36 cm long, as shown. Each circle touches its neighbours and the sides of the rectangle. What is the radius of each circle?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 180\" width=\"360\" height=\"180\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"30,40 330,40 330,140 30,140\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"90\" r=\"50\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"90\" r=\"50\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"90\" r=\"50\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"180\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">36 cm</text></svg>", "alt": "A rectangle 36 cm long containing three identical circles in a row. The circles touch each other and the top, bottom and ends of the rectangle." },
+    "answer": 6,
+    "units": "cm",
+    "hints": ["The 36 cm length is made up of three diameters.", "Find one diameter, then halve it."],
+    "solution": "Three diameters fit along 36 cm, so each diameter is $36 \\div 3 = 12$ cm and each radius is $12 \\div 2 = 6$ cm."
+  },
+  {
+    "id": "m9.geo.circles.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Hemi marks every point in the playground that is exactly 3 m from a fixed peg P. What shape do the points make?",
+    "options": [
+      { "id": "a", "text": "A circle with centre P and radius 3 m" },
+      { "id": "b", "text": "A circle with centre P and diameter 3 m" },
+      { "id": "c", "text": "A square with sides of 3 m" },
+      { "id": "d", "text": "A straight line 3 m long" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Each point is 3 m from the centre, so 3 m is the radius. The diameter would be 6 m.",
+      "c": "The corners of a square are further from the middle than the sides are.",
+      "d": "Points 3 m away can be in any direction, not just one."
+    },
+    "hints": ["The points can be in any direction from P, but always the same distance away."],
+    "solution": "All points a fixed distance from a fixed point form a **circle**. P is the centre and 3 m is the radius."
+  },
+  {
+    "id": "m9.geo.circles.q009",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Two circles each have a radius of 5 cm. Their centres, P and Q, are 8 cm apart, so the circles overlap and cross at two points, X and Y. What kind of quadrilateral is PXQY?",
+    "options": [
+      { "id": "a", "text": "A rhombus" },
+      { "id": "b", "text": "A square" },
+      { "id": "c", "text": "A rectangle" },
+      { "id": "d", "text": "A trapezium" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "All four sides are equal, but the corners are not right angles. A square with 5 cm sides would have diagonals of about 7.1 cm, not 8 cm.",
+      "c": "A rectangle needs right-angled corners. All four sides here are 5 cm, which points to a different shape.",
+      "d": "Think about the lengths PX, XQ, QY and YP."
+    },
+    "hints": ["X is on both circles. How far is X from P? How far is X from Q?", "Each of PX, XQ, QY and YP is a radius of one of the circles."],
+    "solution": "X and Y lie on both circles, so PX = PY = 5 cm (radii of the first circle) and QX = QY = 5 cm (radii of the second). All four sides are 5 cm, so PXQY is a **rhombus**. It is not a square: if it were, the diagonal PQ would be $\\sqrt{5^2 + 5^2} = \\sqrt{50} \\approx 7.1$ cm, but PQ is 8 cm."
+  }
+]

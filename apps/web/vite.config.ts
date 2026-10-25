@@ -40,6 +40,17 @@ export default defineConfig({
   server: {
     port: 5173,
     fs: { allow: [root] },
+    // Mirror the Hosting rewrites (firebase.json) so MCP/OAuth work against the emulator locally.
+    proxy: Object.fromEntries(
+      ['^/mcp', '^/\\.well-known/oauth-', '^/oauth/(register|authorize|token)'].map((path) => [
+        path,
+        {
+          target: 'http://127.0.0.1:5001',
+          changeOrigin: false,
+          rewrite: (p: string) => `/demo-study-helper/australia-southeast1/mcp${p}`,
+        },
+      ]),
+    ),
   },
   build: {
     target: 'es2022',

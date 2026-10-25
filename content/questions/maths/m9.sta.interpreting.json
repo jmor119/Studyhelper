@@ -1,0 +1,162 @@
+[
+  {
+    "id": "m9.sta.interpreting.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What is an **outlier**?",
+    "options": [
+      { "id": "a", "text": "A value that is much larger or much smaller than the rest of the data" },
+      { "id": "b", "text": "The largest value in any data set" },
+      { "id": "c", "text": "A value that appears only once" },
+      { "id": "d", "text": "The value furthest from the mode" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Every data set has a largest value, but it is only an outlier if it is far away from the others.",
+      "c": "Lots of values appear only once. That doesn't make them unusual.",
+      "d": "Outliers are about being far from the rest of the data, not from the mode in particular."
+    },
+    "hints": ["Think of a value that \"lies outside\" the main group of data."],
+    "solution": "An **outlier** is a value that is unusually far from the rest of the data, either much larger or much smaller."
+  },
+  {
+    "id": "m9.sta.interpreting.q002",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the features that could make a graph misleading.",
+    "options": [
+      { "id": "a", "text": "The vertical axis starts at 90 instead of 0 on a bar graph" },
+      { "id": "b", "text": "The numbers on an axis are not evenly spaced" },
+      { "id": "c", "text": "A picture is made twice as tall and twice as wide to show double the amount" },
+      { "id": "d", "text": "The graph has a clear title and labelled axes" },
+      { "id": "e", "text": "Only a few months are shown, chosen to support the claim" }
+    ],
+    "correct": ["a", "b", "c", "e"],
+    "hints": ["Four of these can mislead. One of them is a sign of a good graph."],
+    "solution": "A non-zero axis exaggerates differences; uneven scales distort the shape; doubling both height and width makes a picture **four** times the area; cherry-picking a time range hides the full picture. A clear title and labelled axes are features of a **good** graph."
+  },
+  {
+    "id": "m9.sta.interpreting.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "In a class survey, the students who walked to school had a median travel time of 14 minutes, and the students who came by car had a median of 9 minutes. The two groups' times overlapped a lot. Which statement is the most appropriate?",
+    "options": [
+      { "id": "a", "text": "In this data, the walkers tended to take longer to get to school than the car travellers." },
+      { "id": "b", "text": "Walking to school always takes longer than going by car." },
+      { "id": "c", "text": "Every walker took at least 5 minutes longer than every car traveller." },
+      { "id": "d", "text": "This proves that cars are faster than walking for everyone in New Zealand." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"Always\" is too strong: the times overlap, so some walkers were quicker than some car travellers.",
+      "c": "The medians differ by 5 minutes, but that doesn't mean every value does. The groups overlap.",
+      "d": "One class's data can't prove anything about everyone in New Zealand."
+    },
+    "hints": ["Look for the statement that allows for variation and uncertainty."],
+    "solution": "Because the data overlaps and comes from one class, the careful claim is that walkers **tended to** take longer **in this data**. Words like *always*, *every* and *proves* overclaim."
+  },
+  {
+    "id": "m9.sta.interpreting.q004",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Liam wants to find out how much exercise Year 9 students at his school do each week. He surveys the students at the school gym after school. Why might his results be **biased**?",
+    "options": [
+      { "id": "a", "text": "Students at the gym probably exercise more than typical Year 9 students." },
+      { "id": "b", "text": "The gym is too noisy for a survey." },
+      { "id": "c", "text": "Exercise is a numerical variable." },
+      { "id": "d", "text": "He should have asked teachers instead." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Noise might be annoying, but it isn't what makes the data unrepresentative.",
+      "c": "Numerical variables are fine to collect. The problem is who was asked.",
+      "d": "Teachers aren't the group he wants to know about."
+    },
+    "hints": ["Think about whether the students he asks are like all Year 9 students."],
+    "solution": "The students at the gym are not **representative** of all Year 9 students: they are likely to exercise more than average. So his results would probably overestimate how much exercise Year 9s do. This is **bias**."
+  },
+  {
+    "id": "m9.sta.interpreting.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which survey question is the **least** biased?",
+    "options": [
+      { "id": "a", "text": "How many minutes did you spend on screens yesterday?" },
+      { "id": "b", "text": "Don't you agree that teenagers spend far too much time on screens?" },
+      { "id": "c", "text": "Most experts say screens are harmful. How much time do you waste on screens?" },
+      { "id": "d", "text": "You don't spend too long on screens, do you?" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"Don't you agree…\" is a leading question that pushes people towards \"yes\".",
+      "c": "This adds an opinion first, and the word \"waste\" suggests a particular answer.",
+      "d": "This leads people towards answering \"no\"."
+    },
+    "hints": ["A good survey question is neutral: it doesn't push people towards an answer."],
+    "solution": "Option A is neutral and asks for a number. The others are **leading questions** that suggest which answer is wanted, which can bias the results."
+  },
+  {
+    "id": "m9.sta.interpreting.q006",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "An advert shows two pictures of milk bottles. The first stands for 1 million litres sold last year. The second stands for 2 million litres sold this year, and it is drawn twice as tall **and** twice as wide as the first.\n\nExplain why this is misleading.",
+    "modelAnswer": "Doubling both the height and the width makes the second picture four times the area of the first ($2 \\times 2 = 4$). People judge pictures by their size, so it looks as if sales have increased four times, when they have only doubled.",
+    "rubric": [
+      { "criterion": "States that the second picture has four times the area (2 × 2)", "marks": 1 },
+      { "criterion": "Explains that this makes the increase look bigger than it really is (looks ×4, actually ×2)", "marks": 1 }
+    ],
+    "hints": ["What happens to the area of a shape when both its height and width double?"],
+    "solution": "Area $= \\text{height} \\times \\text{width}$, so doubling both makes the picture $2 \\times 2 = 4$ times as big. Sales doubled, but the picture makes it look like they quadrupled."
+  },
+  {
+    "id": "m9.sta.interpreting.q007",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A café's sign shows a time-series graph of its weekly coffee sales for only the last 4 weeks, which went up each week. The sign says, \"Our sales are booming!\" Over the last year, sales have gone down overall. What is misleading about the graph?",
+    "options": [
+      { "id": "a", "text": "It shows a cherry-picked time range that hides the overall downward trend." },
+      { "id": "b", "text": "Time-series graphs can't be used for sales data." },
+      { "id": "c", "text": "Four weeks of data is too much to show on one graph." },
+      { "id": "d", "text": "Nothing: the sales did go up for 4 weeks, so the claim is fair." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Time-series graphs are a good choice for sales over time. The problem is which times are shown.",
+      "c": "Four weeks is actually very little data, which is part of the problem.",
+      "d": "The 4 weeks are real, but choosing only them gives a false impression of the overall trend."
+    },
+    "hints": ["What would the graph look like if it showed the whole year?"],
+    "solution": "By choosing only the 4 weeks that went up, the café hides the year-long **downward trend**. This is a cherry-picked time range. A fair graph would show a longer period."
+  },
+  {
+    "id": "m9.sta.interpreting.q008",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Two classes recorded how many minutes they spent on homework one night.\n\n| | Median | Lower quartile | Upper quartile | Minimum | Maximum |\n|---|---|---|---|---|---|\n| Room 5 | 35 | 25 | 45 | 10 | 70 |\n| Room 8 | 25 | 15 | 40 | 0 | 90 |\n\nWrite **two** statements comparing the homework times of the two classes. Use evidence from the table, and make sure your statements don't claim more than the data shows.",
+    "modelAnswer": "1. Room 5 tended to spend longer on homework than Room 8: Room 5's median was 35 minutes, compared with 25 minutes for Room 8.\n\n2. Room 8's homework times were more spread out: Room 8's IQR was 40 − 15 = 25 minutes, compared with 45 − 25 = 20 minutes for Room 5 (and Room 8's range of 90 minutes was larger than Room 5's 60 minutes).\n\nThe middle halves of the two classes overlap (25–45 minutes and 15–40 minutes), so some Room 8 students did more homework than some Room 5 students, and this is only one night of data.",
+    "rubric": [
+      { "criterion": "Compares the centres (medians 35 vs 25 minutes) with a correct conclusion in context", "marks": 1 },
+      { "criterion": "Compares the spreads using the IQR (20 vs 25 minutes) or range (60 vs 90 minutes), with values", "marks": 1 },
+      { "criterion": "Uses careful language (e.g. \"tended to\", \"in this data\") rather than claiming every student or always", "marks": 1 }
+    ],
+    "hints": ["Compare the medians, then compare the spreads (IQR = upper quartile − lower quartile).", "Give the numbers and units in each statement."],
+    "solution": "Centre: Room 5's median (35 min) is higher than Room 8's (25 min), so Room 5 **tended to** spend longer on homework that night. Spread: Room 8's IQR is $40 - 15 = 25$ min, more than Room 5's $45 - 25 = 20$ min, so Room 8's times varied more. Because the boxes overlap and it's only one night, avoid saying *every* Room 5 student did more."
+  },
+  {
+    "id": "m9.sta.interpreting.q009",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A news website ran an online poll: \"Should school holidays be longer?\" 400 readers voted, and 78% voted yes. The headline said: **\"Most New Zealanders want longer school holidays.\"**\n\nEvaluate this claim. Give at least two reasons why the data might not support the headline.",
+    "modelAnswer": "The claim isn't well supported. First, the people who voted chose to take part, so they are not representative of all New Zealanders: people with strong opinions (for example, students) are more likely to vote, which biases the result. Second, only readers of that website could vote, and they may not be typical of the whole country. Third, in an online poll the same person may be able to vote more than once. So we can only say that 78% of the 400 people who voted in this poll said yes.",
+    "rubric": [
+      { "criterion": "Explains that self-selected/online voters are not representative (bias)", "marks": 1 },
+      { "criterion": "Gives a second valid reason (only that website's readers voted, possible repeat voting, the question wording)", "marks": 1 },
+      { "criterion": "Concludes what can fairly be said (e.g. 78% of those who voted said yes)", "marks": 1 }
+    ],
+    "hints": ["Who could vote in this poll? Are they like all New Zealanders?", "What could you fairly say instead?"],
+    "solution": "The voters chose themselves and were all readers of one website, so the results are likely to be **biased** and are not representative of all New Zealanders. Online polls may also allow repeat votes. A fair statement is: \"78% of the 400 people who voted in this online poll said yes.\""
+  }
+]

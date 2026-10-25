@@ -1,0 +1,138 @@
+[
+  {
+    "id": "m9.geo.angles-parallel.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each angle fact to its rule.",
+    "pairs": [
+      { "left": { "id": "line", "text": "Angles on a straight line" }, "right": { "id": "180l", "text": "Add to 180°" } },
+      { "left": { "id": "point", "text": "Angles around a point" }, "right": { "id": "360", "text": "Add to 360°" } },
+      { "left": { "id": "vert", "text": "Vertically opposite angles" }, "right": { "id": "eqx", "text": "Are equal (opposite each other where two lines cross)" } },
+      { "left": { "id": "corr", "text": "Corresponding angles (parallel lines)" }, "right": { "id": "eqf", "text": "Are equal (F shape)" } },
+      { "left": { "id": "alt", "text": "Alternate angles (parallel lines)" }, "right": { "id": "eqz", "text": "Are equal (Z shape)" } },
+      { "left": { "id": "coint", "text": "Co-interior angles (parallel lines)" }, "right": { "id": "180c", "text": "Add to 180° (C shape)" } }
+    ],
+    "hints": ["Three of these are about parallel lines and a transversal.", "Only one rule adds to 360°."],
+    "solution": "Straight line: 180°. Around a point: 360°. Vertically opposite: equal. Corresponding: equal (F). Alternate: equal (Z). Co-interior: add to 180° (C)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for a line that crosses two (or more) other lines?",
+    "accepted": ["transversal", "a transversal", "transversal line"],
+    "hints": ["It starts with \"trans-\", meaning across."],
+    "solution": "A **transversal**."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Two angles add up to 180°. What are they called?",
+    "options": [
+      { "id": "a", "text": "Supplementary angles" },
+      { "id": "b", "text": "Complementary angles" },
+      { "id": "c", "text": "Vertically opposite angles" },
+      { "id": "d", "text": "Corresponding angles" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Complementary angles add to 90°.",
+      "c": "Vertically opposite angles are equal; they don't have to add to 180°.",
+      "d": "Corresponding angles (with parallel lines) are equal."
+    },
+    "hints": ["Angles on a straight line are an example."],
+    "solution": "Angles that add to 180° are **supplementary**. (Angles that add to 90° are complementary.)"
+  },
+  {
+    "id": "m9.geo.angles-parallel.q004",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Four angles meet at a point. Three of them are 90°, 120° and 85°. Find the fourth angle.",
+    "answer": 65,
+    "units": "°",
+    "hints": ["Angles around a point add to 360°."],
+    "solution": "$360° - 90° - 120° - 85° = 65°$ (angles around a point)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q005",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Three angles lie together on a straight line. They are $x$, $2x$ and $3x$. Find $x$.",
+    "answer": 30,
+    "units": "°",
+    "hints": ["Angles on a straight line add to 180°.", "$x + 2x + 3x = 6x$."],
+    "solution": "$x + 2x + 3x = 180°$, so $6x = 180°$ and $x = 30°$. (The angles are 30°, 60° and 90°.)"
+  },
+  {
+    "id": "m9.geo.angles-parallel.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A diagram shows two lines crossed by a transversal, but the lines have **no arrows** and the question does not say they are parallel. Ana says two alternate angles in the diagram must be equal. What is wrong with her reasoning?",
+    "options": [
+      { "id": "a", "text": "Alternate angles are only equal when the lines are parallel, and we don't know that they are" },
+      { "id": "b", "text": "Alternate angles always add to 180°, not equal" },
+      { "id": "c", "text": "Nothing: alternate angles are always equal" },
+      { "id": "d", "text": "The angles are corresponding, not alternate" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Co-interior angles add to 180° (when the lines are parallel). Alternate angles are equal when the lines are parallel.",
+      "c": "The rule only works for parallel lines. If the lines are not parallel, alternate angles are different sizes.",
+      "d": "The type of pair doesn't fix the problem. Every one of these rules needs parallel lines."
+    },
+    "hints": ["When can you use the F, Z and C rules?"],
+    "solution": "The corresponding, alternate and co-interior rules **only** work for parallel lines. Without arrows (or being told), we can't assume the lines are parallel, so we can't say the angles are equal."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q007",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The two lines marked with arrows are parallel. The top vertex of the triangle lies on the top line. Find angle $y$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 246\" width=\"400\" height=\"246\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"370\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"210\" x2=\"370\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"336.5,64.9 343.5,60 336.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"336.5,214.9 343.5,210 336.5,205.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polygon points=\"170,60 70,210 300,210\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 188.34 81.16 A 28 28 0 0 0 198 60\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"212.39\" y=\"79.36\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">64°</text><path d=\"M 98 210 A 28 28 0 0 0 85.53 186.7\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"111.15\" y=\"187.98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">51°</text><path d=\"M 155.58 81.63 A 26 26 0 0 0 187.03 79.65\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"172.41\" y=\"98.16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">y</text><text x=\"392\" y=\"236\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "Two horizontal parallel lines. A triangle has its top vertex on the top line and its other two vertices on the bottom line. At the top vertex, the angle between the top line (to the right) and the triangle's right side is 64°. The triangle's angle at the bottom left is 51°. The triangle's angle at the top vertex is y." },
+    "answer": 65,
+    "units": "°",
+    "hints": ["The 64° angle and the triangle's angle at the bottom right are alternate angles.", "Then use the angle sum of the triangle."],
+    "solution": "The triangle's angle at the bottom right is 64° (alternate angles, parallel lines).\n\n$y = 180° - 51° - 64° = 65°$ (angle sum of a triangle)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q008",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Line PQ is drawn through A, parallel to BC. Use the diagram to prove that the angles of triangle ABC add up to 180°, that is, $a + b + c = 180°$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" width=\"400\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"370\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"210\" x2=\"370\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"321.5,64.9 328.5,60 321.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"321.5,214.9 328.5,210 321.5,205.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polygon points=\"190,60 80,210 320,210\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"190\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"74\" y=\"226\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"326\" y=\"226\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"40\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">P</text><text x=\"360\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Q</text><path d=\"M 166 60 A 24 24 0 0 0 175.81 79.35\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"158.19\" y=\"76.12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">p</text><path d=\"M 176.99 77.74 A 22 22 0 0 0 204.41 76.63\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"191.39\" y=\"94.13\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">a</text><path d=\"M 205.72 78.14 A 24 24 0 0 0 214 60\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"222.27\" y=\"74.73\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">q</text><path d=\"M 106 210 A 26 26 0 0 0 95.38 189.03\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"113.59\" y=\"192.98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">b</text><path d=\"M 302.97 190.35 A 26 26 0 0 0 294 210\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"285.91\" y=\"194.43\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">c</text></svg>", "alt": "Triangle ABC with BC along the bottom. A line PQ passes through the top vertex A, parallel to BC (both marked with arrows). At A, angle p is between AP and AB, angle a is inside the triangle, and angle q is between AC and AQ. The triangle's angles at B and C are b and c." },
+    "modelAnswer": "p = b (alternate angles, PQ parallel to BC). q = c (alternate angles, PQ parallel to BC). p, a and q lie together on the straight line PQ, so p + a + q = 180° (angles on a straight line). Replacing p with b and q with c gives b + a + c = 180°, so the angles of the triangle add to 180°.",
+    "rubric": [
+      { "criterion": "States p = b and q = c, with the reason 'alternate angles, parallel lines'", "marks": 1 },
+      { "criterion": "States p + a + q = 180° because they are angles on a straight line", "marks": 1 },
+      { "criterion": "Substitutes to conclude a + b + c = 180°", "marks": 1 }
+    ],
+    "hints": ["Look for Z shapes between PQ and BC.", "Angles p, a and q sit together on a straight line."],
+    "solution": "$p = b$ and $q = c$ (alternate angles, PQ ∥ BC). Angles on the straight line PQ: $p + a + q = 180°$. Substituting: $b + a + c = 180°$. ∎"
+  },
+  {
+    "id": "m9.geo.angles-parallel.q009",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A transversal crosses two lines. A pair of **co-interior** angles measures 98° and 84°. What can you conclude?",
+    "options": [
+      { "id": "a", "text": "The lines are not parallel, because 98° + 84° = 182°, not 180°" },
+      { "id": "b", "text": "The lines are parallel, because the angles are close to equal" },
+      { "id": "c", "text": "The lines are parallel, because co-interior angles always add to about 180°" },
+      { "id": "d", "text": "You can't tell anything without arrows on the lines" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Co-interior angles don't need to be equal. For parallel lines they must add to exactly 180°.",
+      "c": "The rule is exact. 182° is not 180°.",
+      "d": "You can test for parallel lines using the angles. That is how you prove lines are parallel."
+    },
+    "hints": ["If the lines were parallel, the co-interior angles would add to exactly 180°."],
+    "solution": "$98° + 84° = 182° \\neq 180°$, so the lines are **not** parallel. If they were parallel, these co-interior angles would add to exactly 180°."
+  }
+]

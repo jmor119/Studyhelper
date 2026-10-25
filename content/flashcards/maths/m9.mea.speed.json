@@ -1,0 +1,12 @@
+[
+  { "id": "m9.mea.speed.f01", "front": "Formula for **speed**", "back": "speed = distance ÷ time" },
+  { "id": "m9.mea.speed.f02", "front": "Formula for **distance**", "back": "distance = speed × time" },
+  { "id": "m9.mea.speed.f03", "front": "Formula for **time**", "back": "time = distance ÷ speed" },
+  { "id": "m9.mea.speed.f04", "front": "Common units of speed", "back": "km/h (kilometres per hour) and m/s (metres per second)." },
+  { "id": "m9.mea.speed.f05", "front": "How do you change minutes into hours?", "back": "Divide by 60. For example, 45 min = 0.75 h." },
+  { "id": "m9.mea.speed.f06", "front": "Converting between m/s and km/h", "back": "m/s × 3.6 = km/h; km/h ÷ 3.6 = m/s." },
+  { "id": "m9.mea.speed.f07", "front": "**Average speed** for a whole journey", "back": "Total distance ÷ total time (not the average of the separate speeds)." },
+  { "id": "m9.mea.speed.f08", "front": "On a distance–time graph, what does the **gradient** show?", "back": "The speed. A steeper line means a faster speed." },
+  { "id": "m9.mea.speed.f09", "front": "On a distance–time graph, what does a **horizontal** line mean?", "back": "The object has stopped: its distance isn't changing." },
+  { "id": "m9.mea.speed.f10", "front": "On a distance–time graph, what does a line sloping **down** mean?", "back": "The object is moving back towards the start." }
+]

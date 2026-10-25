@@ -1,0 +1,12 @@
+[
+  { "id": "m9.num.ratios-rates.f01", "front": "What is a **ratio**?", "back": "A comparison of quantities of the same kind, e.g. 2 red : 3 blue." },
+  { "id": "m9.num.ratios-rates.f02", "front": "Red : blue is $2 : 3$. What fraction are red?", "back": "$\\frac{2}{5}$: there are $2 + 3 = 5$ parts and 2 of them are red." },
+  { "id": "m9.num.ratios-rates.f03", "front": "How do you simplify a ratio?", "back": "Divide every part by the highest common factor, e.g. $18 : 24 = 3 : 4$." },
+  { "id": "m9.num.ratios-rates.f04", "front": "What must you check before simplifying 40 cm : 2 m?", "back": "That the units match: 2 m = 200 cm, so $40 : 200 = 1 : 5$." },
+  { "id": "m9.num.ratios-rates.f05", "front": "How do you make an equivalent ratio?", "back": "Multiply or divide every part by the same number: $2 : 3 = 4 : 6 = 10 : 15$." },
+  { "id": "m9.num.ratios-rates.f06", "front": "Steps to **share** an amount in a ratio", "back": "Add the parts, divide the amount by that total to get one share, then multiply by each part." },
+  { "id": "m9.num.ratios-rates.f07", "front": "What is a **rate**?", "back": "A comparison of two quantities with different units, e.g. 80 km/h or \\$3.50 per kg." },
+  { "id": "m9.num.ratios-rates.f08", "front": "What does **per** mean?", "back": "For every, or for each." },
+  { "id": "m9.num.ratios-rates.f09", "front": "What is a **unit rate**?", "back": "The amount for one unit, e.g. \\$12.60 for 3 kg is \\$4.20 per kg." },
+  { "id": "m9.num.ratios-rates.f10", "front": "How do you find the best buy?", "back": "Compare unit prices (price for the same amount, e.g. per litre or per 100 g). The lower one is better value." }
+]

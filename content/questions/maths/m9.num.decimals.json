@@ -1,0 +1,178 @@
+[
+  {
+    "id": "m9.num.decimals.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "dp", "text": "Decimal place" }, "right": { "id": "m1", "text": "A position for a digit after the decimal point" } },
+      { "left": { "id": "rd", "text": "Rounding" }, "right": { "id": "m2", "text": "Replacing a number with a simpler value close to it" } },
+      { "left": { "id": "est", "text": "Estimate" }, "right": { "id": "m3", "text": "A quick, approximate answer" } },
+      { "left": { "id": "rem", "text": "Remainder" }, "right": { "id": "m4", "text": "What is left over after dividing" } },
+      { "left": { "id": "pre", "text": "Precision" }, "right": { "id": "m5", "text": "How exact a value is, e.g. to the nearest cent" } }
+    ],
+    "hints": ["An estimate is often found by rounding first."],
+    "solution": "Decimal place: a digit position after the point. Rounding: a simpler nearby value. Estimate: a quick approximate answer. Remainder: what is left over after dividing. Precision: how exact a value is."
+  },
+  {
+    "id": "m9.num.decimals.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is the largest?",
+    "options": [
+      { "id": "a", "text": "$0.7$" },
+      { "id": "b", "text": "$0.65$" },
+      { "id": "c", "text": "$0.072$" },
+      { "id": "d", "text": "$0.69$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "More digits doesn't mean bigger. Compare $0.70$ with $0.65$.",
+      "c": "This is less than one tenth: it has 0 in the tenths place.",
+      "d": "Write 0.7 as 0.70 and compare: 70 hundredths is more than 69 hundredths."
+    },
+    "hints": ["Give every number the same number of decimal places, e.g. 0.7 = 0.700."],
+    "solution": "With 3 decimal places: $0.700$, $0.650$, $0.072$, $0.690$. The largest is $0.7$."
+  },
+  {
+    "id": "m9.num.decimals.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Wiremu says $0.4 \\times 0.2 = 0.8$. Is he right?",
+    "options": [
+      { "id": "a", "text": "No. The answer is $0.08$, because there are 2 decimal places in the question." },
+      { "id": "b", "text": "Yes, because $4 \\times 2 = 8$." },
+      { "id": "c", "text": "No. The answer is $8$, because the decimal points cancel." },
+      { "id": "d", "text": "No. The answer is $0.008$, because there are 3 digits." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$4 \\times 2 = 8$ is the right first step, but you then need to count the decimal places.",
+      "c": "Multiplying two numbers less than 1 gives an answer less than 1.",
+      "d": "Count decimal places, not digits: one in 0.4 and one in 0.2 makes two."
+    },
+    "hints": ["As fractions, this is $\\frac{4}{10} \\times \\frac{2}{10}$."],
+    "solution": "$4 \\times 2 = 8$, and there are 2 decimal places altogether, so $0.4 \\times 0.2 = 0.08$. As fractions: $\\frac{4}{10} \\times \\frac{2}{10} = \\frac{8}{100}$."
+  },
+  {
+    "id": "m9.num.decimals.q004",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Rounding $7.849$ to 1 decimal place gives [[a]]. Rounding it to the nearest whole number gives [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["7.8"] },
+      { "id": "b", "accepted": ["8"] }
+    ],
+    "hints": ["To 1 decimal place, look at the second decimal digit (4).", "To the nearest whole number, look at the first decimal digit (8)."],
+    "solution": "To 1 decimal place: the next digit is 4, so round down to **7.8**. To the nearest whole number: the next digit is 8, so round up to **8**."
+  },
+  {
+    "id": "m9.num.decimals.q005",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these decimals in order from smallest to largest.",
+    "items": [
+      { "id": "w", "text": "$0.053$" },
+      { "id": "x", "text": "$0.305$" },
+      { "id": "y", "text": "$0.35$" },
+      { "id": "z", "text": "$0.503$" },
+      { "id": "v", "text": "$0.53$" }
+    ],
+    "hints": ["Write them all with 3 decimal places, then compare."],
+    "solution": "With 3 decimal places: $0.053$, $0.305$, $0.350$, $0.503$, $0.530$. So the order is 0.053, 0.305, 0.35, 0.503, 0.53."
+  },
+  {
+    "id": "m9.num.decimals.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Three friends share a \\$10 bill equally. Which answer gives the amount each person pays with a sensible precision?",
+    "options": [
+      { "id": "a", "text": "\\$3.33" },
+      { "id": "b", "text": "\\$3.3333" },
+      { "id": "c", "text": "\\$3" },
+      { "id": "d", "text": "\\$3.3" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You can't pay fractions of a cent, so 4 decimal places is too precise.",
+      "c": "This is not precise enough: the three payments would only add to \\$9.",
+      "d": "Money is written to 2 decimal places (cents), e.g. \\$3.30 not \\$3.3, and \\$3.30 is not the closest amount anyway."
+    },
+    "hints": ["$10 \\div 3 = 3.333\\ldots$", "What is the smallest amount of money you can pay?"],
+    "solution": "$10 \\div 3 = 3.333\\ldots$ Money is given to the nearest cent (2 decimal places), so each person pays about **\\$3.33**. (In real life one person would pay \\$3.34 to make up the \\$10.)"
+  },
+  {
+    "id": "m9.num.decimals.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi's calculator shows $47.3 \\times 0.52 = 245.96$. What is the best reason this must be wrong?",
+    "options": [
+      { "id": "a", "text": "0.52 is about a half, so the answer should be about half of 47, which is about 24" },
+      { "id": "b", "text": "The answer should have exactly 4 decimal places" },
+      { "id": "c", "text": "Multiplying always makes a number bigger, so it should be more than 245.96" },
+      { "id": "d", "text": "47.3 is about 50 and 0.52 is about 1, so the answer should be about 50" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The question has 3 decimal places altogether, not 4. Anyway, checking the size of the answer is a better test.",
+      "c": "Multiplying by a number less than 1 makes a number smaller.",
+      "d": "0.52 is much closer to 0.5 than to 1, so this estimate is too rough."
+    },
+    "hints": ["Is 0.52 more or less than 1?", "Estimate: what is roughly half of 47?"],
+    "solution": "$0.52 \\approx 0.5$, so the answer should be about half of 47, roughly 24. The calculator answer is about 10 times too big. The correct answer is $24.596$."
+  },
+  {
+    "id": "m9.num.decimals.q008",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Kiwifruit cost \\$4.99 per kilogram. Ana buys 2.6 kg. How much does she pay, to the nearest cent?",
+    "answer": 12.97,
+    "tolerance": 0.000001,
+    "decimals": 2,
+    "units": "$",
+    "hints": ["Multiply the price per kilogram by the number of kilograms.", "The nearest cent means 2 decimal places."],
+    "solution": "$4.99 \\times 2.6 = 12.974$. The third decimal place is 4, so round down: Ana pays **\\$12.97**."
+  },
+  {
+    "id": "m9.num.decimals.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $24 \\times 0.5$ gives a smaller answer than 24.",
+    "modelAnswer": "0.5 is less than 1. It is the same as one half, so $24 \\times 0.5$ means half of 24, which is 12. Multiplying by a number between 0 and 1 gives only part of the original number, so the answer is smaller.",
+    "rubric": [
+      { "criterion": "States that 0.5 is less than 1 (or that 0.5 is a half)", "marks": 1 },
+      { "criterion": "Explains that multiplying by it gives a part (a fraction) of 24, e.g. half of 24 is 12", "marks": 1 }
+    ],
+    "hints": ["Write 0.5 as a fraction.", "What does \"times one half\" mean?"],
+    "solution": "$0.5 = \\frac{1}{2}$, so $24 \\times 0.5$ is half of 24, which is 12. Multiplying by any number between 0 and 1 makes a positive number smaller."
+  },
+  {
+    "id": "m9.num.decimals.q010",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Isla works out $56 \\div 0.8$. Which method is correct?",
+    "options": [
+      { "id": "a", "text": "$560 \\div 8 = 70$" },
+      { "id": "b", "text": "$56 \\div 8 = 7$, then $7 \\div 10 = 0.7$" },
+      { "id": "c", "text": "$56 \\times 0.8 = 44.8$" },
+      { "id": "d", "text": "$56 \\div 8 = 7$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by a number less than 1 makes the answer bigger, not smaller. Check: $0.7 \\times 0.8$ is not 56.",
+      "c": "This multiplies instead of dividing.",
+      "d": "$56 \\div 8$ is a different calculation: you must multiply *both* numbers by 10."
+    },
+    "hints": ["Multiply both numbers by 10 so you divide by a whole number.", "Dividing by a number less than 1 should make the answer bigger than 56."],
+    "solution": "Multiply both numbers by 10: $56 \\div 0.8 = 560 \\div 8 = 70$. Check: $70 \\times 0.8 = 56$ ✓"
+  }
+]

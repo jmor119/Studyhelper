@@ -1,0 +1,183 @@
+[
+  {
+    "id": "m9.sta.displays.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Hana asked 30 students for their favourite sport. Which display is the best choice for her data?",
+    "options": [
+      { "id": "a", "text": "A bar graph" },
+      { "id": "b", "text": "A scatter plot" },
+      { "id": "c", "text": "A histogram" },
+      { "id": "d", "text": "A time-series graph" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A scatter plot needs two numerical variables for each person. Favourite sport is categorical.",
+      "c": "A histogram is for numerical data grouped into intervals. Favourite sport is categorical.",
+      "d": "A time-series graph shows how something changes over time."
+    },
+    "hints": ["Is favourite sport a categorical or a numerical variable?"],
+    "solution": "Favourite sport is a **categorical** variable, so a **bar graph** (one bar per sport) is the best choice. A frequency table would also work."
+  },
+  {
+    "id": "m9.sta.displays.q002",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each display to the kind of data it suits best.",
+    "pairs": [
+      { "left": { "id": "scatter", "text": "Scatter plot" }, "right": { "id": "two-num", "text": "Two numerical variables for the same people" } },
+      { "left": { "id": "twoway", "text": "Two-way table" }, "right": { "id": "two-cat", "text": "Two categorical variables" } },
+      { "left": { "id": "ts", "text": "Time-series graph" }, "right": { "id": "time", "text": "One variable measured over time" } },
+      { "left": { "id": "box", "text": "Box plots on the same scale" }, "right": { "id": "compare", "text": "Comparing a numerical variable for two groups" } },
+      { "left": { "id": "bar", "text": "Bar graph" }, "right": { "id": "one-cat", "text": "One categorical variable" } }
+    ],
+    "hints": ["Think about how many variables each display shows, and whether they are categorical or numerical."],
+    "solution": "Scatter plot: two numerical variables. Two-way table: two categorical variables. Time-series graph: one variable over time. Box plots: comparing groups on a numerical variable. Bar graph: one categorical variable."
+  },
+  {
+    "id": "m9.sta.displays.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Tama wants to see whether the number of hours students study affects their test score. He will draw a scatter plot. Which is correct?",
+    "options": [
+      { "id": "a", "text": "Hours of study on the x-axis, test score on the y-axis" },
+      { "id": "b", "text": "Test score on the x-axis, hours of study on the y-axis" },
+      { "id": "c", "text": "Both variables on the x-axis" },
+      { "id": "d", "text": "Student names on the x-axis, test score on the y-axis" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The test score is the response: it might depend on study time. The response variable goes on the y-axis.",
+      "c": "A scatter plot has one variable on each axis.",
+      "d": "That would be a bar graph of scores, not a scatter plot. It can't show a relationship between two variables."
+    },
+    "hints": ["Which variable might explain or influence the other?"],
+    "solution": "Hours of study might explain the test score, so it is the **explanatory variable** (x-axis). The test score is the **response variable** (y-axis)."
+  },
+  {
+    "id": "m9.sta.displays.q004",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Some students were asked whether they have a part-time job. The two-way table has some missing entries.\n\n| | Job | No job | Total |\n|---|---|---|---|\n| **Year 12** | 14 | ? | 40 |\n| **Year 13** | ? | 12 | ? |\n| **Total** | 37 | ? | 75 |\n\nHow many Year 13 students were surveyed?",
+    "answer": 35,
+    "hints": ["The two row totals must add up to the overall total.", "You could also find the Year 13 \"Job\" entry from the \"Job\" column first."],
+    "solution": "Year 13 total $= 75 - 40 = 35$.\n\nCheck: Year 13 with a job $= 37 - 14 = 23$, and $23 + 12 = 35$ ✓."
+  },
+  {
+    "id": "m9.sta.displays.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A box plot has a very long right whisker and a short left whisker. What does this tell you?",
+    "options": [
+      { "id": "a", "text": "The top quarter of the values are more spread out than the bottom quarter." },
+      { "id": "b", "text": "More values are in the right whisker than in the left whisker." },
+      { "id": "c", "text": "The mean is in the right whisker." },
+      { "id": "d", "text": "The data must have been recorded incorrectly." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Each whisker holds about a quarter of the values. Length shows spread, not how many values there are.",
+      "c": "A box plot doesn't show the mean at all.",
+      "d": "Uneven whiskers are common in real data. They just show that the data is not symmetrical."
+    },
+    "hints": ["Each section of a box plot holds about 25% of the values."],
+    "solution": "Both whiskers hold about 25% of the values. A longer right whisker means the top quarter of the values are **more spread out** (stretched over a bigger range), not that there are more of them."
+  },
+  {
+    "id": "m9.sta.displays.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which is the best description of how to draw a line of best fit on a scatter plot?",
+    "options": [
+      { "id": "a", "text": "A straight line that follows the trend, with about the same number of points above and below it" },
+      { "id": "b", "text": "A line that joins the first point to the last point" },
+      { "id": "c", "text": "A line that must start at the origin (0, 0)" },
+      { "id": "d", "text": "A line that passes through as many points exactly as possible, even if it misses the trend" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The first and last points might be unusual. The line should fit all the points, not just two.",
+      "c": "A line of best fit doesn't have to go through the origin. It should go wherever the data is.",
+      "d": "Hitting points exactly isn't the goal. The line should show the overall trend of all the points."
+    },
+    "hints": ["The line should represent the overall pattern of all the points."],
+    "solution": "A line of best fit is drawn by eye through the **middle of the points**, following the trend, with roughly equal numbers of points on each side. It doesn't need to go through the origin or through particular points."
+  },
+  {
+    "id": "m9.sta.displays.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A histogram shows students' travel times in three intervals:\n\n| Travel time (min) | 0–10 | 10–20 | 20–30 |\n|---|---|---|---|\n| Frequency | 4 | 9 | 7 |\n\nAna says, \"The mode is 9.\" What is wrong with her statement?",
+    "options": [
+      { "id": "a", "text": "9 is the frequency. The most common interval (the modal class) is 10–20 minutes." },
+      { "id": "b", "text": "Nothing: 9 is the largest number in the table." },
+      { "id": "c", "text": "The mode should be 20, because it is the highest time shown." },
+      { "id": "d", "text": "A histogram can't have a mode." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "9 tells you how many students are in the tallest bar. It isn't a travel time.",
+      "c": "The mode is about the most common values, not the highest values.",
+      "d": "Grouped data has a modal class: the interval with the highest frequency."
+    },
+    "hints": ["Is 9 a travel time, or a count of students?"],
+    "solution": "9 is a **frequency** (9 students), not a travel time. The interval with the highest frequency is **10–20 minutes**, so that is the **modal class**."
+  },
+  {
+    "id": "m9.sta.displays.q008",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Wiremu wants to compare the travel times of students who walk to school with students who catch the bus. Which display would show the comparison most clearly?",
+    "options": [
+      { "id": "a", "text": "Two box plots, one above the other, on the same scale" },
+      { "id": "b", "text": "A scatter plot of walking time against bus time" },
+      { "id": "c", "text": "A bar graph with one bar for each student" },
+      { "id": "d", "text": "A two-way table of travel time against way of travel" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Each student either walks or catches the bus, so there are no pairs of values to plot.",
+      "c": "One bar per student makes a long, hard-to-read graph and doesn't summarise either group.",
+      "d": "Travel time is numerical, so a two-way table (for two categorical variables) isn't suitable."
+    },
+    "hints": ["You are comparing one numerical variable across two groups."],
+    "solution": "Comparing a numerical variable for two groups is easiest with **box plots (or dot plots) on the same scale**, one above the other. You can compare the medians, the IQRs and the overall spread directly."
+  },
+  {
+    "id": "m9.sta.displays.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A school library recorded how many books were borrowed each term.\n\n| Year | Term 1 | Term 2 | Term 3 | Term 4 |\n|---|---|---|---|---|\n| 2023 | 420 | 480 | 510 | 350 |\n| 2024 | 450 | 520 | 540 | 380 |\n| 2025 | 490 | 550 | 580 | 400 |\n\nThis data would be shown on a time-series graph. Describe the **trend** and any **repeating pattern** in the data. Use numbers from the table as evidence.",
+    "modelAnswer": "Trend: the number of books borrowed is increasing over time. For example, Term 1 loans rose from 420 in 2023 to 450 in 2024 and 490 in 2025, and every term was higher in 2025 than in 2023.\n\nRepeating pattern: each year loans rise from Term 1 to a peak in Term 3 (510, 540 and 580), then drop to their lowest in Term 4 (350, 380 and 400).",
+    "rubric": [
+      { "criterion": "Describes the upward trend over the three years", "marks": 1 },
+      { "criterion": "Describes the repeating pattern within each year (peak in Term 3, lowest in Term 4)", "marks": 1 },
+      { "criterion": "Supports both statements with numbers from the table", "marks": 1 }
+    ],
+    "hints": ["Compare the same term across different years to see the trend.", "Compare the terms within one year to see the repeating pattern."],
+    "solution": "**Trend:** loans increase each year (e.g. Term 3: 510 → 540 → 580). **Repeating pattern:** within every year, loans are highest in Term 3 and lowest in Term 4 (e.g. 2025: 580 in Term 3, 400 in Term 4)."
+  },
+  {
+    "id": "m9.sta.displays.q010",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A histogram shows the heights of 30 Year 9 students, but one bar has been rubbed out.\n\n| Height (cm) | 140–150 | 150–160 | 160–170 | 170–180 | 180–190 |\n|---|---|---|---|---|---|\n| Frequency | 4 | 9 | ? | 6 | 2 |\n\nWhich class interval contains the **median** height?",
+    "options": [
+      { "id": "a", "text": "160–170 cm" },
+      { "id": "b", "text": "150–160 cm" },
+      { "id": "c", "text": "170–180 cm" },
+      { "id": "d", "text": "It's impossible to tell without the missing bar" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Only 13 students are shorter than 160 cm, so the 15th and 16th heights are further along.",
+      "c": "13 students are shorter than 160 cm and 22 are shorter than 170 cm, so the 15th and 16th heights come before 170 cm.",
+      "d": "You can find the missing frequency, because the frequencies must add up to 30."
+    },
+    "hints": ["The frequencies must add up to 30. Find the missing one first.", "With 30 values, the median is halfway between the 15th and 16th values. Use running totals."],
+    "solution": "Missing frequency: $30 - (4 + 9 + 6 + 2) = 9$.\n\nRunning totals: 4 (up to 150 cm), 13 (up to 160 cm), 22 (up to 170 cm), 28 (up to 180 cm), 30.\n\nThe median is halfway between the 15th and 16th heights. Both are in the **160–170 cm** class, because 13 students are shorter than 160 cm and 22 are shorter than 170 cm."
+  }
+]

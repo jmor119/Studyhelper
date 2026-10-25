@@ -1,0 +1,13 @@
+[
+  { "id": "m9.geo.nets.f01", "front": "What is a **prism**?", "back": "A solid with two identical parallel ends joined by rectangles. Its cross-section is the same all the way through." },
+  { "id": "m9.geo.nets.f02", "front": "What is a **pyramid**?", "back": "A solid with a polygon base and triangular faces that meet at a point called the apex." },
+  { "id": "m9.geo.nets.f03", "front": "**Face**, **edge** and **vertex**", "back": "Face: a flat surface. Edge: where two faces meet. Vertex: a corner where edges meet." },
+  { "id": "m9.geo.nets.f04", "front": "Prism with $n$-sided ends: faces, edges, vertices", "back": "Faces $n + 2$, edges $3n$, vertices $2n$." },
+  { "id": "m9.geo.nets.f05", "front": "Pyramid with an $n$-sided base: faces, edges, vertices", "back": "Faces $n + 1$, edges $2n$, vertices $n + 1$." },
+  { "id": "m9.geo.nets.f06", "front": "Euler's rule for prisms and pyramids", "back": "Faces + vertices − edges = 2." },
+  { "id": "m9.geo.nets.f07", "front": "What is a **net**?", "back": "A flat pattern of shapes that folds up to make a 3D solid." },
+  { "id": "m9.geo.nets.f08", "front": "How many different nets does a cube have?", "back": "11. Each is made of 6 squares." },
+  { "id": "m9.geo.nets.f09", "front": "In a cube net, which squares end up opposite each other?", "back": "The first and third squares in a straight line of three." },
+  { "id": "m9.geo.nets.f10", "front": "**Plan view**, **front view** and **side view**", "back": "The views from directly above, from the front, and from the side, each drawn flat (2D)." },
+  { "id": "m9.geo.nets.f11", "front": "What is a **cross-section**?", "back": "The flat shape you get when you slice straight through a solid." }
+]

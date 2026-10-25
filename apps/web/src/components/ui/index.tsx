@@ -141,13 +141,20 @@ export function Select({ className, children, ...rest }: SelectHTMLAttributes<HT
 }
 
 export function Field({ label, hint, error, children, className }: { label: ReactNode; hint?: ReactNode; error?: string | null; children: ReactNode; className?: string }) {
+  // Hints and errors sit outside the <label> so they aren't read as part of the field's name.
   return (
-    <label className={clsx('block', className)}>
-      <span className="mb-1.5 block text-sm font-semibold">{label}</span>
-      {children}
+    <div className={clsx('block', className)}>
+      <label className="block">
+        <span className="mb-1.5 block text-sm font-semibold">{label}</span>
+        {children}
+      </label>
       {hint && !error && <span className="mt-1 block text-xs text-muted">{hint}</span>}
-      {error && <span className="mt-1 block text-xs font-medium text-bad">{error}</span>}
-    </label>
+      {error && (
+        <span className="mt-1 block text-xs font-medium text-bad" role="alert">
+          {error}
+        </span>
+      )}
+    </div>
   );
 }
 

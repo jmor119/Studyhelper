@@ -1,0 +1,13 @@
+[
+  { "id": "m9.geo.angles-parallel.f01", "front": "Angles on a straight line", "back": "Add to 180°." },
+  { "id": "m9.geo.angles-parallel.f02", "front": "Angles around a point", "back": "Add to 360°." },
+  { "id": "m9.geo.angles-parallel.f03", "front": "**Vertically opposite** angles", "back": "The angles opposite each other where two straight lines cross. They are equal." },
+  { "id": "m9.geo.angles-parallel.f04", "front": "Angles in a triangle", "back": "Add to 180°." },
+  { "id": "m9.geo.angles-parallel.f05", "front": "What is a **transversal**?", "back": "A line that crosses two or more other lines." },
+  { "id": "m9.geo.angles-parallel.f06", "front": "**Corresponding** angles (parallel lines)", "back": "In the same position at each crossing (F shape). They are equal." },
+  { "id": "m9.geo.angles-parallel.f07", "front": "**Alternate** angles (parallel lines)", "back": "Between the parallel lines, on opposite sides of the transversal (Z shape). They are equal." },
+  { "id": "m9.geo.angles-parallel.f08", "front": "**Co-interior** angles (parallel lines)", "back": "Between the parallel lines, on the same side of the transversal (C shape). They add to 180°." },
+  { "id": "m9.geo.angles-parallel.f09", "front": "What are **supplementary** angles?", "back": "Two angles that add to 180°." },
+  { "id": "m9.geo.angles-parallel.f10", "front": "How can you prove two lines are parallel?", "back": "Show that corresponding angles are equal, alternate angles are equal, or co-interior angles add to 180°." },
+  { "id": "m9.geo.angles-parallel.f11", "front": "How are parallel lines marked on a diagram?", "back": "With matching arrowheads on each line." }
+]

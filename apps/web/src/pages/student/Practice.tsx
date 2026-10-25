@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
 import { Feedback, SelfMark } from '../../components/question/Feedback';
 import { emptyResponse, isAnswered, QuestionView } from '../../components/question/QuestionView';
+import { WorkingCheck } from '../../components/question/WorkingCheck';
+import { useUser } from '../../lib/auth';
 import { Markdown } from '../../components/Markdown';
 import { Button, ButtonLink, Card, EmptyState, Notice, PageHeader, ProgressBar, Spinner, useToast } from '../../components/ui';
 import { api, errorMessage, type ProgressResult, type SubmitResult } from '../../lib/api';
@@ -25,6 +27,7 @@ export default function Practice() {
   const mode = params.get('mode') === 'mistakes' ? 'mistakes' : 'adaptive';
   const difficulty = params.get('difficulty') ? Number(params.get('difficulty')) : undefined;
   const toast = useToast();
+  const { user } = useUser();
 
   const [slots, setSlots] = useState<Slot[] | null>(null);
   const [index, setIndex] = useState(0);
@@ -253,6 +256,9 @@ export default function Practice() {
             questionId={slot.question.id}
             tutorLink={`/tutor?question=${encodeURIComponent(slot.question.id)}&topic=${topic.id}`}
           />
+        )}
+        {slot.result && aiAvailable && slot.question.subject === 'maths' && ['numeric', 'expression'].includes(slot.question.type) && (
+          <WorkingCheck uid={user.uid} questionId={slot.question.id} />
         )}
 
         <div className="mt-5 flex flex-wrap items-center justify-between gap-2">

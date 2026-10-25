@@ -1,0 +1,165 @@
+[
+  {
+    "id": "m9.sta.investigations.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is **primary** data for Aroha?",
+    "options": [
+      { "id": "a", "text": "Arm spans that Aroha measures for everyone in her class" },
+      { "id": "b", "text": "Population figures Aroha downloads from Stats NZ" },
+      { "id": "c", "text": "Rugby scores Aroha copies from a sports website" },
+      { "id": "d", "text": "A CensusAtSchool data set Aroha's teacher gives her" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Stats NZ collected that data, not Aroha, so for her it is secondary data.",
+      "c": "Someone else recorded those scores, so this is secondary data.",
+      "d": "Other students' survey answers collected by CensusAtSchool are secondary data for Aroha."
+    },
+    "hints": ["Primary data is data you collect yourself."],
+    "solution": "**Primary data** is collected first-hand by the person investigating. Aroha measures the arm spans herself, so that is primary data. The other three were collected by someone else, so they are **secondary data**."
+  },
+  {
+    "id": "m9.sta.investigations.q002",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each statistical question to the type of investigation it leads to.",
+    "pairs": [
+      { "left": { "id": "s", "text": "What is the typical number of hours of sleep Year 9 students at our school get on a school night?" }, "right": { "id": "sum", "text": "Summary" } },
+      { "left": { "id": "c", "text": "Do students who play a team sport tend to have faster reaction times than students who don't?" }, "right": { "id": "comp", "text": "Comparison" } },
+      { "left": { "id": "r", "text": "Is there a relationship between daily screen time and hours of sleep for Year 9 students?" }, "right": { "id": "rel", "text": "Relationship" } },
+      { "left": { "id": "t", "text": "How did the daily maximum temperature in Nelson change during January?" }, "right": { "id": "ts", "text": "Time-series" } }
+    ],
+    "hints": ["Count the groups and the variables. Is anything measured over time?"],
+    "solution": "One variable for one group → **summary**. One variable for two groups → **comparison**. Two variables for the same people → **relationship**. One variable over time → **time-series**."
+  },
+  {
+    "id": "m9.sta.investigations.q003",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "A class survey records these variables for each student. Select **all** the **categorical** variables.",
+    "options": [
+      { "id": "a", "text": "Hand used for writing (left or right)" },
+      { "id": "b", "text": "Height (cm)" },
+      { "id": "c", "text": "Phone number" },
+      { "id": "d", "text": "Number of siblings" },
+      { "id": "e", "text": "Usual way of getting to school" }
+    ],
+    "correct": ["a", "c", "e"],
+    "hints": ["Categorical variables put people into groups or give them labels.", "A number can be a label. Would it make sense to find the mean of it?"],
+    "solution": "**Categorical:** writing hand, phone number and way of getting to school. A phone number is made of digits, but it is a label: adding or averaging phone numbers makes no sense.\n\n**Numerical:** height (a measurement) and number of siblings (a count)."
+  },
+  {
+    "id": "m9.sta.investigations.q004",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Look at this statistical question: \"Do Year 9 students at our school tend to have longer arm spans than Year 10 students at our school?\"\n\nThe variable is [[v]]. The question is about two groups, so it leads to a [[t]] investigation. Arm span is a [[k]] variable.",
+    "blanks": [
+      { "id": "v", "accepted": ["arm span"], "options": ["arm span", "Year 9 students", "longer", "our school"] },
+      { "id": "t", "accepted": ["comparison"], "options": ["summary", "comparison", "relationship", "time-series"] },
+      { "id": "k", "accepted": ["numerical"], "options": ["categorical", "numerical"] }
+    ],
+    "hints": ["The variable is the thing being measured for each student."],
+    "solution": "The variable is **arm span** (measured for each student). Two groups are compared (Year 9 and Year 10 students), so it is a **comparison** investigation. Arm span is a measurement, so it is **numerical**."
+  },
+  {
+    "id": "m9.sta.investigations.q005",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which of these is an **observational study**?",
+    "options": [
+      { "id": "a", "text": "Hemi records how many minutes each student in his class spends on screens on a school night." },
+      { "id": "b", "text": "Isla gives half her class a 5-minute warm-up before a reaction test and compares the two halves." },
+      { "id": "c", "text": "Kai waters some bean plants with salty water and some with tap water to see which grow taller." },
+      { "id": "d", "text": "Priya asks half her class to sleep an extra hour, then compares their test scores with the other half." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Isla deliberately changes something (a warm-up) for one group. That makes it an experiment.",
+      "c": "Kai deliberately changes the water each plant gets. That makes it an experiment.",
+      "d": "Priya deliberately changes how long people sleep. That makes it an experiment."
+    },
+    "hints": ["In an observational study you record things as they are, without changing anything."],
+    "solution": "In an **observational study** you observe and record without changing anything. Hemi simply records screen time as it happens. In the other three, the investigator deliberately changes something for one group, so they are experiments."
+  },
+  {
+    "id": "m9.sta.investigations.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which of these data sets is **multivariate**?",
+    "options": [
+      { "id": "a", "text": "Each student's year level, height, arm span and favourite sport" },
+      { "id": "b", "text": "The heights of 30 Year 9 students" },
+      { "id": "c", "text": "The favourite sport of every student in the school" },
+      { "id": "d", "text": "The number of goals in each game of a netball season" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is lots of data values, but only one variable (height).",
+      "c": "That is only one variable (favourite sport), even if many students answered.",
+      "d": "That is only one variable (number of goals)."
+    },
+    "hints": ["Multivariate means \"many variables\", not \"many people\"."],
+    "solution": "**Multivariate** data has more than two variables recorded for each person or thing. Option A records four variables for each student: year level, height, arm span and favourite sport."
+  },
+  {
+    "id": "m9.sta.investigations.q007",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "Put these steps of a statistical investigation in a sensible order.",
+    "items": [
+      { "id": "q", "text": "Write a statistical question" },
+      { "id": "p", "text": "Plan which variables to measure and how" },
+      { "id": "c", "text": "Collect and record the data" },
+      { "id": "a", "text": "Make displays and calculate summary statistics" },
+      { "id": "w", "text": "Write a conclusion that answers the question" }
+    ],
+    "hints": ["You can't plan what to measure until you know what question you are answering."],
+    "solution": "Question → plan → collect data → analyse (displays and statistics) → conclusion. The conclusion should go back and answer the original question."
+  },
+  {
+    "id": "m9.sta.investigations.q008",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Ana wants to investigate whether Year 9 students at her school who play a weekend sport sleep more on a Friday night than those who don't.\n\nWrite a statistical question for her investigation, and name the **variable**, the **groups** and the **type** of investigation.",
+    "modelAnswer": "Question: \"Do Year 9 students at our school who play a weekend sport tend to sleep for longer on a Friday night than Year 9 students at our school who don't play a weekend sport?\"\n\nVariable: hours of sleep on a Friday night (numerical).\n\nGroups: Year 9 students at the school who play a weekend sport, and those who don't.\n\nType: a comparison investigation, because it compares one variable across two groups.",
+    "rubric": [
+      { "criterion": "Writes a clear statistical question that names the variable, both groups and uses comparison wording such as \"tend to\"", "marks": 1 },
+      { "criterion": "Identifies the variable (hours of sleep on a Friday night) and the two groups", "marks": 1 },
+      { "criterion": "States that it is a comparison investigation, with a reason", "marks": 1 }
+    ],
+    "hints": ["A comparison question often starts \"Do … tend to … than …?\"", "Name both groups in full."],
+    "solution": "A good answer: \"Do Year 9 students at our school who play a weekend sport tend to sleep for longer on a Friday night than Year 9 students at our school who don't?\" The variable is hours of sleep on a Friday night. The groups are Year 9 students who play a weekend sport and those who don't. It is a **comparison** investigation."
+  },
+  {
+    "id": "m9.sta.investigations.q009",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Your class is planning a survey to investigate: \"Is there a relationship between height and arm span for students in our class?\"\n\nDescribe how you would collect accurate data for this investigation. Include what you would measure, the units, and how you would make sure every measurement is done the same way.",
+    "modelAnswer": "We would measure each student's height and arm span in centimetres, to the nearest centimetre. Height is measured standing against a wall with shoes off, feet together, using a set square on the head and a tape measure from the floor. Arm span is measured with arms stretched out sideways at shoulder height, from the tip of one middle finger to the other, with the back against the wall. The same two people do all the measuring with the same tape, and we record both measurements for each student in the same row of a table, so the pairs stay together.",
+    "rubric": [
+      { "criterion": "Names both variables and the unit (cm) and says both are measured for the same students", "marks": 1 },
+      { "criterion": "Describes a clear, consistent measuring method (e.g. shoes off, arms level, same tape)", "marks": 1 },
+      { "criterion": "Explains how the data will be recorded so each student's pair of values stays together", "marks": 1 }
+    ],
+    "hints": ["For a relationship investigation, both variables must be recorded for the same person.", "Think about what could make measurements inconsistent, like shoes or bent arms."],
+    "solution": "Measure height and arm span in cm for every student, with a consistent method (shoes off, back against a wall, arms straight and level, same tape measure, same measurers). Record each student's two values in one row of a table so they can later be plotted as a pair on a scatter plot."
+  },
+  {
+    "id": "m9.sta.investigations.q010",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Kai wants to answer this question: \"Is there a relationship between height and hours of sleep for Year 9 students at our school?\"\n\nHis plan: \"At basketball practice I'll ask my 5 friends how tall they think they are and how much they usually sleep.\"\n\nDescribe **three** problems with Kai's plan, and suggest how to fix each one.",
+    "modelAnswer": "1. The group isn't representative: friends at basketball practice are likely to be taller than typical Year 9 students. He should collect data from a wider range of Year 9 students (e.g. several classes), not just his basketball friends.\n\n2. Five people is far too few to see a relationship, because the results would vary a lot by chance. He should collect data from many more students (e.g. at least 30).\n\n3. The measurements aren't accurate: people guess their own height, and \"how much they usually sleep\" is vague. He should measure height with a tape measure (shoes off, in cm) and ask a precise question such as \"How many hours did you sleep last Sunday night?\", recorded to the nearest half hour.",
+    "rubric": [
+      { "criterion": "Identifies that basketball friends are not representative of Year 9 students (bias), with a fix", "marks": 1 },
+      { "criterion": "Identifies that 5 students is too few, with a fix (many more students)", "marks": 1 },
+      { "criterion": "Identifies inaccurate or vague measurement (guessed height, vague sleep question), with a fix", "marks": 1 }
+    ],
+    "hints": ["Think about who he is asking, how many people he is asking, and how the data is measured."],
+    "solution": "Problems: (1) basketball friends aren't representative of all Year 9s (they may be taller), so survey a wider group; (2) 5 people is too few to show a relationship, so collect from many more students; (3) guessed heights and a vague sleep question give unreliable data, so measure heights in cm and ask about sleep on a specific night."
+  }
+]

@@ -1,0 +1,19 @@
+[
+  { "id": "s9.chem.acids-bases.f01", "front": "Properties of an **acid**", "back": "Tastes sour, has a pH below 7, and turns blue litmus red, e.g. vinegar or lemon juice." },
+  { "id": "s9.chem.acids-bases.f02", "front": "What is a **base**?", "back": "A substance that neutralises an acid, e.g. metal oxides, hydroxides and carbonates." },
+  { "id": "s9.chem.acids-bases.f03", "front": "What is an **alkali**?", "back": "A base that dissolves in water. It has a pH above 7, turns red litmus blue and feels soapy." },
+  { "id": "s9.chem.acids-bases.f04", "front": "The **pH** scale", "back": "From 0 to 14 (at Year 9). Below 7 is acidic, 7 is neutral and above 7 is alkaline." },
+  { "id": "s9.chem.acids-bases.f05", "front": "What is an **indicator**?", "back": "A substance that changes colour depending on the pH, e.g. litmus, universal indicator or red cabbage juice." },
+  { "id": "s9.chem.acids-bases.f06", "front": "Litmus colours", "back": "Acids turn blue litmus red. Alkalis turn red litmus blue. Neutral solutions don't change either colour." },
+  { "id": "s9.chem.acids-bases.f07", "front": "Universal indicator colours", "back": "Red (strong acid) → orange → yellow → green (neutral) → blue → purple (strong alkali)." },
+  { "id": "s9.chem.acids-bases.f08", "front": "What is **neutralisation**?", "back": "An acid and a base reacting to cancel each other out: acid + base → salt + water." },
+  { "id": "s9.chem.acids-bases.f09", "front": "What is a **salt** in chemistry?", "back": "The compound made when an acid reacts with a base, e.g. sodium chloride or copper sulfate." },
+  { "id": "s9.chem.acids-bases.f10", "front": "Which salts do hydrochloric, sulfuric and nitric acid make?", "back": "Hydrochloric → chlorides. Sulfuric → sulfates. Nitric → nitrates." },
+  { "id": "s9.chem.acids-bases.f11", "front": "Acid + metal → ?", "back": "Salt + hydrogen, e.g. magnesium + hydrochloric acid → magnesium chloride + hydrogen." },
+  { "id": "s9.chem.acids-bases.f12", "front": "Acid + carbonate → ?", "back": "Salt + water + carbon dioxide, e.g. calcium carbonate + hydrochloric acid → calcium chloride + water + carbon dioxide." },
+  { "id": "s9.chem.acids-bases.f13", "front": "Everyday acids", "back": "Citric acid (citrus fruit), ethanoic acid (vinegar), hydrochloric acid (stomach), carbonic acid (fizzy drinks)." },
+  { "id": "s9.chem.acids-bases.f14", "front": "Everyday bases", "back": "Sodium hydroxide (oven cleaner), baking soda, magnesium hydroxide (antacids), lime (calcium carbonate) for soils." },
+  { "id": "s9.chem.acids-bases.f15", "front": "Two everyday uses of neutralisation", "back": "Antacid tablets neutralise excess stomach acid. Farmers spread lime to neutralise acidic soil." },
+  { "id": "s9.chem.acids-bases.f16", "front": "Is every base an alkali?", "back": "No. Only bases that dissolve in water are alkalis. Copper oxide is a base that doesn't dissolve." },
+  { "id": "s9.chem.acids-bases.f17", "front": "Why wear safety glasses with acids and alkalis?", "back": "Strong acids and alkalis are corrosive and can damage skin and eyes. Alkalis are especially dangerous to eyes." }
+]

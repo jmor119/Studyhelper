@@ -40,6 +40,9 @@ function markNumeric(q: QuestionOfType<'numeric'>, value: string): MarkResult {
   }
   let v = parsed.value;
   const expectsPercent = q.units === '%';
+  if (parsed.percent && q.form === 'decimal') {
+    return result(q, 0, { feedback: 'Write it as a decimal, not a percentage.' });
+  }
   if (parsed.percent && !expectsPercent) v /= 100;
 
   const tolerance =

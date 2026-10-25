@@ -1,0 +1,423 @@
+[
+  {
+    "id": "s9.chem.compounds-mixtures.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What is a **compound**?",
+    "options": [
+      { "id": "a", "text": "Two or more different elements chemically joined together" },
+      { "id": "b", "text": "Two or more substances mixed together but not joined" },
+      { "id": "c", "text": "A substance made of only one type of atom" },
+      { "id": "d", "text": "Any substance that dissolves in water" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's a mixture. In a compound the elements are chemically bonded.",
+      "c": "That's an element.",
+      "d": "Some compounds dissolve and some don't. Dissolving isn't what makes something a compound."
+    },
+    "hints": ["Water is a compound of hydrogen and oxygen."],
+    "solution": "A compound is made of **two or more different elements chemically joined** in a fixed ratio. For example, water (H₂O) always has 2 hydrogen atoms joined to 1 oxygen atom."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "In a solution, what is the name of the substance that **dissolves**, such as sugar in a cup of tea?",
+    "accepted": ["solute", "the solute", "solutes"],
+    "hints": ["The liquid that does the dissolving is the solvent."],
+    "solution": "The substance that dissolves is the **solute**. The liquid it dissolves in is the solvent, and together they make a solution."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "How many atoms altogether are in one molecule of carbon dioxide, CO₂?",
+    "answer": 3,
+    "hints": ["No number after a symbol means 1 atom."],
+    "solution": "CO₂ has 1 carbon atom and 2 oxygen atoms: $1 + 2 = 3$ atoms."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q004",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "Which separation method uses filter paper to separate an insoluble solid, like sand, from a liquid?",
+    "accepted": ["filtration", "filtering", "filter", "filtrating"],
+    "hints": ["The name comes from the paper you use."],
+    "solution": "**Filtration.** The liquid passes through the filter paper (the filtrate), and the sand is left behind on the paper (the residue)."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each separation method to the job it does best.",
+    "pairs": [
+      { "left": { "id": "filt", "text": "Filtration" }, "right": { "id": "sand", "text": "Separate sand from water" } },
+      { "left": { "id": "evap", "text": "Evaporation" }, "right": { "id": "salt", "text": "Get salt crystals from salt water" } },
+      { "left": { "id": "dist", "text": "Distillation" }, "right": { "id": "pure", "text": "Get pure water from sea water" } },
+      { "left": { "id": "chrom", "text": "Chromatography" }, "right": { "id": "dyes", "text": "Separate the dyes in a felt-tip pen's ink" } },
+      { "left": { "id": "mag", "text": "Magnet" }, "right": { "id": "iron", "text": "Separate iron filings from sulfur powder" } }
+    ],
+    "hints": ["Evaporation keeps the solid; distillation keeps the liquid."],
+    "solution": "Filtration: sand from water. Evaporation: salt from salt water (the water is lost). Distillation: pure water from sea water (the water is collected). Chromatography: dyes in ink. Magnet: iron from sulfur."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.compounds-mixtures.diagram",
+    "part": "a",
+    "stem": "The boxes show the particles in four different substances. Each circle is an atom. Different shades are different elements, and circles that touch are joined together.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 132\" width=\"420\" height=\"132\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"12\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"57\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"114\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"159\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"216\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"261\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"318\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"363\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"32\" cy=\"28\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"24\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"54\" cy=\"54\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"86\" cy=\"66\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"78\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"68\" cy=\"88\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"132\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"144\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"174\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"186\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"148\" cy=\"56\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"56\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"130\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"142\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"176\" cy=\"80\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"188\" cy=\"80\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"231\" cy=\"32\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"249\" cy=\"32\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"240\" cy=\"26\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"273\" cy=\"38\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"291\" cy=\"38\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"282\" cy=\"32\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"233\" cy=\"74\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"251\" cy=\"74\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"242\" cy=\"68\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"273\" cy=\"80\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"291\" cy=\"80\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"282\" cy=\"74\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"336\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"348\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"376\" cy=\"54\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"388\" cy=\"54\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"338\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"386\" cy=\"24\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"54\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"390\" cy=\"86\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"368\" cy=\"72\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "Four boxes of particles. Box A: separate single dark atoms, all the same. Box B: pairs of light atoms joined together. Box C: identical groups, each made of one dark atom joined to two small light atoms. Box D: pairs of joined light atoms mixed with separate single dark atoms."
+    },
+    "prompt": "Which box shows a **compound**?",
+    "options": [
+      { "id": "a", "text": "Box A" },
+      { "id": "b", "text": "Box B" },
+      { "id": "c", "text": "Box C" },
+      { "id": "d", "text": "Box D" }
+    ],
+    "correct": "c",
+    "shuffle": false,
+    "feedback": {
+      "a": "Box A has only one kind of atom, so it's an element.",
+      "b": "Box B has molecules, but each one is made of the same kind of atom, so it's an element.",
+      "d": "Box D has two different kinds of particle that aren't joined to each other, so it's a mixture."
+    },
+    "hints": ["A compound's particles each contain different kinds of atom joined together.", "In a compound, every particle is the same."],
+    "solution": "**Box C.** Every particle is the same, and each one is made of two different kinds of atom joined together, so it's a compound (it looks like water, H₂O)."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.compounds-mixtures.diagram",
+    "part": "b",
+    "stem": "The boxes show the particles in four different substances. Each circle is an atom. Different shades are different elements, and circles that touch are joined together.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 132\" width=\"420\" height=\"132\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"12\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"57\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"114\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"159\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"216\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"261\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"318\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"363\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"32\" cy=\"28\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"24\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"54\" cy=\"54\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"86\" cy=\"66\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"78\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"68\" cy=\"88\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"132\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"144\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"174\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"186\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"148\" cy=\"56\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"56\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"130\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"142\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"176\" cy=\"80\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"188\" cy=\"80\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"231\" cy=\"32\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"249\" cy=\"32\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"240\" cy=\"26\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"273\" cy=\"38\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"291\" cy=\"38\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"282\" cy=\"32\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"233\" cy=\"74\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"251\" cy=\"74\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"242\" cy=\"68\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"273\" cy=\"80\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"291\" cy=\"80\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"282\" cy=\"74\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"336\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"348\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"376\" cy=\"54\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"388\" cy=\"54\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"338\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"386\" cy=\"24\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"54\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"390\" cy=\"86\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"368\" cy=\"72\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "Four boxes of particles. Box A: separate single dark atoms, all the same. Box B: pairs of light atoms joined together. Box C: identical groups, each made of one dark atom joined to two small light atoms. Box D: pairs of joined light atoms mixed with separate single dark atoms."
+    },
+    "prompt": "Which box shows a **mixture**?",
+    "options": [
+      { "id": "a", "text": "Box A" },
+      { "id": "b", "text": "Box B" },
+      { "id": "c", "text": "Box C" },
+      { "id": "d", "text": "Box D" }
+    ],
+    "correct": "d",
+    "shuffle": false,
+    "feedback": {
+      "a": "Box A has only one kind of particle.",
+      "b": "Box B has only one kind of particle (a molecule of an element).",
+      "c": "Box C has two kinds of atom, but they are joined, and all the particles are the same. That makes it a compound."
+    },
+    "hints": ["A mixture has more than one kind of particle in it."],
+    "solution": "**Box D.** It contains two different kinds of particle (light pairs and single dark atoms) that aren't joined to each other, so it's a mixture of two elements."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q008",
+    "type": "multi",
+    "difficulty": 3,
+    "groupId": "s9.chem.compounds-mixtures.diagram",
+    "part": "c",
+    "stem": "The boxes show the particles in four different substances. Each circle is an atom. Different shades are different elements, and circles that touch are joined together.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 132\" width=\"420\" height=\"132\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"12\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"57\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"114\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"159\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"216\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"261\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"318\" y=\"8\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"363\" y=\"122\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"32\" cy=\"28\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"24\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"54\" cy=\"54\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"86\" cy=\"66\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"78\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"68\" cy=\"88\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"132\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"144\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"174\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"186\" cy=\"32\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"148\" cy=\"56\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"56\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"130\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"142\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"176\" cy=\"80\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"188\" cy=\"80\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"231\" cy=\"32\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"249\" cy=\"32\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"240\" cy=\"26\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"273\" cy=\"38\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"291\" cy=\"38\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"282\" cy=\"32\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"233\" cy=\"74\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"251\" cy=\"74\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"242\" cy=\"68\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"273\" cy=\"80\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"291\" cy=\"80\" r=\"5\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"282\" cy=\"74\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"336\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"348\" cy=\"26\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"376\" cy=\"54\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"388\" cy=\"54\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"338\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"84\" r=\"7\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"386\" cy=\"24\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"350\" cy=\"54\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"390\" cy=\"86\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"368\" cy=\"72\" r=\"8\" fill=\"#4b5563\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "Four boxes of particles. Box A: separate single dark atoms, all the same. Box B: pairs of light atoms joined together. Box C: identical groups, each made of one dark atom joined to two small light atoms. Box D: pairs of joined light atoms mixed with separate single dark atoms."
+    },
+    "prompt": "Which boxes show an **element**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Box A" },
+      { "id": "b", "text": "Box B" },
+      { "id": "c", "text": "Box C" },
+      { "id": "d", "text": "Box D" }
+    ],
+    "correct": ["a", "b"],
+    "shuffle": false,
+    "hints": ["An element has only one kind of atom, but those atoms can be single or joined in molecules."],
+    "solution": "**Boxes A and B.** Each contains only one kind of atom. In A the atoms are separate (like helium), and in B they are joined in pairs (like oxygen, O₂). Molecules of an element are still an element."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Sugar dissolves in water to make a sugar solution. The sugar is the [[a]], the water is the [[b]], and we say sugar is [[c]] in water.",
+    "blanks": [
+      { "id": "a", "accepted": ["solute"], "options": ["solute", "solvent", "solution"] },
+      { "id": "b", "accepted": ["solvent"], "options": ["solute", "solvent", "solution"] },
+      { "id": "c", "accepted": ["soluble"], "options": ["soluble", "insoluble"] }
+    ],
+    "hints": ["The solute dissolves in the solvent."],
+    "solution": "Sugar is the **solute** (it dissolves), water is the **solvent** (it does the dissolving), and sugar is **soluble** in water."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "In chemistry, which of these is a **pure substance**?",
+    "options": [
+      { "id": "a", "text": "Distilled water" },
+      { "id": "b", "text": "Sea water" },
+      { "id": "c", "text": "Air" },
+      { "id": "d", "text": "100% pure orange juice" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Sea water is a mixture of water and dissolved salts.",
+      "c": "Air is a mixture of nitrogen, oxygen, argon, carbon dioxide and other gases.",
+      "d": "In everyday language 'pure' means nothing added, but in chemistry orange juice is a mixture of water, sugars, acids and more."
+    },
+    "hints": ["In chemistry, 'pure' means containing only one substance."],
+    "solution": "**Distilled water** contains only water molecules, so it's a pure substance. The others are all mixtures."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q011",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Co has a capital C and a lower-case o, so it is the element [[a]]. CO has two capital letters, so it is a [[b]] of carbon and oxygen.",
+    "blanks": [
+      { "id": "a", "accepted": ["cobalt"], "options": ["cobalt", "copper", "carbon"] },
+      { "id": "b", "accepted": ["compound"], "options": ["compound", "mixture", "element"] }
+    ],
+    "hints": ["Every capital letter starts a new element symbol."],
+    "solution": "Co is the element **cobalt**. CO has two capitals, so it is two elements, carbon and oxygen, joined together: a **compound** (carbon monoxide)."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q012",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "A student dissolves 15 g of salt in 200 g of water. What is the mass of the salt solution?",
+    "answer": 215,
+    "units": "g",
+    "hints": ["When salt dissolves, does it disappear, or is it still there?"],
+    "solution": "The salt hasn't disappeared. Its particles have spread out between the water particles. Mass of solution = 15 + 200 = **215 g**."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q013",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the compounds.",
+    "options": [
+      { "id": "a", "text": "H₂O" },
+      { "id": "b", "text": "CO₂" },
+      { "id": "c", "text": "O₂" },
+      { "id": "d", "text": "NaCl" },
+      { "id": "e", "text": "He" },
+      { "id": "f", "text": "CH₄" },
+      { "id": "g", "text": "N₂" }
+    ],
+    "correct": ["a", "b", "d", "f"],
+    "hints": ["Count the different symbols (capital letters) in each formula.", "O₂ is a molecule, but is it made of different elements?"],
+    "solution": "A compound contains **two or more different elements**: H₂O, CO₂, NaCl and CH₄. O₂ and N₂ are molecules made of only one element, and He is a single atom, so they are elements."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q014",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put the steps for distilling sea water in order.",
+    "items": [
+      { "id": "heat", "text": "Heat the sea water in a flask" },
+      { "id": "boil", "text": "The water boils and turns into water vapour" },
+      { "id": "condenser", "text": "The vapour passes into a condenser cooled by cold water" },
+      { "id": "condense", "text": "The vapour condenses back into liquid water" },
+      { "id": "collect", "text": "Pure water drips into a beaker" }
+    ],
+    "hints": ["Distillation is evaporation (boiling) followed by condensation."],
+    "solution": "Heat → the water boils → the vapour enters the cold condenser → it condenses → pure water is collected. The salt stays behind in the flask because it doesn't boil at 100 °C."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "In paper chromatography, why is the start line drawn in **pencil** rather than pen?",
+    "options": [
+      { "id": "a", "text": "Pencil won't dissolve in the solvent, but pen ink might run up the paper" },
+      { "id": "b", "text": "Pencil is easier to rub out if you make a mistake" },
+      { "id": "c", "text": "Pen ink would stop the solvent moving up the paper" },
+      { "id": "d", "text": "Pencil makes the dyes travel faster" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's true, but it isn't the scientific reason.",
+      "c": "The solvent would still move. The problem is that pen ink could dissolve and mix with your results.",
+      "d": "The pencil line doesn't change how fast the dyes travel."
+    },
+    "hints": ["What would happen to a line drawn in ink when the solvent reached it?"],
+    "solution": "Pencil (graphite) **doesn't dissolve** in the solvent. A pen line could dissolve and separate into its own dyes, which would mix with the dyes you are testing."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which statement best describes the particles in solid sodium chloride (table salt)?",
+    "options": [
+      { "id": "a", "text": "Positive sodium ions and negative chloride ions in a regular, repeating lattice" },
+      { "id": "b", "text": "Separate NaCl molecules, each made of one sodium atom and one chlorine atom" },
+      { "id": "c", "text": "Sodium atoms and chlorine atoms mixed together but not joined" },
+      { "id": "d", "text": "Sodium ions and chloride ions moving freely, like a gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Sodium chloride doesn't form separate molecules. It forms a giant lattice, and the formula shows the 1 : 1 ratio of ions.",
+      "c": "Sodium chloride is a compound, not a mixture. The sodium and chlorine are chemically joined.",
+      "d": "In the solid the ions are held in fixed positions. They can move only when it is melted or dissolved."
+    },
+    "hints": ["Sodium chloride is made from a metal and a non-metal, so it is ionic."],
+    "solution": "Sodium chloride is an **ionic lattice**: positive sodium ions and negative chloride ions packed in a huge, regular 3D pattern, held together by the strong attraction between opposite charges."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q017",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Iron filings and sulfur powder stirred together can be separated using a [[a]]. When the mixture is heated, they react to form iron sulfide, a new [[b]], and the iron can no longer be pulled out this way.",
+    "blanks": [
+      { "id": "a", "accepted": ["magnet", "a magnet", "magnets"] },
+      { "id": "b", "accepted": ["compound", "substance", "chemical"] }
+    ],
+    "hints": ["Iron is magnetic; sulfur isn't.", "When elements react and become chemically joined, what do they make?"],
+    "solution": "A **magnet** separates the mixture, because the iron isn't joined to the sulfur. After heating, the iron and sulfur are chemically joined in a **compound**, iron sulfide, so the magnet can't pull the iron out any more."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q018",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain the difference between a **mixture** and a **compound**.",
+    "modelAnswer": "In a compound, two or more different elements are chemically joined (bonded) in a fixed ratio, and it can only be split up by a chemical reaction. In a mixture, the substances are not chemically joined, they can be in any amounts, each keeps its own properties, and they can be separated by physical methods such as filtering or using a magnet.",
+    "rubric": [
+      { "criterion": "Compound: elements are chemically joined in a fixed ratio (separated only by a chemical reaction)", "marks": 1 },
+      { "criterion": "Mixture: substances are not chemically joined and can be separated by physical methods (or can be in any amounts)", "marks": 1 }
+    ],
+    "hints": ["Think about whether the parts are joined, and how you could separate them."],
+    "solution": "Compound: chemically joined, fixed ratio, needs a chemical reaction to separate. Mixture: not joined, any amounts, separated physically (e.g. filtering, evaporating, a magnet)."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q019",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Sodium is a soft, very reactive metal. Chlorine is a poisonous yellow-green gas. Yet sodium chloride is the salt we sprinkle on chips. What does this show about compounds?",
+    "options": [
+      { "id": "a", "text": "A compound can have very different properties from the elements it is made from" },
+      { "id": "b", "text": "A compound always has the properties of its most reactive element" },
+      { "id": "c", "text": "Sodium chloride is really a mixture of sodium and chlorine" },
+      { "id": "d", "text": "Poisonous elements always make poisonous compounds" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Salt doesn't behave like sodium at all. It doesn't fizz in water.",
+      "c": "If it were a mixture, it would still have the properties of sodium and chlorine.",
+      "d": "Sodium chloride is a clear example where that isn't true."
+    },
+    "hints": ["Does table salt behave like sodium metal or chlorine gas?"],
+    "solution": "When elements are chemically joined, they make a **new substance with new properties**. Sodium chloride behaves nothing like sodium or chlorine. This is a key difference between a compound and a mixture."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q020",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "At 20 °C, a maximum of 36 g of salt will dissolve in 100 g of water. What is the maximum mass of salt that will dissolve in 250 g of water at 20 °C?",
+    "answer": 90,
+    "units": "g",
+    "hints": ["250 g of water is how many times as much as 100 g?", "Multiply 36 g by that number."],
+    "solution": "250 g of water is $250 \\div 100 = 2.5$ times as much water, so it can dissolve 2.5 times as much salt: $36 \\times 2.5 = $ **90 g**."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Describe how you could get pure, dry salt crystals from a mixture of salt and sand.",
+    "modelAnswer": "1. Add water to the mixture and stir. The salt dissolves, but the sand doesn't. 2. Filter the mixture. The sand stays on the filter paper as the residue, and the salt solution passes through as the filtrate. 3. Evaporate the water from the salt solution by heating it gently, or by leaving it in a warm place, until salt crystals are left behind.",
+    "rubric": [
+      { "criterion": "Add water and stir so the salt dissolves (the sand doesn't)", "marks": 1 },
+      { "criterion": "Filter to remove the sand: the sand stays on the filter paper and the salt solution passes through", "marks": 1 },
+      { "criterion": "Evaporate the water from the solution to leave salt crystals", "marks": 1 }
+    ],
+    "hints": ["One of the two substances dissolves in water and the other doesn't.", "You need three steps: dissolve, separate the sand, then get the salt back."],
+    "solution": "Dissolve (add water and stir), then filter (the sand is caught by the paper), then evaporate (the water leaves, and the salt crystals stay)."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Substance Y is a white crystalline solid. It melts at 801 °C. It doesn't conduct electricity as a solid, but it does when it is melted or dissolved in water. What type of substance is Y most likely to be?",
+    "options": [
+      { "id": "a", "text": "An ionic compound (a salt) with a lattice structure" },
+      { "id": "b", "text": "A molecular substance, like sugar" },
+      { "id": "c", "text": "A metal" },
+      { "id": "d", "text": "A noble gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Molecular substances have low melting points and don't conduct, even when melted.",
+      "c": "Metals conduct electricity when they are solid.",
+      "d": "Noble gases are gases at room temperature."
+    },
+    "hints": ["A high melting point means strong forces hold the particles together.", "Conducting only when melted or dissolved means charged particles are free to move only then."],
+    "solution": "A high melting point and conducting only when melted or dissolved are signs of an **ionic lattice**. When it melts or dissolves, the ions can move and carry charge. (Y is sodium chloride.)"
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q023",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Two inks are tested with paper chromatography on the same paper, using the same solvent. Ink X separates into a blue spot and a red spot. Ink Y makes a single blue spot that travels exactly as far as ink X's blue spot. Select **all** the conclusions that are supported.",
+    "options": [
+      { "id": "a", "text": "Ink X is a mixture" },
+      { "id": "b", "text": "Inks X and Y probably contain the same blue dye" },
+      { "id": "c", "text": "Ink Y could be a single dye" },
+      { "id": "d", "text": "Ink Y contains the red dye" },
+      { "id": "e", "text": "Ink X is a pure substance" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["How many substances does each spot represent?", "Under the same conditions, the same dye travels the same distance."],
+    "solution": "Ink X splits into two spots, so it is a **mixture** of at least two dyes. The blue spots travel the same distance under the same conditions, so they are **probably the same dye**. Ink Y gives only one spot, so it **could be a single dye**. Ink Y has no red spot, so it doesn't contain the red dye."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q024",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Which observation is the best evidence that air is a **mixture** rather than a compound?",
+    "options": [
+      { "id": "a", "text": "The amount of water vapour in air changes from day to day and place to place" },
+      { "id": "b", "text": "Air is invisible" },
+      { "id": "c", "text": "Air contains oxygen, which we need to breathe" },
+      { "id": "d", "text": "Air can be squashed into a smaller space" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Many substances are invisible, including some pure ones. This doesn't tell you anything about mixtures.",
+      "c": "This is true, but it doesn't show whether the gases are joined or not.",
+      "d": "All gases can be squashed. That's because the particles are far apart, not because air is a mixture."
+    },
+    "hints": ["A compound always has a fixed ratio of elements. Can the make-up of a mixture change?"],
+    "solution": "A compound always has a **fixed** composition, but the parts of a mixture can be present in any amounts. Because the amount of water vapour in air **varies**, air must be a mixture."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q025",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Ethanol boils at 78 °C and water boils at 100 °C. Explain how distillation could separate ethanol from a mixture of ethanol and water.",
+    "modelAnswer": "Heat the mixture gently so its temperature is about 78 °C, above ethanol's boiling point but below water's. The ethanol boils (evaporates) first, because it has the lower boiling point, while most of the water stays as a liquid in the flask. The ethanol vapour passes into a cold condenser, where it cools and condenses back into liquid ethanol, which is collected in a separate container. Some water also evaporates, so the ethanol collected isn't completely pure.",
+    "rubric": [
+      { "criterion": "Heat the mixture to about 78 °C (above ethanol's boiling point but below water's)", "marks": 1 },
+      { "criterion": "Ethanol boils or evaporates first because of its lower boiling point, while most of the water stays liquid", "marks": 1 },
+      { "criterion": "The ethanol vapour is cooled in a condenser, condenses back to a liquid and is collected separately", "marks": 1 }
+    ],
+    "hints": ["Which liquid turns into a gas first as the mixture heats up?", "How do you turn the vapour back into a liquid?"],
+    "solution": "Heat to about 78 °C, so the ethanol boils off first (it has the lower boiling point). Its vapour condenses in the cold condenser and is collected. Because the boiling points are close, a little water comes over too. That's why repeated (fractional) distillation is used in industry."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q026",
+    "type": "numeric",
+    "difficulty": 5,
+    "prompt": "How many oxygen atoms are shown in the formula of aluminium sulfate, Al₂(SO₄)₃?",
+    "answer": 12,
+    "hints": ["The 3 after the bracket multiplies everything inside the bracket.", "How many oxygen atoms are in one SO₄?"],
+    "solution": "Inside the bracket, SO₄ has 4 oxygen atoms. The bracket is multiplied by 3, so there are $4 \\times 3 = 12$ oxygen atoms. (In total: Al 2, S 3, O 12.)"
+  }
+]

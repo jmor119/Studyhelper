@@ -192,6 +192,7 @@ export async function recordAttempt(
       ...(meta.answerText && { answerText: meta.answerText.slice(0, 300) }),
       ...(meta.examId && { examId: meta.examId }),
       ...(mark.feedback && { feedback: mark.feedback }),
+      ...(mark.expected && { expected: mark.expected.slice(0, 400) }),
       ...(meta.selfMarked && { selfMarked: true }),
       ...(meta.aiMarked && { aiMarked: true }),
     };

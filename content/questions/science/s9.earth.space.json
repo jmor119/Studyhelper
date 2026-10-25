@@ -1,0 +1,413 @@
+[
+  {
+    "id": "s9.earth.space.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What causes day and night on Earth?",
+    "options": [
+      { "id": "a", "text": "The Earth spinning on its axis" },
+      { "id": "b", "text": "The Earth orbiting the Sun" },
+      { "id": "c", "text": "The Sun moving around the Earth" },
+      { "id": "d", "text": "The Moon blocking the Sun at night" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "One orbit of the Sun takes a whole year, not a day.",
+      "c": "The Sun only *seems* to move across the sky. It's the Earth that is turning.",
+      "d": "The Moon is often in the daytime sky, and it doesn't block the Sun every night."
+    },
+    "hints": ["How long does it take to go from one sunrise to the next?"],
+    "solution": "The Earth **spins on its axis** once about every 24 hours. The side facing the Sun has day, and the side facing away has night."
+  },
+  {
+    "id": "s9.earth.space.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "About how many days does it take the Earth to orbit the Sun once?",
+    "answer": 365.25,
+    "tolerance": 0.3,
+    "units": "days",
+    "hints": ["It's the length of one year."],
+    "solution": "One orbit takes about **365¼ days**, which is one year. The extra quarter day adds up to a whole day every four years, which is why we have leap years."
+  },
+  {
+    "id": "s9.earth.space.q003",
+    "type": "order",
+    "difficulty": 1,
+    "prompt": "Put the planets in order, starting with the one **closest** to the Sun.",
+    "items": [
+      { "id": "mercury", "text": "Mercury" },
+      { "id": "venus", "text": "Venus" },
+      { "id": "earth", "text": "Earth" },
+      { "id": "mars", "text": "Mars" },
+      { "id": "jupiter", "text": "Jupiter" },
+      { "id": "saturn", "text": "Saturn" },
+      { "id": "uranus", "text": "Uranus" },
+      { "id": "neptune", "text": "Neptune" }
+    ],
+    "hints": ["A memory trick: **M**y **V**ery **E**ager **M**other **J**ust **S**erved **U**s **N**achos."],
+    "solution": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. The first four are small rocky planets; the last four are giants."
+  },
+  {
+    "id": "s9.earth.space.q004",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the Māori name for the cluster of stars whose rising before dawn in midwinter marks the Māori New Year for many iwi?",
+    "accepted": ["Matariki"],
+    "hints": ["It is known internationally as the Pleiades."],
+    "solution": "**Matariki**, known internationally as the Pleiades. Its reappearance in the dawn sky in midwinter marks the start of the Māori New Year for many iwi."
+  },
+  {
+    "id": "s9.earth.space.q005",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "orbit", "text": "Orbit" }, "right": { "id": "path", "text": "The curved path of one object around another in space" } },
+      { "left": { "id": "axis", "text": "Axis" }, "right": { "id": "line", "text": "The imaginary line that the Earth spins around" } },
+      { "left": { "id": "moon", "text": "Moon" }, "right": { "id": "sat", "text": "A natural object that orbits a planet" } },
+      { "left": { "id": "planet", "text": "Planet" }, "right": { "id": "big", "text": "A large, round object that orbits the Sun" } },
+      { "left": { "id": "eclipse", "text": "Eclipse" }, "right": { "id": "block", "text": "When one object blocks sunlight from reaching another" } }
+    ],
+    "hints": ["The Earth spins on its axis and travels around the Sun in its orbit."],
+    "solution": "Orbit: the path around another object. Axis: the line the Earth spins around. Moon: orbits a planet. Planet: a large, round object orbiting the Sun. Eclipse: one object blocking sunlight from another."
+  },
+  {
+    "id": "s9.earth.space.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What causes the seasons on Earth?",
+    "options": [
+      { "id": "a", "text": "The tilt of Earth's axis as the Earth orbits the Sun" },
+      { "id": "b", "text": "The Earth being closer to the Sun in summer" },
+      { "id": "c", "text": "The Sun giving out more heat at some times of the year" },
+      { "id": "d", "text": "The Moon's position in its orbit" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A very common idea, but wrong. Earth is closest to the Sun in early January, which is winter in the Northern Hemisphere.",
+      "c": "The Sun's output stays almost the same all year.",
+      "d": "The Moon affects tides, not seasons."
+    },
+    "hints": ["If distance caused the seasons, both hemispheres would have summer at the same time. Do they?"],
+    "solution": "Earth's axis is **tilted** (about 23.5°). When our hemisphere is tilted towards the Sun, the Sun is higher, its light is more concentrated and days are longer, so it's summer. When we're tilted away, it's winter."
+  },
+  {
+    "id": "s9.earth.space.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "After a new moon, the lit part of the Moon gets bigger each night. We say the Moon is [[a]]. After a full moon, the lit part gets smaller, and we say the Moon is [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["waxing"], "options": ["waxing", "waning"] },
+      { "id": "b", "accepted": ["waning"], "options": ["waxing", "waning"] }
+    ],
+    "hints": ["To 'wax' means to grow."],
+    "solution": "Growing is **waxing**; shrinking is **waning**."
+  },
+  {
+    "id": "s9.earth.space.q008",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name of the unit equal to the average distance from the Earth to the Sun (about 150 million km)?",
+    "accepted": ["astronomical unit", "astronomical units", "AU", "an astronomical unit"],
+    "hints": ["Jupiter is about 5.2 of these units from the Sun."],
+    "solution": "The **astronomical unit (AU)**. Jupiter, for example, is about 5.2 AU from the Sun."
+  },
+  {
+    "id": "s9.earth.space.q009",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Which of these orbit the **Sun** directly (not a planet)? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Mars" },
+      { "id": "b", "text": "Pluto" },
+      { "id": "c", "text": "An asteroid in the asteroid belt" },
+      { "id": "d", "text": "A comet" },
+      { "id": "e", "text": "The Moon" },
+      { "id": "f", "text": "Titan, a moon of Saturn" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Moons orbit planets."],
+    "solution": "**Mars** (a planet), **Pluto** (a dwarf planet), **asteroids** and **comets** all orbit the Sun. The Moon orbits the Earth, and Titan orbits Saturn."
+  },
+  {
+    "id": "s9.earth.space.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What is a **light-year**?",
+    "options": [
+      { "id": "a", "text": "The distance light travels in one year" },
+      { "id": "b", "text": "The time it takes light to reach Earth from the Sun" },
+      { "id": "c", "text": "A year on a planet that gets a lot of sunlight" },
+      { "id": "d", "text": "The time light takes to travel 1 AU" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Sunlight takes about 8 minutes to reach Earth. A light-year is a distance, not a time.",
+      "c": "It has nothing to do with years on other planets.",
+      "d": "That's about 8 minutes, and it's a time. A light-year is a distance."
+    },
+    "hints": ["Despite having 'year' in its name, it measures how far, not how long."],
+    "solution": "A light-year is the **distance light travels in one year**, about 9.5 trillion km. It is used for the huge distances to stars."
+  },
+  {
+    "id": "s9.earth.space.q011",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "The maramataka is the Māori calendar. It is based mainly on the phases of what?",
+    "accepted": ["the Moon", "Moon", "Moon phases", "phases of the Moon", "lunar phases", "lunar", "marama", "te marama"],
+    "hints": ["Its shape seems to change over about 29.5 days."],
+    "solution": "The **Moon**. Each night of the Moon's cycle has its own name in the maramataka, and it is used with other signs in nature to plan activities such as planting, harvesting and fishing."
+  },
+  {
+    "id": "s9.earth.space.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "The Earth is closest to the Sun in early January. What does this tell us about the seasons?",
+    "options": [
+      { "id": "a", "text": "Distance can't be the cause of the seasons, because January is winter in the Northern Hemisphere" },
+      { "id": "b", "text": "Distance causes the seasons, because January is summer in New Zealand" },
+      { "id": "c", "text": "The whole Earth has summer in January" },
+      { "id": "d", "text": "The seasons are caused by the Moon, not the Sun" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "If distance caused the seasons, the Northern Hemisphere would also have summer in January, but it has winter.",
+      "c": "The two hemispheres always have opposite seasons.",
+      "d": "The Moon doesn't cause seasons. The tilt of Earth's axis does."
+    },
+    "hints": ["What season is it in Europe and North America in January?"],
+    "solution": "In January the Earth is closest to the Sun, yet the Northern Hemisphere has **winter**. So distance can't explain the seasons. The real cause is the **tilt** of Earth's axis."
+  },
+  {
+    "id": "s9.earth.space.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A **solar** eclipse can only happen at which phase of the Moon?",
+    "options": [
+      { "id": "a", "text": "New moon" },
+      { "id": "b", "text": "Full moon" },
+      { "id": "c", "text": "First quarter" },
+      { "id": "d", "text": "Any phase" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "At full moon the Earth is between the Sun and the Moon. That's when a lunar eclipse can happen.",
+      "c": "At first quarter the Moon is to one side of the Sun–Earth line, so it can't block the Sun.",
+      "d": "The Moon must be exactly between the Sun and the Earth, which only happens at one phase."
+    },
+    "hints": ["In a solar eclipse, the Moon is between the Sun and the Earth."],
+    "solution": "In a solar eclipse the Moon passes between the Sun and the Earth. That only happens at **new moon**, when the Moon's lit side faces away from us."
+  },
+  {
+    "id": "s9.earth.space.q014",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put the phases of the Moon in order, starting from **new moon**.",
+    "items": [
+      { "id": "new", "text": "New moon" },
+      { "id": "wxc", "text": "Waxing crescent" },
+      { "id": "fq", "text": "First quarter" },
+      { "id": "wxg", "text": "Waxing gibbous" },
+      { "id": "full", "text": "Full moon" },
+      { "id": "wng", "text": "Waning gibbous" },
+      { "id": "lq", "text": "Last quarter" },
+      { "id": "wnc", "text": "Waning crescent" }
+    ],
+    "hints": ["Waxing (growing) phases come before full moon; waning (shrinking) phases come after.", "Crescent is less than half lit; gibbous is more than half lit."],
+    "solution": "New → waxing crescent → first quarter → waxing gibbous → full → waning gibbous → last quarter → waning crescent → back to new (about 29.5 days in total)."
+  },
+  {
+    "id": "s9.earth.space.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Mars is about 1.5 AU from the Sun, and 1 AU is about 150 million km. About how far is Mars from the Sun, in **millions of kilometres**?",
+    "answer": 225,
+    "units": "million km",
+    "hints": ["Multiply the distance in AU by the number of kilometres in 1 AU."],
+    "solution": "$1.5 \\times 150 = 225$, so Mars is about **225 million km** from the Sun."
+  },
+  {
+    "id": "s9.earth.space.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which statement about Matariki is accurate?",
+    "options": [
+      { "id": "a", "text": "It is a cluster of stars (the Pleiades) whose rising before dawn in midwinter marks the Māori New Year for many iwi" },
+      { "id": "b", "text": "It is a single bright planet that can be seen every night of the year" },
+      { "id": "c", "text": "It is first seen in the evening sky in the middle of summer" },
+      { "id": "d", "text": "It can only be seen from the Northern Hemisphere" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Matariki is a cluster of many stars, not a planet, and for about a month each year it can't be seen at all.",
+      "c": "Its important rising happens in the pre-dawn sky in midwinter (late June or July).",
+      "d": "Matariki is easily seen from Aotearoa."
+    },
+    "hints": ["When is the Matariki public holiday?"],
+    "solution": "Matariki is a **star cluster**, also called the Pleiades. After being hidden for about a month, it reappears low in the north-eastern sky **just before dawn in midwinter**, marking the Māori New Year for many iwi. Some iwi use the rising of Puanga (Rigel) instead."
+  },
+  {
+    "id": "s9.earth.space.q017",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why the Moon appears to change shape (go through phases) during a month.",
+    "modelAnswer": "The Moon doesn't make its own light. It reflects light from the Sun, and half of it is always lit. As the Moon orbits the Earth over about a month, we see different amounts of the lit half from Earth. At new moon we can't see the lit side at all, and at full moon we see all of it.",
+    "rubric": [
+      { "criterion": "Half of the Moon is always lit by the Sun (the Moon reflects sunlight)", "marks": 1 },
+      { "criterion": "As the Moon orbits the Earth, we see different amounts of the lit half", "marks": 1 }
+    ],
+    "hints": ["Does the Moon make its own light?", "What changes during the month: the Moon's lit half, or our view of it?"],
+    "solution": "Half the Moon is always lit by the Sun. As the Moon travels around the Earth, our view of that lit half changes, from none (new moon) to all of it (full moon) and back again."
+  },
+  {
+    "id": "s9.earth.space.q018",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Alpha Centauri, one of the Pointers next to the Southern Cross, is about 4.4 light-years away. When you look at it tonight, when did the light reaching your eyes leave the star?",
+    "options": [
+      { "id": "a", "text": "About 4.4 years ago" },
+      { "id": "b", "text": "About 4.4 days ago" },
+      { "id": "c", "text": "At the same moment you see it" },
+      { "id": "d", "text": "About 8 minutes ago" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Light takes a whole year to travel one light-year.",
+      "c": "Light is fast, but not instant. Over huge distances it takes a long time.",
+      "d": "8 minutes is how long light takes to reach us from the Sun, not from other stars."
+    },
+    "hints": ["A light-year is the distance light travels in one year."],
+    "solution": "Light takes one year to travel one light-year, so light from 4.4 light-years away left the star **about 4.4 years ago**. Looking at stars means looking back in time."
+  },
+  {
+    "id": "s9.earth.space.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain why New Zealand is warmer in December than in June.",
+    "modelAnswer": "Earth's axis is tilted (by about 23.5°), and it stays pointing the same way as the Earth orbits the Sun. In December the Southern Hemisphere is tilted towards the Sun. The Sun is higher in the sky, so its light strikes the ground more directly and its energy is concentrated on a smaller area. Days are also longer, so there are more hours of heating. In June the Southern Hemisphere is tilted away from the Sun, so the Sun is low, its light is spread out, and days are short. (It is not because the Earth is closer to the Sun; it is actually closest in January.)",
+    "rubric": [
+      { "criterion": "Earth's axis is tilted and stays pointing the same way as the Earth orbits the Sun", "marks": 1 },
+      { "criterion": "In December the Southern Hemisphere is tilted towards the Sun, so the Sun is higher and its light is more direct or concentrated", "marks": 1 },
+      { "criterion": "Days are longer in December, giving more hours of heating (or the reverse for June)", "marks": 1 }
+    ],
+    "hints": ["Which way is the Southern Hemisphere tilted in December?", "Think about how high the Sun gets and how long the days are."],
+    "solution": "The tilt of the axis means that in December the Southern Hemisphere leans towards the Sun: the Sun is higher (more concentrated light) and days are longer, so it is summer. In June we lean away, which gives winter."
+  },
+  {
+    "id": "s9.earth.space.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Mercury is closer to the Sun than Venus, but Venus is the hottest planet. Why?",
+    "options": [
+      { "id": "a", "text": "Venus has a thick carbon dioxide atmosphere that traps heat (a very strong greenhouse effect)" },
+      { "id": "b", "text": "Venus is bigger, so it collects more sunlight" },
+      { "id": "c", "text": "Venus spins faster, which heats it up" },
+      { "id": "d", "text": "Mercury reflects all of its sunlight away" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Venus is about Earth's size, and size isn't the reason. Earth is a similar size and much cooler.",
+      "c": "Venus actually spins very slowly. One Venus day is longer than its year.",
+      "d": "Mercury absorbs plenty of sunlight. It gets very hot by day but loses the heat at night, because it has no real atmosphere."
+    },
+    "hints": ["Compare the atmospheres of Mercury and Venus."],
+    "solution": "Venus has a very thick atmosphere of **carbon dioxide**, which traps heat in a runaway greenhouse effect. Its surface is over 450 °C. Mercury has almost no atmosphere, so heat escapes and its night side gets very cold."
+  },
+  {
+    "id": "s9.earth.space.q021",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "Light travels at about 300,000 km per second. The Sun is about 150,000,000 km from the Earth. How many seconds does sunlight take to reach the Earth?",
+    "answer": 500,
+    "units": "s",
+    "hints": ["time = distance ÷ speed"],
+    "solution": "time = distance ÷ speed $= 150{,}000{,}000 \\div 300{,}000 = $ **500 s**. That's 8 minutes 20 seconds. We always see the Sun as it was about 8 minutes ago."
+  },
+  {
+    "id": "s9.earth.space.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A few evenings after a new moon, a thin **waxing** crescent Moon is seen from New Zealand. Which side of the Moon is lit?",
+    "options": [
+      { "id": "a", "text": "The left side" },
+      { "id": "b", "text": "The right side" },
+      { "id": "c", "text": "The top" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's how a waxing Moon looks from the Northern Hemisphere. From New Zealand the view is flipped.",
+      "c": "The lit side always faces towards the Sun, which has just set in the west."
+    },
+    "hints": ["The lit side always faces the Sun. After sunset, the Sun is below the western horizon.", "From New Zealand we look north to see the Moon. When you face north, which side is west?"],
+    "solution": "The lit side faces the Sun, which has just set in the **west**. From New Zealand we look north to see the Moon, and west is on our **left**. So a waxing Moon is lit on the left, the opposite of what people in the Northern Hemisphere see."
+  },
+  {
+    "id": "s9.earth.space.q023",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the statements that are true.",
+    "options": [
+      { "id": "a", "text": "Mars has a thin atmosphere, mostly carbon dioxide" },
+      { "id": "b", "text": "Venus is hotter than Mercury, even though it is further from the Sun" },
+      { "id": "c", "text": "The Moon has almost no atmosphere, so its temperature changes hugely between day and night" },
+      { "id": "d", "text": "Jupiter has a solid, rocky surface you could stand on" },
+      { "id": "e", "text": "Saturn is closer to the Sun than Jupiter" },
+      { "id": "f", "text": "Neptune is the closest planet to the Sun" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Jupiter is a gas giant.", "Use the planet order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."],
+    "solution": "True: **Mars** has a thin CO₂ atmosphere; **Venus** is hotter than Mercury because of its greenhouse atmosphere; the **Moon** has almost no atmosphere to hold heat. False: Jupiter is a gas giant with no solid surface to stand on; Saturn is further out than Jupiter; Neptune is the furthest planet, not the closest."
+  },
+  {
+    "id": "s9.earth.space.q024",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The Moon goes around the Earth about once a month. Why don't we see a solar eclipse every month?",
+    "options": [
+      { "id": "a", "text": "The Moon's orbit is tilted by about 5°, so the Sun, Earth and Moon usually don't line up exactly" },
+      { "id": "b", "text": "The Moon is too small to cast a shadow most months" },
+      { "id": "c", "text": "Eclipses can only happen in summer" },
+      { "id": "d", "text": "Clouds hide most eclipses" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The Moon always casts a shadow. The shadow usually misses the Earth, passing above or below it.",
+      "c": "Eclipses can happen at any time of year, whenever the Sun, Earth and Moon line up.",
+      "d": "Clouds can block the view from one place, but the eclipse still happens."
+    },
+    "hints": ["For an eclipse, the Sun, Earth and Moon must be in an exact straight line."],
+    "solution": "The Moon's orbit is **tilted** about 5° compared with Earth's orbit around the Sun. Most months, at new moon, the Moon passes just above or below the Sun–Earth line, so its shadow misses the Earth. An eclipse happens only when new moon falls where the two orbits cross."
+  },
+  {
+    "id": "s9.earth.space.q025",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The Sun's diameter is about 400 times the Moon's diameter. Explain how the much smaller Moon can still completely cover the Sun during a total solar eclipse.",
+    "modelAnswer": "The Sun is about 400 times wider than the Moon, but it is also about 400 times further away from the Earth. Because the extra distance makes the Sun look smaller by about the same amount, the Sun and Moon look almost exactly the same size in our sky. So when the Moon passes directly in front of the Sun, it can just cover it.",
+    "rubric": [
+      { "criterion": "The Sun is much bigger (about 400 times wider) than the Moon", "marks": 1 },
+      { "criterion": "But the Sun is also much further away (about 400 times further)", "marks": 1 },
+      { "criterion": "So the Sun and Moon appear about the same size in the sky, and the Moon can just cover the Sun", "marks": 1 }
+    ],
+    "hints": ["Hold a coin at arm's length and it can block out something much bigger that is far away.", "Compare how far away the Sun and the Moon are."],
+    "solution": "Size and distance cancel out: the Sun is about 400 times wider but also about 400 times further away, so the Sun and Moon look the same size, and the Moon can exactly cover the Sun."
+  },
+  {
+    "id": "s9.earth.space.q026",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "allowed",
+    "prompt": "Neptune is about 30 AU from the Sun. Sunlight takes about 8 minutes to travel 1 AU. About how many **hours** does sunlight take to reach Neptune?",
+    "answer": 4,
+    "tolerance": 0.25,
+    "units": "hours",
+    "hints": ["First find the time in minutes for 30 AU.", "There are 60 minutes in an hour."],
+    "solution": "$30 \\times 8 = 240$ minutes, and $240 \\div 60 = $ **4 hours**. Out at Neptune, the Sun looks like a very bright star, and its light is much weaker."
+  }
+]

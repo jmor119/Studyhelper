@@ -1,0 +1,143 @@
+[
+  {
+    "id": "m9.mea.pythagoras.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "In a right-angled triangle, the longest side is called the [[a]]. It is always opposite the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["hypotenuse"], "options": ["hypotenuse", "diagonal", "base", "perimeter"] },
+      { "id": "b", "accepted": ["right angle"], "options": ["right angle", "shortest side", "smallest angle", "base"] }
+    ],
+    "hints": ["Look for the small square in the corner of the triangle."],
+    "solution": "The longest side is the **hypotenuse**, and it is opposite the **right angle**."
+  },
+  {
+    "id": "m9.mea.pythagoras.q002",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which equation is true for this right-angled triangle?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"320\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"260,50 60,50 260,200\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"248,50 248,62 260,62\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"160\" y=\"33.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">p</text><text x=\"275.92\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">q</text><text x=\"149.37\" y=\"139.17\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">r</text></svg>", "alt": "A right-angled triangle. Sides p and q meet at the right angle. Side r is opposite the right angle." },
+    "options": [
+      { "id": "a", "text": "$p^2 + q^2 = r^2$" },
+      { "id": "b", "text": "$p^2 + r^2 = q^2$" },
+      { "id": "c", "text": "$q^2 + r^2 = p^2$" },
+      { "id": "d", "text": "$p + q = r$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$q$ touches the right angle, so it is not the hypotenuse.",
+      "c": "$p$ touches the right angle, so it is not the hypotenuse.",
+      "d": "Pythagoras' theorem adds the **squares** of the sides, not the sides themselves."
+    },
+    "hints": ["Which side is opposite the right angle? That one is the hypotenuse.", "The hypotenuse goes on its own on one side of the equation."],
+    "solution": "$r$ is opposite the right angle, so it is the hypotenuse: $p^2 + q^2 = r^2$."
+  },
+  {
+    "id": "m9.mea.pythagoras.q003",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "Put these steps in order for finding the hypotenuse of a right-angled triangle.",
+    "items": [
+      { "id": "a", "text": "Identify the hypotenuse (opposite the right angle)" },
+      { "id": "b", "text": "Square each of the two shorter sides" },
+      { "id": "c", "text": "Add the two squares together" },
+      { "id": "d", "text": "Take the square root of the total" },
+      { "id": "e", "text": "Round as asked and write the units" }
+    ],
+    "hints": ["Square first, then add, then square root."],
+    "solution": "Identify the hypotenuse → square the shorter sides → add → square root → round and give units."
+  },
+  {
+    "id": "m9.mea.pythagoras.q004",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Is a triangle with sides 9 cm, 12 cm and 15 cm right-angled? Show your working.",
+    "modelAnswer": "The longest side is 15 cm. 9² + 12² = 81 + 144 = 225, and 15² = 225. These are equal, so by Pythagoras' theorem the triangle is right-angled (the right angle is opposite the 15 cm side).",
+    "rubric": [
+      { "criterion": "Calculates 9² + 12² = 225 and 15² = 225", "marks": 1 },
+      { "criterion": "Concludes that the triangle is right-angled because they are equal", "marks": 1 }
+    ],
+    "hints": ["The longest side would have to be the hypotenuse.", "Compare $9^2 + 12^2$ with $15^2$."],
+    "solution": "$9^2 + 12^2 = 81 + 144 = 225 = 15^2$, so yes, the triangle **is** right-angled. (It is the (3, 4, 5) triple multiplied by 3.)"
+  },
+  {
+    "id": "m9.mea.pythagoras.q005",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Four identical right-angled triangles, with shorter sides $a$ and $b$ and hypotenuse $c$, are arranged inside a square of side $a + b$ in two different ways. Explain how the two pictures show that $a^2 + b^2 = c^2$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 375 206\" width=\"375\" height=\"206\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"90\" y=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Picture 1</text><polygon points=\"15,44 165,44 165,194 15,194\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"67,44 165,44 165,96\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"165,96 165,194 113,194\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"113,194 15,194 15,142\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"15,142 15,44 67,44\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"90\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"16\" fill=\"#1f2937\" font-weight=\"bold\">c²</text><text x=\"41\" y=\"37\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">a</text><text x=\"116\" y=\"37\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">b</text><text x=\"173\" y=\"70\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">a</text><text x=\"173\" y=\"145\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">b</text><text x=\"280\" y=\"13\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Picture 2</text><polygon points=\"205,44 355,44 355,194 205,194\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"257,44 355,44 355,96\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"257,44 257,96 355,96\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"205,96 257,96 205,194\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"257,96 257,194 205,194\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"231\" y=\"70\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">a²</text><text x=\"306\" y=\"145\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"16\" fill=\"#1f2937\" font-weight=\"bold\">b²</text><text x=\"231\" y=\"37\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">a</text><text x=\"306\" y=\"37\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">b</text><text x=\"363\" y=\"70\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">a</text><text x=\"363\" y=\"145\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">b</text></svg>", "alt": "Two squares, each with sides a + b, each containing the same four yellow right-angled triangles. In Picture 1 the triangles sit in the corners, leaving a tilted square of area c squared in the middle. In Picture 2 the triangles are paired into two rectangles, leaving a square of area a squared and a square of area b squared." },
+    "modelAnswer": "Both big squares have the same area, (a + b)², and both contain the same four triangles. So the space left over (not covered by triangles) must be the same in both pictures. In Picture 1 the space left over is one square with side c, area c². In Picture 2 it is two squares, with areas a² and b². So c² = a² + b².",
+    "rubric": [
+      { "criterion": "States that the big squares are the same size and contain the same four triangles", "marks": 1 },
+      { "criterion": "So the uncovered areas must be equal", "marks": 1 },
+      { "criterion": "Identifies the uncovered areas as c² (Picture 1) and a² + b² (Picture 2), giving a² + b² = c²", "marks": 1 }
+    ],
+    "hints": ["The two big squares are exactly the same size.", "Compare the parts that are **not** covered by triangles in each picture."],
+    "solution": "Each big square has side $a + b$ and holds the same four triangles, so the uncovered area is the same in both pictures. In Picture 1 it is a square of area $c^2$; in Picture 2 it is two squares of area $a^2$ and $b^2$. Therefore $c^2 = a^2 + b^2$."
+  },
+  {
+    "id": "m9.mea.pythagoras.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "The shorter sides of a right-angled triangle are 5 cm and 7 cm. Mateo writes: $5 + 7 = 12$, and $12^2 = 144$, so the hypotenuse is $\\sqrt{144} = 12$ cm. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He added the sides before squaring. He should square 5 and 7 first, then add." },
+      { "id": "b", "text": "He should have subtracted 5 from 7." },
+      { "id": "c", "text": "He should not have taken the square root at the end." },
+      { "id": "d", "text": "Nothing. The hypotenuse is 12 cm." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Subtracting is not part of finding the hypotenuse.",
+      "c": "The square root is needed: $c^2$ is the area of a square, and $c$ is its side.",
+      "d": "The hypotenuse must be shorter than the other two sides added together (12 cm), so 12 cm can't be right."
+    },
+    "hints": ["Pythagoras' theorem says $c^2 = a^2 + b^2$. What gets squared?"],
+    "solution": "Square first, then add: $c^2 = 5^2 + 7^2 = 25 + 49 = 74$, so $c = \\sqrt{74} \\approx 8.6$ cm. Mateo found $(5 + 7)^2$, which is not the same as $5^2 + 7^2$."
+  },
+  {
+    "id": "m9.mea.pythagoras.q007",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "On a coordinate grid, point A is at $(1, 2)$ and point B is at $(7, 10)$. How long is the straight line from A to B?",
+    "answer": 10,
+    "units": "units",
+    "hints": ["Draw a right-angled triangle with AB as the hypotenuse: go across from A, then up to B.", "Across: $7 - 1$. Up: $10 - 2$."],
+    "solution": "Across: $7 - 1 = 6$. Up: $10 - 2 = 8$.\n\n$AB^2 = 6^2 + 8^2 = 36 + 64 = 100$, so $AB = 10$ units."
+  },
+  {
+    "id": "m9.mea.pythagoras.q008",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A yacht sails 12 km north, then 9 km east, then another 8 km north. How far is it from its starting point, in a straight line? Give your answer to 1 decimal place.",
+    "answer": 21.9,
+    "decimals": 1,
+    "units": "km",
+    "hints": ["Add up the total distance north first.", "Then the start, the finish and the corner make a right-angled triangle with sides (total north) and 9 km."],
+    "solution": "Total north: $12 + 8 = 20$ km. East: 9 km.\n\n$d^2 = 20^2 + 9^2 = 400 + 81 = 481$\n\n$d = \\sqrt{481} = 21.93\\ldots \\approx 21.9$ km."
+  },
+  {
+    "id": "m9.mea.pythagoras.q009",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "(3, 4, 5) is a Pythagorean triple. Select **all** the other sets below that are also Pythagorean triples.",
+    "options": [
+      { "id": "a", "text": "(6, 8, 10)" },
+      { "id": "b", "text": "(30, 40, 50)" },
+      { "id": "c", "text": "(4, 5, 6)" },
+      { "id": "d", "text": "(3, 4, 7)" },
+      { "id": "e", "text": "(9, 12, 15)" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Multiplying every number in a triple by the same amount gives another triple.", "Adding the same amount to each number does **not**."],
+    "solution": "(6, 8, 10) = (3, 4, 5) × 2, (30, 40, 50) = × 10 and (9, 12, 15) = × 3, so these are triples. (4, 5, 6): $16 + 25 = 41 \\neq 36$. (3, 4, 7): $9 + 16 = 25 \\neq 49$."
+  }
+]

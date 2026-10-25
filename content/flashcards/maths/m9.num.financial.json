@@ -1,0 +1,14 @@
+[
+  { "id": "m9.num.financial.f01", "front": "What is **GST**, and what is the rate in New Zealand?", "back": "Goods and services tax, added to most things you buy. The rate is 15%." },
+  { "id": "m9.num.financial.f02", "front": "How do you add GST to a price?", "back": "Multiply by 1.15, e.g. $80 \\times 1.15 = 92$." },
+  { "id": "m9.num.financial.f03", "front": "How do you remove GST from a GST-inclusive price?", "back": "Divide by 1.15, e.g. $92 \\div 1.15 = 80$. Don't just take 15% off." },
+  { "id": "m9.num.financial.f04", "front": "What fraction of a GST-inclusive price is GST?", "back": "$\\frac{3}{23}$, because $\\frac{0.15}{1.15} = \\frac{3}{23}$." },
+  { "id": "m9.num.financial.f05", "front": "What is a **discount**? How do you find a sale price?", "back": "An amount taken off a price. For 25% off, multiply by 0.75." },
+  { "id": "m9.num.financial.f06", "front": "What is a **mark-up**?", "back": "The amount added to the cost price to get the selling price. A 30% mark-up means multiply by 1.3." },
+  { "id": "m9.num.financial.f07", "front": "Percentage discount or mark-up: what do you divide by?", "back": "Discount: divide by the original price. Mark-up: divide by the cost price." },
+  { "id": "m9.num.financial.f08", "front": "Simple interest formula", "back": "$I = P \\times r \\times t$: principal × rate per year (as a decimal) × time in years." },
+  { "id": "m9.num.financial.f09", "front": "What is the **principal**?", "back": "The amount of money invested or borrowed." },
+  { "id": "m9.num.financial.f10", "front": "What does \"8% p.a.\" mean?", "back": "An **interest rate** of 8% per year (per annum)." },
+  { "id": "m9.num.financial.f11", "front": "Simple interest for 18 months: what is $t$?", "back": "$t = 18 \\div 12 = 1.5$ years." },
+  { "id": "m9.num.financial.f12", "front": "What is time-and-a-half?", "back": "1.5 times the normal hourly pay rate, e.g. \\$24 per hour becomes \\$36 per hour." }
+]

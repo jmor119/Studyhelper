@@ -1,0 +1,392 @@
+[
+  {
+    "id": "s9.chem.atoms-elements.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which particle in an atom has a **negative** charge?",
+    "options": [
+      { "id": "a", "text": "Electron" },
+      { "id": "b", "text": "Proton" },
+      { "id": "c", "text": "Neutron" },
+      { "id": "d", "text": "Nucleus" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Protons are positive.",
+      "c": "Neutrons have no charge. They are neutral.",
+      "d": "The nucleus is the centre of the atom. It contains protons and neutrons, so overall it is positive."
+    },
+    "hints": ["Neutrons are neutral, and the nucleus contains the protons."],
+    "solution": "**Electrons** are negative. Protons are positive, and neutrons have no charge."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q002",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each particle to its description.",
+    "pairs": [
+      { "left": { "id": "p", "text": "Proton" }, "right": { "id": "pos", "text": "Positive charge, in the nucleus" } },
+      { "left": { "id": "n", "text": "Neutron" }, "right": { "id": "zero", "text": "No charge, in the nucleus" } },
+      { "left": { "id": "e", "text": "Electron" }, "right": { "id": "neg", "text": "Negative charge, moves around the nucleus" } }
+    ],
+    "hints": ["**Neu**tron sounds like **neu**tral."],
+    "solution": "Proton: positive, in the nucleus. Neutron: no charge, in the nucleus. Electron: negative, moving around the nucleus."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q003",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What name is given to the **vertical columns** of the periodic table?",
+    "accepted": ["groups", "group"],
+    "hints": ["The horizontal rows are called periods."],
+    "solution": "The columns are **groups**. Elements in the same group have similar chemical properties."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What is an **element**?",
+    "options": [
+      { "id": "a", "text": "A substance made of only one type of atom" },
+      { "id": "b", "text": "A substance made of two or more types of atom joined together" },
+      { "id": "c", "text": "Any substance that is a solid at room temperature" },
+      { "id": "d", "text": "A mixture of different atoms that are not joined" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's a compound, e.g. water (hydrogen and oxygen joined together).",
+      "c": "Elements can be solids, liquids or gases. Oxygen is an element and it's a gas.",
+      "d": "That's a mixture."
+    },
+    "hints": ["Oxygen, gold and carbon are all elements."],
+    "solution": "An element is made of **only one type of atom**, so it can't be broken down into anything simpler by a chemical reaction."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "These symbols come from Latin names. Match each symbol to its element.",
+    "pairs": [
+      { "left": { "id": "na", "text": "Na" }, "right": { "id": "sodium", "text": "Sodium" } },
+      { "left": { "id": "k", "text": "K" }, "right": { "id": "potassium", "text": "Potassium" } },
+      { "left": { "id": "fe", "text": "Fe" }, "right": { "id": "iron", "text": "Iron" } },
+      { "left": { "id": "cu", "text": "Cu" }, "right": { "id": "copper", "text": "Copper" } },
+      { "left": { "id": "ag", "text": "Ag" }, "right": { "id": "silver", "text": "Silver" } },
+      { "left": { "id": "pb", "text": "Pb" }, "right": { "id": "lead", "text": "Lead" } }
+    ],
+    "hints": ["Latin names: argentum, cuprum, kalium, plumbum, natrium, ferrum."],
+    "solution": "Na: sodium (natrium). K: potassium (kalium). Fe: iron (ferrum). Cu: copper (cuprum). Ag: silver (argentum). Pb: lead (plumbum, which is also where 'plumber' comes from)."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q006",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "The atomic number of an element tells you the number of which particle in each of its atoms?",
+    "accepted": ["protons", "proton"],
+    "hints": ["It's the particle that decides which element an atom is.", "It's found in the nucleus and has a positive charge."],
+    "solution": "The atomic number is the number of **protons**. Every element has its own atomic number. For example, any atom with 6 protons is carbon."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q007",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the properties that most metals have.",
+    "options": [
+      { "id": "a", "text": "Shiny" },
+      { "id": "b", "text": "Good conductor of electricity" },
+      { "id": "c", "text": "Malleable (can be hammered into shape)" },
+      { "id": "d", "text": "Brittle (shatters when hit)" },
+      { "id": "e", "text": "Dull" },
+      { "id": "f", "text": "Good conductor of heat" }
+    ],
+    "correct": ["a", "b", "c", "f"],
+    "hints": ["Think about copper wire, a steel pot and aluminium foil."],
+    "solution": "Metals are **shiny**, **conduct electricity and heat** well, and are **malleable**. Brittle and dull are properties of solid non-metals, such as sulfur."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q008",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Metals are found on the [[a]] and in the centre of the periodic table. Non-metals are found on the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["left"], "options": ["left", "right"] },
+      { "id": "b", "accepted": ["right"], "options": ["left", "right"] }
+    ],
+    "hints": ["Sodium (Group 1) is a metal. Chlorine (Group 17) is a non-metal."],
+    "solution": "Metals are on the **left** and in the centre. Non-metals are on the **right**, past the staircase line, with hydrogen as the odd one out at the top left."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What name is given to the very unreactive gases in **Group 18**, such as helium, neon and argon?",
+    "accepted": ["noble gases", "noble gas", "the noble gases", "inert gases", "inert gas"],
+    "hints": ["Their name suggests they 'keep to themselves' and rarely react."],
+    "solution": "They are the **noble gases**. They are very unreactive, which makes them useful, e.g. argon inside light bulbs and helium in balloons."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which statement about the **Group 1** metals (the alkali metals) is correct?",
+    "options": [
+      { "id": "a", "text": "They are soft and react quickly with water, giving off hydrogen gas" },
+      { "id": "b", "text": "They are hard and unreactive, so they are used for jewellery" },
+      { "id": "c", "text": "They are colourless gases at room temperature" },
+      { "id": "d", "text": "They get less reactive as you go down the group" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That describes metals like gold. Group 1 metals are so reactive they must be stored under oil.",
+      "c": "That describes the noble gases (Group 18).",
+      "d": "It's the opposite: lithium < sodium < potassium. They get more reactive down the group."
+    },
+    "hints": ["Sodium and potassium are both in Group 1. Think about how they behave in water."],
+    "solution": "Group 1 metals are **soft** (you can cut them with a knife) and **react quickly with water**, making hydrogen gas and an alkaline solution. They get more reactive down the group."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which of these elements would have chemical properties most like **sodium**?",
+    "options": [
+      { "id": "a", "text": "Potassium" },
+      { "id": "b", "text": "Magnesium" },
+      { "id": "c", "text": "Chlorine" },
+      { "id": "d", "text": "Neon" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Magnesium is next to sodium in the same period (row), but elements in a period don't behave alike.",
+      "c": "Chlorine is a non-metal in Group 17, so it's very different from sodium.",
+      "d": "Neon is an unreactive noble gas. Sodium is a very reactive metal."
+    },
+    "hints": ["Elements in the same group (column) have similar properties.", "Sodium is in Group 1."],
+    "solution": "Sodium and **potassium** are both in Group 1, and elements in the same group have similar properties. Both are soft, reactive metals that fizz in water."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q012",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these halogens (Group 17) in order from **most** reactive to **least** reactive.",
+    "items": [
+      { "id": "f", "text": "Fluorine" },
+      { "id": "cl", "text": "Chlorine" },
+      { "id": "br", "text": "Bromine" },
+      { "id": "i", "text": "Iodine" }
+    ],
+    "hints": ["Think about where each halogen sits in Group 17, from top to bottom.", "Halogens get less reactive as you go down the group, the opposite of Group 1."],
+    "solution": "Fluorine → chlorine → bromine → iodine. The halogens get **less** reactive down the group, so fluorine, at the top, is the most reactive."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q013",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "In 1869 the Russian chemist Dmitri [[a]] arranged the known elements in a table and grouped elements with similar properties. He left [[b]] for elements that hadn't been discovered yet.",
+    "blanks": [
+      { "id": "a", "accepted": ["Mendeleev", "Mendeleyev", "Mendeleef"] },
+      { "id": "b", "accepted": ["gaps", "gap", "spaces", "space", "blanks", "empty spaces", "holes"] }
+    ],
+    "hints": ["His surname starts with M.", "What did he do when no known element fitted a place in the table?"],
+    "solution": "Dmitri **Mendeleev** left **gaps** for undiscovered elements and predicted their properties. When those elements were found, they matched his predictions."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q014",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "The modern periodic table lists the elements in order of increasing [[a]]. Elements in the same [[b]] have similar chemical properties.",
+    "blanks": [
+      { "id": "a", "accepted": ["atomic number"], "options": ["atomic number", "atomic mass", "date of discovery"] },
+      { "id": "b", "accepted": ["group"], "options": ["group", "period"] }
+    ],
+    "hints": ["Mendeleev used atomic mass, but the modern table uses something slightly different.", "Groups are columns; periods are rows."],
+    "solution": "The modern table is in order of **atomic number** (number of protons). Mendeleev's original table used atomic mass. Elements in the same **group** (column) have similar properties."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A magnesium atom has 12 protons, 12 neutrons and 12 electrons. How many particles are in its **nucleus**?",
+    "answer": 24,
+    "hints": ["Which particles are in the nucleus, and which move around it?"],
+    "solution": "The nucleus contains the protons and neutrons: $12 + 12 = 24$ particles. The 12 electrons move around the outside of the nucleus, so they aren't counted."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q016",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the noble gases.",
+    "options": [
+      { "id": "a", "text": "Helium" },
+      { "id": "b", "text": "Neon" },
+      { "id": "c", "text": "Argon" },
+      { "id": "d", "text": "Nitrogen" },
+      { "id": "e", "text": "Oxygen" },
+      { "id": "f", "text": "Hydrogen" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["The noble gases are in Group 18, on the far right of the table.", "Nitrogen, oxygen and hydrogen are gases, but they react with many other substances."],
+    "solution": "**Helium, neon and argon** are noble gases (Group 18). Nitrogen, oxygen and hydrogen are gases too, but they are not in Group 18 and they are much more reactive."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q017",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which statement about the **halogens** (Group 17) is correct?",
+    "options": [
+      { "id": "a", "text": "They are reactive non-metals that react with metals to make salts" },
+      { "id": "b", "text": "They are unreactive gases used to fill party balloons" },
+      { "id": "c", "text": "They are soft metals that are stored under oil" },
+      { "id": "d", "text": "They are all liquids at room temperature" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That describes helium, a noble gas (Group 18).",
+      "c": "That describes the alkali metals (Group 1).",
+      "d": "Only bromine is a liquid. Fluorine and chlorine are gases, and iodine is a solid."
+    },
+    "hints": ["Chlorine and iodine are halogens. Are they metals or non-metals, and how reactive are they?"],
+    "solution": "The halogens are **reactive non-metals**. They react with metals to make salts, e.g. sodium + chlorine → sodium chloride (table salt)."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q018",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Party balloons that float are filled with helium. Hydrogen is even less dense than helium, but it is not used in party balloons. Explain why helium is used.",
+    "modelAnswer": "Helium is less dense than air, so a helium balloon floats. Helium is a noble gas, so it is very unreactive and won't burn or explode. Hydrogen is flammable and can explode if it meets a flame, so it would be dangerous.",
+    "rubric": [
+      { "criterion": "Helium is less dense than air, so the balloon floats", "marks": 1 },
+      { "criterion": "Helium is an unreactive noble gas and won't burn, whereas hydrogen is flammable or explosive", "marks": 1 }
+    ],
+    "hints": ["Why does the balloon float?", "What happens when hydrogen meets a flame?"],
+    "solution": "Helium floats because it is less dense than air, and it is safe because, as a noble gas, it is very unreactive. Hydrogen would also float, but it burns explosively."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Magnesium and calcium are both in **Group 2**, and calcium is below magnesium. Predict how calcium reacts with cold water compared with magnesium, and explain your prediction.",
+    "modelAnswer": "Calcium will react more quickly (more vigorously) with cold water than magnesium does. This is because Group 2 metals get more reactive as you go down the group, and calcium is below magnesium. Calcium fizzes steadily, giving off hydrogen gas and forming calcium hydroxide (an alkaline solution). Magnesium reacts only very slowly with cold water.",
+    "rubric": [
+      { "criterion": "Predicts calcium reacts faster or more vigorously than magnesium", "marks": 1 },
+      { "criterion": "Explains that reactivity increases down Group 2", "marks": 1 },
+      { "criterion": "Describes the reaction: bubbles of hydrogen gas and/or an alkaline solution (calcium hydroxide) forms", "marks": 1 }
+    ],
+    "hints": ["Does reactivity go up or down as you go down Group 2?", "What gas do reactive metals give off with water?"],
+    "solution": "Reactivity increases down Group 2, so calcium reacts **faster** than magnesium. It fizzes, giving off hydrogen gas, and forms calcium hydroxide, which makes the water alkaline. Magnesium barely reacts with cold water."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Element Z is a shiny grey solid. It conducts electricity well and can be hammered into thin sheets. It reacts only slowly with acid. Where in the periodic table is Z most likely to be?",
+    "options": [
+      { "id": "a", "text": "In the centre, among the transition metals" },
+      { "id": "b", "text": "In Group 17, with the halogens" },
+      { "id": "c", "text": "In Group 18, with the noble gases" },
+      { "id": "d", "text": "On the far right, among the non-metals" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The halogens are non-metals, so they don't conduct and can't be hammered into sheets.",
+      "c": "The noble gases are gases at room temperature.",
+      "d": "Non-metals are usually dull and brittle and don't conduct electricity."
+    },
+    "hints": ["Shiny, conducts and malleable: is Z a metal or a non-metal?", "Group 1 and 2 metals react quickly. Which metals are less reactive?"],
+    "solution": "Shiny, conducting and malleable means Z is a **metal**. It reacts only slowly, so it isn't a very reactive Group 1 or 2 metal. It is most likely one of the **transition metals** in the centre of the table, such as iron or zinc."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Mendeleev left a gap in his table below silicon. He predicted the properties of a missing element he called 'eka-silicon'. In 1886 germanium was discovered, and its properties closely matched his predictions. Why was this important?",
+    "options": [
+      { "id": "a", "text": "It was evidence that his way of organising the elements was correct" },
+      { "id": "b", "text": "It proved that every element had now been discovered" },
+      { "id": "c", "text": "It showed that elements should be listed in alphabetical order" },
+      { "id": "d", "text": "It meant germanium had to be moved into Group 1" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Many more elements have been discovered since 1886.",
+      "c": "The table isn't alphabetical. It groups elements by their properties.",
+      "d": "Germanium fitted into the gap below silicon, just as Mendeleev predicted."
+    },
+    "hints": ["What does it mean when a scientist's prediction is tested and turns out to be true?"],
+    "solution": "A successful prediction is strong **evidence that the idea behind it is right**. Mendeleev's table didn't just describe the known elements. It correctly predicted new ones, so scientists came to trust it."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q022",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Element X is a soft, shiny metal. It reacts very quickly with water, giving off hydrogen gas, and the water becomes alkaline. Select **all** the statements that are likely to be true.",
+    "options": [
+      { "id": "a", "text": "X is in Group 1" },
+      { "id": "b", "text": "X is on the left-hand side of the periodic table" },
+      { "id": "c", "text": "X should be stored under oil" },
+      { "id": "d", "text": "X is a noble gas" },
+      { "id": "e", "text": "X is a halogen" },
+      { "id": "f", "text": "X is on the right-hand side of the periodic table" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Which group of metals is soft and reacts quickly with water?"],
+    "solution": "A soft metal that reacts quickly with water to make hydrogen and an alkaline solution is an **alkali metal (Group 1)**, on the **left** of the table. Alkali metals are **stored under oil** to stop them reacting with air and water. Noble gases and halogens are non-metals on the right."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q023",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Rubidium is below potassium in Group 1. Which prediction about rubidium is most likely to be correct?",
+    "options": [
+      { "id": "a", "text": "It reacts with water even more violently than potassium" },
+      { "id": "b", "text": "It doesn't react with water at all" },
+      { "id": "c", "text": "It is a colourless gas at room temperature" },
+      { "id": "d", "text": "It is less reactive than sodium" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "All Group 1 metals react with water.",
+      "c": "Rubidium is a Group 1 metal, so it is a solid at room temperature.",
+      "d": "Reactivity increases down Group 1, and rubidium is below both sodium and potassium."
+    },
+    "hints": ["Does reactivity increase or decrease down Group 1?"],
+    "solution": "Reactivity increases down Group 1 (lithium < sodium < potassium < rubidium). So rubidium reacts with water **even more violently than potassium**."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q024",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Ernest Rutherford, who was born near Nelson, directed an experiment in which tiny positively charged particles were fired at a very thin sheet of gold. **Most** of the particles passed straight through the gold. A **very small number** bounced back. Explain what each of these results tells us about the structure of an atom.",
+    "modelAnswer": "Most particles passed straight through, so most of an atom must be empty space. A very small number bounced back, so there must be something tiny but very dense in the centre of each atom. It carries most of the atom's mass: the nucleus. Because the positive particles were pushed back, the nucleus must have a positive charge (like charges repel).",
+    "rubric": [
+      { "criterion": "Most passed straight through, so an atom is mostly empty space", "marks": 1 },
+      { "criterion": "A few bounced back, so there is a tiny, dense centre (nucleus) containing most of the mass", "marks": 1 },
+      { "criterion": "The nucleus is positively charged, because it repelled the positive particles", "marks": 1 }
+    ],
+    "hints": ["If a particle goes straight through, what must it have passed through?", "Positive charges repel other positive charges."],
+    "solution": "Straight through means the atom is mostly **empty space**. Bouncing back means a tiny, **dense nucleus** holds most of the mass. Being pushed back means the nucleus is **positive**, because like charges repel. This was how Rutherford discovered the nucleus."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q025",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Astatine is the element below iodine in Group 17. Going down the group, fluorine is a pale yellow gas, chlorine is a yellow-green gas, bromine is a red-brown liquid and iodine is a grey-black solid. What is the best prediction for astatine at room temperature?",
+    "options": [
+      { "id": "a", "text": "A very dark solid" },
+      { "id": "b", "text": "A pale yellow gas" },
+      { "id": "c", "text": "A colourless gas" },
+      { "id": "d", "text": "A shiny silver liquid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Going down the group, the halogens change from gases to a liquid to a solid. Astatine is below iodine, so it won't jump back to a gas.",
+      "c": "The halogens get darker going down the group, not lighter.",
+      "d": "Bromine is the only liquid halogen, and astatine is below the solid iodine."
+    },
+    "hints": ["Look for two patterns going down the group: the state at room temperature, and the colour."],
+    "solution": "Going down Group 17, the halogens change from gas to liquid to solid, and their colour gets darker. Following both patterns, astatine should be a **very dark solid**. (It is so radioactive and rare that nobody has ever collected enough to look at, so this is a prediction from the pattern.)"
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "id": "s9.chem.reactions.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is a **chemical** change?",
+    "options": [
+      { "id": "a", "text": "Toasting bread" },
+      { "id": "b", "text": "Melting butter" },
+      { "id": "c", "text": "Dissolving sugar in tea" },
+      { "id": "d", "text": "Breaking a glass" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Melting is a physical change. The butter is still butter, and it sets again when cooled.",
+      "c": "Dissolving is a physical change. The sugar is still there, spread through the tea.",
+      "d": "Breaking changes the shape, but the pieces are still glass. That's a physical change."
+    },
+    "hints": ["A chemical change makes a new substance that you can't easily turn back."],
+    "solution": "**Toasting bread** makes new, brown substances with a new taste and smell, and you can't untoast it. The other changes don't make any new substance."
+  },
+  {
+    "id": "s9.chem.reactions.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "In a word equation, what are the substances on the **left** of the arrow called (the substances you start with)?",
+    "accepted": ["reactants", "reactant", "the reactants"],
+    "hints": ["The substances on the right are the products."],
+    "solution": "They are the **reactants**. They react to make the products, which go on the right of the arrow."
+  },
+  {
+    "id": "s9.chem.reactions.q003",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each gas to its test result.",
+    "pairs": [
+      { "left": { "id": "h2", "text": "Hydrogen" }, "right": { "id": "pop", "text": "A lit splint gives a squeaky pop" } },
+      { "left": { "id": "o2", "text": "Oxygen" }, "right": { "id": "relight", "text": "A glowing splint relights" } },
+      { "left": { "id": "co2", "text": "Carbon dioxide" }, "right": { "id": "lime", "text": "Limewater turns milky" } }
+    ],
+    "hints": ["Oxygen helps things burn."],
+    "solution": "Hydrogen: squeaky pop with a lit splint. Oxygen: relights a glowing splint. Carbon dioxide: turns limewater milky (cloudy)."
+  },
+  {
+    "id": "s9.chem.reactions.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "A reaction that gives out heat energy is [[a]]. A reaction that takes in heat energy is [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["exothermic"], "options": ["exothermic", "endothermic"] },
+      { "id": "b", "accepted": ["endothermic"], "options": ["exothermic", "endothermic"] }
+    ],
+    "hints": ["One of the words starts with the same two letters as 'exit'."],
+    "solution": "Gives out heat: **exothermic** (the temperature rises). Takes in heat: **endothermic** (the temperature falls)."
+  },
+  {
+    "id": "s9.chem.reactions.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the observations that suggest a chemical reaction is happening.",
+    "options": [
+      { "id": "a", "text": "Bubbles of gas are given off when two substances are mixed" },
+      { "id": "b", "text": "The mixture changes colour" },
+      { "id": "c", "text": "The mixture gets much hotter" },
+      { "id": "d", "text": "A solid forms when two clear solutions are mixed" },
+      { "id": "e", "text": "A ball of plasticine is squashed flat" },
+      { "id": "f", "text": "A piece of paper is cut in half" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Changing the shape of something doesn't make a new substance."],
+    "solution": "**A gas, a colour change, a temperature change and a precipitate** are all signs of a chemical reaction. Squashing and cutting only change the shape, so they are physical changes."
+  },
+  {
+    "id": "s9.chem.reactions.q006",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Magnesium ribbon burns in air with a bright white flame. Complete the word equation:\n\nmagnesium + oxygen → ______",
+    "accepted": ["magnesium oxide"],
+    "allowTypos": false,
+    "hints": ["When an element combines with oxygen, the product's name usually ends in '-ide'."],
+    "solution": "magnesium + oxygen → **magnesium oxide**. The white powder left after burning is magnesium oxide."
+  },
+  {
+    "id": "s9.chem.reactions.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Natural gas (methane) burns completely in a gas cooker. What are the products?",
+    "options": [
+      { "id": "a", "text": "Carbon dioxide and water" },
+      { "id": "b", "text": "Carbon monoxide and hydrogen" },
+      { "id": "c", "text": "Carbon and oxygen" },
+      { "id": "d", "text": "Hydrogen and carbon dioxide" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Carbon monoxide forms only when there isn't enough oxygen (incomplete combustion), and hydrogen isn't a product.",
+      "c": "Oxygen is a reactant, not a product. Soot (carbon) forms only with too little oxygen.",
+      "d": "The hydrogen in methane combines with oxygen to make water."
+    },
+    "hints": ["Methane contains carbon and hydrogen. What does each of these make when it combines with oxygen?"],
+    "solution": "methane + oxygen → **carbon dioxide + water**. The carbon becomes carbon dioxide and the hydrogen becomes water (H₂O)."
+  },
+  {
+    "id": "s9.chem.reactions.q008",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Iron needs oxygen in order to rust. What else does it need?",
+    "accepted": ["water", "moisture", "H2O", "water vapour"],
+    "hints": ["Iron left in a dry cupboard doesn't rust."],
+    "solution": "Iron needs **water** as well as oxygen: iron + oxygen + water → rust."
+  },
+  {
+    "id": "s9.chem.reactions.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Complete the word equation for respiration:\n\nglucose + [[a]] → carbon dioxide + [[b]]",
+    "blanks": [
+      { "id": "a", "accepted": ["oxygen"] },
+      { "id": "b", "accepted": ["water"] }
+    ],
+    "hints": ["We breathe in the gas needed for respiration.", "Respiration is the reverse of photosynthesis."],
+    "solution": "glucose + **oxygen** → carbon dioxide + **water**. This releases energy in every living cell."
+  },
+  {
+    "id": "s9.chem.reactions.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which observation shows that a **precipitate** has formed?",
+    "options": [
+      { "id": "a", "text": "Two clear solutions are mixed and a cloudy solid appears" },
+      { "id": "b", "text": "Bubbles of gas fizz out of the mixture" },
+      { "id": "c", "text": "The mixture gets warm" },
+      { "id": "d", "text": "A solid at the bottom of the beaker dissolves" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That shows a gas being made, not a precipitate.",
+      "c": "That's a temperature change.",
+      "d": "That's dissolving, the opposite of a precipitate forming."
+    },
+    "hints": ["A precipitate is an insoluble solid."],
+    "solution": "A **precipitate** is an insoluble solid that forms when two solutions react. It makes the mixture go cloudy, e.g. copper sulfate solution + sodium hydroxide solution makes a pale blue solid."
+  },
+  {
+    "id": "s9.chem.reactions.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Is dissolving sugar in water a physical or a chemical change?",
+    "options": [
+      { "id": "a", "text": "Physical, because no new substance forms and the sugar can be recovered by evaporating the water" },
+      { "id": "b", "text": "Chemical, because the sugar disappears, so it must have turned into a new substance" },
+      { "id": "c", "text": "Chemical, because the water now tastes sweet" },
+      { "id": "d", "text": "Physical, because it happens at room temperature" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The sugar hasn't disappeared. Its particles are spread between the water particles, too small to see.",
+      "c": "The sweet taste is the sugar itself, which is still there. No new substance has formed.",
+      "d": "It is physical, but not for that reason: many chemical reactions happen at room temperature."
+    },
+    "hints": ["Has a new substance been made? Could you get the sugar back?"],
+    "solution": "Dissolving is a **physical change**. The sugar particles spread out among the water particles, but they are still sugar, and you can get the sugar back by evaporating the water."
+  },
+  {
+    "id": "s9.chem.reactions.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "When zinc is added to hydrochloric acid, it fizzes, giving off hydrogen gas, and zinc chloride forms in the solution. Complete the word equation:\n\nzinc + [[a]] → [[b]] + hydrogen",
+    "blanks": [
+      { "id": "a", "accepted": ["hydrochloric acid"] },
+      { "id": "b", "accepted": ["zinc chloride"] }
+    ],
+    "allowTypos": false,
+    "hints": ["Reactants are what you start with; products are what is made.", "Two substances are mixed at the start; two are made."],
+    "solution": "zinc + **hydrochloric acid** → **zinc chloride** + hydrogen. Zinc and the acid are what you start with (reactants); zinc chloride and hydrogen are made (products)."
+  },
+  {
+    "id": "s9.chem.reactions.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Citric acid and baking soda (sodium hydrogen carbonate) are mixed in water. The mixture fizzes and its temperature falls from 21 °C to 16 °C. What type of reaction is this?",
+    "options": [
+      { "id": "a", "text": "Endothermic, because it takes in heat energy from the surroundings" },
+      { "id": "b", "text": "Exothermic, because it gives out cold" },
+      { "id": "c", "text": "Exothermic, because the temperature changed" },
+      { "id": "d", "text": "Not a reaction, because nothing got hotter" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "'Cold' isn't something that can be given out. The mixture cools because it takes in heat energy.",
+      "c": "A temperature change shows a reaction, but a fall in temperature means endothermic.",
+      "d": "The fizzing (a gas) and the temperature change both show a reaction is happening."
+    },
+    "hints": ["Did the temperature go up or down?"],
+    "solution": "The temperature **fell**, so the reaction took in heat energy from the water around it: it is **endothermic**. This is why sherbet feels cool and fizzy on your tongue."
+  },
+  {
+    "id": "s9.chem.reactions.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "3.6 g of magnesium burns completely, combining with 2.4 g of oxygen from the air. What mass of magnesium oxide forms?",
+    "answer": 6,
+    "units": "g",
+    "hints": ["magnesium + oxygen → magnesium oxide", "No atoms are created or destroyed in a reaction."],
+    "solution": "Mass is conserved: all the magnesium and oxygen atoms end up in the magnesium oxide. Mass of magnesium oxide = 3.6 + 2.4 = **6.0 g**."
+  },
+  {
+    "id": "s9.chem.reactions.q015",
+    "type": "match",
+    "difficulty": 3,
+    "prompt": "Match each example to the type of reaction.",
+    "pairs": [
+      { "left": { "id": "car", "text": "Petrol burning in a car engine" }, "right": { "id": "comb", "text": "Combustion" } },
+      { "left": { "id": "gate", "text": "An iron gate slowly turning orange-brown" }, "right": { "id": "rust", "text": "Rusting" } },
+      { "left": { "id": "leaf", "text": "Leaves making glucose in sunlight" }, "right": { "id": "photo", "text": "Photosynthesis" } },
+      { "left": { "id": "cell", "text": "Your muscle cells releasing energy from glucose" }, "right": { "id": "resp", "text": "Respiration" } },
+      { "left": { "id": "bread", "text": "Yeast making bubbles of gas that make bread dough rise" }, "right": { "id": "ferm", "text": "Fermentation" } }
+    ],
+    "hints": ["Rusting is slow oxidation; combustion is fast oxidation with a flame."],
+    "solution": "Petrol burning: combustion. Iron turning orange-brown: rusting. Leaves making glucose: photosynthesis. Cells releasing energy: respiration. Yeast making gas: fermentation."
+  },
+  {
+    "id": "s9.chem.reactions.q016",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why burning wood is a **chemical** change, but melting ice is a **physical** change.",
+    "modelAnswer": "Burning wood makes new substances, such as ash, carbon dioxide and water vapour, and you can't turn them back into wood, so it is a chemical change. Melting ice doesn't make a new substance. The liquid is still water, and it can be frozen back into ice, so it is a physical change.",
+    "rubric": [
+      { "criterion": "Burning wood makes new substances (e.g. ash, carbon dioxide, water vapour) and can't easily be reversed", "marks": 1 },
+      { "criterion": "Melting ice makes no new substance (it is still water) and can be reversed by freezing", "marks": 1 }
+    ],
+    "hints": ["In each case, ask: is a new substance made?"],
+    "solution": "Chemical change: new substances (ash, carbon dioxide, water vapour), hard to reverse. Physical change: still water, easily refrozen."
+  },
+  {
+    "id": "s9.chem.reactions.q017",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A Bunsen burner with its air hole **closed** burns with a yellow, sooty flame. Why?",
+    "options": [
+      { "id": "a", "text": "There isn't enough oxygen, so the gas burns incompletely and makes soot (carbon)" },
+      { "id": "b", "text": "The flame is hotter, which makes it glow yellow" },
+      { "id": "c", "text": "Closing the air hole lets in extra oxygen" },
+      { "id": "d", "text": "Yellow flames happen when the gas has burnt completely" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The yellow safety flame is actually cooler than the blue flame.",
+      "c": "Closing the air hole lets in less air, so there is less oxygen.",
+      "d": "Complete combustion gives the blue flame you get with the air hole open."
+    },
+    "hints": ["What comes in through the air hole?"],
+    "solution": "With the air hole closed, little oxygen mixes with the gas, so it burns **incompletely**. Tiny glowing soot particles make the flame yellow and leave black soot on things. Incomplete combustion can also make poisonous carbon monoxide."
+  },
+  {
+    "id": "s9.chem.reactions.q018",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Which of these would help stop a steel gate from rusting? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Painting it" },
+      { "id": "b", "text": "Coating it with oil or grease" },
+      { "id": "c", "text": "Galvanising it (coating it with zinc)" },
+      { "id": "d", "text": "Washing it regularly with salty sea water" },
+      { "id": "e", "text": "Keeping it wet" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Rusting needs oxygen and water. Which options keep them away from the iron?"],
+    "solution": "**Painting, oiling and galvanising** all put a barrier between the iron and the oxygen and water it needs to rust. Salt water and keeping it wet make rusting faster."
+  },
+  {
+    "id": "s9.chem.reactions.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A student sets up three test tubes, each with an iron nail inside.\n\n- **Tube A:** the nail is in tap water, open to the air.\n- **Tube B:** the nail is in water that has been boiled (to remove dissolved air), with a layer of oil on top.\n- **Tube C:** the nail is in dry air with a drying agent, and the tube is sealed with a stopper.\n\nAfter a week, only the nail in tube A has rusted. Explain these results.",
+    "modelAnswer": "Rusting needs both oxygen and water. In tube A the nail has water and oxygen (from the air and dissolved in the water), so it rusts. In tube B, boiling removed the dissolved oxygen, and the oil stops air getting back into the water, so there is water but no oxygen, and no rust forms. In tube C the drying agent removes water vapour from the air, so there is oxygen but no water, and no rust forms.",
+    "rubric": [
+      { "criterion": "Tube A rusts because both water and oxygen are present", "marks": 1 },
+      { "criterion": "Tube B doesn't rust because there is no oxygen (boiling removed it and the oil keeps air out)", "marks": 1 },
+      { "criterion": "Tube C doesn't rust because there is no water (the drying agent removes it)", "marks": 1 }
+    ],
+    "hints": ["For each tube, decide whether the nail has oxygen and whether it has water.", "What does the oil layer do? What does the drying agent do?"],
+    "solution": "A: water ✓, oxygen ✓, so it rusts. B: water ✓, oxygen ✗ (boiled out, and the oil keeps air out), so no rust. C: oxygen ✓, water ✗ (the drying agent removes it), so no rust. This shows rusting needs both."
+  },
+  {
+    "id": "s9.chem.reactions.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "When magnesium ribbon is burned in a crucible, the white powder left behind is **heavier** than the magnesium was at the start. Why?",
+    "options": [
+      { "id": "a", "text": "The magnesium has combined with oxygen from the air, and the oxygen adds mass" },
+      { "id": "b", "text": "Heating makes atoms heavier" },
+      { "id": "c", "text": "New atoms are created during the reaction" },
+      { "id": "d", "text": "The powder has soaked up water from the flame" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Heating makes particles move faster, but it doesn't change their mass.",
+      "c": "Atoms are never created or destroyed in a chemical reaction. They are only rearranged.",
+      "d": "The extra mass comes from a gas in the air that is a reactant."
+    },
+    "hints": ["Write the word equation. Which reactant came from the air?"],
+    "solution": "magnesium + oxygen → magnesium oxide. Oxygen atoms from the air join onto the magnesium, so the product is heavier than the magnesium alone. Mass is still conserved, because the extra mass came from the oxygen."
+  },
+  {
+    "id": "s9.chem.reactions.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Why is photosynthesis described as **endothermic**?",
+    "options": [
+      { "id": "a", "text": "It takes in energy from sunlight to make glucose" },
+      { "id": "b", "text": "It gives out heat that warms the leaf" },
+      { "id": "c", "text": "It only happens on cold days" },
+      { "id": "d", "text": "It is the same reaction as respiration" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Giving out heat would make it exothermic.",
+      "c": "Photosynthesis happens whenever there is light, whatever the weather.",
+      "d": "Photosynthesis is the reverse of respiration. Respiration gives out energy; photosynthesis takes it in."
+    },
+    "hints": ["What does a plant need to absorb for photosynthesis?"],
+    "solution": "Photosynthesis **takes in light energy** to make glucose from carbon dioxide and water, so it is endothermic. That energy is stored in the glucose and released later by respiration, which is exothermic."
+  },
+  {
+    "id": "s9.chem.reactions.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A student mixes a small amount of baking soda and vinegar in a flask on a balance. It fizzes as carbon dioxide gas is made.\n\n- **Experiment 1:** the flask is left open.\n- **Experiment 2:** the flask is sealed with a stopper.\n\nWhat happens to the balance readings?",
+    "options": [
+      { "id": "a", "text": "1: the mass goes down. 2: the mass stays the same." },
+      { "id": "b", "text": "Both stay the same." },
+      { "id": "c", "text": "1: the mass stays the same. 2: the mass goes up." },
+      { "id": "d", "text": "Both go down." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Mass is conserved overall, but in the open flask some of the products escape and are no longer on the balance.",
+      "c": "Sealing the flask can't add mass. It just stops anything from escaping.",
+      "d": "In the sealed flask the carbon dioxide can't escape, so all the mass stays on the balance."
+    },
+    "hints": ["Where does the carbon dioxide go in each experiment?"],
+    "solution": "In the open flask, carbon dioxide escapes into the air, so the reading **goes down**. In the sealed flask the gas is trapped, so the reading **stays the same**. Both show that mass is conserved: in the open flask, the 'missing' mass is in the air."
+  },
+  {
+    "id": "s9.chem.reactions.q023",
+    "type": "cloze",
+    "difficulty": 4,
+    "prompt": "Ethanol is a fuel made of carbon, hydrogen and oxygen. Complete the word equation for ethanol burning completely:\n\nethanol + [[a]] → [[b]] + water",
+    "blanks": [
+      { "id": "a", "accepted": ["oxygen"], "options": ["oxygen", "carbon dioxide", "hydrogen"] },
+      { "id": "b", "accepted": ["carbon dioxide"], "options": ["carbon dioxide", "carbon monoxide", "hydrogen"] }
+    ],
+    "hints": ["Every combustion reaction needs the same gas from the air.", "With plenty of oxygen, the carbon in a fuel ends up in which gas?"],
+    "solution": "ethanol + **oxygen** → **carbon dioxide** + water. Combustion always uses oxygen. When a fuel containing carbon and hydrogen burns completely, it makes carbon dioxide and water."
+  },
+  {
+    "id": "s9.chem.reactions.q024",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Burning sugar (glucose) and respiration have the same word equation:\n\nglucose + oxygen → carbon dioxide + water\n\nDescribe **one similarity** and **two differences** between these two reactions.",
+    "modelAnswer": "Similarity: both use the same reactants and make the same products, and both release (give out) energy, so both are exothermic. Differences: respiration happens inside living cells (mainly in the mitochondria), while burning happens in a flame. Respiration releases energy slowly, in small controlled steps, at body temperature, while burning releases energy quickly as heat and light at a very high temperature.",
+    "rubric": [
+      { "criterion": "Similarity: same reactants and products, or both release energy (both exothermic)", "marks": 1 },
+      { "criterion": "Difference: respiration happens in living cells (mitochondria), not in a flame", "marks": 1 },
+      { "criterion": "Difference: respiration releases energy slowly and in a controlled way at body temperature; burning releases it quickly as heat and light", "marks": 1 }
+    ],
+    "hints": ["Are both reactions exothermic?", "Think about where each happens, how fast, and at what temperature."],
+    "solution": "Similar: same equation, and both exothermic. Different: respiration is slow, controlled and happens in cells at body temperature; burning is fast, with a flame, heat and light at high temperature."
+  },
+  {
+    "id": "s9.chem.reactions.q025",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Burning wood is exothermic, but wood doesn't catch fire on its own: you need a match or a lighter to start it. Which statement best explains this?",
+    "options": [
+      { "id": "a", "text": "Some energy is needed to start the reaction, but once it starts it gives out more energy than it took in" },
+      { "id": "b", "text": "Burning wood is really endothermic, because heat had to be added" },
+      { "id": "c", "text": "The match supplies all of the energy that the fire gives out" },
+      { "id": "d", "text": "Wood only burns while a match is held against it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A fire gives out far more heat than the match put in, so overall it is exothermic.",
+      "c": "A small match can light a huge bonfire. The fire's energy comes from the reaction of the wood with oxygen.",
+      "d": "Once lit, the heat from the burning wood keeps the reaction going on its own."
+    },
+    "hints": ["Compare the energy from one match with the energy from a whole bonfire."],
+    "solution": "Many exothermic reactions need a small amount of energy to **get started**. Once the wood is burning, the reaction gives out much more heat than the match supplied, and that heat keeps the rest of the wood burning."
+  }
+]

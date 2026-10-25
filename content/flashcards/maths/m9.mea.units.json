@@ -1,0 +1,13 @@
+[
+  { "id": "m9.mea.units.f01", "front": "What do **kilo**, **mega**, **giga** and **tera** mean?", "back": "× 1000, × 1 000 000, × 1 000 000 000 and × 1 000 000 000 000 ($10^3$, $10^6$, $10^9$, $10^{12}$)." },
+  { "id": "m9.mea.units.f02", "front": "What do **centi**, **milli**, **micro** and **nano** mean?", "back": "÷ 100, ÷ 1000, ÷ 1 000 000 and ÷ 1 000 000 000 ($10^{-2}$, $10^{-3}$, $10^{-6}$, $10^{-9}$)." },
+  { "id": "m9.mea.units.f03", "front": "Length conversions: km, m, cm, mm", "back": "1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm (so 1 m = 1000 mm)." },
+  { "id": "m9.mea.units.f04", "front": "Mass and capacity conversions", "back": "1 t = 1000 kg, 1 kg = 1000 g, 1 g = 1000 mg; 1 L = 1000 mL, and 1 mL = 1 cm³." },
+  { "id": "m9.mea.units.f05", "front": "Converting to a smaller unit: multiply or divide?", "back": "**Multiply** (you need more of the smaller units). To a bigger unit, **divide**." },
+  { "id": "m9.mea.units.f06", "front": "How many cm² are in 1 m²?", "back": "10 000 cm², because a 1 m square is 100 cm × 100 cm." },
+  { "id": "m9.mea.units.f07", "front": "How do you change m/s into km/h, and back?", "back": "m/s → km/h: × 3.6. km/h → m/s: ÷ 3.6." },
+  { "id": "m9.mea.units.f08", "front": "What is 0.5 h, 0.25 h and 0.1 h in minutes?", "back": "30 min, 15 min and 6 min (multiply by 60)." },
+  { "id": "m9.mea.units.f09", "front": "**Precision** vs **accuracy**", "back": "Precision: how finely something is measured (e.g. to the nearest mm). Accuracy: how close it is to the true value." },
+  { "id": "m9.mea.units.f10", "front": "How precise should a calculated answer be?", "back": "No more precise than the least precise measurement used." },
+  { "id": "m9.mea.units.f11", "front": "What is a **derived unit**?", "back": "A unit built from other units, such as m² (m × m) or km/h (km ÷ h)." }
+]

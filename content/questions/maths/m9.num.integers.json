@@ -1,0 +1,193 @@
+[
+  {
+    "id": "m9.num.integers.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is an integer?",
+    "options": [
+      { "id": "a", "text": "$-7$" },
+      { "id": "b", "text": "$2.5$" },
+      { "id": "c", "text": "$\\frac{1}{2}$" },
+      { "id": "d", "text": "$-0.75$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "2.5 is between two whole numbers, so it is not an integer.",
+      "c": "A half is not a whole number, so it is not an integer.",
+      "d": "Negative numbers can be integers, but −0.75 is not a whole number."
+    },
+    "hints": ["Integers are whole numbers. They can be positive, negative or zero."],
+    "solution": "An **integer** is a whole number: positive, negative or zero. Only $-7$ is a whole number."
+  },
+  {
+    "id": "m9.num.integers.q002",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the calculations that equal $-6$.",
+    "options": [
+      { "id": "a", "text": "$-2 \\times 3$" },
+      { "id": "b", "text": "$(-12) \\div (-2)$" },
+      { "id": "c", "text": "$-10 - (-4)$" },
+      { "id": "d", "text": "$-3 - 3$" },
+      { "id": "e", "text": "$(-2) \\times (-3)$" },
+      { "id": "f", "text": "$4 + (-10)$" }
+    ],
+    "correct": ["a", "c", "d", "f"],
+    "hints": ["Work each one out separately.", "For × and ÷: same signs give a positive, different signs give a negative."],
+    "solution": "$-2 \\times 3 = -6$ ✓, $(-12) \\div (-2) = 6$ ✗, $-10 - (-4) = -10 + 4 = -6$ ✓, $-3 - 3 = -6$ ✓, $(-2) \\times (-3) = 6$ ✗, $4 + (-10) = 4 - 10 = -6$ ✓."
+  },
+  {
+    "id": "m9.num.integers.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says $-8 - (-3) = -11$. What is the correct answer?",
+    "options": [
+      { "id": "a", "text": "$-5$, because subtracting $-3$ is the same as adding 3" },
+      { "id": "b", "text": "$11$, because two negatives make a positive" },
+      { "id": "c", "text": "$-11$, because you add the two numbers together" },
+      { "id": "d", "text": "$5$, because the minus signs cancel out" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "'Two negatives make a positive' is a rule for multiplying and dividing. Here only the $-(-3)$ part becomes $+3$.",
+      "c": "This is Tama's mistake: he treated $-(-3)$ as $-3$.",
+      "d": "The $-8$ is still negative. Only the $-(-3)$ part changes to $+3$."
+    },
+    "hints": ["Rewrite $-(-3)$ first.", "Then start at $-8$ on a number line and move."],
+    "solution": "$-8 - (-3) = -8 + 3 = -5$. Tama subtracted 3 instead of adding 3."
+  },
+  {
+    "id": "m9.num.integers.q004",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put the steps in the correct order to work out $5 + 2 \\times (3 - 7)^2$.",
+    "items": [
+      { "id": "br", "text": "Bracket: $3 - 7 = -4$" },
+      { "id": "ex", "text": "Exponent: $(-4)^2 = 16$" },
+      { "id": "mu", "text": "Multiply: $2 \\times 16 = 32$" },
+      { "id": "ad", "text": "Add: $5 + 32 = 37$" }
+    ],
+    "hints": ["GEMA: Grouping, Exponents, Multiplication and division, Addition and subtraction."],
+    "solution": "Grouping first ($3 - 7 = -4$), then the exponent ($(-4)^2 = 16$), then multiply ($2 \\times 16 = 32$), then add ($5 + 32 = 37$)."
+  },
+  {
+    "id": "m9.num.integers.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is $24 \\div 4 \\times 2$?",
+    "options": [
+      { "id": "a", "text": "$12$" },
+      { "id": "b", "text": "$3$" },
+      { "id": "c", "text": "$48$" },
+      { "id": "d", "text": "$8$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This does the × first. Multiplication and division have equal priority, so work from left to right.",
+      "c": "This multiplies everything. The 4 is being divided, not multiplied.",
+      "d": "Check the order: work from left to right."
+    },
+    "hints": ["× and ÷ have the same priority.", "When they have the same priority, work from left to right."],
+    "solution": "Left to right: $24 \\div 4 = 6$, then $6 \\times 2 = 12$."
+  },
+  {
+    "id": "m9.num.integers.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which placement of brackets makes $12 - 4 \\times 2 + 1 = 17$ true?",
+    "options": [
+      { "id": "a", "text": "$(12 - 4) \\times 2 + 1$" },
+      { "id": "b", "text": "$12 - 4 \\times (2 + 1)$" },
+      { "id": "c", "text": "$12 - (4 \\times 2 + 1)$" },
+      { "id": "d", "text": "$(12 - 4 \\times 2) + 1$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$12 - 4 \\times 3 = 12 - 12 = 0$.",
+      "c": "$12 - (8 + 1) = 12 - 9 = 3$.",
+      "d": "These brackets don't change anything: $12 - 8 + 1 = 5$."
+    },
+    "hints": ["Work out each option using GEMA.", "Which one gives 17?"],
+    "solution": "$(12 - 4) \\times 2 + 1 = 8 \\times 2 + 1 = 16 + 1 = 17$ ✓. The other placements give 0, 3 and 5."
+  },
+  {
+    "id": "m9.num.integers.q007",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each power to its value.",
+    "pairs": [
+      { "left": { "id": "p1", "text": "$(-2)^2$" }, "right": { "id": "v1", "text": "$4$" } },
+      { "left": { "id": "p2", "text": "$-2^2$" }, "right": { "id": "v2", "text": "$-4$" } },
+      { "left": { "id": "p3", "text": "$(-2)^3$" }, "right": { "id": "v3", "text": "$-8$" } },
+      { "left": { "id": "p4", "text": "$(-1)^{10}$" }, "right": { "id": "v4", "text": "$1$" } }
+    ],
+    "hints": ["A bracket means the negative sign is part of what gets multiplied.", "Count the negatives: even means positive, odd means negative."],
+    "solution": "$(-2)^2 = 4$; $-2^2 = -(2^2) = -4$; $(-2)^3 = -8$ (three negatives); $(-1)^{10} = 1$ (ten negatives, an even number)."
+  },
+  {
+    "id": "m9.num.integers.q008",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for the number you multiply by to get 1? (For example, $\\frac{1}{5}$ for 5.)",
+    "accepted": ["reciprocal", "the reciprocal", "reciprocals", "multiplicative inverse"],
+    "hints": ["It is also what you get when you 'flip' a fraction."],
+    "solution": "It is the **reciprocal**. For example, $5 \\times \\frac{1}{5} = 1$ and $\\frac{2}{3} \\times \\frac{3}{2} = 1$."
+  },
+  {
+    "id": "m9.num.integers.q009",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Without working it out, is $(-3)^7$ positive or negative?",
+    "options": [
+      { "id": "a", "text": "Negative, because it has an odd number of negative factors" },
+      { "id": "b", "text": "Positive, because the exponent 7 is positive" },
+      { "id": "c", "text": "Positive, because a negative times a negative is positive" },
+      { "id": "d", "text": "Negative, because any power of a negative number is negative" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The sign of the exponent doesn't decide this. Think about $(-3) \\times (-3) \\times \\ldots$ seven times.",
+      "c": "That is true for each pair, but with seven factors one negative is left over.",
+      "d": "Right answer, wrong reason: $(-3)^2 = 9$ is a power of a negative number that is positive."
+    },
+    "hints": ["$(-3)^7$ means seven lots of $-3$ multiplied together.", "Pair up the negatives. Is there one left over?"],
+    "solution": "$(-3)^7 = (-3) \\times (-3) \\times \\cdots$ (7 factors). Each pair of negatives makes a positive, but 7 is odd, so one negative is left over. The answer is **negative** (it is $-2187$)."
+  },
+  {
+    "id": "m9.num.integers.q010",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere says that $(-5)^2$ and $-5^2$ both equal 25. Explain whether she is right.",
+    "modelAnswer": "She is only half right. $(-5)^2 = (-5) \\times (-5) = 25$, because the bracket means the whole of $-5$ is squared, and a negative times a negative is positive. But $-5^2$ means $-(5^2)$: exponents are done before the minus sign, so only the 5 is squared. That gives $-25$, not 25.",
+    "rubric": [
+      { "criterion": "States that $(-5)^2 = 25$ with a reason (the bracket means $-5$ is squared, or negative × negative = positive)", "marks": 1 },
+      { "criterion": "States that $-5^2 = -25$ because only the 5 is squared (exponents come before applying the minus sign)", "marks": 1 }
+    ],
+    "hints": ["Write each one out as a multiplication.", "What does the bracket change?"],
+    "solution": "$(-5)^2 = 25$ but $-5^2 = -25$, so Mere is wrong about $-5^2$."
+  },
+  {
+    "id": "m9.num.integers.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A submarine is at $-120$ m (120 m below sea level). It rises 45 m, then dives 30 m. What is its position now? Use a negative number for below sea level.",
+    "answer": -105,
+    "form": "integer",
+    "units": "m",
+    "hints": ["Rising makes the number bigger (closer to 0). Diving makes it smaller.", "Start at $-120$, add 45, then subtract 30."],
+    "solution": "$-120 + 45 = -75$, then $-75 - 30 = -105$. The submarine is at **−105 m**, which is 105 m below sea level."
+  }
+]

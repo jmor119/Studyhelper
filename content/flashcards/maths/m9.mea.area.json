@@ -1,0 +1,12 @@
+[
+  { "id": "m9.mea.area.f01", "front": "What is **area**?", "back": "The amount of flat surface a shape covers, measured in square units such as cm² or m²." },
+  { "id": "m9.mea.area.f02", "front": "Area of a rectangle", "back": "$A = l \\times w$" },
+  { "id": "m9.mea.area.f03", "front": "Area of a triangle", "back": "$A = \\frac{1}{2} \\times b \\times h$ (half of the rectangle around it)." },
+  { "id": "m9.mea.area.f04", "front": "Area of a parallelogram", "back": "$A = b \\times h$, using the perpendicular height, not the slanted side." },
+  { "id": "m9.mea.area.f05", "front": "Area of a trapezium", "back": "$A = \\frac{1}{2}(a + b) \\times h$, where $a$ and $b$ are the parallel sides." },
+  { "id": "m9.mea.area.f06", "front": "Area of a kite", "back": "$A = \\frac{1}{2} \\times d_1 \\times d_2$, where $d_1$ and $d_2$ are the diagonals." },
+  { "id": "m9.mea.area.f07", "front": "What is the **perpendicular height**?", "back": "The distance from the base to the opposite corner, measured at right angles to the base." },
+  { "id": "m9.mea.area.f08", "front": "What is a **trapezium**?", "back": "A quadrilateral with exactly one pair of parallel sides." },
+  { "id": "m9.mea.area.f09", "front": "What is a **kite**?", "back": "A quadrilateral with two pairs of equal sides next to each other. Its diagonals cross at right angles." },
+  { "id": "m9.mea.area.f10", "front": "Two ways to find the area of a composite shape", "back": "Split it into simple shapes and **add**, or find a bigger shape and **subtract** the missing part." }
+]

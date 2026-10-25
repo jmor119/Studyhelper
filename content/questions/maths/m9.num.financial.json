@@ -1,0 +1,202 @@
+[
+  {
+    "id": "m9.num.financial.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "gst", "text": "GST" }, "right": { "id": "m1", "text": "A 15% tax added to most goods and services in New Zealand" } },
+      { "left": { "id": "disc", "text": "Discount" }, "right": { "id": "m2", "text": "An amount taken off a price" } },
+      { "left": { "id": "mark", "text": "Mark-up" }, "right": { "id": "m3", "text": "An amount added to the cost price to get the selling price" } },
+      { "left": { "id": "prin", "text": "Principal" }, "right": { "id": "m4", "text": "The amount of money invested or borrowed" } },
+      { "left": { "id": "rate", "text": "Interest rate" }, "right": { "id": "m5", "text": "The percentage of the principal paid as interest each year" } },
+      { "left": { "id": "si", "text": "Simple interest" }, "right": { "id": "m6", "text": "Interest that is the same amount every year, $I = Prt$" } }
+    ],
+    "hints": ["A shop adds a mark-up; a sale takes off a discount."],
+    "solution": "GST: the 15% tax. Discount: taken off a price. Mark-up: added to the cost price. Principal: the amount invested or borrowed. Interest rate: percentage per year. Simple interest: the same interest every year, $I = Prt$."
+  },
+  {
+    "id": "m9.num.financial.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "In a simple interest question, what is the **principal**?",
+    "options": [
+      { "id": "a", "text": "The amount of money invested or borrowed" },
+      { "id": "b", "text": "The interest earned" },
+      { "id": "c", "text": "The interest rate" },
+      { "id": "d", "text": "The total amount at the end" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The interest is $I$ in $I = Prt$.",
+      "c": "The interest rate is $r$ in $I = Prt$.",
+      "d": "The total at the end is the principal plus the interest."
+    },
+    "hints": ["$P$ in $I = Prt$ stands for principal."],
+    "solution": "The **principal** is the amount of money you start with: the amount invested or borrowed."
+  },
+  {
+    "id": "m9.num.financial.q003",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "In New Zealand, GST is [[a]]%. To add GST to a price, multiply by [[b]]. To remove GST from a GST-inclusive price, divide by [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["15"] },
+      { "id": "b", "accepted": ["1.15"] },
+      { "id": "c", "accepted": ["1.15"] }
+    ],
+    "hints": ["A price including GST is 115% of the price without GST."],
+    "solution": "GST is **15%**. Adding GST makes the price 115%, so multiply by **1.15**. To remove it, undo that by dividing by **1.15**."
+  },
+  {
+    "id": "m9.num.financial.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "An item costs \\$40 before GST. Which calculation gives its price including GST?",
+    "options": [
+      { "id": "a", "text": "$40 \\times 1.15$" },
+      { "id": "b", "text": "$40 \\times 0.15$" },
+      { "id": "c", "text": "$40 + 1.15$" },
+      { "id": "d", "text": "$40 \\div 1.15$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This gives the GST only (\\$6), not the price including GST.",
+      "c": "1.15 is a multiplier, so you multiply by it rather than adding it.",
+      "d": "Dividing by 1.15 removes GST. Here you need to add it."
+    },
+    "hints": ["The price including GST is 115% of the price before GST."],
+    "solution": "$40 \\times 1.15 = 46$, so it costs \\$46 including GST (\\$40 plus \\$6 GST)."
+  },
+  {
+    "id": "m9.num.financial.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "Ruby's normal pay is \\$24 per hour. What is her pay rate for overtime at time-and-a-half?",
+    "options": [
+      { "id": "a", "text": "\\$36 per hour" },
+      { "id": "b", "text": "\\$24.50 per hour" },
+      { "id": "c", "text": "\\$48 per hour" },
+      { "id": "d", "text": "\\$12 per hour" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Time-and-a-half means 1.5 times the rate, not 50 cents more.",
+      "c": "That is double time (2 times the rate).",
+      "d": "That is half the rate. Time-and-a-half is the normal rate plus half of it again."
+    },
+    "hints": ["Time-and-a-half means 1.5 times the normal rate."],
+    "solution": "$24 \\times 1.5 = 36$, so overtime pays \\$36 per hour. (That's \\$24 plus half of \\$24.)"
+  },
+  {
+    "id": "m9.num.financial.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A TV costs \\$1150 including GST. Ana works out the GST as 15% of \\$1150, which is \\$172.50. What is the correct amount of GST?",
+    "options": [
+      { "id": "a", "text": "\\$150" },
+      { "id": "b", "text": "\\$172.50" },
+      { "id": "c", "text": "\\$1000" },
+      { "id": "d", "text": "\\$977.50" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is Ana's mistake. The 15% was worked out on the price before GST, not on \\$1150.",
+      "c": "\\$1000 is the price before GST. The question asks for the GST.",
+      "d": "This is \\$1150 with 15% taken off, which isn't the price before GST or the GST."
+    },
+    "hints": ["First find the price before GST: divide by 1.15.", "The GST is the difference."],
+    "solution": "Price before GST: $1150 \\div 1.15 = 1000$. GST: $1150 - 1000 = 150$, so the GST is **\\$150**. (Check: 15% of \\$1000 is \\$150 ✓)"
+  },
+  {
+    "id": "m9.num.financial.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "An investment earns \\$60 of simple interest each year. How much interest does it earn in 5 years?",
+    "options": [
+      { "id": "a", "text": "\\$300" },
+      { "id": "b", "text": "\\$60" },
+      { "id": "c", "text": "\\$65" },
+      { "id": "d", "text": "More than \\$300, because the interest grows each year" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\\$60 is earned *each* year, so it adds up over 5 years.",
+      "c": "This adds 5 instead of multiplying by 5.",
+      "d": "That describes compound interest. Simple interest is the same amount every year."
+    },
+    "hints": ["With simple interest, the interest is the same every year."],
+    "solution": "Simple interest is the same each year: $60 \\times 5 = 300$, so \\$300."
+  },
+  {
+    "id": "m9.num.financial.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "m9.num.financial.receipt",
+    "part": "a",
+    "stem": "Mere buys a cricket bat for \\$89.70 and a cricket ball for \\$17.25. Both prices include GST at 15%.",
+    "calculator": "allowed",
+    "prompt": "What is the total cost?",
+    "answer": 106.95,
+    "units": "$",
+    "hints": ["Add the two prices."],
+    "solution": "$89.70 + 17.25 = 106.95$, so the total is \\$106.95."
+  },
+  {
+    "id": "m9.num.financial.q009",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.num.financial.receipt",
+    "part": "b",
+    "stem": "Mere buys a cricket bat for \\$89.70 and a cricket ball for \\$17.25. Both prices include GST at 15%.",
+    "calculator": "allowed",
+    "prompt": "How much of the total cost is GST?",
+    "answer": 13.95,
+    "units": "$",
+    "hints": ["Find the total price before GST by dividing by 1.15.", "The GST is the difference between the two totals."],
+    "solution": "Total before GST: $106.95 \\div 1.15 = 93$.\n\nGST: $106.95 - 93 = 13.95$, so the GST is **\\$13.95**.\n\n(Check: 15% of \\$93 is \\$13.95 ✓)"
+  },
+  {
+    "id": "m9.num.financial.q010",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A shop marks up a \\$50 item by 40%. Later it offers 40% off the new price. What is the sale price?",
+    "options": [
+      { "id": "a", "text": "\\$42" },
+      { "id": "b", "text": "\\$50" },
+      { "id": "c", "text": "\\$30" },
+      { "id": "d", "text": "\\$58" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The 40% discount is 40% of a bigger amount (\\$70), so it takes off more than the mark-up added.",
+      "c": "This takes 40% off the original \\$50, but the discount is on the marked-up price.",
+      "d": "Check the order: mark up first, then take the discount off."
+    },
+    "hints": ["Mark-up: $50 \\times 1.4$.", "Then take 40% off that price: × 0.6."],
+    "solution": "Marked-up price: $50 \\times 1.4 = 70$. Sale price: $70 \\times 0.6 = 42$. So the sale price is **\\$42**, less than the original \\$50."
+  },
+  {
+    "id": "m9.num.financial.q011",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A shop offers two deals on a \\$140 jacket: **25% off**, or **\\$30 off**. Which deal is better? Explain your answer.",
+    "modelAnswer": "25% of \\$140 is $0.25 \\times 140 = 35$, so 25% off saves \\$35 and the jacket costs \\$105. \\$30 off makes it cost \\$110. 25% off is the better deal because it saves \\$5 more.",
+    "rubric": [
+      { "criterion": "Works out 25% of \\$140 = \\$35 (or the sale price \\$105)", "marks": 1 },
+      { "criterion": "Compares with the \\$30 off deal (\\$110)", "marks": 1 },
+      { "criterion": "Concludes that 25% off is better, with a reason", "marks": 1 }
+    ],
+    "hints": ["Work out how much 25% of \\$140 is.", "Compare the two savings (or the two final prices)."],
+    "solution": "25% off saves \\$35, but the other deal saves only \\$30, so **25% off** is better."
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "s9.earth.systems.q001",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each of Earth's spheres to what it includes.",
+    "pairs": [
+      { "left": { "id": "atmo", "text": "Atmosphere" }, "right": { "id": "gases", "text": "The layer of gases around the Earth" } },
+      { "left": { "id": "hydro", "text": "Hydrosphere" }, "right": { "id": "water", "text": "All of Earth's water, including oceans, rivers and ice" } },
+      { "left": { "id": "geo", "text": "Geosphere" }, "right": { "id": "rock", "text": "The rocks, soil and inside of the Earth" } },
+      { "left": { "id": "bio", "text": "Biosphere" }, "right": { "id": "life", "text": "All living things" } }
+    ],
+    "hints": ["*Hydro* means water, *geo* means earth and *bio* means life."],
+    "solution": "Atmosphere: gases. Hydrosphere: water. Geosphere: rocks, soil and Earth's interior. Biosphere: living things."
+  },
+  {
+    "id": "s9.earth.systems.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which gas makes up most of Earth's atmosphere?",
+    "options": [
+      { "id": "a", "text": "Nitrogen" },
+      { "id": "b", "text": "Oxygen" },
+      { "id": "c", "text": "Carbon dioxide" },
+      { "id": "d", "text": "Water vapour" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Oxygen is only about 21% of the air.",
+      "c": "Carbon dioxide is only about 0.04% of the air, a tiny fraction, even though it has a big effect on climate.",
+      "d": "Water vapour varies from place to place, but it's always a small part of the air."
+    },
+    "hints": ["It's not the gas we need to breathe."],
+    "solution": "About 78% of the air is **nitrogen**. Oxygen is about 21%, and argon, carbon dioxide and other gases make up the last 1% or so."
+  },
+  {
+    "id": "s9.earth.systems.q003",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "In the water cycle, what is the name of the process where water vapour cools and turns into tiny droplets of water that form clouds?",
+    "accepted": ["condensation", "condensing", "condense"],
+    "hints": ["It's the opposite of evaporation."],
+    "solution": "**Condensation.** As moist air rises, it cools, and the water vapour condenses into tiny droplets that make up clouds."
+  },
+  {
+    "id": "s9.earth.systems.q004",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What provides the energy that evaporates water from the oceans in the water cycle?",
+    "accepted": ["the sun", "sun", "sunlight", "solar energy", "heat from the sun", "energy from the sun", "the sun's energy", "suns energy", "sun's heat"],
+    "hints": ["It's the main source of energy for almost everything on Earth's surface."],
+    "solution": "**The Sun.** Its energy heats the oceans so water evaporates. (Gravity then brings the rain back down and makes rivers flow.)"
+  },
+  {
+    "id": "s9.earth.systems.q005",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "Put these stages of the water cycle in order, starting with water in the sea.",
+    "items": [
+      { "id": "evap", "text": "The Sun heats the sea and water evaporates" },
+      { "id": "rise", "text": "The water vapour rises and cools" },
+      { "id": "cloud", "text": "The water vapour condenses to form clouds" },
+      { "id": "rain", "text": "Rain or snow falls (precipitation)" },
+      { "id": "river", "text": "Water flows into rivers and back to the sea" }
+    ],
+    "hints": ["Water must become a gas before it can rise into the sky."],
+    "solution": "Evaporation → the vapour rises and cools → condensation (clouds) → precipitation → collection (rivers back to the sea)."
+  },
+  {
+    "id": "s9.earth.systems.q006",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Which processes **add** carbon dioxide to the atmosphere? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Respiration by animals and plants" },
+      { "id": "b", "text": "Burning fossil fuels" },
+      { "id": "c", "text": "Photosynthesis" },
+      { "id": "d", "text": "Volcanic eruptions" },
+      { "id": "e", "text": "Decomposition by bacteria and fungi" },
+      { "id": "f", "text": "Carbon dioxide dissolving in the ocean" }
+    ],
+    "correct": ["a", "b", "d", "e"],
+    "hints": ["Two of the options take carbon dioxide out of the air."],
+    "solution": "**Respiration, burning fossil fuels, volcanic eruptions and decomposition** all release CO₂. Photosynthesis and CO₂ dissolving in the ocean remove CO₂ from the air."
+  },
+  {
+    "id": "s9.earth.systems.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Plants remove carbon dioxide from the air by [[a]]. Animals return carbon dioxide to the air by [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["photosynthesis"], "options": ["photosynthesis", "respiration", "combustion"] },
+      { "id": "b", "accepted": ["respiration"], "options": ["photosynthesis", "respiration", "condensation"] }
+    ],
+    "hints": ["Plants make glucose from carbon dioxide and water using light."],
+    "solution": "Plants take in CO₂ by **photosynthesis**. Animals (and plants) give out CO₂ by **respiration**."
+  },
+  {
+    "id": "s9.earth.systems.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Most of the water vapour in the air evaporated from the salty sea. Why is rain fresh, not salty?",
+    "options": [
+      { "id": "a", "text": "When water evaporates, the salt is left behind" },
+      { "id": "b", "text": "Clouds filter the salt out of the water" },
+      { "id": "c", "text": "The salt turns into a gas and floats away" },
+      { "id": "d", "text": "Rain only falls over land, not over the sea" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Clouds don't filter anything. The salt never left the sea in the first place.",
+      "c": "Salt doesn't evaporate at normal temperatures, which is why it is left behind.",
+      "d": "Plenty of rain falls over the sea."
+    },
+    "hints": ["Think about what is left behind when a puddle of salt water dries up."],
+    "solution": "Only the **water evaporates**. The salt stays in the sea, so the water vapour, and the rain it forms, is fresh. This natural 'distillation' is why the water cycle gives us clean water."
+  },
+  {
+    "id": "s9.earth.systems.q009",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What word describes the average pattern of weather in a place over a long time (usually 30 years or more)?",
+    "accepted": ["climate", "the climate"],
+    "hints": ["Weather is day to day. This word is for the long-term pattern."],
+    "solution": "**Climate.** Weather is what happens on a particular day; climate is the long-term average pattern."
+  },
+  {
+    "id": "s9.earth.systems.q010",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name for how far north or south of the equator a place is, measured in degrees?",
+    "accepted": ["latitude", "latitudes"],
+    "hints": ["The equator is 0° and the poles are 90°."],
+    "solution": "**Latitude.** New Zealand lies between about 34° S and 47° S."
+  },
+  {
+    "id": "s9.earth.systems.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "On a sunny afternoon at the beach, a cool breeze blows from the sea onto the land. Why?",
+    "options": [
+      { "id": "a", "text": "The land heats up faster; warm air over the land rises and cooler air from the sea moves in" },
+      { "id": "b", "text": "The sea heats up faster, so warm air blows off the sea" },
+      { "id": "c", "text": "Cold air is always attracted to warm sand" },
+      { "id": "d", "text": "The tide pushes the air onto the land" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Water heats up more slowly than land, so on a sunny day the land is warmer.",
+      "c": "Air moves because of differences in density, not attraction.",
+      "d": "Tides move water, not the wind."
+    },
+    "hints": ["Which heats up faster in the sun: land or water?", "Warm air is less dense, so it rises."],
+    "solution": "The land heats up faster than the sea. Air above the land warms, becomes less dense and **rises**. Cooler, denser air from over the sea flows in to replace it. This is a convection current, called a **sea breeze**."
+  },
+  {
+    "id": "s9.earth.systems.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Warm water is less [[a]] than cold water, so it rises, while cold water sinks. This circulating movement is called a [[b]] current.",
+    "blanks": [
+      { "id": "a", "accepted": ["dense"] },
+      { "id": "b", "accepted": ["convection"], "options": ["convection", "conduction", "radiation"] }
+    ],
+    "hints": ["Heating makes particles spread out, so the same mass takes up more space.", "The same kind of current happens in air and in the mantle."],
+    "solution": "Warm water is less **dense**, so it rises; cold, denser water sinks. The circulating flow is a **convection** current."
+  },
+  {
+    "id": "s9.earth.systems.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Alexandra in Central Otago and Dunedin on the coast are at almost the same latitude. Alexandra has hotter summers and colder winters than Dunedin. What is the best explanation?",
+    "options": [
+      { "id": "a", "text": "The sea heats up and cools down slowly, so it keeps coastal temperatures more even" },
+      { "id": "b", "text": "Dunedin is much closer to the equator" },
+      { "id": "c", "text": "Alexandra is higher up, so it is closer to the Sun" },
+      { "id": "d", "text": "Ocean currents only flow in winter" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "They are at almost the same latitude, so the angle of sunlight is nearly the same.",
+      "c": "Being a little higher up makes no real difference to the distance from the Sun, and higher places are usually cooler, not hotter.",
+      "d": "Ocean currents flow all year round."
+    },
+    "hints": ["What is different about where the two towns are?", "Water heats up and cools down much more slowly than land."],
+    "solution": "Dunedin is beside the sea, which warms and cools **slowly**, so it stops coastal places getting very hot or very cold. Alexandra is far inland, so its temperature swings much more between summer and winter."
+  },
+  {
+    "id": "s9.earth.systems.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Dry air is about 78% nitrogen and about 21% oxygen. About what percentage is made up of all the other gases together (argon, carbon dioxide and others)?",
+    "answer": 1,
+    "units": "%",
+    "hints": ["All the parts together must add up to 100%."],
+    "solution": "$100 - 78 - 21 = 1$, so about **1%**. Most of this is argon. Carbon dioxide is only about 0.04%."
+  },
+  {
+    "id": "s9.earth.systems.q015",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the places where large amounts of carbon are stored.",
+    "options": [
+      { "id": "a", "text": "Forests" },
+      { "id": "b", "text": "The oceans" },
+      { "id": "c", "text": "Fossil fuels such as coal" },
+      { "id": "d", "text": "Limestone rock" },
+      { "id": "e", "text": "Argon in the air" },
+      { "id": "f", "text": "Pure fresh water" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Carbon stores can be living, dissolved or locked in rock.", "Does argon or pure water contain any carbon atoms?"],
+    "solution": "**Forests** (in wood and leaves), **the oceans** (dissolved CO₂), **fossil fuels** and **limestone** (calcium carbonate) all store carbon. Argon and pure water contain no carbon."
+  },
+  {
+    "id": "s9.earth.systems.q016",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain how burning fossil fuels changes the carbon cycle.",
+    "modelAnswer": "Fossil fuels contain carbon that was locked away underground for millions of years. Burning them releases that carbon into the atmosphere as carbon dioxide very quickly, faster than photosynthesis and the oceans can remove it. So the amount of carbon dioxide in the air keeps increasing, which strengthens the greenhouse effect and causes global warming.",
+    "rubric": [
+      { "criterion": "Burning releases carbon that was stored underground for millions of years into the air as carbon dioxide", "marks": 1 },
+      { "criterion": "It is released faster than it can be removed, so CO₂ in the atmosphere increases (leading to global warming)", "marks": 1 }
+    ],
+    "hints": ["Where was the carbon before, and where does it go?", "Can photosynthesis keep up?"],
+    "solution": "Carbon stored for millions of years in the geosphere is moved quickly into the atmosphere as CO₂, faster than plants and oceans can take it back up, so atmospheric CO₂ rises and warms the planet."
+  },
+  {
+    "id": "s9.earth.systems.q017",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "How do greenhouse gases such as carbon dioxide keep Earth warm?",
+    "options": [
+      { "id": "a", "text": "They absorb heat given off by Earth's surface and send some of it back down" },
+      { "id": "b", "text": "They make a hole in the atmosphere that lets more sunlight in" },
+      { "id": "c", "text": "They reflect all sunlight back into space" },
+      { "id": "d", "text": "They produce their own heat" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That mixes up the greenhouse effect with the ozone hole, which is a different problem.",
+      "c": "Reflecting sunlight away would cool the Earth, not warm it.",
+      "d": "Greenhouse gases don't make heat. They trap heat that comes from the Sun-warmed ground."
+    },
+    "hints": ["The Sun warms the ground, and the ground gives off heat (infrared radiation)."],
+    "solution": "Sunlight warms Earth's surface, which then gives off heat as infrared radiation. Greenhouse gases **absorb this heat and send some back towards the ground**, so less escapes to space. More greenhouse gas means more heat is trapped."
+  },
+  {
+    "id": "s9.earth.systems.q018",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Which actions help to keep New Zealand's rivers and streams clean? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Planting trees and shrubs along riverbanks" },
+      { "id": "b", "text": "Fencing cattle out of streams" },
+      { "id": "c", "text": "Reducing the fertiliser that washes off farms into waterways" },
+      { "id": "d", "text": "Draining wetlands to make more farmland" },
+      { "id": "e", "text": "Washing paintbrushes over a stormwater drain" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Wetlands and plants filter water as it moves through them.", "Stormwater drains often flow straight into streams and the sea."],
+    "solution": "**Riverbank planting, fencing out stock and reducing fertiliser run-off** all reduce the soil, animal waste and nutrients reaching waterways. Wetlands act as natural filters, so draining them makes water quality worse, and stormwater drains carry paint straight to streams and the sea."
+  },
+  {
+    "id": "s9.earth.systems.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Kaitaia is at about 35° S and Invercargill is at about 46° S. Use the idea of the **angle of sunlight** to explain why Kaitaia is generally warmer than Invercargill.",
+    "modelAnswer": "Earth is a sphere, so sunlight hits different latitudes at different angles. Kaitaia is closer to the equator, so the Sun is higher in its sky and the rays strike the ground more directly. The energy is concentrated on a smaller area, so the ground heats up more. Invercargill is further from the equator, so sunlight arrives at a lower angle. The same energy is spread over a larger area (and passes through more atmosphere), so each square metre gets less heat.",
+    "rubric": [
+      { "criterion": "Earth is curved (a sphere), so sunlight strikes different latitudes at different angles", "marks": 1 },
+      { "criterion": "Kaitaia (closer to the equator): sunlight is more direct and concentrated on a smaller area", "marks": 1 },
+      { "criterion": "Invercargill: sunlight arrives at a lower angle and is spread over a larger area (or through more atmosphere), so less heating per square metre", "marks": 1 }
+    ],
+    "hints": ["Which town is closer to the equator?", "Think of a torch beam shining straight down compared with one shining at a slant."],
+    "solution": "Because Earth is curved, sunlight is more direct at Kaitaia, so its energy is concentrated on a smaller area. At Invercargill the sunlight comes in at a lower angle, so it is spread over a bigger area, and the ground heats up less."
+  },
+  {
+    "id": "s9.earth.systems.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A warm ocean current flows from the tropics along a coastline. How does it affect the climate of the land beside it in winter?",
+    "options": [
+      { "id": "a", "text": "It keeps the coast milder, because the warm water gives heat to the air above it" },
+      { "id": "b", "text": "It makes the coast colder, because moving water always cools the land" },
+      { "id": "c", "text": "It has no effect, because ocean currents only affect the sea" },
+      { "id": "d", "text": "It makes the coast snowier, because warm water makes more snow" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A current's effect depends on its temperature. A warm current brings heat; a cold current cools.",
+      "c": "Air above the sea is warmed or cooled by the water, and winds carry that air over the land.",
+      "d": "Warm water warms the air, which makes snow less likely, not more."
+    },
+    "hints": ["The current is carrying heat from the tropics."],
+    "solution": "Warm currents carry heat from the tropics. The warm water heats the air above it, and that air keeps the nearby coast **milder** in winter than it would otherwise be."
+  },
+  {
+    "id": "s9.earth.systems.q021",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Which example shows the **biosphere** affecting the **atmosphere**?",
+    "options": [
+      { "id": "a", "text": "A forest taking in carbon dioxide for photosynthesis" },
+      { "id": "b", "text": "Rain wearing away a rock" },
+      { "id": "c", "text": "A volcano releasing gases" },
+      { "id": "d", "text": "Waves eroding a cliff" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That's the hydrosphere (rain) affecting the geosphere (rock).",
+      "c": "That's the geosphere (volcano) affecting the atmosphere.",
+      "d": "That's the hydrosphere (waves) affecting the geosphere (cliff)."
+    },
+    "hints": ["The biosphere is living things. Which option involves something alive?"],
+    "solution": "A forest is part of the **biosphere** (living things). By taking carbon dioxide out of the air, it changes the **atmosphere**."
+  },
+  {
+    "id": "s9.earth.systems.q022",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "Scientists have measured carbon dioxide in the air at Mauna Loa in Hawaiʻi since 1958. The level was about 315 ppm (parts per million) in 1958 and about 425 ppm in 2024. By how much did it rise?",
+    "answer": 110,
+    "units": "ppm",
+    "hints": ["Subtract the earlier level from the later level."],
+    "solution": "$425 - 315 = 110$ ppm. That's an increase of about a third in less than 70 years, mainly from burning fossil fuels and clearing forests."
+  },
+  {
+    "id": "s9.earth.systems.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 4,
+    "prompt": "Ocean currents carry heat around the planet. Explain how **surface** currents and **deep** currents work together to move heat from the tropics towards the poles.",
+    "modelAnswer": "Surface currents, driven mainly by the wind, carry warm water from the tropics towards the poles. As this water travels, it gives heat to the air above it, warming the coasts it passes. Near the poles the water has cooled down, and it becomes saltier when sea ice forms, so it becomes denser and sinks. Deep currents then carry this cold, dense water slowly along the ocean floor back towards the equator, where it eventually rises to the surface and warms up again. Together they form a loop that keeps moving heat from the tropics to the poles.",
+    "rubric": [
+      { "criterion": "Surface currents (driven by winds) carry warm water from the tropics towards the poles", "marks": 1 },
+      { "criterion": "The warm water gives heat to the air, warming places it passes", "marks": 1 },
+      { "criterion": "Near the poles the water becomes cold (and salty), so it is denser and sinks", "marks": 1 },
+      { "criterion": "Deep currents carry cold water back towards the equator, where it rises, completing a loop", "marks": 1 }
+    ],
+    "hints": ["What drives surface currents? What drives deep currents?", "Why does water sink near the poles?"],
+    "solution": "Warm surface water flows towards the poles and loses heat to the air. Near the poles, cold, salty, dense water sinks and flows back towards the equator along the sea floor, where it rises again. The result is a continuous loop, like a conveyor belt for heat."
+  },
+  {
+    "id": "s9.earth.systems.q024",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Snow and ice reflect most of the sunlight that hits them, while dark ocean water absorbs most of it. Why might melting sea ice in the Arctic make the warming there speed up?",
+    "options": [
+      { "id": "a", "text": "Less ice means more dark water absorbing sunlight, which warms the sea and melts even more ice" },
+      { "id": "b", "text": "Melting ice gives out heat into the air" },
+      { "id": "c", "text": "Melting ice raises the sea level, which brings the sea closer to the Sun" },
+      { "id": "d", "text": "Ice is made of carbon dioxide, which escapes when it melts" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Melting takes in heat energy; it doesn't give it out.",
+      "c": "A small rise in sea level makes no difference to the distance from the Sun.",
+      "d": "Sea ice is frozen water, not carbon dioxide."
+    },
+    "hints": ["Compare what happens to sunlight hitting white ice and sunlight hitting dark water."],
+    "solution": "When ice melts, dark water replaces the shiny white surface. The water **absorbs** sunlight that the ice would have reflected, so the sea warms up and **even more ice melts**. A change that makes itself bigger like this is called a feedback loop."
+  }
+]

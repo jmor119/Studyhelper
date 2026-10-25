@@ -1,0 +1,142 @@
+[
+  {
+    "id": "m9.mea.area.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which unit could be used for the **area** of a netball court?",
+    "options": [
+      { "id": "a", "text": "m²" },
+      { "id": "b", "text": "m" },
+      { "id": "c", "text": "m³" },
+      { "id": "d", "text": "km/h" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Metres measure length, such as the perimeter of the court.",
+      "c": "Cubic metres measure volume (space in 3D).",
+      "d": "km/h is a unit of speed."
+    },
+    "hints": ["Area is measured by counting squares."],
+    "solution": "Area is measured in **square** units, such as **m²**."
+  },
+  {
+    "id": "m9.mea.area.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of a quadrilateral that has **exactly one** pair of parallel sides?",
+    "accepted": ["trapezium", "a trapezium", "trapeziums", "trapezoid"],
+    "hints": ["Its area formula is $\\frac{1}{2}(a + b)h$."],
+    "solution": "A **trapezium**. (In the USA it is called a trapezoid.)"
+  },
+  {
+    "id": "m9.mea.area.q003",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which calculation gives the area of this triangle?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 242\" width=\"310\" height=\"242\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"40,190 278,190 142,54\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"142\" y1=\"54\" x2=\"142\" y2=\"190\" stroke=\"#2563eb\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><polyline points=\"152,190 152,180 142,180\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"159\" y=\"206.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">14 cm</text><text x=\"66.84\" y=\"103.88\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">10 cm</text><text x=\"163.68\" y=\"122\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">8 cm</text><text x=\"300\" y=\"230\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A triangle with a base of 14 cm, a sloping side of 10 cm, and a dashed perpendicular height of 8 cm." },
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{2} \\times 14 \\times 8$" },
+      { "id": "b", "text": "$\\frac{1}{2} \\times 14 \\times 10$" },
+      { "id": "c", "text": "$14 \\times 8$" },
+      { "id": "d", "text": "$\\frac{1}{2} \\times 10 \\times 8$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "10 cm is a sloping side, not the perpendicular height.",
+      "c": "This is the area of the rectangle around the triangle. The triangle is half of it.",
+      "d": "The base is 14 cm. The 10 cm side is not at right angles to the 8 cm height."
+    },
+    "hints": ["Area of a triangle = ½ × base × perpendicular height.", "The perpendicular height meets the base at a right angle."],
+    "solution": "Base 14 cm, perpendicular height 8 cm: $\\frac{1}{2} \\times 14 \\times 8 = 56$ cm². The 10 cm side is not needed."
+  },
+  {
+    "id": "m9.mea.area.q004",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each shape to its area formula.",
+    "pairs": [
+      { "left": { "id": "rect", "text": "Rectangle" }, "right": { "id": "lw", "text": "$l \\times w$" } },
+      { "left": { "id": "tri", "text": "Triangle" }, "right": { "id": "hbh", "text": "$\\frac{1}{2} \\times b \\times h$" } },
+      { "left": { "id": "para", "text": "Parallelogram" }, "right": { "id": "bh", "text": "$b \\times h$" } },
+      { "left": { "id": "trap", "text": "Trapezium" }, "right": { "id": "abh", "text": "$\\frac{1}{2}(a + b) \\times h$" } },
+      { "left": { "id": "kite", "text": "Kite" }, "right": { "id": "dd", "text": "$\\frac{1}{2} \\times d_1 \\times d_2$" } }
+    ],
+    "hints": ["The kite formula uses its two diagonals.", "The trapezium formula uses its two parallel sides."],
+    "solution": "Rectangle $l \\times w$; triangle $\\frac{1}{2}bh$; parallelogram $bh$; trapezium $\\frac{1}{2}(a + b)h$; kite $\\frac{1}{2}d_1 d_2$."
+  },
+  {
+    "id": "m9.mea.area.q005",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Select **all** the shapes that have an area of exactly 24 cm². (All heights are perpendicular heights.)",
+    "options": [
+      { "id": "a", "text": "A rectangle 6 cm by 4 cm" },
+      { "id": "b", "text": "A triangle with base 6 cm and height 4 cm" },
+      { "id": "c", "text": "A parallelogram with base 8 cm and height 3 cm" },
+      { "id": "d", "text": "A trapezium with parallel sides 5 cm and 7 cm, and height 4 cm" },
+      { "id": "e", "text": "A kite with diagonals 4 cm and 6 cm" }
+    ],
+    "correct": ["a", "c", "d"],
+    "hints": ["Work out each area separately.", "Remember the ½ in the triangle, trapezium and kite formulas."],
+    "solution": "Rectangle: $6 \\times 4 = 24$ ✓. Triangle: $\\frac{1}{2} \\times 6 \\times 4 = 12$ ✗. Parallelogram: $8 \\times 3 = 24$ ✓. Trapezium: $\\frac{1}{2} \\times (5 + 7) \\times 4 = 24$ ✓. Kite: $\\frac{1}{2} \\times 4 \\times 6 = 12$ ✗."
+  },
+  {
+    "id": "m9.mea.area.q006",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why the area of a parallelogram is base × perpendicular height, and not base × the length of the slanted side.",
+    "modelAnswer": "If you cut the triangle off one end of the parallelogram and move it to the other end, the parallelogram becomes a rectangle. The rectangle has the same base, and its height is the perpendicular height of the parallelogram (not the slanted side). So the area is base × perpendicular height. The slanted side is longer than the height, so using it would give too big an answer.",
+    "rubric": [
+      { "criterion": "Describes cutting off a triangle and moving it to make a rectangle with the same area", "marks": 1 },
+      { "criterion": "States that the rectangle's height is the perpendicular height, so area = base × perpendicular height (the slanted side is longer and gives too much)", "marks": 1 }
+    ],
+    "hints": ["Imagine cutting a triangle off one end of the parallelogram and sliding it to the other end. What shape do you get?"],
+    "solution": "Cutting a triangle from one end and moving it to the other turns the parallelogram into a rectangle with the same base and the same perpendicular height, so $A = b \\times h$. The slanted side is longer than the height, so it would give too large an area."
+  },
+  {
+    "id": "m9.mea.area.q007",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "prompt": "A rectangle has the same area as a triangle with base 18 cm and perpendicular height 10 cm. The rectangle is 6 cm wide. How long is the rectangle?",
+    "answer": 15,
+    "units": "cm",
+    "hints": ["Find the area of the triangle first.", "Then length × 6 = that area."],
+    "solution": "Triangle: $\\frac{1}{2} \\times 18 \\times 10 = 90$ cm².\n\nRectangle: $l \\times 6 = 90$, so $l = 90 \\div 6 = 15$ cm."
+  },
+  {
+    "id": "m9.mea.area.q008",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The base and the perpendicular height of a triangle are **both doubled**. What happens to its area?",
+    "options": [
+      { "id": "a", "text": "It is multiplied by 4" },
+      { "id": "b", "text": "It is doubled" },
+      { "id": "c", "text": "It stays the same" },
+      { "id": "d", "text": "It is multiplied by 8" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Doubling just one of the lengths would double the area. Here both are doubled.",
+      "c": "The triangle is bigger in both directions, so its area must grow.",
+      "d": "Only two lengths are multiplied together for an area, so it's 2 × 2, not 2 × 2 × 2."
+    },
+    "hints": ["Try it with numbers: base 4 and height 6, then base 8 and height 12."],
+    "solution": "New area $= \\frac{1}{2} \\times (2b) \\times (2h) = 4 \\times \\frac{1}{2}bh$. The area is **multiplied by 4**. For example, base 4, height 6 gives 12; base 8, height 12 gives 48."
+  },
+  {
+    "id": "m9.mea.area.q009",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A garden bed is a trapezium. Its parallel sides are 14 m and 9 m, and they are 6 m apart. A square paved area, 3 m by 3 m, sits inside the bed. The rest of the bed will be covered with bark that costs \\$12 per square metre. How much will the bark cost?",
+    "answer": 720,
+    "units": "$",
+    "hints": ["Find the area of the trapezium, then subtract the paved square.", "Multiply the area that needs bark by \\$12."],
+    "solution": "Trapezium: $\\frac{1}{2} \\times (14 + 9) \\times 6 = 69$ m².\n\nPaved square: $3 \\times 3 = 9$ m².\n\nBark area: $69 - 9 = 60$ m². Cost: $60 \\times 12 = 720$, so the bark costs **\\$720**."
+  }
+]

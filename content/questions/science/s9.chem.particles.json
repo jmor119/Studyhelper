@@ -1,0 +1,433 @@
+[
+  {
+    "id": "s9.chem.particles.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which statement describes the particles in a **solid**?",
+    "options": [
+      { "id": "a", "text": "Close together in a regular pattern, vibrating in fixed positions" },
+      { "id": "b", "text": "Close together but able to slide past each other" },
+      { "id": "c", "text": "Far apart and moving quickly in all directions" },
+      { "id": "d", "text": "Close together in a regular pattern and not moving at all" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That describes a liquid. Its particles can slide past each other, which is why liquids flow.",
+      "c": "That describes a gas.",
+      "d": "Particles in a solid are always moving. They vibrate on the spot, even though they can't leave their positions."
+    },
+    "hints": ["Think about why a solid keeps its shape.", "Particles are always moving, even in a solid."],
+    "solution": "In a solid the particles are packed closely in a regular pattern. Strong forces hold them in fixed positions, but they still **vibrate** on the spot."
+  },
+  {
+    "id": "s9.chem.particles.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the change of state from a **gas** to a **liquid**?",
+    "accepted": ["condensation", "condensing", "condense", "condenses"],
+    "hints": ["It's what happens when water vapour hits a cold window.", "It is the opposite of evaporation."],
+    "solution": "**Condensation.** The gas particles lose energy, slow down and are pulled together to form a liquid, such as droplets on a cold window."
+  },
+  {
+    "id": "s9.chem.particles.q003",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each change of state to what happens.",
+    "pairs": [
+      { "left": { "id": "melt", "text": "Melting" }, "right": { "id": "sl", "text": "Solid → liquid" } },
+      { "left": { "id": "freeze", "text": "Freezing" }, "right": { "id": "ls", "text": "Liquid → solid" } },
+      { "left": { "id": "evap", "text": "Evaporation" }, "right": { "id": "lg", "text": "Liquid → gas" } },
+      { "left": { "id": "cond", "text": "Condensation" }, "right": { "id": "gl", "text": "Gas → liquid" } },
+      { "left": { "id": "subl", "text": "Sublimation" }, "right": { "id": "sg", "text": "Solid → gas" } }
+    ],
+    "hints": ["Sublimation skips the liquid state."],
+    "solution": "Melting: solid → liquid. Freezing: liquid → solid. Evaporation: liquid → gas. Condensation: gas → liquid. Sublimation: solid → gas, with no liquid in between."
+  },
+  {
+    "id": "s9.chem.particles.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "A liquid has a fixed [[a]], but it takes the [[b]] of its container.",
+    "blanks": [
+      { "id": "a", "accepted": ["volume"], "options": ["volume", "shape"] },
+      { "id": "b", "accepted": ["shape"], "options": ["shape", "volume"] }
+    ],
+    "hints": ["Pour 250 mL of water from a jug into a glass. What stays the same, and what changes?"],
+    "solution": "A liquid has a fixed **volume** (250 mL stays 250 mL), but it takes the **shape** of whatever container it is in, because its particles can slide past each other."
+  },
+  {
+    "id": "s9.chem.particles.q005",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What happens to the particles in a substance when it is heated?",
+    "options": [
+      { "id": "a", "text": "They move faster" },
+      { "id": "b", "text": "They get bigger" },
+      { "id": "c", "text": "They start to melt" },
+      { "id": "d", "text": "They get heavier" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The particles stay the same size. They move faster and spread further apart, so the substance takes up more space.",
+      "c": "A substance can melt, but a single particle doesn't melt. Melting is about how particles are arranged.",
+      "d": "The particles' mass doesn't change when they are heated."
+    },
+    "hints": ["Heating gives the particles more energy."],
+    "solution": "Heating gives particles more energy, so they **move faster** (vibrate faster in a solid). The particles themselves don't change size or mass."
+  },
+  {
+    "id": "s9.chem.particles.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "The diagram shows the particles in three different states. Which box shows a **liquid**?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 160\" width=\"410\" height=\"160\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"20\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"75\" y=\"148\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"150\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"205\" y=\"148\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"280\" y=\"10\" width=\"110\" height=\"110\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"335\" y=\"148\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"40\" cy=\"32\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"98\" cy=\"28\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"62\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"112\" cy=\"76\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"44\" cy=\"94\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"90\" cy=\"106\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"60\" cy=\"40\" r=\"8\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"169\" cy=\"29\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"187\" cy=\"29\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"29\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"223\" cy=\"29\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"241\" cy=\"29\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"169\" cy=\"47\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"187\" cy=\"47\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"47\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"223\" cy=\"47\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"241\" cy=\"47\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"169\" cy=\"65\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"187\" cy=\"65\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"65\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"223\" cy=\"65\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"241\" cy=\"65\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"169\" cy=\"83\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"187\" cy=\"83\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"83\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"223\" cy=\"83\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"241\" cy=\"83\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"169\" cy=\"101\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"187\" cy=\"101\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"101\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"223\" cy=\"101\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"241\" cy=\"101\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"293\" cy=\"108\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"311\" cy=\"109\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"329\" cy=\"107\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"347\" cy=\"109\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"365\" cy=\"108\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"379\" cy=\"100\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"301\" cy=\"91\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"320\" cy=\"92\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"338\" cy=\"90\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"357\" cy=\"92\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"374\" cy=\"83\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"292\" cy=\"74\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"310\" cy=\"74\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"329\" cy=\"73\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"347\" cy=\"75\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"365\" cy=\"69\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"300\" cy=\"57\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"320\" cy=\"56\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"339\" cy=\"58\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"357\" cy=\"54\" r=\"9\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "Three boxes of particles. Box A: a few particles spread far apart. Box B: particles packed tightly in neat rows and columns. Box C: particles close together and touching, but jumbled, in the lower part of the box."
+    },
+    "options": [
+      { "id": "a", "text": "Box A" },
+      { "id": "b", "text": "Box B" },
+      { "id": "c", "text": "Box C" }
+    ],
+    "correct": "c",
+    "shuffle": false,
+    "feedback": {
+      "a": "Particles that are far apart are a gas.",
+      "b": "Particles in a neat, regular pattern are a solid."
+    },
+    "hints": ["Liquid particles are close together, like a solid's, but not arranged in a pattern."],
+    "solution": "**Box C.** The particles are close together but jumbled, so they can slide past each other. Box A is a gas (far apart) and Box B is a solid (regular pattern)."
+  },
+  {
+    "id": "s9.chem.particles.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Why can a gas be squashed (compressed) much more easily than a liquid?",
+    "options": [
+      { "id": "a", "text": "There is a lot of empty space between gas particles" },
+      { "id": "b", "text": "Gas particles are much smaller than liquid particles" },
+      { "id": "c", "text": "Gas particles can be squashed into a smaller size" },
+      { "id": "d", "text": "Gas particles are not moving" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Water vapour and liquid water are made of the same particles. The difference is the space between them.",
+      "c": "Particles can't be squashed smaller. Compressing a gas pushes the particles closer together.",
+      "d": "Gas particles move very fast, faster than in a liquid or solid."
+    },
+    "hints": ["Think about how far apart the particles are in each state."],
+    "solution": "Gas particles are far apart with lots of **empty space** between them, so pushing on a gas moves the particles closer together. In a liquid the particles are already touching, so there's almost no space to squash."
+  },
+  {
+    "id": "s9.chem.particles.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which of these is an example of **sublimation**?",
+    "options": [
+      { "id": "a", "text": "Dry ice (solid carbon dioxide) turning straight into a gas" },
+      { "id": "b", "text": "An ice cube melting in a drink" },
+      { "id": "c", "text": "Water boiling in a jug" },
+      { "id": "d", "text": "Water droplets forming on a cold can of drink" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is melting: solid → liquid.",
+      "c": "That is boiling: liquid → gas.",
+      "d": "That is condensation: gas → liquid."
+    },
+    "hints": ["Sublimation goes from solid to gas without becoming a liquid first."],
+    "solution": "Sublimation is solid → gas without melting first. **Dry ice** does this at about −78 °C, which is why it never leaves a puddle. (The white 'smoke' around it is tiny droplets of water from the air, condensed by the very cold gas. Carbon dioxide gas itself is invisible.)"
+  },
+  {
+    "id": "s9.chem.particles.q009",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "In which of these changes do the particles **gain** energy? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Melting" },
+      { "id": "b", "text": "Freezing" },
+      { "id": "c", "text": "Boiling" },
+      { "id": "d", "text": "Condensation" },
+      { "id": "e", "text": "Sublimation" }
+    ],
+    "correct": ["a", "c", "e"],
+    "hints": ["Particles gain energy when a substance is heated.", "Which changes go towards a state where the particles move more freely?"],
+    "solution": "**Melting, boiling and sublimation** all need heat: the particles gain energy and move more freely (solid → liquid, liquid → gas, solid → gas). In freezing and condensation the particles lose energy."
+  },
+  {
+    "id": "s9.chem.particles.q010",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name of the process where particles spread out from where there are lots of them to where there are fewer, because of their random movement?",
+    "accepted": ["diffusion", "diffusing"],
+    "hints": ["It's how a smell spreads across a room.", "The word starts with d."],
+    "solution": "**Diffusion.** Particles move randomly, so over time they spread from an area of high concentration to an area of low concentration."
+  },
+  {
+    "id": "s9.chem.particles.q011",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Evaporation happens only at the [[a]] of a liquid, and it can happen at [[b]] temperature. Boiling happens [[c]] the liquid, at the boiling point.",
+    "blanks": [
+      { "id": "a", "accepted": ["surface"], "options": ["surface", "bottom", "centre"] },
+      { "id": "b", "accepted": ["any"], "options": ["any", "only one"] },
+      { "id": "c", "accepted": ["throughout"], "options": ["throughout", "only at the top of"] }
+    ],
+    "hints": ["A puddle dries up on a mild day without ever reaching 100 °C.", "When water boils, where do the bubbles form?"],
+    "solution": "Evaporation happens at the **surface**, at **any** temperature: only the particles near the top can escape. Boiling happens **throughout** the liquid, with bubbles of gas forming inside it, at the boiling point."
+  },
+  {
+    "id": "s9.chem.particles.q012",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "A drop of food colouring is gently added to three beakers of still water at different temperatures. Put the beakers in order, from the one where the colour spreads **fastest** to the one where it spreads **slowest**.",
+    "items": [
+      { "id": "hot", "text": "Water at 60 °C" },
+      { "id": "warm", "text": "Water at 30 °C" },
+      { "id": "cold", "text": "Water at 10 °C" }
+    ],
+    "hints": ["How does temperature affect the speed of particles?"],
+    "solution": "At a higher temperature the particles have more energy and move faster, so diffusion is fastest at **60 °C**, then 30 °C, and slowest at 10 °C."
+  },
+  {
+    "id": "s9.chem.particles.q013",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "A block of ice at −10 °C is heated steadily until it becomes steam at 110 °C. Put the stages in order.",
+    "items": [
+      { "id": "warm-ice", "text": "The ice warms up to 0 °C" },
+      { "id": "melt", "text": "The ice melts, staying at 0 °C" },
+      { "id": "warm-water", "text": "The liquid water warms up to 100 °C" },
+      { "id": "boil", "text": "The water boils, staying at 100 °C" },
+      { "id": "warm-steam", "text": "The steam warms up above 100 °C" }
+    ],
+    "hints": ["Ice melts at 0 °C and water boils at 100 °C.", "The temperature stays the same while the state is changing."],
+    "solution": "The ice warms to 0 °C → melts at 0 °C → the water warms to 100 °C → boils at 100 °C → the steam warms above 100 °C. During melting and boiling the temperature stays steady, because the energy is being used to overcome the forces between the particles."
+  },
+  {
+    "id": "s9.chem.particles.q014",
+    "type": "cloze",
+    "difficulty": 2,
+    "groupId": "s9.chem.particles.substance-x",
+    "part": "a",
+    "stem": "Substance X has a melting point of −20 °C and a boiling point of 60 °C.",
+    "prompt": "At room temperature (20 °C), substance X is a [[a]].",
+    "blanks": [
+      { "id": "a", "accepted": ["liquid"], "options": ["solid", "liquid", "gas"] }
+    ],
+    "hints": ["Is 20 °C below the melting point, between the two, or above the boiling point?"],
+    "solution": "20 °C is above the melting point (−20 °C), so X has melted, but below the boiling point (60 °C), so it hasn't boiled. X is a **liquid**."
+  },
+  {
+    "id": "s9.chem.particles.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.chem.particles.substance-x",
+    "part": "b",
+    "stem": "Substance X has a melting point of −20 °C and a boiling point of 60 °C.",
+    "prompt": "Gaseous X at 90 °C is cooled slowly. At what temperature will it start to condense into a liquid?",
+    "answer": 60,
+    "units": "°C",
+    "hints": ["Condensation is the reverse of boiling."],
+    "solution": "Condensation is the reverse of boiling, so it happens at the same temperature as the boiling point: **60 °C**."
+  },
+  {
+    "id": "s9.chem.particles.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A puddle dries up on a sunny day, even though the water never gets anywhere near 100 °C. Why?",
+    "options": [
+      { "id": "a", "text": "Some particles at the surface have enough energy to escape as a gas" },
+      { "id": "b", "text": "Sunlight makes water boil at a much lower temperature" },
+      { "id": "c", "text": "The water particles break down into hydrogen and oxygen" },
+      { "id": "d", "text": "The water particles shrink until they can't be seen" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The water isn't boiling. There are no bubbles forming inside it. This is evaporation.",
+      "c": "That would be a chemical change. Evaporation is a physical change; the water is still water, just as a gas.",
+      "d": "Particles don't shrink. The water is still there in the air, as water vapour."
+    },
+    "hints": ["This is evaporation, not boiling.", "Not every particle has the same energy. Some move faster than others."],
+    "solution": "This is **evaporation**. Particles in a liquid have a range of energies. Some fast-moving particles at the surface have enough energy to escape into the air as water vapour. Over time the whole puddle evaporates."
+  },
+  {
+    "id": "s9.chem.particles.q017",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Use the particle model to explain why a solid has a fixed shape but a liquid does not.",
+    "modelAnswer": "In a solid, strong forces of attraction hold the particles in fixed positions. They can only vibrate on the spot, so the solid keeps its shape. In a liquid, the particles are still close together, but they can move and slide past each other, so the liquid flows and takes the shape of its container.",
+    "rubric": [
+      { "criterion": "Solid: particles are held in fixed positions by strong forces and can only vibrate", "marks": 1 },
+      { "criterion": "Liquid: particles can move or slide past each other, so the liquid flows and takes the shape of its container", "marks": 1 }
+    ],
+    "hints": ["Describe how the particles can move in each state."],
+    "solution": "Solid particles are locked in fixed positions, vibrating on the spot, so the shape can't change. Liquid particles can slide past each other, so a liquid flows into the shape of its container."
+  },
+  {
+    "id": "s9.chem.particles.q018",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A student sorts some materials into two groups.\n\n- **Group A:** copper wire, aluminium foil, steel spoon\n- **Group B:** plastic ruler, wooden pencil, rubber band\n\nWhich physical property did the student most likely use?",
+    "options": [
+      { "id": "a", "text": "Whether they conduct electricity" },
+      { "id": "b", "text": "Whether they are magnetic" },
+      { "id": "c", "text": "Whether they float on water" },
+      { "id": "d", "text": "Whether they are solid at room temperature" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Copper and aluminium are not magnetic, so they wouldn't be grouped with steel this way.",
+      "c": "Whether something floats depends on its density and shape, and it doesn't split these items neatly into these two groups.",
+      "d": "All six materials are solids, so this property wouldn't separate them."
+    },
+    "hints": ["What do all the materials in Group A have in common? (They are all metals.)"],
+    "solution": "Group A are all metals, which **conduct electricity**. Group B are all insulators. Copper and aluminium are not magnetic, and every item is a solid, so those properties don't explain the groups."
+  },
+  {
+    "id": "s9.chem.particles.q019",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "After a hot shower, water vapour touches a cold mirror. The water particles lose [[a]], slow down and are pulled closer together, forming droplets. This change of state is called [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["energy", "heat", "heat energy", "kinetic energy", "thermal energy"] },
+      { "id": "b", "accepted": ["condensation", "condensing"] }
+    ],
+    "hints": ["The mirror is colder than the vapour.", "Gas → liquid has its own name."],
+    "solution": "The particles lose **energy** to the cold mirror, slow down, and the forces of attraction pull them together into a liquid. Gas → liquid is **condensation**."
+  },
+  {
+    "id": "s9.chem.particles.q020",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Which of these would make wet washing on a clothesline dry **faster**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "A warmer day" },
+      { "id": "b", "text": "A windy day" },
+      { "id": "c", "text": "Spreading the clothes out" },
+      { "id": "d", "text": "A still, humid day" },
+      { "id": "e", "text": "Folding the clothes in a pile" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Drying is evaporation.", "Think about particle energy, the area of the surface, and what happens to the water vapour once it has escaped."],
+    "solution": "Drying is evaporation. A **warmer day** gives particles more energy, **wind** carries the water vapour away so more can escape, and **spreading the clothes out** gives a bigger surface for particles to escape from. Humid, still air and a folded pile slow it down."
+  },
+  {
+    "id": "s9.chem.particles.q021",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the physical properties.",
+    "options": [
+      { "id": "a", "text": "Melting point" },
+      { "id": "b", "text": "Colour" },
+      { "id": "c", "text": "Density" },
+      { "id": "d", "text": "Whether it conducts electricity" },
+      { "id": "e", "text": "Whether it burns in air" },
+      { "id": "f", "text": "Whether it reacts with acid" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["A physical property can be observed or measured without turning the substance into something new.", "Burning and reacting both make new substances."],
+    "solution": "**Melting point, colour, density and electrical conductivity** are physical properties: you can measure them without making a new substance. Burning and reacting with acid make new substances, so they are chemical properties."
+  },
+  {
+    "id": "s9.chem.particles.q022",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "When ice melts, its temperature stays at 0 °C until all the ice has melted, even though heat energy is still going into it. Use the particle model to explain why.",
+    "modelAnswer": "The ice is still taking in heat energy while it melts. This energy is used to overcome (break) the forces of attraction that hold the particles in their fixed positions, so the particles can start sliding past each other. Because the energy goes into changing the arrangement of the particles rather than making them move faster, the temperature doesn't rise until all of the ice has melted.",
+    "rubric": [
+      { "criterion": "States that heat energy is still being taken in during melting", "marks": 1 },
+      { "criterion": "The energy is used to overcome the forces of attraction holding the particles in fixed positions", "marks": 1 },
+      { "criterion": "So the energy doesn't make the particles move faster, and the temperature stays the same until all the ice has melted", "marks": 1 }
+    ],
+    "hints": ["What has to happen to the forces between particles for a solid to become a liquid?", "Temperature depends on how fast the particles are moving."],
+    "solution": "The heat energy goes into overcoming the forces of attraction that hold the particles in place, not into making them move faster. Temperature measures how fast particles move, so it stays at 0 °C until every particle has broken free."
+  },
+  {
+    "id": "s9.chem.particles.q023",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "20 g of dry ice (solid carbon dioxide) is sealed inside a strong balloon. The dry ice slowly turns into carbon dioxide gas and the balloon swells up. What is the mass of the carbon dioxide inside the balloon once all the dry ice has turned into gas?",
+    "answer": 20,
+    "units": "g",
+    "hints": ["The balloon is sealed, so nothing can get in or out.", "A change of state doesn't create or destroy any particles."],
+    "solution": "During a change of state no particles are created or destroyed, and none can escape from the sealed balloon. The particles just move much further apart, which is why the balloon swells. The mass is still **20 g**."
+  },
+  {
+    "id": "s9.chem.particles.q024",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Sweating helps to cool you down. Why does sweat evaporating from your skin cool you?",
+    "options": [
+      { "id": "a", "text": "The particles with the most energy escape, so the particles left behind have less energy on average" },
+      { "id": "b", "text": "Sweat is colder than your skin to begin with" },
+      { "id": "c", "text": "Evaporation gives out heat into your skin" },
+      { "id": "d", "text": "The sweat particles take in cold from the air" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Sweat comes out at body temperature. The cooling happens as it evaporates.",
+      "c": "It's the other way round: evaporation takes energy away from your skin.",
+      "d": "'Cold' isn't something that can flow. Cooling means energy is being taken away."
+    },
+    "hints": ["Which particles are able to escape from the surface of a liquid?"],
+    "solution": "Only the fastest, highest-energy particles escape from the surface. The particles left behind have less energy on average, so the sweat and your skin under it cool down. Energy is carried away from your body."
+  },
+  {
+    "id": "s9.chem.particles.q025",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Diffusion happens much faster in gases than in liquids. Which is the best explanation?",
+    "options": [
+      { "id": "a", "text": "Gas particles move faster and have much more space to move into" },
+      { "id": "b", "text": "Gas particles are smaller than liquid particles" },
+      { "id": "c", "text": "Gas particles are lighter than liquid particles of the same substance" },
+      { "id": "d", "text": "Gas particles attract each other more strongly" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The particles are the same size in every state. Only their spacing and movement change.",
+      "c": "Steam and liquid water are made of identical water particles with the same mass.",
+      "d": "It's the other way round: the forces between gas particles are very weak."
+    },
+    "hints": ["Compare how fast the particles move, and how much space there is, in a gas and in a liquid."],
+    "solution": "Gas particles move **faster** and have lots of **empty space**, so they spread out quickly. In a liquid, the particles are close together and keep bumping into each other, so they spread out more slowly."
+  },
+  {
+    "id": "s9.chem.particles.q026",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A student drops a purple crystal of potassium permanganate into the bottom of a beaker of still water. An hour later the purple colour has spread through all of the water. Explain what happened, and predict how the result would change if the water were hotter.",
+    "modelAnswer": "The crystal dissolves, and its particles move about randomly, colliding with the water particles. Over time the purple particles spread from where there are lots of them (around the crystal) to where there are fewer, until they are spread evenly through the water. This is diffusion. In hotter water the particles have more energy and move faster, so the colour would spread through the water more quickly.",
+    "rubric": [
+      { "criterion": "Particles move randomly and collide with water particles", "marks": 1 },
+      { "criterion": "They spread from high concentration to low concentration (diffusion) until evenly spread", "marks": 1 },
+      { "criterion": "Hotter water: particles have more energy and move faster, so the colour spreads faster", "marks": 1 }
+    ],
+    "hints": ["Name the process first.", "How does temperature affect the movement of particles?"],
+    "solution": "This is diffusion: random movement spreads the purple particles from high concentration to low concentration until they are spread evenly. Hotter water means faster-moving particles, so the colour would spread more quickly."
+  },
+  {
+    "id": "s9.chem.particles.q027",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "For most substances, the solid sinks in its own liquid, because its particles are packed more closely. But ice floats on water. What does this tell you?",
+    "options": [
+      { "id": "a", "text": "In ice, the water particles are held slightly further apart than in liquid water" },
+      { "id": "b", "text": "Ice particles are lighter than liquid water particles" },
+      { "id": "c", "text": "Ice particles aren't moving, so they weigh less" },
+      { "id": "d", "text": "Ice is made of different particles from liquid water" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Ice and liquid water are made of exactly the same water particles, with the same mass.",
+      "c": "Ice particles do vibrate, and how much a particle moves doesn't change its mass.",
+      "d": "Melting is a physical change. Ice and liquid water are both made of water particles."
+    },
+    "hints": ["If the same particles take up more space, is the substance more or less dense?"],
+    "solution": "Ice floats because it is less dense than liquid water. The particles are the same, so they must be **spaced slightly further apart** in ice. When water freezes, its particles lock into an open pattern. Water is an unusual exception to the simple particle model, and it's why ponds freeze from the top down."
+  }
+]

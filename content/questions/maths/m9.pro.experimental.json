@@ -1,0 +1,148 @@
+[
+  {
+    "id": "m9.pro.experimental.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "For which of these can the probability **only** be estimated by doing an experiment?",
+    "options": [
+      { "id": "a", "text": "A drawing pin landing point up" },
+      { "id": "b", "text": "A fair die landing on 6" },
+      { "id": "c", "text": "A fair coin landing on heads" },
+      { "id": "d", "text": "Picking a red card from 5 red and 5 black cards" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A fair die has 6 equally likely outcomes, so $P(6) = \\frac{1}{6}$ can be calculated.",
+      "c": "A fair coin has 2 equally likely outcomes, so $P(\\text{heads}) = \\frac{1}{2}$.",
+      "d": "Each card is equally likely, so $P(\\text{red}) = \\frac{5}{10}$."
+    },
+    "hints": ["Which of these doesn't have equally likely outcomes?"],
+    "solution": "A drawing pin's two ways of landing (point up, point down) are **not equally likely**, and there's no way to calculate the probability. You have to drop it many times and use the relative frequency."
+  },
+  {
+    "id": "m9.pro.experimental.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for (number of times an outcome happened) ÷ (total number of trials)?",
+    "accepted": ["relative frequency", "experimental probability"],
+    "hints": ["It's a frequency compared with (relative to) the total."],
+    "solution": "This is the **relative frequency**, also called the experimental probability."
+  },
+  {
+    "id": "m9.pro.experimental.q003",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "After 250 spins of a homemade spinner, the relative frequency of landing on blue is 0.32. How many times did the spinner land on blue?",
+    "answer": 80,
+    "form": "integer",
+    "hints": ["Relative frequency = number of blues ÷ 250, so number of blues = relative frequency × 250."],
+    "solution": "Number of blues $= 0.32 \\times 250 = 80$."
+  },
+  {
+    "id": "m9.pro.experimental.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which statement describes the **Law of Large Numbers**?",
+    "options": [
+      { "id": "a", "text": "As the number of trials increases, the relative frequency tends to get closer to the true probability." },
+      { "id": "b", "text": "If you do enough trials, the results will exactly match the theoretical probability." },
+      { "id": "c", "text": "After a long run of one outcome, the other outcome becomes more likely." },
+      { "id": "d", "text": "Large numbers are more likely to come up than small numbers." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Results get closer, but they don't have to match exactly, even after a huge number of trials.",
+      "c": "That's a common myth. Independent trials have no memory.",
+      "d": "The law is about the number of trials, not the size of the numbers in the outcomes."
+    },
+    "hints": ["It's about what happens to the relative frequency when you do more and more trials."],
+    "solution": "The **Law of Large Numbers**: with more trials, the relative frequency tends to settle closer to the true probability. It gets close, but doesn't have to be exactly equal."
+  },
+  {
+    "id": "m9.pro.experimental.q005",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "A fair die is rolled 60 times. A six comes up 15 times, not the expected 10. Select **all** the possible reasons for the difference.",
+    "options": [
+      { "id": "a", "text": "Chance variation: results naturally vary from the expected number" },
+      { "id": "b", "text": "60 is not a very large number of trials" },
+      { "id": "c", "text": "A mistake was made recording the results" },
+      { "id": "d", "text": "Sixes are always more likely in the first 60 rolls" },
+      { "id": "e", "text": "The theoretical probability of a six is really $\\frac{1}{4}$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["The die is fair. What could make the results different from what you expect?"],
+    "solution": "Chance variation, a fairly small number of trials, and recording mistakes can all explain the difference. For a fair die, sixes aren't more likely early on, and $P(6)$ is $\\frac{1}{6}$, not $\\frac{1}{4}$."
+  },
+  {
+    "id": "m9.pro.experimental.q006",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A netball player scores about 3 out of every 5 shots. Which would be a suitable way to **simulate** one of her shots?",
+    "options": [
+      { "id": "a", "text": "Spin a spinner with 5 equal sections, 3 labelled \"goal\" and 2 labelled \"miss\"" },
+      { "id": "b", "text": "Toss a coin: heads = goal, tails = miss" },
+      { "id": "c", "text": "Roll a die: 1, 2 or 3 = goal; 4, 5 or 6 = miss" },
+      { "id": "d", "text": "Spin a spinner with 3 sections labelled \"goal\" and 5 labelled \"miss\"" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A coin gives a goal half the time (0.5), but she scores 3 out of 5 (0.6).",
+      "c": "This also gives a goal 3 times out of 6 (0.5), not 3 out of 5.",
+      "d": "This gives a goal 3 times out of 8, which is too low."
+    },
+    "hints": ["The simulation should give a goal with probability $\\frac{3}{5}$."],
+    "solution": "The spinner with 5 equal sections, 3 of them \"goal\", gives $P(\\text{goal}) = \\frac{3}{5}$, which matches the player."
+  },
+  {
+    "id": "m9.pro.experimental.q007",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Arjun tosses a coin 10 times and gets 7 heads. He says, \"The coin must be biased towards heads.\"\n\nDo you agree? Explain.",
+    "modelAnswer": "I don't agree (or: there isn't enough evidence). 10 tosses is a very small number of trials, and chance variation can easily give 7 heads with a fair coin. To decide whether it's biased, he should toss it many more times (say several hundred) and see whether the relative frequency of heads stays well away from 0.5.",
+    "rubric": [
+      { "criterion": "Says there isn't enough evidence, because 10 trials is too few and results vary by chance", "marks": 1 },
+      { "criterion": "Suggests doing many more trials and checking whether the relative frequency stays far from 0.5", "marks": 1 }
+    ],
+    "hints": ["How much can results vary with only 10 tosses?", "What could he do to get a more reliable answer?"],
+    "solution": "Not enough evidence. With only 10 tosses, 7 heads can easily happen by chance with a fair coin. Doing many more tosses would give a much more reliable estimate (Law of Large Numbers)."
+  },
+  {
+    "id": "m9.pro.experimental.q008",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Talia rolls a die 120 times. Her results are:\n\n| Number | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| Frequency | 18 | 21 | 22 | 17 | 23 | 19 |\n\nCompare her results with what you would expect from a fair die. Does the die seem fair? Explain.",
+    "modelAnswer": "For a fair die, each number has probability 1/6, so in 120 rolls we'd expect each number about 1/6 × 120 = 20 times. Talia's frequencies range from 17 to 23, all within about 3 of 20. Differences this small are what you'd expect from chance variation, so the results are consistent with a fair die. To be more confident she could do more rolls.",
+    "rubric": [
+      { "criterion": "Calculates the expected frequency of 20 for each number", "marks": 1 },
+      { "criterion": "Compares the actual frequencies with 20 (e.g. all between 17 and 23)", "marks": 1 },
+      { "criterion": "Concludes the die seems fair because the differences are small enough to be chance variation", "marks": 1 }
+    ],
+    "hints": ["How many times would you expect each number in 120 rolls of a fair die?", "Are the differences from that number big or small?"],
+    "solution": "Expected: $\\frac{1}{6} \\times 120 = 20$ of each number. The actual frequencies (17 to 23) are all close to 20, so the differences can be explained by chance. The die **seems fair**."
+  },
+  {
+    "id": "m9.pro.experimental.q009",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Four people each toss a coin they think is fair. Which result gives the **strongest** evidence that their coin is **not** fair?",
+    "options": [
+      { "id": "a", "text": "600 heads in 1000 tosses" },
+      { "id": "b", "text": "7 heads in 10 tosses" },
+      { "id": "c", "text": "3 heads in 4 tosses" },
+      { "id": "d", "text": "55 heads in 100 tosses" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "70% heads sounds a lot, but with only 10 tosses this happens fairly often with a fair coin.",
+      "c": "With only 4 tosses, 3 heads is very common for a fair coin.",
+      "d": "55% after 100 tosses is quite close to 50%, and within normal chance variation."
+    },
+    "hints": ["With more trials, the relative frequency of a fair coin should be closer to 0.5.", "Which result is far from 0.5 even though there were lots of trials?"],
+    "solution": "By the Law of Large Numbers, after 1000 tosses a fair coin should give a relative frequency very close to 0.5. **600 heads in 1000** (0.6) is far from 0.5 despite many trials, so it is the strongest evidence of bias. The other results come from too few trials, or are close to 0.5."
+  }
+]

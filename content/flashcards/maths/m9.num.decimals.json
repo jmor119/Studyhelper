@@ -1,0 +1,13 @@
+[
+  { "id": "m9.num.decimals.f01", "front": "How do you add or subtract decimals?", "back": "Line up the decimal points and fill gaps with zeros, e.g. $12.00 - 3.46 = 8.54$." },
+  { "id": "m9.num.decimals.f02", "front": "How do you multiply decimals?", "back": "Multiply without the points, then give the answer as many decimal places as the question has altogether: $0.3 \\times 0.04 = 0.012$." },
+  { "id": "m9.num.decimals.f03", "front": "Why does $0.3 \\times 0.04 = 0.012$?", "back": "$\\frac{3}{10} \\times \\frac{4}{100} = \\frac{12}{1000}$: tenths × hundredths = thousandths." },
+  { "id": "m9.num.decimals.f04", "front": "How do you divide by a decimal, e.g. $4.5 \\div 0.09$?", "back": "Multiply both numbers by 10, 100, … to make the divisor whole: $450 \\div 9 = 50$." },
+  { "id": "m9.num.decimals.f05", "front": "Three ways to write $17 \\div 5$", "back": "3 remainder 2, or $3\\frac{2}{5}$, or $3.4$." },
+  { "id": "m9.num.decimals.f06", "front": "Rounding rule", "back": "Look at the next digit: 5 or more, round up; 4 or less, keep the digit the same." },
+  { "id": "m9.num.decimals.f07", "front": "What is **precision**?", "back": "How exact a value is, e.g. money to the nearest cent (2 decimal places)." },
+  { "id": "m9.num.decimals.f08", "front": "Round up or down? \"How many buses are needed?\"", "back": "Round up, so nobody is left behind." },
+  { "id": "m9.num.decimals.f09", "front": "Round up or down? \"How many boxes can be filled?\"", "back": "Round down: only full boxes count." },
+  { "id": "m9.num.decimals.f10", "front": "What is an **estimate**, and why use one?", "back": "A quick approximate answer from rounded numbers. It checks whether an exact answer is the right size." },
+  { "id": "m9.num.decimals.f11", "front": "What happens when you multiply by a number between 0 and 1?", "back": "The answer gets smaller, e.g. $24 \\times 0.5 = 12$." }
+]

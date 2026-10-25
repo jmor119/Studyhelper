@@ -1,0 +1,12 @@
+[
+  { "id": "m9.mea.perimeter-circles.f01", "front": "What is **perimeter**?", "back": "The total distance around the outside of a shape." },
+  { "id": "m9.mea.perimeter-circles.f02", "front": "Perimeter of a rectangle", "back": "$P = 2 \\times (\\text{length} + \\text{width})$" },
+  { "id": "m9.mea.perimeter-circles.f03", "front": "What is the **circumference** of a circle?", "back": "Its perimeter: the distance all the way around." },
+  { "id": "m9.mea.perimeter-circles.f04", "front": "What is **π** (pi)?", "back": "Circumference ÷ diameter for any circle: 3.14159… (about 3.14)." },
+  { "id": "m9.mea.perimeter-circles.f05", "front": "Circumference formulas", "back": "$C = \\pi d$ or $C = 2\\pi r$" },
+  { "id": "m9.mea.perimeter-circles.f06", "front": "Radius and diameter: how are they related?", "back": "$d = 2r$ and $r = d \\div 2$." },
+  { "id": "m9.mea.perimeter-circles.f07", "front": "Find the diameter from the circumference", "back": "$d = C \\div \\pi$" },
+  { "id": "m9.mea.perimeter-circles.f08", "front": "Perimeter of a **semicircle**", "back": "Half the circumference plus the diameter: $\\frac{1}{2}\\pi d + d$." },
+  { "id": "m9.mea.perimeter-circles.f09", "front": "Perimeter of a **quarter circle**", "back": "A quarter of the circumference plus two radii: $\\frac{1}{2}\\pi r + 2r$." },
+  { "id": "m9.mea.perimeter-circles.f10", "front": "Composite shapes: which lines count in the perimeter?", "back": "Only the outside edges. Lines inside the shape (where pieces join) don't count." }
+]

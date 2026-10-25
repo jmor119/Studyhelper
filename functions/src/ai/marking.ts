@@ -10,6 +10,7 @@ import { requireProfile } from '../lib/users';
 import { loadAttachment } from './attachments';
 import { KEY_ENCRYPTION_KEY, recordUsage, requireAi, type ResolvedAi } from './keys';
 import { MARKER_SYSTEM, WORKING_SYSTEM } from './prompts';
+import { summarise, type ExamResultItem } from '../callables/exams';
 import { RubricMark, WorkingFeedback } from './schema';
 
 function rubricFor(q: Question): { criterion: string; marks: number }[] {
@@ -107,11 +108,9 @@ export const aiMarkExam = onCall({ secrets: [KEY_ENCRYPTION_KEY], timeoutSeconds
     });
     Object.assign(item, { needsReview: false, marksAwarded: mark.marksAwarded, correct: mark.correct, feedback: result.feedback });
   }
-  const awarded = items.filter((i) => !i.needsReview).reduce((s, i) => s + i.marksAwarded, 0);
-  const available = (exam.summary?.available as number | undefined) ?? 0;
-  const percent = available ? Math.round((awarded / available) * 100) : 0;
-  await examRef.update({ results: items, 'summary.awarded': awarded, 'summary.percent': percent, 'summary.pendingReview': items.filter((i) => i.needsReview).length });
-  return { awarded, available, percent };
+  const summary = summarise(items as unknown as ExamResultItem[]);
+  await examRef.update({ results: items, summary });
+  return { awarded: summary.awarded, available: summary.available, percent: summary.percent };
 });
 
 /** Feedback on a photo of handwritten working (doesn't change marks). */

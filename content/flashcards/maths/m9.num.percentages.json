@@ -1,0 +1,12 @@
+[
+  { "id": "m9.num.percentages.f01", "front": "What does **percent** mean?", "back": "Out of 100: 35% means $\\frac{35}{100}$." },
+  { "id": "m9.num.percentages.f02", "front": "Quick ways to find 10%, 5% and 1%", "back": "10%: ÷ 10. 5%: half of 10%. 1%: ÷ 100." },
+  { "id": "m9.num.percentages.f03", "front": "How do you find a percentage of an amount with a calculator?", "back": "Change the percentage to a decimal and multiply: 35% of 80 = $0.35 \\times 80 = 28$." },
+  { "id": "m9.num.percentages.f04", "front": "How do you write A as a percentage of B?", "back": "$\\frac{A}{B} \\times 100$. Make sure both are in the same units first." },
+  { "id": "m9.num.percentages.f05", "front": "What is a **multiplier**?", "back": "The decimal you multiply by to make a percentage change, e.g. × 1.2 for a 20% increase." },
+  { "id": "m9.num.percentages.f06", "front": "Multiplier for a 15% **increase**? For a 15% **decrease**?", "back": "× 1.15 for the increase. × 0.85 for the decrease." },
+  { "id": "m9.num.percentages.f07", "front": "How do you find a percentage change?", "back": "Change ÷ original amount × 100." },
+  { "id": "m9.num.percentages.f08", "front": "20% of a number is 30. How do you find the number?", "back": "10% is 15, so 100% is 150. Or $30 \\div 0.2 = 150$." },
+  { "id": "m9.num.percentages.f09", "front": "How do you find the **original amount** after a 20% increase to \\$96?", "back": "Divide by the multiplier: $96 \\div 1.2 = 80$, so the original was \\$80." },
+  { "id": "m9.num.percentages.f10", "front": "Does +10% then −10% get you back to the start?", "back": "No. $1.1 \\times 0.9 = 0.99$, so you end up 1% lower." }
+]

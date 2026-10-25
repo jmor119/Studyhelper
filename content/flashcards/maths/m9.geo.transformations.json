@@ -1,0 +1,13 @@
+[
+  { "id": "m9.geo.transformations.f01", "front": "What is a **translation**?", "back": "A slide: every point moves the same distance in the same direction, with no turning or flipping." },
+  { "id": "m9.geo.transformations.f02", "front": "What does the vector $\\begin{pmatrix} a \\\\ b \\end{pmatrix}$ mean?", "back": "Move $a$ in the $x$ direction (right +, left −) and $b$ in the $y$ direction (up +, down −)." },
+  { "id": "m9.geo.transformations.f03", "front": "What is a **reflection**?", "back": "A flip over a **mirror line**. Each image point is the same distance from the line, on the other side." },
+  { "id": "m9.geo.transformations.f04", "front": "Reflect $(x, y)$ in the $x$-axis and in the $y$-axis", "back": "$x$-axis: $(x, -y)$. $y$-axis: $(-x, y)$." },
+  { "id": "m9.geo.transformations.f05", "front": "What is a **rotation**?", "back": "A turn about a fixed point (the **centre of rotation**) through an angle, clockwise or anticlockwise." },
+  { "id": "m9.geo.transformations.f06", "front": "Rotate $(x, y)$ 90° clockwise about the origin", "back": "$(y, -x)$" },
+  { "id": "m9.geo.transformations.f07", "front": "Rotate $(x, y)$ 90° anticlockwise about the origin", "back": "$(-y, x)$" },
+  { "id": "m9.geo.transformations.f08", "front": "Rotate $(x, y)$ 180° about the origin", "back": "$(-x, -y)$" },
+  { "id": "m9.geo.transformations.f09", "front": "What is the **image**?", "back": "The shape after a transformation. Its points are labelled with a dash: A → A′." },
+  { "id": "m9.geo.transformations.f10", "front": "To describe a rotation fully, you must give…", "back": "The centre of rotation, the angle, and the direction (clockwise or anticlockwise)." },
+  { "id": "m9.geo.transformations.f11", "front": "What stays the same after a translation, reflection or rotation?", "back": "Size and shape: lengths, angles and area. The image is congruent to the object." }
+]

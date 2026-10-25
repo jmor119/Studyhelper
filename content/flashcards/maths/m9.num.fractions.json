@@ -1,0 +1,14 @@
+[
+  { "id": "m9.num.fractions.f01", "front": "What is the **numerator**?", "back": "The top number of a fraction: how many parts you have." },
+  { "id": "m9.num.fractions.f02", "front": "What is the **denominator**?", "back": "The bottom number of a fraction: how many equal parts the whole is split into." },
+  { "id": "m9.num.fractions.f03", "front": "How do you make an **equivalent** fraction?", "back": "Multiply (or divide) the numerator and denominator by the same number, e.g. $\\frac{3}{4} = \\frac{6}{8}$." },
+  { "id": "m9.num.fractions.f04", "front": "How do you write a fraction in **simplest form**?", "back": "Divide the top and bottom by their highest common factor, e.g. $\\frac{18}{24} = \\frac{3}{4}$." },
+  { "id": "m9.num.fractions.f05", "front": "Improper fraction vs mixed number", "back": "Improper: numerator bigger than the denominator, e.g. $\\frac{11}{4}$. Mixed: whole number plus a fraction, e.g. $2\\frac{3}{4}$." },
+  { "id": "m9.num.fractions.f06", "front": "How do you change $3\\frac{2}{5}$ to an improper fraction?", "back": "Whole × denominator + numerator: $3 \\times 5 + 2 = 17$, so $\\frac{17}{5}$." },
+  { "id": "m9.num.fractions.f07", "front": "How do you add or subtract fractions?", "back": "Make the denominators the same (use the LCM), then add or subtract the numerators only." },
+  { "id": "m9.num.fractions.f08", "front": "How do you multiply fractions?", "back": "Numerator × numerator and denominator × denominator, e.g. $\\frac{2}{3} \\times \\frac{4}{5} = \\frac{8}{15}$." },
+  { "id": "m9.num.fractions.f09", "front": "How do you divide by a fraction?", "back": "Multiply by its reciprocal (keep, change, flip), e.g. $\\frac{3}{4} \\div \\frac{1}{2} = \\frac{3}{4} \\times \\frac{2}{1} = \\frac{3}{2}$." },
+  { "id": "m9.num.fractions.f10", "front": "Why does dividing by $\\frac{1}{3}$ give the same answer as multiplying by 3?", "back": "Dividing by $\\frac{1}{3}$ counts how many thirds fit in, and every whole has 3 thirds." },
+  { "id": "m9.num.fractions.f11", "front": "How should you write a negative fraction answer?", "back": "With the sign in front (or on the numerator) and a positive denominator: $-\\frac{3}{4}$, not $\\frac{3}{-4}$." },
+  { "id": "m9.num.fractions.f12", "front": "What does \"of\" mean in \"$\\frac{2}{5}$ of 30\"?", "back": "Multiply: $\\frac{2}{5} \\times 30 = 12$." }
+]
