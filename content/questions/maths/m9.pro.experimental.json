@@ -144,5 +144,289 @@
     },
     "hints": ["With more trials, the relative frequency of a fair coin should be closer to 0.5.", "Which result is far from 0.5 even though there were lots of trials?"],
     "solution": "By the Law of Large Numbers, after 1000 tosses a fair coin should give a relative frequency very close to 0.5. **600 heads in 1000** (0.6) is far from 0.5 despite many trials, so it is the strongest evidence of bias. The other results come from too few trials, or are close to 0.5."
+  },
+  {
+    "id": "m9.pro.experimental.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.pro.experimental.g1",
+    "part": "a",
+    "stem": "Mateo dropped a small plastic toy kiwi onto the floor 200 times and recorded whether it landed **on its feet**. After every 20 drops, he worked out the relative frequency of landing on its feet so far. The graph shows his results. After all 200 drops, the toy had landed on its feet 68 times.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 268\" width=\"404\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"64\" y1=\"218\" x2=\"384\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"218\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.0</text><line x1=\"64\" y1=\"201.33\" x2=\"384\" y2=\"201.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"184.67\" x2=\"384\" y2=\"184.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"184.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.1</text><line x1=\"64\" y1=\"168\" x2=\"384\" y2=\"168\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"151.33\" x2=\"384\" y2=\"151.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"151.33\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.2</text><line x1=\"64\" y1=\"134.67\" x2=\"384\" y2=\"134.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"118\" x2=\"384\" y2=\"118\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"118\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.3</text><line x1=\"64\" y1=\"101.33\" x2=\"384\" y2=\"101.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"84.67\" x2=\"384\" y2=\"84.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"84.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.4</text><line x1=\"64\" y1=\"68\" x2=\"384\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"51.33\" x2=\"384\" y2=\"51.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"51.33\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.5</text><line x1=\"64\" y1=\"34.67\" x2=\"384\" y2=\"34.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"384\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.6</text><line x1=\"64\" y1=\"18\" x2=\"64\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"218\" x2=\"64\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"64\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"96\" y1=\"18\" x2=\"96\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"96\" y1=\"218\" x2=\"96\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"96\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"128\" y1=\"18\" x2=\"128\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"128\" y1=\"218\" x2=\"128\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"128\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">40</text><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"160\" y1=\"218\" x2=\"160\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"160\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"192\" y1=\"18\" x2=\"192\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"218\" x2=\"192\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"192\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">80</text><line x1=\"224\" y1=\"18\" x2=\"224\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"224\" y1=\"218\" x2=\"224\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"224\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"256\" y1=\"18\" x2=\"256\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"256\" y1=\"218\" x2=\"256\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"256\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">120</text><line x1=\"288\" y1=\"18\" x2=\"288\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"218\" x2=\"288\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"288\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"320\" y1=\"218\" x2=\"320\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"320\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">160</text><line x1=\"352\" y1=\"18\" x2=\"352\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"352\" y1=\"218\" x2=\"352\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"352\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"384\" y1=\"18\" x2=\"384\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"384\" y1=\"218\" x2=\"384\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"384\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">200</text><line x1=\"64\" y1=\"14\" x2=\"64\" y2=\"218\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"218\" x2=\"384\" y2=\"218\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"96,68 128,118 160,84.67 192,101.33 224,94.67 256,106.89 288,101.33 320,105.5 352,105.04 384,104.67\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"68\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"128\" cy=\"118\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"160\" cy=\"84.67\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"192\" cy=\"101.33\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"224\" cy=\"94.67\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"256\" cy=\"106.89\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"288\" cy=\"101.33\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"320\" cy=\"105.5\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"352\" cy=\"105.04\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"384\" cy=\"104.67\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"224\" y=\"254\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of drops</text><text x=\"16\" y=\"118\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 16 118)\">Relative frequency (on its feet)</text></svg>",
+      "alt": "Line graph of the relative frequency of the toy landing on its feet against the number of drops, plotted every 20 drops: 20 drops: 0.45; 40 drops: 0.30; 60 drops: 0.40; 80 drops: 0.35; 100 drops: 0.37; 120 drops: 0.33; 140 drops: 0.35; 160 drops: 0.34; 180 drops: 0.34; 200 drops: 0.34. The line jumps between about 0.30 and 0.45 at first, then levels off close to 0.34."
+    },
+    "prompt": "Which statement best describes what the graph shows?",
+    "options": [
+      { "id": "a", "text": "The relative frequency changed a lot at first, then settled down close to 0.34." },
+      { "id": "b", "text": "The toy became more likely to land on its feet the more times it was dropped." },
+      { "id": "c", "text": "The relative frequency after 20 drops is the best estimate, because it came first." },
+      { "id": "d", "text": "The relative frequency will end up at exactly 0.5, because there are two outcomes." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The graph doesn't climb steadily upwards. It jumps around at first, then levels off.",
+      "c": "Estimates based on more trials are more reliable. 20 drops is the fewest trials of all.",
+      "d": "The two outcomes aren't equally likely, so there's no reason to expect 0.5. The graph levels off well below 0.5."
+    },
+    "hints": ["Compare how much the graph moves for the first few points with how much it moves for the last few points."],
+    "solution": "With only a few drops, the relative frequency jumped around between 0.30 and 0.45. As the number of drops increased, it settled down close to $\\frac{68}{200} = 0.34$. This is the **Law of Large Numbers**: with more trials, the relative frequency tends to settle down close to the true probability."
+  },
+  {
+    "id": "m9.pro.experimental.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.pro.experimental.g1",
+    "part": "b",
+    "stem": "Mateo dropped a small plastic toy kiwi onto the floor 200 times and recorded whether it landed **on its feet**. After every 20 drops, he worked out the relative frequency of landing on its feet so far. The graph shows his results. After all 200 drops, the toy had landed on its feet 68 times.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 268\" width=\"404\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"64\" y1=\"218\" x2=\"384\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"218\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.0</text><line x1=\"64\" y1=\"201.33\" x2=\"384\" y2=\"201.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"184.67\" x2=\"384\" y2=\"184.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"184.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.1</text><line x1=\"64\" y1=\"168\" x2=\"384\" y2=\"168\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"151.33\" x2=\"384\" y2=\"151.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"151.33\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.2</text><line x1=\"64\" y1=\"134.67\" x2=\"384\" y2=\"134.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"118\" x2=\"384\" y2=\"118\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"118\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.3</text><line x1=\"64\" y1=\"101.33\" x2=\"384\" y2=\"101.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"84.67\" x2=\"384\" y2=\"84.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"84.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.4</text><line x1=\"64\" y1=\"68\" x2=\"384\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"51.33\" x2=\"384\" y2=\"51.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"51.33\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.5</text><line x1=\"64\" y1=\"34.67\" x2=\"384\" y2=\"34.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"384\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.6</text><line x1=\"64\" y1=\"18\" x2=\"64\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"218\" x2=\"64\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"64\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"96\" y1=\"18\" x2=\"96\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"96\" y1=\"218\" x2=\"96\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"96\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"128\" y1=\"18\" x2=\"128\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"128\" y1=\"218\" x2=\"128\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"128\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">40</text><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"160\" y1=\"218\" x2=\"160\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"160\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"192\" y1=\"18\" x2=\"192\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"218\" x2=\"192\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"192\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">80</text><line x1=\"224\" y1=\"18\" x2=\"224\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"224\" y1=\"218\" x2=\"224\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"224\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"256\" y1=\"18\" x2=\"256\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"256\" y1=\"218\" x2=\"256\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"256\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">120</text><line x1=\"288\" y1=\"18\" x2=\"288\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"218\" x2=\"288\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"288\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"320\" y1=\"218\" x2=\"320\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"320\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">160</text><line x1=\"352\" y1=\"18\" x2=\"352\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"352\" y1=\"218\" x2=\"352\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"352\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"384\" y1=\"18\" x2=\"384\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"384\" y1=\"218\" x2=\"384\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"384\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">200</text><line x1=\"64\" y1=\"14\" x2=\"64\" y2=\"218\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"218\" x2=\"384\" y2=\"218\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"96,68 128,118 160,84.67 192,101.33 224,94.67 256,106.89 288,101.33 320,105.5 352,105.04 384,104.67\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"68\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"128\" cy=\"118\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"160\" cy=\"84.67\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"192\" cy=\"101.33\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"224\" cy=\"94.67\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"256\" cy=\"106.89\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"288\" cy=\"101.33\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"320\" cy=\"105.5\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"352\" cy=\"105.04\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"384\" cy=\"104.67\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"224\" y=\"254\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of drops</text><text x=\"16\" y=\"118\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 16 118)\">Relative frequency (on its feet)</text></svg>",
+      "alt": "Line graph of the relative frequency of the toy landing on its feet against the number of drops, plotted every 20 drops: 20 drops: 0.45; 40 drops: 0.30; 60 drops: 0.40; 80 drops: 0.35; 100 drops: 0.37; 120 drops: 0.33; 140 drops: 0.35; 160 drops: 0.34; 180 drops: 0.34; 200 drops: 0.34. The line jumps between about 0.30 and 0.45 at first, then levels off close to 0.34."
+    },
+    "prompt": "Use Mateo's results to estimate how many times the toy would land on its feet if it were dropped 500 times.",
+    "answer": 170,
+    "hints": ["Use the relative frequency from all 200 drops.", "Multiply it by 500."],
+    "solution": "Relative frequency $= \\frac{68}{200} = 0.34$\n\nEstimate $= 0.34 \\times 500 = 170$ times\n\nThis is only an estimate: if the toy really were dropped 500 times, the actual number would vary."
+  },
+  {
+    "id": "m9.pro.experimental.q012",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.pro.experimental.g1",
+    "part": "c",
+    "stem": "Mateo dropped a small plastic toy kiwi onto the floor 200 times and recorded whether it landed **on its feet**. After every 20 drops, he worked out the relative frequency of landing on its feet so far. The graph shows his results. After all 200 drops, the toy had landed on its feet 68 times.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 268\" width=\"404\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"64\" y1=\"218\" x2=\"384\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"218\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.0</text><line x1=\"64\" y1=\"201.33\" x2=\"384\" y2=\"201.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"184.67\" x2=\"384\" y2=\"184.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"184.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.1</text><line x1=\"64\" y1=\"168\" x2=\"384\" y2=\"168\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"151.33\" x2=\"384\" y2=\"151.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"151.33\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.2</text><line x1=\"64\" y1=\"134.67\" x2=\"384\" y2=\"134.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"118\" x2=\"384\" y2=\"118\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"118\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.3</text><line x1=\"64\" y1=\"101.33\" x2=\"384\" y2=\"101.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"84.67\" x2=\"384\" y2=\"84.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"84.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.4</text><line x1=\"64\" y1=\"68\" x2=\"384\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"51.33\" x2=\"384\" y2=\"51.33\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"51.33\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.5</text><line x1=\"64\" y1=\"34.67\" x2=\"384\" y2=\"34.67\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"384\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"56\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.6</text><line x1=\"64\" y1=\"18\" x2=\"64\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"64\" y1=\"218\" x2=\"64\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"64\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"96\" y1=\"18\" x2=\"96\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"96\" y1=\"218\" x2=\"96\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"96\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"128\" y1=\"18\" x2=\"128\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"128\" y1=\"218\" x2=\"128\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"128\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">40</text><line x1=\"160\" y1=\"18\" x2=\"160\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"160\" y1=\"218\" x2=\"160\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"160\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"192\" y1=\"18\" x2=\"192\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"218\" x2=\"192\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"192\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">80</text><line x1=\"224\" y1=\"18\" x2=\"224\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"224\" y1=\"218\" x2=\"224\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"224\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"256\" y1=\"18\" x2=\"256\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"256\" y1=\"218\" x2=\"256\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"256\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">120</text><line x1=\"288\" y1=\"18\" x2=\"288\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"218\" x2=\"288\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"288\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"320\" y1=\"218\" x2=\"320\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"320\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">160</text><line x1=\"352\" y1=\"18\" x2=\"352\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"352\" y1=\"218\" x2=\"352\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"352\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\"></text><line x1=\"384\" y1=\"18\" x2=\"384\" y2=\"218\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"384\" y1=\"218\" x2=\"384\" y2=\"223\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"384\" y=\"233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">200</text><line x1=\"64\" y1=\"14\" x2=\"64\" y2=\"218\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"218\" x2=\"384\" y2=\"218\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"96,68 128,118 160,84.67 192,101.33 224,94.67 256,106.89 288,101.33 320,105.5 352,105.04 384,104.67\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"68\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"128\" cy=\"118\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"160\" cy=\"84.67\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"192\" cy=\"101.33\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"224\" cy=\"94.67\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"256\" cy=\"106.89\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"288\" cy=\"101.33\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"320\" cy=\"105.5\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"352\" cy=\"105.04\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"384\" cy=\"104.67\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"224\" y=\"254\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of drops</text><text x=\"16\" y=\"118\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 16 118)\">Relative frequency (on its feet)</text></svg>",
+      "alt": "Line graph of the relative frequency of the toy landing on its feet against the number of drops, plotted every 20 drops: 20 drops: 0.45; 40 drops: 0.30; 60 drops: 0.40; 80 drops: 0.35; 100 drops: 0.37; 120 drops: 0.33; 140 drops: 0.35; 160 drops: 0.34; 180 drops: 0.34; 200 drops: 0.34. The line jumps between about 0.30 and 0.45 at first, then levels off close to 0.34."
+    },
+    "prompt": "Ella says, \"The probability of the toy landing on its feet must be $\\frac{1}{2}$, because it either lands on its feet or it doesn't.\"\n\nExplain why Ella is wrong, and give the best estimate of the probability.",
+    "modelAnswer": "Ella is wrong because the two outcomes are not equally likely. The toy's shape and weight make some ways of landing more likely than others, so you can't find the probability by counting outcomes. It can only be estimated by experiment. The best estimate uses all of Mateo's trials: $\\frac{68}{200} = 0.34$.",
+    "rubric": [
+      { "criterion": "Explains that the two outcomes are not equally likely, so the probability can't be found by counting outcomes", "marks": 1 },
+      { "criterion": "Gives the best estimate as 68/200 = 0.34, using all 200 trials", "marks": 1 }
+    ],
+    "hints": ["You can only find a probability by counting outcomes when the outcomes are equally likely.", "Which estimate uses the most trials?"],
+    "solution": "$\\frac{1}{2}$ would only be right if the two outcomes were equally likely, and they aren't: the toy's shape affects how it lands. So the probability has to be estimated by experiment. The best estimate uses all 200 drops: $\\frac{68}{200} = 0.34$."
+  },
+  {
+    "id": "m9.pro.experimental.q013",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "m9.pro.experimental.g2",
+    "part": "a",
+    "stem": "Each box of a breakfast cereal contains one of 4 different collector cards, and each card is equally likely. Ruby's class wants to estimate how many boxes you might need to buy to collect all 4 cards. This is hard to work out with theory, so they decide to use a **simulation**.",
+    "prompt": "Which would be a suitable way to simulate opening one box of the cereal?",
+    "options": [
+      { "id": "a", "text": "Spin a spinner with 4 equal sections, numbered 1 to 4" },
+      { "id": "b", "text": "Toss a coin, and record heads or tails" },
+      { "id": "c", "text": "Roll a normal six-sided die, and record the number" },
+      { "id": "d", "text": "Spin a spinner with 4 sections of different sizes" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A coin only has 2 outcomes, but there are 4 different cards.",
+      "c": "A die has 6 equally likely numbers, but there are only 4 cards. (It would work if you rolled again whenever you got a 5 or a 6.)",
+      "d": "The cards are equally likely, so the sections must all be the same size."
+    },
+    "hints": ["The simulation needs 4 outcomes that are equally likely."],
+    "solution": "Each box contains one of 4 equally likely cards, so the simulation needs 4 equally likely outcomes. A spinner with 4 equal sections works: each number stands for one card. (A four-sided die would also work.)"
+  },
+  {
+    "id": "m9.pro.experimental.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.pro.experimental.g2",
+    "part": "b",
+    "stem": "Each box of a breakfast cereal contains one of 4 different collector cards, and each card is equally likely. Ruby's class wants to estimate how many boxes you might need to buy to collect all 4 cards. This is hard to work out with theory, so they decide to use a **simulation**.",
+    "prompt": "The class ran the simulation 20 times. Each result is the number of boxes needed to collect all 4 cards:\n\n5, 7, 4, 9, 6, 8, 12, 5, 7, 10, 6, 4, 8, 15, 7, 6, 9, 5, 11, 7\n\nUse these results to estimate the probability of needing **more than 8** boxes. Give your answer as a fraction or a decimal.",
+    "answer": 0.3,
+    "hints": ["Count the results that are greater than 8. Be careful: 8 itself is not more than 8.", "Relative frequency = (number of times it happened) ÷ (number of trials)."],
+    "solution": "The results that are more than 8 are 9, 12, 10, 15, 9 and 11, which is 6 of the 20 trials.\n\nEstimated probability $= \\frac{6}{20} = 0.3$"
+  },
+  {
+    "id": "m9.pro.experimental.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "m9.pro.experimental.g2",
+    "part": "c",
+    "stem": "Each box of a breakfast cereal contains one of 4 different collector cards, and each card is equally likely. Ruby's class wants to estimate how many boxes you might need to buy to collect all 4 cards. This is hard to work out with theory, so they decide to use a **simulation**.",
+    "prompt": "The class used the results of 20 runs of their simulation to estimate the probability of needing more than 8 boxes. Hemi says, \"Now we know the exact probability.\"\n\nExplain why their answer is only an estimate, and describe how the class could get a more reliable estimate.",
+    "modelAnswer": "Their answer comes from only 20 trials. Simulation results vary by chance, so if the class ran another 20 trials they would probably get a different relative frequency, such as 0.25 or 0.4. To get a more reliable estimate, they should run many more trials, for example by having every group in the class do 20 runs and combining all the results (or by using a computer to do 1000 runs). By the Law of Large Numbers, the relative frequency from a large number of trials tends to be closer to the true probability.",
+    "rubric": [
+      { "criterion": "Explains that 20 trials is a small number and results vary by chance, so another 20 trials would probably give a different value", "marks": 1 },
+      { "criterion": "Describes doing many more trials (e.g. combining the whole class's results, or using a computer)", "marks": 1 },
+      { "criterion": "Explains that with more trials, the relative frequency tends to get closer to the true probability (Law of Large Numbers)", "marks": 1 }
+    ],
+    "hints": ["Would another 20 runs give exactly the same results?", "What happens to the relative frequency as the number of trials gets bigger?"],
+    "solution": "A relative frequency from 20 trials is an **estimate**: repeating the 20 trials would give a different result because of chance. Running many more trials (for example, combining every group's results to get several hundred) gives a more reliable estimate, because the relative frequency tends to settle closer to the true probability as the number of trials increases. This is the Law of Large Numbers."
+  },
+  {
+    "id": "m9.pro.experimental.q016",
+    "type": "cloze",
+    "difficulty": 1,
+    "marks": 1,
+    "prompt": "In an experiment, each single go (such as one roll of a die) is called a [[a]]. Using a model, such as a spinner or a die, to imitate a real situation is called a [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["trial"], "options": ["trial", "outcome", "event", "sample space"] },
+      { "id": "b", "accepted": ["simulation"], "options": ["simulation", "trial", "sample space", "relative frequency"] }
+    ],
+    "hints": ["One roll, one toss or one spin is one of these."],
+    "solution": "Each single go is a **trial**. A **simulation** uses a model (like a spinner, a die or random numbers) that has the same probabilities as the real situation."
+  },
+  {
+    "id": "m9.pro.experimental.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "marks": 1,
+    "prompt": "Mia rolls a fair six-sided die 6 times. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "She might get no 6s, one 6, or more than one 6." },
+      { "id": "b", "text": "She will definitely get exactly one 6, because $P(6) = \\frac{1}{6}$." },
+      { "id": "c", "text": "She can't get a 6 more than once in only 6 rolls." },
+      { "id": "d", "text": "She will definitely get a 6 on her last roll if she hasn't had one yet." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "One 6 is the number you would **expect** on average, but results vary. Each roll is random.",
+      "c": "Each roll is independent, so a 6 can come up any number of times.",
+      "d": "The die has no memory. The last roll still has a probability of $\\frac{1}{6}$ of being a 6."
+    },
+    "hints": ["Is the expected number of 6s the same as the number she will definitely get?"],
+    "solution": "The **expected** number of 6s is $\\frac{1}{6} \\times 6 = 1$, but that is an average over many sets of 6 rolls. In any one set of 6 rolls, she could get no 6s, one 6, or several. The results of experiments vary."
+  },
+  {
+    "id": "m9.pro.experimental.q018",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "prompt": "The weather forecast says there is a 70% chance of rain tomorrow in Hamilton. Tomorrow it doesn't rain. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "The forecast wasn't necessarily wrong: on about 3 in every 10 days like this, it doesn't rain." },
+      { "id": "b", "text": "The forecast was wrong, because a 70% chance of rain means that it will rain." },
+      { "id": "c", "text": "The forecast was wrong, because it should have said there was a 0% chance of rain." },
+      { "id": "d", "text": "A 70% chance of rain means it will rain for 70% of the day, so the forecast was wrong." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "70% means rain is likely, not certain. There is still a 30% chance that it won't rain.",
+      "c": "A forecast is made before the day happens, so it can't be certain. It gives the chance based on similar conditions in the past.",
+      "d": "70% is the probability that it rains, not the fraction of the day that it rains for."
+    },
+    "hints": ["What is the probability that it does **not** rain?", "Think about many different days that all had a 70% chance of rain forecast."],
+    "solution": "A 70% chance means that on days like this it rains about 7 times out of 10, so it **doesn't** rain about 3 times out of 10. One dry day doesn't show the forecast was wrong. To check a forecaster, you would need to look at many days that had a 70% forecast."
+  },
+  {
+    "id": "m9.pro.experimental.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "prompt": "Four groups each rolled a fair die 30 times and counted how many 6s they got. Their results were 3, 7, 5 and 6. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "Results naturally vary from one set of trials to another, even with fair dice." },
+      { "id": "b", "text": "The group that got 3 must have an unfair die, because 3 is far below 5." },
+      { "id": "c", "text": "The group that got 7 must have made a mistake when recording their results." },
+      { "id": "d", "text": "Only the group that got exactly 5 sixes did the experiment properly." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Getting 3 instead of the expected 5 in 30 rolls is quite normal chance variation.",
+      "c": "7 sixes in 30 rolls can easily happen by chance.",
+      "d": "5 is the expected number, but the other results are also normal for a fair die."
+    },
+    "hints": ["How many 6s would you expect in 30 rolls?", "Would you expect every group to get exactly the expected number?"],
+    "solution": "The expected number of 6s in 30 rolls is $\\frac{1}{6} \\times 30 = 5$. Results vary between sets of trials because of chance, so 3, 7, 5 and 6 are all normal. Combining the results gives a better estimate: $3 + 7 + 5 + 6 = 21$ sixes in 120 rolls, a relative frequency of $\\frac{21}{120} = 0.175$, which is close to $\\frac{1}{6} \\approx 0.167$."
+  },
+  {
+    "id": "m9.pro.experimental.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "prompt": "At a café, each coffee has a 1 in 6 chance of coming with a free cookie, at random. Tevita wants to simulate how many coffees a customer buys until they get a free cookie. Which simulation is suitable?",
+    "options": [
+      { "id": "a", "text": "Roll a die until it shows a 6, and count how many rolls it takes" },
+      { "id": "b", "text": "Toss a coin until it shows a head, and count how many tosses it takes" },
+      { "id": "c", "text": "Roll a die once, and record the number that it shows" },
+      { "id": "d", "text": "Spin a spinner with 5 equal sections until it lands on 1, and count the spins" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A head has a probability of $\\frac{1}{2}$, but a free cookie has a probability of $\\frac{1}{6}$.",
+      "c": "One roll doesn't show how many coffees it takes to get a cookie.",
+      "d": "Landing on 1 has a probability of $\\frac{1}{5}$, not $\\frac{1}{6}$."
+    },
+    "hints": ["Each trial (one coffee) should have a $\\frac{1}{6}$ chance of a free cookie.", "The simulation must keep going until the cookie comes up."],
+    "solution": "Each coffee has a $\\frac{1}{6}$ chance of a free cookie, just like rolling a 6. Rolling until a 6 comes up, and counting the rolls, models the number of coffees until a free cookie. Repeating this many times gives an estimate of what usually happens."
+  },
+  {
+    "id": "m9.pro.experimental.q021",
+    "type": "multi",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Select **all** the probabilities that can only be estimated using an experiment or data, and can't be worked out from equally likely outcomes.",
+    "options": [
+      { "id": "a", "text": "The probability that a Year 9 student at your school is left-handed" },
+      { "id": "b", "text": "The probability that a piece of buttered toast lands butter-side down when dropped" },
+      { "id": "c", "text": "The probability of rolling an even number on a fair die" },
+      { "id": "d", "text": "The probability that a netball player scores with her next shot at goal" },
+      { "id": "e", "text": "The probability of taking a red marble from a bag of 3 red and 7 blue marbles" }
+    ],
+    "correct": ["a", "b", "d"],
+    "hints": ["For each one, ask: are there equally likely outcomes that I could count?"],
+    "solution": "For A, B and D there are no equally likely outcomes to count, so the probability has to be estimated from data or an experiment (surveying students, dropping toast many times, or the player's past shooting record).\n\nFor C ($\\frac{3}{6}$) and E ($\\frac{3}{10}$), the outcomes are equally likely, so the theoretical probability can be calculated."
+  },
+  {
+    "id": "m9.pro.experimental.q022",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Four groups each tossed the same coin 50 times. Their numbers of heads were 31, 28, 33 and 30.\n\nDo these results suggest that the coin is biased? Explain, using the results.",
+    "modelAnswer": "For a fair coin we would expect about 25 heads in each set of 50 tosses. Every group got more than 25 (between 28 and 33), so the results were high every time. Combining the results gives 31 + 28 + 33 + 30 = 122 heads in 200 tosses, a relative frequency of 122 ÷ 200 = 0.61, which is well above 0.5. One set of 50 could be high just by chance, but all four sets being high, with 200 tosses altogether, suggests that the coin may be biased towards heads. Tossing it many more times would make us more confident.",
+    "rubric": [
+      { "criterion": "Compares with the expected 25 heads per set of 50 (or 100 heads in 200 tosses), noting that every set was higher", "marks": 1 },
+      { "criterion": "Combines the results: 122 heads in 200 tosses, a relative frequency of 0.61", "marks": 1 },
+      { "criterion": "Concludes that this suggests the coin is biased towards heads, with appropriate caution (e.g. more tosses would make us more confident)", "marks": 1 }
+    ],
+    "hints": ["How many heads would you expect in 50 tosses of a fair coin?", "Combine all four groups' results and find the relative frequency of heads."],
+    "solution": "Expected: about 25 heads in each set of 50 tosses. All four groups got more (28 to 33).\n\nCombined: $31 + 28 + 33 + 30 = 122$ heads in 200 tosses, so the relative frequency is $\\frac{122}{200} = 0.61$.\n\nAfter this many tosses, a fair coin would usually give a relative frequency much closer to 0.5, so the results **suggest the coin is biased** towards heads. More tosses would make the conclusion more certain."
+  },
+  {
+    "id": "m9.pro.experimental.q023",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A bag contains 20 counters. Some are red and the rest are white. Mia takes a counter at random, records its colour and puts it back. She does this 50 times, and gets a red counter 15 times.\n\nMia then adds 10 more red counters to the bag. Estimate the probability of now taking a red counter. Give your answer as a fraction.",
+    "answer": 0.5333333333333333,
+    "hints": ["Use the relative frequency to estimate how many of the 20 counters are red.", "After adding the 10 red counters, how many counters are red, and how many counters are in the bag altogether?"],
+    "solution": "Relative frequency of red $= \\frac{15}{50} = 0.3$, so about $0.3 \\times 20 = 6$ of the 20 counters are red.\n\nAfter adding 10 red counters there are about $6 + 10 = 16$ red counters, out of $20 + 10 = 30$ counters altogether.\n\nEstimated $P(\\text{red}) = \\frac{16}{30} = \\frac{8}{15}$ (about 0.53)"
+  },
+  {
+    "id": "m9.pro.experimental.q024",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A fair coin is tossed. Which is more likely: getting between 40% and 60% heads (including 40% and 60%) in **10** tosses, or getting between 40% and 60% heads in **100** tosses?",
+    "options": [
+      { "id": "a", "text": "Getting between 40% and 60% heads in 100 tosses" },
+      { "id": "b", "text": "Getting between 40% and 60% heads in 10 tosses" },
+      { "id": "c", "text": "They are equally likely, because the coin is fair both times" },
+      { "id": "d", "text": "You can't tell which is more likely without tossing the coin" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "With only 10 tosses, the results swing around a lot: 2 or 8 heads (20% or 80%) happen quite often. With more tosses, the proportion of heads is less likely to be far from 50%.",
+      "c": "The coin is fair both times, but the proportion of heads varies much more when there are fewer tosses.",
+      "d": "You can reason about it using the Law of Large Numbers: with more tosses, the proportion of heads tends to be closer to 50%."
+    },
+    "hints": ["Think about the Law of Large Numbers.", "Is it more unusual to get only 20% heads in 10 tosses, or in 100 tosses?"],
+    "solution": "By the **Law of Large Numbers**, the more trials you do, the closer the relative frequency tends to be to the true probability (0.5 here). So the proportion of heads is more likely to be between 40% and 60% in 100 tosses than in 10 tosses. In fact, it happens about 66% of the time with 10 tosses, but about 96% of the time with 100 tosses."
   }
 ]

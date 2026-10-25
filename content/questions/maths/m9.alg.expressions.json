@@ -197,5 +197,278 @@
       "Write $2(3x + 2) + 2(x - 1)$, then expand and collect like terms."
     ],
     "solution": "Perimeter $= 2(3x + 2) + 2(x - 1)$\n\n$= 6x + 4 + 2x - 2$\n\n$= 8x + 2$ cm\n\nYou could also add all four sides: $(3x + 2) + (x - 1) + (3x + 2) + (x - 1) = 8x + 2$."
+  },
+  {
+    "id": "m9.alg.expressions.q012",
+    "type": "expression",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.expressions.g1",
+    "part": "a",
+    "stem": "In an **algebra wall**, each brick is the sum of the two bricks directly below it. The bottom row of this wall is $x$, $x + 3$ and $2x - 1$.",
+    "prompt": "Write a simplified expression for the brick directly above $x$ and $x + 3$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 152\" width=\"370\" height=\"152\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"130\" y=\"16\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"75\" y=\"56\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"185\" y=\"56\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"20\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"75\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\"><tspan font-style=\"italic\">x</tspan></text><rect x=\"130\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"185\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\"><tspan font-style=\"italic\">x</tspan> + 3</text><rect x=\"240\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"295\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\">2<tspan font-style=\"italic\">x</tspan> − 1</text></svg>",
+      "alt": "An algebra wall with three rows. The bottom row has three bricks labelled x, x + 3 and 2x − 1. The middle row has two empty bricks and the top row has one empty brick."
+    },
+    "answer": "2*x + 3",
+    "variables": ["x"],
+    "form": "simplified",
+    "hints": ["Add the two bricks underneath: $x + (x + 3)$.", "Collect the $x$ terms. The 3 has no $x$, so it stays separate."],
+    "solution": "The brick above $x$ and $x + 3$ is their sum:\n\n$x + (x + 3) = 2x + 3$\n\nThe $x$ terms are like terms ($x + x = 2x$), but the 3 is a constant, so it can't be combined with them."
+  },
+  {
+    "id": "m9.alg.expressions.q013",
+    "type": "expression",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.expressions.g1",
+    "part": "b",
+    "stem": "In an **algebra wall**, each brick is the sum of the two bricks directly below it. The bottom row of this wall is $x$, $x + 3$ and $2x - 1$.",
+    "prompt": "Write an expression for the top brick of the wall. Collect like terms, so your answer is in the form $ax + b$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 152\" width=\"370\" height=\"152\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"130\" y=\"16\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"75\" y=\"56\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"185\" y=\"56\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"20\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"75\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\"><tspan font-style=\"italic\">x</tspan></text><rect x=\"130\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"185\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\"><tspan font-style=\"italic\">x</tspan> + 3</text><rect x=\"240\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"295\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\">2<tspan font-style=\"italic\">x</tspan> − 1</text></svg>",
+      "alt": "An algebra wall with three rows. The bottom row has three bricks labelled x, x + 3 and 2x − 1. The middle row has two empty bricks and the top row has one empty brick."
+    },
+    "answer": "5*x + 5",
+    "variables": ["x"],
+    "form": "simplified",
+    "hints": ["First fill in both bricks in the middle row.", "The middle bricks are $x + (x + 3)$ and $(x + 3) + (2x - 1)$. Simplify each one, then add them."],
+    "solution": "Middle row:\n\n$x + (x + 3) = 2x + 3$\n\n$(x + 3) + (2x - 1) = 3x + 2$\n\nTop brick:\n\n$(2x + 3) + (3x + 2) = 5x + 5$\n\nCheck with $x = 1$: the bottom row is 1, 4, 1, the middle row is 5, 5 and the top is 10. $5 \\times 1 + 5 = 10$ ✓"
+  },
+  {
+    "id": "m9.alg.expressions.q014",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.expressions.g1",
+    "part": "c",
+    "stem": "In an **algebra wall**, each brick is the sum of the two bricks directly below it. The bottom row of this wall is $x$, $x + 3$ and $2x - 1$.",
+    "prompt": "Mere says that when $x$ is a whole number, the top brick is always a multiple of 5. Use algebra to show that she is right.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 152\" width=\"370\" height=\"152\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"130\" y=\"16\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"75\" y=\"56\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"185\" y=\"56\" width=\"110\" height=\"40\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"20\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"75\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\"><tspan font-style=\"italic\">x</tspan></text><rect x=\"130\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"185\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\"><tspan font-style=\"italic\">x</tspan> + 3</text><rect x=\"240\" y=\"96\" width=\"110\" height=\"40\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"295\" y=\"117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"17\" fill=\"#1f2937\">2<tspan font-style=\"italic\">x</tspan> − 1</text></svg>",
+      "alt": "An algebra wall with three rows. The bottom row has three bricks labelled x, x + 3 and 2x − 1. The middle row has two empty bricks and the top row has one empty brick."
+    },
+    "modelAnswer": "The middle row is $x + (x + 3) = 2x + 3$ and $(x + 3) + (2x - 1) = 3x + 2$. The top brick is $(2x + 3) + (3x + 2) = 5x + 5$, which factorises to $5(x + 1)$. When $x$ is a whole number, $x + 1$ is also a whole number, so the top brick is 5 times a whole number. That means it is always a multiple of 5.",
+    "rubric": [
+      { "criterion": "Finds the top brick as $5x + 5$ (or an equivalent expression), with working", "marks": 1 },
+      { "criterion": "Writes it as $5(x + 1)$, or otherwise explains that it is 5 times a whole number, so always a multiple of 5", "marks": 1 }
+    ],
+    "hints": ["Find an expression for the top brick first.", "Can you take a common factor out of your expression?"],
+    "solution": "Middle row: $2x + 3$ and $3x + 2$. Top brick: $5x + 5$.\n\nFactorise: $5x + 5 = 5(x + 1)$.\n\nIf $x$ is a whole number, so is $x + 1$, and 5 times a whole number is a multiple of 5. So Mere is right.\n\nTrying some values ($x = 1$ gives 10, $x = 2$ gives 15) supports her claim, but only the algebra shows it works for **every** whole number."
+  },
+  {
+    "id": "m9.alg.expressions.q015",
+    "type": "expression",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.expressions.g2",
+    "part": "a",
+    "stem": "Ana shows her friends a number trick.\n\n1. Think of a number.\n2. Add 3.\n3. Multiply your answer by 4.\n4. Subtract 12.\n5. Divide by 4.\n\nLet $n$ be the number you think of.",
+    "prompt": "Write an expression for the result after step 3.",
+    "answer": "4*(n + 3)",
+    "variables": ["n"],
+    "hints": ["After step 2 you have $n + 3$.", "The **whole** of $n + 3$ is multiplied by 4, so it needs brackets."],
+    "solution": "After step 2: $n + 3$\n\nAfter step 3, the whole of $n + 3$ is multiplied by 4: $4(n + 3)$, which expands to $4n + 12$.\n\nWriting $4n + 3$ would be wrong, because then only the $n$ has been multiplied by 4."
+  },
+  {
+    "id": "m9.alg.expressions.q016",
+    "type": "expression",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.expressions.g2",
+    "part": "b",
+    "stem": "Ana shows her friends a number trick.\n\n1. Think of a number.\n2. Add 3.\n3. Multiply your answer by 4.\n4. Subtract 12.\n5. Divide by 4.\n\nLet $n$ be the number you think of.",
+    "prompt": "Write a **simplified** expression for the result after step 4.",
+    "answer": "4*n",
+    "variables": ["n"],
+    "form": "simplified",
+    "hints": ["Start with your expression for step 3 and subtract 12.", "Expand the bracket first, then collect like terms."],
+    "solution": "After step 3: $4(n + 3) = 4n + 12$\n\nAfter step 4: $4n + 12 - 12 = 4n$"
+  },
+  {
+    "id": "m9.alg.expressions.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.expressions.g2",
+    "part": "c",
+    "stem": "Ana shows her friends a number trick.\n\n1. Think of a number.\n2. Add 3.\n3. Multiply your answer by 4.\n4. Subtract 12.\n5. Divide by 4.\n\nLet $n$ be the number you think of.",
+    "prompt": "Ana says the trick always ends with the number you first thought of. Use algebra to explain why.",
+    "modelAnswer": "Start with $n$. After step 2 you have $n + 3$, and after step 3 you have $4(n + 3) = 4n + 12$. Subtracting 12 leaves $4n$, and dividing by 4 leaves $n$. So the final answer is always $n$, the number you started with, whatever $n$ is.",
+    "rubric": [
+      { "criterion": "Writes correct expressions for the steps, showing that $4(n + 3) - 12 = 4n$", "marks": 1 },
+      { "criterion": "Divides by 4 to get $n$ and explains that this works for any starting number", "marks": 1 }
+    ],
+    "hints": ["Follow each step using $n$ instead of a number.", "Expand $4(n + 3)$ before you subtract 12."],
+    "solution": "Step 1: $n$\n\nStep 2: $n + 3$\n\nStep 3: $4(n + 3) = 4n + 12$\n\nStep 4: $4n + 12 - 12 = 4n$\n\nStep 5: $4n \\div 4 = n$\n\nThe result is $n$, the number you started with. Because we used a letter, this shows it works for **every** starting number, not just the ones we tried."
+  },
+  {
+    "id": "m9.alg.expressions.q018",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the coefficient of $y$ in $4x - 7y + 2$?",
+    "options": [
+      { "id": "a", "text": "$-7$" },
+      { "id": "b", "text": "$7$" },
+      { "id": "c", "text": "$4$" },
+      { "id": "d", "text": "$2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The sign in front of a term belongs to it. The term is $-7y$, so the coefficient is $-7$.",
+      "c": "4 is the coefficient of $x$, not $y$.",
+      "d": "2 is the constant term. It has no letter."
+    },
+    "hints": ["The coefficient is the number multiplying the letter, including its sign."],
+    "solution": "The $y$ term is $-7y$, so the coefficient of $y$ is $-7$. The sign in front of a term always goes with it."
+  },
+  {
+    "id": "m9.alg.expressions.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which expression means **5 more than double $n$**?",
+    "options": [
+      { "id": "a", "text": "$2n + 5$" },
+      { "id": "b", "text": "$5n + 2$" },
+      { "id": "c", "text": "$2(n + 5)$" },
+      { "id": "d", "text": "$n^2 + 5$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is 5 lots of $n$, plus 2. Double $n$ means $2 \\times n$.",
+      "c": "This adds 5 first and then doubles. Here $n$ is doubled first, then 5 is added.",
+      "d": "Doubling means multiplying by 2. $n^2$ means $n \\times n$, which is squaring."
+    },
+    "hints": ["Double $n$ is $2 \\times n$.", "5 more than something means you add 5 to it."],
+    "solution": "Double $n$ is $2n$. Five more than that is $2n + 5$.\n\nCheck with $n = 10$: double 10 is 20, and 5 more is 25. $2 \\times 10 + 5 = 25$ ✓"
+  },
+  {
+    "id": "m9.alg.expressions.q020",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the expressions that are equivalent to $12x$.",
+    "options": [
+      { "id": "a", "text": "$3 \\times 4x$" },
+      { "id": "b", "text": "$7x + 5x$" },
+      { "id": "c", "text": "$12 + x$" },
+      { "id": "d", "text": "$6x \\times 2x$" },
+      { "id": "e", "text": "$15x - 3x$" },
+      { "id": "f", "text": "$4x + 8$" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Like terms can be added or subtracted. Unlike terms can't.", "What is $x \\times x$?"],
+    "solution": "$3 \\times 4x = 12x$ ✓, $7x + 5x = 12x$ ✓ and $15x - 3x = 12x$ ✓.\n\n$12 + x$ can't be simplified, because 12 and $x$ are unlike terms. $6x \\times 2x = 12x^2$, because $x \\times x = x^2$. $4x + 8$ can't be simplified either, because 8 has no $x$."
+  },
+  {
+    "id": "m9.alg.expressions.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Isla simplified $8x - 3(x - 2)$ like this:\n\n$8x - 3x - 6$\n\n$= 5x - 6$\n\nWhere did she go wrong?",
+    "options": [
+      { "id": "a", "text": "$-3 \\times -2$ should be $+6$, giving $5x + 6$" },
+      { "id": "b", "text": "She should work out $8x - 3$ first, giving $5x(x - 2)$" },
+      { "id": "c", "text": "She should add the $x$ terms, giving $11x - 6$" },
+      { "id": "d", "text": "Nothing: $5x - 6$ is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Multiplying comes before subtracting, so the $-3$ multiplies the bracket. Also, $8x$ and 3 are unlike terms, so $8x - 3$ isn't $5x$.",
+      "c": "The bracket is multiplied by $-3$, so the $x$ term is $-3x$, and $8x - 3x = 5x$. Her mistake is in the number term.",
+      "d": "Test $x = 0$: $8(0) - 3(0 - 2) = 6$, but $5(0) - 6 = -6$. The answers don't match."
+    },
+    "hints": ["The $-3$ multiplies **both** terms inside the bracket.", "What is $-3 \\times -2$?"],
+    "solution": "Expanding $-3(x - 2)$ gives $-3 \\times x = -3x$ and $-3 \\times -2 = +6$. A negative times a negative is positive.\n\n$8x - 3(x - 2) = 8x - 3x + 6 = 5x + 6$\n\nCheck with $x = 0$: $8(0) - 3(0 - 2) = 6$ and $5(0) + 6 = 6$ ✓"
+  },
+  {
+    "id": "m9.alg.expressions.q022",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is the correct factorisation of $10x + 5$?",
+    "options": [
+      { "id": "a", "text": "$5(2x + 1)$" },
+      { "id": "b", "text": "$5(2x)$" },
+      { "id": "c", "text": "$5(2x + 5)$" },
+      { "id": "d", "text": "$10(x + 5)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Expanding $5(2x)$ gives only $10x$. When you divide 5 by 5 you get 1, and the 1 must stay in the bracket.",
+      "c": "Expanding gives $10x + 25$. Every term must be divided by 5, including the 5.",
+      "d": "Expanding gives $10x + 50$. Also, 10 is not a factor of 5."
+    },
+    "hints": ["What is the highest common factor of $10x$ and 5?", "Divide **each** term by that factor. Check by expanding."],
+    "solution": "The HCF of $10x$ and 5 is 5. Dividing each term by 5: $10x \\div 5 = 2x$ and $5 \\div 5 = 1$.\n\nSo $10x + 5 = 5(2x + 1)$. Check: $5 \\times 2x + 5 \\times 1 = 10x + 5$ ✓"
+  },
+  {
+    "id": "m9.alg.expressions.q023",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A movie ticket costs $t$ dollars and a popcorn costs $p$ dollars. Four friends each buy one ticket and one popcorn. Which expression does **not** give the total cost in dollars?",
+    "options": [
+      { "id": "a", "text": "$4t + p$" },
+      { "id": "b", "text": "$4(t + p)$" },
+      { "id": "c", "text": "$4t + 4p$" },
+      { "id": "d", "text": "$t + p + t + p + t + p + t + p$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Each friend spends $t + p$, and there are 4 friends, so $4(t + p)$ is correct.",
+      "c": "4 tickets cost $4t$ and 4 popcorns cost $4p$, so this is correct.",
+      "d": "This adds up each friend's ticket and popcorn, so it is correct. It simplifies to $4t + 4p$."
+    },
+    "hints": ["How much does **one** friend spend?", "Check each expression: does it include 4 tickets **and** 4 popcorns?"],
+    "solution": "Each friend spends $t + p$ dollars, so four friends spend $4(t + p) = 4t + 4p$. Option d is the same total added up one friend at a time.\n\n$4t + p$ includes only **one** popcorn, so it doesn't give the total cost. This is the distributive property in action: the 4 multiplies both $t$ and $p$."
+  },
+  {
+    "id": "m9.alg.expressions.q024",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A rectangle is $(2x + 3)$ cm long and 4 cm wide. A square has sides of $(x + 5)$ cm.\n\nWhatever the value of $x$, the square's perimeter is longer than the rectangle's by the same amount. How much longer is it?",
+    "answer": 6,
+    "units": "cm",
+    "hints": ["Write a simplified expression for each perimeter.", "Subtract the rectangle's perimeter from the square's perimeter."],
+    "solution": "Rectangle: $P = 2(2x + 3) + 2 \\times 4 = 4x + 6 + 8 = 4x + 14$\n\nSquare: $P = 4(x + 5) = 4x + 20$\n\nDifference: $(4x + 20) - (4x + 14) = 6$\n\nThe $x$ terms cancel, so the square's perimeter is always **6 cm** longer. Check with $x = 1$: the rectangle is 5 cm by 4 cm (perimeter 18 cm) and the square has 6 cm sides (perimeter 24 cm). $24 - 18 = 6$ ✓"
+  },
+  {
+    "id": "m9.alg.expressions.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The expression $a(x + 4) - 3(x - 2)$ simplifies to $2x + 26$.\n\nFind the value of $a$.",
+    "answer": 5,
+    "hints": ["Expand both brackets. Be careful: $-3 \\times -2 = +6$.", "Compare the number of $x$'s on each side."],
+    "solution": "Expand: $a(x + 4) - 3(x - 2) = ax + 4a - 3x + 6$\n\nThe $x$ terms are $ax - 3x$, and they must make $2x$. So $a - 3 = 2$, which gives $a = 5$.\n\nCheck the number terms: $4a + 6 = 4 \\times 5 + 6 = 26$ ✓\n\nSo $5(x + 4) - 3(x - 2) = 5x + 20 - 3x + 6 = 2x + 26$."
+  },
+  {
+    "id": "m9.alg.expressions.q026",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Prove that the sum of any three consecutive whole numbers is always a multiple of 3.",
+    "modelAnswer": "Let the smallest number be $n$. Then the three consecutive numbers are $n$, $n + 1$ and $n + 2$. Their sum is $n + (n + 1) + (n + 2) = 3n + 3$. Taking out the common factor gives $3(n + 1)$. Since $n + 1$ is a whole number, the sum is 3 times a whole number, so it is always a multiple of 3.",
+    "rubric": [
+      { "criterion": "Writes the three numbers algebraically, e.g. $n$, $n + 1$ and $n + 2$", "marks": 1 },
+      { "criterion": "Adds them and simplifies to $3n + 3$", "marks": 1 },
+      { "criterion": "Factorises to $3(n + 1)$ and explains why this is always a multiple of 3", "marks": 1 }
+    ],
+    "hints": ["If the first number is $n$, what are the next two?", "Add them and simplify. Can you take out a common factor?"],
+    "solution": "Let the numbers be $n$, $n + 1$ and $n + 2$.\n\nSum $= n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1)$\n\nThis is 3 times a whole number, so it is always a multiple of 3. (In fact, it is 3 times the middle number.)\n\nShowing examples, like $4 + 5 + 6 = 15$, isn't a proof. Examples can't cover every case, but algebra can."
   }
 ]

@@ -383,5 +383,445 @@
     },
     "hints": ["Rain absorbs some carbon dioxide from the air. What does that make it?", "Limestone is calcium carbonate. What happens when an acid meets a carbonate?"],
     "solution": "Rain dissolves a little carbon dioxide from the air, so it is **slightly acidic**. Limestone is calcium carbonate, which reacts with acids, so over a very long time the water **dissolves** channels and caves through it. This is chemical weathering. Granite doesn't react with weak acid in the same way."
+  },
+  {
+    "id": "s9.earth.rocks.q026",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.earth.rocks.g1",
+    "part": "a",
+    "stem": "The diagram shows part of the rock cycle. The arrows labelled P to T are processes.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 255\" width=\"420\" height=\"255\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"160\" y=\"10\" width=\"100\" height=\"36\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"33\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sediment</text><rect x=\"300\" y=\"100\" width=\"115\" height=\"40\" rx=\"8\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"357.5\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sedimentary rock</text><rect x=\"285\" y=\"205\" width=\"130\" height=\"40\" rx=\"8\" fill=\"#ddd6fe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"350\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Metamorphic rock</text><rect x=\"35\" y=\"205\" width=\"100\" height=\"40\" rx=\"8\" fill=\"#fecaca\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"85\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Magma</text><rect x=\"5\" y=\"100\" width=\"105\" height=\"40\" rx=\"8\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"57.5\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Igneous rock</text><line x1=\"85\" y1=\"205\" x2=\"65\" y2=\"143\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"60\" cy=\"175\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">P</text><line x1=\"70\" y1=\"100\" x2=\"157\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"100\" cy=\"62\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"100\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Q</text><line x1=\"262\" y1=\"34\" x2=\"345\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"318\" cy=\"60\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"318\" y=\"65\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">R</text><line x1=\"355\" y1=\"140\" x2=\"352\" y2=\"203\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"370\" cy=\"172\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"370\" y=\"177\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">S</text><line x1=\"283\" y1=\"225\" x2=\"138\" y2=\"225\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"210\" cy=\"225\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">T</text></svg>",
+      "alt": "Rock cycle diagram with five boxes. Arrow P goes from magma to igneous rock. Arrow Q goes from igneous rock to sediment. Arrow R goes from sediment to sedimentary rock. Arrow S goes from sedimentary rock to metamorphic rock. Arrow T goes from metamorphic rock to magma."
+    },
+    "prompt": "Which arrow shows **melting**?",
+    "options": [
+      { "id": "p", "text": "P" },
+      { "id": "q", "text": "Q" },
+      { "id": "s", "text": "S" },
+      { "id": "t", "text": "T" }
+    ],
+    "correct": "t",
+    "shuffle": false,
+    "feedback": {
+      "p": "P goes from magma to igneous rock. That is the opposite of melting: the molten rock cools and hardens.",
+      "q": "Q breaks igneous rock down into sediment. That is weathering and erosion, not melting.",
+      "s": "S turns sedimentary rock into metamorphic rock by heat and pressure, but without melting it."
+    },
+    "hints": ["Melting makes molten rock. Which arrow points to magma?"],
+    "solution": "**T**: metamorphic rock heated enough to melt becomes magma."
+  },
+  {
+    "id": "s9.earth.rocks.q027",
+    "type": "match",
+    "difficulty": 3,
+    "groupId": "s9.earth.rocks.g1",
+    "part": "b",
+    "stem": "The diagram shows part of the rock cycle. The arrows labelled P to T are processes.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 255\" width=\"420\" height=\"255\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"160\" y=\"10\" width=\"100\" height=\"36\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"33\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sediment</text><rect x=\"300\" y=\"100\" width=\"115\" height=\"40\" rx=\"8\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"357.5\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sedimentary rock</text><rect x=\"285\" y=\"205\" width=\"130\" height=\"40\" rx=\"8\" fill=\"#ddd6fe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"350\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Metamorphic rock</text><rect x=\"35\" y=\"205\" width=\"100\" height=\"40\" rx=\"8\" fill=\"#fecaca\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"85\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Magma</text><rect x=\"5\" y=\"100\" width=\"105\" height=\"40\" rx=\"8\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"57.5\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Igneous rock</text><line x1=\"85\" y1=\"205\" x2=\"65\" y2=\"143\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"60\" cy=\"175\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">P</text><line x1=\"70\" y1=\"100\" x2=\"157\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"100\" cy=\"62\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"100\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Q</text><line x1=\"262\" y1=\"34\" x2=\"345\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"318\" cy=\"60\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"318\" y=\"65\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">R</text><line x1=\"355\" y1=\"140\" x2=\"352\" y2=\"203\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"370\" cy=\"172\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"370\" y=\"177\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">S</text><line x1=\"283\" y1=\"225\" x2=\"138\" y2=\"225\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"210\" cy=\"225\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">T</text></svg>",
+      "alt": "Rock cycle diagram with five boxes. Arrow P goes from magma to igneous rock. Arrow Q goes from igneous rock to sediment. Arrow R goes from sediment to sedimentary rock. Arrow S goes from sedimentary rock to metamorphic rock. Arrow T goes from metamorphic rock to magma."
+    },
+    "prompt": "Match each arrow to the process it shows.",
+    "pairs": [
+      { "left": { "id": "P", "text": "Arrow P" }, "right": { "id": "cool", "text": "Cooling and crystallising" } },
+      { "left": { "id": "Q", "text": "Arrow Q" }, "right": { "id": "weath", "text": "Weathering and erosion" } },
+      { "left": { "id": "R", "text": "Arrow R" }, "right": { "id": "comp", "text": "Compaction and cementation" } },
+      { "left": { "id": "S", "text": "Arrow S" }, "right": { "id": "heat", "text": "Heat and pressure" } }
+    ],
+    "hints": ["Sediment is made of small broken pieces of rock.", "Sedimentary rock forms when layers of sediment are squashed and stuck together."],
+    "solution": "P: magma **cools and crystallises** into igneous rock. Q: rock is broken down and carried away by **weathering and erosion**. R: sediment is **compacted and cemented** into sedimentary rock. S: **heat and pressure** change it into metamorphic rock."
+  },
+  {
+    "id": "s9.earth.rocks.q028",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.earth.rocks.g1",
+    "part": "c",
+    "stem": "The diagram shows part of the rock cycle. The arrows labelled P to T are processes.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 255\" width=\"420\" height=\"255\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"160\" y=\"10\" width=\"100\" height=\"36\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"33\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sediment</text><rect x=\"300\" y=\"100\" width=\"115\" height=\"40\" rx=\"8\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"357.5\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sedimentary rock</text><rect x=\"285\" y=\"205\" width=\"130\" height=\"40\" rx=\"8\" fill=\"#ddd6fe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"350\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Metamorphic rock</text><rect x=\"35\" y=\"205\" width=\"100\" height=\"40\" rx=\"8\" fill=\"#fecaca\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"85\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Magma</text><rect x=\"5\" y=\"100\" width=\"105\" height=\"40\" rx=\"8\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"57.5\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Igneous rock</text><line x1=\"85\" y1=\"205\" x2=\"65\" y2=\"143\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"60\" cy=\"175\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">P</text><line x1=\"70\" y1=\"100\" x2=\"157\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"100\" cy=\"62\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"100\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Q</text><line x1=\"262\" y1=\"34\" x2=\"345\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"318\" cy=\"60\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"318\" y=\"65\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">R</text><line x1=\"355\" y1=\"140\" x2=\"352\" y2=\"203\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"370\" cy=\"172\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"370\" y=\"177\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">S</text><line x1=\"283\" y1=\"225\" x2=\"138\" y2=\"225\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"210\" cy=\"225\" r=\"11\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"230\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">T</text></svg>",
+      "alt": "Rock cycle diagram with five boxes. Arrow P goes from magma to igneous rock. Arrow Q goes from igneous rock to sediment. Arrow R goes from sediment to sedimentary rock. Arrow S goes from sedimentary rock to metamorphic rock. Arrow T goes from metamorphic rock to magma."
+    },
+    "prompt": "Mt Taranaki is made of igneous rock that formed from lava. Describe how some of this rock could eventually become part of a **sedimentary** rock. Name the processes involved.",
+    "modelAnswer": "First the rock on the mountain is broken into small pieces by weathering, for example by freeze–thaw or by rainwater. Then the pieces are carried away by erosion, for example by rivers, down to the sea, where they are deposited in layers on the sea floor. Over a long time the layers are buried under more sediment, squashed (compacted) and stuck together (cemented) by minerals, forming sedimentary rock.",
+    "rubric": [
+      { "criterion": "Weathering breaks the igneous rock into small pieces (sediment)", "marks": 1 },
+      { "criterion": "Erosion carries the sediment away (e.g. by rivers) and it is deposited in layers", "marks": 1 },
+      { "criterion": "The layers are buried, compacted and cemented to form sedimentary rock", "marks": 1 }
+    ],
+    "hints": ["Follow arrows Q and R on the diagram.", "Name the process for each stage: breaking down, moving, and turning back into rock."],
+    "solution": "Weathering → erosion and deposition in layers → burial, compaction and cementation → sedimentary rock."
+  },
+  {
+    "id": "s9.earth.rocks.q029",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.earth.rocks.g2",
+    "part": "a",
+    "stem": "The Alpine Fault runs for about 600 km along the western side of the Southern Alps. It is part of the boundary between the Australian Plate and the Pacific Plate. Geologists have found evidence that it has produced a large earthquake roughly every 300 years. The last one was in 1717.",
+    "prompt": "In 2017, scientists marked an anniversary of the last large Alpine Fault earthquake. How many years had passed since that earthquake?",
+    "answer": 300,
+    "units": "years",
+    "form": "integer",
+    "hints": ["Subtract 1717 from 2017."],
+    "solution": "2017 − 1717 = **300 years**, the same as the average gap between large earthquakes. Every year since then has taken it further past that average."
+  },
+  {
+    "id": "s9.earth.rocks.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.earth.rocks.g2",
+    "part": "b",
+    "stem": "The Alpine Fault runs for about 600 km along the western side of the Southern Alps. It is part of the boundary between the Australian Plate and the Pacific Plate. Geologists have found evidence that it has produced a large earthquake roughly every 300 years. The last one was in 1717.",
+    "prompt": "Which conclusion is best supported by the evidence?",
+    "options": [
+      { "id": "a", "text": "A large Alpine Fault earthquake is likely in the coming decades, but nobody can predict exactly when" },
+      { "id": "b", "text": "The next large earthquake will happen exactly 300 years after 1717" },
+      { "id": "c", "text": "There will be no more large earthquakes, because the 1717 earthquake released all the stress" },
+      { "id": "d", "text": "Earthquakes only happen every 300 years, so the area is completely safe until then" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"Roughly every 300 years\" is an average. The gaps between past earthquakes have varied, so an exact date can't be predicted. Also, 1717 + 300 = 2017, which has already passed.",
+      "c": "The plates are still moving, so stress keeps building up again after each earthquake.",
+      "d": "The 300 years is only an average, and smaller earthquakes can happen at any time."
+    },
+    "hints": ["\"Roughly every 300 years\" is an average. Can an average give an exact date?"],
+    "solution": "More than 300 years have passed since 1717, which is longer than the average gap, so a large earthquake is **likely in the coming decades**. But the gaps vary, so scientists cannot say exactly when. This is why people on the West Coast prepare for it now."
+  },
+  {
+    "id": "s9.earth.rocks.q031",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.earth.rocks.g2",
+    "part": "c",
+    "stem": "The Alpine Fault runs for about 600 km along the western side of the Southern Alps. It is part of the boundary between the Australian Plate and the Pacific Plate. Geologists have found evidence that it has produced a large earthquake roughly every 300 years. The last one was in 1717.",
+    "prompt": "The plates on either side of the Alpine Fault move past each other by a few centimetres every year. Explain how this slow movement leads to **large, sudden** earthquakes.",
+    "modelAnswer": "The plates keep moving past each other, but friction makes the rocks on either side of the fault stick together (lock). As the plates keep moving, the rocks bend and stress builds up over hundreds of years. When the stress becomes greater than the friction holding the rocks, they suddenly slip, moving several metres in seconds. The stored energy is released as shaking (seismic waves), which is the earthquake.",
+    "rubric": [
+      { "criterion": "Friction makes the rocks along the fault stick or lock, even though the plates keep moving", "marks": 1 },
+      { "criterion": "Stress (energy) builds up in the rocks over a long time as they bend", "marks": 1 },
+      { "criterion": "When the stress is too great, the rocks suddenly slip, releasing the energy as shaking (an earthquake)", "marks": 1 }
+    ],
+    "hints": ["Why don't the rocks slide smoothly past each other all the time?", "What builds up while the rocks are stuck?"],
+    "solution": "Rocks lock because of friction → stress builds up for centuries → sudden slip releases the energy as an earthquake."
+  },
+  {
+    "id": "s9.earth.rocks.q032",
+    "type": "multi",
+    "difficulty": 2,
+    "groupId": "s9.earth.rocks.g3",
+    "part": "a",
+    "stem": "The table describes four igneous rocks found in New Zealand.\n\n| Rock | Where it is found | Description |\n|---|---|---|\n| Granite | Stewart Island (Rakiura) | Large crystals that are easy to see |\n| Basalt | Rangitoto Island, Auckland | Dark, with very small crystals |\n| Pumice | Around Lake Taupō | Pale, very light and full of gas bubbles |\n| Obsidian | Tūhua (Mayor Island) | Black and glassy, with no crystals |",
+    "prompt": "Which of these rocks formed from **lava** that cooled at Earth's surface? Select **all** that apply.",
+    "options": [
+      { "id": "g", "text": "Granite" },
+      { "id": "b", "text": "Basalt" },
+      { "id": "p", "text": "Pumice" },
+      { "id": "o", "text": "Obsidian" }
+    ],
+    "correct": ["b", "p", "o"],
+    "shuffle": false,
+    "hints": ["Rock that cools at the surface cools quickly, so its crystals are small or missing."],
+    "solution": "**Basalt, pumice and obsidian** cooled quickly from lava at the surface, so they have tiny crystals or none. Granite has large crystals because it cooled slowly from magma deep underground."
+  },
+  {
+    "id": "s9.earth.rocks.q033",
+    "type": "order",
+    "difficulty": 3,
+    "groupId": "s9.earth.rocks.g3",
+    "part": "b",
+    "stem": "The table describes four igneous rocks found in New Zealand.\n\n| Rock | Where it is found | Description |\n|---|---|---|\n| Granite | Stewart Island (Rakiura) | Large crystals that are easy to see |\n| Basalt | Rangitoto Island, Auckland | Dark, with very small crystals |\n| Pumice | Around Lake Taupō | Pale, very light and full of gas bubbles |\n| Obsidian | Tūhua (Mayor Island) | Black and glassy, with no crystals |",
+    "prompt": "Put these three rocks in order of how quickly they cooled, from **fastest** to **slowest**.",
+    "items": [
+      { "id": "obs", "text": "Obsidian" },
+      { "id": "bas", "text": "Basalt" },
+      { "id": "gra", "text": "Granite" }
+    ],
+    "hints": ["The slower molten rock cools, the more time crystals have to grow."],
+    "solution": "Crystal size shows the cooling speed. **Obsidian** (no crystals) cooled fastest, then **basalt** (very small crystals), then **granite** (large crystals), which cooled slowest, deep underground."
+  },
+  {
+    "id": "s9.earth.rocks.q034",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.earth.rocks.g3",
+    "part": "c",
+    "stem": "The table describes four igneous rocks found in New Zealand.\n\n| Rock | Where it is found | Description |\n|---|---|---|\n| Granite | Stewart Island (Rakiura) | Large crystals that are easy to see |\n| Basalt | Rangitoto Island, Auckland | Dark, with very small crystals |\n| Pumice | Around Lake Taupō | Pale, very light and full of gas bubbles |\n| Obsidian | Tūhua (Mayor Island) | Black and glassy, with no crystals |",
+    "prompt": "Explain how pumice forms, and why it can float on water.",
+    "modelAnswer": "Pumice forms when magma containing a lot of dissolved gas erupts explosively. As the pressure drops, the gas forms bubbles, making a froth, and the frothy lava cools so quickly that the bubbles are trapped as the rock hardens. This leaves pumice full of holes. Because so much of its volume is gas-filled holes, its overall density is less than the density of water, so it floats.",
+    "rubric": [
+      { "criterion": "Gas-rich magma or lava erupts and froths up with gas bubbles", "marks": 1 },
+      { "criterion": "It cools very quickly, so the gas bubbles are trapped as holes in the rock", "marks": 1 },
+      { "criterion": "The holes make its overall density less than water, so it floats", "marks": 1 }
+    ],
+    "hints": ["Where did the bubbles come from, and why didn't they escape?", "Compare the density of pumice with the density of water."],
+    "solution": "Frothy, gas-rich lava cools fast and traps bubbles → lots of holes → overall less dense than water → floats."
+  },
+  {
+    "id": "s9.earth.rocks.q035",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for the remains or traces of an ancient living thing preserved in rock?",
+    "accepted": ["fossil", "fossils", "a fossil"],
+    "hints": ["Dinosaur bones and shell prints in rocks are examples."],
+    "solution": "They are **fossils**. Footprints and burrows preserved in rock count as fossils too."
+  },
+  {
+    "id": "s9.earth.rocks.q036",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "Earth's crust and the top of the mantle are broken into huge, slowly moving pieces. What are these pieces called?",
+    "accepted": ["tectonic plates", "plates", "tectonic plate", "plate", "crustal plates"],
+    "hints": ["New Zealand sits across the boundary between two of them."],
+    "solution": "They are **tectonic plates**. New Zealand sits across the boundary between the Australian Plate and the Pacific Plate."
+  },
+  {
+    "id": "s9.earth.rocks.q037",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these rocks is **sedimentary**?",
+    "options": [
+      { "id": "a", "text": "Sandstone" },
+      { "id": "b", "text": "Granite" },
+      { "id": "c", "text": "Basalt" },
+      { "id": "d", "text": "Marble" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Granite is igneous: it formed from magma that cooled slowly underground.",
+      "c": "Basalt is igneous: it formed from lava that cooled quickly.",
+      "d": "Marble is metamorphic: it formed when limestone was heated and squeezed."
+    },
+    "hints": ["Sedimentary rocks are made from grains of sediment, such as sand, stuck together."],
+    "solution": "**Sandstone** is sedimentary: grains of sand were deposited in layers, then compacted and cemented together."
+  },
+  {
+    "id": "s9.earth.rocks.q038",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the examples of **weathering** (breaking rock down where it is), not erosion.",
+    "options": [
+      { "id": "a", "text": "Water freezing in a crack and splitting the rock" },
+      { "id": "b", "text": "Tree roots growing into a crack and forcing it apart" },
+      { "id": "c", "text": "Slightly acidic rainwater slowly dissolving limestone" },
+      { "id": "d", "text": "A river carrying pebbles downstream" },
+      { "id": "e", "text": "Wind blowing sand along a beach" },
+      { "id": "f", "text": "A glacier dragging rocks down a valley" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Weathering breaks rock down. Erosion moves the pieces somewhere else."],
+    "solution": "**Freeze–thaw, tree roots and acid rain** all break rock down where it is: physical, biological and chemical weathering. Rivers, wind and glaciers **move** rock, which is erosion."
+  },
+  {
+    "id": "s9.earth.rocks.q039",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which layer of a soil usually contains the most **humus** (decayed plant and animal material)?",
+    "options": [
+      { "id": "a", "text": "Topsoil" },
+      { "id": "b", "text": "Subsoil" },
+      { "id": "c", "text": "Bedrock" },
+      { "id": "d", "text": "All layers have the same amount" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Subsoil is below the topsoil. It has less humus and is usually lighter in colour.",
+      "c": "Bedrock is the solid rock underneath the soil. It contains no humus.",
+      "d": "Dead leaves and roots rot mainly near the surface, so humus is concentrated at the top."
+    },
+    "hints": ["Where do dead leaves fall and rot?"],
+    "solution": "The **topsoil** has the most humus, because dead plants and animals decay at the surface. That is why topsoil is usually the darkest layer and the best for growing plants."
+  },
+  {
+    "id": "s9.earth.rocks.q040",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put the stages of soil formation on bare rock in order.",
+    "items": [
+      { "id": "weather", "text": "Bare rock is weathered into small fragments" },
+      { "id": "lichen", "text": "Lichens and mosses start to grow on the fragments" },
+      { "id": "humus", "text": "Dead lichens and mosses decay, adding humus" },
+      { "id": "plants", "text": "Larger plants grow, and their roots break up the rock further and the soil gets deeper" }
+    ],
+    "hints": ["Plants need some small particles to grow in before they can add humus."],
+    "solution": "Weathering makes small fragments → simple plants such as lichens and mosses grow → they die and decay into humus → larger plants grow, their roots break the rock further, and the soil deepens. This takes hundreds to thousands of years."
+  },
+  {
+    "id": "s9.earth.rocks.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Otago schist has thin, shiny, flaky layers. It formed when greywacke (a hard sedimentary rock) was buried deep underground and was heated and squeezed, but did **not** melt. What type of rock is schist?",
+    "options": [
+      { "id": "a", "text": "Metamorphic" },
+      { "id": "b", "text": "Sedimentary, because it has layers" },
+      { "id": "c", "text": "Igneous, because it was heated" },
+      { "id": "d", "text": "It is still greywacke, so it is sedimentary" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Metamorphic rocks can have layers too. Schist's layers formed from squeezing, not from sediment being deposited.",
+      "c": "Igneous rocks form when molten rock cools. Schist was heated but never melted.",
+      "d": "Heat and pressure changed the minerals and texture, so it has become a new rock."
+    },
+    "hints": ["Which type of rock forms when existing rock is changed by heat and pressure, without melting?"],
+    "solution": "Schist is **metamorphic**: existing rock (greywacke) was changed by heat and pressure deep underground without melting. Its shiny layers are new minerals lined up by the squeezing."
+  },
+  {
+    "id": "s9.earth.rocks.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "What is thought to drive the slow movement of the tectonic plates?",
+    "options": [
+      { "id": "a", "text": "Convection currents in the hot, slowly flowing rock of the mantle" },
+      { "id": "b", "text": "The pull of the Moon's gravity, the same force that causes tides" },
+      { "id": "c", "text": "Earthquakes pushing the plates along" },
+      { "id": "d", "text": "Liquid iron in the outer core pushing directly on the crust" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The Moon causes tides in the sea, but it is not what moves the plates.",
+      "c": "Earthquakes are caused by the plates moving, not the other way round.",
+      "d": "The outer core is thousands of kilometres below the crust, with the whole mantle in between."
+    },
+    "hints": ["Heat from deep inside the Earth makes the mantle rock flow very slowly in loops."],
+    "solution": "Heat from inside the Earth makes the mantle rock flow very slowly in **convection currents**: hot rock rises, spreads out, cools and sinks. The plates on top are carried along, a few centimetres a year."
+  },
+  {
+    "id": "s9.earth.rocks.q043",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Lake Taupō fills a [[a]], a huge hollow that formed when the ground [[b]] into the partly emptied magma chamber after enormous volcanic eruptions.",
+    "blanks": [
+      { "id": "a", "accepted": ["caldera"], "options": ["crater", "caldera", "glacial valley", "fault line"] },
+      { "id": "b", "accepted": ["collapsed"], "options": ["rose up", "froze", "collapsed", "was eroded"] }
+    ],
+    "hints": ["After a huge eruption, the magma underground has gone. What happens to the ground above it?"],
+    "solution": "Lake Taupō fills a **caldera**. After enormous eruptions emptied much of the magma chamber, the ground above **collapsed** into it, leaving a huge basin that filled with water. A crater is much smaller and is blasted out by an eruption."
+  },
+  {
+    "id": "s9.earth.rocks.q044",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Describe how igneous rocks and sedimentary rocks form, and give **one** feature you could look for to tell them apart.",
+    "modelAnswer": "Igneous rocks form when molten rock (magma underground or lava at the surface) cools and hardens. Sedimentary rocks form when layers of sediment, such as sand, mud or shells, are deposited, buried, compacted and cemented together. To tell them apart: igneous rocks are made of interlocking crystals and never contain fossils, while sedimentary rocks are often in layers, are made of grains stuck together, and may contain fossils.",
+    "rubric": [
+      { "criterion": "Igneous: molten rock cools and hardens; sedimentary: layers of sediment compacted and cemented", "marks": 1 },
+      { "criterion": "One distinguishing feature, e.g. igneous has interlocking crystals and no fossils; sedimentary has layers, grains or fossils", "marks": 1 }
+    ],
+    "hints": ["One type starts as molten rock; the other starts as broken bits of rock.", "Which type could contain a fossil shell?"],
+    "solution": "Igneous: cooled molten rock with interlocking crystals. Sedimentary: compacted and cemented sediment, often layered, sometimes with fossils."
+  },
+  {
+    "id": "s9.earth.rocks.q045",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "Suppose a tectonic plate moves 5 cm every year. How far would it move in 1 million years? Give your answer in **kilometres**.",
+    "answer": 50,
+    "units": "km",
+    "hints": ["First find the distance in centimetres.", "100 cm = 1 m and 1000 m = 1 km."],
+    "solution": "5 cm × 1,000,000 = 5,000,000 cm = 50,000 m = **50 km**. Tiny yearly movements add up to huge distances over geological time."
+  },
+  {
+    "id": "s9.earth.rocks.q046",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Earth's inner core is even hotter than its outer core, yet the inner core is **solid** while the outer core is liquid. Why?",
+    "options": [
+      { "id": "a", "text": "The enormous pressure at the centre of the Earth keeps the iron and nickel solid" },
+      { "id": "b", "text": "The inner core is made of rock, which has a higher melting point than metal" },
+      { "id": "c", "text": "The inner core is actually cooler, because heat rises away from it" },
+      { "id": "d", "text": "The inner core is frozen because no heat can reach the centre of the Earth" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Both the inner and outer core are made mostly of iron and nickel.",
+      "c": "The inner core is the hottest part of the Earth, at about 5400 °C.",
+      "d": "The centre is the hottest part of the Earth, not a frozen one."
+    },
+    "hints": ["Think about the weight of everything pressing down on the centre of the Earth."],
+    "solution": "The weight of all the rock and metal above creates **enormous pressure** at the centre. This squeezes the iron and nickel so hard that they stay solid, even at about 5400 °C."
+  },
+  {
+    "id": "s9.earth.rocks.q047",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "During the 2016 Kaikōura earthquake, parts of the rocky shore were suddenly lifted up by several metres, leaving seaweed and pāua stranded high and dry. What does this show?",
+    "options": [
+      { "id": "a", "text": "Plate movements can suddenly raise land, and many such movements over time can lift sea-floor rocks into mountains" },
+      { "id": "b", "text": "The sea level suddenly dropped all around New Zealand" },
+      { "id": "c", "text": "The tide went out much further than usual that day" },
+      { "id": "d", "text": "The seaweed and pāua moved up the shore to escape the shaking" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The sea level didn't change. The land itself moved up, and only along parts of the coast.",
+      "c": "The tide comes back in a few hours later. This shore stayed high and dry permanently.",
+      "d": "Seaweed is attached to the rocks and can't move, and pāua can't climb several metres in seconds."
+    },
+    "hints": ["Was it the water or the land that moved?"],
+    "solution": "The **land was pushed up** by the plate movement during the earthquake. Repeated uplift like this, over millions of years, is how rocks that formed under the sea (with fossil shells) end up high in New Zealand's mountains."
+  },
+  {
+    "id": "s9.earth.rocks.q048",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A distinctive belt of unusual rock is found near Nelson. An identical belt of the same rock is found in Otago and Southland, about 480 km away, on the other side of the Alpine Fault. What is the best explanation?",
+    "options": [
+      { "id": "a", "text": "The two belts formed together as one belt and have been moved apart along the Alpine Fault over millions of years" },
+      { "id": "b", "text": "The same unusual rock happened to form in two separate places by coincidence" },
+      { "id": "c", "text": "A river carried a huge amount of the rock 480 km from Nelson to Southland" },
+      { "id": "d", "text": "One very large earthquake moved the rocks 480 km apart in a few minutes" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Very unlikely: the two belts match closely in rock type and age, and each ends right at the fault, which points to one belt that has been split.",
+      "c": "Rivers carry sediment, not whole belts of solid bedrock, and they don't flow across mountain ranges.",
+      "d": "A single large earthquake moves rocks a few metres. Hundreds of kilometres takes millions of years of movement."
+    },
+    "hints": ["How do the plates move along the Alpine Fault?", "How far could a few centimetres a year add up to over millions of years?"],
+    "solution": "The two belts were once joined. The plates have slid sideways past each other along the Alpine Fault, a few centimetres a year and several metres in each big earthquake, which over millions of years has moved the two halves about **480 km apart**. This is strong evidence for plate movement."
+  },
+  {
+    "id": "s9.earth.rocks.q049",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "In a swamp in the central North Island, scientists dig down through undisturbed layers of mud. They find a layer of ash from the Taupō eruption of about 1800 years ago. Moa bones are found in the mud **below** the ash layer. What can they conclude?",
+    "options": [
+      { "id": "a", "text": "The moa died more than about 1800 years ago" },
+      { "id": "b", "text": "The moa died less than about 1800 years ago" },
+      { "id": "c", "text": "The moa died during the Taupō eruption" },
+      { "id": "d", "text": "Nothing, because the ash tells us nothing about the mud below it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In undisturbed layers, deeper layers are older. Mud below the ash was laid down before the ash fell.",
+      "c": "The bones are in the mud below the ash, so they were already there before the ash fell. Being near the ash doesn't mean they died at the same time.",
+      "d": "The ash layer has a known age, so it tells us that everything below it is older."
+    },
+    "hints": ["In undisturbed layers, which are older: the ones at the bottom or the ones on top?"],
+    "solution": "In undisturbed layers, lower layers are **older**. The mud with the bones was laid down before the ash fell, so the moa died **more than about 1800 years ago**. A layer of known age like this ash helps scientists date the layers around it."
+  },
+  {
+    "id": "s9.earth.rocks.q050",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 4,
+    "prompt": "Discuss how the rock cycle is driven by **two** sources of energy: energy from the Sun, and heat from inside the Earth. Give examples of processes powered by each.",
+    "modelAnswer": "Energy from the Sun drives the weather and the water cycle. This powers weathering and erosion: for example, rain, freeze–thaw and wind break rocks down, and rivers and wind carry the sediment away until it is deposited, where it can form sedimentary rock. Heat from inside the Earth drives the processes that happen deep underground. It melts rock to make magma, which cools to form igneous rock, and together with pressure it changes rocks into metamorphic rock. Earth's internal heat also drives convection in the mantle, which moves the plates, pushing up mountains so that rocks are exposed to weathering again and burying other rocks deep down.",
+    "rubric": [
+      { "criterion": "The Sun drives the weather and water cycle, which cause weathering", "marks": 1 },
+      { "criterion": "The Sun drives erosion and deposition of sediment (e.g. rivers, wind), leading to sedimentary rock", "marks": 1 },
+      { "criterion": "Earth's internal heat causes melting (magma and igneous rock) and metamorphism", "marks": 1 },
+      { "criterion": "Earth's internal heat drives plate movement, which uplifts rocks to the surface or buries them, linking the two halves of the cycle", "marks": 1 }
+    ],
+    "hints": ["Which processes happen at the surface, and which deep underground?", "What lifts buried rock back up to the surface?"],
+    "solution": "Sun: weather and water cycle → weathering, erosion, deposition. Internal heat: melting, metamorphism and plate movement (uplift and burial). Together they keep rock moving around the cycle."
   }
 ]

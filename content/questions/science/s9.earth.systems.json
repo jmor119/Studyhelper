@@ -362,5 +362,454 @@
     },
     "hints": ["Compare what happens to sunlight hitting white ice and sunlight hitting dark water."],
     "solution": "When ice melts, dark water replaces the shiny white surface. The water **absorbs** sunlight that the ice would have reflected, so the sea warms up and **even more ice melts**. A change that makes itself bigger like this is called a feedback loop."
+  },
+  {
+    "id": "s9.earth.systems.q025",
+    "type": "cloze",
+    "difficulty": 2,
+    "groupId": "s9.earth.systems.g1",
+    "part": "a",
+    "stem": "The diagram is a cross-section of the South Island from west to east. The wind usually blows from the west, off the Tasman Sea. In one year, a weather station at Hokitika on the West Coast recorded about 2900 mm of rain, while one at Christchurch on the Canterbury Plains recorded about 600 mm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"0\" y=\"190\" width=\"70\" height=\"50\" fill=\"#bfdbfe\"/><rect x=\"385\" y=\"190\" width=\"35\" height=\"50\" fill=\"#bfdbfe\"/><polygon points=\"70,190 130,186 175,140 215,62 245,95 285,160 310,180 385,186 385,240 70,240\" fill=\"#d9f99d\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"205,80 215,62 226,78 219,74 212,80\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><ellipse cx=\"130\" cy=\"95\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><ellipse cx=\"158\" cy=\"78\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><ellipse cx=\"182\" cy=\"62\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"118\" y1=\"110\" x2=\"113\" y2=\"125\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"130\" y1=\"110\" x2=\"125\" y2=\"128.6\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"142\" y1=\"110\" x2=\"137\" y2=\"132.2\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"110\" x2=\"145\" y2=\"134.6\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"162\" y1=\"110\" x2=\"157\" y2=\"138.2\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><path d=\"M8,165 L90,165 Q120,160 150,120\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M240,55 Q275,80 305,150\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"10\" y=\"155\" font-size=\"12\" fill=\"#1f2937\">moist air</text><text x=\"300\" y=\"120\" font-size=\"12\" fill=\"#1f2937\">dry air</text><text x=\"8\" y=\"232\" font-size=\"11\" fill=\"#1f2937\">Tasman Sea</text><text x=\"122\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">Hokitika</text><line x1=\"128\" y1=\"192\" x2=\"128\" y2=\"186\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"215\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">Southern Alps</text><text x=\"345\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">Christchurch</text><text x=\"345\" y=\"222\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">(Canterbury Plains)</text><text x=\"10\" y=\"18\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">WEST</text><text x=\"410\" y=\"18\" text-anchor=\"end\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">EAST</text><text x=\"410\" y=\"236\" text-anchor=\"end\" font-size=\"10\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Cross-section of the South Island, not to scale. On the left (west) is the Tasman Sea, then Hokitika on the coast, then the Southern Alps rising to a snowy peak, then the land slopes down to Christchurch on the flat Canterbury Plains and the sea on the right (east). An arrow labelled moist air comes off the Tasman Sea and rises up the western slopes, where there are clouds and rain. Another arrow labelled dry air comes down the eastern side."
+    },
+    "prompt": "Moist air from the Tasman Sea is forced to [[a]] over the Southern Alps. As it does, the air [[b]], and its water vapour [[c]] to form clouds.",
+    "blanks": [
+      { "id": "a", "accepted": ["rise"], "options": ["sink", "rise"] },
+      { "id": "b", "accepted": ["cools"], "options": ["cools", "warms"] },
+      { "id": "c", "accepted": ["condenses"], "options": ["evaporates", "condenses", "freezes"] }
+    ],
+    "hints": ["Follow the arrow on the western side of the mountains.", "Clouds are made of tiny droplets of liquid water."],
+    "solution": "The air is forced to **rise** over the mountains. As it rises it **cools**, and the water vapour **condenses** into tiny droplets, forming clouds."
+  },
+  {
+    "id": "s9.earth.systems.q026",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.earth.systems.g1",
+    "part": "b",
+    "stem": "The diagram is a cross-section of the South Island from west to east. The wind usually blows from the west, off the Tasman Sea. In one year, a weather station at Hokitika on the West Coast recorded about 2900 mm of rain, while one at Christchurch on the Canterbury Plains recorded about 600 mm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"0\" y=\"190\" width=\"70\" height=\"50\" fill=\"#bfdbfe\"/><rect x=\"385\" y=\"190\" width=\"35\" height=\"50\" fill=\"#bfdbfe\"/><polygon points=\"70,190 130,186 175,140 215,62 245,95 285,160 310,180 385,186 385,240 70,240\" fill=\"#d9f99d\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"205,80 215,62 226,78 219,74 212,80\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><ellipse cx=\"130\" cy=\"95\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><ellipse cx=\"158\" cy=\"78\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><ellipse cx=\"182\" cy=\"62\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"118\" y1=\"110\" x2=\"113\" y2=\"125\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"130\" y1=\"110\" x2=\"125\" y2=\"128.6\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"142\" y1=\"110\" x2=\"137\" y2=\"132.2\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"110\" x2=\"145\" y2=\"134.6\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"162\" y1=\"110\" x2=\"157\" y2=\"138.2\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><path d=\"M8,165 L90,165 Q120,160 150,120\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M240,55 Q275,80 305,150\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"10\" y=\"155\" font-size=\"12\" fill=\"#1f2937\">moist air</text><text x=\"300\" y=\"120\" font-size=\"12\" fill=\"#1f2937\">dry air</text><text x=\"8\" y=\"232\" font-size=\"11\" fill=\"#1f2937\">Tasman Sea</text><text x=\"122\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">Hokitika</text><line x1=\"128\" y1=\"192\" x2=\"128\" y2=\"186\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"215\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">Southern Alps</text><text x=\"345\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">Christchurch</text><text x=\"345\" y=\"222\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">(Canterbury Plains)</text><text x=\"10\" y=\"18\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">WEST</text><text x=\"410\" y=\"18\" text-anchor=\"end\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">EAST</text><text x=\"410\" y=\"236\" text-anchor=\"end\" font-size=\"10\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Cross-section of the South Island, not to scale. On the left (west) is the Tasman Sea, then Hokitika on the coast, then the Southern Alps rising to a snowy peak, then the land slopes down to Christchurch on the flat Canterbury Plains and the sea on the right (east). An arrow labelled moist air comes off the Tasman Sea and rises up the western slopes, where there are clouds and rain. Another arrow labelled dry air comes down the eastern side."
+    },
+    "prompt": "How much **more** rain fell at Hokitika than at Christchurch that year?",
+    "answer": 2300,
+    "units": "mm",
+    "hints": ["Subtract the smaller amount from the larger amount."],
+    "solution": "2900 − 600 = **2300 mm** more rain at Hokitika, nearly five times as much."
+  },
+  {
+    "id": "s9.earth.systems.q027",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.earth.systems.g1",
+    "part": "c",
+    "stem": "The diagram is a cross-section of the South Island from west to east. The wind usually blows from the west, off the Tasman Sea. In one year, a weather station at Hokitika on the West Coast recorded about 2900 mm of rain, while one at Christchurch on the Canterbury Plains recorded about 600 mm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"0\" y=\"190\" width=\"70\" height=\"50\" fill=\"#bfdbfe\"/><rect x=\"385\" y=\"190\" width=\"35\" height=\"50\" fill=\"#bfdbfe\"/><polygon points=\"70,190 130,186 175,140 215,62 245,95 285,160 310,180 385,186 385,240 70,240\" fill=\"#d9f99d\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"205,80 215,62 226,78 219,74 212,80\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><ellipse cx=\"130\" cy=\"95\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><ellipse cx=\"158\" cy=\"78\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><ellipse cx=\"182\" cy=\"62\" rx=\"24\" ry=\"11\" fill=\"#d1d5db\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"118\" y1=\"110\" x2=\"113\" y2=\"125\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"130\" y1=\"110\" x2=\"125\" y2=\"128.6\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"142\" y1=\"110\" x2=\"137\" y2=\"132.2\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"150\" y1=\"110\" x2=\"145\" y2=\"134.6\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><line x1=\"162\" y1=\"110\" x2=\"157\" y2=\"138.2\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><path d=\"M8,165 L90,165 Q120,160 150,120\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M240,55 Q275,80 305,150\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"10\" y=\"155\" font-size=\"12\" fill=\"#1f2937\">moist air</text><text x=\"300\" y=\"120\" font-size=\"12\" fill=\"#1f2937\">dry air</text><text x=\"8\" y=\"232\" font-size=\"11\" fill=\"#1f2937\">Tasman Sea</text><text x=\"122\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">Hokitika</text><line x1=\"128\" y1=\"192\" x2=\"128\" y2=\"186\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"215\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">Southern Alps</text><text x=\"345\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">Christchurch</text><text x=\"345\" y=\"222\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">(Canterbury Plains)</text><text x=\"10\" y=\"18\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">WEST</text><text x=\"410\" y=\"18\" text-anchor=\"end\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">EAST</text><text x=\"410\" y=\"236\" text-anchor=\"end\" font-size=\"10\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Cross-section of the South Island, not to scale. On the left (west) is the Tasman Sea, then Hokitika on the coast, then the Southern Alps rising to a snowy peak, then the land slopes down to Christchurch on the flat Canterbury Plains and the sea on the right (east). An arrow labelled moist air comes off the Tasman Sea and rises up the western slopes, where there are clouds and rain. Another arrow labelled dry air comes down the eastern side."
+    },
+    "prompt": "Explain why the Canterbury Plains get much less rain than the West Coast.",
+    "modelAnswer": "The westerly wind picks up water vapour over the Tasman Sea. When it reaches the West Coast it is forced to rise over the Southern Alps. As the air rises it cools, so the water vapour condenses into clouds, and most of the water falls as rain (or snow) on the western side of the mountains. By the time the air has crossed the Alps and comes down into Canterbury, it has lost most of its water vapour, and it warms as it sinks, so it is dry and little rain falls. Canterbury is in a rain shadow.",
+    "rubric": [
+      { "criterion": "Moist air from the west rises over the Southern Alps and cools", "marks": 1 },
+      { "criterion": "Water vapour condenses into clouds and most of it falls as rain or snow on the western side", "marks": 1 },
+      { "criterion": "The air reaching Canterbury has lost most of its moisture (and warms as it sinks), so it is dry: a rain shadow", "marks": 1 }
+    ],
+    "hints": ["Where does the air drop most of its water?", "What is the air like by the time it reaches the eastern side?"],
+    "solution": "West: air rises, cools, condenses, rains. East: the air has already lost its moisture, so it is dry. This is a rain shadow."
+  },
+  {
+    "id": "s9.earth.systems.q028",
+    "type": "match",
+    "difficulty": 2,
+    "groupId": "s9.earth.systems.g2",
+    "part": "a",
+    "stem": "The diagram shows part of the carbon cycle. The arrows labelled A to E show processes that move carbon. The dashed arrows show plants and animals dying, and their remains slowly forming fossil fuels.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"130\" y=\"10\" width=\"160\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"34\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Carbon dioxide in the air</text><rect x=\"10\" y=\"190\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Plants</text><rect x=\"160\" y=\"190\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Animals</text><rect x=\"300\" y=\"190\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"355\" y=\"209\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Dead plants and</text><text x=\"355\" y=\"223\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">animals</text><rect x=\"325\" y=\"95\" width=\"85\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"119\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Fossil fuels</text><line x1=\"140\" y1=\"50\" x2=\"70\" y2=\"188\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"96\" cy=\"120\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"96\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"110\" y1=\"210\" x2=\"158\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"134\" cy=\"196\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"134\" y=\"201\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"210\" y1=\"190\" x2=\"210\" y2=\"52\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"210\" cy=\"120\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"315\" y1=\"190\" x2=\"262\" y2=\"52\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"292\" cy=\"130\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"292\" y=\"135\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"340\" y1=\"95\" x2=\"292\" y2=\"45\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"322\" cy=\"72\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"322\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">E</text><line x1=\"260\" y1=\"210\" x2=\"298\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#ah)\"/><line x1=\"375\" y1=\"190\" x2=\"375\" y2=\"137\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#ah)\"/><text x=\"380\" y=\"168\" font-size=\"10\" fill=\"#1f2937\">millions</text><text x=\"380\" y=\"180\" font-size=\"10\" fill=\"#1f2937\">of years</text></svg>",
+      "alt": "Carbon cycle diagram. Arrow A goes from carbon dioxide in the air to plants. Arrow B goes from plants to animals. Arrow C goes from animals to carbon dioxide in the air. Arrow D goes from dead plants and animals to carbon dioxide in the air. Arrow E goes from fossil fuels to carbon dioxide in the air. Dashed arrows go from animals to dead plants and animals, and from dead plants and animals to fossil fuels over millions of years."
+    },
+    "prompt": "Match each arrow to the process it shows.",
+    "pairs": [
+      { "left": { "id": "A", "text": "Arrow A" }, "right": { "id": "photo", "text": "Photosynthesis" } },
+      { "left": { "id": "C", "text": "Arrow C" }, "right": { "id": "resp", "text": "Respiration" } },
+      { "left": { "id": "D", "text": "Arrow D" }, "right": { "id": "decomp", "text": "Decomposition" } },
+      { "left": { "id": "E", "text": "Arrow E" }, "right": { "id": "comb", "text": "Combustion (burning)" } }
+    ],
+    "hints": ["Which process takes carbon dioxide out of the air?", "Bacteria and fungi break down dead remains."],
+    "solution": "A: **photosynthesis** (plants take in carbon dioxide). C: **respiration** (animals give out carbon dioxide). D: **decomposition** (decomposers break down dead remains and release carbon dioxide). E: **combustion** (burning fossil fuels releases carbon dioxide). Arrow B is animals eating plants."
+  },
+  {
+    "id": "s9.earth.systems.q029",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.earth.systems.g2",
+    "part": "b",
+    "stem": "The diagram shows part of the carbon cycle. The arrows labelled A to E show processes that move carbon. The dashed arrows show plants and animals dying, and their remains slowly forming fossil fuels.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"130\" y=\"10\" width=\"160\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"34\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Carbon dioxide in the air</text><rect x=\"10\" y=\"190\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Plants</text><rect x=\"160\" y=\"190\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Animals</text><rect x=\"300\" y=\"190\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"355\" y=\"209\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Dead plants and</text><text x=\"355\" y=\"223\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">animals</text><rect x=\"325\" y=\"95\" width=\"85\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"119\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Fossil fuels</text><line x1=\"140\" y1=\"50\" x2=\"70\" y2=\"188\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"96\" cy=\"120\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"96\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"110\" y1=\"210\" x2=\"158\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"134\" cy=\"196\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"134\" y=\"201\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"210\" y1=\"190\" x2=\"210\" y2=\"52\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"210\" cy=\"120\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"315\" y1=\"190\" x2=\"262\" y2=\"52\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"292\" cy=\"130\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"292\" y=\"135\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"340\" y1=\"95\" x2=\"292\" y2=\"45\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"322\" cy=\"72\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"322\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">E</text><line x1=\"260\" y1=\"210\" x2=\"298\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#ah)\"/><line x1=\"375\" y1=\"190\" x2=\"375\" y2=\"137\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#ah)\"/><text x=\"380\" y=\"168\" font-size=\"10\" fill=\"#1f2937\">millions</text><text x=\"380\" y=\"180\" font-size=\"10\" fill=\"#1f2937\">of years</text></svg>",
+      "alt": "Carbon cycle diagram. Arrow A goes from carbon dioxide in the air to plants. Arrow B goes from plants to animals. Arrow C goes from animals to carbon dioxide in the air. Arrow D goes from dead plants and animals to carbon dioxide in the air. Arrow E goes from fossil fuels to carbon dioxide in the air. Dashed arrows go from animals to dead plants and animals, and from dead plants and animals to fossil fuels over millions of years."
+    },
+    "prompt": "Which arrow shows a process that **removes** carbon dioxide from the air?",
+    "options": [
+      { "id": "a", "text": "Arrow A" },
+      { "id": "c", "text": "Arrow C" },
+      { "id": "d", "text": "Arrow D" },
+      { "id": "e", "text": "Arrow E" }
+    ],
+    "correct": "a",
+    "shuffle": false,
+    "feedback": {
+      "c": "Arrow C points into the air: respiration adds carbon dioxide to the air.",
+      "d": "Arrow D points into the air: decomposers release carbon dioxide as they break down dead material.",
+      "e": "Arrow E points into the air: burning fossil fuels adds carbon dioxide."
+    },
+    "hints": ["Look at which way each arrow points. Which one points away from the air?"],
+    "solution": "**Arrow A** (photosynthesis) is the only arrow that points away from the air. Plants take in carbon dioxide and use it to make glucose."
+  },
+  {
+    "id": "s9.earth.systems.q030",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.earth.systems.g2",
+    "part": "c",
+    "stem": "The diagram shows part of the carbon cycle. The arrows labelled A to E show processes that move carbon. The dashed arrows show plants and animals dying, and their remains slowly forming fossil fuels.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><rect x=\"130\" y=\"10\" width=\"160\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"34\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Carbon dioxide in the air</text><rect x=\"10\" y=\"190\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Plants</text><rect x=\"160\" y=\"190\" width=\"100\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Animals</text><rect x=\"300\" y=\"190\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"355\" y=\"209\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Dead plants and</text><text x=\"355\" y=\"223\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">animals</text><rect x=\"325\" y=\"95\" width=\"85\" height=\"40\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"119\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">Fossil fuels</text><line x1=\"140\" y1=\"50\" x2=\"70\" y2=\"188\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"96\" cy=\"120\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"96\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"110\" y1=\"210\" x2=\"158\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"134\" cy=\"196\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"134\" y=\"201\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"210\" y1=\"190\" x2=\"210\" y2=\"52\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"210\" cy=\"120\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"125\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"315\" y1=\"190\" x2=\"262\" y2=\"52\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"292\" cy=\"130\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"292\" y=\"135\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"340\" y1=\"95\" x2=\"292\" y2=\"45\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><circle cx=\"322\" cy=\"72\" r=\"10\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"322\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">E</text><line x1=\"260\" y1=\"210\" x2=\"298\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#ah)\"/><line x1=\"375\" y1=\"190\" x2=\"375\" y2=\"137\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\" marker-end=\"url(#ah)\"/><text x=\"380\" y=\"168\" font-size=\"10\" fill=\"#1f2937\">millions</text><text x=\"380\" y=\"180\" font-size=\"10\" fill=\"#1f2937\">of years</text></svg>",
+      "alt": "Carbon cycle diagram. Arrow A goes from carbon dioxide in the air to plants. Arrow B goes from plants to animals. Arrow C goes from animals to carbon dioxide in the air. Arrow D goes from dead plants and animals to carbon dioxide in the air. Arrow E goes from fossil fuels to carbon dioxide in the air. Dashed arrows go from animals to dead plants and animals, and from dead plants and animals to fossil fuels over millions of years."
+    },
+    "prompt": "Large areas of forest are sometimes cut down and burned to clear the land. Use the carbon cycle to explain how this affects the amount of carbon dioxide in the air.",
+    "modelAnswer": "Trees store a lot of carbon in their wood. Burning them (combustion) releases this carbon into the air as carbon dioxide. Also, with fewer trees there is less photosynthesis, so less carbon dioxide is taken out of the air. Both effects increase the amount of carbon dioxide in the atmosphere, which adds to the greenhouse effect and global warming.",
+    "rubric": [
+      { "criterion": "Burning (combustion) releases the carbon stored in the trees as carbon dioxide", "marks": 1 },
+      { "criterion": "Fewer trees means less photosynthesis, so less carbon dioxide is removed from the air", "marks": 1 },
+      { "criterion": "Overall, carbon dioxide in the air increases (adding to the greenhouse effect or global warming)", "marks": 1 }
+    ],
+    "hints": ["Think about two things: what burning does, and what the trees were doing before they were removed."],
+    "solution": "Two effects: burning the trees is combustion, which adds CO₂ to the air, and losing the trees means less photosynthesis (arrow A) to take CO₂ out. So CO₂ in the air rises."
+  },
+  {
+    "id": "s9.earth.systems.q031",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.earth.systems.g3",
+    "part": "a",
+    "stem": "Ana shines a torch straight down onto a sheet of graph paper. The patch of light covers 20 squares. She then tilts the paper so that the light hits it at a low angle, keeping the torch at the same distance. Now the patch of light is more spread out and covers 40 squares.",
+    "prompt": "In which case does **each square** of the paper receive more light energy?",
+    "options": [
+      { "id": "a", "text": "When the torch shines straight down, because the light is concentrated on fewer squares" },
+      { "id": "b", "text": "When the paper is tilted, because the patch of light is bigger" },
+      { "id": "c", "text": "Both the same, because the torch gives out the same amount of light" },
+      { "id": "d", "text": "When the paper is tilted, because the light travels at an angle" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A bigger patch means the same light is spread more thinly, so each square gets less.",
+      "c": "The total light is the same, but it is shared between 40 squares instead of 20, so each square gets less.",
+      "d": "Hitting at an angle spreads the light out, which means less energy for each square, not more."
+    },
+    "hints": ["The same amount of light is shared out between the squares."],
+    "solution": "When the torch shines straight down, the same light falls on only **20 squares**, so each square gets more energy than when it is spread over 40."
+  },
+  {
+    "id": "s9.earth.systems.q032",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.earth.systems.g3",
+    "part": "b",
+    "stem": "Ana shines a torch straight down onto a sheet of graph paper. The patch of light covers 20 squares. She then tilts the paper so that the light hits it at a low angle, keeping the torch at the same distance. Now the patch of light is more spread out and covers 40 squares.",
+    "prompt": "When the paper is tilted, what **fraction** of the light energy does each square receive, compared with when the torch shone straight down?",
+    "answer": 0.5,
+    "hints": ["The same light is now spread over twice as many squares."],
+    "solution": "The same light is shared between 40 squares instead of 20, twice as many, so each square gets **½** (0.5) as much energy."
+  },
+  {
+    "id": "s9.earth.systems.q033",
+    "type": "cloze",
+    "difficulty": 3,
+    "groupId": "s9.earth.systems.g3",
+    "part": "c",
+    "stem": "Ana shines a torch straight down onto a sheet of graph paper. The patch of light covers 20 squares. She then tilts the paper so that the light hits it at a low angle, keeping the torch at the same distance. Now the patch of light is more spread out and covers 40 squares.",
+    "prompt": "This models why places near the [[a]] are hotter than places near the [[b]]. Near the poles, sunlight hits the ground at a [[c]] angle, so the same energy is spread over a [[d]] area.",
+    "blanks": [
+      { "id": "a", "accepted": ["equator"], "options": ["poles", "equator"] },
+      { "id": "b", "accepted": ["poles"], "options": ["poles", "equator"] },
+      { "id": "c", "accepted": ["lower"], "options": ["higher", "lower"] },
+      { "id": "d", "accepted": ["larger"], "options": ["smaller", "larger"] }
+    ],
+    "hints": ["Which part of the curved Earth gets the Sun's rays most directly, like the torch shining straight down?"],
+    "solution": "Near the **equator** the Sun's rays hit the ground almost straight on, like the torch shining straight down. Near the **poles** the rays hit at a **lower** angle, spreading the same energy over a **larger** area, so it is colder there."
+  },
+  {
+    "id": "s9.earth.systems.q034",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Lake Taupō and the Franz Josef Glacier are both part of which of Earth's spheres?",
+    "options": [
+      { "id": "a", "text": "Hydrosphere" },
+      { "id": "b", "text": "Geosphere" },
+      { "id": "c", "text": "Atmosphere" },
+      { "id": "d", "text": "Biosphere" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The geosphere is the rock, soil and inside of the Earth. The lake bed is geosphere, but the water isn't.",
+      "c": "The atmosphere is the layer of gases around the Earth.",
+      "d": "The biosphere is all the living things."
+    },
+    "hints": ["A glacier is made of frozen water."],
+    "solution": "Both are **hydrosphere**: all of Earth's water, whether liquid (lakes, rivers, oceans, groundwater) or frozen (glaciers and ice sheets)."
+  },
+  {
+    "id": "s9.earth.systems.q035",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "In the water cycle, what is the name for water vapour escaping from the leaves of plants?",
+    "accepted": ["transpiration", "transpiring", "transpire"],
+    "hints": ["It starts with \"trans…\"."],
+    "solution": "It is **transpiration**. Plants take up water through their roots and lose water vapour through tiny pores in their leaves."
+  },
+  {
+    "id": "s9.earth.systems.q036",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "About 97% of all the water on Earth is salt water. About what percentage is fresh water?",
+    "answer": 3,
+    "units": "%",
+    "hints": ["All the water adds up to 100%."],
+    "solution": "100% − 97% = about **3%** fresh water, and most of that is frozen as ice."
+  },
+  {
+    "id": "s9.earth.systems.q037",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which statement describes **climate** rather than weather?",
+    "options": [
+      { "id": "a", "text": "Central Otago usually has hot, dry summers and cold winters" },
+      { "id": "b", "text": "It is raining heavily in Auckland this morning" },
+      { "id": "c", "text": "A storm is forecast to reach Napier tomorrow" },
+      { "id": "d", "text": "It was 30 °C in Gisborne yesterday afternoon" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is about the conditions right now in one place, so it is weather.",
+      "c": "A forecast for tomorrow describes weather, which changes from day to day.",
+      "d": "One day's temperature is weather. Climate is the average pattern over many years."
+    },
+    "hints": ["Climate is the usual pattern over a long time (about 30 years or more)."],
+    "solution": "\"Central Otago **usually** has hot, dry summers and cold winters\" describes the long-term pattern, which is **climate**. The others describe conditions at one particular time: weather."
+  },
+  {
+    "id": "s9.earth.systems.q038",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the **greenhouse gases**.",
+    "options": [
+      { "id": "a", "text": "Carbon dioxide" },
+      { "id": "b", "text": "Methane" },
+      { "id": "c", "text": "Water vapour" },
+      { "id": "d", "text": "Nitrous oxide" },
+      { "id": "e", "text": "Nitrogen" },
+      { "id": "f", "text": "Oxygen" },
+      { "id": "g", "text": "Argon" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["The three most common gases in the air (nitrogen, oxygen and argon) are not greenhouse gases."],
+    "solution": "**Carbon dioxide, methane, water vapour and nitrous oxide** absorb heat given off by Earth's surface. Nitrogen, oxygen and argon make up about 99.9% of dry air, but they do not trap heat in this way."
+  },
+  {
+    "id": "s9.earth.systems.q039",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Where is **most** of Earth's fresh water found?",
+    "options": [
+      { "id": "a", "text": "Frozen in ice sheets and glaciers" },
+      { "id": "b", "text": "In lakes and rivers" },
+      { "id": "c", "text": "Underground, as groundwater" },
+      { "id": "d", "text": "In the atmosphere, as water vapour and clouds" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Lakes and rivers hold well under 1% of Earth's fresh water, even though they are the fresh water we see most.",
+      "c": "Groundwater is the second-biggest store (about 30%), but more is frozen as ice.",
+      "d": "Only a tiny fraction of fresh water is in the air at any one time."
+    },
+    "hints": ["Think about Antarctica."],
+    "solution": "About two-thirds of Earth's fresh water is **frozen**, mostly in the ice sheets of Antarctica and Greenland. Most of the rest is groundwater. Lakes and rivers hold only a tiny fraction."
+  },
+  {
+    "id": "s9.earth.systems.q040",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "A purple crystal is placed at the bottom of a beaker of water, near one side, and that side is heated gently. Put the steps of the convection current in order, starting from the heated water.",
+    "items": [
+      { "id": "heat", "text": "The water above the flame warms up and becomes less dense" },
+      { "id": "rise", "text": "The warm water rises, carrying purple colour up the heated side" },
+      { "id": "across", "text": "The water spreads across the top of the beaker and cools" },
+      { "id": "sink", "text": "The cooler, denser water sinks down the far side" },
+      { "id": "back", "text": "The water flows back along the bottom towards the heat" }
+    ],
+    "hints": ["Warm water is less dense than cold water.", "A convection current is a loop."],
+    "solution": "Heated water becomes less dense and rises → spreads across the top and cools → becomes denser and sinks on the far side → flows back along the bottom to be heated again. The purple colour shows the loop."
+  },
+  {
+    "id": "s9.earth.systems.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "When a large volcano such as Taupō erupts, which effect shows the **geosphere** affecting the **atmosphere**?",
+    "options": [
+      { "id": "a", "text": "Ash and gases are blasted high into the air" },
+      { "id": "b", "text": "Hot rock flows into a lake and makes the water boil" },
+      { "id": "c", "text": "Forests near the volcano are flattened and burned" },
+      { "id": "d", "text": "Rain washes ash off the hills into rivers" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the geosphere (rock) affecting the hydrosphere (lake water).",
+      "c": "This is the geosphere affecting the biosphere (living things).",
+      "d": "This is mostly the atmosphere and hydrosphere (rain and rivers) moving the geosphere (ash)."
+    },
+    "hints": ["The geosphere is rock and molten rock. The atmosphere is the air."],
+    "solution": "Volcanic **ash and gases** come from the geosphere and are blasted into the **atmosphere**. The other options are interactions between other spheres."
+  },
+  {
+    "id": "s9.earth.systems.q042",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Much of Christchurch's drinking water comes from underground. As rainwater soaks down through soil, sand and gravel, solid particles are trapped, much like [[a]] in the lab. The water collects in layers of gravel and rock underground, called an [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["filtration"], "options": ["distillation", "filtration", "condensation", "evaporation"] },
+      { "id": "b", "accepted": ["aquifer"], "options": ["estuary", "glacier", "aquifer", "atmosphere"] }
+    ],
+    "hints": ["Which lab method traps solid particles while letting water pass through?", "The word starts with \"aqua\", meaning water."],
+    "solution": "Soaking through soil and gravel traps solid particles, like **filtration**. The water is stored underground in an **aquifer**, a layer of gravel or rock that holds groundwater."
+  },
+  {
+    "id": "s9.earth.systems.q043",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "On a clear night at the beach, a gentle breeze often blows from the land out to sea. Why?",
+    "options": [
+      { "id": "a", "text": "The land cools faster than the sea, so warmer air over the sea rises and cooler air from the land moves out to replace it" },
+      { "id": "b", "text": "The sea cools faster than the land, so cold air over the sea is pulled towards the land" },
+      { "id": "c", "text": "The tide going out at night drags the air out to sea with it" },
+      { "id": "d", "text": "Warm air over the land sinks at night and spreads out over the sea" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It is the other way round: water cools down more slowly than land.",
+      "c": "Tides happen at all times of day and night, and they do not drag the wind along.",
+      "d": "Warm air rises rather than sinks. At night the land, and the air above it, is the cooler one."
+    },
+    "hints": ["Which cools down faster after sunset, the land or the sea?", "Warm air rises; cooler air moves in to replace it."],
+    "solution": "After sunset the **land cools faster** than the sea. The air over the sea is now warmer, so it rises, and cooler air from the land flows out to replace it. This land breeze is the reverse of the daytime sea breeze."
+  },
+  {
+    "id": "s9.earth.systems.q044",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "After a very large volcanic eruption, average temperatures around the world can drop slightly for a year or two. What is the best explanation?",
+    "options": [
+      { "id": "a", "text": "Tiny particles and sulfur gases high in the atmosphere reflect some sunlight back into space" },
+      { "id": "b", "text": "The eruption uses up heat from the atmosphere to melt the rock" },
+      { "id": "c", "text": "The lava cools the ground as it spreads across it" },
+      { "id": "d", "text": "Volcanoes give out cold gases that chill the air" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The rock is melted by heat from inside the Earth, not by taking heat out of the air.",
+      "c": "Lava is extremely hot, and it only covers a small area near the volcano.",
+      "d": "Volcanic gases come out very hot."
+    },
+    "hints": ["What could stop some sunlight from reaching the ground all over the world?"],
+    "solution": "A huge eruption blasts ash and sulfur gases high into the atmosphere. The gases form tiny droplets that spread around the world and **reflect some sunlight back into space**, so less reaches the surface and the planet cools a little until they fall out of the air."
+  },
+  {
+    "id": "s9.earth.systems.q045",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the actions that would help to **slow the rise** of carbon dioxide in the atmosphere.",
+    "options": [
+      { "id": "a", "text": "Planting native forest on unused land" },
+      { "id": "b", "text": "Protecting wetlands and peat bogs" },
+      { "id": "c", "text": "Switching from petrol cars to electric cars charged with renewable electricity" },
+      { "id": "d", "text": "Burning more coal to make electricity" },
+      { "id": "e", "text": "Draining peat wetlands to make farmland" },
+      { "id": "f", "text": "Clearing forest by burning it" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Wetlands and peat bogs store huge amounts of carbon in dead plant material.", "Which actions take carbon out of the air or stop it being added?"],
+    "solution": "Growing forest takes in CO₂ by photosynthesis; protecting wetlands keeps their stored carbon locked up; renewable electricity avoids burning petrol. Burning coal and forest releases CO₂, and draining peat lets the dead plant material decompose and release its carbon."
+  },
+  {
+    "id": "s9.earth.systems.q046",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "New Zealand scientists are researching ways to reduce the methane that cattle and sheep burp out. Explain why this matters for the climate.",
+    "modelAnswer": "Methane is a greenhouse gas: it absorbs heat given off by Earth's surface and traps it in the atmosphere. New Zealand has very large numbers of cattle and sheep, and farming produces about half of the country's greenhouse gas emissions, mostly as methane. More greenhouse gases strengthen the greenhouse effect, causing global warming and climate change, so reducing methane from farm animals would make a big difference to New Zealand's emissions.",
+    "rubric": [
+      { "criterion": "Methane is a greenhouse gas that traps heat in the atmosphere", "marks": 1 },
+      { "criterion": "NZ has many cattle and sheep, so farming is a large source (about half) of NZ's greenhouse gas emissions", "marks": 1 },
+      { "criterion": "More greenhouse gas strengthens the greenhouse effect, leading to global warming or climate change", "marks": 1 }
+    ],
+    "hints": ["What type of gas is methane?", "Why is this a bigger issue for New Zealand than for many other countries?"],
+    "solution": "Methane traps heat (greenhouse gas); NZ farming produces a lot of it; cutting it slows global warming."
+  },
+  {
+    "id": "s9.earth.systems.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Which statement best describes how **matter** and **energy** move through Earth's systems?",
+    "options": [
+      { "id": "a", "text": "Matter, such as water and carbon, is recycled; energy from the Sun flows through and is eventually lost to space as heat" },
+      { "id": "b", "text": "Energy is recycled around the Earth, but matter is gradually used up" },
+      { "id": "c", "text": "Both matter and energy are recycled, so Earth would be fine without the Sun" },
+      { "id": "d", "text": "Both matter and energy are used up, so new supplies arrive from space each day" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Matter is not used up: the same water and carbon atoms go round and round the cycles. It is energy that can't be reused.",
+      "c": "Energy is not recycled. Without a constant supply from the Sun, Earth would freeze.",
+      "d": "Almost no new matter arrives from space. The same matter is recycled."
+    },
+    "hints": ["Think of the water cycle: is new water ever made?", "What happens to the Sun's energy in the end?"],
+    "solution": "**Matter cycles**: the same water and carbon atoms move between the spheres again and again. **Energy flows**: it arrives from the Sun, drives the cycles and living things, and is eventually radiated into space as heat, so it must be constantly replaced."
+  },
+  {
+    "id": "s9.earth.systems.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 4,
+    "prompt": "Discuss how the water cycle moves water between **at least three** of Earth's spheres, and explain what provides the energy for the water cycle.",
+    "modelAnswer": "The Sun heats the sea and lakes, so water evaporates from the hydrosphere into the atmosphere as water vapour. Plants (the biosphere) take water from the soil and lose it from their leaves by transpiration, adding more water vapour to the atmosphere. In the atmosphere the vapour cools and condenses into clouds, and falls as precipitation onto the land and sea. Some water soaks into the soil and rock (the geosphere) and becomes groundwater, and some runs off into rivers that flow back to the sea. The energy for evaporation and transpiration comes from the Sun, and gravity makes precipitation fall and rivers flow downhill.",
+    "rubric": [
+      { "criterion": "One movement between two spheres, named with its process, e.g. evaporation from the sea (hydrosphere → atmosphere)", "marks": 1 },
+      { "criterion": "A second, different movement, e.g. transpiration from plants (biosphere → atmosphere)", "marks": 1 },
+      { "criterion": "A third, different movement, e.g. precipitation soaking into soil and rock as groundwater (atmosphere → geosphere), or run-off back to the sea", "marks": 1 },
+      { "criterion": "The Sun provides the energy for evaporation and transpiration (gravity brings water down and makes rivers flow)", "marks": 1 }
+    ],
+    "hints": ["Name a process for each move between spheres.", "Which process needs the most energy, and where does it come from?"],
+    "solution": "Evaporation (hydrosphere → atmosphere), transpiration (biosphere → atmosphere), precipitation (atmosphere → hydrosphere and geosphere), infiltration and run-off (geosphere → hydrosphere). The Sun powers it, with gravity bringing water back down."
+  },
+  {
+    "id": "s9.earth.systems.q049",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The Franz Josef Glacier on the West Coast has shrunk a long way over the past hundred years. Explain how an increase in greenhouse gases could cause this, and how melting glaciers affect sea level.",
+    "modelAnswer": "More greenhouse gases in the atmosphere absorb more of the heat given off by Earth's surface, so average temperatures rise (global warming). In warmer conditions, more of the glacier's ice melts each year than is replaced by new snow falling at the top, so the glacier shrinks and retreats. The meltwater from glaciers and ice sheets on land flows into the sea, adding extra water, so the sea level rises.",
+    "rubric": [
+      { "criterion": "More greenhouse gases trap more heat, so average temperatures rise", "marks": 1 },
+      { "criterion": "More ice melts each year than is replaced by snowfall, so the glacier shrinks", "marks": 1 },
+      { "criterion": "Meltwater from ice on land flows into the sea, so sea level rises", "marks": 1 }
+    ],
+    "hints": ["A glacier stays the same size only if new snow replaces the ice that melts.", "Where does the meltwater end up?"],
+    "solution": "More greenhouse gases → warmer → melting outpaces snowfall → glacier shrinks → meltwater from land ice raises sea level."
   }
 ]

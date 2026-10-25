@@ -138,5 +138,239 @@
     "units": "$",
     "hints": ["Find the area of the trapezium, then subtract the paved square.", "Multiply the area that needs bark by \\$12."],
     "solution": "Trapezium: $\\frac{1}{2} \\times (14 + 9) \\times 6 = 69$ m².\n\nPaved square: $3 \\times 3 = 9$ m².\n\nBark area: $69 - 9 = 60$ m². Cost: $60 \\times 12 = 720$, so the bark costs **\\$720**."
+  },
+  {
+    "id": "m9.mea.area.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.mea.area.g1",
+    "part": "a",
+    "stem": "A rectangular swimming pool is 25 m long and 12 m wide. A concrete path 2 m wide goes all the way around the outside of the pool, as shown.",
+    "prompt": "How long is the **outside** edge of the path, along the long side of the pool?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 218\" width=\"380\" height=\"218\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"45\" y=\"30\" width=\"290\" height=\"160\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"65\" y=\"50\" width=\"250\" height=\"120\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"190\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1e3a8a\">Pool</text><text x=\"190\" y=\"64\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">25 m</text><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 m</text><line x1=\"315\" y1=\"110\" x2=\"335\" y2=\"110\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"315\" y1=\"115\" x2=\"315\" y2=\"105\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"335\" y1=\"115\" x2=\"335\" y2=\"105\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\"></text><text x=\"354\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2 m</text><text x=\"190\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">path</text><text x=\"372\" y=\"210\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A rectangular pool 25 m long and 12 m wide, with a path 2 m wide all the way around it. The outside edge of the path is a larger rectangle." },
+    "answer": 29,
+    "units": "m",
+    "hints": ["The path sticks out 2 m beyond the pool at **both** ends."],
+    "solution": "$25 + 2 + 2 = 29$ m. (In the same way, the outside width is $12 + 2 + 2 = 16$ m.)"
+  },
+  {
+    "id": "m9.mea.area.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.mea.area.g1",
+    "part": "b",
+    "stem": "A rectangular swimming pool is 25 m long and 12 m wide. A concrete path 2 m wide goes all the way around the outside of the pool, as shown.",
+    "prompt": "Find the area of the path.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 218\" width=\"380\" height=\"218\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"45\" y=\"30\" width=\"290\" height=\"160\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"65\" y=\"50\" width=\"250\" height=\"120\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"190\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1e3a8a\">Pool</text><text x=\"190\" y=\"64\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">25 m</text><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 m</text><line x1=\"315\" y1=\"110\" x2=\"335\" y2=\"110\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"315\" y1=\"115\" x2=\"315\" y2=\"105\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"335\" y1=\"115\" x2=\"335\" y2=\"105\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\"></text><text x=\"354\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2 m</text><text x=\"190\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">path</text><text x=\"372\" y=\"210\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A rectangular pool 25 m long and 12 m wide, with a path 2 m wide all the way around it. The outside edge of the path is a larger rectangle." },
+    "answer": 164,
+    "units": "m²",
+    "hints": ["Area of the path = area of the outside rectangle − area of the pool.", "The outside rectangle is 4 m longer and 4 m wider than the pool."],
+    "solution": "Outside rectangle: $29 \\times 16 = 464$ m². Pool: $25 \\times 12 = 300$ m².\n\nPath $= 464 - 300 = 164$ m²."
+  },
+  {
+    "id": "m9.mea.area.q012",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.mea.area.g1",
+    "part": "c",
+    "stem": "A rectangular swimming pool is 25 m long and 12 m wide. A concrete path 2 m wide goes all the way around the outside of the pool, as shown.",
+    "prompt": "Tia finds the area of the path by multiplying the perimeter of the pool by the width of the path: $2 \\times (25 + 12) \\times 2 = 148$ m². Explain why Tia's answer is too small, and give the correct area.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 218\" width=\"380\" height=\"218\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"45\" y=\"30\" width=\"290\" height=\"160\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"65\" y=\"50\" width=\"250\" height=\"120\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"190\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1e3a8a\">Pool</text><text x=\"190\" y=\"64\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">25 m</text><text x=\"88\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 m</text><line x1=\"315\" y1=\"110\" x2=\"335\" y2=\"110\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"315\" y1=\"115\" x2=\"315\" y2=\"105\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"335\" y1=\"115\" x2=\"335\" y2=\"105\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\"></text><text x=\"354\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2 m</text><text x=\"190\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">path</text><text x=\"372\" y=\"210\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A rectangular pool 25 m long and 12 m wide, with a path 2 m wide all the way around it. The outside edge of the path is a larger rectangle." },
+    "modelAnswer": "Tia's method covers four strips along the sides of the pool: two strips 25 m by 2 m and two strips 12 m by 2 m, which is 148 m². But it misses the four square corners of the path, each 2 m by 2 m = 4 m². Adding these gives 148 + 4 × 4 = 164 m².",
+    "rubric": [
+      { "criterion": "Explains that her method only covers the strips along the four sides of the pool and misses the four corner squares", "marks": 1 },
+      { "criterion": "Shows the corners add 4 × (2 × 2) = 16 m², giving the correct area of 164 m²", "marks": 1 }
+    ],
+    "hints": ["Sketch the four strips that Tia has counted. Which parts of the path are left over?"],
+    "solution": "Tia's calculation counts a strip along each side of the pool: $2 \\times 25 \\times 2 + 2 \\times 12 \\times 2 = 100 + 48 = 148$ m². It leaves out the **four corner squares**, each $2 \\times 2 = 4$ m². Correct area $= 148 + 16 = 164$ m²."
+  },
+  {
+    "id": "m9.mea.area.q013",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.mea.area.g2",
+    "part": "a",
+    "stem": "The end wall of a bach is a rectangle 8 m wide and 3 m high, with a triangle on top. The top of the triangle is 2 m above the top of the rectangle. The wall has a window 1.5 m wide and 1.2 m high, and a door 0.9 m wide and 2 m high.",
+    "prompt": "Find the area of the triangle part of the wall.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 222\" width=\"340\" height=\"222\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"50,190 290,190 290,100 170,40 50,100\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"50\" y1=\"100\" x2=\"290\" y2=\"100\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"40\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"170,91 179,91 179,100\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"186\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2 m</text><rect x=\"80\" y=\"118\" width=\"45\" height=\"36\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"102.5\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#1f2937\">window</text><rect x=\"200\" y=\"130\" width=\"27\" height=\"60\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"213.5\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#1f2937\">door</text><text x=\"170\" y=\"207\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">8 m</text><text x=\"308\" y=\"145\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 m</text></svg>", "alt": "The end wall of a bach: a rectangle 8 m wide and 3 m high with a triangle on top. A dashed vertical line shows the triangle is 2 m high. The wall has a window and a door." },
+    "answer": 8,
+    "units": "m²",
+    "hints": ["Area of a triangle = ½ × base × perpendicular height.", "The base of the triangle is the full width of the wall."],
+    "solution": "$\\frac{1}{2} \\times 8 \\times 2 = 8$ m²."
+  },
+  {
+    "id": "m9.mea.area.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.mea.area.g2",
+    "part": "b",
+    "stem": "The end wall of a bach is a rectangle 8 m wide and 3 m high, with a triangle on top. The top of the triangle is 2 m above the top of the rectangle. The wall has a window 1.5 m wide and 1.2 m high, and a door 0.9 m wide and 2 m high.",
+    "prompt": "The wall will be painted, but not the window or the door. Find the area that will be painted.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 222\" width=\"340\" height=\"222\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"50,190 290,190 290,100 170,40 50,100\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"50\" y1=\"100\" x2=\"290\" y2=\"100\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"40\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"170,91 179,91 179,100\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"186\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2 m</text><rect x=\"80\" y=\"118\" width=\"45\" height=\"36\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"102.5\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#1f2937\">window</text><rect x=\"200\" y=\"130\" width=\"27\" height=\"60\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"213.5\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#1f2937\">door</text><text x=\"170\" y=\"207\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">8 m</text><text x=\"308\" y=\"145\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 m</text></svg>", "alt": "The end wall of a bach: a rectangle 8 m wide and 3 m high with a triangle on top. A dashed vertical line shows the triangle is 2 m high. The wall has a window and a door." },
+    "answer": 28.4,
+    "units": "m²",
+    "hints": ["Find the area of the whole wall (rectangle + triangle) first.", "Then subtract the area of the window and the area of the door."],
+    "solution": "Rectangle: $8 \\times 3 = 24$ m². Triangle: $\\frac{1}{2} \\times 8 \\times 2 = 8$ m². Whole wall: $24 + 8 = 32$ m².\n\nWindow: $1.5 \\times 1.2 = 1.8$ m². Door: $0.9 \\times 2 = 1.8$ m².\n\nPainted area $= 32 - 1.8 - 1.8 = 28.4$ m²."
+  },
+  {
+    "id": "m9.mea.area.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.mea.area.g2",
+    "part": "c",
+    "stem": "The end wall of a bach is a rectangle 8 m wide and 3 m high, with a triangle on top. The top of the triangle is 2 m above the top of the rectangle. The wall has a window 1.5 m wide and 1.2 m high, and a door 0.9 m wide and 2 m high.",
+    "prompt": "The wall (not the window or the door) needs **two** coats of paint. One litre of paint covers 12 m², and the paint is sold in 2-litre tins. How many tins must be bought?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 222\" width=\"340\" height=\"222\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"50,190 290,190 290,100 170,40 50,100\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"50\" y1=\"100\" x2=\"290\" y2=\"100\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"40\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"170,91 179,91 179,100\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"186\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2 m</text><rect x=\"80\" y=\"118\" width=\"45\" height=\"36\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"102.5\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#1f2937\">window</text><rect x=\"200\" y=\"130\" width=\"27\" height=\"60\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"213.5\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#1f2937\">door</text><text x=\"170\" y=\"207\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">8 m</text><text x=\"308\" y=\"145\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 m</text></svg>", "alt": "The end wall of a bach: a rectangle 8 m wide and 3 m high with a triangle on top. A dashed vertical line shows the triangle is 2 m high. The wall has a window and a door." },
+    "answer": 3,
+    "form": "integer",
+    "hints": ["Find the area to be painted, then double it for two coats.", "Work out how many litres are needed, then how many 2-litre tins that takes. You can't buy part of a tin."],
+    "solution": "Area to paint: $32 - 1.8 - 1.8 = 28.4$ m². Two coats: $2 \\times 28.4 = 56.8$ m².\n\nPaint needed: $56.8 \\div 12 = 4.73\\ldots$ litres.\n\nTwo tins hold only 4 L, which is not enough, so **3 tins** (6 L) must be bought."
+  },
+  {
+    "id": "m9.mea.area.q016",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A square has an area of 49 cm². How long is each side?",
+    "options": [
+      { "id": "a", "text": "7 cm" },
+      { "id": "b", "text": "12.25 cm" },
+      { "id": "c", "text": "24.5 cm" },
+      { "id": "d", "text": "49 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "12.25 is 49 ÷ 4. Dividing by 4 finds the side from the **perimeter**, not the area.",
+      "c": "24.5 is 49 ÷ 2. The area of a square is side × side, so look for a number times itself.",
+      "d": "A square with 49 cm sides would have an area of 49 × 49 = 2401 cm²."
+    },
+    "hints": ["Area of a square = side × side.", "Which number times itself makes 49?"],
+    "solution": "Side × side = 49, and $7 \\times 7 = 49$, so each side is **7 cm**."
+  },
+  {
+    "id": "m9.mea.area.q017",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "In area formulas, the height must be the **perpendicular** height. This means it meets the base at [[a]].",
+    "blanks": [
+      { "id": "a", "accepted": ["a right angle"], "options": ["an acute angle", "an obtuse angle", "a right angle", "a straight angle"] }
+    ],
+    "hints": ["Perpendicular lines meet like the corner of a page."],
+    "solution": "The perpendicular height meets the base at **a right angle** (90°). A sloping side is not the height."
+  },
+  {
+    "id": "m9.mea.area.q018",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "A trapezium has parallel sides of 6 cm and 10 cm, and a perpendicular height of 4 cm. Leo types $6 + 10 \\times 4 \\div 2$ into his calculator and gets 26 cm². What has gone wrong?",
+    "options": [
+      { "id": "a", "text": "He needs brackets: $(6 + 10) \\times 4 \\div 2 = 32$ cm²" },
+      { "id": "b", "text": "He should not halve: $(6 + 10) \\times 4 = 64$ cm²" },
+      { "id": "c", "text": "He should multiply all three: $6 \\times 10 \\times 4 \\div 2 = 120$ cm²" },
+      { "id": "d", "text": "Nothing: the area is 26 cm²" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The trapezium formula is $\\frac{1}{2}(a + b)h$, so you do halve.",
+      "c": "The parallel sides are **added**, not multiplied: $\\frac{1}{2}(a + b)h$.",
+      "d": "The calculator worked out $10 \\times 4 \\div 2$ first and then added 6. The parallel sides must be added first."
+    },
+    "hints": ["Which does a calculator do first: + or ×?", "In $\\frac{1}{2}(a + b)h$, the brackets mean the parallel sides are added first."],
+    "solution": "The calculator follows the order of operations, so it worked out $6 + (10 \\times 4 \\div 2) = 6 + 20 = 26$. The parallel sides must be added first: $\\frac{1}{2} \\times (6 + 10) \\times 4 = \\frac{1}{2} \\times 16 \\times 4 = 32$ cm²."
+  },
+  {
+    "id": "m9.mea.area.q019",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A rectangular poster is 84 cm long and 60 cm wide. Find its area in **square metres** (m²).",
+    "answer": 0.504,
+    "units": "m²",
+    "hints": ["Change the lengths into metres first (100 cm = 1 m).", "Or find the area in cm², then use 1 m² = 10 000 cm²."],
+    "solution": "In metres the poster is 0.84 m by 0.6 m, so its area is $0.84 \\times 0.6 = 0.504$ m².\n\n(Or: $84 \\times 60 = 5040$ cm², and $5040 \\div 10\\,000 = 0.504$ m².)"
+  },
+  {
+    "id": "m9.mea.area.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Lines ℓ and m are parallel. Triangles A, B and C each have a base of 4 cm on line m, and each has its top corner on line ℓ. Which statement is true?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 222\" width=\"420\" height=\"222\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"24\" y1=\"190\" x2=\"410\" y2=\"190\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"121.5,54.9 128.5,50 121.5,45.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"131.5,194.9 138.5,190 131.5,185.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><text x=\"12\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\">ℓ</text><text x=\"12\" y=\"190\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\">m</text><polygon points=\"36,190 116,190 36,50\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"36,180 46,180 46,190\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60\" y=\"150\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"76\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4 cm</text><polygon points=\"166,190 246,190 206,50\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"206\" y=\"150\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"206\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4 cm</text><polygon points=\"286,190 366,190 404,50\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"350\" y=\"150\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"326\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4 cm</text></svg>", "alt": "Two parallel lines, ℓ at the top and m at the bottom. Three triangles A, B and C each have a 4 cm base on line m and a top corner on line ℓ. A is right-angled, B is symmetrical, and C leans far over to the right." },
+    "options": [
+      { "id": "a", "text": "All three triangles have the same area" },
+      { "id": "b", "text": "C has the largest area, because it has the longest sides" },
+      { "id": "c", "text": "A has the largest area, because it has a right angle" },
+      { "id": "d", "text": "You need the lengths of the sloping sides to compare them" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Long sloping sides don't make a bigger area. Area depends on the base and the **perpendicular** height.",
+      "c": "The right angle doesn't make the area bigger. All three have the same base and the same perpendicular height.",
+      "d": "The sloping sides aren't needed. The perpendicular height of each triangle is the distance between the parallel lines."
+    },
+    "hints": ["Area of a triangle = ½ × base × perpendicular height.", "What is the perpendicular height of each triangle?"],
+    "solution": "Each triangle has a 4 cm base, and its perpendicular height is the distance between the parallel lines, which is the same for all three. So every area is $\\frac{1}{2} \\times 4 \\times h$: **all three have the same area**, even though they look different."
+  },
+  {
+    "id": "m9.mea.area.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain how two copies of the same trapezium can be fitted together to show that the area of a trapezium is $\\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides and $h$ is the perpendicular height.",
+    "modelAnswer": "Take two identical trapeziums and turn one upside down (rotate it 180°). Put them side by side so they fit together. They make a parallelogram. The base of the parallelogram is a + b (the bottom of one trapezium plus the bottom of the upside-down one), and its perpendicular height is still h. So the parallelogram's area is (a + b) × h. Each trapezium is half of the parallelogram, so its area is ½(a + b)h.",
+    "rubric": [
+      { "criterion": "Describes turning one trapezium upside down (rotating it 180°) and joining the two to make a parallelogram", "marks": 1 },
+      { "criterion": "States that the parallelogram has base a + b and height h, so its area is (a + b)h", "marks": 1 },
+      { "criterion": "Concludes that one trapezium is half of this: ½(a + b)h", "marks": 1 }
+    ],
+    "hints": ["Turn the second trapezium upside down and put it next to the first. What shape do they make?", "How long is the base of the new shape?"],
+    "solution": "Rotate a copy of the trapezium 180° and place it beside the original. Together they form a **parallelogram** with base $a + b$ and perpendicular height $h$, so its area is $(a + b)h$. The trapezium is half of it: $A = \\frac{1}{2}(a + b)h$."
+  },
+  {
+    "id": "m9.mea.area.q022",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "A kite has an area of 54 cm². One of its diagonals is 12 cm long. How long is the other diagonal?",
+    "answer": 9,
+    "units": "cm",
+    "hints": ["Area of a kite = ½ × one diagonal × the other diagonal.", "Fill in what you know: $\\frac{1}{2} \\times 12 \\times d = 54$."],
+    "solution": "$\\frac{1}{2} \\times 12 \\times d = 54$, so $6d = 54$ and $d = 9$ cm.\n\nCheck: $\\frac{1}{2} \\times 12 \\times 9 = 54$ ✓"
+  },
+  {
+    "id": "m9.mea.area.q023",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A square has an area of 50 cm². A new square is drawn inside it by joining the midpoints of its four sides, as shown. What is the area of the new (shaded) square?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 258\" width=\"320\" height=\"258\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"60,30 260,30 260,230 60,230\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"160,30 260,130 160,230 60,130\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"110\" y1=\"36\" x2=\"110\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"36\" x2=\"210\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"254\" y1=\"80\" x2=\"266\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"254\" y1=\"180\" x2=\"266\" y2=\"180\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"224\" x2=\"210\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"224\" x2=\"110\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"180\" x2=\"54\" y2=\"180\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"66\" y1=\"80\" x2=\"54\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"160\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Large square: area 50 cm²</text></svg>", "alt": "A large square with area 50 cm². The midpoints of its four sides are joined to make a smaller, tilted square, which is shaded. This leaves four unshaded right-angled triangles in the corners." },
+    "answer": 25,
+    "units": "cm²",
+    "hints": ["Join the midpoints of opposite sides of the large square. This cuts it into 4 equal small squares.", "How much of each small square is inside the shaded square?"],
+    "solution": "Joining the midpoints of opposite sides cuts the large square into 4 equal small squares. Each side of the shaded square is a diagonal of one small square, and a diagonal cuts a square exactly in half. So the shaded square covers half of each small square, which is half of the large square: $50 \\div 2 = 25$ cm²."
+  },
+  {
+    "id": "m9.mea.area.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A trapezium has an area of 60 cm² and a perpendicular height of 6 cm. One of its parallel sides is 4 cm longer than the other. How long is the **shorter** parallel side?",
+    "answer": 8,
+    "units": "cm",
+    "hints": ["Call the shorter side $a$. Then the longer side is $a + 4$.", "Use $\\frac{1}{2}(a + b)h = 60$ with $b = a + 4$ and $h = 6$, then solve for $a$."],
+    "solution": "Let the shorter side be $a$ cm, so the longer side is $(a + 4)$ cm.\n\n$\\frac{1}{2} \\times (a + a + 4) \\times 6 = 60$\n\n$3(2a + 4) = 60$, so $2a + 4 = 20$, $2a = 16$ and $a = 8$ cm.\n\nCheck: sides 8 cm and 12 cm give $\\frac{1}{2} \\times 20 \\times 6 = 60$ ✓"
   }
 ]

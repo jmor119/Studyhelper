@@ -198,5 +198,237 @@
     ],
     "hints": ["Work out how much 25% of \\$140 is.", "Compare the two savings (or the two final prices)."],
     "solution": "25% off saves \\$35, but the other deal saves only \\$30, so **25% off** is better."
+  },
+  {
+    "id": "m9.num.financial.q012",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g1",
+    "part": "a",
+    "stem": "For the school market day, the Year 9 class buys 60 cupcakes from a bakery for \\$1.20 each. They mark up the cost price by 50% to set their selling price. They sell 50 cupcakes at the full selling price, then sell the last 10 at 50% off the selling price. (Ignore GST.)",
+    "prompt": "What is the full selling price of one cupcake?",
+    "answer": 1.8,
+    "decimals": 2,
+    "units": "$",
+    "hints": ["A 50% mark-up means the selling price is 150% of the cost price.", "Multiply \\$1.20 by 1.5."],
+    "solution": "$1.20 \\times 1.5 = 1.80$, so each cupcake sells for **\\$1.80**. (Or: 50% of \\$1.20 is \\$0.60, and $1.20 + 0.60 = 1.80$.)"
+  },
+  {
+    "id": "m9.num.financial.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g1",
+    "part": "b",
+    "stem": "For the school market day, the Year 9 class buys 60 cupcakes from a bakery for \\$1.20 each. They mark up the cost price by 50% to set their selling price. They sell 50 cupcakes at the full selling price, then sell the last 10 at 50% off the selling price. (Ignore GST.)",
+    "prompt": "How much money do they take altogether from selling the 60 cupcakes?",
+    "answer": 99,
+    "units": "$",
+    "hints": ["Find the selling price, then the money from the 50 full-price cupcakes.", "50% off is half price. Find the money from the last 10, then add."],
+    "solution": "Selling price: $1.20 \\times 1.5 = 1.80$, so \\$1.80.\n\nFull price: $50 \\times 1.80 = 90$, so \\$90.\n\nHalf price: $1.80 \\times 0.5 = 0.90$, and $10 \\times 0.90 = 9$, so \\$9.\n\nTotal: $90 + 9 = 99$, so **\\$99**."
+  },
+  {
+    "id": "m9.num.financial.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g1",
+    "part": "c",
+    "stem": "For the school market day, the Year 9 class buys 60 cupcakes from a bakery for \\$1.20 each. They mark up the cost price by 50% to set their selling price. They sell 50 cupcakes at the full selling price, then sell the last 10 at 50% off the selling price. (Ignore GST.)",
+    "prompt": "How much profit does the class make?",
+    "answer": 27,
+    "units": "$",
+    "hints": ["Profit = money taken − total cost.", "Work out what the 60 cupcakes cost the class, and how much money they took."],
+    "solution": "Money taken: $50 \\times 1.80 + 10 \\times 0.90 = 90 + 9 = 99$, so \\$99.\n\nCost: $60 \\times 1.20 = 72$, so \\$72.\n\nProfit: $99 - 72 = 27$, so **\\$27**."
+  },
+  {
+    "id": "m9.num.financial.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g1",
+    "part": "d",
+    "stem": "For the school market day, the Year 9 class buys 60 cupcakes from a bakery for \\$1.20 each. They mark up the cost price by 50% to set their selling price. They sell 50 cupcakes at the full selling price, then sell the last 10 at 50% off the selling price. (Ignore GST.)",
+    "prompt": "Talia says: \"The mark-up was 50% and the discount was 50%, so the last 10 cupcakes were sold for exactly what they cost. The class didn't lose any money on them.\" Is she right? Explain.",
+    "modelAnswer": "No, she is wrong. The full selling price is $1.20 \\times 1.5 = 1.80$, so half price is $1.80 \\times 0.5 = 0.90$, which is \\$0.90. Each cupcake cost the class \\$1.20, so they lost $1.20 - 0.90 = 0.30$ (30 cents) on each of the last 10. The two 50%s are of different amounts: the mark-up added 50% of \\$1.20 (60c), but the discount took off 50% of the bigger price, \\$1.80 (90c).",
+    "rubric": [
+      { "criterion": "Finds the half price of \\$0.90 and compares it with the cost price of \\$1.20", "marks": 1 },
+      { "criterion": "Concludes that Talia is wrong: they lost 30c on each one, because the discount is 50% of a bigger amount than the mark-up was", "marks": 1 }
+    ],
+    "hints": ["What was the price of each of the last 10 cupcakes?", "Is 50% of \\$1.80 the same amount of money as 50% of \\$1.20?"],
+    "solution": "Each of the last 10 sold for $1.80 \\times 0.5 = 0.90$, so \\$0.90, but cost \\$1.20. The class lost 30c on each one, so Talia is **wrong**. The mark-up added 60c (50% of \\$1.20), but the discount took off 90c (50% of \\$1.80)."
+  },
+  {
+    "id": "m9.num.financial.q016",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g2",
+    "part": "a",
+    "stem": "Nikau has \\$2400 to invest for 3 years. He compares two accounts that both pay simple interest:\n\n- **Bank A** pays 3.5% per year.\n- **Bank B** pays 0.3% per month.",
+    "prompt": "How much interest would Bank A pay in one year?",
+    "answer": 84,
+    "units": "$",
+    "hints": ["Find 3.5% of \\$2400.", "3.5% as a decimal is 0.035."],
+    "solution": "$2400 \\times 0.035 = 84$, so Bank A pays \\$84 a year."
+  },
+  {
+    "id": "m9.num.financial.q017",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g2",
+    "part": "b",
+    "stem": "Nikau has \\$2400 to invest for 3 years. He compares two accounts that both pay simple interest:\n\n- **Bank A** pays 3.5% per year.\n- **Bank B** pays 0.3% per month.",
+    "prompt": "How much would Nikau have in the Bank A account after 3 years (the \\$2400 plus the interest)?",
+    "answer": 2652,
+    "units": "$",
+    "hints": ["With simple interest, the interest is the same every year.", "Add 3 years of interest to the \\$2400."],
+    "solution": "Interest each year: $2400 \\times 0.035 = 84$. Interest for 3 years: $84 \\times 3 = 252$, so \\$252.\n\nTotal: $2400 + 252 = 2652$, so **\\$2652**."
+  },
+  {
+    "id": "m9.num.financial.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.financial.g2",
+    "part": "c",
+    "stem": "Nikau has \\$2400 to invest for 3 years. He compares two accounts that both pay simple interest:\n\n- **Bank A** pays 3.5% per year.\n- **Bank B** pays 0.3% per month.",
+    "prompt": "Which bank should Nikau choose for his 3 years? Justify your answer with calculations.",
+    "modelAnswer": "Bank B pays 0.3% per month, which is $0.3\\% \\times 12 = 3.6\\%$ per year. That is more than Bank A's 3.5%. Over 3 years (36 months), Bank B pays $2400 \\times 0.003 \\times 36 = 259.20$, which is \\$259.20 of interest, compared with $2400 \\times 0.035 \\times 3 = 252$, which is \\$252 from Bank A. Nikau should choose Bank B, which pays \\$7.20 more.",
+    "rubric": [
+      { "criterion": "Converts Bank B's rate to 3.6% per year, or calculates Bank B's interest of \\$259.20 for 3 years", "marks": 1 },
+      { "criterion": "Compares with Bank A (3.5% per year, or \\$252 for 3 years)", "marks": 1 },
+      { "criterion": "Concludes that Bank B is better (by \\$7.20 over 3 years)", "marks": 1 }
+    ],
+    "hints": ["How many months are there in 3 years?", "Change Bank B's monthly rate to a yearly rate, or work out its interest for all the months."],
+    "solution": "Bank B: $0.3\\% \\times 12 = 3.6\\%$ per year. Interest over 3 years: $2400 \\times 0.036 \\times 3 = 259.20$, so \\$259.20. Bank A gives $2400 \\times 0.035 \\times 3 = 252$, so \\$252. **Bank B** is better, by \\$7.20."
+  },
+  {
+    "id": "m9.num.financial.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "allowed",
+    "prompt": "A savings account pays 4% p.a. simple interest. What does **p.a.** mean?",
+    "options": [
+      { "id": "a", "text": "Per year" },
+      { "id": "b", "text": "Per month" },
+      { "id": "c", "text": "Per week" },
+      { "id": "d", "text": "For the whole time the money is saved" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A monthly rate would say \"per month\". p.a. stands for *per annum*, which means per year.",
+      "c": "p.a. stands for *per annum*, Latin for \"per year\".",
+      "d": "The rate is for each year, so with simple interest the interest adds up year after year."
+    },
+    "hints": ["Think of the word *annual*, which means once a year."],
+    "solution": "**p.a.** stands for *per annum*, which is Latin for \"per year\". So 4% p.a. means 4% of the principal is paid as interest each year."
+  },
+  {
+    "id": "m9.num.financial.q020",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "When you put money into a savings account, you [[a]] interest. When you borrow money, for example with a loan, you [[b]] interest.",
+    "blanks": [
+      { "id": "a", "accepted": ["earn"], "options": ["earn", "pay"] },
+      { "id": "b", "accepted": ["pay"], "options": ["earn", "pay"] }
+    ],
+    "hints": ["Interest is the price of using someone else's money."],
+    "solution": "Savers **earn** interest: the bank pays you for using your money. Borrowers **pay** interest: you pay the lender for using their money."
+  },
+  {
+    "id": "m9.num.financial.q021",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "A shop offers two deals on the same pair of shoes: **20% off**, or **$\\frac{1}{4}$ off**. Which is the better deal?",
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{4}$ off, because $\\frac{1}{4} = 25\\%$" },
+      { "id": "b", "text": "20% off, because 20 is bigger than 4" },
+      { "id": "c", "text": "They are the same deal" },
+      { "id": "d", "text": "It depends on the price of the shoes" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Compare the same kind of number: $\\frac{1}{4}$ as a percentage is 25%, which is more than 20%.",
+      "c": "$\\frac{1}{4} = 25\\%$, not 20%.",
+      "d": "Both discounts are taken from the same price, so 25% off always saves more than 20% off, whatever the price."
+    },
+    "hints": ["Change $\\frac{1}{4}$ to a percentage."],
+    "solution": "$\\frac{1}{4} = 25\\%$, which is more than 20%. Because both discounts are taken from the same price, **$\\frac{1}{4}$ off** always saves more."
+  },
+  {
+    "id": "m9.num.financial.q022",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Losa works out the simple interest on \\$500 invested at 4% per year for 6 months. She gets \\$120. What is the correct amount of interest?",
+    "options": [
+      { "id": "a", "text": "\\$10" },
+      { "id": "b", "text": "\\$120" },
+      { "id": "c", "text": "\\$20" },
+      { "id": "d", "text": "\\$510" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This uses $t = 6$, as if it were 6 years. In $I = Prt$ the time must be in years: 6 months is 0.5 years.",
+      "c": "\\$20 is the interest for a whole year, but 6 months is only half a year.",
+      "d": "\\$510 is the total in the account (principal plus interest), not the interest."
+    },
+    "hints": ["In $I = Prt$, the time $t$ must be in years.", "6 months is what fraction of a year?"],
+    "solution": "$I = Prt = 500 \\times 0.04 \\times 0.5 = 10$, so the interest is **\\$10**. Losa used 6 for the time instead of 0.5."
+  },
+  {
+    "id": "m9.num.financial.q023",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A laptop costs \\$1299 if you pay the full price now. Or you can pay a \\$200 deposit and then 12 monthly payments of \\$99.50. How much more does the payment plan cost?",
+    "answer": 95,
+    "units": "$",
+    "hints": ["Work out the total of the 12 monthly payments.", "Add the deposit, then compare with \\$1299."],
+    "solution": "Monthly payments: $12 \\times 99.50 = 1194$, so \\$1194.\n\nTotal for the plan: $200 + 1194 = 1394$, so \\$1394.\n\nExtra cost: $1394 - 1299 = 95$, so the payment plan costs **\\$95 more**."
+  },
+  {
+    "id": "m9.num.financial.q024",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Grace sells phones. She is paid \\$600 a week, plus 4% commission on her sales **above** \\$5000 for that week. One week she sells \\$8200 worth of phones. What is her total pay for that week?",
+    "answer": 728,
+    "units": "$",
+    "hints": ["Commission is only paid on the sales above \\$5000. How much is that?", "Find 4% of that amount, then add her \\$600."],
+    "solution": "Sales above \\$5000: $8200 - 5000 = 3200$, so \\$3200.\n\nCommission: $0.04 \\times 3200 = 128$, so \\$128.\n\nTotal pay: $600 + 128 = 728$, so **\\$728**."
+  },
+  {
+    "id": "m9.num.financial.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "A shop buys a rugby ball for \\$40 (not including GST). It sells the ball for \\$69, including GST at 15%. What percentage mark-up did the shop add to its cost **before** GST was added?",
+    "answer": 50,
+    "units": "%",
+    "hints": ["Remove the GST from the selling price first: divide by 1.15.", "Find the mark-up in dollars, then write it as a percentage of the cost price."],
+    "solution": "Selling price before GST: $69 \\div 1.15 = 60$, so \\$60.\n\nMark-up: $60 - 40 = 20$, so \\$20.\n\nAs a percentage of the cost: $\\frac{20}{40} \\times 100 = 50\\%$.\n\nCheck: $40 \\times 1.5 = 60$, then $60 \\times 1.15 = 69$ ✓"
+  },
+  {
+    "id": "m9.num.financial.q026",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "Aroha buys an e-scooter for \\$1500. She pays a \\$300 deposit and borrows the rest at 9% per year simple interest for 2 years. She pays back the loan and the interest in equal monthly payments over the 2 years. How much is each monthly payment?",
+    "answer": 59,
+    "units": "$",
+    "hints": ["How much does Aroha borrow?", "Use $I = Prt$ to find the interest, then add it to the amount borrowed.", "How many monthly payments are there in 2 years?"],
+    "solution": "Borrowed: $1500 - 300 = 1200$, so \\$1200.\n\nInterest: $I = Prt = 1200 \\times 0.09 \\times 2 = 216$, so \\$216.\n\nTotal to repay: $1200 + 216 = 1416$, so \\$1416.\n\nMonthly payment: 2 years is 24 months, and $1416 \\div 24 = 59$, so **\\$59** a month."
   }
 ]

@@ -354,5 +354,549 @@
     "units": "m",
     "hints": ["The sound goes down to the sea floor **and back up**.", "Find the total distance, then halve it."],
     "solution": "Total distance: $1500 \\times 0.4 = 600$ m (down and back). Depth $= 600 \\div 2 = 300$ m."
+  },
+  {
+    "id": "s9.phy.light-sound.q024",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.phy.light-sound.g1",
+    "part": "a",
+    "stem": "A periscope uses two plane mirrors to let you see over a wall. The diagram shows a ray of light from an object passing through a periscope. Each mirror is at 45° to the ray of light that hits it.",
+    "prompt": "What is the angle between the ray arriving at mirror 1 and the ray leaving it?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 300' width='310' height='300' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><rect x='120' y='30' width='60' height='260' fill='#f3f4f6' stroke='none' stroke-width='0'/><polyline points='120,92 120,290 180,290 180,280' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='180,228 180,30 120,30 120,38' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><line x1='124' y1='34' x2='176' y2='86' stroke='#374151' stroke-width='5'/><line x1='124' y1='229' x2='176' y2='281' stroke='#374151' stroke-width='5'/><line x1='132' y1='78' x2='168' y2='42' stroke='#6b7280' stroke-width='1.5' stroke-dasharray='5 4'/><polyline points='14,60 150,60 150,255 248,255' fill='none' stroke='#dc2626' stroke-width='2.5' stroke-linejoin='round'/><polygon points='77,60 63,55.1 63,64.9' fill='#dc2626' stroke='none' stroke-width='1'/><polygon points='150,167 145.1,153 154.9,153' fill='#dc2626' stroke='none' stroke-width='1'/><polygon points='219,255 205,250.1 205,259.9' fill='#dc2626' stroke='none' stroke-width='1'/><path d='M 126 60 A 24 24 0 0 1 133 43' fill='none' stroke='#1f2937' stroke-width='1.5'/><text x='113' y='47' text-anchor='middle' dominant-baseline='middle' font-size='11' fill='#1f2937'>45°</text><path d='M 252 255 Q 268 241 284 255 Q 268 269 252 255 Z' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><circle cx='262' cy='255' r='5' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><text x='268' y='281' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>Eye</text><text x='14' y='44' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Light from</text><text x='14' y='78' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>the object</text><text x='190' y='70' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Mirror 1</text><text x='190' y='210' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Mirror 2</text><line x1='188' y1='70' x2='166' y2='76' stroke='#1f2937' stroke-width='1.2'/><line x1='188' y1='214' x2='160' y2='250' stroke='#1f2937' stroke-width='1.2'/></svg>",
+      "alt": "A periscope: a tall tube with an opening at the top on the left and an opening at the bottom on the right. Mirror 1 at the top and mirror 2 at the bottom are parallel and tilted at 45°. A ray of light from the object travels horizontally into the top opening, reflects off mirror 1 straight down the tube, then reflects off mirror 2 horizontally out of the bottom opening into an eye. The angle between the incoming ray and mirror 1 is marked 45°, and a dashed normal is drawn at mirror 1."
+    },
+    "answer": 90,
+    "units": "°",
+    "hints": [
+      "First work out the angle of incidence. It is measured from the normal, not from the mirror.",
+      "The angle of reflection equals the angle of incidence."
+    ],
+    "solution": "The ray hits mirror 1 at 45° to the mirror, so the angle of incidence (measured from the normal) is 90° − 45° = 45°. The angle of reflection is also 45°. The angle between the arriving and leaving rays is 45° + 45° = **90°**: the light turns through a right angle and travels down the tube."
+  },
+  {
+    "id": "s9.phy.light-sound.q025",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g1",
+    "part": "b",
+    "stem": "A periscope uses two plane mirrors to let you see over a wall. The diagram shows a ray of light from an object passing through a periscope. Each mirror is at 45° to the ray of light that hits it.",
+    "prompt": "Which rule explains how each mirror changes the direction of the light?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 300' width='310' height='300' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><rect x='120' y='30' width='60' height='260' fill='#f3f4f6' stroke='none' stroke-width='0'/><polyline points='120,92 120,290 180,290 180,280' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='180,228 180,30 120,30 120,38' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><line x1='124' y1='34' x2='176' y2='86' stroke='#374151' stroke-width='5'/><line x1='124' y1='229' x2='176' y2='281' stroke='#374151' stroke-width='5'/><line x1='132' y1='78' x2='168' y2='42' stroke='#6b7280' stroke-width='1.5' stroke-dasharray='5 4'/><polyline points='14,60 150,60 150,255 248,255' fill='none' stroke='#dc2626' stroke-width='2.5' stroke-linejoin='round'/><polygon points='77,60 63,55.1 63,64.9' fill='#dc2626' stroke='none' stroke-width='1'/><polygon points='150,167 145.1,153 154.9,153' fill='#dc2626' stroke='none' stroke-width='1'/><polygon points='219,255 205,250.1 205,259.9' fill='#dc2626' stroke='none' stroke-width='1'/><path d='M 126 60 A 24 24 0 0 1 133 43' fill='none' stroke='#1f2937' stroke-width='1.5'/><text x='113' y='47' text-anchor='middle' dominant-baseline='middle' font-size='11' fill='#1f2937'>45°</text><path d='M 252 255 Q 268 241 284 255 Q 268 269 252 255 Z' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><circle cx='262' cy='255' r='5' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><text x='268' y='281' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>Eye</text><text x='14' y='44' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Light from</text><text x='14' y='78' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>the object</text><text x='190' y='70' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Mirror 1</text><text x='190' y='210' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Mirror 2</text><line x1='188' y1='70' x2='166' y2='76' stroke='#1f2937' stroke-width='1.2'/><line x1='188' y1='214' x2='160' y2='250' stroke='#1f2937' stroke-width='1.2'/></svg>",
+      "alt": "A periscope: a tall tube with an opening at the top on the left and an opening at the bottom on the right. Mirror 1 at the top and mirror 2 at the bottom are parallel and tilted at 45°. A ray of light from the object travels horizontally into the top opening, reflects off mirror 1 straight down the tube, then reflects off mirror 2 horizontally out of the bottom opening into an eye. The angle between the incoming ray and mirror 1 is marked 45°, and a dashed normal is drawn at mirror 1."
+    },
+    "options": [
+      { "id": "a", "text": "The angle of incidence equals the angle of reflection" },
+      { "id": "b", "text": "Light bends towards the normal when it slows down" },
+      { "id": "c", "text": "Light can bend around corners by itself" },
+      { "id": "d", "text": "Mirrors absorb light and give it out in every direction" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That describes refraction, when light passes into a new material. Mirrors reflect light.",
+      "c": "Light travels in straight lines. That's why you need mirrors to see over the wall.",
+      "d": "A mirror reflects light in one predictable direction. That's why you see a clear image in it."
+    },
+    "hints": ["Mirrors reflect light. Which law describes reflection?"],
+    "solution": "Each mirror **reflects** the light following the law of reflection: the angle of incidence equals the angle of reflection (both measured from the normal). With the mirrors at 45°, the light turns through 90° at each one."
+  },
+  {
+    "id": "s9.phy.light-sound.q026",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.light-sound.g1",
+    "part": "c",
+    "stem": "A periscope uses two plane mirrors to let you see over a wall. The diagram shows a ray of light from an object passing through a periscope. Each mirror is at 45° to the ray of light that hits it.",
+    "prompt": "Explain why you need a periscope to see an object on the other side of a high wall, and how the periscope gets light from the object into your eye.",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 300' width='310' height='300' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><rect x='120' y='30' width='60' height='260' fill='#f3f4f6' stroke='none' stroke-width='0'/><polyline points='120,92 120,290 180,290 180,280' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='180,228 180,30 120,30 120,38' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><line x1='124' y1='34' x2='176' y2='86' stroke='#374151' stroke-width='5'/><line x1='124' y1='229' x2='176' y2='281' stroke='#374151' stroke-width='5'/><line x1='132' y1='78' x2='168' y2='42' stroke='#6b7280' stroke-width='1.5' stroke-dasharray='5 4'/><polyline points='14,60 150,60 150,255 248,255' fill='none' stroke='#dc2626' stroke-width='2.5' stroke-linejoin='round'/><polygon points='77,60 63,55.1 63,64.9' fill='#dc2626' stroke='none' stroke-width='1'/><polygon points='150,167 145.1,153 154.9,153' fill='#dc2626' stroke='none' stroke-width='1'/><polygon points='219,255 205,250.1 205,259.9' fill='#dc2626' stroke='none' stroke-width='1'/><path d='M 126 60 A 24 24 0 0 1 133 43' fill='none' stroke='#1f2937' stroke-width='1.5'/><text x='113' y='47' text-anchor='middle' dominant-baseline='middle' font-size='11' fill='#1f2937'>45°</text><path d='M 252 255 Q 268 241 284 255 Q 268 269 252 255 Z' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><circle cx='262' cy='255' r='5' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><text x='268' y='281' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>Eye</text><text x='14' y='44' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Light from</text><text x='14' y='78' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>the object</text><text x='190' y='70' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Mirror 1</text><text x='190' y='210' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Mirror 2</text><line x1='188' y1='70' x2='166' y2='76' stroke='#1f2937' stroke-width='1.2'/><line x1='188' y1='214' x2='160' y2='250' stroke='#1f2937' stroke-width='1.2'/></svg>",
+      "alt": "A periscope: a tall tube with an opening at the top on the left and an opening at the bottom on the right. Mirror 1 at the top and mirror 2 at the bottom are parallel and tilted at 45°. A ray of light from the object travels horizontally into the top opening, reflects off mirror 1 straight down the tube, then reflects off mirror 2 horizontally out of the bottom opening into an eye. The angle between the incoming ray and mirror 1 is marked 45°, and a dashed normal is drawn at mirror 1."
+    },
+    "modelAnswer": "Light travels in straight lines, so light from the object can't bend over the wall to reach your eye. In the periscope, light from the object hits mirror 1 at the top and is reflected straight down the tube. It then hits mirror 2 at the bottom and is reflected into your eye. At each mirror the angle of incidence equals the angle of reflection (45°), so the light turns through 90° each time.",
+    "rubric": [
+      {
+        "criterion": "Light travels in straight lines, so it can't get over the wall to your eye by itself",
+        "marks": 1
+      },
+      {
+        "criterion": "The two mirrors reflect the light (down the tube, then into the eye), with the angle of incidence equal to the angle of reflection",
+        "marks": 1
+      }
+    ],
+    "hints": ["How does light travel?", "Follow the ray in the diagram from the object to the eye."],
+    "solution": "Light only travels in straight lines, so the periscope uses two reflections to change its direction: down the tube, then out into your eye."
+  },
+  {
+    "id": "s9.phy.light-sound.q027",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g2",
+    "part": "a",
+    "stem": "Hemi plays a note on his guitar. A microphone connected to an oscilloscope app on a tablet shows the sound as a wave trace.",
+    "prompt": "Hemi tightens the string and plucks it again in the same way. The string now vibrates faster. How does the sound change?",
+    "options": [
+      { "id": "a", "text": "It has a higher pitch" },
+      { "id": "b", "text": "It is louder" },
+      { "id": "c", "text": "It has a lower pitch" },
+      { "id": "d", "text": "It travels faster through the air" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Loudness depends on the amplitude (size) of the vibrations, not on how fast they are.",
+      "c": "Faster vibrations mean a higher frequency, which gives a **higher** pitch.",
+      "d": "All sounds travel through air at the same speed (about 340 m/s), whatever their pitch."
+    },
+    "hints": ["Faster vibrations mean more vibrations per second: a higher frequency."],
+    "solution": "Vibrating faster means a higher **frequency**, and a higher frequency gives a **higher pitch**."
+  },
+  {
+    "id": "s9.phy.light-sound.q028",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g2",
+    "part": "b",
+    "stem": "Hemi plays a note on his guitar. A microphone connected to an oscilloscope app on a tablet shows the sound as a wave trace.",
+    "prompt": "Hemi plucks the string harder, without changing how tight it is. What changes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The amplitude increases, so the sound is louder, but the pitch stays the same"
+      },
+      { "id": "b", "text": "The frequency increases, so the pitch is higher" },
+      { "id": "c", "text": "The amplitude increases, so the pitch is higher" },
+      { "id": "d", "text": "Nothing changes, because it's the same string" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plucking harder doesn't change how many times per second the string vibrates, so the frequency (and pitch) stay the same.",
+      "c": "Amplitude controls loudness, not pitch.",
+      "d": "The string vibrates with a bigger movement, which does change the sound."
+    },
+    "hints": ["Plucking harder makes the string move further back and forth."],
+    "solution": "Plucking harder makes bigger vibrations: a larger **amplitude**, so the sound is **louder**. The frequency, and so the pitch, stays the same, because the string's tightness and length haven't changed."
+  },
+  {
+    "id": "s9.phy.light-sound.q029",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g2",
+    "part": "c",
+    "stem": "Hemi plays a note on his guitar. A microphone connected to an oscilloscope app on a tablet shows the sound as a wave trace.",
+    "prompt": "Trace X shows Hemi's first note. All the traces use the same oscilloscope settings. Which trace shows a sound that is **both** higher in pitch **and** louder than X?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 330' width='420' height='330' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><rect x='120' y='22' width='180' height='75' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'/><line x1='120' y1='59.5' x2='300' y2='59.5' stroke='#e5e7eb' stroke-width='1'/><polyline points='126,59.5 127.1,57.4 128.1,55.3 129.2,53.3 130.2,51.3 131.3,49.5 132.3,47.8 133.4,46.3 134.4,44.9 135.5,43.8 136.5,42.9 137.6,42.2 138.6,41.7 139.7,41.5 140.7,41.6 141.8,41.8 142.8,42.4 143.9,43.2 144.9,44.2 146,45.4 147,46.8 148.1,48.4 149.1,50.1 150.2,52 151.2,53.9 152.3,56 153.3,58.1 154.4,60.2 155.4,62.3 156.5,64.4 157.5,66.4 158.6,68.3 159.6,70.1 160.7,71.7 161.7,73.2 162.8,74.5 163.8,75.5 164.9,76.4 165.9,77 167,77.4 168,77.5 169.1,77.4 170.1,77 171.2,76.4 172.2,75.5 173.3,74.5 174.3,73.2 175.4,71.7 176.4,70.1 177.5,68.3 178.5,66.4 179.6,64.4 180.6,62.3 181.7,60.2 182.7,58.1 183.8,56 184.8,53.9 185.9,52 186.9,50.1 188,48.4 189,46.8 190.1,45.4 191.1,44.2 192.1,43.2 193.2,42.4 194.3,41.8 195.3,41.6 196.4,41.5 197.4,41.7 198.5,42.2 199.5,42.9 200.6,43.8 201.6,44.9 202.6,46.3 203.7,47.8 204.8,49.5 205.8,51.3 206.9,53.3 207.9,55.3 209,57.4 210,59.5 211.1,61.6 212.1,63.7 213.2,65.7 214.2,67.7 215.3,69.5 216.3,71.2 217.4,72.7 218.4,74.1 219.5,75.2 220.5,76.1 221.6,76.8 222.6,77.3 223.7,77.5 224.7,77.4 225.8,77.2 226.8,76.6 227.9,75.8 228.9,74.8 230,73.6 231,72.2 232.1,70.6 233.1,68.9 234.2,67 235.2,65.1 236.3,63 237.3,60.9 238.4,58.8 239.4,56.7 240.5,54.6 241.5,52.6 242.6,50.7 243.6,48.9 244.7,47.3 245.7,45.8 246.8,44.5 247.8,43.5 248.9,42.6 249.9,42 251,41.6 252,41.5 253.1,41.6 254.1,42 255.2,42.6 256.2,43.5 257.3,44.5 258.3,45.8 259.4,47.3 260.4,48.9 261.5,50.7 262.5,52.6 263.5,54.6 264.6,56.7 265.7,58.8 266.7,60.9 267.8,63 268.8,65.1 269.9,67 270.9,68.9 272,70.6 273,72.2 274,73.6 275.1,74.8 276.2,75.8 277.2,76.6 278.3,77.2 279.3,77.4 280.4,77.5 281.4,77.3 282.5,76.8 283.5,76.1 284.5,75.2 285.6,74.1 286.7,72.7 287.7,71.2 288.8,69.5 289.8,67.7 290.9,65.7 291.9,63.7 293,61.6 294,59.5' fill='none' stroke='#2563eb' stroke-width='2' stroke-linejoin='round'/><text x='130' y='35' text-anchor='start' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'></text><text x='120' y='15' text-anchor='start' dominant-baseline='middle' fill='#1f2937' font-weight='bold'>Trace X (first note)</text><rect x='20' y='135' width='180' height='75' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'/><line x1='20' y1='172.5' x2='200' y2='172.5' stroke='#e5e7eb' stroke-width='1'/><polyline points='26,172.5 27.1,168.7 28.1,165 29.2,161.4 30.2,158 31.3,154.7 32.3,151.7 33.4,149 34.4,146.6 35.5,144.6 36.5,142.9 37.6,141.7 38.6,140.9 39.7,140.5 40.7,140.6 41.8,141.1 42.8,142.1 43.8,143.4 44.9,145.2 46,147.4 47,149.9 48.1,152.7 49.1,155.8 50.2,159.1 51.2,162.6 52.3,166.3 53.3,170 54.4,173.8 55.4,177.5 56.5,181.2 57.5,184.7 58.6,188.1 59.6,191.3 60.7,194.2 61.7,196.8 62.8,199.1 63.8,201 64.9,202.5 65.9,203.6 66.9,204.3 68,204.5 69.1,204.3 70.1,203.6 71.2,202.5 72.2,201 73.3,199.1 74.3,196.8 75.4,194.2 76.4,191.3 77.5,188.1 78.5,184.7 79.6,181.2 80.6,177.5 81.7,173.8 82.7,170 83.8,166.3 84.8,162.6 85.9,159.1 86.9,155.8 88,152.7 89,149.9 90.1,147.4 91.1,145.2 92.1,143.4 93.2,142.1 94.3,141.1 95.3,140.6 96.4,140.5 97.4,140.9 98.5,141.7 99.5,142.9 100.6,144.6 101.6,146.6 102.7,149 103.7,151.7 104.8,154.7 105.8,158 106.9,161.4 107.9,165 109,168.7 110,172.5 111.1,176.3 112.1,180 113.2,183.6 114.2,187 115.3,190.3 116.3,193.3 117.4,196 118.4,198.4 119.5,200.4 120.5,202.1 121.6,203.3 122.6,204.1 123.7,204.5 124.7,204.4 125.8,203.9 126.8,202.9 127.9,201.6 128.9,199.8 130,197.6 131,195.1 132.1,192.3 133.1,189.2 134.2,185.9 135.2,182.4 136.3,178.7 137.3,175 138.4,171.2 139.4,167.5 140.5,163.8 141.5,160.3 142.6,156.9 143.6,153.7 144.7,150.8 145.7,148.2 146.8,145.9 147.8,144 148.9,142.5 149.9,141.4 151,140.7 152,140.5 153.1,140.7 154.1,141.4 155.2,142.5 156.2,144 157.3,145.9 158.3,148.2 159.4,150.8 160.4,153.7 161.5,156.9 162.5,160.3 163.5,163.8 164.6,167.5 165.7,171.2 166.7,175 167.8,178.7 168.8,182.4 169.9,185.9 170.9,189.2 172,192.3 173,195.1 174,197.6 175.1,199.8 176.2,201.6 177.2,202.9 178.3,203.9 179.3,204.4 180.4,204.5 181.4,204.1 182.5,203.3 183.5,202.1 184.5,200.4 185.6,198.4 186.7,196 187.7,193.3 188.8,190.3 189.8,187 190.9,183.6 191.9,180 193,176.3 194,172.5' fill='none' stroke='#2563eb' stroke-width='2' stroke-linejoin='round'/><text x='30' y='148' text-anchor='start' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'></text><text x='20' y='128' text-anchor='start' dominant-baseline='middle' fill='#1f2937' font-weight='bold'>Trace A</text><rect x='220' y='135' width='180' height='75' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'/><line x1='220' y1='172.5' x2='400' y2='172.5' stroke='#e5e7eb' stroke-width='1'/><polyline points='226,172.5 227.1,168.3 228.1,164.3 229.2,160.8 230.2,157.9 231.3,155.9 232.3,154.7 233.4,154.6 234.4,155.4 235.5,157.2 236.5,159.8 237.6,163.1 238.6,166.9 239.7,171.1 240.7,175.3 241.8,179.4 242.8,183.1 243.9,186.2 244.9,188.5 246,190 247,190.5 248.1,190 249.1,188.5 250.2,186.2 251.2,183.1 252.3,179.4 253.3,175.3 254.4,171.1 255.4,166.9 256.5,163.1 257.5,159.8 258.6,157.2 259.6,155.4 260.7,154.6 261.7,154.7 262.8,155.9 263.8,157.9 264.9,160.8 265.9,164.3 267,168.3 268,172.5 269.1,176.7 270.1,180.7 271.2,184.2 272.2,187.1 273.3,189.1 274.3,190.3 275.4,190.4 276.4,189.6 277.5,187.8 278.5,185.2 279.6,181.9 280.6,178.1 281.7,173.9 282.7,169.7 283.8,165.6 284.8,161.9 285.9,158.8 286.9,156.5 288,155 289,154.5 290.1,155 291.1,156.5 292.2,158.8 293.2,161.9 294.3,165.6 295.3,169.7 296.4,173.9 297.4,178.1 298.5,181.9 299.5,185.2 300.6,187.8 301.6,189.6 302.7,190.4 303.7,190.3 304.8,189.1 305.8,187.1 306.9,184.2 307.9,180.7 309,176.7 310,172.5 311.1,168.3 312.1,164.3 313.2,160.8 314.2,157.9 315.3,155.9 316.3,154.7 317.4,154.6 318.4,155.4 319.5,157.2 320.5,159.8 321.6,163.1 322.6,166.9 323.7,171.1 324.7,175.3 325.8,179.4 326.8,183.1 327.9,186.2 328.9,188.5 330,190 331,190.5 332.1,190 333.1,188.5 334.2,186.2 335.2,183.1 336.3,179.4 337.3,175.3 338.4,171.1 339.4,166.9 340.5,163.1 341.5,159.8 342.6,157.2 343.6,155.4 344.7,154.6 345.7,154.7 346.8,155.9 347.8,157.9 348.9,160.8 349.9,164.3 351,168.3 352,172.5 353.1,176.7 354.1,180.7 355.2,184.2 356.2,187.1 357.3,189.1 358.3,190.3 359.4,190.4 360.4,189.6 361.5,187.8 362.5,185.2 363.5,181.9 364.6,178.1 365.7,173.9 366.7,169.7 367.8,165.6 368.8,161.9 369.9,158.8 370.9,156.5 372,155 373,154.5 374,155 375.1,156.5 376.2,158.8 377.2,161.9 378.3,165.6 379.3,169.7 380.4,173.9 381.4,178.1 382.5,181.9 383.5,185.2 384.5,187.8 385.6,189.6 386.7,190.4 387.7,190.3 388.8,189.1 389.8,187.1 390.9,184.2 391.9,180.7 393,176.7 394,172.5' fill='none' stroke='#2563eb' stroke-width='2' stroke-linejoin='round'/><text x='230' y='148' text-anchor='start' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'></text><text x='220' y='128' text-anchor='start' dominant-baseline='middle' fill='#1f2937' font-weight='bold'>Trace B</text><rect x='20' y='245' width='180' height='75' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'/><line x1='20' y1='282.5' x2='200' y2='282.5' stroke='#e5e7eb' stroke-width='1'/><polyline points='26,282.5 27.1,275 28.1,268 29.2,261.7 30.2,256.6 31.3,252.9 32.3,250.9 33.4,250.6 34.4,252.1 35.5,255.2 36.5,259.9 37.6,265.8 38.6,272.6 39.7,280 40.7,287.5 41.8,294.7 42.8,301.3 43.8,306.8 44.9,311 46,313.6 47,314.5 48.1,313.6 49.1,311 50.2,306.8 51.2,301.3 52.3,294.7 53.3,287.5 54.4,280 55.4,272.6 56.5,265.8 57.5,259.9 58.6,255.2 59.6,252.1 60.7,250.6 61.7,250.9 62.8,252.9 63.8,256.6 64.9,261.7 65.9,268 66.9,275 68,282.5 69.1,290 70.1,297 71.2,303.3 72.2,308.4 73.3,312.1 74.3,314.1 75.4,314.4 76.4,312.9 77.5,309.8 78.5,305.1 79.6,299.2 80.6,292.4 81.7,285 82.7,277.5 83.8,270.3 84.8,263.7 85.9,258.2 86.9,254 88,251.4 89,250.5 90.1,251.4 91.1,254 92.1,258.2 93.2,263.7 94.3,270.3 95.3,277.5 96.4,285 97.4,292.4 98.5,299.2 99.5,305.1 100.6,309.8 101.6,312.9 102.7,314.4 103.7,314.1 104.8,312.1 105.8,308.4 106.9,303.3 107.9,297 109,290 110,282.5 111.1,275 112.1,268 113.2,261.7 114.2,256.6 115.3,252.9 116.3,250.9 117.4,250.6 118.4,252.1 119.5,255.2 120.5,259.9 121.6,265.8 122.6,272.6 123.7,280 124.7,287.5 125.8,294.7 126.8,301.3 127.9,306.8 128.9,311 130,313.6 131,314.5 132.1,313.6 133.1,311 134.2,306.8 135.2,301.3 136.3,294.7 137.3,287.5 138.4,280 139.4,272.6 140.5,265.8 141.5,259.9 142.6,255.2 143.6,252.1 144.7,250.6 145.7,250.9 146.8,252.9 147.8,256.6 148.9,261.7 149.9,268 151,275 152,282.5 153.1,290 154.1,297 155.2,303.3 156.2,308.4 157.3,312.1 158.3,314.1 159.4,314.4 160.4,312.9 161.5,309.8 162.5,305.1 163.5,299.2 164.6,292.4 165.7,285 166.7,277.5 167.8,270.3 168.8,263.7 169.9,258.2 170.9,254 172,251.4 173,250.5 174,251.4 175.1,254 176.2,258.2 177.2,263.7 178.3,270.3 179.3,277.5 180.4,285 181.4,292.4 182.5,299.2 183.5,305.1 184.5,309.8 185.6,312.9 186.7,314.4 187.7,314.1 188.8,312.1 189.8,308.4 190.9,303.3 191.9,297 193,290 194,282.5' fill='none' stroke='#2563eb' stroke-width='2' stroke-linejoin='round'/><text x='30' y='258' text-anchor='start' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'></text><text x='20' y='238' text-anchor='start' dominant-baseline='middle' fill='#1f2937' font-weight='bold'>Trace C</text><rect x='220' y='245' width='180' height='75' fill='#ffffff' stroke='#9ca3af' stroke-width='1.5'/><line x1='220' y1='282.5' x2='400' y2='282.5' stroke='#e5e7eb' stroke-width='1'/><polyline points='226,282.5 227.1,280 228.1,277.5 229.2,275 230.2,272.6 231.3,270.3 232.3,268 233.4,265.8 234.4,263.7 235.5,261.7 236.5,259.9 237.6,258.2 238.6,256.6 239.7,255.2 240.7,254 241.8,252.9 242.8,252.1 243.9,251.4 244.9,250.9 246,250.6 247,250.5 248.1,250.6 249.1,250.9 250.2,251.4 251.2,252.1 252.3,252.9 253.3,254 254.4,255.2 255.4,256.6 256.5,258.2 257.5,259.9 258.6,261.7 259.6,263.7 260.7,265.8 261.7,268 262.8,270.3 263.8,272.6 264.9,275 265.9,277.5 267,280 268,282.5 269.1,285 270.1,287.5 271.2,290 272.2,292.4 273.3,294.7 274.3,297 275.4,299.2 276.4,301.3 277.5,303.3 278.5,305.1 279.6,306.8 280.6,308.4 281.7,309.8 282.7,311 283.8,312.1 284.8,312.9 285.9,313.6 286.9,314.1 288,314.4 289,314.5 290.1,314.4 291.1,314.1 292.2,313.6 293.2,312.9 294.3,312.1 295.3,311 296.4,309.8 297.4,308.4 298.5,306.8 299.5,305.1 300.6,303.3 301.6,301.3 302.7,299.2 303.7,297 304.8,294.7 305.8,292.4 306.9,290 307.9,287.5 309,285 310,282.5 311.1,280 312.1,277.5 313.2,275 314.2,272.6 315.3,270.3 316.3,268 317.4,265.8 318.4,263.7 319.5,261.7 320.5,259.9 321.6,258.2 322.6,256.6 323.7,255.2 324.7,254 325.8,252.9 326.8,252.1 327.9,251.4 328.9,250.9 330,250.6 331,250.5 332.1,250.6 333.1,250.9 334.2,251.4 335.2,252.1 336.3,252.9 337.3,254 338.4,255.2 339.4,256.6 340.5,258.2 341.5,259.9 342.6,261.7 343.6,263.7 344.7,265.8 345.7,268 346.8,270.3 347.8,272.6 348.9,275 349.9,277.5 351,280 352,282.5 353.1,285 354.1,287.5 355.2,290 356.2,292.4 357.3,294.7 358.3,297 359.4,299.2 360.4,301.3 361.5,303.3 362.5,305.1 363.5,306.8 364.6,308.4 365.7,309.8 366.7,311 367.8,312.1 368.8,312.9 369.9,313.6 370.9,314.1 372,314.4 373,314.5 374,314.4 375.1,314.1 376.2,313.6 377.2,312.9 378.3,312.1 379.3,311 380.4,309.8 381.4,308.4 382.5,306.8 383.5,305.1 384.5,303.3 385.6,301.3 386.7,299.2 387.7,297 388.8,294.7 389.8,292.4 390.9,290 391.9,287.5 393,285 394,282.5' fill='none' stroke='#2563eb' stroke-width='2' stroke-linejoin='round'/><text x='230' y='258' text-anchor='start' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'></text><text x='220' y='238' text-anchor='start' dominant-baseline='middle' fill='#1f2937' font-weight='bold'>Trace D</text></svg>",
+      "alt": "Five oscilloscope traces on the same settings. Trace X (the first note) shows 3 waves across the screen with medium height. Trace A shows 3 waves that are taller. Trace B shows 6 waves at the same medium height as X. Trace C shows 6 waves that are taller. Trace D shows 2 waves that are taller."
+    },
+    "options": [
+      { "id": "a", "text": "Trace A" },
+      { "id": "b", "text": "Trace B" },
+      { "id": "c", "text": "Trace C" },
+      { "id": "d", "text": "Trace D" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "Trace A has taller waves (louder), but the same number of waves as X, so it has the same pitch.",
+      "b": "Trace B has more waves (higher pitch), but they are the same height as X's, so it isn't louder.",
+      "d": "Trace D has taller waves (louder), but fewer waves than X, so its pitch is lower."
+    },
+    "shuffle": false,
+    "hints": [
+      "More waves across the screen means a higher pitch. Taller waves mean a louder sound."
+    ],
+    "solution": "A higher pitch means more waves squeezed across the screen (a higher frequency). Louder means taller waves (a bigger amplitude). Only **trace C** has both more waves and taller waves than X."
+  },
+  {
+    "id": "s9.phy.light-sound.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g3",
+    "part": "a",
+    "stem": "At the school athletics day, the starter fires a starting pistol to begin the 100 m race. The pistol gives a loud bang and a puff of smoke. The timekeepers stand at the finish line, 100 m away. Sound travels at about 340 m/s in air.",
+    "prompt": "Why should the timekeepers start their stopwatches when they **see** the puff of smoke, rather than when they **hear** the bang?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light travels much faster than sound, so they see the smoke almost straight away but hear the bang later"
+      },
+      { "id": "b", "text": "Sound travels faster than light, so the bang arrives too early" },
+      { "id": "c", "text": "The bang is too quiet to hear from 100 m away" },
+      { "id": "d", "text": "Sound can't travel through the air on a windy day" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It's the other way round: light is almost a million times faster than sound.",
+      "c": "The bang is easy to hear. The problem is that it arrives a fraction of a second late.",
+      "d": "Sound travels through air in any weather. Wind only changes its speed slightly."
+    },
+    "hints": ["Think about why you see lightning before you hear thunder."],
+    "solution": "Light travels so fast (about 300,000 km per second) that it reaches the timekeepers almost instantly. Sound takes a noticeable time to travel 100 m. Starting on the smoke means the stopwatches start when the race really starts."
+  },
+  {
+    "id": "s9.phy.light-sound.q031",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g3",
+    "part": "b",
+    "stem": "At the school athletics day, the starter fires a starting pistol to begin the 100 m race. The pistol gives a loud bang and a puff of smoke. The timekeepers stand at the finish line, 100 m away. Sound travels at about 340 m/s in air.",
+    "prompt": "How long does the sound of the pistol take to reach the timekeepers? Give your answer to 2 decimal places.",
+    "answer": 0.29,
+    "decimals": 2,
+    "units": "s",
+    "hints": ["Use time = distance ÷ speed."],
+    "solution": "$t = \\dfrac{d}{v} = \\dfrac{100}{340} = 0.294...$, so about **0.29 s**."
+  },
+  {
+    "id": "s9.phy.light-sound.q032",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.phy.light-sound.g3",
+    "part": "c",
+    "stem": "At the school athletics day, the starter fires a starting pistol to begin the 100 m race. The pistol gives a loud bang and a puff of smoke. The timekeepers stand at the finish line, 100 m away. Sound travels at about 340 m/s in air.",
+    "prompt": "A timekeeper starts her stopwatch when she hears the bang, and stops it as the runner crosses the finish line. How will the time she records compare with the runner's true time?",
+    "options": [
+      { "id": "a", "text": "It will be too short, by about 0.3 s" },
+      { "id": "b", "text": "It will be too long, by about 0.3 s" },
+      { "id": "c", "text": "It will be exactly right" },
+      { "id": "d", "text": "It will be too long, by about 3 s" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "She starts the watch **late**, when the runner has already been running for about 0.3 s, so less time is recorded, not more.",
+      "c": "Stopping the watch is fine, because the runner finishes right in front of her. The problem is the late start.",
+      "d": "The delay is 100 ÷ 340, which is about 0.3 s, not 3 s. And it makes the time too short, not too long."
+    },
+    "hints": ["Does she start the stopwatch before or after the race really begins?"],
+    "solution": "The bang reaches her about 0.29 s after the race starts, so she starts the watch late. She stops it at the right moment, so her recorded time is about **0.3 s too short**: the runner gets a faster time than they really ran."
+  },
+  {
+    "id": "s9.phy.light-sound.q033",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What is the name for the bending of light as it passes from one transparent material into another, such as from air into water?",
+    "options": [
+      { "id": "a", "text": "Refraction" },
+      { "id": "b", "text": "Reflection" },
+      { "id": "c", "text": "Absorption" },
+      { "id": "d", "text": "Vibration" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Reflection is light bouncing off a surface, like a mirror.",
+      "c": "Absorption is when a material takes in light energy instead of letting it pass through.",
+      "d": "Vibration is the back-and-forth movement that makes sound."
+    },
+    "hints": ["It is why a straw looks bent in a glass of water."],
+    "solution": "**Refraction** is the bending of light when it passes into a different material and changes speed."
+  },
+  {
+    "id": "s9.phy.light-sound.q034",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "When white light passes through a prism, it splits into a band of colours. What is this band of colours called?",
+    "accepted": [
+      "spectrum",
+      "spectra",
+      "visible spectrum",
+      "colour spectrum",
+      "light spectrum",
+      "spectrum of colours"
+    ],
+    "hints": ["It is the same set of colours that you see in a rainbow, in the order ROY G BIV."],
+    "solution": "It is called a **spectrum**: red, orange, yellow, green, blue, indigo and violet."
+  },
+  {
+    "id": "s9.phy.light-sound.q035",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is a **luminous** object (one that gives out its own light)?",
+    "options": [
+      { "id": "a", "text": "The Sun" },
+      { "id": "b", "text": "The Moon" },
+      { "id": "c", "text": "A mirror" },
+      { "id": "d", "text": "A white sheet of paper" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The Moon looks bright, but it only reflects light from the Sun.",
+      "c": "A mirror reflects light very well, but it doesn't make any of its own.",
+      "d": "White paper reflects all colours of light, but it gives out no light of its own."
+    },
+    "hints": ["You could still see a luminous object in a completely dark room."],
+    "solution": "The **Sun** is luminous: it gives out its own light. We see the Moon, mirrors and paper because they reflect light into our eyes."
+  },
+  {
+    "id": "s9.phy.light-sound.q036",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      {
+        "left": { "id": "w1", "text": "Transparent" },
+        "right": { "id": "wr1", "text": "Lets almost all light through, e.g. clear glass" }
+      },
+      {
+        "left": { "id": "w2", "text": "Translucent" },
+        "right": {
+          "id": "wr2",
+          "text": "Lets some light through but scatters it, e.g. frosted glass"
+        }
+      },
+      {
+        "left": { "id": "w3", "text": "Opaque" },
+        "right": { "id": "wr3", "text": "Lets no light through, e.g. wood" }
+      },
+      {
+        "left": { "id": "w4", "text": "Luminous" },
+        "right": { "id": "wr4", "text": "Gives out its own light, e.g. a torch" }
+      }
+    ],
+    "hints": ["'Opaque' objects make the darkest shadows."],
+    "solution": "Transparent → clear glass. Translucent → frosted glass (blurry). Opaque → no light gets through. Luminous → makes its own light."
+  },
+  {
+    "id": "s9.phy.light-sound.q037",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "A white object [[a]] all the colours of light that fall on it. A black object [[b]] all the colours.",
+    "blanks": [
+      { "id": "a", "accepted": ["reflects"], "options": ["reflects", "absorbs", "refracts"] },
+      { "id": "b", "accepted": ["absorbs"], "options": ["reflects", "absorbs", "refracts"] }
+    ],
+    "hints": ["We see an object's colour from the light that it sends into our eyes."],
+    "solution": "White objects **reflect** all colours, so all the colours reach our eyes and together they look white. Black objects **absorb** all colours, so no light is reflected to our eyes."
+  },
+  {
+    "id": "s9.phy.light-sound.q038",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "How are you able to see a book on your desk?",
+    "options": [
+      { "id": "a", "text": "Light from a light source reflects off the book into your eyes" },
+      { "id": "b", "text": "Light comes out of your eyes and lands on the book" },
+      { "id": "c", "text": "The book gives out its own light" },
+      { "id": "d", "text": "The book absorbs all the light that hits it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is a very old idea, but it's wrong: our eyes **receive** light. They don't send it out.",
+      "c": "Books aren't luminous. In a completely dark room you can't see them.",
+      "d": "If the book absorbed all the light, none would reach your eyes and it would look black."
+    },
+    "hints": ["Could you see the book in a completely dark room?"],
+    "solution": "Light from a source (the Sun or a lamp) **reflects** off the book, and some of the reflected light enters your eyes. That's why you can't see anything in total darkness."
+  },
+  {
+    "id": "s9.phy.light-sound.q039",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "When white light passes through a prism, which colour is refracted (bent) the **most**?",
+    "options": [
+      { "id": "a", "text": "Violet" },
+      { "id": "b", "text": "Red" },
+      { "id": "c", "text": "Green" },
+      { "id": "d", "text": "They are all bent by the same amount" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Red is bent the **least**.",
+      "c": "Green is in the middle of the spectrum, so it is bent less than violet.",
+      "d": "If every colour bent by the same amount, the colours wouldn't separate into a spectrum."
+    },
+    "hints": [
+      "The colours spread out because each one bends by a different amount. Which end of ROY G BIV is furthest from red?"
+    ],
+    "solution": "**Violet** light is refracted the most and red the least. That is why white light spreads out into a spectrum, with red at one end and violet at the other."
+  },
+  {
+    "id": "s9.phy.light-sound.q040",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "On a class trip to Te Papa, Mia sees a sign with white letters in a dark gallery. The only light shining on it comes from a red spotlight. What colour do the white letters look?",
+    "options": [
+      { "id": "a", "text": "Red" },
+      { "id": "b", "text": "White" },
+      { "id": "c", "text": "Black" },
+      { "id": "d", "text": "Blue" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "White only looks white when all the colours shine on it. Here, only red light reaches it.",
+      "c": "Black would be right if the letters absorbed red light, but a white surface reflects red light.",
+      "d": "The letters can only reflect the light that reaches them, which is red."
+    },
+    "hints": [
+      "A white object reflects every colour that falls on it. Which colours are falling on it here?"
+    ],
+    "solution": "A white surface reflects all colours, but only **red** light is shining on it, so it reflects red light into Mia's eyes. The letters look **red**."
+  },
+  {
+    "id": "s9.phy.light-sound.q041",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A ray of light hits a plane mirror with an angle of incidence of 30°. What is the angle between the incident ray and the reflected ray?",
+    "answer": 60,
+    "units": "°",
+    "hints": [
+      "The angle of reflection equals the angle of incidence.",
+      "Both angles are measured from the normal, one on each side of it."
+    ],
+    "solution": "The angle of reflection is 30°. The two rays are on opposite sides of the normal, so the angle between them is 30° + 30° = **60°**."
+  },
+  {
+    "id": "s9.phy.light-sound.q042",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the observations that are evidence that light travels in **straight lines**.",
+    "options": [
+      { "id": "a", "text": "A small torch makes shadows with clear, sharp edges" },
+      { "id": "b", "text": "You can't see around a corner without a mirror" },
+      { "id": "c", "text": "A laser beam shining through smoke looks perfectly straight" },
+      { "id": "d", "text": "Sunbeams through gaps in the clouds look like straight lines" },
+      { "id": "e", "text": "A straw in a glass of water looks bent" },
+      { "id": "f", "text": "A prism splits white light into colours" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Two of these are about light changing direction as it passes into a new material."],
+    "solution": "Sharp shadows, not being able to see around corners, straight laser beams and straight sunbeams all show light travelling in straight lines. The bent straw and the prism are examples of **refraction**: light changing direction as it passes into a new material."
+  },
+  {
+    "id": "s9.phy.light-sound.q043",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Two astronauts are standing next to each other on the Moon, where there is no air. Explain why they use radios to talk to each other, even though they are close together.",
+    "modelAnswer": "Sound is a vibration passed on from particle to particle, so it needs a medium (a solid, liquid or gas) to travel through. The Moon has no air, so the space between the astronauts is a vacuum, and the vibrations from one astronaut's voice can't travel through it to the other. Radios send radio waves, which (like light) don't need a medium and can travel through a vacuum, so radios can carry their voices.",
+    "rubric": [
+      { "criterion": "Sound needs a medium (particles) to pass on the vibrations", "marks": 1 },
+      {
+        "criterion": "The Moon has no air (a vacuum), so sound can't travel between them",
+        "marks": 1
+      },
+      {
+        "criterion": "Radio waves (like light) can travel through a vacuum, so radios can carry their voices",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What does sound need to travel through?",
+      "How is a radio signal different from a sound wave?"
+    ],
+    "solution": "No air means no particles to carry sound. Radio waves, like light, can cross a vacuum."
+  },
+  {
+    "id": "s9.phy.light-sound.q044",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain how a rainbow forms when sunlight shines on raindrops.",
+    "modelAnswer": "Sunlight is white light, which is a mixture of all the colours. When sunlight enters a raindrop it slows down and refracts (bends). Each colour refracts by a slightly different amount (violet the most and red the least), so the colours spread out. The light reflects off the back of the raindrop and refracts again as it comes out, spreading the colours further. We see the separated colours as a spectrum: a rainbow.",
+    "rubric": [
+      { "criterion": "Sunlight (white light) is a mixture of all the colours", "marks": 1 },
+      { "criterion": "Light refracts as it enters (and leaves) the raindrops", "marks": 1 },
+      {
+        "criterion": "Each colour refracts by a different amount, so the colours separate into a spectrum",
+        "marks": 1
+      }
+    ],
+    "hints": ["What is white light made of?", "How does a prism split white light?"],
+    "solution": "Raindrops act like tiny prisms: they refract sunlight, and because each colour bends by a different amount, the colours separate into a spectrum."
+  },
+  {
+    "id": "s9.phy.light-sound.q045",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A dog whistle makes a sound with a frequency of 30,000 Hz. Why can dogs hear it, but people can't?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its frequency is above the range humans can hear (about 20 to 20,000 Hz)"
+      },
+      { "id": "b", "text": "The sound is too quiet for humans to hear" },
+      { "id": "c", "text": "The sound travels too fast for human ears" },
+      { "id": "d", "text": "Dog whistles don't make any vibrations" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Loudness depends on amplitude. Even a loud 30,000 Hz sound can't be heard by people, because its frequency is too high.",
+      "c": "All sounds travel through air at the same speed, whatever their frequency.",
+      "d": "All sounds are made by vibrations. This one vibrates 30,000 times every second."
+    },
+    "hints": ["Think about the range of frequencies that human ears can detect."],
+    "solution": "Humans can hear frequencies from about 20 Hz to 20,000 Hz. 30,000 Hz is above this range (it's **ultrasound**). Dogs can hear higher frequencies than people can, so they hear it."
+  },
+  {
+    "id": "s9.phy.light-sound.q046",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Kahu stands between two cliffs in a narrow valley and claps once. He hears an echo from the nearer cliff after 1.0 s, and an echo from the further cliff after 3.0 s. Sound travels at 340 m/s. How far apart are the two cliffs?",
+    "answer": 680,
+    "units": "m",
+    "hints": [
+      "An echo travels to the cliff **and back**, so halve the distance the sound travels.",
+      "Find Kahu's distance to each cliff, then add them together."
+    ],
+    "solution": "Nearer cliff: the sound travels $340 \\times 1.0 = 340$ m there and back, so the cliff is 170 m away. Further cliff: $340 \\times 3.0 = 1020$ m there and back, so it is 510 m away. Kahu is between them, so the cliffs are $170 + 510 =$ **680 m** apart."
+  },
+  {
+    "id": "s9.phy.light-sound.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Kiri looks at a green leaf through a red filter. What colour does the leaf look?",
+    "options": [
+      { "id": "a", "text": "Black" },
+      { "id": "b", "text": "Green" },
+      { "id": "c", "text": "Red" },
+      { "id": "d", "text": "Yellow" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The leaf reflects green light, but the red filter absorbs green, so no green light gets through to her eye.",
+      "c": "The filter only lets red light through, but the leaf reflects hardly any red light, so there's almost no red light to pass through.",
+      "d": "Light filters don't mix colours like paint. The filter removes the green light, which leaves almost nothing."
+    },
+    "hints": [
+      "Which colour of light leaves the leaf?",
+      "Which colours can get through a red filter?"
+    ],
+    "solution": "The green leaf reflects mainly green light. The red filter only lets red light through and absorbs green. So almost no light from the leaf reaches Kiri's eye, and the leaf looks **black** (very dark)."
+  },
+  {
+    "id": "s9.phy.light-sound.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Sound travels at about 340 m/s in air, but at about 1,500 m/s in water. Use the particle model to explain why sound travels faster in water.",
+    "modelAnswer": "Sound travels as a vibration passed from particle to particle: each vibrating particle bumps into its neighbours and makes them vibrate too. In water the particles are much closer together than in air, where they are far apart. Because the particles in water are so close, each one passes the vibration on to the next much more quickly, so the sound travels faster.",
+    "rubric": [
+      {
+        "criterion": "Sound is passed on by particles vibrating and bumping into their neighbours",
+        "marks": 1
+      },
+      {
+        "criterion": "The particles in water (a liquid) are much closer together than in air (a gas)",
+        "marks": 1
+      },
+      {
+        "criterion": "So the vibrations are passed on more quickly, and sound travels faster in water",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How do vibrations get from one particle to the next?",
+      "Compare how far apart the particles are in a liquid and in a gas."
+    ],
+    "solution": "Closer particles pass the vibrations on more quickly, so sound travels faster in liquids than in gases (and faster still in most solids)."
   }
 ]

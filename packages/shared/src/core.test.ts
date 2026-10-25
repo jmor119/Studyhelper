@@ -120,4 +120,24 @@ describe('exam builder', () => {
     expect(new Set(exam.map((q) => q.topicId)).size).toBe(3);
     expect(examGrade(55).grade).toBe('C');
   });
+
+  it('includes every part of a multi-part question, in order and together', () => {
+    const candidates: ExamCandidate[] = [];
+    for (let i = 0; i < 6; i++) {
+      for (const part of ['a', 'b', 'c']) {
+        candidates.push({ id: `g${i}-${part}`, topicId: 'a', difficulty: part === 'a' ? 2 : part === 'b' ? 3 : 4, marks: 1, groupId: `g${i}`, part });
+      }
+    }
+    for (let i = 0; i < 10; i++) candidates.push({ id: `s${i}`, topicId: 'a', difficulty: 1 + (i % 5), marks: 1 });
+    for (let seed = 1; seed <= 20; seed++) {
+      const exam = buildExam(candidates, { topicIds: ['a'], durationMinutes: 15, seed });
+      const groups = new Map<string, number[]>();
+      exam.forEach((s, idx) => s.groupId && groups.set(s.groupId, [...(groups.get(s.groupId) ?? []), idx]));
+      for (const [g, idxs] of groups) {
+        expect(idxs.length, `group ${g} incomplete`).toBe(3);
+        expect(idxs[2]! - idxs[0]!, `group ${g} split up`).toBe(2);
+        expect(exam.slice(idxs[0], idxs[0]! + 3).map((s) => s.part)).toEqual(['a', 'b', 'c']);
+      }
+    }
+  });
 });

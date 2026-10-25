@@ -350,5 +350,522 @@
     ],
     "hints": ["Think about the water cycle. How does water get up into the hills?", "What form of energy does water have when it's stored high up?"],
     "solution": "Sun → evaporation → rain in the hills → water stored high in lakes (gravitational potential energy) → falls through turbines (kinetic energy) → generator (electrical energy)."
+  },
+  {
+    "id": "s9.phy.energy.q024",
+    "type": "cloze",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.energy.g1",
+    "part": "a",
+    "stem": "Manapōuri Power Station in Fiordland is New Zealand's largest hydro power station. Water from Lake Manapōuri falls down pipes to turbines deep underground, then flows out through tunnels to the sea at Doubtful Sound.",
+    "prompt": "As the water falls down the pipes, its [[a]] energy is transformed into [[b]] energy. The spinning turbines drive generators, which transform kinetic energy into [[c]] energy.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": ["gravitational potential"],
+        "options": ["gravitational potential", "kinetic", "chemical", "elastic potential"]
+      },
+      { "id": "b", "accepted": ["kinetic"], "options": ["kinetic", "chemical", "sound", "nuclear"] },
+      {
+        "id": "c",
+        "accepted": ["electrical"],
+        "options": ["electrical", "chemical", "light", "nuclear"]
+      }
+    ],
+    "hints": [
+      "Water stored high up has a kind of stored energy because of its height.",
+      "Anything that is moving has kinetic energy."
+    ],
+    "solution": "Water high in the lake has **gravitational potential** energy. As it falls, this becomes **kinetic** energy. The turbines and generators transform the kinetic energy into **electrical** energy."
+  },
+  {
+    "id": "s9.phy.energy.q025",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.energy.g1",
+    "part": "b",
+    "stem": "Manapōuri Power Station in Fiordland is New Zealand's largest hydro power station. Water from Lake Manapōuri falls down pipes to turbines deep underground, then flows out through tunnels to the sea at Doubtful Sound.",
+    "prompt": "The station is about 90% efficient. If some falling water supplies 4,000 kJ of energy, about how much electrical energy is produced from it?",
+    "answer": 3600,
+    "units": "kJ",
+    "hints": [
+      "90% efficient means 90% of the energy supplied ends up as useful electrical energy.",
+      "Find 90% of 4,000 kJ."
+    ],
+    "solution": "Useful energy out = 90% of the energy in $= 0.9 \\times 4000 =$ **3,600 kJ**. The other 400 kJ is wasted, mostly as heat."
+  },
+  {
+    "id": "s9.phy.energy.q026",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.energy.g1",
+    "part": "c",
+    "stem": "Manapōuri Power Station in Fiordland is New Zealand's largest hydro power station. Water from Lake Manapōuri falls down pipes to turbines deep underground, then flows out through tunnels to the sea at Doubtful Sound.",
+    "prompt": "In a very dry year, the level of Lake Manapōuri falls. Why does this matter for the power station?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Less water is stored high up, so less gravitational potential energy is available"
+      },
+      { "id": "b", "text": "The water warms up, so it has less kinetic energy" },
+      { "id": "c", "text": "Hydro power is non-renewable, so the water is running out forever" },
+      { "id": "d", "text": "The turbines need rain to fall directly on them to make them spin" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The water's temperature isn't the issue. What matters is how much water is stored high up, ready to fall.",
+      "c": "Hydro is **renewable**: the lake refills when it rains. But in a dry year it may not refill fast enough.",
+      "d": "The turbines are spun by water falling from the lake, not by rain landing on them."
+    },
+    "hints": ["Where does the energy for a hydro station come from?"],
+    "solution": "A hydro station runs on the gravitational potential energy of water stored high in a lake. In a dry year less rain refills the lake, so there is **less stored energy** and less electricity can be generated. This is one disadvantage of relying on hydro power."
+  },
+  {
+    "id": "s9.phy.energy.q027",
+    "type": "match",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.energy.g2",
+    "part": "a",
+    "stem": "Kiri does a bungy jump from a bridge near Queenstown. Measured from the lowest point of her jump, she has 30,000 J of gravitational potential energy as she stands on the bridge. At the lowest point she is still for a moment, and the stretched cord is storing 27,000 J of elastic potential energy.",
+    "prompt": "Match each stage of the jump to its main energy transformation.",
+    "pairs": [
+      {
+        "left": { "id": "b1", "text": "Falling, before the cord starts to stretch" },
+        "right": { "id": "br1", "text": "Gravitational potential → kinetic" }
+      },
+      {
+        "left": { "id": "b2", "text": "Slowing down as the cord stretches" },
+        "right": { "id": "br2", "text": "Kinetic → elastic potential" }
+      },
+      {
+        "left": { "id": "b3", "text": "Bouncing back up as the cord shortens" },
+        "right": { "id": "br3", "text": "Elastic potential → kinetic and gravitational potential" }
+      }
+    ],
+    "hints": [
+      "When she speeds up, she is gaining kinetic energy. When the cord stretches, it is storing elastic potential energy."
+    ],
+    "solution": "Falling: gravitational potential → kinetic. Cord stretching: kinetic → elastic potential (she slows down as the cord stores the energy). Bouncing back up: the cord's elastic potential energy → kinetic and gravitational potential energy."
+  },
+  {
+    "id": "s9.phy.energy.q028",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.energy.g2",
+    "part": "b",
+    "stem": "Kiri does a bungy jump from a bridge near Queenstown. Measured from the lowest point of her jump, she has 30,000 J of gravitational potential energy as she stands on the bridge. At the lowest point she is still for a moment, and the stretched cord is storing 27,000 J of elastic potential energy.",
+    "prompt": "Only 27,000 J of the 30,000 J ends up stored in the cord. Explain what has happened to the other 3,000 J, and why this does **not** break the law of conservation of energy.",
+    "modelAnswer": "The other 3,000 J has been transformed into heat (thermal energy) and a little sound, mainly because of air resistance as she fell and friction inside the stretching cord. This energy spreads out into the air and the cord, so it is \"wasted\". But it hasn't been destroyed: 27,000 J + 3,000 J = 30,000 J, the same total she started with. Energy has only been transformed into other forms.",
+    "rubric": [
+      {
+        "criterion": "The 3,000 J has been transformed into heat/thermal energy (and sound), e.g. by air resistance or friction in the cord",
+        "marks": 1
+      },
+      {
+        "criterion": "Conservation: the total is still 30,000 J (27,000 + 3,000); energy has been transformed, not destroyed",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What forces acted against her motion as she fell?",
+      "Add the useful and the wasted energy together."
+    ],
+    "solution": "Wasted energy becomes heat (and sound). Useful + wasted = 27,000 J + 3,000 J = 30,000 J, so no energy was created or destroyed."
+  },
+  {
+    "id": "s9.phy.energy.q029",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.phy.energy.g2",
+    "part": "c",
+    "stem": "Kiri does a bungy jump from a bridge near Queenstown. Measured from the lowest point of her jump, she has 30,000 J of gravitational potential energy as she stands on the bridge. At the lowest point she is still for a moment, and the stretched cord is storing 27,000 J of elastic potential energy.",
+    "prompt": "What percentage of Kiri's starting gravitational potential energy is stored in the cord at the lowest point?",
+    "answer": 90,
+    "units": "%",
+    "hints": [
+      "Divide the energy stored in the cord by the energy she started with.",
+      "Multiply by 100 to get a percentage."
+    ],
+    "solution": "$\\dfrac{27\\,000}{30\\,000} \\times 100 =$ **90%**. This is like the efficiency of the energy transfer from gravitational potential energy to elastic potential energy."
+  },
+  {
+    "id": "s9.phy.energy.q030",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.energy.g3",
+    "part": "a",
+    "stem": "Year 9 students go on a trip to some hot pools. The pools are filled with hot water from underground, and the air around them is cool.",
+    "prompt": "Kiri lies on a deck chair beside the pool and feels the Sun's warmth on her skin, even though the air is cool. How does energy from the Sun reach her?",
+    "options": [
+      { "id": "a", "text": "Radiation, which needs no particles to travel" },
+      { "id": "b", "text": "Convection: warm air carries the heat from the Sun to her" },
+      { "id": "c", "text": "Conduction: the heat passes from particle to particle through the air" },
+      { "id": "d", "text": "Evaporation: steam from the pool carries the Sun's heat to her" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Most of the distance between the Sun and Earth is empty space, with no air to make convection currents. And the air around her is cool.",
+      "c": "Air is a poor conductor, and there are no particles in space to pass the energy along.",
+      "d": "Steam from the pool carries the pool's heat, not the Sun's. The Sun's energy travels straight to her."
+    },
+    "hints": ["There is empty space between the Sun and the Earth."],
+    "solution": "The Sun's energy reaches her by **radiation** (infrared and light). Radiation doesn't need particles, so it can cross empty space, and it warms her skin even though the air is cool."
+  },
+  {
+    "id": "s9.phy.energy.q031",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.energy.g3",
+    "part": "b",
+    "stem": "Year 9 students go on a trip to some hot pools. The pools are filled with hot water from underground, and the air around them is cool.",
+    "prompt": "When Kiri gets out of the pool she feels cold, so she wraps herself in a thick, dry towel. Why does the towel help to keep her warm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It traps air, which is a poor conductor, so heat leaves her body more slowly"
+      },
+      { "id": "b", "text": "The towel gives out its own heat" },
+      { "id": "c", "text": "The towel stops the cold from getting into her body" },
+      { "id": "d", "text": "The towel reflects heat back to her like a mirror" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A towel doesn't produce heat. It just slows down the heat leaving her body.",
+      "c": "Cold isn't something that flows in. Heat flows **out** of her warm body into the cold air, and the towel slows this down.",
+      "d": "A fluffy towel isn't shiny. It works mainly by trapping air, which is an insulator."
+    },
+    "hints": ["Heat always flows from hot to cold. Which way is the heat flowing here?"],
+    "solution": "Heat flows from Kiri's warm body into the cold air. The towel's fibres trap lots of air, which is a poor conductor (an **insulator**) and can't move around much to carry heat away. So the towel slows down her heat loss."
+  },
+  {
+    "id": "s9.phy.energy.q032",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.phy.energy.g3",
+    "part": "c",
+    "stem": "Year 9 students go on a trip to some hot pools. The pools are filled with hot water from underground, and the air around them is cool.",
+    "prompt": "In one pool, hot water flows in near the bottom. Explain how the water at the top of the pool gets warm, even though the hot water enters at the bottom.",
+    "modelAnswer": "The hot water entering near the bottom expands, so it is less dense than the cooler water around it, and it rises. Cooler, denser water near the top sinks down to take its place, and is then heated in turn. This movement forms a convection current, which carries heat around the whole pool, including the top.",
+    "rubric": [
+      {
+        "criterion": "Hot water expands / is less dense than the cooler water around it",
+        "marks": 1
+      },
+      {
+        "criterion": "So the hot water rises, and cooler, denser water sinks to replace it",
+        "marks": 1
+      },
+      {
+        "criterion": "This sets up a convection current that carries heat through the whole pool",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Think about how a heater near the floor warms a whole room.",
+      "What happens to the density of water when it is heated?"
+    ],
+    "solution": "Heating → less dense → rises; cooler water sinks → convection current → the whole pool warms up."
+  },
+  {
+    "id": "s9.phy.energy.q033",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What form of energy does a moving object have?",
+    "options": [
+      { "id": "a", "text": "Kinetic energy" },
+      { "id": "b", "text": "Gravitational potential energy" },
+      { "id": "c", "text": "Chemical energy" },
+      { "id": "d", "text": "Nuclear energy" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Gravitational potential energy is stored in an object because it is high up, not because it is moving.",
+      "c": "Chemical energy is stored in substances such as food and fuel.",
+      "d": "Nuclear energy is stored in the nucleus of atoms."
+    },
+    "hints": ["The word comes from a Greek word meaning 'to move'."],
+    "solution": "Every moving object has **kinetic energy**. The faster it moves (and the bigger its mass), the more kinetic energy it has."
+  },
+  {
+    "id": "s9.phy.energy.q034",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What word describes energy sources, such as wind and hydro, that are naturally replaced and will not run out?",
+    "accepted": [
+      "renewable",
+      "renewables",
+      "renewable energy",
+      "renewable sources",
+      "renewable energy sources",
+      "renewable resources"
+    ],
+    "hints": ["The word means they can be 'made new' again."],
+    "solution": "**Renewable** sources, such as hydro, geothermal, wind and solar, are naturally replaced. Coal, oil and natural gas are non-renewable."
+  },
+  {
+    "id": "s9.phy.energy.q035",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which type of heat transfer happens mainly in **solids**, as particles vibrate and pass energy on to their neighbours?",
+    "options": [
+      { "id": "a", "text": "Conduction" },
+      { "id": "b", "text": "Convection" },
+      { "id": "c", "text": "Radiation" },
+      { "id": "d", "text": "Evaporation" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Convection needs a fluid (a liquid or a gas) that can flow.",
+      "c": "Radiation doesn't need particles at all.",
+      "d": "Evaporation is a change of state, not one of the three types of heat transfer."
+    },
+    "hints": ["Think of a metal spoon getting hot in a cup of tea."],
+    "solution": "**Conduction**: particles in a solid vibrate more when heated and pass the energy on to their neighbours. Metals are especially good conductors."
+  },
+  {
+    "id": "s9.phy.energy.q036",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the forms of **stored** (potential) energy.",
+    "options": [
+      { "id": "a", "text": "Gravitational potential energy" },
+      { "id": "b", "text": "Elastic potential energy" },
+      { "id": "c", "text": "Chemical energy" },
+      { "id": "d", "text": "Nuclear energy" },
+      { "id": "e", "text": "Kinetic energy" },
+      { "id": "f", "text": "Sound energy" },
+      { "id": "g", "text": "Light energy" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": [
+      "Stored energy is waiting to be used, for example in a battery, a stretched rubber band or a book on a high shelf."
+    ],
+    "solution": "Stored energies: gravitational potential (high up), elastic potential (stretched or squashed), chemical (food, fuel, batteries) and nuclear (in atoms). Kinetic, sound and light energy are energy on the move."
+  },
+  {
+    "id": "s9.phy.energy.q037",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "A wind turbine transforms [[a]] energy into electrical energy. A speaker transforms electrical energy into [[b]] energy.",
+    "blanks": [
+      { "id": "a", "accepted": ["kinetic"], "options": ["kinetic", "chemical", "sound", "nuclear"] },
+      { "id": "b", "accepted": ["sound"], "options": ["sound", "chemical", "nuclear", "light"] }
+    ],
+    "hints": ["Wind is moving air.", "What does a speaker produce for you to hear?"],
+    "solution": "Wind turbine: the **kinetic** energy of moving air → electrical energy. Speaker: electrical → **sound** energy (plus a little wasted heat)."
+  },
+  {
+    "id": "s9.phy.energy.q038",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "An old-style light bulb is supplied with 60 J of electrical energy. It gives out 3 J of light. What is its efficiency?",
+    "answer": 5,
+    "units": "%",
+    "hints": ["Efficiency = useful energy out ÷ total energy in × 100."],
+    "solution": "Efficiency $= \\dfrac{3}{60} \\times 100 =$ **5%**. The other 57 J becomes heat, which is why these bulbs get so hot and why much more efficient LED bulbs have replaced them."
+  },
+  {
+    "id": "s9.phy.energy.q039",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which energy-flow diagram is correct for a petrol car engine?",
+    "options": [
+      { "id": "a", "text": "Chemical → kinetic + heat + sound" },
+      { "id": "b", "text": "Electrical → kinetic + heat" },
+      { "id": "c", "text": "Kinetic → chemical + heat + sound" },
+      { "id": "d", "text": "Chemical → kinetic" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A petrol car gets its energy from burning fuel, which stores chemical energy, not from electricity.",
+      "c": "This is backwards: the energy stored in the fuel is what makes the car move.",
+      "d": "Some energy is always wasted, mainly as heat (and some sound), so the diagram should show it."
+    },
+    "hints": ["Start with the energy stored in the petrol, and remember the wasted energy."],
+    "solution": "Petrol stores **chemical** energy. The engine transforms it into **kinetic** energy (useful) plus heat and sound (wasted). Real energy-flow diagrams should always show the wasted energy."
+  },
+  {
+    "id": "s9.phy.energy.q040",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Sam charges his phone with a small solar charger, then uses the phone to play music. Put the energy forms in order, starting with the energy from the Sun.",
+    "items": [
+      { "id": "s1", "text": "Light energy from the Sun" },
+      { "id": "s2", "text": "Electrical energy from the solar panel" },
+      { "id": "s3", "text": "Chemical energy stored in the phone's battery" },
+      { "id": "s4", "text": "Electrical energy flowing to the phone's speaker" },
+      { "id": "s5", "text": "Sound energy from the speaker" }
+    ],
+    "hints": [
+      "The solar panel makes electricity, but the phone stores it until it is needed.",
+      "Batteries store energy in chemical form."
+    ],
+    "solution": "Light → electrical (solar panel) → chemical (stored in the battery) → electrical (when the phone is used) → sound (speaker). Some energy is wasted as heat at each step."
+  },
+  {
+    "id": "s9.phy.energy.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Wairākei Power Station near Taupō is a **geothermal** power station. Where does its energy come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Heat from hot rocks underground, which makes steam that spins the turbines"
+      },
+      { "id": "b", "text": "Burning natural gas from Taranaki to boil water" },
+      { "id": "c", "text": "Water falling from Lake Taupō to spin the turbines" },
+      { "id": "d", "text": "Wind blowing across the volcanic plateau to spin the turbines" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Burning gas would make it a fossil-fuel power station. Geothermal stations use heat from the Earth itself.",
+      "c": "That is how a hydro power station works.",
+      "d": "That is how a wind farm works."
+    },
+    "hints": ["'Geo' means Earth and 'thermal' means heat."],
+    "solution": "Geothermal stations use **heat from inside the Earth**. Hot water and steam from deep wells spin turbines connected to generators: thermal → kinetic → electrical. Wairākei was one of the first large geothermal power stations in the world."
+  },
+  {
+    "id": "s9.phy.energy.q042",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "What is the name for materials such as wool, polystyrene and air, which are poor conductors of heat?",
+    "accepted": [
+      "insulators",
+      "insulator",
+      "thermal insulators",
+      "thermal insulator",
+      "heat insulators",
+      "insulating materials"
+    ],
+    "hints": ["These materials are used to keep heat in, for example in a house's ceiling."],
+    "solution": "Poor conductors of heat are called **insulators**. They slow down heat transfer, which is why they are used in ceilings, jerseys and chilly bins."
+  },
+  {
+    "id": "s9.phy.energy.q043",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A toaster is supplied with 1,200 J of electrical energy. 900 J of heat goes into the bread to toast it. The rest heats the toaster itself and the air around it. How much energy is wasted?",
+    "answer": 300,
+    "units": "J",
+    "hints": [
+      "For a toaster, the heat that goes into the bread is the **useful** energy.",
+      "Wasted energy = total energy in − useful energy out."
+    ],
+    "solution": "Wasted energy $= 1200 - 900 =$ **300 J**. For a toaster, heat is the useful output, so only the heat that doesn't go into the bread is wasted."
+  },
+  {
+    "id": "s9.phy.energy.q044",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A double-glazed window has two panes of glass, with a narrow sealed gap of air (or another gas) between them. Explain why it reduces heat loss from a house compared with a single pane of glass.",
+    "modelAnswer": "The sealed gap between the panes is filled with air (or another gas), which is a very poor conductor of heat. So much less heat is conducted from the warm inside pane to the cold outside pane than through a single sheet of glass. Because the gap is narrow and sealed, the air can't circulate much, so convection currents can't carry much heat across either. So less heat escapes through the window.",
+    "rubric": [
+      { "criterion": "There is a layer of air (or gas) trapped between the two panes", "marks": 1 },
+      {
+        "criterion": "Air is a poor conductor (an insulator), so less heat is conducted through the window",
+        "marks": 1
+      },
+      { "criterion": "The gap is narrow and sealed, so convection is reduced too", "marks": 1 }
+    ],
+    "hints": [
+      "What is in the gap between the panes? Is it a good or a poor conductor?",
+      "Can the trapped air move around much?"
+    ],
+    "solution": "Double glazing works because the trapped layer of air (or gas) is an insulator, and the narrow sealed gap stops it moving around, which reduces both conduction and convection."
+  },
+  {
+    "id": "s9.phy.energy.q045",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "On a hot, sunny day, the inside of a black car gets hotter than the inside of a white car parked next to it. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dark surfaces absorb more of the Sun's radiation; white surfaces reflect more of it"
+      },
+      { "id": "b", "text": "Black paint is a better conductor of heat than white paint" },
+      { "id": "c", "text": "Black cars attract heat, like a magnet attracts iron" },
+      { "id": "d", "text": "White surfaces give out cold radiation, which cools the car" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The difference is about how much of the Sun's radiation is absorbed, not how well the paint conducts.",
+      "c": "Heat isn't attracted. The black car absorbs more of the radiation that falls on it.",
+      "d": "There is no such thing as 'cold radiation'. White surfaces simply reflect more of the Sun's radiation."
+    },
+    "hints": ["Think about what dark and light surfaces do with radiation that hits them."],
+    "solution": "Dark, dull surfaces are good **absorbers** of radiation, while white, shiny surfaces **reflect** most of it. The black car absorbs more of the Sun's energy, so it gets hotter."
+  },
+  {
+    "id": "s9.phy.energy.q046",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Most of New Zealand's electricity comes from hydro power stations. Explain why, in a very dry year, power companies may need to burn more coal or gas at Huntly Power Station.",
+    "modelAnswer": "Hydro stations depend on rain (and melting snow) to keep their lakes full. In a very dry year the lake levels fall, so less water is stored high up, there is less gravitational potential energy available, and less electricity can be generated. Coal and gas can be stored and burned whenever they are needed, so Huntly Power Station can be used to make up the shortfall, although burning them releases more carbon dioxide.",
+    "rubric": [
+      { "criterion": "Hydro depends on rain to refill the lakes", "marks": 1 },
+      {
+        "criterion": "In a dry year the lake levels are low, so less water (energy) is stored and less electricity can be made",
+        "marks": 1
+      },
+      {
+        "criterion": "Coal and gas can be stored and burned whenever needed, so they make up the shortfall (with a cost, e.g. more carbon dioxide)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What do hydro lakes need in order to stay full?",
+      "What is the advantage of a fuel that can be stored in a pile or a tank?"
+    ],
+    "solution": "Hydro relies on rainfall, which varies from year to year. Fossil fuels can be stored and used on demand, so they act as a back-up in dry years, but they add to climate change."
+  },
+  {
+    "id": "s9.phy.energy.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "The 'wasted' heat from a car engine is not destroyed, but it can't easily be used again. Why not?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It spreads out into the surroundings, so it is too spread out and cool to be useful"
+      },
+      { "id": "b", "text": "It turns into cold, which cancels it out" },
+      { "id": "c", "text": "It is changed into mass, which can't be used as energy" },
+      { "id": "d", "text": "It flows back into the petrol tank as chemical energy" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "'Cold' is not a form of energy. Something cold just has less thermal energy.",
+      "c": "In a car engine, energy isn't turned into mass. It is transformed into other forms, mostly heat.",
+      "d": "Energy doesn't flow back into the fuel. Burning fuel is a one-way process."
+    },
+    "hints": ["Think about what happens to the heat from a hot engine on a cold day."],
+    "solution": "Energy is conserved, but the wasted heat **spreads out** into the air and the road. It warms a huge amount of air by a tiny amount, so it is too spread out (and too cool) to do anything useful. That's what 'wasted' really means."
+  },
+  {
+    "id": "s9.phy.energy.q048",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "An electric kettle is 80% efficient. To boil some water, 160 kJ of energy must go into the water. How much electrical energy must be supplied to the kettle?",
+    "answer": 200,
+    "units": "kJ",
+    "hints": [
+      "80% of the energy supplied ends up in the water.",
+      "So 160 kJ is 80% of the energy supplied. What is 100%?"
+    ],
+    "solution": "Useful energy = 80% of the energy supplied, so energy supplied $= \\dfrac{160}{0.8} =$ **200 kJ**. Check: 80% of 200 kJ is 160 kJ, and the other 40 kJ is wasted heating the kettle and the air."
   }
 ]

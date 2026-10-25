@@ -139,5 +139,270 @@
     "correct": ["a", "b", "e"],
     "hints": ["Multiplying every number in a triple by the same amount gives another triple.", "Adding the same amount to each number does **not**."],
     "solution": "(6, 8, 10) = (3, 4, 5) × 2, (30, 40, 50) = × 10 and (9, 12, 15) = × 3, so these are triples. (4, 5, 6): $16 + 25 = 41 \\neq 36$. (3, 4, 7): $9 + 16 = 25 \\neq 49$."
+  },
+  {
+    "id": "m9.mea.pythagoras.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.pythagoras.g1",
+    "part": "a",
+    "stem": "Hine is painting the outside of her house. The ground around the house is flat and level.",
+    "prompt": "Hine stands a ladder against a vertical wall, with its foot 1.5 m from the bottom of the wall. The top of the ladder touches the wall 3.6 m above the ground. How long is the ladder?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 248\" width=\"320\" height=\"248\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"220\" x2=\"290\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"230\" y=\"30\" width=\"20\" height=\"190\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"155\" y1=\"220\" x2=\"230\" y2=\"40\" stroke=\"#92400e\" stroke-width=\"5\"/><polyline points=\"230,208 218,208 218,220\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"192\" y=\"236\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">1.5 m</text><line x1=\"266\" y1=\"40\" x2=\"266\" y2=\"220\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"261\" y1=\"40\" x2=\"271\" y2=\"40\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"261\" y1=\"220\" x2=\"271\" y2=\"220\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"290\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3.6 m</text><text x=\"176\" y=\"122\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"16\" fill=\"#1f2937\" font-weight=\"bold\">?</text><text x=\"240\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">wall</text></svg>", "alt": "A ladder leaning against a vertical wall. The foot of the ladder is 1.5 m from the wall, and the top touches the wall 3.6 m above the ground. The wall meets the ground at a right angle. The ladder length is marked with a question mark." },
+    "answer": 3.9,
+    "units": "m",
+    "hints": ["The wall, the ground and the ladder make a right-angled triangle. The ladder is the hypotenuse.", "Square the two shorter sides, add them, then take the square root."],
+    "solution": "$c^2 = 1.5^2 + 3.6^2 = 2.25 + 12.96 = 15.21$\n\n$c = \\sqrt{15.21} = 3.9$ m."
+  },
+  {
+    "id": "m9.mea.pythagoras.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.pythagoras.g1",
+    "part": "b",
+    "stem": "Hine is painting the outside of her house. The ground around the house is flat and level.",
+    "prompt": "Hine wants to check that one wall really is vertical (at right angles to the ground). She marks a point on the wall 1.2 m above the ground, and a point on the ground 0.9 m from the bottom of the wall. The distance between the two marks is 1.5 m. Is the wall at right angles to the ground?",
+    "options": [
+      { "id": "a", "text": "Yes, because $0.9^2 + 1.2^2 = 1.5^2$" },
+      { "id": "b", "text": "No, because $0.9 + 1.2$ is not equal to 1.5" },
+      { "id": "c", "text": "No, because $1.5^2 - 1.2^2 = 0.81$, which is not 0.9" },
+      { "id": "d", "text": "Yes, because 1.5 m is the longest of the three lengths" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Pythagoras' theorem is about the **squares** of the sides, not the sides themselves.",
+      "c": "0.81 is $0.9^2$. So $1.5^2 - 1.2^2 = 0.9^2$, which means the theorem works and the angle **is** a right angle.",
+      "d": "Every triangle has a longest side. The test is whether the squares of the two shorter sides add up to the square of the longest side."
+    },
+    "hints": ["If the angle is a right angle, the squares of the two shorter lengths add up to the square of the longest.", "Work out $0.9^2 + 1.2^2$ and $1.5^2$."],
+    "solution": "$0.9^2 + 1.2^2 = 0.81 + 1.44 = 2.25$ and $1.5^2 = 2.25$. They are equal, so the angle at the bottom of the wall **is** a right angle, and the wall is vertical. (These lengths are the (3, 4, 5) triple × 0.3.)"
+  },
+  {
+    "id": "m9.mea.pythagoras.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.pythagoras.g1",
+    "part": "c",
+    "stem": "Hine is painting the outside of her house. The ground around the house is flat and level.",
+    "prompt": "To reach an upstairs window, the top of a ladder must touch a vertical wall 4.8 m above the ground, with its foot 1.4 m from the wall. Hine has a 5 m ladder. Is it long enough?",
+    "options": [
+      { "id": "a", "text": "Yes: the ladder needs to be exactly 5 m long" },
+      { "id": "b", "text": "No: the ladder needs to be 6.2 m long" },
+      { "id": "c", "text": "Yes: the ladder only needs to be 3.4 m long" },
+      { "id": "d", "text": "No: the ladder needs to be 25 m long" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "6.2 m is 1.4 + 4.8. The hypotenuse is always shorter than the other two sides added together.",
+      "c": "3.4 m is 4.8 − 1.4. The ladder is the hypotenuse, so it must be the longest side, longer than 4.8 m.",
+      "d": "25 is $c^2$. Take the square root to find the length."
+    },
+    "hints": ["The ladder is the hypotenuse of a right-angled triangle.", "Work out $1.4^2 + 4.8^2$, then take the square root."],
+    "solution": "$c^2 = 1.4^2 + 4.8^2 = 1.96 + 23.04 = 25$, so $c = \\sqrt{25} = 5$ m. The 5 m ladder is **exactly** long enough."
+  },
+  {
+    "id": "m9.mea.pythagoras.q013",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.pythagoras.g2",
+    "part": "a",
+    "stem": "Kahu is flying a kite on a flat beach. The kite string is pulled tight, so it makes a straight line.",
+    "prompt": "The kite is 40 m above the ground, directly above a point on the beach 30 m from Kahu. Assume Kahu holds the string at ground level. How long is the string?",
+    "answer": 50,
+    "units": "m",
+    "hints": ["The string is the hypotenuse of a right-angled triangle.", "The two shorter sides are 30 m and 40 m."],
+    "solution": "$c^2 = 30^2 + 40^2 = 900 + 1600 = 2500$, so $c = \\sqrt{2500} = 50$ m. (This is the (3, 4, 5) triple × 10.)"
+  },
+  {
+    "id": "m9.mea.pythagoras.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.pythagoras.g2",
+    "part": "b",
+    "stem": "Kahu is flying a kite on a flat beach. The kite string is pulled tight, so it makes a straight line.",
+    "prompt": "At another time, the kite is 45 m above the ground, directly above a point 25 m from Kahu. Assume Kahu holds the string at ground level. How long is the string? Give your answer to 1 decimal place.",
+    "answer": 51.5,
+    "decimals": 1,
+    "units": "m",
+    "hints": ["Square the two shorter sides and add them.", "Then take the square root and round to 1 decimal place."],
+    "solution": "$c^2 = 25^2 + 45^2 = 625 + 2025 = 2650$\n\n$c = \\sqrt{2650} = 51.47\\ldots \\approx 51.5$ m."
+  },
+  {
+    "id": "m9.mea.pythagoras.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.mea.pythagoras.g2",
+    "part": "c",
+    "stem": "Kahu is flying a kite on a flat beach. The kite string is pulled tight, so it makes a straight line.",
+    "prompt": "In real life, Kahu holds the string 1.5 m above the ground, as shown. The kite is 40 m above the ground, directly above a point 30 m from Kahu. How long is the string? Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 288\" width=\"340\" height=\"288\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"245\" x2=\"330\" y2=\"245\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"180\" r=\"7\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"60\" y1=\"187\" x2=\"60\" y2=\"222\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"60\" y1=\"222\" x2=\"53\" y2=\"245\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"60\" y1=\"222\" x2=\"67\" y2=\"245\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"60\" y1=\"195\" x2=\"66\" y2=\"205\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"66\" y1=\"205\" x2=\"250\" y2=\"34\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><polygon points=\"250,18 260,32 250,50 240,32\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"245\" stroke=\"#1f2937\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"66\" y1=\"205\" x2=\"250\" y2=\"205\" stroke=\"#1f2937\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><polyline points=\"250,195 240,195 240,205\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"148\" y=\"108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"16\" fill=\"#1f2937\" font-weight=\"bold\">?</text><line x1=\"290\" y1=\"34\" x2=\"290\" y2=\"245\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"285\" y1=\"34\" x2=\"295\" y2=\"34\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"285\" y1=\"245\" x2=\"295\" y2=\"245\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"314\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">40 m</text><line x1=\"66\" y1=\"258\" x2=\"250\" y2=\"258\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"66\" y1=\"263\" x2=\"66\" y2=\"253\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"250\" y1=\"263\" x2=\"250\" y2=\"253\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"158\" y=\"272\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">30 m</text><line x1=\"40\" y1=\"205\" x2=\"40\" y2=\"245\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"35\" y1=\"205\" x2=\"45\" y2=\"205\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"35\" y1=\"245\" x2=\"45\" y2=\"245\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\"></text><text x=\"19\" y=\"225\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">1.5 m</text><text x=\"334\" y=\"280\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "Kahu stands on the beach holding a kite string 1.5 m above the ground. The kite is 40 m above the ground and 30 m along the beach from Kahu. Dashed lines from Kahu's hand (across) and from the kite (straight down) meet at a right angle. The string length is marked with a question mark." },
+    "answer": 48.8,
+    "decimals": 1,
+    "units": "m",
+    "hints": ["The right-angled triangle starts at Kahu's hand, not at the ground.", "The vertical side of the triangle is not the full 40 m."],
+    "solution": "The vertical side of the triangle is $40 - 1.5 = 38.5$ m and the horizontal side is 30 m.\n\n$c^2 = 30^2 + 38.5^2 = 900 + 1482.25 = 2382.25$\n\n$c = \\sqrt{2382.25} = 48.80\\ldots \\approx 48.8$ m. (About 1.2 m less than the 50 m you get if the hand is at ground level.)"
+  },
+  {
+    "id": "m9.mea.pythagoras.q016",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Pythagoras' theorem, $a^2 + b^2 = c^2$, works for which triangles?",
+    "options": [
+      { "id": "a", "text": "Only right-angled triangles" },
+      { "id": "b", "text": "All triangles" },
+      { "id": "c", "text": "Only equilateral triangles" },
+      { "id": "d", "text": "Only isosceles triangles" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Try a triangle with sides 1, 1 and 1: $1^2 + 1^2 = 2$, but $1^2 = 1$. The theorem needs a right angle.",
+      "c": "In an equilateral triangle all sides are equal, so $a^2 + b^2 = 2a^2$, which can never equal $a^2$.",
+      "d": "Some isosceles triangles are right-angled, but most are not. The theorem needs a right angle."
+    },
+    "hints": ["The hypotenuse is opposite a special kind of angle."],
+    "solution": "The theorem is only true for **right-angled triangles**, where $c$ is the hypotenuse (the side opposite the right angle)."
+  },
+  {
+    "id": "m9.mea.pythagoras.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "The two shorter sides of a right-angled triangle are 6 cm and 8 cm. Which calculation gives the length of the hypotenuse?",
+    "options": [
+      { "id": "a", "text": "$\\sqrt{6^2 + 8^2}$" },
+      { "id": "b", "text": "$6^2 + 8^2$" },
+      { "id": "c", "text": "$(6 + 8)^2$" },
+      { "id": "d", "text": "$\\sqrt{8^2 - 6^2}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This gives $c^2 = 100$. You still need to take the square root to get $c$.",
+      "c": "This adds the sides before squaring. Square each side first, then add.",
+      "d": "Subtracting the squares finds a shorter side. To find the hypotenuse, add the squares."
+    },
+    "hints": ["$c^2 = a^2 + b^2$. How do you get from $c^2$ to $c$?"],
+    "solution": "$c^2 = 6^2 + 8^2 = 36 + 64 = 100$, so $c = \\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$ cm."
+  },
+  {
+    "id": "m9.mea.pythagoras.q018",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The two shorter sides of a right-angled triangle are 5 cm and 12 cm. Without using a calculator, which of these could be the length of the hypotenuse?",
+    "options": [
+      { "id": "a", "text": "13 cm" },
+      { "id": "b", "text": "11 cm" },
+      { "id": "c", "text": "17 cm" },
+      { "id": "d", "text": "7 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The hypotenuse is the longest side, so it must be more than 12 cm.",
+      "c": "17 cm is 5 + 12. The hypotenuse is a straight line, so it is shorter than going along the other two sides.",
+      "d": "7 cm is 12 − 5. The hypotenuse must be longer than both of the other sides."
+    },
+    "hints": ["The hypotenuse is the longest side.", "It must also be shorter than the other two sides added together."],
+    "solution": "The hypotenuse must be longer than 12 cm and shorter than $5 + 12 = 17$ cm. Only **13 cm** fits.\n\nCheck: $5^2 + 12^2 = 25 + 144 = 169 = 13^2$ ✓"
+  },
+  {
+    "id": "m9.mea.pythagoras.q019",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A triangle has sides of 5 cm, 6 cm and 8 cm. Ruby says: \"$5^2 + 6^2$ is very close to $8^2$, so the triangle is right-angled.\" Is Ruby correct? Explain.",
+    "modelAnswer": "No. 5² + 6² = 25 + 36 = 61, but 8² = 64. For a right-angled triangle, the squares of the two shorter sides must add up to exactly the square of the longest side. 61 is not equal to 64, so the triangle is not right-angled. Being close is not enough.",
+    "rubric": [
+      { "criterion": "Calculates 5² + 6² = 61 and 8² = 64", "marks": 1 },
+      { "criterion": "Concludes the triangle is not right-angled, because the two values must be exactly equal", "marks": 1 }
+    ],
+    "hints": ["Work out $5^2 + 6^2$ and $8^2$.", "Does Pythagoras' theorem need the two values to be close, or equal?"],
+    "solution": "$5^2 + 6^2 = 25 + 36 = 61$ and $8^2 = 64$. Since $61 \\neq 64$, the triangle is **not** right-angled. The theorem needs the two sides of the equation to be exactly equal. (Because 61 < 64, the largest angle is a little more than 90°.)"
+  },
+  {
+    "id": "m9.mea.pythagoras.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Sione checks whether a triangle with sides 10 cm, 24 cm and 26 cm is right-angled. He writes: $10^2 + 26^2 = 776$ and $24^2 = 576$, so it is **not** right-angled. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He used the wrong side as the hypotenuse: $10^2 + 24^2 = 676 = 26^2$, so it is right-angled" },
+      { "id": "b", "text": "He should add the sides: $10 + 24 = 34$, which is not 26, so it is not right-angled" },
+      { "id": "c", "text": "Nothing: the triangle is not right-angled" },
+      { "id": "d", "text": "He should double each side instead of squaring it, and then compare the totals" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Pythagoras' theorem uses the squares of the sides, not the sides themselves.",
+      "c": "Try again with the longest side as the hypotenuse: $10^2 + 24^2 = 676$ and $26^2 = 676$.",
+      "d": "Squaring is right. The problem is which side he treated as the hypotenuse."
+    },
+    "hints": ["Which side would have to be the hypotenuse?", "The hypotenuse is always the longest side."],
+    "solution": "The hypotenuse must be the **longest** side, 26 cm. $10^2 + 24^2 = 100 + 576 = 676$ and $26^2 = 676$. They are equal, so the triangle **is** right-angled. (It is the (5, 12, 13) triple × 2.)"
+  },
+  {
+    "id": "m9.mea.pythagoras.q021",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "The diagonals of a rhombus are 16 cm and 12 cm long. The diagonals of a rhombus cut each other in half at right angles. Find the perimeter of the rhombus.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 240\" width=\"330\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"64,120 160,48 256,120 160,192\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"64\" y1=\"120\" x2=\"256\" y2=\"120\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"160\" y1=\"48\" x2=\"160\" y2=\"192\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"169,120 169,111 160,111\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"64\" y1=\"212\" x2=\"256\" y2=\"212\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"64\" y1=\"217\" x2=\"64\" y2=\"207\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"256\" y1=\"217\" x2=\"256\" y2=\"207\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"160\" y=\"227\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">16 cm</text><line x1=\"278\" y1=\"48\" x2=\"278\" y2=\"192\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"273\" y1=\"48\" x2=\"283\" y2=\"48\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"273\" y1=\"192\" x2=\"283\" y2=\"192\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"304\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 cm</text><text x=\"312\" y=\"30\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A rhombus with its two diagonals drawn as dashed lines crossing at right angles in the middle. The horizontal diagonal is 16 cm and the vertical diagonal is 12 cm." },
+    "answer": 40,
+    "units": "cm",
+    "hints": ["The diagonals split the rhombus into 4 identical right-angled triangles.", "Each side of the rhombus is the hypotenuse of one of these triangles. What are its shorter sides?"],
+    "solution": "Half of each diagonal: $16 \\div 2 = 8$ cm and $12 \\div 2 = 6$ cm. Each side of the rhombus is the hypotenuse of a right-angled triangle with these sides:\n\n$s^2 = 8^2 + 6^2 = 64 + 36 = 100$, so $s = 10$ cm.\n\nA rhombus has 4 equal sides, so the perimeter is $4 \\times 10 = 40$ cm."
+  },
+  {
+    "id": "m9.mea.pythagoras.q022",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "At an adventure park in Rotorua, a zip line cable runs in a straight line from the top of a tower 25 m high down to a landing platform 5 m high. The tower and the platform are 150 m apart horizontally. How long is the cable? Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 238\" width=\"420\" height=\"238\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"200\" x2=\"410\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"60\" y=\"50\" width=\"20\" height=\"150\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"360\" y=\"170\" width=\"20\" height=\"30\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"80\" y1=\"50\" x2=\"360\" y2=\"170\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"80\" y1=\"170\" x2=\"360\" y2=\"170\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"228\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#2563eb\">cable</text><line x1=\"44\" y1=\"50\" x2=\"44\" y2=\"200\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"39\" y1=\"50\" x2=\"49\" y2=\"50\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"39\" y1=\"200\" x2=\"49\" y2=\"200\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"22\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">25 m</text><line x1=\"394\" y1=\"170\" x2=\"394\" y2=\"200\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"389\" y1=\"170\" x2=\"399\" y2=\"170\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"389\" y1=\"200\" x2=\"399\" y2=\"200\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"394\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">5 m</text><line x1=\"80\" y1=\"214\" x2=\"360\" y2=\"214\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"80\" y1=\"219\" x2=\"80\" y2=\"209\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"360\" y1=\"219\" x2=\"360\" y2=\"209\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"220\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">150 m</text><text x=\"70\" y=\"40\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">tower</text><text x=\"330\" y=\"186\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">platform</text><text x=\"412\" y=\"20\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A tower 25 m high and a platform 5 m high, 150 m apart. A straight cable runs from the top of the tower down to the top of the platform. A dashed horizontal line is drawn from the tower at the height of the platform." },
+    "answer": 151.3,
+    "decimals": 1,
+    "units": "m",
+    "hints": ["The cable is the hypotenuse of a right-angled triangle. Its horizontal side is 150 m.", "Its vertical side is the difference between the two heights."],
+    "solution": "Vertical side $= 25 - 5 = 20$ m. Horizontal side = 150 m.\n\n$c^2 = 150^2 + 20^2 = 22\\,500 + 400 = 22\\,900$\n\n$c = \\sqrt{22\\,900} = 151.32\\ldots \\approx 151.3$ m."
+  },
+  {
+    "id": "m9.mea.pythagoras.q023",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A spiral is built from right-angled triangles. The first triangle has shorter sides of 1 cm and 1 cm. Each new triangle uses the **hypotenuse** of the previous triangle as one of its shorter sides, and 1 cm as its other shorter side. How long is the hypotenuse of the **8th** triangle?",
+    "answer": 3,
+    "units": "cm",
+    "hints": ["Triangle 1: $c^2 = 1^2 + 1^2 = 2$, so $c = \\sqrt{2}$.", "Triangle 2 has shorter sides $\\sqrt{2}$ and 1, and $(\\sqrt{2})^2 = 2$. Find $c^2$ for the first few triangles and look for a pattern."],
+    "solution": "Triangle 1: $c^2 = 1 + 1 = 2$, so $c = \\sqrt{2}$.\n\nTriangle 2: $c^2 = (\\sqrt{2})^2 + 1^2 = 2 + 1 = 3$, so $c = \\sqrt{3}$.\n\nEach new triangle adds 1 to $c^2$, so triangle $n$ has $c^2 = n + 1$.\n\nTriangle 8: $c^2 = 9$, so $c = \\sqrt{9} = 3$ cm."
+  },
+  {
+    "id": "m9.mea.pythagoras.q024",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "(3, 4, 5) is a Pythagorean triple. Explain why a triangle with sides $3k$, $4k$ and $5k$ is right-angled for **any** positive number $k$ (for example 6, 8 and 10, or 1.5, 2 and 2.5).",
+    "modelAnswer": "Square the two shorter sides and add: (3k)² + (4k)² = 9k² + 16k² = 25k². The square of the longest side is (5k)² = 25k². These are equal for every value of k, so the sides always fit Pythagoras' theorem, and the triangle is right-angled. This is why multiplying a Pythagorean triple by any number gives another triple.",
+    "rubric": [
+      { "criterion": "Squares correctly: (3k)² = 9k², (4k)² = 16k² and (5k)² = 25k²", "marks": 1 },
+      { "criterion": "Shows that 9k² + 16k² = 25k² = (5k)²", "marks": 1 },
+      { "criterion": "Concludes that the sides fit Pythagoras' theorem for every k, so the triangle is always right-angled", "marks": 1 }
+    ],
+    "hints": ["$(3k)^2 = 3k \\times 3k = 9k^2$.", "Compare $(3k)^2 + (4k)^2$ with $(5k)^2$."],
+    "solution": "$(3k)^2 + (4k)^2 = 9k^2 + 16k^2 = 25k^2 = (5k)^2$. This is true whatever $k$ is, so the triangle always fits $a^2 + b^2 = c^2$ and is right-angled. Scaling a triple by any number gives another triple."
   }
 ]

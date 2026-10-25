@@ -615,5 +615,773 @@
       "What happens to an animal cell when lots of water enters it?"
     ],
     "solution": "Pure water is more dilute than the inside of red blood cells, so water would move **into** them by osmosis, and with no cell wall they would swell and burst. A solution with the **same concentration** as plasma causes no overall movement of water, so the cells stay normal."
+  },
+  {
+    "id": "s9.bio.transport.q023",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these is an example of diffusion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The smell of hot chips spreading through a room"
+      },
+      {
+        "id": "b",
+        "text": "Water flowing out of a tap into a sink"
+      },
+      {
+        "id": "c",
+        "text": "Blood being pumped around the body"
+      },
+      {
+        "id": "d",
+        "text": "Ice melting in a glass of fizzy drink"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Water from a tap is pushed along by pressure. Diffusion is particles spreading out by themselves.",
+      "c": "Blood is pushed along by the heart pumping. Diffusion happens without any pump.",
+      "d": "Melting is a change of state, not particles spreading out from where they are concentrated."
+    },
+    "hints": [
+      "Diffusion is particles spreading out by themselves, from where there are lots of them to where there are few."
+    ],
+    "solution": "The smell particles spread out by themselves from where they are concentrated (near the chips) to where they are less concentrated (the rest of the room). That is **diffusion**."
+  },
+  {
+    "id": "s9.bio.transport.q024",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for the movement of water across a partially permeable membrane, from a dilute solution to a more concentrated solution?",
+    "accepted": [
+      "osmosis"
+    ],
+    "hints": [
+      "It is a special kind of diffusion that only involves water."
+    ],
+    "solution": "**Osmosis** is the diffusion of water across a partially permeable membrane, from a dilute solution (more water) to a more concentrated solution (less water)."
+  },
+  {
+    "id": "s9.bio.transport.q025",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Diffusion happens because particles are always [[a]] randomly. Diffusion is a [[b]] process: it does not need energy from the cell.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "moving"
+        ],
+        "options": [
+          "moving",
+          "still",
+          "shrinking"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "passive"
+        ],
+        "options": [
+          "passive",
+          "active"
+        ]
+      }
+    ],
+    "hints": [
+      "Think about the particle model: are particles in a liquid or gas ever completely still?"
+    ],
+    "solution": "Particles are always **moving** randomly, so they spread out by themselves. Diffusion is **passive**: unlike active transport, it needs no energy from the cell."
+  },
+  {
+    "id": "s9.bio.transport.q026",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "A plant cell placed in pure water swells, but it does not burst. Why not?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its strong cell wall pushes back and stops it from bursting"
+      },
+      {
+        "id": "b",
+        "text": "Water can't get into plant cells, because of the cell wall"
+      },
+      {
+        "id": "c",
+        "text": "Its vacuole pumps the extra water straight back out"
+      },
+      {
+        "id": "d",
+        "text": "Plant cells have a much thicker cell membrane than animal cells"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Water passes easily through the cell wall. It does enter the cell by osmosis, which is why the cell swells.",
+      "c": "A plant cell's vacuole stores water; it doesn't pump it out.",
+      "d": "The cell membrane is just as thin in plant cells. It's the cell wall that gives the strength."
+    },
+    "hints": [
+      "Which structure do plant cells have that animal cells do not?"
+    ],
+    "solution": "Water enters by osmosis and the cell swells, but the strong **cell wall** pushes back and stops it bursting. The cell becomes firm (turgid). An animal cell has no wall, so in pure water it can burst."
+  },
+  {
+    "id": "s9.bio.transport.q027",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "grad",
+          "text": "Concentration gradient"
+        },
+        "right": {
+          "id": "r-grad",
+          "text": "A difference in concentration between two areas"
+        }
+      },
+      {
+        "left": {
+          "id": "ppm",
+          "text": "Partially permeable membrane"
+        },
+        "right": {
+          "id": "r-ppm",
+          "text": "Lets some molecules through but not others"
+        }
+      },
+      {
+        "left": {
+          "id": "turgid",
+          "text": "Turgid"
+        },
+        "right": {
+          "id": "r-turgid",
+          "text": "Describes a plant cell that is firm because it is full of water"
+        }
+      },
+      {
+        "left": {
+          "id": "flaccid",
+          "text": "Flaccid"
+        },
+        "right": {
+          "id": "r-flaccid",
+          "text": "Describes a plant cell that is soft and floppy because it has lost water"
+        }
+      }
+    ],
+    "hints": [
+      "'Permeable' means things can pass through. 'Partially' means only some can."
+    ],
+    "solution": "- **Concentration gradient:** a difference in concentration.\n- **Partially permeable membrane:** lets some molecules through, but not others.\n- **Turgid:** firm, full of water.\n- **Flaccid:** soft and floppy, having lost water."
+  },
+  {
+    "id": "s9.bio.transport.q028",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the examples of **diffusion**.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Oxygen moving from the blood into a muscle cell"
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide moving from a muscle cell into the blood"
+      },
+      {
+        "id": "c",
+        "text": "Carbon dioxide entering a leaf through the stomata"
+      },
+      {
+        "id": "d",
+        "text": "Nitrate ions entering a root hair cell from soil that has fewer nitrate ions than the root"
+      },
+      {
+        "id": "e",
+        "text": "Starch molecules moving out of a potato cell through its membrane"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "In diffusion, a substance moves from where it is more concentrated to where it is less concentrated.",
+      "Can very large molecules get through a cell membrane?"
+    ],
+    "solution": "The first three are **diffusion**: each substance moves from where it is more concentrated to where it is less concentrated.\n\nNitrate moving into a root that already has more nitrate is moving **against** the concentration gradient, so it needs **active transport**. Starch molecules are too big to pass through the cell membrane."
+  },
+  {
+    "id": "s9.bio.transport.q029",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.bio.transport.g1",
+    "part": "a",
+    "stem": "Mia cuts five potato chips of the same size and weighs them. She puts each chip into a different sugar solution for 24 hours, then blots it dry and weighs it again.\n\n| Sugar solution (%) | Mass at start (g) | Mass after 24 h (g) | Change in mass (%) |\n|---|---|---|---|\n| 0 (pure water) | 2.50 | 2.80 | +12 |\n| 5 | 2.50 | 2.60 | +4 |\n| 10 | 2.50 | 2.45 | −2 |\n| 15 | 2.50 | 2.30 | ? |\n| 20 | 2.50 | 2.15 | −14 |",
+    "prompt": "What is the **independent** variable in Mia's experiment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The concentration of the sugar solution"
+      },
+      {
+        "id": "b",
+        "text": "The change in mass of each chip"
+      },
+      {
+        "id": "c",
+        "text": "The size of the potato chips"
+      },
+      {
+        "id": "d",
+        "text": "The time the chips were left (24 hours)"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the **dependent** variable: the result that Mia measures.",
+      "c": "This is kept the same for every chip, so it is a controlled variable.",
+      "d": "This is kept the same for every chip, so it is a controlled variable."
+    },
+    "hints": [
+      "The independent variable is the one that Mia deliberately changes."
+    ],
+    "solution": "Mia deliberately changes the **concentration of the sugar solution**, so that is the independent variable. She measures the change in mass (the dependent variable), and keeps the chip size and the time the same (controlled variables)."
+  },
+  {
+    "id": "s9.bio.transport.q030",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "s9.bio.transport.g1",
+    "part": "b",
+    "stem": "Mia cuts five potato chips of the same size and weighs them. She puts each chip into a different sugar solution for 24 hours, then blots it dry and weighs it again.\n\n| Sugar solution (%) | Mass at start (g) | Mass after 24 h (g) | Change in mass (%) |\n|---|---|---|---|\n| 0 (pure water) | 2.50 | 2.80 | +12 |\n| 5 | 2.50 | 2.60 | +4 |\n| 10 | 2.50 | 2.45 | −2 |\n| 15 | 2.50 | 2.30 | ? |\n| 20 | 2.50 | 2.15 | −14 |",
+    "prompt": "By what percentage did the mass of the chip in the 15% sugar solution **decrease**?",
+    "answer": 8,
+    "alternatives": [
+      -8
+    ],
+    "units": "%",
+    "hints": [
+      "Change in mass = mass at start − mass after 24 h.",
+      "Percentage change = change in mass ÷ mass at start × 100."
+    ],
+    "solution": "Change in mass $= 2.50 - 2.30 = 0.20$ g.\n\n$\\dfrac{0.20}{2.50} \\times 100 = 8\\%$, so the mass decreased by **8%** (a change of −8%)."
+  },
+  {
+    "id": "s9.bio.transport.q031",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.transport.g1",
+    "part": "c",
+    "stem": "Mia cuts five potato chips of the same size and weighs them. She puts each chip into a different sugar solution for 24 hours, then blots it dry and weighs it again.\n\n| Sugar solution (%) | Mass at start (g) | Mass after 24 h (g) | Change in mass (%) |\n|---|---|---|---|\n| 0 (pure water) | 2.50 | 2.80 | +12 |\n| 5 | 2.50 | 2.60 | +4 |\n| 10 | 2.50 | 2.45 | −2 |\n| 15 | 2.50 | 2.30 | ? |\n| 20 | 2.50 | 2.15 | −14 |",
+    "prompt": "Between which concentrations would a chip's mass **not change at all**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Between 5% and 10%"
+      },
+      {
+        "id": "b",
+        "text": "Between 0% and 5%"
+      },
+      {
+        "id": "c",
+        "text": "Between 10% and 15%"
+      },
+      {
+        "id": "d",
+        "text": "At exactly 0% (pure water)"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Both of these chips gained mass, so the 'no change' point must be higher than 5%.",
+      "c": "Both of these chips lost mass, so the 'no change' point must be lower than 10%.",
+      "d": "In pure water, the chip gained the most mass (+12%)."
+    },
+    "hints": [
+      "Find where the change in mass goes from positive (a gain) to negative (a loss)."
+    ],
+    "solution": "The chip gained mass at 5% (+4%) and lost mass at 10% (−2%), so there is a concentration **between 5% and 10%** where it wouldn't change. There, the sugar solution has the same concentration as the potato's cell sap, so there is no overall movement of water."
+  },
+  {
+    "id": "s9.bio.transport.q032",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.transport.g1",
+    "part": "d",
+    "stem": "Mia cuts five potato chips of the same size and weighs them. She puts each chip into a different sugar solution for 24 hours, then blots it dry and weighs it again.\n\n| Sugar solution (%) | Mass at start (g) | Mass after 24 h (g) | Change in mass (%) |\n|---|---|---|---|\n| 0 (pure water) | 2.50 | 2.80 | +12 |\n| 5 | 2.50 | 2.60 | +4 |\n| 10 | 2.50 | 2.45 | −2 |\n| 15 | 2.50 | 2.30 | ? |\n| 20 | 2.50 | 2.15 | −14 |",
+    "prompt": "Explain why the chip in pure water **gained** mass, but the chip in the 20% sugar solution **lost** mass.",
+    "modelAnswer": "Osmosis is the movement of water across a partially permeable membrane, from a dilute solution (more water) to a more concentrated solution (less water). In pure water, the cell sap inside the potato cells was more concentrated than the water outside, so water moved into the cells by osmosis and the chip gained mass. In the 20% sugar solution, the solution outside was more concentrated than the cell sap, so water moved out of the cells by osmosis, and the chip lost mass and went floppy.",
+    "rubric": [
+      {
+        "criterion": "Describes osmosis as water moving across a partially permeable membrane from a dilute to a more concentrated solution",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that in pure water, water moved into the cells because the cell sap was more concentrated, so the mass increased",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that in 20% sugar, water moved out of the cells because the solution was more concentrated than the cell sap, so the mass decreased",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which way does water move by osmosis: towards the dilute side, or towards the concentrated side?",
+      "Compare the cell sap with the liquid outside in each case."
+    ],
+    "solution": "Water moves by osmosis towards the **more concentrated** side. Pure water is more dilute than cell sap, so water moves **in** (gain). 20% sugar is more concentrated than cell sap, so water moves **out** (loss)."
+  },
+  {
+    "id": "s9.bio.transport.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "People have long preserved fish and meat by covering them in salt. Why does salting stop bacteria growing on the food?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water moves out of the bacteria by osmosis, so they dry out and can't grow"
+      },
+      {
+        "id": "b",
+        "text": "Salt moves into the bacteria by osmosis, which makes them swell and burst"
+      },
+      {
+        "id": "c",
+        "text": "Salt gives the bacteria so much energy that they quickly wear themselves out"
+      },
+      {
+        "id": "d",
+        "text": "The salt forms a layer that stops the bacteria getting any oxygen"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Osmosis is the movement of **water**, not salt. Water moves **out** of the bacteria into the salty surroundings, so they shrivel rather than burst.",
+      "c": "Salt is not a source of energy for bacteria.",
+      "d": "Salt affects how much water the bacteria have, not their oxygen supply."
+    },
+    "hints": [
+      "Salty food is a very concentrated solution. Which way will water move?"
+    ],
+    "solution": "The salty surface is far more concentrated than the inside of the bacteria, so water moves **out** of the bacteria by **osmosis**. Without enough water, the bacteria can't grow or reproduce. Sugar works in the same way in jam."
+  },
+  {
+    "id": "s9.bio.transport.q034",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Choose the process for each example.\n\n- Carbon dioxide entering a leaf through the stomata: [[a]]\n- A limp stick of celery becoming firm when it stands in water: [[b]]\n- A cell taking in glucose when it already has more glucose inside than outside: [[c]]",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "diffusion"
+        ],
+        "options": [
+          "diffusion",
+          "osmosis",
+          "active transport"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "osmosis"
+        ],
+        "options": [
+          "diffusion",
+          "osmosis",
+          "active transport"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "active transport"
+        ],
+        "options": [
+          "diffusion",
+          "osmosis",
+          "active transport"
+        ]
+      }
+    ],
+    "hints": [
+      "Osmosis only involves water.",
+      "Which process can move a substance from a low concentration to a high concentration?"
+    ],
+    "solution": "Carbon dioxide spreads into the leaf from high to low concentration: **diffusion**. Water enters the celery cells across their membranes: **osmosis**. Taking in glucose against the concentration gradient needs energy: **active transport**."
+  },
+  {
+    "id": "s9.bio.transport.q035",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain the difference between **diffusion** and **active transport**.",
+    "modelAnswer": "In diffusion, particles move from an area of high concentration to an area of low concentration (down the concentration gradient). It is passive, so it needs no energy from the cell. In active transport, the cell moves particles from an area of low concentration to an area of high concentration (against the concentration gradient), and this needs energy from respiration.",
+    "rubric": [
+      {
+        "criterion": "Diffusion: from high to low concentration, with no energy needed from the cell",
+        "marks": 1
+      },
+      {
+        "criterion": "Active transport: from low to high concentration (against the gradient), using energy from respiration",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Compare the direction each one moves particles, relative to the concentration gradient.",
+      "Which one needs energy?"
+    ],
+    "solution": "**Diffusion:** high → low concentration, no energy needed. **Active transport:** low → high concentration (against the gradient), needs energy from respiration."
+  },
+  {
+    "id": "s9.bio.transport.q036",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.bio.transport.g2",
+    "part": "a",
+    "stem": "Wiremu adds one drop of food colouring to beakers of still water at different temperatures. Without stirring, he times how long the colour takes to spread evenly through the water.\n\n| Water temperature (°C) | Time for the colour to spread evenly (s) |\n|---|---|\n| 10 | 320 |\n| 20 | 200 |\n| 40 | 100 |\n| 60 | 50 |",
+    "prompt": "Which statement describes the pattern in the results?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As the temperature increased, the colour spread faster"
+      },
+      {
+        "id": "b",
+        "text": "As the temperature increased, the colour took longer to spread"
+      },
+      {
+        "id": "c",
+        "text": "The temperature had no effect on how fast the colour spread"
+      },
+      {
+        "id": "d",
+        "text": "The colour spread twice as fast for every 10 °C rise"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The **times** got shorter as the temperature went up. A shorter time means the colour spread faster.",
+      "c": "The times changed a lot, from 320 s down to 50 s, so temperature did have an effect.",
+      "d": "From 10 °C to 20 °C, the time only dropped from 320 s to 200 s, which is not twice as fast."
+    },
+    "hints": [
+      "A shorter time means faster spreading."
+    ],
+    "solution": "The time fell from 320 s at 10 °C to 50 s at 60 °C. A shorter time means faster spreading, so **the higher the temperature, the faster the colour spread**."
+  },
+  {
+    "id": "s9.bio.transport.q037",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "s9.bio.transport.g2",
+    "part": "b",
+    "stem": "Wiremu adds one drop of food colouring to beakers of still water at different temperatures. Without stirring, he times how long the colour takes to spread evenly through the water.\n\n| Water temperature (°C) | Time for the colour to spread evenly (s) |\n|---|---|\n| 10 | 320 |\n| 20 | 200 |\n| 40 | 100 |\n| 60 | 50 |",
+    "prompt": "How many times faster did the colour spread at 60 °C than at 20 °C?",
+    "answer": 4,
+    "hints": [
+      "Compare the two times. How many times longer did it take at 20 °C?"
+    ],
+    "solution": "At 20 °C it took 200 s; at 60 °C it took 50 s.\n\n$200 \\div 50 = 4$, so the colour spread **4 times** faster at 60 °C (it took a quarter of the time)."
+  },
+  {
+    "id": "s9.bio.transport.q038",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.bio.transport.g2",
+    "part": "c",
+    "stem": "Wiremu adds one drop of food colouring to beakers of still water at different temperatures. Without stirring, he times how long the colour takes to spread evenly through the water.\n\n| Water temperature (°C) | Time for the colour to spread evenly (s) |\n|---|---|\n| 10 | 320 |\n| 20 | 200 |\n| 40 | 100 |\n| 60 | 50 |",
+    "prompt": "Use the particle model to explain why the colour spreads faster in hotter water.",
+    "modelAnswer": "In hotter water, the particles have more (kinetic) energy, so they move faster. The food colouring particles therefore spread out more quickly, from where they are concentrated to where they are less concentrated, so diffusion is faster.",
+    "rubric": [
+      {
+        "criterion": "States that at a higher temperature the particles have more energy and move faster",
+        "marks": 1
+      },
+      {
+        "criterion": "Links this to the colouring particles spreading from high to low concentration (diffusing) more quickly",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What happens to particles when they are heated?"
+    ],
+    "solution": "Higher temperature → particles have **more energy** and **move faster** → they spread out (diffuse) **more quickly**."
+  },
+  {
+    "id": "s9.bio.transport.q039",
+    "type": "mcq",
+    "difficulty": 4,
+    "groupId": "s9.bio.transport.g2",
+    "part": "d",
+    "stem": "Wiremu adds one drop of food colouring to beakers of still water at different temperatures. Without stirring, he times how long the colour takes to spread evenly through the water.\n\n| Water temperature (°C) | Time for the colour to spread evenly (s) |\n|---|---|\n| 10 | 320 |\n| 20 | 200 |\n| 40 | 100 |\n| 60 | 50 |",
+    "prompt": "Sione says, \"This shows that diffusion only happens in hot water.\" Which is the best response?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wrong: the colour spread at every temperature, even 10 °C; it was just slower"
+      },
+      {
+        "id": "b",
+        "text": "Right: at 10 °C the water particles stop moving, so diffusion stops"
+      },
+      {
+        "id": "c",
+        "text": "Right: diffusion needs heat energy from outside the beaker to happen"
+      },
+      {
+        "id": "d",
+        "text": "Wrong: diffusion is fastest in cold water, because the particles are closer"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Particles are always moving, even in cold water. They just move more slowly.",
+      "c": "Diffusion happens because particles move randomly by themselves. It doesn't need extra energy from outside.",
+      "d": "The results show the opposite: colder water gave slower diffusion."
+    },
+    "hints": [
+      "Look at the result for 10 °C. Did the colour spread at all?"
+    ],
+    "solution": "Even at 10 °C the colour spread evenly, just more slowly (320 s). Particles are **always moving**, so diffusion happens at all temperatures. Heating only makes it **faster**."
+  },
+  {
+    "id": "s9.bio.transport.q040",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Root hair cells take in mineral ions by active transport. Scientists find that these cells contain lots of mitochondria. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Active transport needs energy, which is released by respiration in mitochondria"
+      },
+      {
+        "id": "b",
+        "text": "Mitochondria pump water into the root hair cell by osmosis"
+      },
+      {
+        "id": "c",
+        "text": "Mitochondria make the glucose that the root cells need for growth"
+      },
+      {
+        "id": "d",
+        "text": "Mitochondria make the cell membrane let more mineral ions through"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Osmosis doesn't need energy or a pump. Water moves by itself from a dilute solution to a more concentrated one.",
+      "c": "Glucose is made by photosynthesis in the leaves. Mitochondria release energy **from** glucose.",
+      "d": "Mitochondria release energy. The cell uses that energy to move ions in against the concentration gradient."
+    },
+    "hints": [
+      "What do mitochondria do?",
+      "What does active transport need that diffusion does not?"
+    ],
+    "solution": "Active transport moves ions **against** the concentration gradient, which needs **energy**. Mitochondria release this energy by **respiration**, so cells that do a lot of active transport have many mitochondria."
+  },
+  {
+    "id": "s9.bio.transport.q041",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A bag made of Visking tubing (a partially permeable membrane) is filled with a concentrated sugar solution and put into a beaker of pure water. Sugar molecules are too big to pass through the tubing. What will happen to the bag after an hour?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It swells, because water moves into it by osmosis"
+      },
+      {
+        "id": "b",
+        "text": "It shrinks, because sugar moves out of it into the water"
+      },
+      {
+        "id": "c",
+        "text": "It shrinks, because water moves out of it by osmosis"
+      },
+      {
+        "id": "d",
+        "text": "Nothing happens, because the tubing isn't made of living cells"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The sugar molecules are too big to pass through the tubing.",
+      "c": "Water moves from the dilute side (pure water) to the concentrated side (the sugar solution), so it moves **into** the bag.",
+      "d": "Osmosis happens across any partially permeable membrane, living or not."
+    },
+    "hints": [
+      "Which side has the higher concentration of water?"
+    ],
+    "solution": "The pure water outside is more dilute than the sugar solution inside, so water moves **into** the bag by **osmosis**. The sugar can't get out, so the bag swells and becomes firm, like a turgid plant cell."
+  },
+  {
+    "id": "s9.bio.transport.q042",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "s9.bio.transport.g3",
+    "part": "a",
+    "stem": "Aroha has a cube of agar jelly with sides of 4 cm. She cuts it into 64 small cubes, each with sides of 1 cm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" width=\"440\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"140,262 243.9,202 243.9,82 140,142\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"140,262 36.1,202 36.1,82 140,142\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"140,142 243.9,82 140,22 36.1,82\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"166.0\" y1=\"247.0\" x2=\"166.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"232.0\" x2=\"243.9\" y2=\"172.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"114.0\" y1=\"247.0\" x2=\"114.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"232.0\" x2=\"36.1\" y2=\"172.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"166.0\" y1=\"127.0\" x2=\"62.1\" y2=\"67.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"114.0\" y1=\"127.0\" x2=\"217.9\" y2=\"67.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"192.0\" y1=\"232.0\" x2=\"192.0\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"202.0\" x2=\"243.9\" y2=\"142.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"232.0\" x2=\"88.0\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"202.0\" x2=\"36.1\" y2=\"142.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"192.0\" y1=\"112.0\" x2=\"88.0\" y2=\"52.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"112.0\" x2=\"192.0\" y2=\"52.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"217.9\" y1=\"217.0\" x2=\"217.9\" y2=\"97.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"172.0\" x2=\"243.9\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"62.1\" y1=\"217.0\" x2=\"62.1\" y2=\"97.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"172.0\" x2=\"36.1\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"217.9\" y1=\"97.0\" x2=\"114.0\" y2=\"37.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"62.1\" y1=\"97.0\" x2=\"166.0\" y2=\"37.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><text x=\"212\" y=\"262\" fill=\"#1f2937\" font-weight=\"bold\">4 cm</text><line x1=\"268\" y1=\"150\" x2=\"318\" y2=\"150\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><path d=\"M318,143 L330,150 L318,157 Z\" fill=\"#1f2937\"/><text x=\"299\" y=\"138\" text-anchor=\"middle\" fill=\"#1f2937\">cut</text><polygon points=\"380,178 409.4,161 409.4,127 380,144\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"380,178 350.6,161 350.6,127 380,144\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"380,144 409.4,127 380,110 350.6,127\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"402\" y=\"184\" fill=\"#1f2937\" font-weight=\"bold\">1 cm</text><text x=\"380\" y=\"214\" text-anchor=\"middle\" fill=\"#1f2937\" font-weight=\"bold\">× 64</text></svg>",
+      "alt": "A large cube with sides of 4 cm, marked with a 4 by 4 grid on each face. An arrow labelled \"cut\" points to one small cube with sides of 1 cm, labelled \"× 64\"."
+    },
+    "prompt": "What is the total surface area of the 4 cm cube?",
+    "answer": 96,
+    "units": "cm²",
+    "hints": [
+      "A cube has 6 faces, and each one is a square.",
+      "Area of one face = 4 × 4."
+    ],
+    "solution": "Each face $= 4 \\times 4 = 16$ cm². A cube has 6 faces: $6 \\times 16 = 96$ cm²."
+  },
+  {
+    "id": "s9.bio.transport.q043",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "groupId": "s9.bio.transport.g3",
+    "part": "b",
+    "stem": "Aroha has a cube of agar jelly with sides of 4 cm. She cuts it into 64 small cubes, each with sides of 1 cm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" width=\"440\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"140,262 243.9,202 243.9,82 140,142\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"140,262 36.1,202 36.1,82 140,142\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"140,142 243.9,82 140,22 36.1,82\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"166.0\" y1=\"247.0\" x2=\"166.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"232.0\" x2=\"243.9\" y2=\"172.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"114.0\" y1=\"247.0\" x2=\"114.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"232.0\" x2=\"36.1\" y2=\"172.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"166.0\" y1=\"127.0\" x2=\"62.1\" y2=\"67.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"114.0\" y1=\"127.0\" x2=\"217.9\" y2=\"67.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"192.0\" y1=\"232.0\" x2=\"192.0\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"202.0\" x2=\"243.9\" y2=\"142.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"232.0\" x2=\"88.0\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"202.0\" x2=\"36.1\" y2=\"142.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"192.0\" y1=\"112.0\" x2=\"88.0\" y2=\"52.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"112.0\" x2=\"192.0\" y2=\"52.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"217.9\" y1=\"217.0\" x2=\"217.9\" y2=\"97.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"172.0\" x2=\"243.9\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"62.1\" y1=\"217.0\" x2=\"62.1\" y2=\"97.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"172.0\" x2=\"36.1\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"217.9\" y1=\"97.0\" x2=\"114.0\" y2=\"37.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"62.1\" y1=\"97.0\" x2=\"166.0\" y2=\"37.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><text x=\"212\" y=\"262\" fill=\"#1f2937\" font-weight=\"bold\">4 cm</text><line x1=\"268\" y1=\"150\" x2=\"318\" y2=\"150\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><path d=\"M318,143 L330,150 L318,157 Z\" fill=\"#1f2937\"/><text x=\"299\" y=\"138\" text-anchor=\"middle\" fill=\"#1f2937\">cut</text><polygon points=\"380,178 409.4,161 409.4,127 380,144\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"380,178 350.6,161 350.6,127 380,144\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"380,144 409.4,127 380,110 350.6,127\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"402\" y=\"184\" fill=\"#1f2937\" font-weight=\"bold\">1 cm</text><text x=\"380\" y=\"214\" text-anchor=\"middle\" fill=\"#1f2937\" font-weight=\"bold\">× 64</text></svg>",
+      "alt": "A large cube with sides of 4 cm, marked with a 4 by 4 grid on each face. An arrow labelled \"cut\" points to one small cube with sides of 1 cm, labelled \"× 64\"."
+    },
+    "prompt": "What is the **total** surface area of all 64 small cubes added together?",
+    "answer": 384,
+    "units": "cm²",
+    "hints": [
+      "First find the surface area of one 1 cm cube.",
+      "Then multiply by the number of small cubes."
+    ],
+    "solution": "One small cube: $6 \\times 1 \\times 1 = 6$ cm². All 64 cubes: $64 \\times 6 = 384$ cm².\n\nThe total volume hasn't changed (it is still 64 cm³), but the total surface area is now **4 times bigger** than before."
+  },
+  {
+    "id": "s9.bio.transport.q044",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.transport.g3",
+    "part": "c",
+    "stem": "Aroha has a cube of agar jelly with sides of 4 cm. She cuts it into 64 small cubes, each with sides of 1 cm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" width=\"440\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"140,262 243.9,202 243.9,82 140,142\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"140,262 36.1,202 36.1,82 140,142\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"140,142 243.9,82 140,22 36.1,82\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"166.0\" y1=\"247.0\" x2=\"166.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"232.0\" x2=\"243.9\" y2=\"172.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"114.0\" y1=\"247.0\" x2=\"114.0\" y2=\"127.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"232.0\" x2=\"36.1\" y2=\"172.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"166.0\" y1=\"127.0\" x2=\"62.1\" y2=\"67.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"114.0\" y1=\"127.0\" x2=\"217.9\" y2=\"67.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"192.0\" y1=\"232.0\" x2=\"192.0\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"202.0\" x2=\"243.9\" y2=\"142.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"232.0\" x2=\"88.0\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"202.0\" x2=\"36.1\" y2=\"142.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"192.0\" y1=\"112.0\" x2=\"88.0\" y2=\"52.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"88.0\" y1=\"112.0\" x2=\"192.0\" y2=\"52.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"217.9\" y1=\"217.0\" x2=\"217.9\" y2=\"97.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"172.0\" x2=\"243.9\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"62.1\" y1=\"217.0\" x2=\"62.1\" y2=\"97.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"140.0\" y1=\"172.0\" x2=\"36.1\" y2=\"112.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"217.9\" y1=\"97.0\" x2=\"114.0\" y2=\"37.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><line x1=\"62.1\" y1=\"97.0\" x2=\"166.0\" y2=\"37.0\" stroke=\"#1f2937\" stroke-width=\"0.9\" opacity=\"0.6\"/><text x=\"212\" y=\"262\" fill=\"#1f2937\" font-weight=\"bold\">4 cm</text><line x1=\"268\" y1=\"150\" x2=\"318\" y2=\"150\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><path d=\"M318,143 L330,150 L318,157 Z\" fill=\"#1f2937\"/><text x=\"299\" y=\"138\" text-anchor=\"middle\" fill=\"#1f2937\">cut</text><polygon points=\"380,178 409.4,161 409.4,127 380,144\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"380,178 350.6,161 350.6,127 380,144\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"380,144 409.4,127 380,110 350.6,127\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"402\" y=\"184\" fill=\"#1f2937\" font-weight=\"bold\">1 cm</text><text x=\"380\" y=\"214\" text-anchor=\"middle\" fill=\"#1f2937\" font-weight=\"bold\">× 64</text></svg>",
+      "alt": "A large cube with sides of 4 cm, marked with a 4 by 4 grid on each face. An arrow labelled \"cut\" points to one small cube with sides of 1 cm, labelled \"× 64\"."
+    },
+    "prompt": "Your lungs contain hundreds of millions of tiny alveoli, instead of one big air sac. Use the idea from this activity to explain why.",
+    "modelAnswer": "Cutting the cube into small pieces kept the volume the same but made the total surface area much bigger. In the same way, dividing the lungs into hundreds of millions of tiny alveoli gives a far bigger surface area than one big sac of the same volume. Oxygen gets into the blood by diffusing across this surface (and carbon dioxide diffuses out), so a bigger surface area means much more oxygen can diffuse into the blood every second. The body has trillions of cells that all need oxygen for respiration, so it needs this huge surface area.",
+    "rubric": [
+      {
+        "criterion": "States that many small alveoli give a much larger total surface area than one large sac of the same volume (like cutting up the cube)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that gases are exchanged by diffusion across this surface, so a larger area lets more oxygen into the blood (and carbon dioxide out) each second",
+        "marks": 1
+      },
+      {
+        "criterion": "Links this to the body needing a lot of oxygen, because all its cells need oxygen for respiration",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What happened to the total surface area when the cube was cut up? What happened to the volume?",
+      "How do oxygen and carbon dioxide cross the walls of the alveoli?"
+    ],
+    "solution": "Many small pieces → **much larger total surface area** for the same volume. Gas exchange happens by **diffusion** across that surface, so more surface means faster gas exchange, enough to supply oxygen to all of the body's cells."
+  },
+  {
+    "id": "s9.bio.transport.q045",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "For one particular cube of agar, its surface area in cm² is the **same number** as its volume in cm³. How long are its sides?",
+    "answer": 6,
+    "units": "cm",
+    "hints": [
+      "For a cube with sides of length s: surface area = 6 × s × s, and volume = s × s × s.",
+      "Try some side lengths and compare the two numbers."
+    ],
+    "solution": "Surface area $= 6 \\times s \\times s$ and volume $= s \\times s \\times s$. These are equal when $s = 6$.\n\nCheck: surface area $= 6 \\times 6 \\times 6 = 216$ cm², and volume $= 6 \\times 6 \\times 6 = 216$ cm³. ✓\n\nSo its SA:V ratio is 1 : 1. Any smaller cube has a larger SA:V ratio."
+  },
+  {
+    "id": "s9.bio.transport.q046",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The cells of *Nitella*, a freshwater alga, contain potassium ions at a much higher concentration (over 100 times higher) than in the pond water around them. When scientists gave the cells a poison that stops respiration, the cells stopped taking in potassium. Explain these observations.",
+    "modelAnswer": "The potassium ions are moving from the pond water, where their concentration is low, into the cells, where it is high. That is against the concentration gradient, so it can't be diffusion. It must be active transport, which needs energy. The energy comes from respiration, so when the poison stopped respiration, the cells had no energy for active transport and stopped taking in potassium.",
+    "rubric": [
+      {
+        "criterion": "States that the potassium moves from low to high concentration (against the gradient), so it can't be diffusion",
+        "marks": 1
+      },
+      {
+        "criterion": "Identifies the process as active transport, which needs energy",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the energy comes from respiration, so stopping respiration stops the uptake",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which way would potassium move by diffusion?",
+      "Why would stopping respiration matter?"
+    ],
+    "solution": "Uptake **against** the concentration gradient = **active transport**, which needs energy from **respiration**. No respiration → no energy → no uptake. This evidence shows the uptake isn't diffusion."
+  },
+  {
+    "id": "s9.bio.transport.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A *Paramecium* is a single-celled organism that lives in fresh water. It has no cell wall. It uses energy to pump water out of the cell through a structure called a contractile vacuole. Why does it need to do this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water keeps entering by osmosis, and with no cell wall the cell would burst"
+      },
+      {
+        "id": "b",
+        "text": "Salt from the pond water keeps building up inside the cell"
+      },
+      {
+        "id": "c",
+        "text": "The pond water is more concentrated, so the cell keeps losing water"
+      },
+      {
+        "id": "d",
+        "text": "Water enters by active transport, which must be balanced by pumping"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Fresh water contains very little salt. The problem is water, not salt.",
+      "c": "Pond water is **more dilute** than the cytoplasm, so water moves **into** the cell, not out.",
+      "d": "Water enters by osmosis, which needs no energy. Pumping it back out is the part that needs energy."
+    },
+    "hints": [
+      "Compare the concentration of the cytoplasm with the pond water.",
+      "What would happen to an animal cell in pure water?"
+    ],
+    "solution": "The cytoplasm is more concentrated than fresh water, so water constantly enters by **osmosis**. A plant cell's wall would stop it bursting, but *Paramecium* has no wall, so it must use energy to pump the extra water out through its contractile vacuole."
   }
 ]

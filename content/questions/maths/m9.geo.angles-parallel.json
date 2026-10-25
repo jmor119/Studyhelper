@@ -134,5 +134,272 @@
     },
     "hints": ["If the lines were parallel, the co-interior angles would add to exactly 180°."],
     "solution": "$98° + 84° = 182° \\neq 180°$, so the lines are **not** parallel. If they were parallel, these co-interior angles would add to exactly 180°."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.angles-parallel.g1",
+    "part": "a",
+    "stem": "A straight road crosses two parallel railway lines, as shown. The road meets the top rail at P and the bottom rail at Q.",
+    "prompt": "Find the size of angle $a$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"80\" x2=\"390\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"143.33\" y1=\"261.81\" x2=\"272.86\" y2=\"18.19\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"71.5,84.9 78.5,80 71.5,75.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,204.9 78.5,200 71.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><path d=\"M 264 80 A 24 24 0 0 0 251.27 58.81\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"276.59\" y=\"58.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">62°</text><path d=\"M 216 80 A 24 24 0 0 0 228.73 101.19\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"209.17\" y=\"98.52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">a</text><path d=\"M 200.19 200 A 24 24 0 0 0 187.46 178.81\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"207.02\" y=\"181.48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">b</text><path d=\"M 168.21 215.01 A 17 17 0 0 0 193.19 200\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"191.66\" y=\"225.73\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">c</text><circle cx=\"240\" cy=\"80\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"176.19\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><text x=\"232.27\" y=\"67.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">P</text><text x=\"168.47\" y=\"187.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Q</text><text x=\"360\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">rail</text><text x=\"360\" y=\"188\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">rail</text><text x=\"292\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">road</text></svg>", "alt": "Two parallel rails (horizontal lines marked with arrows) are crossed by a straight road. The road crosses the top rail at P and the bottom rail at Q. At P, the angle above the rail on the right of the road is 62°, and the angle below the rail on the left of the road is a. At Q, the angle above the rail on the right of the road is b, and the angle below the rail on the right of the road is c." },
+    "answer": 62,
+    "units": "°",
+    "hints": ["Angle $a$ and the 62° angle are on opposite sides of the point where the road crosses the top rail."],
+    "solution": "$a = 62°$ (vertically opposite angles are equal)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q011",
+    "type": "cloze",
+    "difficulty": 2,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.angles-parallel.g1",
+    "part": "b",
+    "stem": "A straight road crosses two parallel railway lines, as shown. The road meets the top rail at P and the bottom rail at Q.",
+    "prompt": "Angle $b$ and the 62° angle are a pair of [[r]] angles, so $b$ = [[v]]°.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"80\" x2=\"390\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"143.33\" y1=\"261.81\" x2=\"272.86\" y2=\"18.19\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"71.5,84.9 78.5,80 71.5,75.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,204.9 78.5,200 71.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><path d=\"M 264 80 A 24 24 0 0 0 251.27 58.81\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"276.59\" y=\"58.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">62°</text><path d=\"M 216 80 A 24 24 0 0 0 228.73 101.19\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"209.17\" y=\"98.52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">a</text><path d=\"M 200.19 200 A 24 24 0 0 0 187.46 178.81\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"207.02\" y=\"181.48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">b</text><path d=\"M 168.21 215.01 A 17 17 0 0 0 193.19 200\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"191.66\" y=\"225.73\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">c</text><circle cx=\"240\" cy=\"80\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"176.19\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><text x=\"232.27\" y=\"67.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">P</text><text x=\"168.47\" y=\"187.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Q</text><text x=\"360\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">rail</text><text x=\"360\" y=\"188\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">rail</text><text x=\"292\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">road</text></svg>", "alt": "Two parallel rails (horizontal lines marked with arrows) are crossed by a straight road. The road crosses the top rail at P and the bottom rail at Q. At P, the angle above the rail on the right of the road is 62°, and the angle below the rail on the left of the road is a. At Q, the angle above the rail on the right of the road is b, and the angle below the rail on the right of the road is c." },
+    "blanks": [
+      { "id": "r", "accepted": ["corresponding"], "options": ["alternate", "co-interior", "corresponding", "vertically opposite"] },
+      { "id": "v", "accepted": ["62", "62 degrees"] }
+    ],
+    "hints": ["Both angles are above a rail and on the right of the road. They make an F shape.", "What do you know about angles in this position when the lines are parallel?"],
+    "solution": "Angle $b$ and the 62° angle are in matching positions at the two crossings (an F shape), so they are **corresponding** angles. The rails are parallel, so $b = 62°$."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.angles-parallel.g1",
+    "part": "c",
+    "stem": "A straight road crosses two parallel railway lines, as shown. The road meets the top rail at P and the bottom rail at Q.",
+    "prompt": "Find the size of angle $c$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"80\" x2=\"390\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"143.33\" y1=\"261.81\" x2=\"272.86\" y2=\"18.19\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"71.5,84.9 78.5,80 71.5,75.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,204.9 78.5,200 71.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><path d=\"M 264 80 A 24 24 0 0 0 251.27 58.81\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"276.59\" y=\"58.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">62°</text><path d=\"M 216 80 A 24 24 0 0 0 228.73 101.19\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"209.17\" y=\"98.52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">a</text><path d=\"M 200.19 200 A 24 24 0 0 0 187.46 178.81\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"207.02\" y=\"181.48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">b</text><path d=\"M 168.21 215.01 A 17 17 0 0 0 193.19 200\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"191.66\" y=\"225.73\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">c</text><circle cx=\"240\" cy=\"80\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"176.19\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><text x=\"232.27\" y=\"67.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">P</text><text x=\"168.47\" y=\"187.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Q</text><text x=\"360\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">rail</text><text x=\"360\" y=\"188\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">rail</text><text x=\"292\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">road</text></svg>", "alt": "Two parallel rails (horizontal lines marked with arrows) are crossed by a straight road. The road crosses the top rail at P and the bottom rail at Q. At P, the angle above the rail on the right of the road is 62°, and the angle below the rail on the left of the road is a. At Q, the angle above the rail on the right of the road is b, and the angle below the rail on the right of the road is c." },
+    "answer": 118,
+    "units": "°",
+    "hints": ["First find angle $b$, which is next to $c$ at Q.", "Angles $b$ and $c$ together make a straight line along the road."],
+    "solution": "$b = 62°$ (corresponding angles, parallel lines).\n\n$c = 180° - 62° = 118°$ (angles on a straight line add to 180°)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q013",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.angles-parallel.g2",
+    "part": "a",
+    "stem": "The lines marked with arrows are parallel. A dashed line has been drawn through B, parallel to the other two lines. It splits angle ABC into two parts, p and q.",
+    "prompt": "Angle $p$ is 40°. Which reason explains this?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"220\" x2=\"390\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"110\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"71.5,64.9 78.5,60 71.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,224.9 78.5,220 71.5,215.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"351.5,144.9 358.5,140 351.5,135.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"204.7\" y1=\"60\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"161.4\" y1=\"220\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 232.7 60 A 28 28 0 0 1 226.15 78\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"248.34\" y=\"75.89\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">40°</text><path d=\"M 193.4 220 A 32 32 0 0 0 189.11 204\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"209.86\" y=\"207.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">30°</text><path d=\"M 280.09 123.28 A 26 26 0 0 0 274 140\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"265.16\" y=\"127.31\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">p</text><path d=\"M 274 140 A 26 26 0 0 0 277.48 153\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"264.65\" y=\"149.47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">q</text><circle cx=\"204.7\" cy=\"60\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"300\" cy=\"140\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"161.4\" cy=\"220\" r=\"3\" fill=\"#1f2937\"/><text x=\"200.7\" y=\"47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"314\" y=\"152\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"157.4\" y=\"234\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "Two horizontal parallel lines with a point B between them, to the right. A is on the top line and C is on the bottom line. Lines AB and CB meet at B. The angle between the top line (to the right of A) and AB is 40°. The angle between the bottom line (to the right of C) and CB is 30°. A dashed line through B is parallel to the other two lines and splits angle ABC into p (top part) and q (bottom part)." },
+    "options": [
+      { "id": "a", "text": "Alternate angles are equal (parallel lines)" },
+      { "id": "b", "text": "Corresponding angles are equal (parallel lines)" },
+      { "id": "c", "text": "Co-interior angles add to 180° (parallel lines)" },
+      { "id": "d", "text": "Vertically opposite angles are equal" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Corresponding angles are in matching positions (an F shape). Here the two angles are on opposite sides of AB, making a Z shape.",
+      "c": "Co-interior angles add to 180°, but $p$ and the angle at A are equal (both 40°), so they are not co-interior.",
+      "d": "Vertically opposite angles are at the same point where two lines cross. Angle $p$ is at B and the 40° angle is at A."
+    },
+    "hints": ["Trace the top line, AB and the dashed line. What letter shape do they make?"],
+    "solution": "The top line and the dashed line are parallel, and AB crosses both. Angle $p$ and the 40° angle are on opposite sides of AB, between the parallel lines (a Z shape), so they are **alternate angles**, which are equal."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.angles-parallel.g2",
+    "part": "b",
+    "stem": "The lines marked with arrows are parallel. A dashed line has been drawn through B, parallel to the other two lines. It splits angle ABC into two parts, p and q.",
+    "prompt": "Find the size of angle ABC.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"220\" x2=\"390\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"110\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"71.5,64.9 78.5,60 71.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,224.9 78.5,220 71.5,215.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"351.5,144.9 358.5,140 351.5,135.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"204.7\" y1=\"60\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"161.4\" y1=\"220\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 232.7 60 A 28 28 0 0 1 226.15 78\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"248.34\" y=\"75.89\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">40°</text><path d=\"M 193.4 220 A 32 32 0 0 0 189.11 204\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"209.86\" y=\"207.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">30°</text><path d=\"M 280.09 123.28 A 26 26 0 0 0 274 140\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"265.16\" y=\"127.31\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">p</text><path d=\"M 274 140 A 26 26 0 0 0 277.48 153\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"264.65\" y=\"149.47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">q</text><circle cx=\"204.7\" cy=\"60\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"300\" cy=\"140\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"161.4\" cy=\"220\" r=\"3\" fill=\"#1f2937\"/><text x=\"200.7\" y=\"47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"314\" y=\"152\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"157.4\" y=\"234\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "Two horizontal parallel lines with a point B between them, to the right. A is on the top line and C is on the bottom line. Lines AB and CB meet at B. The angle between the top line (to the right of A) and AB is 40°. The angle between the bottom line (to the right of C) and CB is 30°. A dashed line through B is parallel to the other two lines and splits angle ABC into p (top part) and q (bottom part)." },
+    "answer": 70,
+    "units": "°",
+    "hints": ["Angle ABC = $p + q$.", "Find $q$ in the same way as $p$, using the bottom line and the dashed line."],
+    "solution": "$p = 40°$ (alternate angles, parallel lines).\n\n$q = 30°$ (alternate angles, parallel lines).\n\nAngle ABC $= p + q = 40° + 30° = 70°$."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.angles-parallel.g2",
+    "part": "c",
+    "stem": "The lines marked with arrows are parallel. A dashed line has been drawn through B, parallel to the other two lines. It splits angle ABC into two parts, p and q.",
+    "prompt": "Suppose the angle at A were $a$ and the angle at C were $c$, instead of 40° and 30°. Explain, giving geometric reasons, why angle ABC would always equal $a + c$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"220\" x2=\"390\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"110\" y1=\"140\" x2=\"390\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"71.5,64.9 78.5,60 71.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,224.9 78.5,220 71.5,215.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"351.5,144.9 358.5,140 351.5,135.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"204.7\" y1=\"60\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"161.4\" y1=\"220\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 232.7 60 A 28 28 0 0 1 226.15 78\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"248.34\" y=\"75.89\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">40°</text><path d=\"M 193.4 220 A 32 32 0 0 0 189.11 204\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"209.86\" y=\"207.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">30°</text><path d=\"M 280.09 123.28 A 26 26 0 0 0 274 140\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"265.16\" y=\"127.31\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">p</text><path d=\"M 274 140 A 26 26 0 0 0 277.48 153\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"264.65\" y=\"149.47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">q</text><circle cx=\"204.7\" cy=\"60\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"300\" cy=\"140\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"161.4\" cy=\"220\" r=\"3\" fill=\"#1f2937\"/><text x=\"200.7\" y=\"47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"314\" y=\"152\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"157.4\" y=\"234\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "Two horizontal parallel lines with a point B between them, to the right. A is on the top line and C is on the bottom line. Lines AB and CB meet at B. The angle between the top line (to the right of A) and AB is 40°. The angle between the bottom line (to the right of C) and CB is 30°. A dashed line through B is parallel to the other two lines and splits angle ABC into p (top part) and q (bottom part)." },
+    "modelAnswer": "The dashed line through B is parallel to the other two lines. p = a, because they are alternate angles between the top line and the dashed line (parallel lines). q = c, because they are alternate angles between the dashed line and the bottom line (parallel lines). Angle ABC is made of p and q, so angle ABC = p + q = a + c.",
+    "rubric": [
+      { "criterion": "States p = a with the reason \"alternate angles, parallel lines\"", "marks": 1 },
+      { "criterion": "States q = c (alternate angles, parallel lines) and concludes angle ABC = p + q = a + c", "marks": 1 }
+    ],
+    "hints": ["Use the dashed line. How is $p$ related to the angle at A?", "Angle ABC is made of two parts."],
+    "solution": "$p = a$ (alternate angles, parallel lines) and $q = c$ (alternate angles, parallel lines). Angle ABC $= p + q = a + c$, whatever the sizes of $a$ and $c$."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q016",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In a geometry diagram, two lines are marked with matching arrows (>). What do the arrows tell you?",
+    "options": [
+      { "id": "a", "text": "The lines are parallel" },
+      { "id": "b", "text": "The lines are the same length" },
+      { "id": "c", "text": "The lines meet at a right angle" },
+      { "id": "d", "text": "The lines meet if you make them longer" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Equal lengths are shown with small tick marks across the lines, not arrows.",
+      "c": "A right angle is shown with a small square in the corner.",
+      "d": "Lines with matching arrows are parallel, and parallel lines never meet, however far you extend them."
+    },
+    "hints": ["Think of the two rails of a railway track."],
+    "solution": "Matching arrows show that the lines are **parallel**: they stay the same distance apart and never meet."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Two straight lines cross, making four angles. Which angles are **always** equal?",
+    "options": [
+      { "id": "a", "text": "The vertically opposite angles" },
+      { "id": "b", "text": "The angles next to each other" },
+      { "id": "c", "text": "All four angles" },
+      { "id": "d", "text": "None of the angles" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Angles next to each other on a straight line add to 180°. They are only equal if both are 90°.",
+      "c": "All four angles are equal only when the lines are perpendicular (all 90°).",
+      "d": "The angles opposite each other at the crossing are always equal."
+    },
+    "hints": ["Picture an X. Which angles face each other across the crossing point?"],
+    "solution": "When two straight lines cross, the angles opposite each other are **vertically opposite angles**, and they are always equal."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q018",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "ABCD is a parallelogram, so AD is parallel to BC, and AB is parallel to DC. Angle DAB is 68°. Find angle ABC, marked $x$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 222\" width=\"340\" height=\"222\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"60,190 240,190 292.4,60.2 112.4,60.2\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"146.5,194.9 153.5,190 146.5,185.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"198.9,65.1 205.9,60.2 198.9,55.3\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"88.12,133.43 86.2,125.1 79.04,129.76\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"90.74,126.93 88.82,118.61 81.66,123.27\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"268.12,133.43 266.2,125.1 259.04,129.76\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"270.74,126.93 268.82,118.61 261.66,123.27\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><path d=\"M 86 190 A 26 26 0 0 0 69.73 165.89\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"97.02\" y=\"165.02\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">68°</text><path d=\"M 248.98 167.75 A 24 24 0 0 0 216 190\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"219.31\" y=\"159.33\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><text x=\"48\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"250\" y=\"202\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"304.4\" y=\"52.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"100.4\" y=\"52.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">D</text></svg>", "alt": "Parallelogram ABCD with AB along the bottom. Single arrows show AB is parallel to DC, and double arrows show AD is parallel to BC. Angle DAB is 68° and angle ABC is marked x." },
+    "answer": 112,
+    "units": "°",
+    "hints": ["AB is a transversal that crosses the parallel lines AD and BC.", "Angles DAB and ABC are both between AD and BC, on the same side of AB."],
+    "solution": "AD ∥ BC, and AB crosses both. Angles DAB and ABC are **co-interior** angles, so they add to 180°:\n\n$x = 180° - 68° = 112°$ (co-interior angles, AD ∥ BC)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q019",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The lines marked with arrows are parallel. Rawiri writes: \"$x = 110°$, because $x$ and the 70° angle are corresponding angles.\" What is wrong with his answer?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"80\" x2=\"390\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"267.62\" y1=\"265.78\" x2=\"176.06\" y2=\"14.22\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"71.5,84.9 78.5,80 71.5,75.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,204.9 78.5,200 71.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><path d=\"M 208.21 102.55 A 24 24 0 0 0 224 80\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"234.94\" y=\"104.46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">70°</text><path d=\"M 267.68 200 A 24 24 0 0 0 235.47 177.45\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"264.89\" y=\"169.71\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><circle cx=\"200\" cy=\"80\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"243.68\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/></svg>", "alt": "Two parallel lines cut by a transversal that slopes up to the left. At the top crossing, the angle below the top line on the right of the transversal is 70°. At the bottom crossing, the angle above the bottom line on the right of the transversal is x." },
+    "options": [
+      { "id": "a", "text": "His reason is wrong: $x$ and the 70° angle are co-interior angles, which add to 180°" },
+      { "id": "b", "text": "His value is wrong: they are corresponding angles, so $x = 70°$" },
+      { "id": "c", "text": "His reason is wrong: they are alternate angles" },
+      { "id": "d", "text": "Nothing: his value and his reason are both correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "These are not corresponding angles, so $x$ is not 70°. Both angles are between the parallel lines, on the same side of the transversal.",
+      "c": "Alternate angles are on opposite sides of the transversal (a Z shape) and are equal. These two are on the same side (a C shape).",
+      "d": "The value 110° is right, but corresponding angles are equal, so a pair of corresponding angles couldn't be 70° and 110°."
+    },
+    "hints": ["Are the two angles between the parallel lines, or outside them?", "Are they on the same side of the transversal, or on opposite sides?"],
+    "solution": "Both angles are between the parallel lines and on the same side of the transversal, so they are **co-interior** angles (a C shape), which add to 180°: $x = 180° - 70° = 110°$. Rawiri's value is right, but his reason is wrong."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q020",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Lines ℓ and m are parallel. P is on line ℓ, and Q, R and S are on line m. Find angle QPR, marked $x$. Give a geometric reason for each step.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"420\" height=\"230\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"321.5,64.9 328.5,60 321.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"321.5,204.9 328.5,200 321.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"178\" y1=\"60\" x2=\"80\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"178\" y1=\"60\" x2=\"258.8\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 150 60 A 28 28 0 0 0 161.94 82.94\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"136.61\" y=\"81.55\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">55°</text><path d=\"M 282.8 200 A 24 24 0 0 0 246.8 179.21\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"280.25\" y=\"162.85\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">120°</text><path d=\"M 160.8 84.58 A 30 30 0 0 0 193 85.98\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"176.16\" y=\"102.12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><circle cx=\"178\" cy=\"60\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"80\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"258.8\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"360\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><text x=\"178\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">P</text><text x=\"80\" y=\"215\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Q</text><text x=\"258.8\" y=\"215\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">R</text><text x=\"360\" y=\"215\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">S</text><text x=\"18\" y=\"60\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\">ℓ</text><text x=\"18\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\">m</text></svg>", "alt": "Two parallel lines: ℓ at the top and m at the bottom. Triangle PQR has P on line ℓ and Q and R on line m, with S further along line m to the right of R. At P, the angle between line ℓ (to the left) and PQ is 55°. At R, the angle between RS and RP (outside the triangle) is 120°. Angle QPR inside the triangle is x." },
+    "modelAnswer": "Angle PQR = 55° (alternate angles, ℓ is parallel to m). Angle PRQ = 180° − 120° = 60° (angles on a straight line add to 180°). x = 180° − 55° − 60° = 65° (angles in a triangle add to 180°).",
+    "rubric": [
+      { "criterion": "Angle PQR = 55°, with the reason \"alternate angles, parallel lines\"", "marks": 1 },
+      { "criterion": "Angle PRQ = 60°, with the reason \"angles on a straight line add to 180°\"", "marks": 1 },
+      { "criterion": "x = 65°, with the reason \"angles in a triangle add to 180°\"", "marks": 1 }
+    ],
+    "hints": ["Look for a Z shape between line ℓ and line m.", "Use the 120° angle to find the angle inside the triangle at R."],
+    "solution": "Angle PQR $= 55°$ (alternate angles, ℓ ∥ m).\n\nAngle PRQ $= 180° - 120° = 60°$ (angles on a straight line).\n\n$x = 180° - 55° - 60° = 65°$ (angles in a triangle add to 180°)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q021",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The lines marked with arrows are parallel. Select **all** the angles that are equal to angle $a$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"80\" x2=\"390\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"125.72\" y1=\"260.62\" x2=\"265\" y2=\"19.38\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"71.5,84.9 78.5,80 71.5,75.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,204.9 78.5,200 71.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><text x=\"249.05\" y=\"69\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">a</text><text x=\"219\" y=\"60.95\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">b</text><text x=\"210.95\" y=\"91\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">c</text><text x=\"241\" y=\"99.05\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">d</text><text x=\"179.77\" y=\"189\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">e</text><text x=\"149.72\" y=\"180.95\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">f</text><text x=\"141.67\" y=\"211\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">g</text><text x=\"171.72\" y=\"219.05\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#2563eb\">h</text><circle cx=\"230\" cy=\"80\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"160.72\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/></svg>", "alt": "Two parallel lines cut by a transversal that slopes up to the right. At the top crossing, the four angles are a (above, right), b (above, left), c (below, left) and d (below, right). At the bottom crossing, the four angles are e (above, right), f (above, left), g (below, left) and h (below, right). Angle a is acute." },
+    "options": [
+      { "id": "b", "text": "$b$" },
+      { "id": "c", "text": "$c$" },
+      { "id": "d", "text": "$d$" },
+      { "id": "e", "text": "$e$" },
+      { "id": "f", "text": "$f$" },
+      { "id": "g", "text": "$g$" },
+      { "id": "h", "text": "$h$" }
+    ],
+    "correct": ["c", "e", "g"],
+    "shuffle": false,
+    "hints": ["Angle $a$ is acute. Which other angles in the diagram are acute?", "Use vertically opposite angles and corresponding angles."],
+    "solution": "$c = a$ (vertically opposite). $e = a$ (corresponding angles, parallel lines). $g = e$ (vertically opposite), so $g = a$ too.\n\nThe other angles ($b$, $d$, $f$ and $h$) are obtuse: each one adds to $a$ to make 180°."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q022",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Prove that line AB is parallel to line CD. Give a geometric reason for each step.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"80\" x2=\"390\" y2=\"80\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"155.29\" y1=\"264.9\" x2=\"256.22\" y2=\"15.1\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 254 80 A 24 24 0 0 0 238.99 57.75\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"265.37\" y=\"56.14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">68°</text><path d=\"M 191.26 175.89 A 26 26 0 0 0 155.52 200\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"156.03\" y=\"162.22\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">112°</text><circle cx=\"230\" cy=\"80\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"181.52\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><text x=\"221.61\" y=\"67.56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"189.9\" y=\"212.44\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">F</text><text x=\"18\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"402\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"18\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"402\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">D</text></svg>", "alt": "Lines AB (top) and CD (bottom), with no arrows, are cut by a transversal that crosses AB at E and CD at F. At E, the angle above AB on the right of the transversal is 68°. At F, the angle above CD on the left of the transversal is 112°." },
+    "modelAnswer": "At E, the angle below AB on the left of the transversal is 68° (vertically opposite angles are equal). This angle and the 112° angle at F are co-interior angles between AB and CD, and 68° + 112° = 180°. Because the co-interior angles add to 180°, AB is parallel to CD.",
+    "rubric": [
+      { "criterion": "Finds another angle correctly with a reason (e.g. the angle vertically opposite 68° is 68°, or 180° − 112° = 68° on a straight line)", "marks": 1 },
+      { "criterion": "Shows a co-interior pair adds to 180° (or a corresponding or alternate pair is equal) and concludes that AB ∥ CD, with the reason", "marks": 1 }
+    ],
+    "hints": ["The two given angles are not a standard pair. Find another angle first.", "If the lines were parallel, co-interior angles would add to 180° and corresponding angles would be equal."],
+    "solution": "The angle vertically opposite 68° at E is also 68° (vertically opposite angles). It is co-interior with the 112° angle at F, and $68° + 112° = 180°$. Co-interior angles add to 180°, so **AB ∥ CD**.\n\n(Another way: at F, the angle above CD on the right is $180° - 112° = 68°$ (angles on a straight line). It corresponds to the 68° angle at E, and corresponding angles are equal, so AB ∥ CD.)"
+  },
+  {
+    "id": "m9.geo.angles-parallel.q023",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Lines ℓ and m are parallel. P is on line ℓ, and Q and R are on line m. PQ = PR. Find angle QPR, marked $x$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 228\" width=\"420\" height=\"228\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"390\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"321.5,64.9 328.5,60 321.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"321.5,204.9 328.5,200 321.5,195.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"161\" y1=\"60\" x2=\"110\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"161\" y1=\"60\" x2=\"211.9\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"129.86\" y1=\"127.95\" x2=\"141.14\" y2=\"132.05\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"180.81\" y1=\"132.05\" x2=\"192.09\" y2=\"127.95\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M 131 60 A 30 30 0 0 0 150.73 88.19\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"121.15\" y=\"87.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">70°</text><path d=\"M 149.36 91.95 A 34 34 0 0 0 172.62 91.95\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"160.99\" y=\"106\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><circle cx=\"161\" cy=\"60\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"110\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"211.9\" cy=\"200\" r=\"3\" fill=\"#1f2937\"/><text x=\"161\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">P</text><text x=\"110\" y=\"215\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Q</text><text x=\"211.9\" y=\"215\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">R</text><text x=\"18\" y=\"60\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\">ℓ</text><text x=\"18\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\">m</text></svg>", "alt": "Two parallel lines: ℓ at the top and m at the bottom. Triangle PQR has P on ℓ and Q and R on m. Tick marks show PQ = PR. At P, the angle between line ℓ (to the left) and PQ is 70°. Angle QPR is x." },
+    "answer": 40,
+    "units": "°",
+    "hints": ["Find angle PQR first, using the parallel lines.", "Triangle PQR is isosceles, so its base angles are equal."],
+    "solution": "Angle PQR $= 70°$ (alternate angles, ℓ ∥ m).\n\nAngle PRQ $= 70°$ (base angles of an isosceles triangle are equal, PQ = PR).\n\n$x = 180° - 70° - 70° = 40°$ (angles in a triangle add to 180°)."
+  },
+  {
+    "id": "m9.geo.angles-parallel.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "The lines marked with arrows are parallel. Find angle ABC, marked $x$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 245\" width=\"420\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"30\" y1=\"220\" x2=\"390\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"71.5,64.9 78.5,60 71.5,55.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,224.9 78.5,220 71.5,215.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"237.5\" y1=\"60\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"176.8\" y1=\"220\" x2=\"300\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 213.5 60 A 24 24 0 0 0 252.28 78.91\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"219.02\" y=\"97.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">128°</text><path d=\"M 154.8 220 A 22 22 0 0 1 195.25 208.02\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"165.96\" y=\"183.41\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">147°</text><path d=\"M 283.99 119.51 A 26 26 0 0 0 278.19 154.16\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"264.47\" y=\"134.05\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><circle cx=\"237.5\" cy=\"60\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"300\" cy=\"140\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"176.8\" cy=\"220\" r=\"3\" fill=\"#1f2937\"/><text x=\"241.5\" y=\"47\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"314\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"180.8\" y=\"235\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "Two horizontal parallel lines with a point B between them, to the right. A is on the top line and C is on the bottom line. At A, the angle between the top line (to the left of A) and AB is 128°. At C, the angle between the bottom line (to the left of C) and CB is 147°. Angle ABC is x." },
+    "answer": 85,
+    "units": "°",
+    "hints": ["Draw a line through B, parallel to the other two lines. It splits $x$ into two parts.", "Use co-interior angles to find each part."],
+    "solution": "Draw a line through B parallel to the other two lines. It splits $x$ into a top part and a bottom part.\n\nTop part: $180° - 128° = 52°$ (co-interior angles, parallel lines).\n\nBottom part: $180° - 147° = 33°$ (co-interior angles, parallel lines).\n\n$x = 52° + 33° = 85°$."
   }
 ]

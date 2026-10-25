@@ -364,5 +364,574 @@
     ],
     "hints": ["Why might other scientists not have accepted the idea at first?", "What changed between 1912 and today?"],
     "solution": "Scientists test new ideas against the evidence. Wegener's idea was doubted because it lacked a mechanism. Later evidence from the sea floor supported moving plates, so the idea was accepted and developed. Science changes when the **evidence** changes."
+  },
+  {
+    "id": "s9.nos.investigating.q024",
+    "type": "cloze",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g1",
+    "part": "a",
+    "stem": "Sione investigates how the height a tennis ball is dropped from affects how high it bounces. He drops the ball onto the concrete outside the lab, measures each bounce with a metre ruler, and repeats each height three times. His mean results are:\n\n| Drop height (cm) | Mean bounce height (cm) |\n|---|---|\n| 50 | 28 |\n| 100 | 55 |\n| 150 | 83 |\n| 200 | 110 |",
+    "prompt": "In Sione's investigation, the independent variable is the [[a]]. The dependent variable is the [[b]]. A controlled variable is the [[c]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": ["drop height"],
+        "options": ["drop height", "bounce height", "type of ball"]
+      },
+      {
+        "id": "b",
+        "accepted": ["bounce height"],
+        "options": ["drop height", "bounce height", "type of ball"]
+      },
+      {
+        "id": "c",
+        "accepted": ["type of ball"],
+        "options": ["drop height", "bounce height", "type of ball"]
+      }
+    ],
+    "hints": [
+      "The independent variable is the one Sione chooses and changes on purpose. The dependent variable is the one he measures."
+    ],
+    "solution": "Sione **changes** the drop height (independent), **measures** the bounce height (dependent), and keeps the **same ball** and the same concrete surface (controlled), so the test is fair."
+  },
+  {
+    "id": "s9.nos.investigating.q025",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.nos.investigating.g1",
+    "part": "b",
+    "stem": "Sione investigates how the height a tennis ball is dropped from affects how high it bounces. He drops the ball onto the concrete outside the lab, measures each bounce with a metre ruler, and repeats each height three times. His mean results are:\n\n| Drop height (cm) | Mean bounce height (cm) |\n|---|---|\n| 50 | 28 |\n| 100 | 55 |\n| 150 | 83 |\n| 200 | 110 |",
+    "prompt": "Write a conclusion for Sione's investigation.",
+    "modelAnswer": "As the drop height increased, the bounce height also increased. For example, when the ball was dropped from 50 cm it bounced 28 cm, but from 200 cm it bounced 110 cm. The bounce height was always a little more than half of the drop height, so doubling the drop height roughly doubled the bounce height.",
+    "rubric": [
+      {
+        "criterion": "Describes the trend: as the drop height increases, the bounce height increases",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses data from the table as evidence, e.g. 50 cm → 28 cm and 200 cm → 110 cm",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the pattern more precisely, e.g. the bounce is always just over half the drop height, or doubling the drop height roughly doubles the bounce",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Start with the trend: what happens to one variable as the other increases?",
+      "Compare each bounce height with its drop height. Is there a simple link?"
+    ],
+    "solution": "A full conclusion gives the trend, quotes data, and describes the pattern. Here the bounce height is roughly proportional to the drop height: 28 ÷ 50, 55 ÷ 100, 83 ÷ 150 and 110 ÷ 200 are all about 0.55, so the ball always bounces to just over half the height it was dropped from."
+  },
+  {
+    "id": "s9.nos.investigating.q026",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g1",
+    "part": "c",
+    "stem": "Sione investigates how the height a tennis ball is dropped from affects how high it bounces. He drops the ball onto the concrete outside the lab, measures each bounce with a metre ruler, and repeats each height three times. His mean results are:\n\n| Drop height (cm) | Mean bounce height (cm) |\n|---|---|\n| 50 | 28 |\n| 100 | 55 |\n| 150 | 83 |\n| 200 | 110 |",
+    "prompt": "Sione found it hard to see exactly how high the ball went at the top of each bounce. Which change would make each bounce measurement more **accurate**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Film each bounce in front of the metre ruler and replay it in slow motion"
+      },
+      { "id": "b", "text": "Test more drop heights, such as 250 cm and 300 cm" },
+      { "id": "c", "text": "Use a heavier ball, so that it bounces more slowly" },
+      { "id": "d", "text": "Do only one drop at each height, so he can concentrate" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "More drop heights give more data points, but each bounce would still be just as hard to read.",
+      "c": "Changing the ball changes a controlled variable, so it becomes a different experiment. It doesn't fix the reading problem.",
+      "d": "Fewer trials make results less reliable, and they don't make each reading any clearer."
+    },
+    "hints": ["The problem is that the top of each bounce only lasts a split second."],
+    "solution": "The top of a bounce happens in a split second, so it is easy to misjudge. A **slow-motion video** in front of the ruler lets Sione pause at the highest point and read it carefully, so each measurement is more accurate."
+  },
+  {
+    "id": "s9.nos.investigating.q027",
+    "type": "multi",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g2",
+    "part": "a",
+    "stem": "Aroha investigates how the length of a pendulum affects the time it takes to swing. She ties a metal nut to a piece of string, pulls it to one side and lets it go. For each length, she times **10** complete swings.",
+    "prompt": "Which of these should Aroha keep the same, so that her test is fair? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "The mass of the nut on the end of the string" },
+      { "id": "b", "text": "How far she pulls the nut to the side before letting it go" },
+      { "id": "c", "text": "The type of string" },
+      { "id": "d", "text": "The number of swings she times" },
+      { "id": "e", "text": "The length of the string" },
+      { "id": "f", "text": "The time for 10 swings" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": [
+      "Anything that could affect the result, apart from the length, should be kept the same."
+    ],
+    "solution": "Controlled variables: the mass of the nut, how far it is pulled back, the type of string and the number of swings timed. The **length** is the independent variable (what she changes), and the **time for 10 swings** is the dependent variable (what she measures)."
+  },
+  {
+    "id": "s9.nos.investigating.q028",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g2",
+    "part": "b",
+    "stem": "Aroha investigates how the length of a pendulum affects the time it takes to swing. She ties a metal nut to a piece of string, pulls it to one side and lets it go. For each length, she times **10** complete swings.",
+    "prompt": "Aroha's results are shown on the graph, with a line of best fit. Use the line to estimate the time for 10 swings of a pendulum that is 50 cm long.",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='95.8' y1='18' x2='95.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='95.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='129.6' y1='18' x2='129.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='129.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='163.4' y1='18' x2='163.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='163.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>30</text><line x1='197.2' y1='18' x2='197.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='197.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>40</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>50</text><line x1='264.8' y1='18' x2='264.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='264.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>60</text><line x1='298.6' y1='18' x2='298.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='298.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>70</text><line x1='332.4' y1='18' x2='332.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='332.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>80</text><line x1='366.2' y1='18' x2='366.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='366.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>90</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>100</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='228.8' x2='400' y2='228.8' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='209.7' x2='400' y2='209.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='209.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='62' y1='190.5' x2='400' y2='190.5' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='171.3' x2='400' y2='171.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='171.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='62' y1='152.2' x2='400' y2='152.2' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='133' x2='400' y2='133' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='133' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>12</text><line x1='62' y1='113.8' x2='400' y2='113.8' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='94.7' x2='400' y2='94.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='94.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>16</text><line x1='62' y1='75.5' x2='400' y2='75.5' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='56.3' x2='400' y2='56.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='56.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='62' y1='37.2' x2='400' y2='37.2' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>24</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Length of pendulum (cm)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Time for 10 swings (s)</text><polyline points='62,248 68.8,220.8 75.5,209.5 82.3,200.9 89,193.6 95.8,187.2 102.6,181.4 109.3,176 116.1,171.1 122.8,166.4 129.6,162 136.4,157.8 143.1,153.8 149.9,149.9 156.6,146.2 163.4,142.7 170.2,139.2 176.9,135.8 183.7,132.6 190.4,129.4 197.2,126.4 204,123.4 210.7,120.4 217.5,117.6 224.2,114.7 231,112 237.8,109.3 244.5,106.7 251.3,104.1 258,101.5 264.8,99 271.6,96.6 278.3,94.1 285.1,91.7 291.8,89.4 298.6,87.1 305.4,84.8 312.1,82.5 318.9,80.3 325.6,78.1 332.4,76 339.2,73.8 345.9,71.7 352.7,69.6 359.4,67.6 366.2,65.5 373,63.5 379.7,61.5 386.5,59.5 393.2,57.6 400,55.7' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/><line x1='124.6' y1='156.8' x2='134.6' y2='166.8' stroke='#1f2937' stroke-width='2'/><line x1='124.6' y1='166.8' x2='134.6' y2='156.8' stroke='#1f2937' stroke-width='2'/><line x1='192.2' y1='121.3' x2='202.2' y2='131.3' stroke='#1f2937' stroke-width='2'/><line x1='192.2' y1='131.3' x2='202.2' y2='121.3' stroke='#1f2937' stroke-width='2'/><line x1='259.8' y1='94.5' x2='269.8' y2='104.5' stroke='#1f2937' stroke-width='2'/><line x1='259.8' y1='104.5' x2='269.8' y2='94.5' stroke='#1f2937' stroke-width='2'/><line x1='327.4' y1='71.5' x2='337.4' y2='81.5' stroke='#1f2937' stroke-width='2'/><line x1='327.4' y1='81.5' x2='337.4' y2='71.5' stroke='#1f2937' stroke-width='2'/><line x1='395' y1='50.4' x2='405' y2='60.4' stroke='#1f2937' stroke-width='2'/><line x1='395' y1='60.4' x2='405' y2='50.4' stroke='#1f2937' stroke-width='2'/></svg>",
+      "alt": "Graph of time for 10 swings (s), from 0 to 24 s, against length of pendulum (cm), from 0 to 100 cm. Results are plotted at 20 cm (9.0 s), 40 cm (12.7 s), 60 cm (15.5 s), 80 cm (17.9 s) and 100 cm (20.1 s). A smooth curve of best fit starts at the origin and passes through the points, getting less steep as the length increases."
+    },
+    "answer": 14,
+    "tolerance": 0.6,
+    "units": "s",
+    "hints": [
+      "Find 50 cm on the horizontal axis, go straight up to the line, then across to the time axis."
+    ],
+    "solution": "Going up from 50 cm to the curve and across gives about **14 s**. This makes sense: it lies between her results for 40 cm (12.7 s) and 60 cm (15.5 s)."
+  },
+  {
+    "id": "s9.nos.investigating.q029",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.nos.investigating.g2",
+    "part": "c",
+    "stem": "Aroha investigates how the length of a pendulum affects the time it takes to swing. She ties a metal nut to a piece of string, pulls it to one side and lets it go. For each length, she times **10** complete swings.",
+    "prompt": "Aroha's results are shown on the graph. Describe the relationship between the length of the pendulum and the time for 10 swings.",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='95.8' y1='18' x2='95.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='95.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='129.6' y1='18' x2='129.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='129.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='163.4' y1='18' x2='163.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='163.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>30</text><line x1='197.2' y1='18' x2='197.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='197.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>40</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>50</text><line x1='264.8' y1='18' x2='264.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='264.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>60</text><line x1='298.6' y1='18' x2='298.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='298.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>70</text><line x1='332.4' y1='18' x2='332.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='332.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>80</text><line x1='366.2' y1='18' x2='366.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='366.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>90</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>100</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='228.8' x2='400' y2='228.8' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='209.7' x2='400' y2='209.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='209.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='62' y1='190.5' x2='400' y2='190.5' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='171.3' x2='400' y2='171.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='171.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='62' y1='152.2' x2='400' y2='152.2' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='133' x2='400' y2='133' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='133' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>12</text><line x1='62' y1='113.8' x2='400' y2='113.8' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='94.7' x2='400' y2='94.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='94.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>16</text><line x1='62' y1='75.5' x2='400' y2='75.5' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='56.3' x2='400' y2='56.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='56.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='62' y1='37.2' x2='400' y2='37.2' stroke='#e5e7eb' stroke-width='1'/><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>24</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Length of pendulum (cm)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Time for 10 swings (s)</text><polyline points='62,248 68.8,220.8 75.5,209.5 82.3,200.9 89,193.6 95.8,187.2 102.6,181.4 109.3,176 116.1,171.1 122.8,166.4 129.6,162 136.4,157.8 143.1,153.8 149.9,149.9 156.6,146.2 163.4,142.7 170.2,139.2 176.9,135.8 183.7,132.6 190.4,129.4 197.2,126.4 204,123.4 210.7,120.4 217.5,117.6 224.2,114.7 231,112 237.8,109.3 244.5,106.7 251.3,104.1 258,101.5 264.8,99 271.6,96.6 278.3,94.1 285.1,91.7 291.8,89.4 298.6,87.1 305.4,84.8 312.1,82.5 318.9,80.3 325.6,78.1 332.4,76 339.2,73.8 345.9,71.7 352.7,69.6 359.4,67.6 366.2,65.5 373,63.5 379.7,61.5 386.5,59.5 393.2,57.6 400,55.7' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/><line x1='124.6' y1='156.8' x2='134.6' y2='166.8' stroke='#1f2937' stroke-width='2'/><line x1='124.6' y1='166.8' x2='134.6' y2='156.8' stroke='#1f2937' stroke-width='2'/><line x1='192.2' y1='121.3' x2='202.2' y2='131.3' stroke='#1f2937' stroke-width='2'/><line x1='192.2' y1='131.3' x2='202.2' y2='121.3' stroke='#1f2937' stroke-width='2'/><line x1='259.8' y1='94.5' x2='269.8' y2='104.5' stroke='#1f2937' stroke-width='2'/><line x1='259.8' y1='104.5' x2='269.8' y2='94.5' stroke='#1f2937' stroke-width='2'/><line x1='327.4' y1='71.5' x2='337.4' y2='81.5' stroke='#1f2937' stroke-width='2'/><line x1='327.4' y1='81.5' x2='337.4' y2='71.5' stroke='#1f2937' stroke-width='2'/><line x1='395' y1='50.4' x2='405' y2='60.4' stroke='#1f2937' stroke-width='2'/><line x1='395' y1='60.4' x2='405' y2='50.4' stroke='#1f2937' stroke-width='2'/></svg>",
+      "alt": "Graph of time for 10 swings (s), from 0 to 24 s, against length of pendulum (cm), from 0 to 100 cm. Results are plotted at 20 cm (9.0 s), 40 cm (12.7 s), 60 cm (15.5 s), 80 cm (17.9 s) and 100 cm (20.1 s). A smooth curve of best fit starts at the origin and passes through the points, getting less steep as the length increases."
+    },
+    "modelAnswer": "As the length of the pendulum increases, the time for 10 swings increases. But the line of best fit is a curve that gets less steep: each extra 20 cm adds less time than the one before (from 20 cm to 40 cm the time goes up by about 3.7 s, but from 80 cm to 100 cm it only goes up by about 2.2 s). So the time is not directly proportional to the length. For example, doubling the length from 50 cm to 100 cm does not double the time (about 14 s to about 20 s).",
+    "rubric": [
+      {
+        "criterion": "States the trend: as the length increases, the time for 10 swings increases",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the curve: the increase gets smaller / the graph gets less steep / time is not directly proportional to length (ideally with data)",
+        "marks": 1
+      }
+    ],
+    "hints": ["Is the line of best fit straight, or does it curve? What does that tell you?"],
+    "solution": "Longer pendulums take longer to swing, but the curve flattens out, so each extra centimetre of length adds a little less time. A straight line through the origin would have meant the time was directly proportional to the length, and this graph isn't."
+  },
+  {
+    "id": "s9.nos.investigating.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g3",
+    "part": "a",
+    "stem": "Ella tests four brands of paper towel to find out which one absorbs the most water. She cuts a 10 cm × 10 cm square of each towel, dips it in water for 10 seconds, lets it drip for 5 seconds, then squeezes the water out into a measuring cylinder. She does three trials for each brand.\n\n| Brand | Trial 1 (mL) | Trial 2 (mL) | Trial 3 (mL) |\n|---|---|---|---|\n| A | 8 | 9 | 7 |\n| B | 15 | 16 | 15 |\n| C | 6 | 13 | 7 |\n| D | 10 | 10 | 11 |",
+    "prompt": "Which result is most likely an **outlier**?",
+    "options": [
+      { "id": "a", "text": "Brand C, trial 2 (13 mL)" },
+      { "id": "b", "text": "Brand B, trial 2 (16 mL)" },
+      { "id": "c", "text": "Brand C, trial 1 (6 mL)" },
+      { "id": "d", "text": "Brand D, trial 3 (11 mL)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "16 mL is the biggest number in the table, but it fits well with Brand B's other results (15 and 15). An outlier doesn't fit the pattern of its **own** trials.",
+      "c": "6 mL is the smallest number in the table, but it is close to Brand C's other normal result (7 mL).",
+      "d": "11 mL is only 1 mL away from 10 mL. Small differences between trials are normal."
+    },
+    "hints": ["Compare each result with the other two trials for the same brand."],
+    "solution": "Brand C's results are 6, 13 and 7 mL. The 13 mL result is about twice the others, so it doesn't fit the pattern: it is an **outlier**, probably caused by a mistake. It should be checked or repeated, and left out of the mean."
+  },
+  {
+    "id": "s9.nos.investigating.q031",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g3",
+    "part": "b",
+    "stem": "Ella tests four brands of paper towel to find out which one absorbs the most water. She cuts a 10 cm × 10 cm square of each towel, dips it in water for 10 seconds, lets it drip for 5 seconds, then squeezes the water out into a measuring cylinder. She does three trials for each brand.\n\n| Brand | Trial 1 (mL) | Trial 2 (mL) | Trial 3 (mL) |\n|---|---|---|---|\n| A | 8 | 9 | 7 |\n| B | 15 | 16 | 15 |\n| C | 6 | 13 | 7 |\n| D | 10 | 10 | 11 |",
+    "prompt": "Why did Ella cut every paper towel into a square of the same size?",
+    "options": [
+      { "id": "a", "text": "So the size of the towel is controlled, making it a fair test" },
+      { "id": "b", "text": "So that the squares fit inside the measuring cylinder" },
+      { "id": "c", "text": "So she could measure the size as the dependent variable" },
+      { "id": "d", "text": "Because the size of the towel is her independent variable" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The towels are squeezed out over the cylinder; they don't have to fit inside it. The real reason is fairness.",
+      "c": "The size isn't measured as a result. It is kept the same so it can't affect the result.",
+      "d": "Her independent variable is the **brand** of paper towel. The size is kept the same."
+    },
+    "hints": ["A bigger piece of towel could soak up more water, whatever the brand is."],
+    "solution": "A bigger piece would absorb more water whatever its brand. Keeping the size the same (a **controlled variable**) means only the brand changes, so it is a fair test."
+  },
+  {
+    "id": "s9.nos.investigating.q032",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.nos.investigating.g3",
+    "part": "c",
+    "stem": "Ella tests four brands of paper towel to find out which one absorbs the most water. She cuts a 10 cm × 10 cm square of each towel, dips it in water for 10 seconds, lets it drip for 5 seconds, then squeezes the water out into a measuring cylinder. She does three trials for each brand.\n\n| Brand | Trial 1 (mL) | Trial 2 (mL) | Trial 3 (mL) |\n|---|---|---|---|\n| A | 8 | 9 | 7 |\n| B | 15 | 16 | 15 |\n| C | 6 | 13 | 7 |\n| D | 10 | 10 | 11 |",
+    "prompt": "Calculate the mean volume of water absorbed by Brand C, leaving out the outlier.",
+    "answer": 6.5,
+    "units": "mL",
+    "hints": [
+      "Find the result that does not fit the pattern for Brand C and leave it out.",
+      "Add the other two results and divide by 2."
+    ],
+    "solution": "Leave out the outlier (13 mL). Mean $= \\dfrac{6 + 7}{2} = \\dfrac{13}{2} =$ **6.5 mL**. (Including the outlier would give $26 \\div 3 \\approx 8.7$ mL, which makes Brand C look better than it really is.)"
+  },
+  {
+    "id": "s9.nos.investigating.q033",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "When you draw a line graph of your results, which axis should the **independent** variable go on?",
+    "options": [
+      { "id": "a", "text": "The horizontal axis (x-axis)" },
+      { "id": "b", "text": "The vertical axis (y-axis)" },
+      { "id": "c", "text": "Whichever axis has the bigger numbers" },
+      { "id": "d", "text": "It doesn't need to go on an axis" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The vertical (y) axis is for the dependent variable, the one you measure.",
+      "c": "The size of the numbers doesn't matter. The independent variable always goes on the x-axis.",
+      "d": "Both variables need an axis, so you can plot the points."
+    },
+    "hints": ["The variable you change goes 'across'."],
+    "solution": "The **independent variable** (what you change) goes along the **x-axis**, and the dependent variable (what you measure) goes up the y-axis."
+  },
+  {
+    "id": "s9.nos.investigating.q034",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What do we call the average you get by adding up a set of results and dividing by how many results there are?",
+    "accepted": ["mean", "the mean", "average", "mean average", "arithmetic mean", "means"],
+    "hints": ["It is the kind of average used in most science results tables."],
+    "solution": "This is the **mean**. For example, the mean of 4, 5 and 6 is $(4 + 5 + 6) \\div 3 = 5$."
+  },
+  {
+    "id": "s9.nos.investigating.q035",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "In a results table, where should the units go?",
+    "options": [
+      { "id": "a", "text": "In the column headings, e.g. Time (s)" },
+      { "id": "b", "text": "After every number in the table" },
+      { "id": "c", "text": "In a sentence underneath the table" },
+      { "id": "d", "text": "Units aren't needed in a table" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Writing units after every number clutters the table. Put them once, in the heading.",
+      "c": "Units belong with the column they describe, in the heading.",
+      "d": "Without units, nobody knows whether '20' means 20 seconds or 20 minutes."
+    },
+    "hints": ["Units only need to be written once for each column."],
+    "solution": "Units go in the **column headings**, like 'Time (s)' or 'Temperature (°C)'. Then the numbers in the table don't need units after them."
+  },
+  {
+    "id": "s9.nos.investigating.q036",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      {
+        "left": { "id": "t1", "text": "Reliable" },
+        "right": { "id": "tr1", "text": "Similar results are obtained when the test is repeated" }
+      },
+      {
+        "left": { "id": "t2", "text": "Accurate" },
+        "right": { "id": "tr2", "text": "Close to the true value" }
+      },
+      {
+        "left": { "id": "t3", "text": "Outlier" },
+        "right": { "id": "tr3", "text": "A result that doesn't fit the pattern" }
+      },
+      {
+        "left": { "id": "t4", "text": "Source of error" },
+        "right": {
+          "id": "tr4",
+          "text": "Something that makes results less accurate, e.g. reaction time"
+        }
+      },
+      {
+        "left": { "id": "t5", "text": "Conclusion" },
+        "right": { "id": "tr5", "text": "A statement that answers the question using the evidence" }
+      }
+    ],
+    "hints": ["'Reliable' is about repeating a test; 'accurate' is about the true value."],
+    "solution": "Reliable → repeats agree. Accurate → close to the true value. Outlier → doesn't fit the pattern. Source of error → something that makes results less accurate. Conclusion → answers the question using the evidence."
+  },
+  {
+    "id": "s9.nos.investigating.q037",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Kiri investigates how the temperature of water affects the time it takes for jelly crystals to dissolve. She tests 20 °C, 40 °C, 60 °C and 80 °C. What type of graph should she draw?",
+    "options": [
+      { "id": "a", "text": "A line graph, because both variables are numbers" },
+      { "id": "b", "text": "A bar graph, because she only tested four temperatures" },
+      { "id": "c", "text": "A pie graph, because the times add up to a total" },
+      { "id": "d", "text": "A bar graph, because time is the dependent variable" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The number of tests doesn't decide the graph type. Temperature is a number that can take any value, so a line graph shows the trend between the points.",
+      "c": "Pie graphs show the parts of a whole. These times don't make up a whole.",
+      "d": "Bar graphs are used when the **independent** variable is in categories (like brands), not numbers."
+    },
+    "hints": ["Is the independent variable a category (like a brand) or a number?"],
+    "solution": "Both variables are numbers that can take any value, so Kiri should draw a **line graph** with a line of best fit. Use a bar graph when the independent variable is a category, such as brand or material."
+  },
+  {
+    "id": "s9.nos.investigating.q038",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "At the school athletics day, three timekeepers time the winner of the 100 m sprint. Their times are 14.2 s, 14.5 s and 14.3 s. What is the mean time? Give your answer to 1 decimal place.",
+    "answer": 14.3,
+    "decimals": 1,
+    "units": "s",
+    "hints": [
+      "Add the three times together.",
+      "Divide the total by 3, then round to 1 decimal place."
+    ],
+    "solution": "$14.2 + 14.5 + 14.3 = 43.0$ s, and $43.0 \\div 3 = 14.33...$, which is **14.3 s** to 1 decimal place. Using three timekeepers and taking the mean makes the result more reliable than trusting one stopwatch."
+  },
+  {
+    "id": "s9.nos.investigating.q039",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do scientists publish their methods and results, for example in science journals?",
+    "options": [
+      {
+        "id": "a",
+        "text": "So other scientists can check the work and try to repeat the experiments"
+      },
+      { "id": "b", "text": "So that an idea becomes true once it has been printed" },
+      { "id": "c", "text": "So that no other scientist is allowed to study the same topic" },
+      { "id": "d", "text": "So that scientists can vote on which idea they like best" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Publishing doesn't make an idea true. Ideas are accepted when lots of evidence supports them.",
+      "c": "Publishing invites other scientists to study and test the same topic.",
+      "d": "Science ideas are judged on evidence, not on a vote or on popularity."
+    },
+    "hints": ["How can anyone else be sure that an experiment's results are right?"],
+    "solution": "Sharing methods and results lets other scientists **check and repeat** the work. If they get the same results, the evidence gets stronger. If they don't, the idea may need to change."
+  },
+  {
+    "id": "s9.nos.investigating.q040",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Mateo wants to investigate this question: *How does the steepness of a ramp affect the time it takes a marble to roll down it?*\n\nWrite a hypothesis for his investigation.",
+    "modelAnswer": "If the ramp is steeper, then the marble will take less time to roll down it, because gravity pulls it down a steeper slope more strongly, so it speeds up more quickly.",
+    "rubric": [
+      {
+        "criterion": "Makes a testable prediction linking the two variables (e.g. if the ramp is steeper, then the time will be shorter)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a scientific reason (e.g. because gravity pulls it down a steeper slope more strongly, so it speeds up more)",
+        "marks": 1
+      }
+    ],
+    "hints": ["Use the pattern: If… then… because…"],
+    "solution": "A hypothesis is a **testable prediction with a reason**. It says how the dependent variable (time) will change when the independent variable (steepness) changes, and why. It doesn't matter if the results later show that it was wrong."
+  },
+  {
+    "id": "s9.nos.investigating.q041",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "A good line graph has the [[a]] variable on the x-axis, axis labels that include the [[b]], and a smooth line of [[c]] instead of lines that join one dot to the next.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": ["independent"],
+        "options": ["independent", "dependent", "controlled"]
+      },
+      { "id": "b", "accepted": ["units"], "options": ["units", "outliers", "hypothesis"] },
+      { "id": "c", "accepted": ["best fit"], "options": ["best fit", "symmetry", "reflection"] }
+    ],
+    "hints": [
+      "The variable you change goes along the bottom.",
+      "How would a reader know whether the numbers are in seconds or minutes?"
+    ],
+    "solution": "**Independent** variable on the x-axis; axis labels with **units**, e.g. 'Time (s)'; and a smooth line of **best fit** that shows the trend without being thrown off by small errors."
+  },
+  {
+    "id": "s9.nos.investigating.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Mia and Tom each drop the same paper helicopter three times from 2 m. Mia's times are 2.1 s, 2.3 s and 2.2 s. Tom's times are 1.5 s, 2.9 s and 2.2 s. Whose results are more **reliable**?",
+    "options": [
+      { "id": "a", "text": "Mia's, because her three times are close together" },
+      { "id": "b", "text": "Tom's, because his results cover a wider range" },
+      { "id": "c", "text": "They are equally reliable, because both means are 2.2 s" },
+      { "id": "d", "text": "Tom's, because one of his times is exactly the mean" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A wide spread means the results don't agree with each other, which makes them less reliable.",
+      "c": "The means are the same, but Tom's individual results are much more spread out, so they are less consistent.",
+      "d": "One result matching the mean doesn't make a set of results reliable. Look at how much the times vary."
+    },
+    "hints": [
+      "Reliable results are consistent: they agree with each other when the test is repeated."
+    ],
+    "solution": "Mia's results only vary by 0.2 s, while Tom's vary by 1.4 s. Mia's results are consistent when repeated, so they are **more reliable**, even though both means are 2.2 s."
+  },
+  {
+    "id": "s9.nos.investigating.q043",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Ari wants to find the thickness of one page of his science book. Why is it better to measure the thickness of 100 pages with a ruler and divide by 100?",
+    "options": [
+      {
+        "id": "a",
+        "text": "One page is too thin to measure with a ruler, but 100 pages can be measured accurately"
+      },
+      {
+        "id": "b",
+        "text": "Every page is a different thickness, so he needs to find the thickest page"
+      },
+      { "id": "c", "text": "It is quicker to measure 100 pages than to measure one page" },
+      { "id": "d", "text": "A ruler can't measure anything thinner than 1 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by 100 gives the average thickness of a page, not the thickest one.",
+      "c": "Speed isn't the point; accuracy is. The smallest marks on a ruler (1 mm) are much bigger than the thickness of one page.",
+      "d": "A ruler has 1 mm marks, but one page is only about 0.1 mm thick, so it still can't be measured accurately on its own."
+    },
+    "hints": ["The smallest marks on a ruler are 1 mm apart. How thick is one page?"],
+    "solution": "A page is about 0.1 mm thick, much smaller than the 1 mm marks on a ruler. A stack of 100 pages is about 10 mm thick, which a ruler can measure well, and any reading error is shared out over 100 pages. Timing 10 swings of a pendulum instead of one uses the same idea."
+  },
+  {
+    "id": "s9.nos.investigating.q044",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 4,
+    "prompt": "Plan a fair test to find out whether the type of surface (carpet, wood or concrete) affects how far a toy car rolls after it leaves a ramp. In your plan, name the independent, dependent and controlled variables, and say how you will make your results reliable.",
+    "modelAnswer": "Independent variable: the type of surface the car rolls onto (carpet, wood, concrete).\nDependent variable: the distance the car rolls from the bottom of the ramp, measured with a tape measure.\nControlled variables: the same toy car, the same ramp at the same height, and releasing the car from the same starting line without pushing it.\nReliability: do three runs on each surface, check for outliers and calculate the mean distance for each surface.",
+    "rubric": [
+      { "criterion": "Independent variable: the type of surface", "marks": 1 },
+      {
+        "criterion": "Dependent variable: the distance rolled, with how it is measured (e.g. tape measure)",
+        "marks": 1
+      },
+      {
+        "criterion": "At least two sensible controlled variables (e.g. same car, same ramp height, same release point, no push)",
+        "marks": 1
+      },
+      { "criterion": "Repeats each surface (e.g. 3 times) and calculates a mean", "marks": 1 }
+    ],
+    "hints": [
+      "Start with what you change, what you measure, and what you keep the same.",
+      "How many times will you test each surface?"
+    ],
+    "solution": "A fair test changes only the surface, measures the distance rolled, keeps everything else the same, and repeats each test so a mean can be calculated."
+  },
+  {
+    "id": "s9.nos.investigating.q045",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Pita measures the temperature of a cup of hot water every minute for 10 minutes, using a thermometer and a stopwatch. Identify **one** source of error in his method, and suggest how he could reduce it.",
+    "modelAnswer": "One source of error is reading the thermometer from above or below instead of at eye level, which gives a wrong reading. He could make sure his eye is level with the top of the liquid in the thermometer, or use a digital temperature probe (data logger), which records the temperature automatically every minute.",
+    "rubric": [
+      {
+        "criterion": "A valid source of error, e.g. reading the thermometer at an angle, not reading exactly on each minute, the thermometer touching the cup, draughts or changes in room temperature",
+        "marks": 1
+      },
+      {
+        "criterion": "A matching improvement that would reduce that error, e.g. read at eye level, use a data logger or temperature probe, keep the bulb in the middle of the water, do it away from windows",
+        "marks": 1
+      }
+    ],
+    "hints": ["Think about how Pita reads the thermometer, and how he times each reading."],
+    "solution": "Any sensible source of error is fine, as long as the improvement matches it and would actually reduce that error."
+  },
+  {
+    "id": "s9.nos.investigating.q046",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Ruby's results support her hypothesis. Her friend says, \"So you've proved that your hypothesis is true.\" Which reply is the most scientific?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The results support it, but more tests might show otherwise, so it isn't proved"
+      },
+      { "id": "b", "text": "Yes, one investigation that agrees with a hypothesis proves it" },
+      { "id": "c", "text": "No, a hypothesis can only be proved by a famous scientist" },
+      { "id": "d", "text": "Yes, because she got the result she expected" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "One set of results is evidence, not proof. Other tests, or other conditions, could give different results.",
+      "c": "Science doesn't depend on who you are. Ideas are judged on evidence that anyone can check.",
+      "d": "Getting the result you expected supports a hypothesis, but scientists stay open to new evidence."
+    },
+    "hints": ["Could a future investigation ever find something different?"],
+    "solution": "In science, evidence can **support** an idea, but never prove it for certain. Other scientists might repeat the test, or test new conditions, and find something different. That is why science ideas can change over time."
+  },
+  {
+    "id": "s9.nos.investigating.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Hōhepa tests how much fertiliser makes pea plants grow tallest. He tests 0 g, 2 g, 4 g and 6 g, and the plants are taller each time. Why can't he be sure that 20 g would grow even taller plants?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20 g is far outside the range he tested, and the pattern might change there"
+      },
+      { "id": "b", "text": "He can be sure, because a pattern always continues in the same way" },
+      { "id": "c", "text": "He would need to draw a bar graph before he could predict anything" },
+      { "id": "d", "text": "Because fertiliser stops working at exactly 6 g" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Patterns don't always continue. He only has evidence inside the range he tested.",
+      "c": "The type of graph doesn't change what the evidence shows (and this data needs a line graph anyway).",
+      "d": "He has no evidence about what happens above 6 g. The pattern could change at any point."
+    },
+    "hints": ["What evidence does he have about amounts bigger than 6 g?"],
+    "solution": "Results only give good evidence **within the range tested**. Predicting far beyond it is risky, because the pattern may change. In real life, too much fertiliser can damage plant roots. Hōhepa would need to test bigger amounts to find out."
+  },
+  {
+    "id": "s9.nos.investigating.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Scientists want to find out whether a new treatment protects kauri trees from kauri dieback disease. Describe how they could design a fair and reliable test, and explain why each feature is needed.",
+    "modelAnswer": "They should treat one group of kauri trees and leave a similar group untreated as a comparison (a control group). Then any difference in health between the two groups can be linked to the treatment, not to something else. They should use lots of trees in each group, because individual trees vary and some might stay healthy (or get sick) by chance; a large sample gives more reliable results. They should also keep other variables the same, for example by choosing trees of a similar size and age, in the same area with the same soil, and checking them in the same way over the same length of time.",
+    "rubric": [
+      {
+        "criterion": "Includes an untreated (control) group to compare with, so any difference can be linked to the treatment",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses many trees in each group, because trees vary and a large sample reduces the effect of chance (more reliable)",
+        "marks": 1
+      },
+      {
+        "criterion": "Keeps other variables the same, e.g. similar size or age of trees, same area or soil, same time period",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How would the scientists know whether a healthy tree was healthy because of the treatment?",
+      "Would testing just one or two trees be enough?"
+    ],
+    "solution": "A strong design has a control group for comparison, a large number of trees for reliability, and controlled variables so that the treatment is the only difference between the groups."
   }
 ]

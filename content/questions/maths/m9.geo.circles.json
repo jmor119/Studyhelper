@@ -141,5 +141,255 @@
     },
     "hints": ["X is on both circles. How far is X from P? How far is X from Q?", "Each of PX, XQ, QY and YP is a radius of one of the circles."],
     "solution": "X and Y lie on both circles, so PX = PY = 5 cm (radii of the first circle) and QX = QY = 5 cm (radii of the second). All four sides are 5 cm, so PXQY is a **rhombus**. It is not a square: if it were, the diagonal PQ would be $\\sqrt{5^2 + 5^2} = \\sqrt{50} \\approx 7.1$ cm, but PQ is 8 cm."
+  },
+  {
+    "id": "m9.geo.circles.q010",
+    "type": "mcq",
+    "difficulty": 1,
+    "marks": 1,
+    "groupId": "m9.geo.circles.g1",
+    "part": "a",
+    "stem": "A clock face is a circle with centre O and radius 15 cm. The numbers 12, 3, 6 and 9 are on the circle, each a quarter of a turn from the next. The minute hand reaches from O to the circle.",
+    "prompt": "The minute hand goes from the centre O to a point on the circle. What is the name for a line like this?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 262\" width=\"320\" height=\"262\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"160\" cy=\"130\" r=\"100\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"160\" y1=\"130\" x2=\"160\" y2=\"30\" stroke=\"#1f2937\" stroke-width=\"4\"/><line x1=\"160\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"160\" y1=\"30\" x2=\"260\" y2=\"130\" stroke=\"#2563eb\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><circle cx=\"160\" cy=\"30\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"260\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"230\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"60\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><text x=\"146\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">O</text><text x=\"160\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12</text><text x=\"274\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3</text><text x=\"160\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">6</text><text x=\"46\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">9</text></svg>", "alt": "A clock face drawn as a circle with centre O. The 12, 3, 6 and 9 are marked on the circle. A thick line goes from O to the 12 (the minute hand), a line goes from O to the 3, and a dashed line joins the 12 to the 3." },
+    "options": [
+      { "id": "a", "text": "A radius" },
+      { "id": "b", "text": "A diameter" },
+      { "id": "c", "text": "A chord" },
+      { "id": "d", "text": "An arc" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A diameter goes all the way across the circle through the centre. The minute hand stops at the centre.",
+      "c": "A chord has **both** ends on the circle. The minute hand has one end at the centre.",
+      "d": "An arc is part of the curved edge of the circle, not a straight line."
+    },
+    "hints": ["Where are the two ends of the minute hand?"],
+    "solution": "A straight line from the centre to the circle is a **radius**. So the minute hand is 15 cm long, the same as the radius."
+  },
+  {
+    "id": "m9.geo.circles.q011",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.circles.g1",
+    "part": "b",
+    "stem": "A clock face is a circle with centre O and radius 15 cm. The numbers 12, 3, 6 and 9 are on the circle, each a quarter of a turn from the next. The minute hand reaches from O to the circle.",
+    "prompt": "How long is the straight line from the 12 to the 6?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 262\" width=\"320\" height=\"262\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"160\" cy=\"130\" r=\"100\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"160\" y1=\"130\" x2=\"160\" y2=\"30\" stroke=\"#1f2937\" stroke-width=\"4\"/><line x1=\"160\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"160\" y1=\"30\" x2=\"260\" y2=\"130\" stroke=\"#2563eb\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><circle cx=\"160\" cy=\"30\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"260\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"230\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"60\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><text x=\"146\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">O</text><text x=\"160\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12</text><text x=\"274\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3</text><text x=\"160\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">6</text><text x=\"46\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">9</text></svg>", "alt": "A clock face drawn as a circle with centre O. The 12, 3, 6 and 9 are marked on the circle. A thick line goes from O to the 12 (the minute hand), a line goes from O to the 3, and a dashed line joins the 12 to the 3." },
+    "answer": 30,
+    "units": "cm",
+    "hints": ["The 12 and the 6 are opposite each other, so the line between them passes through O.", "What is the name of a chord through the centre?"],
+    "solution": "The line from the 12 to the 6 passes through the centre O, so it is a **diameter**: $d = 2r = 2 \\times 15 = 30$ cm."
+  },
+  {
+    "id": "m9.geo.circles.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.geo.circles.g1",
+    "part": "c",
+    "stem": "A clock face is a circle with centre O and radius 15 cm. The numbers 12, 3, 6 and 9 are on the circle, each a quarter of a turn from the next. The minute hand reaches from O to the circle.",
+    "prompt": "Which of these best describes the triangle with corners at O, the 12 and the 3?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 262\" width=\"320\" height=\"262\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"160\" cy=\"130\" r=\"100\" fill=\"#f8fafc\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"160\" y1=\"130\" x2=\"160\" y2=\"30\" stroke=\"#1f2937\" stroke-width=\"4\"/><line x1=\"160\" y1=\"130\" x2=\"260\" y2=\"130\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"160\" y1=\"30\" x2=\"260\" y2=\"130\" stroke=\"#2563eb\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><circle cx=\"160\" cy=\"30\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"260\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"230\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"60\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"130\" r=\"4\" fill=\"#1f2937\"/><text x=\"146\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">O</text><text x=\"160\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12</text><text x=\"274\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3</text><text x=\"160\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">6</text><text x=\"46\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">9</text></svg>", "alt": "A clock face drawn as a circle with centre O. The 12, 3, 6 and 9 are marked on the circle. A thick line goes from O to the 12 (the minute hand), a line goes from O to the 3, and a dashed line joins the 12 to the 3." },
+    "options": [
+      { "id": "a", "text": "Right-angled and isosceles" },
+      { "id": "b", "text": "Equilateral" },
+      { "id": "c", "text": "Right-angled but not isosceles" },
+      { "id": "d", "text": "Isosceles but not right-angled" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The sides from O are both 15 cm, but the side from the 12 to the 3 is opposite a right angle, so it is longer.",
+      "c": "The lines from O to the 12 and from O to the 3 are both radii, so they are equal. That makes the triangle isosceles.",
+      "d": "From the 12 to the 3 is a quarter of a full turn, so the angle at O is $360° \\div 4 = 90°$."
+    },
+    "hints": ["What kind of lines go from O to the 12 and from O to the 3?", "What fraction of a full turn is it from the 12 to the 3?"],
+    "solution": "The lines from O to the 12 and from O to the 3 are both radii (15 cm), so the triangle is **isosceles**. From the 12 to the 3 is a quarter of a full turn, so the angle at O is $360° \\div 4 = 90°$, which makes it **right-angled** too."
+  },
+  {
+    "id": "m9.geo.circles.q013",
+    "type": "cloze",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "m9.geo.circles.g2",
+    "part": "a",
+    "stem": "Koru the goat is tied to a peg P in a flat paddock with a rope 4 m long. Koru can move anywhere the rope can reach.",
+    "prompt": "The rope acts like the [[a]] of a circle, with the peg at the [[b]]. If Koru walks all the way round with the rope pulled tight, Koru's path is the [[c]] of the circle.",
+    "blanks": [
+      { "id": "a", "accepted": ["radius"], "options": ["diameter", "chord", "radius", "arc"] },
+      { "id": "b", "accepted": ["centre"], "options": ["arc", "centre", "circumference", "diameter"] },
+      { "id": "c", "accepted": ["circumference"], "options": ["radius", "centre", "diameter", "circumference"] }
+    ],
+    "hints": ["A circle is all the points that are the same distance from one fixed point."],
+    "solution": "With the rope tight, Koru is always 4 m from the peg. So the rope is like the **radius**, the peg is the **centre**, and the path Koru walks is the **circumference** of a circle with radius 4 m."
+  },
+  {
+    "id": "m9.geo.circles.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.geo.circles.g2",
+    "part": "b",
+    "stem": "Koru the goat is tied to a peg P in a flat paddock with a rope 4 m long. Koru can move anywhere the rope can reach.",
+    "prompt": "What is the greatest possible distance between two points that Koru can reach?",
+    "answer": 8,
+    "units": "m",
+    "hints": ["Koru can reach any point up to 4 m from P, in any direction.", "The longest straight line across a circle passes through its centre."],
+    "solution": "Koru can reach any point inside a circle with centre P and radius 4 m. The greatest distance across a circle is its diameter: $2 \\times 4 = 8$ m (for example, from 4 m north of P to 4 m south of P)."
+  },
+  {
+    "id": "m9.geo.circles.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.geo.circles.g2",
+    "part": "c",
+    "stem": "Koru the goat is tied to a peg P in a flat paddock with a rope 4 m long. Koru can move anywhere the rope can reach.",
+    "prompt": "A second goat, Mako, is tied to another peg Q, 6 m from P, with a rope 3 m long. Can Koru and Mako ever reach the same spot? Explain your answer.",
+    "modelAnswer": "Yes. Koru can reach any point up to 4 m from P, and Mako can reach any point up to 3 m from Q. The two ropes together reach 4 + 3 = 7 m, which is more than the 6 m between the pegs, so the two circles overlap. For example, the point on the line PQ that is 3.5 m from P is 2.5 m from Q, so both goats can reach it.",
+    "rubric": [
+      { "criterion": "Compares the total reach of the ropes, 4 + 3 = 7 m, with the 6 m between the pegs", "marks": 1 },
+      { "criterion": "Concludes yes, because 7 m is more than 6 m, so the two circles overlap", "marks": 1 }
+    ],
+    "hints": ["Each goat can reach a circle of points around its own peg. What are the two radii?", "Compare the two rope lengths added together with the distance between the pegs."],
+    "solution": "Koru's circle has radius 4 m around P, and Mako's has radius 3 m around Q. Since $4 + 3 = 7$ m is more than the 6 m between the pegs, the circles **overlap**, so yes, both goats can reach some of the same spots. (For example, a point on PQ 3.5 m from P is 2.5 m from Q.)"
+  },
+  {
+    "id": "m9.geo.circles.q016",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for part of the circumference of a circle?",
+    "accepted": ["arc", "an arc", "arcs"],
+    "hints": ["A rainbow is shaped like one."],
+    "solution": "Part of the circumference (the curved edge) of a circle is called an **arc**."
+  },
+  {
+    "id": "m9.geo.circles.q017",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Sam says: \"This circle has a radius of 5 cm, so its longest chord is 5 cm long.\" What is wrong with what Sam says?",
+    "options": [
+      { "id": "a", "text": "The longest chord is the diameter, which is 10 cm" },
+      { "id": "b", "text": "The longest chord is the circumference, about 31 cm" },
+      { "id": "c", "text": "There is no longest chord, because chords can be any length" },
+      { "id": "d", "text": "Nothing: the radius is the longest chord" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The circumference is curved, so it is not a chord. A chord is a straight line joining two points on the circle.",
+      "c": "No chord can be longer than the diameter. The diameter is the longest chord.",
+      "d": "A radius is not a chord: one of its ends is at the centre, not on the circle."
+    },
+    "hints": ["A chord joins two points on the circle.", "Which chord passes through the centre?"],
+    "solution": "The longest chord passes through the centre: it is the **diameter**, $2 \\times 5 = 10$ cm."
+  },
+  {
+    "id": "m9.geo.circles.q018",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "O is the centre of the circle. AB is a diameter, and C is another point on the circle. Select **all** the statements that are true.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 245\" width=\"320\" height=\"245\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"160\" cy=\"125\" r=\"95\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"65\" y1=\"125\" x2=\"255\" y2=\"125\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"255\" y1=\"125\" x2=\"105.51\" y2=\"47.18\" stroke=\"#2563eb\" stroke-width=\"2\"/><line x1=\"160\" y1=\"125\" x2=\"105.51\" y2=\"47.18\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"125\" r=\"3.5\" fill=\"#1f2937\"/><circle cx=\"255\" cy=\"125\" r=\"3.5\" fill=\"#1f2937\"/><circle cx=\"105.51\" cy=\"47.18\" r=\"3.5\" fill=\"#1f2937\"/><circle cx=\"160\" cy=\"125\" r=\"3.5\" fill=\"#1f2937\"/><text x=\"51\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"269\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"95.51\" y=\"35.18\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"160\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">O</text></svg>", "alt": "A circle with centre O. The diameter AB goes across the circle through O. Point C is on the circle, up and to the left. A line joins O to C, and a chord joins B to C." },
+    "options": [
+      { "id": "a", "text": "OA = OC" },
+      { "id": "b", "text": "AB = 2 × OC" },
+      { "id": "c", "text": "BC is a diameter" },
+      { "id": "d", "text": "BC is longer than AB" },
+      { "id": "e", "text": "Triangle OBC is isosceles" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Which of the lines are radii?", "The diameter is the longest chord."],
+    "solution": "OA and OC are both radii, so **OA = OC** ✓. AB is a diameter, which is two radii, so **AB = 2 × OC** ✓. BC does not pass through O, so it is not a diameter ✗, and no chord is longer than a diameter ✗. OB and OC are both radii, so **triangle OBC** has two equal sides and is isosceles ✓."
+  },
+  {
+    "id": "m9.geo.circles.q019",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A circle has centre O and a **diameter** of 16 cm. Point P is 9 cm from O. Where is P?",
+    "options": [
+      { "id": "a", "text": "Outside the circle" },
+      { "id": "b", "text": "Inside the circle" },
+      { "id": "c", "text": "On the circle" },
+      { "id": "d", "text": "You can't tell without a diagram" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "9 cm is less than the diameter, but you need to compare it with the **radius**, which is 8 cm.",
+      "c": "A point on the circle is exactly one radius (8 cm) from O.",
+      "d": "You can tell: compare the distance from O with the radius."
+    },
+    "hints": ["Every point on the circle is exactly one radius from the centre.", "What is the radius of this circle?"],
+    "solution": "The radius is $16 \\div 2 = 8$ cm. P is 9 cm from O, which is more than the radius, so P is **outside** the circle."
+  },
+  {
+    "id": "m9.geo.circles.q020",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A target is made of two circles with the same centre. The inner circle has a radius of 4 cm. The outer circle has a diameter of 14 cm. How wide is the ring between the two circles?",
+    "answer": 3,
+    "units": "cm",
+    "hints": ["Compare like with like: find the radius of the outer circle.", "The width of the ring is the difference between the two radii."],
+    "solution": "Outer radius $= 14 \\div 2 = 7$ cm. Width of the ring $= 7 - 4 = 3$ cm."
+  },
+  {
+    "id": "m9.geo.circles.q021",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "On a coordinate grid, a circle has its centre at $(2, 3)$ and passes through the point $(5, 7)$. What is the **diameter** of the circle?",
+    "answer": 10,
+    "hints": ["The distance from the centre to any point on the circle is the radius.", "Use Pythagoras' theorem: go across from $(2, 3)$ to $x = 5$, then up to $y = 7$."],
+    "solution": "The radius is the distance from $(2, 3)$ to $(5, 7)$. Across: $5 - 2 = 3$. Up: $7 - 3 = 4$.\n\n$r^2 = 3^2 + 4^2 = 25$, so $r = 5$.\n\nDiameter $= 2 \\times 5 = 10$ units."
+  },
+  {
+    "id": "m9.geo.circles.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Points A and B are 4 cm apart on a flat page. How many points on the page are **exactly** 3 cm from A **and** exactly 3 cm from B?",
+    "options": [
+      { "id": "a", "text": "2" },
+      { "id": "b", "text": "1" },
+      { "id": "c", "text": "0" },
+      { "id": "d", "text": "Infinitely many" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The midpoint of AB is only 2 cm from each point. Draw a circle of radius 3 cm around A and another around B: where do they cross?",
+      "c": "$3 + 3 = 6$ cm is more than the 4 cm between A and B, so the two circles overlap and cross.",
+      "d": "The points 3 cm from A lie on one circle, and the points 3 cm from B lie on another. Two different circles cross at most twice."
+    },
+    "hints": ["All the points exactly 3 cm from A make a circle. Do the same for B.", "Sketch both circles. Where do they cross?"],
+    "solution": "The points exactly 3 cm from A lie on a circle with centre A and radius 3 cm, and likewise for B. The centres are 4 cm apart and $3 + 3 = 6 > 4$, so the circles overlap and cross at **2** points, one on each side of AB."
+  },
+  {
+    "id": "m9.geo.circles.q023",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A rectangle 8 cm long and 6 cm wide is drawn inside a circle so that all four of its corners lie on the circle. The diagonals of the rectangle pass through the centre of the circle. Find the **radius** of the circle.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 258\" width=\"320\" height=\"258\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"160\" cy=\"130\" r=\"100\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"80\" y=\"70\" width=\"160\" height=\"120\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"80,80 90,80 90,70\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"130\" r=\"3\" fill=\"#1f2937\"/><text x=\"160\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">8 cm</text><text x=\"214\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">6 cm</text><text x=\"312\" y=\"250\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A rectangle 8 cm long and 6 cm wide drawn inside a circle, with all four corners of the rectangle on the circle. The centre of the circle is marked with a dot in the middle of the rectangle." },
+    "answer": 5,
+    "units": "cm",
+    "hints": ["A diagonal of the rectangle goes through the centre and has both ends on the circle. What part of the circle is it?", "Use Pythagoras' theorem to find the length of a diagonal."],
+    "solution": "Each diagonal joins two points on the circle and passes through the centre, so it is a **diameter**.\n\nDiagonal$^2 = 8^2 + 6^2 = 64 + 36 = 100$, so the diagonal is 10 cm.\n\nRadius $= 10 \\div 2 = 5$ cm."
+  },
+  {
+    "id": "m9.geo.circles.q024",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Explain why no chord of a circle can be longer than the diameter.",
+    "modelAnswer": "Let AB be any chord and O the centre. OA and OB are radii, so going from A to O and then to B is r + r = 2r, which is the length of a diameter. A straight line is the shortest path between two points, so the chord AB is no longer than the path A → O → B. So AB is at most 2r, the diameter. It only equals the diameter when the chord passes through O.",
+    "rubric": [
+      { "criterion": "Uses OA = OB = r, so the path from A to O to B has length 2r, the diameter", "marks": 1 },
+      { "criterion": "Explains that the straight chord AB is no longer than this path, so no chord is longer than the diameter", "marks": 1 }
+    ],
+    "hints": ["Draw any chord AB, then join A and B to the centre O.", "Which is shorter: going straight from A to B, or going from A to O and then from O to B?"],
+    "solution": "For any chord AB, join A and B to the centre O. OA and OB are radii, so the path $A \\to O \\to B$ is $r + r = 2r$, the length of a diameter. The straight line AB is the shortest path from A to B, so $AB \\le 2r$. A chord is only as long as the diameter when it passes through O, that is, when it **is** a diameter."
   }
 ]

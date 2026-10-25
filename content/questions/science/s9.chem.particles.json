@@ -429,5 +429,446 @@
     },
     "hints": ["If the same particles take up more space, is the substance more or less dense?"],
     "solution": "Ice floats because it is less dense than liquid water. The particles are the same, so they must be **spaced slightly further apart** in ice. When water freezes, its particles lock into an open pattern. Water is an unusual exception to the simple particle model, and it's why ponds freeze from the top down."
+  },
+  {
+    "id": "s9.chem.particles.q028",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.chem.particles.g1",
+    "part": "a",
+    "stem": "A student heats a solid substance steadily in a water bath and measures its temperature every minute. The graph shows her results.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" width=\"420\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"104.3\" y1=\"18\" x2=\"104.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"104.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"146.5\" y1=\"18\" x2=\"146.5\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"146.5\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"188.8\" y1=\"18\" x2=\"188.8\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"188.8\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"231\" y1=\"18\" x2=\"231\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"231\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"273.3\" y1=\"18\" x2=\"273.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"273.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"315.5\" y1=\"18\" x2=\"315.5\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"315.5\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">12</text><line x1=\"357.8\" y1=\"18\" x2=\"357.8\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"357.8\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">14</text><line x1=\"400\" y1=\"18\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"400\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">16</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"62\" y1=\"228.6\" x2=\"400\" y2=\"228.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"232.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"62\" y1=\"205.2\" x2=\"400\" y2=\"205.2\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"209.2\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">20</text><line x1=\"62\" y1=\"181.8\" x2=\"400\" y2=\"181.8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"185.8\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">30</text><line x1=\"62\" y1=\"158.4\" x2=\"400\" y2=\"158.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"162.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">40</text><line x1=\"62\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"139\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">50</text><line x1=\"62\" y1=\"111.6\" x2=\"400\" y2=\"111.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"115.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">60</text><line x1=\"62\" y1=\"88.2\" x2=\"400\" y2=\"88.2\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"92.2\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">70</text><line x1=\"62\" y1=\"64.8\" x2=\"400\" y2=\"64.8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"68.8\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">80</text><line x1=\"62\" y1=\"41.4\" x2=\"400\" y2=\"41.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"45.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">90</text><line x1=\"62\" y1=\"18\" x2=\"400\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"22\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">100</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" text-anchor=\"middle\" fill=\"#1f2937\">Time (min)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\" fill=\"#1f2937\">Temperature (°C)</text><polyline points=\"62,205.2 146.5,88.2 273.3,88.2 357.8,29.7\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"62\" cy=\"205.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"75\" y=\"222.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"146.5\" cy=\"88.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"146.5\" y=\"78.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"273.3\" cy=\"88.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"273.3\" y=\"78.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"357.8\" cy=\"29.7\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"367.8\" y=\"33.7\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text></svg>",
+      "alt": "Line graph of temperature (°C, 0 to 100) against time (min, 0 to 16). The line rises from A (0 min, 20 °C) to B (4 min, 70 °C), stays flat at 70 °C until C (10 min), then rises to D (14 min, 95 °C)."
+    },
+    "prompt": "Use the graph to find the melting point of the substance.",
+    "answer": 70,
+    "units": "°C",
+    "hints": ["While a pure substance is melting, its temperature stays the same.", "Look for the flat part of the line and read across to the temperature axis."],
+    "solution": "While the solid melts, the temperature stops rising and the line goes flat (B to C). The flat section is at **70 °C**, so that is the melting point."
+  },
+  {
+    "id": "s9.chem.particles.q029",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.chem.particles.g1",
+    "part": "b",
+    "stem": "A student heats a solid substance steadily in a water bath and measures its temperature every minute. The graph shows her results.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" width=\"420\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"104.3\" y1=\"18\" x2=\"104.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"104.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"146.5\" y1=\"18\" x2=\"146.5\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"146.5\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"188.8\" y1=\"18\" x2=\"188.8\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"188.8\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"231\" y1=\"18\" x2=\"231\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"231\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"273.3\" y1=\"18\" x2=\"273.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"273.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"315.5\" y1=\"18\" x2=\"315.5\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"315.5\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">12</text><line x1=\"357.8\" y1=\"18\" x2=\"357.8\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"357.8\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">14</text><line x1=\"400\" y1=\"18\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"400\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">16</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"62\" y1=\"228.6\" x2=\"400\" y2=\"228.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"232.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"62\" y1=\"205.2\" x2=\"400\" y2=\"205.2\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"209.2\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">20</text><line x1=\"62\" y1=\"181.8\" x2=\"400\" y2=\"181.8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"185.8\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">30</text><line x1=\"62\" y1=\"158.4\" x2=\"400\" y2=\"158.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"162.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">40</text><line x1=\"62\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"139\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">50</text><line x1=\"62\" y1=\"111.6\" x2=\"400\" y2=\"111.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"115.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">60</text><line x1=\"62\" y1=\"88.2\" x2=\"400\" y2=\"88.2\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"92.2\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">70</text><line x1=\"62\" y1=\"64.8\" x2=\"400\" y2=\"64.8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"68.8\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">80</text><line x1=\"62\" y1=\"41.4\" x2=\"400\" y2=\"41.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"45.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">90</text><line x1=\"62\" y1=\"18\" x2=\"400\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"22\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">100</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" text-anchor=\"middle\" fill=\"#1f2937\">Time (min)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\" fill=\"#1f2937\">Temperature (°C)</text><polyline points=\"62,205.2 146.5,88.2 273.3,88.2 357.8,29.7\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"62\" cy=\"205.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"75\" y=\"222.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"146.5\" cy=\"88.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"146.5\" y=\"78.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"273.3\" cy=\"88.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"273.3\" y=\"78.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"357.8\" cy=\"29.7\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"367.8\" y=\"33.7\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text></svg>",
+      "alt": "Line graph of temperature (°C, 0 to 100) against time (min, 0 to 16). The line rises from A (0 min, 20 °C) to B (4 min, 70 °C), stays flat at 70 °C until C (10 min), then rises to D (14 min, 95 °C)."
+    },
+    "prompt": "What is in the tube between points B and C?",
+    "options": [
+      { "id": "a", "text": "Solid and liquid together" },
+      { "id": "b", "text": "Only solid, because the temperature is not rising" },
+      { "id": "c", "text": "Only liquid, because all the solid melted at point B" },
+      { "id": "d", "text": "Gas, because a flat line on the graph means boiling" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The temperature stays the same because the energy is being used to melt the solid. Some of it has already turned into liquid.",
+      "c": "Melting only starts at B. It takes until C for all of the solid to melt.",
+      "d": "The substance started as a solid, so the first flat section is melting, not boiling. It never reaches its boiling point on this graph."
+    },
+    "hints": ["The substance started as a solid at A.", "Melting starts at B and finishes at C."],
+    "solution": "Between B and C the substance is **melting**: some is still solid and some has become liquid, so both are present. At C the last of the solid has melted, and after that the liquid warms up."
+  },
+  {
+    "id": "s9.chem.particles.q030",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.chem.particles.g1",
+    "part": "c",
+    "stem": "A student heats a solid substance steadily in a water bath and measures its temperature every minute. The graph shows her results.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" width=\"420\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"104.3\" y1=\"18\" x2=\"104.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"104.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"146.5\" y1=\"18\" x2=\"146.5\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"146.5\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"188.8\" y1=\"18\" x2=\"188.8\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"188.8\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"231\" y1=\"18\" x2=\"231\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"231\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"273.3\" y1=\"18\" x2=\"273.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"273.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"315.5\" y1=\"18\" x2=\"315.5\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"315.5\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">12</text><line x1=\"357.8\" y1=\"18\" x2=\"357.8\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"357.8\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">14</text><line x1=\"400\" y1=\"18\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"400\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">16</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"62\" y1=\"228.6\" x2=\"400\" y2=\"228.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"232.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"62\" y1=\"205.2\" x2=\"400\" y2=\"205.2\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"209.2\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">20</text><line x1=\"62\" y1=\"181.8\" x2=\"400\" y2=\"181.8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"185.8\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">30</text><line x1=\"62\" y1=\"158.4\" x2=\"400\" y2=\"158.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"162.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">40</text><line x1=\"62\" y1=\"135\" x2=\"400\" y2=\"135\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"139\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">50</text><line x1=\"62\" y1=\"111.6\" x2=\"400\" y2=\"111.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"115.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">60</text><line x1=\"62\" y1=\"88.2\" x2=\"400\" y2=\"88.2\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"92.2\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">70</text><line x1=\"62\" y1=\"64.8\" x2=\"400\" y2=\"64.8\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"68.8\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">80</text><line x1=\"62\" y1=\"41.4\" x2=\"400\" y2=\"41.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"45.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">90</text><line x1=\"62\" y1=\"18\" x2=\"400\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"22\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">100</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" text-anchor=\"middle\" fill=\"#1f2937\">Time (min)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\" fill=\"#1f2937\">Temperature (°C)</text><polyline points=\"62,205.2 146.5,88.2 273.3,88.2 357.8,29.7\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"62\" cy=\"205.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"75\" y=\"222.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"146.5\" cy=\"88.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"146.5\" y=\"78.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"273.3\" cy=\"88.2\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"273.3\" y=\"78.2\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"357.8\" cy=\"29.7\" r=\"3.5\" fill=\"#1f2937\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"367.8\" y=\"33.7\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text></svg>",
+      "alt": "Line graph of temperature (°C, 0 to 100) against time (min, 0 to 16). The line rises from A (0 min, 20 °C) to B (4 min, 70 °C), stays flat at 70 °C until C (10 min), then rises to D (14 min, 95 °C)."
+    },
+    "prompt": "Describe how the **arrangement** and **movement** of the particles at point D are different from at point A.",
+    "modelAnswer": "At A the substance is a solid. Its particles are packed closely in fixed positions in a regular pattern, and they can only vibrate. At D it is a hot liquid. The particles are still close together, but they are jumbled and not held in fixed positions, and they move around and slide past each other, faster than at A because they have more energy.",
+    "rubric": [
+      { "criterion": "Arrangement: at A (solid) the particles are in fixed positions in a regular pattern; at D (liquid) they are still close together but jumbled, not in fixed positions", "marks": 1 },
+      { "criterion": "Movement: at A the particles only vibrate; at D they move around and slide past each other, and faster, because they have more energy", "marks": 1 }
+    ],
+    "hints": ["What state is the substance in at A, and at D?", "Think about both how the particles are arranged and how they move."],
+    "solution": "A is a solid (fixed, regular pattern, vibrating only). D is a liquid at a higher temperature (close but jumbled, sliding past each other and moving faster)."
+  },
+  {
+    "id": "s9.chem.particles.q031",
+    "type": "cloze",
+    "difficulty": 1,
+    "groupId": "s9.chem.particles.g2",
+    "part": "a",
+    "stem": "To cook a hāngī, stones are heated in a fire until they are very hot and then placed in a pit. Baskets of food go on top, covered with wet cloths or sacks, and the pit is covered with earth. Water from the wet cloths turns to steam on the hot stones, and the steam cooks the food.",
+    "prompt": "When water from the wet cloths touches the hot stones, its particles [[a]] energy and move [[b]]. They spread far apart, and the water becomes steam, which is a [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["gain"], "options": ["lose", "gain"] },
+      { "id": "b", "accepted": ["faster"], "options": ["faster", "slower"] },
+      { "id": "c", "accepted": ["gas"], "options": ["solid", "liquid", "gas"] }
+    ],
+    "hints": ["The stones are much hotter than the water, so heat flows into the water."],
+    "solution": "The water particles **gain** energy from the hot stones, move **faster** and spread far apart. The water turns into steam, which is a **gas**."
+  },
+  {
+    "id": "s9.chem.particles.q032",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.chem.particles.g2",
+    "part": "b",
+    "stem": "To cook a hāngī, stones are heated in a fire until they are very hot and then placed in a pit. Baskets of food go on top, covered with wet cloths or sacks, and the pit is covered with earth. Water from the wet cloths turns to steam on the hot stones, and the steam cooks the food.",
+    "prompt": "When the steam reaches the cooler food, it condenses into water droplets. How does this help to cook the food?",
+    "options": [
+      { "id": "a", "text": "The steam particles lose energy as they condense, and that energy heats the food" },
+      { "id": "b", "text": "Condensing takes in heat from the food, which cooks it" },
+      { "id": "c", "text": "The steam particles split into hydrogen and oxygen, which heat the food" },
+      { "id": "d", "text": "The water particles get bigger as they condense and squeeze heat into the food" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Taking heat from the food would cool it down. Condensing is the reverse of evaporating, so it gives energy out.",
+      "c": "Condensing is a physical change. The water particles stay as water particles.",
+      "d": "Particles never change size when they change state. Only the spaces between them change."
+    },
+    "hints": ["Evaporating needs energy. What happens to that energy when the steam turns back into water?"],
+    "solution": "The steam particles **lose energy** as they slow down and come together into droplets. That energy is transferred to the food and heats it. Condensing gives out the energy that was taken in when the water evaporated."
+  },
+  {
+    "id": "s9.chem.particles.q033",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.chem.particles.g2",
+    "part": "c",
+    "stem": "To cook a hāngī, stones are heated in a fire until they are very hot and then placed in a pit. Baskets of food go on top, covered with wet cloths or sacks, and the pit is covered with earth. Water from the wet cloths turns to steam on the hot stones, and the steam cooks the food.",
+    "prompt": "When the hāngī is opened, people on the other side of the field soon smell the food, even though there is no wind. Use the particle model to explain why.",
+    "modelAnswer": "Particles of gas carrying the smell escape from the hot food. Like air particles, they are always moving randomly in all directions and bumping into air particles. Because of this random movement they spread out from the pit, where there are lots of them, to where there are fewer, until some reach people across the field. This spreading is called diffusion.",
+    "rubric": [
+      { "criterion": "The smell particles (gas) are always moving randomly and mix with the air particles", "marks": 1 },
+      { "criterion": "They spread from where there are many of them (the pit) to where there are fewer, i.e. diffusion", "marks": 1 }
+    ],
+    "hints": ["No wind is needed. What are gas particles always doing?", "Name the process."],
+    "solution": "This is **diffusion**: the randomly moving smell particles spread out through the air from a high concentration at the pit to a lower concentration further away."
+  },
+  {
+    "id": "s9.chem.particles.q034",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.particles.g3",
+    "part": "a",
+    "stem": "The table shows the melting and boiling points of five substances.\n\n| Substance | Melting point (°C) | Boiling point (°C) |\n|---|---|---|\n| Oxygen | −218 | −183 |\n| Mercury | −39 | 357 |\n| Ethanol | −114 | 78 |\n| Sulfur | 115 | 445 |\n| Iron | 1538 | 2862 |",
+    "prompt": "Which substance is a **gas** at room temperature (20 °C)?",
+    "options": [
+      { "id": "a", "text": "Oxygen" },
+      { "id": "b", "text": "Ethanol" },
+      { "id": "c", "text": "Mercury" },
+      { "id": "d", "text": "Sulfur" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Ethanol's boiling point (78 °C) is above 20 °C, so it is a liquid. It evaporates easily, which is why you can smell it, but it is not a gas at 20 °C.",
+      "c": "Mercury melts at −39 °C and boils at 357 °C. 20 °C is between these, so it is a liquid metal.",
+      "d": "20 °C is below the melting point of sulfur (115 °C), so it is a solid."
+    },
+    "hints": ["A substance is a gas when the temperature is above its boiling point."],
+    "solution": "Oxygen's boiling point is −183 °C. Room temperature (20 °C) is far above that, so oxygen is a **gas**. Ethanol and mercury are liquids, and sulfur is a solid."
+  },
+  {
+    "id": "s9.chem.particles.q035",
+    "type": "multi",
+    "difficulty": 3,
+    "groupId": "s9.chem.particles.g3",
+    "part": "b",
+    "stem": "The table shows the melting and boiling points of five substances.\n\n| Substance | Melting point (°C) | Boiling point (°C) |\n|---|---|---|\n| Oxygen | −218 | −183 |\n| Mercury | −39 | 357 |\n| Ethanol | −114 | 78 |\n| Sulfur | 115 | 445 |\n| Iron | 1538 | 2862 |",
+    "prompt": "Which substances are **solids** at 100 °C? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Oxygen" },
+      { "id": "b", "text": "Mercury" },
+      { "id": "c", "text": "Ethanol" },
+      { "id": "d", "text": "Sulfur" },
+      { "id": "e", "text": "Iron" }
+    ],
+    "correct": ["d", "e"],
+    "hints": ["A substance is solid when the temperature is below its melting point."],
+    "solution": "At 100 °C, **sulfur** (melts at 115 °C) and **iron** (melts at 1538 °C) are still solid. Mercury is a liquid (100 °C is between −39 °C and 357 °C). Ethanol (boils at 78 °C) and oxygen are gases."
+  },
+  {
+    "id": "s9.chem.particles.q036",
+    "type": "cloze",
+    "difficulty": 4,
+    "groupId": "s9.chem.particles.g3",
+    "part": "c",
+    "stem": "The table shows the melting and boiling points of five substances.\n\n| Substance | Melting point (°C) | Boiling point (°C) |\n|---|---|---|\n| Oxygen | −218 | −183 |\n| Mercury | −39 | 357 |\n| Ethanol | −114 | 78 |\n| Sulfur | 115 | 445 |\n| Iron | 1538 | 2862 |",
+    "prompt": "Yellow sulfur crystals form around geothermal vents near Rotorua. In the lab, some sulfur is heated to 200 °C, where it is a [[a]]. It is heated further to 500 °C, where it is a [[b]]. When this sulfur is cooled back down to 300 °C, it [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["liquid"], "options": ["solid", "liquid", "gas"] },
+      { "id": "b", "accepted": ["gas"], "options": ["solid", "liquid", "gas"] },
+      { "id": "c", "accepted": ["condenses"], "options": ["freezes", "melts", "condenses", "sublimes"] }
+    ],
+    "hints": ["Compare each temperature with 115 °C and 445 °C.", "Cooling from 500 °C to 300 °C crosses one of these temperatures. Which change happens there?"],
+    "solution": "200 °C is between the melting point (115 °C) and boiling point (445 °C), so sulfur is a **liquid**. 500 °C is above the boiling point, so it is a **gas**. Cooling to 300 °C takes it below 445 °C but not below 115 °C, so the gas **condenses** into a liquid. It doesn't freeze, because 300 °C is still above the melting point."
+  },
+  {
+    "id": "s9.chem.particles.q037",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which state of matter has **both** a fixed shape and a fixed volume?",
+    "options": [
+      { "id": "a", "text": "Solid" },
+      { "id": "b", "text": "Liquid" },
+      { "id": "c", "text": "Gas" },
+      { "id": "d", "text": "Liquid and gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A liquid has a fixed volume, but it takes the shape of its container.",
+      "c": "A gas has neither a fixed shape nor a fixed volume. It spreads out to fill its container.",
+      "d": "Neither of these keeps its own shape: both take the shape of their container."
+    },
+    "hints": ["Which state keeps its shape when you take it out of its container?"],
+    "solution": "A **solid** keeps its shape and its volume, because its particles are held in fixed positions."
+  },
+  {
+    "id": "s9.chem.particles.q038",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for the temperature at which a solid turns into a liquid?",
+    "accepted": ["melting point", "melting points", "melting temperature"],
+    "hints": ["It is named after the change of state from solid to liquid."],
+    "solution": "It is the **melting point**. For example, the melting point of ice is 0 °C."
+  },
+  {
+    "id": "s9.chem.particles.q039",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "On a warm day, drops of water appear on the outside of a cold bottle of drink taken from the fridge. Where does this water come from?",
+    "options": [
+      { "id": "a", "text": "Water vapour in the air cools on the cold bottle and condenses" },
+      { "id": "b", "text": "The drink seeps out through tiny holes in the glass" },
+      { "id": "c", "text": "The surface of the cold glass is melting" },
+      { "id": "d", "text": "Nitrogen and oxygen in the air turn into liquid water" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Glass does not let liquids through. Even a sealed, empty bottle from the fridge gets wet on the outside.",
+      "c": "Glass is a solid that only melts at very high temperatures. A cold bottle is nowhere near that.",
+      "d": "Nitrogen and oxygen cannot turn into water. They are different substances, and they only become liquid at around −200 °C."
+    },
+    "hints": ["Air always contains some water as an invisible gas."],
+    "solution": "The air contains invisible **water vapour**. When it touches the cold bottle, the water particles lose energy, slow down and come together as liquid droplets: **condensation**."
+  },
+  {
+    "id": "s9.chem.particles.q040",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each physical property to its meaning.",
+    "pairs": [
+      { "left": { "id": "mall", "text": "Malleable" }, "right": { "id": "ham", "text": "Can be hammered or bent into shape without breaking" } },
+      { "left": { "id": "duct", "text": "Ductile" }, "right": { "id": "wire", "text": "Can be stretched out into a thin wire" } },
+      { "left": { "id": "brit", "text": "Brittle" }, "right": { "id": "shat", "text": "Breaks or shatters easily when hit" } },
+      { "left": { "id": "ins", "text": "Thermal insulator" }, "right": { "id": "heat", "text": "Does not let heat pass through easily" } },
+      { "left": { "id": "cond", "text": "Electrical conductor" }, "right": { "id": "curr", "text": "Lets an electric current flow through it" } }
+    ],
+    "hints": ["A copper wire is ductile; a glass window is brittle."],
+    "solution": "Malleable: can be hammered into shape. Ductile: can be drawn into wire. Brittle: shatters easily. Thermal insulator: doesn't let heat through easily (like the plastic handle of a pot). Electrical conductor: lets current flow (like copper)."
+  },
+  {
+    "id": "s9.chem.particles.q041",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "On a cold, dry, sunny day high in the Southern Alps, some snow disappears without melting. The ice changes straight from a [[a]] into a [[b]]. This change of state is called [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["solid"], "options": ["solid", "liquid", "gas"] },
+      { "id": "b", "accepted": ["gas"], "options": ["solid", "liquid", "gas"] },
+      { "id": "c", "accepted": ["sublimation"], "options": ["evaporation", "melting", "sublimation", "condensation"] }
+    ],
+    "hints": ["The snow never becomes liquid water."],
+    "solution": "The ice goes straight from a **solid** to a **gas** (water vapour) without becoming a liquid. This is **sublimation**."
+  },
+  {
+    "id": "s9.chem.particles.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Overhead power lines sag lower on a hot summer day than on a cold winter day. Why?",
+    "options": [
+      { "id": "a", "text": "The particles in the wire vibrate more and move slightly further apart, so the wire gets longer" },
+      { "id": "b", "text": "The particles in the wire get bigger when they are hot, so the wire gets longer" },
+      { "id": "c", "text": "Heat from the Sun adds extra particles to the wire, so the wire gets longer" },
+      { "id": "d", "text": "The wire starts to melt in the heat, so it droops like a liquid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Particles do not change size when they are heated. The spaces between them get bigger.",
+      "c": "No particles are added. The wire has the same mass in summer and winter.",
+      "d": "Power lines are made of metals such as aluminium, which melts at about 660 °C. The wire is still a solid."
+    },
+    "hints": ["What happens to the movement of particles in a solid when it is heated?"],
+    "solution": "When the wire is heated, its particles **vibrate more** and push slightly further apart. The wire **expands** (gets longer), so it sags more. The particles themselves stay the same size."
+  },
+  {
+    "id": "s9.chem.particles.q043",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "When water is boiling in a pot, large bubbles form and rise to the surface. What is inside these bubbles?",
+    "options": [
+      { "id": "a", "text": "Water vapour (water as a gas)" },
+      { "id": "b", "text": "Air" },
+      { "id": "c", "text": "Hydrogen gas and oxygen gas" },
+      { "id": "d", "text": "Nothing, they are empty space" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The tiny bubbles that appear as water first warms up are dissolved air coming out. The big bubbles during boiling are water that has turned into a gas.",
+      "c": "Boiling is a physical change. The water particles do not split apart; they just move far apart as a gas.",
+      "d": "The bubbles push the water aside, so they must contain something: water particles in the gas state."
+    },
+    "hints": ["Boiling is a change of state. What does liquid water turn into?"],
+    "solution": "During boiling, water turns into a gas all through the liquid, not just at the surface. The bubbles are pockets of **water vapour**, which rise and escape as steam."
+  },
+  {
+    "id": "s9.chem.particles.q044",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "On a clear night, dew forms on the grass. Put the steps in order.",
+    "items": [
+      { "id": "cool", "text": "After sunset, the grass loses heat and becomes cold" },
+      { "id": "air", "text": "The air touching the cold grass cools down" },
+      { "id": "slow", "text": "Water vapour particles in this air lose energy and slow down" },
+      { "id": "drop", "text": "The water particles come together as droplets of liquid on the grass" }
+    ],
+    "hints": ["Dew is a kind of condensation. What has to get cold first?"],
+    "solution": "The grass cools after sunset, so the air touching it cools. The water vapour particles in that air lose energy and slow down, and they come together to form liquid **dew** droplets: condensation."
+  },
+  {
+    "id": "s9.chem.particles.q045",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Nitrogen melts at −210 °C and boils at −196 °C. Over how many degrees Celsius is nitrogen a liquid?",
+    "answer": 14,
+    "units": "°C",
+    "hints": ["Nitrogen is a liquid between its melting point and its boiling point.", "Count up from −210 to −196."],
+    "solution": "Nitrogen is a liquid from −210 °C up to −196 °C. The difference is −196 − (−210) = **14 °C**."
+  },
+  {
+    "id": "s9.chem.particles.q046",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Kiri stirs a spoonful of sugar into her hot tea and says, \"The sugar has melted.\" What is the best reply?",
+    "options": [
+      { "id": "a", "text": "It dissolved: the sugar particles spread out between the water particles" },
+      { "id": "b", "text": "Yes, heat from the tea turned the solid sugar into liquid sugar" },
+      { "id": "c", "text": "It reacted with the tea to make a new substance" },
+      { "id": "d", "text": "It evaporated into the air, which is why you can no longer see it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Sugar only melts at about 186 °C, far hotter than a cup of tea. Sugar also disappears into cold water, which could not melt it.",
+      "c": "Dissolving is a physical change. If the water evaporated, the sugar would be left behind.",
+      "d": "The sugar is still in the tea. That is why the tea tastes sweet."
+    },
+    "hints": ["Melting needs one substance on its own to be heated to its melting point. How many substances are involved here?"],
+    "solution": "The sugar has **dissolved**: its particles have separated and spread out between the water particles, too small to see. Melting is a solid turning into a liquid on its own when heated to its melting point (about 186 °C for sugar), which a cup of tea is nowhere near."
+  },
+  {
+    "id": "s9.chem.particles.q047",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A balloon is blown up in a warm room and then put in a freezer. After an hour it has shrunk. When it is taken out and warms up, it swells back to its original size. Use the particle model to explain these observations.",
+    "modelAnswer": "In the freezer the air particles in the balloon lose energy and move more slowly. They hit the inside of the balloon less often and less hard, so they push out on the rubber less and the balloon shrinks. When the balloon warms up again, the particles gain energy and move faster, hitting the inside of the balloon more often and harder, so it swells. The number of particles, and their size, stays the same the whole time.",
+    "rubric": [
+      { "criterion": "In the cold, the air particles lose energy and move more slowly", "marks": 1 },
+      { "criterion": "Slower particles hit the inside of the balloon less often or less hard, so they push out less and the balloon shrinks", "marks": 1 },
+      { "criterion": "When warmed, the particles gain energy and move faster again, hitting the balloon more often or harder, so it swells (the number of particles stays the same)", "marks": 1 }
+    ],
+    "hints": ["What keeps a balloon blown up? Think about the particles hitting the rubber.", "Do any particles leave the balloon or change size?"],
+    "solution": "Cold: particles slow down and hit the walls less often and less hard, so the balloon shrinks. Warm: particles speed up and hit the walls more, so it swells. The particles themselves are unchanged."
+  },
+  {
+    "id": "s9.chem.particles.q048",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which statements about water **boiling** in a pot at sea level are correct? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "The water particles gain energy" },
+      { "id": "b", "text": "The water particles move much further apart" },
+      { "id": "c", "text": "The temperature stays at 100 °C while the water is boiling" },
+      { "id": "d", "text": "The water particles get bigger" },
+      { "id": "e", "text": "The water particles split into hydrogen and oxygen" },
+      { "id": "f", "text": "The particles stop moving once they become a gas" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Boiling is a physical change.", "Gas particles move fastest of all."],
+    "solution": "When water boils, its particles **gain energy** and move **far apart** as a gas, and the temperature **stays at 100 °C** until it has all boiled. The particles do not change size or split up (it is still water), and gas particles move faster, not slower."
+  },
+  {
+    "id": "s9.chem.particles.q049",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Water can be poured, but it is almost impossible to squash it into a smaller volume. Use the particle model to explain **both** of these facts.",
+    "modelAnswer": "The particles in a liquid are not held in fixed positions. They can move and slide past each other, so the liquid flows and can be poured. But the particles are still very close together, touching each other with almost no empty space between them, so they cannot be pushed any closer and the liquid cannot be squashed.",
+    "rubric": [
+      { "criterion": "Particles can move or slide past each other (not in fixed positions), so the liquid flows", "marks": 1 },
+      { "criterion": "Particles are close together with very little space between them, so they cannot be pushed closer (it cannot be compressed)", "marks": 1 }
+    ],
+    "hints": ["Explain each fact separately: one is about movement, the other is about spacing."],
+    "solution": "Pouring: liquid particles slide past each other. Not squashable: the particles are already touching, with almost no space between them."
+  },
+  {
+    "id": "s9.chem.particles.q050",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A burn from steam at 100 °C is usually much worse than a burn from the same amount of boiling water at 100 °C. Explain why.",
+    "modelAnswer": "When steam touches the skin, it condenses into liquid water. Condensing gives out a large amount of energy, the same energy the water took in when it boiled to become steam, and this energy goes into the skin. The water that forms is still at 100 °C, so it then gives out more heat as it cools down. Steam therefore transfers much more energy to the skin than boiling water, which only gives out heat as it cools.",
+    "rubric": [
+      { "criterion": "Steam condenses into water when it touches the (cooler) skin", "marks": 1 },
+      { "criterion": "Condensing releases a large amount of energy (the energy taken in when it boiled) into the skin", "marks": 1 },
+      { "criterion": "The water formed is still at 100 °C and then gives out more heat as it cools, so steam transfers more energy in total than boiling water", "marks": 1 }
+    ],
+    "hints": ["What happens to steam when it touches something cooler?", "Turning water into steam takes a lot of energy. Where does that energy go when the steam turns back into water?"],
+    "solution": "Steam gives the skin two lots of energy: first the large amount released as it **condenses**, then the heat released as the hot water cools. Boiling water only gives the second."
+  },
+  {
+    "id": "s9.chem.particles.q051",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Under a microscope, specks of smoke in a small glass cell of air look like bright dots. Each dot jiggles about randomly, even though the air is still. What is the best explanation?",
+    "options": [
+      { "id": "a", "text": "Air particles, too small to see, are moving randomly and hitting each speck unevenly from all sides" },
+      { "id": "b", "text": "The specks of smoke are tiny living things that are swimming about in the air" },
+      { "id": "c", "text": "Warm air rising in the cell is carrying all of the specks of smoke upwards" },
+      { "id": "d", "text": "The specks are vibrating in fixed positions, like the particles in a solid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Smoke is made of tiny bits of soot and ash, which are not alive. Specks of any non-living material jiggle like this.",
+      "c": "Rising air would carry the specks smoothly in one direction. Here each speck jiggles in its own random way.",
+      "d": "The specks wander around the cell rather than staying in one place, and they are floating in a gas, not held in a solid."
+    },
+    "hints": ["Something invisible must be pushing the specks. What is the air made of, and what is it always doing?"],
+    "solution": "The air is made of particles that are far too small to see, moving fast and randomly. At any instant, more of them hit a speck on one side than the other, so it is knocked about in a random, jiggling path. This is evidence that the particles in a gas are constantly moving."
+  },
+  {
+    "id": "s9.chem.particles.q052",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "The particles in air move at hundreds of metres per second. Yet when someone opens a bottle of perfume on the far side of a still room, it takes a while before you can smell it. Why?",
+    "options": [
+      { "id": "a", "text": "The perfume particles keep colliding with air particles, so they change direction constantly" },
+      { "id": "b", "text": "Perfume particles move hundreds of times more slowly than air particles" },
+      { "id": "c", "text": "The perfume must turn back into a liquid before it can travel across the room" },
+      { "id": "d", "text": "Smell particles can only move when there is a wind to carry them" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Perfume particles are heavier, so they move a little more slowly than air particles, but still very fast. The main reason is all the collisions.",
+      "c": "The perfume spreads as a gas. It does not need to become a liquid.",
+      "d": "Wind speeds it up, but diffusion happens even in completely still air, because the particles are always moving."
+    },
+    "hints": ["A perfume particle is surrounded by a huge number of air particles. What happens when they meet?"],
+    "solution": "Each perfume particle moves very fast, but it **collides** with air particles billions of times a second, so its path is a zigzag that keeps changing direction. Overall it makes slow progress across the room. That is why diffusion in a gas is much slower than the speed of the particles."
   }
 ]

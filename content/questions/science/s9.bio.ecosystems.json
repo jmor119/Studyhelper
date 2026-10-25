@@ -736,5 +736,860 @@
       "What happens to a tree species if few new seedlings grow?"
     ],
     "solution": "Seeds that just drop under the parent tree compete with it for light and space, so few grow well. Kererū carry the seeds to new places. Without them, **fewer young trees** would grow, and over many years these tree species would become rarer. Protecting kererū helps protect the whole forest."
+  },
+  {
+    "id": "s9.bio.ecosystems.q024",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these organisms is a **producer**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pōhutukawa"
+      },
+      {
+        "id": "b",
+        "text": "Kererū"
+      },
+      {
+        "id": "c",
+        "text": "A mushroom (fungus)"
+      },
+      {
+        "id": "d",
+        "text": "Tūī"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Kererū eat leaves, flowers and fruit, so they are consumers.",
+      "c": "Fungi can't photosynthesise. Most fungi are decomposers that feed on dead material.",
+      "d": "Tūī feed on nectar, fruit and insects, so they are consumers."
+    },
+    "hints": [
+      "A producer makes its own food by photosynthesis."
+    ],
+    "solution": "The **pōhutukawa** is a plant, so it makes its own food by photosynthesis: it is a producer. Kererū and tūī are consumers, and mushrooms are decomposers."
+  },
+  {
+    "id": "s9.bio.ecosystems.q025",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for an animal that eats only plants?",
+    "accepted": [
+      "herbivore",
+      "herbivores"
+    ],
+    "hints": [
+      "Kererū and kina are examples. An animal that eats only meat is called a carnivore."
+    ],
+    "solution": "A **herbivore** eats only plants. Herbivores are primary consumers: for example, kererū and kina."
+  },
+  {
+    "id": "s9.bio.ecosystems.q026",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Light, temperature and rainfall are [[a]] factors. Predators, prey and disease are [[b]] factors.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "abiotic"
+        ],
+        "options": [
+          "abiotic",
+          "biotic"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "biotic"
+        ],
+        "options": [
+          "abiotic",
+          "biotic"
+        ]
+      }
+    ],
+    "hints": [
+      "'Bio' means life. 'A-' means 'not'."
+    ],
+    "solution": "Non-living factors, such as light, temperature and rainfall, are **abiotic**. Living factors, such as predators, prey and disease, are **biotic**."
+  },
+  {
+    "id": "s9.bio.ecosystems.q027",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which food chain is drawn correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kōwhai → kererū → stoat"
+      },
+      {
+        "id": "b",
+        "text": "Stoat → kererū → kōwhai"
+      },
+      {
+        "id": "c",
+        "text": "Kererū → kōwhai → stoat"
+      },
+      {
+        "id": "d",
+        "text": "Kōwhai → stoat → kererū"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The arrows are the wrong way round. Each arrow points **to** the eater, showing the direction that energy flows.",
+      "c": "A food chain starts with a producer. Here, the kōwhai is the producer, not the kererū.",
+      "d": "Stoats don't eat kōwhai, and kererū don't eat stoats."
+    },
+    "hints": [
+      "Food chains start with a producer.",
+      "Each arrow points from the food to the animal that eats it."
+    ],
+    "solution": "Kererū eat kōwhai leaves and flowers, and stoats eat kererū: **kōwhai → kererū → stoat**. The arrows show energy flowing from the food to the eater."
+  },
+  {
+    "id": "s9.bio.ecosystems.q028",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the **introduced** pests that threaten native birds in New Zealand forests.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Brushtail possum"
+      },
+      {
+        "id": "b",
+        "text": "Stoat"
+      },
+      {
+        "id": "c",
+        "text": "Ship rat"
+      },
+      {
+        "id": "d",
+        "text": "Ruru (morepork)"
+      },
+      {
+        "id": "e",
+        "text": "Kārearea (New Zealand falcon)"
+      },
+      {
+        "id": "f",
+        "text": "Kererū"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Introduced species were brought here by people.",
+      "Not every predator is a pest. Some are native."
+    ],
+    "solution": "**Possums, stoats and ship rats** were brought here by people, and they eat native birds, eggs and chicks (possums also compete with birds for food). **Ruru** and **kārearea** are native predators that have always been part of New Zealand's ecosystems, and the **kererū** is a native pigeon."
+  },
+  {
+    "id": "s9.bio.ecosystems.q029",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.ecosystems.g1",
+    "part": "a",
+    "stem": "This food web shows some feeding relationships on a New Zealand rocky shore. Each arrow points from the food to the organism that eats it.\n\nIn words: seaweed (including kelp) is eaten by kina and pāua. Phytoplankton (tiny floating algae) is eaten by mussels. Kina are eaten by snapper and crayfish (kōura). Pāua and mussels are eaten by crayfish. Mussels are also eaten by oystercatchers (tōrea).",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 310\" width=\"430\" height=\"310\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"135\" y1=\"260\" x2=\"105\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"165\" y1=\"260\" x2=\"195\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"260\" x2=\"345\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"86.3\" y1=\"150\" x2=\"78.8\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"114\" y1=\"150\" x2=\"186\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"321\" y1=\"150\" x2=\"234\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"150\" x2=\"345\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"109.6\" y=\"262\" width=\"80.8\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"150\" y=\"277\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Seaweed</text><rect x=\"279.4\" y=\"262\" width=\"131.2\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"277\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Phytoplankton</text><rect x=\"52\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kina</text><rect x=\"172\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Pāua</text><rect x=\"307\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Mussel</text><rect x=\"34.6\" y=\"42\" width=\"80.8\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Snapper</text><rect x=\"165.4\" y=\"42\" width=\"89.2\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Crayfish</text><rect x=\"279.4\" y=\"42\" width=\"131.2\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Oystercatcher</text></svg>",
+      "alt": "Rocky shore food web. Seaweed is eaten by kina and pāua. Phytoplankton is eaten by mussels. Kina are eaten by snapper and crayfish. Pāua are eaten by crayfish. Mussels are eaten by crayfish and oystercatchers."
+    },
+    "prompt": "Name the organism in this food web that **competes** with kina for food.",
+    "accepted": [
+      "pāua",
+      "paua",
+      "abalone"
+    ],
+    "hints": [
+      "What do kina eat?",
+      "Which other organism eats the same food?"
+    ],
+    "solution": "Kina eat seaweed, and so do **pāua**, so pāua and kina compete for food."
+  },
+  {
+    "id": "s9.bio.ecosystems.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.ecosystems.g1",
+    "part": "b",
+    "stem": "This food web shows some feeding relationships on a New Zealand rocky shore. Each arrow points from the food to the organism that eats it.\n\nIn words: seaweed (including kelp) is eaten by kina and pāua. Phytoplankton (tiny floating algae) is eaten by mussels. Kina are eaten by snapper and crayfish (kōura). Pāua and mussels are eaten by crayfish. Mussels are also eaten by oystercatchers (tōrea).",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 310\" width=\"430\" height=\"310\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"135\" y1=\"260\" x2=\"105\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"165\" y1=\"260\" x2=\"195\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"260\" x2=\"345\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"86.3\" y1=\"150\" x2=\"78.8\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"114\" y1=\"150\" x2=\"186\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"321\" y1=\"150\" x2=\"234\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"150\" x2=\"345\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"109.6\" y=\"262\" width=\"80.8\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"150\" y=\"277\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Seaweed</text><rect x=\"279.4\" y=\"262\" width=\"131.2\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"277\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Phytoplankton</text><rect x=\"52\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kina</text><rect x=\"172\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Pāua</text><rect x=\"307\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Mussel</text><rect x=\"34.6\" y=\"42\" width=\"80.8\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Snapper</text><rect x=\"165.4\" y=\"42\" width=\"89.2\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Crayfish</text><rect x=\"279.4\" y=\"42\" width=\"131.2\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Oystercatcher</text></svg>",
+      "alt": "Rocky shore food web. Seaweed is eaten by kina and pāua. Phytoplankton is eaten by mussels. Kina are eaten by snapper and crayfish. Pāua are eaten by crayfish. Mussels are eaten by crayfish and oystercatchers."
+    },
+    "prompt": "Mussels stay fixed to the rocks and never hunt. What is their role in this food web?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Primary consumer"
+      },
+      {
+        "id": "b",
+        "text": "Producer"
+      },
+      {
+        "id": "c",
+        "text": "Secondary consumer"
+      },
+      {
+        "id": "d",
+        "text": "Decomposer"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Producers make their own food by photosynthesis. Mussels filter phytoplankton out of the water to eat, so they are consumers.",
+      "c": "Secondary consumers eat primary consumers. Mussels eat phytoplankton, which is a producer.",
+      "d": "Decomposers break down dead material. Mussels feed on living phytoplankton."
+    },
+    "hints": [
+      "Look at the arrow going into the mussel. What does it eat?"
+    ],
+    "solution": "Mussels eat phytoplankton, which is a producer, so mussels are **primary consumers**. Not moving around doesn't make an organism a producer: what matters is how it gets its food."
+  },
+  {
+    "id": "s9.bio.ecosystems.q031",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.ecosystems.g1",
+    "part": "c",
+    "stem": "This food web shows some feeding relationships on a New Zealand rocky shore. Each arrow points from the food to the organism that eats it.\n\nIn words: seaweed (including kelp) is eaten by kina and pāua. Phytoplankton (tiny floating algae) is eaten by mussels. Kina are eaten by snapper and crayfish (kōura). Pāua and mussels are eaten by crayfish. Mussels are also eaten by oystercatchers (tōrea).",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 310\" width=\"430\" height=\"310\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1f2937\"/></marker></defs><line x1=\"135\" y1=\"260\" x2=\"105\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"165\" y1=\"260\" x2=\"195\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"260\" x2=\"345\" y2=\"185\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"86.3\" y1=\"150\" x2=\"78.8\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"114\" y1=\"150\" x2=\"186\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"321\" y1=\"150\" x2=\"234\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"150\" x2=\"345\" y2=\"75\" stroke=\"#1f2937\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><rect x=\"109.6\" y=\"262\" width=\"80.8\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"150\" y=\"277\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Seaweed</text><rect x=\"279.4\" y=\"262\" width=\"131.2\" height=\"30\" rx=\"7\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"277\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Phytoplankton</text><rect x=\"52\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Kina</text><rect x=\"172\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Pāua</text><rect x=\"307\" y=\"152\" width=\"76\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"167\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Mussel</text><rect x=\"34.6\" y=\"42\" width=\"80.8\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Snapper</text><rect x=\"165.4\" y=\"42\" width=\"89.2\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Crayfish</text><rect x=\"279.4\" y=\"42\" width=\"131.2\" height=\"30\" rx=\"7\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"345\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" fill=\"#1f2937\">Oystercatcher</text></svg>",
+      "alt": "Rocky shore food web. Seaweed is eaten by kina and pāua. Phytoplankton is eaten by mussels. Kina are eaten by snapper and crayfish. Pāua are eaten by crayfish. Mussels are eaten by crayfish and oystercatchers."
+    },
+    "prompt": "In some places, overfishing has removed most of the snapper and crayfish. Predict what would happen to the kina, the seaweed and **one** other organism in the food web, and explain your predictions.",
+    "modelAnswer": "The kina population would increase, because snapper and crayfish are their predators, and far fewer kina would be eaten. With more kina grazing on it, the seaweed would decrease. Kina can graze kelp forests down to bare rock (called \"kina barrens\"). Pāua would probably decrease, because there would be less seaweed for them and more kina competing with them for it. (Pāua could also increase at first, because crayfish no longer eat them; either prediction is fine if it is explained.)",
+    "rubric": [
+      {
+        "criterion": "Predicts that kina increase, because fewer of their predators (snapper and crayfish) eat them",
+        "marks": 1
+      },
+      {
+        "criterion": "Predicts that seaweed (kelp) decreases, because more kina graze on it",
+        "marks": 1
+      },
+      {
+        "criterion": "Makes a reasoned prediction for one other organism (e.g. pāua decrease because of less seaweed and more competition from kina, or increase because crayfish no longer eat them; mussels increase because crayfish no longer eat them)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What eats kina? What happens to kina if those predators are removed?",
+      "Then follow the arrows down to the seaweed, and across to other organisms linked to the kina, seaweed or crayfish."
+    ],
+    "solution": "Fewer predators → **more kina** → more grazing → **less seaweed** → less food for other grazers such as pāua. This chain of effects through a food web is why marine reserves, where snapper and crayfish are protected, often have healthier kelp forests."
+  },
+  {
+    "id": "s9.bio.ecosystems.q032",
+    "type": "match",
+    "difficulty": 3,
+    "prompt": "Match each role in a forest ecosystem to a New Zealand example.",
+    "pairs": [
+      {
+        "left": {
+          "id": "prod",
+          "text": "Producer"
+        },
+        "right": {
+          "id": "rimu",
+          "text": "Rimu tree"
+        }
+      },
+      {
+        "left": {
+          "id": "prim",
+          "text": "Primary consumer (herbivore)"
+        },
+        "right": {
+          "id": "kereru",
+          "text": "Kererū, which eats fruit, leaves and flowers"
+        }
+      },
+      {
+        "left": {
+          "id": "sec",
+          "text": "Carnivore (secondary consumer)"
+        },
+        "right": {
+          "id": "ruru",
+          "text": "Ruru (morepork), which eats insects such as wētā"
+        }
+      },
+      {
+        "left": {
+          "id": "omni",
+          "text": "Omnivore"
+        },
+        "right": {
+          "id": "rat",
+          "text": "Ship rat, which eats seeds, fruit, insects and eggs"
+        }
+      },
+      {
+        "left": {
+          "id": "decomp",
+          "text": "Decomposer"
+        },
+        "right": {
+          "id": "fungus",
+          "text": "Bracket fungus on a dead log"
+        }
+      }
+    ],
+    "hints": [
+      "Producers make their own food. Decomposers feed on dead material.",
+      "An omnivore eats both plants and animals."
+    ],
+    "solution": "- Producer: rimu (photosynthesises)\n- Primary consumer: kererū (eats fruit and leaves)\n- Secondary consumer: ruru (eats insects, which are consumers)\n- Omnivore: ship rat (eats plants and animals)\n- Decomposer: bracket fungus (breaks down dead wood)"
+  },
+  {
+    "id": "s9.bio.ecosystems.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Many New Zealand farmers sow clover in their pastures. How does clover help the soil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bacteria in lumps on its roots turn nitrogen gas into usable compounds"
+      },
+      {
+        "id": "b",
+        "text": "Clover absorbs nitrogen gas through its leaves and stores it in soil"
+      },
+      {
+        "id": "c",
+        "text": "Clover releases extra oxygen into the soil during the night"
+      },
+      {
+        "id": "d",
+        "text": "Clover's roots break down dead animals, adding nutrients to soil"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plants cannot use nitrogen gas themselves. Nitrogen-fixing bacteria in the root nodules do the work.",
+      "c": "Plants don't give out oxygen at night, because they can only respire in the dark. And oxygen isn't the nutrient that clover adds.",
+      "d": "Breaking down dead material is the job of decomposers, not clover roots."
+    },
+    "hints": [
+      "Clover roots have small lumps (nodules) with bacteria living in them."
+    ],
+    "solution": "Clover has **nitrogen-fixing bacteria** in nodules on its roots. They turn nitrogen gas from the air into **nitrogen compounds** that the clover uses to make proteins. When clover roots and leaves die and decay, this nitrogen ends up in the soil (as nitrates) for other plants, such as grass, so farmers need less fertiliser."
+  },
+  {
+    "id": "s9.bio.ecosystems.q034",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these in order to show how the nitrogen in a dead leaf can end up in a new plant.",
+    "items": [
+      {
+        "id": "fall",
+        "text": "A leaf falls from a tree and dies"
+      },
+      {
+        "id": "decomp",
+        "text": "Decomposers break down the proteins in the dead leaf"
+      },
+      {
+        "id": "nitrate",
+        "text": "Bacteria in the soil turn the nitrogen compounds into nitrates"
+      },
+      {
+        "id": "roots",
+        "text": "Plant roots take in the nitrates from the soil"
+      },
+      {
+        "id": "protein",
+        "text": "The plant uses the nitrogen to make new proteins"
+      }
+    ],
+    "hints": [
+      "Before anything can be reused, the dead leaf has to be broken down.",
+      "Plants take in nitrogen as nitrates, through their roots."
+    ],
+    "solution": "Dead leaf → **decomposers** break down its proteins → soil **bacteria** make **nitrates** → **roots** absorb the nitrates → the plant makes new **proteins**. This is part of the nitrogen cycle."
+  },
+  {
+    "id": "s9.bio.ecosystems.q035",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Brushtail possums were brought from Australia in the 1800s to start a fur trade. Why did their population grow so large in New Zealand?",
+    "options": [
+      {
+        "id": "a",
+        "text": "There was plenty of food, and they had no natural predators or diseases here"
+      },
+      {
+        "id": "b",
+        "text": "New Zealand is colder than Australia, so possums breed much faster here"
+      },
+      {
+        "id": "c",
+        "text": "Native birds brought food to the possums' nests and fed their young"
+      },
+      {
+        "id": "d",
+        "text": "Possums can make their own food, so they never run short of it"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Cold weather doesn't make possums breed faster. The big factors were plenty of food and no predators.",
+      "c": "Native birds don't feed possums. In fact, possums eat birds' eggs and chicks.",
+      "d": "Possums are consumers. They eat leaves, flowers and fruit, and sometimes eggs and chicks."
+    },
+    "hints": [
+      "What usually keeps a population from growing too large?"
+    ],
+    "solution": "A population is usually kept in check by limited food, predators and disease. In New Zealand, possums found plenty of food (native trees that had never been browsed by possums), and there were **no natural predators or diseases** to control them, so their numbers exploded."
+  },
+  {
+    "id": "s9.bio.ecosystems.q036",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Describe what the maramataka is, and explain how it is an example of observing patterns in the environment.",
+    "modelAnswer": "The maramataka is the Māori lunar calendar. It is based on the phases of the moon, and each night of the moon's cycle has its own name. It was built up over many generations by carefully observing patterns in nature, such as the moon, the tides, the weather, and the behaviour of plants, fish and birds, and noticing how they change together. People use it to choose good times for planting, harvesting and fishing. Maramataka differ between iwi and regions, because they are based on local observations.",
+    "rubric": [
+      {
+        "criterion": "Describes the maramataka as a Māori calendar based on the phases of the moon (e.g. used to choose good times to plant, harvest or fish)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that it is based on careful observation of patterns in nature (e.g. the moon, tides, plants, fish and birds) over many generations",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "The word 'marama' means moon.",
+      "How was the knowledge in the maramataka built up, and what is it used for?"
+    ],
+    "solution": "The **maramataka** is a Māori **lunar calendar** that comes from generations of **careful observation** of the moon and of patterns in nature. It guides when to plant, harvest and fish, and it varies from place to place."
+  },
+  {
+    "id": "s9.bio.ecosystems.q037",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.bio.ecosystems.g2",
+    "part": "a",
+    "stem": "A community group in Wellington traps rats in a reserve. Each year, they record how many rats are caught per 100 traps. They also do 5-minute bird counts to see how many tūī there are.\n\n| Year | Rats caught per 100 traps | Average number of tūī seen per 5-minute count |\n|---|---|---|\n| 2019 | 40 | 2.0 |\n| 2020 | 30 | 2.6 |\n| 2021 | 18 | 3.3 |\n| 2022 | 12 | 3.9 |\n| 2023 | 8 | 4.5 |",
+    "prompt": "This group is part of Predator Free 2050. What is the aim of Predator Free 2050?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To remove introduced predators such as possums, rats and stoats from the whole country"
+      },
+      {
+        "id": "b",
+        "text": "To remove every introduced species, including pets and farm animals"
+      },
+      {
+        "id": "c",
+        "text": "To remove all predators, including native ones such as ruru and kārearea"
+      },
+      {
+        "id": "d",
+        "text": "To build a predator-proof fence around every native forest"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Predator Free 2050 targets only a few introduced predators, mainly possums, rats and mustelids (stoats, ferrets and weasels). Pets and farm animals aren't targets.",
+      "c": "Native predators such as ruru (morepork) and kārearea (falcon) belong in our ecosystems and are protected. Only some introduced predators are targeted.",
+      "d": "Predator-proof fences protect some sanctuaries, such as Zealandia in Wellington, but the goal is to remove the pests from the whole country."
+    },
+    "hints": [
+      "The aim is about introduced predators that kill native wildlife."
+    ],
+    "solution": "**Predator Free 2050** aims to remove introduced predators, mainly **possums, rats and mustelids** (stoats, ferrets and weasels), from all of New Zealand by 2050. These predators kill millions of native birds, eggs and chicks every year."
+  },
+  {
+    "id": "s9.bio.ecosystems.q038",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "s9.bio.ecosystems.g2",
+    "part": "b",
+    "stem": "A community group in Wellington traps rats in a reserve. Each year, they record how many rats are caught per 100 traps. They also do 5-minute bird counts to see how many tūī there are.\n\n| Year | Rats caught per 100 traps | Average number of tūī seen per 5-minute count |\n|---|---|---|\n| 2019 | 40 | 2.0 |\n| 2020 | 30 | 2.6 |\n| 2021 | 18 | 3.3 |\n| 2022 | 12 | 3.9 |\n| 2023 | 8 | 4.5 |",
+    "prompt": "By what percentage did the number of rats caught per 100 traps **fall** from 2019 to 2023?",
+    "answer": 80,
+    "alternatives": [
+      -80
+    ],
+    "units": "%",
+    "hints": [
+      "First find the fall: 2019 value − 2023 value.",
+      "Percentage fall = fall ÷ 2019 value × 100."
+    ],
+    "solution": "Fall $= 40 - 8 = 32$.\n\n$\\dfrac{32}{40} \\times 100 = 80\\%$, so the number of rats caught fell by **80%**."
+  },
+  {
+    "id": "s9.bio.ecosystems.q039",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.ecosystems.g2",
+    "part": "c",
+    "stem": "A community group in Wellington traps rats in a reserve. Each year, they record how many rats are caught per 100 traps. They also do 5-minute bird counts to see how many tūī there are.\n\n| Year | Rats caught per 100 traps | Average number of tūī seen per 5-minute count |\n|---|---|---|\n| 2019 | 40 | 2.0 |\n| 2020 | 30 | 2.6 |\n| 2021 | 18 | 3.3 |\n| 2022 | 12 | 3.9 |\n| 2023 | 8 | 4.5 |",
+    "prompt": "Explain why the number of tūī could increase as the number of rats falls.",
+    "modelAnswer": "Ship rats climb trees and eat the eggs and chicks of birds such as tūī. They also eat fruit and insects, which tūī feed on too. With fewer rats, more tūī eggs and chicks survive, and there is more food for the birds. More young tūī grow up and breed, so over several years the tūī population increases.",
+    "rubric": [
+      {
+        "criterion": "States that rats are predators of tūī eggs and chicks (or nesting birds)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that with fewer rats, more eggs and chicks survive (or there is less competition for food such as fruit and insects)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that more young survive to breed, so the population grows over the years",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How do rats affect birds? Think about nests.",
+      "Why would the effect build up over several years?"
+    ],
+    "solution": "Rats are **predators** of eggs and chicks and **compete** with birds for food. Fewer rats → more chicks survive → more birds breed → the population grows."
+  },
+  {
+    "id": "s9.bio.ecosystems.q040",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "groupId": "s9.bio.ecosystems.g2",
+    "part": "d",
+    "stem": "A community group in Wellington traps rats in a reserve. Each year, they record how many rats are caught per 100 traps. They also do 5-minute bird counts to see how many tūī there are.\n\n| Year | Rats caught per 100 traps | Average number of tūī seen per 5-minute count |\n|---|---|---|\n| 2019 | 40 | 2.0 |\n| 2020 | 30 | 2.6 |\n| 2021 | 18 | 3.3 |\n| 2022 | 12 | 3.9 |\n| 2023 | 8 | 4.5 |",
+    "prompt": "Hemi says the data **proves** that trapping rats caused the increase in tūī. Which response is best?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Not proven: other things may have changed too. A similar untrapped area should be compared."
+      },
+      {
+        "id": "b",
+        "text": "Proven: when two things change together over time, one of them must be causing the other."
+      },
+      {
+        "id": "c",
+        "text": "Proven: tūī numbers went up every single year, so the trapping must have been the cause."
+      },
+      {
+        "id": "d",
+        "text": "Not proven: rats don't eat birds or their eggs, so they can't have any effect on tūī."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Two things changing together (a correlation) doesn't prove that one causes the other. Something else could be causing the change.",
+      "c": "A steady trend is still only a correlation. Something else, such as more food or fewer stoats, could also have changed.",
+      "d": "Ship rats do eat birds' eggs and chicks, so a link is likely. But the data alone can't prove it."
+    },
+    "hints": [
+      "Could anything else have changed in the reserve between 2019 and 2023?",
+      "What would a fair comparison (a control) look like?"
+    ],
+    "solution": "The data shows a **correlation**: as rat numbers fell, tūī numbers rose. That supports the idea that trapping helped, but it doesn't **prove** it, because other things (food supply, weather, other pests) might also have changed. Comparing with a similar area where nobody trapped (a **control**) would make the evidence much stronger."
+  },
+  {
+    "id": "s9.bio.ecosystems.q041",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "In South Island beech forests, tiny scale insects on the tree trunks produce a sugary liquid called honeydew. Kākā, tūī and korimako (bellbirds) feed on honeydew. Introduced wasps now take most of it in late summer. What is the most likely effect on the kākā population?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kākā have less honeydew to eat, so fewer of them may survive and breed"
+      },
+      {
+        "id": "b",
+        "text": "Kākā numbers increase, because the wasps become extra food for them"
+      },
+      {
+        "id": "c",
+        "text": "There is no effect, because wasps are insects and kākā are birds"
+      },
+      {
+        "id": "d",
+        "text": "Kākā numbers increase, because the wasps pollinate the beech trees"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Kākā do not depend on wasps for food, and the wasps are taking away one of their most important energy-rich foods.",
+      "c": "Very different animals can still compete for the same food. Here, both want the honeydew.",
+      "d": "Beech trees are pollinated by the wind, not by wasps. The wasps are simply taking the birds' food."
+    },
+    "hints": [
+      "Wasps and kākā both want the same food. What is that relationship called?"
+    ],
+    "solution": "The wasps and kākā **compete** for honeydew. When wasps take most of it, there is less energy-rich food for kākā (and tūī and bellbirds), so fewer may survive and raise chicks. Wasps also eat many of the insects that native birds feed on."
+  },
+  {
+    "id": "s9.bio.ecosystems.q042",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Brushtail possums mainly eat leaves. Explain why removing possums from a forest can still help native birds such as kererū and tūī.",
+    "modelAnswer": "Possums compete with native birds for food: as well as leaves, they eat flowers, fruit and nectar that kererū and tūī rely on. Possums are also predators: they eat birds' eggs and chicks. By browsing heavily on trees, possums can damage or even kill them, which reduces the food and nesting places available for birds. Removing possums means more food, safer nests and a healthier forest, so more birds survive and breed.",
+    "rubric": [
+      {
+        "criterion": "Explains competition: possums eat flowers, fruit or nectar that the birds also need",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains predation: possums eat birds' eggs and chicks",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains habitat damage: browsing damages or kills trees, reducing food and nesting sites",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Possums mainly eat leaves, but not only leaves.",
+      "Think about competition, predation and damage to the forest."
+    ],
+    "solution": "Possums harm birds in three ways: **competition** for food, **predation** on eggs and chicks, and **damage to the forest** that birds need for food and nesting."
+  },
+  {
+    "id": "s9.bio.ecosystems.q043",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Students want to estimate how many limpets live on a rock platform with an area of 50 m². They place five quadrats, each with an area of 0.25 m², and count the limpets in each one: 6, 9, 4, 7 and 9. Estimate the total number of limpets on the rock platform.",
+    "answer": 1400,
+    "hints": [
+      "First find the mean number of limpets per quadrat.",
+      "How many quadrats of 0.25 m² fit into 1 m²? Into 50 m²?"
+    ],
+    "solution": "Mean per quadrat $= (6 + 9 + 4 + 7 + 9) \\div 5 = 35 \\div 5 = 7$ limpets per 0.25 m².\n\nPer square metre: $7 \\times 4 = 28$ limpets.\n\nWhole platform: $28 \\times 50 = 1400$ limpets."
+  },
+  {
+    "id": "s9.bio.ecosystems.q044",
+    "type": "match",
+    "difficulty": 2,
+    "groupId": "s9.bio.ecosystems.g3",
+    "part": "a",
+    "stem": "The diagram shows the water cycle near the coast. Labels A, C, D and E are on arrows that show processes. Label B marks the process that forms the cloud.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" width=\"440\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"wa\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1d4ed8\"/></marker></defs><path d=\"M0,236 Q20,228 40,236 T80,236 T120,236 T160,236 L178,236 L178,300 L0,300 Z\" fill=\"#93c5fd\"/><path d=\"M150,300 L168,238 Q230,222 290,172 Q330,142 370,150 Q410,158 440,150 L440,300 Z\" fill=\"#d9f99d\" stroke=\"#65a30d\" stroke-width=\"1.5\"/><rect x=\"297\" y=\"150\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"300\" cy=\"140\" r=\"14\" fill=\"#16a34a\"/><rect x=\"333\" y=\"134\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"336\" cy=\"124\" r=\"14\" fill=\"#16a34a\"/><rect x=\"369\" y=\"136\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"372\" cy=\"126\" r=\"14\" fill=\"#16a34a\"/><rect x=\"405\" y=\"138\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"408\" cy=\"128\" r=\"14\" fill=\"#16a34a\"/><ellipse cx=\"226\" cy=\"70\" rx=\"52\" ry=\"17\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"202\" cy=\"60\" r=\"20\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"230\" cy=\"50\" r=\"25\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"256\" cy=\"62\" r=\"18\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><ellipse cx=\"228\" cy=\"72\" rx=\"48\" ry=\"12\" fill=\"#e5e7eb\"/><line x1=\"204\" y1=\"96\" x2=\"198\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"202\" y1=\"128\" x2=\"196\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"218\" y1=\"96\" x2=\"212\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"216\" y1=\"128\" x2=\"210\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"232\" y1=\"96\" x2=\"226\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"128\" x2=\"224\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"246\" y1=\"96\" x2=\"240\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"244\" y1=\"128\" x2=\"238\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"92\" y1=\"226\" x2=\"168\" y2=\"98\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\" marker-end=\"url(#wa)\"/><line x1=\"240\" y1=\"152\" x2=\"240\" y2=\"200\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" marker-end=\"url(#wa)\"/><line x1=\"330\" y1=\"112\" x2=\"276\" y2=\"80\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\" marker-end=\"url(#wa)\"/><path d=\"M262,206 Q222,226 184,236\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" marker-end=\"url(#wa)\"/><circle cx=\"108\" cy=\"150\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"108\" y=\"156\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"292\" y1=\"34\" x2=\"258\" y2=\"48\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"305\" cy=\"30\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"305\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"214\" cy=\"178\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"214\" y=\"184\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"318\" cy=\"82\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"318\" y=\"88\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"212\" cy=\"254\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"260\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Water cycle diagram with the sea on the left, forested land on the right and a cloud above. Arrow A rises from the sea towards the cloud. Label B points to the cloud. Arrow C points down from the rain falling out of the cloud onto the land. Arrow D rises from the trees towards the cloud. Arrow E runs down the land surface into the sea."
+    },
+    "prompt": "Match each label to the process it shows.",
+    "pairs": [
+      {
+        "left": {
+          "id": "A",
+          "text": "A"
+        },
+        "right": {
+          "id": "evap",
+          "text": "Evaporation"
+        }
+      },
+      {
+        "left": {
+          "id": "B",
+          "text": "B"
+        },
+        "right": {
+          "id": "cond",
+          "text": "Condensation"
+        }
+      },
+      {
+        "left": {
+          "id": "C",
+          "text": "C"
+        },
+        "right": {
+          "id": "prec",
+          "text": "Precipitation"
+        }
+      },
+      {
+        "left": {
+          "id": "D",
+          "text": "D"
+        },
+        "right": {
+          "id": "trans",
+          "text": "Transpiration"
+        }
+      },
+      {
+        "left": {
+          "id": "E",
+          "text": "E"
+        },
+        "right": {
+          "id": "run",
+          "text": "Run-off"
+        }
+      }
+    ],
+    "hints": [
+      "Two of the processes put water vapour into the air: one from the sea, one from plants.",
+      "Clouds form when water vapour cools and turns back into tiny droplets."
+    ],
+    "solution": "- **A: evaporation**: water from the sea turns into water vapour.\n- **B: condensation**: water vapour cools to form cloud droplets.\n- **C: precipitation**: rain falls from the cloud.\n- **D: transpiration**: plants release water vapour from their leaves.\n- **E: run-off**: water flows over the land back to the sea."
+  },
+  {
+    "id": "s9.bio.ecosystems.q045",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.ecosystems.g3",
+    "part": "b",
+    "stem": "The diagram shows the water cycle near the coast. Labels A, C, D and E are on arrows that show processes. Label B marks the process that forms the cloud.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" width=\"440\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"wa\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1d4ed8\"/></marker></defs><path d=\"M0,236 Q20,228 40,236 T80,236 T120,236 T160,236 L178,236 L178,300 L0,300 Z\" fill=\"#93c5fd\"/><path d=\"M150,300 L168,238 Q230,222 290,172 Q330,142 370,150 Q410,158 440,150 L440,300 Z\" fill=\"#d9f99d\" stroke=\"#65a30d\" stroke-width=\"1.5\"/><rect x=\"297\" y=\"150\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"300\" cy=\"140\" r=\"14\" fill=\"#16a34a\"/><rect x=\"333\" y=\"134\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"336\" cy=\"124\" r=\"14\" fill=\"#16a34a\"/><rect x=\"369\" y=\"136\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"372\" cy=\"126\" r=\"14\" fill=\"#16a34a\"/><rect x=\"405\" y=\"138\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"408\" cy=\"128\" r=\"14\" fill=\"#16a34a\"/><ellipse cx=\"226\" cy=\"70\" rx=\"52\" ry=\"17\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"202\" cy=\"60\" r=\"20\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"230\" cy=\"50\" r=\"25\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"256\" cy=\"62\" r=\"18\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><ellipse cx=\"228\" cy=\"72\" rx=\"48\" ry=\"12\" fill=\"#e5e7eb\"/><line x1=\"204\" y1=\"96\" x2=\"198\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"202\" y1=\"128\" x2=\"196\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"218\" y1=\"96\" x2=\"212\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"216\" y1=\"128\" x2=\"210\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"232\" y1=\"96\" x2=\"226\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"128\" x2=\"224\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"246\" y1=\"96\" x2=\"240\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"244\" y1=\"128\" x2=\"238\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"92\" y1=\"226\" x2=\"168\" y2=\"98\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\" marker-end=\"url(#wa)\"/><line x1=\"240\" y1=\"152\" x2=\"240\" y2=\"200\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" marker-end=\"url(#wa)\"/><line x1=\"330\" y1=\"112\" x2=\"276\" y2=\"80\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\" marker-end=\"url(#wa)\"/><path d=\"M262,206 Q222,226 184,236\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" marker-end=\"url(#wa)\"/><circle cx=\"108\" cy=\"150\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"108\" y=\"156\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"292\" y1=\"34\" x2=\"258\" y2=\"48\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"305\" cy=\"30\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"305\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"214\" cy=\"178\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"214\" y=\"184\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"318\" cy=\"82\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"318\" y=\"88\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"212\" cy=\"254\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"260\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Water cycle diagram with the sea on the left, forested land on the right and a cloud above. Arrow A rises from the sea towards the cloud. Label B points to the cloud. Arrow C points down from the rain falling out of the cloud onto the land. Arrow D rises from the trees towards the cloud. Arrow E runs down the land surface into the sea."
+    },
+    "prompt": "Which process in the diagram is carried out by **living things**?",
+    "options": [
+      {
+        "id": "d",
+        "text": "D: transpiration"
+      },
+      {
+        "id": "a",
+        "text": "A: evaporation"
+      },
+      {
+        "id": "c",
+        "text": "C: precipitation"
+      },
+      {
+        "id": "e",
+        "text": "E: run-off"
+      }
+    ],
+    "correct": "d",
+    "feedback": {
+      "a": "Evaporation from the sea is caused by the Sun heating the water. No living things are needed.",
+      "c": "Rain falls from clouds when the droplets get big and heavy. No living things are involved.",
+      "e": "Run-off is water flowing downhill over the land, pulled by gravity."
+    },
+    "hints": [
+      "Which arrow starts at the trees?"
+    ],
+    "solution": "**Transpiration (D)** is carried out by plants: water moves up through them in the xylem and evaporates from their leaves through the stomata. A forest returns a huge amount of water vapour to the air this way."
+  },
+  {
+    "id": "s9.bio.ecosystems.q046",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.ecosystems.g3",
+    "part": "c",
+    "stem": "The diagram shows the water cycle near the coast. Labels A, C, D and E are on arrows that show processes. Label B marks the process that forms the cloud.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" width=\"440\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><marker id=\"wa\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1d4ed8\"/></marker></defs><path d=\"M0,236 Q20,228 40,236 T80,236 T120,236 T160,236 L178,236 L178,300 L0,300 Z\" fill=\"#93c5fd\"/><path d=\"M150,300 L168,238 Q230,222 290,172 Q330,142 370,150 Q410,158 440,150 L440,300 Z\" fill=\"#d9f99d\" stroke=\"#65a30d\" stroke-width=\"1.5\"/><rect x=\"297\" y=\"150\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"300\" cy=\"140\" r=\"14\" fill=\"#16a34a\"/><rect x=\"333\" y=\"134\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"336\" cy=\"124\" r=\"14\" fill=\"#16a34a\"/><rect x=\"369\" y=\"136\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"372\" cy=\"126\" r=\"14\" fill=\"#16a34a\"/><rect x=\"405\" y=\"138\" width=\"6\" height=\"18\" fill=\"#92400e\"/><circle cx=\"408\" cy=\"128\" r=\"14\" fill=\"#16a34a\"/><ellipse cx=\"226\" cy=\"70\" rx=\"52\" ry=\"17\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"202\" cy=\"60\" r=\"20\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"230\" cy=\"50\" r=\"25\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><circle cx=\"256\" cy=\"62\" r=\"18\" fill=\"#e5e7eb\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><ellipse cx=\"228\" cy=\"72\" rx=\"48\" ry=\"12\" fill=\"#e5e7eb\"/><line x1=\"204\" y1=\"96\" x2=\"198\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"202\" y1=\"128\" x2=\"196\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"218\" y1=\"96\" x2=\"212\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"216\" y1=\"128\" x2=\"210\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"232\" y1=\"96\" x2=\"226\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"128\" x2=\"224\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"246\" y1=\"96\" x2=\"240\" y2=\"118\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"244\" y1=\"128\" x2=\"238\" y2=\"150\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><line x1=\"92\" y1=\"226\" x2=\"168\" y2=\"98\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\" marker-end=\"url(#wa)\"/><line x1=\"240\" y1=\"152\" x2=\"240\" y2=\"200\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" marker-end=\"url(#wa)\"/><line x1=\"330\" y1=\"112\" x2=\"276\" y2=\"80\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\" marker-end=\"url(#wa)\"/><path d=\"M262,206 Q222,226 184,236\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2.5\" marker-end=\"url(#wa)\"/><circle cx=\"108\" cy=\"150\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"108\" y=\"156\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"292\" y1=\"34\" x2=\"258\" y2=\"48\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"305\" cy=\"30\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"305\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"214\" cy=\"178\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"214\" y=\"184\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"318\" cy=\"82\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"318\" y=\"88\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"212\" cy=\"254\" r=\"13\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"260\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Water cycle diagram with the sea on the left, forested land on the right and a cloud above. Arrow A rises from the sea towards the cloud. Label B points to the cloud. Arrow C points down from the rain falling out of the cloud onto the land. Arrow D rises from the trees towards the cloud. Arrow E runs down the land surface into the sea."
+    },
+    "prompt": "Explain how clearing a large area of forest from the land could affect the water cycle in that area.",
+    "modelAnswer": "With far fewer trees, there is much less transpiration, so less water vapour goes back into the air. That can mean fewer clouds and less rain forming locally, so the area may become drier. Without tree roots and leaf litter to slow the water down and soak it up, more rain runs straight off the surface instead of soaking into the ground. This can cause flooding and erosion, and it washes soil (sediment) into streams and the sea.",
+    "rubric": [
+      {
+        "criterion": "States that fewer trees means less transpiration, so less water vapour is returned to the air",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that this can mean less cloud and rain locally (drier conditions)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that more rain runs off the surface instead of soaking in, causing flooding, erosion or sediment in waterways",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which process in the diagram depends on trees?",
+      "What happens to rain when it falls on bare ground instead of a forest?"
+    ],
+    "solution": "Clearing forest → **less transpiration** (less water vapour, possibly less local rain) and **more run-off** (more flooding, erosion and sediment washed into rivers and the sea)."
+  },
+  {
+    "id": "s9.bio.ecosystems.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "In a food chain, only about 10% of the energy at one level is passed on to the next level. In the food chain kelp → kina → snapper, the kelp captures 50 000 kJ of energy from sunlight. About how much of this energy reaches the snapper?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 500 kJ"
+      },
+      {
+        "id": "b",
+        "text": "About 5000 kJ"
+      },
+      {
+        "id": "c",
+        "text": "About 50 000 kJ"
+      },
+      {
+        "id": "d",
+        "text": "About 50 kJ"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is how much reaches the kina. About 90% more is lost between the kina and the snapper.",
+      "c": "Energy is not all passed on: at each step, most is used for life processes or lost as heat.",
+      "d": "There are only two steps in this chain (kelp → kina and kina → snapper), so take 10% twice, not three times."
+    },
+    "hints": [
+      "How many arrows (energy transfers) are there in this food chain?",
+      "Take 10% for each arrow."
+    ],
+    "solution": "Kelp → kina: 10% of 50 000 kJ $= 5000$ kJ.\n\nKina → snapper: 10% of 5000 kJ $= 500$ kJ.\n\nAbout **500 kJ** reaches the snapper. The rest is used by each organism for life processes, such as respiration and movement, or is lost as heat and in waste."
+  },
+  {
+    "id": "s9.bio.ecosystems.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 4,
+    "prompt": "Most kākāpō live on a few offshore islands, such as Whenua Hou (Codfish Island), that are kept free of introduced predators. Discuss the advantages and disadvantages of protecting kākāpō in this way.",
+    "modelAnswer": "Advantages: the islands have no stoats, cats or rats, so adult kākāpō, eggs and chicks are much safer, and more of them survive to breed. Because the birds are in a few small places, rangers can keep track of every bird, check nests and give extra food, which has helped the population to grow.\n\nDisadvantages: the islands are small, so there is limited space and food, and the population can only grow so far before the islands are full. Having all the birds in a few places is also risky: a disease outbreak, a fire, or a predator reaching the island (for example, a rat on a boat) could harm a large part of the whole population at once. The islands must be checked all the time to keep them pest-free, which is expensive.\n\nOverall, island sanctuaries have saved kākāpō from extinction, but in the long term kākāpō need more safe places to live.",
+    "rubric": [
+      {
+        "criterion": "Explains an advantage: no introduced predators, so adults, eggs and chicks survive and breed",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains a second advantage (e.g. birds are easy to monitor, nests can be protected, extra food can be given)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains a disadvantage (e.g. limited space and food limits how large the population can grow)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains a second disadvantage (e.g. disease, fire or a pest arriving could affect most of the population at once; keeping islands pest-free is costly)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Why are islands safer than the mainland for kākāpō?",
+      "What could go wrong if almost all of a species lives in only a few small places?"
+    ],
+    "solution": "A good answer weighs both sides: islands give **safety from introduced predators** and make **intensive care** possible, but they have **limited space** and put the species at **risk from a single disaster**, such as disease or a pest getting onto the island."
   }
 ]

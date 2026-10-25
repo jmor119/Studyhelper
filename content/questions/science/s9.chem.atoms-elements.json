@@ -388,5 +388,467 @@
     },
     "hints": ["Look for two patterns going down the group: the state at room temperature, and the colour."],
     "solution": "Going down Group 17, the halogens change from gas to liquid to solid, and their colour gets darker. Following both patterns, astatine should be a **very dark solid**. (It is so radioactive and rare that nobody has ever collected enough to look at, so this is a prediction from the pattern.)"
+  },
+  {
+    "id": "s9.chem.atoms-elements.q026",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.atoms-elements.g1",
+    "part": "a",
+    "stem": "The diagram shows the first four periods of the periodic table. Six elements are marked with the letters A to F. (The letters are **not** the chemical symbols of the elements.)",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 160\" width=\"410\" height=\"160\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"14\" y=\"16\" font-size=\"11\" fill=\"#1f2937\">Group</text><text x=\"50\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">1</text><text x=\"70\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">2</text><text x=\"90\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">3</text><text x=\"110\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">4</text><text x=\"130\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">5</text><text x=\"150\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">6</text><text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">7</text><text x=\"190\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">8</text><text x=\"210\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">9</text><text x=\"230\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">10</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">11</text><text x=\"270\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">12</text><text x=\"290\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">13</text><text x=\"310\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">14</text><text x=\"330\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">15</text><text x=\"350\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">16</text><text x=\"370\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">17</text><text x=\"390\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">18</text><text x=\"6\" y=\"150\" font-size=\"11\" fill=\"#1f2937\">Period</text><text x=\"30\" y=\"50\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">1</text><rect x=\"40\" y=\"34\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"34\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"74\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">2</text><rect x=\"40\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"50\" y=\"75\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"60\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"360\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"390\" y=\"75\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">F</text><text x=\"30\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">3</text><rect x=\"40\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"60\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"350\" y=\"99\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text><rect x=\"360\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"370\" y=\"99\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">E</text><rect x=\"380\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"122\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">4</text><rect x=\"40\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"50\" y=\"123\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"60\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"80\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"100\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"120\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"140\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"160\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"180\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"190\" y=\"123\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"200\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"220\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"240\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"260\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"360\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/></svg>",
+      "alt": "Outline of the first four periods of the periodic table, groups 1 to 18. A is in Period 2, Group 1. B is in Period 4, Group 1. C is in Period 4, Group 8. D is in Period 3, Group 16. E is in Period 3, Group 17. F is in Period 2, Group 18."
+    },
+    "prompt": "Which two elements would you expect to have the most similar **chemical properties**?",
+    "options": [
+      { "id": "a", "text": "A and B" },
+      { "id": "b", "text": "D and E" },
+      { "id": "c", "text": "A and F" },
+      { "id": "d", "text": "B and C" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "D and E are next to each other in the same period, but elements in a period change a lot as you go across.",
+      "c": "A and F are in the same period, at opposite ends. A is a reactive metal and F is an unreactive gas.",
+      "d": "B and C are in the same period, not the same group."
+    },
+    "hints": ["Elements with similar chemical properties are in the same column."],
+    "solution": "**A and B** are both in Group 1 (the same column), so they have similar chemical properties. They are both reactive metals. Elements in the same row (period) are not alike."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q027",
+    "type": "multi",
+    "difficulty": 3,
+    "groupId": "s9.chem.atoms-elements.g1",
+    "part": "b",
+    "stem": "The diagram shows the first four periods of the periodic table. Six elements are marked with the letters A to F. (The letters are **not** the chemical symbols of the elements.)",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 160\" width=\"410\" height=\"160\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"14\" y=\"16\" font-size=\"11\" fill=\"#1f2937\">Group</text><text x=\"50\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">1</text><text x=\"70\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">2</text><text x=\"90\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">3</text><text x=\"110\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">4</text><text x=\"130\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">5</text><text x=\"150\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">6</text><text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">7</text><text x=\"190\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">8</text><text x=\"210\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">9</text><text x=\"230\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">10</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">11</text><text x=\"270\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">12</text><text x=\"290\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">13</text><text x=\"310\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">14</text><text x=\"330\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">15</text><text x=\"350\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">16</text><text x=\"370\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">17</text><text x=\"390\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">18</text><text x=\"6\" y=\"150\" font-size=\"11\" fill=\"#1f2937\">Period</text><text x=\"30\" y=\"50\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">1</text><rect x=\"40\" y=\"34\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"34\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"74\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">2</text><rect x=\"40\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"50\" y=\"75\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"60\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"360\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"390\" y=\"75\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">F</text><text x=\"30\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">3</text><rect x=\"40\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"60\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"350\" y=\"99\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text><rect x=\"360\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"370\" y=\"99\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">E</text><rect x=\"380\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"122\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">4</text><rect x=\"40\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"50\" y=\"123\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"60\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"80\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"100\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"120\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"140\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"160\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"180\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"190\" y=\"123\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"200\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"220\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"240\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"260\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"360\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/></svg>",
+      "alt": "Outline of the first four periods of the periodic table, groups 1 to 18. A is in Period 2, Group 1. B is in Period 4, Group 1. C is in Period 4, Group 8. D is in Period 3, Group 16. E is in Period 3, Group 17. F is in Period 2, Group 18."
+    },
+    "prompt": "Which of the elements are **metals**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "A" },
+      { "id": "b", "text": "B" },
+      { "id": "c", "text": "C" },
+      { "id": "d", "text": "D" },
+      { "id": "e", "text": "E" },
+      { "id": "f", "text": "F" }
+    ],
+    "correct": ["a", "b", "c"],
+    "shuffle": false,
+    "hints": ["Metals are on the left and in the centre of the periodic table. Non-metals are on the right."],
+    "solution": "**A and B** (Group 1) and **C** (in the centre, among the transition metals) are metals. D, E and F are on the right-hand side, so they are non-metals."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q028",
+    "type": "cloze",
+    "difficulty": 3,
+    "groupId": "s9.chem.atoms-elements.g1",
+    "part": "c",
+    "stem": "The diagram shows the first four periods of the periodic table. Six elements are marked with the letters A to F. (The letters are **not** the chemical symbols of the elements.)",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 160\" width=\"410\" height=\"160\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"14\" y=\"16\" font-size=\"11\" fill=\"#1f2937\">Group</text><text x=\"50\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">1</text><text x=\"70\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">2</text><text x=\"90\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">3</text><text x=\"110\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">4</text><text x=\"130\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">5</text><text x=\"150\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">6</text><text x=\"170\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">7</text><text x=\"190\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">8</text><text x=\"210\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">9</text><text x=\"230\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">10</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">11</text><text x=\"270\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">12</text><text x=\"290\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">13</text><text x=\"310\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">14</text><text x=\"330\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">15</text><text x=\"350\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">16</text><text x=\"370\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">17</text><text x=\"390\" y=\"28\" text-anchor=\"middle\" font-size=\"10\" fill=\"#1f2937\">18</text><text x=\"6\" y=\"150\" font-size=\"11\" fill=\"#1f2937\">Period</text><text x=\"30\" y=\"50\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">1</text><rect x=\"40\" y=\"34\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"34\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"74\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">2</text><rect x=\"40\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"50\" y=\"75\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><rect x=\"60\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"360\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"58\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"390\" y=\"75\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">F</text><text x=\"30\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">3</text><rect x=\"40\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"60\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"350\" y=\"99\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text><rect x=\"360\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"370\" y=\"99\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">E</text><rect x=\"380\" y=\"82\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"122\" text-anchor=\"middle\" font-size=\"11\" fill=\"#1f2937\">4</text><rect x=\"40\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"50\" y=\"123\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><rect x=\"60\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"80\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"100\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"120\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"140\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"160\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"180\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"190\" y=\"123\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"200\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"220\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"240\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"260\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"280\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"300\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"320\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"340\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"360\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"380\" y=\"106\" width=\"20\" height=\"24\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/></svg>",
+      "alt": "Outline of the first four periods of the periodic table, groups 1 to 18. A is in Period 2, Group 1. B is in Period 4, Group 1. C is in Period 4, Group 8. D is in Period 3, Group 16. E is in Period 3, Group 17. F is in Period 2, Group 18."
+    },
+    "prompt": "Element E is one of the [[a]]. Element F is one of the [[b]]. Element D is in Period [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["halogens"], "options": ["alkali metals", "halogens", "noble gases", "transition metals"] },
+      { "id": "b", "accepted": ["noble gases"], "options": ["alkali metals", "halogens", "noble gases", "transition metals"] },
+      { "id": "c", "accepted": ["3"], "options": ["2", "3", "4", "16"] }
+    ],
+    "hints": ["Group 17 and Group 18 each have a special name.", "Periods are the rows. Count down from the top."],
+    "solution": "E is in Group 17, so it is one of the **halogens**. F is in Group 18, so it is one of the **noble gases**. D is in the third row, so it is in Period **3** (it is in Group 16)."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q029",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.atoms-elements.g2",
+    "part": "a",
+    "stem": "A teacher drops a small piece of lithium, sodium and potassium into three separate troughs of water. Each trough contains a few drops of universal indicator, which starts off green.\n\n| Metal | Melting point (°C) | Observations |\n|---|---|---|\n| Lithium | 181 | Fizzes steadily and moves slowly around the surface. It stays solid. |\n| Sodium | 98 | Melts into a shiny ball that whizzes around the surface, fizzing. |\n| Potassium | 63 | Melts, whizzes around and bursts into a lilac flame. |\n\nIn all three troughs, the indicator turns from green to purple.",
+    "prompt": "The fizzing shows that a gas is being made. Which gas is it?",
+    "options": [
+      { "id": "a", "text": "Hydrogen" },
+      { "id": "b", "text": "Oxygen" },
+      { "id": "c", "text": "Carbon dioxide" },
+      { "id": "d", "text": "Water vapour from the water boiling" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The oxygen from the water ends up in the metal hydroxide that dissolves. Oxygen would relight a glowing splint, but this gas gives a squeaky pop with a lit splint.",
+      "c": "There is no carbon in the metal or the water, so carbon dioxide cannot be made.",
+      "d": "The bubbles are a new substance made by the reaction, not steam. The water in the trough is nowhere near boiling."
+    },
+    "hints": ["Water contains hydrogen and oxygen. Group 1 metals push one of these out as a gas."],
+    "solution": "Group 1 metals react with water to make **hydrogen** gas and a metal hydroxide. For example: sodium + water → sodium hydroxide + hydrogen. Hydrogen gives a squeaky pop with a lit splint."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.chem.atoms-elements.g2",
+    "part": "b",
+    "stem": "A teacher drops a small piece of lithium, sodium and potassium into three separate troughs of water. Each trough contains a few drops of universal indicator, which starts off green.\n\n| Metal | Melting point (°C) | Observations |\n|---|---|---|\n| Lithium | 181 | Fizzes steadily and moves slowly around the surface. It stays solid. |\n| Sodium | 98 | Melts into a shiny ball that whizzes around the surface, fizzing. |\n| Potassium | 63 | Melts, whizzes around and bursts into a lilac flame. |\n\nIn all three troughs, the indicator turns from green to purple.",
+    "prompt": "What does the universal indicator turning from green to purple tell you?",
+    "options": [
+      { "id": "a", "text": "An alkali (a metal hydroxide) has formed in the water" },
+      { "id": "b", "text": "An acid has formed in the water" },
+      { "id": "c", "text": "The water has been neutralised" },
+      { "id": "d", "text": "The indicator has reacted with the hydrogen gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Acids turn universal indicator red, orange or yellow, not purple.",
+      "c": "Green means neutral. The change from green to purple means the solution has become strongly alkaline.",
+      "d": "The hydrogen bubbles away into the air. The indicator colour shows the pH of the solution left behind."
+    },
+    "hints": ["Purple is at the high end of the pH scale."],
+    "solution": "Purple universal indicator means a strongly **alkaline** solution (pH about 13–14). The metals react with water to make metal hydroxides, such as sodium hydroxide, which dissolve to form alkalis. This is why Group 1 is called the alkali metals."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q031",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "groupId": "s9.chem.atoms-elements.g2",
+    "part": "c",
+    "stem": "A teacher drops a small piece of lithium, sodium and potassium into three separate troughs of water. Each trough contains a few drops of universal indicator, which starts off green.\n\n| Metal | Melting point (°C) | Observations |\n|---|---|---|\n| Lithium | 181 | Fizzes steadily and moves slowly around the surface. It stays solid. |\n| Sodium | 98 | Melts into a shiny ball that whizzes around the surface, fizzing. |\n| Potassium | 63 | Melts, whizzes around and bursts into a lilac flame. |\n\nIn all three troughs, the indicator turns from green to purple.",
+    "prompt": "Sodium melts into a ball during its reaction, but lithium stays solid. Use the information in the table to explain why.",
+    "modelAnswer": "The reactions of these metals with water are exothermic: they give out heat. Sodium reacts more vigorously than lithium, so it gives out heat quickly, and its melting point is low (98 °C), so the heat from the reaction is enough to melt it into a ball. Lithium reacts more slowly, so it gives out heat more slowly and more of it is lost to the water, and its melting point is much higher (181 °C), so it never gets hot enough to melt.",
+    "rubric": [
+      { "criterion": "The reactions give out heat (are exothermic)", "marks": 1 },
+      { "criterion": "Sodium reacts faster or more vigorously, and its melting point (98 °C) is low enough for the heat to melt it", "marks": 1 },
+      { "criterion": "Lithium reacts more slowly and has a higher melting point (181 °C), so it does not get hot enough to melt", "marks": 1 }
+    ],
+    "hints": ["Where does the heat that melts the sodium come from?", "Compare both the melting points and how vigorously each metal reacts."],
+    "solution": "Both reactions give out heat. Sodium reacts faster (more heat, more quickly) and melts at only 98 °C, so it melts. Lithium reacts more slowly and needs 181 °C to melt, so it stays solid."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q032",
+    "type": "numeric",
+    "difficulty": 1,
+    "groupId": "s9.chem.atoms-elements.g3",
+    "part": "a",
+    "stem": "The diagram shows a model of one atom of an element.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 230\" width=\"380\" height=\"230\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"130\" cy=\"120\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"130\" cy=\"101\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"130\" y=\"106\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"146.5\" cy=\"110.5\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"146.5\" cy=\"129.5\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"146.5\" y=\"134.5\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"130\" cy=\"139\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"113.5\" cy=\"129.5\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"113.5\" y=\"134.5\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"113.5\" cy=\"110.5\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"50\" cy=\"65\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"50\" y=\"69.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><circle cx=\"205\" cy=\"80\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"205\" y=\"84.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><circle cx=\"140\" cy=\"208\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"140\" y=\"212.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><text x=\"270\" y=\"50\" font-weight=\"bold\" fill=\"#1f2937\">Key</text><circle cx=\"280\" cy=\"75\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"280\" y=\"80\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><text x=\"296\" y=\"80\" fill=\"#1f2937\">proton</text><circle cx=\"280\" cy=\"105\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"296\" y=\"110\" fill=\"#1f2937\">neutron</text><circle cx=\"280\" cy=\"135\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"280\" y=\"139.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><text x=\"296\" y=\"140\" fill=\"#1f2937\">electron</text><text x=\"270\" y=\"175\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A model of an atom. The nucleus in the centre contains 3 protons (marked +) and 4 neutrons (no charge). Three electrons (marked −) are spread out around the nucleus. A key identifies protons, neutrons and electrons. Not to scale."
+    },
+    "prompt": "What is the **atomic number** of this atom?",
+    "answer": 3,
+    "form": "integer",
+    "hints": ["The atomic number is the number of one type of particle in the nucleus."],
+    "solution": "The atomic number is the number of **protons**. There are 3 protons (marked +) in the nucleus, so the atomic number is **3**."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.chem.atoms-elements.g3",
+    "part": "b",
+    "stem": "The diagram shows a model of one atom of an element.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 230\" width=\"380\" height=\"230\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"130\" cy=\"120\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"130\" cy=\"101\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"130\" y=\"106\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"146.5\" cy=\"110.5\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"146.5\" cy=\"129.5\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"146.5\" y=\"134.5\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"130\" cy=\"139\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"113.5\" cy=\"129.5\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"113.5\" y=\"134.5\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"113.5\" cy=\"110.5\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"50\" cy=\"65\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"50\" y=\"69.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><circle cx=\"205\" cy=\"80\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"205\" y=\"84.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><circle cx=\"140\" cy=\"208\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"140\" y=\"212.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><text x=\"270\" y=\"50\" font-weight=\"bold\" fill=\"#1f2937\">Key</text><circle cx=\"280\" cy=\"75\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"280\" y=\"80\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><text x=\"296\" y=\"80\" fill=\"#1f2937\">proton</text><circle cx=\"280\" cy=\"105\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"296\" y=\"110\" fill=\"#1f2937\">neutron</text><circle cx=\"280\" cy=\"135\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"280\" y=\"139.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><text x=\"296\" y=\"140\" fill=\"#1f2937\">electron</text><text x=\"270\" y=\"175\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A model of an atom. The nucleus in the centre contains 3 protons (marked +) and 4 neutrons (no charge). Three electrons (marked −) are spread out around the nucleus. A key identifies protons, neutrons and electrons. Not to scale."
+    },
+    "prompt": "Which element is this an atom of?",
+    "options": [
+      { "id": "a", "text": "Lithium" },
+      { "id": "b", "text": "Beryllium" },
+      { "id": "c", "text": "Carbon" },
+      { "id": "d", "text": "Nitrogen" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Beryllium atoms have 4 protons. There are 4 neutrons here, but an element is decided by its protons.",
+      "c": "Carbon has 6 protons. Adding protons and electrons together does not give the atomic number.",
+      "d": "Nitrogen has 7 protons. 7 is the number of protons plus neutrons (the mass number), not the atomic number."
+    },
+    "hints": ["Only one type of particle decides which element an atom is.", "Find the element with that atomic number on the periodic table."],
+    "solution": "Every atom of an element has the same number of protons. This atom has **3 protons**, so its atomic number is 3 and it is **lithium**. (It has 4 neutrons, so its mass number is 7.)"
+  },
+  {
+    "id": "s9.chem.atoms-elements.q034",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.chem.atoms-elements.g3",
+    "part": "c",
+    "stem": "The diagram shows a model of one atom of an element.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 230\" width=\"380\" height=\"230\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"130\" cy=\"120\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"130\" cy=\"101\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"130\" y=\"106\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"146.5\" cy=\"110.5\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"146.5\" cy=\"129.5\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"146.5\" y=\"134.5\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"130\" cy=\"139\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"113.5\" cy=\"129.5\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"113.5\" y=\"134.5\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><circle cx=\"113.5\" cy=\"110.5\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><circle cx=\"50\" cy=\"65\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"50\" y=\"69.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><circle cx=\"205\" cy=\"80\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"205\" y=\"84.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><circle cx=\"140\" cy=\"208\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"140\" y=\"212.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><text x=\"270\" y=\"50\" font-weight=\"bold\" fill=\"#1f2937\">Key</text><circle cx=\"280\" cy=\"75\" r=\"9\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"280\" y=\"80\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">+</text><text x=\"296\" y=\"80\" fill=\"#1f2937\">proton</text><circle cx=\"280\" cy=\"105\" r=\"9\" fill=\"#d1d5db\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"296\" y=\"110\" fill=\"#1f2937\">neutron</text><circle cx=\"280\" cy=\"135\" r=\"7\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"280\" y=\"139.5\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">−</text><text x=\"296\" y=\"140\" fill=\"#1f2937\">electron</text><text x=\"270\" y=\"175\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A model of an atom. The nucleus in the centre contains 3 protons (marked +) and 4 neutrons (no charge). Three electrons (marked −) are spread out around the nucleus. A key identifies protons, neutrons and electrons. Not to scale."
+    },
+    "prompt": "This atom has no overall electric charge. Explain why.",
+    "modelAnswer": "The atom has 3 protons, each with a positive charge, and 3 electrons, each with a negative charge. Because there are equal numbers of protons and electrons, the positive and negative charges cancel out. The 4 neutrons have no charge, so they do not change this.",
+    "rubric": [
+      { "criterion": "There are equal numbers of protons (positive) and electrons (negative), 3 of each, so their charges cancel", "marks": 1 },
+      { "criterion": "Neutrons have no charge, so they do not affect the overall charge", "marks": 1 }
+    ],
+    "hints": ["Which particles are charged, and what are their charges?", "Count each type."],
+    "solution": "3 protons (+) and 3 electrons (−) cancel each other out. Neutrons are neutral. So the atom has no overall charge."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q035",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which is the correct chemical symbol for **magnesium**?",
+    "options": [
+      { "id": "a", "text": "Mg" },
+      { "id": "b", "text": "Mn" },
+      { "id": "c", "text": "M" },
+      { "id": "d", "text": "Ma" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Mn is the symbol for manganese, a different element.",
+      "c": "M on its own is not the symbol for any element. Several elements start with M (such as manganese and mercury), so magnesium needs a second letter.",
+      "d": "There is no element with the symbol Ma. Magnesium uses its first letter and the g."
+    },
+    "hints": ["A symbol has a capital first letter, and any second letter is lower case."],
+    "solution": "The symbol for magnesium is **Mg**: a capital M followed by a lower-case g."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q036",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What name is given to the **horizontal rows** of the periodic table?",
+    "accepted": ["periods", "period"],
+    "hints": ["The vertical columns are called groups."],
+    "solution": "The rows are called **periods**. The columns are called groups."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q037",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "Choose the correct symbols. Oxygen is [[a]], hydrogen is [[b]] and sodium is [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["O"], "options": ["o", "Ox", "O", "OX"] },
+      { "id": "b", "accepted": ["H"], "options": ["He", "H", "Hy", "h"] },
+      { "id": "c", "accepted": ["Na"], "options": ["S", "So", "NA", "Na"] }
+    ],
+    "hints": ["A one-letter symbol is always a capital letter.", "Sodium's symbol comes from its Latin name, natrium."],
+    "solution": "Oxygen is **O** and hydrogen is **H** (single capital letters). Sodium is **Na**, from its Latin name natrium: capital N, lower-case a. (He is helium, and S is sulfur.)"
+  },
+  {
+    "id": "s9.chem.atoms-elements.q038",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which element has the symbol **Au**?",
+    "options": [
+      { "id": "a", "text": "Gold" },
+      { "id": "b", "text": "Silver" },
+      { "id": "c", "text": "Aluminium" },
+      { "id": "d", "text": "Argon" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Silver's symbol is Ag, from its Latin name argentum.",
+      "c": "Aluminium's symbol is Al.",
+      "d": "Argon's symbol is Ar."
+    },
+    "hints": ["The symbol comes from the element's Latin name, aurum."],
+    "solution": "Au is **gold**, from the Latin word aurum. Several symbols come from Latin names, such as Ag (silver), Fe (iron) and Cu (copper)."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q039",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each element to one of its uses.",
+    "pairs": [
+      { "left": { "id": "ne", "text": "Neon" }, "right": { "id": "sign", "text": "Glowing advertising signs" } },
+      { "left": { "id": "ar", "text": "Argon" }, "right": { "id": "bulb", "text": "Filling the inside of old-style light bulbs" } },
+      { "left": { "id": "cl", "text": "Chlorine" }, "right": { "id": "pool", "text": "Killing germs in swimming pool water" } },
+      { "left": { "id": "he", "text": "Helium" }, "right": { "id": "ball", "text": "Making balloons float" } },
+      { "left": { "id": "i", "text": "Iodine" }, "right": { "id": "cut", "text": "An antiseptic for cleaning cuts" } }
+    ],
+    "hints": ["Chlorine and iodine are reactive halogens that kill germs. Neon, argon and helium are unreactive noble gases."],
+    "solution": "Neon: glowing signs. Argon: inside light bulbs, because it is unreactive and stops the hot filament burning. Chlorine: kills germs in pools. Helium: less dense than air and doesn't burn, so it floats balloons safely. Iodine: an antiseptic."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q040",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the elements that are **non-metals**.",
+    "options": [
+      { "id": "a", "text": "Sulfur" },
+      { "id": "b", "text": "Oxygen" },
+      { "id": "c", "text": "Carbon" },
+      { "id": "d", "text": "Iodine" },
+      { "id": "e", "text": "Mercury" },
+      { "id": "f", "text": "Copper" },
+      { "id": "g", "text": "Sodium" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Mercury is a liquid at room temperature, but what kind of element is it?", "Iodine crystals look shiny, but check where iodine is on the periodic table."],
+    "solution": "**Sulfur, oxygen, carbon and iodine** are non-metals (on the right of the periodic table, or carbon near the top right). Mercury is a metal, even though it is a liquid. Copper and sodium are metals."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "The yellow sulfur crystals found around geothermal vents near Rotorua are brittle and do not conduct electricity. Where would you expect to find sulfur on the periodic table?",
+    "options": [
+      { "id": "a", "text": "On the right-hand side, with the non-metals" },
+      { "id": "b", "text": "On the far left, with the Group 1 metals" },
+      { "id": "c", "text": "In the centre, with the transition metals" },
+      { "id": "d", "text": "In Group 18, with the noble gases" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Group 1 metals are shiny, soft and conduct electricity. Sulfur is none of these.",
+      "c": "Transition metals are shiny, strong and good conductors.",
+      "d": "The noble gases are all gases at room temperature, but sulfur is a solid. Sulfur also reacts easily, for example it burns in air."
+    },
+    "hints": ["Being brittle and not conducting electricity are properties of which kind of element?"],
+    "solution": "Brittle solids that do not conduct electricity are **non-metals**, which are on the right of the periodic table. Sulfur is in Group 16."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q042",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Scientists' model of the atom has changed as new evidence was found. Put these ideas in the order they were developed, starting with the earliest.",
+    "items": [
+      { "id": "dalton", "text": "Dalton: atoms are tiny solid balls that cannot be split" },
+      { "id": "thomson", "text": "Thomson: atoms contain tiny negative electrons, spread through a positive ball like fruit in a pudding" },
+      { "id": "ruth", "text": "Rutherford: an atom has a tiny, dense, positive nucleus, with electrons around it" },
+      { "id": "chad", "text": "Chadwick: the nucleus also contains neutral particles called neutrons" }
+    ],
+    "hints": ["Each model was built on the discovery before it.", "The electron had to be discovered before anyone could find the nucleus that the electrons are around."],
+    "solution": "Dalton (early 1800s) → Thomson discovers the electron and suggests the \"plum pudding\" model (around 1900) → Rutherford discovers the nucleus (1911) → Chadwick discovers the neutron (1932). Each new piece of evidence changed the model."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q043",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Potassium (Group 1) and calcium (Group 2) are next to each other in Period 4. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "Potassium is more reactive, because Group 1 metals are more reactive than Group 2 metals" },
+      { "id": "b", "text": "Calcium is more reactive, because it is in a higher-numbered group" },
+      { "id": "c", "text": "They are equally reactive, because they are in the same period" },
+      { "id": "d", "text": "Neither reacts with water, because metals do not react with water" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "For metals, reactivity goes down as you move from Group 1 to Group 2. A higher group number does not mean more reactive.",
+      "c": "Elements in the same period can be very different. Properties change as you go across a period.",
+      "d": "Both react with cold water: potassium violently, calcium more steadily. Many metals react with water."
+    },
+    "hints": ["Compare how sodium (Group 1) and magnesium (Group 2) react with cold water."],
+    "solution": "**Potassium** is more reactive. Group 1 metals are the most reactive metals: potassium reacts violently with cold water and bursts into flame, while calcium fizzes steadily."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q044",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "The elements with atomic numbers 17, 18 and 19 are chlorine (a very reactive, poisonous gas), argon (a gas that hardly reacts at all) and potassium (a soft metal that reacts violently with water). Why are they so different when their atomic numbers are next to each other?",
+    "options": [
+      { "id": "a", "text": "They are in different groups, and elements in different groups behave differently" },
+      { "id": "b", "text": "Elements with odd atomic numbers are reactive and elements with even ones are not" },
+      { "id": "c", "text": "The bigger the atomic number, the more reactive an element always is" },
+      { "id": "d", "text": "They should be very similar, so the descriptions must be wrong" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "There is no such rule. For example, magnesium (12) and oxygen (8) are both reactive.",
+      "c": "Argon (18) is far less reactive than chlorine (17). Reactivity depends on the group, not on the size of the atomic number.",
+      "d": "The descriptions are correct. Neighbouring atomic numbers can be in very different groups."
+    },
+    "hints": ["Find 17, 18 and 19 on the periodic table. Which group is each in?"],
+    "solution": "Chlorine is in Group 17 (halogens), argon in Group 18 (noble gases) and potassium starts a new period in Group 1 (alkali metals). An element's chemical properties depend on its **group**, so these three behave very differently."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q045",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which statements about the **noble gases** (Group 18) are correct? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "They are very unreactive" },
+      { "id": "b", "text": "They are gases at room temperature" },
+      { "id": "c", "text": "They are non-metals" },
+      { "id": "d", "text": "Their atoms exist on their own, not joined to other atoms" },
+      { "id": "e", "text": "They react violently with water" },
+      { "id": "f", "text": "Neon glows in signs because it reacts with the electricity" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Think about why helium is safe in balloons and why argon is used inside light bulbs.", "Does the neon in a sign get used up?"],
+    "solution": "Noble gases are **unreactive non-metal gases** whose atoms stay **single**, not joined to others. They don't react with water. Neon glows when electricity passes through it, but it does not react: the same neon glows for years."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q046",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A neutral atom has 17 electrons and 18 neutrons. What is its **mass number**?",
+    "answer": 35,
+    "form": "integer",
+    "hints": ["In a neutral atom, the number of protons equals the number of electrons.", "The mass number is the number of protons plus neutrons."],
+    "solution": "The atom is neutral, so it has as many protons as electrons: 17 protons. Mass number = protons + neutrons = 17 + 18 = **35**. (Atomic number 17 means it is chlorine.)"
+  },
+  {
+    "id": "s9.chem.atoms-elements.q047",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "During the Otago gold rush in the 1860s, miners found nuggets of pure gold in rivers. Sodium is never found as a pure element in nature. Explain why.",
+    "modelAnswer": "Gold is very unreactive. It does not react with water or with the oxygen in the air, so it stays as the pure element for millions of years and can be found as nuggets. Sodium is a very reactive Group 1 metal. It reacts quickly with water and with oxygen, so any pure sodium would immediately react. In nature, sodium is only found joined to other elements in compounds, such as sodium chloride in sea water and rock salt.",
+    "rubric": [
+      { "criterion": "Gold is very unreactive (does not react with water or oxygen), so it stays as the pure element", "marks": 1 },
+      { "criterion": "Sodium is very reactive (Group 1), reacting quickly with water and/or oxygen", "marks": 1 },
+      { "criterion": "So sodium is only found combined with other elements in compounds (e.g. sodium chloride)", "marks": 1 }
+    ],
+    "hints": ["Compare how reactive gold and sodium are.", "What would happen to pure sodium in a river?"],
+    "solution": "Gold is unreactive, so it survives as the element. Sodium reacts with water and air, so in nature it is always in compounds such as sodium chloride."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q048",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "You are given a small piece of an unknown solid element. Describe **two** tests you could do to find out whether it is a metal or a non-metal, and the results you would expect for a metal.",
+    "modelAnswer": "Test 1: put the element into a simple circuit with a battery and a bulb (or an ammeter). If the bulb lights, it conducts electricity, so it is probably a metal; a non-metal usually does not conduct. Test 2: tap it gently with a hammer. A metal is malleable, so it bends or flattens; a non-metal is usually brittle and shatters. (Another test is to look at a freshly cut or polished surface: metals are shiny.)",
+    "rubric": [
+      { "criterion": "First test described, e.g. connect it into a circuit with a bulb or ammeter to test electrical conductivity", "marks": 1 },
+      { "criterion": "Second test described, e.g. hit it with a hammer (malleability) or check whether it is shiny", "marks": 1 },
+      { "criterion": "Correct results for a metal: conducts electricity, bends or flattens rather than shattering (or is shiny)", "marks": 1 }
+    ],
+    "hints": ["Think of the physical properties that most metals share.", "How could you test whether something conducts electricity?"],
+    "solution": "Conductivity test (metal: conducts) and hammer test (metal: flattens; non-metal: shatters). A shiny surface also suggests a metal. Watch out: graphite, a form of carbon, is a non-metal that conducts, so it is best to use more than one test."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q049",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A student says: \"Every group in the periodic table gets **more** reactive as you go down it.\" Which piece of evidence shows she is wrong?",
+    "options": [
+      { "id": "a", "text": "Fluorine reacts more vigorously than iodine" },
+      { "id": "b", "text": "Potassium reacts more vigorously than sodium" },
+      { "id": "c", "text": "Helium and neon are both unreactive" },
+      { "id": "d", "text": "Iodine is a solid but fluorine is a gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Potassium is below sodium in Group 1, so this agrees with her statement. It doesn't show she is wrong.",
+      "c": "This shows two noble gases are alike, but it says nothing about a change in reactivity down a group.",
+      "d": "This is about state (a physical property), not reactivity."
+    },
+    "hints": ["You need an example where an element lower in a group is less reactive than one above it."],
+    "solution": "Fluorine is at the top of Group 17 and iodine is lower down. If fluorine is **more** reactive, reactivity goes **down** the group, which disproves her claim. In Group 1 reactivity increases down the group, but in Group 17 it decreases."
+  },
+  {
+    "id": "s9.chem.atoms-elements.q050",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Mendeleev mostly arranged the elements in order of increasing atomic mass. But he put tellurium (atomic mass 127.6) **before** iodine (atomic mass 126.9), out of mass order. Explain why he did this, and how a later discovery showed he was right.",
+    "modelAnswer": "Mendeleev put elements with similar properties in the same group. Iodine behaves like chlorine and bromine, so it belonged in their group, and tellurium behaves like sulfur and selenium. Keeping to atomic mass order would have put each of them in the wrong group, so he swapped them. Later, scientists discovered that elements should be ordered by atomic number (the number of protons). Tellurium has atomic number 52 and iodine has 53, so tellurium really does come first.",
+    "rubric": [
+      { "criterion": "Mendeleev grouped elements with similar properties in the same column", "marks": 1 },
+      { "criterion": "Iodine has properties like chlorine and bromine (halogens), so it had to go in that group, which meant breaking the mass order", "marks": 1 },
+      { "criterion": "Later the table was ordered by atomic number (protons): tellurium is 52 and iodine is 53, so his order was correct", "marks": 1 }
+    ],
+    "hints": ["What did Mendeleev think was more important than the exact order of masses?", "What is the modern periodic table ordered by?"],
+    "solution": "He trusted the patterns in properties more than the masses: iodine had to sit with the other halogens. The modern table is ordered by atomic number, and tellurium (52) comes before iodine (53)."
   }
 ]

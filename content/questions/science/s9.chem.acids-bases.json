@@ -351,5 +351,451 @@
     },
     "hints": ["Adding water makes the acid more dilute.", "What is the pH of pure water?"],
     "solution": "Adding water **dilutes** the acid, so the pH rises (it becomes less acidic). Water itself is neutral (pH 7), so however much you add, the pH gets closer and closer to 7 but never goes past it. Only a base can neutralise an acid."
+  },
+  {
+    "id": "s9.chem.acids-bases.q024",
+    "type": "text",
+    "difficulty": 1,
+    "groupId": "s9.chem.acids-bases.g1",
+    "part": "a",
+    "stem": "For the science fair, Mere builds a baking soda volcano. She puts baking soda (sodium hydrogen carbonate) inside a model volcano and pours in vinegar, which is a dilute solution of ethanoic acid (also called acetic acid). The mixture fizzes and froth pours out of the top.",
+    "prompt": "Name the gas that makes the bubbles.",
+    "accepted": ["carbon dioxide", "CO2", "carbon dioxide gas"],
+    "hints": ["Baking soda is a hydrogen carbonate. What gas do acids make with carbonates?"],
+    "solution": "The gas is **carbon dioxide**. Acids react with carbonates and hydrogen carbonates to make a salt, water and carbon dioxide."
+  },
+  {
+    "id": "s9.chem.acids-bases.q025",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.acids-bases.g1",
+    "part": "b",
+    "stem": "For the science fair, Mere builds a baking soda volcano. She puts baking soda (sodium hydrogen carbonate) inside a model volcano and pours in vinegar, which is a dilute solution of ethanoic acid (also called acetic acid). The mixture fizzes and froth pours out of the top.",
+    "prompt": "Which test would show that the gas is carbon dioxide?",
+    "options": [
+      { "id": "a", "text": "It turns limewater milky" },
+      { "id": "b", "text": "It makes a squeaky pop with a lit splint" },
+      { "id": "c", "text": "It relights a glowing splint" },
+      { "id": "d", "text": "It turns universal indicator purple" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A squeaky pop is the test for hydrogen, which acids make with metals, not with carbonates.",
+      "c": "Relighting a glowing splint is the test for oxygen.",
+      "d": "Purple means a strong alkali. Carbon dioxide dissolves in water to make a weak acid, not an alkali."
+    },
+    "hints": ["The test for carbon dioxide uses a solution of calcium hydroxide."],
+    "solution": "Carbon dioxide turns **limewater milky** (cloudy). Limewater is calcium hydroxide solution, and a white solid (calcium carbonate) forms in it."
+  },
+  {
+    "id": "s9.chem.acids-bases.q026",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.chem.acids-bases.g1",
+    "part": "c",
+    "stem": "For the science fair, Mere builds a baking soda volcano. She puts baking soda (sodium hydrogen carbonate) inside a model volcano and pours in vinegar, which is a dilute solution of ethanoic acid (also called acetic acid). The mixture fizzes and froth pours out of the top.",
+    "prompt": "After a while the fizzing stops, even though there is still some white baking soda at the bottom. Explain why it stopped, and what Mere could do to make it fizz again.",
+    "modelAnswer": "The fizzing stopped because all of the acid in the vinegar had been used up: it had been neutralised by the baking soda, so there was no acid left to react with the rest of the baking soda. If Mere pours in more vinegar, the new acid will react with the leftover baking soda and it will fizz again.",
+    "rubric": [
+      { "criterion": "The acid (vinegar) has all been used up or neutralised, so nothing is left to react with the remaining baking soda", "marks": 1 },
+      { "criterion": "Adding more vinegar (acid) would make it fizz again", "marks": 1 }
+    ],
+    "hints": ["A reaction needs both reactants. Which one has run out?"],
+    "solution": "The vinegar ran out (the acid was neutralised), so the reaction stopped. More vinegar would react with the leftover baking soda."
+  },
+  {
+    "id": "s9.chem.acids-bases.q027",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.acids-bases.g2",
+    "part": "a",
+    "stem": "Kina (sea urchins) live on rocky reefs around New Zealand. Their shells are made mostly of calcium carbonate. Sea water is slightly alkaline, with a pH of about 8.1.",
+    "prompt": "A student drops some vinegar (a dilute acid) onto a piece of empty kina shell. What will she observe?",
+    "options": [
+      { "id": "a", "text": "Bubbles of gas, because the acid reacts with the calcium carbonate" },
+      { "id": "b", "text": "Nothing, because shells are too hard to react with anything" },
+      { "id": "c", "text": "Bubbles of hydrogen, because the acid reacts with a metal in the shell" },
+      { "id": "d", "text": "The shell turns red, because acids are red" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Hardness doesn't stop a chemical reaction. Acids react with carbonates, however hard they are.",
+      "c": "Calcium carbonate is a compound, not a metal. Acids make carbon dioxide with carbonates, not hydrogen.",
+      "d": "Acids are usually colourless. They only change the colour of an indicator, such as litmus."
+    },
+    "hints": ["What is the shell made of? What do acids do with carbonates?"],
+    "solution": "The acid reacts with the **calcium carbonate** in the shell, giving off bubbles of **carbon dioxide**. Over time the shell would be eaten away."
+  },
+  {
+    "id": "s9.chem.acids-bases.q028",
+    "type": "cloze",
+    "difficulty": 3,
+    "groupId": "s9.chem.acids-bases.g2",
+    "part": "b",
+    "stem": "Kina (sea urchins) live on rocky reefs around New Zealand. Their shells are made mostly of calcium carbonate. Sea water is slightly alkaline, with a pH of about 8.1.",
+    "prompt": "Sea water with a pH of 8.1 is slightly [[a]]. If more carbon dioxide dissolves in it and its pH falls to 7.9, the sea water becomes [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["alkaline"], "options": ["acidic", "neutral", "alkaline"] },
+      { "id": "b", "accepted": ["less alkaline"], "options": ["more alkaline", "less alkaline", "neutral", "strongly acidic"] }
+    ],
+    "hints": ["Is 8.1 above or below 7?", "A lower pH is closer to the acid end of the scale. Is 7.9 still above 7?"],
+    "solution": "pH 8.1 is just above 7, so sea water is slightly **alkaline**. A fall to 7.9 moves it towards the acid end, so it becomes **less alkaline**. It is still above 7, so it is not neutral or acidic."
+  },
+  {
+    "id": "s9.chem.acids-bases.q029",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "groupId": "s9.chem.acids-bases.g2",
+    "part": "c",
+    "stem": "Kina (sea urchins) live on rocky reefs around New Zealand. Their shells are made mostly of calcium carbonate. Sea water is slightly alkaline, with a pH of about 8.1.",
+    "prompt": "Scientists are concerned that the rising amount of carbon dioxide in the air could make it harder for kina and shellfish to build and keep their shells. Explain how this could happen.",
+    "modelAnswer": "As there is more carbon dioxide in the air, more of it dissolves in the sea. Dissolved carbon dioxide reacts with water to form a weak acid (carbonic acid), so the pH of the sea water falls, which is called ocean acidification. Acids react with calcium carbonate, so in more acidic water it is harder for kina and shellfish to build their calcium carbonate shells, and their shells can even start to dissolve.",
+    "rubric": [
+      { "criterion": "More carbon dioxide dissolves in the sea water", "marks": 1 },
+      { "criterion": "Dissolved carbon dioxide forms a weak acid, so the pH of the sea falls (ocean acidification)", "marks": 1 },
+      { "criterion": "Acid reacts with or dissolves calcium carbonate, making shells harder to build or keep", "marks": 1 }
+    ],
+    "hints": ["What happens when carbon dioxide dissolves in water?", "What do acids do to calcium carbonate?"],
+    "solution": "More CO₂ in the air → more CO₂ dissolves in the sea → a weak acid forms and the pH falls → the acid attacks calcium carbonate, so shells are harder to build and may dissolve."
+  },
+  {
+    "id": "s9.chem.acids-bases.q030",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.chem.acids-bases.g3",
+    "part": "a",
+    "stem": "A student puts 20 mL of dilute hydrochloric acid in a beaker with a few drops of universal indicator. She adds sodium hydroxide solution a little at a time and measures the pH with a pH meter. The graph shows her results.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" width=\"420\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"118.3\" y1=\"18\" x2=\"118.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"118.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">5</text><line x1=\"174.7\" y1=\"18\" x2=\"174.7\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"174.7\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"231\" y1=\"18\" x2=\"231\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"231\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">15</text><line x1=\"287.3\" y1=\"18\" x2=\"287.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"287.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">20</text><line x1=\"343.7\" y1=\"18\" x2=\"343.7\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"343.7\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">25</text><line x1=\"400\" y1=\"18\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"400\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">30</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"62\" y1=\"218.6\" x2=\"400\" y2=\"218.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"222.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"62\" y1=\"185.1\" x2=\"400\" y2=\"185.1\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"189.1\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"62\" y1=\"151.7\" x2=\"400\" y2=\"151.7\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"155.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"62\" y1=\"118.3\" x2=\"400\" y2=\"118.3\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"122.3\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"62\" y1=\"84.9\" x2=\"400\" y2=\"84.9\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"88.9\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"62\" y1=\"51.4\" x2=\"400\" y2=\"51.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"55.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">12</text><line x1=\"62\" y1=\"18\" x2=\"400\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"22\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">14</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" text-anchor=\"middle\" fill=\"#1f2937\">Volume of sodium hydroxide added (mL)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\" fill=\"#1f2937\">pH</text><polyline points=\"62,235.3 118.3,231.9 174.7,226.9 231,221.1 264.8,213.6 276.1,208.5 287.3,135 298.6,61.5 309.9,56.4 343.7,50.6 400,46.4\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/></svg>",
+      "alt": "Line graph of pH (0 to 14) against volume of sodium hydroxide added (0 to 30 mL). The pH starts at 1 and rises slowly to about 2.6 at 19 mL, shoots up steeply through pH 7 at 20 mL to about 11.4 at 21 mL, then levels off at about 12.3 by 30 mL."
+    },
+    "prompt": "What volume of sodium hydroxide solution exactly neutralised the acid?",
+    "answer": 20,
+    "units": "mL",
+    "hints": ["A neutral solution has a pH of 7. Read across from pH 7 to the line, then down."],
+    "solution": "The solution is neutral when the pH is 7. The line crosses pH 7 at **20 mL**."
+  },
+  {
+    "id": "s9.chem.acids-bases.q031",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.chem.acids-bases.g3",
+    "part": "b",
+    "stem": "A student puts 20 mL of dilute hydrochloric acid in a beaker with a few drops of universal indicator. She adds sodium hydroxide solution a little at a time and measures the pH with a pH meter. The graph shows her results.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" width=\"420\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"118.3\" y1=\"18\" x2=\"118.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"118.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">5</text><line x1=\"174.7\" y1=\"18\" x2=\"174.7\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"174.7\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"231\" y1=\"18\" x2=\"231\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"231\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">15</text><line x1=\"287.3\" y1=\"18\" x2=\"287.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"287.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">20</text><line x1=\"343.7\" y1=\"18\" x2=\"343.7\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"343.7\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">25</text><line x1=\"400\" y1=\"18\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"400\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">30</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"62\" y1=\"218.6\" x2=\"400\" y2=\"218.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"222.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"62\" y1=\"185.1\" x2=\"400\" y2=\"185.1\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"189.1\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"62\" y1=\"151.7\" x2=\"400\" y2=\"151.7\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"155.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"62\" y1=\"118.3\" x2=\"400\" y2=\"118.3\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"122.3\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"62\" y1=\"84.9\" x2=\"400\" y2=\"84.9\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"88.9\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"62\" y1=\"51.4\" x2=\"400\" y2=\"51.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"55.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">12</text><line x1=\"62\" y1=\"18\" x2=\"400\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"22\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">14</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" text-anchor=\"middle\" fill=\"#1f2937\">Volume of sodium hydroxide added (mL)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\" fill=\"#1f2937\">pH</text><polyline points=\"62,235.3 118.3,231.9 174.7,226.9 231,221.1 264.8,213.6 276.1,208.5 287.3,135 298.6,61.5 309.9,56.4 343.7,50.6 400,46.4\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/></svg>",
+      "alt": "Line graph of pH (0 to 14) against volume of sodium hydroxide added (0 to 30 mL). The pH starts at 1 and rises slowly to about 2.6 at 19 mL, shoots up steeply through pH 7 at 20 mL to about 11.4 at 21 mL, then levels off at about 12.3 by 30 mL."
+    },
+    "prompt": "What colour is the universal indicator after **10 mL** of sodium hydroxide has been added?",
+    "options": [
+      { "id": "a", "text": "Red" },
+      { "id": "b", "text": "Green" },
+      { "id": "c", "text": "Blue" },
+      { "id": "d", "text": "Purple" }
+    ],
+    "correct": "a",
+    "shuffle": false,
+    "feedback": {
+      "b": "Green means neutral (pH 7). At 10 mL the acid has not been neutralised yet.",
+      "c": "Blue means a weak alkali. At 10 mL there is still plenty of acid left.",
+      "d": "Purple means a strong alkali, which only happens after more than 20 mL has been added."
+    },
+    "hints": ["Read the pH at 10 mL from the graph first."],
+    "solution": "At 10 mL the pH is about 1.5, which is strongly acidic, so universal indicator is **red**. Some of the acid has been neutralised, but there is still a lot left."
+  },
+  {
+    "id": "s9.chem.acids-bases.q032",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.chem.acids-bases.g3",
+    "part": "c",
+    "stem": "A student puts 20 mL of dilute hydrochloric acid in a beaker with a few drops of universal indicator. She adds sodium hydroxide solution a little at a time and measures the pH with a pH meter. The graph shows her results.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" width=\"420\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"118.3\" y1=\"18\" x2=\"118.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"118.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">5</text><line x1=\"174.7\" y1=\"18\" x2=\"174.7\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"174.7\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"231\" y1=\"18\" x2=\"231\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"231\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">15</text><line x1=\"287.3\" y1=\"18\" x2=\"287.3\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"287.3\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">20</text><line x1=\"343.7\" y1=\"18\" x2=\"343.7\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"343.7\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">25</text><line x1=\"400\" y1=\"18\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"400\" y=\"269\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">30</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"62\" y1=\"218.6\" x2=\"400\" y2=\"218.6\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"222.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"62\" y1=\"185.1\" x2=\"400\" y2=\"185.1\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"189.1\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"62\" y1=\"151.7\" x2=\"400\" y2=\"151.7\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"155.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"62\" y1=\"118.3\" x2=\"400\" y2=\"118.3\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"122.3\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"62\" y1=\"84.9\" x2=\"400\" y2=\"84.9\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"88.9\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">10</text><line x1=\"62\" y1=\"51.4\" x2=\"400\" y2=\"51.4\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"55.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">12</text><line x1=\"62\" y1=\"18\" x2=\"400\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"55\" y=\"22\" text-anchor=\"end\" font-size=\"12\" fill=\"#1f2937\">14</text><line x1=\"62\" y1=\"252\" x2=\"400\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"18\" x2=\"62\" y2=\"252\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"231\" y=\"292\" text-anchor=\"middle\" fill=\"#1f2937\">Volume of sodium hydroxide added (mL)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" transform=\"rotate(-90 16 135)\" fill=\"#1f2937\">pH</text><polyline points=\"62,235.3 118.3,231.9 174.7,226.9 231,221.1 264.8,213.6 276.1,208.5 287.3,135 298.6,61.5 309.9,56.4 343.7,50.6 400,46.4\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/></svg>",
+      "alt": "Line graph of pH (0 to 14) against volume of sodium hydroxide added (0 to 30 mL). The pH starts at 1 and rises slowly to about 2.6 at 19 mL, shoots up steeply through pH 7 at 20 mL to about 11.4 at 21 mL, then levels off at about 12.3 by 30 mL."
+    },
+    "prompt": "Describe how the pH changes as the sodium hydroxide is added from 0 to 30 mL, and explain what is happening at 20 mL.",
+    "modelAnswer": "The pH starts at about 1 and rises only slowly while there is still acid left over, reaching about 2.6 at 19 mL. Then it jumps sharply, passing pH 7 at 20 mL, and levels off at about 12. At 20 mL the alkali has exactly neutralised all of the acid, making a neutral solution of salt (sodium chloride) and water. After 20 mL there is extra alkali, so the solution becomes strongly alkaline.",
+    "rubric": [
+      { "criterion": "Describes the shape: pH rises slowly from about 1, jumps sharply around 20 mL, then levels off at about 12", "marks": 1 },
+      { "criterion": "At 20 mL the acid is exactly neutralised (pH 7, salt and water); after that the alkali is in excess", "marks": 1 }
+    ],
+    "hints": ["Describe the three parts of the graph: before, at and after 20 mL.", "What does pH 7 mean?"],
+    "solution": "Slow rise while the acid is in excess → sharp jump through pH 7 at 20 mL (exact neutralisation) → levels off around pH 12 once the alkali is in excess."
+  },
+  {
+    "id": "s9.chem.acids-bases.q033",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which pH is the **most acidic**?",
+    "options": [
+      { "id": "a", "text": "pH 1" },
+      { "id": "b", "text": "pH 6" },
+      { "id": "c", "text": "pH 7" },
+      { "id": "d", "text": "pH 13" }
+    ],
+    "correct": "a",
+    "shuffle": false,
+    "feedback": {
+      "b": "pH 6 is only slightly acidic. The lower the pH, the more acidic.",
+      "c": "pH 7 is neutral: neither acidic nor alkaline.",
+      "d": "pH 13 is strongly alkaline. A high pH is not a strong acid."
+    },
+    "hints": ["Acids have a pH below 7. The further below 7, the more acidic."],
+    "solution": "**pH 1** is the most acidic. The lower the pH number, the more acidic the solution."
+  },
+  {
+    "id": "s9.chem.acids-bases.q034",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What colour does **red** litmus paper turn in an alkali?",
+    "accepted": ["blue"],
+    "hints": ["Litmus is red in acids and changes colour in alkalis."],
+    "solution": "Red litmus turns **blue** in an alkali. (Blue litmus turns red in an acid.)"
+  },
+  {
+    "id": "s9.chem.acids-bases.q035",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each pH to the colour of universal indicator.",
+    "pairs": [
+      { "left": { "id": "p1", "text": "pH 1" }, "right": { "id": "red", "text": "Red" } },
+      { "left": { "id": "p6", "text": "pH 6" }, "right": { "id": "yel", "text": "Yellow" } },
+      { "left": { "id": "p7", "text": "pH 7" }, "right": { "id": "grn", "text": "Green" } },
+      { "left": { "id": "p9", "text": "pH 9" }, "right": { "id": "blu", "text": "Blue" } },
+      { "left": { "id": "p13", "text": "pH 13" }, "right": { "id": "pur", "text": "Purple" } }
+    ],
+    "hints": ["Universal indicator goes through the colours of the rainbow, from red (strong acid) to purple (strong alkali)."],
+    "solution": "pH 1: red. pH 6: yellow. pH 7: green. pH 9: blue. pH 13: purple."
+  },
+  {
+    "id": "s9.chem.acids-bases.q036",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Lemon juice tastes sour because it contains an acid. Which acid is it mainly?",
+    "options": [
+      { "id": "a", "text": "Citric acid" },
+      { "id": "b", "text": "Hydrochloric acid" },
+      { "id": "c", "text": "Ethanoic acid" },
+      { "id": "d", "text": "Sulfuric acid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Hydrochloric acid is the acid in your stomach, not in lemons.",
+      "c": "Ethanoic (acetic) acid is the acid in vinegar.",
+      "d": "Sulfuric acid is a strong, corrosive acid used in car batteries. It is not found in food."
+    },
+    "hints": ["Lemons, limes and oranges are called citrus fruits."],
+    "solution": "Lemon juice contains mainly **citric acid**, which is why its pH is about 2. Citrus fruits are named after it."
+  },
+  {
+    "id": "s9.chem.acids-bases.q037",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the substances that are **bases** (or alkalis).",
+    "options": [
+      { "id": "a", "text": "Baking soda" },
+      { "id": "b", "text": "Soap" },
+      { "id": "c", "text": "Oven cleaner" },
+      { "id": "d", "text": "Antacid tablets" },
+      { "id": "e", "text": "Vinegar" },
+      { "id": "f", "text": "Lemon juice" },
+      { "id": "g", "text": "Fizzy drink" },
+      { "id": "h", "text": "Pure water" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Bases feel soapy, neutralise acids and have a pH above 7.", "Fizzy drinks contain dissolved carbon dioxide."],
+    "solution": "**Baking soda, soap, oven cleaner and antacid tablets** are bases (pH above 7). Vinegar, lemon juice and fizzy drinks are acidic. Pure water is neutral."
+  },
+  {
+    "id": "s9.chem.acids-bases.q038",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Complete the names of the salts.\n\nmagnesium + hydrochloric acid → magnesium [[a]] + hydrogen\n\nzinc + sulfuric acid → zinc [[b]] + hydrogen",
+    "blanks": [
+      { "id": "a", "accepted": ["chloride"], "options": ["chlorine", "chloride", "chlorate"] },
+      { "id": "b", "accepted": ["sulfate"], "options": ["sulfide", "sulfur", "sulfate"] }
+    ],
+    "hints": ["Hydrochloric acid makes salts called chlorides.", "Sulfuric acid makes salts called sulfates."],
+    "solution": "magnesium + hydrochloric acid → magnesium **chloride** + hydrogen. zinc + sulfuric acid → zinc **sulfate** + hydrogen. Chlorine is the element; chloride is its name in a salt. A sulfide has no oxygen, but salts of sulfuric acid are sulfates."
+  },
+  {
+    "id": "s9.chem.acids-bases.q039",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Even in clean, unpolluted air, rainwater is slightly acidic, with a pH of about 5.6. Why?",
+    "options": [
+      { "id": "a", "text": "Carbon dioxide from the air dissolves in the rain and forms a weak acid" },
+      { "id": "b", "text": "Rain is pure water, so it is really neutral and the measurement must be wrong" },
+      { "id": "c", "text": "Salt from the sea dissolves in the rain and makes it acidic" },
+      { "id": "d", "text": "Clouds are made of hydrochloric acid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Rain is not pure water. As it falls it dissolves gases from the air, including carbon dioxide.",
+      "c": "Sea salt (sodium chloride) is neutral, so it does not make rain acidic.",
+      "d": "Clouds are made of tiny droplets of water, not hydrochloric acid."
+    },
+    "hints": ["Which gas in the air makes a weak acid when it dissolves in water?"],
+    "solution": "Carbon dioxide in the air dissolves in raindrops and forms a weak acid (carbonic acid), so normal rain has a pH of about 5.6. Pollution such as sulfur dioxide can make it much more acidic (acid rain)."
+  },
+  {
+    "id": "s9.chem.acids-bases.q040",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Some hot pools in the geothermal areas near Rotorua are strongly acidic, with a pH of about 2. Gases containing **sulfur** come up from underground and react with water and oxygen to form an acid. Which acid is it most likely to be?",
+    "options": [
+      { "id": "a", "text": "Sulfuric acid" },
+      { "id": "b", "text": "Hydrochloric acid" },
+      { "id": "c", "text": "Citric acid" },
+      { "id": "d", "text": "Ethanoic acid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Hydrochloric acid contains chlorine, but these gases contain sulfur.",
+      "c": "Citric acid comes from citrus fruits such as lemons.",
+      "d": "Ethanoic acid is the acid in vinegar."
+    },
+    "hints": ["Look at the name of each acid. Which one contains sulfur?"],
+    "solution": "Sulfur-containing gases such as hydrogen sulfide react with water and oxygen to form **sulfuric acid**, which makes these pools strongly acidic."
+  },
+  {
+    "id": "s9.chem.acids-bases.q041",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Pieces of four metals of the same size are added to the same dilute acid. Put the metals in order, from the one that fizzes **most** vigorously to the one that fizzes **least**.",
+    "items": [
+      { "id": "mg", "text": "Magnesium" },
+      { "id": "zn", "text": "Zinc" },
+      { "id": "fe", "text": "Iron" },
+      { "id": "cu", "text": "Copper" }
+    ],
+    "hints": ["Copper is used for water pipes because it doesn't react with dilute acids or water.", "Magnesium is the most reactive of these four."],
+    "solution": "**Magnesium** fizzes fastest, then **zinc**, then **iron** (slowly). **Copper** doesn't react with dilute acid at all. The more reactive the metal, the faster it makes hydrogen."
+  },
+  {
+    "id": "s9.chem.acids-bases.q042",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A student adds exactly the right amount of sodium hydroxide solution to some hydrochloric acid to make a neutral solution. She then evaporates all the water. What is left in the dish?",
+    "options": [
+      { "id": "a", "text": "White crystals of sodium chloride (salt)" },
+      { "id": "b", "text": "Nothing, because the acid and alkali cancel each other out completely" },
+      { "id": "c", "text": "Crystals of sodium hydroxide" },
+      { "id": "d", "text": "Drops of hydrochloric acid" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Neutralisation doesn't make substances vanish. It makes a salt and water, and the salt is left when the water evaporates.",
+      "c": "The sodium hydroxide has all reacted, because exactly the right amount was added.",
+      "d": "The acid has all been neutralised, so there is none left."
+    },
+    "hints": ["acid + alkali → salt + water. Which product is left when the water evaporates?"],
+    "solution": "hydrochloric acid + sodium hydroxide → **sodium chloride** + water. When the water evaporates, white crystals of sodium chloride (common salt) are left."
+  },
+  {
+    "id": "s9.chem.acids-bases.q043",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which statements about **neutralising** an acid with an alkali are correct? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "A salt and water are made" },
+      { "id": "b", "text": "The pH of the acid moves towards 7" },
+      { "id": "c", "text": "The mixture gets warmer" },
+      { "id": "d", "text": "The salt made is always sodium chloride" },
+      { "id": "e", "text": "The mass of the mixture goes down because a gas escapes" },
+      { "id": "f", "text": "The solution becomes more acidic" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Is neutralisation exothermic or endothermic?", "Which salt you get depends on the acid and alkali you use."],
+    "solution": "Neutralisation makes **a salt and water**, the pH moves **towards 7**, and it is exothermic, so the mixture **warms up**. The salt depends on the acid and alkali (e.g. potassium nitrate from nitric acid and potassium hydroxide). No gas is made with an alkali, so the mass stays the same."
+  },
+  {
+    "id": "s9.chem.acids-bases.q044",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Some antacid tablets contain calcium carbonate. People sometimes burp after taking them. Why?",
+    "options": [
+      { "id": "a", "text": "Stomach acid reacts with the calcium carbonate and makes carbon dioxide gas" },
+      { "id": "b", "text": "Stomach acid reacts with the calcium and makes hydrogen gas" },
+      { "id": "c", "text": "The tablet gives off oxygen gas as it dissolves" },
+      { "id": "d", "text": "Neutralising acid always makes a gas" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Hydrogen comes from acids reacting with metals. Calcium carbonate is a compound, and acids make carbon dioxide with carbonates.",
+      "c": "Dissolving does not release oxygen. The gas comes from a reaction with the acid.",
+      "d": "An acid and an alkali such as sodium hydroxide make only a salt and water. A gas is made here because the base is a carbonate."
+    },
+    "hints": ["acid + carbonate → salt + water + ?"],
+    "solution": "hydrochloric acid + calcium carbonate → calcium chloride + water + **carbon dioxide**. The carbon dioxide gas builds up in the stomach and comes out as a burp, while the acid is neutralised."
+  },
+  {
+    "id": "s9.chem.acids-bases.q045",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Describe how you could make an indicator from red cabbage, and use it to show that lemon juice is acidic and baking soda solution is alkaline.",
+    "modelAnswer": "Chop up some red cabbage leaves and soak or boil them in hot water until the water turns purple. Strain or filter the liquid to remove the leaves: this purple liquid is the indicator. Put some lemon juice, some baking soda solution and some pure water (as a neutral comparison) into separate test tubes, and add a few drops of the indicator to each. The indicator turns pink or red in the lemon juice, showing it is acidic, and blue or green in the baking soda solution, showing it is alkaline. It stays purple in the neutral water.",
+    "rubric": [
+      { "criterion": "Make the indicator: chop and soak or boil red cabbage in hot water, then strain or filter to get the coloured liquid", "marks": 1 },
+      { "criterion": "Add the indicator to samples of each liquid (ideally with water as a neutral comparison)", "marks": 1 },
+      { "criterion": "Results: pink or red in the acid (lemon juice), blue or green in the alkali (baking soda), purple when neutral", "marks": 1 }
+    ],
+    "hints": ["How do you get the coloured dye out of the leaves?", "What could you use as a neutral comparison?"],
+    "solution": "Boil or soak cabbage → strain → add to each liquid → acid: pink or red; neutral: purple; alkali: blue or green."
+  },
+  {
+    "id": "s9.chem.acids-bases.q046",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A student wants to make crystals of the salt magnesium chloride from magnesium ribbon and dilute hydrochloric acid. Describe how she could do this.",
+    "modelAnswer": "Add small pieces of magnesium ribbon to the acid in a beaker, a few at a time, until no more fizzing happens and some magnesium is left over. This makes sure all of the acid has been used up. Filter the mixture to remove the leftover magnesium. Then gently heat the filtrate (magnesium chloride solution) to evaporate some of the water, and leave it to cool so that crystals of magnesium chloride form.",
+    "rubric": [
+      { "criterion": "Add magnesium to the acid until the fizzing stops and some magnesium is left over (so all the acid is used up)", "marks": 1 },
+      { "criterion": "Filter to remove the unreacted magnesium", "marks": 1 },
+      { "criterion": "Evaporate water from the filtrate (heat gently, then leave to cool) so that crystals form", "marks": 1 }
+    ],
+    "hints": ["How can you be sure all the acid has reacted?", "How do you remove leftover solid, and then get the salt out of the solution?"],
+    "solution": "magnesium + hydrochloric acid → magnesium chloride + hydrogen. Add excess magnesium → filter → evaporate the filtrate and let it crystallise."
+  },
+  {
+    "id": "s9.chem.acids-bases.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A small piece of magnesium ribbon is dropped into a large beaker of hydrochloric acid containing universal indicator. The magnesium fizzes and disappears completely, but the indicator is **still red** at the end. What does this show?",
+    "options": [
+      { "id": "a", "text": "There was more acid than the magnesium could use up, so some acid is left over" },
+      { "id": "b", "text": "No reaction happened, because the indicator did not change" },
+      { "id": "c", "text": "The salt that formed is a strong acid, which keeps the indicator red" },
+      { "id": "d", "text": "The hydrogen gas turned the indicator red" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The fizzing and the magnesium disappearing show that a reaction happened.",
+      "c": "The salt made, magnesium chloride, is not an acid. The red colour comes from unreacted hydrochloric acid.",
+      "d": "The hydrogen bubbles out of the solution. The indicator colour shows the pH of what is left."
+    },
+    "hints": ["Which reactant ran out first: the magnesium or the acid?"],
+    "solution": "The magnesium was used up, but there was far more acid than it could react with. The **leftover acid** keeps the pH low, so the indicator stays red. The acid was in excess."
+  },
+  {
+    "id": "s9.chem.acids-bases.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A farmer's paddock has acidic soil, so the farmer plans to spread lime (calcium carbonate). Explain how the lime helps, why the farmer should test the soil pH first, and what could go wrong if far too much lime is spread.",
+    "modelAnswer": "Lime is a base, so it neutralises some of the acid in the soil and raises the pH towards the range that grass grows best in. Testing the soil pH first shows how acidic it is, so the farmer can work out how much lime is needed and doesn't waste money. If far too much lime is added, the soil could become alkaline (pH well above 7), which can also be bad for the grass, for example by making some nutrients harder for plants to take up.",
+    "rubric": [
+      { "criterion": "Lime is a base that neutralises acid in the soil, raising the pH", "marks": 1 },
+      { "criterion": "Testing first shows how acidic the soil is, so the right amount of lime can be added", "marks": 1 },
+      { "criterion": "Too much lime could make the soil too alkaline, which can also harm plant growth", "marks": 1 }
+    ],
+    "hints": ["Is lime an acid or a base?", "Is a very high pH good for plants either?"],
+    "solution": "Lime neutralises soil acid. Testing gives the right amount. Too much makes the soil too alkaline, which also harms growth."
   }
 ]

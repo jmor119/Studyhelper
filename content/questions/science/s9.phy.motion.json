@@ -335,5 +335,528 @@
     ],
     "hints": ["Change them all into m/s so you can compare them.", "km/h ÷ 3.6 = m/s. For \"400 m in 1 minute\", divide by 60 s."],
     "solution": "In m/s: 1.5; $10 \\div 3.6 \\approx 2.8$; 4; $18 \\div 3.6 = 5$; $400 \\div 60 \\approx 6.7$. So the order is 1.5 m/s → 10 km/h → 4 m/s → 18 km/h → 400 m in 1 minute."
+  },
+  {
+    "id": "s9.phy.motion.q024",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.motion.g1",
+    "part": "a",
+    "stem": "Mihi cycles from home to the school athletics day. On the way she stops at a pedestrian crossing. The distance–time graph shows her journey, in three sections: A, B and C.",
+    "prompt": "What is Mihi's speed during section A?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='104.3' y1='18' x2='104.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.3' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>50</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>100</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>150</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>200</text><line x1='273.3' y1='18' x2='273.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.3' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>250</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>300</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>350</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>400</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='209.7' x2='400' y2='209.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='209.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>200</text><line x1='62' y1='171.3' x2='400' y2='171.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='171.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>400</text><line x1='62' y1='133' x2='400' y2='133' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='133' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>600</text><line x1='62' y1='94.7' x2='400' y2='94.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='94.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>800</text><line x1='62' y1='56.3' x2='400' y2='56.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='56.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>1,000</text><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>1,200</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Time (s)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Distance (m)</text><polyline points='62,248 146.5,133 231,133 357.8,18' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/><text x='90.3' y='182.5' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='188.8' y='119' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>B</text><text x='280.4' y='67.5' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>C</text></svg>",
+      "alt": "Distance–time graph of Mihi’s ride. Section A: a straight line from 0 m at 0 s to 600 m at 100 s. Section B: a horizontal line at 600 m from 100 s to 200 s. Section C: a straight line from 600 m at 200 s to 1,200 m at 350 s."
+    },
+    "answer": 6,
+    "units": "m/s",
+    "hints": ["Speed = distance ÷ time. Read how far she went, and how long section A took."],
+    "solution": "In section A she cycles 600 m in 100 s. $v = \\dfrac{d}{t} = \\dfrac{600}{100} =$ **6 m/s**."
+  },
+  {
+    "id": "s9.phy.motion.q025",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.motion.g1",
+    "part": "b",
+    "stem": "Mihi cycles from home to the school athletics day. On the way she stops at a pedestrian crossing. The distance–time graph shows her journey, in three sections: A, B and C.",
+    "prompt": "Mihi says she was cycling faster in section C than in section A, because section C is the longest part of the line on the graph. Is she right?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='104.3' y1='18' x2='104.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.3' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>50</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>100</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>150</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>200</text><line x1='273.3' y1='18' x2='273.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.3' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>250</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>300</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>350</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>400</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='209.7' x2='400' y2='209.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='209.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>200</text><line x1='62' y1='171.3' x2='400' y2='171.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='171.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>400</text><line x1='62' y1='133' x2='400' y2='133' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='133' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>600</text><line x1='62' y1='94.7' x2='400' y2='94.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='94.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>800</text><line x1='62' y1='56.3' x2='400' y2='56.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='56.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>1,000</text><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>1,200</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Time (s)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Distance (m)</text><polyline points='62,248 146.5,133 231,133 357.8,18' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/><text x='90.3' y='182.5' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='188.8' y='119' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>B</text><text x='280.4' y='67.5' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>C</text></svg>",
+      "alt": "Distance–time graph of Mihi’s ride. Section A: a straight line from 0 m at 0 s to 600 m at 100 s. Section B: a horizontal line at 600 m from 100 s to 200 s. Section C: a straight line from 600 m at 200 s to 1,200 m at 350 s."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "No. Section C is less steep: she went 600 m in 150 s (4 m/s), compared with 6 m/s in A"
+      },
+      { "id": "b", "text": "Yes. A longer line on a distance–time graph means a faster speed" },
+      {
+        "id": "c",
+        "text": "Yes. She cycled for longer in section C, so she must have been going faster"
+      },
+      {
+        "id": "d",
+        "text": "No. Her speed was the same in A and C, because she cycled 600 m in each"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The length of the line doesn't show speed. The **steepness** (gradient) does.",
+      "c": "Taking longer to cover the same distance means she was going **slower**, not faster.",
+      "d": "She cycled 600 m in each section, but section C took 150 s and section A only took 100 s, so the speeds are different."
+    },
+    "hints": ["On a distance–time graph, what shows how fast something is moving?"],
+    "solution": "Speed is shown by the **steepness** of the line. A: $600 \\div 100 = 6$ m/s. C: $(1200 - 600) \\div (350 - 200) = 600 \\div 150 = 4$ m/s. Section C is less steep, so she was **slower** in C."
+  },
+  {
+    "id": "s9.phy.motion.q026",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.motion.g1",
+    "part": "c",
+    "stem": "Mihi cycles from home to the school athletics day. On the way she stops at a pedestrian crossing. The distance–time graph shows her journey, in three sections: A, B and C.",
+    "prompt": "What was Mihi's **average speed** for the whole journey, including the time she was stopped? Give your answer to 1 decimal place.",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='104.3' y1='18' x2='104.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='104.3' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>50</text><line x1='146.5' y1='18' x2='146.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='146.5' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>100</text><line x1='188.8' y1='18' x2='188.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='188.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>150</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>200</text><line x1='273.3' y1='18' x2='273.3' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='273.3' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>250</text><line x1='315.5' y1='18' x2='315.5' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='315.5' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>300</text><line x1='357.8' y1='18' x2='357.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='357.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>350</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>400</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='209.7' x2='400' y2='209.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='209.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>200</text><line x1='62' y1='171.3' x2='400' y2='171.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='171.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>400</text><line x1='62' y1='133' x2='400' y2='133' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='133' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>600</text><line x1='62' y1='94.7' x2='400' y2='94.7' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='94.7' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>800</text><line x1='62' y1='56.3' x2='400' y2='56.3' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='56.3' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>1,000</text><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>1,200</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Time (s)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Distance (m)</text><polyline points='62,248 146.5,133 231,133 357.8,18' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/><text x='90.3' y='182.5' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='188.8' y='119' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>B</text><text x='280.4' y='67.5' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>C</text></svg>",
+      "alt": "Distance–time graph of Mihi’s ride. Section A: a straight line from 0 m at 0 s to 600 m at 100 s. Section B: a horizontal line at 600 m from 100 s to 200 s. Section C: a straight line from 600 m at 200 s to 1,200 m at 350 s."
+    },
+    "answer": 3.4,
+    "decimals": 1,
+    "units": "m/s",
+    "hints": [
+      "Average speed = total distance ÷ total time.",
+      "Use the time at the very end of the journey, so the stop is included."
+    ],
+    "solution": "Total distance = 1,200 m. Total time = 350 s (including the 100 s stop). $v = \\dfrac{1200}{350} = 3.43...$, so **3.4 m/s**. It is lower than her speed in either moving section, because the stop is included."
+  },
+  {
+    "id": "s9.phy.motion.q027",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.motion.g2",
+    "part": "a",
+    "stem": "At the school athletics day, Ana runs a sprint race. The speed–time graph shows her motion from the start of the race until she comes to a stop after the finish line.",
+    "prompt": "What is Ana's acceleration during the first 4 s?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='95.8' y1='18' x2='95.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='95.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>2</text><line x1='129.6' y1='18' x2='129.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='129.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='163.4' y1='18' x2='163.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='163.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>6</text><line x1='197.2' y1='18' x2='197.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='197.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='264.8' y1='18' x2='264.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='264.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>12</text><line x1='298.6' y1='18' x2='298.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='298.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>14</text><line x1='332.4' y1='18' x2='332.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='332.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>16</text><line x1='366.2' y1='18' x2='366.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='366.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>18</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='202' x2='400' y2='202' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>2</text><line x1='62' y1='156' x2='400' y2='156' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='62' y1='110' x2='400' y2='110' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>6</text><line x1='62' y1='64' x2='400' y2='64' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Time (s)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Speed (m/s)</text><polyline points='62,248 129.6,64 264.8,64 400,248' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/></svg>",
+      "alt": "Speed–time graph of Ana’s run. The speed rises in a straight line from 0 m/s at 0 s to 8 m/s at 4 s, stays at 8 m/s until 12 s, then falls in a straight line to 0 m/s at 20 s."
+    },
+    "answer": 2,
+    "units": "m/s²",
+    "hints": [
+      "Acceleration = change in speed ÷ time taken.",
+      "Her speed starts at 0 m/s. Read her speed at 4 s."
+    ],
+    "solution": "$a = \\dfrac{\\Delta v}{t} = \\dfrac{8 - 0}{4} =$ **2 m/s²**."
+  },
+  {
+    "id": "s9.phy.motion.q028",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.motion.g2",
+    "part": "b",
+    "stem": "At the school athletics day, Ana runs a sprint race. The speed–time graph shows her motion from the start of the race until she comes to a stop after the finish line.",
+    "prompt": "During which time was Ana's acceleration **zero**?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='95.8' y1='18' x2='95.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='95.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>2</text><line x1='129.6' y1='18' x2='129.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='129.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='163.4' y1='18' x2='163.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='163.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>6</text><line x1='197.2' y1='18' x2='197.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='197.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='264.8' y1='18' x2='264.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='264.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>12</text><line x1='298.6' y1='18' x2='298.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='298.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>14</text><line x1='332.4' y1='18' x2='332.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='332.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>16</text><line x1='366.2' y1='18' x2='366.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='366.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>18</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='202' x2='400' y2='202' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>2</text><line x1='62' y1='156' x2='400' y2='156' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='62' y1='110' x2='400' y2='110' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>6</text><line x1='62' y1='64' x2='400' y2='64' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Time (s)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Speed (m/s)</text><polyline points='62,248 129.6,64 264.8,64 400,248' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/></svg>",
+      "alt": "Speed–time graph of Ana’s run. The speed rises in a straight line from 0 m/s at 0 s to 8 m/s at 4 s, stays at 8 m/s until 12 s, then falls in a straight line to 0 m/s at 20 s."
+    },
+    "options": [
+      { "id": "a", "text": "From 4 s to 12 s" },
+      { "id": "b", "text": "Only at 0 s and at 20 s, when her speed was zero" },
+      { "id": "c", "text": "From 12 s to 20 s" },
+      { "id": "d", "text": "From 0 s to 4 s" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Zero speed is not the same as zero acceleration. At 0 s her speed was zero, but it was increasing quickly.",
+      "c": "From 12 s to 20 s her speed was falling, so she was slowing down (a negative acceleration).",
+      "d": "From 0 s to 4 s her speed was increasing, so she was accelerating."
+    },
+    "hints": [
+      "Acceleration is zero when the speed is not changing. What does that look like on a speed–time graph?"
+    ],
+    "solution": "Between 4 s and 12 s the line is horizontal: her speed stays at 8 m/s, so her acceleration is **zero**. She is still running fast, just not speeding up or slowing down."
+  },
+  {
+    "id": "s9.phy.motion.q029",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.motion.g2",
+    "part": "c",
+    "stem": "At the school athletics day, Ana runs a sprint race. The speed–time graph shows her motion from the start of the race until she comes to a stop after the finish line.",
+    "prompt": "Use the graph to explain how you can tell that Ana sped up more quickly at the start than she slowed down at the end. Include calculations.",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 300' width='420' height='300' font-family='Arial, Helvetica, sans-serif' font-size='12'><rect width='100%' height='100%' fill='#ffffff'/><line x1='62' y1='18' x2='62' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='62' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='95.8' y1='18' x2='95.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='95.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>2</text><line x1='129.6' y1='18' x2='129.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='129.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='163.4' y1='18' x2='163.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='163.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>6</text><line x1='197.2' y1='18' x2='197.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='197.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='231' y1='18' x2='231' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='231' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='264.8' y1='18' x2='264.8' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='264.8' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>12</text><line x1='298.6' y1='18' x2='298.6' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='298.6' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>14</text><line x1='332.4' y1='18' x2='332.4' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='332.4' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>16</text><line x1='366.2' y1='18' x2='366.2' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='366.2' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>18</text><line x1='400' y1='18' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='400' y='263' text-anchor='middle' dominant-baseline='middle' font-size='12' fill='#4b5563'>20</text><line x1='62' y1='248' x2='400' y2='248' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='248' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>0</text><line x1='62' y1='202' x2='400' y2='202' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='202' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>2</text><line x1='62' y1='156' x2='400' y2='156' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='156' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>4</text><line x1='62' y1='110' x2='400' y2='110' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='110' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>6</text><line x1='62' y1='64' x2='400' y2='64' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='64' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>8</text><line x1='62' y1='18' x2='400' y2='18' stroke='#e5e7eb' stroke-width='1'/><text x='56' y='18' text-anchor='end' dominant-baseline='middle' font-size='12' fill='#4b5563'>10</text><line x1='62' y1='248' x2='400' y2='248' stroke='#1f2937' stroke-width='1.5'/><line x1='62' y1='18' x2='62' y2='248' stroke='#1f2937' stroke-width='1.5'/><text x='231' y='290' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937'>Time (s)</text><text x='16' y='133' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' transform='rotate(-90 16 133)'>Speed (m/s)</text><polyline points='62,248 129.6,64 264.8,64 400,248' fill='none' stroke='#2563eb' stroke-width='2.5' stroke-linejoin='round'/></svg>",
+      "alt": "Speed–time graph of Ana’s run. The speed rises in a straight line from 0 m/s at 0 s to 8 m/s at 4 s, stays at 8 m/s until 12 s, then falls in a straight line to 0 m/s at 20 s."
+    },
+    "modelAnswer": "The line from 0 s to 4 s is steeper than the line from 12 s to 20 s. At the start, her speed changed by 8 m/s in 4 s, so her acceleration was 8 ÷ 4 = 2 m/s². At the end, her speed changed by 8 m/s in 8 s, so she slowed down at 8 ÷ 8 = 1 m/s² (an acceleration of −1 m/s²). Her speed changed twice as quickly at the start.",
+    "rubric": [
+      {
+        "criterion": "States that the line is steeper at the start than at the end (the same change in speed happens in less time)",
+        "marks": 1
+      },
+      {
+        "criterion": "Correct calculations: 2 m/s² at the start and 1 m/s² (or −1 m/s²) at the end",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Compare the steepness of the two sloping parts of the line.",
+      "Work out the acceleration for each part: change in speed ÷ time."
+    ],
+    "solution": "On a speed–time graph, the steepness (gradient) is the acceleration. Start: 8 ÷ 4 = 2 m/s². End: 8 ÷ 8 = 1 m/s² of slowing down. The steeper start means she sped up faster than she slowed down."
+  },
+  {
+    "id": "s9.phy.motion.q030",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.motion.g3",
+    "part": "a",
+    "stem": "A ferry crosses Cook Strait from Wellington to Picton. The trip is about 92 km and takes 3 hours 30 minutes.",
+    "prompt": "What is the ferry's average speed for the trip, in km/h? Give your answer to 1 decimal place.",
+    "answer": 26.3,
+    "decimals": 1,
+    "units": "km/h",
+    "hints": [
+      "Write 3 hours 30 minutes as a decimal number of hours.",
+      "Average speed = total distance ÷ total time."
+    ],
+    "solution": "3 h 30 min = 3.5 h (not 3.3 h, because 30 minutes is half an hour). $v = \\dfrac{92}{3.5} = 26.28...$, so about **26.3 km/h**."
+  },
+  {
+    "id": "s9.phy.motion.q031",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.motion.g3",
+    "part": "b",
+    "stem": "A ferry crosses Cook Strait from Wellington to Picton. The trip is about 92 km and takes 3 hours 30 minutes.",
+    "prompt": "As it leaves Wellington, the ferry speeds up from rest to 6 m/s in 2 minutes. What is its average acceleration?",
+    "answer": 0.05,
+    "units": "m/s²",
+    "hints": [
+      "Change the time into seconds first.",
+      "Acceleration = change in velocity ÷ time taken."
+    ],
+    "solution": "2 minutes = 120 s. $a = \\dfrac{6 - 0}{120} =$ **0.05 m/s²**: a very small acceleration, which is why a big ferry takes a long time to get up to speed."
+  },
+  {
+    "id": "s9.phy.motion.q032",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.phy.motion.g3",
+    "part": "c",
+    "stem": "A ferry crosses Cook Strait from Wellington to Picton. The trip is about 92 km and takes 3 hours 30 minutes.",
+    "prompt": "Two ferries pass each other in the middle of Cook Strait. One is heading north at 25 km/h and the other is heading south at 25 km/h. Do they have the same speed? Do they have the same velocity? Explain your answers.",
+    "modelAnswer": "They have the same speed, 25 km/h, because speed only tells you how fast something is going. They have different velocities, because velocity is speed in a particular direction: one ferry has a velocity of 25 km/h north and the other 25 km/h south.",
+    "rubric": [
+      {
+        "criterion": "Same speed (25 km/h), because speed is just how fast they are going",
+        "marks": 1
+      },
+      {
+        "criterion": "Different velocities, because velocity includes direction and they are going in opposite directions",
+        "marks": 1
+      }
+    ],
+    "hints": ["What extra information does a velocity include that a speed doesn't?"],
+    "solution": "Speed = how fast. Velocity = how fast **and** in which direction. Same speed, opposite directions, so different velocities."
+  },
+  {
+    "id": "s9.phy.motion.q033",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which formula is used to calculate speed?",
+    "options": [
+      { "id": "a", "text": "speed = distance ÷ time" },
+      { "id": "b", "text": "speed = time ÷ distance" },
+      { "id": "c", "text": "speed = distance × time" },
+      { "id": "d", "text": "speed = distance − time" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is upside down. Speed is how much distance is covered in each unit of time.",
+      "c": "Going the same distance in more time means a **lower** speed, so you divide by the time, not multiply.",
+      "d": "You can't subtract a time from a distance. They are different kinds of quantity."
+    },
+    "hints": ["A speed in m/s tells you the number of metres travelled each second."],
+    "solution": "$\\text{speed} = \\dfrac{\\text{distance}}{\\text{time}}$. The unit m/s (metres **per** second) reminds you: metres divided by seconds."
+  },
+  {
+    "id": "s9.phy.motion.q034",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What do we call speed in a particular direction, such as 15 m/s north?",
+    "accepted": ["velocity", "velocities"],
+    "hints": ["This quantity changes when a car turns a corner, even if its speed stays the same."],
+    "solution": "**Velocity** is speed in a given direction. 15 m/s north and 15 m/s south are the same speed, but different velocities."
+  },
+  {
+    "id": "s9.phy.motion.q035",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "On a distance–time graph, a horizontal line means the object is [[a]]. On a speed–time graph, a horizontal line means the object is moving at a [[b]] speed.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": ["stationary"],
+        "options": ["stationary", "speeding up", "slowing down"]
+      },
+      { "id": "b", "accepted": ["constant"], "options": ["constant", "increasing", "decreasing"] }
+    ],
+    "hints": [
+      "On a distance–time graph, a flat line means the distance is not changing.",
+      "On a speed–time graph, a flat line means the speed is not changing."
+    ],
+    "solution": "Flat distance–time line: the distance isn't changing, so the object is **stationary**. Flat speed–time line: the speed isn't changing, so it is moving at a **constant** speed. Always read the axis labels first!"
+  },
+  {
+    "id": "s9.phy.motion.q036",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "A netball pass travels 12 m in 0.8 s. What is the ball's average speed?",
+    "options": [
+      { "id": "a", "text": "15 m/s" },
+      { "id": "b", "text": "9.6 m/s" },
+      { "id": "c", "text": "0.07 m/s" },
+      { "id": "d", "text": "11.2 m/s" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is 12 × 0.8. Speed is distance **divided by** time.",
+      "c": "That is 0.8 ÷ 12. The division is upside down.",
+      "d": "That is 12 − 0.8. You need to divide the distance by the time."
+    },
+    "hints": ["Use speed = distance ÷ time."],
+    "solution": "$v = \\dfrac{d}{t} = \\dfrac{12}{0.8} =$ **15 m/s**. Dividing by a number less than 1 gives a bigger answer."
+  },
+  {
+    "id": "s9.phy.motion.q037",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "What does the **steepness** (gradient) of the line on a distance–time graph tell you?",
+    "options": [
+      { "id": "a", "text": "The object's speed" },
+      { "id": "b", "text": "The object's acceleration" },
+      { "id": "c", "text": "The total distance travelled" },
+      { "id": "d", "text": "How long the journey took" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It is the gradient of a **speed–time** graph that gives acceleration.",
+      "c": "The total distance is read from the vertical axis at the end of the journey, not from the steepness.",
+      "d": "The time is read from the horizontal axis."
+    },
+    "hints": ["Steepness = how much the distance changes for each second."],
+    "solution": "Gradient = change in distance ÷ change in time = **speed**. A steeper line means a faster speed, and a flat line means the object has stopped."
+  },
+  {
+    "id": "s9.phy.motion.q038",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each graph shape to the motion it shows.",
+    "pairs": [
+      {
+        "left": { "id": "g1", "text": "Distance–time graph: a horizontal line" },
+        "right": { "id": "gr1", "text": "Stationary (not moving)" }
+      },
+      {
+        "left": { "id": "g2", "text": "Distance–time graph: a straight line sloping upwards" },
+        "right": { "id": "gr2", "text": "Moving at a constant speed" }
+      },
+      {
+        "left": { "id": "g3", "text": "Speed–time graph: a straight line sloping upwards" },
+        "right": { "id": "gr3", "text": "Speeding up steadily" }
+      },
+      {
+        "left": { "id": "g4", "text": "Speed–time graph: a straight line sloping downwards" },
+        "right": { "id": "gr4", "text": "Slowing down steadily" }
+      }
+    ],
+    "hints": ["Check the axis label first: is it distance or speed going up the side?"],
+    "solution": "Distance–time: flat = stationary; straight upward slope = constant speed. Speed–time: upward slope = speeding up; downward slope = slowing down."
+  },
+  {
+    "id": "s9.phy.motion.q039",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which of these is a **velocity**, not just a speed?",
+    "options": [
+      { "id": "a", "text": "20 m/s towards the north" },
+      { "id": "b", "text": "20 m/s" },
+      { "id": "c", "text": "72 km/h on the motorway" },
+      { "id": "d", "text": "400 m in 50 s" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This only says how fast. A velocity also needs a direction.",
+      "c": "'On the motorway' is a place, not a direction.",
+      "d": "This gives a distance and a time (a speed of 8 m/s), but no direction."
+    },
+    "hints": ["A velocity has a size **and** a direction."],
+    "solution": "Velocity = speed + direction. Only **20 m/s towards the north** includes a direction."
+  },
+  {
+    "id": "s9.phy.motion.q040",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Wiremu jogs at a steady 3 m/s for 2 minutes. How far does he jog?",
+    "options": [
+      { "id": "a", "text": "360 m" },
+      { "id": "b", "text": "6 m" },
+      { "id": "c", "text": "1.5 m" },
+      { "id": "d", "text": "40 m" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is 3 × 2, but the 2 is in minutes. Change the time to seconds first (2 min = 120 s).",
+      "c": "That is 3 ÷ 2. Distance = speed × time, and the time must be in seconds.",
+      "d": "That is 120 ÷ 3. Dividing the time by the speed doesn't give a distance."
+    },
+    "hints": [
+      "Use distance = speed × time.",
+      "The speed is in metres per **second**, so the time must be in seconds."
+    ],
+    "solution": "2 min = 120 s. $d = vt = 3 \\times 120 =$ **360 m**."
+  },
+  {
+    "id": "s9.phy.motion.q041",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A bungy jumper leaps off a bridge near Queenstown. Starting from rest, she is falling at 15 m/s after 1.5 s, before the cord starts to stretch. What is her average acceleration?",
+    "answer": 10,
+    "units": "m/s²",
+    "hints": [
+      "Acceleration = change in velocity ÷ time taken.",
+      "'From rest' means her starting velocity is 0 m/s."
+    ],
+    "solution": "$a = \\dfrac{\\Delta v}{t} = \\dfrac{15 - 0}{1.5} =$ **10 m/s²**. This is the acceleration caused by gravity when air resistance is small."
+  },
+  {
+    "id": "s9.phy.motion.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A car has an acceleration of 3 m/s². What does this mean?",
+    "options": [
+      { "id": "a", "text": "Its velocity increases by 3 m/s every second" },
+      { "id": "b", "text": "It travels 3 m every second" },
+      { "id": "c", "text": "It is moving at a steady 3 m/s" },
+      { "id": "d", "text": "It takes 3 s to reach its top speed" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Travelling 3 m every second is a **speed** of 3 m/s, not an acceleration.",
+      "c": "A steady speed (in a straight line) means zero acceleration.",
+      "d": "Acceleration tells you how quickly the velocity changes, not how long it takes to reach top speed."
+    },
+    "hints": ["The unit m/s² can be read as '(m/s) per second'."],
+    "solution": "3 m/s² means the velocity goes up by **3 m/s every second**: for example 0, 3, 6 and 9 m/s after 0, 1, 2 and 3 seconds."
+  },
+  {
+    "id": "s9.phy.motion.q043",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A car drives around a roundabout at a constant 30 km/h. Explain why the car is accelerating, even though its speed is not changing.",
+    "modelAnswer": "Velocity is speed in a particular direction. As the car goes around the roundabout its direction keeps changing, so its velocity keeps changing, even though its speed stays at 30 km/h. Acceleration is the rate of change of velocity, so a changing velocity means the car is accelerating.",
+    "rubric": [
+      {
+        "criterion": "Velocity includes direction (velocity is speed in a particular direction)",
+        "marks": 1
+      },
+      { "criterion": "The car's direction is changing, so its velocity is changing", "marks": 1 },
+      {
+        "criterion": "Acceleration is a change in velocity, so the car is accelerating",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What is the difference between speed and velocity?",
+      "What is acceleration a change in?"
+    ],
+    "solution": "Acceleration means a change in **velocity**, and velocity includes direction. Turning changes the direction, so the car accelerates even at a steady speed."
+  },
+  {
+    "id": "s9.phy.motion.q044",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A car is travelling at 90 km/h. The driver looks down at a phone for 4 s. How far does the car travel in that time?",
+    "answer": 100,
+    "units": "m",
+    "hints": ["Change 90 km/h into m/s first.", "Then use distance = speed × time."],
+    "solution": "$90 \\div 3.6 = 25$ m/s. $d = vt = 25 \\times 4 =$ **100 m**: about the length of a rugby field, travelled without looking at the road."
+  },
+  {
+    "id": "s9.phy.motion.q045",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the objects that have **zero acceleration**.",
+    "options": [
+      { "id": "a", "text": "A bike leaning against the school fence" },
+      { "id": "b", "text": "A skydiver falling straight down at a steady terminal velocity" },
+      { "id": "c", "text": "An object whose distance–time graph is a straight, sloping line" },
+      { "id": "d", "text": "An object whose speed–time graph is a horizontal line" },
+      { "id": "e", "text": "A netball slowing down as it rolls across the court" },
+      { "id": "f", "text": "A car going round a corner at a steady 50 km/h" },
+      { "id": "g", "text": "An object whose speed–time graph is a straight line sloping upwards" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Zero acceleration means the velocity (speed **and** direction) is not changing."],
+    "solution": "Zero acceleration means a constant velocity: not moving at all (the bike), or moving at a steady speed in a straight line (the skydiver at terminal velocity, a straight sloping distance–time line, a flat speed–time line). The netball is slowing down, the car turning a corner is changing direction, and an upward-sloping speed–time line means speeding up, so these are all accelerating."
+  },
+  {
+    "id": "s9.phy.motion.q046",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Hana walks 1.2 km to school at 1.5 m/s. Her brother leaves home 5 minutes after her and cycles the same route at 5 m/s. How many seconds before Hana does her brother arrive at school?",
+    "answer": 260,
+    "units": "s",
+    "hints": [
+      "Change 1.2 km into metres and 5 minutes into seconds.",
+      "Work out when each of them arrives, measured from the moment Hana leaves home."
+    ],
+    "solution": "Hana: $t = \\dfrac{1200}{1.5} = 800$ s. Brother: $t = \\dfrac{1200}{5} = 240$ s, but he starts 300 s later, so he arrives $300 + 240 = 540$ s after Hana left. He arrives $800 - 540 =$ **260 s** before her (4 minutes 20 seconds)."
+  },
+  {
+    "id": "s9.phy.motion.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Tama cycles 6 km to the beach at an average speed of 12 km/h. He is tired on the way home, so he cycles the same 6 km back at 6 km/h. What is his average speed for the whole trip?",
+    "options": [
+      { "id": "a", "text": "8 km/h" },
+      { "id": "b", "text": "9 km/h" },
+      { "id": "c", "text": "18 km/h" },
+      { "id": "d", "text": "6 km/h" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "9 km/h is the average of the two speeds, but he spent longer going slowly, so you can't just average them. Use total distance ÷ total time.",
+      "c": "That adds the two speeds together. Average speed = total distance ÷ total time.",
+      "d": "That was only his speed on the way home."
+    },
+    "hints": [
+      "Work out how long each half of the trip took.",
+      "Average speed = total distance ÷ total time."
+    ],
+    "solution": "There: $6 \\div 12 = 0.5$ h. Back: $6 \\div 6 = 1$ h. Total: 12 km in 1.5 h, so the average speed is $12 \\div 1.5 =$ **8 km/h**. It is less than 9 km/h because he spent more time at the slower speed."
+  },
+  {
+    "id": "s9.phy.motion.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Some roads have **average speed cameras**. One camera records the time a car passes it, and a second camera 10 km further along the road does the same. A car takes 5 minutes to travel between the two cameras. The speed limit is 100 km/h. The driver says, \"My speedometer read 95 km/h at both cameras, so I didn't speed.\" Explain whether the driver broke the speed limit.",
+    "modelAnswer": "The car's average speed between the cameras was 10 km ÷ 5 min = 2 km per minute, which is 2 × 60 = 120 km/h. The speedometer readings of 95 km/h are instantaneous speeds: they only show the speed at the moment the car passed each camera, not in between. For the average to be 120 km/h, the car must have been travelling faster than 100 km/h for at least part of the time between the cameras. So the driver did break the speed limit.",
+    "rubric": [
+      {
+        "criterion": "Correct average speed: 10 km in 5 min = 120 km/h (or 2 km per minute, or about 33 m/s)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that 95 km/h at each camera is an instantaneous speed, which doesn't tell you the speed between the cameras",
+        "marks": 1
+      },
+      {
+        "criterion": "Concludes that the average is above 100 km/h, so the car must have gone faster than 100 km/h for some of the time and broke the limit",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Work out the car's average speed between the cameras, in km/h.",
+      "How could the average be higher than the speed at both cameras?"
+    ],
+    "solution": "5 min = $\\dfrac{5}{60}$ h, so the average speed is $10 \\div \\dfrac{5}{60} = 120$ km/h. An average of 120 km/h is impossible unless the car went over 100 km/h at some point, so the driver broke the limit."
   }
 ]

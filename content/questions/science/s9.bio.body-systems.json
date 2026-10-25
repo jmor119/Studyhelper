@@ -713,5 +713,794 @@
       "Oxygen enters the blood in the lungs."
     ],
     "solution": "Nose or mouth → trachea → bronchus → bronchiole → alveolus → (diffuses into) red blood cell in a lung capillary → (carried by the circulatory system to) muscle cell."
+  },
+  {
+    "id": "s9.bio.body-systems.q024",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which gas passes from the alveoli into the blood?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Oxygen"
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "Nitrogen"
+      },
+      {
+        "id": "d",
+        "text": "Water vapour"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Carbon dioxide moves the other way: from the blood into the alveoli, so it can be breathed out.",
+      "c": "Nitrogen makes up most of the air, but the body doesn't use it, so there is no overall movement of nitrogen into the blood.",
+      "d": "Water vapour is mostly breathed **out**, not taken in."
+    },
+    "hints": [
+      "Which gas do your cells need for respiration?"
+    ],
+    "solution": "**Oxygen** diffuses from the air in the alveoli into the blood, where there is less of it. Carbon dioxide diffuses the opposite way, from the blood into the alveoli."
+  },
+  {
+    "id": "s9.bio.body-systems.q025",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the tube that carries air from your mouth and nose down towards your lungs?",
+    "accepted": [
+      "trachea",
+      "windpipe",
+      "wind pipe",
+      "trachea (windpipe)",
+      "windpipe (trachea)"
+    ],
+    "hints": [
+      "It has rings of cartilage to keep it open, and you can feel them at the front of your neck."
+    ],
+    "solution": "The **trachea** (windpipe) carries air down to the lungs, where it divides into two bronchi."
+  },
+  {
+    "id": "s9.bio.body-systems.q026",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of the muscular tube that carries food from your mouth to your stomach?",
+    "accepted": [
+      "oesophagus",
+      "gullet",
+      "food pipe",
+      "foodpipe",
+      "oesophagus (gullet)",
+      "gullet (oesophagus)"
+    ],
+    "hints": [
+      "It runs down your neck and chest, just behind the windpipe."
+    ],
+    "solution": "The **oesophagus** (gullet) carries food to the stomach. Its muscles squeeze the food along in waves."
+  },
+  {
+    "id": "s9.bio.body-systems.q027",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "[[a]] carry blood away from the heart. [[b]] carry blood back to the heart. Substances pass between the blood and the body's cells through the thin walls of [[c]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "Arteries"
+        ],
+        "options": [
+          "Arteries",
+          "Veins",
+          "Capillaries"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "Veins"
+        ],
+        "options": [
+          "Arteries",
+          "Veins",
+          "Capillaries"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "capillaries"
+        ],
+        "options": [
+          "arteries",
+          "veins",
+          "capillaries"
+        ]
+      }
+    ],
+    "hints": [
+      "Which vessels have walls only one cell thick?",
+      "Of the other two, which one has valves to stop blood flowing backwards on its way back to the heart?"
+    ],
+    "solution": "**Arteries** carry blood away from the heart. **Veins** return it to the heart. **Capillaries** have walls only one cell thick, so substances such as oxygen and glucose can pass through them to the cells."
+  },
+  {
+    "id": "s9.bio.body-systems.q028",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the substances that are carried mainly in the **plasma** (the liquid part of the blood).",
+    "options": [
+      {
+        "id": "a",
+        "text": "Glucose"
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "Urea (a waste made in the liver)"
+      },
+      {
+        "id": "d",
+        "text": "Hormones, such as insulin"
+      },
+      {
+        "id": "e",
+        "text": "Oxygen"
+      },
+      {
+        "id": "f",
+        "text": "Starch"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Plasma carries things that are dissolved in it.",
+      "Which substance is carried mostly by red blood cells?"
+    ],
+    "solution": "Plasma carries dissolved substances: digested food such as **glucose**, **carbon dioxide**, wastes such as **urea**, and **hormones**.\n\nMost **oxygen** is carried by the red blood cells, not the plasma. **Starch** molecules are too big to be absorbed into the blood: starch is digested into glucose first."
+  },
+  {
+    "id": "s9.bio.body-systems.q029",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.body-systems.g1",
+    "part": "a",
+    "stem": "Ana investigates how exercise affects her pulse rate. She counts her pulse for 15 seconds at rest, then does star jumps for 2 minutes. She counts her pulse for 15 seconds straight after stopping, and again every minute after that.\n\n| Time | Beats counted in 15 s |\n|---|---|\n| At rest, before exercise | 18 |\n| Straight after exercise | 35 |\n| 1 minute after stopping | 29 |\n| 2 minutes after stopping | 24 |\n| 3 minutes after stopping | 20 |\n| 4 minutes after stopping | 18 |",
+    "prompt": "What is the **dependent** variable in Ana's investigation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Her pulse rate"
+      },
+      {
+        "id": "b",
+        "text": "The time since she stopped exercising"
+      },
+      {
+        "id": "c",
+        "text": "The type of exercise (star jumps)"
+      },
+      {
+        "id": "d",
+        "text": "How long she exercised for (2 minutes)"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the **independent** variable: Ana chooses the times when she takes each count.",
+      "c": "This stays the same throughout, so it is a controlled variable.",
+      "d": "This stays the same throughout, so it is a controlled variable."
+    },
+    "hints": [
+      "The dependent variable is the one you measure to get your results."
+    ],
+    "solution": "The **dependent variable** is what Ana measures: her **pulse rate**. The independent variable is the time since she stopped exercising. The type and length of exercise are controlled variables."
+  },
+  {
+    "id": "s9.bio.body-systems.q030",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.bio.body-systems.g1",
+    "part": "b",
+    "stem": "Ana investigates how exercise affects her pulse rate. She counts her pulse for 15 seconds at rest, then does star jumps for 2 minutes. She counts her pulse for 15 seconds straight after stopping, and again every minute after that.\n\n| Time | Beats counted in 15 s |\n|---|---|\n| At rest, before exercise | 18 |\n| Straight after exercise | 35 |\n| 1 minute after stopping | 29 |\n| 2 minutes after stopping | 24 |\n| 3 minutes after stopping | 20 |\n| 4 minutes after stopping | 18 |",
+    "prompt": "What was Ana's resting heart rate, in beats per minute?",
+    "answer": 72,
+    "units": "bpm",
+    "hints": [
+      "She counted for 15 seconds. How many lots of 15 seconds are there in one minute?"
+    ],
+    "solution": "60 s ÷ 15 s = 4, so multiply the count by 4: $18 \\times 4 = 72$ beats per minute."
+  },
+  {
+    "id": "s9.bio.body-systems.q031",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.bio.body-systems.g1",
+    "part": "c",
+    "stem": "Ana investigates how exercise affects her pulse rate. She counts her pulse for 15 seconds at rest, then does star jumps for 2 minutes. She counts her pulse for 15 seconds straight after stopping, and again every minute after that.\n\n| Time | Beats counted in 15 s |\n|---|---|\n| At rest, before exercise | 18 |\n| Straight after exercise | 35 |\n| 1 minute after stopping | 29 |\n| 2 minutes after stopping | 24 |\n| 3 minutes after stopping | 20 |\n| 4 minutes after stopping | 18 |",
+    "prompt": "By how many beats per minute did Ana's heart rate increase, from rest to straight after exercise?",
+    "answer": 68,
+    "units": "bpm",
+    "hints": [
+      "Convert both counts to beats per minute first (multiply by 4).",
+      "Then find the difference."
+    ],
+    "solution": "Straight after exercise: $35 \\times 4 = 140$ bpm. At rest: $18 \\times 4 = 72$ bpm.\n\nIncrease $= 140 - 72 = 68$ beats per minute."
+  },
+  {
+    "id": "s9.bio.body-systems.q032",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.body-systems.g1",
+    "part": "d",
+    "stem": "Ana investigates how exercise affects her pulse rate. She counts her pulse for 15 seconds at rest, then does star jumps for 2 minutes. She counts her pulse for 15 seconds straight after stopping, and again every minute after that.\n\n| Time | Beats counted in 15 s |\n|---|---|\n| At rest, before exercise | 18 |\n| Straight after exercise | 35 |\n| 1 minute after stopping | 29 |\n| 2 minutes after stopping | 24 |\n| 3 minutes after stopping | 20 |\n| 4 minutes after stopping | 18 |",
+    "prompt": "Suggest **two** ways Ana could improve her investigation. For at least one of them, explain how it would make her results more reliable or accurate.",
+    "modelAnswer": "1. Repeat the whole investigation several times (for example, on different days) and calculate the mean for each time. Then one unusual result or counting mistake has much less effect, so the results are more reliable.\n\n2. Use a heart-rate monitor instead of counting by hand. When a 15-second count is multiplied by 4, any counting mistake is multiplied by 4 too.\n\n(Other good improvements: do the star jumps at the same steady speed every time, or make sure she has rested fully before she starts.)",
+    "rubric": [
+      {
+        "criterion": "Gives one valid improvement (e.g. repeat and find the mean; use a heart-rate monitor; keep the exercise at the same speed; rest fully first)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a second, different valid improvement",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains how an improvement helps (e.g. averaging reduces the effect of a one-off error; multiplying a 15 s count by 4 multiplies any mistake by 4)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Is one set of results from one person enough to be sure?",
+      "Counting a pulse by hand for 15 seconds can easily be out by one beat. What happens to that error when you multiply by 4?"
+    ],
+    "solution": "Good improvements include **repeating and averaging**, **measuring more accurately** (for example, with a heart-rate monitor) and **controlling variables** such as the speed of the star jumps. Always explain **why** each one helps."
+  },
+  {
+    "id": "s9.bio.body-systems.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Arteries have thick, muscular, stretchy walls. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Blood in arteries is under high pressure from the heart's pumping"
+      },
+      {
+        "id": "b",
+        "text": "Thick walls let oxygen pass out of the arteries more quickly"
+      },
+      {
+        "id": "c",
+        "text": "Arteries carry blood back to the heart from far parts of the body"
+      },
+      {
+        "id": "d",
+        "text": "Thick walls stop the blood in arteries from flowing backwards"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Substances pass in and out of the blood through **capillaries**, whose walls are very thin. Thick walls would slow this down.",
+      "c": "Arteries carry blood **away** from the heart. Veins bring it back.",
+      "d": "Backflow is stopped by valves. Veins have valves along their length; arteries rely on high pressure instead."
+    },
+    "hints": [
+      "Think about what happens inside an artery every time the heart beats."
+    ],
+    "solution": "Each heartbeat pushes blood into the arteries at **high pressure**. Thick, muscular, elastic walls can withstand this pressure, stretching and springing back with each beat. That stretch is what you feel as your pulse."
+  },
+  {
+    "id": "s9.bio.body-systems.q034",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why does the stomach make hydrochloric acid?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It kills most bacteria in food and gives the right conditions for stomach enzymes"
+      },
+      {
+        "id": "b",
+        "text": "It breaks down the starch in food into glucose, ready for absorption"
+      },
+      {
+        "id": "c",
+        "text": "It neutralises the food, so that the food doesn't damage the stomach"
+      },
+      {
+        "id": "d",
+        "text": "It absorbs digested food through the stomach wall into the blood"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Starch is broken down by the enzyme amylase, in the mouth and small intestine, not by acid.",
+      "c": "Acid makes the stomach contents **more** acidic, not neutral. A layer of mucus protects the stomach wall.",
+      "d": "Digested food is absorbed mainly in the small intestine."
+    },
+    "hints": [
+      "Think about what might be living on your food, and about the enzyme that works in the stomach."
+    ],
+    "solution": "Hydrochloric acid **kills most of the bacteria** swallowed with food, and it gives the **acidic conditions** that the stomach's protein-digesting enzyme needs to work well."
+  },
+  {
+    "id": "s9.bio.body-systems.q035",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Many people mix up **breathing** and **respiration**. Explain the difference between them.",
+    "modelAnswer": "Breathing is the movement of air into and out of the lungs, caused by the diaphragm and rib muscles. It is a physical process. Respiration is a chemical reaction that happens inside every living cell, in which glucose reacts with oxygen to release energy (glucose + oxygen → carbon dioxide + water). Breathing supplies the oxygen that respiration needs and removes the carbon dioxide it makes.",
+    "rubric": [
+      {
+        "criterion": "Describes breathing as moving air into and out of the lungs",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes respiration as a chemical reaction in cells that releases energy from glucose (using oxygen)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Where does each one happen: in the lungs, or in every cell?",
+      "Which one releases energy?"
+    ],
+    "solution": "**Breathing** = moving air in and out of the lungs. **Respiration** = the chemical reaction in every cell that releases energy from glucose. Breathing supports respiration by bringing in oxygen and removing carbon dioxide."
+  },
+  {
+    "id": "s9.bio.body-systems.q036",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which enzyme breaks down fats into fatty acids and glycerol?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lipase"
+      },
+      {
+        "id": "b",
+        "text": "Amylase"
+      },
+      {
+        "id": "c",
+        "text": "Protease"
+      },
+      {
+        "id": "d",
+        "text": "Bile"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Amylase breaks down starch into sugars.",
+      "c": "Protease breaks down proteins into amino acids.",
+      "d": "Bile breaks fat into small droplets, which helps lipase to work, but bile is not an enzyme."
+    },
+    "hints": [
+      "Fats and oils are also called lipids."
+    ],
+    "solution": "**Lipase** breaks down fats (lipids) into fatty acids and glycerol. Bile helps by breaking fat into tiny droplets, giving lipase a bigger surface to work on."
+  },
+  {
+    "id": "s9.bio.body-systems.q037",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.bio.body-systems.g2",
+    "part": "a",
+    "stem": "Kahu investigates how temperature affects amylase, the enzyme that breaks down starch. She mixes starch solution and amylase in test tubes kept at different temperatures. Every 30 seconds, she puts a drop of each mixture onto iodine solution. When the iodine no longer turns blue-black, all of the starch has been broken down.\n\n| Temperature (°C) | Time for the starch to disappear (minutes) |\n|---|---|\n| 10 | 12 |\n| 20 | 7 |\n| 30 | 4 |\n| 40 | 2 |\n| 50 | 6 |\n| 60 | Starch still there after 20 minutes |",
+    "prompt": "At which temperature did the amylase break down the starch fastest? Give your answer in °C.",
+    "answer": 40,
+    "hints": [
+      "The fastest reaction takes the **shortest** time."
+    ],
+    "solution": "The shortest time (2 minutes) was at **40 °C**, so the amylase worked fastest at this temperature."
+  },
+  {
+    "id": "s9.bio.body-systems.q038",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.body-systems.g2",
+    "part": "b",
+    "stem": "Kahu investigates how temperature affects amylase, the enzyme that breaks down starch. She mixes starch solution and amylase in test tubes kept at different temperatures. Every 30 seconds, she puts a drop of each mixture onto iodine solution. When the iodine no longer turns blue-black, all of the starch has been broken down.\n\n| Temperature (°C) | Time for the starch to disappear (minutes) |\n|---|---|\n| 10 | 12 |\n| 20 | 7 |\n| 30 | 4 |\n| 40 | 2 |\n| 50 | 6 |\n| 60 | Starch still there after 20 minutes |",
+    "prompt": "Why didn't the amylase break down the starch at 60 °C?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The high temperature changed the enzyme's shape, so it no longer worked"
+      },
+      {
+        "id": "b",
+        "text": "The high temperature killed the enzyme, because enzymes are living things"
+      },
+      {
+        "id": "c",
+        "text": "The particles had so much energy that they moved too fast to react"
+      },
+      {
+        "id": "d",
+        "text": "The starch evaporated before the enzyme had time to break it down"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Enzymes are proteins, not living things, so they can't be killed. High temperatures change their shape permanently instead (they are denatured).",
+      "c": "Heating particles normally speeds reactions up. The problem is that the enzyme's shape has been changed.",
+      "d": "Starch doesn't evaporate at 60 °C. The iodine test showed that the starch was still there."
+    },
+    "hints": [
+      "Enzymes are proteins with a very particular shape."
+    ],
+    "solution": "An enzyme has a particular shape that fits the molecules it works on. At 60 °C, the amylase's shape is changed permanently: it is **denatured**, so it can no longer break down the starch."
+  },
+  {
+    "id": "s9.bio.body-systems.q039",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.bio.body-systems.g2",
+    "part": "c",
+    "stem": "Kahu investigates how temperature affects amylase, the enzyme that breaks down starch. She mixes starch solution and amylase in test tubes kept at different temperatures. Every 30 seconds, she puts a drop of each mixture onto iodine solution. When the iodine no longer turns blue-black, all of the starch has been broken down.\n\n| Temperature (°C) | Time for the starch to disappear (minutes) |\n|---|---|\n| 10 | 12 |\n| 20 | 7 |\n| 30 | 4 |\n| 40 | 2 |\n| 50 | 6 |\n| 60 | Starch still there after 20 minutes |",
+    "prompt": "Hemi says, \"This proves that the best temperature for amylase is exactly 40 °C.\" Explain why the results don't show this, and how Kahu could find the best temperature more precisely.",
+    "modelAnswer": "Kahu only tested every 10 °C, so the best (optimum) temperature could be anywhere between about 30 °C and 50 °C: for example, it could be 37 °C. To find it more precisely, she should test more temperatures in that range, such as every 2 °C from 30 °C to 50 °C, and repeat each test to check her results.",
+    "rubric": [
+      {
+        "criterion": "Explains why the results do not prove exactly 40 °C (e.g. temperatures were only tested every 10 °C, so the best temperature could be anywhere between about 30 °C and 50 °C; each temperature was only tested once)",
+        "marks": 1
+      },
+      {
+        "criterion": "Suggests testing smaller steps of temperature between 30 °C and 50 °C (and repeating the tests)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which temperatures did Kahu actually test?",
+      "Could the best temperature be one that she never tested?"
+    ],
+    "solution": "The results only show that the optimum is **somewhere between 30 °C and 50 °C**. Testing **smaller temperature steps** in that range (and repeating) would pin it down. (Human amylase actually works best at about body temperature, 37 °C.)"
+  },
+  {
+    "id": "s9.bio.body-systems.q040",
+    "type": "order",
+    "difficulty": 4,
+    "prompt": "Put these in order to show the path of blood through the heart and lungs, starting with blood that has just come back from the body.",
+    "items": [
+      {
+        "id": "ra",
+        "text": "Right atrium"
+      },
+      {
+        "id": "rv",
+        "text": "Right ventricle"
+      },
+      {
+        "id": "pa",
+        "text": "Pulmonary artery"
+      },
+      {
+        "id": "lungs",
+        "text": "Lungs"
+      },
+      {
+        "id": "pv",
+        "text": "Pulmonary vein"
+      },
+      {
+        "id": "la",
+        "text": "Left atrium"
+      },
+      {
+        "id": "lv",
+        "text": "Left ventricle"
+      },
+      {
+        "id": "ao",
+        "text": "Aorta"
+      }
+    ],
+    "hints": [
+      "Blood from the body enters the right side of the heart.",
+      "In each side, blood goes into an atrium (upper chamber) before a ventricle (lower chamber)."
+    ],
+    "solution": "Right atrium → right ventricle → pulmonary artery → lungs (blood picks up oxygen) → pulmonary vein → left atrium → left ventricle → aorta → out to the body."
+  },
+  {
+    "id": "s9.bio.body-systems.q041",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Cigarette smoke contains carbon monoxide, which attaches to red blood cells in place of oxygen. Why do smokers often get out of breath more quickly when they exercise?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Their blood carries less oxygen to their muscles for respiration"
+      },
+      {
+        "id": "b",
+        "text": "Carbon monoxide blocks the trachea, so less air can get in"
+      },
+      {
+        "id": "c",
+        "text": "Their lungs take in too much oxygen, which damages the lungs"
+      },
+      {
+        "id": "d",
+        "text": "Carbon monoxide makes the heart beat much more slowly"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Carbon monoxide is a gas. It doesn't block the airways; it affects the red blood cells.",
+      "c": "The problem is that **less** oxygen is carried, not too much.",
+      "d": "With less oxygen in the blood, the heart tends to beat **faster**, to try to deliver enough oxygen."
+    },
+    "hints": [
+      "What is the job of red blood cells?"
+    ],
+    "solution": "Red blood cells carrying carbon monoxide can't carry as much oxygen. The muscles get less oxygen for respiration, so they can't release energy as well, and the smoker becomes breathless sooner as the body tries to take in more oxygen."
+  },
+  {
+    "id": "s9.bio.body-systems.q042",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Carbon dioxide is made in a muscle cell in your leg. Explain how the circulatory system and the respiratory system work together to get rid of it.",
+    "modelAnswer": "Carbon dioxide is made by respiration in the muscle cell. There is more carbon dioxide in the cell than in the blood, so it diffuses into the blood in a nearby capillary. The blood (mostly the plasma) carries it through the veins back to the heart, which pumps it to the lungs. In the lungs, there is less carbon dioxide in the air in the alveoli than in the blood, so it diffuses out of the capillaries into the alveoli, and it is breathed out.",
+    "rubric": [
+      {
+        "criterion": "States that carbon dioxide is made by respiration and diffuses from the muscle cell into the blood in a capillary",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the blood (plasma) carrying it in veins to the heart, which pumps it to the lungs",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes carbon dioxide diffusing from the blood into the alveoli, and being breathed out",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Start in the muscle cell: which process makes carbon dioxide, and how does it get into the blood?",
+      "Finish in the lungs: how does it leave the blood?"
+    ],
+    "solution": "Muscle cell (respiration) → **diffuses** into a capillary → carried in the plasma through **veins** → **heart** pumps it to the lungs → **diffuses** into the alveoli → **breathed out**."
+  },
+  {
+    "id": "s9.bio.body-systems.q043",
+    "type": "match",
+    "difficulty": 2,
+    "groupId": "s9.bio.body-systems.g3",
+    "part": "a",
+    "stem": "The diagram shows the human digestive system.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 370\" width=\"420\" height=\"370\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"210\" cy=\"36\" r=\"26\" fill=\"#f9fafb\" stroke=\"#9ca3af\" stroke-width=\"2\"/><path d=\"M200,50 Q210,55 220,50\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"2\"/><path d=\"M150,72 Q128,74 118,96 L110,338 Q210,362 310,338 L302,96 Q292,74 270,72 Z\" fill=\"#f9fafb\" stroke=\"#d1d5db\" stroke-width=\"2\"/><path d=\"M210,54 L210,128 Q212,146 240,150\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"9\" stroke-linecap=\"round\"/><path d=\"M122,124 Q168,108 200,120 Q196,158 162,174 Q128,182 122,150 Z\" fill=\"#b45309\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><ellipse cx=\"262\" cy=\"166\" rx=\"34\" ry=\"23\" transform=\"rotate(-18 262 166)\" fill=\"#fda4af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M246,184 L254,226\" fill=\"none\" stroke=\"#f472b6\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M254,226 L178,226 A8,8 0 0 0 178,242 L254,242 A8,8 0 0 1 254,258 L178,258 A8,8 0 0 0 178,274 L254,274 A8,8 0 0 1 254,290 L178,290 Q160,292 150,300\" fill=\"none\" stroke=\"#f472b6\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M148,304 L148,212 Q148,204 156,204 L276,204 Q284,204 284,212 L284,300 Q284,318 250,322 L216,324 L214,346\" fill=\"none\" stroke=\"#fb923c\" stroke-width=\"15\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"98\" x2=\"70\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"210\" cy=\"98\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"104\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"272\" y1=\"162\" x2=\"352\" y2=\"162\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"272\" cy=\"162\" r=\"3\" fill=\"#1f2937\"/><text x=\"358\" y=\"168\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"150\" y1=\"152\" x2=\"70\" y2=\"152\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"152\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"158\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"232\" y1=\"258\" x2=\"352\" y2=\"258\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"232\" cy=\"258\" r=\"3\" fill=\"#1f2937\"/><text x=\"358\" y=\"264\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"148\" y1=\"268\" x2=\"70\" y2=\"268\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"148\" cy=\"268\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"274\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Front view of the human digestive system with five labels. A points to the tube running down from the mouth. B points to a bag-shaped organ on the left side of the body (right of the picture). C points to a large organ on the right side of the body (left of the picture), just below the ribs. D points to a long, coiled tube in the middle of the abdomen. E points to the wider tube that forms a frame around the coiled tube.",
+      "caption": "The body is facing you, so its left side is on the right of the picture."
+    },
+    "prompt": "Match each label to the organ it points to.",
+    "pairs": [
+      {
+        "left": {
+          "id": "A",
+          "text": "Label A"
+        },
+        "right": {
+          "id": "oes",
+          "text": "Oesophagus"
+        }
+      },
+      {
+        "left": {
+          "id": "B",
+          "text": "Label B"
+        },
+        "right": {
+          "id": "sto",
+          "text": "Stomach"
+        }
+      },
+      {
+        "left": {
+          "id": "C",
+          "text": "Label C"
+        },
+        "right": {
+          "id": "liv",
+          "text": "Liver"
+        }
+      },
+      {
+        "left": {
+          "id": "D",
+          "text": "Label D"
+        },
+        "right": {
+          "id": "si",
+          "text": "Small intestine"
+        }
+      },
+      {
+        "left": {
+          "id": "E",
+          "text": "Label E"
+        },
+        "right": {
+          "id": "li",
+          "text": "Large intestine"
+        }
+      }
+    ],
+    "hints": [
+      "The liver is the large organ on the right side of the body, just under the ribs. The body is facing you, so it appears on the left of the picture.",
+      "The large intestine forms a frame around the small intestine."
+    ],
+    "solution": "- **A:** oesophagus (food pipe)\n- **B:** stomach\n- **C:** liver\n- **D:** small intestine (the long, coiled tube)\n- **E:** large intestine (the wider tube around the outside)"
+  },
+  {
+    "id": "s9.bio.body-systems.q044",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.body-systems.g3",
+    "part": "b",
+    "stem": "The diagram shows the human digestive system.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 370\" width=\"420\" height=\"370\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"210\" cy=\"36\" r=\"26\" fill=\"#f9fafb\" stroke=\"#9ca3af\" stroke-width=\"2\"/><path d=\"M200,50 Q210,55 220,50\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"2\"/><path d=\"M150,72 Q128,74 118,96 L110,338 Q210,362 310,338 L302,96 Q292,74 270,72 Z\" fill=\"#f9fafb\" stroke=\"#d1d5db\" stroke-width=\"2\"/><path d=\"M210,54 L210,128 Q212,146 240,150\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"9\" stroke-linecap=\"round\"/><path d=\"M122,124 Q168,108 200,120 Q196,158 162,174 Q128,182 122,150 Z\" fill=\"#b45309\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><ellipse cx=\"262\" cy=\"166\" rx=\"34\" ry=\"23\" transform=\"rotate(-18 262 166)\" fill=\"#fda4af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M246,184 L254,226\" fill=\"none\" stroke=\"#f472b6\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M254,226 L178,226 A8,8 0 0 0 178,242 L254,242 A8,8 0 0 1 254,258 L178,258 A8,8 0 0 0 178,274 L254,274 A8,8 0 0 1 254,290 L178,290 Q160,292 150,300\" fill=\"none\" stroke=\"#f472b6\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M148,304 L148,212 Q148,204 156,204 L276,204 Q284,204 284,212 L284,300 Q284,318 250,322 L216,324 L214,346\" fill=\"none\" stroke=\"#fb923c\" stroke-width=\"15\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"98\" x2=\"70\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"210\" cy=\"98\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"104\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"272\" y1=\"162\" x2=\"352\" y2=\"162\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"272\" cy=\"162\" r=\"3\" fill=\"#1f2937\"/><text x=\"358\" y=\"168\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"150\" y1=\"152\" x2=\"70\" y2=\"152\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"152\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"158\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"232\" y1=\"258\" x2=\"352\" y2=\"258\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"232\" cy=\"258\" r=\"3\" fill=\"#1f2937\"/><text x=\"358\" y=\"264\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"148\" y1=\"268\" x2=\"70\" y2=\"268\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"148\" cy=\"268\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"274\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Front view of the human digestive system with five labels. A points to the tube running down from the mouth. B points to a bag-shaped organ on the left side of the body (right of the picture). C points to a large organ on the right side of the body (left of the picture), just below the ribs. D points to a long, coiled tube in the middle of the abdomen. E points to the wider tube that forms a frame around the coiled tube.",
+      "caption": "The body is facing you, so its left side is on the right of the picture."
+    },
+    "prompt": "In which labelled organ does the digestion of **protein** begin?",
+    "options": [
+      {
+        "id": "b",
+        "text": "Organ B"
+      },
+      {
+        "id": "a",
+        "text": "Organ A"
+      },
+      {
+        "id": "d",
+        "text": "Organ D"
+      },
+      {
+        "id": "e",
+        "text": "Organ E"
+      }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "The oesophagus just moves food down to the stomach by squeezing it along. No protein is digested there.",
+      "d": "Protein digestion continues in the small intestine, but it **begins** before the food gets there.",
+      "e": "By the time food reaches the large intestine, digestion is almost finished. Here, water is absorbed from what is left."
+    },
+    "hints": [
+      "Protein digestion needs a protease enzyme and acidic conditions."
+    ],
+    "solution": "Protein digestion begins in the **stomach (B)**. The stomach makes a protease enzyme and hydrochloric acid, which gives the acidic conditions that the enzyme needs."
+  },
+  {
+    "id": "s9.bio.body-systems.q045",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.body-systems.g3",
+    "part": "c",
+    "stem": "The diagram shows the human digestive system.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 370\" width=\"420\" height=\"370\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"210\" cy=\"36\" r=\"26\" fill=\"#f9fafb\" stroke=\"#9ca3af\" stroke-width=\"2\"/><path d=\"M200,50 Q210,55 220,50\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"2\"/><path d=\"M150,72 Q128,74 118,96 L110,338 Q210,362 310,338 L302,96 Q292,74 270,72 Z\" fill=\"#f9fafb\" stroke=\"#d1d5db\" stroke-width=\"2\"/><path d=\"M210,54 L210,128 Q212,146 240,150\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"9\" stroke-linecap=\"round\"/><path d=\"M122,124 Q168,108 200,120 Q196,158 162,174 Q128,182 122,150 Z\" fill=\"#b45309\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><ellipse cx=\"262\" cy=\"166\" rx=\"34\" ry=\"23\" transform=\"rotate(-18 262 166)\" fill=\"#fda4af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M246,184 L254,226\" fill=\"none\" stroke=\"#f472b6\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M254,226 L178,226 A8,8 0 0 0 178,242 L254,242 A8,8 0 0 1 254,258 L178,258 A8,8 0 0 0 178,274 L254,274 A8,8 0 0 1 254,290 L178,290 Q160,292 150,300\" fill=\"none\" stroke=\"#f472b6\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M148,304 L148,212 Q148,204 156,204 L276,204 Q284,204 284,212 L284,300 Q284,318 250,322 L216,324 L214,346\" fill=\"none\" stroke=\"#fb923c\" stroke-width=\"15\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"210\" y1=\"98\" x2=\"70\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"210\" cy=\"98\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"104\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"272\" y1=\"162\" x2=\"352\" y2=\"162\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"272\" cy=\"162\" r=\"3\" fill=\"#1f2937\"/><text x=\"358\" y=\"168\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"150\" y1=\"152\" x2=\"70\" y2=\"152\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"152\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"158\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"232\" y1=\"258\" x2=\"352\" y2=\"258\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"232\" cy=\"258\" r=\"3\" fill=\"#1f2937\"/><text x=\"358\" y=\"264\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"148\" y1=\"268\" x2=\"70\" y2=\"268\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"148\" cy=\"268\" r=\"3\" fill=\"#1f2937\"/><text x=\"64\" y=\"274\" text-anchor=\"end\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Front view of the human digestive system with five labels. A points to the tube running down from the mouth. B points to a bag-shaped organ on the left side of the body (right of the picture). C points to a large organ on the right side of the body (left of the picture), just below the ribs. D points to a long, coiled tube in the middle of the abdomen. E points to the wider tube that forms a frame around the coiled tube.",
+      "caption": "The body is facing you, so its left side is on the right of the picture."
+    },
+    "prompt": "The inside wall of the small intestine (D) is covered in millions of tiny, finger-like **villi**. Explain how villi help to absorb digested food into the blood.",
+    "modelAnswer": "Villi greatly increase the surface area of the small intestine wall, so much more digested food (such as glucose and amino acids) can be absorbed at the same time. The wall of each villus is very thin, only one cell thick, so food molecules have only a short distance to travel into the blood. Each villus also has a network of blood capillaries, so the blood quickly carries the absorbed food away. This keeps the concentration in the blood low, so absorption keeps going.",
+    "rubric": [
+      {
+        "criterion": "States that villi give a large surface area for absorption",
+        "marks": 1
+      },
+      {
+        "criterion": "States that the villus walls are thin (one cell thick), so food molecules have a short distance to travel",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that a good blood supply (capillaries) carries the absorbed food away, keeping a concentration difference so absorption continues",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Think about surface area, distance and blood supply.",
+      "Compare villi with the alveoli in the lungs."
+    ],
+    "solution": "Villi are adapted like alveoli: **large surface area**, **thin walls** (short distance) and a **rich blood supply** that carries absorbed food away."
+  },
+  {
+    "id": "s9.bio.body-systems.q046",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "At high altitude, each breath contains less oxygen than at sea level. After a few weeks living high in the mountains, a climber's body makes extra red blood cells. How does this help the climber?",
+    "options": [
+      {
+        "id": "a",
+        "text": "More red blood cells can carry more oxygen from each breath to the muscles"
+      },
+      {
+        "id": "b",
+        "text": "More red blood cells can make extra oxygen for the body to use"
+      },
+      {
+        "id": "c",
+        "text": "More red blood cells carry away more carbon dioxide, so the climber breathes less"
+      },
+      {
+        "id": "d",
+        "text": "More red blood cells mean the heart doesn't need to pump as often"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Red blood cells carry oxygen; they don't make it. The only source of oxygen is the air the climber breathes in.",
+      "c": "Most carbon dioxide is carried in the plasma, and the problem at altitude is getting enough oxygen, not removing carbon dioxide.",
+      "d": "The heart still has to pump the blood around the body. Extra red blood cells help each beat deliver more oxygen."
+    },
+    "hints": [
+      "What is the job of red blood cells?",
+      "What does the climber need more of at altitude?"
+    ],
+    "solution": "Red blood cells carry **oxygen** from the lungs to the cells. With more red blood cells, the blood can pick up and carry more of the oxygen that is available, so the muscles get enough oxygen for respiration."
+  },
+  {
+    "id": "s9.bio.body-systems.q047",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The heart muscle gets its blood from the coronary arteries. In a heart attack, one of these arteries becomes blocked. Explain why part of the heart muscle can stop working, or die.",
+    "modelAnswer": "The coronary arteries carry blood with oxygen and glucose to the heart muscle cells. If an artery is blocked, the muscle cells beyond the blockage don't get oxygen and glucose, so they can't carry out respiration to release energy. Without energy, the muscle cells can't contract, and if the blockage lasts too long they die. That part of the heart can no longer help to pump blood.",
+    "rubric": [
+      {
+        "criterion": "States that the coronary arteries supply the heart muscle with blood carrying oxygen and glucose",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that without oxygen and glucose, the muscle cells can't respire to release energy",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that without energy, the cells can't contract (and die), so the heart can't pump properly",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "The heart muscle works all the time. What do its cells need to keep releasing energy?",
+      "What happens to the cells if that supply stops?"
+    ],
+    "solution": "Blocked coronary artery → no **oxygen** or **glucose** for that part of the heart muscle → no **respiration**, so no energy → the muscle can't **contract** and may die."
+  },
+  {
+    "id": "s9.bio.body-systems.q048",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "At rest, Liam takes 12 breaths per minute, and each breath moves 0.5 L of air into his lungs. During hard exercise, he takes 30 breaths per minute, and each breath moves 2.5 L of air. How many times as much air does he breathe in each minute during exercise as at rest?",
+    "answer": 12.5,
+    "hints": [
+      "Air per minute = number of breaths per minute × volume of each breath.",
+      "Work this out at rest and during exercise, then divide."
+    ],
+    "solution": "At rest: $12 \\times 0.5 = 6$ L per minute.\n\nDuring exercise: $30 \\times 2.5 = 75$ L per minute.\n\n$75 \\div 6 = 12.5$, so he breathes **12.5 times** as much air each minute."
   }
 ]

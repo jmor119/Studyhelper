@@ -11,6 +11,8 @@ export interface ExamCandidate {
   difficulty: number;
   marks: number;
   groupId?: string;
+  /** Part letter within a multi-part group ("a", "b", …). */
+  part?: string;
   isTemplate?: boolean;
 }
 
@@ -28,6 +30,8 @@ export interface ExamSlot {
   topicId: string;
   difficulty: number;
   marks: number;
+  groupId?: string;
+  part?: string;
 }
 
 /** Target share of marks by difficulty band: accessible start, solid middle, a few challenges. */
@@ -48,13 +52,32 @@ export function buildExam(candidates: ExamCandidate[], config: ExamConfig): Exam
   const usedGroups = new Set<string>();
   let marks = 0;
 
-  const take = (c: ExamCandidate) => {
-    const seed = rng.int(1, 2_000_000_000);
-    const questionId = c.isTemplate ? `tpl:${c.id}:${c.difficulty}:${seed}` : c.id;
-    chosen.push({ questionId, topicId: c.topicId, difficulty: c.difficulty, marks: c.marks });
-    usedIds.add(`${c.id}@${c.difficulty}`);
+  // A multi-part question comes as a whole: all its parts, in order.
+  const unitOf = (c: ExamCandidate): ExamCandidate[] =>
+    c.groupId && !c.isTemplate
+      ? inScope.filter((x) => x.groupId === c.groupId && !x.isTemplate).sort((a, b) => (a.part ?? '').localeCompare(b.part ?? ''))
+      : [c];
+  const unitMarks = (c: ExamCandidate) => unitOf(c).reduce((s, x) => s + x.marks, 0);
+
+  const take = (c: ExamCandidate): number => {
+    let added = 0;
+    for (const x of unitOf(c)) {
+      const seed = rng.int(1, 2_000_000_000);
+      const questionId = x.isTemplate ? `tpl:${x.id}:${x.difficulty}:${seed}` : x.id;
+      chosen.push({
+        questionId,
+        topicId: x.topicId,
+        difficulty: x.difficulty,
+        marks: x.marks,
+        ...(x.groupId && !x.isTemplate && { groupId: x.groupId }),
+        ...(x.part && { part: x.part }),
+      });
+      usedIds.add(`${x.id}@${x.difficulty}`);
+      added += x.marks;
+    }
     if (c.groupId) usedGroups.add(c.groupId);
-    marks += c.marks;
+    marks += added;
+    return added;
   };
 
   for (const [band, share] of DIFFICULTY_MIX) {
@@ -73,7 +96,7 @@ export function buildExam(candidates: ExamCandidate[], config: ExamConfig): Exam
           band.includes(c.difficulty) &&
           (c.isTemplate || !usedIds.has(`${c.id}@${c.difficulty}`)) &&
           (!c.groupId || !usedGroups.has(c.groupId)) &&
-          marks + c.marks <= targetMarks + 2,
+          marks + unitMarks(c) <= targetMarks + 3,
       );
       // Templates may be reused (fresh seed) but no more than twice per topic per band.
       const templateUses = chosen.filter((s) => s.topicId === topicId && band.includes(s.difficulty)).length;
@@ -84,14 +107,29 @@ export function buildExam(candidates: ExamCandidate[], config: ExamConfig): Exam
       }
       stalled = 0;
       const c = rng.pick(usable);
-      take(c);
-      bandMarks += c.marks;
+      bandMarks += take(c);
       if (marks >= targetMarks) break;
     }
   }
 
-  // Order: by difficulty, keeping groups (multi-part questions) together.
-  return chosen.sort((a, b) => a.difficulty - b.difficulty);
+  // Order by difficulty (easiest first), keeping each multi-part question's parts together and in order.
+  const units: ExamSlot[][] = [];
+  const byGroup = new Map<string, ExamSlot[]>();
+  for (const slot of chosen) {
+    if (!slot.groupId) {
+      units.push([slot]);
+      continue;
+    }
+    const existing = byGroup.get(slot.groupId);
+    if (existing) existing.push(slot);
+    else {
+      const unit = [slot];
+      byGroup.set(slot.groupId, unit);
+      units.push(unit);
+    }
+  }
+  const unitDifficulty = (u: ExamSlot[]) => Math.min(...u.map((s) => s.difficulty));
+  return units.sort((a, b) => unitDifficulty(a) - unitDifficulty(b)).flat();
 }
 
 export function examGrade(percent: number): { grade: string; label: string } {

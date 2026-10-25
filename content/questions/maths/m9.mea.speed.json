@@ -143,5 +143,257 @@
     "units": "m",
     "hints": ["Change 90 km/h into m/s by dividing by 3.6.", "Then distance = speed × time."],
     "solution": "$90 \\div 3.6 = 25$ m/s. Distance $= 25 \\times 1.5 = 37.5$ m. That's why leaving a big gap behind the car in front matters!"
+  },
+  {
+    "id": "m9.mea.speed.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.speed.g1",
+    "part": "a",
+    "stem": "Mikaere rides part of the Hauraki Rail Trail. In stage 1 he rides 18 km in 1 hour 12 minutes. He then stops for lunch for 30 minutes. In stage 2 he rides 24 km at an average speed of 16 km/h.",
+    "prompt": "Find Mikaere's average speed in stage 1, in km/h.",
+    "answer": 15,
+    "units": "km/h",
+    "hints": ["Write 1 hour 12 minutes in hours, as a decimal. 12 minutes is $\\frac{12}{60}$ of an hour.", "Speed = distance ÷ time."],
+    "solution": "12 min $= \\frac{12}{60} = 0.2$ h, so 1 h 12 min = 1.2 h.\n\nSpeed $= 18 \\div 1.2 = 15$ km/h."
+  },
+  {
+    "id": "m9.mea.speed.q011",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.speed.g1",
+    "part": "b",
+    "stem": "Mikaere rides part of the Hauraki Rail Trail. In stage 1 he rides 18 km in 1 hour 12 minutes. He then stops for lunch for 30 minutes. In stage 2 he rides 24 km at an average speed of 16 km/h.",
+    "prompt": "How many minutes does stage 2 take?",
+    "answer": 90,
+    "units": "min",
+    "hints": ["Time = distance ÷ speed. This gives the time in hours.", "Then change hours into minutes."],
+    "solution": "Time $= 24 \\div 16 = 1.5$ h $= 1.5 \\times 60 = 90$ minutes."
+  },
+  {
+    "id": "m9.mea.speed.q012",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "groupId": "m9.mea.speed.g1",
+    "part": "c",
+    "stem": "Mikaere rides part of the Hauraki Rail Trail. In stage 1 he rides 18 km in 1 hour 12 minutes. He then stops for lunch for 30 minutes. In stage 2 he rides 24 km at an average speed of 16 km/h.",
+    "prompt": "Find Mikaere's average speed for the **whole trip**, including the lunch stop. Give your answer to 1 decimal place.",
+    "answer": 13.1,
+    "decimals": 1,
+    "units": "km/h",
+    "hints": ["Average speed = total distance ÷ total time.", "The total time includes stage 1, the lunch stop and stage 2. Write all the times in hours."],
+    "solution": "Total distance $= 18 + 24 = 42$ km.\n\nStage 1 takes 1.2 h, lunch takes 0.5 h and stage 2 takes $24 \\div 16 = 1.5$ h. Total time $= 1.2 + 0.5 + 1.5 = 3.2$ h.\n\nAverage speed $= 42 \\div 3.2 = 13.125 \\approx 13.1$ km/h."
+  },
+  {
+    "id": "m9.mea.speed.q013",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.speed.g2",
+    "part": "a",
+    "stem": "Tama leaves home at 8:00 am and walks to school, 3 km away. His sister Losa leaves home 10 minutes later and cycles to school along the same road. The graph shows both journeys.",
+    "prompt": "What is Tama's walking speed, in km/h?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 278\" width=\"384\" height=\"278\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"92\" y1=\"228\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"122\" y1=\"228\" x2=\"122\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"122\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">10</text><line x1=\"152\" y1=\"228\" x2=\"152\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"182\" y1=\"228\" x2=\"182\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"182\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><line x1=\"212\" y1=\"228\" x2=\"212\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"228\" x2=\"242\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"242\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">30</text><line x1=\"272\" y1=\"228\" x2=\"272\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"302\" y1=\"228\" x2=\"302\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"302\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">40</text><line x1=\"332\" y1=\"228\" x2=\"332\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"362\" y1=\"228\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"362\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">50</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"228\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"62\" y1=\"193\" x2=\"362\" y2=\"193\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"158\" x2=\"362\" y2=\"158\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"158\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><line x1=\"62\" y1=\"123\" x2=\"362\" y2=\"123\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"88\" x2=\"362\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"88\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><line x1=\"62\" y1=\"53\" x2=\"362\" y2=\"53\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"18\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time (minutes after 8:00 am)</text><text x=\"16\" y=\"123\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 123)\">Distance from home (km)</text><polyline points=\"62,228 332,18\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"122,228 212,18\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><text x=\"308\" y=\"81\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#2563eb\" font-weight=\"bold\">Tama</text><text x=\"155\" y=\"67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#dc2626\" font-weight=\"bold\">Losa</text></svg>", "alt": "A distance–time graph. Time is in minutes after 8:00 am (0 to 50) and distance from home is in km (0 to 3). Tama's line goes straight from (0, 0) to (45, 3). Losa's dashed line goes straight from (10, 0) to (25, 3). The lines cross at (15, 1)." },
+    "answer": 4,
+    "units": "km/h",
+    "hints": ["Read from the graph how long Tama takes to walk the 3 km.", "Change that time into hours before you divide."],
+    "solution": "Tama walks 3 km in 45 minutes $= 0.75$ h.\n\nSpeed $= 3 \\div 0.75 = 4$ km/h."
+  },
+  {
+    "id": "m9.mea.speed.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.speed.g2",
+    "part": "b",
+    "stem": "Tama leaves home at 8:00 am and walks to school, 3 km away. His sister Losa leaves home 10 minutes later and cycles to school along the same road. The graph shows both journeys.",
+    "prompt": "What is Losa's cycling speed, in km/h?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 278\" width=\"384\" height=\"278\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"92\" y1=\"228\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"122\" y1=\"228\" x2=\"122\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"122\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">10</text><line x1=\"152\" y1=\"228\" x2=\"152\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"182\" y1=\"228\" x2=\"182\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"182\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><line x1=\"212\" y1=\"228\" x2=\"212\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"228\" x2=\"242\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"242\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">30</text><line x1=\"272\" y1=\"228\" x2=\"272\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"302\" y1=\"228\" x2=\"302\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"302\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">40</text><line x1=\"332\" y1=\"228\" x2=\"332\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"362\" y1=\"228\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"362\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">50</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"228\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"62\" y1=\"193\" x2=\"362\" y2=\"193\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"158\" x2=\"362\" y2=\"158\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"158\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><line x1=\"62\" y1=\"123\" x2=\"362\" y2=\"123\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"88\" x2=\"362\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"88\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><line x1=\"62\" y1=\"53\" x2=\"362\" y2=\"53\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"18\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time (minutes after 8:00 am)</text><text x=\"16\" y=\"123\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 123)\">Distance from home (km)</text><polyline points=\"62,228 332,18\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"122,228 212,18\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><text x=\"308\" y=\"81\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#2563eb\" font-weight=\"bold\">Tama</text><text x=\"155\" y=\"67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#dc2626\" font-weight=\"bold\">Losa</text></svg>", "alt": "A distance–time graph. Time is in minutes after 8:00 am (0 to 50) and distance from home is in km (0 to 3). Tama's line goes straight from (0, 0) to (45, 3). Losa's dashed line goes straight from (10, 0) to (25, 3). The lines cross at (15, 1)." },
+    "answer": 12,
+    "units": "km/h",
+    "hints": ["Losa starts at 10 minutes. Read when she reaches 3 km.", "How many minutes does her ride take? What fraction of an hour is that?"],
+    "solution": "Losa rides 3 km between 10 min and 25 min, which is 15 minutes $= 0.25$ h.\n\nSpeed $= 3 \\div 0.25 = 12$ km/h."
+  },
+  {
+    "id": "m9.mea.speed.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.mea.speed.g2",
+    "part": "c",
+    "stem": "Tama leaves home at 8:00 am and walks to school, 3 km away. His sister Losa leaves home 10 minutes later and cycles to school along the same road. The graph shows both journeys.",
+    "prompt": "What does the point where the two lines cross show?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 278\" width=\"384\" height=\"278\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"92\" y1=\"228\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"122\" y1=\"228\" x2=\"122\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"122\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">10</text><line x1=\"152\" y1=\"228\" x2=\"152\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"182\" y1=\"228\" x2=\"182\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"182\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><line x1=\"212\" y1=\"228\" x2=\"212\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"228\" x2=\"242\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"242\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">30</text><line x1=\"272\" y1=\"228\" x2=\"272\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"302\" y1=\"228\" x2=\"302\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"302\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">40</text><line x1=\"332\" y1=\"228\" x2=\"332\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"362\" y1=\"228\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"362\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">50</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"228\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"62\" y1=\"193\" x2=\"362\" y2=\"193\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"158\" x2=\"362\" y2=\"158\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"158\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><line x1=\"62\" y1=\"123\" x2=\"362\" y2=\"123\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"88\" x2=\"362\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"88\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><line x1=\"62\" y1=\"53\" x2=\"362\" y2=\"53\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"18\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time (minutes after 8:00 am)</text><text x=\"16\" y=\"123\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 123)\">Distance from home (km)</text><polyline points=\"62,228 332,18\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"122,228 212,18\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><text x=\"308\" y=\"81\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#2563eb\" font-weight=\"bold\">Tama</text><text x=\"155\" y=\"67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#dc2626\" font-weight=\"bold\">Losa</text></svg>", "alt": "A distance–time graph. Time is in minutes after 8:00 am (0 to 50) and distance from home is in km (0 to 3). Tama's line goes straight from (0, 0) to (45, 3). Losa's dashed line goes straight from (10, 0) to (25, 3). The lines cross at (15, 1)." },
+    "options": [
+      { "id": "a", "text": "Losa passes Tama: they are at the same place at the same time" },
+      { "id": "b", "text": "Losa and Tama are travelling at the same speed" },
+      { "id": "c", "text": "Losa stops to wait for Tama" },
+      { "id": "d", "text": "Losa and Tama both arrive at school" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The lines have different steepness, so the speeds are different. Crossing means they are the same distance from home at that moment.",
+      "c": "A stop would show as a flat (horizontal) part of Losa's line. Her line keeps rising.",
+      "d": "School is 3 km from home. The lines cross at only 1 km from home."
+    },
+    "hints": ["Each point on a line gives a time and a distance from home.", "If both lines go through the same point, what is the same for both people?"],
+    "solution": "Where the lines cross, both people are the **same distance from home at the same time**. This is where Losa catches up with Tama and passes him: 15 minutes after 8:00 am, 1 km from home."
+  },
+  {
+    "id": "m9.mea.speed.q016",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "A car's speedometer shows 50 km/h. What does this tell you?",
+    "options": [
+      { "id": "a", "text": "At this speed, the car would travel 50 km in one hour" },
+      { "id": "b", "text": "The car has travelled 50 km so far on its trip" },
+      { "id": "c", "text": "The car takes 50 hours to travel 1 km" },
+      { "id": "d", "text": "The car travels 50 km every minute" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A speedometer shows speed, not the total distance travelled.",
+      "c": "km/h means kilometres **per hour**: the number of kilometres travelled in each hour.",
+      "d": "The \"h\" in km/h stands for hours, not minutes."
+    },
+    "hints": ["km/h is read as \"kilometres per hour\"."],
+    "solution": "50 km/h means 50 kilometres **per hour**: at this speed the car would cover 50 km in each hour."
+  },
+  {
+    "id": "m9.mea.speed.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Ana cycles a route in 30 minutes. Mele cycles a route that is twice as long, also in 30 minutes. How does Mele's average speed compare with Ana's?",
+    "options": [
+      { "id": "a", "text": "It is double Ana's speed" },
+      { "id": "b", "text": "It is half Ana's speed" },
+      { "id": "c", "text": "It is the same as Ana's speed" },
+      { "id": "d", "text": "It is four times Ana's speed" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Mele covers more distance in the same time, so she must be faster, not slower.",
+      "c": "They take the same time, but Mele goes twice as far, so her speed is greater.",
+      "d": "Only the distance doubles. Doubling the distance in the same time doubles the speed."
+    },
+    "hints": ["Speed = distance ÷ time. What happens if the distance doubles but the time stays the same?"],
+    "solution": "Speed = distance ÷ time. Mele's distance is doubled and her time is the same, so her speed is **doubled**."
+  },
+  {
+    "id": "m9.mea.speed.q018",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Which of these speeds is the **fastest**?",
+    "options": [
+      { "id": "a", "text": "1 km per minute" },
+      { "id": "b", "text": "50 km/h" },
+      { "id": "c", "text": "10 m/s" },
+      { "id": "d", "text": "1000 m per hour" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "1 km per minute is 60 km in an hour, which is faster than 50 km/h.",
+      "c": "10 m/s × 3.6 = 36 km/h, which is slower than 1 km per minute (60 km/h).",
+      "d": "1000 m per hour is only 1 km/h, a slow crawl. A big number doesn't mean a big speed when the unit is small."
+    },
+    "hints": ["Change every speed into km/h so you can compare them.", "There are 60 minutes in an hour. To change m/s into km/h, multiply by 3.6."],
+    "solution": "In km/h: 1 km per minute = 60 km/h; 50 km/h; 10 m/s = 36 km/h; 1000 m per hour = 1 km/h.\n\nThe fastest is **1 km per minute**."
+  },
+  {
+    "id": "m9.mea.speed.q019",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "The Cook Strait ferry crossing between Wellington and Picton is about 92 km and takes about 3.5 hours. What is the ferry's average speed? Give your answer to 1 decimal place.",
+    "answer": 26.3,
+    "decimals": 1,
+    "units": "km/h",
+    "hints": ["Speed = distance ÷ time."],
+    "solution": "Speed $= 92 \\div 3.5 = 26.28\\ldots \\approx 26.3$ km/h."
+  },
+  {
+    "id": "m9.mea.speed.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Hemi runs 400 m in 1 minute 20 seconds. He works out his speed as $400 \\div 1.2 = 333.3$ m/s. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He should use 80 seconds: $400 \\div 80 = 5$ m/s" },
+      { "id": "b", "text": "He should use 1.33 minutes: $400 \\div 1.33 = 300$ m/s" },
+      { "id": "c", "text": "He should multiply: $400 \\times 1.2 = 480$ m/s" },
+      { "id": "d", "text": "Nothing: his speed is 333.3 m/s" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "1 min 20 s is about 1.33 minutes, but dividing by minutes gives metres per **minute**, not metres per second.",
+      "c": "Speed = distance ÷ time, not distance × time.",
+      "d": "333 m/s is close to the speed of sound! 1 min 20 s is not 1.2 minutes, and a speed in m/s needs the time in seconds."
+    },
+    "hints": ["How many seconds are there in 1 minute 20 seconds?", "For a speed in m/s, the distance must be in metres and the time in seconds."],
+    "solution": "1 min 20 s $= 60 + 20 = 80$ s. (It is not 1.2 minutes, because a minute has 60 seconds, not 100.)\n\nSpeed $= 400 \\div 80 = 5$ m/s. Hemi made two mistakes: he wrote 1 min 20 s as 1.2, and he divided by minutes when the answer needed seconds."
+  },
+  {
+    "id": "m9.mea.speed.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "The graph shows a car's journey as it pulls away from a set of traffic lights. Explain what is happening to the car's speed, and how the graph shows this.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 278\" width=\"384\" height=\"278\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"62\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"92\" y1=\"228\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"122\" y1=\"228\" x2=\"122\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"122\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><line x1=\"152\" y1=\"228\" x2=\"152\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"182\" y1=\"228\" x2=\"182\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"182\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><line x1=\"212\" y1=\"228\" x2=\"212\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"228\" x2=\"242\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"242\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><line x1=\"272\" y1=\"228\" x2=\"272\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"302\" y1=\"228\" x2=\"302\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"302\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><line x1=\"332\" y1=\"228\" x2=\"332\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"362\" y1=\"228\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"362\" y=\"241\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">10</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"228\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><line x1=\"62\" y1=\"207\" x2=\"362\" y2=\"207\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"186\" x2=\"362\" y2=\"186\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"186\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><line x1=\"62\" y1=\"165\" x2=\"362\" y2=\"165\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"144\" x2=\"362\" y2=\"144\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"144\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">40</text><line x1=\"62\" y1=\"123\" x2=\"362\" y2=\"123\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"102\" x2=\"362\" y2=\"102\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"102\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">60</text><line x1=\"62\" y1=\"81\" x2=\"362\" y2=\"81\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"60\" x2=\"362\" y2=\"60\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"60\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">80</text><line x1=\"62\" y1=\"39\" x2=\"362\" y2=\"39\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"18\" x2=\"362\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"54\" y=\"18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">100</text><line x1=\"62\" y1=\"228\" x2=\"362\" y2=\"228\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"62\" y1=\"228\" x2=\"62\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time (s)</text><text x=\"16\" y=\"123\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 123)\">Distance (m)</text><polyline points=\"62,228 69.5,227.87 77,227.48 84.5,226.82 92,225.9 99.5,224.72 107,223.28 114.5,221.57 122,219.6 129.5,217.37 137,214.88 144.5,212.12 152,209.1 159.5,205.82 167,202.28 174.5,198.47 182,194.4 189.5,190.07 197,185.48 204.5,180.62 212,175.5 219.5,170.12 227,164.48 234.5,158.57 242,152.4 249.5,145.97 257,139.28 264.5,132.32 272,125.1 279.5,117.62 287,109.88 294.5,101.87 302,93.6 309.5,85.07 317,76.28 324.5,67.22 332,57.9 339.5,48.32 347,38.47 354.5,28.37 362,18\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/></svg>", "alt": "A distance–time graph for 0 to 10 seconds. The line starts flat at (0, 0) and curves upwards, getting steeper and steeper, to reach 100 m at 10 seconds." },
+    "modelAnswer": "The car is speeding up (accelerating). On a distance–time graph the steepness (gradient) of the line is the speed. The line gets steeper as time goes on, so the car covers more distance in each second than in the second before. That means its speed is increasing.",
+    "rubric": [
+      { "criterion": "States that the car is speeding up (accelerating)", "marks": 1 },
+      { "criterion": "Explains that the gradient (steepness) shows the speed, and the line gets steeper, so the car covers more distance each second", "marks": 1 }
+    ],
+    "hints": ["What does the steepness of a distance–time graph tell you?", "Compare the distance covered in the first 2 seconds with the distance covered from 8 to 10 seconds."],
+    "solution": "The gradient of a distance–time graph is the speed. This graph starts almost flat and gets **steeper**, so the speed is **increasing**: the car is accelerating. For example, it covers about 4 m in the first 2 s, but about 36 m between 8 s and 10 s."
+  },
+  {
+    "id": "m9.mea.speed.q022",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "On a road with a 100 km/h speed limit, two cameras are 2 km apart. A car passes the first camera at 90 km/h and the second camera at 90 km/h, but it takes exactly 1 minute to travel from one camera to the other. Work out the car's average speed between the cameras, and explain why the driver must have broken the speed limit.",
+    "modelAnswer": "1 minute = 1/60 of an hour. Average speed = 2 ÷ (1/60) = 2 × 60 = 120 km/h. If the car had never gone faster than 100 km/h, its average speed could not be more than 100 km/h. Its average was 120 km/h, so at some point between the cameras it must have been going faster than 100 km/h, even though it was doing 90 km/h at each camera.",
+    "rubric": [
+      { "criterion": "Changes the time correctly (1 min = 1/60 h), or reasons that 2 km per minute is 120 km per hour", "marks": 1 },
+      { "criterion": "Finds the average speed: 120 km/h", "marks": 1 },
+      { "criterion": "Explains that an average above 100 km/h means the car must have gone faster than 100 km/h for part of the way", "marks": 1 }
+    ],
+    "hints": ["1 minute is $\\frac{1}{60}$ of an hour.", "If the car never went over 100 km/h, could its average speed be more than 100 km/h?"],
+    "solution": "2 km in 1 minute is $2 \\times 60 = 120$ km in an hour, so the average speed is **120 km/h**.\n\nAn average of 120 km/h is impossible if the car stayed at or below 100 km/h the whole way. So it must have gone faster than 100 km/h somewhere between the cameras, even though it was doing 90 km/h at each camera."
+  },
+  {
+    "id": "m9.mea.speed.q023",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "During a storm, Aroha sees a flash of lightning and hears the thunder 4.5 seconds later. The light reaches her almost instantly, and sound travels at about 340 m/s. Using 340 m/s, how far away was the lightning, in **kilometres**?",
+    "answer": 1.53,
+    "units": "km",
+    "hints": ["The sound takes 4.5 s to reach her. Distance = speed × time.", "Then change your answer from metres into kilometres."],
+    "solution": "Distance $= 340 \\times 4.5 = 1530$ m $= 1.53$ km."
+  },
+  {
+    "id": "m9.mea.speed.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Wellington and Palmerston North are about 140 km apart by road. At 9:00 am a car leaves Wellington and drives towards Palmerston North at an average speed of 80 km/h. At the same time, a truck leaves Palmerston North and drives towards Wellington on the same road at an average speed of 60 km/h. How far from Wellington are they when they meet?",
+    "answer": 80,
+    "units": "km",
+    "hints": ["Every hour, the gap between them shrinks by $80 + 60$ km.", "Find how long it takes for the 140 km gap to close, then how far the car travels in that time."],
+    "solution": "Together they close the gap at $80 + 60 = 140$ km/h, so they meet after $140 \\div 140 = 1$ hour (at 10:00 am).\n\nIn 1 hour the car travels $80 \\times 1 = 80$ km, so they meet **80 km from Wellington**. (Check: the truck has gone 60 km, and $80 + 60 = 140$ ✓)"
   }
 ]

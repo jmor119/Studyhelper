@@ -83,6 +83,19 @@ describe('parseNumber', () => {
       prompt: 'Current?', solution: '.', type: 'numeric', answer: 2, units: 'A',
     });
     expect(markResponse(current, { type: 'numeric', value: '2 amps' }).correct).toBe(true);
+    const temp = QuestionSchema.parse({
+      id: 'test.temp', subject: 'science', yearLevel: 9, topicId: 's9.chem.particles', difficulty: 2,
+      prompt: 'Temperature?', solution: '.', type: 'numeric', answer: 46, units: '°C',
+    });
+    for (const v of ['46', '46°C', '46 °C', '46°', '46 degrees', '46 celsius']) {
+      expect(markResponse(temp, { type: 'numeric', value: v }).correct, v).toBe(true);
+    }
+    const vol = QuestionSchema.parse({
+      id: 'test.vol', subject: 'science', yearLevel: 9, topicId: 's9.phy.pressure-floating', difficulty: 2,
+      prompt: 'Volume?', solution: '.', type: 'numeric', answer: 8, units: 'cm³',
+    });
+    for (const v of ['8 cm³', '8 cm3', '8 mL', '8ml']) expect(markResponse(vol, { type: 'numeric', value: v }).correct, v).toBe(true);
+    expect(markResponse(vol, { type: 'numeric', value: '8 L' }).correct).toBe(false);
   });
 
   it('checks the letter in "y = …" answers when the question names one', () => {

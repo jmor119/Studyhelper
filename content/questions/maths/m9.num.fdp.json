@@ -175,5 +175,254 @@
     ],
     "hints": ["Write 0.41 as 0.410 and 0.42 as 0.420.", "Could you then find a number between your number and 0.41?"],
     "solution": "For example, 0.415 (halfway). Because you can always find another number halfway between any two, there are infinitely many."
+  },
+  {
+    "id": "m9.num.fdp.q011",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fdp.g1",
+    "part": "a",
+    "stem": "At a netball tournament, the coach records how successful each shooter is:\n\n- Grace scored 18 of her 24 shots.\n- Hana's success rate was 0.7.\n- Mere's success rate was 72%.\n- Talia scored $\\frac{7}{9}$ of her shots.",
+    "prompt": "Write Grace's success rate as a percentage.",
+    "answer": 75,
+    "units": "%",
+    "hints": ["Write it as a fraction first: $\\frac{18}{24}$.", "Simplify the fraction, then change it to a percentage."],
+    "solution": "$\\frac{18}{24} = \\frac{3}{4} = 0.75 = 75\\%$."
+  },
+  {
+    "id": "m9.num.fdp.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.fdp.g1",
+    "part": "b",
+    "stem": "At a netball tournament, the coach records how successful each shooter is:\n\n- Grace scored 18 of her 24 shots.\n- Hana's success rate was 0.7.\n- Mere's success rate was 72%.\n- Talia scored $\\frac{7}{9}$ of her shots.",
+    "prompt": "Write Talia's success rate as a percentage, correct to 1 decimal place.",
+    "answer": 77.8,
+    "decimals": 1,
+    "units": "%",
+    "hints": ["Divide 7 by 9 to get a decimal.", "Multiply by 100, then round to 1 decimal place."],
+    "solution": "$7 \\div 9 = 0.777\\ldots = 0.\\dot{7}$. As a percentage this is $77.777\\ldots\\%$, which is **77.8%** to 1 decimal place."
+  },
+  {
+    "id": "m9.num.fdp.q013",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.fdp.g1",
+    "part": "c",
+    "stem": "At a netball tournament, the coach records how successful each shooter is:\n\n- Grace scored 18 of her 24 shots.\n- Hana's success rate was 0.7.\n- Mere's success rate was 72%.\n- Talia scored $\\frac{7}{9}$ of her shots.",
+    "prompt": "Put the four shooters in order from the **highest** success rate to the lowest.",
+    "items": [
+      { "id": "t", "text": "Talia" },
+      { "id": "g", "text": "Grace" },
+      { "id": "m", "text": "Mere" },
+      { "id": "h", "text": "Hana" }
+    ],
+    "hints": ["Change every success rate to a percentage.", "$0.7$ as a percentage is $0.7 \\times 100$."],
+    "solution": "As percentages: Talia $\\frac{7}{9} \\approx 77.8\\%$, Grace $\\frac{18}{24} = 75\\%$, Mere 72%, Hana $0.7 = 70\\%$. So the order is Talia, Grace, Mere, Hana."
+  },
+  {
+    "id": "m9.num.fdp.q014",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fdp.g2",
+    "part": "a",
+    "stem": "Ella uses a calculator to change some ninths into decimals:\n\n$\\frac{1}{9} = 0.111\\ldots$, $\\quad \\frac{2}{9} = 0.222\\ldots$, $\\quad \\frac{4}{9} = 0.444\\ldots$",
+    "prompt": "Use the pattern to write $\\frac{5}{9}$ as a decimal.",
+    "options": [
+      { "id": "a", "text": "$0.\\dot{5}$" },
+      { "id": "b", "text": "$0.5$" },
+      { "id": "c", "text": "$0.59$" },
+      { "id": "d", "text": "$0.\\dot{5}\\dot{9}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "0.5 stops after one decimal place. The pattern shows that ninths recur: $\\frac{5}{9} = 0.555\\ldots$, which is a bit more than a half.",
+      "c": "Writing the numerator and the denominator after the point doesn't give the decimal. Divide 5 by 9.",
+      "d": "$0.\\dot{5}\\dot{9}$ means $0.595959\\ldots$, but only the 5 repeats."
+    },
+    "hints": ["Look at how the numerator of each fraction shows up in its decimal.", "A dot over a digit means that digit repeats forever."],
+    "solution": "The pattern is $\\frac{n}{9} = 0.nnn\\ldots$, so $\\frac{5}{9} = 0.555\\ldots = 0.\\dot{5}$."
+  },
+  {
+    "id": "m9.num.fdp.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fdp.g2",
+    "part": "b",
+    "stem": "Ella uses a calculator to change some ninths into decimals:\n\n$\\frac{1}{9} = 0.111\\ldots$, $\\quad \\frac{2}{9} = 0.222\\ldots$, $\\quad \\frac{4}{9} = 0.444\\ldots$",
+    "prompt": "Use the pattern to write $0.\\dot{7}$ as a fraction.",
+    "answer": 0.7777777777777778,
+    "form": "fraction",
+    "hints": ["$0.\\dot{7}$ means $0.777\\ldots$", "Which ninth would give the digit 7 repeating?"],
+    "solution": "In the pattern, the repeating digit is the numerator and the denominator is 9. So $0.\\dot{7} = 0.777\\ldots = \\frac{7}{9}$."
+  },
+  {
+    "id": "m9.num.fdp.q016",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fdp.g2",
+    "part": "c",
+    "stem": "Ella uses a calculator to change some ninths into decimals:\n\n$\\frac{1}{9} = 0.111\\ldots$, $\\quad \\frac{2}{9} = 0.222\\ldots$, $\\quad \\frac{4}{9} = 0.444\\ldots$",
+    "prompt": "Use the pattern to explain why $0.\\dot{9}$ (that is, $0.999\\ldots$) is equal to 1.",
+    "modelAnswer": "The pattern is $\\frac{1}{9} = 0.\\dot{1}$, $\\frac{2}{9} = 0.\\dot{2}$, …, $\\frac{8}{9} = 0.\\dot{8}$. Continuing it, $\\frac{9}{9} = 0.\\dot{9}$. But $\\frac{9}{9} = 1$, so $0.\\dot{9} = 1$. (Another way: $\\frac{1}{3} = 0.\\dot{3}$, and $3 \\times \\frac{1}{3} = 1$, while $3 \\times 0.\\dot{3} = 0.\\dot{9}$.)",
+    "rubric": [
+      { "criterion": "Continues the pattern to show $\\frac{9}{9} = 0.999\\ldots$ (or uses another valid argument, e.g. $3 \\times 0.\\dot{3}$)", "marks": 1 },
+      { "criterion": "Uses $\\frac{9}{9} = 1$ (or $3 \\times \\frac{1}{3} = 1$) to conclude that $0.\\dot{9} = 1$", "marks": 1 }
+    ],
+    "hints": ["Continue the pattern: what would $\\frac{8}{9}$ and $\\frac{9}{9}$ be?", "What else is $\\frac{9}{9}$ equal to?"],
+    "solution": "Following the pattern, $\\frac{9}{9} = 0.999\\ldots$. But $\\frac{9}{9} = 1$, so $0.\\dot{9} = 1$. They are two ways of writing the same number."
+  },
+  {
+    "id": "m9.num.fdp.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is **not** equal to one half?",
+    "options": [
+      { "id": "a", "text": "$0.05$" },
+      { "id": "b", "text": "$0.5$" },
+      { "id": "c", "text": "50%" },
+      { "id": "d", "text": "$\\frac{5}{10}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "0.5 is 5 tenths, which is one half.",
+      "c": "50% is 50 out of 100, which is one half.",
+      "d": "$\\frac{5}{10}$ simplifies to $\\frac{1}{2}$."
+    },
+    "hints": ["Write each one as a fraction."],
+    "solution": "$0.5 = \\frac{5}{10} = 50\\% = \\frac{1}{2}$. But $0.05 = \\frac{5}{100} = \\frac{1}{20}$ (which is 5%), so $0.05$ is not a half."
+  },
+  {
+    "id": "m9.num.fdp.q018",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "A number that can be written as a fraction of two integers (with a denominator that isn't 0) is called a [[a]] number.",
+    "blanks": [
+      { "id": "a", "accepted": ["rational"], "options": ["rational", "recurring", "terminating", "whole"] }
+    ],
+    "hints": ["The word comes from \"ratio\"."],
+    "solution": "It is called a **rational** number (from \"ratio\"). Terminating decimals like $1.25 = \\frac{5}{4}$ and recurring decimals like $0.\\dot{3} = \\frac{1}{3}$ are both rational."
+  },
+  {
+    "id": "m9.num.fdp.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "How many fractions are there between $\\frac{1}{3}$ and $\\frac{1}{2}$?",
+    "options": [
+      { "id": "a", "text": "Infinitely many" },
+      { "id": "b", "text": "None, because $\\frac{1}{3}$ and $\\frac{1}{2}$ are next to each other" },
+      { "id": "c", "text": "Exactly one: $\\frac{5}{12}$" },
+      { "id": "d", "text": "Exactly three: $\\frac{9}{24}$, $\\frac{10}{24}$ and $\\frac{11}{24}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "They are next to each other in the list of unit fractions, but there are still lots of numbers between them, e.g. $\\frac{2}{5}$ and $\\frac{5}{12}$.",
+      "c": "$\\frac{5}{12}$ is between them, but so are many others, such as $\\frac{2}{5}$ and $\\frac{9}{20}$.",
+      "d": "Those are between them, but so are fractions with other denominators, such as $\\frac{2}{5}$ and $\\frac{41}{100}$."
+    },
+    "hints": ["$\\frac{1}{3} \\approx 0.333$ and $\\frac{1}{2} = 0.5$. Can you find a decimal between them?", "Once you have found one, can you find another between it and $\\frac{1}{2}$?"],
+    "solution": "There are **infinitely many**. For example, $\\frac{2}{5} = 0.4$ and $\\frac{5}{12} \\approx 0.417$ are both between them, and between any two of these you can always find another (e.g. halfway between). This is true for any two different numbers."
+  },
+  {
+    "id": "m9.num.fdp.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Isla says that 0.5% is the same as $\\frac{1}{2}$. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. 0.5% is 0.5 out of 100, which is $0.005 = \\frac{1}{200}$" },
+      { "id": "b", "text": "Yes. 0.5 is a half, so 0.5% is a half" },
+      { "id": "c", "text": "No. 0.5% is the same as 0.05" },
+      { "id": "d", "text": "No. 0.5% is the same as 5%" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "0.5 is a half, but 0.5% means half of 1%. One half is 50%.",
+      "c": "To change a percentage to a decimal, divide by 100: $0.5 \\div 100 = 0.005$.",
+      "d": "5% is ten times bigger than 0.5%."
+    },
+    "hints": ["Per cent means \"out of 100\".", "To change a percentage to a decimal, divide by 100."],
+    "solution": "$0.5\\% = \\frac{0.5}{100} = 0.005 = \\frac{5}{1000} = \\frac{1}{200}$. One half is 50%, which is 100 times bigger."
+  },
+  {
+    "id": "m9.num.fdp.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is closest to 0.5 on a number line?",
+    "options": [
+      { "id": "a", "text": "52%" },
+      { "id": "b", "text": "$0.45$" },
+      { "id": "c", "text": "$\\frac{4}{9}$" },
+      { "id": "d", "text": "$\\frac{3}{5}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "0.45 is 0.05 away from 0.5. 52% = 0.52 is only 0.02 away.",
+      "c": "$\\frac{4}{9} = 0.444\\ldots$, which is about 0.056 away from 0.5.",
+      "d": "$\\frac{3}{5} = 0.6$, which is 0.1 away from 0.5."
+    },
+    "hints": ["Change every number to a decimal.", "Work out how far each one is from 0.5."],
+    "solution": "As decimals: 52% = 0.52, 0.45, $\\frac{4}{9} = 0.444\\ldots$ and $\\frac{3}{5} = 0.6$. Their distances from 0.5 are 0.02, 0.05, about 0.056 and 0.1. The closest is **52%**."
+  },
+  {
+    "id": "m9.num.fdp.q022",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a survey of 80 students about how they get to school, $\\frac{3}{8}$ walk, 35% catch the bus, a proportion of 0.15 bike, and the rest come by car. How many students come by car?",
+    "answer": 10,
+    "form": "integer",
+    "hints": ["Change all three amounts to the same form (e.g. decimals) and add them.", "What is left of the whole (1, or 100%)? Find that much of 80."],
+    "solution": "As decimals: $\\frac{3}{8} = 0.375$, 35% = 0.35, and 0.15. Total: $0.375 + 0.35 + 0.15 = 0.875$.\n\nBy car: $1 - 0.875 = 0.125$, and $0.125 \\times 80 = 10$ students.\n\nCheck: walk 30, bus 28, bike 12, car 10, and $30 + 28 + 12 + 10 = 80$ ✓"
+  },
+  {
+    "id": "m9.num.fdp.q023",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find a fraction with a denominator of 30 that lies between $0.6$ and $\\frac{2}{3}$.",
+    "answer": 0.6333333333333333,
+    "form": "fraction",
+    "hints": ["Write both numbers as fractions with a denominator of 30.", "Start with $0.6 = \\frac{6}{10}$."],
+    "solution": "$0.6 = \\frac{6}{10} = \\frac{18}{30}$ and $\\frac{2}{3} = \\frac{20}{30}$. The fraction with denominator 30 between them is $\\frac{19}{30}$."
+  },
+  {
+    "id": "m9.num.fdp.q024",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai says $\\frac{3}{40}$ must be a recurring decimal, because 40 doesn't divide exactly into 10 or 100. Is he right? Explain.",
+    "modelAnswer": "No. 40 divides exactly into 1000 ($40 \\times 25 = 1000$), so $\\frac{3}{40} = \\frac{3 \\times 25}{40 \\times 25} = \\frac{75}{1000} = 0.075$. That is a terminating decimal. Any fraction that can be written with a denominator of 10, 100, 1000, … terminates.",
+    "rubric": [
+      { "criterion": "Shows that $\\frac{3}{40} = \\frac{75}{1000}$ or $0.075$ (e.g. by dividing 3 by 40)", "marks": 1 },
+      { "criterion": "Concludes that Kai is wrong: it terminates because 40 divides into 1000 (it can be written over a power of 10)", "marks": 1 }
+    ],
+    "hints": ["Does 40 divide exactly into 1000?", "Try writing $\\frac{3}{40}$ with a denominator of 1000."],
+    "solution": "$40 \\times 25 = 1000$, so $\\frac{3}{40} = \\frac{75}{1000} = 0.075$, which terminates. Kai only checked 10 and 100; he needed to keep going to 1000."
+  },
+  {
+    "id": "m9.num.fdp.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "On a number line, point P is at $\\frac{1}{4}$ and point Q is at 0.4. Point R is $\\frac{2}{3}$ of the way from P to Q. What number is R at? Give your answer as a decimal.",
+    "answer": 0.35,
+    "form": "decimal",
+    "hints": ["Write P as a decimal, then find the distance from P to Q.", "Find $\\frac{2}{3}$ of that distance and add it on to P."],
+    "solution": "P is at $\\frac{1}{4} = 0.25$. The distance from P to Q is $0.4 - 0.25 = 0.15$.\n\n$\\frac{2}{3}$ of 0.15 is $0.15 \\div 3 \\times 2 = 0.1$.\n\nSo R is at $0.25 + 0.1 = 0.35$."
   }
 ]

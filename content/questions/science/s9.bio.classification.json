@@ -741,5 +741,865 @@
       "A new step needs two opposite statements about a feature you can see."
     ],
     "solution": "1a → 2a → 3b gives **kiwi**, which is wrong. The key needs one more step after 3b, for example: 5a long, thin beak with nostrils at the tip → kiwi; 5b short, hooked beak → kākāpō."
+  },
+  {
+    "id": "s9.bio.classification.q024",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "A kōwhai tree grows seed pods full of seeds. Which life process (from MRS GREN) is this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reproduction"
+      },
+      {
+        "id": "b",
+        "text": "Growth"
+      },
+      {
+        "id": "c",
+        "text": "Nutrition"
+      },
+      {
+        "id": "d",
+        "text": "Excretion"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Growth means getting bigger. Making seeds is about producing new plants.",
+      "c": "Nutrition is getting or making food. Seeds are how the tree produces offspring.",
+      "d": "Excretion is getting rid of waste made by the cells. Seeds aren't waste: they grow into new kōwhai trees."
+    },
+    "hints": [
+      "What will the seeds grow into?"
+    ],
+    "solution": "Seeds grow into new kōwhai trees, so making seeds is **reproduction**: producing offspring."
+  },
+  {
+    "id": "s9.bio.classification.q025",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for an animal that does **not** have a backbone?",
+    "accepted": [
+      "invertebrate",
+      "invertebrates"
+    ],
+    "hints": [
+      "Insects, worms, spiders and snails are all examples."
+    ],
+    "solution": "An **invertebrate** has no backbone. Most animal species on Earth, such as wētā, worms, spiders and pāua, are invertebrates."
+  },
+  {
+    "id": "s9.bio.classification.q026",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each life process in MRS GREN to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "mov",
+          "text": "Movement"
+        },
+        "right": {
+          "id": "r-mov",
+          "text": "Changing position, or moving part of the body"
+        }
+      },
+      {
+        "left": {
+          "id": "resp",
+          "text": "Respiration"
+        },
+        "right": {
+          "id": "r-resp",
+          "text": "Releasing energy from food"
+        }
+      },
+      {
+        "left": {
+          "id": "sens",
+          "text": "Sensitivity"
+        },
+        "right": {
+          "id": "r-sens",
+          "text": "Detecting and responding to changes around it"
+        }
+      },
+      {
+        "left": {
+          "id": "grow",
+          "text": "Growth"
+        },
+        "right": {
+          "id": "r-grow",
+          "text": "Getting permanently bigger"
+        }
+      },
+      {
+        "left": {
+          "id": "repr",
+          "text": "Reproduction"
+        },
+        "right": {
+          "id": "r-repr",
+          "text": "Producing offspring"
+        }
+      },
+      {
+        "left": {
+          "id": "excr",
+          "text": "Excretion"
+        },
+        "right": {
+          "id": "r-excr",
+          "text": "Getting rid of waste made by the cells"
+        }
+      },
+      {
+        "left": {
+          "id": "nutr",
+          "text": "Nutrition"
+        },
+        "right": {
+          "id": "r-nutr",
+          "text": "Taking in or making food"
+        }
+      }
+    ],
+    "hints": [
+      "Respiration and excretion are the two that are most often mixed up. One is about energy, the other about waste."
+    ],
+    "solution": "- **M**ovement: changing position, or moving part of the body\n- **R**espiration: releasing energy from food\n- **S**ensitivity: detecting and responding to changes\n- **G**rowth: getting permanently bigger\n- **R**eproduction: producing offspring\n- **E**xcretion: getting rid of waste made by the cells\n- **N**utrition: taking in or making food"
+  },
+  {
+    "id": "s9.bio.classification.q027",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "The pūkeko is a **native** bird in New Zealand, but it is **not endemic**. What does this tell you about the pūkeko?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It arrived in New Zealand naturally, and it also lives naturally in other countries"
+      },
+      {
+        "id": "b",
+        "text": "It was brought to New Zealand by people, in the same way as the possum"
+      },
+      {
+        "id": "c",
+        "text": "It lives naturally in New Zealand and is found nowhere else in the world"
+      },
+      {
+        "id": "d",
+        "text": "It used to live in New Zealand, but now it is found only in other countries"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A species that was brought here by people is **introduced**, not native.",
+      "c": "That describes an **endemic** species, such as the kiwi.",
+      "d": "A native species lives here naturally now. Pūkeko are common in New Zealand wetlands and farmland."
+    },
+    "hints": [
+      "Native species arrived without help from people.",
+      "Endemic species are found in one place only."
+    ],
+    "solution": "**Native** means it lives here naturally, without having been brought by people. **Not endemic** means it isn't found only here: pūkeko also live naturally in Australia.\n\nEvery endemic species is native, but not every native species is endemic."
+  },
+  {
+    "id": "s9.bio.classification.q028",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Pekapeka (bats) are New Zealand's only native land mammals. They can fly, like birds. Why are they classified as mammals, not birds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They have fur and feed their young on milk"
+      },
+      {
+        "id": "b",
+        "text": "They are active at night and rest during the day"
+      },
+      {
+        "id": "c",
+        "text": "They have a backbone and a pair of wings"
+      },
+      {
+        "id": "d",
+        "text": "They catch and eat insects while they are flying"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Being active at night is a behaviour, not a body feature used for classifying. Ruru (morepork) are birds that are active at night too.",
+      "c": "Birds also have a backbone and wings, so these features don't show that bats are mammals.",
+      "d": "Many birds, such as pīwakawaka (fantails), also catch insects in flight. What an animal eats isn't used to classify it."
+    },
+    "hints": [
+      "Think about their body covering, and how they feed their young."
+    ],
+    "solution": "Mammals have **hair or fur** and **feed their young on milk**. Pekapeka have fur and feed their babies milk, so they are mammals. Their wings are made of skin stretched between long finger bones, not feathers."
+  },
+  {
+    "id": "s9.bio.classification.q029",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.classification.g1",
+    "part": "a",
+    "stem": "Ana found some invertebrates under logs in a Waikato forest. She used this dichotomous key to identify them.\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has legs | Go to 2 |\n| 1b | Has no legs | Go to 5 |\n| 2a | Has 6 legs | Wētā |\n| 2b | Has more than 6 legs | Go to 3 |\n| 3a | Has 8 legs | Spider |\n| 3b | Has more than 8 legs | Go to 4 |\n| 4a | Has 14 legs (7 pairs) | Slater |\n| 4b | Has more than 14 legs | Centipede |\n| 5a | Has a shell | Snail |\n| 5b | Has no shell | Earthworm |",
+    "prompt": "Ana finds an animal with a hard, grey body and 14 legs. Use the key to identify it.",
+    "accepted": [
+      "slater",
+      "slaters",
+      "woodlouse",
+      "woodlice"
+    ],
+    "hints": [
+      "Start at step 1 and follow the \"Go to\" instructions.",
+      "At each step, choose the statement that is true for this animal."
+    ],
+    "solution": "1a (has legs) → 2b (more than 6 legs) → 3b (more than 8 legs) → 4a (14 legs) → **slater**.\n\nSlaters are crustaceans that live on land, in damp places such as under logs."
+  },
+  {
+    "id": "s9.bio.classification.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.classification.g1",
+    "part": "b",
+    "stem": "Ana found some invertebrates under logs in a Waikato forest. She used this dichotomous key to identify them.\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has legs | Go to 2 |\n| 1b | Has no legs | Go to 5 |\n| 2a | Has 6 legs | Wētā |\n| 2b | Has more than 6 legs | Go to 3 |\n| 3a | Has 8 legs | Spider |\n| 3b | Has more than 8 legs | Go to 4 |\n| 4a | Has 14 legs (7 pairs) | Slater |\n| 4b | Has more than 14 legs | Centipede |\n| 5a | Has a shell | Snail |\n| 5b | Has no shell | Earthworm |",
+    "prompt": "The wētā, spider, slater and centipede all have a hard outer skeleton (exoskeleton) and jointed legs. Which group of invertebrates do they **all** belong to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arthropods"
+      },
+      {
+        "id": "b",
+        "text": "Insects"
+      },
+      {
+        "id": "c",
+        "text": "Arachnids"
+      },
+      {
+        "id": "d",
+        "text": "Molluscs"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Only the wētā is an insect. Insects have exactly 6 legs and three body parts.",
+      "c": "Only the spider is an arachnid. Arachnids have 8 legs.",
+      "d": "Molluscs, such as the snail, have soft bodies and no jointed legs."
+    },
+    "hints": [
+      "Insects and arachnids are smaller groups inside one much bigger group.",
+      "The name of the big group means \"jointed foot\"."
+    ],
+    "solution": "All four are **arthropods**: invertebrates with an exoskeleton and jointed legs. Arthropods are divided into smaller groups, such as insects (wētā, 6 legs), arachnids (spiders, 8 legs), crustaceans (slaters) and myriapods (centipedes)."
+  },
+  {
+    "id": "s9.bio.classification.q031",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.bio.classification.g1",
+    "part": "c",
+    "stem": "Ana found some invertebrates under logs in a Waikato forest. She used this dichotomous key to identify them.\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has legs | Go to 2 |\n| 1b | Has no legs | Go to 5 |\n| 2a | Has 6 legs | Wētā |\n| 2b | Has more than 6 legs | Go to 3 |\n| 3a | Has 8 legs | Spider |\n| 3b | Has more than 8 legs | Go to 4 |\n| 4a | Has 14 legs (7 pairs) | Slater |\n| 4b | Has more than 14 legs | Centipede |\n| 5a | Has a shell | Snail |\n| 5b | Has no shell | Earthworm |",
+    "prompt": "Kahu suggests replacing step 4 with **4a: Is small** and **4b: Is large**. Explain why this would be a poor pair of statements for a dichotomous key.",
+    "modelAnswer": "\"Small\" and \"large\" aren't clear-cut. There is no fixed size that separates them, so two people could make different choices for the same animal. Size also changes as an animal grows, so a young centipede might be smaller than an adult slater and be identified wrongly. Good key statements use clear features that anyone can observe or count in the same way, such as the number of legs.",
+    "rubric": [
+      {
+        "criterion": "Explains that 'small' and 'large' are not clear or exact, so different people could choose differently for the same animal",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that good statements use a fixed feature that can be clearly observed or counted (e.g. number of legs), or that size changes as an animal grows",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Would everyone agree on whether an animal is 'small'?",
+      "Think about a young animal compared with an adult of a different kind."
+    ],
+    "solution": "A good dichotomous key uses statements with only one possible answer for each organism. Whether an animal is 'small' or 'large' depends on opinion and on the animal's age, so the key could give different answers for the same animal. Counting legs gives the same answer every time."
+  },
+  {
+    "id": "s9.bio.classification.q032",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Mushrooms grow out of the ground and can't move, like plants. Why are they classified as **fungi**, not plants?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They have no chlorophyll, so they can't make their own food by photosynthesis"
+      },
+      {
+        "id": "b",
+        "text": "They only grow in dark, damp places, where plants can't grow"
+      },
+      {
+        "id": "c",
+        "text": "They aren't alive, so they can't belong to the plant kingdom"
+      },
+      {
+        "id": "d",
+        "text": "They are made of just one cell, but plants have many cells"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plenty of plants, such as ferns and mosses, grow well in dark, damp places. Where something grows doesn't decide its kingdom.",
+      "c": "Fungi are alive: they grow, respire, reproduce (using spores) and feed.",
+      "d": "Mushrooms are made of many cells. Some fungi, such as yeast, are single-celled, but that isn't why fungi aren't plants."
+    },
+    "hints": [
+      "How does a plant get its food? Can a mushroom do the same?"
+    ],
+    "solution": "Plants contain **chlorophyll** and make their own food by photosynthesis. Fungi have no chlorophyll. They feed by releasing enzymes onto dead or living material and absorbing the nutrients. Their cell walls are also made of a different substance (chitin, not cellulose). So fungi are put in their own kingdom."
+  },
+  {
+    "id": "s9.bio.classification.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A horse and a donkey can mate and have a foal called a mule, but mules are almost always infertile (they can't have offspring of their own). What does this tell you?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Horses and donkeys are different species"
+      },
+      {
+        "id": "b",
+        "text": "Horses and donkeys are the same species, because they can mate"
+      },
+      {
+        "id": "c",
+        "text": "Mules are a new species, halfway between horses and donkeys"
+      },
+      {
+        "id": "d",
+        "text": "Horses and donkeys belong to different kingdoms"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Being able to mate isn't enough. Members of the same species produce offspring that are **fertile**.",
+      "c": "Mules can't reproduce, so they can't form a population of their own. They aren't a species.",
+      "d": "Horses and donkeys are both animals, and they are closely related: they are in the same genus, *Equus*."
+    },
+    "hints": [
+      "Think about what the definition of a species says about the offspring."
+    ],
+    "solution": "A **species** is a group of organisms that can breed together and produce **fertile** offspring. Horses and donkeys can produce mules, but mules are infertile, so horses and donkeys are **different species**. They are still closely related: both belong to the genus *Equus*."
+  },
+  {
+    "id": "s9.bio.classification.q034",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the vertebrates.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tuatara"
+      },
+      {
+        "id": "b",
+        "text": "Pekapeka (long-tailed bat)"
+      },
+      {
+        "id": "c",
+        "text": "Īnanga (a native fish)"
+      },
+      {
+        "id": "d",
+        "text": "Hochstetter's frog"
+      },
+      {
+        "id": "e",
+        "text": "Wētā"
+      },
+      {
+        "id": "f",
+        "text": "Pāua"
+      },
+      {
+        "id": "g",
+        "text": "Kina"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Vertebrates have a backbone.",
+      "Fish, amphibians, reptiles, birds and mammals are all vertebrates."
+    ],
+    "solution": "**Vertebrates:** tuatara (reptile), pekapeka (mammal), īnanga (fish) and Hochstetter's frog (amphibian).\n\n**Invertebrates:** wētā (insect), pāua (mollusc) and kina (echinoderm) have no backbone."
+  },
+  {
+    "id": "s9.bio.classification.q035",
+    "type": "match",
+    "difficulty": 3,
+    "prompt": "Match each group of invertebrates to its main features.",
+    "pairs": [
+      {
+        "left": {
+          "id": "ins",
+          "text": "Insects (e.g. wētā)"
+        },
+        "right": {
+          "id": "r-ins",
+          "text": "Six legs and three body parts"
+        }
+      },
+      {
+        "left": {
+          "id": "ara",
+          "text": "Arachnids (e.g. katipō spider)"
+        },
+        "right": {
+          "id": "r-ara",
+          "text": "Eight legs and two body parts"
+        }
+      },
+      {
+        "left": {
+          "id": "cru",
+          "text": "Crustaceans (e.g. kōura, the freshwater crayfish)"
+        },
+        "right": {
+          "id": "r-cru",
+          "text": "Hard exoskeleton and two pairs of antennae; most live in water"
+        }
+      },
+      {
+        "left": {
+          "id": "mol",
+          "text": "Molluscs (e.g. garden snail)"
+        },
+        "right": {
+          "id": "r-mol",
+          "text": "Soft body that is not segmented, often with a shell"
+        }
+      },
+      {
+        "left": {
+          "id": "ann",
+          "text": "Annelids (e.g. earthworm)"
+        },
+        "right": {
+          "id": "r-ann",
+          "text": "Soft body divided into ring-shaped segments"
+        }
+      }
+    ],
+    "hints": [
+      "For the groups with jointed legs, count the legs.",
+      "Two of the groups have soft bodies. Only one of them is divided into rings."
+    ],
+    "solution": "- Insects: six legs, three body parts (head, thorax, abdomen)\n- Arachnids: eight legs, two body parts\n- Crustaceans: hard exoskeleton, two pairs of antennae, mostly live in water\n- Molluscs: soft, unsegmented body, often with a shell\n- Annelids: soft body made of ring-shaped segments"
+  },
+  {
+    "id": "s9.bio.classification.q036",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.classification.g2",
+    "part": "a",
+    "stem": "Year 9 students surveyed a rocky shore near Kaikōura. They recorded these animals and their main features.\n\n| Animal | Main features |\n|---|---|\n| Pāua | Soft body; one large, flattened shell; a big muscular foot that grips the rock |\n| Kina | Round body covered in hard spines; rows of tiny tube feet; body built in five matching parts |\n| Cushion star | Rough, spiny skin; rows of tiny tube feet; five short arms |\n| Rock crab | Hard exoskeleton; ten jointed legs, including two claws |\n| Sea anemone | Soft, jelly-like body; a ring of stinging tentacles around its mouth |",
+    "prompt": "Molluscs are one group of invertebrates. Which animal in the table is a mollusc?",
+    "accepted": [
+      "pāua",
+      "paua",
+      "abalone"
+    ],
+    "hints": [
+      "Snails and mussels are molluscs. Which animal in the table is built most like them?"
+    ],
+    "solution": "**Pāua** are molluscs. Like snails, they have a soft body, a single shell and a large muscular foot."
+  },
+  {
+    "id": "s9.bio.classification.q037",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.classification.g2",
+    "part": "b",
+    "stem": "Year 9 students surveyed a rocky shore near Kaikōura. They recorded these animals and their main features.\n\n| Animal | Main features |\n|---|---|\n| Pāua | Soft body; one large, flattened shell; a big muscular foot that grips the rock |\n| Kina | Round body covered in hard spines; rows of tiny tube feet; body built in five matching parts |\n| Cushion star | Rough, spiny skin; rows of tiny tube feet; five short arms |\n| Rock crab | Hard exoskeleton; ten jointed legs, including two claws |\n| Sea anemone | Soft, jelly-like body; a ring of stinging tentacles around its mouth |",
+    "prompt": "Which **two** animals in the table are most closely related?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kina and cushion star"
+      },
+      {
+        "id": "b",
+        "text": "Pāua and kina"
+      },
+      {
+        "id": "c",
+        "text": "Rock crab and kina"
+      },
+      {
+        "id": "d",
+        "text": "Sea anemone and pāua"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Pāua and kina live on the same rocks and both eat seaweed, but sharing a habitat or food doesn't make animals related. Their body features are very different.",
+      "c": "Both have a hard outer covering, but the crab's is a jointed exoskeleton with legs, which makes it an arthropod.",
+      "d": "Both have soft bodies, but the anemone has stinging tentacles and no shell or muscular foot."
+    },
+    "hints": [
+      "Compare the features listed for each animal.",
+      "Which pair has the most body features in common?"
+    ],
+    "solution": "Kina and cushion stars both have spiny skin, tube feet and a body built in five parts. They both belong to the same group, the **echinoderms**, so they are the most closely related pair."
+  },
+  {
+    "id": "s9.bio.classification.q038",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.classification.g2",
+    "part": "c",
+    "stem": "Year 9 students surveyed a rocky shore near Kaikōura. They recorded these animals and their main features.\n\n| Animal | Main features |\n|---|---|\n| Pāua | Soft body; one large, flattened shell; a big muscular foot that grips the rock |\n| Kina | Round body covered in hard spines; rows of tiny tube feet; body built in five matching parts |\n| Cushion star | Rough, spiny skin; rows of tiny tube feet; five short arms |\n| Rock crab | Hard exoskeleton; ten jointed legs, including two claws |\n| Sea anemone | Soft, jelly-like body; a ring of stinging tentacles around its mouth |",
+    "prompt": "Pāua and kina live on the same rocks and both graze on seaweed. Explain why scientists still classify them in **different** groups.",
+    "modelAnswer": "Pāua have a soft body, a single shell and a muscular foot, so they are molluscs. Kina have hard spines, tube feet and a body built in five parts, so they are echinoderms, like the cushion star. Scientists classify organisms by their shared body features, because these show how closely related they are. Where an animal lives and what it eats don't show this: very different animals can share the same habitat or food.",
+    "rubric": [
+      {
+        "criterion": "Describes the features that make pāua a mollusc (soft body, single shell, muscular foot)",
+        "marks": 1
+      },
+      {
+        "criterion": "Describes the features that make kina an echinoderm (spines, tube feet, five-part body), or links kina with the cushion star",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that classification is based on shared body features, not habitat or diet, because unrelated animals can share a habitat or food",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Compare the body features of the two animals in the table.",
+      "Does living in the same place mean two animals are related?"
+    ],
+    "solution": "Classification is based on **body features**, not on habitat or diet. Pāua (soft body, one shell, muscular foot) are **molluscs**. Kina (spines, tube feet, five-part body) are **echinoderms**. They happen to live and feed in the same place, but their bodies are built in completely different ways."
+  },
+  {
+    "id": "s9.bio.classification.q039",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "A dry bean seed in a packet doesn't seem to move, grow or feed. Describe how you could show that the seed is alive, and explain how your result would show this.",
+    "modelAnswer": "Plant the seed in damp soil (or put it on wet paper towels) and keep it somewhere warm. If it is alive, it will germinate: a root and a shoot will start to grow. Growth is one of the life processes (MRS GREN), so this shows the seed is alive. (Another good test: soak some seeds and check for respiration, for example carbon dioxide turning limewater cloudy, or the seeds warming up.) A dry seed is dormant: its life processes are happening very slowly until it gets water.",
+    "rubric": [
+      {
+        "criterion": "Describes a valid test: giving the seed water and warmth (e.g. planting it in damp soil) to see if it germinates, or testing soaked seeds for respiration (e.g. carbon dioxide or a temperature rise)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that growth (or respiration) is a life process, so observing it shows the seed is alive",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What does a seed need to start growing?",
+      "Which MRS GREN process could you then observe?"
+    ],
+    "solution": "Give the seed water and warmth, for example by planting it in damp soil. If it germinates and grows, it is alive, because **growth** is a life process. A dry seed is **dormant**, not dead: its life processes are just very slow until it gets water."
+  },
+  {
+    "id": "s9.bio.classification.q040",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A dichotomous key is used to identify 8 different New Zealand birds. Each step in the key is a pair of statements that splits a group into two smaller groups. How many steps (pairs of statements) does the key need?",
+    "answer": 7,
+    "hints": [
+      "Try a smaller example first. How many steps do you need to identify 2 birds? What about 3 birds?",
+      "Each step turns one group into two, so the number of groups goes up by one."
+    ],
+    "solution": "Each step splits one group into two, so each step adds **one** more group. You start with 1 group (all 8 birds) and finish with 8 groups (one bird each). That takes $8 - 1 = 7$ steps.\n\nIn general, a dichotomous key for $n$ organisms has $n - 1$ pairs of statements."
+  },
+  {
+    "id": "s9.bio.classification.q041",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the features that **every** mammal has.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Feeds its young on milk"
+      },
+      {
+        "id": "b",
+        "text": "Has hair or fur at some stage of its life"
+      },
+      {
+        "id": "c",
+        "text": "Breathes air using lungs"
+      },
+      {
+        "id": "d",
+        "text": "Has a backbone"
+      },
+      {
+        "id": "e",
+        "text": "Gives birth to live young"
+      },
+      {
+        "id": "f",
+        "text": "Lives on land"
+      },
+      {
+        "id": "g",
+        "text": "Has four legs for walking"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Think about unusual mammals, such as whales, dolphins, bats and the platypus.",
+      "A feature only counts if there are no exceptions."
+    ],
+    "solution": "Every mammal feeds its young on milk, has hair at some stage, breathes with lungs and has a backbone.\n\nThe others all have exceptions:\n- The platypus and echidnas **lay eggs**.\n- Whales and dolphins, such as Hector's dolphins, **live in water**.\n- Bats have wings, and whales and dolphins have flippers, instead of **four walking legs**."
+  },
+  {
+    "id": "s9.bio.classification.q042",
+    "type": "cloze",
+    "difficulty": 2,
+    "groupId": "s9.bio.classification.g3",
+    "part": "a",
+    "stem": "The brown kiwi is a flightless bird found only in Aotearoa New Zealand. Here are some of its features:\n\n- It sleeps in a burrow, a hollow log or thick plants during the day, and feeds at night.\n- It has strong, muscular legs with sharp claws.\n- Its nostrils are at the tip of its long beak, and it has an excellent sense of smell.\n- The female lays an egg that can be up to about one-fifth (20%) of her body mass.\n- Its feathers are loose and hair-like.",
+    "prompt": "Sleeping in a burrow during the day and feeding at night is a [[a]] adaptation. Having strong legs with sharp claws is a [[b]] adaptation.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "behavioural"
+        ],
+        "options": [
+          "structural",
+          "behavioural",
+          "physiological"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "structural"
+        ],
+        "options": [
+          "structural",
+          "behavioural",
+          "physiological"
+        ]
+      }
+    ],
+    "hints": [
+      "For each feature, ask: is it something the kiwi does, or a part of its body?"
+    ],
+    "solution": "Sleeping by day and feeding at night is something the kiwi **does**, so it is a **behavioural** adaptation. Strong legs and claws are part of its body, so they are a **structural** adaptation.\n\nA physiological adaptation is about how the body works on the inside, such as a mountain stone wētā surviving being frozen."
+  },
+  {
+    "id": "s9.bio.classification.q043",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.classification.g3",
+    "part": "b",
+    "stem": "The brown kiwi is a flightless bird found only in Aotearoa New Zealand. Here are some of its features:\n\n- It sleeps in a burrow, a hollow log or thick plants during the day, and feeds at night.\n- It has strong, muscular legs with sharp claws.\n- Its nostrils are at the tip of its long beak, and it has an excellent sense of smell.\n- The female lays an egg that can be up to about one-fifth (20%) of her body mass.\n- Its feathers are loose and hair-like.",
+    "prompt": "Kiwi can't fly and have hair-like feathers, but they are still classified as birds. Which feature shows that a kiwi is a bird?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has feathers and lays eggs with hard shells"
+      },
+      {
+        "id": "b",
+        "text": "It has a backbone and breathes with lungs"
+      },
+      {
+        "id": "c",
+        "text": "It is warm-blooded (keeps a steady body temperature)"
+      },
+      {
+        "id": "d",
+        "text": "It lays its eggs on land, in a nest or burrow"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "All vertebrates have a backbone, and reptiles and mammals breathe with lungs too, so this doesn't show it's a bird.",
+      "c": "Mammals are also warm-blooded, so this doesn't separate birds from mammals.",
+      "d": "Reptiles, such as tuatara, also lay eggs on land, so this doesn't show it's a bird."
+    },
+    "hints": [
+      "Which feature is found **only** in birds?",
+      "Rule out any feature that mammals or reptiles also have."
+    ],
+    "solution": "**Feathers** are found only in birds, and birds lay eggs with hard shells. A backbone, lungs, a steady body temperature and laying eggs on land are all shared with other groups of vertebrates."
+  },
+  {
+    "id": "s9.bio.classification.q044",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.classification.g3",
+    "part": "c",
+    "stem": "The brown kiwi is a flightless bird found only in Aotearoa New Zealand. Here are some of its features:\n\n- It sleeps in a burrow, a hollow log or thick plants during the day, and feeds at night.\n- It has strong, muscular legs with sharp claws.\n- Its nostrils are at the tip of its long beak, and it has an excellent sense of smell.\n- The female lays an egg that can be up to about one-fifth (20%) of her body mass.\n- Its feathers are loose and hair-like.",
+    "prompt": "Choose **two** of the kiwi's **structural** features from the list. For each one, explain how it helps the kiwi survive or reproduce.",
+    "modelAnswer": "Nostrils at the tip of the beak: the kiwi pushes its long beak into soil and leaf litter and can smell worms and grubs underground, so it can find food in the dark without needing good eyesight.\n\nStrong legs with sharp claws: these let the kiwi dig burrows to shelter in, and kick or slash at attackers to defend itself.\n\n(Another good answer is the large egg: the chick hatches big, well developed and already covered in feathers, so it can soon feed itself.)\n\nBecause these features help kiwi find food and stay safe, kiwi that have them are more likely to survive and breed.",
+    "rubric": [
+      {
+        "criterion": "Explains how one structural feature helps (e.g. nostrils at the beak tip let it smell food underground in the dark)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains how a second, different structural feature helps (e.g. strong legs and claws for digging burrows and defence; loose, hair-like feathers keep it warm and help it blend in with the forest floor; a large egg means the chick hatches well developed)",
+        "marks": 1
+      },
+      {
+        "criterion": "Links the features to survival or reproduction (e.g. it finds more food or stays safer, so it is more likely to survive and breed)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Structural features are parts of the body: the beak, legs, egg and feathers.",
+      "For each feature, say what the kiwi uses it for, then why that helps it survive."
+    ],
+    "solution": "Pick two body features and, for each, say **what it does** and **why that helps**. For example, nostrils at the tip of the beak help the kiwi find food underground at night, and strong legs and claws help it dig shelters and defend itself. Features that help an animal get food and stay safe make it more likely to survive and reproduce."
+  },
+  {
+    "id": "s9.bio.classification.q045",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Pōhutukawa often grow on coastal cliffs, where the wind is strong, the air is salty and the soil is thin and dry. Their leaves are thick and leathery, with a waxy, shiny upper surface and a layer of fine white hairs underneath. Explain how these leaf features help the tree survive in this habitat.",
+    "modelAnswer": "In strong, dry, salty wind, leaves lose water quickly by evaporation, and the thin soil holds little water to replace it. The thick, waxy upper surface is waterproof, so less water evaporates through it. The hairs underneath trap a layer of still, moist air against the leaf, so the wind can't carry water vapour away as quickly. Thick, leathery leaves are also tough, so they aren't easily damaged by wind and salt spray. Saving water means the tree can survive on a dry, windy cliff.",
+    "rubric": [
+      {
+        "criterion": "Identifies the problem: wind, salt and dry soil mean the tree could lose water faster than it can take it in",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the thick, waxy surface reduces water loss (evaporation) from the leaf",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the hairs trap still, moist air next to the leaf, reducing water loss, or that tough, leathery leaves resist wind and salt damage",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What problem do wind, salt and dry soil cause for a plant?",
+      "Think about how each feature could reduce water loss."
+    ],
+    "solution": "The main danger on a coastal cliff is **losing too much water**. The waxy upper surface is waterproof, and the hairs underneath trap moist air so the wind blows less water vapour away. Tough, leathery leaves also stand up to wind and salt spray."
+  },
+  {
+    "id": "s9.bio.classification.q046",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Rangi wrote this dichotomous key:\n\n| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has wings | Go to 2 |\n| 1b | Has no wings | Go to 3 |\n| 2a | Has feathers | Tūī |\n| 2b | Has fur | Pekapeka (bat) |\n| 3a | Has feathers | Kiwi |\n| 3b | Has dry, scaly skin | Tuatara |\n\nKiwi actually have tiny wings, only a few centimetres long, hidden under their feathers. What would Rangi's key identify a real kiwi as, and what is the best way to fix the key?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tūī. Change step 1 to 'Can fly' and 'Cannot fly'."
+      },
+      {
+        "id": "b",
+        "text": "Pekapeka. Change step 2 to 'Has a beak' and 'Has no beak'."
+      },
+      {
+        "id": "c",
+        "text": "Kiwi. The key works, so it doesn't need fixing."
+      },
+      {
+        "id": "d",
+        "text": "Tuatara. Remove step 3 from the key."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A kiwi has feathers, so at step 2 it goes to 2a (tūī), not 2b. The real problem is at step 1.",
+      "c": "A real kiwi **has** wings, so it goes 1a → 2a and ends up as a tūī. The key needs fixing.",
+      "d": "A kiwi never reaches step 3, because it has wings. It ends up at 2a (tūī)."
+    },
+    "hints": [
+      "Follow the key for a real kiwi, remembering that it **does** have wings.",
+      "Which feature really separates kiwi and tuatara from tūī and pekapeka?"
+    ],
+    "solution": "A real kiwi has (tiny) wings, so it goes 1a → 2a (has feathers) → **tūī**. 'Has wings' doesn't split the animals the way Rangi intended. 'Can fly / Cannot fly' does: tūī and pekapeka can fly, while kiwi and tuatara can't. Then 3a and 3b separate the kiwi from the tuatara."
+  },
+  {
+    "id": "s9.bio.classification.q047",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Write a dichotomous key that could be used to identify these four animals: **kiwi**, **pekapeka** (long-tailed bat), **tuatara** and **wētā**.",
+    "modelAnswer": "| Step | Statement | Go to / name |\n|---|---|---|\n| 1a | Has a backbone | Go to 2 |\n| 1b | Has no backbone | Wētā |\n| 2a | Has feathers | Kiwi |\n| 2b | Has no feathers | Go to 3 |\n| 3a | Has fur | Pekapeka |\n| 3b | Has no fur (dry, scaly skin) | Tuatara |\n\nOther keys are also correct, as long as each step is a pair of contrasting statements about one clear feature, and each animal ends up on its own.",
+    "rubric": [
+      {
+        "criterion": "Each step is a pair of contrasting statements about one feature (e.g. 'Has a backbone' / 'Has no backbone')",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses clear features that don't depend on opinion (such as backbone, feathers, fur or scales), not size, colour or habitat",
+        "marks": 1
+      },
+      {
+        "criterion": "Every animal ends up identified on its own, using three pairs of statements",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Start with one feature that splits the four animals into two groups.",
+      "Keep splitting each group until every animal is on its own. Four animals need three steps."
+    ],
+    "solution": "One possible key: backbone or not (separates the wētā) → feathers or not (separates the kiwi) → fur or scaly skin (separates the pekapeka from the tuatara). Each step uses one clear feature, and every animal ends at its own name."
+  },
+  {
+    "id": "s9.bio.classification.q048",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Most of New Zealand's native lizards, including our geckos, give birth to live young instead of laying eggs. Geckos have dry, scaly skin and breathe with lungs, and their body temperature changes with their surroundings. A student says geckos should be classified as mammals. Which response is best?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No. They have scales, not fur, and don't feed their young on milk. Live birth is just one feature."
+      },
+      {
+        "id": "b",
+        "text": "Yes. Giving birth to live young is the feature that defines a mammal."
+      },
+      {
+        "id": "c",
+        "text": "No. Their body temperature changes with their surroundings, so they are amphibians."
+      },
+      {
+        "id": "d",
+        "text": "Yes. Any animal that has lungs and a backbone is classified as a mammal."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Live birth doesn't define a mammal: the platypus lays eggs, and some sharks and lizards give birth to live young. Mammals are defined by having hair and feeding their young on milk.",
+      "c": "Amphibians have smooth, moist skin with no scales. A reptile's body temperature also changes with its surroundings.",
+      "d": "Reptiles, birds and amphibians also have lungs and a backbone."
+    },
+    "hints": [
+      "Which features do **all** mammals have?",
+      "Is one unusual feature enough to move an animal into a different group?"
+    ],
+    "solution": "Geckos have dry, scaly skin and no fur, and they don't feed their young on milk, so they are **reptiles**. Classification uses many shared features. Giving birth to live young is unusual for a reptile, but it isn't enough to make a gecko a mammal."
   }
 ]

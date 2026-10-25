@@ -104,6 +104,22 @@ const UNIT_ALIASES: Record<string, string> = {
   tonnes: 't',
   times: 'x',
   '×': 'x',
+  'beats/min': 'bpm',
+  'beats/minute': 'bpm',
+  'beat/min': 'bpm',
+  beatsperminute: 'bpm',
+  // Equivalent units share one canonical form.
+  cm3: 'ml',
+  cc: 'ml',
+  dm3: 'l',
+  '°c': '°c',
+  degc: '°c',
+  degreesc: '°c',
+  degreec: '°c',
+  celsius: '°c',
+  degreescelsius: '°c',
+  degreecelsius: '°c',
+  oc: '°c',
 };
 
 /** Normalises unit text so "cm^2", "cm2", "cm²" and "CM²" compare equal. */

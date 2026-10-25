@@ -161,5 +161,282 @@
     ],
     "hints": ["Think about who he is asking, how many people he is asking, and how the data is measured."],
     "solution": "Problems: (1) basketball friends aren't representative of all Year 9s (they may be taller), so survey a wider group; (2) 5 people is too few to show a relationship, so collect from many more students; (3) guessed heights and a vague sleep question give unreliable data, so measure heights in cm and ask about sleep on a specific night."
+  },
+  {
+    "id": "m9.sta.investigations.q011",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "m9.sta.investigations.g1",
+    "part": "a",
+    "stem": "Mia's class wants to answer this statistical question: \"Do Year 9 students at our school who bike to school tend to get there faster than Year 9 students at our school who walk?\"",
+    "prompt": "Which is the best **survey question** to ask each student, to collect data on how long their trip to school takes?",
+    "options": [
+      { "id": "a", "text": "How many minutes did it take you to get to school this morning?" },
+      { "id": "b", "text": "Do you get to school quickly?" },
+      { "id": "c", "text": "How far from school do you live?" },
+      { "id": "d", "text": "Do you think biking is faster than walking?" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This only gets a yes or no answer, and \"quickly\" means different things to different people. It doesn't measure the travel time.",
+      "c": "Distance is a different variable. The investigation is about how long the trip takes, not how far it is.",
+      "d": "This collects opinions, not data about each student's own trip."
+    },
+    "hints": ["The survey question should give a number for each student's travel time.", "Is the question about one particular trip, with clear units?"],
+    "solution": "A good survey question is clear, asks about one particular trip, and gets a number with units. \"How many minutes did it take you to get to school this morning?\" gives each student's travel time in minutes. The other questions collect a yes/no answer, a different variable (distance) or an opinion."
+  },
+  {
+    "id": "m9.sta.investigations.q012",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "m9.sta.investigations.g1",
+    "part": "b",
+    "stem": "Mia's class wants to answer this statistical question: \"Do Year 9 students at our school who bike to school tend to get there faster than Year 9 students at our school who walk?\"",
+    "prompt": "To answer the statistical question, which variables must the class record for **each** student?",
+    "options": [
+      { "id": "a", "text": "Travel time and whether they bike or walk" },
+      { "id": "b", "text": "Travel time only" },
+      { "id": "c", "text": "Whether they bike or walk only" },
+      { "id": "d", "text": "Travel time and distance from school" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Without knowing how each student travels, the class can't sort the times into a biking group and a walking group.",
+      "c": "This gives the groups, but not the travel times they need to compare.",
+      "d": "Distance isn't needed for this question, and the class still wouldn't know which students bike and which walk."
+    },
+    "hints": ["The question compares two groups. How will the class know which group each student belongs to?"],
+    "solution": "A comparison investigation needs the numerical variable being compared (**travel time**) and the categorical variable that splits the students into groups (**bike or walk**). Both must be recorded for every student, so that each travel time can be put in the right group."
+  },
+  {
+    "id": "m9.sta.investigations.q013",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.sta.investigations.g1",
+    "part": "c",
+    "stem": "Mia's class wants to answer this statistical question: \"Do Year 9 students at our school who bike to school tend to get there faster than Year 9 students at our school who walk?\"",
+    "prompt": "Mia's friend suggests collecting the data by asking students as they arrive at the school's bike shed one morning.\n\nExplain **one** problem with this plan, and suggest a better way to collect the data.",
+    "modelAnswer": "At the bike shed they would mostly meet students who bike, so they would get very few walkers, or none at all. That means they couldn't fairly compare the two groups: the data would be biased towards bikers. A better plan is to ask every student in several Year 9 classes (for example, during form time) how they got to school that morning and how many minutes it took. That way both bikers and walkers are included.",
+    "rubric": [
+      { "criterion": "Identifies a valid problem, e.g. mostly bikers would be asked, so walkers are missing and the comparison is unfair (biased)", "marks": 1 },
+      { "criterion": "Suggests a better method that includes both groups, e.g. surveying everyone in several Year 9 classes", "marks": 1 }
+    ],
+    "hints": ["Who walks past the bike shed in the morning?", "The comparison needs data from both groups."],
+    "solution": "Students at the bike shed are almost all bikers, so the walkers would be missing and the data would be **biased**. Surveying everyone in several Year 9 classes (for example, in form time) would include both bikers and walkers."
+  },
+  {
+    "id": "m9.sta.investigations.q014",
+    "type": "multi",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "m9.sta.investigations.g2",
+    "part": "a",
+    "stem": "A Year 9 class recorded these variables for each student in the class. Here are the first eight rows of their data.\n\n| Student | Travel method | Travel time (min) | Ate breakfast? | Sleep last night (hours) |\n|---|---|---|---|---|\n| 1 | Walk | 12 | Yes | 8.5 |\n| 2 | Bus | 25 | No | 7 |\n| 3 | Car | 10 | Yes | 9 |\n| 4 | Bike | 8 | Yes | 75 |\n| 5 | Walk | 18 | No | 6.5 |\n| 6 | Bus | 30 | Yes | 8 |\n| 7 | Car | 2 | No | 7.5 |\n| 8 | Walk | 15 | Yes | 9.5 |",
+    "prompt": "Which of these statistical questions could be answered using **only** the variables in this data set? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Do Year 9 students at our school who walk to school tend to take longer to get there than those who bike?" },
+      { "id": "b", "text": "Is there a relationship between height and hours of sleep for Year 9 students at our school?" },
+      { "id": "c", "text": "Do Year 9 students at our school who eat breakfast tend to get higher maths test scores than those who don't?" },
+      { "id": "d", "text": "Do Year 9 students at our school who ate breakfast tend to have slept longer than those who didn't?" },
+      { "id": "e", "text": "What is the typical travel time to school for Year 9 students at our school?" }
+    ],
+    "correct": ["a", "d", "e"],
+    "hints": ["List the variables in the table. For each question, check that every variable it needs is there.", "Be careful: some questions use variables that weren't recorded."],
+    "solution": "The variables are travel method, travel time, breakfast (yes/no) and hours of sleep.\n\n- A uses travel method and travel time ✓\n- D uses breakfast and hours of sleep ✓\n- E uses travel time ✓\n- B needs height, which wasn't recorded ✗\n- C needs maths test scores, which weren't recorded ✗"
+  },
+  {
+    "id": "m9.sta.investigations.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.sta.investigations.g2",
+    "part": "b",
+    "stem": "A Year 9 class recorded these variables for each student in the class. Here are the first eight rows of their data.\n\n| Student | Travel method | Travel time (min) | Ate breakfast? | Sleep last night (hours) |\n|---|---|---|---|---|\n| 1 | Walk | 12 | Yes | 8.5 |\n| 2 | Bus | 25 | No | 7 |\n| 3 | Car | 10 | Yes | 9 |\n| 4 | Bike | 8 | Yes | 75 |\n| 5 | Walk | 18 | No | 6.5 |\n| 6 | Bus | 30 | Yes | 8 |\n| 7 | Car | 2 | No | 7.5 |\n| 8 | Walk | 15 | Yes | 9.5 |",
+    "prompt": "One value in the table is almost certainly a recording mistake. Which one?",
+    "options": [
+      { "id": "a", "text": "Student 4's sleep: 75 hours" },
+      { "id": "b", "text": "Student 7's travel time: 2 minutes" },
+      { "id": "c", "text": "Student 6's travel time: 30 minutes" },
+      { "id": "d", "text": "Student 5's sleep: 6.5 hours" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "2 minutes is unusual, but it is possible for a student who lives very close to school.",
+      "c": "A 30-minute bus trip is quite normal.",
+      "d": "6.5 hours is less sleep than most students had, but it is possible."
+    },
+    "hints": ["For each value, ask: is this actually possible for one student on one day?"],
+    "solution": "A night can't be longer than 24 hours, so 75 hours of sleep is impossible. It was probably meant to be 7.5 hours. The class should check with student 4 rather than guess, then correct the value (or leave it out) before analysing the data. Checking data for mistakes like this is called **cleaning** the data."
+  },
+  {
+    "id": "m9.sta.investigations.q016",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "m9.sta.investigations.g2",
+    "part": "c",
+    "stem": "A Year 9 class recorded these variables for each student in the class. Here are the first eight rows of their data.\n\n| Student | Travel method | Travel time (min) | Ate breakfast? | Sleep last night (hours) |\n|---|---|---|---|---|\n| 1 | Walk | 12 | Yes | 8.5 |\n| 2 | Bus | 25 | No | 7 |\n| 3 | Car | 10 | Yes | 9 |\n| 4 | Bike | 8 | Yes | 75 |\n| 5 | Walk | 18 | No | 6.5 |\n| 6 | Bus | 30 | Yes | 8 |\n| 7 | Car | 2 | No | 7.5 |\n| 8 | Walk | 15 | Yes | 9.5 |",
+    "prompt": "Write a **relationship** statistical question that could be answered using two of the variables in this data set. Then explain why it is a relationship question.",
+    "modelAnswer": "\"Is there a relationship between travel time to school and hours of sleep for Year 9 students at our school?\"\n\nIt is a relationship question because it looks at two numerical variables (travel time and hours of sleep) measured for the same students, to see whether one tends to change as the other changes. The pairs of values could be shown on a scatter plot.",
+    "rubric": [
+      { "criterion": "Writes a relationship question using travel time and hours of sleep, naming the group (e.g. Year 9 students at our school)", "marks": 1 },
+      { "criterion": "Explains that it uses two numerical variables measured for the same students (e.g. they could be shown on a scatter plot)", "marks": 1 }
+    ],
+    "hints": ["A relationship investigation needs two **numerical** variables measured for the same people.", "Which columns in the table contain measurements or counts?"],
+    "solution": "The only numerical variables are **travel time** and **hours of sleep**, so the question must use these, e.g. \"Is there a relationship between travel time to school and hours of sleep for Year 9 students at our school?\" Both variables are measured for the same students, so each student gives a pair of values that could be plotted on a scatter plot."
+  },
+  {
+    "id": "m9.sta.investigations.q017",
+    "type": "text",
+    "difficulty": 1,
+    "marks": 1,
+    "prompt": "Data that has been collected by someone else, such as a table you download from the Stats NZ website, is called what type of data?",
+    "accepted": ["secondary data", "secondary", "secondary source data"],
+    "hints": ["Data you collect yourself is called primary data. This is the other type."],
+    "solution": "**Secondary data** has been collected by someone else. Data you collect yourself, by measuring or surveying, is **primary data**."
+  },
+  {
+    "id": "m9.sta.investigations.q018",
+    "type": "text",
+    "difficulty": 1,
+    "marks": 1,
+    "prompt": "In some studies, the investigator only watches, measures or asks, and records what happens **without changing anything**. What is this type of study called?",
+    "accepted": ["observational study", "observational", "observational studies", "observation study", "observational investigation"],
+    "hints": ["It is different from an experiment, where the investigator deliberately changes something."],
+    "solution": "This is an **observational study**. In an **experiment**, the investigator deliberately changes something (for example, giving one group a warm-up) to see what effect it has."
+  },
+  {
+    "id": "m9.sta.investigations.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "prompt": "Grace could collect her own data, or use a large secondary data set collected from students all over New Zealand. What is an **advantage** of using the secondary data?",
+    "options": [
+      { "id": "a", "text": "It can include data from many more students than she could survey herself." },
+      { "id": "b", "text": "It is always more accurate than data she collects herself." },
+      { "id": "c", "text": "She can choose exactly how each variable was measured." },
+      { "id": "d", "text": "It never needs to be checked for mistakes." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Secondary data can have mistakes too, and Grace can't check how carefully it was collected.",
+      "c": "That is an advantage of primary data. With secondary data, someone else decided how each variable was measured.",
+      "d": "All data should be checked (cleaned) for mistakes, wherever it comes from."
+    },
+    "hints": ["How long would it take Grace to collect data from hundreds of students by herself?"],
+    "solution": "Secondary data can give you data from far more people, and from more places, than you could collect yourself. But you didn't control how it was collected, so you still need to check it for mistakes and make sure the variables measure what you want."
+  },
+  {
+    "id": "m9.sta.investigations.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "prompt": "Ruby wants to investigate how the temperature in her classroom changes during a school day. Which plan is best?",
+    "options": [
+      { "id": "a", "text": "Read a thermometer in the same spot every 30 minutes from 8:30 am to 3:00 pm" },
+      { "id": "b", "text": "Read a thermometer once in the morning and once in the afternoon" },
+      { "id": "c", "text": "Read a thermometer every 30 minutes, moving it to a different spot each time" },
+      { "id": "d", "text": "Ask her classmates every 30 minutes how warm they feel" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Two readings can't show how the temperature changes through the day. A time-series needs measurements at regular times.",
+      "c": "Moving the thermometer means a change could be caused by the spot (for example, next to a sunny window), not the time of day.",
+      "d": "Feelings aren't measurements, and they vary from person to person. Use a thermometer."
+    },
+    "hints": ["A time-series investigation measures the same variable, in the same way, at regular times."],
+    "solution": "For a **time-series** investigation, measure the same variable in the same way at **regular time intervals**. Reading the thermometer in the same spot every 30 minutes gives a fair record of how the temperature changes during the day."
+  },
+  {
+    "id": "m9.sta.investigations.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "prompt": "Tama's class wants to investigate: \"Do Year 9 students at our school who play a weekend sport tend to be fitter than those who don't?\" Which variable would be the best measure of fitness?",
+    "options": [
+      { "id": "a", "text": "The time each student takes to run 1 km, in seconds" },
+      { "id": "b", "text": "How fit each student says they are, on a scale from 1 to 10" },
+      { "id": "c", "text": "The number of sports each student watches on TV" },
+      { "id": "d", "text": "Whether or not each student owns running shoes" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rating is an opinion. Different students judge themselves differently, so it isn't a fair measurement.",
+      "c": "Watching sport doesn't measure how fit someone is.",
+      "d": "This is a yes/no variable, and owning running shoes doesn't measure fitness."
+    },
+    "hints": ["\"Fitter\" is vague. Which option measures fitness fairly, in the same way for everyone?"],
+    "solution": "A good investigation turns a vague idea like \"fitness\" into a **variable that can be measured** in the same way for every student. The time to run 1 km is numerical and can be measured fairly. A self-rating is an opinion, and the other two options don't measure fitness."
+  },
+  {
+    "id": "m9.sta.investigations.q022",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Hemi wrote this statistical question for a class investigation:\n\n> Do kids use their phones a lot?\n\nExplain **two** problems with his question, and rewrite it as a good statistical question.",
+    "modelAnswer": "1. The group isn't clear: \"kids\" could mean anyone. The question should say exactly who it is about, e.g. Year 9 students at our school.\n\n2. The variable isn't clear: \"a lot\" can't be measured, and the question doesn't say what to record. It should name a numerical variable, such as the number of minutes spent on a phone on a school day.\n\nBetter question: \"What is the typical number of minutes that Year 9 students at our school spend on their phones on a school day?\"",
+    "rubric": [
+      { "criterion": "Explains that the group (\"kids\") is not clearly defined", "marks": 1 },
+      { "criterion": "Explains that the variable (\"a lot\") is vague and can't be measured", "marks": 1 },
+      { "criterion": "Rewrites it as a statistical question that names the group, a measurable variable and the intent (e.g. the typical value)", "marks": 1 }
+    ],
+    "hints": ["Check the parts of a statistical question: the variable, the group and the intent.", "Could two people agree on what \"a lot\" means?"],
+    "solution": "\"Kids\" doesn't name a clear group, and \"a lot\" isn't a variable you can measure. A good rewrite: \"What is the typical number of minutes that Year 9 students at our school spend on their phones on a school day?\" It names the **group** (Year 9 students at our school), the **variable** (minutes on a phone on a school day) and the **intent** (the typical value, so it is a summary investigation)."
+  },
+  {
+    "id": "m9.sta.investigations.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A class wants to investigate: \"Do Year 9 students at our school who keep their phone in their bedroom at night tend to sleep less than those who don't?\"\n\nTheir planned survey has only one question:\n\n> Do you sleep less because of your phone? (Yes / No)\n\nExplain why this survey question won't give the data they need, and write **two** better survey questions.",
+    "modelAnswer": "The question asks for an opinion about a cause instead of collecting data. It doesn't record how long each student slept (the numerical variable), and it doesn't record whether their phone was in their bedroom (the categorical variable that makes the two groups). It is also a leading question, because it suggests that phones cut down sleep.\n\nBetter survey questions:\n1. \"Was your phone in your bedroom last night? (Yes / No)\"\n2. \"How many hours did you sleep last night, to the nearest half hour?\" (or \"What time did you fall asleep last night, and what time did you wake up this morning?\")",
+    "rubric": [
+      { "criterion": "Explains that the question collects an opinion (and may lead students), instead of measuring sleep or recording which group each student is in", "marks": 1 },
+      { "criterion": "Writes a clear survey question for the categorical variable (e.g. phone in the bedroom last night: yes or no)", "marks": 1 },
+      { "criterion": "Writes a clear survey question for the numerical variable (hours of sleep on a particular night, with units or times)", "marks": 1 }
+    ],
+    "hints": ["Which two variables does the investigation need for each student?", "A good survey question asks about something specific (such as last night) and gets a clear answer."],
+    "solution": "The investigation needs two variables for each student: a categorical one (phone in the bedroom: yes or no) and a numerical one (hours of sleep). The planned question collects neither. It asks for an opinion and pushes students towards blaming their phone. Better questions: \"Was your phone in your bedroom last night? (Yes / No)\" and \"How many hours did you sleep last night, to the nearest half hour?\""
+  },
+  {
+    "id": "m9.sta.investigations.q024",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A class wants to collect **one** data set that lets them carry out both a **comparison** investigation and a **relationship** investigation. Which variables should they record for each student?",
+    "options": [
+      { "id": "a", "text": "Height (cm), arm span (cm), and whether they play a team sport" },
+      { "id": "b", "text": "Height (cm) and arm span (cm)" },
+      { "id": "c", "text": "Height (cm), and whether they play a team sport" },
+      { "id": "d", "text": "Favourite sport, eye colour, and whether they play a team sport" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Two numerical variables allow a relationship investigation, but there is no categorical variable to split the students into groups for a comparison.",
+      "c": "This allows a comparison (heights of the two groups), but a relationship investigation needs two numerical variables.",
+      "d": "These are all categorical, so there is no numerical variable to compare or to plot on a scatter plot."
+    },
+    "hints": ["A comparison needs a numerical variable and a categorical variable that makes the groups.", "A relationship needs two numerical variables for the same people."],
+    "solution": "Option A has two numerical variables (height and arm span) for a **relationship** investigation, e.g. \"Is there a relationship between height and arm span?\", and a categorical variable (team sport: yes or no) for a **comparison**, e.g. \"Do students who play a team sport tend to be taller than those who don't?\" This is why multivariate data sets are so useful."
+  },
+  {
+    "id": "m9.sta.investigations.q025",
+    "type": "multi",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Select **all** the investigations that are **observational studies**.",
+    "options": [
+      { "id": "a", "text": "Ruby counts how many tūī visit a feeder in her garden each morning for a month." },
+      { "id": "b", "text": "Kai gives half of his bean plants liquid plant food and compares their growth with the other half." },
+      { "id": "c", "text": "Priya uses a ruler-drop test to compare the reaction times of students who play a musical instrument with students who don't." },
+      { "id": "d", "text": "Leo asks half of his class to play a video game for 10 minutes before a reaction test, then compares them with the other half." },
+      { "id": "e", "text": "Isla measures the height and arm span of everyone in her class." }
+    ],
+    "correct": ["a", "c", "e"],
+    "hints": ["For each one, ask: did the investigator deliberately change something for some of the people, animals or plants?", "Carrying out a test to measure a variable is not the same as changing something."],
+    "solution": "In an **observational study** nothing is deliberately changed: the investigator just observes, measures and records. Ruby (A) and Isla (E) only observe and measure. Priya (C) also only measures: she doesn't decide who plays an instrument, she just records it and tests everyone in the same way.\n\nKai (B) and Leo (D) deliberately change something for one group (plant food, or playing a video game), so these are **experiments**."
   }
 ]

@@ -189,5 +189,258 @@
     ],
     "hints": ["Think about how many quarters are in one whole.", "Try a small example, like $2 \\div \\frac{1}{4}$."],
     "solution": "Each whole contains 4 quarters, so the number of quarters in $n$ is $n \\times 4$. For example, $3 \\div \\frac{1}{4} = 12 = 3 \\times 4$. In general, dividing by a fraction is the same as multiplying by its reciprocal."
+  },
+  {
+    "id": "m9.num.fractions.q012",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is an **improper fraction**?",
+    "options": [
+      { "id": "a", "text": "$\\frac{7}{4}$" },
+      { "id": "b", "text": "$\\frac{4}{7}$" },
+      { "id": "c", "text": "$1\\frac{3}{4}$" },
+      { "id": "d", "text": "$\\frac{6}{8}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is a proper fraction: the numerator is smaller than the denominator.",
+      "c": "This is a mixed number. It is equal to $\\frac{7}{4}$, but it is written as a whole number and a fraction.",
+      "d": "$\\frac{6}{8}$ isn't in simplest form, but that doesn't make it improper. Its numerator is smaller than its denominator."
+    },
+    "hints": ["Compare the numerator (top) with the denominator (bottom)."],
+    "solution": "An **improper fraction** has a numerator bigger than its denominator. $\\frac{7}{4}$ has $7 > 4$, so it is improper. It is worth more than 1: $\\frac{7}{4} = 1\\frac{3}{4}$."
+  },
+  {
+    "id": "m9.num.fractions.q013",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger, $\\frac{3}{5}$ or $\\frac{3}{8}$?",
+    "options": [
+      { "id": "a", "text": "$\\frac{3}{5}$, because fifths are bigger pieces than eighths" },
+      { "id": "b", "text": "$\\frac{3}{8}$, because 8 is bigger than 5" },
+      { "id": "c", "text": "They are equal, because both have 3 pieces" },
+      { "id": "d", "text": "You can't compare fractions with different denominators" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A bigger denominator means the whole is cut into more pieces, so each piece is smaller.",
+      "c": "Both have 3 pieces, but the pieces are different sizes.",
+      "d": "You can compare them. When the numerators are the same, compare the size of the pieces."
+    },
+    "hints": ["Imagine one pizza cut into 5 equal slices and another cut into 8 equal slices.", "Which slices are bigger?"],
+    "solution": "Both fractions have 3 pieces. Fifths are bigger than eighths (the whole is shared into fewer pieces), so $\\frac{3}{5} > \\frac{3}{8}$. (As decimals: $0.6 > 0.375$.)"
+  },
+  {
+    "id": "m9.num.fractions.q014",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g1",
+    "part": "a",
+    "stem": "The Year 9 class baked 60 muffins for a school fundraiser. They sold $\\frac{2}{3}$ of the muffins in the morning. At lunchtime they sold $\\frac{3}{4}$ of the muffins that were left.",
+    "prompt": "How many muffins did they sell in the morning?",
+    "answer": 40,
+    "form": "integer",
+    "hints": ["Find $\\frac{1}{3}$ of 60 first.", "Then find $\\frac{2}{3}$ of 60."],
+    "solution": "$\\frac{1}{3}$ of 60 is $60 \\div 3 = 20$, so $\\frac{2}{3}$ of 60 is $2 \\times 20 = 40$ muffins."
+  },
+  {
+    "id": "m9.num.fractions.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g1",
+    "part": "b",
+    "stem": "The Year 9 class baked 60 muffins for a school fundraiser. They sold $\\frac{2}{3}$ of the muffins in the morning. At lunchtime they sold $\\frac{3}{4}$ of the muffins that were left.",
+    "prompt": "How many muffins did they sell at lunchtime?",
+    "answer": 15,
+    "form": "integer",
+    "hints": ["How many muffins were left after the morning?", "Find $\\frac{3}{4}$ of the muffins that were left, not of all 60."],
+    "solution": "Morning: $\\frac{2}{3} \\times 60 = 40$, so $60 - 40 = 20$ muffins were left.\n\nLunchtime: $\\frac{3}{4}$ of 20 is $20 \\div 4 \\times 3 = 15$ muffins."
+  },
+  {
+    "id": "m9.num.fractions.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g1",
+    "part": "c",
+    "stem": "The Year 9 class baked 60 muffins for a school fundraiser. They sold $\\frac{2}{3}$ of the muffins in the morning. At lunchtime they sold $\\frac{3}{4}$ of the muffins that were left.",
+    "prompt": "Sione says they sold $\\frac{2}{3} + \\frac{3}{4}$ of the muffins altogether. What is wrong with his reasoning?",
+    "options": [
+      { "id": "a", "text": "The $\\frac{3}{4}$ is a fraction of the muffins left after the morning, not of all 60" },
+      { "id": "b", "text": "You can't add two fractions that have different denominators" },
+      { "id": "c", "text": "He should multiply: $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$ of the muffins were sold" },
+      { "id": "d", "text": "Nothing: $\\frac{2}{3} + \\frac{3}{4} = \\frac{5}{7}$ of the muffins were sold" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You can add them using a common denominator. The problem is that adding doesn't fit this situation: $\\frac{2}{3} + \\frac{3}{4} = \\frac{17}{12}$, which is more than all the muffins.",
+      "c": "$\\frac{2}{3} \\times \\frac{3}{4}$ doesn't match anything they sold. The lunchtime sales were $\\frac{3}{4}$ of the remaining $\\frac{1}{3}$.",
+      "d": "$\\frac{5}{7}$ comes from adding the tops and adding the bottoms, which isn't how to add fractions. And the $\\frac{3}{4}$ is not a fraction of all the muffins."
+    },
+    "hints": ["$\\frac{3}{4}$ of **which** muffins were sold at lunchtime?", "Work out $\\frac{2}{3} + \\frac{3}{4}$. Is the answer possible?"],
+    "solution": "The $\\frac{3}{4}$ is a fraction of the 20 muffins left, not of all 60. As a fraction of all the muffins, lunchtime sales were $\\frac{3}{4} \\times \\frac{1}{3} = \\frac{1}{4}$ (15 out of 60). Altogether they sold $\\frac{2}{3} + \\frac{1}{4} = \\frac{11}{12}$ of the muffins (55 muffins). Sione's total, $\\frac{2}{3} + \\frac{3}{4} = \\frac{17}{12}$, is more than 1 whole, which is impossible."
+  },
+  {
+    "id": "m9.num.fractions.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g1",
+    "part": "d",
+    "stem": "The Year 9 class baked 60 muffins for a school fundraiser. They sold $\\frac{2}{3}$ of the muffins in the morning. At lunchtime they sold $\\frac{3}{4}$ of the muffins that were left.",
+    "prompt": "What fraction of the 60 muffins was **not** sold? Give your answer in simplest form.",
+    "answer": 0.08333333333333333,
+    "form": "simplest-fraction",
+    "hints": ["Work out how many muffins were sold in the morning and at lunchtime.", "Write the number left over as a fraction of 60, then simplify."],
+    "solution": "Morning: $\\frac{2}{3} \\times 60 = 40$, leaving 20. Lunchtime: $\\frac{3}{4} \\times 20 = 15$, leaving $20 - 15 = 5$.\n\nNot sold: $\\frac{5}{60} = \\frac{1}{12}$.\n\n(Or with fractions: after the morning $\\frac{1}{3}$ is left, and $\\frac{1}{4}$ of that is still left after lunch: $\\frac{1}{4} \\times \\frac{1}{3} = \\frac{1}{12}$.)"
+  },
+  {
+    "id": "m9.num.fractions.q018",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g2",
+    "part": "a",
+    "stem": "Hemi is making fruit punch for the school disco. He has 9 litres of punch. Each cup holds $\\frac{3}{8}$ of a litre.",
+    "prompt": "How many cups can Hemi fill?",
+    "answer": 24,
+    "form": "integer",
+    "hints": ["You need to find how many lots of $\\frac{3}{8}$ fit into 9.", "Dividing by $\\frac{3}{8}$ is the same as multiplying by $\\frac{8}{3}$."],
+    "solution": "$9 \\div \\frac{3}{8} = 9 \\times \\frac{8}{3} = \\frac{72}{3} = 24$ cups.\n\nCheck: $24 \\times \\frac{3}{8} = \\frac{72}{8} = 9$ litres ✓"
+  },
+  {
+    "id": "m9.num.fractions.q019",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g2",
+    "part": "b",
+    "stem": "Hemi is making fruit punch for the school disco. He has 9 litres of punch. Each cup holds $\\frac{3}{8}$ of a litre.",
+    "prompt": "Explain why Hemi can fill **more** than 9 cups, even though he only has 9 litres of punch.",
+    "modelAnswer": "Each cup holds $\\frac{3}{8}$ of a litre, which is less than 1 litre. So each litre fills more than one cup (one litre fills $1 \\div \\frac{3}{8} = 2\\frac{2}{3}$ cups). That means 9 litres fills more than 9 cups. In general, dividing by a fraction less than 1 gives an answer bigger than the number you started with.",
+    "rubric": [
+      { "criterion": "States that each cup holds less than 1 litre (or that $\\frac{3}{8}$ is less than 1)", "marks": 1 },
+      { "criterion": "Explains that this means each litre fills more than one cup, so there are more cups than litres (or: dividing by a number less than 1 makes the answer bigger)", "marks": 1 }
+    ],
+    "hints": ["Is $\\frac{3}{8}$ of a litre more or less than 1 litre?", "How many cups can 1 litre fill?"],
+    "solution": "A cup holds less than a litre, so each litre fills more than one cup ($2\\frac{2}{3}$ cups). So 9 litres fills more than 9 cups. Dividing by a fraction less than 1 always gives a bigger answer."
+  },
+  {
+    "id": "m9.num.fractions.q020",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.fractions.g2",
+    "part": "c",
+    "stem": "Hemi is making fruit punch for the school disco. He has 9 litres of punch. Each cup holds $\\frac{3}{8}$ of a litre.",
+    "prompt": "Hemi adds a $2\\frac{1}{2}$ litre bottle of lemonade to the punch. How many cups can he **completely** fill now?",
+    "answer": 30,
+    "form": "integer",
+    "hints": ["Find the total amount of punch first.", "Divide by $\\frac{3}{8}$. If the answer isn't a whole number, think about what the leftover part means."],
+    "solution": "Total: $9 + 2\\frac{1}{2} = 11\\frac{1}{2} = \\frac{23}{2}$ litres.\n\nCups: $\\frac{23}{2} \\div \\frac{3}{8} = \\frac{23}{2} \\times \\frac{8}{3} = \\frac{184}{6} = 30\\frac{2}{3}$.\n\nThat's 30 full cups with $\\frac{2}{3}$ of a cup left over, so he can completely fill **30** cups."
+  },
+  {
+    "id": "m9.num.fractions.q021",
+    "type": "extended",
+    "difficulty": 2,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $\\frac{3}{4}$ and $\\frac{9}{12}$ are equivalent fractions. Use the idea of multiplying by a form of 1.",
+    "modelAnswer": "$\\frac{9}{12} = \\frac{3 \\times 3}{4 \\times 3} = \\frac{3}{4} \\times \\frac{3}{3}$. Since $\\frac{3}{3} = 1$, multiplying by it doesn't change the value, so $\\frac{3}{4}$ and $\\frac{9}{12}$ are the same amount. The pieces are 3 times smaller, but there are 3 times as many of them.",
+    "rubric": [
+      { "criterion": "Shows that the numerator and the denominator are both multiplied by 3, i.e. $\\frac{3}{4} \\times \\frac{3}{3} = \\frac{9}{12}$", "marks": 1 },
+      { "criterion": "Explains that $\\frac{3}{3} = 1$, and multiplying by 1 doesn't change the value", "marks": 1 }
+    ],
+    "hints": ["What do you multiply 3 by to get 9? What do you multiply 4 by to get 12?", "What is $\\frac{3}{3}$ equal to?"],
+    "solution": "$\\frac{3}{4} \\times \\frac{3}{3} = \\frac{9}{12}$, and $\\frac{3}{3} = 1$. Multiplying by 1 doesn't change a number, so the two fractions are equal."
+  },
+  {
+    "id": "m9.num.fractions.q022",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Liam simplifies $\\frac{16}{64}$ by crossing out the two 6s, and writes $\\frac{1}{4}$. Is his **method** correct?",
+    "options": [
+      { "id": "a", "text": "No. It worked by luck: the same trick turns $\\frac{12}{24}$ into $\\frac{1}{4}$, which is wrong" },
+      { "id": "b", "text": "Yes. You can cross out a digit that appears on both the top and the bottom" },
+      { "id": "c", "text": "Yes. Crossing out the 6s is the same as dividing the top and bottom by 6" },
+      { "id": "d", "text": "No. $\\frac{16}{64}$ is really equal to $\\frac{1}{2}$, so his answer is wrong" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Try it on $\\frac{12}{24}$: crossing out the 2s gives $\\frac{1}{4}$, but $\\frac{12}{24} = \\frac{1}{2}$. Only dividing by a common factor is safe.",
+      "c": "16 and 64 can't even be divided exactly by 6. Crossing out digits is not the same as dividing.",
+      "d": "His answer is actually right: $16 \\times 4 = 64$, so $\\frac{16}{64} = \\frac{1}{4}$. It's his method that is wrong."
+    },
+    "hints": ["Is $\\frac{16}{64}$ really equal to $\\frac{1}{4}$? Check by dividing the top and bottom by 16.", "Try Liam's trick on another fraction, such as $\\frac{12}{24}$."],
+    "solution": "$\\frac{16}{64} = \\frac{16 \\div 16}{64 \\div 16} = \\frac{1}{4}$, so the answer is right but the method isn't. To simplify, divide the numerator and denominator by a **common factor**. Crossing out digits is not dividing: for $\\frac{12}{24}$ it would give $\\frac{1}{4}$, but $\\frac{12}{24} = \\frac{1}{2}$."
+  },
+  {
+    "id": "m9.num.fractions.q023",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ruby says $2\\frac{1}{2} \\times 2\\frac{1}{2} = 4\\frac{1}{4}$, because $2 \\times 2 = 4$ and $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. As improper fractions, $\\frac{5}{2} \\times \\frac{5}{2} = \\frac{25}{4} = 6\\frac{1}{4}$" },
+      { "id": "b", "text": "Yes. Multiply the whole numbers, then multiply the fractions" },
+      { "id": "c", "text": "No. As improper fractions, $\\frac{5}{2} \\times \\frac{5}{2} = \\frac{25}{2} = 12\\frac{1}{2}$" },
+      { "id": "d", "text": "No. The answer is 5, because $2\\frac{1}{2} + 2\\frac{1}{2} = 5$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This misses parts of the multiplication. $2\\frac{1}{2}$ lots of $2\\frac{1}{2}$ is $2 \\times 2\\frac{1}{2} + \\frac{1}{2} \\times 2\\frac{1}{2} = 5 + 1\\frac{1}{4}$.",
+      "c": "When you multiply fractions, multiply the denominators too: $2 \\times 2 = 4$.",
+      "d": "That is $2\\frac{1}{2} + 2\\frac{1}{2}$, not $2\\frac{1}{2} \\times 2\\frac{1}{2}$."
+    },
+    "hints": ["Change each mixed number to an improper fraction first.", "Estimate: $2\\frac{1}{2} \\times 2\\frac{1}{2}$ must be more than $2 \\times 2\\frac{1}{2} = 5$."],
+    "solution": "$2\\frac{1}{2} = \\frac{5}{2}$, so $\\frac{5}{2} \\times \\frac{5}{2} = \\frac{25}{4} = 6\\frac{1}{4}$. Ruby's method leaves out the 'cross' parts, $2 \\times \\frac{1}{2}$ and $\\frac{1}{2} \\times 2$, which add up to the missing 2. An estimate shows the problem too: the answer must be more than $2 \\times 2\\frac{1}{2} = 5$."
+  },
+  {
+    "id": "m9.num.fractions.q024",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sione's family is driving 640 km from Auckland to Wellington. On the first day they drive $\\frac{3}{8}$ of the distance. On the second day they drive $\\frac{2}{5}$ of the distance. How many kilometres do they still have to drive?",
+    "answer": 144,
+    "units": "km",
+    "hints": ["Find how far they drive on each day (or add the two fractions first).", "Subtract the distance they have driven from 640 km."],
+    "solution": "Day 1: $\\frac{3}{8} \\times 640 = 240$ km. Day 2: $\\frac{2}{5} \\times 640 = 256$ km.\n\nStill to drive: $640 - 240 - 256 = 144$ km.\n\n(Or: $1 - \\frac{3}{8} - \\frac{2}{5} = \\frac{40}{40} - \\frac{15}{40} - \\frac{16}{40} = \\frac{9}{40}$, and $\\frac{9}{40} \\times 640 = 144$ km.)"
+  },
+  {
+    "id": "m9.num.fractions.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Mia reads $\\frac{1}{4}$ of her book on Saturday. On Sunday she reads $\\frac{1}{3}$ of the pages she has left. She now has 120 pages still to read. How many pages are in the book?",
+    "answer": 240,
+    "form": "integer",
+    "hints": ["What fraction of the book is left after Saturday?", "On Sunday she reads $\\frac{1}{3}$ of what was left. What fraction of the **whole book** is left after Sunday?"],
+    "solution": "After Saturday, $\\frac{3}{4}$ of the book is left. On Sunday she reads $\\frac{1}{3}$ of that, so $\\frac{2}{3}$ of it is still left: $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$ of the book.\n\nSo $\\frac{1}{2}$ of the book is 120 pages, and the whole book is $2 \\times 120 = 240$ pages.\n\nCheck: Saturday 60 pages (180 left); Sunday $\\frac{1}{3}$ of 180 is 60 pages (120 left) ✓"
+  },
+  {
+    "id": "m9.num.fractions.q026",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Without using a common denominator, explain which is bigger: $\\frac{11}{12}$ or $\\frac{13}{14}$.",
+    "modelAnswer": "$\\frac{11}{12}$ is $\\frac{1}{12}$ less than a whole, and $\\frac{13}{14}$ is $\\frac{1}{14}$ less than a whole. Fourteenths are smaller pieces than twelfths, so $\\frac{1}{14}$ is less than $\\frac{1}{12}$. That means $\\frac{13}{14}$ is closer to 1, so $\\frac{13}{14}$ is bigger.",
+    "rubric": [
+      { "criterion": "Shows that each fraction is one piece short of a whole: $1 - \\frac{1}{12}$ and $1 - \\frac{1}{14}$", "marks": 1 },
+      { "criterion": "Explains that $\\frac{1}{14}$ is smaller than $\\frac{1}{12}$ (fourteenths are smaller pieces)", "marks": 1 },
+      { "criterion": "Concludes that $\\frac{13}{14}$ is bigger because it is closer to 1", "marks": 1 }
+    ],
+    "hints": ["How far is each fraction from 1 whole?", "Which is smaller: one twelfth or one fourteenth?"],
+    "solution": "$\\frac{11}{12} = 1 - \\frac{1}{12}$ and $\\frac{13}{14} = 1 - \\frac{1}{14}$. Since $\\frac{1}{14} < \\frac{1}{12}$, $\\frac{13}{14}$ is closer to 1, so **$\\frac{13}{14}$ is bigger**. (Check: $\\frac{11}{12} = \\frac{77}{84}$ and $\\frac{13}{14} = \\frac{78}{84}$.)"
   }
 ]

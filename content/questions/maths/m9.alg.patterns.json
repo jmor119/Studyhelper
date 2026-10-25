@@ -195,5 +195,273 @@
     },
     "hints": ["Try it: double $3, 5, 7, 9$. What are the differences now?", "If a rule is $dn + c$, what happens when you double it?"],
     "solution": "If the rule is $dn + c$, doubling gives $2dn + 2c$, which is still linear with difference $2d$.\n\nExample: $3, 5, 7, 9$ (difference 2) doubles to $6, 10, 14, 18$ (difference 4). Aroha's conjecture is true."
+  },
+  {
+    "id": "m9.alg.patterns.q012",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.g1",
+    "part": "a",
+    "stem": "Ruby makes a pattern of hexagons from matches. Each new pattern adds one more hexagon to the row.",
+    "prompt": "How many matches are needed for Pattern 5?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 102\" width=\"396\" height=\"102\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"45.65\" y1=\"12\" x2=\"67.3\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"24.5\" x2=\"67.3\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"49.5\" x2=\"45.65\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"45.65\" y1=\"62\" x2=\"24\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"49.5\" x2=\"24\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"24.5\" x2=\"45.65\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"45.65\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><line x1=\"132.95\" y1=\"12\" x2=\"154.6\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"24.5\" x2=\"154.6\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"49.5\" x2=\"132.95\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"132.95\" y1=\"62\" x2=\"111.3\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"49.5\" x2=\"111.3\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"24.5\" x2=\"132.95\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"12\" x2=\"197.9\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"24.5\" x2=\"197.9\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"49.5\" x2=\"176.25\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"62\" x2=\"154.6\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"49.5\" x2=\"154.6\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"24.5\" x2=\"176.25\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"154.6\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><line x1=\"263.55\" y1=\"12\" x2=\"285.21\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"24.5\" x2=\"285.21\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"49.5\" x2=\"263.55\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"263.55\" y1=\"62\" x2=\"241.9\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"241.9\" y1=\"49.5\" x2=\"241.9\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"241.9\" y1=\"24.5\" x2=\"263.55\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"306.86\" y1=\"12\" x2=\"328.51\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"24.5\" x2=\"328.51\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"49.5\" x2=\"306.86\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"306.86\" y1=\"62\" x2=\"285.21\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"49.5\" x2=\"285.21\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"24.5\" x2=\"306.86\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"350.16\" y1=\"12\" x2=\"371.81\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"371.81\" y1=\"24.5\" x2=\"371.81\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"371.81\" y1=\"49.5\" x2=\"350.16\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"350.16\" y1=\"62\" x2=\"328.51\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"49.5\" x2=\"328.51\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"24.5\" x2=\"350.16\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"306.86\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>",
+      "alt": "Matchstick patterns of hexagons in a row. Pattern 1 is one hexagon made from 6 matches. Pattern 2 is two hexagons sharing a side, made from 11 matches. Pattern 3 is three hexagons in a row, made from 16 matches."
+    },
+    "answer": 26,
+    "hints": ["Count the matches in Patterns 1, 2 and 3.", "How many matches are added each time a hexagon is added?"],
+    "solution": "Pattern 1 has 6 matches, Pattern 2 has 11 and Pattern 3 has 16. Each new hexagon shares one side with the one before, so it adds 5 matches.\n\nPattern 4: $16 + 5 = 21$\n\nPattern 5: $21 + 5 = 26$ matches"
+  },
+  {
+    "id": "m9.alg.patterns.q013",
+    "type": "expression",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.g1",
+    "part": "b",
+    "stem": "Ruby makes a pattern of hexagons from matches. Each new pattern adds one more hexagon to the row.",
+    "prompt": "Write a rule for the number of matches, $m$, needed for Pattern $n$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 102\" width=\"396\" height=\"102\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"45.65\" y1=\"12\" x2=\"67.3\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"24.5\" x2=\"67.3\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"49.5\" x2=\"45.65\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"45.65\" y1=\"62\" x2=\"24\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"49.5\" x2=\"24\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"24.5\" x2=\"45.65\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"45.65\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><line x1=\"132.95\" y1=\"12\" x2=\"154.6\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"24.5\" x2=\"154.6\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"49.5\" x2=\"132.95\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"132.95\" y1=\"62\" x2=\"111.3\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"49.5\" x2=\"111.3\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"24.5\" x2=\"132.95\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"12\" x2=\"197.9\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"24.5\" x2=\"197.9\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"49.5\" x2=\"176.25\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"62\" x2=\"154.6\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"49.5\" x2=\"154.6\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"24.5\" x2=\"176.25\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"154.6\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><line x1=\"263.55\" y1=\"12\" x2=\"285.21\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"24.5\" x2=\"285.21\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"49.5\" x2=\"263.55\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"263.55\" y1=\"62\" x2=\"241.9\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"241.9\" y1=\"49.5\" x2=\"241.9\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"241.9\" y1=\"24.5\" x2=\"263.55\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"306.86\" y1=\"12\" x2=\"328.51\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"24.5\" x2=\"328.51\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"49.5\" x2=\"306.86\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"306.86\" y1=\"62\" x2=\"285.21\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"49.5\" x2=\"285.21\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"24.5\" x2=\"306.86\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"350.16\" y1=\"12\" x2=\"371.81\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"371.81\" y1=\"24.5\" x2=\"371.81\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"371.81\" y1=\"49.5\" x2=\"350.16\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"350.16\" y1=\"62\" x2=\"328.51\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"49.5\" x2=\"328.51\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"24.5\" x2=\"350.16\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"306.86\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>",
+      "alt": "Matchstick patterns of hexagons in a row. Pattern 1 is one hexagon made from 6 matches. Pattern 2 is two hexagons sharing a side, made from 11 matches. Pattern 3 is three hexagons in a row, made from 16 matches."
+    },
+    "answer": "5*n + 1",
+    "variables": ["n"],
+    "hints": ["The constant difference is the number of matches added each time.", "Compare (difference) × $n$ with the number of matches in Pattern 1."],
+    "solution": "The pattern goes 6, 11, 16, …, adding 5 each time, so the rule starts with $5n$. For Pattern 1, $5 \\times 1 = 5$, but there are 6 matches, so add 1.\n\n$m = 5n + 1$\n\nIn the picture: each hexagon needs 5 new matches, plus 1 extra match to close off the first hexagon. Check Pattern 3: $5 \\times 3 + 1 = 16$ ✓"
+  },
+  {
+    "id": "m9.alg.patterns.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.g1",
+    "part": "c",
+    "stem": "Ruby makes a pattern of hexagons from matches. Each new pattern adds one more hexagon to the row.",
+    "prompt": "Which pattern number uses exactly 96 matches?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 102\" width=\"396\" height=\"102\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"45.65\" y1=\"12\" x2=\"67.3\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"24.5\" x2=\"67.3\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"49.5\" x2=\"45.65\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"45.65\" y1=\"62\" x2=\"24\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"49.5\" x2=\"24\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"24.5\" x2=\"45.65\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"45.65\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><line x1=\"132.95\" y1=\"12\" x2=\"154.6\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"24.5\" x2=\"154.6\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"49.5\" x2=\"132.95\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"132.95\" y1=\"62\" x2=\"111.3\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"49.5\" x2=\"111.3\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"24.5\" x2=\"132.95\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"12\" x2=\"197.9\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"24.5\" x2=\"197.9\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"49.5\" x2=\"176.25\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"62\" x2=\"154.6\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"49.5\" x2=\"154.6\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"24.5\" x2=\"176.25\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"154.6\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><line x1=\"263.55\" y1=\"12\" x2=\"285.21\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"24.5\" x2=\"285.21\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"49.5\" x2=\"263.55\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"263.55\" y1=\"62\" x2=\"241.9\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"241.9\" y1=\"49.5\" x2=\"241.9\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"241.9\" y1=\"24.5\" x2=\"263.55\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"306.86\" y1=\"12\" x2=\"328.51\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"24.5\" x2=\"328.51\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"49.5\" x2=\"306.86\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"306.86\" y1=\"62\" x2=\"285.21\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"49.5\" x2=\"285.21\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"285.21\" y1=\"24.5\" x2=\"306.86\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"350.16\" y1=\"12\" x2=\"371.81\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"371.81\" y1=\"24.5\" x2=\"371.81\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"371.81\" y1=\"49.5\" x2=\"350.16\" y2=\"62\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"350.16\" y1=\"62\" x2=\"328.51\" y2=\"49.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"49.5\" x2=\"328.51\" y2=\"24.5\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"328.51\" y1=\"24.5\" x2=\"350.16\" y2=\"12\" stroke=\"#92400e\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"306.86\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>",
+      "alt": "Matchstick patterns of hexagons in a row. Pattern 1 is one hexagon made from 6 matches. Pattern 2 is two hexagons sharing a side, made from 11 matches. Pattern 3 is three hexagons in a row, made from 16 matches."
+    },
+    "answer": 19,
+    "hints": ["Find a rule for the number of matches in Pattern $n$ first.", "Set your rule equal to 96 and solve for $n$."],
+    "solution": "The matches go 6, 11, 16, …, so the rule is $m = 5n + 1$.\n\n$5n + 1 = 96$\n\n$5n = 95$\n\n$n = 19$\n\nPattern 19 uses 96 matches. Check: $5 \\times 19 + 1 = 96$ ✓"
+  },
+  {
+    "id": "m9.alg.patterns.q015",
+    "type": "expression",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.g2",
+    "part": "a",
+    "stem": "Grey tiles are placed around a row of white tiles. Pattern $n$ has $n$ white tiles in a row, with grey tiles all the way around them.",
+    "prompt": "Write a rule for the number of grey tiles, $g$, in Pattern $n$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 368 108\" width=\"368\" height=\"108\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"24\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"24\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"24\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"54\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><rect x=\"124\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"164\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><rect x=\"244\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"294\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>",
+      "alt": "Three tile patterns. Pattern 1 is one white tile surrounded by 8 grey tiles, making a 3 by 3 square. Pattern 2 is two white tiles in a row surrounded by 10 grey tiles. Pattern 3 is three white tiles in a row surrounded by 12 grey tiles."
+    },
+    "answer": "2*n + 6",
+    "variables": ["n"],
+    "hints": ["Count the grey tiles in Patterns 1, 2 and 3. What is the constant difference?", "Compare (difference) × $n$ with the number of grey tiles in Pattern 1."],
+    "solution": "The grey tiles go 8, 10, 12, …, adding 2 each time, so the rule starts with $2n$. For Pattern 1, $2 \\times 1 = 2$, but there are 8 grey tiles, so add 6.\n\n$g = 2n + 6$\n\nIn the picture: there are $n$ grey tiles above the white row, $n$ below it, and a column of 3 at each end, so $2n + 3 + 3$. Check Pattern 3: $2 \\times 3 + 6 = 12$ ✓"
+  },
+  {
+    "id": "m9.alg.patterns.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.g2",
+    "part": "b",
+    "stem": "Grey tiles are placed around a row of white tiles. Pattern $n$ has $n$ white tiles in a row, with grey tiles all the way around them.",
+    "prompt": "Kiri has 75 grey tiles. What is the longest row of white tiles she can surround completely with grey tiles?\n\nGive the number of white tiles.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 368 108\" width=\"368\" height=\"108\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"24\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"24\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"24\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"54\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><rect x=\"124\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"164\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><rect x=\"244\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"294\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>",
+      "alt": "Three tile patterns. Pattern 1 is one white tile surrounded by 8 grey tiles, making a 3 by 3 square. Pattern 2 is two white tiles in a row surrounded by 10 grey tiles. Pattern 3 is three white tiles in a row surrounded by 12 grey tiles."
+    },
+    "answer": 34,
+    "hints": ["Find a rule for the number of grey tiles in Pattern $n$. It must come to no more than 75.", "Solve the inequality, then think about whole numbers."],
+    "solution": "Pattern $n$ needs $2n + 6$ grey tiles, and Kiri has 75.\n\n$2n + 6 \\le 75$\n\n$2n \\le 69$\n\n$n \\le 34.5$\n\n$n$ must be a whole number, so the longest row has **34** white tiles. It uses $2 \\times 34 + 6 = 74$ grey tiles. A row of 35 would need 76, which is too many."
+  },
+  {
+    "id": "m9.alg.patterns.q017",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.patterns.g2",
+    "part": "c",
+    "stem": "Grey tiles are placed around a row of white tiles. Pattern $n$ has $n$ white tiles in a row, with grey tiles all the way around them.",
+    "prompt": "Tama says that one of the patterns will have exactly twice as many grey tiles as white tiles. Use algebra to explain why he is wrong.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 368 108\" width=\"368\" height=\"108\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"24\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"24\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"24\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"44\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"54\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><rect x=\"124\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"164\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"164\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><rect x=\"244\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"264\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"32\" width=\"20\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"304\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"12\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"32\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"324\" y=\"52\" width=\"20\" height=\"20\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"294\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>",
+      "alt": "Three tile patterns. Pattern 1 is one white tile surrounded by 8 grey tiles, making a 3 by 3 square. Pattern 2 is two white tiles in a row surrounded by 10 grey tiles. Pattern 3 is three white tiles in a row surrounded by 12 grey tiles."
+    },
+    "modelAnswer": "Pattern $n$ has $n$ white tiles and $2n + 6$ grey tiles. Twice the number of white tiles is $2n$. But the number of grey tiles, $2n + 6$, is always 6 more than $2n$, so the grey tiles can never be exactly twice the white tiles. (Solving $2n + 6 = 2n$ gives $6 = 0$, which is impossible.)",
+    "rubric": [
+      { "criterion": "Uses the rule $2n + 6$ for the grey tiles and compares it with $2n$ (twice the white tiles)", "marks": 1 },
+      { "criterion": "Explains that $2n + 6$ is always 6 more than $2n$ (or that $2n + 6 = 2n$ has no solution), so it can never happen", "marks": 1 }
+    ],
+    "hints": ["How many white tiles are in Pattern $n$? What is twice that?", "Compare this with a rule for the number of grey tiles."],
+    "solution": "White tiles: $n$. Twice the white tiles: $2n$. Grey tiles: $2n + 6$.\n\nFor Tama to be right, we would need $2n + 6 = 2n$. Subtracting $2n$ from both sides gives $6 = 0$, which is impossible.\n\nThe grey tiles are always exactly 6 more than double the white tiles, so they can never be exactly double. Checking lots of patterns can't prove this, but the algebra does."
+  },
+  {
+    "id": "m9.alg.patterns.q018",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which rule gives the sequence $5, 10, 15, 20, \\ldots$?",
+    "options": [
+      { "id": "a", "text": "$5n$" },
+      { "id": "b", "text": "$n + 5$" },
+      { "id": "c", "text": "$5n + 5$" },
+      { "id": "d", "text": "$n + 4$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$n + 5$ gives $6, 7, 8, \\ldots$, which goes up by 1. \"Add 5 each time\" is a different kind of rule.",
+      "c": "$5n + 5$ gives $10, 15, 20, \\ldots$, which starts too high.",
+      "d": "$n + 4$ gives $5, 6, 7, \\ldots$, which only matches the first term."
+    },
+    "hints": ["Substitute $n = 1, 2, 3$ into each rule."],
+    "solution": "Substituting $n = 1, 2, 3, 4$ into $5n$ gives $5, 10, 15, 20$ ✓. These are the multiples of 5.\n\nThe terms go up by 5, so the rule starts with $5n$, and nothing needs to be added."
+  },
+  {
+    "id": "m9.alg.patterns.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these situations gives a **linear** pattern?",
+    "options": [
+      { "id": "a", "text": "A taxi fare of \\$4 plus \\$2 for each kilometre" },
+      { "id": "b", "text": "The number of bacteria when it doubles every hour" },
+      { "id": "c", "text": "The areas of squares with sides 1 cm, 2 cm, 3 cm, …" },
+      { "id": "d", "text": "The dots in triangle patterns: 1, 3, 6, 10, …" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Doubling gives 1, 2, 4, 8, …, so the differences (1, 2, 4, …) keep growing.",
+      "c": "The areas are 1, 4, 9, … cm², so the differences (3, 5, …) are not constant.",
+      "d": "The differences are 2, 3, 4, …, which are not constant."
+    },
+    "hints": ["A linear pattern goes up (or down) by the same amount each time."],
+    "solution": "The taxi fares are \\$6, \\$8, \\$10, … for 1, 2, 3, … km. They go up by \\$2 each time, which is a constant difference, so the pattern is linear.\n\nIn the other situations the amount added keeps changing."
+  },
+  {
+    "id": "m9.alg.patterns.q020",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "The table shows a linear pattern.\n\n| Position, $n$ | 1 | 2 | 3 | 4 | 10 |\n|---|---|---|---|---|---|\n| Term | 7 | 10 | 13 | [[a]] | [[b]] |\n\nFill in the missing terms.",
+    "blanks": [
+      { "id": "a", "accepted": ["16"] },
+      { "id": "b", "accepted": ["34"] }
+    ],
+    "hints": ["What is the constant difference?", "For position 10, use a rule instead of counting on: start with (difference) × $n$."],
+    "solution": "The terms go up by 3, so position 4 is $13 + 3 = 16$.\n\nThe rule is $3n + 4$ (because $3 \\times 1 + 4 = 7$). For position 10: $3 \\times 10 + 4 = 34$.\n\n(You could also count on six more steps from 16: $16 + 6 \\times 3 = 34$.)"
+  },
+  {
+    "id": "m9.alg.patterns.q021",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai looks at the sequence $3, 5, 7, 9, \\ldots$ and says, \"You add 2 each time, so the rule is $n + 2$.\" What is wrong with Kai's rule?",
+    "options": [
+      { "id": "a", "text": "Adding 2 each time means the rule starts with $2n$. The rule is $2n + 1$" },
+      { "id": "b", "text": "Nothing: $n + 2$ gives $3, 5, 7, 9$" },
+      { "id": "c", "text": "The rule should be $3n$, because the first term is 3" },
+      { "id": "d", "text": "The rule should be $2n + 3$, because the sequence starts at 3" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Check it: $n + 2$ gives $3, 4, 5, 6$, which goes up by 1, not 2.",
+      "c": "$3n$ gives $3, 6, 9, \\ldots$, which goes up by 3.",
+      "d": "$2n + 3$ gives 5 when $n = 1$, but the first term is 3."
+    },
+    "hints": ["Test Kai's rule: substitute $n = 1, 2, 3$.", "If the terms go up by 2 each time, what should the rule start with?"],
+    "solution": "A difference of 2 means the rule starts with $2n$ (the 2 times table goes up by 2). When $n = 1$, $2n = 2$, but the term is 3, so add 1: the rule is $2n + 1$.\n\nKai mixed up the term-to-term rule (\"add 2\") with the position-to-term rule. His rule $n + 2$ gives $3, 4, 5, 6$."
+  },
+  {
+    "id": "m9.alg.patterns.q022",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The sequence $4, 7, 10, 13, \\ldots$ can be described by the term-to-term rule \"add 3\" or by the position-to-term rule $3n + 1$.\n\nExplain why the position-to-term rule is more useful for finding the 100th term.",
+    "modelAnswer": "With the term-to-term rule you would have to keep adding 3, working out all 99 terms before the 100th. With the position-to-term rule you can substitute $n = 100$ straight away: $3 \\times 100 + 1 = 301$. So it is much quicker, and there is less chance of making a mistake.",
+    "rubric": [
+      { "criterion": "Explains that the term-to-term rule needs every term before it to be worked out (adding 3 many times)", "marks": 1 },
+      { "criterion": "Explains that the position-to-term rule finds it directly by substituting $n = 100$, e.g. $3 \\times 100 + 1 = 301$", "marks": 1 }
+    ],
+    "hints": ["How would you find the 100th term using \"add 3\"?", "What could you substitute into $3n + 1$?"],
+    "solution": "Using \"add 3\", you need the 99th term to get the 100th, the 98th to get the 99th, and so on, so you would have to work out every term.\n\nUsing $3n + 1$, substitute $n = 100$: $3 \\times 100 + 1 = 301$. One calculation gives the answer, so the position-to-term rule is much more useful for terms far along a sequence."
+  },
+  {
+    "id": "m9.alg.patterns.q023",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A sequence starts at 7 and goes up by 3 each time. Which is its position-to-term rule?",
+    "options": [
+      { "id": "a", "text": "$3n + 4$" },
+      { "id": "b", "text": "$3n + 7$" },
+      { "id": "c", "text": "$7n + 3$" },
+      { "id": "d", "text": "$n + 3$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$3n + 7$ gives 10 when $n = 1$. The number you add is not always the first term.",
+      "c": "The difference (3) goes in front of $n$, not the first term.",
+      "d": "$n + 3$ goes up by 1 each time, not 3."
+    },
+    "hints": ["The difference tells you the number in front of $n$.", "Check that your rule gives 7 when $n = 1$."],
+    "solution": "Going up by 3 means the rule starts with $3n$. When $n = 1$, $3n = 3$, but the first term is 7, so add 4: the rule is $3n + 4$.\n\nCheck: $3 \\times 1 + 4 = 7$, $3 \\times 2 + 4 = 10$, $3 \\times 3 + 4 = 13$ ✓"
+  },
+  {
+    "id": "m9.alg.patterns.q024",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The 5th term of the sequence $5, 9, 13, 17, \\ldots$ is 21. Amelia says the 10th term must be 42, because 10 is double 5. Why is she wrong?",
+    "options": [
+      { "id": "a", "text": "The rule is $4n + 1$. Doubling $n$ doubles the $4n$ but not the $+1$, so it is 41" },
+      { "id": "b", "text": "From the 5th to the 10th term you add 5, so it is 26" },
+      { "id": "c", "text": "She isn't wrong: the 10th term is 42" },
+      { "id": "d", "text": "The 10th term is 40, because the difference is 4" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "From the 5th to the 10th term is 5 steps of $+4$, which adds 20, not 5.",
+      "c": "Check with the rule: $4 \\times 10 + 1 = 41$, not 42.",
+      "d": "$4 \\times 10 = 40$, but you still need to add 1."
+    },
+    "hints": ["Find the position-to-term rule first.", "Substitute $n = 10$ into the rule."],
+    "solution": "The difference is 4, and $4 \\times 1 + 1 = 5$, so the rule is $4n + 1$.\n\n10th term: $4 \\times 10 + 1 = 41$\n\nDoubling the position doubles the $4n$ part, but the $+1$ isn't doubled. Amelia's method only works for rules with nothing added, like $4n$. Check by counting on from the 5th term: $21 + 5 \\times 4 = 41$ ✓"
+  },
+  {
+    "id": "m9.alg.patterns.q025",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sequence A is $3, 8, 13, 18, \\ldots$ and sequence B is $43, 40, 37, 34, \\ldots$\n\nIn which position do the two sequences have the same term?",
+    "answer": 6,
+    "hints": ["Find a rule for each sequence. Sequence B goes **down** each time.", "Set the two rules equal and solve, or continue both sequences until they match in the same position."],
+    "solution": "Sequence A goes up by 5: rule $5n - 2$. Sequence B goes down by 3: rule $46 - 3n$ (check: $46 - 3 = 43$ ✓).\n\n$5n - 2 = 46 - 3n$\n\nAdd $3n$: $8n - 2 = 46$\n\nAdd 2: $8n = 48$, so $n = 6$.\n\nPosition 6: A is $5 \\times 6 - 2 = 28$ and B is $46 - 18 = 28$ ✓\n\nOr list them: A is 3, 8, 13, 18, 23, **28** and B is 43, 40, 37, 34, 31, **28**."
+  },
+  {
+    "id": "m9.alg.patterns.q026",
+    "type": "expression",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "The 5th term of a linear sequence is 23 and the 9th term is 39. Write a rule for the $n$th term.",
+    "answer": "4*n + 3",
+    "variables": ["n"],
+    "hints": ["From the 5th term to the 9th term is 4 steps. How much does the sequence go up in each step?", "Once you know the difference, use the 5th term to find what to add."],
+    "solution": "From the 5th term to the 9th term is $9 - 5 = 4$ steps, and the terms go up by $39 - 23 = 16$. So each step adds $16 \\div 4 = 4$, and the rule starts with $4n$.\n\nFor $n = 5$: $4 \\times 5 = 20$, but the term is 23, so add 3.\n\nRule: $4n + 3$. Check the 9th term: $4 \\times 9 + 3 = 39$ ✓"
   }
 ]

@@ -120,5 +120,283 @@
     "accepted": ["median", "the median"],
     "hints": ["It sounds a bit like \"medium\"."],
     "solution": "The **median** is the middle value of ordered data."
+  },
+  {
+    "id": "m9.sta.summary.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.sta.summary.g1",
+    "part": "a",
+    "stem": "Sione asked 12 students in his class how many minutes they spent on homework last night. Here are the results, in order:\n\n5, 10, 15, 20, 20, 25, 30, 30, 30, 35, 45, 155",
+    "prompt": "Find the **median** homework time.",
+    "answer": 27.5,
+    "units": "min",
+    "hints": ["There are 12 values, so the median is halfway between the two middle values.", "The two middle values are the 6th and 7th values."],
+    "solution": "With 12 values, the median is halfway between the 6th and 7th values, which are 25 and 30.\n\n$\\text{median} = \\frac{25 + 30}{2} = 27.5$ minutes"
+  },
+  {
+    "id": "m9.sta.summary.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.sta.summary.g1",
+    "part": "b",
+    "stem": "Sione asked 12 students in his class how many minutes they spent on homework last night. Here are the results, in order:\n\n5, 10, 15, 20, 20, 25, 30, 30, 30, 35, 45, 155",
+    "prompt": "Find the **interquartile range** (IQR) of the homework times.",
+    "answer": 15,
+    "units": "min",
+    "hints": ["Split the 12 values into a lower half (the first 6) and an upper half (the last 6).", "$Q_1$ is the median of the lower half and $Q_3$ is the median of the upper half. Then IQR $= Q_3 - Q_1$."],
+    "solution": "Lower half: 5, 10, **15, 20**, 20, 25, so $Q_1 = \\frac{15 + 20}{2} = 17.5$.\n\nUpper half: 30, 30, **30, 35**, 45, 155, so $Q_3 = \\frac{30 + 35}{2} = 32.5$.\n\n$\\text{IQR} = 32.5 - 17.5 = 15$ minutes"
+  },
+  {
+    "id": "m9.sta.summary.q011",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.sta.summary.g1",
+    "part": "c",
+    "stem": "Sione asked 12 students in his class how many minutes they spent on homework last night. Here are the results, in order:\n\n5, 10, 15, 20, 20, 25, 30, 30, 30, 35, 45, 155",
+    "prompt": "The mean homework time is 35 minutes. Sione says, \"35 minutes is a good way to describe a typical homework time for my class.\"\n\nDo you agree? Explain, using the data.",
+    "modelAnswer": "I don't agree. The value of 155 minutes is an outlier: it is much bigger than all the other values, and it pulls the mean up. Only 2 of the 12 students (45 and 155 minutes) did more than 35 minutes of homework, so the mean is higher than what most students did. The median, 27.5 minutes, is a better description of a typical homework time, because one extreme value hardly affects it.",
+    "rubric": [
+      { "criterion": "Disagrees, explaining that the outlier (155 minutes) pulls the mean up", "marks": 1 },
+      { "criterion": "Supports this with evidence (e.g. only 2 of the 12 students did more than 35 minutes) and suggests the median (27.5 minutes) instead", "marks": 1 }
+    ],
+    "hints": ["How many students actually did more than 35 minutes?", "Which value is very different from the rest, and what does it do to the mean?"],
+    "solution": "The 155 is an **outlier** that drags the mean up: only 2 of the 12 students did more than 35 minutes. The **median** (27.5 minutes) isn't pulled up by one extreme value, so it describes a typical student better."
+  },
+  {
+    "id": "m9.sta.summary.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "m9.sta.summary.g2",
+    "part": "a",
+    "stem": "The dot plot shows how many hours 15 students in Talia's class spent playing sport last week.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 372 107\" width=\"372\" height=\"107\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"55\" x2=\"342\" y2=\"55\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"55\" x2=\"30\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"56\" y1=\"55\" x2=\"56\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"56\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"82\" y1=\"55\" x2=\"82\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"82\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"108\" y1=\"55\" x2=\"108\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"108\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"134\" y1=\"55\" x2=\"134\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"134\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"160\" y1=\"55\" x2=\"160\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"160\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"186\" y1=\"55\" x2=\"186\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"186\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"212\" y1=\"55\" x2=\"212\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"212\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><line x1=\"238\" y1=\"55\" x2=\"238\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"238\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"264\" y1=\"55\" x2=\"264\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"264\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"290\" y1=\"55\" x2=\"290\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"290\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"316\" y1=\"55\" x2=\"316\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"316\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"342\" y1=\"55\" x2=\"342\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"342\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><circle cx=\"30\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"56\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"56\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"25\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"108\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"108\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"160\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"186\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"186\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"238\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"342\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"186\" y=\"93\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Hours of sport last week</text></svg>",
+      "alt": "Dot plot of hours of sport last week for 15 students. Values: 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 6, 6, 8, 12."
+    },
+    "prompt": "Complete the five-number summary for the hours of sport.\n\nMinimum: [[min]] hours\n\nLower quartile ($Q_1$): [[q1]] hours\n\nMedian: [[med]] hours\n\nUpper quartile ($Q_3$): [[q3]] hours\n\nMaximum: [[max]] hours",
+    "blanks": [
+      { "id": "min", "accepted": ["0", "0 hours", "0.0"] },
+      { "id": "q1", "accepted": ["2", "2 hours", "2.0"] },
+      { "id": "med", "accepted": ["3", "3 hours", "3.0"] },
+      { "id": "q3", "accepted": ["6", "6 hours", "6.0"] },
+      { "id": "max", "accepted": ["12", "12 hours", "12.0"] }
+    ],
+    "hints": ["Count the dots: there are 15 values, so the median is the 8th value.", "With an odd number of values, leave the median out. Each half then has 7 values."],
+    "solution": "In order: 0, 1, 1, 2, 2, 2, 3, **3**, 4, 4, 5, 6, 6, 8, 12.\n\n- Minimum 0 and maximum 12.\n- Median: the 8th value, **3**.\n- Lower half (7 values): 0, 1, 1, **2**, 2, 2, 3, so $Q_1 = 2$.\n- Upper half (7 values): 4, 4, 5, **6**, 6, 8, 12, so $Q_3 = 6$."
+  },
+  {
+    "id": "m9.sta.summary.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.sta.summary.g2",
+    "part": "b",
+    "stem": "The dot plot shows how many hours 15 students in Talia's class spent playing sport last week.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 372 107\" width=\"372\" height=\"107\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"55\" x2=\"342\" y2=\"55\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"55\" x2=\"30\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"56\" y1=\"55\" x2=\"56\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"56\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"82\" y1=\"55\" x2=\"82\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"82\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"108\" y1=\"55\" x2=\"108\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"108\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"134\" y1=\"55\" x2=\"134\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"134\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"160\" y1=\"55\" x2=\"160\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"160\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"186\" y1=\"55\" x2=\"186\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"186\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"212\" y1=\"55\" x2=\"212\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"212\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><line x1=\"238\" y1=\"55\" x2=\"238\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"238\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"264\" y1=\"55\" x2=\"264\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"264\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"290\" y1=\"55\" x2=\"290\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"290\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"316\" y1=\"55\" x2=\"316\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"316\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"342\" y1=\"55\" x2=\"342\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"342\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><circle cx=\"30\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"56\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"56\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"25\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"108\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"108\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"160\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"186\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"186\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"238\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"342\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"186\" y=\"93\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Hours of sport last week</text></svg>",
+      "alt": "Dot plot of hours of sport last week for 15 students. Values: 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 6, 6, 8, 12."
+    },
+    "prompt": "Mere worked out $Q_1 = 2$ and $Q_3 = 5.5$ for this data. What mistake did she make?",
+    "options": [
+      { "id": "a", "text": "She included the median in both halves. With 15 values, the median should be left out." },
+      { "id": "b", "text": "She forgot to put the values in order before finding the quartiles." },
+      { "id": "c", "text": "She found the middle of the whole data set instead of the upper half." },
+      { "id": "d", "text": "She made no mistake: $Q_3$ is halfway between 5 and 6." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A dot plot already shows the values in order, and that mistake wouldn't give 5.5.",
+      "c": "The middle of the whole data set is the median, which is 3, not 5.5.",
+      "d": "With 15 values, the upper half has 7 values, so its middle is a single value, not halfway between two values."
+    },
+    "hints": ["How many values should be in each half when there are 15 values?", "Try putting the median (3) into the upper half as well. What do you get?"],
+    "solution": "With the median (the 8th value, 3) included, the upper half would be 3, 4, 4, 5, 6, 6, 8, 12. That is 8 values, and its middle is $\\frac{5 + 6}{2} = 5.5$, which is Mere's answer.\n\nWith the NZ method, the median is left out when there is an odd number of values. The upper half is 4, 4, 5, **6**, 6, 8, 12, so $Q_3 = 6$. ($Q_1$ comes out as 2 either way.)\n\n(Some calculators and spreadsheets use slightly different methods for quartiles, but in Year 9 we leave the median out when there is an odd number of values.)"
+  },
+  {
+    "id": "m9.sta.summary.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.sta.summary.g2",
+    "part": "c",
+    "stem": "The dot plot shows how many hours 15 students in Talia's class spent playing sport last week.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 372 107\" width=\"372\" height=\"107\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"55\" x2=\"342\" y2=\"55\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"55\" x2=\"30\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"56\" y1=\"55\" x2=\"56\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"56\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"82\" y1=\"55\" x2=\"82\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"82\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"108\" y1=\"55\" x2=\"108\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"108\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"134\" y1=\"55\" x2=\"134\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"134\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"160\" y1=\"55\" x2=\"160\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"160\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"186\" y1=\"55\" x2=\"186\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"186\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"212\" y1=\"55\" x2=\"212\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"212\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><line x1=\"238\" y1=\"55\" x2=\"238\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"238\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"264\" y1=\"55\" x2=\"264\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"264\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"290\" y1=\"55\" x2=\"290\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"290\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"316\" y1=\"55\" x2=\"316\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"316\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"342\" y1=\"55\" x2=\"342\" y2=\"62\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"342\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><circle cx=\"30\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"56\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"56\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"82\" cy=\"25\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"108\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"108\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"160\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"186\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"186\" cy=\"36\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"238\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><circle cx=\"342\" cy=\"47\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"186\" y=\"93\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Hours of sport last week</text></svg>",
+      "alt": "Dot plot of hours of sport last week for 15 students. Values: 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 6, 6, 8, 12."
+    },
+    "prompt": "One more student, who played 3 hours of sport, is added to the data, so there are now 16 values. What is the new **interquartile range**?",
+    "answer": 3.5,
+    "units": "hours",
+    "hints": ["With 16 values, each half has 8 values and the median is not left out.", "Each quartile is now halfway between two values."],
+    "solution": "New data: 0, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6, 8, 12.\n\nLower half (first 8): 0, 1, 1, **2, 2**, 2, 3, 3, so $Q_1 = \\frac{2 + 2}{2} = 2$.\n\nUpper half (last 8): 3, 4, 4, **5, 6**, 6, 8, 12, so $Q_3 = \\frac{5 + 6}{2} = 5.5$.\n\n$\\text{IQR} = 5.5 - 2 = 3.5$ hours"
+  },
+  {
+    "id": "m9.sta.summary.q015",
+    "type": "mcq",
+    "difficulty": 1,
+    "marks": 1,
+    "prompt": "Here are the shoe sizes of 8 students:\n\n7, 8, 8, 8, 9, 9, 10, 11\n\nWhat is the **mode**?",
+    "options": [
+      { "id": "a", "text": "8" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "8.5" },
+      { "id": "d", "text": "11" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "3 is how many times size 8 appears. The mode is the value itself, not how often it appears.",
+      "c": "8.5 is the median (halfway between the 4th and 5th values).",
+      "d": "11 is the largest value. The mode is the most common value."
+    },
+    "hints": ["Which shoe size appears most often?"],
+    "solution": "Size 8 appears 3 times, more often than any other size, so the **mode** is 8. (The 3 is the frequency of the mode, not the mode.)"
+  },
+  {
+    "id": "m9.sta.summary.q016",
+    "type": "numeric",
+    "difficulty": 1,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "prompt": "In a class test, the lowest mark was 45 and the range of the marks was 30. What was the highest mark?",
+    "answer": 75,
+    "hints": ["Range = highest value − lowest value."],
+    "solution": "Range = highest − lowest, so $30 = \\text{highest} - 45$. The highest mark is $45 + 30 = 75$."
+  },
+  {
+    "id": "m9.sta.summary.q017",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "prompt": "Kai wants to find the median of these numbers:\n\n7, 2, 9, 4, 5\n\nHe says, \"9 is in the middle of the list, so the median is 9.\" What should he have done?",
+    "options": [
+      { "id": "a", "text": "Put the numbers in order first. The median is 5." },
+      { "id": "b", "text": "Added them and divided by 5. The median is 5.4." },
+      { "id": "c", "text": "Found halfway between the smallest and largest. The median is 5.5." },
+      { "id": "d", "text": "Nothing. The median is 9." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding the values and dividing by how many there are gives the mean (5.4), not the median.",
+      "c": "Halfway between the smallest and largest values isn't the median. The median is the middle of the ordered values.",
+      "d": "The median is the middle value **after** the numbers have been put in order."
+    },
+    "hints": ["Is the list in order?"],
+    "solution": "Put the numbers in order first: 2, 4, **5**, 7, 9. The middle (3rd) value is 5, so the median is **5**."
+  },
+  {
+    "id": "m9.sta.summary.q018",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "prompt": "A class counted the number of people in each car that dropped students off at school. The mean was 1.8 people per car. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "This is possible: a mean doesn't have to be a whole number or one of the data values." },
+      { "id": "b", "text": "This must be a mistake, because a car can't carry 1.8 people." },
+      { "id": "c", "text": "This must be a mistake, because the mean should be equal to the median." },
+      { "id": "d", "text": "It means that the most common number of people in a car was 1.8." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The mean shares the total out equally. For example, 18 people in 10 cars gives a mean of $18 \\div 10 = 1.8$, even though every car had a whole number of people.",
+      "c": "The mean and the median are different measures, and they are often not equal.",
+      "d": "The most common value is the mode. It must be one of the data values, so here it is a whole number."
+    },
+    "hints": ["Try an example: what is the mean if 10 cars carried 18 people altogether?"],
+    "solution": "The mean is the total number of people divided by the number of cars, so it can be a decimal. For example, 10 cars carrying 18 people altogether have a mean of $18 \\div 10 = 1.8$ people per car. A mean of 1.8 is perfectly possible; it just doesn't have to match any one car."
+  },
+  {
+    "id": "m9.sta.summary.q019",
+    "type": "multi",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "A teacher adds 5 bonus marks to **every** student's test score. Select **all** the statements that are true.",
+    "options": [
+      { "id": "a", "text": "The mean goes up by 5." },
+      { "id": "b", "text": "The median goes up by 5." },
+      { "id": "c", "text": "The range goes up by 5." },
+      { "id": "d", "text": "The interquartile range stays the same." },
+      { "id": "e", "text": "The mode stays the same." }
+    ],
+    "correct": ["a", "b", "d"],
+    "hints": ["Try a small example, such as the scores 10, 12, 12, 15, 21. Add 5 to each one and work out the statistics again.", "Measures of centre move with the data. What happens to the gaps between the values?"],
+    "solution": "Adding 5 to every value moves the whole data set up by 5.\n\n- The mean, median and mode all go up by 5. (So \"the mode stays the same\" is false.)\n- The range and the IQR are **differences** between two values. Both values go up by 5, so the differences don't change. (So \"the range goes up by 5\" is false.)\n\nExample: 10, 12, 12, 15, 21 has mean 14, median 12, mode 12 and range 11. Adding 5 gives 15, 17, 17, 20, 26, with mean 19, median 17, mode 17 and range still 11."
+  },
+  {
+    "id": "m9.sta.summary.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these data sets has a mean of 6 **and** a median of 5?",
+    "options": [
+      { "id": "a", "text": "2, 5, 5, 8, 10" },
+      { "id": "b", "text": "6, 9, 5, 2, 8" },
+      { "id": "c", "text": "1, 4, 5, 6, 9" },
+      { "id": "d", "text": "3, 4, 5, 7, 8, 9" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "5 is in the middle of the list, but the list isn't in order. In order it is 2, 5, 6, 8, 9, so the median is 6.",
+      "c": "The median is 5, but the total is 25, so the mean is $25 \\div 5 = 5$, not 6.",
+      "d": "The mean is $36 \\div 6 = 6$, but with 6 values the median is halfway between the 3rd and 4th values: $\\frac{5 + 7}{2} = 6$."
+    },
+    "hints": ["Check both the mean and the median for each set. Put each set in order first.", "With an even number of values, the median is halfway between the two middle values."],
+    "solution": "2, 5, 5, 8, 10: the total is 30, so the mean is $30 \\div 5 = 6$ ✓. The values are in order and the middle one is 5 ✓.\n\nEach of the other sets fails one test: B's median is 6 once it is in order, C's mean is 5, and D's median is 6."
+  },
+  {
+    "id": "m9.sta.summary.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain why the interquartile range is often a better measure of spread than the range.",
+    "modelAnswer": "The range only uses the two most extreme values (maximum − minimum), so one unusually large or small value (an outlier) can make the range very big, even if most of the data is close together. The IQR ($Q_3 - Q_1$) is the spread of the middle half of the data, so it isn't affected by a few extreme values, and it better describes how spread out most of the data is.",
+    "rubric": [
+      { "criterion": "Explains that the range depends only on the maximum and minimum, so one extreme value (outlier) can change it a lot", "marks": 1 },
+      { "criterion": "Explains that the IQR measures the spread of the middle half (50%) of the data, so it isn't affected by extreme values", "marks": 1 }
+    ],
+    "hints": ["Which values does each measure use?", "What happens to each measure if the largest value is changed to something huge?"],
+    "solution": "The **range** uses only the maximum and minimum, so a single outlier can make it very large. The **IQR** ($Q_3 - Q_1$) is the spread of the middle half of the data, so extreme values don't affect it. For example, 4, 5, 6, 6, 7, 8, 40 has a range of $40 - 4 = 36$, but its IQR is only $8 - 5 = 3$."
+  },
+  {
+    "id": "m9.sta.summary.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Seven whole numbers have this five-number summary:\n\nminimum 4, lower quartile 6, median 10, upper quartile 15, maximum 18.\n\nTheir mean is 10 and their mode is 6. When the seven numbers are written in order, what is the **fifth** number?",
+    "answer": 11,
+    "form": "integer",
+    "hints": ["With 7 values in order, the median is the 4th value. Leaving it out gives two halves of 3, so $Q_1$ is the 2nd value and $Q_3$ is the 6th value.", "The mode is 6, so 6 appears at least twice. Where can the second 6 go?", "Use the mean to find the total of all seven numbers."],
+    "solution": "Number the positions 1 to 7. The median is the 4th value, $Q_1$ is the 2nd value and $Q_3$ is the 6th value:\n\n4, 6, ?, 10, ?, 15, 18\n\nThe mode is 6, so there must be another 6. It has to be the 3rd number, because the 5th number is at least 10. So the numbers are 4, 6, 6, 10, ?, 15, 18.\n\nThe mean is 10, so the total is $7 \\times 10 = 70$. The known numbers add to $4 + 6 + 6 + 10 + 15 + 18 = 59$, so the fifth number is $70 - 59 = 11$.\n\nCheck: 4, 6, 6, 10, 11, 15, 18 has mean 10, mode 6, median 10, $Q_1 = 6$ and $Q_3 = 15$ ✓"
+  },
+  {
+    "id": "m9.sta.summary.q023",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sam's data is:\n\n3, 7, 8, 12, 15\n\nHe adds **two** more values, and both the mean and the median stay the same. Which pair of values could he have added?",
+    "options": [
+      { "id": "a", "text": "5 and 13" },
+      { "id": "b", "text": "9 and 9" },
+      { "id": "c", "text": "8 and 8" },
+      { "id": "d", "text": "4 and 10" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding two values equal to the mean (9) keeps the mean at 9, but the new median is 9, not 8.",
+      "c": "Adding two values equal to the median keeps the median at 8, but the total becomes 61 and the mean drops to $61 \\div 7 \\approx 8.7$.",
+      "d": "One value is below 8 and one is above, so the median stays at 8. But the total becomes 59, and $59 \\div 7 \\approx 8.4$, so the mean changes."
+    },
+    "hints": ["Find the mean and the median of Sam's data first.", "For the mean to stay the same, the total of the 7 values must be 7 × (the mean). For the median to stay the same, the 4th value of the 7 must still be the old median."],
+    "solution": "Sam's data has a total of 45, so the mean is $45 \\div 5 = 9$. The median is 8.\n\nMean: with 7 values the total must be $7 \\times 9 = 63$, so the two new values must add to $63 - 45 = 18$. Of the options, only 5 and 13, and 9 and 9, do this.\n\nMedian: the 4th of the 7 values must still be 8. With 5 and 13: 3, 5, 7, **8**, 12, 13, 15 ✓. With 9 and 9: 3, 7, 8, **9**, 9, 12, 15, so the median becomes 9 ✗.\n\nSo the answer is **5 and 13**."
   }
 ]

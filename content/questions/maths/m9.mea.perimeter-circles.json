@@ -138,5 +138,248 @@
     "units": "cm",
     "hints": ["Perimeter of a semicircle $= \\frac{1}{2}\\pi d + d$.", "Factorise: $\\frac{1}{2}\\pi d + d = d\\left(\\frac{\\pi}{2} + 1\\right)$, then divide."],
     "solution": "$\\frac{1}{2}\\pi d + d = 36$, so $d\\left(\\frac{\\pi}{2} + 1\\right) = 36$.\n\n$\\frac{\\pi}{2} + 1 = 2.5707\\ldots$, so $d = 36 \\div 2.5707\\ldots = 14.003\\ldots \\approx 14.0$ cm.\n\nCheck: $\\frac{1}{2} \\times \\pi \\times 14 + 14 = 21.99 + 14 \\approx 36$ ✓"
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.perimeter-circles.g1",
+    "part": "a",
+    "stem": "A school is building a māra kai (food garden). The garden is a 12 m by 8 m rectangle with each corner rounded off by a quarter circle of radius 2 m, as shown. Use the π button on your calculator.",
+    "prompt": "Find the length of the curved edge at **one** corner. Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 266\" width=\"380\" height=\"266\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 94 40 L 270 40 A 44 44 0 0 1 314 84 L 314 172 A 44 44 0 0 1 270 216 L 94 216 A 44 44 0 0 1 50 172 L 50 84 A 44 44 0 0 1 94 40 Z\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"270\" y1=\"84\" x2=\"270\" y2=\"40\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"84\" x2=\"314\" y2=\"84\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"270\" cy=\"84\" r=\"3\" fill=\"#1f2937\"/><text x=\"292\" y=\"97\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2 m</text><line x1=\"50\" y1=\"234\" x2=\"314\" y2=\"234\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"239\" x2=\"50\" y2=\"229\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"314\" y1=\"239\" x2=\"314\" y2=\"229\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"182\" y=\"249\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 m</text><line x1=\"334\" y1=\"40\" x2=\"334\" y2=\"216\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"329\" y1=\"40\" x2=\"339\" y2=\"40\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"329\" y1=\"216\" x2=\"339\" y2=\"216\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"356\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">8 m</text><text x=\"182\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#166534\">māra kai</text><text x=\"372\" y=\"258\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A 12 m by 8 m rectangular garden with all four corners rounded off. Each rounded corner is a quarter circle with radius 2 m; at one corner the two 2 m radii are drawn as dashed lines from the centre of the quarter circle to the edges." },
+    "answer": 3.1,
+    "decimals": 1,
+    "units": "m",
+    "hints": ["Each corner is a quarter of a circle with radius 2 m.", "Find the full circumference with $C = 2\\pi r$, then take a quarter of it."],
+    "solution": "Full circle: $C = 2\\pi r = 2 \\times \\pi \\times 2 = 12.566\\ldots$ m.\n\nOne corner is a quarter of this: $12.566\\ldots \\div 4 = 3.141\\ldots \\approx 3.1$ m."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.perimeter-circles.g1",
+    "part": "b",
+    "stem": "A school is building a māra kai (food garden). The garden is a 12 m by 8 m rectangle with each corner rounded off by a quarter circle of radius 2 m, as shown. Use the π button on your calculator.",
+    "prompt": "Find the **total** length of the straight edges of the garden.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 266\" width=\"380\" height=\"266\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 94 40 L 270 40 A 44 44 0 0 1 314 84 L 314 172 A 44 44 0 0 1 270 216 L 94 216 A 44 44 0 0 1 50 172 L 50 84 A 44 44 0 0 1 94 40 Z\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"270\" y1=\"84\" x2=\"270\" y2=\"40\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"84\" x2=\"314\" y2=\"84\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"270\" cy=\"84\" r=\"3\" fill=\"#1f2937\"/><text x=\"292\" y=\"97\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2 m</text><line x1=\"50\" y1=\"234\" x2=\"314\" y2=\"234\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"239\" x2=\"50\" y2=\"229\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"314\" y1=\"239\" x2=\"314\" y2=\"229\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"182\" y=\"249\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 m</text><line x1=\"334\" y1=\"40\" x2=\"334\" y2=\"216\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"329\" y1=\"40\" x2=\"339\" y2=\"40\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"329\" y1=\"216\" x2=\"339\" y2=\"216\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"356\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">8 m</text><text x=\"182\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#166534\">māra kai</text><text x=\"372\" y=\"258\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A 12 m by 8 m rectangular garden with all four corners rounded off. Each rounded corner is a quarter circle with radius 2 m; at one corner the two 2 m radii are drawn as dashed lines from the centre of the quarter circle to the edges." },
+    "answer": 24,
+    "units": "m",
+    "hints": ["Each rounded corner takes 2 m off both of the sides it joins.", "So each 12 m side has 2 m cut off at each end."],
+    "solution": "Each 12 m side loses 2 m at each end: $12 - 4 = 8$ m. Each 8 m side loses 2 m at each end: $8 - 4 = 4$ m.\n\nTotal straight edges $= 8 + 8 + 4 + 4 = 24$ m."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q012",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.mea.perimeter-circles.g1",
+    "part": "c",
+    "stem": "A school is building a māra kai (food garden). The garden is a 12 m by 8 m rectangle with each corner rounded off by a quarter circle of radius 2 m, as shown. Use the π button on your calculator.",
+    "prompt": "Timber edging will go all the way around the garden. It costs \\$8.50 per metre and must be bought in whole metres. How much will the edging cost?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 266\" width=\"380\" height=\"266\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 94 40 L 270 40 A 44 44 0 0 1 314 84 L 314 172 A 44 44 0 0 1 270 216 L 94 216 A 44 44 0 0 1 50 172 L 50 84 A 44 44 0 0 1 94 40 Z\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"270\" y1=\"84\" x2=\"270\" y2=\"40\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"270\" y1=\"84\" x2=\"314\" y2=\"84\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"270\" cy=\"84\" r=\"3\" fill=\"#1f2937\"/><text x=\"292\" y=\"97\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">2 m</text><line x1=\"50\" y1=\"234\" x2=\"314\" y2=\"234\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"239\" x2=\"50\" y2=\"229\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"314\" y1=\"239\" x2=\"314\" y2=\"229\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"182\" y=\"249\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 m</text><line x1=\"334\" y1=\"40\" x2=\"334\" y2=\"216\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"329\" y1=\"40\" x2=\"339\" y2=\"40\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"329\" y1=\"216\" x2=\"339\" y2=\"216\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"356\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">8 m</text><text x=\"182\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#166534\">māra kai</text><text x=\"372\" y=\"258\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A 12 m by 8 m rectangular garden with all four corners rounded off. Each rounded corner is a quarter circle with radius 2 m; at one corner the two 2 m radii are drawn as dashed lines from the centre of the quarter circle to the edges." },
+    "answer": 314.5,
+    "units": "$",
+    "hints": ["The four quarter circles together make one full circle with radius 2 m.", "Find the whole perimeter, round **up** to a whole number of metres, then multiply by the price per metre."],
+    "solution": "Curved edges: the four quarter circles make one full circle, $2 \\times \\pi \\times 2 = 12.566\\ldots$ m.\n\nStraight edges: $8 + 8 + 4 + 4 = 24$ m.\n\nPerimeter $= 24 + 12.566\\ldots = 36.566\\ldots$ m, so 37 m of edging must be bought.\n\nCost $= 37 \\times 8.50 =$ **\\$314.50**."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q013",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.perimeter-circles.g2",
+    "part": "a",
+    "stem": "A netball court is a rectangle 30.5 m long and 15.25 m wide. Two lines across the court divide it into thirds. At each end there is a goal circle: a semicircle with radius 4.9 m drawn against the goal line. In the middle there is a centre circle with diameter 0.9 m. Use the π button on your calculator.",
+    "prompt": "Find the perimeter of the court (the outside rectangle).",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 242\" width=\"420\" height=\"242\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"30\" y=\"30\" width=\"305\" height=\"152.5\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"131.67\" y1=\"30\" x2=\"131.67\" y2=\"182.5\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"233.33\" y1=\"30\" x2=\"233.33\" y2=\"182.5\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 30 57.25 A 49 49 0 0 1 30 155.25\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 335 155.25 A 49 49 0 0 1 335 57.25\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"182.5\" cy=\"106.25\" r=\"5\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"106.25\" r=\"3\" fill=\"#1f2937\"/><line x1=\"30\" y1=\"106.25\" x2=\"79\" y2=\"106.25\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"56.5\" y=\"96.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4.9 m</text><text x=\"182.5\" y=\"90.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">0.9 m</text><line x1=\"30\" y1=\"198.5\" x2=\"335\" y2=\"198.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"203.5\" x2=\"30\" y2=\"193.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"335\" y1=\"203.5\" x2=\"335\" y2=\"193.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"182.5\" y=\"213.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">30.5 m</text><line x1=\"351\" y1=\"30\" x2=\"351\" y2=\"182.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"346\" y1=\"30\" x2=\"356\" y2=\"30\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"346\" y1=\"182.5\" x2=\"356\" y2=\"182.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"383\" y=\"106.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">15.25 m</text><text x=\"412\" y=\"234\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A netball court, a rectangle 30.5 m long and 15.25 m wide. Two lines across the court split it into thirds. At each end is a semicircular goal circle with radius 4.9 m against the goal line. A small centre circle with diameter 0.9 m is in the middle." },
+    "answer": 91.5,
+    "units": "m",
+    "hints": ["Perimeter of a rectangle = 2 × (length + width)."],
+    "solution": "$2 \\times (30.5 + 15.25) = 2 \\times 45.75 = 91.5$ m."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.perimeter-circles.g2",
+    "part": "b",
+    "stem": "A netball court is a rectangle 30.5 m long and 15.25 m wide. Two lines across the court divide it into thirds. At each end there is a goal circle: a semicircle with radius 4.9 m drawn against the goal line. In the middle there is a centre circle with diameter 0.9 m. Use the π button on your calculator.",
+    "prompt": "Find the length of the **curved** line of one goal circle. Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 242\" width=\"420\" height=\"242\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"30\" y=\"30\" width=\"305\" height=\"152.5\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"131.67\" y1=\"30\" x2=\"131.67\" y2=\"182.5\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"233.33\" y1=\"30\" x2=\"233.33\" y2=\"182.5\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 30 57.25 A 49 49 0 0 1 30 155.25\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 335 155.25 A 49 49 0 0 1 335 57.25\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"182.5\" cy=\"106.25\" r=\"5\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"106.25\" r=\"3\" fill=\"#1f2937\"/><line x1=\"30\" y1=\"106.25\" x2=\"79\" y2=\"106.25\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"56.5\" y=\"96.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4.9 m</text><text x=\"182.5\" y=\"90.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">0.9 m</text><line x1=\"30\" y1=\"198.5\" x2=\"335\" y2=\"198.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"203.5\" x2=\"30\" y2=\"193.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"335\" y1=\"203.5\" x2=\"335\" y2=\"193.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"182.5\" y=\"213.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">30.5 m</text><line x1=\"351\" y1=\"30\" x2=\"351\" y2=\"182.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"346\" y1=\"30\" x2=\"356\" y2=\"30\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"346\" y1=\"182.5\" x2=\"356\" y2=\"182.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"383\" y=\"106.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">15.25 m</text><text x=\"412\" y=\"234\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A netball court, a rectangle 30.5 m long and 15.25 m wide. Two lines across the court split it into thirds. At each end is a semicircular goal circle with radius 4.9 m against the goal line. A small centre circle with diameter 0.9 m is in the middle." },
+    "answer": 15.4,
+    "decimals": 1,
+    "units": "m",
+    "hints": ["The curved line is half the circumference of a circle with radius 4.9 m.", "Half of $2\\pi r$ is $\\pi r$."],
+    "solution": "Curved line $= \\frac{1}{2} \\times 2 \\times \\pi \\times 4.9 = \\pi \\times 4.9 = 15.393\\ldots \\approx 15.4$ m."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q015",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "groupId": "m9.mea.perimeter-circles.g2",
+    "part": "c",
+    "stem": "A netball court is a rectangle 30.5 m long and 15.25 m wide. Two lines across the court divide it into thirds. At each end there is a goal circle: a semicircle with radius 4.9 m drawn against the goal line. In the middle there is a centre circle with diameter 0.9 m. Use the π button on your calculator.",
+    "prompt": "A groundsperson paints all the lines: the outside rectangle, the two lines across the court, the curved lines of both goal circles, and the centre circle. What is the total length of painted line? Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 242\" width=\"420\" height=\"242\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"30\" y=\"30\" width=\"305\" height=\"152.5\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"131.67\" y1=\"30\" x2=\"131.67\" y2=\"182.5\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"233.33\" y1=\"30\" x2=\"233.33\" y2=\"182.5\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 30 57.25 A 49 49 0 0 1 30 155.25\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 335 155.25 A 49 49 0 0 1 335 57.25\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"182.5\" cy=\"106.25\" r=\"5\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"106.25\" r=\"3\" fill=\"#1f2937\"/><line x1=\"30\" y1=\"106.25\" x2=\"79\" y2=\"106.25\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"56.5\" y=\"96.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4.9 m</text><text x=\"182.5\" y=\"90.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">0.9 m</text><line x1=\"30\" y1=\"198.5\" x2=\"335\" y2=\"198.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"30\" y1=\"203.5\" x2=\"30\" y2=\"193.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"335\" y1=\"203.5\" x2=\"335\" y2=\"193.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"182.5\" y=\"213.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">30.5 m</text><line x1=\"351\" y1=\"30\" x2=\"351\" y2=\"182.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"346\" y1=\"30\" x2=\"356\" y2=\"30\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><line x1=\"346\" y1=\"182.5\" x2=\"356\" y2=\"182.5\" stroke=\"#4b5563\" stroke-width=\"1.2\"/><text x=\"383\" y=\"106.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">15.25 m</text><text x=\"412\" y=\"234\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A netball court, a rectangle 30.5 m long and 15.25 m wide. Two lines across the court split it into thirds. At each end is a semicircular goal circle with radius 4.9 m against the goal line. A small centre circle with diameter 0.9 m is in the middle." },
+    "answer": 155.6,
+    "decimals": 1,
+    "units": "m",
+    "hints": ["Find each part separately, then add them.", "The straight edge of each goal circle lies along the goal line, which is already part of the outside rectangle."],
+    "solution": "Outside rectangle: $2 \\times (30.5 + 15.25) = 91.5$ m.\n\nTwo lines across: $2 \\times 15.25 = 30.5$ m.\n\nTwo goal-circle curves: $2 \\times \\pi \\times 4.9 = 30.787\\ldots$ m.\n\nCentre circle: $\\pi \\times 0.9 = 2.827\\ldots$ m.\n\nTotal $= 91.5 + 30.5 + 30.787\\ldots + 2.827\\ldots = 155.615\\ldots \\approx 155.6$ m."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q016",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A circle has a diameter of 10 cm. Without a calculator, which is the best estimate of its circumference?",
+    "options": [
+      { "id": "a", "text": "About 31 cm" },
+      { "id": "b", "text": "About 16 cm" },
+      { "id": "c", "text": "About 63 cm" },
+      { "id": "d", "text": "About 79 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is about π × 5, which puts the radius into $C = \\pi d$. That gives only half the circumference.",
+      "c": "This is about 2 × π × 10, which doubles the diameter. Use $C = \\pi d$, or $C = 2\\pi r$ with r = 5 cm.",
+      "d": "This is about π × 5², which is the **area** of the circle, not the distance around it."
+    },
+    "hints": ["π is a little more than 3.", "The circumference is a bit more than 3 times the diameter."],
+    "solution": "$C = \\pi d \\approx 3.14 \\times 10 = 31.4$ cm, so **about 31 cm**. Quick check: the circumference is always a bit more than 3 diameters."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q017",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Complete the facts.\n\nThe curved edge of a semicircle is [[a]] of the full circumference. To get the perimeter of a semicircle, you also add the [[b]].\n\nThe curved edge of a quarter circle is [[c]] of the full circumference. To get its perimeter, you also add [[d]] radii.",
+    "blanks": [
+      { "id": "a", "accepted": ["half"], "options": ["all", "half", "a third", "a quarter"] },
+      { "id": "b", "accepted": ["diameter"], "options": ["radius", "arc", "diameter", "centre"] },
+      { "id": "c", "accepted": ["a quarter"], "options": ["all", "half", "a third", "a quarter"] },
+      { "id": "d", "accepted": ["two"], "options": ["one", "two", "three", "four"] }
+    ],
+    "hints": ["Picture cutting a round pizza in half, then into quarters. Which straight edges does each piece have?"],
+    "solution": "A semicircle's curved edge is **half** the circumference, and its straight edge is the **diameter**. A quarter circle's curved edge is **a quarter** of the circumference, and it has **two** straight edges, each one a radius."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q018",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "Which of these shapes has the **longest** perimeter?",
+    "options": [
+      { "id": "a", "text": "A square with sides of 10 cm" },
+      { "id": "b", "text": "A circle with a diameter of 10 cm" },
+      { "id": "c", "text": "An equilateral triangle with sides of 10 cm" },
+      { "id": "d", "text": "A semicircle with a diameter of 10 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Its perimeter is π × 10 ≈ 31.4 cm. This circle would fit inside the square, so its edge is shorter.",
+      "c": "Its perimeter is 3 × 10 = 30 cm.",
+      "d": "Its perimeter is ½ × π × 10 + 10 ≈ 25.7 cm."
+    },
+    "hints": ["Work out each perimeter.", "Use $C = \\pi d$ for the circle, and remember the straight edge of the semicircle."],
+    "solution": "Square: $4 \\times 10 = 40$ cm. Circle: $\\pi \\times 10 \\approx 31.4$ cm. Triangle: $3 \\times 10 = 30$ cm. Semicircle: $\\frac{1}{2} \\times \\pi \\times 10 + 10 \\approx 25.7$ cm.\n\nThe **square** has the longest perimeter."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q019",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Mere measures the circumference and the diameter of four round objects, then divides circumference by diameter each time. Her answers are 3.1, 3.2, 3.1 and 3.15. Explain what her results show, and why they are not all exactly the same.",
+    "modelAnswer": "All her answers are close to π (about 3.14). This shows that circumference ÷ diameter is the same number, π, for every circle, whatever its size. They are not exactly the same because measurements are never perfect: the tape may not sit exactly around the object, the diameter may not be measured exactly through the centre, and each measurement was rounded.",
+    "rubric": [
+      { "criterion": "States that the results are all close to π ≈ 3.14, because circumference ÷ diameter is the same for every circle", "marks": 1 },
+      { "criterion": "Explains the small differences as measurement error or rounding", "marks": 1 }
+    ],
+    "hints": ["What special number do you get when you divide the circumference of a circle by its diameter?"],
+    "solution": "For every circle, circumference ÷ diameter = **π ≈ 3.14**, so Mere's results all cluster around 3.14. They differ slightly because of **measurement error**: it is hard to measure a curved edge or find the exact diameter, and each measurement was rounded."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Ana finds the circumference of a circle with radius 6 cm. She writes $C = \\pi \\times 6 = 18.8$ cm. What has she done wrong?",
+    "options": [
+      { "id": "a", "text": "She used the radius in $C = \\pi d$. It should be $\\pi \\times 12 = 37.7$ cm" },
+      { "id": "b", "text": "She should have squared the radius: $\\pi \\times 6^2 = 113.1$ cm" },
+      { "id": "c", "text": "She should have divided by π: $6 \\div \\pi = 1.9$ cm" },
+      { "id": "d", "text": "Nothing: the circumference is 18.8 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\pi r^2$ gives the area of a circle (in cm²), not the distance around it.",
+      "c": "Dividing by π takes you from a circumference back to a diameter. Here we want the circumference.",
+      "d": "18.8 cm is only half the circumference. $C = \\pi d$ needs the diameter, which is 12 cm."
+    },
+    "hints": ["What is the diameter of this circle?", "The formulas are $C = \\pi d$ or $C = 2\\pi r$."],
+    "solution": "The diameter is $2 \\times 6 = 12$ cm, so $C = \\pi \\times 12 = 37.69\\ldots \\approx 37.7$ cm (or use $C = 2\\pi r = 2 \\times \\pi \\times 6$). Ana used the radius where the diameter was needed, which gives only half the circumference."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q021",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Rawiri's bike wheels have a diameter of 66 cm. How many turns does a wheel make when Rawiri rides 1 km? Use the π button on your calculator, and give your answer to the nearest whole number.",
+    "answer": 482,
+    "decimals": 0,
+    "hints": ["In one turn, the bike moves forward one circumference.", "Change 1 km into centimetres: 1 km = 100 000 cm."],
+    "solution": "Circumference $= \\pi \\times 66 = 207.34\\ldots$ cm.\n\n1 km $= 100\\,000$ cm, so the number of turns is $100\\,000 \\div 207.34\\ldots = 482.29\\ldots \\approx 482$."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q022",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A quarter circle with radius 4 cm has been cut out of one corner of a 10 cm square, as shown. Find the perimeter of the shape that is left. Give your answer to 1 decimal place.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 252\" width=\"290\" height=\"252\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"158\" y1=\"40\" x2=\"230\" y2=\"40\" stroke=\"#9ca3af\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"112\" stroke=\"#9ca3af\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><path d=\"M 50 40 L 158 40 A 72 72 0 0 0 230 112 L 230 220 L 50 220 Z\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"230\" y1=\"40\" x2=\"179.09\" y2=\"90.91\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"230\" cy=\"40\" r=\"3\" fill=\"#1f2937\"/><text x=\"218\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">4 cm</text><text x=\"140\" y=\"238\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">10 cm</text><text x=\"26\" y=\"130\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">10 cm</text><polyline points=\"50,208 62,208 62,220\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"50,52 62,52 62,40\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"218,220 218,208 230,208\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"282\" y=\"244\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A 10 cm by 10 cm square with a quarter circle of radius 4 cm cut out of its top right corner. The cut leaves a curved edge that bends into the square, and the top and right sides are now shorter." },
+    "answer": 38.3,
+    "decimals": 1,
+    "units": "cm",
+    "hints": ["Two of the square's sides are now shorter, and there is a new curved edge.", "The curved edge is a quarter of the circumference of a circle with radius 4 cm."],
+    "solution": "Straight edges: two full sides, $10 + 10 = 20$ cm, and two shortened sides, $10 - 4 = 6$ cm each. Total: $20 + 6 + 6 = 32$ cm.\n\nCurved edge: $\\frac{1}{4} \\times 2 \\times \\pi \\times 4 = 6.283\\ldots$ cm.\n\nPerimeter $= 32 + 6.283\\ldots = 38.283\\ldots \\approx 38.3$ cm."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q023",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Shape A is a semicircle with a diameter of 20 cm. Shape B is a quarter circle with a radius of 20 cm. Show that the perimeter of B is **exactly 20 cm longer** than the perimeter of A.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 222\" width=\"390\" height=\"222\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 25 175 A 70 70 0 0 1 165 175 Z\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"95\" y=\"190\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">20 cm</text><text x=\"95\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"16\" fill=\"#1f2937\" font-weight=\"bold\">A</text><path d=\"M 225 195 L 365 195 A 140 140 0 0 0 225 55 Z\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"237,195 237,183 225,183\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"295\" y=\"210\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">20 cm</text><text x=\"202\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">20 cm</text><text x=\"275\" y=\"150\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"16\" fill=\"#1f2937\" font-weight=\"bold\">B</text></svg>", "alt": "Shape A: a semicircle whose straight edge (the diameter) is 20 cm. Shape B: a quarter circle whose two straight edges (radii) are each 20 cm, meeting at a right angle." },
+    "modelAnswer": "A: the curved edge is half of a circle with diameter 20 cm: ½ × π × 20 = 10π cm. Its straight edge is the diameter, 20 cm, so perimeter A = 10π + 20. B: the curved edge is a quarter of a circle with radius 20 cm: ¼ × 2 × π × 20 = 10π cm. It has two straight edges, each a radius of 20 cm, so perimeter B = 10π + 40. Both curved edges are 10π cm, so B is longer by 40 − 20 = 20 cm exactly.",
+    "rubric": [
+      { "criterion": "Shows the curved edge of A is ½ × π × 20 = 10π cm (about 31.4 cm)", "marks": 1 },
+      { "criterion": "Shows the curved edge of B is ¼ × 2π × 20 = 10π cm, the same as A", "marks": 1 },
+      { "criterion": "Compares the straight edges (20 cm for A, 40 cm for B) to show B is exactly 20 cm longer", "marks": 1 }
+    ],
+    "hints": ["Work out each curved edge as a multiple of π, without using a calculator.", "Then compare the straight edges of the two shapes."],
+    "solution": "A: curved edge $= \\frac{1}{2} \\times \\pi \\times 20 = 10\\pi$ cm, straight edge 20 cm, so perimeter $= 10\\pi + 20$.\n\nB: curved edge $= \\frac{1}{4} \\times 2 \\times \\pi \\times 20 = 10\\pi$ cm, straight edges $20 + 20 = 40$ cm, so perimeter $= 10\\pi + 40$.\n\nThe curved edges are equal, so B is longer by exactly $40 - 20 = 20$ cm."
+  },
+  {
+    "id": "m9.mea.perimeter-circles.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A penny-farthing bicycle has a front wheel with a diameter of 1.5 m and a back wheel with a diameter of 0.4 m. On a ride, the front wheel turns 20 times. How many times does the back wheel turn?",
+    "answer": 75,
+    "hints": ["Both wheels travel the same distance along the ground.", "Find that distance using the front wheel, then divide by the circumference of the back wheel."],
+    "solution": "Distance travelled $= 20 \\times \\pi \\times 1.5 = 30\\pi \\approx 94.25$ m.\n\nBack wheel circumference $= \\pi \\times 0.4 \\approx 1.257$ m.\n\nTurns $= 30\\pi \\div 0.4\\pi = 30 \\div 0.4 = 75$. (The π cancels, so the answer is exact.)"
   }
 ]

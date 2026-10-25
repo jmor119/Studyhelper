@@ -171,5 +171,248 @@
     ],
     "hints": ["Expand the bracket.", "What happens when you subtract $2x$ from both sides?"],
     "solution": "$2(x + 3) = 2x + 6$, so the equation is $2x + 6 = 2x + 5$.\n\nSubtracting $2x$ leaves $6 = 5$, which is false. Whatever $x$ is, the left side is always 1 more than the right, so the equation has **no solution**."
+  },
+  {
+    "id": "m9.alg.equations.q011",
+    "type": "expression",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.equations.g1",
+    "part": "a",
+    "stem": "The Year 9 class is planning a trip to a wildlife sanctuary. Hiring the bus costs \\$360, and entry to the sanctuary costs \\$12 per student.",
+    "prompt": "Write an expression for the total cost of the trip, in dollars, when $n$ students go.",
+    "answer": "12*n + 360",
+    "variables": ["n"],
+    "hints": ["The bus costs the same however many students go.", "Each student adds \\$12 to the cost."],
+    "solution": "The entry fees cost $12n$ dollars for $n$ students, and the bus costs \\$360 whatever the number of students. Total cost: $12n + 360$ dollars."
+  },
+  {
+    "id": "m9.alg.equations.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.equations.g1",
+    "part": "b",
+    "stem": "The Year 9 class is planning a trip to a wildlife sanctuary. Hiring the bus costs \\$360, and entry to the sanctuary costs \\$12 per student.",
+    "prompt": "The total cost of the trip was \\$600. Form an equation and solve it to find how many students went.",
+    "answer": 20,
+    "hints": ["Write an expression for the total cost and set it equal to 600.", "Subtract the bus cost first, then divide."],
+    "solution": "$12n + 360 = 600$\n\nSubtract 360: $12n = 240$\n\nDivide by 12: $n = 20$\n\n20 students went. Check: $12 \\times 20 + 360 = 240 + 360 = 600$ ✓"
+  },
+  {
+    "id": "m9.alg.equations.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.equations.g1",
+    "part": "c",
+    "stem": "The Year 9 class is planning a trip to a wildlife sanctuary. Hiring the bus costs \\$360, and entry to the sanctuary costs \\$12 per student.",
+    "prompt": "To pay for the trip, the school charges each student \\$20. How many students need to go for the money collected to cover the total cost exactly?",
+    "answer": 45,
+    "hints": ["The money collected from $n$ students is $20n$ dollars.", "Set the money collected equal to the total cost, then get the $n$ terms on one side."],
+    "solution": "Money collected: $20n$. Total cost: $12n + 360$.\n\n$20n = 12n + 360$\n\nSubtract $12n$ from both sides: $8n = 360$\n\nDivide by 8: $n = 45$\n\n45 students are needed. Check: $20 \\times 45 = 900$ and $12 \\times 45 + 360 = 540 + 360 = 900$ ✓\n\n(Another way to see it: each student pays \\$8 more than their entry fee, and $360 \\div 8 = 45$ students are needed to cover the bus.)"
+  },
+  {
+    "id": "m9.alg.equations.q014",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.equations.g2",
+    "part": "a",
+    "stem": "Rawiri solved the equation $\\dfrac{x}{3} + 4 = 10$ like this:\n\nStep 1: $x + 4 = 30$\n\nStep 2: $x = 26$",
+    "prompt": "Solve $\\dfrac{x}{3} + 4 = 10$ correctly.",
+    "answer": 18,
+    "hints": ["Undo the $+4$ first.", "Then undo the division by 3."],
+    "solution": "Subtract 4 from both sides: $\\dfrac{x}{3} = 6$\n\nMultiply both sides by 3: $x = 18$\n\nCheck: $\\dfrac{18}{3} + 4 = 6 + 4 = 10$ ✓"
+  },
+  {
+    "id": "m9.alg.equations.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.equations.g2",
+    "part": "b",
+    "stem": "Rawiri solved the equation $\\dfrac{x}{3} + 4 = 10$ like this:\n\nStep 1: $x + 4 = 30$\n\nStep 2: $x = 26$",
+    "prompt": "Which statement describes Rawiri's mistake?",
+    "options": [
+      { "id": "a", "text": "In Step 1 he multiplied $\\frac{x}{3}$ by 3 but didn't multiply the 4 by 3" },
+      { "id": "b", "text": "In Step 1 he should have divided both sides by 3 instead" },
+      { "id": "c", "text": "In Step 2 he should have added 4 instead of subtracting it" },
+      { "id": "d", "text": "There is no mistake: $x = 26$ is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$x$ has been divided by 3. To undo that you multiply by 3. Dividing again would give $\\frac{x}{9}$.",
+      "c": "Subtracting 4 is the right way to undo $+4$. Step 2 follows correctly from Step 1, so the mistake is earlier.",
+      "d": "Check it: $\\frac{26}{3} + 4$ is about 12.7, not 10."
+    },
+    "hints": ["When you multiply one side of an equation by 3, every term on that side must be multiplied.", "Check by substituting $x = 26$ into the original equation."],
+    "solution": "Multiplying both sides by 3 is a good first step, but **every** term must be multiplied: $3 \\times \\frac{x}{3} + 3 \\times 4 = 3 \\times 10$, so $x + 12 = 30$, which gives $x = 18$.\n\nRawiri multiplied $\\frac{x}{3}$ and 10 by 3, but left the 4 as it was."
+  },
+  {
+    "id": "m9.alg.equations.q016",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.equations.g2",
+    "part": "c",
+    "stem": "Rawiri solved the equation $\\dfrac{x}{3} + 4 = 10$ like this:\n\nStep 1: $x + 4 = 30$\n\nStep 2: $x = 26$",
+    "prompt": "Explain how Rawiri could use substitution to show that $x = 26$ is not the solution.",
+    "modelAnswer": "He can substitute $x = 26$ into the original equation. The left side is $\\frac{26}{3} + 4 = 8\\frac{2}{3} + 4 = 12\\frac{2}{3}$. This isn't equal to 10 (the right side), so $x = 26$ doesn't make the equation true and isn't the solution.",
+    "rubric": [
+      { "criterion": "Substitutes $x = 26$ into the original equation and works out the left side (about 12.7)", "marks": 1 },
+      { "criterion": "Explains that this doesn't equal 10, so 26 is not the solution", "marks": 1 }
+    ],
+    "hints": ["Put $x = 26$ into the left side of the original equation.", "A solution must make both sides equal."],
+    "solution": "Substitute $x = 26$ into the left side: $\\dfrac{26}{3} + 4 = 8\\frac{2}{3} + 4 = 12\\frac{2}{3}$\n\nThe right side is 10. The two sides aren't equal, so $x = 26$ isn't the solution.\n\nWith the correct answer, $x = 18$: $\\dfrac{18}{3} + 4 = 10$ ✓. Checking by substitution is a quick way to catch mistakes."
+  },
+  {
+    "id": "m9.alg.equations.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "On a balance, 3 bags of marbles and 2 loose marbles balance 14 loose marbles. Every bag holds the same number of marbles, $b$. Which equation describes this?",
+    "options": [
+      { "id": "a", "text": "$3b + 2 = 14$" },
+      { "id": "b", "text": "$3 + b + 2 = 14$" },
+      { "id": "c", "text": "$5b = 14$" },
+      { "id": "d", "text": "$3b = 14 + 2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "3 bags of $b$ marbles is $3 \\times b = 3b$, not $3 + b$.",
+      "c": "The 2 loose marbles aren't bags, so they can't be added to the $3b$.",
+      "d": "The 2 loose marbles are on the same side as the bags, so they are added to $3b$."
+    },
+    "hints": ["How many marbles are in 3 bags of $b$ marbles each?", "Write what is on the left pan, then what is on the right pan."],
+    "solution": "The left pan has 3 bags ($3b$ marbles) and 2 loose marbles: $3b + 2$. The right pan has 14. The pans balance, so $3b + 2 = 14$.\n\nSolving: $3b = 12$, so each bag holds $b = 4$ marbles."
+  },
+  {
+    "id": "m9.alg.equations.q018",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Solve $x + 9 = 4$.",
+    "options": [
+      { "id": "a", "text": "$x = -5$" },
+      { "id": "b", "text": "$x = 5$" },
+      { "id": "c", "text": "$x = 13$" },
+      { "id": "d", "text": "$x = -13$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$4 - 9$ is less than zero. Check: $5 + 9 = 14$, not 4.",
+      "c": "To undo $+9$, subtract 9 from both sides. Check: $13 + 9 = 22$, not 4.",
+      "d": "Subtract 9 from 4: $4 - 9 = -5$. Check: $-13 + 9 = -4$, not 4."
+    },
+    "hints": ["Subtract 9 from both sides.", "What is $4 - 9$? Use a number line if it helps."],
+    "solution": "Subtract 9 from both sides: $x = 4 - 9 = -5$.\n\nCheck: $-5 + 9 = 4$ ✓"
+  },
+  {
+    "id": "m9.alg.equations.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A square has sides of length $(x + 2)$ cm. Its perimeter is 36 cm. Which equation could you solve to find $x$?",
+    "options": [
+      { "id": "a", "text": "$4(x + 2) = 36$" },
+      { "id": "b", "text": "$x + 2 = 36$" },
+      { "id": "c", "text": "$4x + 2 = 36$" },
+      { "id": "d", "text": "$(x + 2)^2 = 36$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This says one side is 36 cm. The perimeter is all four sides added together.",
+      "c": "All of $x + 2$ is multiplied by 4, so it needs brackets. $4(x + 2) = 4x + 8$, not $4x + 2$.",
+      "d": "$(x + 2)^2$ is the area of the square, not its perimeter."
+    },
+    "hints": ["A square has 4 equal sides.", "The whole side length, $x + 2$, is multiplied by 4."],
+    "solution": "Perimeter $= 4 \\times$ side, so $4(x + 2) = 36$.\n\nSolving: divide by 4 to get $x + 2 = 9$, so $x = 7$. Each side is 9 cm, and $4 \\times 9 = 36$ ✓"
+  },
+  {
+    "id": "m9.alg.equations.q020",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "At a rugby game, an adult ticket costs twice as much as a child ticket. Mum buys 2 adult tickets and 3 child tickets for \\$84 altogether.\n\nForm an equation and solve it to find the cost of one child ticket.",
+    "answer": 12,
+    "units": "$",
+    "hints": ["Let a child ticket cost $c$ dollars. What does an adult ticket cost?", "Write the total cost of 2 adult and 3 child tickets, and set it equal to 84."],
+    "solution": "Let a child ticket cost $c$ dollars. An adult ticket costs $2c$.\n\n$2(2c) + 3c = 84$\n\n$4c + 3c = 84$\n\n$7c = 84$\n\n$c = 12$\n\nA child ticket costs \\$12 (and an adult ticket \\$24). Check: $2 \\times 24 + 3 \\times 12 = 48 + 36 = 84$ ✓"
+  },
+  {
+    "id": "m9.alg.equations.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which equation has the **same solution** as $3x + 6 = 21$?",
+    "options": [
+      { "id": "a", "text": "$x + 2 = 7$" },
+      { "id": "b", "text": "$3x = 27$" },
+      { "id": "c", "text": "$x + 6 = 7$" },
+      { "id": "d", "text": "$3x + 2 = 7$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "To get $3x$ on its own, subtract 6 from both sides: $3x = 15$, not 27.",
+      "c": "Dividing by 3 must be done to every term: $6 \\div 3 = 2$, so it's $x + 2$, not $x + 6$.",
+      "d": "Dividing by 3 must be done to every term, including the $3x$."
+    },
+    "hints": ["Solve $3x + 6 = 21$ first, then solve each option.", "Or: what happens if you divide **every** term by 3?"],
+    "solution": "Dividing every term of $3x + 6 = 21$ by 3 gives $x + 2 = 7$. Both equations have the solution $x = 5$.\n\nThe others have different solutions: $3x = 27$ gives $x = 9$, $x + 6 = 7$ gives $x = 1$, and $3x + 2 = 7$ gives $x = \\frac{5}{3}$."
+  },
+  {
+    "id": "m9.alg.equations.q022",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "An isosceles triangle has two equal sides. Their lengths are $(2x + 3)$ cm and $(5x - 9)$ cm. The third side is $(x + 6)$ cm.\n\nFind the perimeter of the triangle.",
+    "answer": 32,
+    "units": "cm",
+    "hints": ["The two equal sides must have the same length. Use this to write an equation.", "Solve for $x$, then work out all three side lengths and add them."],
+    "solution": "The equal sides give the equation $2x + 3 = 5x - 9$.\n\nSubtract $2x$: $3 = 3x - 9$\n\nAdd 9: $12 = 3x$, so $x = 4$.\n\nSides: $2(4) + 3 = 11$ cm, $5(4) - 9 = 11$ cm ✓ and $4 + 6 = 10$ cm.\n\nPerimeter $= 11 + 11 + 10 = 32$ cm"
+  },
+  {
+    "id": "m9.alg.equations.q023",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write a word problem that could be solved using the equation $3x + 5 = 26$. Then solve your problem.",
+    "modelAnswer": "Example: Kai buys 3 packets of biscuits that each cost the same, and a drink for \\$5. He spends \\$26 altogether. How much does one packet cost? Let $x$ be the cost of one packet in dollars. $3x + 5 = 26$, so $3x = 21$ and $x = 7$. One packet costs \\$7.",
+    "rubric": [
+      { "criterion": "Writes a problem where an unknown amount is multiplied by 3 (tripled) and 5 is added to give 26", "marks": 1 },
+      { "criterion": "Solves the equation correctly ($x = 7$) and answers the question in the context of the problem", "marks": 1 }
+    ],
+    "hints": ["Think of a situation with 3 lots of something unknown, plus 5 more.", "Shopping, ages and points scored all work well."],
+    "solution": "Many problems work. For example: *Kai buys 3 packets of biscuits that cost the same, plus a \\$5 drink. He spends \\$26. How much is one packet?*\n\n$3x + 5 = 26$\n\nSubtract 5: $3x = 21$\n\nDivide by 3: $x = 7$, so one packet costs \\$7.\n\nYour problem needs 3 lots of the unknown, plus 5, making a total of 26."
+  },
+  {
+    "id": "m9.alg.equations.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Aroha's mum is 37. In 5 years' time, her mum will be 3 times as old as Aroha will be then.\n\nForm an equation and solve it to find how old Aroha is now.",
+    "answer": 9,
+    "hints": ["Let Aroha be $a$ years old now. How old will each of them be in 5 years?", "In 5 years, Mum's age equals 3 times Aroha's age **then**. All of Aroha's future age is multiplied by 3."],
+    "solution": "Let Aroha be $a$ now. In 5 years, Aroha will be $a + 5$ and Mum will be $37 + 5 = 42$.\n\n$3(a + 5) = 42$\n\nDivide by 3: $a + 5 = 14$\n\nSubtract 5: $a = 9$\n\nAroha is 9 now. Check: in 5 years Aroha will be 14 and Mum 42, and $3 \\times 14 = 42$ ✓\n\nA common mistake is to write $3a + 5 = 42$. That triples only Aroha's age **now**. Her age in 5 years is $a + 5$, and all of it must be tripled, so it needs brackets."
+  },
+  {
+    "id": "m9.alg.equations.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Liam has only 20c and 50c coins. He has 18 coins altogether, and their total value is \\$5.70.\n\nHow many 50c coins does he have?",
+    "answer": 7,
+    "hints": ["Let $f$ be the number of 50c coins. How many 20c coins are there?", "Work in cents: the total value is 570c. Write an equation for the value of all the coins."],
+    "solution": "Let $f$ be the number of 50c coins. Then there are $18 - f$ twenty-cent coins.\n\nWorking in cents: $50f + 20(18 - f) = 570$\n\nExpand: $50f + 360 - 20f = 570$\n\nSimplify: $30f + 360 = 570$\n\nSubtract 360: $30f = 210$\n\nDivide by 30: $f = 7$\n\nLiam has 7 fifty-cent coins (and 11 twenty-cent coins). Check: $7 \\times 50 + 11 \\times 20 = 350 + 220 = 570$ cents, which is \\$5.70 ✓"
   }
 ]

@@ -359,5 +359,497 @@
     ],
     "hints": ["Cork floats high in water; ice floats with most of it under the surface.", "Lead is one of the densest common metals; aluminium is a light metal."],
     "solution": "Cork (about 0.24 g/cm³) → ice (0.92) → water (1.00) → aluminium (2.7) → lead (11.3)."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q025",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.pressure-floating.g1",
+    "part": "a",
+    "stem": "Ana has a small block of metal and wants to find out which metal it is. On an electronic balance, its mass is 71.2 g. She then lowers it into a measuring cylinder of water, and the water level rises from 50.0 mL to 58.0 mL.\n\n| Metal | Density (g/cm³) |\n|---|---|\n| Aluminium | 2.7 |\n| Zinc | 7.1 |\n| Iron | 7.9 |\n| Copper | 8.9 |\n| Lead | 11.3 |",
+    "prompt": "What is the volume of the metal block, in cm³?",
+    "answer": 8,
+    "hints": [
+      "The rise in the water level equals the volume of the block.",
+      "Remember that 1 mL = 1 cm³."
+    ],
+    "solution": "Volume = rise in water level $= 58.0 - 50.0 = 8.0$ mL = **8 cm³**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q026",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.phy.pressure-floating.g1",
+    "part": "b",
+    "stem": "Ana has a small block of metal and wants to find out which metal it is. On an electronic balance, its mass is 71.2 g. She then lowers it into a measuring cylinder of water, and the water level rises from 50.0 mL to 58.0 mL.\n\n| Metal | Density (g/cm³) |\n|---|---|\n| Aluminium | 2.7 |\n| Zinc | 7.1 |\n| Iron | 7.9 |\n| Copper | 8.9 |\n| Lead | 11.3 |",
+    "prompt": "Calculate the density of the metal.",
+    "answer": 8.9,
+    "units": "g/cm³",
+    "hints": [
+      "First find the volume from the change in the water level.",
+      "density = mass ÷ volume"
+    ],
+    "solution": "Volume $= 58.0 - 50.0 = 8.0$ cm³. $\\rho = \\dfrac{m}{V} = \\dfrac{71.2}{8.0} =$ **8.9 g/cm³**, so the table shows that the block is copper."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q027",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.phy.pressure-floating.g1",
+    "part": "c",
+    "stem": "Ana has a small block of metal and wants to find out which metal it is. On an electronic balance, its mass is 71.2 g. She then lowers it into a measuring cylinder of water, and the water level rises from 50.0 mL to 58.0 mL.\n\n| Metal | Density (g/cm³) |\n|---|---|\n| Aluminium | 2.7 |\n| Zinc | 7.1 |\n| Iron | 7.9 |\n| Copper | 8.9 |\n| Lead | 11.3 |",
+    "prompt": "When Ana lowered the block into the water, a large air bubble stayed stuck to it. How would this affect her density result?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The volume would seem too big, so the density would come out too small"
+      },
+      {
+        "id": "b",
+        "text": "The volume would seem too small, so the density would come out too big"
+      },
+      { "id": "c", "text": "It would make no difference, because air has almost no mass" },
+      { "id": "d", "text": "The mass would seem too big, so the density would come out too big" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The bubble takes up space under the water too, so it makes the water rise **more**, not less.",
+      "c": "The bubble's mass is tiny, but its **volume** isn't. It makes the water level rise further.",
+      "d": "The mass was measured on the balance before the block went into the water, so the bubble doesn't affect it."
+    },
+    "hints": [
+      "The bubble is under the water along with the block. What does it do to the water level?"
+    ],
+    "solution": "The bubble pushes the water up too, so the rise in level would be the volume of the block **plus** the bubble. A bigger volume in $\\rho = \\dfrac{m}{V}$ gives a smaller density. Ana should tap the block to remove bubbles before reading the level."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q028",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.pressure-floating.g2",
+    "part": "a",
+    "stem": "Manapōuri Power Station in Fiordland is built deep underground. Water from Lake Manapōuri flows down long vertical pipes, called penstocks, to the turbines at the bottom.",
+    "prompt": "Where is the water pressure inside the penstocks greatest?",
+    "options": [
+      { "id": "a", "text": "At the bottom, next to the turbines" },
+      { "id": "b", "text": "At the top, where the water enters" },
+      { "id": "c", "text": "Halfway down the pipes" },
+      { "id": "d", "text": "It is the same all the way down" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "At the top there is very little water above, so the pressure there is the lowest.",
+      "c": "The pressure keeps increasing all the way down, so halfway isn't the highest.",
+      "d": "Pressure in a liquid increases with depth, so it can't be the same at every level."
+    },
+    "hints": ["Where is there the most water above?"],
+    "solution": "Pressure in a liquid increases with **depth**. The bottom of the penstocks has the most water above it, so the pressure is greatest there."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q029",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.phy.pressure-floating.g2",
+    "part": "b",
+    "stem": "Manapōuri Power Station in Fiordland is built deep underground. Water from Lake Manapōuri flows down long vertical pipes, called penstocks, to the turbines at the bottom.",
+    "prompt": "Explain why the penstocks need stronger walls near the bottom than near the top.",
+    "modelAnswer": "The pressure in water is caused by the weight of the water above. Near the bottom of the penstocks there is much more water above, pushing down, so the pressure on the walls is much greater. The walls must be stronger there so they don't burst.",
+    "rubric": [
+      { "criterion": "Water pressure is caused by the weight of the water above", "marks": 1 },
+      {
+        "criterion": "There is more water above near the bottom, so the pressure there is greater (and the walls must withstand it)",
+        "marks": 1
+      }
+    ],
+    "hints": ["What causes the pressure in a liquid?"],
+    "solution": "More depth means more water above, so more pressure. That is also why dams are thicker at the bottom."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q030",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.phy.pressure-floating.g2",
+    "part": "c",
+    "stem": "Manapōuri Power Station in Fiordland is built deep underground. Water from Lake Manapōuri flows down long vertical pipes, called penstocks, to the turbines at the bottom.",
+    "prompt": "In a very dry year, the water level in Lake Manapōuri drops by a few metres. What happens to the water pressure at the bottom of the penstocks?",
+    "options": [
+      { "id": "a", "text": "It decreases, because the water surface is now closer to the turbines" },
+      { "id": "b", "text": "It stays the same, because the penstocks are still full of water" },
+      { "id": "c", "text": "It stays the same, because pressure depends on the width of the pipes" },
+      { "id": "d", "text": "It increases, because there is less water to share the pressure" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The pipes are still full, but the total depth of water, from the lake surface down to the turbines, is now smaller.",
+      "c": "Pressure in a liquid depends on the depth (how much water is above), not the width of the pipe.",
+      "d": "Less water above means less weight pushing down, so the pressure goes down, not up."
+    },
+    "hints": [
+      "Pressure depends on the depth of water above a point. Is that depth bigger or smaller now?"
+    ],
+    "solution": "The pressure at the turbines depends on the **depth** from the lake's surface down to them. If the lake level drops, that depth is smaller, so the pressure is **lower**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q031",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.pressure-floating.g3",
+    "part": "a",
+    "stem": "Kiri puts a fresh egg into a glass of tap water, and it sinks to the bottom. She stirs in salt, one spoonful at a time, until the egg floats up to the surface.",
+    "prompt": "Why does the egg sink in tap water?",
+    "options": [
+      { "id": "a", "text": "The egg is denser than tap water" },
+      { "id": "b", "text": "The egg is heavy" },
+      { "id": "c", "text": "The water pushes down on the egg from above" },
+      { "id": "d", "text": "There is no upthrust on the egg in tap water" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Heavy things can float (think of a ship). What matters is density: how heavy the egg is for its size, compared with water.",
+      "c": "Water pushes on the egg from all directions, and the push from below (upthrust) is actually bigger.",
+      "d": "There is upthrust on the egg, but it is smaller than the egg's weight."
+    },
+    "hints": ["Compare the egg with the liquid it is in, not just how heavy it is."],
+    "solution": "The egg is **denser** than tap water. The upthrust from the water is less than the egg's weight, so it sinks."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q032",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.pressure-floating.g3",
+    "part": "b",
+    "stem": "Kiri puts a fresh egg into a glass of tap water, and it sinks to the bottom. She stirs in salt, one spoonful at a time, until the egg floats up to the surface.",
+    "prompt": "Explain why adding salt makes the egg float.",
+    "modelAnswer": "Dissolving salt in the water makes it denser. Once the salt water is denser than the egg, it gives enough upthrust to balance the egg's weight, so the egg floats up to the surface.",
+    "rubric": [
+      { "criterion": "Dissolving salt makes the water denser", "marks": 1 },
+      {
+        "criterion": "When the salt water is denser than the egg, the upthrust is big enough to balance (equal) the egg's weight, so the egg floats",
+        "marks": 1
+      }
+    ],
+    "hints": ["What does dissolving salt do to the density of the water?"],
+    "solution": "A denser liquid gives a bigger upthrust. When the liquid is denser than the egg, the upthrust can balance the egg's weight, so it floats."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q033",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.pressure-floating.g3",
+    "part": "c",
+    "stem": "Kiri puts a fresh egg into a glass of tap water, and it sinks to the bottom. She stirs in salt, one spoonful at a time, until the egg floats up to the surface.",
+    "prompt": "The egg has a mass of 60 g and a volume of 55 cm³. What is its density? Give your answer to 2 decimal places.",
+    "answer": 1.09,
+    "decimals": 2,
+    "units": "g/cm³",
+    "hints": ["density = mass ÷ volume"],
+    "solution": "$\\rho = \\dfrac{60}{55} = 1.0909...$, so **1.09 g/cm³**. This is more than tap water (1.00 g/cm³), which is why the egg sinks until enough salt is added to make the water denser than the egg."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q034",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Mass is measured in grams and volume in cm³. What is the unit of density?",
+    "options": [
+      { "id": "a", "text": "g/cm³" },
+      { "id": "b", "text": "cm³/g" },
+      { "id": "c", "text": "g" },
+      { "id": "d", "text": "cm³" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is volume ÷ mass, which is upside down. Density = mass ÷ volume.",
+      "c": "Grams on their own measure mass, not density.",
+      "d": "cm³ measures volume, not density."
+    },
+    "hints": ["Density = mass ÷ volume, so its unit is the mass unit divided by the volume unit."],
+    "solution": "Density = mass ÷ volume, so its unit is grams per cubic centimetre: **g/cm³**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q035",
+    "type": "numeric",
+    "difficulty": 1,
+    "prompt": "What is the density of pure water, in g/cm³?",
+    "answer": 1,
+    "units": "g/cm³",
+    "hints": ["Think about the mass of 1 mL of water."],
+    "solution": "Pure water has a density of **1 g/cm³**: each cubic centimetre (1 mL) has a mass of 1 gram. Solids that are less dense than this float in water."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q036",
+    "type": "multi",
+    "difficulty": 1,
+    "prompt": "Select **all** the fluids.",
+    "options": [
+      { "id": "a", "text": "Water" },
+      { "id": "b", "text": "Air" },
+      { "id": "c", "text": "Cooking oil" },
+      { "id": "d", "text": "Helium gas" },
+      { "id": "e", "text": "Ice" },
+      { "id": "f", "text": "Wood" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["A fluid is anything that can flow."],
+    "solution": "Fluids are liquids and gases, because they can flow: water, air, oil and helium. Ice and wood are solids, so they can't flow."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q037",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "An object floats when the upthrust on it [[a]] its weight. An object sinks when its weight is [[b]] than the biggest upthrust the fluid can give it.",
+    "blanks": [
+      { "id": "a", "accepted": ["equals"], "options": ["equals", "is less than", "is more than"] },
+      { "id": "b", "accepted": ["greater"], "options": ["greater", "less", "no different"] }
+    ],
+    "hints": ["A floating object is not moving up or down, so the forces on it are…?"],
+    "solution": "Floating: upthrust **equals** weight (balanced forces). Sinking: the weight is **greater** than the upthrust, so there is a downward net force."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q038",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Why does a hot-air balloon rise?",
+    "options": [
+      { "id": "a", "text": "The hot air inside is less dense than the cooler air around it" },
+      { "id": "b", "text": "The burner's flame pushes the balloon upwards like a rocket" },
+      { "id": "c", "text": "Hot air has no weight at all" },
+      { "id": "d", "text": "Hot air is denser, so the air below pushes it up" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The burner heats the air, but it doesn't push the balloon up like a rocket engine. The balloon rises because of upthrust.",
+      "c": "Hot air still has mass and weight, just less for each cubic metre than cold air.",
+      "d": "Hot air is **less** dense than cold air, not more."
+    },
+    "hints": ["Compare the density of the air inside the balloon with the air outside."],
+    "solution": "Heating the air makes its particles spread out, so it becomes **less dense** than the air around it. The balloon as a whole is less dense than the air it pushes aside, so the upthrust is bigger than its weight and it rises."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q039",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each observation to the best explanation.",
+    "pairs": [
+      {
+        "left": { "id": "o1", "text": "Your ears pop as a plane climbs after take-off" },
+        "right": { "id": "or1", "text": "Air pressure decreases with altitude" }
+      },
+      {
+        "left": { "id": "o2", "text": "Water squirts furthest from the lowest hole in a bottle" },
+        "right": { "id": "or2", "text": "Liquid pressure increases with depth" }
+      },
+      {
+        "left": { "id": "o3", "text": "Ice cubes float in a drink" },
+        "right": { "id": "or3", "text": "Ice is less dense than water" }
+      },
+      {
+        "left": { "id": "o4", "text": "A steel ship floats" },
+        "right": { "id": "or4", "text": "Its average density is less than water's" }
+      },
+      {
+        "left": { "id": "o5", "text": "A stone sinks in a river" },
+        "right": { "id": "or5", "text": "It is denser than water" }
+      }
+    ],
+    "hints": ["Two of these are about pressure, and three are about density."],
+    "solution": "Ears popping → air pressure falls with altitude. Lowest hole squirts furthest → liquid pressure rises with depth. Ice floats → less dense than water. Steel ship floats → it is full of air, so its average density is less than water's. Stone sinks → denser than water."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q040",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Lead has a density of 11.3 g/cm³. What is the volume of a 226 g lead fishing sinker?",
+    "answer": 20,
+    "units": "cm³",
+    "hints": ["Rearrange density = mass ÷ volume to make volume the subject."],
+    "solution": "$V = \\dfrac{m}{\\rho} = \\dfrac{226}{11.3} =$ **20 cm³**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why must a submarine that dives deep into the ocean have a very strong hull?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water pressure increases with depth, so the water pushes very hard on the hull"
+      },
+      { "id": "b", "text": "The water is colder deeper down, which makes metal weaker" },
+      { "id": "c", "text": "Gravity is much stronger deep under the sea" },
+      { "id": "d", "text": "Upthrust is bigger deeper down, which could crush the hull" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Temperature isn't the main danger. The huge pressure from all the water above is.",
+      "c": "Gravity is almost exactly the same at the bottom of the ocean as it is at the surface.",
+      "d": "The upthrust on a submarine stays about the same at any depth. The danger is the water pressure pushing in on the hull from all sides."
+    },
+    "hints": ["What is there more of above the submarine as it goes deeper?"],
+    "solution": "Pressure in water increases with depth, because there is more water above. Deep down, the water pushes in on the hull from all directions with enormous pressure, so the hull must be very strong."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do climbers on very high mountains, such as Mount Everest, often carry oxygen tanks?",
+    "options": [
+      { "id": "a", "text": "The air pressure is lower, so each breath has less oxygen in it" },
+      { "id": "b", "text": "There is no oxygen at all above 5,000 m" },
+      { "id": "c", "text": "The cold air uses up the oxygen" },
+      { "id": "d", "text": "Oxygen is heavy, so it all sinks down to sea level" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "There is still oxygen high up, just less of it in each breath, because the air is thinner.",
+      "c": "The cold doesn't use up oxygen. The issue is that the air is thinner (lower pressure).",
+      "d": "Oxygen still makes up about one-fifth of the air at the top of a mountain. The air is just thinner, so there is less of everything in each breath."
+    },
+    "hints": [
+      "Air pressure decreases with altitude. What does that mean for how much air is in each breath?"
+    ],
+    "solution": "Air pressure **decreases** with altitude because there is less air above. The air is thinner, so each breath contains fewer oxygen particles. Climbers carry oxygen to make up for this."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q043",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "What is the name of the method used to find the volume of an irregular object, such as a stone, by lowering it into water and measuring the rise in the water level?",
+    "accepted": [
+      "displacement",
+      "water displacement",
+      "displacement method",
+      "the displacement method",
+      "displacement of water",
+      "displacing water",
+      "eureka can",
+      "displacement can"
+    ],
+    "hints": ["Think about what the stone does to the water when you lower it in."],
+    "solution": "This is the **displacement** method. The stone pushes aside (displaces) its own volume of water, so the rise in level equals the volume of the stone (1 mL = 1 cm³)."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q044",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Explain why it is easier to float in the sea at Piha than in Lake Taupō.",
+    "modelAnswer": "Sea water has salt dissolved in it, so it is denser than the fresh water in Lake Taupō. A denser liquid gives a bigger upthrust for the same volume of water pushed aside. So in the sea, less of your body needs to be under the water for the upthrust to equal your weight, and you float higher and more easily.",
+    "rubric": [
+      {
+        "criterion": "Sea water is denser than fresh (lake) water, because of the dissolved salt",
+        "marks": 1
+      },
+      {
+        "criterion": "A denser liquid gives a bigger upthrust for the same volume pushed aside",
+        "marks": 1
+      },
+      {
+        "criterion": "So the upthrust balances your weight with less of your body under the water, and you float higher / more easily",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What is the difference between sea water and lake water?",
+      "How does the density of a liquid affect the upthrust it gives?"
+    ],
+    "solution": "Salt water is denser, so it gives more upthrust. You don't have to sink as far for the upthrust to balance your weight."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q045",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A block of polystyrene measures 50 cm × 20 cm × 10 cm and has a mass of 200 g. What is its density, in g/cm³?",
+    "answer": 0.02,
+    "units": "g/cm³",
+    "hints": [
+      "Find the volume first: length × width × height.",
+      "Then use density = mass ÷ volume."
+    ],
+    "solution": "$V = 50 \\times 20 \\times 10 = 10\\,000$ cm³. $\\rho = \\dfrac{200}{10\\,000} =$ **0.02 g/cm³**. That is only one-fiftieth of the density of water, which is why polystyrene floats so well."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q046",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "A plastic toy has a density of 1.02 g/cm³. Select **all** the liquids it would **float** in.",
+    "options": [
+      { "id": "a", "text": "Fresh water (1.00 g/cm³)" },
+      { "id": "b", "text": "Sea water (1.03 g/cm³)" },
+      { "id": "c", "text": "Cooking oil (0.92 g/cm³)" },
+      { "id": "d", "text": "Golden syrup (1.4 g/cm³)" },
+      { "id": "e", "text": "Methylated spirits (0.79 g/cm³)" },
+      { "id": "f", "text": "Glycerine (1.26 g/cm³)" }
+    ],
+    "correct": ["b", "d", "f"],
+    "hints": ["An object floats in a liquid that is **denser** than it is."],
+    "solution": "The toy floats in liquids denser than 1.02 g/cm³: sea water (1.03), glycerine (1.26) and golden syrup (1.4). It sinks in fresh water, cooking oil and meths, which are less dense than the toy. (It only just floats in sea water!)"
+  },
+  {
+    "id": "s9.phy.pressure-floating.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A solid wooden block floats in water with exactly half of its volume under the water. What is the density of the wood? (Water's density is 1.0 g/cm³.)",
+    "options": [
+      { "id": "a", "text": "0.5 g/cm³" },
+      { "id": "b", "text": "1.0 g/cm³, because it is floating" },
+      { "id": "c", "text": "2.0 g/cm³" },
+      { "id": "d", "text": "0.25 g/cm³" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A block with the same density as water would float completely under the surface, not half out of it.",
+      "c": "A block denser than water would sink. Because it floats, its density must be less than 1.0 g/cm³.",
+      "d": "A block this light would float with only a quarter of its volume under the water."
+    },
+    "hints": [
+      "The upthrust equals the weight of the water pushed aside, and for a floating block the upthrust equals the block's weight.",
+      "So half the block's volume of water has the same mass as the whole block."
+    ],
+    "solution": "Floating means upthrust = weight. The upthrust equals the weight of the water displaced, which is half the block's volume of water. So the whole block has the same mass as half its volume of water, and its density is half of water's: **0.5 g/cm³**."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A scuba diver breathes out a bubble of air deep underwater. As the bubble rises towards the surface, it gets bigger. Explain why.",
+    "modelAnswer": "Water pressure is caused by the weight of the water above, so it is greatest deep down. As the bubble rises, there is less water above it, so the water pressure pushing in on the bubble decreases. With less pressure squashing it, the air inside the bubble expands, so the bubble gets bigger as it rises.",
+    "rubric": [
+      { "criterion": "Water pressure is greater at depth (more water above)", "marks": 1 },
+      { "criterion": "As the bubble rises, the pressure on it decreases", "marks": 1 },
+      {
+        "criterion": "With less pressure pushing in, the air in the bubble expands, so the bubble gets bigger",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How does the water pressure change from the bottom to the top?",
+      "What happens to a squashed gas when the squashing pressure is reduced?"
+    ],
+    "solution": "Less depth → less water pressure → the gas in the bubble can expand. This is the same idea as a sealed chip packet puffing up at the top of a mountain."
+  },
+  {
+    "id": "s9.phy.pressure-floating.q049",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A model boat is made from 270 g of aluminium foil (density 2.7 g/cm³) shaped into a hull. The whole hull, including the air inside it, takes up 450 cm³. What is the **average density** of the boat?",
+    "answer": 0.6,
+    "units": "g/cm³",
+    "hints": [
+      "Average density = total mass ÷ total volume taken up by the boat.",
+      "Use the volume of the whole hull, including the air inside it."
+    ],
+    "solution": "Average density $= \\dfrac{270}{450} =$ **0.6 g/cm³**. That is less than water (1.0 g/cm³), so the boat floats, even though aluminium itself (2.7 g/cm³) sinks. The aluminium on its own only takes up $270 \\div 2.7 = 100$ cm³; the rest of the hull is air."
   }
 ]

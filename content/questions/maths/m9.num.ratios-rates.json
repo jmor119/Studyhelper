@@ -176,5 +176,249 @@
     },
     "hints": ["The difference between girls and boys is $5 - 3 = 2$ parts.", "2 parts = 10 students. What is one part?"],
     "solution": "The difference is $5 - 3 = 2$ parts, which is 10 students, so one part is 5. Girls: $5 \\times 5 = 25$. Boys: $3 \\times 5 = 15$. Total: $25 + 15 = 40$ (or $8 \\times 5 = 40$)."
+  },
+  {
+    "id": "m9.num.ratios-rates.q011",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g1",
+    "part": "a",
+    "stem": "Kai mixes blue paint and yellow paint in the ratio $2 : 3$ to make green paint.",
+    "prompt": "Kai uses 400 mL of blue paint. How much yellow paint does he need?",
+    "answer": 600,
+    "units": "mL",
+    "hints": ["Blue is 2 parts of the ratio. How much is 1 part?", "Yellow is 3 parts."],
+    "solution": "2 parts = 400 mL, so 1 part = 200 mL. Yellow is 3 parts: $3 \\times 200 = 600$ mL."
+  },
+  {
+    "id": "m9.num.ratios-rates.q012",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g1",
+    "part": "b",
+    "stem": "Kai mixes blue paint and yellow paint in the ratio $2 : 3$ to make green paint.",
+    "prompt": "What fraction of the green paint is blue paint?",
+    "options": [
+      { "id": "a", "text": "$\\frac{2}{5}$" },
+      { "id": "b", "text": "$\\frac{2}{3}$" },
+      { "id": "c", "text": "$\\frac{3}{5}$" },
+      { "id": "d", "text": "$\\frac{1}{2}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{2}{3}$ compares blue with yellow (part : part). For a fraction of the whole mix, divide by the total number of parts, $2 + 3 = 5$.",
+      "c": "$\\frac{3}{5}$ is the fraction that is yellow.",
+      "d": "There aren't equal amounts of blue and yellow, so blue isn't half of the mix."
+    },
+    "hints": ["How many parts are there altogether?"],
+    "solution": "There are $2 + 3 = 5$ parts, and 2 of them are blue, so $\\frac{2}{5}$ of the green paint is blue."
+  },
+  {
+    "id": "m9.num.ratios-rates.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g1",
+    "part": "c",
+    "stem": "Kai mixes blue paint and yellow paint in the ratio $2 : 3$ to make green paint.",
+    "prompt": "Kai needs 2.5 L of green paint altogether. How many millilitres of blue paint does he need?",
+    "answer": 1000,
+    "units": "mL",
+    "hints": ["Change 2.5 L into millilitres.", "Blue is 2 of the 5 parts."],
+    "solution": "2.5 L = 2500 mL. There are $2 + 3 = 5$ parts, so 1 part = $2500 \\div 5 = 500$ mL. Blue is 2 parts: $2 \\times 500 = 1000$ mL (1 L)."
+  },
+  {
+    "id": "m9.num.ratios-rates.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g1",
+    "part": "d",
+    "stem": "Kai mixes blue paint and yellow paint in the ratio $2 : 3$ to make green paint.",
+    "prompt": "In one batch, Kai mixes 400 mL of blue with 600 mL of yellow, but then accidentally pours in an extra 100 mL of blue. How much more yellow paint must he add to get the ratio back to $2 : 3$?",
+    "answer": 150,
+    "units": "mL",
+    "hints": ["How much blue paint is in the batch now?", "Find the amount of yellow that goes with that much blue in the ratio $2 : 3$."],
+    "solution": "Blue is now $400 + 100 = 500$ mL. In the ratio $2 : 3$, 2 parts = 500 mL, so 1 part = 250 mL and the yellow should be $3 \\times 250 = 750$ mL.\n\nHe has 600 mL, so he must add $750 - 600 = 150$ mL of yellow."
+  },
+  {
+    "id": "m9.num.ratios-rates.q015",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g2",
+    "part": "a",
+    "stem": "Ana and Mia are training for a 10 km fun run. On Saturday, Ana ran 6 km in 33 minutes and Mia ran 8 km in 42 minutes.",
+    "prompt": "Find Ana's rate in minutes per kilometre.",
+    "answer": 5.5,
+    "units": "min/km",
+    "hints": ["\"Per kilometre\" means \"for each kilometre\".", "Divide her time by her distance."],
+    "solution": "$33 \\div 6 = 5.5$, so Ana's rate is 5.5 minutes per kilometre (5 min 30 s for each km)."
+  },
+  {
+    "id": "m9.num.ratios-rates.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g2",
+    "part": "b",
+    "stem": "Ana and Mia are training for a 10 km fun run. On Saturday, Ana ran 6 km in 33 minutes and Mia ran 8 km in 42 minutes.",
+    "prompt": "Who ran faster on Saturday?",
+    "options": [
+      { "id": "a", "text": "Mia, because she took fewer minutes for each kilometre" },
+      { "id": "b", "text": "Ana, because her number of minutes per kilometre is bigger" },
+      { "id": "c", "text": "Mia, because she ran a longer distance" },
+      { "id": "d", "text": "Ana, because she ran for less time altogether" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This rate is in minutes **per** kilometre. More minutes for each kilometre means slower, not faster.",
+      "c": "Right person, wrong reason. Running further doesn't make you faster: you need to compare the time for each kilometre.",
+      "d": "Ana ran for less time, but she also ran a shorter distance. You need to compare rates."
+    },
+    "hints": ["Work out each runner's rate in minutes per kilometre.", "Is a smaller number of minutes per kilometre faster or slower?"],
+    "solution": "Ana: $33 \\div 6 = 5.5$ minutes per km. Mia: $42 \\div 8 = 5.25$ minutes per km. Mia takes less time for each kilometre, so **Mia** ran faster."
+  },
+  {
+    "id": "m9.num.ratios-rates.q017",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g2",
+    "part": "c",
+    "stem": "Ana and Mia are training for a 10 km fun run. On Saturday, Ana ran 6 km in 33 minutes and Mia ran 8 km in 42 minutes.",
+    "prompt": "If Ana runs at the same rate as on Saturday, how long will she take to run the 10 km fun run?",
+    "answer": 55,
+    "units": "min",
+    "hints": ["Find how long Ana takes for 1 km.", "Multiply the time for 1 km by 10."],
+    "solution": "Ana's rate: $33 \\div 6 = 5.5$ minutes per km. For 10 km: $5.5 \\times 10 = 55$ minutes."
+  },
+  {
+    "id": "m9.num.ratios-rates.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.ratios-rates.g2",
+    "part": "d",
+    "stem": "Ana and Mia are training for a 10 km fun run. On Saturday, Ana ran 6 km in 33 minutes and Mia ran 8 km in 42 minutes.",
+    "prompt": "Mia says: \"I ran 8 km in 42 minutes. The fun run is 2 km longer, so I'll finish it in 44 minutes.\" Explain her mistake, and work out how long she would take at her Saturday rate.",
+    "modelAnswer": "Mia has added 2 minutes for the 2 extra kilometres, as if each kilometre took only 1 minute. But her rate is $42 \\div 8 = 5.25$ minutes per kilometre, so each extra kilometre takes 5.25 minutes. For 10 km she would take $5.25 \\times 10 = 52.5$ minutes (52 min 30 s).",
+    "rubric": [
+      { "criterion": "Explains that each extra kilometre takes about 5.25 minutes, not 1 minute (she must use her rate, not just add 2)", "marks": 1 },
+      { "criterion": "Calculates the correct time: 52.5 minutes (52 min 30 s)", "marks": 1 }
+    ],
+    "hints": ["How long does Mia take for each kilometre?", "Use that rate for the whole 10 km."],
+    "solution": "Her rate is $42 \\div 8 = 5.25$ min per km, so 10 km takes $5.25 \\times 10 = 52.5$ minutes. The 2 extra kilometres add $2 \\times 5.25 = 10.5$ minutes, not 2 minutes."
+  },
+  {
+    "id": "m9.num.ratios-rates.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A jar has red beads and blue beads in the ratio $1 : 4$. Which statement must be true?",
+    "options": [
+      { "id": "a", "text": "For every red bead, there are 4 blue beads" },
+      { "id": "b", "text": "$\\frac{1}{4}$ of the beads are red" },
+      { "id": "c", "text": "There are 4 red beads for every blue bead" },
+      { "id": "d", "text": "There are exactly 5 beads in the jar" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$1 : 4$ is part : part. Out of every 5 beads, 1 is red, so $\\frac{1}{5}$ of the beads are red.",
+      "c": "The order matters. Red comes first in the ratio, so it's 1 red for every 4 blue.",
+      "d": "A ratio doesn't tell you the total. The jar could have 5, 10, 50 or any multiple of 5 beads."
+    },
+    "hints": ["Read the ratio in order: red first, then blue."],
+    "solution": "$1 : 4$ means that for every 1 red bead there are 4 blue beads. So $\\frac{1}{5}$ of the beads are red, and the jar could hold any multiple of 5 beads."
+  },
+  {
+    "id": "m9.num.ratios-rates.q020",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which ratio is in simplest form?",
+    "options": [
+      { "id": "a", "text": "$4 : 9$" },
+      { "id": "b", "text": "$6 : 9$" },
+      { "id": "c", "text": "$10 : 4$" },
+      { "id": "d", "text": "$15 : 25$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "6 and 9 are both divisible by 3: $6 : 9 = 2 : 3$.",
+      "c": "10 and 4 are both divisible by 2: $10 : 4 = 5 : 2$.",
+      "d": "15 and 25 are both divisible by 5: $15 : 25 = 3 : 5$."
+    },
+    "hints": ["Is there a number (other than 1) that divides exactly into both parts?"],
+    "solution": "4 and 9 have no common factor except 1 ($4 = 2 \\times 2$ and $9 = 3 \\times 3$), so $4 : 9$ is already in simplest form."
+  },
+  {
+    "id": "m9.num.ratios-rates.q021",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a class, the ratio of boys to girls is $3 : 5$. Wiremu says that $\\frac{3}{5}$ of the class are boys. Explain why he is wrong, and give the correct fraction.",
+    "modelAnswer": "The ratio $3 : 5$ compares boys with girls (part : part), not boys with the whole class. For every 3 boys there are 5 girls, so every group of 8 students has 3 boys. The fraction of the class that are boys is $\\frac{3}{3 + 5} = \\frac{3}{8}$, not $\\frac{3}{5}$.",
+    "rubric": [
+      { "criterion": "Explains that $3 : 5$ compares boys with girls (part : part), so the whole class is $3 + 5 = 8$ parts", "marks": 1 },
+      { "criterion": "Gives the correct fraction, $\\frac{3}{8}$", "marks": 1 }
+    ],
+    "hints": ["What does the 5 in the ratio stand for?", "How many parts make up the whole class?"],
+    "solution": "The whole class is $3 + 5 = 8$ parts and 3 of them are boys, so the fraction of boys is $\\frac{3}{8}$. Wiremu treated the girls (5 parts) as if they were the whole class."
+  },
+  {
+    "id": "m9.num.ratios-rates.q022",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "At a currency exchange, NZ\\$1 buys AU\\$0.90. After a holiday in Australia, Ella has AU\\$63 left. She changes it back into New Zealand dollars at the same rate. How many New Zealand dollars does she get?",
+    "answer": 70,
+    "units": "$",
+    "hints": ["Each New Zealand dollar is worth AU\\$0.90. Will Ella get more or fewer than 63 New Zealand dollars?", "Divide the amount in Australian dollars by 0.90."],
+    "solution": "NZ\\$1 = AU\\$0.90, so the number of New Zealand dollars is $63 \\div 0.90 = 70$. She gets **NZ\\$70**. (Check: $70 \\times 0.90 = 63$ ✓)"
+  },
+  {
+    "id": "m9.num.ratios-rates.q023",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A tramping map has a scale of $1 : 50\\,000$. On the map, a track is 7.4 cm long. How long is the real track, in kilometres?",
+    "answer": 3.7,
+    "units": "km",
+    "hints": ["1 cm on the map stands for 50 000 cm in real life.", "Change your answer from centimetres to kilometres: 1 km = 100 000 cm."],
+    "solution": "Real length: $7.4 \\times 50\\,000 = 370\\,000$ cm.\n\n$370\\,000$ cm $= 3700$ m $= 3.7$ km."
+  },
+  {
+    "id": "m9.num.ratios-rates.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi is 14 years old and his mum is 42. In how many years' time will the ratio of Hemi's age to his mum's age be $1 : 2$?",
+    "answer": 14,
+    "form": "integer",
+    "hints": ["Right now the ratio is $14 : 42 = 1 : 3$. Both ages go up by the same amount each year.", "Try adding a number of years to both ages, e.g. 7, and check the ratio."],
+    "solution": "Both ages go up by the same number of years. Try some values:\n\n- In 7 years: $21 : 49 = 3 : 7$ (not yet)\n- In 14 years: $28 : 56 = 1 : 2$ ✓\n\nSo in **14 years**. (The age difference is always 28 years. For the ratio to be $1 : 2$, Hemi's age must equal that difference, so he must be 28.)"
+  },
+  {
+    "id": "m9.num.ratios-rates.q025",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The ratio $A : B$ is $2 : 3$, and the ratio $B : C$ is $4 : 5$. Write the ratio $A : B : C$ in simplest form, using whole numbers.\n\n$A : B : C$ = [[a]] : [[b]] : [[c]]",
+    "blanks": [
+      { "id": "a", "accepted": ["8"] },
+      { "id": "b", "accepted": ["12"] },
+      { "id": "c", "accepted": ["15"] }
+    ],
+    "hints": ["The B part must be the same number in both ratios.", "Find the lowest common multiple of 3 and 4, and make B equal to it in both ratios."],
+    "solution": "Make the B parts match. The lowest common multiple of 3 and 4 is 12.\n\n$A : B = 2 : 3 = 8 : 12$ (multiply by 4)\n\n$B : C = 4 : 5 = 12 : 15$ (multiply by 3)\n\nSo $A : B : C = 8 : 12 : 15$. These have no common factor except 1, so this is simplest form."
   }
 ]

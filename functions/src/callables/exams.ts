@@ -65,11 +65,13 @@ export async function startExamFor(uid: string, input: z.infer<typeof StartSchem
       .collection('bank')
       .where('topicId', '==', topic.id)
       .where('status', 'in', ['verified', 'unverified'])
-      .limit(80)
+      .limit(200)
       .get();
-    for (const doc of bank.docs) {
-      const q = bankDocToPublic(doc.id, doc.data());
-      if (input.calculator === 'not-allowed' && q.calculator === 'allowed') continue;
+    const questions = bank.docs.map((doc) => bankDocToPublic(doc.id, doc.data()));
+    // A multi-part question is used whole, so drop the group if any part needs a calculator.
+    const calculatorGroups = new Set(questions.filter((q) => q.groupId && q.calculator === 'allowed').map((q) => q.groupId!));
+    for (const q of questions) {
+      if (input.calculator === 'not-allowed' && (q.calculator === 'allowed' || (q.groupId && calculatorGroups.has(q.groupId)))) continue;
       bankById.set(q.id, q);
       candidates.push({
         id: q.id,
@@ -77,6 +79,7 @@ export async function startExamFor(uid: string, input: z.infer<typeof StartSchem
         difficulty: q.difficulty,
         marks: q.marks,
         ...(q.groupId && { groupId: q.groupId }),
+        ...(q.part && { part: q.part }),
       });
     }
   }

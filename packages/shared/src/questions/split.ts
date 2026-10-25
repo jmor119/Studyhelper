@@ -107,7 +107,8 @@ export function toPublicQuestion(
       return {
         ...base,
         type: 'cloze',
-        blanks: q.blanks.map((b) => (b.options ? { id: b.id, options: b.options } : { id: b.id })),
+        // Dropdown options are shuffled (stably) so the written order never hints at the answer.
+        blanks: q.blanks.map((b) => (b.options ? { id: b.id, options: stableShuffle(b.options, `${q.id}:${b.id}`) } : { id: b.id })),
       };
     case 'order':
       return { ...base, type: 'order', items: stableShuffle(q.items, `${q.id}:order`) };

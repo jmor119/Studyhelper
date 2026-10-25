@@ -379,5 +379,552 @@
     ],
     "hints": ["A lamp's symbol looks a bit like a light with a filament crossing it."],
     "solution": "Circle with cross → lamp; long and short lines → cell; circle with A → ammeter; rectangle → resistor; gap with hinged line → open switch."
+  },
+  {
+    "id": "s9.phy.electricity.q025",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "s9.phy.electricity.g1",
+    "part": "a",
+    "stem": "Ana builds the series circuit shown. It has a 3.0 V battery, a switch, two different lamps (L1 and L2), an ammeter (A) and a voltmeter (V).",
+    "prompt": "What does the meter labelled V measure in this circuit?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 270' width='400' height='270' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><polyline points='50,50 350,50 350,180 50,180 50,50' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='100,180 100,240 180,240 180,180' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='184' y='34' width='32' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='186' y1='35' x2='186' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='42' x2='196' y2='58' stroke='#1f2937' stroke-width='5'/><line x1='196' y1='50' x2='204' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='204' y1='35' x2='204' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='214' y1='42' x2='214' y2='58' stroke='#1f2937' stroke-width='5'/><text x='200' y='24' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>3.0 V</text><rect x='47' y='96' width='6' height='38' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='50' y1='95' x2='46' y2='134' stroke='#1f2937' stroke-width='2'/><circle cx='50' cy='95' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='50' cy='135' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='64' y='115' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Switch</text><circle cx='350' cy='115' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='350' y='116' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><circle cx='140' cy='180' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='130.8' y1='170.8' x2='149.2' y2='189.2' stroke='#1f2937' stroke-width='2'/><line x1='130.8' y1='189.2' x2='149.2' y2='170.8' stroke='#1f2937' stroke-width='2'/><text x='140' y='154' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L1</text><circle cx='260' cy='180' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='250.8' y1='170.8' x2='269.2' y2='189.2' stroke='#1f2937' stroke-width='2'/><line x1='250.8' y1='189.2' x2='269.2' y2='170.8' stroke='#1f2937' stroke-width='2'/><text x='260' y='154' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L2</text><circle cx='140' cy='240' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='140' y='241' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>V</text><circle cx='100' cy='180' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='180' cy='180' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/></svg>",
+      "alt": "Series circuit: a 3.0 V battery of two cells, a closed switch, an ammeter A, and two lamps L1 and L2, all in one loop. A voltmeter V is connected across lamp L1, with one wire joining the circuit on each side of L1."
+    },
+    "options": [
+      { "id": "a", "text": "The voltage across lamp L1" },
+      { "id": "b", "text": "The current flowing through lamp L1" },
+      { "id": "c", "text": "The voltage of the battery" },
+      { "id": "d", "text": "The voltage across lamp L2" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Current is measured by an ammeter (A), connected in series. The meter labelled V is a voltmeter.",
+      "c": "The voltmeter's wires join the circuit on either side of L1, not on either side of the battery.",
+      "d": "Look at where the voltmeter's two wires join the circuit: on each side of L1."
+    },
+    "hints": [
+      "A voltmeter measures the voltage across whatever its two wires are connected on either side of."
+    ],
+    "solution": "V is a **voltmeter**. It is connected in parallel across lamp L1, so it measures the **voltage across L1**."
+  },
+  {
+    "id": "s9.phy.electricity.q026",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.electricity.g1",
+    "part": "b",
+    "stem": "Ana builds the series circuit shown. It has a 3.0 V battery, a switch, two different lamps (L1 and L2), an ammeter (A) and a voltmeter (V).",
+    "prompt": "The voltmeter reads 1.2 V. What is the voltage across lamp L2?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 270' width='400' height='270' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><polyline points='50,50 350,50 350,180 50,180 50,50' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='100,180 100,240 180,240 180,180' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='184' y='34' width='32' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='186' y1='35' x2='186' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='42' x2='196' y2='58' stroke='#1f2937' stroke-width='5'/><line x1='196' y1='50' x2='204' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='204' y1='35' x2='204' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='214' y1='42' x2='214' y2='58' stroke='#1f2937' stroke-width='5'/><text x='200' y='24' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>3.0 V</text><rect x='47' y='96' width='6' height='38' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='50' y1='95' x2='46' y2='134' stroke='#1f2937' stroke-width='2'/><circle cx='50' cy='95' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='50' cy='135' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='64' y='115' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Switch</text><circle cx='350' cy='115' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='350' y='116' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><circle cx='140' cy='180' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='130.8' y1='170.8' x2='149.2' y2='189.2' stroke='#1f2937' stroke-width='2'/><line x1='130.8' y1='189.2' x2='149.2' y2='170.8' stroke='#1f2937' stroke-width='2'/><text x='140' y='154' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L1</text><circle cx='260' cy='180' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='250.8' y1='170.8' x2='269.2' y2='189.2' stroke='#1f2937' stroke-width='2'/><line x1='250.8' y1='189.2' x2='269.2' y2='170.8' stroke='#1f2937' stroke-width='2'/><text x='260' y='154' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L2</text><circle cx='140' cy='240' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='140' y='241' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>V</text><circle cx='100' cy='180' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='180' cy='180' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/></svg>",
+      "alt": "Series circuit: a 3.0 V battery of two cells, a closed switch, an ammeter A, and two lamps L1 and L2, all in one loop. A voltmeter V is connected across lamp L1, with one wire joining the circuit on each side of L1."
+    },
+    "answer": 1.8,
+    "units": "V",
+    "hints": [
+      "In a series circuit, the battery's voltage is shared between the components.",
+      "The voltages across L1 and L2 add up to the battery voltage."
+    ],
+    "solution": "In series, the battery voltage is shared: $3.0 - 1.2 =$ **1.8 V** across L2. (The lamps are different, so they don't share it equally.)"
+  },
+  {
+    "id": "s9.phy.electricity.q027",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.electricity.g1",
+    "part": "c",
+    "stem": "Ana builds the series circuit shown. It has a 3.0 V battery, a switch, two different lamps (L1 and L2), an ammeter (A) and a voltmeter (V).",
+    "prompt": "Ana's ammeter is on the right-hand side of the circuit. Her friend says it can't show the current through L2 unless it is moved to right next to L2. Which statement is correct?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 270' width='400' height='270' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><polyline points='50,50 350,50 350,180 50,180 50,50' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='100,180 100,240 180,240 180,180' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='184' y='34' width='32' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='186' y1='35' x2='186' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='196' y1='42' x2='196' y2='58' stroke='#1f2937' stroke-width='5'/><line x1='196' y1='50' x2='204' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='204' y1='35' x2='204' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='214' y1='42' x2='214' y2='58' stroke='#1f2937' stroke-width='5'/><text x='200' y='24' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>3.0 V</text><rect x='47' y='96' width='6' height='38' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='50' y1='95' x2='46' y2='134' stroke='#1f2937' stroke-width='2'/><circle cx='50' cy='95' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='50' cy='135' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='64' y='115' text-anchor='start' dominant-baseline='middle' fill='#1f2937'>Switch</text><circle cx='350' cy='115' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='350' y='116' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><circle cx='140' cy='180' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='130.8' y1='170.8' x2='149.2' y2='189.2' stroke='#1f2937' stroke-width='2'/><line x1='130.8' y1='189.2' x2='149.2' y2='170.8' stroke='#1f2937' stroke-width='2'/><text x='140' y='154' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L1</text><circle cx='260' cy='180' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='250.8' y1='170.8' x2='269.2' y2='189.2' stroke='#1f2937' stroke-width='2'/><line x1='250.8' y1='189.2' x2='269.2' y2='170.8' stroke='#1f2937' stroke-width='2'/><text x='260' y='154' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L2</text><circle cx='140' cy='240' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='140' y='241' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>V</text><circle cx='100' cy='180' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='180' cy='180' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/></svg>",
+      "alt": "Series circuit: a 3.0 V battery of two cells, a closed switch, an ammeter A, and two lamps L1 and L2, all in one loop. A voltmeter V is connected across lamp L1, with one wire joining the circuit on each side of L1."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The ammeter can stay where it is, because the current is the same all the way round"
+      },
+      { "id": "b", "text": "The ammeter must be connected across L2, like the voltmeter" },
+      {
+        "id": "c",
+        "text": "The ammeter must go right after L2, because L1 uses up some of the current"
+      },
+      {
+        "id": "d",
+        "text": "The ammeter must go next to the battery, where the current is strongest"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Ammeters are always connected in series, in the loop itself. Only voltmeters go across a component.",
+      "c": "Lamps don't use up current. The same current flows through every part of a series circuit.",
+      "d": "The current isn't stronger next to the battery. In a series circuit it is the same everywhere."
+    },
+    "hints": ["Is current used up as it goes around a series circuit?"],
+    "solution": "In a series circuit the current is the **same everywhere**, so an ammeter anywhere in the loop shows the current through L2. Lamps transform energy, but they don't use up current."
+  },
+  {
+    "id": "s9.phy.electricity.q028",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.electricity.g2",
+    "part": "a",
+    "stem": "Tui builds the parallel circuit shown. It has a 6 V battery, a main ammeter A1, and two branches. Branch 1 has switch S1, ammeter A2 and lamp L1. Branch 2 has switch S2 and lamp L2. Both switches start off closed.",
+    "prompt": "What is the voltage across lamp L2?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='400' height='260' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><polyline points='50,140 50,50 350,50 350,230 50,230 50,140' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='50,140 350,140' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='124' y='34' width='32' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='126' y1='35' x2='126' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='136' y1='42' x2='136' y2='58' stroke='#1f2937' stroke-width='5'/><line x1='136' y1='50' x2='144' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='144' y1='35' x2='144' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='154' y1='42' x2='154' y2='58' stroke='#1f2937' stroke-width='5'/><text x='140' y='24' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>6 V</text><circle cx='260' cy='50' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='257' y='51' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='266' y='55' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>1</text><rect x='86' y='137' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='85' y1='140' x2='114' y2='136' stroke='#1f2937' stroke-width='2'/><circle cx='85' cy='140' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='115' cy='140' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='100' y='114' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>S1</text><circle cx='180' cy='140' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='177' y='141' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='186' y='145' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>2</text><circle cx='270' cy='140' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='130.8' x2='279.2' y2='149.2' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='149.2' x2='279.2' y2='130.8' stroke='#1f2937' stroke-width='2'/><text x='270' y='114' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L1</text><rect x='86' y='227' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='85' y1='230' x2='114' y2='226' stroke='#1f2937' stroke-width='2'/><circle cx='85' cy='230' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='115' cy='230' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='100' y='204' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>S2</text><circle cx='270' cy='230' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='220.8' x2='279.2' y2='239.2' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='239.2' x2='279.2' y2='220.8' stroke='#1f2937' stroke-width='2'/><text x='270' y='204' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L2</text><circle cx='50' cy='140' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='350' cy='140' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/></svg>",
+      "alt": "Parallel circuit: a 6 V battery and ammeter A1 are on the main wire at the top. The circuit splits into two branches. Branch 1 has switch S1, ammeter A2 and lamp L1. Branch 2 has switch S2 and lamp L2. Both switches are closed."
+    },
+    "answer": 6,
+    "units": "V",
+    "hints": ["In a parallel circuit, how much of the battery voltage does each branch get?"],
+    "solution": "Each branch of a parallel circuit gets the **full battery voltage**, so the voltage across L2 is **6 V**. (3 V would be the answer for two identical lamps in **series**.)"
+  },
+  {
+    "id": "s9.phy.electricity.q029",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.electricity.g2",
+    "part": "b",
+    "stem": "Tui builds the parallel circuit shown. It has a 6 V battery, a main ammeter A1, and two branches. Branch 1 has switch S1, ammeter A2 and lamp L1. Branch 2 has switch S2 and lamp L2. Both switches start off closed.",
+    "prompt": "With both switches closed, A1 reads 0.8 A and A2 reads 0.3 A. Tui then opens switch S1. What happens?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='400' height='260' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><polyline points='50,140 50,50 350,50 350,230 50,230 50,140' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='50,140 350,140' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='124' y='34' width='32' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='126' y1='35' x2='126' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='136' y1='42' x2='136' y2='58' stroke='#1f2937' stroke-width='5'/><line x1='136' y1='50' x2='144' y2='50' stroke='#1f2937' stroke-width='2'/><line x1='144' y1='35' x2='144' y2='65' stroke='#1f2937' stroke-width='2'/><line x1='154' y1='42' x2='154' y2='58' stroke='#1f2937' stroke-width='5'/><text x='140' y='24' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>6 V</text><circle cx='260' cy='50' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='257' y='51' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='266' y='55' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>1</text><rect x='86' y='137' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='85' y1='140' x2='114' y2='136' stroke='#1f2937' stroke-width='2'/><circle cx='85' cy='140' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='115' cy='140' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='100' y='114' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>S1</text><circle cx='180' cy='140' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><text x='177' y='141' text-anchor='middle' dominant-baseline='middle' font-size='13' fill='#1f2937' font-weight='bold'>A</text><text x='186' y='145' text-anchor='middle' dominant-baseline='middle' font-size='9' fill='#1f2937'>2</text><circle cx='270' cy='140' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='130.8' x2='279.2' y2='149.2' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='149.2' x2='279.2' y2='130.8' stroke='#1f2937' stroke-width='2'/><text x='270' y='114' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L1</text><rect x='86' y='227' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='85' y1='230' x2='114' y2='226' stroke='#1f2937' stroke-width='2'/><circle cx='85' cy='230' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='115' cy='230' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><text x='100' y='204' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>S2</text><circle cx='270' cy='230' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='220.8' x2='279.2' y2='239.2' stroke='#1f2937' stroke-width='2'/><line x1='260.8' y1='239.2' x2='279.2' y2='220.8' stroke='#1f2937' stroke-width='2'/><text x='270' y='204' text-anchor='middle' dominant-baseline='middle' fill='#1f2937'>L2</text><circle cx='50' cy='140' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='350' cy='140' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/></svg>",
+      "alt": "Parallel circuit: a 6 V battery and ammeter A1 are on the main wire at the top. The circuit splits into two branches. Branch 1 has switch S1, ammeter A2 and lamp L1. Branch 2 has switch S2 and lamp L2. Both switches are closed."
+    },
+    "options": [
+      { "id": "a", "text": "L1 goes out; L2 stays the same brightness; A1 now reads 0.5 A" },
+      { "id": "b", "text": "Both lamps go out, and A1 reads 0 A" },
+      { "id": "c", "text": "L1 goes out; L2 gets brighter; A1 still reads 0.8 A" },
+      { "id": "d", "text": "L1 goes out; L2 gets dimmer; A1 now reads 0.3 A" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That would happen in a series circuit. In parallel, each branch is a separate path, so L2's branch is still complete.",
+      "c": "L2 still has 6 V across it, so its current and brightness don't change. The total current drops, because branch 1 no longer carries any current.",
+      "d": "L2's current (0.5 A) doesn't change, and A1 now only measures L2's current."
+    },
+    "hints": [
+      "Is L2's branch still a complete loop when S1 is open?",
+      "Work out the current in L2's branch before S1 is opened."
+    ],
+    "solution": "Opening S1 breaks only branch 1, so L1 goes out. L2's branch is still complete with the full 6 V, so L2 stays the same brightness and still carries $0.8 - 0.3 = 0.5$ A. A1 now measures only L2's current: **0.5 A**."
+  },
+  {
+    "id": "s9.phy.electricity.q030",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.phy.electricity.g2",
+    "part": "c",
+    "stem": "Tui builds the parallel circuit shown. It has a 6 V battery, a main ammeter A1, and two branches. Branch 1 has switch S1, ammeter A2 and lamp L1. Branch 2 has switch S2 and lamp L2. Both switches start off closed.",
+    "prompt": "Some strings of party lights (fairy lights) are wired in parallel, like the lamps in this circuit. Explain why wiring the lights in parallel is more convenient than wiring them all in series.",
+    "modelAnswer": "In parallel, each lamp is on its own branch, so if one lamp breaks or is taken out, the others still have a complete path and stay on. In series, one broken lamp breaks the whole loop and every lamp goes out. Also, each lamp in parallel gets the full voltage, so the lights stay bright even when there are lots of them. In series the voltage would be shared, so every extra lamp would make them all dimmer.",
+    "rubric": [
+      {
+        "criterion": "If one lamp breaks, the others stay on in parallel (each has its own path), but in series they would all go out",
+        "marks": 1
+      },
+      {
+        "criterion": "Each lamp gets the full voltage in parallel, so they stay bright; in series the voltage is shared, so they would be dimmer",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What happens in each type of circuit if one lamp blows?",
+      "How is the voltage shared in each type of circuit?"
+    ],
+    "solution": "Parallel wiring keeps the other lamps working if one fails, and gives every lamp the full voltage."
+  },
+  {
+    "id": "s9.phy.electricity.q031",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "s9.phy.electricity.g3",
+    "part": "a",
+    "stem": "Tama rubs a plastic comb on his woollen jersey. The comb becomes **negatively** charged.",
+    "prompt": "What has happened to the charge on Tama's jersey?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has become positively charged, because it lost electrons to the comb"
+      },
+      { "id": "b", "text": "It has become negatively charged too, because it was rubbed as well" },
+      { "id": "c", "text": "It is still neutral, because only the comb gains a charge" },
+      {
+        "id": "d",
+        "text": "It has become positively charged, because it gained protons from the comb"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Charge moves from one object to the other, so the two objects end up with **opposite** charges.",
+      "c": "The electrons the comb gained came from the jersey, so the jersey is left with fewer electrons than protons.",
+      "d": "Protons don't move when things are rubbed together. Only electrons move."
+    },
+    "hints": ["Where did the comb's extra electrons come from?"],
+    "solution": "Electrons moved **from the jersey onto the comb**. The comb now has extra electrons (negative), and the jersey has fewer electrons than protons, so it is **positively** charged."
+  },
+  {
+    "id": "s9.phy.electricity.q032",
+    "type": "multi",
+    "difficulty": 4,
+    "marks": 1,
+    "groupId": "s9.phy.electricity.g3",
+    "part": "b",
+    "stem": "Tama rubs a plastic comb on his woollen jersey. The comb becomes **negatively** charged.",
+    "prompt": "Tama tries to charge some other objects by rubbing them with his jersey while holding them in his hand. Select **all** the objects that would stay charged.",
+    "options": [
+      { "id": "a", "text": "A balloon" },
+      { "id": "b", "text": "A plastic ruler" },
+      { "id": "c", "text": "A perspex rod" },
+      { "id": "d", "text": "A polythene bag" },
+      { "id": "e", "text": "A copper rod" },
+      { "id": "f", "text": "A steel spoon" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": [
+      "Static charge stays put on insulators. On conductors, charge can flow away, for example through your hand."
+    ],
+    "solution": "Insulators (the balloon, plastic ruler, perspex rod and polythene bag) hold their charge, because electrons can't move through them. Metals like copper and steel are conductors, so any charge flows away through Tama's hand and body and they don't stay charged."
+  },
+  {
+    "id": "s9.phy.electricity.q033",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.phy.electricity.g3",
+    "part": "c",
+    "stem": "Tama rubs a plastic comb on his woollen jersey. The comb becomes **negatively** charged.",
+    "prompt": "After walking across the classroom carpet in his socks, Tama touches a metal door handle and feels a small electric shock. Explain why this happens.",
+    "modelAnswer": "As Tama walks, his socks rub on the carpet and electrons are transferred, so static charge builds up on his body. The metal door handle is a good conductor. When his hand gets close to it, the built-up charge suddenly flows between his hand and the handle, sometimes as a tiny spark. This sudden flow of charge (a discharge) is the shock he feels.",
+    "rubric": [
+      {
+        "criterion": "Rubbing on the carpet transfers electrons, so static charge builds up on his body",
+        "marks": 1
+      },
+      {
+        "criterion": "The metal handle is a conductor, so charge can flow through it easily",
+        "marks": 1
+      },
+      {
+        "criterion": "The charge suddenly flows (jumps) between his hand and the handle as a spark or discharge, which he feels as a shock",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What happens when two materials rub together?",
+      "Why does it happen with a metal handle, but not with a wooden door?"
+    ],
+    "solution": "Rubbing builds up static charge; touching a conductor lets it all flow away suddenly, which is the shock."
+  },
+  {
+    "id": "s9.phy.electricity.q034",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the unit of voltage? (Give the name or the symbol.)",
+    "accepted": ["volts", "volt", "V"],
+    "hints": ["It is the unit printed on batteries, for example 1.5 or 9."],
+    "solution": "Voltage is measured in **volts (V)**, using a voltmeter."
+  },
+  {
+    "id": "s9.phy.electricity.q035",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What happens when a positively charged object is brought close to a negatively charged object?",
+    "options": [
+      { "id": "a", "text": "They attract (pull together)" },
+      { "id": "b", "text": "They repel (push apart)" },
+      { "id": "c", "text": "Nothing happens" },
+      { "id": "d", "text": "They both become neutral straight away" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Like charges repel. These are unlike (opposite) charges.",
+      "c": "Charged objects push or pull on each other, even without touching.",
+      "d": "They would only lose their charge if electrons could flow between them, for example if they touched. Before that, they attract."
+    },
+    "hints": ["Remember: like charges repel, and unlike charges…"],
+    "solution": "Unlike (opposite) charges **attract**, so a positive object and a negative object pull towards each other."
+  },
+  {
+    "id": "s9.phy.electricity.q036",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What must a circuit have for a current to flow?",
+    "options": [
+      { "id": "a", "text": "A complete loop from one side of the battery back to the other" },
+      { "id": "b", "text": "A battery, even if there is a gap in the wires" },
+      { "id": "c", "text": "An open switch" },
+      { "id": "d", "text": "A voltmeter" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A gap breaks the circuit, so no current can flow, even with a battery.",
+      "c": "An open switch makes a gap in the circuit, which stops the current.",
+      "d": "A voltmeter measures voltage. It isn't needed for a current to flow."
+    },
+    "hints": ["Think about what a switch does when you turn a light off."],
+    "solution": "Current can only flow around a **complete circuit**: an unbroken loop through the battery and back again. Opening a switch breaks the loop and stops the current."
+  },
+  {
+    "id": "s9.phy.electricity.q037",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each circuit component to its job.",
+    "pairs": [
+      {
+        "left": { "id": "c1", "text": "Cell" },
+        "right": { "id": "cr1", "text": "Provides the push (voltage) that drives the current" }
+      },
+      {
+        "left": { "id": "c2", "text": "Switch" },
+        "right": { "id": "cr2", "text": "Opens or closes a gap in the circuit" }
+      },
+      {
+        "left": { "id": "c3", "text": "Lamp" },
+        "right": { "id": "cr3", "text": "Transforms electrical energy into light" }
+      },
+      {
+        "left": { "id": "c4", "text": "Ammeter" },
+        "right": { "id": "cr4", "text": "Measures the current" }
+      },
+      {
+        "left": { "id": "c5", "text": "Resistor" },
+        "right": { "id": "cr5", "text": "Reduces the current in a circuit" }
+      }
+    ],
+    "hints": ["Which component turns the circuit on and off? Which one measures something?"],
+    "solution": "Cell → provides the voltage. Switch → opens or closes the circuit. Lamp → electrical energy to light. Ammeter → measures current. Resistor → reduces the current."
+  },
+  {
+    "id": "s9.phy.electricity.q038",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "In a series circuit, the current is [[a]] everywhere. In a parallel circuit, the current [[b]] at a junction, and the branch currents [[c]] to give the total current.",
+    "blanks": [
+      { "id": "a", "accepted": ["the same"], "options": ["the same", "used up", "different"] },
+      { "id": "b", "accepted": ["splits"], "options": ["splits", "stops", "doubles"] },
+      { "id": "c", "accepted": ["add up"], "options": ["add up", "cancel out", "multiply"] }
+    ],
+    "hints": [
+      "In a series circuit there is only one path for the current.",
+      "In a parallel circuit there are several paths."
+    ],
+    "solution": "Series: **the same** current flows all the way round. Parallel: the current **splits** at junctions, and the branch currents **add up** to the total current from the battery."
+  },
+  {
+    "id": "s9.phy.electricity.q039",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Electrical wires are made of copper covered in plastic. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Copper conducts the current; plastic is an insulator, so the current can't reach you"
+      },
+      {
+        "id": "b",
+        "text": "Copper is an insulator that keeps the current in; plastic makes it flow faster"
+      },
+      { "id": "c", "text": "Plastic carries the current; copper makes the wire strong" },
+      { "id": "d", "text": "Both are conductors, so the current has two paths" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It's the other way round: copper conducts, and plastic insulates.",
+      "c": "Plastic is an insulator, so it cannot carry the current. The copper does that.",
+      "d": "Plastic is an insulator, so only the copper carries the current."
+    },
+    "hints": ["Which material lets current flow easily, and which one doesn't?"],
+    "solution": "**Copper** is a metal and a very good **conductor**, so it carries the current. **Plastic** is an **insulator**, so it keeps the current inside the wire and stops it reaching anyone who touches the cable."
+  },
+  {
+    "id": "s9.phy.electricity.q040",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What do we call a build-up of electric charge that stays in one place on an object, like the charge on a rubbed balloon?",
+    "accepted": [
+      "static electricity",
+      "static",
+      "static charge",
+      "static charges",
+      "electrostatic charge",
+      "static electric charge"
+    ],
+    "hints": ["The first word also means 'not moving'."],
+    "solution": "This is **static electricity**: charge that builds up and stays put ('static'), unlike the current in a circuit, where charge flows."
+  },
+  {
+    "id": "s9.phy.electricity.q041",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Two identical lamps are connected in parallel to a battery. The current through each lamp is 0.4 A. What current flows from the battery?",
+    "answer": 0.8,
+    "units": "A",
+    "hints": ["In a parallel circuit, the branch currents add up to the total current."],
+    "solution": "Total current = the sum of the branch currents $= 0.4 + 0.4 =$ **0.8 A**."
+  },
+  {
+    "id": "s9.phy.electricity.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A pencil 'lead' (made of graphite) lights a lamp when it is put into a circuit, but a plastic pen does not. What does this show?",
+    "options": [
+      { "id": "a", "text": "Graphite is a conductor, even though it isn't a metal" },
+      { "id": "b", "text": "Graphite is a metal, because only metals conduct" },
+      { "id": "c", "text": "Plastic is a conductor, but the pen is too thick" },
+      { "id": "d", "text": "Graphite makes its own electricity" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Graphite is a form of carbon, which is a non-metal. It is one of the few non-metals that conducts electricity.",
+      "c": "Plastic is an insulator, so it does not conduct, however thin it is.",
+      "d": "The battery supplies the energy. The graphite just lets the current flow through it."
+    },
+    "hints": ["Is graphite a metal?"],
+    "solution": "Graphite (a form of carbon) is a **conductor**, so the circuit is complete and the lamp lights. It shows that some non-metals conduct. Plastic is an insulator, so it breaks the circuit."
+  },
+  {
+    "id": "s9.phy.electricity.q043",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "When a polythene rod is rubbed with a woollen cloth, [[a]] move from the cloth onto the rod. The rod becomes [[b]] charged and the cloth becomes [[c]] charged.",
+    "blanks": [
+      { "id": "a", "accepted": ["electrons"], "options": ["electrons", "protons", "neutrons"] },
+      { "id": "b", "accepted": ["negatively"], "options": ["negatively", "positively"] },
+      { "id": "c", "accepted": ["positively"], "options": ["negatively", "positively"] }
+    ],
+    "hints": [
+      "Only one type of particle moves when objects are rubbed together.",
+      "An object that gains electrons ends up with more negative charge than positive charge."
+    ],
+    "solution": "**Electrons** move from the cloth onto the rod. The rod has extra electrons, so it is **negatively** charged. The cloth has lost electrons, so it is **positively** charged."
+  },
+  {
+    "id": "s9.phy.electricity.q044",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "What is the name of a point in a circuit where wires join, so that the current can split into different paths?",
+    "accepted": ["junction", "junctions", "junction point", "branch point", "node"],
+    "hints": ["On a circuit diagram it is shown as a dot."],
+    "solution": "A **junction**. On circuit diagrams it is drawn as a dot. In a parallel circuit, the current splits at one junction and joins up again at another."
+  },
+  {
+    "id": "s9.phy.electricity.q045",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Which circuit has two lamps in parallel, with a switch that can turn off **only one** of the lamps?",
+    "figure": {
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 325' width='420' height='325' font-family='Arial, Helvetica, sans-serif' font-size='13'><rect width='100%' height='100%' fill='#ffffff'/><rect x='5' y='5' width='200' height='150' fill='none' stroke='#d1d5db' stroke-width='1.5'/><text x='17' y='21' text-anchor='middle' dominant-baseline='middle' font-size='15' fill='#1f2937' font-weight='bold'>A</text><polyline points='35,45 185,45 185,130 35,130 35,45' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='103' y='29' width='14' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='105' y1='30' x2='105' y2='60' stroke='#1f2937' stroke-width='2'/><line x1='115' y1='37' x2='115' y2='53' stroke='#1f2937' stroke-width='5'/><rect x='32' y='71' width='6' height='33' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='35' y1='70' x2='19' y2='102' stroke='#1f2937' stroke-width='2'/><circle cx='35' cy='70' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='35' cy='105' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='85' cy='130' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='75.8' y1='120.8' x2='94.2' y2='139.2' stroke='#1f2937' stroke-width='2'/><line x1='75.8' y1='139.2' x2='94.2' y2='120.8' stroke='#1f2937' stroke-width='2'/><circle cx='145' cy='130' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='135.8' y1='120.8' x2='154.2' y2='139.2' stroke='#1f2937' stroke-width='2'/><line x1='135.8' y1='139.2' x2='154.2' y2='120.8' stroke='#1f2937' stroke-width='2'/><rect x='215' y='5' width='200' height='150' fill='none' stroke='#d1d5db' stroke-width='1.5'/><text x='227' y='21' text-anchor='middle' dominant-baseline='middle' font-size='15' fill='#1f2937' font-weight='bold'>B</text><polyline points='245,90 245,40 395,40 395,135 245,135 245,90' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='245,90 395,90' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='283' y='24' width='14' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='285' y1='25' x2='285' y2='55' stroke='#1f2937' stroke-width='2'/><line x1='295' y1='32' x2='295' y2='48' stroke='#1f2937' stroke-width='5'/><rect x='336' y='37' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='335' y1='40' x2='362' y2='24' stroke='#1f2937' stroke-width='2'/><circle cx='335' cy='40' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='365' cy='40' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='320' cy='90' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='310.8' y1='80.8' x2='329.2' y2='99.2' stroke='#1f2937' stroke-width='2'/><line x1='310.8' y1='99.2' x2='329.2' y2='80.8' stroke='#1f2937' stroke-width='2'/><circle cx='320' cy='135' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='310.8' y1='125.8' x2='329.2' y2='144.2' stroke='#1f2937' stroke-width='2'/><line x1='310.8' y1='144.2' x2='329.2' y2='125.8' stroke='#1f2937' stroke-width='2'/><circle cx='245' cy='90' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='395' cy='90' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><rect x='5' y='170' width='200' height='150' fill='none' stroke='#d1d5db' stroke-width='1.5'/><text x='17' y='186' text-anchor='middle' dominant-baseline='middle' font-size='15' fill='#1f2937' font-weight='bold'>C</text><polyline points='35,255 35,205 185,205 185,300 35,300 35,255' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><polyline points='35,255 185,255' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='103' y='189' width='14' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='105' y1='190' x2='105' y2='220' stroke='#1f2937' stroke-width='2'/><line x1='115' y1='197' x2='115' y2='213' stroke='#1f2937' stroke-width='5'/><rect x='61' y='252' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='60' y1='255' x2='87' y2='239' stroke='#1f2937' stroke-width='2'/><circle cx='60' cy='255' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='90' cy='255' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='135' cy='255' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='125.8' y1='245.8' x2='144.2' y2='264.2' stroke='#1f2937' stroke-width='2'/><line x1='125.8' y1='264.2' x2='144.2' y2='245.8' stroke='#1f2937' stroke-width='2'/><circle cx='110' cy='300' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='100.8' y1='290.8' x2='119.2' y2='309.2' stroke='#1f2937' stroke-width='2'/><line x1='100.8' y1='309.2' x2='119.2' y2='290.8' stroke='#1f2937' stroke-width='2'/><circle cx='35' cy='255' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><circle cx='185' cy='255' r='4' fill='#1f2937' stroke='#1f2937' stroke-width='1'/><rect x='215' y='170' width='200' height='150' fill='none' stroke='#d1d5db' stroke-width='1.5'/><text x='227' y='186' text-anchor='middle' dominant-baseline='middle' font-size='15' fill='#1f2937' font-weight='bold'>D</text><polyline points='245,210 395,210 395,295 245,295 245,210' fill='none' stroke='#1f2937' stroke-width='2' stroke-linejoin='round'/><rect x='313' y='194' width='14' height='32' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='315' y1='195' x2='315' y2='225' stroke='#1f2937' stroke-width='2'/><line x1='325' y1='202' x2='325' y2='218' stroke='#1f2937' stroke-width='5'/><circle cx='280' cy='295' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='270.8' y1='285.8' x2='289.2' y2='304.2' stroke='#1f2937' stroke-width='2'/><line x1='270.8' y1='304.2' x2='289.2' y2='285.8' stroke='#1f2937' stroke-width='2'/><rect x='308' y='292' width='28' height='6' fill='#ffffff' stroke='none' stroke-width='0'/><line x1='307' y1='295' x2='334' y2='279' stroke='#1f2937' stroke-width='2'/><circle cx='307' cy='295' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='337' cy='295' r='3.5' fill='#ffffff' stroke='#1f2937' stroke-width='1.5'/><circle cx='365' cy='295' r='13' fill='#ffffff' stroke='#1f2937' stroke-width='2'/><line x1='355.8' y1='285.8' x2='374.2' y2='304.2' stroke='#1f2937' stroke-width='2'/><line x1='355.8' y1='304.2' x2='374.2' y2='285.8' stroke='#1f2937' stroke-width='2'/></svg>",
+      "alt": "Four circuit diagrams, each with one cell. A: the cell, a switch and two lamps are all in one loop. B: the cell and a switch are in the main wire, and the two lamps are on separate parallel branches. C: the cell is in the main wire, and the two lamps are on separate parallel branches, with a switch in the top branch only. D: the cell and two lamps are in one loop, with a switch between the two lamps."
+    },
+    "options": [
+      { "id": "a", "text": "Circuit A" },
+      { "id": "b", "text": "Circuit B" },
+      { "id": "c", "text": "Circuit C" },
+      { "id": "d", "text": "Circuit D" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "In circuit A both lamps are in the same loop, so they are in series, and the switch turns them both off.",
+      "b": "Circuit B is parallel, but its switch is in the main wire, so it turns off both lamps.",
+      "d": "In circuit D both lamps are in the same loop, so they are in series, and the switch turns them both off."
+    },
+    "shuffle": false,
+    "hints": [
+      "First find the circuits with separate branches (parallel). Then check which branch each switch is in."
+    ],
+    "solution": "**Circuit C** has two separate branches (parallel), and the switch is in one branch only, so it controls just that lamp. The other lamp stays on, whatever the switch does."
+  },
+  {
+    "id": "s9.phy.electricity.q046",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Describe how you would connect an ammeter and a voltmeter to measure the current through a lamp and the voltage across it. Include the units each meter measures in.",
+    "modelAnswer": "The ammeter is connected in series with the lamp, in the same loop, so the current that flows through the lamp also flows through the ammeter. It measures current in amps (A). The voltmeter is connected in parallel across the lamp, with one wire joined on each side of the lamp. It measures voltage in volts (V).",
+    "rubric": [
+      { "criterion": "Ammeter connected in series with the lamp (in the same loop)", "marks": 1 },
+      {
+        "criterion": "Voltmeter connected in parallel across the lamp (one wire on each side of it)",
+        "marks": 1
+      },
+      { "criterion": "Correct units: current in amps (A) and voltage in volts (V)", "marks": 1 }
+    ],
+    "hints": ["One meter goes in the loop, and one goes across the lamp. Which is which?"],
+    "solution": "Ammeter: in series, measures amps (A). Voltmeter: in parallel across the component, measures volts (V)."
+  },
+  {
+    "id": "s9.phy.electricity.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Two identical lamps are connected in series to a battery, and they are quite dim. Using the same battery and lamps, how could Mia make both lamps brighter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reconnect the lamps in parallel, so each one gets the full battery voltage"
+      },
+      { "id": "b", "text": "Add a third identical lamp in series" },
+      { "id": "c", "text": "Swap the two lamps around" },
+      { "id": "d", "text": "Move the lamps closer to the battery" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A third lamp in series shares the voltage even more and adds resistance, so all the lamps would get **dimmer**.",
+      "c": "In series the same current flows through both lamps, so swapping them changes nothing.",
+      "d": "Moving lamps along a wire doesn't change the current or the voltage they get."
+    },
+    "hints": ["In which type of circuit does each lamp get the whole battery voltage?"],
+    "solution": "In series the lamps share the battery voltage. In **parallel**, each lamp gets the **full** voltage, so a bigger current flows through each lamp and both are brighter. (The battery will go flat faster, though.)"
+  },
+  {
+    "id": "s9.phy.electricity.q048",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "When fuel is pumped quickly through a hose into a fuel tanker or a plane, static charge can build up. Explain why the vehicle is connected to the ground with a metal wire before the fuel starts to flow.",
+    "modelAnswer": "As the fuel rubs against the inside of the hose, electrons are transferred, so static charge can build up on the hose and the vehicle. If enough charge builds up, it could jump as a spark, and a spark could set fire to the fuel vapour and cause a fire or an explosion. The metal wire is a conductor, so the charge flows safely along it into the ground as soon as it forms, instead of building up enough to make a spark.",
+    "rubric": [
+      {
+        "criterion": "Friction (rubbing) between the fuel and the hose transfers electrons, so static charge builds up",
+        "marks": 1
+      },
+      {
+        "criterion": "A build-up of charge could cause a spark, which could set fire to the fuel vapour (fire or explosion)",
+        "marks": 1
+      },
+      {
+        "criterion": "The metal wire is a conductor, so the charge flows safely to the ground (earthing) instead of building up",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What happens when two materials rub against each other?",
+      "Why is a spark especially dangerous near fuel?"
+    ],
+    "solution": "Earthing gives the static charge a safe path to the ground, so it never builds up enough to make a spark near flammable fuel."
+  },
+  {
+    "id": "s9.phy.electricity.q049",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Three identical lamps are connected in parallel to a battery. The ammeter in the main wire reads 0.9 A. One lamp is unscrewed. What does the main ammeter read now?",
+    "answer": 0.6,
+    "units": "A",
+    "hints": [
+      "Identical lamps in parallel each carry the same share of the total current.",
+      "Unscrewing one lamp doesn't change the current in the other branches."
+    ],
+    "solution": "Each branch carries $0.9 \\div 3 = 0.3$ A. Unscrewing one lamp breaks only that branch; the other two still carry 0.3 A each. New total $= 0.3 + 0.3 =$ **0.6 A**."
   }
 ]

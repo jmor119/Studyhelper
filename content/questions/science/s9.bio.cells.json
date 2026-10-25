@@ -657,5 +657,872 @@
       "It usually has two clips to hold the slide in place."
     ],
     "solution": "The slide sits on the **stage**, held in place by clips. Light shines up through a hole in the stage."
+  },
+  {
+    "id": "s9.bio.cells.q023",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which part of a cell releases energy from glucose by respiration?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mitochondria"
+      },
+      {
+        "id": "b",
+        "text": "Chloroplasts"
+      },
+      {
+        "id": "c",
+        "text": "Nucleus"
+      },
+      {
+        "id": "d",
+        "text": "Cell wall"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Chloroplasts **store** energy in glucose by photosynthesis. Mitochondria release that energy.",
+      "c": "The nucleus contains DNA and controls the cell.",
+      "d": "The cell wall supports and protects a plant cell."
+    },
+    "hints": [
+      "They are often called the cell's 'powerhouses'."
+    ],
+    "solution": "**Mitochondria** carry out respiration, which releases energy from glucose. Both plant cells and animal cells have mitochondria."
+  },
+  {
+    "id": "s9.bio.cells.q024",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the jelly-like substance that fills a cell, where many of the cell's chemical reactions happen?",
+    "accepted": [
+      "cytoplasm"
+    ],
+    "hints": [
+      "It surrounds the nucleus and fills the space inside the cell membrane."
+    ],
+    "solution": "**Cytoplasm** is a jelly-like substance made mostly of water. Many chemical reactions happen in it, and the other parts of the cell sit in it."
+  },
+  {
+    "id": "s9.bio.cells.q025",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which unit is most often used to measure the size of cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Micrometres (µm)"
+      },
+      {
+        "id": "b",
+        "text": "Centimetres (cm)"
+      },
+      {
+        "id": "c",
+        "text": "Kilograms (kg)"
+      },
+      {
+        "id": "d",
+        "text": "Millilitres (mL)"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Most cells are far smaller than 1 cm. A typical cheek cell is about 0.006 cm across, so centimetres are too big to be useful.",
+      "c": "Kilograms measure mass, not length.",
+      "d": "Millilitres measure volume, not length."
+    },
+    "hints": [
+      "Cells are tiny. You need a unit much smaller than a millimetre."
+    ],
+    "solution": "Cells are usually measured in **micrometres (µm)**. 1 mm = 1000 µm. A human cheek cell is about 60 µm across, and a red blood cell is about 8 µm."
+  },
+  {
+    "id": "s9.bio.cells.q026",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the structures found in **both** plant cells and animal cells.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nucleus"
+      },
+      {
+        "id": "b",
+        "text": "Cell membrane"
+      },
+      {
+        "id": "c",
+        "text": "Cytoplasm"
+      },
+      {
+        "id": "d",
+        "text": "Mitochondria"
+      },
+      {
+        "id": "e",
+        "text": "Cell wall"
+      },
+      {
+        "id": "f",
+        "text": "Chloroplasts"
+      },
+      {
+        "id": "g",
+        "text": "Large permanent vacuole"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Think about which structures every living cell needs, whether it photosynthesises or not.",
+      "Do plant cells need to release energy from food?"
+    ],
+    "solution": "**Both:** nucleus, cell membrane, cytoplasm and mitochondria. Plant cells respire too, so they need mitochondria.\n\n**Plant cells only:** cell wall, chloroplasts (in green parts) and a large permanent vacuole."
+  },
+  {
+    "id": "s9.bio.cells.q027",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "prompt": "Convert 0.05 mm into micrometres (µm).",
+    "answer": 50,
+    "units": "µm",
+    "hints": [
+      "1 mm = 1000 µm.",
+      "To change millimetres into micrometres, multiply by 1000."
+    ],
+    "solution": "$0.05 \\times 1000 = 50$, so 0.05 mm = **50 µm**."
+  },
+  {
+    "id": "s9.bio.cells.q028",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each part of a light microscope to its job.",
+    "pairs": [
+      {
+        "left": {
+          "id": "eye",
+          "text": "Eyepiece lens"
+        },
+        "right": {
+          "id": "r-eye",
+          "text": "The lens you look through"
+        }
+      },
+      {
+        "left": {
+          "id": "obj",
+          "text": "Objective lens"
+        },
+        "right": {
+          "id": "r-obj",
+          "text": "The lens just above the slide; swap it to change the magnification"
+        }
+      },
+      {
+        "left": {
+          "id": "stage",
+          "text": "Stage"
+        },
+        "right": {
+          "id": "r-stage",
+          "text": "The flat platform that holds the slide"
+        }
+      },
+      {
+        "left": {
+          "id": "coarse",
+          "text": "Coarse focus knob"
+        },
+        "right": {
+          "id": "r-coarse",
+          "text": "Moves the stage (or lens) a long way, to find the image quickly"
+        }
+      },
+      {
+        "left": {
+          "id": "fine",
+          "text": "Fine focus knob"
+        },
+        "right": {
+          "id": "r-fine",
+          "text": "Makes small changes to sharpen the image"
+        }
+      },
+      {
+        "left": {
+          "id": "diaph",
+          "text": "Diaphragm"
+        },
+        "right": {
+          "id": "r-diaph",
+          "text": "Controls how much light passes through the slide"
+        }
+      }
+    ],
+    "hints": [
+      "There are two lenses: one near your eye and one near the slide.",
+      "The two focus knobs differ in how far they move the lens."
+    ],
+    "solution": "- Eyepiece lens: the lens you look through\n- Objective lens: the lens just above the slide (swap it to change magnification)\n- Stage: holds the slide\n- Coarse focus: big movements, to find the image\n- Fine focus: small movements, to sharpen the image\n- Diaphragm: controls the amount of light"
+  },
+  {
+    "id": "s9.bio.cells.q029",
+    "type": "match",
+    "difficulty": 2,
+    "groupId": "s9.bio.cells.g1",
+    "part": "a",
+    "stem": "Mele looked at onion skin cells, stained with iodine, under a light microscope, and made a scientific drawing of them. The diagram shows three of the cells she saw (not to scale).",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"70\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"79\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"120\" cy=\"143.8\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"120\" cy=\"143.8\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"170\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"179\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"182\" cy=\"115\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"182\" cy=\"115\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"270\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"279\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"320\" cy=\"86.2\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"320\" cy=\"86.2\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"70\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><rect x=\"170\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><rect x=\"270\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><line x1=\"215\" y1=\"70\" x2=\"200\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"215\" cy=\"70\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"182\" y1=\"120\" x2=\"150\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"182\" cy=\"120\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"150\" y=\"217\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"240\" y1=\"155.5\" x2=\"278\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"240\" cy=\"155.5\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"278\" y=\"217\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"240\" y1=\"112\" x2=\"264\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"240\" cy=\"112\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"264\" y=\"30\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text></svg>",
+      "alt": "Diagram of three onion skin cells side by side. In the middle cell, label A points to the outer line of the cell, label B to a small dark oval near the left edge, label C to the thin layer between the outer line and an inner line, and label D to the large clear area in the centre."
+    },
+    "prompt": "Match each label on the diagram to the part of the cell it points to.",
+    "pairs": [
+      {
+        "left": {
+          "id": "A",
+          "text": "Label A"
+        },
+        "right": {
+          "id": "wall",
+          "text": "Cell wall"
+        }
+      },
+      {
+        "left": {
+          "id": "B",
+          "text": "Label B"
+        },
+        "right": {
+          "id": "nuc",
+          "text": "Nucleus"
+        }
+      },
+      {
+        "left": {
+          "id": "C",
+          "text": "Label C"
+        },
+        "right": {
+          "id": "cyto",
+          "text": "Cytoplasm"
+        }
+      },
+      {
+        "left": {
+          "id": "D",
+          "text": "Label D"
+        },
+        "right": {
+          "id": "vac",
+          "text": "Vacuole"
+        }
+      }
+    ],
+    "hints": [
+      "The nucleus takes up the most stain, so it looks darkest.",
+      "In a plant cell, the large vacuole pushes everything else out towards the edges."
+    ],
+    "solution": "- **A: cell wall**, the firm outer boundary.\n- **B: nucleus**, the darkly stained oval.\n- **C: cytoplasm**, a thin layer pushed against the wall by the vacuole.\n- **D: vacuole**, the large central space filled with cell sap."
+  },
+  {
+    "id": "s9.bio.cells.q030",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.cells.g1",
+    "part": "b",
+    "stem": "Mele looked at onion skin cells, stained with iodine, under a light microscope, and made a scientific drawing of them. The diagram shows three of the cells she saw (not to scale).",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"70\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"79\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"120\" cy=\"143.8\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"120\" cy=\"143.8\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"170\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"179\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"182\" cy=\"115\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"182\" cy=\"115\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"270\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"279\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"320\" cy=\"86.2\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"320\" cy=\"86.2\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"70\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><rect x=\"170\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><rect x=\"270\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><line x1=\"215\" y1=\"70\" x2=\"200\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"215\" cy=\"70\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"182\" y1=\"120\" x2=\"150\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"182\" cy=\"120\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"150\" y=\"217\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"240\" y1=\"155.5\" x2=\"278\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"240\" cy=\"155.5\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"278\" y=\"217\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"240\" y1=\"112\" x2=\"264\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"240\" cy=\"112\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"264\" y=\"30\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text></svg>",
+      "alt": "Diagram of three onion skin cells side by side. In the middle cell, label A points to the outer line of the cell, label B to a small dark oval near the left edge, label C to the thin layer between the outer line and an inner line, and label D to the large clear area in the centre."
+    },
+    "prompt": "Onion cells have a cell membrane, but Mele couldn't see it, so she didn't label it. What is the best reason?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is very thin and pressed tightly against the inside of the cell wall"
+      },
+      {
+        "id": "b",
+        "text": "Plant cells have a cell wall instead of a cell membrane"
+      },
+      {
+        "id": "c",
+        "text": "It is on the outside of the cell wall, so it was cut off the slide"
+      },
+      {
+        "id": "d",
+        "text": "The iodine stain dissolves the cell membrane, so it disappears"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plant cells have **both**. The wall gives support; the membrane, just inside it, controls what goes in and out.",
+      "c": "The cell membrane is **inside** the cell wall, not outside it.",
+      "d": "Iodine stains parts of the cell. It doesn't dissolve the membrane."
+    },
+    "hints": [
+      "Plant cells have both a cell wall and a cell membrane.",
+      "Where is the membrane, compared with the wall?"
+    ],
+    "solution": "Plant cells have a cell membrane just **inside** the cell wall. The large vacuole pushes the cytoplasm and membrane right up against the wall, and the membrane is extremely thin, so a light microscope can't show it as a separate line."
+  },
+  {
+    "id": "s9.bio.cells.q031",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "s9.bio.cells.g1",
+    "part": "c",
+    "stem": "Mele looked at onion skin cells, stained with iodine, under a light microscope, and made a scientific drawing of them. The diagram shows three of the cells she saw (not to scale).",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"70\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"79\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"120\" cy=\"143.8\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"120\" cy=\"143.8\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"170\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"179\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"182\" cy=\"115\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"182\" cy=\"115\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"270\" y=\"70\" width=\"100\" height=\"90\" fill=\"#fde68a\"/><rect x=\"279\" y=\"79\" width=\"82\" height=\"72\" rx=\"6\" fill=\"#f0f9ff\" stroke=\"#9ca3af\" stroke-width=\"1\"/><ellipse cx=\"320\" cy=\"86.2\" rx=\"13\" ry=\"15\" fill=\"#fde68a\"/><ellipse cx=\"320\" cy=\"86.2\" rx=\"8\" ry=\"10\" fill=\"#78716c\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><rect x=\"70\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><rect x=\"170\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><rect x=\"270\" y=\"70\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2.5\"/><line x1=\"215\" y1=\"70\" x2=\"200\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"215\" cy=\"70\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"200\" y=\"30\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"182\" y1=\"120\" x2=\"150\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"182\" cy=\"120\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"150\" y=\"217\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"240\" y1=\"155.5\" x2=\"278\" y2=\"200\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"240\" cy=\"155.5\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"278\" y=\"217\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"240\" y1=\"112\" x2=\"264\" y2=\"36\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"240\" cy=\"112\" r=\"2.2\" fill=\"#1f2937\"/><text x=\"264\" y=\"30\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text></svg>",
+      "alt": "Diagram of three onion skin cells side by side. In the middle cell, label A points to the outer line of the cell, label B to a small dark oval near the left edge, label C to the thin layer between the outer line and an inner line, and label D to the large clear area in the centre."
+    },
+    "prompt": "In Mele's drawing, the labelled cell is drawn 60 mm long. The real cell is 300 µm long. Calculate the magnification of her drawing.",
+    "answer": 200,
+    "units": "×",
+    "hints": [
+      "Both lengths must be in the same units first. 1 mm = 1000 µm.",
+      "Magnification = image size ÷ actual size."
+    ],
+    "solution": "Convert the drawing length into micrometres: $60 \\text{ mm} = 60 \\times 1000 = 60\\,000$ µm.\n\nMagnification $= 60\\,000 \\div 300 = 200$, so the drawing is **×200**."
+  },
+  {
+    "id": "s9.bio.cells.q032",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "When you make a slide, you lower the cover slip onto the drop of liquid slowly, at an angle, using a mounted needle. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To stop air bubbles getting trapped under the cover slip"
+      },
+      {
+        "id": "b",
+        "text": "To spread the stain evenly across all of the cells"
+      },
+      {
+        "id": "c",
+        "text": "To stop the objective lens touching the specimen"
+      },
+      {
+        "id": "d",
+        "text": "To stop the specimen drying out during the lesson"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The stain spreads through the liquid by itself. Lowering the cover slip at an angle is about pushing air out.",
+      "c": "The cover slip does protect the lens and the specimen, but lowering it at an angle is for a different reason.",
+      "d": "A cover slip does slow down drying, but that doesn't depend on lowering it at an angle."
+    },
+    "hints": [
+      "Think about what could get trapped between the cover slip and the liquid."
+    ],
+    "solution": "Lowering the cover slip slowly at an angle pushes the air out ahead of the liquid, so **air bubbles** don't get trapped. Under the microscope, air bubbles look like circles with thick black edges, and they can hide the cells."
+  },
+  {
+    "id": "s9.bio.cells.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A light microscope makes the image upside down and back to front. Ana sees a cell near the **right-hand** edge of her view. Which way should she move the slide to bring the cell to the centre?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To the right"
+      },
+      {
+        "id": "b",
+        "text": "To the left"
+      },
+      {
+        "id": "c",
+        "text": "Away from her"
+      },
+      {
+        "id": "d",
+        "text": "Towards her"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Because the image is reversed, moving the slide left makes the image move right, further from the centre.",
+      "c": "Moving the slide away from or towards her moves the image up or down, not across to the centre.",
+      "d": "Moving the slide away from or towards her moves the image up or down, not across to the centre."
+    },
+    "hints": [
+      "The image is reversed, so it moves the opposite way to the slide.",
+      "She needs the image to move left."
+    ],
+    "solution": "The image is reversed, so moving the slide one way makes the image move the **opposite** way. Moving the slide **to the right** makes the image move left, towards the centre.\n\nA handy rule: move the slide towards the side where the cell appears."
+  },
+  {
+    "id": "s9.bio.cells.q034",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Photosynthesis happens in the [[a]], which use light energy to make glucose. Respiration happens in the [[b]], which release energy from glucose. A palisade cell in a leaf contains [[c]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "chloroplasts"
+        ],
+        "options": [
+          "chloroplasts",
+          "mitochondria"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "mitochondria"
+        ],
+        "options": [
+          "chloroplasts",
+          "mitochondria"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "both chloroplasts and mitochondria"
+        ],
+        "options": [
+          "chloroplasts only",
+          "mitochondria only",
+          "both chloroplasts and mitochondria"
+        ]
+      }
+    ],
+    "hints": [
+      "Does a leaf cell need to release energy from glucose, as well as make glucose?"
+    ],
+    "solution": "Photosynthesis happens in **chloroplasts**; respiration happens in **mitochondria**. Palisade cells photosynthesise **and** respire, so they contain **both**."
+  },
+  {
+    "id": "s9.bio.cells.q035",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Tama has a microscope with a ×10 eyepiece lens and three objective lenses: ×4, ×10 and ×40. Describe how to work out the total magnification, and explain why he should **start** with the ×4 objective lens.",
+    "modelAnswer": "Total magnification = eyepiece magnification × objective magnification. With the ×4 objective it is 10 × 4 = ×40 (and ×100 and ×400 with the other two lenses). He should start with the ×4 lens because it shows the widest field of view, so it is much easier to find the specimen and focus on it. The low-power lens is also shorter, so there is more space between it and the slide, and less chance of cracking the slide.",
+    "rubric": [
+      {
+        "criterion": "States that total magnification = eyepiece × objective (e.g. 10 × 4 = ×40)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the lowest power gives the widest field of view, so the specimen is easier to find and focus (or there is less risk of hitting the slide)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How do the two lenses combine?",
+      "What happens to how much of the slide you can see as you zoom in?"
+    ],
+    "solution": "Multiply the two lens magnifications: $10 \\times 4 = 40$, so the lowest setting is ×40. Starting at low power gives the **widest field of view**, so you can find the specimen easily, then zoom in on the part you want."
+  },
+  {
+    "id": "s9.bio.cells.q036",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which of these is a rule for making a good scientific drawing of cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use clear, single pencil lines, no shading, and ruled label lines"
+      },
+      {
+        "id": "b",
+        "text": "Colour in each part, so it is easy to tell the parts apart"
+      },
+      {
+        "id": "c",
+        "text": "Draw every single cell that you can see in the field of view"
+      },
+      {
+        "id": "d",
+        "text": "Use a pen instead of a pencil, so the lines don't smudge"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Scientific drawings aren't coloured or shaded. Clear outlines and labels show the parts.",
+      "c": "You only need to draw a few cells, accurately and large enough to label clearly.",
+      "d": "Use a sharp pencil, so you can rub out and fix mistakes."
+    },
+    "hints": [
+      "Scientific drawings are about clear, accurate outlines, not making them look pretty."
+    ],
+    "solution": "A scientific drawing uses a **sharp pencil**, clear single lines, **no shading or colour**, a title, the magnification, and label lines drawn with a ruler that do not cross each other."
+  },
+  {
+    "id": "s9.bio.cells.q037",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "s9.bio.cells.g2",
+    "part": "a",
+    "stem": "Mele is looking at onion skin cells with her microscope set to ×100. She puts a clear plastic ruler on the stage and finds that her **field of view** (the circle she can see) is 1.6 mm across. She then counts 8 cells lying end to end across the middle of the field of view.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 305\" width=\"420\" height=\"305\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><clipPath id=\"fov\"><circle cx=\"210\" cy=\"135\" r=\"110\"/></clipPath></defs><g clip-path=\"url(#fov)\"><rect x=\"31.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"45\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"72.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"100\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"127.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"155\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"182.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"210\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"237.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"265\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"292.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"320\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"31.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/></g><circle cx=\"210\" cy=\"135\" r=\"110\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><line x1=\"100\" y1=\"139\" x2=\"100\" y2=\"262\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"320\" y1=\"139\" x2=\"320\" y2=\"262\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"100\" y1=\"268\" x2=\"320\" y2=\"268\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"100\" y1=\"261\" x2=\"100\" y2=\"275\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"320\" y1=\"261\" x2=\"320\" y2=\"275\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"210\" y=\"294\" text-anchor=\"middle\" fill=\"#1f2937\">1.6 mm</text></svg>",
+      "alt": "A circular field of view filled with rows of brick-shaped onion cells. The middle row has 8 cells lying end to end, stretching exactly across the circle. A scale bar under the circle shows that its diameter is 1.6 mm."
+    },
+    "prompt": "Estimate the length of one onion cell, in **micrometres** (µm).",
+    "answer": 200,
+    "units": "µm",
+    "hints": [
+      "Divide the width of the field of view by the number of cells.",
+      "Then convert: 1 mm = 1000 µm."
+    ],
+    "solution": "Length of one cell $= 1.6 \\div 8 = 0.2$ mm.\n\n$0.2 \\text{ mm} = 0.2 \\times 1000 = 200$ µm."
+  },
+  {
+    "id": "s9.bio.cells.q038",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "allowed",
+    "groupId": "s9.bio.cells.g2",
+    "part": "b",
+    "stem": "Mele is looking at onion skin cells with her microscope set to ×100. She puts a clear plastic ruler on the stage and finds that her **field of view** (the circle she can see) is 1.6 mm across. She then counts 8 cells lying end to end across the middle of the field of view.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 305\" width=\"420\" height=\"305\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><clipPath id=\"fov\"><circle cx=\"210\" cy=\"135\" r=\"110\"/></clipPath></defs><g clip-path=\"url(#fov)\"><rect x=\"31.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"45\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"72.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"100\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"127.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"155\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"182.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"210\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"237.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"265\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"292.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"320\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"31.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/></g><circle cx=\"210\" cy=\"135\" r=\"110\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><line x1=\"100\" y1=\"139\" x2=\"100\" y2=\"262\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"320\" y1=\"139\" x2=\"320\" y2=\"262\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"100\" y1=\"268\" x2=\"320\" y2=\"268\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"100\" y1=\"261\" x2=\"100\" y2=\"275\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"320\" y1=\"261\" x2=\"320\" y2=\"275\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"210\" y=\"294\" text-anchor=\"middle\" fill=\"#1f2937\">1.6 mm</text></svg>",
+      "alt": "A circular field of view filled with rows of brick-shaped onion cells. The middle row has 8 cells lying end to end, stretching exactly across the circle. A scale bar under the circle shows that its diameter is 1.6 mm."
+    },
+    "prompt": "Mele switches to ×400, which is four times the magnification. What is the diameter of her new field of view, in mm?",
+    "answer": 0.4,
+    "units": "mm",
+    "hints": [
+      "When you zoom in, do you see more or less of the slide?",
+      "Four times the magnification means the field of view is four times narrower."
+    ],
+    "solution": "Making the magnification 4 times bigger makes the field of view 4 times smaller across:\n\n$1.6 \\div 4 = 0.4$ mm."
+  },
+  {
+    "id": "s9.bio.cells.q039",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "groupId": "s9.bio.cells.g2",
+    "part": "c",
+    "stem": "Mele is looking at onion skin cells with her microscope set to ×100. She puts a clear plastic ruler on the stage and finds that her **field of view** (the circle she can see) is 1.6 mm across. She then counts 8 cells lying end to end across the middle of the field of view.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 305\" width=\"420\" height=\"305\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><defs><clipPath id=\"fov\"><circle cx=\"210\" cy=\"135\" r=\"110\"/></clipPath></defs><g clip-path=\"url(#fov)\"><rect x=\"31.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"0\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"18\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"36\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"54\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"72\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"90\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"108\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"45\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"72.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"100\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"127.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"155\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"182.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"210\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"237.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"265\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"292.5\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"320\" y=\"126\" width=\"27.5\" height=\"18\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><rect x=\"31.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"144\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"162\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"180\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"198\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"216\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"17.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"45\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"72.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"100\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"127.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"155\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"182.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"210\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"237.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"265\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"292.5\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"320\" y=\"234\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"31.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"58.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"86.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"113.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"141.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"168.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"196.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"223.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"251.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"278.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"306.3\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/><rect x=\"333.8\" y=\"252\" width=\"27.5\" height=\"18\" fill=\"#fef9c3\" stroke=\"#a8a29e\" stroke-width=\"1\"/></g><circle cx=\"210\" cy=\"135\" r=\"110\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"3\"/><line x1=\"100\" y1=\"139\" x2=\"100\" y2=\"262\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"320\" y1=\"139\" x2=\"320\" y2=\"262\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><line x1=\"100\" y1=\"268\" x2=\"320\" y2=\"268\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"100\" y1=\"261\" x2=\"100\" y2=\"275\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"320\" y1=\"261\" x2=\"320\" y2=\"275\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"210\" y=\"294\" text-anchor=\"middle\" fill=\"#1f2937\">1.6 mm</text></svg>",
+      "alt": "A circular field of view filled with rows of brick-shaped onion cells. The middle row has 8 cells lying end to end, stretching exactly across the circle. A scale bar under the circle shows that its diameter is 1.6 mm."
+    },
+    "prompt": "Mele's estimate of the cell length may not be very accurate. Explain **two** reasons why, and suggest how she could get a better estimate.",
+    "modelAnswer": "The cells aren't all the same size, so the eight cells she counted might be bigger or smaller than average. She only counted along one line, in one part of the slide. The ruler only has millimetre marks, so 1.6 mm is itself an estimate, and real cells rarely line up perfectly end to end. To get a better estimate, she should count the cells along several different lines and in different parts of the slide, work out the cell length each time, and calculate the mean.",
+    "rubric": [
+      {
+        "criterion": "Gives one valid reason (e.g. cells vary in size; she counted along only one line; 1.6 mm is hard to measure exactly with a millimetre ruler; cells don't line up perfectly)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a second, different valid reason",
+        "marks": 1
+      },
+      {
+        "criterion": "Suggests a sensible improvement, such as counting along several lines or fields of view and calculating a mean",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Are all onion cells exactly the same size?",
+      "How precisely can a ruler with millimetre marks measure 1.6 mm?"
+    ],
+    "solution": "Sources of error include **cells varying in size**, **counting along only one line**, and **measuring the field of view** with a millimetre ruler. Repeating the count in several places and taking the **mean** gives a more reliable estimate."
+  },
+  {
+    "id": "s9.bio.cells.q040",
+    "type": "cloze",
+    "difficulty": 2,
+    "groupId": "s9.bio.cells.g3",
+    "part": "a",
+    "stem": "The heart is made mostly of cardiac muscle, which is made of muscle cells joined together. The heart also contains nerve tissue and connective tissue. The heart, the blood vessels and the blood together make up the circulatory system.",
+    "prompt": "Choose the level of organisation for each one.\n\n- Cardiac muscle: [[a]]\n- The heart: [[b]]\n- The heart, blood vessels and blood together: [[c]]",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "tissue"
+        ],
+        "options": [
+          "cell",
+          "tissue",
+          "organ",
+          "organ system",
+          "organism"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "organ"
+        ],
+        "options": [
+          "cell",
+          "tissue",
+          "organ",
+          "organ system",
+          "organism"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "organ system"
+        ],
+        "options": [
+          "cell",
+          "tissue",
+          "organ",
+          "organ system",
+          "organism"
+        ]
+      }
+    ],
+    "hints": [
+      "A tissue is a group of similar cells doing the same job.",
+      "An organ is made of several different tissues working together."
+    ],
+    "solution": "Cardiac muscle is a **tissue** (a group of similar cells). The heart is an **organ** (made of several tissues: muscle, nerve and connective tissue). The heart, blood vessels and blood together are an **organ system**: the circulatory system."
+  },
+  {
+    "id": "s9.bio.cells.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.cells.g3",
+    "part": "b",
+    "stem": "The heart is made mostly of cardiac muscle, which is made of muscle cells joined together. The heart also contains nerve tissue and connective tissue. The heart, the blood vessels and the blood together make up the circulatory system.",
+    "prompt": "Which of these is **not** an organ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Blood"
+      },
+      {
+        "id": "b",
+        "text": "Skin"
+      },
+      {
+        "id": "c",
+        "text": "A leaf"
+      },
+      {
+        "id": "d",
+        "text": "The stomach"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Skin is an organ: in fact, it is the largest organ in your body. It is made of several different tissues.",
+      "c": "A leaf is a plant organ. It is made of several tissues, such as the epidermis, the palisade layer, xylem and phloem.",
+      "d": "The stomach is an organ, made of muscle tissue, glandular tissue and other tissues."
+    },
+    "hints": [
+      "An organ is made of several different tissues working together to do a job.",
+      "One of these is a tissue made of cells in a liquid."
+    ],
+    "solution": "**Blood** is a tissue: cells (red blood cells, white blood cells and platelets) in a liquid called plasma. Skin, a leaf and the stomach are all organs, because each is made of several different tissues working together."
+  },
+  {
+    "id": "s9.bio.cells.q042",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.cells.g3",
+    "part": "c",
+    "stem": "The heart is made mostly of cardiac muscle, which is made of muscle cells joined together. The heart also contains nerve tissue and connective tissue. The heart, the blood vessels and the blood together make up the circulatory system.",
+    "prompt": "An amoeba is a single-celled organism. A human is made of trillions of cells. Explain why a human needs specialised cells organised into tissues, organs and systems, but an amoeba does not.",
+    "modelAnswer": "In an amoeba, the one cell has to carry out every life process itself: it feeds, respires, gets rid of waste, senses and moves. That works because it is tiny. A human is far too big for one kind of cell to do everything, so cells are specialised for particular jobs: for example, red blood cells carry oxygen, muscle cells contract and nerve cells carry messages. Similar specialised cells are grouped into tissues, tissues into organs, and organs into systems, so each job is done well and all the parts work together to keep the whole body alive.",
+    "rubric": [
+      {
+        "criterion": "States that the single cell of an amoeba carries out all the life processes by itself",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that human cells are specialised for different jobs, with an example (e.g. red blood cells carry oxygen; muscle cells contract)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that specialised cells are organised into tissues, organs and systems that work together, so each job is done well for the whole body",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which life processes does the single cell of an amoeba have to carry out?",
+      "Give an example of a human cell that does one special job."
+    ],
+    "solution": "One cell can do everything only when the organism is tiny. In a large organism, cells **specialise** (division of labour). Groups of specialised cells form **tissues**, tissues form **organs**, and organs form **systems**, which work together to keep the organism alive."
+  },
+  {
+    "id": "s9.bio.cells.q043",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Through a school light microscope at ×400, Sione can see the nucleus of a cheek cell, but he can't see any mitochondria. Why not?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mitochondria are too small to see clearly with a school light microscope"
+      },
+      {
+        "id": "b",
+        "text": "Cheek cells don't have mitochondria, because they don't need any energy"
+      },
+      {
+        "id": "c",
+        "text": "Mitochondria are only found in plant cells, not in animal cells"
+      },
+      {
+        "id": "d",
+        "text": "The stain has dissolved the mitochondria, so they have disappeared"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "All living cells respire to release energy, so cheek cells do have mitochondria.",
+      "c": "Mitochondria are found in both plant cells and animal cells.",
+      "d": "Stains colour parts of the cell. They don't dissolve them."
+    },
+    "hints": [
+      "A cheek cell is about 60 µm across. A mitochondrion is only about 1–2 µm long."
+    ],
+    "solution": "Mitochondria are tiny, only about 1–2 µm long, which is too small to see clearly with a school light microscope. Scientists use electron microscopes, which magnify much more, to study them. Cheek cells do have mitochondria, because all living cells respire."
+  },
+  {
+    "id": "s9.bio.cells.q044",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Ruby looks at a thin slice of potato stained with iodine. She sees cell walls and lots of blue-black grains inside the cells, but no chloroplasts. What can she conclude?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plant cells that store starch, from a part of the plant that gets no light"
+      },
+      {
+        "id": "b",
+        "text": "Animal cells, because they have no chloroplasts to make food"
+      },
+      {
+        "id": "c",
+        "text": "Plant cells whose blue-black grains are chloroplasts stained by iodine"
+      },
+      {
+        "id": "d",
+        "text": "Plant cells that made their starch by photosynthesising in the dark"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The cell walls show they are plant cells. Many plant cells, such as root cells, have no chloroplasts.",
+      "c": "Iodine turns **starch** blue-black. Chloroplasts are green and contain chlorophyll.",
+      "d": "Photosynthesis needs light. The sugar was made in the leaves, carried down to the potato, and stored there as starch."
+    },
+    "hints": [
+      "What do cell walls tell you about the type of cell?",
+      "Which substance does iodine turn blue-black?"
+    ],
+    "solution": "The cell walls show these are **plant cells**. Iodine turns starch blue-black, so the grains are **stored starch**. A potato grows underground in the dark, so its cells have no chloroplasts. The sugar was made in the leaves and carried down to the potato to be stored as starch."
+  },
+  {
+    "id": "s9.bio.cells.q045",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Kiri says, \"Plant cells need a cell wall and a large vacuole, but animal cells can manage without them.\" Explain why she is right.",
+    "modelAnswer": "A plant has no skeleton. Its cell walls are strong and rigid, and when the large vacuole is full of water it pushes outwards against the wall, keeping each cell firm. Lots of firm cells pressing together hold the plant upright, so its leaves can reach the light. The wall also stops the cell bursting when it takes in water. Animals are supported by a skeleton instead (bones, or an exoskeleton in insects), and many animal cells, such as muscle cells, need to be flexible so they can change shape and move. A rigid wall would get in the way.",
+    "rubric": [
+      {
+        "criterion": "States that the cell wall is strong and rigid, giving support or stopping the cell bursting",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that a full vacuole pushes against the wall to keep cells firm, which holds the plant upright (plants have no skeleton)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that animals are supported by a skeleton, and many animal cells need to be flexible to move or change shape",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How does a plant stay upright without bones?",
+      "What supports an animal, and why might its cells need to change shape?"
+    ],
+    "solution": "Plants rely on **firm cells** for support: the rigid **cell wall** plus a **full vacuole** pushing against it. Animals have a **skeleton** for support, and their cells often need to be flexible, so they have only a cell membrane."
+  },
+  {
+    "id": "s9.bio.cells.q046",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Two students draw cells. Cell P is drawn 40 mm long at a magnification of ×400. Cell Q is drawn 30 mm long at a magnification of ×100. Which cell is **really** longer, and by how many times?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cell Q, which is 3 times as long as cell P"
+      },
+      {
+        "id": "b",
+        "text": "Cell P, which is about 1.3 times as long as cell Q"
+      },
+      {
+        "id": "c",
+        "text": "Cell Q, which is 4 times as long as cell P"
+      },
+      {
+        "id": "d",
+        "text": "Cell P, which is 3 times as long as cell Q"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You compared the drawings, but they are at different magnifications. Work out each real length first.",
+      "c": "You compared only the magnifications. You need to use the drawing lengths as well.",
+      "d": "Check your working: real length = drawing length ÷ magnification. Cell P is 0.1 mm long and cell Q is 0.3 mm long."
+    },
+    "hints": [
+      "Real size = drawing size ÷ magnification. Work this out for each cell.",
+      "Then compare the two real sizes."
+    ],
+    "solution": "Cell P: $40 \\div 400 = 0.1$ mm. Cell Q: $30 \\div 100 = 0.3$ mm.\n\n$0.3 \\div 0.1 = 3$, so **cell Q is really 3 times as long** as cell P, even though its drawing is shorter."
+  },
+  {
+    "id": "s9.bio.cells.q047",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Mature human red blood cells have no nucleus and no mitochondria. Explain **one** advantage and **one** disadvantage of this for the red blood cell.",
+    "modelAnswer": "Advantage: without a nucleus there is more room inside the cell for haemoglobin, the protein that carries oxygen. Without mitochondria, the cell doesn't use up any of the oxygen it is carrying. Both mean more oxygen is delivered to the body's cells for respiration.\n\nDisadvantage: with no nucleus, the cell has no DNA, so it can't make new proteins to repair itself, and it can't divide. Red blood cells only last about four months, so the bone marrow has to make millions of new ones every second.",
+    "rubric": [
+      {
+        "criterion": "Gives an advantage: more room for haemoglobin, or the cell doesn't use up the oxygen it carries",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains why this matters: more oxygen is delivered to the body's cells for respiration",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a disadvantage: with no nucleus (DNA) it can't repair itself or divide, so it doesn't live long and must be replaced",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What is a red blood cell's job, and what could fill the space a nucleus would take up?",
+      "What does the nucleus normally let a cell do?"
+    ],
+    "solution": "Losing the nucleus and mitochondria helps the cell **carry and deliver more oxygen**. The cost is that it has no DNA, so it **cannot repair itself or divide** and only lives for about four months."
   }
 ]

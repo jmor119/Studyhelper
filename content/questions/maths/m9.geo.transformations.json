@@ -157,5 +157,319 @@
     },
     "hints": ["Test a point such as (2, 5). Where should it go?", "Points on the line $y = x$, such as (3, 3), don't move under this transformation."],
     "solution": "Swapping the coordinates is a **reflection in the line $y = x$**. For example, (2, 5) → (5, 2): both are the same distance from the line $y = x$, on opposite sides. Points on the line, like (3, 3), stay put."
+  },
+  {
+    "id": "m9.geo.transformations.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.geo.transformations.g1",
+    "part": "a",
+    "stem": "Triangle ABC is drawn on the grid, together with two mirror lines: $x = 1$ and $x = 4$.",
+    "prompt": "Triangle ABC is reflected in the line $x = 1$. What are the coordinates of B′, the image of B?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 328 216\" width=\"328\" height=\"216\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"192\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"52\" y1=\"192\" x2=\"52\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"80\" y1=\"192\" x2=\"80\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"108\" y1=\"192\" x2=\"108\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"136\" y1=\"192\" x2=\"136\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"164\" y1=\"192\" x2=\"164\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"192\" x2=\"192\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"220\" y1=\"192\" x2=\"220\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"248\" y1=\"192\" x2=\"248\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"276\" y1=\"192\" x2=\"276\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"304\" y1=\"192\" x2=\"304\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"192\" x2=\"304\" y2=\"192\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"304\" y2=\"164\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"136\" x2=\"304\" y2=\"136\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"108\" x2=\"304\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"80\" x2=\"304\" y2=\"80\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"52\" x2=\"304\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"304\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"304\" y2=\"164\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"108\" y1=\"192\" x2=\"108\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"52\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"80\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"136\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"164\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"192\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"220\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"248\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"276\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"304\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"96\" y=\"192\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"96\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"96\" y=\"108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"96\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"96\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"96\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"316\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"108\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><line x1=\"136\" y1=\"192\" x2=\"136\" y2=\"24\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"220\" y1=\"192\" x2=\"220\" y2=\"24\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"158\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\">x = 1</text><text x=\"242\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\">x = 4</text><polygon points=\"52,136 52,52 108,136\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"42\" y=\"146\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"42\" y=\"44\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"116\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "A coordinate grid with triangle ABC: A(−2, 1), B(−2, 4) and C(0, 1). Two dashed red vertical mirror lines are drawn: x = 1 and x = 4." },
+    "options": [
+      { "id": "a", "text": "(4, 4)" },
+      { "id": "b", "text": "(2, 4)" },
+      { "id": "c", "text": "(−2, −4)" },
+      { "id": "d", "text": "(1, 4)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "(2, 4) is the reflection of B in the $y$-axis ($x = 0$). The mirror line here is $x = 1$.",
+      "c": "(−2, −4) is the reflection of B in the $x$-axis. The mirror line here is the vertical line $x = 1$.",
+      "d": "(1, 4) is on the mirror line. The image must be as far beyond the line as B is in front of it."
+    },
+    "hints": ["How far is B from the line $x = 1$, counting squares across?", "B′ is the same distance from the mirror line, on the other side."],
+    "solution": "B(−2, 4) is 3 units to the left of the line $x = 1$. Its image is 3 units to the right of the line, at $x = 1 + 3 = 4$. The $y$-coordinate doesn't change, so **B′ = (4, 4)**."
+  },
+  {
+    "id": "m9.geo.transformations.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.geo.transformations.g1",
+    "part": "b",
+    "stem": "Triangle ABC is drawn on the grid, together with two mirror lines: $x = 1$ and $x = 4$.",
+    "prompt": "Triangle ABC is reflected in $x = 1$ to give A′B′C′. Then A′B′C′ is reflected in $x = 4$ to give A″B″C″. What are the coordinates of C″?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 328 216\" width=\"328\" height=\"216\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"192\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"52\" y1=\"192\" x2=\"52\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"80\" y1=\"192\" x2=\"80\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"108\" y1=\"192\" x2=\"108\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"136\" y1=\"192\" x2=\"136\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"164\" y1=\"192\" x2=\"164\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"192\" x2=\"192\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"220\" y1=\"192\" x2=\"220\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"248\" y1=\"192\" x2=\"248\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"276\" y1=\"192\" x2=\"276\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"304\" y1=\"192\" x2=\"304\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"192\" x2=\"304\" y2=\"192\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"304\" y2=\"164\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"136\" x2=\"304\" y2=\"136\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"108\" x2=\"304\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"80\" x2=\"304\" y2=\"80\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"52\" x2=\"304\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"304\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"304\" y2=\"164\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"108\" y1=\"192\" x2=\"108\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"52\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"80\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"136\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"164\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"192\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"220\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"248\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"276\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"304\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"96\" y=\"192\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"96\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"96\" y=\"108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"96\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"96\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"96\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"316\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"108\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><line x1=\"136\" y1=\"192\" x2=\"136\" y2=\"24\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"220\" y1=\"192\" x2=\"220\" y2=\"24\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"158\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\">x = 1</text><text x=\"242\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\">x = 4</text><polygon points=\"52,136 52,52 108,136\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"42\" y=\"146\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"42\" y=\"44\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"116\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "A coordinate grid with triangle ABC: A(−2, 1), B(−2, 4) and C(0, 1). Two dashed red vertical mirror lines are drawn: x = 1 and x = 4." },
+    "options": [
+      { "id": "a", "text": "(6, 1)" },
+      { "id": "b", "text": "(2, 1)" },
+      { "id": "c", "text": "(8, 1)" },
+      { "id": "d", "text": "(4, 1)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "(2, 1) is C′, after only the first reflection. Now reflect C′ in $x = 4$.",
+      "c": "(8, 1) is what you get by reflecting the original C in $x = 4$. The second reflection is applied to C′, not to C.",
+      "d": "(4, 1) is on the second mirror line. C′ is 2 units to the left of $x = 4$, so its image is 2 units to the right."
+    },
+    "hints": ["First reflect C(0, 1) in $x = 1$ to find C′.", "Then reflect C′ in $x = 4$."],
+    "solution": "C(0, 1) is 1 unit left of $x = 1$, so C′ = (2, 1).\n\nC′(2, 1) is 2 units left of $x = 4$, so C″ = (6, 1)."
+  },
+  {
+    "id": "m9.geo.transformations.q012",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "groupId": "m9.geo.transformations.g1",
+    "part": "c",
+    "stem": "Triangle ABC is drawn on the grid, together with two mirror lines: $x = 1$ and $x = 4$.",
+    "prompt": "Triangle ABC is reflected in $x = 1$, and then the image is reflected in $x = 4$, giving A″B″C″. Which **single** transformation maps triangle ABC straight onto A″B″C″?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 328 216\" width=\"328\" height=\"216\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"192\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"52\" y1=\"192\" x2=\"52\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"80\" y1=\"192\" x2=\"80\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"108\" y1=\"192\" x2=\"108\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"136\" y1=\"192\" x2=\"136\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"164\" y1=\"192\" x2=\"164\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"192\" x2=\"192\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"220\" y1=\"192\" x2=\"220\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"248\" y1=\"192\" x2=\"248\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"276\" y1=\"192\" x2=\"276\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"304\" y1=\"192\" x2=\"304\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"192\" x2=\"304\" y2=\"192\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"304\" y2=\"164\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"136\" x2=\"304\" y2=\"136\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"108\" x2=\"304\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"80\" x2=\"304\" y2=\"80\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"52\" x2=\"304\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"304\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"304\" y2=\"164\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"108\" y1=\"192\" x2=\"108\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"52\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"80\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"136\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"164\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"192\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"220\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"248\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"276\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"304\" y=\"177\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"96\" y=\"192\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"96\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"96\" y=\"108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"96\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"96\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"96\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"316\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"108\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><line x1=\"136\" y1=\"192\" x2=\"136\" y2=\"24\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"220\" y1=\"192\" x2=\"220\" y2=\"24\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"158\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\">x = 1</text><text x=\"242\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\">x = 4</text><polygon points=\"52,136 52,52 108,136\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"42\" y=\"146\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"42\" y=\"44\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"116\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text></svg>", "alt": "A coordinate grid with triangle ABC: A(−2, 1), B(−2, 4) and C(0, 1). Two dashed red vertical mirror lines are drawn: x = 1 and x = 4." },
+    "options": [
+      { "id": "a", "text": "A translation 6 units to the right" },
+      { "id": "b", "text": "A translation 3 units to the right" },
+      { "id": "c", "text": "A reflection in the line $x = 2.5$" },
+      { "id": "d", "text": "A rotation of 180° about the point (1, 1)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The mirror lines are 3 units apart, but each point moves **twice** that far. Check C: (0, 1) ends up at (6, 1).",
+      "c": "One reflection would flip the triangle over. After two reflections it is the same way round as it started.",
+      "d": "A half turn would turn the triangle upside down. A″B″C″ is the same way up as ABC."
+    },
+    "hints": ["Find where each corner ends up after both reflections. How has each corner moved?", "Is the final triangle flipped, turned, or just slid?"],
+    "solution": "Follow the corners: A(−2, 1) → (4, 1) → (4, 1); B(−2, 4) → (4, 4) → (4, 4); C(0, 1) → (2, 1) → (6, 1). So A″ = (4, 1), B″ = (4, 4) and C″ = (6, 1).\n\nEvery corner has moved 6 units right, and the triangle faces the same way as before, so the single transformation is a **translation 6 units to the right**, $\\begin{pmatrix} 6 \\\\ 0 \\end{pmatrix}$. (Reflecting in two parallel mirror lines always gives a translation of twice the gap between them: $2 \\times 3 = 6$.)"
+  },
+  {
+    "id": "m9.geo.transformations.q013",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "m9.geo.transformations.g2",
+    "part": "a",
+    "stem": "Kōwhaiwhai are painted patterns found on the rafters of wharenui (meeting houses). Many kōwhaiwhai repeat a design using translations, reflections and rotations. Mere is planning a pattern on a grid. She starts with the L-shape S and makes three images of it: S₁, S₂ and S₃.",
+    "prompt": "S₁ is the image of S after a translation. Which vector describes this translation?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 268\" width=\"312\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"244\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"46\" y1=\"244\" x2=\"46\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"68\" y1=\"244\" x2=\"68\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"90\" y1=\"244\" x2=\"90\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"112\" y1=\"244\" x2=\"112\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"244\" x2=\"134\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"178\" y1=\"244\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"200\" y1=\"244\" x2=\"200\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"222\" y1=\"244\" x2=\"222\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"244\" y1=\"244\" x2=\"244\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"266\" y1=\"244\" x2=\"266\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"244\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"288\" y2=\"244\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"288\" y2=\"222\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"288\" y2=\"200\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"288\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"288\" y2=\"112\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"288\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"288\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"288\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"46\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"68\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"90\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"112\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"134\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"178\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"200\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"222\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"244\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"266\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"288\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"144\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"144\" y=\"222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"144\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"144\" y=\"178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"144\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"144\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"144\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"144\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"144\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"144\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"300\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"156\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><polygon points=\"178,112 222,112 222,90 200,90 200,46 178,46\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"46,90 90,90 90,68 68,68 68,24 46,24\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"178,156 222,156 222,178 200,178 200,222 178,222\" fill=\"#fed7aa\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"90,156 46,156 46,178 68,178 68,222 90,222\" fill=\"#e9d5ff\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"215.4\" y=\"63.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1e3a8a\" font-weight=\"bold\">S</text><text x=\"85.6\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#166534\" font-weight=\"bold\">S₁</text><text x=\"215.4\" y=\"204.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#9a3412\" font-weight=\"bold\">S₂</text><text x=\"55.9\" y=\"204.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#6b21a8\" font-weight=\"bold\">S₃</text></svg>", "alt": "A coordinate grid with four L-shapes. S has corners (1, 1), (3, 1), (3, 2), (2, 2), (2, 4) and (1, 4). S₁ has corners (−5, 2), (−3, 2), (−3, 3), (−4, 3), (−4, 5) and (−5, 5). S₂ has corners (1, −1), (3, −1), (3, −2), (2, −2), (2, −4) and (1, −4). S₃ has corners (−3, −1), (−5, −1), (−5, −2), (−4, −2), (−4, −4) and (−3, −4)." },
+    "options": [
+      { "id": "a", "text": "$\\begin{pmatrix} -6 \\\\ 1 \\end{pmatrix}$" },
+      { "id": "b", "text": "$\\begin{pmatrix} 6 \\\\ -1 \\end{pmatrix}$" },
+      { "id": "c", "text": "$\\begin{pmatrix} 1 \\\\ -6 \\end{pmatrix}$" },
+      { "id": "d", "text": "$\\begin{pmatrix} -6 \\\\ -1 \\end{pmatrix}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This vector moves the shape the opposite way, from S₁ back to S.",
+      "c": "The top number is the move across and the bottom number is the move up or down. Don't swap them.",
+      "d": "S₁ is higher up the grid than S, so the move up/down is positive."
+    },
+    "hints": ["Pick one corner of S, such as (1, 1), and find the matching corner of S₁.", "How many units left or right, and how many up or down?"],
+    "solution": "The corner (1, 1) of S moves to (−5, 2) on S₁: 6 units left and 1 unit up. The vector is $\\begin{pmatrix} -6 \\\\ 1 \\end{pmatrix}$."
+  },
+  {
+    "id": "m9.geo.transformations.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 1,
+    "groupId": "m9.geo.transformations.g2",
+    "part": "b",
+    "stem": "Kōwhaiwhai are painted patterns found on the rafters of wharenui (meeting houses). Many kōwhaiwhai repeat a design using translations, reflections and rotations. Mere is planning a pattern on a grid. She starts with the L-shape S and makes three images of it: S₁, S₂ and S₃.",
+    "prompt": "S₂ is the image of S after a reflection. What is the mirror line?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 268\" width=\"312\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"244\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"46\" y1=\"244\" x2=\"46\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"68\" y1=\"244\" x2=\"68\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"90\" y1=\"244\" x2=\"90\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"112\" y1=\"244\" x2=\"112\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"244\" x2=\"134\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"178\" y1=\"244\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"200\" y1=\"244\" x2=\"200\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"222\" y1=\"244\" x2=\"222\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"244\" y1=\"244\" x2=\"244\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"266\" y1=\"244\" x2=\"266\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"244\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"288\" y2=\"244\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"288\" y2=\"222\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"288\" y2=\"200\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"288\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"288\" y2=\"112\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"288\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"288\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"288\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"46\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"68\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"90\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"112\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"134\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"178\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"200\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"222\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"244\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"266\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"288\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"144\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"144\" y=\"222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"144\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"144\" y=\"178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"144\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"144\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"144\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"144\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"144\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"144\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"300\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"156\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><polygon points=\"178,112 222,112 222,90 200,90 200,46 178,46\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"46,90 90,90 90,68 68,68 68,24 46,24\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"178,156 222,156 222,178 200,178 200,222 178,222\" fill=\"#fed7aa\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"90,156 46,156 46,178 68,178 68,222 90,222\" fill=\"#e9d5ff\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"215.4\" y=\"63.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1e3a8a\" font-weight=\"bold\">S</text><text x=\"85.6\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#166534\" font-weight=\"bold\">S₁</text><text x=\"215.4\" y=\"204.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#9a3412\" font-weight=\"bold\">S₂</text><text x=\"55.9\" y=\"204.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#6b21a8\" font-weight=\"bold\">S₃</text></svg>", "alt": "A coordinate grid with four L-shapes. S has corners (1, 1), (3, 1), (3, 2), (2, 2), (2, 4) and (1, 4). S₁ has corners (−5, 2), (−3, 2), (−3, 3), (−4, 3), (−4, 5) and (−5, 5). S₂ has corners (1, −1), (3, −1), (3, −2), (2, −2), (2, −4) and (1, −4). S₃ has corners (−3, −1), (−5, −1), (−5, −2), (−4, −2), (−4, −4) and (−3, −4)." },
+    "options": [
+      { "id": "a", "text": "The $x$-axis" },
+      { "id": "b", "text": "The $y$-axis" },
+      { "id": "c", "text": "The line $y = x$" },
+      { "id": "d", "text": "The line $x = 2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Reflecting in the $y$-axis would put the image on the left of the grid. S₂ is directly below S.",
+      "c": "Reflecting in $y = x$ swaps the coordinates, so (2, 4) would go to (4, 2). That corner isn't on S₂.",
+      "d": "The line $x = 2$ is vertical, so the image would be beside S, not below it."
+    },
+    "hints": ["S₂ is directly below S. Each corner keeps the same $x$-coordinate.", "Which line is exactly halfway between a corner of S and its image on S₂?"],
+    "solution": "Each corner $(x, y)$ of S goes to $(x, -y)$ on S₂: for example (2, 4) → (2, −4). The line halfway between them is $y = 0$, which is the **$x$-axis**."
+  },
+  {
+    "id": "m9.geo.transformations.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "m9.geo.transformations.g2",
+    "part": "c",
+    "stem": "Kōwhaiwhai are painted patterns found on the rafters of wharenui (meeting houses). Many kōwhaiwhai repeat a design using translations, reflections and rotations. Mere is planning a pattern on a grid. She starts with the L-shape S and makes three images of it: S₁, S₂ and S₃.",
+    "prompt": "S₃ is the image of S after a rotation. Describe this rotation fully.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 268\" width=\"312\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"244\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"46\" y1=\"244\" x2=\"46\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"68\" y1=\"244\" x2=\"68\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"90\" y1=\"244\" x2=\"90\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"112\" y1=\"244\" x2=\"112\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"244\" x2=\"134\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"178\" y1=\"244\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"200\" y1=\"244\" x2=\"200\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"222\" y1=\"244\" x2=\"222\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"244\" y1=\"244\" x2=\"244\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"266\" y1=\"244\" x2=\"266\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"244\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"288\" y2=\"244\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"288\" y2=\"222\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"288\" y2=\"200\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"288\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"288\" y2=\"112\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"288\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"288\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"288\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"46\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"68\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"90\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"112\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"134\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"178\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"200\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"222\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"244\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"266\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"288\" y=\"147\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"144\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"144\" y=\"222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"144\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"144\" y=\"178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"144\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"144\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"144\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"144\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"144\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"144\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"300\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"156\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><polygon points=\"178,112 222,112 222,90 200,90 200,46 178,46\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"46,90 90,90 90,68 68,68 68,24 46,24\" fill=\"#bbf7d0\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"178,156 222,156 222,178 200,178 200,222 178,222\" fill=\"#fed7aa\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"90,156 46,156 46,178 68,178 68,222 90,222\" fill=\"#e9d5ff\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"215.4\" y=\"63.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1e3a8a\" font-weight=\"bold\">S</text><text x=\"85.6\" y=\"41.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#166534\" font-weight=\"bold\">S₁</text><text x=\"215.4\" y=\"204.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#9a3412\" font-weight=\"bold\">S₂</text><text x=\"55.9\" y=\"204.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#6b21a8\" font-weight=\"bold\">S₃</text></svg>", "alt": "A coordinate grid with four L-shapes. S has corners (1, 1), (3, 1), (3, 2), (2, 2), (2, 4) and (1, 4). S₁ has corners (−5, 2), (−3, 2), (−3, 3), (−4, 3), (−4, 5) and (−5, 5). S₂ has corners (1, −1), (3, −1), (3, −2), (2, −2), (2, −4) and (1, −4). S₃ has corners (−3, −1), (−5, −1), (−5, −2), (−4, −2), (−4, −4) and (−3, −4)." },
+    "modelAnswer": "A rotation of 180° about the point (−1, 0). (A half turn is the same clockwise or anticlockwise.)",
+    "rubric": [
+      { "criterion": "Names the transformation as a rotation", "marks": 1 },
+      { "criterion": "Gives the angle: 180° (a half turn)", "marks": 1 },
+      { "criterion": "Gives the centre of rotation: (−1, 0)", "marks": 1 }
+    ],
+    "hints": ["A full description of a rotation needs three things: that it is a rotation, the angle (and direction), and the centre.", "S₃ is upside down compared with S. For a half turn, the centre is halfway between a point and its image."],
+    "solution": "S₃ is S turned upside down, so it is a half turn: a **rotation of 180°**. For a half turn, the centre is the midpoint of any point and its image. The corner (1, 1) of S goes to (−3, −1) on S₃, and the midpoint is $\\left(\\frac{1 + (-3)}{2}, \\frac{1 + (-1)}{2}\\right) = (-1, 0)$.\n\nSo the transformation is a **rotation of 180° about (−1, 0)**."
+  },
+  {
+    "id": "m9.geo.transformations.q016",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "A point lies exactly on a mirror line. The point is reflected in that mirror line. Where is its image?",
+    "options": [
+      { "id": "a", "text": "In the same place: the point does not move" },
+      { "id": "b", "text": "One unit away, on the other side of the line" },
+      { "id": "c", "text": "At the origin, (0, 0)" },
+      { "id": "d", "text": "Twice as far along the mirror line" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An image is the same distance from the mirror line as the point. This point is 0 units from the line, so its image is too.",
+      "c": "Reflections don't send points to the origin. The image is the same distance from the mirror line as the point.",
+      "d": "Reflection moves points straight across the mirror line, not along it."
+    },
+    "hints": ["How far is the point from the mirror line?"],
+    "solution": "A reflected point ends up the same distance from the mirror line as it started, on the other side. A point **on** the line is 0 units away, so its image is in **the same place**: it doesn't move."
+  },
+  {
+    "id": "m9.geo.transformations.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What does the translation vector $\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$ mean?",
+    "options": [
+      { "id": "a", "text": "3 units right and 2 units down" },
+      { "id": "b", "text": "3 units up and 2 units left" },
+      { "id": "c", "text": "3 units left and 2 units up" },
+      { "id": "d", "text": "2 units right and 3 units down" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The top number is the move across (right or left), and the bottom number is the move up or down.",
+      "c": "A positive top number means right, and a negative bottom number means down.",
+      "d": "The top number (3) is the move across, and the bottom number (−2) is the move up or down."
+    },
+    "hints": ["The top number tells you how far across, and the bottom number tells you how far up or down.", "Positive means right or up; negative means left or down."],
+    "solution": "The top number, 3, means **3 units right**. The bottom number, −2, means **2 units down**."
+  },
+  {
+    "id": "m9.geo.transformations.q018",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Mia reflects the point (4, 2) in the $x$-axis and writes (−4, 2). What should the answer be?",
+    "options": [
+      { "id": "a", "text": "(4, −2), because Mia reflected in the $y$-axis by mistake" },
+      { "id": "b", "text": "(−4, −2), because both signs should change" },
+      { "id": "c", "text": "(2, 4), because the coordinates should swap" },
+      { "id": "d", "text": "(−4, 2), because Mia is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Changing both signs is a rotation of 180° about the origin, not a reflection.",
+      "c": "Swapping the coordinates is a reflection in the line $y = x$.",
+      "d": "Reflecting in the $x$-axis keeps the $x$-coordinate and changes the sign of the $y$-coordinate."
+    },
+    "hints": ["The $x$-axis is the horizontal axis. A point and its image are the same distance above and below it.", "Which coordinate stays the same?"],
+    "solution": "Reflecting in the $x$-axis keeps $x$ the same and changes the sign of $y$: (4, 2) → **(4, −2)**. Mia changed the sign of $x$, which is a reflection in the $y$-axis."
+  },
+  {
+    "id": "m9.geo.transformations.q019",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Tom rotates the point P(3, 1) by 90° **anticlockwise** about the origin. He writes P′ = (1, −3). What is the correct image?",
+    "options": [
+      { "id": "a", "text": "(−1, 3)" },
+      { "id": "b", "text": "(1, −3), so Tom is right" },
+      { "id": "c", "text": "(−3, −1)" },
+      { "id": "d", "text": "(3, −1)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "(1, −3) is where P goes after a 90° **clockwise** turn.",
+      "c": "(−3, −1) is a half turn (180°), which changes the signs of both coordinates.",
+      "d": "(3, −1) is a reflection in the $x$-axis, not a rotation."
+    },
+    "hints": ["Sketch P(3, 1) and the line from the origin to P. Turn that line a quarter turn anticlockwise (the opposite way to clock hands).", "P starts in the first quadrant. Which quadrant is a quarter turn anticlockwise from there?"],
+    "solution": "A 90° anticlockwise turn about the origin sends $(x, y)$ to $(-y, x)$, so P(3, 1) → **(−1, 3)**. Check: P starts in the first quadrant, and a quarter turn anticlockwise moves it into the second quadrant ($x$ negative, $y$ positive). Tom's answer, (1, −3), is a 90° clockwise turn."
+  },
+  {
+    "id": "m9.geo.transformations.q020",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why rotating a shape 90° clockwise about a point gives the same image as rotating it 270° anticlockwise about the same point.",
+    "modelAnswer": "A full turn is 360°. Turning 270° anticlockwise is 90° short of a full turn (360° − 270° = 90°). Stopping 90° short of a full turn anticlockwise leaves the shape in the same place as turning 90° the other way, clockwise. The centre is the same, so the images are the same.",
+    "rubric": [
+      { "criterion": "Uses the fact that a full turn is 360°", "marks": 1 },
+      { "criterion": "Shows 360° − 270° = 90°, so 270° one way ends in the same place as 90° the other way", "marks": 1 }
+    ],
+    "hints": ["How many degrees are in a full turn?", "If you turn 270° anticlockwise, how much further would you need to turn to get all the way round?"],
+    "solution": "A full turn is 360°. Turning 270° anticlockwise is $360° - 270° = 90°$ short of a full turn, so the shape ends where a 90° turn the **other way** (clockwise) would take it. Same centre, same final position, so the images are identical."
+  },
+  {
+    "id": "m9.geo.transformations.q021",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Triangle T is translated by the vector $\\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix}$ to give T′. Which translation maps T′ back onto T?",
+    "options": [
+      { "id": "a", "text": "$\\begin{pmatrix} -4 \\\\ 3 \\end{pmatrix}$" },
+      { "id": "b", "text": "$\\begin{pmatrix} 4 \\\\ -3 \\end{pmatrix}$" },
+      { "id": "c", "text": "$\\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$" },
+      { "id": "d", "text": "$\\begin{pmatrix} 4 \\\\ 3 \\end{pmatrix}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Doing the same translation again moves T′ even further away from T.",
+      "c": "The top number is the move across and the bottom number is the move up or down. Don't swap them.",
+      "d": "To undo the move, **both** parts must be reversed: 4 right becomes 4 left, and 3 down becomes 3 up."
+    },
+    "hints": ["The first translation moved T 4 units right and 3 units down. How do you undo that?"],
+    "solution": "T moved 4 right and 3 down. To go back, move 4 left and 3 up: $\\begin{pmatrix} -4 \\\\ 3 \\end{pmatrix}$."
+  },
+  {
+    "id": "m9.geo.transformations.q022",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Triangle A is rotated 90° **clockwise** to give triangle B. Where is the centre of rotation?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 244 272\" width=\"244\" height=\"272\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"248\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"52\" y1=\"248\" x2=\"52\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"80\" y1=\"248\" x2=\"80\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"108\" y1=\"248\" x2=\"108\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"136\" y1=\"248\" x2=\"136\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"164\" y1=\"248\" x2=\"164\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"192\" y1=\"248\" x2=\"192\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"220\" y1=\"248\" x2=\"220\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"248\" x2=\"220\" y2=\"248\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"220\" x2=\"220\" y2=\"220\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"192\" x2=\"220\" y2=\"192\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"164\" x2=\"220\" y2=\"164\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"136\" x2=\"220\" y2=\"136\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"108\" x2=\"220\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"80\" x2=\"220\" y2=\"80\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"52\" x2=\"220\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"220\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"136\" x2=\"220\" y2=\"136\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"52\" y1=\"248\" x2=\"52\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"80\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"108\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"136\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"164\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"192\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"220\" y=\"149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"40\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"40\" y=\"220\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"40\" y=\"192\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"40\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"40\" y=\"108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"40\" y=\"80\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"40\" y=\"52\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"40\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"232\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"52\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><polygon points=\"80,108 164,108 80,52\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"108,136 108,220 164,136\" fill=\"#fed7aa\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"105.2\" y=\"91.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"124.8\" y=\"162.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">B</text></svg>", "alt": "A coordinate grid with two triangles. Triangle A has corners (1, 1), (4, 1) and (1, 3). Triangle B has corners (2, 0), (2, −3) and (4, 0)." },
+    "options": [
+      { "id": "a", "text": "(1, 0)" },
+      { "id": "b", "text": "(0, 0)" },
+      { "id": "c", "text": "(2, 1)" },
+      { "id": "d", "text": "(1, 1)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Rotating the corner (1, 1) by 90° clockwise about (0, 0) gives (1, −1), which is not a corner of B.",
+      "c": "Rotating the corner (1, 1) by 90° clockwise about (2, 1) gives (2, 2), which is not a corner of B.",
+      "d": "If (1, 1) were the centre, that corner of A would not move. But B has no corner at (1, 1)."
+    },
+    "hints": ["The centre of rotation is the one point that does not move.", "Test each option: turn one corner of A by 90° clockwise about that point and see if it lands on a corner of B."],
+    "solution": "Try (1, 0). The corner (1, 1) is 1 unit **above** (1, 0). A quarter turn clockwise moves it to 1 unit to the **right** of (1, 0), which is (2, 0), a corner of B ✓. In the same way (4, 1) → (2, −3) and (1, 3) → (4, 0) ✓.\n\nSo the centre of rotation is **(1, 0)**."
+  },
+  {
+    "id": "m9.geo.transformations.q023",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Kiri says that rotating a shape 180° about the origin always gives the same image as reflecting it in the $x$-axis. Use the point (2, 3) to show that Kiri is wrong.",
+    "modelAnswer": "Rotating (2, 3) by 180° about the origin gives (−2, −3). Reflecting (2, 3) in the x-axis gives (2, −3). These are different points, so the two transformations do not give the same image, and Kiri is wrong.",
+    "rubric": [
+      { "criterion": "Finds both images correctly: the rotation gives (−2, −3) and the reflection gives (2, −3)", "marks": 1 },
+      { "criterion": "States that the images are different, so Kiri is wrong", "marks": 1 }
+    ],
+    "hints": ["A rotation of 180° about the origin changes the signs of both coordinates.", "A reflection in the $x$-axis changes the sign of only one coordinate. Which one?"],
+    "solution": "Rotation of 180° about the origin: (2, 3) → **(−2, −3)**. Reflection in the $x$-axis: (2, 3) → **(2, −3)**. The images are different, so Kiri is wrong. (A half turn also keeps a shape the same way round, but a reflection flips it over.)"
+  },
+  {
+    "id": "m9.geo.transformations.q024",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Shape S is reflected in the $y$-axis and then translated 3 units to the right. Ana does the same two steps in the other order: she translates S 3 units to the right first, then reflects it in the $y$-axis. How do the two final images compare?",
+    "options": [
+      { "id": "a", "text": "Ana's image is 6 units to the left of the other image" },
+      { "id": "b", "text": "The two images are in exactly the same place" },
+      { "id": "c", "text": "Ana's image is 3 units to the left of the other image" },
+      { "id": "d", "text": "Ana's image is 6 units to the right of the other image" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Try a point such as (1, 2). Reflect then translate: (−1, 2) → (2, 2). Translate then reflect: (4, 2) → (−4, 2). They end in different places.",
+      "c": "Check with a point: the images of (1, 2) are (2, 2) and (−4, 2), which are 6 units apart.",
+      "d": "Ana's image of (1, 2) is (−4, 2), which is to the **left** of (2, 2)."
+    },
+    "hints": ["Follow one point, such as (1, 2), through both orders.", "Reflecting in the $y$-axis changes the sign of the $x$-coordinate."],
+    "solution": "Reflect then translate: $(x, y) \\to (-x, y) \\to (-x + 3, y)$.\n\nAna's order: $(x, y) \\to (x + 3, y) \\to (-x - 3, y)$.\n\nThe $x$-coordinates differ by $(-x + 3) - (-x - 3) = 6$, so Ana's image is **6 units to the left** of the other one. The order of transformations matters!"
   }
 ]

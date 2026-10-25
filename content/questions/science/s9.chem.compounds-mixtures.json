@@ -419,5 +419,427 @@
     "answer": 12,
     "hints": ["The 3 after the bracket multiplies everything inside the bracket.", "How many oxygen atoms are in one SO₄?"],
     "solution": "Inside the bracket, SO₄ has 4 oxygen atoms. The bracket is multiplied by 3, so there are $4 \\times 3 = 12$ oxygen atoms. (In total: Al 2, S 3, O 12.)"
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q027",
+    "type": "numeric",
+    "difficulty": 1,
+    "groupId": "s9.chem.compounds-mixtures.g1",
+    "part": "a",
+    "stem": "Aroha wants to find out which food colourings are in the coating of a lolly. She puts a spot of each of three food colourings, red (R), yellow (Y) and blue (B), and a spot of the lolly coating (L) on a pencil line near the bottom of some chromatography paper. She stands the paper in a beaker of water, with the pencil line above the water level. The diagram shows her result.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"380\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"70\" y=\"20\" width=\"240\" height=\"230\" rx=\"0\" fill=\"#fafaf9\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"45\" x2=\"310\" y2=\"45\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"6 4\"/><text x=\"316\" y=\"49\" font-size=\"12\" fill=\"#1f2937\">solvent</text><text x=\"316\" y=\"63\" font-size=\"12\" fill=\"#1f2937\">front</text><line x1=\"70\" y1=\"215\" x2=\"310\" y2=\"215\" stroke=\"#6b7280\" stroke-width=\"1.2\"/><text x=\"316\" y=\"219\" font-size=\"12\" fill=\"#1f2937\">pencil</text><text x=\"316\" y=\"233\" font-size=\"12\" fill=\"#1f2937\">line</text><circle cx=\"105\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"105\" cy=\"110\" rx=\"9\" ry=\"7\" fill=\"#ef4444\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"105\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">R</text><circle cx=\"162\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"162\" cy=\"76\" rx=\"9\" ry=\"7\" fill=\"#facc15\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"162\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">Y</text><circle cx=\"219\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"219\" cy=\"167\" rx=\"9\" ry=\"7\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"219\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"276\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"276\" cy=\"76\" rx=\"9\" ry=\"7\" fill=\"#facc15\" stroke=\"#374151\" stroke-width=\"1\"/><ellipse cx=\"276\" cy=\"139\" rx=\"9\" ry=\"7\" fill=\"#f472b6\" stroke=\"#374151\" stroke-width=\"1\"/><ellipse cx=\"276\" cy=\"167\" rx=\"9\" ry=\"7\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">L</text></svg>",
+      "alt": "A chromatogram. Lane R has one red spot about 60% of the way to the solvent front. Lane Y has one yellow spot about 80% of the way up. Lane B has one blue spot about 30% of the way up. Lane L has three spots: a yellow spot level with Y, a pink spot about 45% of the way up that matches none of the other lanes, and a blue spot level with B."
+    },
+    "prompt": "How many different dyes are in the lolly coating (L)?",
+    "answer": 3,
+    "form": "integer",
+    "hints": ["Each separate spot in a lane is a different dye."],
+    "solution": "Lane L has **3** separate spots, so the coating contains 3 different dyes."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q028",
+    "type": "multi",
+    "difficulty": 3,
+    "groupId": "s9.chem.compounds-mixtures.g1",
+    "part": "b",
+    "stem": "Aroha wants to find out which food colourings are in the coating of a lolly. She puts a spot of each of three food colourings, red (R), yellow (Y) and blue (B), and a spot of the lolly coating (L) on a pencil line near the bottom of some chromatography paper. She stands the paper in a beaker of water, with the pencil line above the water level. The diagram shows her result.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"380\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"70\" y=\"20\" width=\"240\" height=\"230\" rx=\"0\" fill=\"#fafaf9\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"45\" x2=\"310\" y2=\"45\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"6 4\"/><text x=\"316\" y=\"49\" font-size=\"12\" fill=\"#1f2937\">solvent</text><text x=\"316\" y=\"63\" font-size=\"12\" fill=\"#1f2937\">front</text><line x1=\"70\" y1=\"215\" x2=\"310\" y2=\"215\" stroke=\"#6b7280\" stroke-width=\"1.2\"/><text x=\"316\" y=\"219\" font-size=\"12\" fill=\"#1f2937\">pencil</text><text x=\"316\" y=\"233\" font-size=\"12\" fill=\"#1f2937\">line</text><circle cx=\"105\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"105\" cy=\"110\" rx=\"9\" ry=\"7\" fill=\"#ef4444\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"105\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">R</text><circle cx=\"162\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"162\" cy=\"76\" rx=\"9\" ry=\"7\" fill=\"#facc15\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"162\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">Y</text><circle cx=\"219\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"219\" cy=\"167\" rx=\"9\" ry=\"7\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"219\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"276\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"276\" cy=\"76\" rx=\"9\" ry=\"7\" fill=\"#facc15\" stroke=\"#374151\" stroke-width=\"1\"/><ellipse cx=\"276\" cy=\"139\" rx=\"9\" ry=\"7\" fill=\"#f472b6\" stroke=\"#374151\" stroke-width=\"1\"/><ellipse cx=\"276\" cy=\"167\" rx=\"9\" ry=\"7\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">L</text></svg>",
+      "alt": "A chromatogram. Lane R has one red spot about 60% of the way to the solvent front. Lane Y has one yellow spot about 80% of the way up. Lane B has one blue spot about 30% of the way up. Lane L has three spots: a yellow spot level with Y, a pink spot about 45% of the way up that matches none of the other lanes, and a blue spot level with B."
+    },
+    "prompt": "Which of the food colourings are in the lolly coating? Select **all** that apply.",
+    "options": [
+      { "id": "r", "text": "Red (R)" },
+      { "id": "y", "text": "Yellow (Y)" },
+      { "id": "b", "text": "Blue (B)" }
+    ],
+    "correct": ["y", "b"],
+    "shuffle": false,
+    "hints": ["A dye in L matches a food colouring if its spot has the same colour and has travelled exactly the same distance up the paper."],
+    "solution": "L has a spot level with Y and a spot level with B, so it contains the **yellow** and **blue** colourings. Its pink spot is at a different height from the red spot, so the red colouring is not in it. The pink dye is something Aroha did not test."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q029",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.chem.compounds-mixtures.g1",
+    "part": "c",
+    "stem": "Aroha wants to find out which food colourings are in the coating of a lolly. She puts a spot of each of three food colourings, red (R), yellow (Y) and blue (B), and a spot of the lolly coating (L) on a pencil line near the bottom of some chromatography paper. She stands the paper in a beaker of water, with the pencil line above the water level. The diagram shows her result.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"380\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"70\" y=\"20\" width=\"240\" height=\"230\" rx=\"0\" fill=\"#fafaf9\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"45\" x2=\"310\" y2=\"45\" stroke=\"#1f2937\" stroke-width=\"1.2\" stroke-dasharray=\"6 4\"/><text x=\"316\" y=\"49\" font-size=\"12\" fill=\"#1f2937\">solvent</text><text x=\"316\" y=\"63\" font-size=\"12\" fill=\"#1f2937\">front</text><line x1=\"70\" y1=\"215\" x2=\"310\" y2=\"215\" stroke=\"#6b7280\" stroke-width=\"1.2\"/><text x=\"316\" y=\"219\" font-size=\"12\" fill=\"#1f2937\">pencil</text><text x=\"316\" y=\"233\" font-size=\"12\" fill=\"#1f2937\">line</text><circle cx=\"105\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"105\" cy=\"110\" rx=\"9\" ry=\"7\" fill=\"#ef4444\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"105\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">R</text><circle cx=\"162\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"162\" cy=\"76\" rx=\"9\" ry=\"7\" fill=\"#facc15\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"162\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">Y</text><circle cx=\"219\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"219\" cy=\"167\" rx=\"9\" ry=\"7\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"219\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"276\" cy=\"215\" r=\"2.5\" fill=\"#6b7280\" stroke=\"#1f2937\" stroke-width=\"0.5\"/><ellipse cx=\"276\" cy=\"76\" rx=\"9\" ry=\"7\" fill=\"#facc15\" stroke=\"#374151\" stroke-width=\"1\"/><ellipse cx=\"276\" cy=\"139\" rx=\"9\" ry=\"7\" fill=\"#f472b6\" stroke=\"#374151\" stroke-width=\"1\"/><ellipse cx=\"276\" cy=\"167\" rx=\"9\" ry=\"7\" fill=\"#3b82f6\" stroke=\"#374151\" stroke-width=\"1\"/><text x=\"276\" y=\"241\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">L</text></svg>",
+      "alt": "A chromatogram. Lane R has one red spot about 60% of the way to the solvent front. Lane Y has one yellow spot about 80% of the way up. Lane B has one blue spot about 30% of the way up. Lane L has three spots: a yellow spot level with Y, a pink spot about 45% of the way up that matches none of the other lanes, and a blue spot level with B."
+    },
+    "prompt": "Explain why the dyes in the lolly coating separate into different spots.",
+    "modelAnswer": "The water (the solvent) soaks up the paper and dissolves the dyes, carrying them upwards. Each dye is different: some dissolve better in the water and are held less strongly by the paper, so they travel further, while others are held more strongly by the paper and travel a shorter distance. Because each dye moves a different distance, the mixture separates into separate spots.",
+    "rubric": [
+      { "criterion": "The water (solvent) moves up the paper, dissolving the dyes and carrying them with it", "marks": 1 },
+      { "criterion": "Different dyes have different solubility in the water or are attracted to the paper by different amounts", "marks": 1 },
+      { "criterion": "So the dyes travel different distances (at different speeds) and end up as separate spots", "marks": 1 }
+    ],
+    "hints": ["What carries the dyes up the paper?", "Why would one dye travel further than another?"],
+    "solution": "Solvent carries the dyes up; each dye has its own solubility and attraction to the paper, so each travels a different distance, and the mixture separates."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q030",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.compounds-mixtures.g2",
+    "part": "a",
+    "stem": "At Lake Grassmere in Marlborough, salt is made from sea water. Sea water is let into a series of large, shallow ponds, where the Sun and the wind slowly evaporate the water until salt crystals form.",
+    "prompt": "Is sea water a pure substance?",
+    "options": [
+      { "id": "a", "text": "No, it is a mixture: water with salts dissolved in it" },
+      { "id": "b", "text": "Yes, because it looks clear and the same all the way through" },
+      { "id": "c", "text": "Yes, because it is mostly water" },
+      { "id": "d", "text": "No, it is a compound of salt and water joined together" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Many solutions look clear and even. Looking the same all through does not mean only one substance is there.",
+      "c": "Being mostly water is not enough. A pure substance contains only one substance.",
+      "d": "The salt and water are not chemically joined. The salt can be separated just by evaporating the water."
+    },
+    "hints": ["A pure substance contains only one element or one compound."],
+    "solution": "Sea water is a **mixture** (a solution) of water with salts, mainly sodium chloride, dissolved in it. The salts can be separated from the water by evaporation, a physical method."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q031",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.chem.compounds-mixtures.g2",
+    "part": "b",
+    "stem": "At Lake Grassmere in Marlborough, salt is made from sea water. Sea water is let into a series of large, shallow ponds, where the Sun and the wind slowly evaporate the water until salt crystals form.",
+    "prompt": "Sea water contains about 35 g of dissolved salts in every 1 kg of sea water. What mass of salts could be obtained by evaporating 20 kg of sea water? Give your answer in **grams**.",
+    "answer": 700,
+    "units": "g",
+    "hints": ["Each kilogram gives 35 g of salts.", "Multiply by the number of kilograms."],
+    "solution": "20 kg × 35 g per kg = **700 g** of salts."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q032",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.chem.compounds-mixtures.g2",
+    "part": "c",
+    "stem": "At Lake Grassmere in Marlborough, salt is made from sea water. Sea water is let into a series of large, shallow ponds, where the Sun and the wind slowly evaporate the water until salt crystals form.",
+    "prompt": "Explain why **shallow** ponds in a **sunny, windy** place are a good way to get the salt out of sea water.",
+    "modelAnswer": "Evaporation happens at the surface of a liquid. Shallow ponds spread the water out so it has a large surface area, so more water particles can escape and it evaporates faster. Sunshine heats the water, giving the particles more energy so more of them escape, and the wind carries the water vapour away from the surface so evaporation keeps going.",
+    "rubric": [
+      { "criterion": "Evaporation happens at the surface, so shallow ponds (a large surface area) let the water evaporate faster", "marks": 1 },
+      { "criterion": "The Sun heats the water (particles gain energy) and/or the wind carries water vapour away, which speeds up evaporation", "marks": 1 }
+    ],
+    "hints": ["Where does evaporation happen?", "Think about what makes washing dry quickly on a clothesline."],
+    "solution": "Large surface area (shallow), warmth from the Sun and wind all speed up evaporation, leaving the salt behind."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q033",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.chem.compounds-mixtures.g3",
+    "part": "a",
+    "stem": "The table shows some substances found around New Zealand.\n\n| Substance | Where it is found | Formula |\n|---|---|---|\n| Hydrogen sulfide | Gas from geothermal vents at Rotorua | H₂S |\n| Calcium carbonate | Kina shells and limestone | CaCO₃ |\n| Sodium hydrogen carbonate | Baking soda | NaHCO₃ |\n| Citric acid | Lemon juice | C₆H₈O₇ |\n| Oxygen | The air | O₂ |",
+    "prompt": "How many atoms altogether are in one molecule of citric acid, C₆H₈O₇?",
+    "answer": 21,
+    "form": "integer",
+    "hints": ["Add up the small numbers after each symbol."],
+    "solution": "C₆H₈O₇ has 6 carbon + 8 hydrogen + 7 oxygen atoms = **21** atoms."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q034",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.chem.compounds-mixtures.g3",
+    "part": "b",
+    "stem": "The table shows some substances found around New Zealand.\n\n| Substance | Where it is found | Formula |\n|---|---|---|\n| Hydrogen sulfide | Gas from geothermal vents at Rotorua | H₂S |\n| Calcium carbonate | Kina shells and limestone | CaCO₃ |\n| Sodium hydrogen carbonate | Baking soda | NaHCO₃ |\n| Citric acid | Lemon juice | C₆H₈O₇ |\n| Oxygen | The air | O₂ |",
+    "prompt": "How many different **elements** are in sodium hydrogen carbonate, NaHCO₃?",
+    "answer": 4,
+    "form": "integer",
+    "hints": ["Each symbol starts with a capital letter. Count the different symbols, not the atoms."],
+    "solution": "NaHCO₃ contains Na (sodium), H (hydrogen), C (carbon) and O (oxygen): **4** different elements. (It has 6 atoms altogether, but that is a different question.)"
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q035",
+    "type": "multi",
+    "difficulty": 3,
+    "groupId": "s9.chem.compounds-mixtures.g3",
+    "part": "c",
+    "stem": "The table shows some substances found around New Zealand.\n\n| Substance | Where it is found | Formula |\n|---|---|---|\n| Hydrogen sulfide | Gas from geothermal vents at Rotorua | H₂S |\n| Calcium carbonate | Kina shells and limestone | CaCO₃ |\n| Sodium hydrogen carbonate | Baking soda | NaHCO₃ |\n| Citric acid | Lemon juice | C₆H₈O₇ |\n| Oxygen | The air | O₂ |",
+    "prompt": "Which of the substances in the table are **compounds**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Hydrogen sulfide, H₂S" },
+      { "id": "b", "text": "Calcium carbonate, CaCO₃" },
+      { "id": "c", "text": "Sodium hydrogen carbonate, NaHCO₃" },
+      { "id": "d", "text": "Citric acid, C₆H₈O₇" },
+      { "id": "e", "text": "Oxygen, O₂" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "shuffle": false,
+    "hints": ["A compound contains two or more **different** elements chemically joined.", "How many different elements are in O₂?"],
+    "solution": "H₂S, CaCO₃, NaHCO₃ and C₆H₈O₇ each contain more than one element, so they are **compounds**. O₂ has two atoms joined together, but both are oxygen, so it is an **element**."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q036",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "During filtration, what is the name of the liquid that passes through the filter paper?",
+    "accepted": ["filtrate", "the filtrate", "filtrates"],
+    "hints": ["The solid left on the filter paper is called the residue."],
+    "solution": "The liquid that passes through is the **filtrate**. The solid left behind on the filter paper is the residue."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q037",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Salt dissolves in water, so it is [[a]]. Sand does not dissolve in water, so it is [[b]]. A solution that cannot dissolve any more salt is [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["soluble"], "options": ["insoluble", "saturated", "soluble"] },
+      { "id": "b", "accepted": ["insoluble"], "options": ["insoluble", "saturated", "soluble"] },
+      { "id": "c", "accepted": ["saturated"], "options": ["insoluble", "saturated", "soluble"] }
+    ],
+    "hints": ["\"In-\" at the start of a word often means \"not\"."],
+    "solution": "Salt is **soluble**, sand is **insoluble**, and a solution that can't dissolve any more solute is **saturated**."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q038",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Brass, used for door handles and trumpets, is made by melting copper and zinc together and letting them set. Brass can be made with different amounts of zinc. What type of substance is brass?",
+    "options": [
+      { "id": "a", "text": "A mixture of metals (an alloy)" },
+      { "id": "b", "text": "A compound of copper and zinc" },
+      { "id": "c", "text": "A new element" },
+      { "id": "d", "text": "A pure substance" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In a compound the elements are chemically joined in a fixed ratio. Brass can contain different amounts of zinc, so it is not a compound.",
+      "c": "An element contains only one type of atom. Brass contains copper atoms and zinc atoms.",
+      "d": "Brass contains two different substances, copper and zinc, so it is not pure."
+    },
+    "hints": ["Are the amounts of copper and zinc fixed?"],
+    "solution": "Brass is an **alloy**, a mixture of metals. The copper and zinc are not chemically joined, which is why the proportions can vary. Steel (iron with a little carbon) is another alloy."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q039",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its description.",
+    "pairs": [
+      { "left": { "id": "el", "text": "Element" }, "right": { "id": "one", "text": "Made of only one type of atom" } },
+      { "left": { "id": "co", "text": "Compound" }, "right": { "id": "join", "text": "Two or more elements chemically joined in a fixed ratio" } },
+      { "left": { "id": "mi", "text": "Mixture" }, "right": { "id": "notj", "text": "Two or more substances together but not chemically joined" } },
+      { "left": { "id": "so", "text": "Solution" }, "right": { "id": "diss", "text": "A mixture where one substance is dissolved evenly in another" } },
+      { "left": { "id": "pu", "text": "Pure substance" }, "right": { "id": "only", "text": "Contains only one element or only one compound" } }
+    ],
+    "hints": ["A solution is a special kind of mixture."],
+    "solution": "Element: one type of atom. Compound: elements chemically joined in a fixed ratio. Mixture: substances together but not joined. Solution: one substance dissolved evenly in another. Pure substance: only one element or one compound."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q040",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the **mixtures**.",
+    "options": [
+      { "id": "a", "text": "Sea water" },
+      { "id": "b", "text": "Air" },
+      { "id": "c", "text": "Milk" },
+      { "id": "d", "text": "Steel" },
+      { "id": "e", "text": "Distilled water" },
+      { "id": "f", "text": "Oxygen" },
+      { "id": "g", "text": "Sodium chloride" },
+      { "id": "h", "text": "Carbon dioxide" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Steel is iron with a little carbon added. Milk contains water, fats, proteins and sugar."],
+    "solution": "**Sea water, air, milk and steel** are mixtures: each contains several substances that are not chemically joined. Distilled water and carbon dioxide are compounds, oxygen is an element, and sodium chloride is a compound. They are all pure substances."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Sugar dissolves faster in hot tea than in iced tea. Why?",
+    "options": [
+      { "id": "a", "text": "The particles in hot tea move faster, so they hit the sugar more often and its particles spread out more quickly" },
+      { "id": "b", "text": "The heat melts the sugar first, and the melted sugar then mixes into the tea quickly" },
+      { "id": "c", "text": "The water particles in hot tea are bigger, so each one can carry away more sugar" },
+      { "id": "d", "text": "Cold water cannot dissolve sugar at all, so only the hot tea dissolves it" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Tea is far below the melting point of sugar (about 186 °C). The sugar dissolves; it doesn't melt.",
+      "c": "Particles do not change size when they are heated. They just move faster.",
+      "d": "Sugar does dissolve in cold water, just more slowly."
+    },
+    "hints": ["How does temperature affect the movement of particles?"],
+    "solution": "In hot tea the water particles have more energy and move **faster**. They collide with the sugar more often and with more energy, so the sugar particles break away and spread out more quickly. Stirring and using smaller sugar crystals also speed up dissolving."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q042",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put the steps in order to separate a mixture of iron filings, salt and sand, so that you end up with all three separately.",
+    "items": [
+      { "id": "mag", "text": "While the mixture is dry, use a magnet to pull out the iron filings" },
+      { "id": "water", "text": "Add water to the sand and salt, and stir so the salt dissolves" },
+      { "id": "filter", "text": "Filter the mixture: the sand stays on the filter paper" },
+      { "id": "evap", "text": "Evaporate the water from the filtrate to leave the salt" }
+    ],
+    "hints": ["Which substance is magnetic?", "You can only filter out the sand once the salt has dissolved."],
+    "solution": "Magnet first (removes the iron while the mixture is dry) → add water to dissolve the salt → filter to trap the sand → evaporate the filtrate to get the salt."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q043",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "You want to separate **pure water** from some blue ink and **collect the water**. Which method should you use?",
+    "options": [
+      { "id": "a", "text": "Distillation" },
+      { "id": "b", "text": "Filtration" },
+      { "id": "c", "text": "Evaporation in an open dish" },
+      { "id": "d", "text": "Chromatography" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The dyes are dissolved in the water, so they pass straight through the filter paper with it.",
+      "c": "Evaporation leaves the dye behind, but the water escapes into the air, so you can't collect it.",
+      "d": "Chromatography separates the different dyes in the ink, but it doesn't give you the water."
+    },
+    "hints": ["You need to turn the water into a gas and then catch it again."],
+    "solution": "**Distillation**: the water is boiled off, the vapour is cooled in a condenser and turns back into pure liquid water, which is collected. The ink dyes stay behind in the flask."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q044",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A student has some clear, colourless liquid that she thinks is pure water. Which test would best show whether it is pure?",
+    "options": [
+      { "id": "a", "text": "Check that it boils at exactly 100 °C (at sea level) and freezes at exactly 0 °C" },
+      { "id": "b", "text": "Check that it looks clear and colourless, with nothing floating in it" },
+      { "id": "c", "text": "Pour it through filter paper and see whether anything is left on the paper" },
+      { "id": "d", "text": "Taste a little to check that it has no flavour at all" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Many solutions, such as salt water and sugar water, look clear and colourless.",
+      "c": "Dissolved substances pass straight through filter paper, so this can't show that nothing is dissolved.",
+      "d": "Never taste anything in a lab. Also, some dissolved substances have no taste."
+    },
+    "hints": ["Pure substances have fixed melting and boiling points. Dissolved impurities change them."],
+    "solution": "A pure substance has a **fixed boiling point and melting point**. Pure water boils at exactly 100 °C (at sea level) and freezes at exactly 0 °C. Dissolved impurities raise the boiling point and lower the freezing point."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q045",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "In a chromatography experiment, a student sets up the paper so that the spots of ink are **below** the water level in the beaker. What will happen?",
+    "options": [
+      { "id": "a", "text": "The dyes will dissolve into the water in the beaker instead of moving up the paper" },
+      { "id": "b", "text": "The dyes will travel up the paper faster and separate even better" },
+      { "id": "c", "text": "Nothing will change, because the water level does not matter" },
+      { "id": "d", "text": "The water will not soak up the paper at all" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The dyes are washed off the paper into the beaker, so they don't get carried up the paper to separate.",
+      "c": "The water level matters: the spots must be above it so the water reaches them by soaking up the paper.",
+      "d": "The paper still soaks up water, but the dyes have already been washed off into the beaker."
+    },
+    "hints": ["What does water do to the dyes when they touch it directly?"],
+    "solution": "If the spots are under the water, the dyes **dissolve into the water in the beaker** and are washed away, so there is little or nothing to separate. The start line must always be above the solvent level."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q046",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Which statements about **water**, H₂O, are correct? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "It is made of hydrogen and oxygen atoms chemically joined together" },
+      { "id": "b", "text": "Every water molecule has two hydrogen atoms and one oxygen atom" },
+      { "id": "c", "text": "Its properties are very different from those of hydrogen and oxygen" },
+      { "id": "d", "text": "It can be separated into hydrogen and oxygen by boiling it" },
+      { "id": "e", "text": "It is a mixture of hydrogen gas and oxygen gas" },
+      { "id": "f", "text": "The amount of oxygen in water varies from sample to sample" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Water is a compound. What is true of every compound?", "What is steam made of?"],
+    "solution": "Water is a **compound**: hydrogen and oxygen chemically joined, always in the ratio 2 H : 1 O, with properties unlike either element (hydrogen burns and oxygen helps things burn, but water puts fires out). Boiling only turns water into steam, which is still H₂O; splitting water needs a chemical reaction."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q047",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Describe how you could get pure drinking water from a sample of muddy, salty water. Explain why each step is needed.",
+    "modelAnswer": "First filter the water. The mud is made of insoluble particles, so it is trapped on the filter paper. The salt is dissolved, so it passes through the filter paper with the water, which means filtering alone does not make the water pure. Then distil the filtrate: heat it until the water boils, cool the water vapour in a condenser so it condenses back into liquid, and collect this pure water. The salt stays behind in the flask.",
+    "rubric": [
+      { "criterion": "Filter to remove the mud (insoluble particles stay on the filter paper)", "marks": 1 },
+      { "criterion": "Explains that the salt is dissolved, so it passes through the filter and another step is needed", "marks": 1 },
+      { "criterion": "Distil: boil the water, condense the vapour in a condenser and collect the pure water (salt stays behind)", "marks": 1 }
+    ],
+    "hints": ["The mud and the salt need different methods.", "Which method lets you collect the water rather than lose it to the air?"],
+    "solution": "Filter (removes insoluble mud) → distil the filtrate (boil, condense and collect the water; the dissolved salt is left behind)."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q048",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Sam says, \"Salt water is a compound, because the salt and the water are joined together.\" Explain why Sam is wrong. Give **two** pieces of evidence.",
+    "modelAnswer": "Salt water is a mixture (a solution), not a compound, because the salt and water are not chemically joined. Evidence 1: the salt can be got back just by evaporating the water, which is a physical method; separating a compound needs a chemical reaction. Evidence 2: you can dissolve different amounts of salt in the same amount of water, but a compound always has a fixed ratio of elements. (Also, the salt and water keep their own properties: the water still tastes salty.)",
+    "rubric": [
+      { "criterion": "Salt water is a mixture (solution): the salt and water are not chemically joined", "marks": 1 },
+      { "criterion": "Evidence: the salt can be separated by a physical method such as evaporation", "marks": 1 },
+      { "criterion": "Second piece of evidence: the amount of salt can vary (no fixed ratio), or the salt and water keep their own properties", "marks": 1 }
+    ],
+    "hints": ["How can you get the salt back out?", "Can you make salt water stronger or weaker?"],
+    "solution": "It is a mixture. Evaporation separates it (physical method), and the proportions can vary; a compound has a fixed ratio and needs a chemical reaction to separate it."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q049",
+    "type": "numeric",
+    "difficulty": 5,
+    "prompt": "At 60 °C, up to 110 g of potassium nitrate will dissolve in 100 g of water. At 20 °C, only 32 g will dissolve. A saturated solution of potassium nitrate in 100 g of water at 60 °C is cooled to 20 °C. What mass of potassium nitrate crystals forms?",
+    "answer": 78,
+    "units": "g",
+    "hints": ["How much is dissolved at 60 °C? How much can stay dissolved at 20 °C?", "The rest comes out of the solution as crystals."],
+    "solution": "At 60 °C the saturated solution holds 110 g. At 20 °C only 32 g can stay dissolved, so 110 − 32 = **78 g** crystallises out."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q050",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "A mixture of ethanol (boils at 78 °C) and water (boils at 100 °C) is distilled. The liquid collected at around 78 °C is mostly ethanol, but tests show it still contains a little water. Why?",
+    "options": [
+      { "id": "a", "text": "Some water evaporates even below its boiling point, so a little is carried over with the ethanol" },
+      { "id": "b", "text": "Ethanol and water are chemically joined, so they can never be separated" },
+      { "id": "c", "text": "The thermometer must be faulty, because ethanol always distils on its own at 78 °C" },
+      { "id": "d", "text": "Some of the ethanol turns into water when it is heated" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "They are a mixture, not a compound. Distillation separates most of the ethanol from the water.",
+      "c": "The thermometer is fine. The problem is that water also evaporates at 78 °C, just more slowly.",
+      "d": "Heating ethanol in distillation is a physical change. It doesn't turn into a different substance."
+    },
+    "hints": ["Does a liquid have to reach its boiling point before any of it can evaporate?"],
+    "solution": "Evaporation happens at **any** temperature, not just at the boiling point. At 78 °C some water particles also have enough energy to escape, so a little water vapour is carried over and condenses with the ethanol. That is why simple distillation can't make completely pure ethanol from this mixture."
+  },
+  {
+    "id": "s9.chem.compounds-mixtures.q051",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Sodium chloride (table salt) melts at 801 °C, but sugar melts at only about 186 °C. Use ideas about **ionic lattices** and **molecules** to explain this difference.",
+    "modelAnswer": "Sodium chloride is an ionic compound. It forms a giant lattice: a huge, regular arrangement of positive sodium ions and negative chloride ions. Every ion is strongly attracted to the oppositely charged ions around it, all through the lattice, so a lot of energy (a very high temperature) is needed to break the lattice apart and melt it. Sugar is made of separate molecules. The forces holding one sugar molecule to the next are much weaker, so much less energy is needed to separate the molecules, and sugar melts at a much lower temperature.",
+    "rubric": [
+      { "criterion": "Sodium chloride is a giant lattice of positive sodium ions and negative chloride ions", "marks": 1 },
+      { "criterion": "Strong attractions between oppositely charged ions all through the lattice need a lot of energy (high temperature) to overcome", "marks": 1 },
+      { "criterion": "Sugar is made of separate molecules with weak forces between them, so less energy is needed and it melts at a lower temperature", "marks": 1 }
+    ],
+    "hints": ["What holds the particles together in each substance?", "Melting means separating the particles enough that they can move past each other."],
+    "solution": "Salt: a lattice of oppositely charged ions with strong attractions throughout, so a high melting point. Sugar: separate molecules with weak forces between them, so a lower melting point."
   }
 ]

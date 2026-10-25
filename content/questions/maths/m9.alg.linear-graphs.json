@@ -212,5 +212,265 @@
     ],
     "hints": ["Pick some points on the line $y = 3$. What do you notice about their $y$-coordinates?"],
     "solution": "On a horizontal line, like the one through $(-2, 3)$, $(0, 3)$ and $(4, 3)$, the $y$-value never changes, so the line isn't steep at all: gradient 0. With $m = 0$, $y = mx + c$ becomes $y = c$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q013",
+    "type": "expression",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.linear-graphs.g1",
+    "part": "a",
+    "stem": "Aroha is comparing two phone plans.\n\n**Plan A** charges a fixed amount each month, plus a cost for each gigabyte (GB) of data used. The table shows some monthly costs.\n\n| Data used, $d$ (GB) | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Cost, $C$ (\\$) | 15 | 20 | 25 | 30 |\n\n**Plan B** costs \\$40 a month, however much data is used.",
+    "prompt": "Write a rule for the monthly cost, $C$ dollars, of Plan A when $d$ GB of data are used.",
+    "answer": "5*d + 15",
+    "variables": ["d"],
+    "hints": ["How much does the cost go up for each extra GB?", "What is the cost when $d = 0$?"],
+    "solution": "The cost goes up by \\$5 for each GB, and the cost when $d = 0$ is \\$15. So $C = 5d + 15$.\n\nCheck: $d = 3$ gives $5 \\times 3 + 15 = 30$ ✓"
+  },
+  {
+    "id": "m9.alg.linear-graphs.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "m9.alg.linear-graphs.g1",
+    "part": "b",
+    "stem": "Aroha is comparing two phone plans.\n\n**Plan A** charges a fixed amount each month, plus a cost for each gigabyte (GB) of data used. The table shows some monthly costs.\n\n| Data used, $d$ (GB) | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Cost, $C$ (\\$) | 15 | 20 | 25 | 30 |\n\n**Plan B** costs \\$40 a month, however much data is used.",
+    "prompt": "Aroha draws a graph of both plans, with data used, $d$, on the horizontal axis and cost, $C$, on the vertical axis. Which describes the graph of Plan B?",
+    "options": [
+      { "id": "a", "text": "A horizontal line through \\$40, with gradient 0" },
+      { "id": "b", "text": "A line through the origin that slopes upwards" },
+      { "id": "c", "text": "A vertical line through $d = 40$" },
+      { "id": "d", "text": "A line that starts at \\$40 and slopes downwards" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plan B's cost doesn't go up as more data is used, so the line doesn't slope up. It doesn't start at \\$0 either.",
+      "c": "A vertical line would mean $d$ is always 40. Here it is the cost that stays the same.",
+      "d": "The cost never goes down: it stays at \\$40 whatever the data."
+    },
+    "hints": ["Does Plan B's cost change as $d$ increases?"],
+    "solution": "Plan B always costs \\$40, so every point on its graph has $C = 40$. That is a horizontal line, $C = 40$, and a horizontal line has gradient 0.\n\nPlan A's graph is a line with a positive gradient (5) that crosses the vertical axis at 15."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.linear-graphs.g1",
+    "part": "c",
+    "stem": "Aroha is comparing two phone plans.\n\n**Plan A** charges a fixed amount each month, plus a cost for each gigabyte (GB) of data used. The table shows some monthly costs.\n\n| Data used, $d$ (GB) | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Cost, $C$ (\\$) | 15 | 20 | 25 | 30 |\n\n**Plan B** costs \\$40 a month, however much data is used.",
+    "prompt": "What is the greatest whole number of GB Aroha can use in a month for Plan A to be **cheaper** than Plan B?",
+    "answer": 4,
+    "hints": ["Find a rule for the cost of Plan A. When is it less than 40?", "At how many GB do the two plans cost the same?"],
+    "solution": "Plan A costs $5d + 15$ dollars. It is cheaper than Plan B when $5d + 15 < 40$.\n\nSubtract 15: $5d < 25$\n\nDivide by 5: $d < 5$\n\nAt exactly 5 GB both plans cost \\$40: this is where the two lines cross. For Plan A to be cheaper, Aroha must use less than 5 GB, so the greatest whole number is **4 GB** (Plan A then costs \\$35)."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q016",
+    "type": "numeric",
+    "difficulty": 1,
+    "marks": 1,
+    "groupId": "m9.alg.linear-graphs.g2",
+    "part": "a",
+    "stem": "A candle is lit and burns down at a steady rate. The graph shows its height, $h$ cm, $t$ hours after it was lit.",
+    "prompt": "How tall was the candle when it was lit?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 356 284\" width=\"356\" height=\"284\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"234\" x2=\"58\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"92\" y1=\"234\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"126\" y1=\"234\" x2=\"126\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"160\" y1=\"234\" x2=\"160\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"194\" y1=\"234\" x2=\"194\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"234\" x2=\"228\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"234\" x2=\"262\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"296\" y1=\"234\" x2=\"296\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"234\" x2=\"330\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"330\" y2=\"234\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"216\" x2=\"330\" y2=\"216\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"198\" x2=\"330\" y2=\"198\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"180\" x2=\"330\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"162\" x2=\"330\" y2=\"162\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"144\" x2=\"330\" y2=\"144\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"126\" x2=\"330\" y2=\"126\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"108\" x2=\"330\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"72\" x2=\"330\" y2=\"72\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"54\" x2=\"330\" y2=\"54\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"36\" x2=\"330\" y2=\"36\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"18\" x2=\"330\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"330\" y2=\"234\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"58\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"58\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><text x=\"92\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"126\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"160\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"194\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"228\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"262\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"296\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"330\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"46\" y=\"198\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"46\" y=\"162\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"46\" y=\"126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">12</text><text x=\"46\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">16</text><text x=\"46\" y=\"54\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><text x=\"46\" y=\"18\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">24</text><text x=\"194\" y=\"272\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time, t (hours)</text><text x=\"16\" y=\"126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 126)\">Height, h (cm)</text><line x1=\"58\" y1=\"18\" x2=\"330\" y2=\"234\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"18\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"126\" cy=\"72\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"194\" cy=\"126\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"262\" cy=\"180\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"330\" cy=\"234\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Graph with time t in hours from 0 to 8 across and height h in cm from 0 to 24 up. A straight line goes down from (0, 24) to (8, 0), passing through the points (2, 18), (4, 12) and (6, 6)."
+    },
+    "answer": 24,
+    "units": "cm",
+    "hints": ["When it was lit, $t = 0$. Where does the line meet the vertical axis?"],
+    "solution": "When the candle was lit, $t = 0$. The line meets the vertical axis at 24, so the candle was 24 cm tall. This is the intercept on the vertical axis."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q017",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "m9.alg.linear-graphs.g2",
+    "part": "b",
+    "stem": "A candle is lit and burns down at a steady rate. The graph shows its height, $h$ cm, $t$ hours after it was lit.",
+    "prompt": "Is the gradient of the line positive or negative, and what does it tell you about the candle?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 356 284\" width=\"356\" height=\"284\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"234\" x2=\"58\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"92\" y1=\"234\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"126\" y1=\"234\" x2=\"126\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"160\" y1=\"234\" x2=\"160\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"194\" y1=\"234\" x2=\"194\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"234\" x2=\"228\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"234\" x2=\"262\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"296\" y1=\"234\" x2=\"296\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"234\" x2=\"330\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"330\" y2=\"234\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"216\" x2=\"330\" y2=\"216\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"198\" x2=\"330\" y2=\"198\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"180\" x2=\"330\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"162\" x2=\"330\" y2=\"162\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"144\" x2=\"330\" y2=\"144\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"126\" x2=\"330\" y2=\"126\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"108\" x2=\"330\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"72\" x2=\"330\" y2=\"72\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"54\" x2=\"330\" y2=\"54\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"36\" x2=\"330\" y2=\"36\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"18\" x2=\"330\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"330\" y2=\"234\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"58\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"58\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><text x=\"92\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"126\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"160\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"194\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"228\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"262\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"296\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"330\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"46\" y=\"198\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"46\" y=\"162\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"46\" y=\"126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">12</text><text x=\"46\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">16</text><text x=\"46\" y=\"54\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><text x=\"46\" y=\"18\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">24</text><text x=\"194\" y=\"272\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time, t (hours)</text><text x=\"16\" y=\"126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 126)\">Height, h (cm)</text><line x1=\"58\" y1=\"18\" x2=\"330\" y2=\"234\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"18\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"126\" cy=\"72\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"194\" cy=\"126\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"262\" cy=\"180\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"330\" cy=\"234\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Graph with time t in hours from 0 to 8 across and height h in cm from 0 to 24 up. A straight line goes down from (0, 24) to (8, 0), passing through the points (2, 18), (4, 12) and (6, 6)."
+    },
+    "options": [
+      { "id": "a", "text": "Negative: the candle gets shorter as time goes on" },
+      { "id": "b", "text": "Positive: the time keeps increasing" },
+      { "id": "c", "text": "Negative: the candle burns faster as time goes on" },
+      { "id": "d", "text": "Zero: the candle burns at a steady rate" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The gradient describes how $h$ changes as $t$ increases. The height goes down, so the gradient is negative.",
+      "c": "The line is straight, so the candle burns at the same rate the whole time.",
+      "d": "A gradient of 0 would mean the height doesn't change. A steady rate gives a straight line, but this line slopes down."
+    },
+    "hints": ["Read the line from left to right. Does it go up or down?"],
+    "solution": "Reading from left to right, the line slopes down, so the gradient is negative. As time increases, the height decreases: the candle is getting shorter. Because the line is straight, it burns at a steady rate (3 cm every hour)."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q018",
+    "type": "expression",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.linear-graphs.g2",
+    "part": "c",
+    "stem": "A candle is lit and burns down at a steady rate. The graph shows its height, $h$ cm, $t$ hours after it was lit.",
+    "prompt": "Write an equation for the height of the candle, $h$ cm, after $t$ hours. Type the expression that $h$ is equal to.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 356 284\" width=\"356\" height=\"284\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"234\" x2=\"58\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"92\" y1=\"234\" x2=\"92\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"126\" y1=\"234\" x2=\"126\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"160\" y1=\"234\" x2=\"160\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"194\" y1=\"234\" x2=\"194\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"228\" y1=\"234\" x2=\"228\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"234\" x2=\"262\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"296\" y1=\"234\" x2=\"296\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"234\" x2=\"330\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"330\" y2=\"234\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"216\" x2=\"330\" y2=\"216\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"198\" x2=\"330\" y2=\"198\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"180\" x2=\"330\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"162\" x2=\"330\" y2=\"162\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"144\" x2=\"330\" y2=\"144\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"126\" x2=\"330\" y2=\"126\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"108\" x2=\"330\" y2=\"108\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"72\" x2=\"330\" y2=\"72\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"54\" x2=\"330\" y2=\"54\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"36\" x2=\"330\" y2=\"36\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"18\" x2=\"330\" y2=\"18\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"330\" y2=\"234\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"58\" y1=\"234\" x2=\"58\" y2=\"18\" stroke=\"#1f2937\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"58\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">0</text><text x=\"92\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"126\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"160\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"194\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"228\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"262\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"296\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"330\" y=\"248\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"46\" y=\"198\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"46\" y=\"162\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"46\" y=\"126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">12</text><text x=\"46\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">16</text><text x=\"46\" y=\"54\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">20</text><text x=\"46\" y=\"18\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">24</text><text x=\"194\" y=\"272\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Time, t (hours)</text><text x=\"16\" y=\"126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" transform=\"rotate(-90 16 126)\">Height, h (cm)</text><line x1=\"58\" y1=\"18\" x2=\"330\" y2=\"234\" stroke=\"#2563eb\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"58\" cy=\"18\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"126\" cy=\"72\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"194\" cy=\"126\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"262\" cy=\"180\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"330\" cy=\"234\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Graph with time t in hours from 0 to 8 across and height h in cm from 0 to 24 up. A straight line goes down from (0, 24) to (8, 0), passing through the points (2, 18), (4, 12) and (6, 6)."
+    },
+    "answer": "24 - 3*t",
+    "variables": ["t"],
+    "hints": ["How much does the height drop in each hour? Use two points on the line.", "Start with the height when $t = 0$, then take off the drop for $t$ hours."],
+    "solution": "The candle starts at 24 cm. From $(0, 24)$ to $(2, 18)$ it drops 6 cm in 2 hours, which is 3 cm per hour. So the gradient is $-3$.\n\n$h = 24 - 3t$ (or $h = -3t + 24$)\n\nCheck: at $t = 8$, $h = 24 - 24 = 0$, which matches the graph: the candle has burnt down completely."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which point is 3 units to the **left** of the $y$-axis and 4 units **above** the $x$-axis?",
+    "options": [
+      { "id": "a", "text": "$(-3, 4)$" },
+      { "id": "b", "text": "$(4, -3)$" },
+      { "id": "c", "text": "$(3, -4)$" },
+      { "id": "d", "text": "$(-4, 3)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This point is 4 to the right and 3 below. The $x$-coordinate (left or right) comes first.",
+      "c": "This point is 3 to the right and 4 below. Left means a negative $x$-coordinate, and above means a positive $y$-coordinate.",
+      "d": "The coordinates are the wrong way round: $x$ (across) comes first, then $y$ (up or down)."
+    },
+    "hints": ["Coordinates are written $(x, y)$: across first, then up or down.", "Left of the $y$-axis means a negative $x$-coordinate."],
+    "solution": "3 units left means $x = -3$, and 4 units up means $y = 4$. The point is $(-3, 4)$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q020",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which line passes through the origin, $(0, 0)$?",
+    "options": [
+      { "id": "a", "text": "$y = 3x$" },
+      { "id": "b", "text": "$y = x + 3$" },
+      { "id": "c", "text": "$y = 3$" },
+      { "id": "d", "text": "$y = 3x - 3$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "When $x = 0$, $y = 3$, so this line crosses the $y$-axis at $(0, 3)$.",
+      "c": "This is a horizontal line through $(0, 3)$.",
+      "d": "When $x = 0$, $y = -3$, so this line crosses the $y$-axis at $(0, -3)$."
+    },
+    "hints": ["Substitute $x = 0$ into each equation. Which one gives $y = 0$?"],
+    "solution": "Substituting $x = 0$: $y = 3 \\times 0 = 0$, so $y = 3x$ passes through $(0, 0)$. Its $y$-intercept, $c$, is 0.\n\nThe other lines have $c = 3$, $3$ and $-3$, so they cross the $y$-axis somewhere else."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q021",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "How many points lie on the line $y = 2x + 1$?",
+    "options": [
+      { "id": "a", "text": "Infinitely many: every point whose coordinates make the equation true" },
+      { "id": "b", "text": "Only the points that are in a table of values" },
+      { "id": "c", "text": "Exactly two, because you need two points to draw a line" },
+      { "id": "d", "text": "Only the points with whole-number coordinates" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A table shows only a few points. The line keeps going between and beyond them.",
+      "c": "Two points are enough to **draw** the line, but the line contains many more points.",
+      "d": "Points like $(0.5, 2)$ are on the line too, because $2 \\times 0.5 + 1 = 2$."
+    },
+    "hints": ["Is $(0.5, 2)$ on the line? What about $(100, 201)$?"],
+    "solution": "A line is the set of **all** the solutions of its equation. For every value of $x$ (including decimals, fractions and negatives) there is a matching $y$, so there are infinitely many points.\n\nFor example, $(0.5, 2)$, $(-3, -5)$ and $(100, 201)$ are all on $y = 2x + 1$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q022",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Nikau made this table of values for $y = 2x - 1$.\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y$ | $-5$ | $-1$ | $-1$ | $1$ | $3$ |\n\nOne of his $y$-values is wrong. Which one?",
+    "options": [
+      { "id": "a", "text": "When $x = -1$, $y$ should be $-3$" },
+      { "id": "b", "text": "When $x = 0$, $y$ should be $0$" },
+      { "id": "c", "text": "When $x = -2$, $y$ should be $-3$" },
+      { "id": "d", "text": "When $x = 2$, $y$ should be $4$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2 \\times 0 - 1 = -1$, so Nikau's value is correct.",
+      "c": "$2 \\times (-2) - 1 = -4 - 1 = -5$, so Nikau's value is correct.",
+      "d": "$2 \\times 2 - 1 = 3$, so Nikau's value is correct."
+    },
+    "hints": ["Substitute each $x$-value into $y = 2x - 1$.", "For a straight line, the $y$-values should change by the same amount each time."],
+    "solution": "When $x = -1$: $y = 2 \\times (-1) - 1 = -2 - 1 = -3$. Nikau wrote $-1$.\n\nA quick check: $y = 2x - 1$ has gradient 2, so the $y$-values should go up by 2 each time: $-5, -3, -1, 1, 3$. Nikau's table jumps from $-5$ to $-1$, which shows something is wrong."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q023",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The line $y = mx + 4$ passes through the point $(2, 10)$. Find the value of $m$.",
+    "answer": 3,
+    "hints": ["Substitute $x = 2$ and $y = 10$ into $y = mx + 4$.", "Solve the equation you get for $m$."],
+    "solution": "Substitute the point: $10 = m \\times 2 + 4$\n\nSubtract 4: $6 = 2m$\n\nDivide by 2: $m = 3$\n\nThe line is $y = 3x + 4$. Check: $3 \\times 2 + 4 = 10$ ✓"
+  },
+  {
+    "id": "m9.alg.linear-graphs.q024",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "The table shows some points.\n\n| $x$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $y$ | 11 | 8 | 5 | 2 |\n\nExplain how you can tell, without plotting them, that the points lie on a straight line with a **negative** gradient.",
+    "modelAnswer": "As $x$ goes up by 1 each time, $y$ goes down by 3 each time ($11 \\to 8 \\to 5 \\to 2$). Because $y$ changes by the same amount each time, the points lie on a straight line. Because $y$ decreases as $x$ increases, the line slopes down from left to right, so the gradient is negative (it is $-3$).",
+    "rubric": [
+      { "criterion": "Explains that $y$ changes by the same amount (down 3) for each step of 1 in $x$, so the points lie on a straight line", "marks": 1 },
+      { "criterion": "Explains that $y$ decreases as $x$ increases, so the gradient is negative", "marks": 1 }
+    ],
+    "hints": ["Look at how much $y$ changes each time $x$ goes up by 1.", "Is $y$ getting bigger or smaller as $x$ increases?"],
+    "solution": "Each time $x$ goes up by 1, $y$ goes down by 3. A constant change means a straight line. Since $y$ goes **down** as $x$ goes up, the line slopes down from left to right, so the gradient is negative. In fact the line is $y = -3x + 11$."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q025",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Sione says the lines $y = 2x + 3$ and $y = 2x - 1$ will cross somewhere if you draw them long enough. Is he right? Explain your answer.",
+    "modelAnswer": "Sione is wrong. Both lines have gradient 2, so they are equally steep: they are parallel. For any value of $x$, the first line's $y$-value is 4 more than the second line's ($2x + 3$ compared with $2x - 1$). The lines stay 4 units apart forever, so they never cross.",
+    "rubric": [
+      { "criterion": "Notes that both lines have the same gradient (2), so they are equally steep or parallel", "marks": 1 },
+      { "criterion": "Explains that one line is always 4 units above the other (or that $2x + 3 = 2x - 1$ has no solution), so they never cross", "marks": 1 }
+    ],
+    "hints": ["Compare the gradients of the two lines.", "For the same $x$, how far apart are the two $y$-values?"],
+    "solution": "Both lines have gradient 2, so they are equally steep: they are **parallel**. For any $x$, $y = 2x + 3$ is 4 more than $y = 2x - 1$. For example, at $x = 0$ the $y$-values are 3 and $-1$, and at $x = 10$ they are 23 and 19.\n\nTrying to find a crossing point gives $2x + 3 = 2x - 1$, so $3 = -1$, which is impossible. Sione is wrong."
+  },
+  {
+    "id": "m9.alg.linear-graphs.q026",
+    "type": "expression",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "A straight line passes through the points $(1, 5)$ and $(3, 11)$. Find its equation in the form $y = mx + c$.\n\nType the expression that $y$ is equal to.",
+    "answer": "3*x + 2",
+    "variables": ["x"],
+    "hints": ["From $x = 1$ to $x = 3$, how much does $y$ go up? How much is that for each step of 1 in $x$?", "Once you know $m$, substitute one of the points to find $c$."],
+    "solution": "From $(1, 5)$ to $(3, 11)$, $x$ goes up by 2 and $y$ goes up by 6. So $y$ goes up by $6 \\div 2 = 3$ for each 1 across: $m = 3$.\n\nSubstitute $(1, 5)$ into $y = 3x + c$: $5 = 3 + c$, so $c = 2$.\n\n$y = 3x + 2$. Check with $(3, 11)$: $3 \\times 3 + 2 = 11$ ✓"
+  },
+  {
+    "id": "m9.alg.linear-graphs.q027",
+    "type": "text",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The lines $y = 2x + 1$ and $y = 7 - x$ cross at one point. Find the coordinates of that point.\n\nWrite your answer as $(x, y)$.",
+    "accepted": ["(2, 5)", "(2,5)", "2, 5", "x = 2, y = 5", "x = 2 and y = 5"],
+    "hints": ["At the crossing point, both lines have the same $y$-value for the same $x$.", "Make a table of values for both lines with $x = 0, 1, 2, 3$, or solve $2x + 1 = 7 - x$."],
+    "solution": "At the crossing point the $y$-values are equal:\n\n$2x + 1 = 7 - x$\n\nAdd $x$: $3x + 1 = 7$\n\nSubtract 1: $3x = 6$, so $x = 2$.\n\nThen $y = 2 \\times 2 + 1 = 5$. Check with the other line: $7 - 2 = 5$ ✓\n\nThe lines cross at $(2, 5)$. A table of values shows the same thing: when $x = 2$, both lines give $y = 5$."
   }
 ]

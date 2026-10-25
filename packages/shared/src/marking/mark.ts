@@ -52,7 +52,10 @@ function markNumeric(q: QuestionOfType<'numeric'>, value: string): MarkResult {
 
   // Units: only judge them when the question names a unit and the student typed one.
   if (close && parsed.unit && q.units && q.units !== '$' && q.units !== '%') {
-    if (normaliseUnit(parsed.unit) !== normaliseUnit(q.units)) {
+    const given = normaliseUnit(parsed.unit);
+    const wanted = normaliseUnit(q.units);
+    // "46°" is fine for a temperature in °C.
+    if (given !== wanted && !(wanted === '°c' && given === '°')) {
       return result(q, 0, { feedback: `Check your units — the answer should be in ${q.units}.` });
     }
   }

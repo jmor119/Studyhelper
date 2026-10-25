@@ -183,5 +183,258 @@
     ],
     "hints": ["Write out $5^3$, $5^2$ and $5^1$.", "What do you do to get from each one to the next?"],
     "solution": "$5^3 = 125 \\to 5^2 = 25 \\to 5^1 = 5 \\to 5^0 = 1$, dividing by 5 each time."
+  },
+  {
+    "id": "m9.num.powers.q011",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.powers.g1",
+    "part": "a",
+    "stem": "A school project uses these rounded figures for New Zealand:\n\n- People: about $5.3 \\times 10^6$\n- Sheep: about $2.4 \\times 10^7$\n- Kiwi (the birds): about 68 000",
+    "prompt": "Write the number of people as an ordinary number.",
+    "answer": 5300000,
+    "form": "integer",
+    "hints": ["$10^6$ is 1 000 000 (one million).", "Multiply 5.3 by 1 000 000: the decimal point moves 6 places to the right."],
+    "solution": "$5.3 \\times 10^6 = 5.3 \\times 1\\,000\\,000 = 5\\,300\\,000$ (5.3 million)."
+  },
+  {
+    "id": "m9.num.powers.q012",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.powers.g1",
+    "part": "b",
+    "stem": "A school project uses these rounded figures for New Zealand:\n\n- People: about $5.3 \\times 10^6$\n- Sheep: about $2.4 \\times 10^7$\n- Kiwi (the birds): about 68 000",
+    "prompt": "Which shows the number of kiwi written in scientific notation?",
+    "options": [
+      { "id": "a", "text": "$6.8 \\times 10^4$" },
+      { "id": "b", "text": "$68 \\times 10^3$" },
+      { "id": "c", "text": "$6.8 \\times 10^3$" },
+      { "id": "d", "text": "$6.8 \\times 10^{-4}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This has the right value, but in scientific notation the first number must be at least 1 and less than 10.",
+      "c": "$6.8 \\times 10^3 = 6800$. Count the places the decimal point moves: from 6.8 to 68 000 is 4 places.",
+      "d": "A negative power of 10 gives a number less than 1, but 68 000 is a big number."
+    },
+    "hints": ["Make the first part a number between 1 and 10: 6.8.", "How many places does the decimal point move to get from 6.8 to 68 000?"],
+    "solution": "$68\\,000 = 6.8 \\times 10\\,000 = 6.8 \\times 10^4$. The decimal point moves 4 places."
+  },
+  {
+    "id": "m9.num.powers.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.powers.g1",
+    "part": "c",
+    "stem": "A school project uses these rounded figures for New Zealand:\n\n- People: about $5.3 \\times 10^6$\n- Sheep: about $2.4 \\times 10^7$\n- Kiwi (the birds): about 68 000",
+    "prompt": "About how many sheep are there for each person? Give your answer to 1 decimal place.",
+    "answer": 4.5,
+    "decimals": 1,
+    "hints": ["Divide the number of sheep by the number of people.", "Writing both as ordinary numbers may help: 24 000 000 and 5 300 000."],
+    "solution": "$\\frac{2.4 \\times 10^7}{5.3 \\times 10^6} = \\frac{24\\,000\\,000}{5\\,300\\,000} = 4.528\\ldots$, so there are about **4.5 sheep per person**."
+  },
+  {
+    "id": "m9.num.powers.q014",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.powers.g1",
+    "part": "d",
+    "stem": "A school project uses these rounded figures for New Zealand:\n\n- People: about $5.3 \\times 10^6$\n- Sheep: about $2.4 \\times 10^7$\n- Kiwi (the birds): about 68 000",
+    "prompt": "Which statement best compares the number of sheep with the number of kiwi?",
+    "options": [
+      { "id": "a", "text": "There are about 350 times as many sheep as kiwi" },
+      { "id": "b", "text": "There are about 1000 times as many sheep as kiwi" },
+      { "id": "c", "text": "There are about 35 times as many sheep as kiwi" },
+      { "id": "d", "text": "There are more kiwi than sheep, because 6.8 is bigger than 2.4" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This only compares the powers of 10 ($10^7 \\div 10^4$). The front numbers matter too: $24\\,000\\,000 \\div 68\\,000 \\approx 350$.",
+      "c": "Check the powers of 10. Writing both as ordinary numbers helps: $24\\,000\\,000 \\div 68\\,000$.",
+      "d": "Compare the powers of 10 first: $10^7$ is much bigger than $10^4$, so there are far more sheep."
+    },
+    "hints": ["Write both numbers as ordinary numbers.", "Divide the bigger number by the smaller one."],
+    "solution": "Sheep: $2.4 \\times 10^7 = 24\\,000\\,000$. Kiwi: 68 000. $24\\,000\\,000 \\div 68\\,000 \\approx 353$, so there are about **350 times** as many sheep as kiwi."
+  },
+  {
+    "id": "m9.num.powers.q015",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.powers.g2",
+    "part": "a",
+    "stem": "A sheet of paper is 0.1 mm thick. Each time it is folded in half, the number of layers doubles: after 1 fold there are 2 layers, after 2 folds there are 4 layers, and so on. (In real life you can't fold paper very many times, but imagine you could.)",
+    "prompt": "How many layers are there after 5 folds?",
+    "answer": 32,
+    "form": "integer",
+    "hints": ["Keep doubling: 2, 4, 8, …", "After 5 folds there are $2^5$ layers."],
+    "solution": "$2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32$ layers."
+  },
+  {
+    "id": "m9.num.powers.q016",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.powers.g2",
+    "part": "b",
+    "stem": "A sheet of paper is 0.1 mm thick. Each time it is folded in half, the number of layers doubles: after 1 fold there are 2 layers, after 2 folds there are 4 layers, and so on. (In real life you can't fold paper very many times, but imagine you could.)",
+    "prompt": "After how many folds are there 1024 layers?",
+    "answer": 10,
+    "form": "integer",
+    "hints": ["Find the power of 2 that equals 1024.", "Keep doubling and count how many doublings it takes."],
+    "solution": "$2^{10} = 1024$, so there are 1024 layers after **10 folds**. (2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 is 10 doublings.)"
+  },
+  {
+    "id": "m9.num.powers.q017",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.powers.g2",
+    "part": "c",
+    "stem": "A sheet of paper is 0.1 mm thick. Each time it is folded in half, the number of layers doubles: after 1 fold there are 2 layers, after 2 folds there are 4 layers, and so on. (In real life you can't fold paper very many times, but imagine you could.)",
+    "prompt": "How thick is the folded paper after 10 folds? Give your answer in millimetres.",
+    "answer": 102.4,
+    "units": "mm",
+    "hints": ["How many layers are there after 10 folds?", "Each layer is 0.1 mm thick."],
+    "solution": "After 10 folds there are $2^{10} = 1024$ layers. Thickness: $1024 \\times 0.1 = 102.4$ mm (just over 10 cm)."
+  },
+  {
+    "id": "m9.num.powers.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.num.powers.g2",
+    "part": "d",
+    "stem": "A sheet of paper is 0.1 mm thick. Each time it is folded in half, the number of layers doubles: after 1 fold there are 2 layers, after 2 folds there are 4 layers, and so on. (In real life you can't fold paper very many times, but imagine you could.)",
+    "prompt": "Mateo says that after 20 folds the paper would be twice as thick as it is after 10 folds. Explain why he is wrong.",
+    "modelAnswer": "Each fold doubles the thickness. Going from 10 folds to 20 folds is 10 more folds, so the thickness doubles 10 more times. That multiplies it by $2^{10} = 1024$, not by 2. After 20 folds there would be $2^{20} = 1\\,048\\,576$ layers, about 105 m thick, compared with 102.4 mm after 10 folds.",
+    "rubric": [
+      { "criterion": "Explains that each of the 10 extra folds doubles the thickness again (it doubles 10 more times, not once)", "marks": 1 },
+      { "criterion": "States that the thickness is multiplied by $2^{10} = 1024$ (or works out $2^{20}$ layers, about 105 m)", "marks": 1 }
+    ],
+    "hints": ["How many times does the thickness double between fold 10 and fold 20?", "What do you multiply by if you double something 10 times?"],
+    "solution": "Folds 11 to 20 double the thickness 10 more times, so it becomes $2^{10} = 1024$ times as thick: $102.4 \\times 1024 \\approx 104\\,858$ mm, which is about 105 m. Doubling the number of folds does not just double the thickness."
+  },
+  {
+    "id": "m9.num.powers.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is a perfect square?",
+    "options": [
+      { "id": "a", "text": "49" },
+      { "id": "b", "text": "18" },
+      { "id": "c", "text": "27" },
+      { "id": "d", "text": "40" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$18 = 2 \\times 9$, but it isn't a whole number times itself: $4^2 = 16$ and $5^2 = 25$.",
+      "c": "$27 = 3 \\times 3 \\times 3 = 3^3$, which is a cube, not a square.",
+      "d": "$6^2 = 36$ and $7^2 = 49$, so 40 is between two perfect squares."
+    },
+    "hints": ["A perfect square is a whole number multiplied by itself, like $5 \\times 5 = 25$."],
+    "solution": "$49 = 7 \\times 7 = 7^2$, so 49 is a perfect square."
+  },
+  {
+    "id": "m9.num.powers.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is the **smallest**?",
+    "options": [
+      { "id": "a", "text": "$10^{-1}$" },
+      { "id": "b", "text": "$2^{-3}$" },
+      { "id": "c", "text": "$3^{-2}$" },
+      { "id": "d", "text": "$4^{-1}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2^{-3} = \\frac{1}{8} = 0.125$. The most negative exponent doesn't always give the smallest number: work out each value.",
+      "c": "$3^{-2} = \\frac{1}{9} \\approx 0.111$, which is a little more than $\\frac{1}{10}$.",
+      "d": "$4^{-1} = \\frac{1}{4} = 0.25$."
+    },
+    "hints": ["Write each one as a unit fraction, e.g. $2^{-3} = \\frac{1}{2^3}$.", "Which unit fraction has the biggest denominator?"],
+    "solution": "$10^{-1} = \\frac{1}{10}$, $2^{-3} = \\frac{1}{8}$, $3^{-2} = \\frac{1}{9}$ and $4^{-1} = \\frac{1}{4}$. The biggest denominator gives the smallest fraction, so $10^{-1} = \\frac{1}{10}$ is the smallest. (None of them is negative: a negative exponent gives a fraction, not a negative number.)"
+  },
+  {
+    "id": "m9.num.powers.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Sofia writes 0.00034 in scientific notation as $3.4 \\times 10^4$. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. It is less than 1, so the power is negative: $3.4 \\times 10^{-4}$" },
+      { "id": "b", "text": "Yes. The decimal point moves 4 places, so the power is 4" },
+      { "id": "c", "text": "No. It should be $34 \\times 10^{-5}$" },
+      { "id": "d", "text": "No. There are 3 zeros after the point, so it is $3.4 \\times 10^{-3}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$3.4 \\times 10^4 = 34\\,000$, which is a big number. Numbers less than 1 have a negative power of 10.",
+      "c": "This has the right value, but 34 isn't between 1 and 10, so it isn't scientific notation.",
+      "d": "Count how many places the decimal point moves to make 3.4, not the zeros: 0.00034 → 3.4 is 4 places."
+    },
+    "hints": ["Is 0.00034 bigger or smaller than 1?", "Count how many places the decimal point moves to turn 0.00034 into 3.4."],
+    "solution": "The decimal point moves 4 places to the right to make 3.4, and the number is less than 1, so the power is $-4$: $0.00034 = 3.4 \\times 10^{-4}$."
+  },
+  {
+    "id": "m9.num.powers.q022",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "$4^5 = 2^n$. Find $n$.",
+    "answer": 10,
+    "form": "integer",
+    "variable": "n",
+    "hints": ["Work out $4^5$ first.", "Then use the powers of 2 you know: which power of 2 gives that number?"],
+    "solution": "$4^5 = 4 \\times 4 \\times 4 \\times 4 \\times 4 = 1024$, and $2^{10} = 1024$, so $n = 10$. (Another way: each 4 is $2 \\times 2$, so five 4s multiplied together make ten 2s.)"
+  },
+  {
+    "id": "m9.num.powers.q023",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Use the pattern $2^3 = 8$, $2^2 = 4$, $2^1 = 2$, $2^0 = 1$ to explain why $2^{-1} = \\frac{1}{2}$ and $2^{-2} = \\frac{1}{4}$.",
+    "modelAnswer": "Each time the exponent goes down by 1, the answer is divided by 2: $8 \\to 4 \\to 2 \\to 1$. Continuing the pattern, $2^{-1} = 1 \\div 2 = \\frac{1}{2}$, and $2^{-2} = \\frac{1}{2} \\div 2 = \\frac{1}{4}$. So a negative exponent means repeated division, and $2^{-2} = \\frac{1}{2^2}$.",
+    "rubric": [
+      { "criterion": "Identifies that the value is divided by 2 each time the exponent goes down by 1", "marks": 1 },
+      { "criterion": "Continues the pattern below $2^0$: $1 \\div 2 = \\frac{1}{2}$, then $\\frac{1}{2} \\div 2 = \\frac{1}{4}$", "marks": 1 }
+    ],
+    "hints": ["What do you do to 8 to get 4, to 4 to get 2, and to 2 to get 1?", "Keep doing the same thing after $2^0 = 1$."],
+    "solution": "Going down the pattern divides by 2 each time, so $2^{-1} = 1 \\div 2 = \\frac{1}{2}$ and $2^{-2} = \\frac{1}{2} \\div 2 = \\frac{1}{4}$."
+  },
+  {
+    "id": "m9.num.powers.q024",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Without using a calculator, explain whether $\\sqrt{90}$ is closer to 9 or to 10.",
+    "modelAnswer": "$9^2 = 81$ and $10^2 = 100$, and 90 is between them, so $\\sqrt{90}$ is between 9 and 10. Halfway between 9 and 10 is 9.5, and $9.5^2 = 90.25$. Since 90 is less than 90.25, $\\sqrt{90}$ is less than 9.5, so it is closer to **9**. (In fact $\\sqrt{90} \\approx 9.49$.)",
+    "rubric": [
+      { "criterion": "Uses $9^2 = 81$ and $10^2 = 100$ to show that $\\sqrt{90}$ is between 9 and 10", "marks": 1 },
+      { "criterion": "Checks the halfway point: $9.5^2 = 90.25$, which is more than 90", "marks": 1 },
+      { "criterion": "Concludes correctly that $\\sqrt{90}$ is closer to 9", "marks": 1 }
+    ],
+    "hints": ["Which perfect squares are either side of 90?", "What number is halfway between 9 and 10? Square it."],
+    "solution": "$81 < 90 < 100$, so $9 < \\sqrt{90} < 10$. Check the halfway point: $9.5^2 = 90.25$. Because $90 < 90.25$, $\\sqrt{90} < 9.5$, so it is closer to 9. It is very close to halfway, which is why squaring 9.5 is the safest check."
+  },
+  {
+    "id": "m9.num.powers.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "A human hair is about $8 \\times 10^{-5}$ m wide. About how many hairs, laid side by side, would make a row 1 cm wide?",
+    "answer": 125,
+    "hints": ["Change 1 cm into metres.", "Divide the width of the row by the width of one hair. Writing both as ordinary numbers may help."],
+    "solution": "1 cm = 0.01 m, and $8 \\times 10^{-5}$ m = 0.000 08 m.\n\n$0.01 \\div 0.00008 = 1000 \\div 8 = 125$ hairs."
   }
 ]

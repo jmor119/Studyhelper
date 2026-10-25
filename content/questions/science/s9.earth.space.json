@@ -409,5 +409,456 @@
     "units": "hours",
     "hints": ["First find the time in minutes for 30 AU.", "There are 60 minutes in an hour."],
     "solution": "$30 \\times 8 = 240$ minutes, and $240 \\div 60 = $ **4 hours**. Out at Neptune, the Sun looks like a very bright star, and its light is much weaker."
+  },
+  {
+    "id": "s9.earth.space.q027",
+    "type": "cloze",
+    "difficulty": 2,
+    "groupId": "s9.earth.space.g1",
+    "part": "a",
+    "stem": "Tama lives in Taupō. He sketched the Moon on six different dates in November, as he saw it from New Zealand. The yellow part of each sketch is the part of the Moon he could see lit up.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 112\" width=\"420\" height=\"112\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"37\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"37\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M37,31 A24,24 0 0 0 37,79 A14.4,24 0 0 1 37,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"37\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"37\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">5 Nov</text><text x=\"106\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"106\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M106,31 A24,24 0 0 0 106,79 A0,24 0 0 0 106,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"106\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"106\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">9 Nov</text><text x=\"175\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"175\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M175,31 A24,24 0 0 0 175,79 A16.8,24 0 0 0 175,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"175\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"175\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">13 Nov</text><text x=\"244\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"244\" cy=\"55\" r=\"24\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"244\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">16 Nov</text><text x=\"313\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">E</text><circle cx=\"313\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M313,31 A24,24 0 0 1 313,79 A14.4,24 0 0 1 313,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"313\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"313\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">20 Nov</text><text x=\"382\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">F</text><circle cx=\"382\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M382,31 A24,24 0 0 1 382,79 A0,24 0 0 1 382,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"382\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"382\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">24 Nov</text></svg>",
+      "alt": "Six Moon sketches. A, 5 November: a thin crescent lit on the left. B, 9 November: the left half lit. C, 13 November: mostly lit, with a thin dark sliver on the right. D, 16 November: fully lit. E, 20 November: mostly lit, with a dark part on the left. F, 24 November: the right half lit."
+    },
+    "prompt": "Sketch C (13 November) shows a [[a]] Moon. Sketch E (20 November) shows a [[b]] Moon.",
+    "blanks": [
+      { "id": "a", "accepted": ["waxing gibbous"], "options": ["waxing crescent", "waxing gibbous", "waning gibbous", "waning crescent"] },
+      { "id": "b", "accepted": ["waning gibbous"], "options": ["waxing crescent", "waxing gibbous", "waning gibbous", "waning crescent"] }
+    ],
+    "hints": ["\"Gibbous\" means more than half lit; \"crescent\" means less than half.", "Waxing comes before the full moon (D); waning comes after it."],
+    "solution": "C is more than half lit and comes before the full moon, so it is a **waxing gibbous** Moon. E is more than half lit and comes after the full moon, so it is a **waning gibbous** Moon."
+  },
+  {
+    "id": "s9.earth.space.q028",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.earth.space.g1",
+    "part": "b",
+    "stem": "Tama lives in Taupō. He sketched the Moon on six different dates in November, as he saw it from New Zealand. The yellow part of each sketch is the part of the Moon he could see lit up.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 112\" width=\"420\" height=\"112\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"37\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"37\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M37,31 A24,24 0 0 0 37,79 A14.4,24 0 0 1 37,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"37\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"37\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">5 Nov</text><text x=\"106\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"106\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M106,31 A24,24 0 0 0 106,79 A0,24 0 0 0 106,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"106\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"106\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">9 Nov</text><text x=\"175\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"175\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M175,31 A24,24 0 0 0 175,79 A16.8,24 0 0 0 175,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"175\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"175\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">13 Nov</text><text x=\"244\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"244\" cy=\"55\" r=\"24\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"244\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">16 Nov</text><text x=\"313\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">E</text><circle cx=\"313\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M313,31 A24,24 0 0 1 313,79 A14.4,24 0 0 1 313,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"313\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"313\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">20 Nov</text><text x=\"382\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">F</text><circle cx=\"382\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M382,31 A24,24 0 0 1 382,79 A0,24 0 0 1 382,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"382\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"382\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">24 Nov</text></svg>",
+      "alt": "Six Moon sketches. A, 5 November: a thin crescent lit on the left. B, 9 November: the left half lit. C, 13 November: mostly lit, with a thin dark sliver on the right. D, 16 November: fully lit. E, 20 November: mostly lit, with a dark part on the left. F, 24 November: the right half lit."
+    },
+    "prompt": "The full moon was on 16 November. About how many days later will the next full moon be?",
+    "answer": 29.5,
+    "tolerance": 0.6,
+    "units": "days",
+    "hints": ["How long does the Moon take to go through a whole cycle of phases?"],
+    "solution": "A full cycle of phases takes about **29.5 days**, so the next full moon will be about 29 or 30 days later, around 15 or 16 December."
+  },
+  {
+    "id": "s9.earth.space.q029",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.earth.space.g1",
+    "part": "c",
+    "stem": "Tama lives in Taupō. He sketched the Moon on six different dates in November, as he saw it from New Zealand. The yellow part of each sketch is the part of the Moon he could see lit up.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 112\" width=\"420\" height=\"112\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"37\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"37\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M37,31 A24,24 0 0 0 37,79 A14.4,24 0 0 1 37,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"37\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"37\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">5 Nov</text><text x=\"106\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">B</text><circle cx=\"106\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M106,31 A24,24 0 0 0 106,79 A0,24 0 0 0 106,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"106\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"106\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">9 Nov</text><text x=\"175\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">C</text><circle cx=\"175\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M175,31 A24,24 0 0 0 175,79 A16.8,24 0 0 0 175,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"175\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"175\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">13 Nov</text><text x=\"244\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">D</text><circle cx=\"244\" cy=\"55\" r=\"24\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"244\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">16 Nov</text><text x=\"313\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">E</text><circle cx=\"313\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M313,31 A24,24 0 0 1 313,79 A14.4,24 0 0 1 313,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"313\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"313\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">20 Nov</text><text x=\"382\" y=\"20\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1f2937\">F</text><circle cx=\"382\" cy=\"55\" r=\"24\" fill=\"#374151\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M382,31 A24,24 0 0 1 382,79 A0,24 0 0 1 382,31 Z\" fill=\"#fde68a\" stroke=\"none\"/><circle cx=\"382\" cy=\"55\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"382\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1f2937\">24 Nov</text></svg>",
+      "alt": "Six Moon sketches. A, 5 November: a thin crescent lit on the left. B, 9 November: the left half lit. C, 13 November: mostly lit, with a thin dark sliver on the right. D, 16 November: fully lit. E, 20 November: mostly lit, with a dark part on the left. F, 24 November: the right half lit."
+    },
+    "prompt": "A total lunar eclipse was seen from New Zealand on one of these six dates. Which date was it, and why could it only have happened then?",
+    "modelAnswer": "It must have been 16 November, when the Moon was full (sketch D). A lunar eclipse happens when the Earth is directly between the Sun and the Moon, so the Earth's shadow falls on the Moon. The Earth is only between the Sun and the Moon at full moon.",
+    "rubric": [
+      { "criterion": "Chooses 16 November (full moon, sketch D)", "marks": 1 },
+      { "criterion": "A lunar eclipse needs the Earth between the Sun and the Moon, so the Earth's shadow falls on the Moon, which only happens at full moon", "marks": 1 }
+    ],
+    "hints": ["In a lunar eclipse, whose shadow falls on what?", "Where is the Moon compared with the Sun and the Earth at full moon?"],
+    "solution": "**16 November** (full moon). Only at full moon is the Earth between the Sun and the Moon, so its shadow can fall on the Moon."
+  },
+  {
+    "id": "s9.earth.space.q030",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.earth.space.g2",
+    "part": "a",
+    "stem": "The diagram shows the Earth at two positions, A and B, on opposite sides of its orbit around the Sun. The line through the Earth is its axis, with the North (N) and South (S) Poles marked. The dashed red line is the equator, and the darker half of the Earth is the side facing away from the Sun.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><ellipse cx=\"210\" cy=\"115\" rx=\"155\" ry=\"42\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><circle cx=\"210\" cy=\"115\" r=\"28\" fill=\"#fcd34d\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"120\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sun</text><circle cx=\"60\" cy=\"115\" r=\"24\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><path d=\"M60,91 A24,24 0 0 0 60,139 Z\" fill=\"#1e3a5f\" fill-opacity=\"0.55\" stroke=\"none\"/><circle cx=\"60\" cy=\"115\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"44.8\" y1=\"149.8\" x2=\"75.2\" y2=\"80.2\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><line x1=\"38\" y1=\"105.4\" x2=\"82\" y2=\"124.6\" stroke=\"#dc2626\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"78.3\" y=\"76.8\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">N</text><text x=\"41.7\" y=\"161.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">S</text><text x=\"60\" y=\"181\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"360\" cy=\"115\" r=\"24\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><path d=\"M360,91 A24,24 0 0 1 360,139 Z\" fill=\"#1e3a5f\" fill-opacity=\"0.55\" stroke=\"none\"/><circle cx=\"360\" cy=\"115\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"344.8\" y1=\"149.8\" x2=\"375.2\" y2=\"80.2\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><line x1=\"338\" y1=\"105.4\" x2=\"382\" y2=\"124.6\" stroke=\"#dc2626\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"378.3\" y=\"76.8\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">N</text><text x=\"341.7\" y=\"161.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">S</text><text x=\"360\" y=\"181\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f2937\">B</text><text x=\"412\" y=\"214\" text-anchor=\"end\" font-size=\"10\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "The Sun in the centre of a dashed orbit, with the Earth at position A on the left and position B on the right. At both positions the Earth's axis is tilted the same way, with the North Pole leaning to the right. At A the North Pole leans towards the Sun. At B the North Pole leans away from the Sun, so the South Pole leans towards the Sun. Not to scale."
+    },
+    "prompt": "At which position is it **summer in New Zealand**?",
+    "options": [
+      { "id": "a", "text": "Position A" },
+      { "id": "b", "text": "Position B" },
+      { "id": "c", "text": "Both positions" },
+      { "id": "d", "text": "Neither position" }
+    ],
+    "correct": "b",
+    "shuffle": false,
+    "feedback": {
+      "a": "At A the North Pole leans towards the Sun, so it is summer in the Northern Hemisphere and winter in New Zealand.",
+      "c": "The seasons are opposite at A and B, because the hemisphere leaning towards the Sun changes.",
+      "d": "At one of these positions the Southern Hemisphere leans towards the Sun, which gives New Zealand summer."
+    },
+    "hints": ["New Zealand is in the Southern Hemisphere.", "At which position does the South Pole lean towards the Sun?"],
+    "solution": "At **position B** the Southern Hemisphere is tilted towards the Sun, so it is summer in New Zealand (December). At A it is New Zealand's winter (June)."
+  },
+  {
+    "id": "s9.earth.space.q031",
+    "type": "cloze",
+    "difficulty": 3,
+    "groupId": "s9.earth.space.g2",
+    "part": "b",
+    "stem": "The diagram shows the Earth at two positions, A and B, on opposite sides of its orbit around the Sun. The line through the Earth is its axis, with the North (N) and South (S) Poles marked. The dashed red line is the equator, and the darker half of the Earth is the side facing away from the Sun.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><ellipse cx=\"210\" cy=\"115\" rx=\"155\" ry=\"42\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><circle cx=\"210\" cy=\"115\" r=\"28\" fill=\"#fcd34d\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"120\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sun</text><circle cx=\"60\" cy=\"115\" r=\"24\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><path d=\"M60,91 A24,24 0 0 0 60,139 Z\" fill=\"#1e3a5f\" fill-opacity=\"0.55\" stroke=\"none\"/><circle cx=\"60\" cy=\"115\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"44.8\" y1=\"149.8\" x2=\"75.2\" y2=\"80.2\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><line x1=\"38\" y1=\"105.4\" x2=\"82\" y2=\"124.6\" stroke=\"#dc2626\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"78.3\" y=\"76.8\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">N</text><text x=\"41.7\" y=\"161.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">S</text><text x=\"60\" y=\"181\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"360\" cy=\"115\" r=\"24\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><path d=\"M360,91 A24,24 0 0 1 360,139 Z\" fill=\"#1e3a5f\" fill-opacity=\"0.55\" stroke=\"none\"/><circle cx=\"360\" cy=\"115\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"344.8\" y1=\"149.8\" x2=\"375.2\" y2=\"80.2\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><line x1=\"338\" y1=\"105.4\" x2=\"382\" y2=\"124.6\" stroke=\"#dc2626\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"378.3\" y=\"76.8\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">N</text><text x=\"341.7\" y=\"161.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">S</text><text x=\"360\" y=\"181\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f2937\">B</text><text x=\"412\" y=\"214\" text-anchor=\"end\" font-size=\"10\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "The Sun in the centre of a dashed orbit, with the Earth at position A on the left and position B on the right. At both positions the Earth's axis is tilted the same way, with the North Pole leaning to the right. At A the North Pole leans towards the Sun. At B the North Pole leans away from the Sun, so the South Pole leans towards the Sun. Not to scale."
+    },
+    "prompt": "When the Earth is at position B, the Sun is [[a]] in the sky at midday in New Zealand, and the days are [[b]] than the nights. In the United Kingdom, it is [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["higher"], "options": ["lower", "higher"] },
+      { "id": "b", "accepted": ["longer"], "options": ["longer", "shorter"] },
+      { "id": "c", "accepted": ["winter"], "options": ["spring", "summer", "autumn", "winter"] }
+    ],
+    "hints": ["At B, New Zealand leans towards the Sun.", "The United Kingdom is in the Northern Hemisphere."],
+    "solution": "At B, New Zealand leans towards the Sun, so the midday Sun is **higher** and days are **longer** (NZ summer). The Northern Hemisphere leans away, so it is **winter** in the United Kingdom."
+  },
+  {
+    "id": "s9.earth.space.q032",
+    "type": "mcq",
+    "difficulty": 4,
+    "groupId": "s9.earth.space.g2",
+    "part": "c",
+    "stem": "The diagram shows the Earth at two positions, A and B, on opposite sides of its orbit around the Sun. The line through the Earth is its axis, with the North (N) and South (S) Poles marked. The dashed red line is the equator, and the darker half of the Earth is the side facing away from the Sun.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"13\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><ellipse cx=\"210\" cy=\"115\" rx=\"155\" ry=\"42\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><circle cx=\"210\" cy=\"115\" r=\"28\" fill=\"#fcd34d\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><text x=\"210\" y=\"120\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1f2937\">Sun</text><circle cx=\"60\" cy=\"115\" r=\"24\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><path d=\"M60,91 A24,24 0 0 0 60,139 Z\" fill=\"#1e3a5f\" fill-opacity=\"0.55\" stroke=\"none\"/><circle cx=\"60\" cy=\"115\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"44.8\" y1=\"149.8\" x2=\"75.2\" y2=\"80.2\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><line x1=\"38\" y1=\"105.4\" x2=\"82\" y2=\"124.6\" stroke=\"#dc2626\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"78.3\" y=\"76.8\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">N</text><text x=\"41.7\" y=\"161.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">S</text><text x=\"60\" y=\"181\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f2937\">A</text><circle cx=\"360\" cy=\"115\" r=\"24\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><path d=\"M360,91 A24,24 0 0 1 360,139 Z\" fill=\"#1e3a5f\" fill-opacity=\"0.55\" stroke=\"none\"/><circle cx=\"360\" cy=\"115\" r=\"24\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"344.8\" y1=\"149.8\" x2=\"375.2\" y2=\"80.2\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><line x1=\"338\" y1=\"105.4\" x2=\"382\" y2=\"124.6\" stroke=\"#dc2626\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/><text x=\"378.3\" y=\"76.8\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">N</text><text x=\"341.7\" y=\"161.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#1f2937\">S</text><text x=\"360\" y=\"181\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f2937\">B</text><text x=\"412\" y=\"214\" text-anchor=\"end\" font-size=\"10\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "The Sun in the centre of a dashed orbit, with the Earth at position A on the left and position B on the right. At both positions the Earth's axis is tilted the same way, with the North Pole leaning to the right. At A the North Pole leans towards the Sun. At B the North Pole leans away from the Sun, so the South Pole leans towards the Sun. Not to scale."
+    },
+    "prompt": "Suppose the Earth's axis were **not tilted at all**. What would happen to the seasons?",
+    "options": [
+      { "id": "a", "text": "There would be almost no seasons: each place would get about the same sunlight all year" },
+      { "id": "b", "text": "The seasons would be the same as now, because they are caused by the distance from the Sun" },
+      { "id": "c", "text": "Both hemispheres would have summer all year round" },
+      { "id": "d", "text": "There would be no day and night" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Earth's distance from the Sun changes only a little during the year. The tilt is what causes the seasons.",
+      "c": "Without a tilt, neither hemisphere would ever lean towards the Sun, so there would be no summer or winter.",
+      "d": "Day and night come from the Earth spinning on its axis, which would still happen without a tilt."
+    },
+    "hints": ["What causes the seasons now?"],
+    "solution": "The seasons are caused by the **tilt**. Without it, the Sun would reach the same height at midday and days would be the same length all year at any place, so there would be almost no seasons. Day and night would carry on, because the Earth would still spin."
+  },
+  {
+    "id": "s9.earth.space.q033",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.earth.space.g3",
+    "part": "a",
+    "stem": "The table shows some data about five planets.\n\n| Planet | Average distance from the Sun (AU) | Time to orbit the Sun | Average surface temperature (°C) |\n|---|---|---|---|\n| Mercury | 0.39 | 88 days | 167 |\n| Venus | 0.72 | 225 days | 464 |\n| Earth | 1.0 | 365 days | 15 |\n| Mars | 1.5 | 687 days | −65 |\n| Jupiter | 5.2 | 12 years | −110 (top of the clouds) |",
+    "prompt": "Which pattern does the data show?",
+    "options": [
+      { "id": "a", "text": "The further a planet is from the Sun, the longer it takes to orbit the Sun" },
+      { "id": "b", "text": "The closer a planet is to the Sun, the longer it takes to orbit the Sun" },
+      { "id": "c", "text": "All the planets take the same time to orbit the Sun" },
+      { "id": "d", "text": "There is no link between distance and the time to orbit" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Check the table: Mercury, the closest, takes only 88 days, while Jupiter takes 12 years.",
+      "c": "The times range from 88 days to 12 years.",
+      "d": "As the distance increases down the table, the orbit time increases every time."
+    },
+    "hints": ["Compare the distance column with the orbit time column, row by row."],
+    "solution": "The **further** a planet is from the Sun, the **longer** it takes to orbit: it has further to travel and it moves more slowly."
+  },
+  {
+    "id": "s9.earth.space.q034",
+    "type": "numeric",
+    "difficulty": 3,
+    "groupId": "s9.earth.space.g3",
+    "part": "b",
+    "stem": "The table shows some data about five planets.\n\n| Planet | Average distance from the Sun (AU) | Time to orbit the Sun | Average surface temperature (°C) |\n|---|---|---|---|\n| Mercury | 0.39 | 88 days | 167 |\n| Venus | 0.72 | 225 days | 464 |\n| Earth | 1.0 | 365 days | 15 |\n| Mars | 1.5 | 687 days | −65 |\n| Jupiter | 5.2 | 12 years | −110 (top of the clouds) |",
+    "prompt": "How many Earth years does Mars take to orbit the Sun? Give your answer to 1 decimal place.",
+    "answer": 1.9,
+    "decimals": 1,
+    "units": "years",
+    "hints": ["One Earth year is 365 days.", "Divide the number of days Mars takes by 365."],
+    "solution": "687 ÷ 365 = 1.88… ≈ **1.9 Earth years**."
+  },
+  {
+    "id": "s9.earth.space.q035",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.earth.space.g3",
+    "part": "c",
+    "stem": "The table shows some data about five planets.\n\n| Planet | Average distance from the Sun (AU) | Time to orbit the Sun | Average surface temperature (°C) |\n|---|---|---|---|\n| Mercury | 0.39 | 88 days | 167 |\n| Venus | 0.72 | 225 days | 464 |\n| Earth | 1.0 | 365 days | 15 |\n| Mars | 1.5 | 687 days | −65 |\n| Jupiter | 5.2 | 12 years | −110 (top of the clouds) |",
+    "prompt": "Use the data to help explain why Earth is the only planet in the table that has liquid water on its surface.",
+    "modelAnswer": "Water is liquid between 0 °C and 100 °C. Earth's average temperature is 15 °C, which is in this range, so water can stay liquid. Mercury (167 °C) and Venus (464 °C) are far too hot: any water would boil away. Mars (−65 °C) is too cold, so its water is frozen, and its thin atmosphere means liquid water would not last. Jupiter is a gas giant with no solid surface for water to sit on, and it is extremely cold.",
+    "rubric": [
+      { "criterion": "Earth's average temperature (15 °C) is between 0 °C and 100 °C, so water can be liquid", "marks": 1 },
+      { "criterion": "Mercury and Venus are too hot (water would boil or evaporate away)", "marks": 1 },
+      { "criterion": "Mars is too cold (water freezes) and/or Jupiter has no solid surface and is very cold", "marks": 1 }
+    ],
+    "hints": ["Between which temperatures is water a liquid?", "Compare each planet's temperature with that range."],
+    "solution": "Only Earth's temperature is between 0 and 100 °C. Mercury and Venus are too hot, Mars is too cold, and Jupiter is a cold gas giant with no surface."
+  },
+  {
+    "id": "s9.earth.space.q036",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Why can we see the Moon in the night sky?",
+    "options": [
+      { "id": "a", "text": "It reflects light from the Sun" },
+      { "id": "b", "text": "It makes its own light, like a star" },
+      { "id": "c", "text": "It is very hot and glows" },
+      { "id": "d", "text": "It reflects light from cities on Earth" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The Moon is not a star. It gives out no light of its own.",
+      "c": "The Moon is a cold, rocky object at night. It does not glow from heat.",
+      "d": "City lights are far too faint. The Moon is lit by the Sun."
+    },
+    "hints": ["The Moon is a rocky object, not a star."],
+    "solution": "The Moon **reflects sunlight**. We only see the part of it that is lit by the Sun, which is why it seems to change shape."
+  },
+  {
+    "id": "s9.earth.space.q037",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "Which is the largest planet in our Solar System?",
+    "accepted": ["Jupiter"],
+    "hints": ["It is a gas giant, the fifth planet from the Sun."],
+    "solution": "**Jupiter** is the largest planet. More than 1000 Earths could fit inside it."
+  },
+  {
+    "id": "s9.earth.space.q038",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "In which direction does the Sun rise?",
+    "options": [
+      { "id": "a", "text": "East" },
+      { "id": "b", "text": "West" },
+      { "id": "c", "text": "North" },
+      { "id": "d", "text": "South" }
+    ],
+    "correct": "a",
+    "shuffle": false,
+    "feedback": {
+      "b": "The Sun sets in the west.",
+      "c": "In New Zealand the Sun is in the northern part of the sky at midday, but it rises in the east.",
+      "d": "From New Zealand the Sun never appears in the south at midday, and it rises in the east."
+    },
+    "hints": ["The Earth spins towards the east."],
+    "solution": "The Sun rises in the **east** and sets in the west, because the Earth spins from west to east."
+  },
+  {
+    "id": "s9.earth.space.q039",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "At midday in New Zealand, where is the Sun in the sky?",
+    "options": [
+      { "id": "a", "text": "In the northern part of the sky" },
+      { "id": "b", "text": "Directly overhead" },
+      { "id": "c", "text": "In the southern part of the sky" },
+      { "id": "d", "text": "Low down in the east" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The Sun is only ever directly overhead in the tropics. New Zealand is too far south.",
+      "c": "That is true in places such as the United Kingdom, in the Northern Hemisphere. New Zealand is in the Southern Hemisphere.",
+      "d": "The Sun is low in the east in the early morning, not at midday."
+    },
+    "hints": ["New Zealand is well south of the tropics, so the Sun never passes directly overhead."],
+    "solution": "From New Zealand, the midday Sun is always in the **northern** part of the sky. That is why north-facing windows and gardens get the most sun here."
+  },
+  {
+    "id": "s9.earth.space.q040",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the **rocky** planets.",
+    "options": [
+      { "id": "me", "text": "Mercury" },
+      { "id": "v", "text": "Venus" },
+      { "id": "e", "text": "Earth" },
+      { "id": "ma", "text": "Mars" },
+      { "id": "j", "text": "Jupiter" },
+      { "id": "s", "text": "Saturn" },
+      { "id": "u", "text": "Uranus" },
+      { "id": "n", "text": "Neptune" }
+    ],
+    "correct": ["me", "v", "e", "ma"],
+    "shuffle": false,
+    "hints": ["The rocky planets are the four closest to the Sun."],
+    "solution": "**Mercury, Venus, Earth and Mars** are small, rocky planets. Jupiter and Saturn are gas giants, and Uranus and Neptune are ice giants. None of the outer four has a solid surface you could stand on."
+  },
+  {
+    "id": "s9.earth.space.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "The star cluster Matariki can't be seen in May, but it reappears in the eastern sky just before dawn in midwinter (June or July). Why can't it be seen in May?",
+    "options": [
+      { "id": "a", "text": "In May, Matariki is in the same direction as the Sun, so it is lost in the Sun's glare" },
+      { "id": "b", "text": "Matariki orbits the Sun, and in May it is behind the Sun" },
+      { "id": "c", "text": "The stars of Matariki stop shining for part of each year" },
+      { "id": "d", "text": "Matariki can only be seen in cold weather" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Matariki is a cluster of stars hundreds of light-years away. It does not orbit the Sun. It is the Earth that moves.",
+      "c": "The stars shine all the time. We just can't see them in daylight.",
+      "d": "Temperature doesn't decide whether we can see stars. Their direction compared with the Sun does."
+    },
+    "hints": ["Can you see stars in the daytime sky?", "As the Earth orbits the Sun, the Sun appears in front of different groups of stars."],
+    "solution": "As the Earth orbits the Sun, the Sun lines up with different stars during the year. In May, Matariki is in the **same direction as the Sun**, so it is up in the daytime and hidden by sunlight. As the Earth moves on, Matariki rises earlier each day until it can be seen just before dawn in midwinter."
+  },
+  {
+    "id": "s9.earth.space.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Since 2022, Matariki has been a public holiday in Aotearoa New Zealand. Why is the holiday on a different date each year?",
+    "options": [
+      { "id": "a", "text": "Its date is set using the maramataka, which follows the phases of the Moon rather than fixed calendar dates" },
+      { "id": "b", "text": "The date is chosen at random each year" },
+      { "id": "c", "text": "Matariki moves to a different part of the sky each year" },
+      { "id": "d", "text": "It is always on the shortest day of the year, and the shortest day moves by several weeks" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The date is not random. It is worked out in advance from the maramataka.",
+      "c": "Matariki rises in the same part of the sky at about the same time each year.",
+      "d": "The shortest day is always around 21 June. The holiday moves because it follows the Moon."
+    },
+    "hints": ["The maramataka is a lunar calendar. Do Moon phases fall on the same dates each year?"],
+    "solution": "The date follows the **maramataka**, the Māori lunar calendar. Moon phases fall on different dates each year in our usual calendar, so the holiday falls on a different Friday in June or July each year."
+  },
+  {
+    "id": "s9.earth.space.q043",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these in order of distance from the Earth, from **closest** to **furthest**.",
+    "items": [
+      { "id": "moon", "text": "The Moon" },
+      { "id": "sun", "text": "The Sun" },
+      { "id": "nep", "text": "Neptune" },
+      { "id": "alpha", "text": "Alpha Centauri (one of the Pointers)" },
+      { "id": "mat", "text": "Matariki (the Pleiades)" }
+    ],
+    "hints": ["The Sun is the closest star. Neptune is in our Solar System.", "Light from Alpha Centauri takes about 4 years to reach us; light from Matariki takes hundreds of years."],
+    "solution": "Moon (about 384,000 km) → Sun (about 150 million km) → Neptune (about 30 times further than the Sun) → Alpha Centauri (about 4.4 light-years) → Matariki (about 440 light-years)."
+  },
+  {
+    "id": "s9.earth.space.q044",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "Light travels at about 300,000 km per second. The Moon is about 384,000 km from the Earth. How many seconds does light from the Moon take to reach us? Give your answer to 1 decimal place.",
+    "answer": 1.3,
+    "decimals": 1,
+    "units": "s",
+    "hints": ["time = distance ÷ speed"],
+    "solution": "time = 384,000 ÷ 300,000 = 1.28 s ≈ **1.3 s**. So we see the Moon as it was just over a second ago."
+  },
+  {
+    "id": "s9.earth.space.q045",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "To find south using the Southern Cross, imagine a line along the [[a]] axis of the Cross. Extend this line about [[b]] times its own length. The point you reach is roughly above due south.",
+    "blanks": [
+      { "id": "a", "accepted": ["long"], "options": ["short", "long"] },
+      { "id": "b", "accepted": ["4.5"], "options": ["2", "4.5", "10", "100"] }
+    ],
+    "hints": ["The Cross has a longer arm and a shorter arm. The longer one points towards the south celestial pole."],
+    "solution": "Extend the **long** axis of the Southern Cross about **4.5** times its length. Then drop straight down to the horizon to find south. Stars like these have long helped people find their way at night."
+  },
+  {
+    "id": "s9.earth.space.q046",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "From Earth, we always see the same side of the Moon. Why?",
+    "options": [
+      { "id": "a", "text": "The Moon spins once on its axis in the same time it takes to orbit the Earth once" },
+      { "id": "b", "text": "The Moon does not spin at all" },
+      { "id": "c", "text": "The other side of the Moon is always dark, so we can't see it" },
+      { "id": "d", "text": "The Earth's shadow always covers the other side of the Moon" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "If the Moon didn't spin, we would see all sides of it as it travelled around the Earth.",
+      "c": "The far side gets sunlight too. At new moon the far side is fully lit.",
+      "d": "The Earth's shadow only falls on the Moon during a lunar eclipse."
+    },
+    "hints": ["Try walking around a chair while always facing it. How many times do you turn around?"],
+    "solution": "The Moon spins once on its axis in about 27 days, the **same time** it takes to orbit the Earth. So the same side always faces us. The far side is not always dark; we just never see it from Earth."
+  },
+  {
+    "id": "s9.earth.space.q047",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "During a total lunar eclipse, the Moon usually looks a dark reddish colour instead of disappearing completely. Why?",
+    "options": [
+      { "id": "a", "text": "Some sunlight is bent through Earth's atmosphere onto the Moon, and mostly red light gets through" },
+      { "id": "b", "text": "The Moon heats up in the Earth's shadow and glows red" },
+      { "id": "c", "text": "Mars shines red light onto the Moon" },
+      { "id": "d", "text": "The Moon gives out its own red light when sunlight is blocked" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In the Earth's shadow the Moon cools down, not heats up.",
+      "c": "Mars reflects sunlight too, but far too little to light up the Moon.",
+      "d": "The Moon has no light of its own. Any light on it comes from the Sun."
+    },
+    "hints": ["Sunrises and sunsets look red for a related reason."],
+    "solution": "Earth's atmosphere **bends (refracts)** some sunlight into the shadow. On its long path through the air, most of the blue light is scattered away, so mostly **red** light reaches the Moon. It is like all the world's sunrises and sunsets lighting up the Moon at once."
+  },
+  {
+    "id": "s9.earth.space.q048",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Long before compasses were used, navigators on voyaging waka crossed the Pacific Ocean. Describe how stars can be used to keep a direction when travelling at sea at night.",
+    "modelAnswer": "Because the Earth spins, stars rise in the east, move across the sky and set in the west. Each star always rises and sets at the same point on the horizon. Navigators memorised where many particular stars rise and set. To travel in a chosen direction, they steered towards a star that was low on the horizon in that direction. When that star rose too high to be useful, they changed to the next star that rose at the same point, so a series of stars through the night kept them on course. They combined this with other signs, such as the direction of the ocean swells, the winds and the flight of seabirds.",
+    "rubric": [
+      { "criterion": "Stars rise and set at fixed points on the horizon (they move across the sky because the Earth spins)", "marks": 1 },
+      { "criterion": "Navigators memorised where particular stars rise or set, and steered towards a star low on the horizon in the direction they wanted", "marks": 1 },
+      { "criterion": "Used a series of stars rising at the same point through the night, or combined stars with other signs such as swells, winds or birds", "marks": 1 }
+    ],
+    "hints": ["Does a star always rise at the same place on the horizon?", "What could a navigator do once their guide star had risen high in the sky?"],
+    "solution": "Stars rise and set at fixed points on the horizon. Steering towards a series of known stars rising (or setting) in the wanted direction keeps a course, checked against swells, winds and birds."
+  },
+  {
+    "id": "s9.earth.space.q049",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The Moon's surface can be over 100 °C in the daytime and below −130 °C at night, but the Earth's temperature changes much less between day and night. Explain why.",
+    "modelAnswer": "The Moon has almost no atmosphere. Without air to trap heat (no greenhouse effect) and spread it around, the sunlit surface heats up strongly, and at night the heat escapes straight into space, so the surface gets extremely cold. The Moon also spins slowly: one day–night cycle takes about a month, so each part of the surface is in sunlight for about two weeks and then in darkness for about two weeks, giving it a long time to heat up and cool down. Earth has a thick atmosphere that traps heat at night and spreads heat around, and it spins once every 24 hours, so day and night temperatures stay much closer together.",
+    "rubric": [
+      { "criterion": "The Moon has (almost) no atmosphere, whereas Earth has a thick atmosphere", "marks": 1 },
+      { "criterion": "Without an atmosphere, heat is not trapped or spread around, so it escapes into space at night and the day side heats strongly", "marks": 1 },
+      { "criterion": "The Moon's day and night each last about two weeks (it spins slowly), giving long times to heat up and cool down; Earth spins every 24 hours", "marks": 1 }
+    ],
+    "hints": ["What does Earth's atmosphere do at night?", "How long does daytime last at one place on the Moon?"],
+    "solution": "No atmosphere on the Moon to trap and spread heat, plus two-week-long days and nights, give huge temperature swings. Earth's atmosphere and 24-hour spin keep them small."
+  },
+  {
+    "id": "s9.earth.space.q050",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A total **solar** eclipse can only be seen from a narrow strip of the Earth's surface. A total **lunar** eclipse can be seen from anywhere on the night side of the Earth. Explain why.",
+    "modelAnswer": "In a solar eclipse, the Moon's shadow falls on the Earth. The Moon is much smaller than the Earth, so the darkest part of its shadow covers only a small area, which moves across the Earth as a narrow strip. Only people in that strip see the Sun completely covered. In a lunar eclipse, the Earth's shadow falls on the Moon. The Earth's shadow is much bigger than the Moon, so it can cover the whole Moon, and everyone who can see the Moon at that time, which is everyone on the night side of the Earth, sees it darkened.",
+    "rubric": [
+      { "criterion": "Solar eclipse: the Moon's shadow falls on the Earth, and because the Moon is small its dark shadow covers only a small area (narrow strip)", "marks": 1 },
+      { "criterion": "Lunar eclipse: the Earth's shadow falls on the Moon and is big enough to cover the whole Moon", "marks": 1 },
+      { "criterion": "So everyone who can see the Moon (the whole night side) sees the lunar eclipse", "marks": 1 }
+    ],
+    "hints": ["In each type of eclipse, whose shadow falls on what?", "Compare the size of the Moon's shadow with the size of the Earth."],
+    "solution": "Solar: the small Moon casts a small shadow on the big Earth (narrow strip). Lunar: the big Earth's shadow covers the whole Moon, visible to everyone who can see the Moon."
+  },
+  {
+    "id": "s9.earth.space.q051",
+    "type": "numeric",
+    "difficulty": 5,
+    "prompt": "In a scale model of the Solar System, 1 m represents 1 million km. Neptune is about 30 AU from the Sun, and 1 AU is about 150 million km. How far from the model Sun should the model Neptune be? Give your answer in **kilometres**.",
+    "answer": 4.5,
+    "units": "km",
+    "hints": ["First find Neptune's real distance in millions of kilometres.", "Each million kilometres becomes 1 m in the model. Then convert metres to kilometres."],
+    "solution": "Real distance = 30 × 150 million km = 4500 million km. In the model that is 4500 m = **4.5 km**. (On the same scale the Sun would be a ball only about 1.4 m across.)"
   }
 ]

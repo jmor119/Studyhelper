@@ -677,5 +677,787 @@
       "Why does variation matter when something in the environment changes?"
     ],
     "solution": "Identical clones would all be equally at risk. Sexual reproduction gives variation, so some wild plants may resist the disease, survive and pass on their genes."
+  },
+  {
+    "id": "s9.bio.genetics.q023",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What shape is a DNA molecule?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A double helix: two strands twisted around each other"
+      },
+      {
+        "id": "b",
+        "text": "A single straight strand, like a piece of string"
+      },
+      {
+        "id": "c",
+        "text": "Two separate straight strands lying side by side"
+      },
+      {
+        "id": "d",
+        "text": "A round ball made of tightly packed strands"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "DNA has two strands, and they are twisted, not straight.",
+      "c": "The two strands of DNA are joined together and twisted into a spiral.",
+      "d": "DNA is a very long, thin molecule. It coils up to form chromosomes, but its basic shape is a double helix."
+    },
+    "hints": [
+      "It is often compared to a twisted ladder."
+    ],
+    "solution": "DNA is a **double helix**: two long strands twisted around each other, like a twisted ladder. The 'rungs' of the ladder carry the genetic code."
+  },
+  {
+    "id": "s9.bio.genetics.q024",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What do the letters **DNA** stand for?",
+    "accepted": [
+      "deoxyribonucleic acid",
+      "deoxyribose nucleic acid"
+    ],
+    "hints": [
+      "The 'N' and 'A' stand for two words that tell you it is an acid found in the nucleus."
+    ],
+    "solution": "**DNA** stands for **deoxyribonucleic acid**. 'Nucleic' is because it is found in the nucleus, and 'deoxyribo' comes from the sugar (deoxyribose) in its strands."
+  },
+  {
+    "id": "s9.bio.genetics.q025",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Genes are sections of [[a]]. They are found on [[b]], which are inside the nucleus.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "DNA",
+          "deoxyribonucleic acid"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "chromosomes",
+          "chromosome"
+        ]
+      }
+    ],
+    "hints": [
+      "Genes are made of the chemical that carries all genetic information.",
+      "These thread-like structures come in pairs in your body cells."
+    ],
+    "solution": "Genes are sections of **DNA**. The DNA is coiled up into **chromosomes** inside the nucleus."
+  },
+  {
+    "id": "s9.bio.genetics.q026",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which of these is an example of **discontinuous** variation in pea plants?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Flower colour (purple or white)"
+      },
+      {
+        "id": "b",
+        "text": "The length of the pea pods"
+      },
+      {
+        "id": "c",
+        "text": "The mass of each pea seed"
+      },
+      {
+        "id": "d",
+        "text": "The width of the leaves"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Pod length can be any value within a range, so it shows continuous variation.",
+      "c": "Seed mass can be any value within a range, so it shows continuous variation.",
+      "d": "Leaf width can be any value within a range, so it shows continuous variation."
+    },
+    "hints": [
+      "Discontinuous variation falls into a few separate groups, with nothing in between."
+    ],
+    "solution": "In discontinuous variation, there are a few distinct groups with nothing in between. Pea flowers are **either purple or white**. Pod length, seed mass and leaf width can be any value in a range, so they show continuous variation."
+  },
+  {
+    "id": "s9.bio.genetics.q027",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "inh",
+          "text": "Inherited characteristic"
+        },
+        "right": {
+          "id": "r-inh",
+          "text": "Passed on from parents in genes"
+        }
+      },
+      {
+        "left": {
+          "id": "acq",
+          "text": "Acquired characteristic"
+        },
+        "right": {
+          "id": "r-acq",
+          "text": "Develops during an organism's life and isn't passed on in genes"
+        }
+      },
+      {
+        "left": {
+          "id": "var",
+          "text": "Variation"
+        },
+        "right": {
+          "id": "r-var",
+          "text": "Differences between individuals of the same species"
+        }
+      },
+      {
+        "left": {
+          "id": "env",
+          "text": "Environment"
+        },
+        "right": {
+          "id": "r-env",
+          "text": "The conditions around an organism, such as food, climate and lifestyle"
+        }
+      }
+    ],
+    "hints": [
+      "'Acquired' means gained during life."
+    ],
+    "solution": "- **Inherited characteristic:** passed on from parents in genes (e.g. blood group).\n- **Acquired characteristic:** develops during life and is not passed on (e.g. a scar).\n- **Variation:** differences between individuals of the same species.\n- **Environment:** the conditions around an organism."
+  },
+  {
+    "id": "s9.bio.genetics.q028",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.bio.genetics.g1",
+    "part": "a",
+    "stem": "Students measured the lengths of 40 leaves, all collected from the **same** pōhutukawa tree. The histogram shows their results. Each bar includes its lower value but not its upper value: for example, the 8–9 cm bar is for leaves from 8.0 cm up to (but not including) 9.0 cm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 310\" width=\"420\" height=\"310\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"70\" y1=\"250\" x2=\"382\" y2=\"250\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"255\" text-anchor=\"end\" fill=\"#1f2937\">0</text><line x1=\"70\" y1=\"236\" x2=\"382\" y2=\"236\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"222\" x2=\"382\" y2=\"222\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"227\" text-anchor=\"end\" fill=\"#1f2937\">2</text><line x1=\"70\" y1=\"208\" x2=\"382\" y2=\"208\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"194\" x2=\"382\" y2=\"194\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"199\" text-anchor=\"end\" fill=\"#1f2937\">4</text><line x1=\"70\" y1=\"180\" x2=\"382\" y2=\"180\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"166\" x2=\"382\" y2=\"166\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"171\" text-anchor=\"end\" fill=\"#1f2937\">6</text><line x1=\"70\" y1=\"152\" x2=\"382\" y2=\"152\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"138\" x2=\"382\" y2=\"138\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"143\" text-anchor=\"end\" fill=\"#1f2937\">8</text><line x1=\"70\" y1=\"124\" x2=\"382\" y2=\"124\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"110\" x2=\"382\" y2=\"110\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"115\" text-anchor=\"end\" fill=\"#1f2937\">10</text><line x1=\"70\" y1=\"96\" x2=\"382\" y2=\"96\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"82\" x2=\"382\" y2=\"82\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"87\" text-anchor=\"end\" fill=\"#1f2937\">12</text><line x1=\"70\" y1=\"68\" x2=\"382\" y2=\"68\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"54\" x2=\"382\" y2=\"54\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"59\" text-anchor=\"end\" fill=\"#1f2937\">14</text><rect x=\"70\" y=\"208\" width=\"52\" height=\"42\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"122\" y=\"152\" width=\"52\" height=\"98\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"174\" y=\"82\" width=\"52\" height=\"168\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"226\" y=\"110\" width=\"52\" height=\"140\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"278\" y=\"166\" width=\"52\" height=\"84\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"222\" width=\"52\" height=\"28\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"250\" x2=\"390\" y2=\"250\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"46\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"70\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">4</text><line x1=\"122\" y1=\"250\" x2=\"122\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"122\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">5</text><line x1=\"174\" y1=\"250\" x2=\"174\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"174\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">6</text><line x1=\"226\" y1=\"250\" x2=\"226\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"226\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">7</text><line x1=\"278\" y1=\"250\" x2=\"278\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"278\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">8</text><line x1=\"330\" y1=\"250\" x2=\"330\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"330\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">9</text><line x1=\"382\" y1=\"250\" x2=\"382\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"382\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">10</text><text x=\"226\" y=\"296\" text-anchor=\"middle\" fill=\"#1f2937\">Leaf length (cm)</text><text x=\"20\" y=\"152\" text-anchor=\"middle\" fill=\"#1f2937\" transform=\"rotate(-90 20 152)\">Number of leaves</text></svg>",
+      "alt": "Histogram of the lengths of 40 pōhutukawa leaves. 4 to 5 cm: 3 leaves; 5 to 6 cm: 7 leaves; 6 to 7 cm: 12 leaves; 7 to 8 cm: 10 leaves; 8 to 9 cm: 6 leaves; 9 to 10 cm: 2 leaves."
+    },
+    "prompt": "What type of variation does leaf length show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continuous, because length can be any value within a range"
+      },
+      {
+        "id": "b",
+        "text": "Discontinuous, because the leaves were sorted into groups on the graph"
+      },
+      {
+        "id": "c",
+        "text": "Discontinuous, because every leaf has its own exact length"
+      },
+      {
+        "id": "d",
+        "text": "Continuous, because all of the leaves came from just one tree"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Grouping the data into classes to draw the graph doesn't change the type of variation. Length can be any value, so it is continuous.",
+      "c": "Lengths can be any value (5.2 cm, 5.25 cm and so on), not just a few fixed categories. That makes them continuous.",
+      "d": "It is continuous, but not because the leaves came from one tree. It's continuous because length can be any value in a range."
+    },
+    "hints": [
+      "Could a leaf be 6.37 cm long? Or is length limited to a few set categories?"
+    ],
+    "solution": "Leaf length can take **any value within a range**, so it shows **continuous** variation. That is why it is shown on a histogram, with no gaps between the bars."
+  },
+  {
+    "id": "s9.bio.genetics.q029",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "s9.bio.genetics.g1",
+    "part": "b",
+    "stem": "Students measured the lengths of 40 leaves, all collected from the **same** pōhutukawa tree. The histogram shows their results. Each bar includes its lower value but not its upper value: for example, the 8–9 cm bar is for leaves from 8.0 cm up to (but not including) 9.0 cm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 310\" width=\"420\" height=\"310\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"70\" y1=\"250\" x2=\"382\" y2=\"250\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"255\" text-anchor=\"end\" fill=\"#1f2937\">0</text><line x1=\"70\" y1=\"236\" x2=\"382\" y2=\"236\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"222\" x2=\"382\" y2=\"222\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"227\" text-anchor=\"end\" fill=\"#1f2937\">2</text><line x1=\"70\" y1=\"208\" x2=\"382\" y2=\"208\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"194\" x2=\"382\" y2=\"194\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"199\" text-anchor=\"end\" fill=\"#1f2937\">4</text><line x1=\"70\" y1=\"180\" x2=\"382\" y2=\"180\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"166\" x2=\"382\" y2=\"166\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"171\" text-anchor=\"end\" fill=\"#1f2937\">6</text><line x1=\"70\" y1=\"152\" x2=\"382\" y2=\"152\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"138\" x2=\"382\" y2=\"138\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"143\" text-anchor=\"end\" fill=\"#1f2937\">8</text><line x1=\"70\" y1=\"124\" x2=\"382\" y2=\"124\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"110\" x2=\"382\" y2=\"110\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"115\" text-anchor=\"end\" fill=\"#1f2937\">10</text><line x1=\"70\" y1=\"96\" x2=\"382\" y2=\"96\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"82\" x2=\"382\" y2=\"82\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"87\" text-anchor=\"end\" fill=\"#1f2937\">12</text><line x1=\"70\" y1=\"68\" x2=\"382\" y2=\"68\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"54\" x2=\"382\" y2=\"54\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"59\" text-anchor=\"end\" fill=\"#1f2937\">14</text><rect x=\"70\" y=\"208\" width=\"52\" height=\"42\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"122\" y=\"152\" width=\"52\" height=\"98\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"174\" y=\"82\" width=\"52\" height=\"168\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"226\" y=\"110\" width=\"52\" height=\"140\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"278\" y=\"166\" width=\"52\" height=\"84\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"222\" width=\"52\" height=\"28\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"250\" x2=\"390\" y2=\"250\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"46\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"70\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">4</text><line x1=\"122\" y1=\"250\" x2=\"122\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"122\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">5</text><line x1=\"174\" y1=\"250\" x2=\"174\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"174\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">6</text><line x1=\"226\" y1=\"250\" x2=\"226\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"226\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">7</text><line x1=\"278\" y1=\"250\" x2=\"278\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"278\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">8</text><line x1=\"330\" y1=\"250\" x2=\"330\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"330\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">9</text><line x1=\"382\" y1=\"250\" x2=\"382\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"382\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">10</text><text x=\"226\" y=\"296\" text-anchor=\"middle\" fill=\"#1f2937\">Leaf length (cm)</text><text x=\"20\" y=\"152\" text-anchor=\"middle\" fill=\"#1f2937\" transform=\"rotate(-90 20 152)\">Number of leaves</text></svg>",
+      "alt": "Histogram of the lengths of 40 pōhutukawa leaves. 4 to 5 cm: 3 leaves; 5 to 6 cm: 7 leaves; 6 to 7 cm: 12 leaves; 7 to 8 cm: 10 leaves; 8 to 9 cm: 6 leaves; 9 to 10 cm: 2 leaves."
+    },
+    "prompt": "What percentage of the leaves were **at least 8 cm** long?",
+    "answer": 20,
+    "units": "%",
+    "hints": [
+      "Add up the leaves in the bars from 8 cm upwards.",
+      "Percentage = number of leaves ÷ total number of leaves × 100."
+    ],
+    "solution": "Leaves at least 8 cm long: $6 + 2 = 8$ leaves (the 8–9 cm and 9–10 cm bars).\n\n$\\dfrac{8}{40} \\times 100 = 20\\%$"
+  },
+  {
+    "id": "s9.bio.genetics.q030",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "s9.bio.genetics.g1",
+    "part": "c",
+    "stem": "Students measured the lengths of 40 leaves, all collected from the **same** pōhutukawa tree. The histogram shows their results. Each bar includes its lower value but not its upper value: for example, the 8–9 cm bar is for leaves from 8.0 cm up to (but not including) 9.0 cm.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 310\" width=\"420\" height=\"310\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"70\" y1=\"250\" x2=\"382\" y2=\"250\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"255\" text-anchor=\"end\" fill=\"#1f2937\">0</text><line x1=\"70\" y1=\"236\" x2=\"382\" y2=\"236\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"222\" x2=\"382\" y2=\"222\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"227\" text-anchor=\"end\" fill=\"#1f2937\">2</text><line x1=\"70\" y1=\"208\" x2=\"382\" y2=\"208\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"194\" x2=\"382\" y2=\"194\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"199\" text-anchor=\"end\" fill=\"#1f2937\">4</text><line x1=\"70\" y1=\"180\" x2=\"382\" y2=\"180\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"166\" x2=\"382\" y2=\"166\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"171\" text-anchor=\"end\" fill=\"#1f2937\">6</text><line x1=\"70\" y1=\"152\" x2=\"382\" y2=\"152\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"138\" x2=\"382\" y2=\"138\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"143\" text-anchor=\"end\" fill=\"#1f2937\">8</text><line x1=\"70\" y1=\"124\" x2=\"382\" y2=\"124\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"110\" x2=\"382\" y2=\"110\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"115\" text-anchor=\"end\" fill=\"#1f2937\">10</text><line x1=\"70\" y1=\"96\" x2=\"382\" y2=\"96\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"82\" x2=\"382\" y2=\"82\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"87\" text-anchor=\"end\" fill=\"#1f2937\">12</text><line x1=\"70\" y1=\"68\" x2=\"382\" y2=\"68\" stroke=\"#f1f5f9\" stroke-width=\"1\"/><line x1=\"70\" y1=\"54\" x2=\"382\" y2=\"54\" stroke=\"#d1d5db\" stroke-width=\"1\"/><text x=\"62\" y=\"59\" text-anchor=\"end\" fill=\"#1f2937\">14</text><rect x=\"70\" y=\"208\" width=\"52\" height=\"42\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"122\" y=\"152\" width=\"52\" height=\"98\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"174\" y=\"82\" width=\"52\" height=\"168\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"226\" y=\"110\" width=\"52\" height=\"140\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"278\" y=\"166\" width=\"52\" height=\"84\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"222\" width=\"52\" height=\"28\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"250\" x2=\"390\" y2=\"250\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"46\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"70\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">4</text><line x1=\"122\" y1=\"250\" x2=\"122\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"122\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">5</text><line x1=\"174\" y1=\"250\" x2=\"174\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"174\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">6</text><line x1=\"226\" y1=\"250\" x2=\"226\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"226\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">7</text><line x1=\"278\" y1=\"250\" x2=\"278\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"278\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">8</text><line x1=\"330\" y1=\"250\" x2=\"330\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"330\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">9</text><line x1=\"382\" y1=\"250\" x2=\"382\" y2=\"256\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"382\" y=\"272\" text-anchor=\"middle\" fill=\"#1f2937\">10</text><text x=\"226\" y=\"296\" text-anchor=\"middle\" fill=\"#1f2937\">Leaf length (cm)</text><text x=\"20\" y=\"152\" text-anchor=\"middle\" fill=\"#1f2937\" transform=\"rotate(-90 20 152)\">Number of leaves</text></svg>",
+      "alt": "Histogram of the lengths of 40 pōhutukawa leaves. 4 to 5 cm: 3 leaves; 5 to 6 cm: 7 leaves; 6 to 7 cm: 12 leaves; 7 to 8 cm: 10 leaves; 8 to 9 cm: 6 leaves; 9 to 10 cm: 2 leaves."
+    },
+    "prompt": "All the leaves came from the same tree, so they all have the same genes. Explain what must have caused the variation in their length.",
+    "modelAnswer": "Because all the leaves have the same genes, the differences can't be caused by genes. They must be caused by the environment. For example, leaves in full sun and leaves in the shade grow differently, and leaves in different places on the tree get different amounts of water, nutrients and wind.",
+    "rubric": [
+      {
+        "criterion": "States that the leaves have identical genes, so the differences cannot be caused by genes",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the environment causes the differences, with an example (e.g. light or shade, water, wind, position on the tree)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "If the genes are identical, what else can make leaves different?",
+      "Think about how conditions differ between the top, the bottom and the inside of a tree."
+    ],
+    "solution": "Same genes means the variation must come from the **environment**: differences in light, water, nutrients and wind at different positions on the tree."
+  },
+  {
+    "id": "s9.bio.genetics.q031",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the human characteristics that are affected by **both** genes and the environment.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Height"
+      },
+      {
+        "id": "b",
+        "text": "Body mass"
+      },
+      {
+        "id": "c",
+        "text": "Skin colour"
+      },
+      {
+        "id": "d",
+        "text": "ABO blood group"
+      },
+      {
+        "id": "e",
+        "text": "The language you speak (e.g. English or te reo Māori)"
+      },
+      {
+        "id": "f",
+        "text": "A scar from an injury"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "For each one, ask: could your genes affect it? Could your diet, lifestyle or surroundings change it?"
+    ],
+    "solution": "**Both:** height (genes plus diet and health), body mass (genes plus diet and exercise) and skin colour (genes plus time in the sun).\n\n**Genes only:** ABO blood group.\n\n**Environment only:** the language you speak, and a scar."
+  },
+  {
+    "id": "s9.bio.genetics.q032",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these stages in order to show how a baby gets its chromosomes.",
+    "items": [
+      {
+        "id": "made",
+        "text": "A sperm (23 chromosomes) and an egg (23 chromosomes) are made"
+      },
+      {
+        "id": "fert",
+        "text": "The sperm fertilises the egg"
+      },
+      {
+        "id": "zyg",
+        "text": "The fertilised egg has 46 chromosomes"
+      },
+      {
+        "id": "div",
+        "text": "The fertilised egg divides again and again to make many cells"
+      },
+      {
+        "id": "baby",
+        "text": "Every body cell in the baby has 46 chromosomes: 23 from each parent"
+      }
+    ],
+    "hints": [
+      "The sex cells must be made before they can meet.",
+      "Fertilisation happens before any of the cell divisions."
+    ],
+    "solution": "1. A sperm and an egg, each with 23 chromosomes, are made.\n2. The sperm fertilises the egg.\n3. The fertilised egg has $23 + 23 = 46$ chromosomes.\n4. It divides over and over, copying the chromosomes each time.\n5. So every body cell has the same 46 chromosomes, half from each parent."
+  },
+  {
+    "id": "s9.bio.genetics.q033",
+    "type": "text",
+    "difficulty": 3,
+    "prompt": "What is the name for a permanent change in the DNA of a gene?",
+    "accepted": [
+      "mutation",
+      "mutations",
+      "gene mutation",
+      "genetic mutation"
+    ],
+    "hints": [
+      "These changes can happen randomly, or be caused by things such as UV light or radiation."
+    ],
+    "solution": "A **mutation** is a change in DNA. Most mutations have no effect, some are harmful and a few are helpful. A mutation can change the protein that a gene codes for, which can change a characteristic. Mutations are the original source of new variation."
+  },
+  {
+    "id": "s9.bio.genetics.q034",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A characteristic that is controlled by **many** genes, and also affected by the environment, usually shows which pattern in a population?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A wide range of values, with most individuals near the middle"
+      },
+      {
+        "id": "b",
+        "text": "A few clear-cut groups, with nothing in between them"
+      },
+      {
+        "id": "c",
+        "text": "Every individual has exactly the same value"
+      },
+      {
+        "id": "d",
+        "text": "Most individuals are at the two extremes of the range"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Clear-cut groups usually mean one gene (or very few), as with ABO blood groups. That's discontinuous variation.",
+      "c": "Many genes plus the environment produce lots of variation, not identical individuals.",
+      "d": "With many genes, most individuals get a mix of small effects that average out, so they end up near the middle, not at the extremes."
+    },
+    "hints": [
+      "Think about the shape of a histogram of human height."
+    ],
+    "solution": "Each gene adds a small effect and the environment adds more, so the characteristic can be any value in a range: **continuous variation**. Most individuals are near the middle and few are at the extremes, giving a bell-shaped histogram, like the one for human height."
+  },
+  {
+    "id": "s9.bio.genetics.q035",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Choose the type of protein for each example.\n\n- Lipase, which breaks down fats in the small intestine: [[a]]\n- Insulin, a chemical messenger made in the pancreas and carried in the blood: [[b]]\n- Collagen, which makes skin, tendons and bones strong: [[c]]",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "enzyme"
+        ],
+        "options": [
+          "enzyme",
+          "hormone",
+          "antibody",
+          "structural protein"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "hormone"
+        ],
+        "options": [
+          "enzyme",
+          "hormone",
+          "antibody",
+          "structural protein"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "structural protein"
+        ],
+        "options": [
+          "enzyme",
+          "hormone",
+          "antibody",
+          "structural protein"
+        ]
+      }
+    ],
+    "hints": [
+      "Enzymes speed up reactions. Hormones are chemical messengers carried in the blood. Structural proteins build body parts."
+    ],
+    "solution": "Lipase speeds up the breakdown of fats, so it is an **enzyme**. Insulin is a chemical messenger carried in the blood, so it is a **hormone**. Collagen builds strong body parts, so it is a **structural protein**."
+  },
+  {
+    "id": "s9.bio.genetics.q036",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.genetics.g2",
+    "part": "a",
+    "stem": "Hōhepa follows these steps in a science lesson:\n\n1. He mashes up a kiwifruit with salty water and a little dishwashing detergent.\n2. He filters the mixture to remove the lumps.\n3. He slowly pours ice-cold ethanol down the side of the tube, so that it forms a layer on top.\n4. A white, stringy substance appears where the two layers meet.",
+    "prompt": "The white, stringy substance came from the nuclei of the kiwifruit cells. What is it?",
+    "accepted": [
+      "DNA",
+      "deoxyribonucleic acid",
+      "kiwifruit DNA"
+    ],
+    "hints": [
+      "It is the chemical that genes are made of."
+    ],
+    "solution": "It is **DNA**. Millions of DNA molecules clump together in the cold ethanol, so you can see them as white threads, even though a single DNA molecule is far too thin to see."
+  },
+  {
+    "id": "s9.bio.genetics.q037",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.genetics.g2",
+    "part": "b",
+    "stem": "Hōhepa follows these steps in a science lesson:\n\n1. He mashes up a kiwifruit with salty water and a little dishwashing detergent.\n2. He filters the mixture to remove the lumps.\n3. He slowly pours ice-cold ethanol down the side of the tube, so that it forms a layer on top.\n4. A white, stringy substance appears where the two layers meet.",
+    "prompt": "Why did Hōhepa add dishwashing detergent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To break down the membranes around the cells and nuclei, releasing the DNA"
+      },
+      {
+        "id": "b",
+        "text": "To clean the DNA, so that it shows up as white instead of green"
+      },
+      {
+        "id": "c",
+        "text": "To make the DNA dissolve completely in the cold ethanol layer"
+      },
+      {
+        "id": "d",
+        "text": "To break down the cell walls, so that the cells shrink and die"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The detergent isn't for cleaning. DNA looks white when lots of it clumps together.",
+      "c": "DNA does **not** dissolve in cold ethanol. That is why it appears as a solid where the layers meet.",
+      "d": "Mashing breaks up the cell walls. The detergent breaks down the membranes, which are made of fat-like substances."
+    },
+    "hints": [
+      "Think about what dishwashing liquid does to grease on a plate.",
+      "Cell membranes are made partly of fat-like substances (lipids)."
+    ],
+    "solution": "The cell membrane and the membrane around the nucleus are made of fat-like substances (lipids). Detergent breaks them apart, just as it breaks up grease, so the **DNA is released** from the nucleus into the liquid."
+  },
+  {
+    "id": "s9.bio.genetics.q038",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.genetics.g2",
+    "part": "c",
+    "stem": "Hōhepa follows these steps in a science lesson:\n\n1. He mashes up a kiwifruit with salty water and a little dishwashing detergent.\n2. He filters the mixture to remove the lumps.\n3. He slowly pours ice-cold ethanol down the side of the tube, so that it forms a layer on top.\n4. A white, stringy substance appears where the two layers meet.",
+    "prompt": "Explain how the DNA that Hōhepa extracted is related to chromosomes, genes and proteins in the kiwifruit cells.",
+    "modelAnswer": "In each kiwifruit cell, the DNA is in the nucleus, coiled up tightly to form chromosomes. A gene is a section of the DNA on a chromosome. Each gene carries the instructions (the code) for making one protein. The proteins then produce the fruit's characteristics: for example, enzymes make the sugars that give the fruit its sweet taste.",
+    "rubric": [
+      {
+        "criterion": "States that the DNA is coiled up to form chromosomes, in the nucleus",
+        "marks": 1
+      },
+      {
+        "criterion": "States that a gene is a section of DNA (on a chromosome)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that a gene carries the instructions (code) for making a protein, which affects a characteristic",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Start with the largest structure (a chromosome) and work down to the smallest (a gene).",
+      "What does a gene carry the instructions to make?"
+    ],
+    "solution": "DNA → coiled into **chromosomes** in the nucleus. A **gene** is a section of that DNA. Each gene is the code for one **protein**, and proteins (such as enzymes) produce the characteristics of the fruit."
+  },
+  {
+    "id": "s9.bio.genetics.q039",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Mere's dog lost the tip of its tail in an accident. Mere thinks the dog's puppies will be born with short tails. Explain whether she is right, using the ideas of inherited and acquired characteristics.",
+    "modelAnswer": "Mere is wrong. The short tail is an acquired characteristic: it was caused by an accident during the dog's life, not by its genes. The accident didn't change the DNA in the dog's sperm or egg cells. The puppies inherit genes, not injuries, and the genes still carry the instructions for a normal tail, so the puppies will be born with normal tails.",
+    "rubric": [
+      {
+        "criterion": "States that the short tail is an acquired characteristic (caused by the environment/an accident during its life)",
+        "marks": 1
+      },
+      {
+        "criterion": "States that an injury doesn't change the genes (DNA) in the dog's sex cells",
+        "marks": 1
+      },
+      {
+        "criterion": "Concludes that the puppies inherit genes for a normal tail, so they will have normal tails",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Was the short tail caused by genes or by something that happened during its life?",
+      "What do the puppies actually inherit from their parents?"
+    ],
+    "solution": "**Acquired characteristics aren't inherited.** Only genes are passed on, through sperm and egg cells. Losing part of a tail doesn't change the dog's genes, so the puppies will have normal tails."
+  },
+  {
+    "id": "s9.bio.genetics.q040",
+    "type": "numeric",
+    "difficulty": 2,
+    "groupId": "s9.bio.genetics.g3",
+    "part": "a",
+    "stem": "Romney sheep are farmed all over New Zealand. Each body cell of a sheep contains 54 chromosomes, in 27 pairs. A Romney ram (male) and a Romney ewe (female) are mated, and the ewe gives birth to a lamb.",
+    "prompt": "How many chromosomes are in each of the ram's sperm cells?",
+    "answer": 27,
+    "hints": [
+      "Sex cells (sperm and eggs) carry half the normal number of chromosomes.",
+      "They carry one chromosome from each pair."
+    ],
+    "solution": "A sperm cell carries one chromosome from each pair: $54 \\div 2 = 27$ chromosomes."
+  },
+  {
+    "id": "s9.bio.genetics.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.genetics.g3",
+    "part": "b",
+    "stem": "Romney sheep are farmed all over New Zealand. Each body cell of a sheep contains 54 chromosomes, in 27 pairs. A Romney ram (male) and a Romney ewe (female) are mated, and the ewe gives birth to a lamb.",
+    "prompt": "Why must sperm and egg cells contain only half the normal number of chromosomes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "So that when they join at fertilisation, the lamb has the normal number (54)"
+      },
+      {
+        "id": "b",
+        "text": "So that they are small and light enough to move around easily"
+      },
+      {
+        "id": "c",
+        "text": "So that the lamb inherits genes from only one of its two parents"
+      },
+      {
+        "id": "d",
+        "text": "Because sex cells only need the genes for the lamb's appearance"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Halving the chromosomes isn't about size. Egg cells are actually some of the largest cells.",
+      "c": "The lamb inherits genes from **both** parents: half from the ram and half from the ewe.",
+      "d": "Each sex cell carries a full set of genes for all of the lamb's characteristics: one chromosome from every pair."
+    },
+    "hints": [
+      "What happens to the number of chromosomes when a sperm and an egg join?"
+    ],
+    "solution": "At fertilisation, a sperm (27 chromosomes) joins an egg (27 chromosomes), giving $27 + 27 = 54$, the normal number for a sheep. If sex cells had 54 each, the number would double in every generation."
+  },
+  {
+    "id": "s9.bio.genetics.q042",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.genetics.g3",
+    "part": "c",
+    "stem": "Romney sheep are farmed all over New Zealand. Each body cell of a sheep contains 54 chromosomes, in 27 pairs. A Romney ram (male) and a Romney ewe (female) are mated, and the ewe gives birth to a lamb.",
+    "prompt": "The farmer wants future lambs to grow heavier fleeces (more wool). Explain how she could use selective breeding to do this over several generations.",
+    "modelAnswer": "She should choose the ram and the ewes with the heaviest fleeces and breed only from them. Fleece weight is partly controlled by genes, and lambs inherit genes from both parents, so these lambs are more likely to have heavy fleeces too. From the lambs, she again chooses the ones with the heaviest fleeces to breed, and repeats this every generation. Over many generations, more of the flock will carry the genes for heavy fleeces. She should feed all the sheep in the same way, so that she is choosing sheep for their genes, not just because they were better fed.",
+    "rubric": [
+      {
+        "criterion": "Chooses parents with the wanted characteristic (the heaviest fleeces) to breed",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the offspring inherit genes from both parents, so they are more likely to have heavy fleeces",
+        "marks": 1
+      },
+      {
+        "criterion": "Repeats the selection with the best offspring over many generations",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which sheep should she allow to breed?",
+      "One generation isn't enough. What should she do with the lambs?"
+    ],
+    "solution": "**Selective breeding:** choose the best parents → breed them → choose the best offspring → breed them → repeat for many generations. Because the characteristic is partly controlled by genes, it becomes more common in the flock over time."
+  },
+  {
+    "id": "s9.bio.genetics.q043",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Dogs have 78 chromosomes in each body cell, humans have 46, and potato plants have 48. Hemi says this means dogs are more complex than humans. Which response is best?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No. Chromosome number doesn't show how complex an organism is: potatoes have more than humans."
+      },
+      {
+        "id": "b",
+        "text": "Yes. More chromosomes always means more genes, so it means a more complex organism."
+      },
+      {
+        "id": "c",
+        "text": "No. Humans must have more chromosomes than dogs, because humans are more complex."
+      },
+      {
+        "id": "d",
+        "text": "Yes. Dogs have more chromosomes in each cell because they have more cells in their body."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Chromosome number does not match complexity: a potato plant has more chromosomes than a human. What matters is the genes the DNA carries, not how many pieces it is divided into.",
+      "c": "The data shows that humans have **fewer** chromosomes (46) than dogs (78).",
+      "d": "Every body cell of an organism has the same number of chromosomes, however many cells the organism has."
+    },
+    "hints": [
+      "Compare the potato with the human."
+    ],
+    "solution": "The number of chromosomes varies between species, but it doesn't show complexity: potato plants (48) have more than humans (46), and dogs (78) have more still. What matters is the genes the DNA carries."
+  },
+  {
+    "id": "s9.bio.genetics.q044",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "In humans, the sex chromosomes are usually XX in females and XY in males. Which sex cell decides whether a baby has XX or XY sex chromosomes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The sperm, because each sperm carries either an X or a Y chromosome"
+      },
+      {
+        "id": "b",
+        "text": "The egg, because each egg carries either an X or a Y chromosome"
+      },
+      {
+        "id": "c",
+        "text": "Both equally, because each parent passes on one sex chromosome"
+      },
+      {
+        "id": "d",
+        "text": "Neither: the temperature that the baby develops at decides it"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Every egg carries an X chromosome, because females are XX.",
+      "c": "Each parent does pass on one sex chromosome, but the egg always gives an X. Only the sperm can give either X or Y, so the sperm decides.",
+      "d": "Temperature decides sex in tuatara and some other reptiles, but not in humans."
+    },
+    "hints": [
+      "Which sex chromosomes can a female (XX) pass on? Which can a male (XY) pass on?"
+    ],
+    "solution": "Every egg carries an **X**. About half of sperm carry an X and half carry a Y. If an X sperm fertilises the egg, the baby is XX; if a Y sperm does, the baby is XY. So the **sperm** decides."
+  },
+  {
+    "id": "s9.bio.genetics.q045",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A skin cell and a muscle cell from the same person contain exactly the same genes, but they look different and do different jobs. Explain how this is possible. (Use the idea that a gene can be 'switched on', so the cell uses it, or 'switched off'.)",
+    "modelAnswer": "All of the body's cells come from one fertilised egg, and the DNA is copied each time a cell divides, so every body cell has the same genes. But not every gene is used in every cell. In a muscle cell, the genes for the proteins that let it contract are switched on. In a skin cell, other genes are switched on instead, such as the gene for keratin. Different genes switched on means different proteins are made, so the cells end up with different structures and do different jobs.",
+    "rubric": [
+      {
+        "criterion": "Explains that all body cells come from one fertilised egg (with DNA copied at each division), so they have the same genes",
+        "marks": 1
+      },
+      {
+        "criterion": "States that different genes are switched on (used) in different types of cell",
+        "marks": 1
+      },
+      {
+        "criterion": "Links this to different proteins being made, giving each type of cell a different structure and job",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Every body cell came from the same fertilised egg.",
+      "Does every cell have to use every gene it carries?"
+    ],
+    "solution": "Same genes, but **different genes are switched on** in different cells. Each type of cell makes only the proteins it needs, so cells **specialise**."
+  },
+  {
+    "id": "s9.bio.genetics.q046",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Scientists take the nucleus out of a body cell from a **black** sheep. They put it into an egg cell from a **white** sheep, after removing the egg's own nucleus. The egg grows into an embryo, which is placed inside a third, **white** sheep, and she gives birth to the lamb. What colour will the lamb's wool be?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Black, because its genes came from the black sheep's nucleus"
+      },
+      {
+        "id": "b",
+        "text": "White, because its egg cell came from a white sheep"
+      },
+      {
+        "id": "c",
+        "text": "White, because the sheep that gave birth to it is white"
+      },
+      {
+        "id": "d",
+        "text": "Grey, because it gets a mix of genes from black and white sheep"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The egg's own nucleus was removed, so the egg gave the lamb no genes for wool colour.",
+      "c": "The sheep that gave birth gave the lamb somewhere to grow, and food, but none of its genes.",
+      "d": "All of the lamb's chromosomes came from one nucleus, so its genes match the black sheep. They are not a mix."
+    },
+    "hints": [
+      "Which part of a cell contains the chromosomes?",
+      "Which sheep did that part come from?"
+    ],
+    "solution": "The nucleus contains the chromosomes, and therefore the genes. The lamb's nucleus came from the black sheep, so it has the black sheep's genes and will have **black** wool. This is how Dolly the sheep was cloned in 1996: she looked like the sheep that gave the nucleus, not like the egg donor or the sheep that gave birth to her."
+  },
+  {
+    "id": "s9.bio.genetics.q047",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 4,
+    "prompt": "Discuss the statement: \"Your genes decide everything about you.\" Use examples in your answer.",
+    "modelAnswer": "The statement is only partly true. Genes carry the instructions for making proteins, so some characteristics are controlled by genes alone: for example, your ABO blood group is set by your genes and can't be changed by your lifestyle. Many characteristics are affected by both genes and the environment: your genes set a range for your height, but your diet and health while you are growing decide where you end up in that range. Body mass, and skin colour (with tanning), are similar. Some characteristics come only from the environment, such as the language you speak, a scar, or a skill you have learned. So your characteristics (your phenotype) come from your genes and your environment working together.",
+    "rubric": [
+      {
+        "criterion": "Gives an example of a characteristic controlled by genes alone (e.g. ABO blood group)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives an example of a characteristic affected by both genes and environment, and explains how (e.g. height: genes plus diet)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives an example of a characteristic caused only by the environment (e.g. a scar, the language you speak, a learned skill)",
+        "marks": 1
+      },
+      {
+        "criterion": "Concludes that the statement is only partly true, because characteristics (phenotype) come from genes and the environment together",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Sort characteristics into three groups: genes only, environment only, and both.",
+      "Finish with a clear conclusion: is the statement true, false or partly true?"
+    ],
+    "solution": "A strong answer gives examples of all three kinds of characteristic (**genes only**, **both**, **environment only**) and concludes that **phenotype = genes + environment**, so the statement is only partly true."
   }
 ]

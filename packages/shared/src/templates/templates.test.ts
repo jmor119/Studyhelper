@@ -44,8 +44,15 @@ describe.each(TEMPLATES.map((t) => [t.id, t] as const))('template %s', (_id, tem
         expect(markResponse(qn, wrong).correct, `seed ${seed}: wrong answer accepted`).toBe(false);
       }
 
-      // The public version never leaks the answer.
-      const pub = JSON.stringify(toPublicQuestion(qn));
+      // The public version never leaks the answer (and the correct dropdown option isn't always first).
+      const pubQ = toPublicQuestion(qn);
+      if (pubQ.type === 'cloze' && qn.type === 'cloze') {
+        for (const b of qn.blanks) {
+          const shown = pubQ.blanks.find((x) => x.id === b.id)?.options;
+          if (b.options && b.options.length > 1) expect(shown).not.toEqual(b.options);
+        }
+      }
+      const pub = JSON.stringify(pubQ);
       expect(pub).not.toContain('"solution"');
       expect(pub).not.toContain('"correct"');
       prompts.add(`${qn.stem ?? ''}|${qn.prompt}|${qn.figure?.svg ?? ''}`);

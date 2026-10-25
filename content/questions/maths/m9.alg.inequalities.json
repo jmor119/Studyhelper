@@ -193,5 +193,274 @@
     "form": "integer",
     "hints": ["Solve each inequality separately.", "Which integers are in both solution sets?"],
     "solution": "$2x + 1 > 3 \\Rightarrow 2x > 2 \\Rightarrow x > 1$\n\n$x + 4 \\le 9 \\Rightarrow x \\le 5$\n\nThe integers that are greater than 1 and at most 5 are 2, 3, 4 and 5. That's **4** integers."
+  },
+  {
+    "id": "m9.alg.inequalities.q012",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "m9.alg.inequalities.g1",
+    "part": "a",
+    "stem": "The school netball team needs to raise **at least** \\$450 for new uniforms. They already have \\$120, and they plan to sell cupcakes for \\$3 each.",
+    "prompt": "Which inequality shows the number of cupcakes, $c$, that they need to sell?",
+    "options": [
+      { "id": "a", "text": "$120 + 3c \\ge 450$" },
+      { "id": "b", "text": "$120 + 3c > 450$" },
+      { "id": "c", "text": "$120 + 3c \\le 450$" },
+      { "id": "d", "text": "$3c \\ge 450$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"At least \\$450\" means raising exactly \\$450 is enough, so you need $\\ge$, not $>$.",
+      "c": "This says they raise **at most** \\$450. They need \\$450 or more.",
+      "d": "This forgets the \\$120 they already have."
+    },
+    "hints": ["How much money will they have after selling $c$ cupcakes?", "\"At least\" means that amount or more."],
+    "solution": "After selling $c$ cupcakes they have $120 + 3c$ dollars. This must be at least \\$450, so $120 + 3c \\ge 450$."
+  },
+  {
+    "id": "m9.alg.inequalities.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.inequalities.g1",
+    "part": "b",
+    "stem": "The school netball team needs to raise **at least** \\$450 for new uniforms. They already have \\$120, and they plan to sell cupcakes for \\$3 each.",
+    "prompt": "What is the least number of cupcakes they need to sell?",
+    "answer": 110,
+    "hints": ["Write an inequality: the money they will have must be at least 450.", "Solve it like an equation: subtract 120 from both sides, then divide by 3."],
+    "solution": "$120 + 3c \\ge 450$\n\nSubtract 120: $3c \\ge 330$\n\nDivide by 3: $c \\ge 110$\n\nThey need to sell at least **110** cupcakes. Check: $120 + 3 \\times 110 = 450$ ✓, which is enough."
+  },
+  {
+    "id": "m9.alg.inequalities.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.inequalities.g1",
+    "part": "c",
+    "stem": "The school netball team needs to raise **at least** \\$450 for new uniforms. They already have \\$120, and they plan to sell cupcakes for \\$3 each.",
+    "prompt": "Each cupcake costs the team \\$1 to make, so they only make \\$2 profit on each one. Taking this into account, what is the least number of cupcakes they need to sell?",
+    "answer": 165,
+    "hints": ["The money they gain from $c$ cupcakes is now $2c$ dollars.", "Write and solve a new inequality using \\$2 per cupcake."],
+    "solution": "Now each cupcake adds \\$2, so they need $120 + 2c \\ge 450$.\n\nSubtract 120: $2c \\ge 330$\n\nDivide by 2: $c \\ge 165$\n\nThey need to sell at least **165** cupcakes. Check: $120 + 2 \\times 165 = 450$ ✓"
+  },
+  {
+    "id": "m9.alg.inequalities.q015",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "m9.alg.inequalities.g2",
+    "part": "a",
+    "stem": "Entry to the local swimming pool costs \\$6 per visit. Instead, you can buy a 3-month pass for \\$80 and swim as often as you like.",
+    "prompt": "For $v$ visits, which inequality shows when paying per visit costs **more** than the pass?",
+    "options": [
+      { "id": "a", "text": "$6v > 80$" },
+      { "id": "b", "text": "$6v < 80$" },
+      { "id": "c", "text": "$v + 6 > 80$" },
+      { "id": "d", "text": "$80v > 6$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This shows when paying per visit costs **less** than the pass.",
+      "c": "Each visit costs \\$6, so $v$ visits cost $6v$, not $v + 6$.",
+      "d": "The \\$80 is paid once. It's the \\$6 that is paid for every visit."
+    },
+    "hints": ["How much do $v$ visits cost if you pay each time?"],
+    "solution": "Paying each time, $v$ visits cost $6v$ dollars. This is more than the \\$80 pass when $6v > 80$."
+  },
+  {
+    "id": "m9.alg.inequalities.q016",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "m9.alg.inequalities.g2",
+    "part": "b",
+    "stem": "Entry to the local swimming pool costs \\$6 per visit. Instead, you can buy a 3-month pass for \\$80 and swim as often as you like.",
+    "prompt": "What is the smallest number of visits for which the pass is cheaper than paying per visit?",
+    "answer": 14,
+    "hints": ["The pass is cheaper when $v$ visits cost more than \\$80. Write this as an inequality and solve it.", "The number of visits must be a whole number. Check your answer by working out the cost of that many visits."],
+    "solution": "$6v > 80$\n\nDivide by 6: $v > 13.33\\ldots$\n\nThe number of visits is a whole number, so the smallest is **14**.\n\nCheck: 13 visits cost $13 \\times 6 = 78$ dollars, which is less than the pass. 14 visits cost $14 \\times 6 = 84$ dollars, which is more than the pass ✓"
+  },
+  {
+    "id": "m9.alg.inequalities.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.alg.inequalities.g2",
+    "part": "c",
+    "stem": "Entry to the local swimming pool costs \\$6 per visit. Instead, you can buy a 3-month pass for \\$80 and swim as often as you like.",
+    "prompt": "Tia works out $80 \\div 6 = 13.3$ and says, \"If I swim 13 times, the pass is cheaper.\" Explain why she is wrong.",
+    "modelAnswer": "13 visits paid one at a time cost $13 \\times 6 = 78$ dollars, which is less than the \\$80 pass, so paying per visit is still cheaper. The pass is only cheaper when $6v > 80$, which means $v > 13.3$. 13 is less than 13.3, so she needs to round **up**: the pass is cheaper from 14 visits (\\$84) onwards.",
+    "rubric": [
+      { "criterion": "Shows that 13 visits cost \\$78, which is less than \\$80", "marks": 1 },
+      { "criterion": "Explains that $v$ must be greater than 13.3, so the answer rounds up to 14 visits", "marks": 1 }
+    ],
+    "hints": ["How much would 13 visits cost without the pass?", "Should 13.3 be rounded up or down here?"],
+    "solution": "Without the pass, 13 visits cost $13 \\times 6 = 78$ dollars. That is **less** than \\$80, so for 13 visits the pass is not cheaper.\n\nThe pass is cheaper when $6v > 80$, so $v > 13.3\\ldots$, and the whole numbers greater than 13.3 start at 14. Rounding to the nearest whole number doesn't work here: you have to think about which whole numbers fit the inequality."
+  },
+  {
+    "id": "m9.alg.inequalities.q018",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these statements is true?",
+    "options": [
+      { "id": "a", "text": "$-5 < -2$" },
+      { "id": "b", "text": "$-5 > -2$" },
+      { "id": "c", "text": "$0 < -3$" },
+      { "id": "d", "text": "$-1 < -4$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "On a number line, $-5$ is to the left of $-2$, so it is smaller.",
+      "c": "0 is to the right of $-3$ on a number line, so $0 > -3$.",
+      "d": "$-1$ is to the right of $-4$ on a number line, so $-1 > -4$."
+    },
+    "hints": ["Picture a number line. Numbers further to the left are smaller."],
+    "solution": "On a number line, $-5$ is to the left of $-2$, so $-5$ is less than $-2$: $-5 < -2$ is true.\n\nWith negative numbers, the bigger the number after the minus sign, the smaller the number is."
+  },
+  {
+    "id": "m9.alg.inequalities.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "How do you show $x \\le 4$ on a number line?",
+    "options": [
+      { "id": "a", "text": "A filled circle at 4 and an arrow pointing left" },
+      { "id": "b", "text": "An open circle at 4 and an arrow pointing left" },
+      { "id": "c", "text": "A filled circle at 4 and an arrow pointing right" },
+      { "id": "d", "text": "An open circle at 4 and an arrow pointing right" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An open circle means 4 is **not** included, but $\\le$ includes 4.",
+      "c": "An arrow pointing right shows numbers greater than 4.",
+      "d": "This shows $x > 4$: numbers greater than 4, not including 4."
+    },
+    "hints": ["Does $x \\le 4$ include 4 itself?", "Are the solutions bigger or smaller than 4?"],
+    "solution": "$x \\le 4$ means 4 or any number less than 4. A **filled** circle shows that 4 is included, and the arrow points **left**, towards smaller numbers."
+  },
+  {
+    "id": "m9.alg.inequalities.q020",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which inequality means the same as $7 > x$?",
+    "options": [
+      { "id": "a", "text": "$x < 7$" },
+      { "id": "b", "text": "$x > 7$" },
+      { "id": "c", "text": "$x \\le 7$" },
+      { "id": "d", "text": "$7 < x$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$7 > x$ says 7 is bigger than $x$. So $x$ is smaller than 7, not bigger.",
+      "c": "$7 > x$ doesn't include $x = 7$, so there is no \"or equal to\".",
+      "d": "This says 7 is less than $x$, which is the opposite."
+    },
+    "hints": ["Read it aloud: \"7 is greater than $x$.\" So is $x$ bigger or smaller than 7?", "The narrow end of the symbol always points to the smaller value."],
+    "solution": "$7 > x$ means 7 is bigger than $x$, which is the same as saying $x$ is less than 7: $x < 7$.\n\nWhen you swap the two sides, you turn the symbol around too. The narrow end always points to the smaller value."
+  },
+  {
+    "id": "m9.alg.inequalities.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Priya solved $2x - 3 < 9$ like this:\n\n$2x < 6$\n\n$x < 3$\n\nWhat did she do wrong?",
+    "options": [
+      { "id": "a", "text": "She subtracted 3 instead of adding 3. The answer is $x < 6$" },
+      { "id": "b", "text": "She should have reversed the sign when she divided: $x > 3$" },
+      { "id": "c", "text": "She should have written the answer as $x = 3$" },
+      { "id": "d", "text": "Nothing: $x < 3$ is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by a **positive** number (2) never reverses the sign.",
+      "c": "An inequality has a whole range of solutions, not just one value.",
+      "d": "Test $x = 5$: $2 \\times 5 - 3 = 7$, which is less than 9. So 5 is a solution, but her answer leaves it out."
+    },
+    "hints": ["To undo $-3$, what should you do to both sides?", "Test a value such as $x = 5$ in the original inequality."],
+    "solution": "To undo $-3$, **add** 3 to both sides: $2x < 12$. Then divide by 2: $x < 6$.\n\nPriya subtracted 3 instead, getting $2x < 6$. Check with $x = 5$: $2 \\times 5 - 3 = 7$, and $7 < 9$ ✓, so 5 should be in the solution set."
+  },
+  {
+    "id": "m9.alg.inequalities.q022",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Jack solved $4x + 7 \\ge 19$ and got $x \\ge 3$. He showed this on a number line with an **open** circle at 3 and an arrow pointing right. What is wrong?",
+    "options": [
+      { "id": "a", "text": "The circle should be filled, because 3 is a solution" },
+      { "id": "b", "text": "The arrow should point left, not right" },
+      { "id": "c", "text": "His answer should be $x \\ge 6.5$" },
+      { "id": "d", "text": "Nothing is wrong" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$x \\ge 3$ means 3 or more, so the arrow should point right, towards bigger numbers.",
+      "c": "That would come from adding 7 instead of subtracting it. Subtracting 7 and dividing by 4 gives $x \\ge 3$, so his algebra is right.",
+      "d": "An open circle means 3 is not included. But $4 \\times 3 + 7 = 19$, which satisfies $\\ge 19$, so 3 is included."
+    },
+    "hints": ["Is $x = 3$ a solution? Substitute it.", "What is the difference between an open circle and a filled one?"],
+    "solution": "Jack's algebra is correct: $4x \\ge 12$, so $x \\ge 3$. But $\\ge$ includes 3 (check: $4 \\times 3 + 7 = 19$, and $19 \\ge 19$ ✓), so the circle at 3 must be **filled**. An open circle is only used with $<$ and $>$."
+  },
+  {
+    "id": "m9.alg.inequalities.q023",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $x = 4$ is **not** a solution of $3x + 2 > 14$, but $x = 4.1$ is.",
+    "modelAnswer": "When $x = 4$, $3x + 2 = 3 \\times 4 + 2 = 14$. 14 is not greater than 14, so the inequality is false and 4 isn't a solution. When $x = 4.1$, $3x + 2 = 12.3 + 2 = 14.3$, which is greater than 14, so 4.1 is a solution. Solving gives $x > 4$: every number bigger than 4 works, but 4 itself doesn't.",
+    "rubric": [
+      { "criterion": "Substitutes both values correctly: $x = 4$ gives 14 and $x = 4.1$ gives 14.3", "marks": 1 },
+      { "criterion": "Explains that 14 is not greater than 14 (the inequality is strict) but 14.3 is, so the solution set is $x > 4$", "marks": 1 }
+    ],
+    "hints": ["Substitute each value into $3x + 2$.", "Is 14 greater than 14?"],
+    "solution": "$x = 4$: $3(4) + 2 = 14$, and $14 > 14$ is **false**.\n\n$x = 4.1$: $3(4.1) + 2 = 14.3$, and $14.3 > 14$ is true.\n\nSolving: $3x > 12$, so $x > 4$. The symbol $>$ means \"strictly greater than\", so 4 is the boundary but isn't included. Any number above 4, even 4.001, is a solution."
+  },
+  {
+    "id": "m9.alg.inequalities.q024",
+    "type": "order",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Hemi solves $15 - x > 7$ without multiplying or dividing by a negative number. Put his steps in order.",
+    "items": [
+      { "id": "s1", "text": "$15 - x > 7$" },
+      { "id": "s2", "text": "Add $x$ to both sides: $15 > 7 + x$" },
+      { "id": "s3", "text": "Subtract 7 from both sides: $8 > x$" },
+      { "id": "s4", "text": "Write it with $x$ first: $x < 8$" },
+      { "id": "s5", "text": "Check with $x = 5$: $15 - 5 = 10$, and $10 > 7$ ✓" }
+    ],
+    "hints": ["Getting rid of the $-x$ first keeps the $x$ term positive.", "$8 > x$ and $x < 8$ mean the same thing."],
+    "solution": "Adding $x$ to both sides moves the $x$ term to the right, where it is positive: $15 > 7 + x$. Subtracting 7 gives $8 > x$, which is the same as $x < 8$. Finally, check with a value that should work, such as $x = 5$.\n\nThis gives the same answer as subtracting 15 to get $-x > -8$ and then multiplying by $-1$ and reversing the sign. Hemi's method avoids having to reverse the sign."
+  },
+  {
+    "id": "m9.alg.inequalities.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "A rectangle has sides of $(x + 3)$ cm and $(2x - 1)$ cm. Its perimeter must be **less than** 40 cm, and both side lengths must be positive.\n\nHow many whole-number values of $x$ are possible?",
+    "answer": 5,
+    "hints": ["Write and simplify an expression for the perimeter, then make it less than 40.", "For the side $2x - 1$ to be positive, how big must $x$ be?"],
+    "solution": "Perimeter $= 2(x + 3) + 2(2x - 1) = 2x + 6 + 4x - 2 = 6x + 4$\n\n$6x + 4 < 40$\n\n$6x < 36$\n\n$x < 6$\n\nThe side $2x - 1$ must be positive, so $2x > 1$, which means $x > 0.5$. (The side $x + 3$ is then positive too.)\n\nThe whole numbers between 0.5 and 6 are 1, 2, 3, 4 and 5, so there are **5** possible values.\n\nCheck $x = 5$: the sides are 8 cm and 9 cm, so the perimeter is 34 cm, which is less than 40 ✓. For $x = 6$ the perimeter is $6 \\times 6 + 4 = 40$ cm, which is not less than 40 ✗"
+  },
+  {
+    "id": "m9.alg.inequalities.q026",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "$x = 3$ is a solution of the inequality $2x + k < 10$. What can you say about $k$?",
+    "options": [
+      { "id": "a", "text": "$k < 4$" },
+      { "id": "b", "text": "$k > 4$" },
+      { "id": "c", "text": "$k < 10$" },
+      { "id": "d", "text": "$k \\le 4$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Substitute $x = 3$: $6 + k < 10$. Subtracting 6 keeps the sign the same, so $k < 4$.",
+      "c": "You need to include the $2x$ part: when $x = 3$, $2x = 6$.",
+      "d": "If $k = 4$, then $6 + 4 = 10$, which is not less than 10. So $k$ can't equal 4."
+    },
+    "hints": ["Substitute $x = 3$ into the inequality.", "Then solve the inequality for $k$."],
+    "solution": "Substitute $x = 3$: $2 \\times 3 + k < 10$, so $6 + k < 10$.\n\nSubtract 6 from both sides: $k < 4$.\n\nCheck: with $k = 3$, $6 + 3 = 9 < 10$ ✓. With $k = 4$, $6 + 4 = 10$, which is not less than 10 ✗"
   }
 ]

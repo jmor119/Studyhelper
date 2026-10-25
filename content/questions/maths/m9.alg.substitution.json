@@ -198,5 +198,243 @@
     "answer": -1,
     "hints": ["Work out the top and the bottom separately.", "$(-4)^2 = 16$ and $2 \\times (-5) = -10$."],
     "solution": "Top: $(-4)^2 - 6 = 16 - 6 = 10$\n\nBottom: $2 \\times (-5) = -10$\n\n$\\dfrac{10}{-10} = -1$"
+  },
+  {
+    "id": "m9.alg.substitution.q013",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "groupId": "m9.alg.substitution.g1",
+    "part": "a",
+    "stem": "The interior angles of a polygon with $n$ sides add up to $s$ degrees, where\n\n$$s = 180(n - 2)$$",
+    "prompt": "Find the sum of the interior angles of a hexagon (6 sides).",
+    "answer": 720,
+    "units": "°",
+    "hints": ["Substitute $n = 6$.", "Work out the bracket first."],
+    "solution": "$s = 180(6 - 2) = 180 \\times 4 = 720$\n\nThe interior angles of a hexagon add up to 720°."
+  },
+  {
+    "id": "m9.alg.substitution.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "m9.alg.substitution.g1",
+    "part": "b",
+    "stem": "The interior angles of a polygon with $n$ sides add up to $s$ degrees, where\n\n$$s = 180(n - 2)$$",
+    "prompt": "The interior angles of a polygon add up to 1440°. How many sides does the polygon have?",
+    "answer": 10,
+    "hints": ["Substitute $s = 1440$ to get an equation.", "Divide both sides by 180, then undo the $-2$."],
+    "solution": "$1440 = 180(n - 2)$\n\nDivide both sides by 180: $8 = n - 2$\n\nAdd 2: $n = 10$\n\nThe polygon has 10 sides (a decagon). Check: $180(10 - 2) = 180 \\times 8 = 1440$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q015",
+    "type": "expression",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.alg.substitution.g1",
+    "part": "c",
+    "stem": "The interior angles of a polygon with $n$ sides add up to $s$ degrees, where\n\n$$s = 180(n - 2)$$",
+    "prompt": "Make $n$ the subject of the formula $s = 180(n - 2)$.\n\nType the expression that $n$ is equal to.",
+    "answer": "s/180 + 2",
+    "variables": ["s"],
+    "hints": ["Undo the operations on $n$ in reverse order.", "Start by dividing both sides by 180."],
+    "solution": "$s = 180(n - 2)$\n\nDivide both sides by 180: $\\dfrac{s}{180} = n - 2$\n\nAdd 2 to both sides: $n = \\dfrac{s}{180} + 2$\n\nCheck with a hexagon: $s = 720$ gives $n = \\dfrac{720}{180} + 2 = 4 + 2 = 6$ ✓\n\n(You could also expand first: $s = 180n - 360$, so $n = \\dfrac{s + 360}{180}$. This is the same formula.)"
+  },
+  {
+    "id": "m9.alg.substitution.q016",
+    "type": "numeric",
+    "difficulty": 1,
+    "marks": 1,
+    "groupId": "m9.alg.substitution.g2",
+    "part": "a",
+    "stem": "A recipe says a roast lamb should be cooked for $T$ minutes, where\n\n$$T = 40m + 20$$\n\nand $m$ is the mass of the lamb in kilograms.",
+    "prompt": "How long should a 2 kg roast be cooked for?",
+    "answer": 100,
+    "units": "min",
+    "hints": ["Substitute $m = 2$ into the formula."],
+    "solution": "$T = 40 \\times 2 + 20 = 80 + 20 = 100$\n\nA 2 kg roast should be cooked for 100 minutes (1 hour 40 minutes)."
+  },
+  {
+    "id": "m9.alg.substitution.q017",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "m9.alg.substitution.g2",
+    "part": "b",
+    "stem": "A recipe says a roast lamb should be cooked for $T$ minutes, where\n\n$$T = 40m + 20$$\n\nand $m$ is the mass of the lamb in kilograms.",
+    "prompt": "Aroha followed the recipe and cooked her roast for 2 hours 20 minutes. What was the mass of the roast?",
+    "answer": 3,
+    "units": "kg",
+    "hints": ["The formula uses minutes. How many minutes are in 2 hours 20 minutes?", "Substitute that value of $T$ and solve for $m$."],
+    "solution": "2 hours 20 minutes $= 120 + 20 = 140$ minutes.\n\n$140 = 40m + 20$\n\nSubtract 20: $120 = 40m$\n\nDivide by 40: $m = 3$\n\nThe roast was 3 kg. Check: $40 \\times 3 + 20 = 140$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m9.alg.substitution.g2",
+    "part": "c",
+    "stem": "A recipe says a roast lamb should be cooked for $T$ minutes, where\n\n$$T = 40m + 20$$\n\nand $m$ is the mass of the lamb in kilograms.",
+    "prompt": "Tama says a 4 kg roast needs twice as long as a 2 kg roast. Is he right? Use the formula to explain.",
+    "modelAnswer": "No. A 2 kg roast needs $40 \\times 2 + 20 = 100$ minutes and a 4 kg roast needs $40 \\times 4 + 20 = 180$ minutes. Twice 100 is 200, not 180. Doubling the mass doubles the $40m$ part, but the extra 20 minutes is only added once, so the time doesn't double.",
+    "rubric": [
+      { "criterion": "Works out both times correctly: 100 minutes and 180 minutes", "marks": 1 },
+      { "criterion": "States he is wrong and explains that the fixed 20 minutes doesn't double", "marks": 1 }
+    ],
+    "hints": ["Work out the cooking time for each roast.", "Which part of the formula doubles when $m$ doubles? Which part doesn't?"],
+    "solution": "2 kg: $T = 40 \\times 2 + 20 = 100$ minutes\n\n4 kg: $T = 40 \\times 4 + 20 = 180$ minutes\n\nTwice 100 is 200, so Tama is wrong. The $40m$ part doubles (from 80 to 160), but the $+20$ stays the same. Only a formula with no fixed part, like $T = 40m$, would make the time double."
+  },
+  {
+    "id": "m9.alg.substitution.q019",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the value of $4y$ when $y = 3$?",
+    "options": [
+      { "id": "a", "text": "$12$" },
+      { "id": "b", "text": "$43$" },
+      { "id": "c", "text": "$7$" },
+      { "id": "d", "text": "$1$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$4y$ means $4 \\times y$. Writing the 3 next to the 4 makes 43, which isn't the same thing.",
+      "c": "$4y$ means 4 multiplied by $y$, not 4 add $y$.",
+      "d": "$4y$ means $4 \\times y$, not $4 - y$."
+    },
+    "hints": ["A number written in front of a letter means multiply."],
+    "solution": "$4y$ means $4 \\times y$. When $y = 3$: $4 \\times 3 = 12$."
+  },
+  {
+    "id": "m9.alg.substitution.q020",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The formula $d = 5t^2$ gives the distance, in metres, that a stone falls in $t$ seconds. How far does it fall in 3 seconds?",
+    "options": [
+      { "id": "a", "text": "45 m" },
+      { "id": "b", "text": "225 m" },
+      { "id": "c", "text": "30 m" },
+      { "id": "d", "text": "15 m" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is $(5 \\times 3)^2$. Only the $t$ is squared, so work out $3^2$ first, then multiply by 5.",
+      "c": "Squaring means multiplying a number by itself, not by 2: $3^2 = 9$, not 6.",
+      "d": "You need to square $t$ before multiplying by 5."
+    },
+    "hints": ["In $5t^2$, only the $t$ is squared.", "Work out $3^2$ first."],
+    "solution": "$d = 5 \\times 3^2 = 5 \\times 9 = 45$ m\n\nPowers come before multiplication, and the square applies only to $t$."
+  },
+  {
+    "id": "m9.alg.substitution.q021",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "A bakery sells pies for \\$4.50 each and charges \\$3 for delivery. Which formula gives the total cost, $C$ dollars, of having $n$ pies delivered?",
+    "options": [
+      { "id": "a", "text": "$C = 4.5n + 3$" },
+      { "id": "b", "text": "$C = 3n + 4.5$" },
+      { "id": "c", "text": "$C = 4.5(n + 3)$" },
+      { "id": "d", "text": "$C = 7.5n$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This charges \\$3 for each pie and \\$4.50 once. It's the wrong way round.",
+      "c": "This charges for 3 extra pies (\\$13.50) instead of a \\$3 delivery fee.",
+      "d": "This adds the delivery fee to every pie. The \\$3 is only paid once."
+    },
+    "hints": ["Which amount depends on the number of pies, and which is paid only once?"],
+    "solution": "Each pie costs \\$4.50, so $n$ pies cost $4.5n$ dollars. The \\$3 delivery fee is paid once. So $C = 4.5n + 3$.\n\nCheck with 2 pies: $4.5 \\times 2 + 3 = 12$, which is \\$9 for the pies plus \\$3 for delivery ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q022",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The area of a triangle is $A = \\frac{1}{2}bh$. Which formula has $h$ as the subject?",
+    "options": [
+      { "id": "a", "text": "$h = \\dfrac{2A}{b}$" },
+      { "id": "b", "text": "$h = \\dfrac{A}{2b}$" },
+      { "id": "c", "text": "$h = 2A - b$" },
+      { "id": "d", "text": "$h = \\dfrac{2b}{A}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "To undo multiplying by $\\frac{1}{2}$, multiply by 2. So the 2 goes on top, with the $A$.",
+      "c": "$b$ is multiplied by $h$, not added to it, so undo it by dividing by $b$.",
+      "d": "This is upside down. Check with $b = 4$ and $h = 3$: $A = 6$, but $\\frac{2 \\times 4}{6}$ isn't 3."
+    },
+    "hints": ["Multiply both sides by 2 first.", "Then divide both sides by $b$."],
+    "solution": "$A = \\frac{1}{2}bh$\n\nMultiply both sides by 2: $2A = bh$\n\nDivide both sides by $b$: $h = \\dfrac{2A}{b}$\n\nCheck with $b = 4$ and $h = 3$: $A = \\frac{1}{2} \\times 4 \\times 3 = 6$, and $\\dfrac{2 \\times 6}{4} = 3$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q023",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Tevita made $x$ the subject of $y = 3x - 6$. His answer was\n\n$$x = \\frac{y}{3} + 6$$\n\nWhat did he do wrong?",
+    "options": [
+      { "id": "a", "text": "He divided $y$ by 3 but not the 6. It should be $x = \\dfrac{y + 6}{3}$" },
+      { "id": "b", "text": "He should subtract 6, not add it: $x = \\dfrac{y - 6}{3}$" },
+      { "id": "c", "text": "He should multiply by 3, not divide: $x = 3y + 6$" },
+      { "id": "d", "text": "Nothing: his answer is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The 6 is subtracted from $3x$, so you undo it by **adding** 6. Adding was right.",
+      "c": "$x$ is multiplied by 3, so you undo it by **dividing** by 3.",
+      "d": "Test it with $x = 4$: $y = 3 \\times 4 - 6 = 6$. His formula gives $\\frac{6}{3} + 6 = 8$, not 4."
+    },
+    "hints": ["Add 6 to both sides first. Then divide the **whole** of each side by 3.", "Test his formula with a pair of values, such as $x = 4$ and $y = 6$."],
+    "solution": "$y = 3x - 6$\n\nAdd 6 to both sides: $y + 6 = 3x$\n\nDivide both sides by 3: $x = \\dfrac{y + 6}{3}$, which is the same as $\\dfrac{y}{3} + 2$.\n\nTevita divided $y$ by 3 but forgot to divide the 6 by 3. Check with $y = 6$: $\\dfrac{6 + 6}{3} = 4$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q024",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "The air gets colder as you climb a mountain. On one day, the temperature $T$ (in °C) at a height of $h$ kilometres above sea level is given by\n\n$$T = 15 - 6.5h$$\n\nThe summit of Mount Ruapehu is about 2.8 km above sea level. Use the formula to estimate the temperature at the summit.",
+    "answer": -3.2,
+    "units": "°C",
+    "hints": ["Substitute $h = 2.8$.", "Do the multiplication before the subtraction."],
+    "solution": "$T = 15 - 6.5 \\times 2.8$\n\n$= 15 - 18.2$\n\n$= -3.2$\n\nIt is about $-3.2$ °C at the summit, which is below freezing. Remember to multiply before you subtract."
+  },
+  {
+    "id": "m9.alg.substitution.q025",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Hana rearranged the formula $F = 1.8C + 32$ to make $C$ the subject. She got\n\n$$C = \\frac{F - 32}{1.8}$$\n\nShow how Hana could check her rearrangement by substituting numbers into both formulas.",
+    "modelAnswer": "Choose a value for $C$, for example $C = 10$. The original formula gives $F = 1.8 \\times 10 + 32 = 50$. Now substitute $F = 50$ into Hana's formula: $C = \\frac{50 - 32}{1.8} = \\frac{18}{1.8} = 10$. This gives back $C = 10$, the value we started with, so her rearrangement is correct.",
+    "rubric": [
+      { "criterion": "Chooses a value of $C$ and correctly substitutes it into $F = 1.8C + 32$", "marks": 1 },
+      { "criterion": "Substitutes the result into Hana's formula, gets the starting value of $C$ back and concludes that it checks out", "marks": 1 }
+    ],
+    "hints": ["Pick an easy value for $C$ and find $F$ using the first formula.", "Put that value of $F$ into Hana's formula. What should you get?"],
+    "solution": "Try $C = 10$: $F = 1.8 \\times 10 + 32 = 50$.\n\nPut $F = 50$ into Hana's formula: $C = \\dfrac{50 - 32}{1.8} = \\dfrac{18}{1.8} = 10$ ✓\n\nWe got back the $C$ we started with, so her rearrangement works. (A wrong rearrangement, such as $C = \\frac{F}{1.8} - 32$, would give a different value: $\\frac{50}{1.8} - 32 \\approx -4.2$.)"
+  },
+  {
+    "id": "m9.alg.substitution.q026",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "The sum of the whole numbers from 1 to $n$ is given by the formula\n\n$$S = \\frac{n(n + 1)}{2}$$\n\nFor example, $1 + 2 + 3 + 4 = \\frac{4 \\times 5}{2} = 10$.\n\nThe sum $1 + 2 + 3 + \\cdots + n$ is 210. Find $n$.",
+    "answer": 20,
+    "hints": ["Substitute $S = 210$, then multiply both sides by 2.", "Use trial and improvement: try a value of $n$, work out $n(n + 1)$, and adjust."],
+    "solution": "$210 = \\dfrac{n(n + 1)}{2}$\n\nMultiply both sides by 2: $n(n + 1) = 420$\n\nSo we need two consecutive whole numbers that multiply to 420. Trial and improvement: $15 \\times 16 = 240$ (too small), $21 \\times 22 = 462$ (too big), $20 \\times 21 = 420$ ✓\n\nSo $n = 20$. Check: $\\dfrac{20 \\times 21}{2} = 210$ ✓"
+  },
+  {
+    "id": "m9.alg.substitution.q027",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $-x^2 + 2x$ when $x = -3$.",
+    "answer": -15,
+    "hints": ["$-x^2$ means $-(x^2)$: square $x$ first, then make it negative.", "Work out each term separately, then add them."],
+    "solution": "First term: $x^2 = (-3)^2 = 9$, so $-x^2 = -9$.\n\nSecond term: $2x = 2 \\times (-3) = -6$.\n\nTotal: $-9 + (-6) = -15$\n\nA common mistake is to work out $-x^2$ as $(-3)^2 = 9$. The negative sign in front of $x^2$ is applied **after** squaring."
   }
 ]

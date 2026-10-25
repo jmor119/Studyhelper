@@ -159,5 +159,243 @@
     "accepted": ["derived unit", "derived units", "a derived unit", "derived", "compound unit", "compound units"],
     "hints": ["It begins with the letter d. Units such as m² and km/h are '…' from base units."],
     "solution": "It is a **derived unit**: it is built (derived) from other units, here kilometres and hours."
+  },
+  {
+    "id": "m9.mea.units.q011",
+    "type": "mcq",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.mea.units.g1",
+    "part": "a",
+    "stem": "Aroha runs a 10 km fun run. Her watch shows her finishing time as **58:30**, which means 58 minutes and 30 seconds. Her **pace** is the average time she takes to run 1 km.",
+    "prompt": "Aroha's friend writes her time as 58.3 minutes. What is 58 minutes 30 seconds written as a decimal number of minutes?",
+    "options": [
+      { "id": "a", "text": "58.5 minutes" },
+      { "id": "b", "text": "58.3 minutes" },
+      { "id": "c", "text": "58.25 minutes" },
+      { "id": "d", "text": "58.05 minutes" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This treats the seconds like decimal places. There are 60 seconds in a minute, not 100, so 30 s is half a minute.",
+      "c": "0.25 of a minute is 15 seconds (a quarter of 60). 30 seconds is half a minute.",
+      "d": "0.05 of a minute is only 3 seconds (0.05 × 60). 30 seconds is half a minute."
+    },
+    "hints": ["How many seconds are in one minute?", "What fraction of a minute is 30 seconds?"],
+    "solution": "There are 60 seconds in a minute, so 30 s $= \\frac{30}{60} = 0.5$ min.\n\n58 min 30 s = **58.5 minutes**. Writing 58.3 treats the clock as if it counted in hundredths, but time is base 60."
+  },
+  {
+    "id": "m9.mea.units.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "allowed",
+    "groupId": "m9.mea.units.g1",
+    "part": "b",
+    "stem": "Aroha runs a 10 km fun run. Her watch shows her finishing time as **58:30**, which means 58 minutes and 30 seconds. Her **pace** is the average time she takes to run 1 km.",
+    "prompt": "Find Aroha's pace in minutes per kilometre, as a decimal.",
+    "answer": 5.85,
+    "hints": ["Pace = total time ÷ distance.", "Write her time as a decimal number of minutes first."],
+    "solution": "30 s is half a minute, so her time is 58.5 min.\n\nPace $= 58.5 \\div 10 = 5.85$ minutes per km."
+  },
+  {
+    "id": "m9.mea.units.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.mea.units.g1",
+    "part": "c",
+    "stem": "Aroha runs a 10 km fun run. Her watch shows her finishing time as **58:30**, which means 58 minutes and 30 seconds. Her **pace** is the average time she takes to run 1 km.",
+    "prompt": "Write Aroha's pace as a number of **seconds** per kilometre.",
+    "answer": 351,
+    "hints": ["Change her whole time into seconds first.", "58 min 30 s $= 58 \\times 60 + 30$ seconds. Then share this over the 10 km."],
+    "solution": "Total time $= 58 \\times 60 + 30 = 3510$ s.\n\nPace $= 3510 \\div 10 = 351$ s per km.\n\n(Check: 351 s = 5 min 51 s. Her pace of 5.85 min per km is 5 min 51 s per km, not 5 min 85 s, because $0.85 \\times 60 = 51$.)"
+  },
+  {
+    "id": "m9.mea.units.q014",
+    "type": "numeric",
+    "difficulty": 2,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.mea.units.g2",
+    "part": "a",
+    "stem": "Very small lengths are measured in micrometres (μm) and nanometres (nm). A human hair is about 80 μm wide. A red blood cell is about 8 μm across. A flu virus is about 100 nm across.",
+    "prompt": "How wide is the human hair in **millimetres**?",
+    "answer": 0.08,
+    "units": "mm",
+    "hints": ["1 mm = 1000 μm.", "To change micrometres into millimetres, divide by 1000."],
+    "solution": "1 mm = 1000 μm, so 80 μm $= 80 \\div 1000 = 0.08$ mm."
+  },
+  {
+    "id": "m9.mea.units.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 1,
+    "calculator": "not-allowed",
+    "groupId": "m9.mea.units.g2",
+    "part": "b",
+    "stem": "Very small lengths are measured in micrometres (μm) and nanometres (nm). A human hair is about 80 μm wide. A red blood cell is about 8 μm across. A flu virus is about 100 nm across.",
+    "prompt": "How many red blood cells, placed side by side in a row, would stretch across the width of the hair?",
+    "answer": 10,
+    "hints": ["Both widths are already in the same unit (μm).", "How many lots of 8 μm fit into 80 μm?"],
+    "solution": "$80 \\div 8 = 10$, so **10** red blood cells would stretch across the hair."
+  },
+  {
+    "id": "m9.mea.units.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.mea.units.g2",
+    "part": "c",
+    "stem": "Very small lengths are measured in micrometres (μm) and nanometres (nm). A human hair is about 80 μm wide. A red blood cell is about 8 μm across. A flu virus is about 100 nm across.",
+    "prompt": "How many flu viruses, placed side by side in a row, would fit across one red blood cell?",
+    "answer": 80,
+    "hints": ["The two sizes are in different units. Change the red blood cell into nanometres first.", "1 μm = 1000 nm."],
+    "solution": "8 μm $= 8 \\times 1000 = 8000$ nm.\n\nNumber of viruses $= 8000 \\div 100 = 80$."
+  },
+  {
+    "id": "m9.mea.units.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which unit is the most sensible for measuring the length of a rugby field?",
+    "options": [
+      { "id": "a", "text": "metres (m)" },
+      { "id": "b", "text": "kilometres (km)" },
+      { "id": "c", "text": "centimetres (cm)" },
+      { "id": "d", "text": "millimetres (mm)" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rugby field is only about 0.1 km long, so kilometres give an awkward small decimal.",
+      "c": "You would get a huge number, about 10 000 cm. Centimetres suit smaller things, like a book.",
+      "d": "Millimetres are for tiny lengths. The field would be about 100 000 mm."
+    },
+    "hints": ["Choose the unit that gives a sensible-sized number, not a tiny decimal or a huge number."],
+    "solution": "A rugby field is about 100 m long between the try lines, so **metres** give a sensible number."
+  },
+  {
+    "id": "m9.mea.units.q018",
+    "type": "multi",
+    "difficulty": 1,
+    "prompt": "Select **all** the units that measure **length**.",
+    "options": [
+      { "id": "a", "text": "mm" },
+      { "id": "b", "text": "km" },
+      { "id": "c", "text": "μm (micrometres)" },
+      { "id": "d", "text": "m²" },
+      { "id": "e", "text": "kg" },
+      { "id": "f", "text": "km/h" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["A length tells you how long, wide or tall something is.", "A unit with a small ² or a \"/\" in it is built from more than one measurement."],
+    "solution": "**mm**, **km** and **μm** all measure length (a micrometre is a millionth of a metre). m² measures area, kg measures mass and km/h measures speed."
+  },
+  {
+    "id": "m9.mea.units.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Four students measure the same plank. Which measurement has been made **most precisely**?",
+    "options": [
+      { "id": "a", "text": "3.462 m" },
+      { "id": "b", "text": "3.46 m" },
+      { "id": "c", "text": "3.5 m" },
+      { "id": "d", "text": "346 cm" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "3.46 m is to the nearest centimetre (0.01 m). 3.462 m goes one step further, to the nearest millimetre.",
+      "c": "3.5 m is only to the nearest 0.1 m (10 cm).",
+      "d": "346 cm is to the nearest centimetre, the same precision as 3.46 m."
+    },
+    "hints": ["Precision is about the smallest unit a measurement is given to.", "Think about what the last digit of each measurement stands for."],
+    "solution": "3.462 m is given to the nearest **0.001 m (1 mm)**. 3.46 m and 346 cm are to the nearest centimetre, and 3.5 m is to the nearest 0.1 m. So **3.462 m** is the most precise."
+  },
+  {
+    "id": "m9.mea.units.q020",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "Tane says: \"1 km = 1000 m, so 72 km/h is the same as 72 000 m/s.\" What has Tane done wrong?",
+    "options": [
+      { "id": "a", "text": "He forgot to change hours to seconds: 72 000 m in 3600 s is 20 m/s" },
+      { "id": "b", "text": "He should have divided by 1000 to get 0.072 m/s" },
+      { "id": "c", "text": "He should have multiplied by 3.6 to get 259.2 m/s" },
+      { "id": "d", "text": "Nothing: 72 km/h is the same as 72 000 m/s" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Changing km into m makes the number bigger, not smaller. The real problem is the time unit.",
+      "c": "Multiplying by 3.6 changes m/s into km/h. To go from km/h to m/s you divide by 3.6.",
+      "d": "72 000 m/s would be faster than a rocket. He changed the distance unit, but the time is still in hours."
+    },
+    "hints": ["km/h means kilometres **per hour**. Which two units need changing to get m/s?", "There are 3600 seconds in an hour."],
+    "solution": "72 km/h means 72 km in 1 hour, which is 72 000 m in 3600 s.\n\nSpeed $= 72\\,000 \\div 3600 = 20$ m/s. Tane changed the distance unit but forgot to change hours into seconds. (Shortcut: km/h ÷ 3.6 = m/s.)"
+  },
+  {
+    "id": "m9.mea.units.q021",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Mere writes the length of her pencil as **12.0 cm**. Her friend says she should just write 12 cm, because it is the same thing. Explain why 12.0 cm and 12 cm do not tell you quite the same thing.",
+    "modelAnswer": "12.0 cm shows that the pencil was measured to the nearest 0.1 cm (millimetre), so its length is between 11.95 cm and 12.05 cm. 12 cm only says it was measured to the nearest centimetre, so it could be anywhere from 11.5 cm to 12.5 cm. The zero after the decimal point shows the measurement is more precise.",
+    "rubric": [
+      { "criterion": "12.0 cm means measured to the nearest 0.1 cm (mm), but 12 cm means measured to the nearest cm", "marks": 1 },
+      { "criterion": "Explains that 12.0 cm is more precise, with a smaller range of possible lengths (e.g. 11.95–12.05 cm, not 11.5–12.5 cm)", "marks": 1 }
+    ],
+    "hints": ["What does the final 0 tell you about how carefully the pencil was measured?"],
+    "solution": "The 0 in 12.0 cm shows the length was measured to the nearest **0.1 cm** (1 mm). Writing 12 cm only shows it was measured to the nearest **centimetre**. So 12.0 cm is more precise: the true length is between 11.95 cm and 12.05 cm, instead of anywhere between 11.5 cm and 12.5 cm."
+  },
+  {
+    "id": "m9.mea.units.q022",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "prompt": "The Sky Tower in Auckland is 328 m tall. A sheet of paper is about 0.1 mm thick. How many sheets of paper would you need to make a stack as tall as the Sky Tower? You can write your answer as $a \\times 10^n$.",
+    "answer": 3280000,
+    "hints": ["Change 328 m into millimetres first, so both lengths are in the same unit.", "1 m = 1000 mm. Then work out how many 0.1 mm sheets fit into that height."],
+    "solution": "328 m $= 328 \\times 1000 = 328\\,000$ mm.\n\nNumber of sheets $= 328\\,000 \\div 0.1 = 3\\,280\\,000$ (about 3.3 million sheets)."
+  },
+  {
+    "id": "m9.mea.units.q023",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "One afternoon the Cook Strait ferry leaves Picton at 3:50 pm, and the crossing to Wellington takes 3.4 hours. Sam says the ferry will arrive at 7:30 pm. Explain Sam's mistake, and work out the correct arrival time.",
+    "modelAnswer": "Sam has treated 0.4 hours as 40 minutes. But an hour has 60 minutes, so 0.4 h = 0.4 × 60 = 24 minutes, and 3.4 h = 3 h 24 min. 3:50 pm + 3 h = 6:50 pm, and 6:50 pm + 24 min = 7:14 pm. The ferry arrives at 7:14 pm.",
+    "rubric": [
+      { "criterion": "Explains that 0.4 h is not 40 minutes: 0.4 × 60 = 24 minutes (time is base 60)", "marks": 1 },
+      { "criterion": "Gives the correct arrival time, 7:14 pm", "marks": 1 }
+    ],
+    "hints": ["How many minutes is 0.4 of an hour?", "Add the 3 hours first, then the minutes."],
+    "solution": "0.4 h $= 0.4 \\times 60 = 24$ min, so 3.4 h = 3 h 24 min (not 3 h 40 min).\n\n3:50 pm + 3 h = 6:50 pm. Then 6:50 pm + 24 min = **7:14 pm**. Sam treated the decimal part as minutes, but there are 60 minutes in an hour, not 100."
+  },
+  {
+    "id": "m9.mea.units.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "The distance from the Earth to the Sun is about 150 million kilometres. The prefix giga means one billion, so 1 gigametre (1 Gm) = 1 000 000 000 m. Write the distance from the Earth to the Sun in gigametres.",
+    "answer": 150,
+    "hints": ["Change 150 million km into metres first.", "Then work out how many lots of 1 000 000 000 m fit into that distance."],
+    "solution": "150 million km $= 150\\,000\\,000$ km $= 150\\,000\\,000 \\times 1000 = 150\\,000\\,000\\,000$ m.\n\n1 Gm $= 1\\,000\\,000\\,000$ m, so the distance is $150\\,000\\,000\\,000 \\div 1\\,000\\,000\\,000 =$ **150 Gm**."
+  },
+  {
+    "id": "m9.mea.units.q025",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Mia's 100 m time was measured as **11.3 s** with a hand-held stopwatch that only shows tenths of a second. Lucy's time, in a different race, was **11.27 s** on an electronic timer that shows hundredths of a second. The coach says Lucy was faster by 0.03 s. Explain why we can't be sure that Lucy was faster.",
+    "modelAnswer": "11.3 s is only measured to the nearest 0.1 s, so Mia's real time could be anything from 11.25 s up to 11.35 s. Lucy's 11.27 s is inside that range, so Mia could really have been faster (for example 11.26 s) or slower. The difference of 0.03 s is smaller than the precision of Mia's measurement, and an answer can't be more precise than the least precise measurement used.",
+    "rubric": [
+      { "criterion": "States that 11.3 s (to the nearest 0.1 s) could be any time from 11.25 s to 11.35 s", "marks": 1 },
+      { "criterion": "Explains that 11.27 s is inside this range (0.03 s is smaller than the stopwatch can measure), so we cannot tell who was faster", "marks": 1 }
+    ],
+    "hints": ["A time rounded to the nearest 0.1 s shows 11.3 s. What is the smallest and the largest it could really have been?"],
+    "solution": "Mia's 11.3 s is rounded to the nearest 0.1 s, so her true time is between **11.25 s and 11.35 s**. Lucy's 11.27 s lies inside this range, so Mia might really have been faster or slower than Lucy. A difference of 0.03 s is more precise than Mia's measurement allows, so the coach can't be sure."
   }
 ]

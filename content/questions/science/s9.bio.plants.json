@@ -710,5 +710,799 @@
       "Plants kept in a dark cupboard can't photosynthesise."
     ],
     "solution": "Plants need **light energy**, usually from the Sun. It is absorbed by chlorophyll and stored as chemical energy in glucose."
+  },
+  {
+    "id": "s9.bio.plants.q023",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Through which part of a plant does most of its water enter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The roots"
+      },
+      {
+        "id": "b",
+        "text": "The leaves"
+      },
+      {
+        "id": "c",
+        "text": "The flowers"
+      },
+      {
+        "id": "d",
+        "text": "The bark of the stem"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Water mostly **leaves** a plant through its leaves, by transpiration. It enters through the roots.",
+      "c": "Flowers are for reproduction, not for taking in water.",
+      "d": "Bark is a protective layer. Water enters through the roots, then travels up the stem in the xylem."
+    },
+    "hints": [
+      "Which part of the plant is in contact with damp soil?"
+    ],
+    "solution": "Water enters through the **roots**, mostly through root hair cells, which give a large surface area. It then travels up to the leaves in the xylem."
+  },
+  {
+    "id": "s9.bio.plants.q024",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "Which sugar do plants make by photosynthesis?",
+    "accepted": [
+      "glucose"
+    ],
+    "hints": [
+      "It is the same sugar that your cells use for respiration."
+    ],
+    "solution": "Photosynthesis makes **glucose**. Plants use it for respiration, turn it into starch for storage, or use it to build cellulose for cell walls."
+  },
+  {
+    "id": "s9.bio.plants.q025",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "[[a]] carries water and mineral ions up from the roots. [[b]] carries dissolved sugars from the leaves to the rest of the plant.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "Xylem"
+        ],
+        "options": [
+          "Xylem",
+          "Phloem"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "Phloem"
+        ],
+        "options": [
+          "Xylem",
+          "Phloem"
+        ]
+      }
+    ],
+    "hints": [
+      "One way to remember: **ph**loem carries **f**ood (sugars)."
+    ],
+    "solution": "**Xylem** carries water and mineral ions up from the roots. **Phloem** carries sugars made in the leaves to every part of the plant that needs them."
+  },
+  {
+    "id": "s9.bio.plants.q026",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the things a plant needs for photosynthesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light"
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "Water"
+      },
+      {
+        "id": "d",
+        "text": "Chlorophyll"
+      },
+      {
+        "id": "e",
+        "text": "Oxygen"
+      },
+      {
+        "id": "f",
+        "text": "Soil"
+      },
+      {
+        "id": "g",
+        "text": "Glucose"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Think about the word equation for photosynthesis, and what absorbs the light."
+    ],
+    "solution": "Photosynthesis needs **light**, **carbon dioxide**, **water** and **chlorophyll** (to absorb the light). Oxygen and glucose are its **products**. Soil isn't needed for photosynthesis: plants can even be grown in water with minerals dissolved in it."
+  },
+  {
+    "id": "s9.bio.plants.q027",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "What is the name of the pair of cells that open and close each stoma?",
+    "accepted": [
+      "guard cells",
+      "guard cell"
+    ],
+    "hints": [
+      "They are bean-shaped cells in the lower epidermis, and they change shape to open or close the pore."
+    ],
+    "solution": "Each stoma is surrounded by two **guard cells**. They change shape to open the stoma (letting gases in and out) or close it (to save water)."
+  },
+  {
+    "id": "s9.bio.plants.q028",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which word equation shows photosynthesis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "carbon dioxide + water → glucose + oxygen"
+      },
+      {
+        "id": "b",
+        "text": "glucose + oxygen → carbon dioxide + water"
+      },
+      {
+        "id": "c",
+        "text": "carbon dioxide + oxygen → glucose + water"
+      },
+      {
+        "id": "d",
+        "text": "glucose + water → carbon dioxide + oxygen"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is **respiration**, the reverse of photosynthesis.",
+      "c": "Oxygen is a product of photosynthesis, not a reactant. The other reactant is water.",
+      "d": "Glucose is **made** by photosynthesis, so it is a product, not a reactant."
+    },
+    "hints": [
+      "Photosynthesis uses a gas from the air and makes a sugar."
+    ],
+    "solution": "Photosynthesis: **carbon dioxide + water → glucose + oxygen**, using light energy absorbed by chlorophyll. Respiration is the reverse."
+  },
+  {
+    "id": "s9.bio.plants.q029",
+    "type": "text",
+    "difficulty": 2,
+    "groupId": "s9.bio.plants.g1",
+    "part": "a",
+    "stem": "Tama investigates how light intensity affects photosynthesis. He puts a piece of pondweed in a test tube of water and shines a lamp on it from different distances. At each distance he counts the bubbles of gas given off in one minute, three times.\n\n| Distance from lamp (cm) | Trial 1 | Trial 2 | Trial 3 |\n|---|---|---|---|\n| 10 | 46 | 50 | 48 |\n| 20 | 31 | 12 | 29 |\n| 30 | 17 | 18 | 16 |\n| 40 | 10 | 9 | 11 |\n| 50 | 6 | 7 | 5 |",
+    "prompt": "Name the gas in the bubbles.",
+    "accepted": [
+      "oxygen",
+      "O2",
+      "oxygen gas"
+    ],
+    "hints": [
+      "Which gas is a product of photosynthesis?"
+    ],
+    "solution": "The bubbles are mostly **oxygen**, which is made by photosynthesis. Counting the bubbles is a way of measuring the rate of photosynthesis."
+  },
+  {
+    "id": "s9.bio.plants.q030",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "s9.bio.plants.g1",
+    "part": "b",
+    "stem": "Tama investigates how light intensity affects photosynthesis. He puts a piece of pondweed in a test tube of water and shines a lamp on it from different distances. At each distance he counts the bubbles of gas given off in one minute, three times.\n\n| Distance from lamp (cm) | Trial 1 | Trial 2 | Trial 3 |\n|---|---|---|---|\n| 10 | 46 | 50 | 48 |\n| 20 | 31 | 12 | 29 |\n| 30 | 17 | 18 | 16 |\n| 40 | 10 | 9 | 11 |\n| 50 | 6 | 7 | 5 |",
+    "prompt": "One result in the table is **anomalous**: it does not fit the pattern. Ignoring that result, calculate the mean number of bubbles per minute at 20 cm.",
+    "answer": 30,
+    "hints": [
+      "Look for a result that is very different from the other two trials at the same distance.",
+      "Find the mean of the two results that are left."
+    ],
+    "solution": "At 20 cm, the result of 12 is anomalous: it is far from 31 and 29, and it doesn't fit the pattern.\n\nMean of the other two: $(31 + 29) \\div 2 = 30$ bubbles per minute."
+  },
+  {
+    "id": "s9.bio.plants.q031",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.plants.g1",
+    "part": "c",
+    "stem": "Tama investigates how light intensity affects photosynthesis. He puts a piece of pondweed in a test tube of water and shines a lamp on it from different distances. At each distance he counts the bubbles of gas given off in one minute, three times.\n\n| Distance from lamp (cm) | Trial 1 | Trial 2 | Trial 3 |\n|---|---|---|---|\n| 10 | 46 | 50 | 48 |\n| 20 | 31 | 12 | 29 |\n| 30 | 17 | 18 | 16 |\n| 40 | 10 | 9 | 11 |\n| 50 | 6 | 7 | 5 |",
+    "prompt": "Which variable must Tama keep the same, to make this a fair test?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The temperature of the water"
+      },
+      {
+        "id": "b",
+        "text": "The distance from the lamp"
+      },
+      {
+        "id": "c",
+        "text": "The number of bubbles per minute"
+      },
+      {
+        "id": "d",
+        "text": "The light intensity"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is the independent variable: Tama changes it on purpose.",
+      "c": "This is the dependent variable: the result that Tama measures.",
+      "d": "Tama changes the light intensity on purpose, by moving the lamp. It is what he is investigating."
+    },
+    "hints": [
+      "A controlled variable is something that could affect the results, but is not the thing being tested."
+    ],
+    "solution": "The **temperature of the water** affects the rate of photosynthesis, so it must be kept the same. (A lamp can warm the water, so Tama could check it with a thermometer or use an LED lamp.) Distance and light intensity are what he's changing, and the bubbles are what he's measuring."
+  },
+  {
+    "id": "s9.bio.plants.q032",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.bio.plants.g1",
+    "part": "d",
+    "stem": "Tama investigates how light intensity affects photosynthesis. He puts a piece of pondweed in a test tube of water and shines a lamp on it from different distances. At each distance he counts the bubbles of gas given off in one minute, three times.\n\n| Distance from lamp (cm) | Trial 1 | Trial 2 | Trial 3 |\n|---|---|---|---|\n| 10 | 46 | 50 | 48 |\n| 20 | 31 | 12 | 29 |\n| 30 | 17 | 18 | 16 |\n| 40 | 10 | 9 | 11 |\n| 50 | 6 | 7 | 5 |",
+    "prompt": "Describe the pattern in the results, and explain it.",
+    "modelAnswer": "As the lamp was moved further away, the number of bubbles per minute decreased (from about 48 at 10 cm to 6 at 50 cm). The further away the lamp is, the lower the light intensity reaching the pondweed. With less light energy for the chlorophyll to absorb, photosynthesis happens more slowly, so less oxygen is made and fewer bubbles are given off.",
+    "rubric": [
+      {
+        "criterion": "Describes the pattern: as the distance increases, the number of bubbles per minute decreases",
+        "marks": 1
+      },
+      {
+        "criterion": "States that a lamp further away gives a lower light intensity at the pondweed",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that less light energy means a slower rate of photosynthesis, so less oxygen is produced",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "First describe what happens to the bubble count as the distance increases.",
+      "Then link distance → light → rate of photosynthesis → oxygen."
+    ],
+    "solution": "Further away → **less light** → **slower photosynthesis** → **less oxygen** → fewer bubbles."
+  },
+  {
+    "id": "s9.bio.plants.q033",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A kauri seedling grows into a huge tree weighing many tonnes, but the soil around it hardly loses any mass. Where does most of the carbon in the tree's wood come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carbon dioxide taken in from the air"
+      },
+      {
+        "id": "b",
+        "text": "Minerals taken in from the soil"
+      },
+      {
+        "id": "c",
+        "text": "Water taken in by the roots"
+      },
+      {
+        "id": "d",
+        "text": "Energy from sunlight"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Minerals from the soil are important, but they make up only a tiny part of the tree's mass. That's why the soil hardly loses any mass.",
+      "c": "Water is used in photosynthesis, but water contains no carbon.",
+      "d": "Sunlight provides energy, not matter. Light can't add carbon atoms to the tree."
+    },
+    "hints": [
+      "Which of these contains carbon?",
+      "Think about the word equation for photosynthesis."
+    ],
+    "solution": "In photosynthesis, the tree takes in **carbon dioxide from the air** and uses the carbon to make glucose, which is then built into cellulose and wood. Most of a tree's dry mass really does come from the air."
+  },
+  {
+    "id": "s9.bio.plants.q034",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Why do most leaves look green?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Chlorophyll absorbs red and blue light, and reflects green light"
+      },
+      {
+        "id": "b",
+        "text": "Chlorophyll absorbs green light, which it uses for photosynthesis"
+      },
+      {
+        "id": "c",
+        "text": "Leaves are full of green sap, which fills the cell vacuoles"
+      },
+      {
+        "id": "d",
+        "text": "Green light is the only colour of light that plants can use"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "We see the colours that are **reflected**, not the ones that are absorbed. Chlorophyll absorbs very little green light, so it bounces back to our eyes.",
+      "c": "Cell sap is mostly clear. The green colour comes from chlorophyll in the chloroplasts.",
+      "d": "Plants use mostly red and blue light. Green is the colour they use least."
+    },
+    "hints": [
+      "When you see something as a certain colour, is that colour being absorbed or reflected?"
+    ],
+    "solution": "Chlorophyll absorbs mainly **red and blue** light for photosynthesis and **reflects green** light. The reflected green light reaches our eyes, so leaves look green."
+  },
+  {
+    "id": "s9.bio.plants.q035",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these in order to show the path a carbon dioxide molecule takes from the air to a chloroplast in a palisade cell.",
+    "items": [
+      {
+        "id": "air",
+        "text": "Air outside the leaf"
+      },
+      {
+        "id": "stoma",
+        "text": "A stoma on the underside of the leaf"
+      },
+      {
+        "id": "space",
+        "text": "An air space in the spongy mesophyll"
+      },
+      {
+        "id": "wall",
+        "text": "The cell wall and cell membrane of a palisade cell"
+      },
+      {
+        "id": "chlor",
+        "text": "A chloroplast inside the palisade cell"
+      }
+    ],
+    "hints": [
+      "Gases enter a leaf through pores, mostly on its lower surface.",
+      "The spongy layer has spaces that let gases move through the leaf."
+    ],
+    "solution": "Air → **stoma** → **air spaces** in the spongy mesophyll → into the **palisade cell** (through its wall and membrane) → **chloroplast**. It moves all the way by diffusion."
+  },
+  {
+    "id": "s9.bio.plants.q036",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Before testing a leaf for starch, students often keep the plant in a dark cupboard for two days. Explain why.",
+    "modelAnswer": "In the dark, the plant can't photosynthesise, so it can't make any new glucose or starch. It keeps respiring, and it uses up or moves away the starch already stored in its leaves. This 'destarches' the leaves, so if starch is found later in the experiment, you know it was made during the experiment and wasn't already there.",
+    "rubric": [
+      {
+        "criterion": "Explains that in the dark there is no photosynthesis, so the plant uses up or moves away the starch already in its leaves",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that any starch found later must have been made during the experiment (so the result is valid)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What can't a plant do in the dark?",
+      "Why would it matter if starch was already in the leaf at the start?"
+    ],
+    "solution": "Two days in the dark **removes the starch** that was already in the leaves (no photosynthesis, but respiration continues). Then any starch found later **must have been made during the experiment**."
+  },
+  {
+    "id": "s9.bio.plants.q037",
+    "type": "match",
+    "difficulty": 2,
+    "groupId": "s9.bio.plants.g2",
+    "part": "a",
+    "stem": "The diagram shows a cross-section through a leaf, as seen under a microscope.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 300\" width=\"430\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"40\" y=\"38\" width=\"340\" height=\"6\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><rect x=\"40\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"74\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"108\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"142\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"176\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"210\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"244\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"278\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"312\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"346\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"41\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"46\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"62\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"67\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"83\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"88\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"104\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"109\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"125\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"146\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"151\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"167\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"172\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"188\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"193\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"209\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"214\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"230\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"235\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"251\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"256\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"272\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"277\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"293\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"314\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"319\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"335\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"340\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"356\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"361\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><ellipse cx=\"54\" cy=\"144\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"142\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"59\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"85\" cy=\"145\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"81\" cy=\"143\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"90\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"147\" cy=\"147\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"145\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"152\" cy=\"150\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"178\" cy=\"148\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"174\" cy=\"146\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"183\" cy=\"151\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"209\" cy=\"149\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"205\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"152\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"240\" cy=\"150\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"245\" cy=\"153\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"271\" cy=\"151\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"267\" cy=\"149\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"276\" cy=\"154\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"302\" cy=\"152\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"150\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"155\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"333\" cy=\"144\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"329\" cy=\"142\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"338\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"364\" cy=\"145\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"360\" cy=\"143\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"369\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"69\" cy=\"178\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"65\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"74\" cy=\"181\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"162\" cy=\"172\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"158\" cy=\"170\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"167\" cy=\"175\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"193\" cy=\"173\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"189\" cy=\"171\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"198\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"224\" cy=\"174\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"220\" cy=\"172\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"229\" cy=\"177\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"255\" cy=\"175\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"251\" cy=\"173\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"260\" cy=\"178\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"286\" cy=\"176\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"282\" cy=\"174\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"291\" cy=\"179\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"317\" cy=\"177\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"313\" cy=\"175\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"322\" cy=\"180\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"348\" cy=\"178\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"344\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"353\" cy=\"181\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"54\" cy=\"196\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"194\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"59\" cy=\"199\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"147\" cy=\"199\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"197\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"152\" cy=\"202\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"178\" cy=\"200\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"174\" cy=\"198\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"183\" cy=\"203\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"240\" cy=\"202\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"200\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"245\" cy=\"205\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"271\" cy=\"203\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"267\" cy=\"201\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"276\" cy=\"206\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"302\" cy=\"204\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"202\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"207\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"333\" cy=\"196\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"329\" cy=\"194\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"338\" cy=\"199\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"364\" cy=\"197\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"360\" cy=\"195\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"369\" cy=\"200\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"110\" cy=\"172\" r=\"24\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"162\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"113\" cy=\"160\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"121\" cy=\"170\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"104\" cy=\"173\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"102\" cy=\"186\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"188\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><circle cx=\"118\" cy=\"184\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><rect x=\"40\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"77\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"114\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"151\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"222\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"261.5\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"301\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"340.5\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><ellipse cx=\"196\" cy=\"218\" rx=\"7\" ry=\"9\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1.2\"/><ellipse cx=\"214\" cy=\"218\" rx=\"7\" ry=\"9\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1.2\"/><circle cx=\"195\" cy=\"216\" r=\"1.8\" fill=\"#16a34a\"/><circle cx=\"215\" cy=\"220\" r=\"1.8\" fill=\"#16a34a\"/><rect x=\"40\" y=\"226\" width=\"148\" height=\"4\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><rect x=\"222\" y=\"226\" width=\"158\" height=\"4\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><line x1=\"366\" y1=\"41\" x2=\"400\" y2=\"41\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"41\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"47\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"366\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"100\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"106\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"348\" y1=\"178\" x2=\"400\" y2=\"178\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"348\" cy=\"178\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"184\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"262\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"205\" cy=\"220\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"205\" y=\"282\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"110\" y1=\"172\" x2=\"26\" y2=\"172\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"172\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"16\" y=\"178\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Cross-section of a leaf. A points to the thin waxy layer on the very top. B points to the layer of tall, closely packed cells full of green dots. C points to the loose, rounded cells with spaces between them. D points to a gap between two bean-shaped cells in the bottom layer. E points to a round bundle of tubes in the middle of the leaf."
+    },
+    "prompt": "Match each label to the part of the leaf it points to.",
+    "pairs": [
+      {
+        "left": {
+          "id": "A",
+          "text": "Label A"
+        },
+        "right": {
+          "id": "cut",
+          "text": "Waxy cuticle"
+        }
+      },
+      {
+        "left": {
+          "id": "B",
+          "text": "Label B"
+        },
+        "right": {
+          "id": "pal",
+          "text": "Palisade mesophyll"
+        }
+      },
+      {
+        "left": {
+          "id": "C",
+          "text": "Label C"
+        },
+        "right": {
+          "id": "spo",
+          "text": "Spongy mesophyll"
+        }
+      },
+      {
+        "left": {
+          "id": "D",
+          "text": "Label D"
+        },
+        "right": {
+          "id": "sto",
+          "text": "Stoma"
+        }
+      },
+      {
+        "left": {
+          "id": "E",
+          "text": "Label E"
+        },
+        "right": {
+          "id": "vein",
+          "text": "Vein (xylem and phloem)"
+        }
+      }
+    ],
+    "hints": [
+      "The palisade cells are tall and packed with chloroplasts.",
+      "A stoma is a gap between two guard cells."
+    ],
+    "solution": "- **A:** waxy cuticle (waterproof layer)\n- **B:** palisade mesophyll (tall cells full of chloroplasts)\n- **C:** spongy mesophyll (round cells with air spaces)\n- **D:** stoma (a pore between two guard cells)\n- **E:** vein, containing xylem and phloem"
+  },
+  {
+    "id": "s9.bio.plants.q038",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.plants.g2",
+    "part": "b",
+    "stem": "The diagram shows a cross-section through a leaf, as seen under a microscope.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 300\" width=\"430\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"40\" y=\"38\" width=\"340\" height=\"6\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><rect x=\"40\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"74\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"108\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"142\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"176\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"210\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"244\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"278\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"312\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"346\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"41\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"46\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"62\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"67\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"83\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"88\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"104\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"109\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"125\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"146\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"151\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"167\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"172\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"188\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"193\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"209\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"214\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"230\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"235\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"251\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"256\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"272\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"277\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"293\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"314\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"319\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"335\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"340\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"356\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"361\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><ellipse cx=\"54\" cy=\"144\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"142\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"59\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"85\" cy=\"145\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"81\" cy=\"143\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"90\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"147\" cy=\"147\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"145\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"152\" cy=\"150\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"178\" cy=\"148\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"174\" cy=\"146\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"183\" cy=\"151\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"209\" cy=\"149\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"205\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"152\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"240\" cy=\"150\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"245\" cy=\"153\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"271\" cy=\"151\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"267\" cy=\"149\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"276\" cy=\"154\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"302\" cy=\"152\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"150\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"155\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"333\" cy=\"144\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"329\" cy=\"142\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"338\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"364\" cy=\"145\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"360\" cy=\"143\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"369\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"69\" cy=\"178\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"65\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"74\" cy=\"181\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"162\" cy=\"172\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"158\" cy=\"170\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"167\" cy=\"175\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"193\" cy=\"173\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"189\" cy=\"171\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"198\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"224\" cy=\"174\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"220\" cy=\"172\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"229\" cy=\"177\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"255\" cy=\"175\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"251\" cy=\"173\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"260\" cy=\"178\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"286\" cy=\"176\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"282\" cy=\"174\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"291\" cy=\"179\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"317\" cy=\"177\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"313\" cy=\"175\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"322\" cy=\"180\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"348\" cy=\"178\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"344\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"353\" cy=\"181\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"54\" cy=\"196\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"194\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"59\" cy=\"199\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"147\" cy=\"199\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"197\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"152\" cy=\"202\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"178\" cy=\"200\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"174\" cy=\"198\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"183\" cy=\"203\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"240\" cy=\"202\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"200\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"245\" cy=\"205\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"271\" cy=\"203\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"267\" cy=\"201\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"276\" cy=\"206\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"302\" cy=\"204\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"202\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"207\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"333\" cy=\"196\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"329\" cy=\"194\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"338\" cy=\"199\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"364\" cy=\"197\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"360\" cy=\"195\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"369\" cy=\"200\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"110\" cy=\"172\" r=\"24\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"162\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"113\" cy=\"160\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"121\" cy=\"170\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"104\" cy=\"173\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"102\" cy=\"186\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"188\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><circle cx=\"118\" cy=\"184\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><rect x=\"40\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"77\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"114\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"151\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"222\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"261.5\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"301\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"340.5\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><ellipse cx=\"196\" cy=\"218\" rx=\"7\" ry=\"9\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1.2\"/><ellipse cx=\"214\" cy=\"218\" rx=\"7\" ry=\"9\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1.2\"/><circle cx=\"195\" cy=\"216\" r=\"1.8\" fill=\"#16a34a\"/><circle cx=\"215\" cy=\"220\" r=\"1.8\" fill=\"#16a34a\"/><rect x=\"40\" y=\"226\" width=\"148\" height=\"4\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><rect x=\"222\" y=\"226\" width=\"158\" height=\"4\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><line x1=\"366\" y1=\"41\" x2=\"400\" y2=\"41\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"41\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"47\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"366\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"100\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"106\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"348\" y1=\"178\" x2=\"400\" y2=\"178\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"348\" cy=\"178\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"184\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"262\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"205\" cy=\"220\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"205\" y=\"282\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"110\" y1=\"172\" x2=\"26\" y2=\"172\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"172\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"16\" y=\"178\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Cross-section of a leaf. A points to the thin waxy layer on the very top. B points to the layer of tall, closely packed cells full of green dots. C points to the loose, rounded cells with spaces between them. D points to a gap between two bean-shaped cells in the bottom layer. E points to a round bundle of tubes in the middle of the leaf."
+    },
+    "prompt": "Most of the chloroplasts are in layer B. Why is this layer near the **top** of the leaf?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It gets the most light, which chloroplasts need for photosynthesis"
+      },
+      {
+        "id": "b",
+        "text": "It is closest to the stomata, where carbon dioxide enters"
+      },
+      {
+        "id": "c",
+        "text": "It is closest to the vein, which brings glucose into the leaf"
+      },
+      {
+        "id": "d",
+        "text": "It is protected from the wind, which damages chloroplasts"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Most stomata are on the **lower** surface of the leaf, a long way from layer B.",
+      "c": "The vein brings **water**. Glucose is made in the leaf, and the phloem carries it away.",
+      "d": "Wind is not the reason. Light comes from above, so the top layer gets the most."
+    },
+    "hints": [
+      "Where does the light come from?"
+    ],
+    "solution": "Light shines on the top of the leaf, so the **top layer gets the most light**. Packing the chloroplasts there means they can absorb as much light as possible for photosynthesis."
+  },
+  {
+    "id": "s9.bio.plants.q039",
+    "type": "mcq",
+    "difficulty": 4,
+    "groupId": "s9.bio.plants.g2",
+    "part": "c",
+    "stem": "The diagram shows a cross-section through a leaf, as seen under a microscope.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 300\" width=\"430\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"17\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"40\" y=\"38\" width=\"340\" height=\"6\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><rect x=\"40\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"74\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"108\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"142\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"176\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"210\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"244\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"278\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"312\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"346\" y=\"44\" width=\"34\" height=\"18\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"41\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"46\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"46\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"55\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"62\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"67\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"67\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"76\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"83\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"88\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"88\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"97\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"104\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"109\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"109\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"118\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"125\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"130\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"130\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"139\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"146\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"151\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"151\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"160\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"167\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"172\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"172\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"181\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"188\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"193\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"193\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"202\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"209\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"214\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"223\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"230\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"235\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"235\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"244\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"251\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"256\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"256\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"265\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"272\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"277\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"277\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"286\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"293\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"298\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"314\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"319\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"319\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"328\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"335\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"340\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"340\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"349\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><rect x=\"356\" y=\"63\" width=\"19\" height=\"68\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"361\" cy=\"70\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"75\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"81\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"86\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"92\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"97\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"103\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"108\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"361\" cy=\"114\" r=\"2.6\" fill=\"#16a34a\"/><circle cx=\"370\" cy=\"119\" r=\"2.6\" fill=\"#16a34a\"/><ellipse cx=\"54\" cy=\"144\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"142\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"59\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"85\" cy=\"145\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"81\" cy=\"143\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"90\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"147\" cy=\"147\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"145\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"152\" cy=\"150\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"178\" cy=\"148\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"174\" cy=\"146\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"183\" cy=\"151\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"209\" cy=\"149\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"205\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"214\" cy=\"152\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"240\" cy=\"150\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"245\" cy=\"153\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"271\" cy=\"151\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"267\" cy=\"149\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"276\" cy=\"154\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"302\" cy=\"152\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"150\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"155\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"333\" cy=\"144\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"329\" cy=\"142\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"338\" cy=\"147\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"364\" cy=\"145\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"360\" cy=\"143\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"369\" cy=\"148\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"69\" cy=\"178\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"65\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"74\" cy=\"181\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"162\" cy=\"172\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"158\" cy=\"170\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"167\" cy=\"175\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"193\" cy=\"173\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"189\" cy=\"171\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"198\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"224\" cy=\"174\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"220\" cy=\"172\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"229\" cy=\"177\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"255\" cy=\"175\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"251\" cy=\"173\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"260\" cy=\"178\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"286\" cy=\"176\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"282\" cy=\"174\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"291\" cy=\"179\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"317\" cy=\"177\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"313\" cy=\"175\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"322\" cy=\"180\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"348\" cy=\"178\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"344\" cy=\"176\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"353\" cy=\"181\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"54\" cy=\"196\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"194\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"59\" cy=\"199\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"147\" cy=\"199\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"197\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"152\" cy=\"202\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"178\" cy=\"200\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"174\" cy=\"198\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"183\" cy=\"203\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"240\" cy=\"202\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"236\" cy=\"200\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"245\" cy=\"205\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"271\" cy=\"203\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"267\" cy=\"201\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"276\" cy=\"206\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"302\" cy=\"204\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"298\" cy=\"202\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"307\" cy=\"207\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"333\" cy=\"196\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"329\" cy=\"194\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"338\" cy=\"199\" r=\"2.2\" fill=\"#16a34a\"/><ellipse cx=\"364\" cy=\"197\" rx=\"12\" ry=\"10\" fill=\"#dcfce7\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><circle cx=\"360\" cy=\"195\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"369\" cy=\"200\" r=\"2.2\" fill=\"#16a34a\"/><circle cx=\"110\" cy=\"172\" r=\"24\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"162\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"113\" cy=\"160\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"121\" cy=\"170\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"104\" cy=\"173\" r=\"5.5\" fill=\"#ffffff\" stroke=\"#92400e\" stroke-width=\"2\"/><circle cx=\"102\" cy=\"186\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"188\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><circle cx=\"118\" cy=\"184\" r=\"3\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"1\"/><rect x=\"40\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"77\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"114\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"151\" y=\"210\" width=\"37\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"222\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"261.5\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"301\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><rect x=\"340.5\" y=\"210\" width=\"39.5\" height=\"16\" fill=\"#f0fdf4\" stroke=\"#4d7c0f\" stroke-width=\"1\"/><ellipse cx=\"196\" cy=\"218\" rx=\"7\" ry=\"9\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1.2\"/><ellipse cx=\"214\" cy=\"218\" rx=\"7\" ry=\"9\" fill=\"#bbf7d0\" stroke=\"#4d7c0f\" stroke-width=\"1.2\"/><circle cx=\"195\" cy=\"216\" r=\"1.8\" fill=\"#16a34a\"/><circle cx=\"215\" cy=\"220\" r=\"1.8\" fill=\"#16a34a\"/><rect x=\"40\" y=\"226\" width=\"148\" height=\"4\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><rect x=\"222\" y=\"226\" width=\"158\" height=\"4\" fill=\"#fde047\" stroke=\"#a16207\" stroke-width=\"0.8\"/><line x1=\"366\" y1=\"41\" x2=\"400\" y2=\"41\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"41\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"47\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><line x1=\"366\" y1=\"100\" x2=\"400\" y2=\"100\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"100\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"106\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><line x1=\"348\" y1=\"178\" x2=\"400\" y2=\"178\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"348\" cy=\"178\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"410\" y=\"184\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"262\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"205\" cy=\"220\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"205\" y=\"282\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">D</text><line x1=\"110\" y1=\"172\" x2=\"26\" y2=\"172\" stroke=\"#1f2937\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"172\" r=\"2.6\" fill=\"#1f2937\"/><text x=\"16\" y=\"178\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">E</text></svg>",
+      "alt": "Cross-section of a leaf. A points to the thin waxy layer on the very top. B points to the layer of tall, closely packed cells full of green dots. C points to the loose, rounded cells with spaces between them. D points to a gap between two bean-shaped cells in the bottom layer. E points to a round bundle of tubes in the middle of the leaf."
+    },
+    "prompt": "Most stomata, like D, are on the lower surface of a leaf. What is the main advantage of this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Less water is lost, because the lower surface is shaded and cooler"
+      },
+      {
+        "id": "b",
+        "text": "More light can reach the stomata on the lower surface"
+      },
+      {
+        "id": "c",
+        "text": "Rain cannot get in through the stomata and drown the cells"
+      },
+      {
+        "id": "d",
+        "text": "Carbon dioxide is heavy, so it collects underneath leaves"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The lower surface gets **less** light, and stomata don't need light to let gases in.",
+      "c": "Rain is not the problem. The main issue for a leaf is **losing** too much water.",
+      "d": "Carbon dioxide mixes evenly in the air around a leaf. The real advantage is about saving water."
+    },
+    "hints": [
+      "Water vapour escapes through open stomata.",
+      "Which surface of the leaf is out of the direct sun?"
+    ],
+    "solution": "Water vapour escapes through open stomata. The lower surface is out of direct sunlight, so it is **cooler** and **less water evaporates**. With most stomata underneath, the leaf can still take in carbon dioxide while losing less water."
+  },
+  {
+    "id": "s9.bio.plants.q040",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "Compare xylem and phloem. Include what each one carries, the direction it carries it, and what each is made of.",
+    "modelAnswer": "Xylem carries water and dissolved mineral ions, while phloem carries dissolved sugars (made in the leaves). Xylem carries its contents in one direction only, up from the roots to the leaves; phloem carries sugars both up and down, to wherever they are needed, such as the roots, growing tips, fruit and seeds. Xylem is made of dead cells that form hollow tubes with strong, thickened walls; phloem is made of living cells.",
+    "rubric": [
+      {
+        "criterion": "States that xylem carries water and mineral ions, and phloem carries dissolved sugars",
+        "marks": 1
+      },
+      {
+        "criterion": "States that xylem carries upwards only (roots to leaves), while phloem carries both up and down to where sugars are needed",
+        "marks": 1
+      },
+      {
+        "criterion": "States that xylem is hollow tubes of dead cells (with strong walls), while phloem is made of living cells",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Remember: phloem carries food (sugars).",
+      "Where are sugars needed? Are those places all above the leaves?"
+    ],
+    "solution": "| | Xylem | Phloem |\n|---|---|---|\n| Carries | Water and mineral ions | Dissolved sugars |\n| Direction | Up only (roots → leaves) | Up and down (to where sugar is needed) |\n| Made of | Dead cells forming hollow tubes with strong walls | Living cells |"
+  },
+  {
+    "id": "s9.bio.plants.q041",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Kauri dieback is caused by a fungus-like microbe that lives in soil. It infects the roots and damages the tissues that carry water and nutrients inside the tree. Infected trees often have yellowing leaves and a thinning canopy. Why do the leaves suffer, when it is the roots that are infected?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Damaged roots and transport tissues can't supply the leaves with enough water and minerals"
+      },
+      {
+        "id": "b",
+        "text": "The microbe travels up into the leaves, where it destroys the chlorophyll"
+      },
+      {
+        "id": "c",
+        "text": "The disease blocks the stomata, so carbon dioxide can't get into the leaves"
+      },
+      {
+        "id": "d",
+        "text": "The roots can't photosynthesise any more, so no glucose reaches the leaves"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The disease attacks the roots and the base of the trunk. The leaves suffer because they are cut off from water and nutrients.",
+      "c": "The disease does not block the stomata. The problem is the supply from the roots.",
+      "d": "Roots don't photosynthesise. Glucose is made in the leaves and carried **down** to the roots."
+    },
+    "hints": [
+      "What do the leaves need from the roots?",
+      "Which tissue carries it up the trunk?"
+    ],
+    "solution": "Leaves need **water** and **mineral ions** from the roots. When the roots and the tissues that carry water up the trunk are damaged, the leaves don't get enough, so they turn yellow and the canopy thins. Over time, the whole tree can die."
+  },
+  {
+    "id": "s9.bio.plants.q042",
+    "type": "mcq",
+    "difficulty": 3,
+    "groupId": "s9.bio.plants.g3",
+    "part": "a",
+    "stem": "Hydrogencarbonate indicator changes colour depending on how much carbon dioxide (CO₂) is in it:\n\n| Amount of CO₂ | Colour |\n|---|---|\n| Less than in normal air | Purple |\n| The same as in normal air | Red |\n| More than in normal air | Yellow |\n\nRiya sets up three sealed tubes of red indicator. In tubes A and B, a leaf is held above the indicator on a small mesh platform. After a few hours:\n\n- **Tube A** (leaf, bright light): the indicator turned **purple**.\n- **Tube B** (leaf, tube wrapped in foil so it is dark): the indicator turned **yellow**.\n- **Tube C** (no leaf, bright light): the indicator stayed **red**.",
+    "prompt": "Why did the indicator in tube B turn yellow?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the dark, the leaf only respired, which added carbon dioxide"
+      },
+      {
+        "id": "b",
+        "text": "In the dark, the leaf photosynthesised, which added carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "The foil reacted with the indicator and turned it yellow"
+      },
+      {
+        "id": "d",
+        "text": "The leaf stopped all of its life processes in the dark"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Photosynthesis needs light, and it **uses up** carbon dioxide. It doesn't add it.",
+      "c": "The foil was wrapped around the outside of the tube to block the light. It didn't touch the indicator.",
+      "d": "Living cells respire all the time, day and night."
+    },
+    "hints": [
+      "Which process can a leaf carry out in the dark?",
+      "Yellow means more carbon dioxide than normal."
+    ],
+    "solution": "Yellow means **more** CO₂. In the dark, the leaf can't photosynthesise, but it still **respires**, releasing carbon dioxide into the tube."
+  },
+  {
+    "id": "s9.bio.plants.q043",
+    "type": "mcq",
+    "difficulty": 4,
+    "groupId": "s9.bio.plants.g3",
+    "part": "b",
+    "stem": "Hydrogencarbonate indicator changes colour depending on how much carbon dioxide (CO₂) is in it:\n\n| Amount of CO₂ | Colour |\n|---|---|\n| Less than in normal air | Purple |\n| The same as in normal air | Red |\n| More than in normal air | Yellow |\n\nRiya sets up three sealed tubes of red indicator. In tubes A and B, a leaf is held above the indicator on a small mesh platform. After a few hours:\n\n- **Tube A** (leaf, bright light): the indicator turned **purple**.\n- **Tube B** (leaf, tube wrapped in foil so it is dark): the indicator turned **yellow**.\n- **Tube C** (no leaf, bright light): the indicator stayed **red**.",
+    "prompt": "Why did the indicator in tube A turn purple?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Photosynthesis used up carbon dioxide faster than respiration released it"
+      },
+      {
+        "id": "b",
+        "text": "The leaf stopped respiring in the light, so it released no carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "The leaf released oxygen, and the oxygen turned the indicator purple"
+      },
+      {
+        "id": "d",
+        "text": "Bright light changes the colour of the indicator by itself"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Leaves respire all the time, in light and in dark. In bright light, photosynthesis is simply faster than respiration.",
+      "c": "This indicator responds to carbon dioxide, not oxygen.",
+      "d": "Tube C was in the same bright light but stayed red, so light alone does not change the indicator."
+    },
+    "hints": [
+      "Purple means less carbon dioxide than normal.",
+      "In the light, the leaf is doing two processes at once. Which one is faster?"
+    ],
+    "solution": "Purple means **less** CO₂ than normal. In bright light, the leaf both photosynthesises and respires, but **photosynthesis is faster**, so overall it takes in more carbon dioxide than it gives out."
+  },
+  {
+    "id": "s9.bio.plants.q044",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "groupId": "s9.bio.plants.g3",
+    "part": "c",
+    "stem": "Hydrogencarbonate indicator changes colour depending on how much carbon dioxide (CO₂) is in it:\n\n| Amount of CO₂ | Colour |\n|---|---|\n| Less than in normal air | Purple |\n| The same as in normal air | Red |\n| More than in normal air | Yellow |\n\nRiya sets up three sealed tubes of red indicator. In tubes A and B, a leaf is held above the indicator on a small mesh platform. After a few hours:\n\n- **Tube A** (leaf, bright light): the indicator turned **purple**.\n- **Tube B** (leaf, tube wrapped in foil so it is dark): the indicator turned **yellow**.\n- **Tube C** (no leaf, bright light): the indicator stayed **red**.",
+    "prompt": "Explain why Riya set up tube C.",
+    "modelAnswer": "Tube C is a control. It is set up like tube A, in the same bright light, but with no leaf, and it stayed red. This shows that the light, the tube or the indicator itself doesn't cause a colour change, so the colour change in tube A must have been caused by the leaf. (To be just as sure about tube B, Riya could also set up a foil-wrapped tube with no leaf.)",
+    "rubric": [
+      {
+        "criterion": "Identifies tube C as a control: the same as tube A, but with no leaf",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that it shows the colour change was caused by the leaf, not by the light or the indicator itself (credit also a student who says a dark tube with no leaf would be the control for tube B)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How is tube C different from tube A?",
+      "What would you conclude if tube C had also turned purple?"
+    ],
+    "solution": "Tube C is a **control**. Because it stayed red in the light without a leaf, Riya can be confident that **the leaf** caused the change in tube A, not the light or the indicator itself."
+  },
+  {
+    "id": "s9.bio.plants.q045",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "allowed",
+    "prompt": "Lena paints clear nail varnish on the underside of a leaf, peels it off and looks at it under a microscope. She counts 36 stomata in an area of 0.2 mm². The underside of the leaf has an area of 20 cm². Estimate the total number of stomata on the underside of the leaf. (1 cm² = 100 mm²)",
+    "answer": 360000,
+    "hints": [
+      "First work out how many stomata there are in 1 mm².",
+      "Then convert the leaf's area into mm² and multiply."
+    ],
+    "solution": "Stomata per mm²: $36 \\div 0.2 = 180$.\n\nLeaf area: $20 \\text{ cm}^2 = 20 \\times 100 = 2000$ mm².\n\nTotal: $180 \\times 2000 = 360\\,000$ stomata."
+  },
+  {
+    "id": "s9.bio.plants.q046",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "A small plant sealed inside a glass jar with some damp soil, on a sunny windowsill, can stay alive for months. An animal, such as a snail, sealed in a jar on its own would soon die. Explain the difference.",
+    "modelAnswer": "In the light, the plant photosynthesises: it takes in carbon dioxide and water and makes glucose (its food) and oxygen. The plant also respires all the time, using oxygen and glucose and releasing carbon dioxide. Over each day, photosynthesis makes enough glucose and oxygen to cover what respiration uses, and the carbon dioxide from respiration is reused for photosynthesis, so the gases are recycled inside the jar. The snail can only respire: it uses up the oxygen and food and builds up carbon dioxide, and it has no way of turning carbon dioxide back into oxygen or making more food, so it soon dies.",
+    "rubric": [
+      {
+        "criterion": "States that the plant photosynthesises in the light, making its own food (glucose) and oxygen from carbon dioxide and water",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the plant's respiration uses oxygen and releases carbon dioxide, which photosynthesis reuses, so the gases are recycled",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the animal only respires: it uses up the oxygen (and food) and builds up carbon dioxide, which it can't turn back into oxygen",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which processes does the plant carry out? Which does the snail carry out?",
+      "Think about what each process uses up and what it makes."
+    ],
+    "solution": "The plant **photosynthesises and respires**, so oxygen and carbon dioxide are recycled and it makes its own food. The snail **only respires**, so it uses up the oxygen and food with no way to replace them."
+  },
+  {
+    "id": "s9.bio.plants.q047",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Most leaves have most of their stomata on the lower surface. Water lilies have leaves that float flat on the surface of a pond, and their stomata are on the **upper** surface. Why?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The lower surface lies on the water, so gases from the air can only get in through the top"
+      },
+      {
+        "id": "b",
+        "text": "The upper surface gets more light, which the stomata need so they can photosynthesise"
+      },
+      {
+        "id": "c",
+        "text": "Carbon dioxide enters from the pond water, so the lower surface needs no stomata"
+      },
+      {
+        "id": "d",
+        "text": "Stomata on the upper surface trap bubbles of air that help the leaf to float"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Stomata are pores that let gases in and out. They are on top so they can reach the air, not so they can photosynthesise.",
+      "c": "Leaves take in carbon dioxide from the air through their stomata. Stomata on the underside would be covered by water.",
+      "d": "Floating comes from air spaces inside the leaf and stem, not from the stomata."
+    },
+    "hints": [
+      "Stomata let carbon dioxide in from the air.",
+      "Which surface of a floating leaf is touching the air?"
+    ],
+    "solution": "Stomata let carbon dioxide in and oxygen and water vapour out. A water lily's lower surface lies on the water, so stomata there would be blocked. Its upper surface is in the air, so that is where the stomata are. Saving water isn't a problem for a plant growing in a pond."
   }
 ]

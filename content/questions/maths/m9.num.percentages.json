@@ -179,5 +179,248 @@
     },
     "hints": ["Use multipliers: an increase of 25% is × 1.25, and a decrease of 20% is × 0.8.", "Multiply the two multipliers together."],
     "solution": "$1.25 \\times 0.8 = 1$, so the population ends up exactly where it started. For example, 100 tūī → 125 → 100."
+  },
+  {
+    "id": "m9.num.percentages.q011",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.percentages.g1",
+    "part": "a",
+    "stem": "The Year 9 class is running sausage sizzles to raise money for camp. Their target is \\$1200. In the first week they raise \\$420. In the second week they raise 40% more than in the first week.",
+    "prompt": "What percentage of the target did they raise in the first week?",
+    "answer": 35,
+    "units": "%",
+    "hints": ["Write the first week's amount as a fraction of the target: $\\frac{420}{1200}$.", "Multiply by 100 to change it to a percentage."],
+    "solution": "$\\frac{420}{1200} \\times 100 = 35\\%$."
+  },
+  {
+    "id": "m9.num.percentages.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "allowed",
+    "groupId": "m9.num.percentages.g1",
+    "part": "b",
+    "stem": "The Year 9 class is running sausage sizzles to raise money for camp. Their target is \\$1200. In the first week they raise \\$420. In the second week they raise 40% more than in the first week.",
+    "prompt": "How much do they raise in the second week?",
+    "answer": 588,
+    "units": "$",
+    "hints": ["40% more means the new amount is 140% of the first week's amount.", "Use the multiplier 1.4."],
+    "solution": "$420 \\times 1.4 = 588$, so they raise **\\$588** in the second week. (Or: 40% of \\$420 is \\$168, and $420 + 168 = 588$.)"
+  },
+  {
+    "id": "m9.num.percentages.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "allowed",
+    "groupId": "m9.num.percentages.g1",
+    "part": "c",
+    "stem": "The Year 9 class is running sausage sizzles to raise money for camp. Their target is \\$1200. In the first week they raise \\$420. In the second week they raise 40% more than in the first week.",
+    "prompt": "After the two weeks, what percentage of the target do they still need to raise?",
+    "answer": 16,
+    "units": "%",
+    "hints": ["Find the amount raised in the second week, then the total for both weeks.", "Work out how much is still needed, then write it as a percentage of \\$1200."],
+    "solution": "Second week: $420 \\times 1.4 = 588$. Total raised: $420 + 588 = 1008$, so \\$1008.\n\nStill needed: $1200 - 1008 = 192$, so \\$192.\n\nAs a percentage of the target: $\\frac{192}{1200} \\times 100 = 16\\%$."
+  },
+  {
+    "id": "m9.num.percentages.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.percentages.g2",
+    "part": "a",
+    "stem": "Each year a community group counts the kererū in their local reserve. They counted 80 kererū in 2024 and 100 kererū in 2025. In 2026 the count was 10% lower than in 2025.",
+    "prompt": "What was the percentage increase from 2024 to 2025?",
+    "options": [
+      { "id": "a", "text": "25%" },
+      { "id": "b", "text": "20%" },
+      { "id": "c", "text": "125%" },
+      { "id": "d", "text": "0.25%" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This divides the increase (20) by the new count (100). A percentage change is always compared with the original amount, 80.",
+      "c": "100 is 125% **of** 80. The increase is only the extra part: $125\\% - 100\\% = 25\\%$.",
+      "d": "$\\frac{20}{80} = 0.25$, but you need to multiply by 100 to make it a percentage."
+    },
+    "hints": ["Find the increase first.", "Divide the increase by the **original** count, then multiply by 100."],
+    "solution": "Increase: $100 - 80 = 20$. Percentage increase: $\\frac{20}{80} \\times 100 = 25\\%$."
+  },
+  {
+    "id": "m9.num.percentages.q015",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m9.num.percentages.g2",
+    "part": "b",
+    "stem": "Each year a community group counts the kererū in their local reserve. They counted 80 kererū in 2024 and 100 kererū in 2025. In 2026 the count was 10% lower than in 2025.",
+    "prompt": "How many kererū did they count in 2026?",
+    "answer": 90,
+    "form": "integer",
+    "hints": ["A 10% decrease leaves 90% of the amount.", "Use the multiplier 0.9 on the 2025 count."],
+    "solution": "$100 \\times 0.9 = 90$ kererū."
+  },
+  {
+    "id": "m9.num.percentages.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "m9.num.percentages.g2",
+    "part": "c",
+    "stem": "Each year a community group counts the kererū in their local reserve. They counted 80 kererū in 2024 and 100 kererū in 2025. In 2026 the count was 10% lower than in 2025.",
+    "prompt": "Mere says: \"From 2024 to 2026 the count went up by 15% overall, because 25% − 10% = 15%.\" Explain why Mere is wrong, and find the correct overall percentage increase.",
+    "modelAnswer": "The two percentages are of different amounts. The 25% increase was 25% of 80, but the 10% decrease was 10% of 100, so you can't just subtract them. The count went from 80 in 2024 to 90 in 2026, an increase of 10. As a percentage of the original 80: $\\frac{10}{80} \\times 100 = 12.5\\%$. So the overall increase was 12.5%, not 15%. (With multipliers: $1.25 \\times 0.9 = 1.125$.)",
+    "rubric": [
+      { "criterion": "Explains that the two percentages are of different amounts (the 10% is of 100, not 80), so they can't be subtracted", "marks": 1 },
+      { "criterion": "Uses the counts 80 and 90 (an increase of 10), or the multipliers $1.25 \\times 0.9$", "marks": 1 },
+      { "criterion": "Finds the correct overall increase of 12.5%", "marks": 1 }
+    ],
+    "hints": ["Is the 10% decrease 10% of 80, or 10% of 100?", "Compare the 2026 count with the 2024 count."],
+    "solution": "2026 count: $100 \\times 0.9 = 90$. From 80 to 90 is an increase of 10, and $\\frac{10}{80} = 0.125 = 12.5\\%$. Mere's method fails because the 10% is taken from a bigger number (100) than the 25% was (80)."
+  },
+  {
+    "id": "m9.num.percentages.q017",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is the same as finding 25% of an amount?",
+    "options": [
+      { "id": "a", "text": "Dividing it by 4" },
+      { "id": "b", "text": "Dividing it by 25" },
+      { "id": "c", "text": "Multiplying it by 0.025" },
+      { "id": "d", "text": "Dividing it by 2.5" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by 25 gives 4% of the amount, because $\\frac{1}{25} = \\frac{4}{100}$.",
+      "c": "$0.025$ is 2.5%. As a decimal, 25% is 0.25.",
+      "d": "Dividing by 2.5 gives 40% of the amount."
+    },
+    "hints": ["Write 25% as a fraction in simplest form."],
+    "solution": "$25\\% = \\frac{25}{100} = \\frac{1}{4}$, so finding 25% is the same as dividing by 4. For example, 25% of 60 is $60 \\div 4 = 15$."
+  },
+  {
+    "id": "m9.num.percentages.q018",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which is the best estimate of 49% of \\$812?",
+    "options": [
+      { "id": "a", "text": "\\$400" },
+      { "id": "b", "text": "\\$40" },
+      { "id": "c", "text": "\\$500" },
+      { "id": "d", "text": "\\$800" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\\$40 would be only about 5% of \\$812. 49% is almost half.",
+      "c": "\\$500 is more than half of \\$812, but 49% is a little less than half.",
+      "d": "\\$800 is almost all of \\$812, which would be nearly 100%."
+    },
+    "hints": ["49% is very close to 50%.", "What is half of about \\$800?"],
+    "solution": "49% is close to 50%, which is one half, and \\$812 is close to \\$800. Half of \\$800 is \\$400. (The exact answer is \\$397.88.)"
+  },
+  {
+    "id": "m9.num.percentages.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hana says that 150% of 40 must be less than 40, because you can't have more than 100%. What is 150% of 40?",
+    "options": [
+      { "id": "a", "text": "60" },
+      { "id": "b", "text": "20" },
+      { "id": "c", "text": "6" },
+      { "id": "d", "text": "190" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "20 is 50% of 40. 150% is the whole amount (100%) plus another 50%.",
+      "c": "150% as a decimal is 1.5, not 0.15. $40 \\times 0.15 = 6$ is 15% of 40.",
+      "d": "A percentage is a part of the amount, so you can't just add 150 to 40."
+    },
+    "hints": ["100% of 40 is 40. What is 50% of 40?", "150% = 100% + 50%."],
+    "solution": "150% = 1.5, so 150% of 40 is $1.5 \\times 40 = 60$. A percentage over 100% is more than the whole amount, so Hana is wrong. For example, a price can rise to 150% of what it was."
+  },
+  {
+    "id": "m9.num.percentages.q020",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why increasing an amount by 20% is the same as multiplying it by 1.2.",
+    "modelAnswer": "The original amount is 100% of itself. Increasing it by 20% gives $100\\% + 20\\% = 120\\%$ of the original. As a decimal, 120% is $\\frac{120}{100} = 1.2$, so the new amount is $1.2 \\times$ the original. For example, increasing 50 by 20%: 20% of 50 is 10, so the answer is $50 + 10 = 60$, and $50 \\times 1.2 = 60$ too.",
+    "rubric": [
+      { "criterion": "States that the new amount is 100% + 20% = 120% of the original", "marks": 1 },
+      { "criterion": "Converts 120% to the decimal 1.2 (an example can support this)", "marks": 1 }
+    ],
+    "hints": ["What percentage of itself is the original amount?", "Write the new percentage as a decimal."],
+    "solution": "The original is 100%. After a 20% increase you have 120% of it, and $120\\% = \\frac{120}{100} = 1.2$. So multiplying by 1.2 gives the increased amount in one step."
+  },
+  {
+    "id": "m9.num.percentages.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Noah says 30% of 70 is bigger than 70% of 30, because 70 is bigger than 30. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "They are equal: both are 21" },
+      { "id": "b", "text": "30% of 70 is bigger" },
+      { "id": "c", "text": "70% of 30 is bigger" },
+      { "id": "d", "text": "You can't tell without a calculator" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "30% of 70 is $0.3 \\times 70 = 21$, and 70% of 30 is $0.7 \\times 30 = 21$. They are equal.",
+      "c": "Work them both out: each one is 21.",
+      "d": "Both are easy to do in your head: 10% of 70 is 7, so 30% is 21. 10% of 30 is 3, so 70% is 21."
+    },
+    "hints": ["Find 10% of each amount first.", "Then build up to 30% of 70 and 70% of 30."],
+    "solution": "30% of 70 = $\\frac{30}{100} \\times 70 = 21$ and 70% of 30 = $\\frac{70}{100} \\times 30 = 21$. Both are $\\frac{30 \\times 70}{100}$, so they are always equal. This trick can make some percentages easier: 8% of 25 is the same as 25% of 8, which is 2."
+  },
+  {
+    "id": "m9.num.percentages.q022",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Losa earns \\$80 babysitting. She saves 45% of it and spends $\\frac{1}{4}$ of it on a concert ticket. She spends the rest on clothes. How much does she spend on clothes?",
+    "answer": 24,
+    "units": "$",
+    "hints": ["Work out 45% of \\$80 and $\\frac{1}{4}$ of \\$80.", "Subtract both amounts from \\$80."],
+    "solution": "Saved: $0.45 \\times 80 = 36$, so \\$36. Ticket: $\\frac{1}{4} \\times 80 = 20$, so \\$20.\n\nClothes: $80 - 36 - 20 = 24$, so **\\$24**.\n\n(Or: $\\frac{1}{4} = 25\\%$, so she has used $45\\% + 25\\% = 70\\%$. The other 30% of \\$80 is \\$24.)"
+  },
+  {
+    "id": "m9.num.percentages.q023",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "In a Year 9 class, 60% of the students are girls and the rest are boys. 25% of the girls play cricket, and 50% of the boys play cricket. What percentage of the whole class plays cricket?",
+    "answer": 35,
+    "units": "%",
+    "hints": ["What percentage of the class are boys?", "Imagine the class has 100 students (or 20). How many girls play cricket? How many boys?"],
+    "solution": "Boys: $100\\% - 60\\% = 40\\%$ of the class.\n\nGirls who play cricket: $0.25 \\times 60\\% = 15\\%$ of the class.\n\nBoys who play cricket: $0.5 \\times 40\\% = 20\\%$ of the class.\n\nTotal: $15\\% + 20\\% = 35\\%$.\n\n(Check with 20 students: 12 girls, 3 of whom play; 8 boys, 4 of whom play. That's $\\frac{7}{20} = 35\\%$.)"
+  },
+  {
+    "id": "m9.num.percentages.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A number is increased by 25%. By what percentage must the new number be **decreased** to get back to the original number?",
+    "answer": 20,
+    "units": "%",
+    "hints": ["Try it with a starting number, such as 100.", "Find the decrease as a percentage of the **new** number."],
+    "solution": "Start with 100. A 25% increase gives 125. To get back to 100 you must take off 25, and as a percentage of 125 that is $\\frac{25}{125} \\times 100 = 20\\%$. (With multipliers: $1.25 \\times 0.8 = 1$.)"
+  },
+  {
+    "id": "m9.num.percentages.q025",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "allowed",
+    "prompt": "The price of a mountain bike is increased by 20%. Later, the new price is reduced by 20%, and the bike now costs \\$480. What was the original price?",
+    "answer": 500,
+    "units": "$",
+    "hints": ["Write each change as a multiplier.", "Combine the two multipliers into one, then work backwards from \\$480."],
+    "solution": "The two changes multiply the price by $1.2 \\times 0.8 = 0.96$. So original price $\\times 0.96 = 480$, which means the original price was $480 \\div 0.96 = 500$, so **\\$500**.\n\nCheck: \\$500 → \\$600 → \\$480 ✓"
   }
 ]

@@ -390,5 +390,425 @@
     },
     "hints": ["Compare the energy from one match with the energy from a whole bonfire."],
     "solution": "Many exothermic reactions need a small amount of energy to **get started**. Once the wood is burning, the reaction gives out much more heat than the match supplied, and that heat keeps the rest of the wood burning."
+  },
+  {
+    "id": "s9.chem.reactions.q026",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.reactions.g1",
+    "part": "a",
+    "stem": "A student heats some green copper carbonate powder in a test tube. The powder turns black, and the gas given off is bubbled into limewater, which turns milky. When the tube has cooled down, the black powder stays black.",
+    "prompt": "What type of change happens to the copper carbonate?",
+    "options": [
+      { "id": "a", "text": "A chemical change, because new substances (a black solid and a gas) are made" },
+      { "id": "b", "text": "A physical change, because only the colour of the powder changes" },
+      { "id": "c", "text": "A physical change, because the powder was only heated" },
+      { "id": "d", "text": "A chemical change, because anything that is heated changes chemically" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "More than the colour changes: a gas is made, and the black powder doesn't turn green again when it cools. These show new substances.",
+      "c": "Heating can cause physical or chemical changes. What matters is whether new substances are made.",
+      "d": "It is chemical, but not for that reason. Melting ice is heated too, and that is a physical change."
+    },
+    "hints": ["Are any new substances made? Does the change reverse when the tube cools?"],
+    "solution": "It is a **chemical change**. Two new substances form: a black solid and a gas that turns limewater milky. The change does not reverse on cooling."
+  },
+  {
+    "id": "s9.chem.reactions.q027",
+    "type": "cloze",
+    "difficulty": 3,
+    "groupId": "s9.chem.reactions.g1",
+    "part": "b",
+    "stem": "A student heats some green copper carbonate powder in a test tube. The powder turns black, and the gas given off is bubbled into limewater, which turns milky. When the tube has cooled down, the black powder stays black.",
+    "prompt": "Complete the word equation for the reaction.\n\ncopper carbonate → [[a]] + [[b]]",
+    "blanks": [
+      { "id": "a", "accepted": ["copper oxide"], "options": ["copper", "copper hydroxide", "copper oxide", "carbon"] },
+      { "id": "b", "accepted": ["carbon dioxide"], "options": ["oxygen", "hydrogen", "carbon dioxide", "carbon monoxide"] }
+    ],
+    "hints": ["Which gas turns limewater milky?", "The black solid contains copper and oxygen."],
+    "solution": "copper carbonate → **copper oxide** + **carbon dioxide**. The gas turns limewater milky, so it is carbon dioxide. The black solid left behind is copper oxide."
+  },
+  {
+    "id": "s9.chem.reactions.q028",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.chem.reactions.g1",
+    "part": "c",
+    "stem": "A student heats some green copper carbonate powder in a test tube. The powder turns black, and the gas given off is bubbled into limewater, which turns milky. When the tube has cooled down, the black powder stays black.",
+    "prompt": "Before heating, the copper carbonate had a mass of 12.4 g. After heating, the black powder had a mass of 8.0 g. Explain why the mass of the solid went down, and calculate the mass of gas given off.",
+    "modelAnswer": "The copper carbonate broke down into copper oxide and carbon dioxide. The carbon dioxide is a gas, so it escaped from the test tube into the air and was not weighed. Mass is not destroyed in a reaction: the atoms are only rearranged, so the mass of the products equals the mass of the reactant. So the mass of carbon dioxide = 12.4 − 8.0 = 4.4 g.",
+    "rubric": [
+      { "criterion": "The carbon dioxide gas escaped into the air, so its mass was not measured", "marks": 1 },
+      { "criterion": "Mass is conserved: atoms are rearranged, not destroyed, so the products have the same total mass as the reactant", "marks": 1 },
+      { "criterion": "Mass of gas = 12.4 − 8.0 = 4.4 g", "marks": 1 }
+    ],
+    "hints": ["Where did the carbon dioxide go?", "Mass of reactants = mass of products."],
+    "solution": "The CO₂ escaped, but mass is conserved overall: 12.4 g of copper carbonate → 8.0 g of copper oxide + **4.4 g** of carbon dioxide."
+  },
+  {
+    "id": "s9.chem.reactions.q029",
+    "type": "text",
+    "difficulty": 1,
+    "groupId": "s9.chem.reactions.g2",
+    "part": "a",
+    "stem": "Before a hāngī is put down, a large fire of dry wood is lit to heat the stones. The wood burns for a few hours, giving out heat and light, until only ash and glowing embers are left.",
+    "prompt": "What is the scientific name for a reaction in which a fuel burns in oxygen?",
+    "accepted": ["combustion", "combusting", "combustion reaction"],
+    "hints": ["It starts with \"com…\"."],
+    "solution": "Burning is called **combustion**: a fuel reacts with oxygen, giving out heat and light."
+  },
+  {
+    "id": "s9.chem.reactions.q030",
+    "type": "multi",
+    "difficulty": 3,
+    "groupId": "s9.chem.reactions.g2",
+    "part": "b",
+    "stem": "Before a hāngī is put down, a large fire of dry wood is lit to heat the stones. The wood burns for a few hours, giving out heat and light, until only ash and glowing embers are left.",
+    "prompt": "Wood is made mainly of compounds of carbon, hydrogen and oxygen. Which substances are made when wood burns **completely**? Select **all** that apply.",
+    "options": [
+      { "id": "a", "text": "Carbon dioxide" },
+      { "id": "b", "text": "Water vapour" },
+      { "id": "c", "text": "Oxygen" },
+      { "id": "d", "text": "Hydrogen" },
+      { "id": "e", "text": "Carbon monoxide" }
+    ],
+    "correct": ["a", "b"],
+    "hints": ["Oxygen is used up in burning, not made.", "What does carbon make when it combines with plenty of oxygen? What does hydrogen make?"],
+    "solution": "In complete combustion the carbon becomes **carbon dioxide** and the hydrogen becomes **water (vapour)**. Oxygen is a reactant, not a product. Carbon monoxide only forms when there is not enough oxygen (incomplete combustion)."
+  },
+  {
+    "id": "s9.chem.reactions.q031",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "groupId": "s9.chem.reactions.g2",
+    "part": "c",
+    "stem": "Before a hāngī is put down, a large fire of dry wood is lit to heat the stones. The wood burns for a few hours, giving out heat and light, until only ash and glowing embers are left.",
+    "prompt": "Once the stones are hot, any glowing embers left over must be put out safely. Explain why covering the embers with soil puts them out, and why pouring water on them also works.",
+    "modelAnswer": "A fire needs three things to keep burning: fuel, oxygen (from the air) and heat. Taking away any one of them stops the combustion. Covering the embers with soil stops air reaching them, so they run out of oxygen. Pouring water on them cools them down, removing heat, so they are no longer hot enough to keep burning.",
+    "rubric": [
+      { "criterion": "A fire needs fuel, oxygen and heat, and removing any one of these stops it", "marks": 1 },
+      { "criterion": "Soil cuts off the supply of oxygen (air) to the embers", "marks": 1 },
+      { "criterion": "Water cools the embers (removes heat) so they are too cool to keep burning", "marks": 1 }
+    ],
+    "hints": ["Think of the \"fire triangle\".", "Which side of the triangle does each method remove?"],
+    "solution": "Fire triangle: fuel, oxygen, heat. Soil removes the oxygen; water removes the heat."
+  },
+  {
+    "id": "s9.chem.reactions.q032",
+    "type": "mcq",
+    "difficulty": 2,
+    "groupId": "s9.chem.reactions.g3",
+    "part": "a",
+    "stem": "A class carries out four experiments and records what they see.\n\n| Experiment | What was done | Observations |\n|---|---|---|\n| 1 | Magnesium ribbon added to dilute hydrochloric acid | Fizzing, and the test tube gets warm |\n| 2 | Blue copper sulfate solution mixed with colourless sodium hydroxide solution | A pale blue solid forms and the mixture goes cloudy |\n| 3 | An ice cube left on the bench | A small puddle of water forms |\n| 4 | Citric acid and baking soda mixed in water | Fizzing, and the temperature falls from 20 °C to 14 °C |",
+    "prompt": "Which experiment shows only a **physical** change?",
+    "options": [
+      { "id": "a", "text": "Experiment 1" },
+      { "id": "b", "text": "Experiment 2" },
+      { "id": "c", "text": "Experiment 3" },
+      { "id": "d", "text": "Experiment 4" }
+    ],
+    "correct": "c",
+    "shuffle": false,
+    "feedback": {
+      "a": "A gas is given off and the temperature changes, so a new substance is being made.",
+      "b": "A new solid (a precipitate) forms, which is a sign of a chemical reaction.",
+      "d": "Fizzing (a new gas) and a temperature change show a chemical reaction."
+    },
+    "hints": ["In a physical change, no new substance is made."],
+    "solution": "**Experiment 3**: the ice melts into liquid water. It is still water, and it could be frozen again, so this is a physical change. The other three all show signs of new substances forming."
+  },
+  {
+    "id": "s9.chem.reactions.q033",
+    "type": "cloze",
+    "difficulty": 3,
+    "groupId": "s9.chem.reactions.g3",
+    "part": "b",
+    "stem": "A class carries out four experiments and records what they see.\n\n| Experiment | What was done | Observations |\n|---|---|---|\n| 1 | Magnesium ribbon added to dilute hydrochloric acid | Fizzing, and the test tube gets warm |\n| 2 | Blue copper sulfate solution mixed with colourless sodium hydroxide solution | A pale blue solid forms and the mixture goes cloudy |\n| 3 | An ice cube left on the bench | A small puddle of water forms |\n| 4 | Citric acid and baking soda mixed in water | Fizzing, and the temperature falls from 20 °C to 14 °C |",
+    "prompt": "The solid that forms in experiment 2 is called a [[a]]. The reaction in experiment 1 is [[b]], and the reaction in experiment 4 is [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["precipitate"], "options": ["solution", "solvent", "precipitate", "residue"] },
+      { "id": "b", "accepted": ["exothermic"], "options": ["endothermic", "exothermic"] },
+      { "id": "c", "accepted": ["endothermic"], "options": ["endothermic", "exothermic"] }
+    ],
+    "hints": ["A solid that forms when two solutions are mixed has a special name.", "Did the temperature go up or down in each experiment?"],
+    "solution": "The solid is a **precipitate**. Experiment 1 warms up, so it is **exothermic**. Experiment 4 cools down, so it is **endothermic**."
+  },
+  {
+    "id": "s9.chem.reactions.q034",
+    "type": "cloze",
+    "difficulty": 4,
+    "groupId": "s9.chem.reactions.g3",
+    "part": "c",
+    "stem": "A class carries out four experiments and records what they see.\n\n| Experiment | What was done | Observations |\n|---|---|---|\n| 1 | Magnesium ribbon added to dilute hydrochloric acid | Fizzing, and the test tube gets warm |\n| 2 | Blue copper sulfate solution mixed with colourless sodium hydroxide solution | A pale blue solid forms and the mixture goes cloudy |\n| 3 | An ice cube left on the bench | A small puddle of water forms |\n| 4 | Citric acid and baking soda mixed in water | Fizzing, and the temperature falls from 20 °C to 14 °C |",
+    "prompt": "Complete the word equation for experiment 2.\n\ncopper sulfate + sodium hydroxide → [[a]] + [[b]]",
+    "blanks": [
+      { "id": "a", "accepted": ["copper hydroxide"], "options": ["copper oxide", "copper sulfide", "copper hydroxide", "copper"] },
+      { "id": "b", "accepted": ["sodium sulfate"], "options": ["sodium sulfate", "sodium sulfide", "sodium sulfite", "sulfuric acid"] }
+    ],
+    "hints": ["The two compounds swap partners.", "Copper joins with the hydroxide; sodium joins with the sulfate."],
+    "solution": "copper sulfate + sodium hydroxide → **copper hydroxide** + **sodium sulfate**. The two compounds swap partners. Copper hydroxide is the pale blue precipitate; sodium sulfate stays dissolved."
+  },
+  {
+    "id": "s9.chem.reactions.q035",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Rusting is a slow chemical reaction between iron, oxygen and water. What type of reaction is it?",
+    "options": [
+      { "id": "a", "text": "Oxidation" },
+      { "id": "b", "text": "Neutralisation" },
+      { "id": "c", "text": "Combustion" },
+      { "id": "d", "text": "Decomposition" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Neutralisation is a reaction between an acid and a base.",
+      "c": "Combustion is fast burning with a flame. Rusting is slow and has no flame.",
+      "d": "In decomposition one substance breaks down. In rusting, iron combines with oxygen."
+    },
+    "hints": ["The iron combines with oxygen."],
+    "solution": "Rusting is **oxidation**: iron slowly combines with oxygen (with water present) to make hydrated iron oxide, rust."
+  },
+  {
+    "id": "s9.chem.reactions.q036",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Complete the word equation for photosynthesis.\n\ncarbon dioxide + [[a]] → [[b]] + oxygen",
+    "blanks": [
+      { "id": "a", "accepted": ["water"], "options": ["oxygen", "water", "glucose", "nitrogen"] },
+      { "id": "b", "accepted": ["glucose"], "options": ["water", "carbon dioxide", "glucose", "starch"] }
+    ],
+    "hints": ["Plants take in water through their roots.", "Photosynthesis makes a sugar."],
+    "solution": "carbon dioxide + **water** → **glucose** + oxygen. Light energy, absorbed by chlorophyll, drives the reaction."
+  },
+  {
+    "id": "s9.chem.reactions.q037",
+    "type": "text",
+    "difficulty": 2,
+    "prompt": "Hydrogen gas burns in air with a squeaky pop, combining with oxygen. What is the only product?",
+    "accepted": ["water", "water vapour", "steam", "H2O"],
+    "hints": ["Think about the formula H₂O."],
+    "solution": "hydrogen + oxygen → **water**. This is why hydrogen is called a \"clean\" fuel: its only product is water."
+  },
+  {
+    "id": "s9.chem.reactions.q038",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the **chemical** changes.",
+    "options": [
+      { "id": "a", "text": "Frying an egg" },
+      { "id": "b", "text": "Milk going sour" },
+      { "id": "c", "text": "Fireworks exploding" },
+      { "id": "d", "text": "A cut apple turning brown" },
+      { "id": "e", "text": "Boiling water" },
+      { "id": "f", "text": "Dissolving salt in water" },
+      { "id": "g", "text": "Chopping wood" },
+      { "id": "h", "text": "Melting candle wax" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["A chemical change makes a new substance and is hard to reverse."],
+    "solution": "**Frying an egg, milk souring, fireworks and an apple browning** all make new substances. Boiling, dissolving, chopping and melting are physical changes: no new substance is made."
+  },
+  {
+    "id": "s9.chem.reactions.q039",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "A hand warmer contains iron powder, which reacts with oxygen from the air. Its temperature rises from 18 °C to 52 °C. By how many degrees does the temperature rise?",
+    "answer": 34,
+    "units": "°C",
+    "hints": ["Subtract the starting temperature from the final temperature."],
+    "solution": "52 − 18 = **34 °C**. The temperature rises, so the reaction is exothermic: it gives out heat."
+  },
+  {
+    "id": "s9.chem.reactions.q040",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "When a candle burns, the wax near the wick melts, and the wax vapour burns in the flame. Which statement is correct?",
+    "options": [
+      { "id": "a", "text": "The wax melting is a physical change; the wax vapour burning is a chemical change" },
+      { "id": "b", "text": "Both are physical changes, because the candle can be lit again" },
+      { "id": "c", "text": "Both are chemical changes, because both involve heat" },
+      { "id": "d", "text": "The wax melting is a chemical change; the wax burning is a physical change" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Relighting uses more wax; the wax that burned has become carbon dioxide and water vapour and can't be got back.",
+      "c": "Heat is involved in both, but melting makes no new substance, so it is physical.",
+      "d": "This is the wrong way round. Melted wax is still wax; burning makes new substances."
+    },
+    "hints": ["Which process makes new substances?"],
+    "solution": "Melting wax is **physical**: it is still wax and sets again when it cools. Burning wax vapour is **chemical**: it reacts with oxygen to make carbon dioxide and water."
+  },
+  {
+    "id": "s9.chem.reactions.q041",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Silver jewellery worn in Rotorua quickly turns black, because the air there contains hydrogen sulfide from the geothermal vents. The black coating is a new compound of silver. What is it most likely to be?",
+    "options": [
+      { "id": "a", "text": "Silver sulfide" },
+      { "id": "b", "text": "Silver sulfate" },
+      { "id": "c", "text": "Silver chloride" },
+      { "id": "d", "text": "Pure sulfur" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A sulfate contains sulfur and oxygen together. The silver here has joined with sulfur from the hydrogen sulfide, which makes a sulfide.",
+      "c": "There is no chlorine in this reaction.",
+      "d": "Sulfur is a yellow element. The black coating is a compound of silver and sulfur."
+    },
+    "hints": ["Which element in hydrogen sulfide joins onto the silver?", "A compound of a metal and sulfur alone ends in \"-ide\"."],
+    "solution": "The silver reacts with the sulfur in the hydrogen sulfide to make **silver sulfide**, a black solid. This is called tarnishing, and it is a chemical change."
+  },
+  {
+    "id": "s9.chem.reactions.q042",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "A student wants to find out whether the reaction between an acid and a solid is exothermic or endothermic. Put the steps of her method in order.",
+    "items": [
+      { "id": "cup", "text": "Measure 25 mL of the acid into a polystyrene cup" },
+      { "id": "start", "text": "Measure and record the starting temperature of the acid" },
+      { "id": "add", "text": "Add the solid and stir" },
+      { "id": "max", "text": "Record the highest or lowest temperature reached" },
+      { "id": "calc", "text": "Work out the temperature change to decide whether it is exothermic or endothermic" }
+    ],
+    "hints": ["You need to know the temperature before anything reacts."],
+    "solution": "Measure the acid → record its starting temperature → add the solid and stir → record the highest or lowest temperature → calculate the change. A rise means exothermic; a fall means endothermic."
+  },
+  {
+    "id": "s9.chem.reactions.q043",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "Yellow sulfur collected from around geothermal vents near Rotorua burns with a blue flame when it is heated in air. Complete the word equation.\n\nsulfur + [[a]] → [[b]]",
+    "blanks": [
+      { "id": "a", "accepted": ["oxygen"], "options": ["hydrogen", "oxygen", "water", "nitrogen"] },
+      { "id": "b", "accepted": ["sulfur dioxide"], "options": ["sulfuric acid", "hydrogen sulfide", "sulfur dioxide", "sulfate"] }
+    ],
+    "hints": ["Burning always uses the same gas from the air.", "The product is a compound of sulfur and oxygen."],
+    "solution": "sulfur + **oxygen** → **sulfur dioxide**. Sulfur dioxide is a choking gas. When it dissolves in rainwater it makes acid rain."
+  },
+  {
+    "id": "s9.chem.reactions.q044",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which statement correctly compares photosynthesis and respiration?",
+    "options": [
+      { "id": "a", "text": "Photosynthesis takes in energy to make glucose; respiration releases energy from glucose" },
+      { "id": "b", "text": "Plants carry out photosynthesis instead of respiration, so plants never respire" },
+      { "id": "c", "text": "Respiration makes oxygen, and photosynthesis uses oxygen up" },
+      { "id": "d", "text": "Both reactions give out energy, so both are exothermic" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Plants respire all the time, day and night, in every living cell. They photosynthesise as well when there is light.",
+      "c": "This is the wrong way round. Photosynthesis makes oxygen; respiration uses it.",
+      "d": "Photosynthesis takes in light energy, so it is endothermic. Only respiration releases energy."
+    },
+    "hints": ["Which reaction needs light? Which happens in every living cell?"],
+    "solution": "Photosynthesis: carbon dioxide + water → glucose + oxygen, taking in light energy (endothermic). Respiration: glucose + oxygen → carbon dioxide + water, releasing energy (exothermic). Plants do **both**."
+  },
+  {
+    "id": "s9.chem.reactions.q045",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "When a student stops heating some copper carbonate, the reaction stops straight away, even though some green powder has not yet changed. What does this tell you about the reaction?",
+    "options": [
+      { "id": "a", "text": "It is endothermic: it needs a continuous supply of heat energy to keep going" },
+      { "id": "b", "text": "It is exothermic, because heat is involved in it" },
+      { "id": "c", "text": "All of the copper carbonate must already have reacted" },
+      { "id": "d", "text": "It is a physical change, because it stops when the heating stops" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Exothermic reactions give out heat, and once started they often keep themselves going, like a fire. This one needs heat to be put in.",
+      "c": "Some green copper carbonate is still left, so not all of it has reacted.",
+      "d": "New substances (a black solid and carbon dioxide) are made, so it is a chemical change."
+    },
+    "hints": ["Is energy being taken in or given out?"],
+    "solution": "The reaction only continues while heat is supplied, so it **takes in** energy: it is **endothermic**. Breaking a substance down by heating (thermal decomposition) is usually endothermic."
+  },
+  {
+    "id": "s9.chem.reactions.q046",
+    "type": "multi",
+    "difficulty": 4,
+    "prompt": "Select **all** the reactions that are **exothermic**.",
+    "options": [
+      { "id": "a", "text": "Petrol burning in a car engine" },
+      { "id": "b", "text": "Respiration in your muscle cells" },
+      { "id": "c", "text": "An acid neutralising an alkali" },
+      { "id": "d", "text": "Iron powder reacting with oxygen in a hand warmer" },
+      { "id": "e", "text": "Photosynthesis in a leaf" },
+      { "id": "f", "text": "Copper carbonate breaking down when heated" },
+      { "id": "g", "text": "Citric acid reacting with baking soda" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Exothermic reactions give out heat. Which reactions need energy to be put in, or make things colder?"],
+    "solution": "**Combustion, respiration, neutralisation and the hand-warmer reaction** give out heat. Photosynthesis takes in light energy, copper carbonate needs constant heating, and citric acid with baking soda gets colder, so those three are endothermic."
+  },
+  {
+    "id": "s9.chem.reactions.q047",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "prompt": "A steel gate by the sea at Raglan rusts much faster than an identical gate in Alexandra, Central Otago, which has a very dry climate. Explain why.",
+    "modelAnswer": "Rusting is a reaction of iron with oxygen and water. Both gates have plenty of oxygen from the air, but the air by the sea is damp, and the gate is often wet with sea spray, so there is much more water for the reaction. Sea spray also contains salt, which speeds up rusting. In Alexandra the air is dry, so there is little water on the gate and it rusts slowly.",
+    "rubric": [
+      { "criterion": "Rusting needs both oxygen and water", "marks": 1 },
+      { "criterion": "By the sea the air is damp and the gate gets wet from spray, so more water is present; Alexandra is dry", "marks": 1 },
+      { "criterion": "Salt from the sea spray speeds up rusting", "marks": 1 }
+    ],
+    "hints": ["What two things does iron need in order to rust?", "What does sea spray contain besides water?"],
+    "solution": "More water (damp sea air and spray) and salt both make rusting faster at the coast. Central Otago's dry air means little water, so rusting is slow."
+  },
+  {
+    "id": "s9.chem.reactions.q048",
+    "type": "mcq",
+    "difficulty": 5,
+    "prompt": "Steel wool is burned on a balance, and the reading goes **up**. A sheet of paper is burned on a balance, and the reading goes **down**. How can both results agree with the conservation of mass?",
+    "options": [
+      { "id": "a", "text": "The iron gains oxygen and its product is a solid that stays on the balance; the paper's products are mostly gases that escape" },
+      { "id": "b", "text": "Mass is only conserved in some reactions, and these two are different kinds" },
+      { "id": "c", "text": "Burning makes the iron atoms heavier and the paper atoms lighter" },
+      { "id": "d", "text": "Heat has mass, so the steel wool gains heat and the paper loses heat" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Mass is conserved in every chemical reaction. The difference is where the products end up.",
+      "c": "Atoms never change mass in a chemical reaction. They are only rearranged.",
+      "d": "Heat is energy, not matter, so it doesn't add or remove measurable mass."
+    },
+    "hints": ["Write a word equation for each. Which products are solids and which are gases?"],
+    "solution": "iron + oxygen → iron oxide: oxygen atoms from the air join the solid, so the mass on the balance rises. paper + oxygen → carbon dioxide + water vapour: most products are gases that escape, so the mass on the balance falls. If everything (including the gases) were collected, the total mass would not change in either reaction."
+  },
+  {
+    "id": "s9.chem.reactions.q049",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Energy from the Sun ends up powering the muscles in your legs when you run. Explain how, using the reactions of **photosynthesis** and **respiration**.",
+    "modelAnswer": "In photosynthesis, plants absorb light energy from the Sun and use it to turn carbon dioxide and water into glucose and oxygen, so the energy is stored as chemical energy in the glucose. When we eat plants (or animals that ate plants), we digest the food and glucose is carried in the blood to our muscle cells. In respiration, the glucose reacts with oxygen to make carbon dioxide and water, releasing the stored energy, which the muscle cells use to contract.",
+    "rubric": [
+      { "criterion": "Photosynthesis uses light energy to make glucose (carbon dioxide + water → glucose + oxygen), storing the energy as chemical energy", "marks": 1 },
+      { "criterion": "We eat plants (or animals that ate them) and the glucose reaches our muscle cells", "marks": 1 },
+      { "criterion": "Respiration (glucose + oxygen → carbon dioxide + water) releases the energy for the muscles to use", "marks": 1 }
+    ],
+    "hints": ["Where is the Sun's energy stored after photosynthesis?", "How does that store get into your muscle cells, and which reaction releases it?"],
+    "solution": "Light energy → stored in glucose by photosynthesis → glucose eaten and carried to muscles → released by respiration."
+  },
+  {
+    "id": "s9.chem.reactions.q050",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Germinating (sprouting) seeds respire a lot. Describe an experiment to show that respiration in germinating seeds is **exothermic**. Include a control and the result you would expect.",
+    "modelAnswer": "Put some germinating seeds into a vacuum flask (or an insulated container) with a thermometer, and plug the top with cotton wool. Set up a second, identical flask with the same mass of seeds that have been boiled to kill them, as a control. Keep both flasks in the same place and record the temperature in each every day for a few days. The temperature in the flask with the living seeds should rise above the control, while the boiled seeds stay at about room temperature. This shows that the living seeds are giving out heat as they respire, so respiration is exothermic.",
+    "rubric": [
+      { "criterion": "Living germinating seeds in an insulated flask with a thermometer, temperature measured over time", "marks": 1 },
+      { "criterion": "Control: an identical flask with dead (boiled) seeds, everything else kept the same", "marks": 1 },
+      { "criterion": "Expected result: the living seeds' flask gets warmer than the control, showing respiration releases heat", "marks": 1 }
+    ],
+    "hints": ["How could you stop the heat escaping so you can measure it?", "What could you compare the living seeds with to make it a fair test?"],
+    "solution": "Insulated flasks with thermometers: living seeds vs boiled (dead) seeds. Only the living seeds' temperature rises, so respiration gives out heat."
   }
 ]
