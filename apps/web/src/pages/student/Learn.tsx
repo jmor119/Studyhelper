@@ -4,7 +4,8 @@ import { School, Star } from 'lucide-react';
 import { doc, setDoc } from 'firebase/firestore';
 import { useState } from 'react';
 import { Link } from 'react-router';
-import { Badge, PageHeader, ProgressRing, Spinner, Tabs } from '../../components/ui';
+import { NoYearContent } from '../../components/study/NoYearContent';
+import { Badge, PageHeader, ProgressRing, Tabs } from '../../components/ui';
 import { useUser } from '../../lib/auth';
 import { db } from '../../lib/firebase';
 import { curriculaFor, LEVEL_TONE, levelFor, subjectLabel, useMastery, useStudySettings } from '../../lib/study';
@@ -26,7 +27,7 @@ export default function Learn() {
     await setDoc(doc(db, 'students', user.uid, 'settings', 'study'), { schoolTopics: [...next], updatedAt: Date.now() }, { merge: true });
   };
 
-  if (!curriculum) return <Spinner />;
+  if (!curriculum) return <NoYearContent yearLevel={profile.yearLevel} />;
   return (
     <div>
       <PageHeader

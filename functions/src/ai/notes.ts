@@ -1,4 +1,4 @@
-import { allTopics, correctResponseFor, getTopic, markResponse, toPublicQuestion, type Question } from '@study-helper/shared';
+import { correctResponseFor, curriculaForYear, getTopic, markResponse, toPublicQuestion, type Question } from '@study-helper/shared';
 import { onCall } from 'firebase-functions/https';
 import { randomBytes } from 'node:crypto';
 import { z } from 'zod';
@@ -22,8 +22,9 @@ export const analyseNotes = onCall({ secrets: [KEY_ENCRYPTION_KEY], timeoutSecon
   const ai = await requireAi(uid);
   const attachments = await Promise.all(input.paths.map((p) => loadAttachment(uid, p)));
   const year = profile.yearLevel ?? 9;
-  const topicList = allTopics()
-    .filter((t) => t.yearLevel === year)
+  const yearTopics = curriculaForYear(year).flatMap((c) => c.topics);
+  if (!yearTopics.length) throw fail.precondition(`Study Helper doesn't have Year ${year} content yet.`);
+  const topicList = yearTopics
     .map((t) => `${t.id}: ${t.title}`)
     .join('\n');
 
@@ -34,7 +35,7 @@ export const analyseNotes = onCall({ secrets: [KEY_ENCRYPTION_KEY], timeoutSecon
         {
           role: 'user',
           attachments,
-          text: `Curriculum topics (use only these ids in topicIds):\n${topicList}\n\nAnalyse the attached notes and write up to 8 practice questions on them.`,
+          text: `Student: Year ${year}.\n\nCurriculum topics (use only these ids in topicIds):\n${topicList}\n\nAnalyse the attached notes and write up to 8 practice questions on them.`,
         },
       ],
       maxTokens: 16000,
@@ -48,7 +49,7 @@ export const analyseNotes = onCall({ secrets: [KEY_ENCRYPTION_KEY], timeoutSecon
 
   const setId = randomBytes(8).toString('hex');
   const topicIds = res.data.topicIds.filter((id) => getTopic(id));
-  const primary = getTopic(topicIds[0] ?? '') ?? allTopics().find((t) => t.yearLevel === year)!;
+  const primary = getTopic(topicIds[0] ?? '') ?? yearTopics[0]!;
   const questions: Question[] = [];
   res.data.questions.forEach((flat) => {
     const id = `note:${setId}:${questions.length}`;

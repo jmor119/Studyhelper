@@ -7,6 +7,8 @@ import { templates as measurement } from './maths/measurement';
 import { templates as number } from './maths/number';
 import { templates as probability } from './maths/probability';
 import { templates as statistics } from './maths/statistics';
+import { templates as year6 } from './maths/y6';
+import { templates as year7 } from './maths/y7';
 import { templates as science } from './science';
 import type { QuestionTemplate } from './types';
 
@@ -17,6 +19,8 @@ export const TEMPLATES: readonly QuestionTemplate[] = [
   ...geometry,
   ...statistics,
   ...probability,
+  ...year6,
+  ...year7,
   ...science,
 ];
 

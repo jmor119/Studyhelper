@@ -54,7 +54,7 @@ async function independentlySolve(ai: ResolvedAi, uid: string, q: Question): Pro
       turns: [
         {
           role: 'user',
-          text: `Solve this question. Put option ids in optionIds (mcq/multi), a number or short text in value, blank answers in blanks, item ids in correct order in order, and leftId/rightId pairs in pairs. Leave unused fields empty.\n\n${description}`,
+          text: `Year ${q.yearLevel} question. Solve it. Put option ids in optionIds (mcq/multi), a number or short text in value, blank answers in blanks, item ids in correct order in order, and leftId/rightId pairs in pairs. Leave unused fields empty.\n\n${description}`,
         },
       ],
       maxTokens: 4000,

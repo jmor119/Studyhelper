@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { CURRICULA, getTopic } from './curriculum';
+import { CURRICULA, curriculaForYear, getCurriculum, getTopic } from './curriculum';
 import { inviteEmail, inviteMailto } from './invites';
 import { addDays, daysBetween, nzDateKey, weekStart } from './dates';
 import { buildExam, examGrade, type ExamCandidate } from './exam';
@@ -18,6 +18,20 @@ describe('curriculum', () => {
         expect(t.id).not.toContain('/');
       }
     }
+  });
+
+  it('gives each year its own curriculum, or one a year either side, never further', () => {
+    for (let year = 1; year <= 13; year++) {
+      const chosen = curriculaForYear(year);
+      expect(new Set(chosen.map((c) => c.subject)).size, `Year ${year} subjects`).toBe(chosen.length);
+      for (const c of chosen) {
+        expect(Math.abs(c.yearLevel - year), `Year ${year} ${c.subject}`).toBeLessThanOrEqual(1);
+        if (getCurriculum(c.subject, year)) expect(c.yearLevel).toBe(year);
+      }
+    }
+    expect(curriculaForYear(10).map((c) => `${c.subject}${c.yearLevel}`).sort()).toEqual(['maths9', 'science9']);
+    expect(curriculaForYear(6).some((c) => c.subject === 'science')).toBe(false);
+    expect(curriculaForYear(3)).toEqual([]);
   });
 });
 

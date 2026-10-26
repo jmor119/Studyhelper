@@ -13,6 +13,7 @@ import { collection, getCountFromServer, query, where } from 'firebase/firestore
 import { BookOpen, CalendarDays, ClipboardCheck, Flame, GraduationCap, Layers, MessageCircle, Sparkles, Target } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router';
+import { NoYearContent } from '../../components/study/NoYearContent';
 import { Badge, ButtonLink, Card, ProgressBar, ProgressRing } from '../../components/ui';
 import { useUser } from '../../lib/auth';
 import { db } from '../../lib/firebase';
@@ -85,6 +86,12 @@ export default function Home() {
           {greeting()}, {profile.displayName}!
         </h1>
       </div>
+
+      {!topics.length && (
+        <div className="mb-6">
+          <NoYearContent yearLevel={profile.yearLevel} />
+        </div>
+      )}
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <Card className="flex items-center gap-4">

@@ -1,7 +1,6 @@
 import {
-  CURRICULA,
+  curriculaForYear,
   masteryLevel,
-  subjectsForYear,
   type Curriculum,
   type MasteryRecord,
   type Subject,
@@ -30,13 +29,7 @@ export function useStudySettings(uid: string | undefined) {
 }
 
 export function curriculaFor(yearLevel: number | undefined): Curriculum[] {
-  const year = yearLevel ?? 9;
-  const subjects = subjectsForYear(year);
-  // Fall back to the nearest year with content (e.g. Year 10 students see Year 9 until Year 10 lands).
-  if (subjects.length) return CURRICULA.filter((c) => c.yearLevel === year);
-  const years = [...new Set(CURRICULA.map((c) => c.yearLevel))];
-  const nearest = years.sort((a, b) => Math.abs(a - year) - Math.abs(b - year))[0];
-  return CURRICULA.filter((c) => c.yearLevel === nearest);
+  return curriculaForYear(yearLevel ?? 9);
 }
 
 export function topicsForStudent(yearLevel: number | undefined, subject?: Subject): Topic[] {

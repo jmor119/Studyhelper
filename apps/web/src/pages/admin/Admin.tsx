@@ -29,7 +29,7 @@ const FLAG_LABEL: Record<string, string> = {
   'wrong-answer': 'The answer is wrong',
   unclear: 'Unclear',
   typo: 'Typo',
-  'too-hard': 'Not Year 9 level',
+  'too-hard': 'Not right for the year level',
   inappropriate: 'Inappropriate',
   other: 'Other',
 };

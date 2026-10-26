@@ -92,7 +92,7 @@ export async function buildMcpServer(uid: string, profile: UserProfile, isAdminU
     { name: 'study-helper', version: '1.0.0' },
     {
       instructions:
-        'Study Helper: NZ Year 9 Maths & Science study app. Use NZ English. When helping a student, guide and hint — never give final answers to assignments or questions they have not attempted.',
+        'Study Helper: NZ Curriculum maths & science study app (topics are tagged with their year level). Use NZ English. When helping a student, guide and hint — never give final answers to assignments or questions they have not attempted.',
     },
   );
 

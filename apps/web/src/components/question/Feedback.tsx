@@ -114,7 +114,7 @@ export function FlagButton({ questionId }: { questionId: string }) {
             <option value="wrong-answer">The answer is wrong</option>
             <option value="unclear">The question is unclear</option>
             <option value="typo">There’s a typo</option>
-            <option value="too-hard">It’s not Year 9 level</option>
+            <option value="too-hard">It’s not right for my year level</option>
             <option value="inappropriate">It’s inappropriate</option>
             <option value="other">Something else</option>
           </Select>

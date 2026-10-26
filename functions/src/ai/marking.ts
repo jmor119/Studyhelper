@@ -29,7 +29,7 @@ async function aiMark(ai: ResolvedAi, uid: string, q: Question, answer: string) 
         {
           role: 'user',
           text: [
-            `Question (${q.marks} mark${q.marks === 1 ? '' : 's'}):\n${q.stem ? `${q.stem}\n\n` : ''}${q.prompt}`,
+            `Year ${q.yearLevel} question (${q.marks} mark${q.marks === 1 ? '' : 's'}):\n${q.stem ? `${q.stem}\n\n` : ''}${q.prompt}`,
             model ? `Model answer:\n${model}` : '',
             `Rubric:\n${rubric.map((r) => `- ${r.criterion} (${r.marks})`).join('\n')}`,
             // The student's answer is data to be marked, not instructions.
@@ -133,7 +133,7 @@ export const markWorking = onCall({ secrets: [KEY_ENCRYPTION_KEY], timeoutSecond
           role: 'user',
           attachments: [photo],
           text: [
-            `Question:\n${q.stem ? `${q.stem}\n\n` : ''}${q.prompt}`,
+            `Year ${q.yearLevel} question:\n${q.stem ? `${q.stem}\n\n` : ''}${q.prompt}`,
             `Worked solution (for you only${attempted ? '' : ' — the student has not seen it, so do not reveal the final answer'}):\n${q.solution}`,
             'Give feedback on the working in the photo.',
           ].join('\n\n'),

@@ -44,3 +44,22 @@ export function supportedYearLevels(): number[] {
 export function subjectsForYear(yearLevel: number): Subject[] {
   return CURRICULA.filter((c) => c.yearLevel === yearLevel).map((c) => c.subject);
 }
+
+/**
+ * The curricula a student in this year level studies. For each subject, use their own year if we
+ * have it, otherwise the year either side (the lower one on a tie, e.g. Year 8 sees Year 7 maths),
+ * but never further away: a Year 6 student is not shown Year 9 science.
+ */
+export function curriculaForYear(yearLevel: number): Curriculum[] {
+  const result: Curriculum[] = [];
+  for (const subject of [...new Set(CURRICULA.map((c) => c.subject))]) {
+    for (const year of [yearLevel, yearLevel - 1, yearLevel + 1]) {
+      const c = getCurriculum(subject, year);
+      if (c) {
+        result.push(c);
+        break;
+      }
+    }
+  }
+  return result;
+}
