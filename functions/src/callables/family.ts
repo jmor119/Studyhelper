@@ -2,7 +2,8 @@ import { inviteEmail, type UserProfile } from '@study-helper/shared';
 import { onCall } from 'firebase-functions/https';
 import { z } from 'zod';
 import { inviteCode } from '../lib/crypto';
-import { appBaseUrl, db } from '../lib/firebase';
+import { appBaseUrl, auth, CHILD_EMAIL_DOMAIN, db } from '../lib/firebase';
+import { MAIL_SECRETS, mailAvailable, sendMail } from '../lib/mail';
 import { fail, parseInput, requireAuth } from '../lib/http';
 import { rateLimit } from '../lib/ratelimit';
 import { linkedParents, linkedStudents, linkId, requireProfile } from '../lib/users';
@@ -49,14 +50,11 @@ export const createInvite = onCall(async (req) => {
   };
 });
 
-/** True once an email service is connected (the Trigger Email extension reading the `mail` collection). */
-const mailEnabled = () => process.env.MAIL_ENABLED === 'true';
-
 /**
- * Emails an existing invite. If the app can't send email yet, returns emailed: false and the
- * browser opens the user's own email app with the same message instead.
+ * Emails an existing invite from Study Helper (via Resend). If email can't be sent, returns
+ * emailed: false and the browser opens the user's own email app with the same message instead.
  */
-export const emailInvite = onCall(async (req) => {
+export const emailInvite = onCall({ secrets: MAIL_SECRETS }, async (req) => {
   const uid = requireAuth(req);
   const input = parseInput(z.object({ code: z.string().min(4).max(20), email: z.string().trim().toLowerCase().email().max(200) }), req.data);
   const ref = db.doc(`invites/${normaliseCode(input.code)}`);
@@ -67,7 +65,7 @@ export const emailInvite = onCall(async (req) => {
   if (sentTo.length > 3) throw fail.precondition('This invite has already been sent to 3 addresses. Make a new one.');
   await ref.update({ sentTo });
 
-  if (!mailEnabled()) return { emailed: false as const };
+  if (!mailAvailable()) return { emailed: false as const };
   // Open sign-up means anyone could try to use this to email strangers, so keep the limits tight.
   await rateLimit(`invite-email:${uid}`, 10, 86400, "You've emailed a lot of invites today — try again tomorrow.");
   const message = inviteEmail({
@@ -77,8 +75,11 @@ export const emailInvite = onCall(async (req) => {
     code: normaliseCode(input.code),
     expiresAt: invite.expiresAt,
   });
-  await db.collection('mail').add({ to: [input.email], message, createdAt: Date.now(), kind: 'invite', fromUid: uid });
-  return { emailed: true as const };
+  // Replies go to the person who sent the invite (if they have a real email address).
+  const inviterEmail = (await auth.getUser(uid)).email;
+  const replyTo = inviterEmail && !inviterEmail.endsWith(`@${CHILD_EMAIL_DOMAIN}`) ? inviterEmail : undefined;
+  const emailed = await sendMail({ to: input.email, ...message, ...(replyTo && { replyTo }) });
+  return { emailed };
 });
 
 /** Looks up an invite before accepting (shows "Aroha has invited you to link as their parent"). */

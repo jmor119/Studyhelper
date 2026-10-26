@@ -3,6 +3,7 @@ import { logger } from 'firebase-functions';
 import { onSchedule } from 'firebase-functions/scheduler';
 import { appBaseUrl, auth, db } from '../lib/firebase';
 import { linkedStudents } from '../lib/users';
+import { MAIL_SECRETS, mailAvailable, sendMail } from '../lib/mail';
 
 const TZ = 'Pacific/Auckland';
 
@@ -45,8 +46,12 @@ async function childSection(studentUid: string, name: string): Promise<{ html: s
   return { html, text };
 }
 
-/** Sunday-evening summary email for parents (sent via the Firebase "Trigger Email" extension's mail collection). */
-export const weeklySummary = onSchedule({ schedule: 'every sunday 18:00', timeZone: TZ }, async () => {
+/** Sunday-evening summary email for parents, sent through Resend (see lib/mail.ts). */
+export const weeklySummary = onSchedule({ schedule: 'every sunday 18:00', timeZone: TZ, secrets: MAIL_SECRETS }, async () => {
+  if (!mailAvailable()) {
+    logger.warn('weekly summaries skipped: email is not configured');
+    return;
+  }
   const parents = await db.collection('users').where('role', '==', 'parent').get();
   let sent = 0;
   for (const p of parents.docs) {
@@ -58,22 +63,19 @@ export const weeklySummary = onSchedule({ schedule: 'every sunday 18:00', timeZo
     if (!user?.email || !user.emailVerified) continue;
     const sections = await Promise.all(children.map((c) => childSection(c.studentUid, c.studentName)));
     const link = `${appBaseUrl()}/parent`;
-    await db.collection('mail').add({
-      to: [user.email],
-      message: {
-        subject: `Study Helper — your weekly summary`,
+    const ok = await sendMail({
+      to: user.email,
+      subject: `Study Helper — your weekly summary`,
         text: `Kia ora ${profile.displayName},\n\nHere's how this week went:\n\n${sections.map((s) => s.text).join('\n\n')}\n\nSee more: ${link}\n\nTurn these emails off in Settings.`,
         html: `<div style="font-family:Arial,sans-serif;max-width:560px;color:#1f2937">
           <p>Kia ora ${esc(profile.displayName)},</p><p>Here's how this week went:</p>
           ${sections.map((s) => s.html).join('')}
           <p style="margin-top:24px"><a href="${link}" style="color:#2563eb">Open the parent dashboard</a></p>
           <p style="color:#6b7280;font-size:12px">You can turn these emails off in Settings.</p></div>`,
-      },
-      createdAt: Date.now(),
     });
-    sent++;
+    if (ok) sent++;
   }
-  logger.info('weekly summaries queued', { sent });
+  logger.info('weekly summaries sent', { sent });
 });
 
 /**

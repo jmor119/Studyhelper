@@ -1,7 +1,8 @@
-import { CheckCircle2, Loader2, XCircle } from 'lucide-react';
+import { CheckCircle2, ChevronLeft, KeyRound, Loader2, Mail, XCircle } from 'lucide-react';
 import { useEffect, useId, useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router';
 import { api, errorMessage } from '../../lib/api';
+import { InvitePanel } from '../family/InvitePanel';
 import { Button, Field, Input, Modal, Notice, Select } from '../ui';
 import { CopyButton } from './bits';
 
@@ -59,6 +60,9 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
   const [error, setError] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [created, setCreated] = useState<Created | null>(null);
+  // How the child will sign in: their own email/Google (invite) or a username we create.
+  const [mode, setMode] = useState<'choose' | 'invite' | 'create'>('choose');
+  const [inviteSession, setInviteSession] = useState(0);
   const availability = useUsernameAvailability(username);
 
   const reset = () => {
@@ -70,6 +74,8 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
     setError('');
     setSubmitted(false);
     setCreated(null);
+    setMode('choose');
+    setInviteSession((n) => n + 1);
   };
   const close = () => {
     onClose();
@@ -118,7 +124,7 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
     <Modal
       open={open}
       onClose={close}
-      title={created ? 'Account created' : 'Add a child'}
+      title={created ? 'Account created' : mode === 'invite' ? 'Invite your child' : 'Add a child'}
       footer={
         created ? (
           <>
@@ -135,10 +141,21 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
               View {created.displayName}
             </Button>
           </>
+        ) : mode === 'choose' ? (
+          <Button variant="secondary" onClick={close}>
+            Cancel
+          </Button>
+        ) : mode === 'invite' ? (
+          <>
+            <Button variant="ghost" onClick={() => setMode('choose')} icon={<ChevronLeft className="size-4" />}>
+              Back
+            </Button>
+            <Button onClick={close}>Done</Button>
+          </>
         ) : (
           <>
-            <Button variant="secondary" onClick={close}>
-              Cancel
+            <Button variant="ghost" onClick={() => setMode('choose')} icon={<ChevronLeft className="size-4" />}>
+              Back
             </Button>
             <Button type="submit" form={formId} loading={busy}>
               Create account
@@ -171,10 +188,55 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
             <li>They can change their password later in Settings.</li>
             <li>If they forget it, you can reset it from their page here (Account tab).</li>
           </ul>
-          <div>
+          <div className="flex flex-wrap gap-2">
             <CopyButton text={instructions} label="Copy sign-in instructions" />
+            <Button
+              size="sm"
+              variant="secondary"
+              icon={<Mail className="size-4" />}
+              onClick={() => {
+                window.location.href = `mailto:?subject=${encodeURIComponent(`How to sign in to Study Helper`)}&body=${encodeURIComponent(instructions)}`;
+              }}
+            >
+              Email these steps
+            </Button>
           </div>
+          <p className="text-xs text-muted">The steps don’t include the password — tell them that yourself.</p>
         </div>
+      ) : mode === 'choose' ? (
+        <div className="grid gap-3">
+          <p className="text-sm text-muted">How will your child sign in?</p>
+          <button
+            type="button"
+            onClick={() => setMode('invite')}
+            className="flex w-full items-start gap-3 rounded-2xl border-2 border-line p-4 text-left transition-colors hover:border-brand-400"
+          >
+            <Mail className="mt-0.5 size-6 shrink-0 text-brand-700 dark:text-brand-300" aria-hidden="true" />
+            <span>
+              <span className="block font-bold">Invite them by email</span>
+              <span className="text-sm text-muted">
+                They have their own email or Google account (usually 13+). We’ll email them an invite; they make their own login and it links to you.
+              </span>
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setMode('create')}
+            className="flex w-full items-start gap-3 rounded-2xl border-2 border-line p-4 text-left transition-colors hover:border-brand-400"
+          >
+            <KeyRound className="mt-0.5 size-6 shrink-0 text-brand-700 dark:text-brand-300" aria-hidden="true" />
+            <span>
+              <span className="block font-bold">Create a username and password for them</span>
+              <span className="text-sm text-muted">Best for younger children without email. You choose the login, and you can reset the password if they forget it.</span>
+            </span>
+          </button>
+        </div>
+      ) : mode === 'invite' ? (
+        <InvitePanel
+          key={inviteSession}
+          autoCreate
+          intro={<p className="text-sm text-muted">Enter your child’s email and we’ll send them an invite. When they accept it, they’ll appear on your Family page.</p>}
+        />
       ) : (
         <form id={formId} onSubmit={submit} className="grid gap-4" noValidate>
           <p className="text-sm text-muted">For a child without their own email. They sign in with a username and password you choose — no email needed.</p>

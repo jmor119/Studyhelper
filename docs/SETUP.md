@@ -10,7 +10,7 @@ Project: **study-helper-11021** (Blaze plan). Region: **australia-southeast1** (
    - enable **Google** (set the support email)
    - under Settings → Authorised domains, `study-helper-11021.web.app` and `.firebaseapp.com` are there by default; add any custom domain
 3. **Storage**: Build → Storage → *Get started* → location `australia-southeast1`.
-4. **Weekly emails (optional)**: install the **Trigger Email from Firestore** extension (`firebase/firestore-send-email`) with collection `mail` and your SMTP provider (e.g. SendGrid, Mailgun, Resend, or a Gmail app password). Functions already write to `mail`.
+4. **Email (invites and weekly summaries)**: sent through **Resend** SMTP, shared with the Chronological app. It sends from `Study Helper <no-reply@fiercespeed.nz>`; fiercespeed.nz is verified in Resend with SPF/DKIM/DMARC. Credentials are the `SMTP_USER` / `SMTP_PASSWORD` secrets (copied from the `chronological-9f536` project's Secret Manager). Override the host, port or sender with `SMTP_HOST`, `SMTP_PORT` and `MAIL_FROM` in `functions/.env.study-helper-11021`. The emulators never send email.
 5. **App Check (recommended once live)**: register reCAPTCHA Enterprise for the web app, then set `enforceAppCheck` on callables.
 
 ## One-time CLI steps
