@@ -40,7 +40,7 @@ function lineFigure(c: TimeContext, vals: number[], extra: Partial<AxisOpts> = {
     axis,
     figure: {
       svg: timeSeriesGraph(c.times, vals, { ...axis, title: c.title, xAxis: c.xAxis, yAxis: c.yAxis, ...extra }),
-      alt: `Time-series graph titled "${c.title}", with ${c.xAxis.toLowerCase()} along the x-axis and ${c.yAxis.toLowerCase()} up the y-axis.`,
+      alt: `Time-series graph titled "${c.title}", with ${c.xAxis.charAt(0).toLowerCase() + c.xAxis.slice(1)} along the x-axis and ${c.yAxis.charAt(0).toLowerCase() + c.yAxis.slice(1)} up the y-axis.`,
     },
   };
 }
@@ -187,7 +187,7 @@ export const dotPlotRead: QuestionTemplate = {
         form: 'integer',
         calculator: 'not-allowed',
         hints: [`Find ${v} on the number line.`, 'Count the dots in the column above it.'],
-        solution: `There ${k === 1 ? 'is 1 dot' : `are ${k} dots`} above ${v}, so **${k}** ${c.who} ${c.have(v)}.`,
+        solution: k === 1 ? `There is 1 dot above ${v}, so the answer is **1**.` : `There are ${k} dots above ${v}, so **${k}** ${c.who} ${c.have(v)}.`,
       };
     }
     if (difficulty === 2) {
@@ -616,7 +616,7 @@ export const graphFeatures: QuestionTemplate = {
           [barWrong, 'Time-series graphs can show anything that changes over time, not just temperatures.'],
         ]
       : [
-          [tsRight, 'This data was not collected at different times. Each person gives a category answer.'],
+          [tsRight, 'This data was not collected at different times. Each answer goes into a category.'],
           [tsWrong, 'Time-series graphs are only for data collected over time.'],
           ['A bar graph, because bar graphs always look the best.', 'This is the right graph, but the reason is wrong. Bar graphs suit data sorted into categories.'],
         ];

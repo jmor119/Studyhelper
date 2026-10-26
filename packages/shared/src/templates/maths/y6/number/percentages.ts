@@ -85,7 +85,7 @@ export const convert: QuestionTemplate = {
           units: '%',
           calculator: 'not-allowed',
           hints: ['Two decimal places means hundredths.', 'How many hundredths is it? Hundredths are the same as per cent.'],
-          solution: `$${dec}$ is ${k} hundredths: $${dec} = ${fr(k, 100)} = ${k}\\%$.\n\n(Multiplying by 100 gives the same answer: $${dec} \\times 100 = ${k}$.)`,
+          solution: `$${dec}$ is ${k} hundredth${k === 1 ? '' : 's'}: $${dec} = ${fr(k, 100)} = ${k}\\%$.\n\n(Multiplying by 100 gives the same answer: $${dec} \\times 100 = ${k}$.)`,
         };
       }
       return {
@@ -109,7 +109,7 @@ export const convert: QuestionTemplate = {
           units: '%',
           calculator: 'not-allowed',
           hints: ['Write it with two decimal places first, so it shows hundredths.', 'Hundredths are the same as per cent.'],
-          solution: `$${tex(t / 10)} = ${tex(t / 10, 2)} = ${fr(t * 10, 100)} = ${t * 10}\\%$.\n\nWatch out: $${tex(t / 10)}$ is not ${t}%. It is ${t} tenths, which is ${t * 10} hundredths.`,
+          solution: `$${tex(t / 10)} = ${tex(t / 10, 2)} = ${fr(t * 10, 100)} = ${t * 10}\\%$.\n\nWatch out: $${tex(t / 10)}$ is not ${t}%. It is ${t} tenth${t === 1 ? '' : 's'}, which is ${t * 10} hundredths.`,
         };
       }
       const [a, b] = rng.pick(KNOWN);
@@ -501,7 +501,12 @@ export const comparing: QuestionTemplate = {
         marks: 2,
         calculator: 'not-allowed',
         hints: [`Change ${s1} out of ${T1} into a percentage first.`, `Then find that percentage of ${T2}.`],
-        solution: `$${fr(s1, T1)} = ${fr(p, 100)} = ${p}\\%$.\n\n${p}% is $${fr(...simp(p, 100))}$, and $${fr(...simp(p, 100))}$ of ${T2} is $${T2} \\div ${simp(p, 100)[1]} \\times ${simp(p, 100)[0]} = ${s2}$.${
+        solution: `$${fr(s1, T1)} = ${fr(p, 100)} = ${p}\\%$.\n\n${
+          simp(p, 100)[0] === s1 && simp(p, 100)[1] === T1
+            ? // Don't go in a circle ("85% is 17/20") when the fraction is already in simplest form.
+              `${p}% of ${T2} is the same as $${fr(s1, T1)}$ of ${T2}: $${T2} \\div ${T1} \\times ${s1} = ${s2}$.`
+            : `${p}% is $${fr(...simp(p, 100))}$, and $${fr(...simp(p, 100))}$ of ${T2} is $${T2} \\div ${simp(p, 100)[1]} \\times ${simp(p, 100)[0]} = ${s2}$.`
+        }${
           T2 % T1 === 0 ? `\n\n(Or: ${T2} is ${T2 / T1} times ${T1}, so the answer is $${T2 / T1} \\times ${s1} = ${s2}$.)` : T1 % T2 === 0 ? `\n\n(Or: ${T2} is ${T1} divided by ${T1 / T2}, so the answer is $${s1} \\div ${T1 / T2} = ${s2}$.)` : ''
         }`,
       };

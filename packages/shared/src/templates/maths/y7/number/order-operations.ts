@@ -284,7 +284,7 @@ export const bracketsPowers: QuestionTemplate = {
       });
       return evaluateQuestion(src, [
         GEMA_HINT,
-        'An exponent tells you how many times to multiply the number by itself: $5^2 = 5 \\times 5$, not $5 \\times 2$.',
+        'An exponent tells you how many of the number to multiply together: $5^2 = 5 \\times 5$, not $5 \\times 2$.',
       ]);
     }
     if (difficulty === 4) {

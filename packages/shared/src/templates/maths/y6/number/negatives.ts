@@ -365,7 +365,8 @@ export const temperatureDebt: QuestionTemplate = {
         const both = rng.chance(0.35);
         const { cold, warm } = retry(() => {
           const cold = -rng.int(2, 15);
-          const warm = both ? rng.int(cold + 1, -1) : rng.int(1, 20);
+          // Winter-morning temperatures in the warmer towns stay realistic (up to 12 °C).
+          const warm = both ? rng.int(cold + 1, -1) : rng.int(1, 12);
           return warm > cold ? { cold, warm } : null;
         });
         const coldPlace = place;
@@ -381,8 +382,8 @@ export const temperatureDebt: QuestionTemplate = {
           calculator: 'not-allowed',
           hints: ['Picture a thermometer and count the degrees from the colder temperature up to the warmer one.', both ? 'Both temperatures are below 0. How far below 0 is each one?' : 'Count up to 0 first, then on to the warmer temperature.'],
           solution: both
-            ? `${temp(cold)} is ${-cold} degrees below 0, and ${temp(warm)} is ${-warm} degrees below 0.\n\nThe difference is $${-cold} - ${-warm} = ${diff}$ degrees, so it was **${diff} degrees** warmer in ${warmPlace}.`
-            : `From ${temp(cold)} up to 0 °C is ${-cold} degrees. From 0 °C up to ${temp(warm)} is ${warm} degrees.\n\nAltogether: $${-cold} + ${warm} = ${diff}$, so it was **${diff} degrees** warmer in ${warmPlace}.`,
+            ? `${temp(cold)} is ${-cold} degrees below 0, and ${temp(warm)} is ${-warm} degree${warm === -1 ? '' : 's'} below 0.\n\nThe difference is $${-cold} - ${-warm} = ${diff}$, so it was **${diff} degree${diff === 1 ? '' : 's'}** warmer in ${warmPlace}.`
+            : `From ${temp(cold)} up to 0 °C is ${-cold} degrees. From 0 °C up to ${temp(warm)} is ${warm} degree${warm === 1 ? '' : 's'}.\n\nAltogether: $${-cold} + ${warm} = ${diff}$, so it was **${diff} degrees** warmer in ${warmPlace}.`,
         };
       }
       // Work backwards: what was it before it dropped?

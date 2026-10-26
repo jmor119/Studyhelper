@@ -465,7 +465,7 @@ function equationSteps(es: Expr[], total: number, x: number): string[] {
   const sum = es.map((e) => (e.k === 0 ? exprTex(e) : `(${exprTex(e)})`)).join(' + ');
   const lhs = K === 0 ? `${P}x` : K > 0 ? `${P}x + ${K}` : `${P}x - ${-K}`;
   const lines = [`$${sum} = ${total}$`, `Collect like terms: $${lhs} = ${total}$`];
-  if (K !== 0) lines.push(`${K > 0 ? `Subtract ${K}` : `Add ${-K}`} from both sides: $${P}x = ${total - K}$`);
+  if (K !== 0) lines.push(`${K > 0 ? `Subtract ${K} from` : `Add ${-K} to`} both sides: $${P}x = ${total - K}$`);
   lines.push(`Divide both sides by ${P}: $x = ${x}$`);
   return lines;
 }
@@ -557,7 +557,9 @@ export const angleEquations: QuestionTemplate = {
       solution: [
         ...steps,
         `The angles are ${angles.map(deg).join(', ')}.`,
-        `The largest is $${exprTex(target)} = ${target.p === 1 ? '' : `${target.p} \\times `}${x}${target.k ? (target.k > 0 ? ` + ${target.k}` : ` - ${-target.k}`) : ''} = ${largest}°$.`,
+        target.p === 1 && target.k === 0
+          ? `The largest is $x = ${largest}°$.`
+          : `The largest is $${exprTex(target)} = ${target.p === 1 ? '' : `${target.p} \\times `}${x}${target.k ? (target.k > 0 ? ` + ${target.k}` : ` - ${-target.k}`) : ''} = ${largest}°$.`,
         check,
       ].join('\n\n'),
     };

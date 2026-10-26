@@ -75,7 +75,7 @@ export default function SignUp() {
       <div className="my-5 flex items-center gap-3 text-xs text-muted">
         <span className="h-px flex-1 bg-line" /> or use email <span className="h-px flex-1 bg-line" />
       </div>
-      <form onSubmit={submit} className="grid gap-4">
+      <form onSubmit={submit} className="grid grid-cols-1 gap-4">
         <Field label="Your first name">
           <Input value={name} onChange={(e) => setName(e.target.value)} autoComplete="given-name" required maxLength={60} />
         </Field>

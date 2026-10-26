@@ -228,7 +228,7 @@ export default function Practice() {
         />
 
         {slot.hintsShown > 0 && (
-          <div className="mt-4 grid gap-2">
+          <div className="mt-4 grid grid-cols-1 gap-2">
             {hints.slice(0, slot.hintsShown).map((h, i) => (
               <div key={i} className="flex gap-2 rounded-xl bg-amber-50 p-3 text-amber-900 dark:bg-amber-950/40 dark:text-amber-100">
                 <Lightbulb className="mt-0.5 size-5 shrink-0" />

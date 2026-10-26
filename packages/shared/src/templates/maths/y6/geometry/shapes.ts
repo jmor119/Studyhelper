@@ -213,7 +213,7 @@ export const trianglesAngles: QuestionTemplate = {
           figure: { svg, alt: 'A triangle drawn to scale. Any right angle is marked with a small square.' },
           calculator: 'not-allowed',
           hints: ['Find the biggest angle in the triangle.', 'Is it less than a right angle, exactly a right angle, or more than a right angle?'],
-          solution: `${ANGLE_WHY[kind]} ${kind === 'acute' ? 'Every angle in this triangle is smaller than a right angle' : kind === 'right' ? 'This triangle has a right angle (marked with a square)' : 'This triangle has one angle that opens wider than a right angle'}, so it is **${ANGLE_NAME[kind].toLowerCase()}**.`,
+          solution: `${ANGLE_WHY[kind]} ${kind === 'acute' ? 'Every angle in this triangle is smaller than a right angle' : kind === 'right' ? 'This triangle has a right angle (marked with a square)' : 'This triangle has one angle that opens wider than a right angle'}, so it is ${article(ANGLE_NAME[kind].toLowerCase()).replace(/ (.*)$/, ' **$1**')}.`,
         },
       );
     }

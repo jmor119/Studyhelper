@@ -438,8 +438,8 @@ export const perimeter: QuestionTemplate = {
       const v = rng.pick(LETTERS);
       if (shape === 'rectangle') {
         const a = rng.int(2, 9);
-        let b = rng.int(1, 8);
-        if (b === a) b = a - 1;
+        // The figure draws the top side as the long side, so keep the short side's coefficient smaller.
+        const b = rng.int(1, a - 1);
         const P = 2 * (a + b);
         const L = poly([t(a, v)]);
         const W = poly([t(b, v)]);
@@ -497,7 +497,7 @@ export const perimeter: QuestionTemplate = {
       const v = rng.pick(LETTERS);
       const a = rng.int(2, 6);
       const c = rng.int(1, 9);
-      const b = rng.int(1, 5);
+      const b = rng.int(1, a); // so the side drawn short (bv) really is shorter than av + c
       const L = poly([t(a, v), t(c)]);
       const W = poly([t(b, v)]);
       return {

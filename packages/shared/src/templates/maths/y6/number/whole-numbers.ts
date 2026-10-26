@@ -55,7 +55,9 @@ function longMultiply(a: number, b: number): { layout: string; lines: string[] }
   const lines = [
     `Split ${b} into ${tens} + ${ones}.`,
     `$${tex(a)} \\times ${ones} = ${tex(p1)}$`,
-    `$${tex(a)} \\times ${tens} = ${tex(p2)}$ (work out $${tex(a)} \\times ${tens / 10} = ${tex(a * (tens / 10))}$, then make it 10 times bigger).`,
+    tens === 10
+      ? `$${tex(a)} \\times 10 = ${tex(p2)}$`
+      : `$${tex(a)} \\times ${tens} = ${tex(p2)}$ (work out $${tex(a)} \\times ${tens / 10} = ${tex(a * (tens / 10))}$, then make it 10 times bigger).`,
     `Add the two parts: $${tex(p1)} + ${tex(p2)} = ${tex(a * b)}$.`,
   ];
   const layout = columnTex(
@@ -405,8 +407,16 @@ export const estimate: QuestionTemplate = {
       correct: scenario === 'right' ? 'a' : scenario === 'small' ? 'b' : 'c',
       feedback: {
         ...(scenario !== 'right' && { a: `Compare ${num(shown)} with your estimate of ${num(est)}. Are they close?` }),
-        ...(scenario !== 'small' && { b: `${num(shown)} is not much smaller than the estimate of ${num(est)}.` }),
-        ...(scenario !== 'big' && { c: `${num(shown)} is not much bigger than the estimate of ${num(est)}.` }),
+        ...(scenario !== 'small' && {
+          b: scenario === 'big'
+            ? `${num(shown)} is bigger than the estimate of ${num(est)}, not smaller.`
+            : `${num(shown)} is not much smaller than the estimate of ${num(est)}.`,
+        }),
+        ...(scenario !== 'big' && {
+          c: scenario === 'small'
+            ? `${num(shown)} is smaller than the estimate of ${num(est)}, not bigger.`
+            : `${num(shown)} is not much bigger than the estimate of ${num(est)}.`,
+        }),
       },
       shuffle: false,
       calculator: 'not-allowed',
@@ -689,7 +699,7 @@ export const spotMistake: QuestionTemplate = {
       calculator: 'not-allowed',
       hints: [`Partition ${a} carefully. What is the ${t} in ${a} worth?`, `Estimate: about $${roundTo(a, 100)} \\times ${b}$. Is ${name}'s answer close to that?`],
       solution: [
-        `${name}'s mistake: the ${t} in ${a} is ${t} tens, which is ${10 * t}. So the middle line should be $${10 * t} \\times ${b} = ${10 * t * b}$.`,
+        `${name}'s mistake: the ${t} in ${a} is ${t} ten${t === 1 ? '' : 's'}, which is ${10 * t}. So the middle line should be $${10 * t} \\times ${b} = ${10 * t * b}$.`,
         `$${a} = ${h} + ${10 * t} + ${o}$`,
         `$${tex(h * b)} + ${10 * t * b} + ${o * b} = ${tex(a * b)}$`,
       ].join('\n\n'),

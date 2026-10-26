@@ -137,7 +137,7 @@
       { "id": "f", "text": "Rolling a 7" }
     ],
     "correct": ["a", "c", "e"],
-    "hints": ["Likely means more than half of the 6 outcomes: 4, 5 or 6 of them (but not all 6)."],
+    "hints": ["Likely means more than half of the 6 outcomes, but not all of them: 4 or 5 outcomes."],
     "solution": "Less than 5: 4 outcomes (likely). A 6: 1 outcome (unlikely). Greater than 1: 5 outcomes (likely). Odd: 3 outcomes (even chance). Not 3: 5 outcomes (likely). A 7: 0 outcomes (impossible)."
   },
   {
@@ -314,9 +314,9 @@
     "marks": 2,
     "calculator": "not-allowed",
     "prompt": "Hemi and Ana play a game with a normal six-sided die. Hemi wins if the die shows 1 or 3. Ana wins if it shows an even number. If it shows 5, they roll again. Is the game fair? Explain your answer.",
-    "modelAnswer": "No, it is not fair. Hemi wins with 1 or 3, which is 2 of the 6 outcomes, so $P(\\text{Hemi}) = \\frac{2}{6}$. Ana wins with 2, 4 or 6, which is 3 of the 6 outcomes, so $P(\\text{Ana}) = \\frac{3}{6}$. Ana has a better chance.",
+    "modelAnswer": "No, it is not fair. On each roll, Hemi wins with 1 or 3, which is 2 of the 6 outcomes, so $P(\\text{Hemi}) = \\frac{2}{6}$. Ana wins with 2, 4 or 6, which is 3 of the 6 outcomes, so $P(\\text{Ana}) = \\frac{3}{6}$. Rolling again on a 5 does not change this. Ana has a better chance.",
     "rubric": [
-      { "criterion": "Works out $P(\\text{Hemi}) = \\frac{2}{6}$ and $P(\\text{Ana}) = \\frac{3}{6}$", "marks": 1 },
+      { "criterion": "Works out $P(\\text{Hemi}) = \\frac{2}{6}$ and $P(\\text{Ana}) = \\frac{3}{6}$ on each roll (or compares 2 winning outcomes with 3)", "marks": 1 },
       { "criterion": "Says the game is not fair because Ana has a bigger chance", "marks": 1 }
     ],
     "hints": ["List the outcomes where Hemi wins, then the outcomes where Ana wins.", "A fair game gives both players the same chance."],

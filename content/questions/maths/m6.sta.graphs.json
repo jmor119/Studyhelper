@@ -245,7 +245,7 @@
       }
     ],
     "hints": [
-      "Think about how the sunflower graph was drawn."
+      "Picture a graph of a sunflower's height measured every week. What goes along the bottom, and how are the dots connected?"
     ],
     "solution": "**Time** goes along the x-axis, and the points are joined with **straight lines**."
   },

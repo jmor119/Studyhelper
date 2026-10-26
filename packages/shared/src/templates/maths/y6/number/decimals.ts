@@ -10,6 +10,8 @@ import { cash, CMP, cmp, cmpWords, decimalLine, fr, mcqFields, orderItems, th } 
 const TOPIC = 'm6.num.decimals';
 const DIGITS = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 const PLACE_NAMES = ['tenths', 'hundredths', 'thousandths'] as const;
+/** "1 tenth", "3 tenths": drop the plural s for exactly one. */
+const countOf = (n: number, plural: string) => `${n} ${n === 1 ? plural.replace(/s$/, '') : plural}`;
 
 /** Number of decimal places needed to show a whole number of thousandths. */
 const dpOf = (t: number) => (t % 10 ? 3 : t % 100 ? 2 : t % 1000 ? 1 : 0);
@@ -66,7 +68,7 @@ export const placeValue: QuestionTemplate = {
           form: 'decimal',
           calculator: 'not-allowed',
           hints: ['First work out which place the digit is in.', 'A digit in the hundredths place is worth that many hundredths, and so on.'],
-          solution: `${breakdown}\n\nThe ${d} is worth ${d} ${PLACE_NAMES[pos]}: $${fr(d, den)} = ${tex(answer)}$.`,
+          solution: `${breakdown}\n\nThe ${d} is worth ${countOf(d, PLACE_NAMES[pos]!)}: $${fr(d, den)} = ${tex(answer)}$.`,
         };
       }
       if (kind === 'fraction') {
@@ -85,8 +87,8 @@ export const placeValue: QuestionTemplate = {
             'There are no whole ones, so start with 0 and a decimal point.',
           ],
           solution: tenths
-            ? `$${fr(n, 10)}$ is ${n} tenths. Tenths go in the first place after the decimal point, so it is $${tex(answer)}$.`
-            : `$${fr(n, 100)}$ is ${n} hundredths, which is ${Math.floor(n / 10)} tenths and ${n % 10} hundredths. So it is $${tex(answer)}$.`,
+            ? `$${fr(n, 10)}$ is ${n} tenth${n === 1 ? '' : 's'}. Tenths go in the first place after the decimal point, so it is $${tex(answer)}$.`
+            : `$${fr(n, 100)}$ is ${n} hundredths, which is ${Math.floor(n / 10)} tenth${Math.floor(n / 10) === 1 ? '' : 's'} and ${n % 10} hundredth${n % 10 === 1 ? '' : 's'}. So it is $${tex(answer)}$.`,
         };
       }
       // Number line in tenths.
@@ -126,7 +128,7 @@ export const placeValue: QuestionTemplate = {
           den === 1000 ? 'Thousandths need three places after the decimal point.' : 'Hundredths need two places after the decimal point.',
           'Use zeros to fill any empty places.',
         ],
-        solution: `$${fr(n, den)}$ is ${n} ${den === 1000 ? 'thousandths' : 'hundredths'}. ${den === 1000 ? 'Thousandths' : 'Hundredths'} fill ${dp} places after the decimal point, so put the last digit in the ${den === 1000 ? 'thousandths' : 'hundredths'} place and fill any gaps with zeros: $${tex(answer)}$.`,
+        solution: `$${fr(n, den)}$ is ${countOf(n, den === 1000 ? 'thousandths' : 'hundredths')}. ${den === 1000 ? 'Thousandths' : 'Hundredths'} fill ${dp} places after the decimal point, so put the last digit in the ${den === 1000 ? 'thousandths' : 'hundredths'} place and fill any gaps with zeros: $${tex(answer)}$.`,
       };
     }
     if (kind === 'toFraction') {
@@ -155,7 +157,7 @@ export const placeValue: QuestionTemplate = {
         .map((d, i) => ({ d, i }))
         .filter((p) => p.d !== 0);
       const prompt = words
-        ? `Write this as a decimal: ${w} ones, ${parts.map((p, k) => `${k === parts.length - 1 ? 'and ' : ''}${p.d} ${PLACE_NAMES[p.i]}`).join(parts.length > 2 ? ', ' : ' ')}.`
+        ? `Write this as a decimal: ${countOf(w, 'ones')}, ${parts.map((p, k) => `${k === parts.length - 1 ? 'and ' : ''}${countOf(p.d, PLACE_NAMES[p.i]!)}`).join(parts.length > 2 ? ', ' : ' ')}.`
         : `Write this as one decimal number: $${[`${w}`, ...parts.map((p) => tex(p.d / 10 ** (p.i + 1)))].join(' + ')}$`;
       return {
         type: 'numeric',
@@ -176,7 +178,7 @@ export const placeValue: QuestionTemplate = {
         form: 'integer',
         calculator: 'not-allowed',
         hints: ['One tenth is the same as 100 thousandths, and one hundredth is the same as 10 thousandths.', 'Write the number with three decimal places, using zeros if you need to.'],
-        solution: `Write it with three decimal places: $${th(n)} = ${padded(n, 3)}$. That is ${n} thousandths, because $${fr(n, 1000)} = ${padded(n, 3)}$.`,
+        solution: `${th(n) === padded(n, 3) ? `$${th(n)}$ already has three decimal places.` : `Write it with three decimal places: $${th(n)} = ${padded(n, 3)}$.`} That is ${n} thousandths, because $${fr(n, 1000)} = ${padded(n, 3)}$.`,
       };
     }
     // Number line in hundredths.
@@ -243,14 +245,15 @@ export const compareOrder: QuestionTemplate = {
       let right = { t: b, s: show(b, bDp) };
       if (rng.chance(0.5)) [left, right] = [right, left];
       const sym = cmp(left.t, right.t);
-      const dp = Math.max(dpOf(a), dpOf(b), 1);
+      // Include the padding shown in the prompt (6.4 vs 6.40 needs 2 places, not 1).
+      const dp = Math.max(dpOf(a), dpOf(b), bDp ?? 1, 1);
       return {
         type: 'cloze',
         prompt: `Choose the symbol that makes this true.\n\n$${left.s}$ [[s]] $${right.s}$`,
         blanks: [{ id: 's', accepted: [sym], options: [...CMP] }],
         calculator: 'not-allowed',
         hints: ['Compare the digits place by place, starting with the biggest place.', 'Add zeros on the end so both numbers have the same number of decimal places, e.g. 0.5 = 0.50.'],
-        solution: `Write both with ${dp} decimal places: $${padded(left.t, dp)}$ and $${padded(right.t, dp)}$.\n\n${sym === '=' ? 'Every digit is the same, so they are equal' : `Compare place by place: ${left.s} ${cmpWords[sym]} ${right.s}`}.\n\nSo $${left.s} ${sym} ${right.s}$.`,
+        solution: `Write both with ${dp} decimal place${dp === 1 ? '' : 's'}: $${padded(left.t, dp)}$ and $${padded(right.t, dp)}$.\n\n${sym === '=' ? 'Every digit is the same, so they are equal' : `Compare place by place: ${left.s} ${cmpWords[sym]} ${right.s}`}.\n\nSo $${left.s} ${sym} ${right.s}$.`,
       };
     }
     const set = trickySet(rng);

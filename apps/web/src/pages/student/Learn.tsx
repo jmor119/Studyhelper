@@ -52,7 +52,7 @@ export default function Learn() {
         </label>
       </div>
 
-      <div className="grid gap-8">
+      <div className="grid grid-cols-1 gap-8">
         {curriculum.strands.map((strand) => {
           const topics = curriculum.topics.filter((t) => t.strandId === strand.id && (!onlySchool || schoolTopics.has(t.id)));
           if (!topics.length) return null;

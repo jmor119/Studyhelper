@@ -247,7 +247,7 @@ export function QuestionView({ question: q, value, onChange, disabled, result, o
 
       <div className="mt-4">
         {q.type === 'mcq' && value.type === 'mcq' && (
-          <div className="grid gap-2" role="radiogroup">
+          <div className="grid grid-cols-1 gap-2" role="radiogroup">
             {shuffledOptions.map((o) => {
               const selected = value.optionId === o.id;
               const isRight = result && result.expected !== undefined && o.text === result.expected;
@@ -281,7 +281,7 @@ export function QuestionView({ question: q, value, onChange, disabled, result, o
         )}
 
         {q.type === 'multi' && value.type === 'multi' && (
-          <div className="grid gap-2">
+          <div className="grid grid-cols-1 gap-2">
             <p className="text-sm font-medium text-muted">Select {q.selectCount === 1 ? 'one answer' : `${q.selectCount} answers`}.</p>
             {shuffledOptions.map((o) => {
               const selected = value.optionIds.includes(o.id);
@@ -333,7 +333,7 @@ export function QuestionView({ question: q, value, onChange, disabled, result, o
         )}
 
         {q.type === 'order' && value.type === 'order' && (
-          <ol className="grid gap-2">
+          <ol className="grid grid-cols-1 gap-2">
             {value.order.map((id, i) => {
               const item = q.items.find((x) => x.id === id);
               const state = details?.[q.items.find((x) => x.id === id)?.id ?? ''];
@@ -367,7 +367,7 @@ export function QuestionView({ question: q, value, onChange, disabled, result, o
         )}
 
         {q.type === 'match' && value.type === 'match' && (
-          <div className="grid gap-2">
+          <div className="grid grid-cols-1 gap-2">
             {q.left.map((l) => {
               const state = details?.[l.id];
               return (

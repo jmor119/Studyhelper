@@ -54,6 +54,10 @@ const DIE_EVENTS = [
 
 const setText = (xs: readonly (number | string)[]) => xs.join(', ');
 
+/** "3 red and 5 blue counters", or "4 red counters and 1 blue counter". */
+const bagText = (r: number, b: number) =>
+  r > 1 && b > 1 ? `${r} red and ${b} blue counters` : `${r} red counter${r === 1 ? '' : 's'} and ${b} blue counter${b === 1 ? '' : 's'}`;
+
 /** A spinner of k equal sectors using the given colours, each at least once. */
 function spinnerColours(rng: Rng, k: number, cols: readonly string[]): string[] {
   const out = [...cols];
@@ -224,7 +228,7 @@ export const formsAndCompare: QuestionTemplate = {
         const other = T - fav;
         const [c1, c2] = rng.sample(COLOURS, 2) as [string, string];
         prompt = `A bag has ${fav} ${c1} and ${other} ${c2} marbles. ${name} takes one marble without looking. What is the probability that it is ${c1}? ${ending}`;
-        solutionStart = `There are $${fav} + ${other} = ${T}$ marbles, and ${fav} are ${c1}.`;
+        solutionStart = `There are $${fav} + ${other} = ${T}$ marbles, and ${fav} ${fav === 1 ? 'is' : 'are'} ${c1}.`;
       } else if (kind === 'cards') {
         T = rng.pick([10, 20, 25, 50]);
         const all = Array.from({ length: T }, (_, i) => i + 1);
@@ -274,7 +278,9 @@ export const formsAndCompare: QuestionTemplate = {
           options: labels.map((l, i) => ({ id: ALPHA[i]!, text: `Spinner ${l}` })),
           correct: ALPHA[bi]!,
           feedback: Object.fromEntries(
-            labels.map((l, i) => [ALPHA[i]!, `Spinner ${l}: ${shown[i]} is ${pcts[i]}%, which is less than ${best}%.`]).filter((_, i) => i !== bi),
+            labels
+              .map((l, i) => [ALPHA[i]!, `Spinner ${l}: ${forms[i] === 'percent' ? shown[i] : `${shown[i]} is ${pcts[i]}%`}, which is less than ${best}%.`])
+              .filter((_, i) => i !== bi),
           ),
           calculator: 'not-allowed',
           hints: ['Write all four probabilities in the same form, for example as percentages.', 'To change a fraction to a percentage, make an equivalent fraction out of 100.'],
@@ -319,7 +325,7 @@ export const formsAndCompare: QuestionTemplate = {
       const pB = pTex(r2, t2);
       return {
         type: 'mcq',
-        prompt: `**Bag A** has ${r1} red and ${b1} blue counters.\n\n**Bag B** has ${r2} red and ${b2} blue counters.\n\n${name} wants to pick a red counter without looking. Which bag gives ${name} the better chance?`,
+        prompt: `**Bag A** has ${bagText(r1, b1)}.\n\n**Bag B** has ${bagText(r2, b2)}.\n\n${name} wants to pick a red counter without looking. Which bag gives ${name} the better chance?`,
         options: [
           { id: 'a', text: 'Bag A' },
           { id: 'b', text: 'Bag B' },
@@ -378,7 +384,7 @@ export const complement: QuestionTemplate = {
         form: 'any',
         calculator: 'not-allowed',
         hints: [...hints, `Write 1 as $\\frac{${d}}{${d}}$.`],
-        solution: `"${ev.not.replace(/\*\*/g, '')}" is the **complement** of "${ev.e}". Together they add up to 1.\n\n$1 - ${frac(a, d, true)} = ${frac(d, d, true)} - ${frac(a, d, true)} = ${frac(d - a, d, true)}$`,
+        solution: `The event "${ev.not.replace(/\*\*/g, '')}" is the **complement** of "${ev.e}". Together they add up to 1.\n\n$1 - ${frac(a, d, true)} = ${frac(d, d, true)} - ${frac(a, d, true)} = ${frac(d - a, d, true)}$`,
       };
     }
 

@@ -110,7 +110,7 @@ export function OverviewTab({ uid, name, yearLevel, stats, goals, mastery, onTab
           {mastery.loading ? (
             <Spinner />
           ) : (
-            <div className="mt-3 grid gap-5">
+            <div className="mt-3 grid grid-cols-1 gap-5">
               {curriculaFor(yearLevel).map((c) => {
                 const counts = new Map<string, number>();
                 for (const t of c.topics) {
@@ -152,7 +152,7 @@ export function OverviewTab({ uid, name, yearLevel, stats, goals, mastery, onTab
             Active goals
           </CardTitle>
           {active.length ? (
-            <ul className="mt-3 grid gap-3">
+            <ul className="mt-3 grid grid-cols-1 gap-3">
               {active.map((g) => {
                 const p = goalProgress(g, today);
                 return (
@@ -187,7 +187,7 @@ export function OverviewTab({ uid, name, yearLevel, stats, goals, mastery, onTab
         ) : !exams.data.length ? (
           <p className="mt-3 text-sm text-muted">{name} hasn’t taken a mock exam yet.</p>
         ) : (
-          <ul className="mt-3 grid gap-2">
+          <ul className="mt-3 grid grid-cols-1 gap-2">
             {exams.data.map((e) => (
               <li key={e.id} className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-line px-3 py-2.5">
                 <div className="min-w-0">

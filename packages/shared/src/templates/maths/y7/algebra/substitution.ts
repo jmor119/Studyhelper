@@ -130,6 +130,8 @@ interface Formula {
   answer: number;
   units?: string;
   working: string;
+  /** Second hint, when the default one doesn't fit this case. */
+  hint?: string;
 }
 
 export const formulae: QuestionTemplate = {
@@ -337,6 +339,7 @@ export const formulae: QuestionTemplate = {
           answer: h,
           units: 'hours',
           working: `${C} = ${r}h + ${fee}$\n\nTake away the ${fee}: $${r}h = ${C} - ${fee} = ${r * h}$\n\nDivide by ${r}: $h = ${r * h} \\div ${r} = ${h}`,
+          hint: `Undo the steps in reverse order: take away the ${fee} first, then divide.`,
         };
       }
     }
@@ -353,7 +356,8 @@ export const formulae: QuestionTemplate = {
       hints: finding
         ? [
             'Write the formula, then put in the values you know.',
-            difficulty === 5 ? 'Work out the first shape completely before you start on the second one.' : 'Then ask: what number makes this true? Use the inverse operation.',
+            f.hint ??
+              (difficulty === 5 ? 'Work out the first shape completely before you start on the second one.' : 'Then ask: what number makes this true? Use the inverse operation.'),
           ]
         : ['Write the formula, then replace each letter with its value.', 'Remember that letters written next to each other are multiplied.'],
       solution: `Substitute into the formula:\n\n$${f.working}$${f.units && f.units !== '$' && f.units !== 'hours' ? `\n\nThe answer is ${f.answer} ${f.units}.` : ''}`,

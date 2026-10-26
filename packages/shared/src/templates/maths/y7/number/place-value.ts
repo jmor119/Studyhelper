@@ -159,7 +159,7 @@ export const powersOfTen: QuestionTemplate = {
           'Write both numbers as ordinary numbers.',
           'Each step up to the next power of 10 multiplies the number by 10. How many steps are there?',
         ],
-        solution: `$10^{${a}} = ${tex(10 ** a)}$ and $10^{${b}} = ${tex(10 ** b)}$.\n\nGoing from $10^{${b}}$ to $10^{${a}}$ is ${gap} step${gap > 1 ? 's' : ''} of "× 10", so $10^{${a}}$ is $${Array.from({ length: gap }, () => '10').join(' \\times ')} = ${tex(10 ** gap)}$ times bigger.`,
+        solution: `$10^{${a}} = ${tex(10 ** a)}$ and $10^{${b}} = ${tex(10 ** b)}$.\n\nGoing from $10^{${b}}$ to $10^{${a}}$ is ${gap} step${gap > 1 ? 's' : ''} of "× 10", so $10^{${a}}$ is ${gap > 1 ? `$${Array.from({ length: gap }, () => '10').join(' \\times ')} = ${tex(10 ** gap)}$` : '10'} times bigger.`,
       };
     }
     const d = rng.int(2, 9);

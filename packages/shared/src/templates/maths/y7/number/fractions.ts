@@ -234,12 +234,15 @@ export const compareOrder: QuestionTemplate = {
           .map((x) => {
             const [a, b] = simp(x, L);
             let extra = '';
-            if (largest && b === maxDen) extra = ' A bigger denominator means the whole is cut into more, smaller pieces. It does not make the fraction bigger.';
+            if (largest && b === maxDen && td < maxDen) extra = ' A bigger denominator means the whole is cut into more, smaller pieces. It does not make the fraction bigger.';
             else if (largest && a === maxNum) extra = ' The biggest numerator is not always the biggest fraction. The size of the pieces matters too.';
             else if (!largest && a === minNum) extra = ' The smallest numerator is not always the smallest fraction. The size of the pieces matters too.';
             return {
               text: `$${f(a, b)}$`,
-              feedback: `$${f(a, b)} = ${f(x, L)}$, but $${f(tn, td)} = ${f(target, L)}$ is ${largest ? 'bigger' : 'smaller'}.${extra}`,
+              feedback:
+                b === L
+                  ? `$${f(a, b)}$ is ${largest ? 'smaller' : 'bigger'} than $${td === L ? f(tn, td) : `${f(tn, td)} = ${f(target, L)}`}$.${extra}`
+                  : `$${f(a, b)} = ${f(x, L)}$, but $${td === L ? f(tn, td) : `${f(tn, td)} = ${f(target, L)}`}$ is ${largest ? 'bigger' : 'smaller'}.${extra}`,
             };
           });
         const mcq = mcqFields(rng, { text: `$${f(tn, td)}$` }, distractors);
@@ -487,7 +490,7 @@ export const wordProblems: QuestionTemplate = {
         hints: ['Step 1: add the first two amounts.', `Step 2: subtract the amount used. A common denominator of ${L} works for all three fractions.`],
         solution: [
           `**Step 1: total.** $${aT} + ${bT} = ${f(aN * (L / aD), L)} + ${f(bN * (L / bD), L)} = ${f(total, L)}$${tn !== total ? ` $= ${bothTex(tn, td)}$` : ''} ${story.units}.`,
-          `**Step 2: subtract.** $${cT} = ${f(take, L)}$, so $${f(total, L)} - ${f(take, L)} = ${f(left, L)}$${an !== left ? ` $= ${bothTex(an, ad)}$` : ''}.`,
+          `**Step 2: subtract.** ${cT === f(take, L) ? '' : `$${cT} = ${f(take, L)}$, so `}$${f(total, L)} - ${f(take, L)} = ${f(left, L)}$${an !== left ? ` $= ${bothTex(an, ad)}$` : ''}.`,
           `So the ${story.answerWord} is $${niceTex(an, ad)}$ ${story.units}.`,
         ].join('\n\n'),
       };

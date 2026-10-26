@@ -299,7 +299,7 @@
     "modelAnswer": "A solar calendar follows the Sun. Its year is based on the time Earth takes to go around the Sun, about 365 days. The Gregorian calendar, which we use for school terms and birthdays, is a solar calendar. A lunar calendar follows the Moon. Its months are based on the Moon's phases, about 29 and a half days each. The maramataka (the Māori lunar calendar) is a lunar calendar.",
     "rubric": [
       {"criterion":"Explains that a solar calendar follows the Sun (Earth's trip around the Sun) and a lunar calendar follows the Moon's phases","marks":1},
-      {"criterion":"Gives a correct example of each, e.g. Gregorian (solar) and maramataka or the Chinese calendar (lunar)","marks":1}
+      {"criterion":"Gives a correct example of each, e.g. Gregorian (solar) and the maramataka (lunar). The Chinese calendar, whose months follow the Moon, is also fine as the lunar example","marks":1}
     ],
     "hints": ["Sol is to do with the Sun, and luna is to do with the Moon."],
     "solution": "Solar calendars follow the Sun (Earth's year around it), e.g. the Gregorian calendar. Lunar calendars follow the phases of the Moon, e.g. the maramataka."

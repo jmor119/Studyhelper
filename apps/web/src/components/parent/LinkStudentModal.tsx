@@ -41,7 +41,7 @@ export function LinkStudentModal({ open, onClose }: { open: boolean; onClose: ()
 
   return (
     <Modal open={open} onClose={close} title="Link an existing student account" footer={<Button variant="secondary" onClick={close}>Close</Button>}>
-      <div className="grid gap-4">
+      <div className="grid grid-cols-1 gap-4">
         <p className="text-sm text-muted">
           If your child already has their own Study Helper account (or will make one with their email or Google), link it to yours so you can see their progress and set goals.
         </p>
@@ -65,7 +65,7 @@ export function LinkStudentModal({ open, onClose }: { open: boolean; onClose: ()
             {accepted.already ? `You and ${accepted.name} were already linked.` : `${accepted.name} now appears on your Family page.`}
           </Notice>
         ) : (
-          <form onSubmit={accept} className="grid gap-3">
+          <form onSubmit={accept} className="grid grid-cols-1 gap-3">
             <p className="text-sm">If your child made an invite in their Settings, enter their code here.</p>
             <Field label="Invite code" hint="Eight letters and numbers, like ABCD-EFGH.">
               <Input

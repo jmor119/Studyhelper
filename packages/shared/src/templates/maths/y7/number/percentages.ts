@@ -188,7 +188,10 @@ export const compareOrder: QuestionTemplate = {
             .filter((v) => v !== target)
             .map((v) => ({
               text: show(v, texts.get(v)!),
-              feedback: `${explainAsPercent(v, texts.get(v)!)}, but ${explainAsPercent(target, texts.get(target)!)} is ${largest ? 'bigger' : 'smaller'}.`,
+              feedback:
+                texts.get(v) === 'percent'
+                  ? `${explainAsPercent(v, 'percent')} is ${largest ? 'smaller' : 'bigger'} than ${explainAsPercent(target, texts.get(target)!)}.`
+                  : `${explainAsPercent(v, texts.get(v)!)}, but ${explainAsPercent(target, texts.get(target)!)} is ${largest ? 'bigger' : 'smaller'}.`,
             })),
         );
         const listed = rng.shuffle(values).map((v) => show(v, texts.get(v)!));
@@ -308,6 +311,7 @@ function percentHints(p: number): string[] {
   if (p === 50) return ['What fraction is the same as 50%?', 'Finding 50% is the same as halving.'];
   if (p === 25) return ['What fraction is the same as 25%?', 'Finding 25% is the same as dividing by 4 (or halving, then halving again).'];
   if (p === 10) return ['What fraction is the same as 10%?', 'Finding 10% is the same as dividing by 10.'];
+  if (p === 1) return ['What fraction is the same as 1%?', 'Finding 1% is the same as dividing by 100.'];
   if (p < 5) return ['Find 1% first: divide by 100.', `Then multiply to get ${p}%.`];
   if (p === 75) return ['Find 25% first: divide by 4.', '75% is three lots of 25%.'];
   if (p === 5) return ['Find 10% first: divide by 10.', '5% is half of 10%.'];

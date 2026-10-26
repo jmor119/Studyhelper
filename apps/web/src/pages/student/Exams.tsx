@@ -27,7 +27,10 @@ function NewExamForm({ onCancel }: { onCancel?: () => void }) {
   const [subject, setSubject] = useState<SubjectChoice>(curricula[0]?.subject ?? 'maths');
   const [picked, setPicked] = useState<string[] | null>(null);
   const [duration, setDuration] = useState(45);
-  const [calculator, setCalculator] = useState<'allowed' | 'not-allowed'>('allowed');
+  // Primary and intermediate maths (Years 6–7) is all non-calculator, so start there.
+  const [calculator, setCalculator] = useState<'allowed' | 'not-allowed'>(() =>
+    curricula.length && curricula.every((c) => c.topics.every((t) => t.calculator === 'not-allowed')) ? 'not-allowed' : 'allowed',
+  );
   const [title, setTitle] = useState('');
   const start = useAsync(api.startExam);
 

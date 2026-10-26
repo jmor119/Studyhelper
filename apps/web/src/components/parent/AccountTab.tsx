@@ -196,7 +196,7 @@ function DeleteAccount({ uid, name }: { uid: string; name: string }) {
           </>
         }
       >
-        <form onSubmit={confirm} className="grid gap-3">
+        <form onSubmit={confirm} className="grid grid-cols-1 gap-3">
           <p className="text-sm">Everything in this account will be deleted straight away. There’s no undo.</p>
           <Field label={`Type “${name}” to confirm`}>
             <Input value={typed} onChange={(e) => setTyped(e.target.value)} autoComplete="off" spellCheck={false} />

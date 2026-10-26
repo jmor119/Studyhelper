@@ -495,7 +495,8 @@ const MIXES: ReadonlyArray<readonly Poly[]> = [
   [REGULAR[6]!, REGULAR[1]!, REGULAR[0]!],
 ];
 
-const TILE_CONTEXTS = ['bathroom tiles', 'paving stones', 'pattern blocks', 'cardboard tiles for a class display', 'mosaic tiles', 'tiles for a marae kitchen floor'];
+const TILE_CONTEXTS = ['bathroom tiles', 'paving stones', 'pattern blocks', 'cardboard tiles', 'mosaic tiles', 'floor tiles'];
+const an = (name: string) => `${/^[aeiou]/i.test(name) ? 'an' : 'a'} ${name}`;
 
 export const tessellation: QuestionTemplate = {
   id: 'm6.geo.transformations.tessellation',
@@ -510,7 +511,7 @@ export const tessellation: QuestionTemplate = {
         const p = rng.pick([REGULAR[0]!, REGULAR[1]!, REGULAR[3]!]);
         return {
           type: 'numeric',
-          prompt: `${who} is making a tessellation with ${ctx} shaped like a ${p.name}. Each corner of the ${p.name} is ${p.angle}°. How many tiles fit together around one point, with no gaps or overlaps?`,
+          prompt: `${who} is making a tessellation with ${ctx} shaped like ${an(p.name)}. Each corner of the ${p.name} is ${p.angle}°. How many tiles fit together around one point, with no gaps or overlaps?`,
           answer: 360 / p.angle,
           form: 'integer',
           calculator: 'not-allowed',
@@ -518,7 +519,9 @@ export const tessellation: QuestionTemplate = {
           solution: `Angles at a point add to 360°. $360 \\div ${p.angle} = ${360 / p.angle}$, so **${360 / p.angle}** tiles fit around each point.`,
         };
       }
-      const pair = rng.sample([60, 90, 120, 135, 150, 108], 2);
+      // Keep the third corner smaller than 180° so it can be a real tile corner.
+      let pair = rng.sample([60, 90, 120, 135, 150, 108], 2);
+      while (pair[0]! + pair[1]! <= 180) pair = rng.sample([60, 90, 120, 135, 150, 108], 2);
       const third = 360 - pair[0]! - pair[1]!;
       return {
         type: 'numeric',
@@ -548,7 +551,7 @@ export const tessellation: QuestionTemplate = {
             ['No, because shapes with more than four sides can never tessellate.', 'Regular hexagons have six sides and they tessellate. It depends on the angles.'],
           ];
       return mcq(rng, fits ? yes : no, wrong, {
-        prompt: `${who} wants to cover a floor with ${ctx} that are all the same ${p.name}. Each corner of a ${p.name} is ${p.angle}°. Will the tiles tessellate (fit together with no gaps or overlaps)?`,
+        prompt: `${who} wants to cover a floor with ${ctx} that are all the same ${p.name}. Each corner of ${an(p.name)} is ${p.angle}°. Will the tiles tessellate (fit together with no gaps or overlaps)?`,
         calculator: 'not-allowed',
         hints: ['Where the tiles meet, their corners must fit around a point. Angles at a point add up to 360°.', `Does ${p.angle}° go into 360° exactly?`],
         solution: fits

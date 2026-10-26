@@ -383,13 +383,14 @@ export const discount: QuestionTemplate = {
       if (rng.chance(0.5)) {
         // Discount, then change from a note.
         const p = rng.pick([10, 20, 25, 30, 40, 50]);
-        const { name: item, P } = bigItem(rng);
+        // An even price keeps 25% off in 50c steps, so the change can be paid in cash.
+        const { name: item, P } = bigItem(rng, p === 25);
         const { d, line } = discountWork(P, p);
         const sale = P * 100 - d;
         const note = [2000, 5000, 10000, 20000].find((n) => n >= sale + 100)!;
         return {
           type: 'numeric',
-          prompt: `${cap(item)} is ${cash(P)}, but today everything is ${p}% off. ${name} pays for it with a ${cash(dollars(note))} note. How much change does ${name} get?`,
+          prompt: `${cap(item)} is ${cash(P)}, but today everything is ${p}% off. ${name} pays for it with ${note === 20000 ? `two ${cash(100)} notes` : `a ${cash(dollars(note))} note`}. How much change does ${name} get?`,
           answer: dollars(note - sale),
           units: '$',
           marks: 2,

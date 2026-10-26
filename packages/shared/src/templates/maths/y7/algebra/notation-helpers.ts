@@ -11,9 +11,11 @@ export const t = (coef: number, variable = ''): [number, string] => [coef, varia
 /** Letters used as variables. Leaves out i, l and o (they look like 1 and 0) and e. */
 export const LETTERS = ['a', 'b', 'c', 'd', 'h', 'k', 'm', 'n', 'p', 'q', 'r', 's', 't', 'w', 'x', 'y', 'z'] as const;
 
-/** n different letters, in alphabetical order. */
+/** n different letters, in alphabetical order. Avoids sets like c, m that would print as a unit ("12cm"). */
 export function pickLetters(rng: Rng, n: number): string[] {
-  return rng.sample(LETTERS, n).sort();
+  let picked = rng.sample(LETTERS, n).sort();
+  while (/cm|km/.test(picked.join(''))) picked = rng.sample(LETTERS, n).sort();
+  return picked;
 }
 
 /** Money in prose with the dollar sign escaped so it isn't read as maths: 12 → "\$12", 4.5 → "\$4.50". */

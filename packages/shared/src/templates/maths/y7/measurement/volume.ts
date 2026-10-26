@@ -53,7 +53,8 @@ export const countCubes: QuestionTemplate = {
 // Volume of cubes and rectangular prisms
 // ---------------------------------------------------------------------------------------------
 
-const OBJECTS = ['box', 'block of wood', 'chilly bin', 'storage tub', 'block of cheese', 'shipping container', 'brick', 'lunch box'];
+// Everything except the shipping container gets sizes of about 8–15 cm × 4–10 cm × 2–10 cm, so the objects must be small.
+const OBJECTS = ['box', 'block of wood', 'pencil case', 'storage tub', 'block of cheese', 'shipping container', 'jewellery box', 'lunch box'];
 
 export const prismVolume: QuestionTemplate = {
   id: 'm7.mea.volume.prism-volume',

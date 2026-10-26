@@ -51,7 +51,7 @@ function resultsTable(e: Experiment, counts: readonly number[]): string {
 
 /** "= 0.35 = 35%" style conversion for a count out of n, where n divides 100. */
 function hundredths(k: number, n: number): string {
-  return `${frac(k, n, true)} = ${frac((k * 100) / n, 100, true)}`;
+  return n === 100 ? frac(k, n, true) : `${frac(k, n, true)} = ${frac((k * 100) / n, 100, true)}`;
 }
 
 const times = (k: number) => (k === 1 ? 'once' : `${k} times`);
@@ -74,7 +74,7 @@ export const relativeFrequency: QuestionTemplate = {
       const o = e.outcomes[i]!;
       return {
         type: 'numeric',
-        prompt: `${e.did(name, n)}. The result was **${o.label}** ${times(counts[i]!)}.\n\nWhat is the experimental probability that ${o.phrase}? Give your answer as a fraction.`,
+        prompt: `${e.did(name, n)}. The result **${o.label}** came up ${times(counts[i]!)}.\n\nWhat is the experimental probability that ${o.phrase}? Give your answer as a fraction.`,
         answer: counts[i]! / n,
         form: 'any',
         calculator: 'not-allowed',
@@ -203,7 +203,7 @@ export const expected: QuestionTemplate = {
         const ans = counts[i]! * mult;
         return {
           type: 'numeric',
-          prompt: `${e.did(name, n)}. The result was **${o.label}** ${times(counts[i]!)}.\n\nIf ${name} did the same thing ${N} times, about how many times would you expect the result to be ${o.label}?`,
+          prompt: `${e.did(name, n)}. The result **${o.label}** came up ${times(counts[i]!)}.\n\nIf ${name} did the same thing ${N} times, about how many times would you expect to get **${o.label}**?`,
           answer: ans,
           form: 'integer',
           calculator: 'not-allowed',
@@ -268,11 +268,11 @@ export const compareTheory: QuestionTemplate = {
           options: cols.map((c, i) => ({ id: ALPHA[i]!, text: c[0]!.toUpperCase() + c.slice(1) })),
           correct: ALPHA[bi]!,
           feedback: Object.fromEntries(
-            cols.map((c, i) => [ALPHA[i]!, `${c[0]!.toUpperCase() + c.slice(1)} came up ${counts[i]} times, which is ${devs[i]} away from the expected ${E}.`]).filter((_, i) => i !== bi),
+            cols.map((c, i) => [ALPHA[i]!, `${c[0]!.toUpperCase() + c.slice(1)} came up ${counts[i]} times, which is ${devs[i] === 0 ? 'exactly' : `${devs[i]} away from`} the expected ${E}.`]).filter((_, i) => i !== bi),
           ),
           calculator: 'not-allowed',
           hints: ['Each colour has a theoretical probability of $\\frac{1}{4}$.', `Work out the expected number for each colour, then see how far each result is from it.`],
-          solution: `Expected number for each colour: $\\frac{1}{4} \\times ${N} = ${E}$\n\n${cols.map((c, i) => `- ${c[0]!.toUpperCase() + c.slice(1)}: ${counts[i]} (${devs[i]} away)`).join('\n')}\n\n**${cols[bi]![0]!.toUpperCase() + cols[bi]!.slice(1)}** is furthest from ${E}. Even with a fair spinner, results vary. With more spins, the results would probably get closer to the theory.`,
+          solution: `Expected number for each colour: $\\frac{1}{4} \\times ${N} = ${E}$\n\n${cols.map((c, i) => `- ${c[0]!.toUpperCase() + c.slice(1)}: ${counts[i]} (${devs[i] === 0 ? 'exactly as expected' : `${devs[i]} away`})`).join('\n')}\n\n**${cols[bi]![0]!.toUpperCase() + cols[bi]!.slice(1)}** is furthest from ${E}. Even with a fair spinner, results vary. With more spins, the results would probably get closer to the theory.`,
         };
       }
     }
@@ -384,7 +384,9 @@ export const largeNumbers: QuestionTemplate = {
         if (i === 0) return (t * pn) / pd; // exactly the theory, by luck
         const e = (t * pn) / pd;
         let c = e;
-        while (c === e) c = Math.round(e + (rng.next() - 0.5) * Math.max(3, t * 0.12));
+        // Chance variation grows like √t, not t, so the big experiment stays close to the theory.
+        const spread = i === 3 ? Math.sqrt(t) : Math.max(3, t * 0.12);
+        while (c === e) c = Math.round(e + (rng.next() - 0.5) * spread);
         return Math.max(0, Math.min(t, c));
       });
       const order = rng.shuffle([0, 1, 2, 3]);

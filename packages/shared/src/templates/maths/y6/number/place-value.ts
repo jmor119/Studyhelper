@@ -262,7 +262,7 @@ export const compareOrder: QuestionTemplate = {
         blanks: [{ id: 'a', accepted: [sym], options: ['<', '>', '='] }],
         calculator: 'not-allowed',
         hints: ['$<$ means "is less than" and $>$ means "is greater than". The pointy end points to the smaller number.', 'Compare the digits from the left until you find a place where they are different.'],
-        solution: `Both numbers have ${digits} digits. They match until the **${placeName(p)}** place, where ${num(a)} has ${digitAt(a, p)} and ${num(b)} has ${digitAt(b, p)}.\n\nSo $${tex(a)} ${sym} ${tex(b)}$.`,
+        solution: `Both numbers have ${digits} digits. ${p === 10 ** (digits - 1) ? 'Their first digits are different. In' : 'They match until'} the **${placeName(p)}** place${p === 10 ** (digits - 1) ? '' : ', where'} ${num(a)} has ${digitAt(a, p)} and ${num(b)} has ${digitAt(b, p)}.\n\nSo $${tex(a)} ${sym} ${tex(b)}$.`,
       };
     }
 
@@ -334,7 +334,7 @@ export const compareOrder: QuestionTemplate = {
         feedback: Object.fromEntries(vals.map((v, i) => [ids[i]!, v] as const).filter(([, v]) => v !== correct).map(([id, v]) => [id, why(v)])),
         calculator: 'not-allowed',
         hints: ['Check how many digits each number has.', `The number must have ${A} million and ${B} hundred thousand.`],
-        solution: `A number between ${num(lo)} and ${num(hi)} has **${A}** millions and **${B}** hundred thousands.\n\n${num(correct)} has ${A} millions and ${B} hundred thousands, so it is the one.`,
+        solution: `A number between ${num(lo)} and ${num(hi)} has **${A}** million${A === 1 ? '' : 's'} and **${B}** hundred thousand${B === 1 ? '' : 's'}.\n\n${num(correct)} has ${A} million${A === 1 ? '' : 's'} and ${B} hundred thousand${B === 1 ? '' : 's'}, so it is the one.`,
       };
     }
     // 10 000 / 100 000 more or less, often crossing into the next place.
@@ -493,7 +493,7 @@ export const roundDecimal: QuestionTemplate = {
             .map(([id, v]) => [
               id,
               v === shifted
-                ? `${hundredthsText(v)} has 0 tenths and ${v % 10} hundredths. It rounds to ${r(v)}.`
+                ? `${hundredthsText(v)} has 0 tenths and ${v % 10} hundredth${v % 10 === 1 ? '' : 's'}. It rounds to ${r(v)}.`
                 : `${hundredthsText(v)} rounds to ${r(v)}. Look at the hundredths digit.`,
             ]),
         ),
@@ -567,7 +567,7 @@ export const baseTen: QuestionTemplate = {
         answer: value,
         calculator: 'not-allowed',
         hints: ['The first place after the decimal point is tenths. The second place is hundredths.', `So what is the ${d} worth?`],
-        solution: `In ${hundredthsText(h)}, the ${d} is in the **${place}** place.\n\nSo it is worth ${d} ${place}: $${place === 'tenths' ? `\\frac{${d}}{10}` : `\\frac{${d}}{100}`} = ${place === 'tenths' ? `0.${d}` : `0.0${d}`}$.`,
+        solution: `In ${hundredthsText(h)}, the ${d} is in the **${place}** place.\n\nSo it is worth ${d} ${d === 1 ? place.replace(/s$/, '') : place}: $${place === 'tenths' ? `\\frac{${d}}{10}` : `\\frac{${d}}{100}`} = ${place === 'tenths' ? `0.${d}` : `0.0${d}`}$.`,
       };
     }
 
@@ -602,9 +602,10 @@ export const baseTen: QuestionTemplate = {
     }
 
     if (kind === 'tenths-in') {
-      const t = rng.int(12, 99);
+      // Skip whole numbers such as 3.0 or 2.00, which read oddly here.
+      const t = retry(() => { const v = rng.int(12, 99); return v % 10 === 0 ? null : v; });
       const hundredths = rng.chance(0.3);
-      const n = hundredths ? rng.int(101, 999) : t;
+      const n = hundredths ? retry(() => { const v = rng.int(101, 999); return v % 100 === 0 ? null : v; }) : t;
       const x = hundredths ? hundredthsText(n) : tenthsText(n);
       const unit = hundredths ? 'hundredths' : 'tenths';
       return {
@@ -614,7 +615,7 @@ export const baseTen: QuestionTemplate = {
         form: 'integer',
         calculator: 'not-allowed',
         hints: [`How many ${unit} make one whole?`, `Count the ${unit} in the whole-number part, then add the ${unit} after the point.`],
-        solution: `One whole is ${hundredths ? 100 : 10} ${unit}, so ${Math.floor(n / (hundredths ? 100 : 10))} wholes are ${Math.floor(n / (hundredths ? 100 : 10)) * (hundredths ? 100 : 10)} ${unit}.\n\nAdd the ${n % (hundredths ? 100 : 10)} ${unit} after the point: there are **${n}** ${unit} in ${x}.`,
+        solution: `One whole is ${hundredths ? 100 : 10} ${unit}, so ${Math.floor(n / (hundredths ? 100 : 10))} whole${Math.floor(n / (hundredths ? 100 : 10)) === 1 ? ' is' : 's are'} ${Math.floor(n / (hundredths ? 100 : 10)) * (hundredths ? 100 : 10)} ${unit}.\n\nAdd the ${n % (hundredths ? 100 : 10)} ${n % (hundredths ? 100 : 10) === 1 ? unit.replace(/s$/, '') : unit} after the point: there are **${n}** ${unit} in ${x}.`,
       };
     }
 
@@ -628,7 +629,7 @@ export const baseTen: QuestionTemplate = {
       answer: c,
       form: 'integer',
       calculator: 'not-allowed',
-      hints: [`How many ${placeName(u)} are in ${num(u * 10)}? In ${num(u * 100)}?`, `Think of ${num(n)} as a number of ${placeName(u)}: what is left when you take off the last ${String(u).length - 1} zero${u === 10 ? '' : 's'}?`],
+      hints: [`How many ${placeName(u)} are in ${num(u * 10)}? In ${num(u * 100)}?`, `Think of ${num(n)} as a number of ${placeName(u)}: what is left when you take off the last ${u === 10 ? 'zero' : `${String(u).length - 1} zeros`}?`],
       solution: `One ${roundWord(u)} is ${num(u)}, so count how many lots of ${num(u)} make ${num(n)}.\n\n$${tex(c)} \\times ${tex(u)} = ${tex(n)}$, so there are **${num(c)}** ${placeName(u)} in ${num(n)}.`,
     };
   },

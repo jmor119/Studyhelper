@@ -89,8 +89,9 @@ export const readPoint: QuestionTemplate = {
 // ---------------------------------------------------------------- which point?
 function axisMcq(rng: Rng): TemplateOutput {
   const k = rng.int(1, 12);
-  const kind = rng.pick(['y-axis', 'x-axis', 'neither', 'origin', 'y-axis', 'x-axis'] as const);
-  const p: P = kind === 'y-axis' ? [0, k] : kind === 'x-axis' ? [k, 0] : kind === 'origin' ? [0, 0] : [k, rng.int(1, 12)];
+  // No (0, 0) case: the origin is on both axes, so "On the x-axis" would also be defensible.
+  const kind = rng.pick(['y-axis', 'x-axis', 'neither', 'y-axis', 'x-axis'] as const);
+  const p: P = kind === 'y-axis' ? [0, k] : kind === 'x-axis' ? [k, 0] : [k, rng.int(1, 12)];
   const ids = { 'x-axis': 'x', 'y-axis': 'y', origin: 'o', neither: 'n' } as const;
   const feedback: Record<string, string> = {
     x: 'Points on the x-axis have a y-coordinate of 0 (they have not moved up at all).',
@@ -111,15 +112,13 @@ function axisMcq(rng: Rng): TemplateOutput {
     correct: ids[kind],
     feedback,
     calculator: 'not-allowed',
-    hints: ['The first number tells you how far across. The second number tells you how far up.', 'If you do not move across at all, where are you?'],
+    hints: ['The first number tells you how far across. The second number tells you how far up.', 'Is either number 0? A 0 means you do not move that way at all.'],
     solution:
-      kind === 'origin'
-        ? '(0, 0) is the **origin**, where the x-axis and y-axis meet.'
-        : kind === 'y-axis'
-          ? `$${pt(p)}$ is 0 across and ${k} up. Moving straight up from the origin keeps you on the **y-axis**.`
-          : kind === 'x-axis'
-            ? `$${pt(p)}$ is ${k} across and 0 up. Moving straight across from the origin keeps you on the **x-axis**.`
-            : `$${pt(p)}$ is ${p[0]} across and ${p[1]} up. Neither number is 0, so it is **not on either axis**.`,
+      kind === 'y-axis'
+        ? `$${pt(p)}$ is 0 across and ${k} up. Moving straight up from the origin keeps you on the **y-axis**.`
+        : kind === 'x-axis'
+          ? `$${pt(p)}$ is ${k} across and 0 up. Moving straight across from the origin keeps you on the **x-axis**.`
+          : `$${pt(p)}$ is ${p[0]} across and ${p[1]} up. Neither number is 0, so it is **not on either axis**.`,
   };
 }
 

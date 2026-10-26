@@ -308,7 +308,7 @@ export const outliersAndTargets: QuestionTemplate = {
           answer: need,
           marks: 2,
           calculator: 'not-allowed',
-          hints: [`What is the total so far after ${n} games or tests?`, `What total is needed after ${n + 1} for a mean of ${m2}?`],
+          hints: [`What is the total so far, after the first ${n}?`, `What total is needed after ${n + 1} for a mean of ${m2}?`],
           solution: `Total so far: $${n} \\times ${m} = ${n * m}$\n\nTotal needed after ${n + 1}: $${n + 1} \\times ${m2} = ${(n + 1) * m2}$\n\nNeeded next time: $${(n + 1) * m2} - ${n * m} = ${need}$\n\nCheck: $${(n + 1) * m2} \\div ${n + 1} = ${m2}$ ✓`,
         };
       }

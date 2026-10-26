@@ -62,8 +62,8 @@ export default function Onboarding() {
 
   return (
     <AuthLayout title="Let’s get you set up" subtitle="This only takes a moment.">
-      <form onSubmit={submit} className="grid gap-4">
-        <div className="grid gap-2">
+      <form onSubmit={submit} className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 gap-2">
           {choice('student', 'I’m a student', 'Practise, revise for exams and get help with homework.', <GraduationCap className="size-6" />)}
           {choice('parent', 'I’m a parent or caregiver', 'Follow progress, set goals and add your children.', <Users className="size-6" />)}
         </div>

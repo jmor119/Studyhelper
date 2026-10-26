@@ -450,11 +450,14 @@ export const estimate: QuestionTemplate = {
       ]);
       return {
         type: 'mcq',
-        prompt: `Which is the best estimate for $${a} \\times ${b}$?`,
+        prompt:
+          difficulty === 1
+            ? `Which is the best estimate for $${a} \\times ${b}$?`
+            : `Round both numbers to the nearest 10 to estimate $${a} \\times ${b}$. Which estimate do you get?`,
         ...fields,
         calculator: 'not-allowed',
         hints: [difficulty === 1 ? `Round ${a} to the nearest 10.` : 'Round both numbers to the nearest 10.', 'Then multiply the rounded numbers.'],
-        solution: `${difficulty === 1 ? `Round ${a} to ${ra}` : `Round ${a} to ${ra} and ${b} to ${rb}`}:\n\n$${tex(ra)} \\times ${tex(rb)} = ${tex(E)}$\n\n(The exact answer is $${tex(a * b)}$, which is close to ${num(E)}.)`,
+        solution: `${difficulty === 1 ? `Round ${a} to ${ra}` : `Round ${a} to ${ra} and ${b} to ${rb}`}:\n\n$${tex(ra)} \\times ${tex(rb)} = ${tex(E)}$\n\n(The exact answer is $${tex(a * b)}$, ${Math.abs(E - a * b) <= 0.2 * a * b ? `which is close to ${num(E)}` : 'so the estimate is the right size'}.)`,
       };
     }
     // difficulty 3: is a given answer reasonable? (Both numbers are at least 34, so the product has 4 digits.)

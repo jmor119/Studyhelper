@@ -46,7 +46,7 @@ export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolea
 
   if (!invite) {
     return (
-      <div className="grid gap-3">
+      <div className="grid grid-cols-1 gap-3">
         {intro}
         {busy ? (
           <Spinner className="py-4" label="Making an invite" />
@@ -61,7 +61,7 @@ export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolea
   }
 
   return (
-    <div className="grid gap-5">
+    <div className="grid grid-cols-1 gap-5">
       {intro}
       <InviteEmail invite={invite} fromName={profile?.displayName ?? (isParent ? 'Your parent' : 'Your child')} />
 

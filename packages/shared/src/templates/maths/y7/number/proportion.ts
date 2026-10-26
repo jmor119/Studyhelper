@@ -147,8 +147,8 @@ export const forEvery: QuestionTemplate = {
       answer,
       marks: 2,
       calculator: 'not-allowed',
-      hints: [`In each group there are ${hi - lo} more ${hiName} than ${loName}.`, `How many groups make a difference of ${diff}?`],
-      solution: `In one group there are $${hi} - ${lo} = ${hi - lo}$ more ${hiName} than ${loName}.\n\n$${diff} \\div ${hi - lo} = ${m}$ groups.\n\n${
+      hints: [`Each group has ${hi} ${hiName} and ${lo} ${loName}. What is the difference in one group?`, `How many groups make a difference of ${diff}?`],
+      solution: `Each group has ${hi} ${hiName} and ${lo} ${loName}, so the difference in one group is $${hi} - ${lo} = ${hi - lo}$.\n\n$${diff} \\div ${hi - lo} = ${m}$ groups.\n\n${
         askTotal
           ? `Each group has ${a + b} ${p.all}, so there are $${m} \\times ${a + b} = ${answer}$ ${p.all} altogether.`
           : `Each group has ${askLow ? lo : hi} ${asked}, so there are $${m} \\times ${askLow ? lo : hi} = ${answer}$ ${asked}.`
@@ -328,7 +328,7 @@ export const recipes: QuestionTemplate = {
     const base = r.makes;
     const baseAmt = ing.per * base;
     const recipeText = (n: number) => (r.serves ? `serves ${n} ${n === 1 ? 'person' : 'people'}` : `makes ${n} ${r.noun}`);
-    const ask = (n: number) => (r.serves ? `to serve ${n} people` : `to make ${n} ${r.noun}`);
+    const ask = (n: number) => (r.serves ? `to serve ${n} ${n === 1 ? 'person' : 'people'}` : `to make ${n} ${r.noun}`);
     const unitStr = ing.unit;
     const out = (target: number, extra: Partial<TemplateOutput> & { hints: string[]; solution: string }): TemplateOutput => ({
       type: 'numeric',

@@ -104,7 +104,7 @@ export const coordinates: QuestionTemplate = {
           ...mcqFields(
             rng,
             { text: `The ${q} quadrant` },
-            all.filter((o) => o !== q).map((o) => ({ text: `The ${o} quadrant`, feedback: `${why[o]} Check the signs of ${tex(x)} and ${tex(y)}.` })),
+            all.filter((o) => o !== q).map((o) => ({ text: `The ${o} quadrant`, feedback: `${why[o]} Check the signs of $${tex(x)}$ and $${tex(y)}$.` })),
           ),
           hints: ['Is the $x$-coordinate positive (right) or negative (left)? Is the $y$-coordinate positive (up) or negative (down)?', 'The quadrants are numbered anticlockwise, starting from the top right.'],
           solution: `$x = ${tex(x)}$ is ${x > 0 ? 'positive, so the point is right of' : 'negative, so the point is left of'} the $y$-axis. $y = ${tex(y)}$ is ${y > 0 ? 'positive, so it is above' : 'negative, so it is below'} the $x$-axis.\n\n${why[q]} So ${pair(x, y)} is in the **${q} quadrant**.`,
@@ -341,9 +341,9 @@ export const findRule: QuestionTemplate = {
 };
 
 const SHAPE_WORDS: Record<StickShape, { what: string; a: number; d: number; why: string }> = {
-  squares: { what: 'a row of squares', a: 3, d: 1, why: 'Each new square needs 3 more matchsticks (it shares one side with the square before it). Pattern 1 has 4 sticks, which is $3 \\times 1 + 1$.' },
-  triangles: { what: 'a row of triangles', a: 2, d: 1, why: 'Each new triangle needs 2 more matchsticks (it shares one side). Pattern 1 has 3 sticks, which is $2 \\times 1 + 1$.' },
-  'double-squares': { what: 'two rows of squares', a: 5, d: 2, why: 'Each new column of two squares needs 5 more matchsticks. Pattern 1 has 7 sticks, which is $5 \\times 1 + 2$.' },
+  squares: { what: 'a row of squares', a: 3, d: 1, why: 'Each new square needs 3 more sticks (it shares one side with the square before it). Pattern 1 has 4 sticks, which is $3 \\times 1 + 1$.' },
+  triangles: { what: 'a row of triangles', a: 2, d: 1, why: 'Each new triangle needs 2 more sticks (it shares one side). Pattern 1 has 3 sticks, which is $2 \\times 1 + 1$.' },
+  'double-squares': { what: 'two rows of squares', a: 5, d: 2, why: 'Each new column of two squares needs 5 more sticks. Pattern 1 has 7 sticks, which is $5 \\times 1 + 2$.' },
 };
 
 export const useRule: QuestionTemplate = {
@@ -368,7 +368,10 @@ export const useRule: QuestionTemplate = {
         answer: value,
         form: 'integer',
         hints: ['Put the position number into the rule.', 'Multiply first, then add or subtract.'],
-        solution: `$t = ${a} \\times ${k}${d === 0 ? '' : d > 0 ? ` + ${d}` : ` - ${-d}`} = ${a * k}${d === 0 ? '' : d > 0 ? ` + ${d}` : ` - ${-d}`} = ${value}$`,
+        solution:
+          d === 0
+            ? `$t = ${a} \\times ${k} = ${value}$`
+            : `$t = ${a} \\times ${k}${d > 0 ? ` + ${d}` : ` - ${-d}`} = ${a * k}${d > 0 ? ` + ${d}` : ` - ${-d}`} = ${value}$`,
       };
     }
 
@@ -460,7 +463,8 @@ export const useRule: QuestionTemplate = {
     // difficulty 5
     if (rng.chance(0.5)) {
       const a = rng.int(3, 7);
-      const first = rng.int(15, 40);
+      // Keep the four terms shown at 0 or more, so the first negative term isn't already in the prompt.
+      const first = rng.int(Math.max(15, 3 * a), 40);
       const D = first + a;
       const firstNeg = Math.floor(D / a) + 1;
       const askPosition = rng.chance(0.5);

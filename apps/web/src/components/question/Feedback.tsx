@@ -109,7 +109,7 @@ export function FlagButton({ questionId }: { questionId: string }) {
           </>
         }
       >
-        <div className="grid gap-3">
+        <div className="grid grid-cols-1 gap-3">
           <Select value={reason} onChange={(e) => setReason(e.target.value)} aria-label="Reason">
             <option value="wrong-answer">The answer is wrong</option>
             <option value="unclear">The question is unclear</option>
@@ -154,7 +154,7 @@ export function SelfMark({
           <Markdown>{modelAnswer}</Markdown>
         </div>
       )}
-      <ul className="mt-3 grid gap-2">
+      <ul className="mt-3 grid grid-cols-1 gap-2">
         {rubric.map((r, i) => (
           <li key={i}>
             <label className="flex cursor-pointer items-start gap-3 rounded-xl bg-surface p-3">

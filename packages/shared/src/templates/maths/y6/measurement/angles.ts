@@ -45,7 +45,13 @@ export function markAngle(V: Pt, m: Mark): string {
 export function raysSvg(
   directions: number[],
   marks: Mark[],
-  opts: { names?: Array<{ dir: number; name: string }>; scaleNote?: boolean; height?: number } = {},
+  opts: {
+    names?: Array<{ dir: number; name: string }>;
+    /** A letter for the centre point, placed just off it in direction `dir` (inside a wide angle). */
+    centre?: { dir: number; name: string };
+    scaleNote?: boolean;
+    height?: number;
+  } = {},
 ): string {
   const h = opts.height ?? 270;
   const V: Pt = { x: 190, y: h / 2 };
@@ -55,6 +61,7 @@ export function raysSvg(
   body += dot(V);
   for (const m of marks) body += markAngle(V, m);
   for (const n of opts.names ?? []) body += label(polar(V, L + 13, n.dir), n.name, { bold: true });
+  if (opts.centre) body += label(polar(V, 15, opts.centre.dir), opts.centre.name, { bold: true, size: 13 });
   if (opts.scaleNote !== false) body += notToScale({ x: 372, y: h - 10 });
   return svgDoc(380, h, body);
 }
@@ -328,7 +335,7 @@ export const straightLine: QuestionTemplate = {
             { from: 0, sweep: d1!, text: knownFirst ? deg(k) : 'a' },
             { from: d1!, sweep: d2!, text: knownFirst ? 'a' : deg(k) },
           ], { height: 210 }),
-          alt: `A straight line with a ray from a point on it, making angles of ${k}° and a`,
+          alt: `A straight line with a ray from a point on it. One angle is ${k}° and the other is a`,
         },
         answer: x,
         units: '°',
@@ -352,7 +359,7 @@ export const straightLine: QuestionTemplate = {
         prompt: 'The diagram shows a straight line. The two angles marked $b$ are equal. Find the size of angle $b$.',
         figure: {
           svg: raysSvg(dirs, drawn.map((d, i) => ({ from: dirs[i]!, sweep: d, text: i === order ? deg(k) : 'b' })), { height: 210 }),
-          alt: `A straight line with two rays, making angles of ${k}°, b and b`,
+          alt: `A straight line with two rays from one point, making three angles: ${k}°, b and b`,
         },
         answer: b,
         units: '°',
@@ -539,6 +546,9 @@ export const verticallyOpposite: QuestionTemplate = {
       const names = dirs.map((d, i) => ({ dir: d, name: NAMES4[i]! }));
       const intro = 'Lines AC and BD are straight lines that cross at E.';
       const drawnSweep = (i: number) => (i % 2 === 0 ? t : 180 - t);
+      // Label the crossing point E inside one of the wider (drawn) angles, clear of the arms.
+      const wide = t >= 90 ? 0 : 1;
+      const centre = { dir: dirs[wide]! + drawnSweep(wide) / 2, name: 'E' };
 
       if (difficulty === 4) {
         const others = [1, 2, 3].map((k) => (givenIdx + k) % 4);
@@ -547,7 +557,7 @@ export const verticallyOpposite: QuestionTemplate = {
           type: 'cloze',
           prompt: `${intro} $\\angle ${angleName(givenIdx)} = ${actual[givenIdx]}°$. Find the other three angles.\n\n$\\angle ${angleName(others[0]!)}$ = [[a]]°\n\n$\\angle ${angleName(others[1]!)}$ = [[b]]°\n\n$\\angle ${angleName(others[2]!)}$ = [[c]]°`,
           figure: {
-            svg: raysSvg(dirs, marks, { names }),
+            svg: raysSvg(dirs, marks, { names, centre }),
             alt: `Two straight lines AC and BD crossing at E, with angle ${angleName(givenIdx)} marked as ${actual[givenIdx]}°`,
           },
           blanks: others.map((i, k) => ({ id: 'abc'[k]!, accepted: [String(actual[i]), `${actual[i]}°`] })),
@@ -576,7 +586,7 @@ export const verticallyOpposite: QuestionTemplate = {
         type: 'numeric',
         prompt: `${intro} $\\angle ${angleName(givenIdx)} = ${actual[givenIdx]}°$. What is the size of $\\angle ${angleName(askIdx)}$?`,
         figure: {
-          svg: raysSvg(dirs, marks, { names }),
+          svg: raysSvg(dirs, marks, { names, centre }),
           alt: `Two straight lines AC and BD crossing at E. Angle ${angleName(givenIdx)} is ${actual[givenIdx]}° and angle ${angleName(askIdx)} is marked with a question mark`,
         },
         answer: ans,

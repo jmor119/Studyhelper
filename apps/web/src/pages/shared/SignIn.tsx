@@ -111,7 +111,7 @@ export default function SignIn() {
           { value: 'username', label: 'Username' },
         ]}
       />
-      <form onSubmit={signIn} className="grid gap-4">
+      <form onSubmit={signIn} className="grid grid-cols-1 gap-4">
         <Field label={mode === 'email' ? 'Email' : 'Username'} hint={mode === 'username' ? 'For accounts a parent set up for you.' : undefined}>
           <Input
             value={id}

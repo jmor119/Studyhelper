@@ -249,13 +249,15 @@ export const prismPyramidNets: QuestionTemplate = {
       const n = rng.pick([3, 4, 5, 6, 8]);
       const svg = kind === 'prism' ? prismNet(n, { endsApart: rng.chance(0.4) }) : pyramidNet(n, rng.int(0, 7) * 45 + 10);
       const name = solidName(kind, n);
+      const aSided = `${n === 8 ? 'an' : 'a'} ${n}-sided`;
       const alt =
         kind === 'prism'
-          ? `A net made of a strip of ${n} rectangles, with a ${n}-sided shape attached at the top and another at the bottom.`
-          : `A net made of a ${n}-sided shape with a triangle on each of its ${n} sides.`;
+          ? `A net made of a strip of ${n} rectangles, with ${aSided} shape attached at the top and another at the bottom.`
+          : `A net made of ${aSided} shape with a triangle on each of its ${n} sides.`;
       if (difficulty === 2) {
         const other: SolidKind = kind === 'prism' ? 'pyramid' : 'prism';
-        const nAlt = n === 3 ? 4 : n === 8 ? 6 : n + 1;
+        // Only 3, 4, 5, 6 and 8 sides have names here, so a hexagon's neighbour is the octagon.
+        const nAlt = n === 3 ? 4 : n === 6 ? 8 : n === 8 ? 6 : n + 1;
         const opts = [
           { id: 'right', text: capital(name) },
           { id: 'kind', text: capital(solidName(other, n)) },
@@ -278,7 +280,7 @@ export const prismPyramidNets: QuestionTemplate = {
           solution:
             kind === 'prism'
               ? `The net has a strip of ${n} rectangles (the side faces) and two ${n}-sided shapes (the ends), so it folds into ${article(name)}.`
-              : `The net has a ${n}-sided base with ${n} triangles that fold up to meet at a point, so it folds into ${article(name)}.`,
+              : `The net has ${aSided} base with ${n} triangles that fold up to meet at a point, so it folds into ${article(name)}.`,
         };
       }
       const what = rng.pick(['faces', 'edges', 'vertices'] as const);
@@ -329,7 +331,12 @@ export const prismPyramidNets: QuestionTemplate = {
       correct: actual,
       feedback: {
         yes: actual === 'overlap' ? 'Imagine folding it: both ends fold onto the same end of the prism.' : 'Count the faces. Does every face of the solid have a shape in the net?',
-        overlap: actual === 'yes' ? 'Picture folding the strip into a tube: one end closes the top and the other closes the bottom.' : 'Count the faces in the net and compare with the solid.',
+        overlap:
+          actual === 'yes'
+            ? kind === 'prism'
+              ? 'Picture folding the strip into a tube: one end closes the top and the other closes the bottom.'
+              : 'Picture folding each triangle up: they meet at the top point without overlapping.'
+            : 'Count the faces in the net and compare with the solid.',
         missing: actual === 'yes' ? `Count again: ${article(name)} has ${c.faces} faces, and so does this net.` : 'The number of faces is right. The problem is where the ends are attached.',
         extra: `${capital(article(name))} has ${c.faces} faces. Count the shapes in the net.`,
       },

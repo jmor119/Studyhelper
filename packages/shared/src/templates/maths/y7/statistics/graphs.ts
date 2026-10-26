@@ -17,7 +17,8 @@ export const readBarGraph: QuestionTemplate = {
   title: 'Read values, differences and totals from a bar graph',
   difficulties: [1, 2],
   generate({ rng, difficulty }) {
-    const ctx = rng.pick(CAT_CONTEXTS);
+    // Difficulty 2 bars go up to 20 or 45 each, which is too many for one class of students.
+    const ctx = rng.pick(difficulty === 1 ? CAT_CONTEXTS : CAT_CONTEXTS.filter((c) => !/Room \d+|our class/.test(c.title)));
     const k = difficulty === 1 ? 4 : 5;
     const cats = ctx.categories.slice(0, k);
     let values: number[];
@@ -513,7 +514,7 @@ export const readTimeSeries: QuestionTemplate = {
         ),
         calculator: 'not-allowed',
         hints: ['The steepest upward part of the line shows the biggest increase.', scaleHint],
-        solution: `The steepest upward section is ${interval(bi).toLowerCase()}: from ${withU(v[bi]!, c.u)} to ${withU(v[bi + 1]!, c.u)}, an increase of ${withU(best, c.u)}. Every other increase on the graph is smaller.`,
+        solution: `The steepest upward section is from ${what(c.times[bi]!)} to ${what(c.times[bi + 1]!)}: from ${withU(v[bi]!, c.u)} to ${withU(v[bi + 1]!, c.u)}, an increase of ${withU(best, c.u)}. Every other increase on the graph is smaller.`,
       };
     }
   },

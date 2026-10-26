@@ -30,7 +30,7 @@ export default function Join() {
   if (!user) {
     return (
       <AuthLayout title="You’ve been invited" subtitle="Sign in or create an account to link with your family member.">
-        <div className="grid gap-3">
+        <div className="grid grid-cols-1 gap-3">
           <ButtonLink to={`/signup?next=${encodeURIComponent(here)}`} size="lg">
             Create an account
           </ButtonLink>
@@ -62,14 +62,14 @@ export default function Join() {
   return (
     <AuthLayout title="Link your accounts">
       {done ? (
-        <div className="grid gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <Notice tone="good" title="You’re linked!">
             You and {done} are now connected.
           </Notice>
           <Button onClick={() => navigate(homeFor(profile.role))}>Continue</Button>
         </div>
       ) : error ? (
-        <div className="grid gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <Notice tone="bad">{error}</Notice>
           <ButtonLink to={homeFor(profile.role)} variant="secondary">
             Go home
@@ -78,7 +78,7 @@ export default function Join() {
       ) : !invite ? (
         <Spinner />
       ) : (
-        <div className="grid gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <div className="flex items-start gap-3 rounded-2xl bg-brand-50 p-4 dark:bg-brand-950">
             <Link2 className="mt-0.5 size-6 text-brand-700" />
             <p>

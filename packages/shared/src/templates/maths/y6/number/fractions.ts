@@ -235,7 +235,9 @@ function familyValues(rng: Rng, count: number, maxX: (L: number) => number): { L
     }
     const xs = rng.sample(pool, count);
     const dens = new Set(xs.map((x) => simp(x, fam.L)[1]));
-    if (dens.size >= Math.min(3, count)) return { L: fam.L, xs };
+    // Year 6 scope: one of the shown denominators must be a multiple of all the others,
+    // so at least one fraction has to use the family's biggest denominator.
+    if (dens.size >= Math.min(3, count) && dens.has(fam.L)) return { L: fam.L, xs };
   }
   return { L: 8, xs: [1, 2, 4, 6].slice(0, count) };
 }
@@ -318,7 +320,12 @@ export const compare: QuestionTemplate = {
       items: orderItems(rng, sorted.map((x) => `$${shown.get(x)}$`)),
       marks: 2,
       calculator: 'not-allowed',
-      hints: [`Change every fraction so it has the denominator ${L}.`, 'Any fraction bigger than 1 goes after all the fractions less than 1.'],
+      hints: [
+        `Change every fraction so it has the denominator ${L}.`,
+        xs.some((x) => x > L)
+          ? `Any fraction bigger than 1 goes ${descending ? 'before' : 'after'} all the fractions less than 1.`
+          : 'Then compare the numerators.',
+      ],
       solution: `In ${PLURAL[L]}: ${xs.map((x) => (shown.get(x) === fr(x, L) ? `$${fr(x, L)}$` : `$${shown.get(x)} = ${fr(x, L)}$`)).join(', ')}.\n\nIn order: ${sorted.map((x) => `$${shown.get(x)}$`).join(', ')}.`,
     };
   },

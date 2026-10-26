@@ -301,7 +301,7 @@
     ],
     "hints": [
       "Try each turn on a compass rose, counting 45° steps.",
-      "A turn one way plus the same direction’s turn the other way make 360°."
+      "Two turns in opposite directions that add up to 360° leave you facing the same way."
     ],
     "solution": "90° anticlockwise from N: N → NW → **W** ✓. 270° clockwise from N: N → E → S → **W** ✓.\n\n90° clockwise gives east, 180° gives south, and 270° anticlockwise gives east."
   },

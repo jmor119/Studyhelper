@@ -132,7 +132,7 @@ export default function Home() {
           <h2 className="flex items-center gap-2 font-bold">
             <Target className="size-5 text-brand-700" /> Goals from your family
           </h2>
-          <ul className="mt-3 grid gap-3">
+          <ul className="mt-3 grid grid-cols-1 gap-3">
             {goals.data.map((g) => {
               // Recurring goals reset each day/week; show 0 until progress is made in the current period.
               const progress = g.period === 'once' || g.periodStart === (g.period === 'day' ? today : weekStart(today)) ? g.progress : 0;
@@ -168,7 +168,7 @@ export default function Home() {
               <p className="mt-1 text-sm text-muted">
                 {plan.title} — exam {formatDateKey(plan.examDate)}
               </p>
-              <ul className="mt-3 grid gap-2">
+              <ul className="mt-3 grid grid-cols-1 gap-2">
                 {todayPlan.items.map((item, i) => (
                   <li key={i}>
                     <Link
@@ -203,7 +203,7 @@ export default function Home() {
 
         <Card>
           <h2 className="font-bold">Focus on these</h2>
-          <ul className="mt-3 grid gap-2">
+          <ul className="mt-3 grid grid-cols-1 gap-2">
             {focus.map(({ t, m }) => {
               const lv = levelFor(m);
               return (

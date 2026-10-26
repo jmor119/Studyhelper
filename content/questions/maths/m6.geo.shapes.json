@@ -27,7 +27,7 @@
     "feedback": {
       "b": "A parallelogram has two pairs of parallel sides.",
       "c": "A rectangle has two pairs of parallel sides, as well as four right angles.",
-      "d": "A kite has two pairs of equal sides next to each other. Its sides are not parallel."
+      "d": "A kite has two pairs of equal sides next to each other. Its sides are usually not parallel."
     },
     "hints": [
       "Parallel sides always stay the same distance apart, like railway tracks."
@@ -225,7 +225,7 @@
     "prompt": "Mere says, \"This shape is not a square. It is standing on its corner, so it is a diamond.\" What is wrong with what Mere says?",
     "figure": {
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 220\" width=\"240\" height=\"220\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"120,192 202,110 120,28 38,110\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"156.05\" y1=\"146.05\" x2=\"165.95\" y2=\"155.95\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"156.05\" y1=\"73.95\" x2=\"165.95\" y2=\"64.05\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"83.95\" y1=\"73.95\" x2=\"74.05\" y2=\"64.05\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"83.95\" y1=\"146.05\" x2=\"74.05\" y2=\"155.95\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"142.48,176.59 144.6,167.4 135.41,169.52\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"60.48,94.59 62.6,85.4 53.41,87.52\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"186.59,87.52 177.4,85.4 179.52,94.59\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"182.35,83.28 173.16,81.16 175.28,90.35\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"104.59,169.52 95.4,167.4 97.52,176.59\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"100.35,165.28 91.16,163.16 93.28,172.35\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"110.81,182.81 120,173.62 129.19,182.81\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"192.81,119.19 183.62,110 192.81,100.81\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"129.19,37.19 120,46.38 110.81,37.19\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"47.19,100.81 56.38,110 47.19,119.19\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
-      "alt": "A quadrilateral standing on one corner. Tick marks show all four sides are equal, and right-angle marks show all four angles are right angles."
+      "alt": "A quadrilateral standing on one corner. Tick marks show all four sides are equal, arrow marks show both pairs of opposite sides are parallel, and right-angle marks show all four angles are right angles."
     },
     "options": [
       {

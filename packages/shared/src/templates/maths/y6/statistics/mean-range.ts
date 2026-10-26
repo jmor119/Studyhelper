@@ -138,7 +138,12 @@ export const range: QuestionTemplate = {
     const findHigh = kind === 'findHigh';
     return {
       type: 'numeric',
-      prompt: `${c.intro(name, n, place).replace(/:$/, '.')} The range of the data is ${c.show(String(r))}. The ${findHigh ? 'lowest' : 'highest'} value is ${c.show(String(findHigh ? min : max))}.\n\nWhat is the **${findHigh ? 'highest' : 'lowest'}** value?`,
+      prompt: `${c
+        .intro(name, n, place)
+        .replace(/, in (\w+), (was|were):$/, ' $2 recorded in $1.')
+        .replace(/ (was|were) \(in °C\):$/, ' $1 recorded in °C.')
+        .replace(/ (was|were):$/, ' $1 recorded.')
+        .replace(/:$/, '.')} The range of the data is ${c.show(String(r))}. The ${findHigh ? 'lowest' : 'highest'} value is ${c.show(String(findHigh ? min : max))}.\n\nWhat is the **${findHigh ? 'highest' : 'lowest'}** value?`,
       answer: findHigh ? max : min,
       form: 'integer',
       ...unit,
@@ -326,7 +331,8 @@ export const compareMissing: QuestionTemplate = {
   generate({ rng, difficulty }) {
     if (difficulty === 4) {
       const [t1, t2] = rng.pick(TEAMS);
-      const sport = rng.pick(['netball', 'hockey', 'basketball', 'touch rugby']);
+      // Scores of 2 to 20 a game are realistic for junior netball (goals) and basketball (points).
+      const [sport, score] = rng.pick([['netball', 'goals'], ['basketball', 'points']] as const);
       let a: number[];
       let b: number[];
       do {
@@ -339,7 +345,7 @@ export const compareMissing: QuestionTemplate = {
       const diff = Math.abs(ma - mb);
       return {
         type: 'cloze',
-        prompt: `Two ${sport} teams recorded the goals they scored in each game.\n\n- **${t1}:** ${listText(a.map(String))}\n- **${t2}:** ${listText(b.map(String))}\n\nThe [[w]] team has the higher mean, by [[d]] goals per game.`,
+        prompt: `Two ${sport} teams recorded the ${score} they scored in each game.\n\n- **${t1}:** ${listText(a.map(String))}\n- **${t2}:** ${listText(b.map(String))}\n\nThe [[w]] team has the higher mean, by [[d]] ${score} per game.`,
         blanks: [
           { id: 'w', accepted: [winner], options: [t1, t2] },
           { id: 'd', accepted: [String(diff)] },
@@ -347,7 +353,7 @@ export const compareMissing: QuestionTemplate = {
         marks: 2,
         calculator: 'not-allowed',
         hints: ['Work out the mean for each team separately: total ÷ number of games.', a.length === b.length ? 'Then find the difference between the two means.' : 'The teams played different numbers of games, so compare the means, not the totals.'],
-        solution: `**${t1}:** $${a.join(' + ')} = ${a.reduce((s, x) => s + x, 0)}$, and $${a.reduce((s, x) => s + x, 0)} \\div ${a.length} = ${ma}$\n\n**${t2}:** $${b.join(' + ')} = ${b.reduce((s, x) => s + x, 0)}$, and $${b.reduce((s, x) => s + x, 0)} \\div ${b.length} = ${mb}$\n\nThe **${winner}** team has the higher mean, by $${Math.max(ma, mb)} - ${Math.min(ma, mb)} = ${diff}$ goals per game.`,
+        solution: `**${t1}:** $${a.join(' + ')} = ${a.reduce((s, x) => s + x, 0)}$, and $${a.reduce((s, x) => s + x, 0)} \\div ${a.length} = ${ma}$\n\n**${t2}:** $${b.join(' + ')} = ${b.reduce((s, x) => s + x, 0)}$, and $${b.reduce((s, x) => s + x, 0)} \\div ${b.length} = ${mb}$\n\nThe **${winner}** team has the higher mean, by $${Math.max(ma, mb)} - ${Math.min(ma, mb)} = ${diff}$ ${diff === 1 ? score.slice(0, -1) : score} per game.`,
       };
     }
     // difficulty 5: missing value, or the new mean after adding a value.

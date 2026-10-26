@@ -19,7 +19,7 @@ export interface Place {
 export const MAPS = [
   { title: 'School camp', places: ['Tents', 'Kitchen', 'Lake', 'Kayaks', 'Flagpole', 'Toilets', 'Campfire', 'Hall', 'Beach', 'Wharf', 'Lookout', 'Bush walk', 'Cave', 'Bridge'] },
   { title: 'Our town', places: ['Pool', 'Shop', 'Park', 'Library', 'School', 'Marae', 'Dairy', 'Church', 'Station', 'Bakery', 'Museum', 'Wharf', 'Fire station', 'Skate park'] },
-  { title: 'Farm park', places: ['Barn', 'Pond', 'Sheep', 'Cows', 'Goats', 'Gate', 'Shed', 'Orchard', 'Tractor', 'Picnic', 'Ducks', 'Hens', 'Horses', 'Café'] },
+  { title: 'Farm park', places: ['Barn', 'Pond', 'Sheep', 'Cows', 'Goats', 'Gate', 'Shed', 'Orchard', 'Tractor', 'Picnic area', 'Ducks', 'Hens', 'Horses', 'Café'] },
 ] as const;
 
 export const DIRS = ['north', 'east', 'south', 'west'] as const;

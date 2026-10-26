@@ -61,7 +61,7 @@ export function InviteEmail({ invite, fromName }: { invite: InviteForEmail; from
 
   return (
     <div className="min-w-0">
-      <form onSubmit={submit} className="grid gap-2">
+      <form onSubmit={submit} className="grid grid-cols-1 gap-2">
         <label htmlFor="invite-email" className="text-sm font-semibold">
           Email the invite to {who}
         </label>

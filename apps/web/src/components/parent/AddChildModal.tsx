@@ -92,8 +92,8 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
     displayName.trim().length > 0 &&
     !usernameProblem(username) &&
     username.length > 0 &&
+    // Don't wait for the availability check: the server rejects taken usernames anyway.
     availability !== 'taken' &&
-    availability !== 'checking' &&
     password.length >= 8 &&
     confirm === password;
 
@@ -165,7 +165,7 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
       }
     >
       {created ? (
-        <div className="grid gap-4">
+        <div className="grid grid-cols-1 gap-4">
           <Notice tone="good" title={`${created.displayName}’s account is ready`}>
             They’re linked to you, so you’ll see their progress on your Family page.
           </Notice>
@@ -184,7 +184,7 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
               </li>
             </ol>
           </div>
-          <ul className="grid gap-1.5 text-sm text-muted">
+          <ul className="grid grid-cols-1 gap-1.5 text-sm text-muted">
             <li>They can change their password later in Settings.</li>
             <li>If they forget it, you can reset it from their page here (Account tab).</li>
           </ul>
@@ -204,7 +204,7 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
           <p className="text-xs text-muted">The steps don’t include the password — tell them that yourself.</p>
         </div>
       ) : mode === 'choose' ? (
-        <div className="grid gap-3">
+        <div className="grid grid-cols-1 gap-3">
           <p className="text-sm text-muted">How will your child sign in?</p>
           <button
             type="button"
@@ -238,7 +238,7 @@ export function AddChildModal({ open, onClose }: { open: boolean; onClose: () =>
           intro={<p className="text-sm text-muted">Enter your child’s email and we’ll send them an invite. When they accept it, they’ll appear on your Family page.</p>}
         />
       ) : (
-        <form id={formId} onSubmit={submit} className="grid gap-4" noValidate>
+        <form id={formId} onSubmit={submit} className="grid grid-cols-1 gap-4" noValidate>
           <p className="text-sm text-muted">For a child without their own email. They sign in with a username and password you choose — no email needed.</p>
           <Field label="Their name" hint="Shown in the app. A first name is fine." error={nameError}>
             <Input value={displayName} onChange={(e) => setDisplayName(e.target.value)} maxLength={60} autoComplete="off" required aria-invalid={!!nameError} />

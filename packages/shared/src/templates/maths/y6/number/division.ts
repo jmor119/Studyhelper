@@ -272,7 +272,7 @@ export const wordProblems: QuestionTemplate = {
         form: 'integer',
         calculator: 'not-allowed',
         hints: [`Work out $${n} \\div ${d}$.`, 'The question asks about the lollies left over, not how many each friend gets.'],
-        solution: `${div}\n\nEach friend gets ${q} lollies, and the **remainder** is the answer: ${r} lollies are left over.`,
+        solution: `${div}\n\nEach friend gets ${q} lollies, and the **remainder** is the answer: ${r === 1 ? '1 lolly is' : `${r} lollies are`} left over.`,
       };
     }
     if (difficulty === 4) {

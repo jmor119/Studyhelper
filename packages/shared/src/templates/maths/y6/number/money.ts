@@ -94,7 +94,7 @@ export const dollarsCents: QuestionTemplate = {
           feedback,
           calculator: 'not-allowed',
           hints: ['There are 100 cents in 1 dollar.', `How many cents are in ${D} dollars? Then add the cents part.`],
-          solution: `${D} dollars is $${D} \\times 100 = ${100 * D}$ cents. The cents part of ${cashC(100 * D + X)} is 0${X}, which is ${X} cents.\n\nSo ${cashC(100 * D + X)} $= ${100 * D} + ${X} = ${100 * D + X}$ cents.`,
+          solution: `${D} dollar${D === 1 ? '' : 's'} is $${D} \\times 100 = ${100 * D}$ cents. The cents part of ${cashC(100 * D + X)} is 0${X}, which is ${X} cent${X === 1 ? '' : 's'}.\n\nSo ${cashC(100 * D + X)} $= ${100 * D} + ${X} = ${100 * D + X}$ cents.`,
         };
       }
       const D = rng.int(1, 12);
@@ -109,7 +109,7 @@ export const dollarsCents: QuestionTemplate = {
           units: '$',
           calculator: 'not-allowed',
           hints: ['There are 100 cents in 1 dollar.', `How many whole dollars are in ${c} cents? How many cents are left over?`],
-          solution: `$${D} \\times 100 = ${100 * D}$, so ${c} cents is ${D} dollar${D === 1 ? '' : 's'} and ${cc} cents.\n\nThe cents always take two places after the decimal point${cc < 10 ? `, so ${cc} cents is written .${ccText}` : ''}.\n\n${c} cents $=$ **${cashC(c)}**.`,
+          solution: `$${D} \\times 100 = ${100 * D}$, so ${c} cents is ${D} dollar${D === 1 ? '' : 's'} and ${cc} cent${cc === 1 ? '' : 's'}.\n\nThe cents always take two places after the decimal point${cc < 10 ? `, so ${cc} cent${cc === 1 ? '' : 's'} is written .${ccText}` : ''}.\n\n${c} cents $=$ **${cashC(c)}**.`,
         };
       }
       return {
@@ -120,7 +120,7 @@ export const dollarsCents: QuestionTemplate = {
         form: 'integer',
         calculator: 'not-allowed',
         hints: ['There are 100 cents in 1 dollar.', `Change the ${D} dollar${D === 1 ? '' : 's'} into cents, then add the cents part.`],
-        solution: `${D} dollar${D === 1 ? ' is' : 's are'} $${D} \\times 100 = ${100 * D}$ cents. The two digits after the point, ${ccText}, are ${cc} cents.\n\n$${100 * D} + ${cc} = ${c}$ cents.`,
+        solution: `${D} dollar${D === 1 ? ' is' : 's are'} $${D} \\times 100 = ${100 * D}$ cents. The two digits after the point, ${ccText}, ${cc === 1 ? 'are 1 cent' : `are ${cc} cents`}.\n\n$${100 * D} + ${cc} = ${c}$ cents.`,
       };
     }
     if (rng.chance(0.5)) {
@@ -505,7 +505,8 @@ export const bestBuy: QuestionTemplate = {
     }
     const fruit = rng.pick(FRUIT);
     const k = rng.int(3, 6);
-    const TA = 100 * rng.int(2, 9);
+    // Keep fruit prices realistic: at most about $1.50 each.
+    const TA = 100 * rng.int(2, Math.floor(1.5 * k));
     const fair = Math.round(TA / k / 10) * 10;
     let y = fair + 10 * rng.int(-3, 3);
     while (k * y === TA || y <= 0) y += 10;

@@ -27,19 +27,21 @@ const areaHints = (shape: 'square' | 'rectangle') => [
 // Squares and rectangles
 // ---------------------------------------------------------------------------------------------
 
-const PERIMETER_CONTEXTS: Array<{ unit: Unit; text: (l: string, w: string, name: string) => string }> = [
+// The sizes below are shared by every context, so each context has to make sense from about 3 × 2 up to 40 × 39.
+// minL: only use this context when the length is at least this big (a car park smaller than a car would be silly).
+const PERIMETER_CONTEXTS: Array<{ unit: Unit; minL?: number; text: (l: string, w: string, name: string) => string }> = [
   { unit: 'm', text: (l, w, name) => `A rectangular vegetable garden is ${l} m long and ${w} m wide. ${name} wants to put a fence all the way around it. How many metres of fencing are needed?` },
   { unit: 'cm', text: (l, w) => `A rectangular photo is ${l} cm long and ${w} cm wide. How much ribbon is needed to go once around its edge?` },
-  { unit: 'm', text: (l, w, name) => `A rectangular school field is ${l} m long and ${w} m wide. ${name} runs one lap around the edge. How far is that?` },
-  { unit: 'cm', text: (l, w) => `A rectangular noticeboard is ${l} cm long and ${w} cm wide. How much border strip is needed to go all the way around it?` },
-  { unit: 'm', text: (l, w) => `A rectangular marae car park is ${l} m long and ${w} m wide. How long is its edge all the way round?` },
+  { unit: 'm', text: (l, w, name) => `A rectangular playground is ${l} m long and ${w} m wide. ${name} runs one lap around the edge. How far is that?` },
+  { unit: 'cm', text: (l, w) => `A rectangular piece of card is ${l} cm long and ${w} cm wide. How much border strip is needed to go all the way around it?` },
+  { unit: 'm', minL: 10, text: (l, w) => `A rectangular marae car park is ${l} m long and ${w} m wide. How long is its edge all the way round?` },
 ];
 
 const AREA_CONTEXTS: Array<{ unit: Unit; text: (l: string, w: string, name: string) => string }> = [
-  { unit: 'm', text: (l, w) => `A rectangular classroom floor is ${l} m long and ${w} m wide. How many square metres of carpet are needed to cover it?` },
+  { unit: 'm', text: (l, w) => `A rectangular patio is ${l} m long and ${w} m wide. How many square metres of paving are needed to cover it?` },
   { unit: 'm', text: (l, w, name) => `${name} is mowing a rectangular lawn that is ${l} m long and ${w} m wide. What area does ${name} mow?` },
   { unit: 'm', text: (l, w) => `A rectangular wall is ${l} m long and ${w} m high. What area needs painting?` },
-  { unit: 'cm', text: (l, w) => `A rectangular placemat is ${l} cm long and ${w} cm wide. What is its area?` },
+  { unit: 'cm', text: (l, w) => `A rectangular sticker is ${l} cm long and ${w} cm wide. What is its area?` },
   { unit: 'm', text: (l, w) => `A rectangular deck is ${l} m long and ${w} m wide. What is the area of the deck?` },
 ];
 
@@ -119,10 +121,10 @@ export const rectangleSquare: QuestionTemplate = {
       };
     }
     if (ask === 'perimeter') {
-      const ctx = rng.pick(PERIMETER_CONTEXTS);
       const half = rng.chance(0.35);
       const l = half ? rng.int(4, 15) + 0.5 : rng.int(8, 40);
       const w = rng.int(3, Math.max(3, Math.floor(l) - 1));
+      const ctx = rng.pick(PERIMETER_CONTEXTS.filter((c) => l >= (c.minL ?? 0)));
       const ans = clean(2 * (l + w));
       return {
         type: 'numeric',
@@ -560,7 +562,8 @@ export const composite: QuestionTemplate = {
         };
       }
       const LW = rng.int(8, 20);
-      const LH = rng.int(6, 14);
+      let LH = rng.int(6, 14);
+      if (LH === LW) LH -= 1; // the prompt says "rectangular lawn", so don't make it a square
       const s = rng.int(2, Math.min(LW, LH) - 3);
       const x0 = (LW - s) / 2;
       const y0 = (LH - s) / 2;

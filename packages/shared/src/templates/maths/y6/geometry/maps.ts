@@ -23,6 +23,12 @@ import {
 // map scales, the four main compass points, and turns in degrees to describe pathways.
 
 const ids = ['a', 'b', 'c', 'd'];
+
+/** Place names that are plural ("The Tents are …"). */
+const PLURAL = new Set(['Tents', 'Kayaks', 'Toilets', 'Cows', 'Goats', 'Ducks', 'Hens', 'Horses', 'Sheep']);
+const be = (name: string | undefined) => (name && PLURAL.has(name) ? 'are' : 'is');
+/** "the farm park", but "our town" (not "the our town"). */
+const mapName = (title: string) => (/^our /i.test(title) ? title.toLowerCase() : `the ${title.toLowerCase()}`);
 type McqBase = Omit<Extract<TemplateOutput, { type: 'mcq' }>, 'type' | 'options' | 'correct' | 'feedback'>;
 
 function mcq(rng: Rng, correct: string, wrong: Array<[string, string]>, base: McqBase, keepOrder?: readonly string[]): TemplateOutput {
@@ -68,12 +74,12 @@ export const gridReferences: QuestionTemplate = {
       const p = rng.pick(places);
       return {
         type: 'text',
-        prompt: `This is a map of the ${map.title.toLowerCase()}. What is the grid reference of the **${p.name}**? (Write it like B4.)`,
+        prompt: `This is a map of ${mapName(map.title)}. What is the grid reference of the **${p.name}**? (Write it like B4.)`,
         figure: { svg: drawMap(cols, rows, places), alt: `Grid map with rows A to ${ROWS[rows - 1]} and columns 1 to ${cols}. Places marked: ${places.map((x) => x.name).join(', ')}.` },
         accepted: refAccepted(p.at),
         calculator: 'not-allowed',
         hints: [REF_HINT],
-        solution: `The ${p.name} is in row **${ROWS[p.at[1]]}** and column **${p.at[0] + 1}**, so its grid reference is **${ref(p.at)}**.`,
+        solution: `The ${p.name} ${be(p.name)} in row **${ROWS[p.at[1]]}** and column **${p.at[0] + 1}**, so ${PLURAL.has(p.name) ? 'their' : 'its'} grid reference is **${ref(p.at)}**.`,
       };
     }
     // Which place is in a given square? Distractors sit next to it, or where the letter and number are swapped.
@@ -90,9 +96,9 @@ export const gridReferences: QuestionTemplate = {
       if (spots.length < 3) continue;
       const placed: Place[] = [{ name: names[0]!, at: target }, ...spots.map((at, i) => ({ name: names[i + 1]!, at }))];
       const places = [...placed, ...scatter(rng, names.slice(4), cols, rows, placed.map((p) => p.at))];
-      const wrong = placed.slice(1).map((p) => [p.name, `The ${p.name} is in ${ref(p.at)}. ${sameSq(p.at, swapped) ? 'It looks like the letter and number were read the wrong way round.' : 'Check the row letter and the column number again.'}`] as [string, string]);
+      const wrong = placed.slice(1).map((p) => [p.name, `The ${p.name} ${be(p.name)} in ${ref(p.at)}. ${sameSq(p.at, swapped) ? 'It looks like the letter and number were read the wrong way round.' : 'Check the row letter and the column number again.'}`] as [string, string]);
       return mcq(rng, names[0]!, wrong, {
-        prompt: `Look at the map of the ${map.title.toLowerCase()}. What is in square **${ref(target)}**?`,
+        prompt: `Look at the map of ${mapName(map.title)}. What is in square **${ref(target)}**?`,
         figure: { svg: drawMap(cols, rows, places), alt: `Grid map with rows A to ${ROWS[rows - 1]} and columns 1 to ${cols}. Places marked: ${places.map((x) => x.name).join(', ')}.` },
         calculator: 'not-allowed',
         hints: [`The letter ${ROWS[target[1]]} tells you the row. The number ${target[0] + 1} tells you the column.`, 'Put one finger on the row and one on the column, and slide them together until they meet.'],
@@ -151,7 +157,7 @@ export const directions: QuestionTemplate = {
             figure: { svg: drawMap(cols, rows, places), alt: `Grid map with a compass showing north at the top. Places marked: ${places.map((x) => x.name).join(', ')}.` },
             calculator: 'not-allowed',
             hints: ['Start at the first place and look towards the second place.', COMPASS_HINT],
-            solution: `The ${names[1]} is ${d === 'north' ? 'straight up' : d === 'south' ? 'straight down' : d === 'east' ? 'straight to the right' : 'straight to the left'} from the ${names[0]} on the map, so ${who} walks **${d}**.`,
+            solution: `The ${names[1]} ${be(names[1])} ${d === 'north' ? 'straight up' : d === 'south' ? 'straight down' : d === 'east' ? 'straight to the right' : 'straight to the left'} from the ${names[0]} on the map, so ${who} walks **${d}**.`,
           },
           DIR_ORDER,
         );
@@ -369,7 +375,7 @@ export const pathways: QuestionTemplate = {
         return {
           type: 'text',
           prompt: `${who} starts at the **${names[0]}** (${ref(start)}). ${who} goes ${squares(k1)} ${d1}, then ${squares(k2)} ${d2}. What is the grid reference of the square where ${who} finishes? (Write it like B4.)`,
-          figure: { svg: drawMap(cols, rows, places, { start }), alt: `Grid map, rows A to F and columns 1 to 7, with north at the top. The ${names[0]} is in ${ref(start)}.` },
+          figure: { svg: drawMap(cols, rows, places, { start }), alt: `Grid map, rows A to F and columns 1 to 7, with north at the top. The ${names[0]} ${be(names[0])} in ${ref(start)}.` },
           accepted: [ref(end), `${ROWS[end[1]]} ${end[0] + 1}`],
           calculator: 'not-allowed',
           hints: [COMPASS_HINT, 'Move one square at a time with your finger. Then read the row letter and the column number.'],

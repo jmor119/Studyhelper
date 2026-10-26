@@ -46,7 +46,7 @@ export function AiStatusCard() {
               Checking…
             </p>
           ) : status.available ? (
-            <div className="grid gap-3">
+            <div className="grid grid-cols-1 gap-3">
               <dl className="grid grid-cols-1 gap-x-4 gap-y-1 text-sm sm:grid-cols-[auto_minmax(0,1fr)]">
                 <dt className="text-muted">Key</dt>
                 <dd className="font-semibold">
@@ -87,7 +87,7 @@ export function AiStatusCard() {
 
         <div className="min-w-0">
           <p className="text-sm font-semibold">What AI adds</p>
-          <ul className="mt-2 grid gap-2 text-sm">
+          <ul className="mt-2 grid grid-cols-1 gap-2 text-sm">
             {FEATURES.map((f) => (
               <li key={f.text} className="flex gap-2">
                 <span className="mt-0.5 shrink-0 text-brand-700 dark:text-brand-300" aria-hidden="true">

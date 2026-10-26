@@ -401,7 +401,7 @@ export const readScale: QuestionTemplate = {
       readingLine =
         instrument === 'ruler'
           ? `The end of the crayon is ${marks} mm past the ${num(below / 10)} cm mark, so it is at ${num(clean(s.value / 10))} cm.`
-          : `The ${instrument === 'scales' ? 'pointer' : instrument === 'jug' ? 'water level' : 'top of the red line'} is ${marks} small mark${marks === 1 ? '' : 's'} above ${s.labelFor(below)}${s.labelFor(below) !== num(below) && below !== 0 ? ` (${num(below)} ${baseUnit})` : ''}: $${tex(below)} + ${marks} \\times ${tex(s.minor)} = ${tex(s.value)}$ ${baseUnit}.`;
+          : `The ${instrument === 'scales' ? 'pointer' : instrument === 'jug' ? 'water level' : 'top of the red line'} is ${marks} small mark${marks === 1 ? '' : 's'} above ${s.labelFor(below)}${s.labelFor(below) !== num(below) && s.labelFor(below) !== `${num(below)} ${baseUnit}` && below !== 0 ? ` (${num(below)} ${baseUnit})` : ''}: $${tex(below)} + ${marks} \\times ${tex(s.minor)} = ${tex(s.value)}$ ${baseUnit}.`;
     }
     const lines = [stepText, readingLine];
     if (instrument === 'ruler' && s.start) {
@@ -462,7 +462,7 @@ interface Benchmark {
 const BENCHMARKS: Benchmark[] = [
   { thing: 'the height of a classroom door', measure: 'height', options: ['2 m', '2 cm', '20 m', '2 km'], hint: 'A door is a bit taller than a tall adult.' },
   { thing: 'the length of a new pencil', measure: 'length', options: ['18 cm', '18 mm', '18 m', '180 m'], hint: 'A pencil fits in your hand, and a ruler is 30 cm long.' },
-  { thing: 'the mass of a loaf of bread', measure: 'mass', options: ['700 g', '7 g', '70 kg', '7 kg'], hint: 'A bag of sugar is about 1 kg. A loaf is a bit lighter than that.' },
+  { thing: 'the mass of a loaf of bread', measure: 'mass', options: ['700 g', '7 g', '70 kg', '7 kg'], hint: 'A 1 L bottle of milk is about 1 kg. A loaf is a bit lighter than that.' },
   { thing: 'the amount a teaspoon holds', measure: 'capacity', options: ['5 mL', '5 L', '500 mL', '50 L'], hint: 'A teaspoon holds just a small sip.' },
   { thing: 'the amount of water a bath holds', measure: 'capacity', options: ['150 L', '150 mL', '15 mL', '1.5 L'], hint: 'A big bottle of milk is 2 L. How many of those would fill a bath?' },
   { thing: 'the mass of an adult kiwi', measure: 'mass', options: ['2 kg', '2 g', '200 kg', '20 kg'], hint: 'A kiwi is about the size of a chicken.' },
@@ -654,9 +654,10 @@ export const wordProblems: QuestionTemplate = {
         };
       }
       // compare two lengths in different units
-      const a = rng.int(105, 195);
-      let b = rng.int(105, 195);
-      while (b === a) b = rng.int(105, 195);
+      // Realistic running long jumps for 10–11-year-olds (about 2.3 m to 3.6 m).
+      const a = rng.int(230, 360);
+      let b = rng.int(230, 360);
+      while (b === a) b = rng.int(230, 360);
       const other = rng.pick(NAMES.filter((n) => n !== name));
       const diff = Math.abs(a - b);
       const further = a > b ? name : other;

@@ -58,7 +58,7 @@ export default function Topic() {
       <PageHeader title={topic.title} subtitle={topic.summary} back={{ to: '/learn', label: `${subjectLabel(topic.subject)} topics` }} />
 
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
-        <div className="grid gap-5 lg:col-span-2">
+        <div className="grid grid-cols-1 gap-5 lg:col-span-2">
           <Card>
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
@@ -113,7 +113,7 @@ export default function Topic() {
 
           <Card>
             <h2 className="font-bold">What you’ll learn</h2>
-            <ul className="mt-2 grid gap-1.5">
+            <ul className="mt-2 grid grid-cols-1 gap-1.5">
               {topic.outcomes.map((o) => (
                 <li key={o} className="flex gap-2">
                   <span className="mt-2 size-1.5 shrink-0 rounded-full bg-brand-600" />
@@ -139,7 +139,7 @@ export default function Topic() {
           {topic.prerequisites.length > 0 && (
             <Card>
               <h2 className="font-bold">Helps to know first</h2>
-              <ul className="mt-2 grid gap-1">
+              <ul className="mt-2 grid grid-cols-1 gap-1">
                 {topic.prerequisites.map((p) => (
                   <li key={p}>
                     <Link to={`/learn/${p}`} className="font-semibold text-brand-700 hover:underline dark:text-brand-300">

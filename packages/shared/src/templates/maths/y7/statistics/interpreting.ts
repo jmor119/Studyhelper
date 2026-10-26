@@ -508,7 +508,7 @@ export const misleading: QuestionTemplate = {
       ];
       const flaws: Array<Flaw | 'order'> = ['truncated', 'noScale', 'noLabels', 'order'];
       const why: Record<Flaw, string> = {
-        truncated: `The vertical axis starts at ${axis.yStart}, not 0. That makes the bars' heights out of proportion: ${c.cats[values.indexOf(Math.max(...values))]}'s bar looks several times as tall as ${c.cats[values.indexOf(Math.min(...values))]}'s, but the real values (${Math.max(...values)} and ${Math.min(...values)}) are quite close.`,
+        truncated: `The vertical axis starts at ${axis.yStart}, not 0. That makes the bars' heights out of proportion: the bar for ${c.cats[values.indexOf(Math.max(...values))]} looks several times as tall as the bar for ${c.cats[values.indexOf(Math.min(...values))]}, but the real values (${Math.max(...values)} and ${Math.min(...values)}) are quite close.`,
         noScale: 'The vertical axis has no numbers, so there is no way to read how big each bar is. You can only say which bar is biggest.',
         noLabels: 'With no title and no axis labels, you can’t tell what was counted or what the bars stand for, so the graph can’t be interpreted.',
       };

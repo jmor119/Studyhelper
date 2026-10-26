@@ -595,7 +595,7 @@ export const contexts: QuestionTemplate = {
         form: 'integer',
         calculator: 'not-allowed',
         marks: 2,
-        hints: [`After buying the present, ${name}'s balance is negative. Work it out: $${has} - ${cost}$.`, `Then add the \\$${earn}.`],
+        hints: [`After buying ${gift}, ${name}'s balance is negative. Work it out: $${has} - ${cost}$.`, `Then add the \\$${earn}.`],
         solution: `After buying ${gift}: $${has} - ${cost} = ${tex(mid)}$, so ${name} owes Mum \\$${-mid}.\n\nAfter mowing lawns: $${tex(mid)} + ${earn} = ${tex(end)}$.\n\n${name} has **\\$${end}** now.`,
       };
     }
@@ -621,7 +621,7 @@ export const contexts: QuestionTemplate = {
     }
     const fell = rng.chance(0.5);
     const change = rng.int(4, 14);
-    const after = fell ? -rng.int(1, 9) : rng.int(-6, 6);
+    const after = fell ? -rng.int(1, 9) : rng.int(Math.max(-6, change - 15), 6);
     const before = fell ? after + change : after - change;
     return {
       type: 'numeric',

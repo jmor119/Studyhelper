@@ -252,7 +252,7 @@
     "difficulty": 4,
     "marks": 2,
     "calculator": "not-allowed",
-    "prompt": "At a school camp, square tables are pushed together in a row. 1 table seats 6 people, 2 tables seat 10 people, and 3 tables seat 14 people. How many tables are needed to seat 50 people?",
+    "prompt": "At a school camp, rectangular tables are pushed together end to end in a row. 1 table seats 6 people, 2 tables seat 10 people, and 3 tables seat 14 people. How many tables are needed to seat 50 people?",
     "answer": 12,
     "form": "integer",
     "hints": ["Find the rule for the number of people, $t$, for $n$ tables.", "Then solve the equation: rule $= 50$."],

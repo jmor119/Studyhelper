@@ -180,10 +180,10 @@ export const notation: QuestionTemplate = {
       type: 'mcq',
       prompt: `${name} says $${b}^{${e}} = ${b * e}$. What mistake has ${name} made?`,
       options: [
-        { id: 'a', text: `${name} multiplied ${b} by ${e}. It should be ${e} lots of ${b} multiplied together, which is ${tex(v)}.` },
+        { id: 'a', text: `${name} multiplied ${b} by ${e}. It should be ${e} lots of ${b} multiplied together, which is $${tex(v)}$.` },
         { id: 'b', text: `There is no mistake. $${b}^{${e}}$ means $${b} \\times ${e}$, which is ${b * e}.` },
         { id: 'c', text: `${name} should have added: $${b}^{${e}} = ${b} + ${e}$, which is ${b + e}.` },
-        { id: 'd', text: `${name} should have used ${b} lots of ${e} multiplied together, which is ${tex(e ** b)}.` },
+        { id: 'd', text: `${name} should have used ${b} lots of ${e} multiplied together, which is $${tex(e ** b)}$.` },
       ],
       correct: 'a',
       feedback: {
@@ -262,7 +262,7 @@ export const evaluate: QuestionTemplate = {
           answer: e,
           form: 'integer',
           calculator: 'not-allowed',
-          hints: [`Start with ${b} and keep multiplying by ${b} until you reach ${tex(b ** e)}.`, `Count how many ${b}s you multiplied together.`],
+          hints: [`Start with ${b} and keep multiplying by ${b} until you reach $${tex(b ** e)}$.`, `Count how many ${b}s you multiplied together.`],
           solution: `${powerWorking(b, e)}\n\nThat is ${e} lots of ${b}, so $${b}^{${e}} = ${tex(b ** e)}$.`,
         };
       }
@@ -371,7 +371,7 @@ export const squareRoots: QuestionTemplate = {
           answer: n,
           form: 'integer',
           calculator: 'not-allowed',
-          hints: [`Which number multiplied by itself makes ${tex(n * n)}?`, n % 10 === 0 ? `$${tex(n * n)}$ ends in two zeros. Try a number that ends in one zero.` : `It is a little more than $\\sqrt{144} = 12$.`],
+          hints: [`Which number multiplied by itself makes $${tex(n * n)}$?`, n % 10 === 0 ? `$${tex(n * n)}$ ends in two zeros. Try a number that ends in one zero.` : `It is a little more than $\\sqrt{144} = 12$.`],
           solution: `$${n} \\times ${n} = ${tex(n * n)}$, so $\\sqrt{${tex(n * n)}} = ${n}$.`,
         };
       }
@@ -506,8 +506,8 @@ export const squareProblems: QuestionTemplate = {
     }
     if (difficulty === 4) {
       const [thing, unit] = rng.pick([
-        ['sandpit', 'm'],
-        ['paddock', 'm'],
+        ['courtyard', 'm'],
+        ['vegetable garden', 'm'],
         ['patch of lawn', 'm'],
         ['tile', 'cm'],
         ['photo', 'cm'],
@@ -543,7 +543,7 @@ export const squareProblems: QuestionTemplate = {
       ['square photos', 'cm'],
       ['square tiles', 'cm'],
       ['square garden beds', 'm'],
-      ['square cushions', 'cm'],
+      ['square sticky notes', 'cm'],
     ] as const);
     const L = k * side;
     const per = 2 * (L + side);

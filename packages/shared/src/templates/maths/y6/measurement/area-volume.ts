@@ -452,6 +452,8 @@ interface BoxContext {
   l: [number, number];
   w: [number, number];
   h: [number, number];
+  /** Word for the third measurement (a pool is "deep", not "high"). */
+  hWord?: string;
 }
 
 const BOX_CONTEXTS: BoxContext[] = [
@@ -459,7 +461,7 @@ const BOX_CONTEXTS: BoxContext[] = [
   { thing: 'A shoebox', unit: 'cm', l: [25, 32], w: [7, 9], h: [6, 9] },
   { thing: 'A storage container', unit: 'cm', l: [20, 40], w: [5, 9], h: [4, 9] },
   { thing: 'A shipping container', unit: 'm', l: [11, 13], w: [2, 3], h: [2, 3] },
-  { thing: 'A school swimming pool', unit: 'm', l: [15, 25], w: [6, 9], h: [1, 2] },
+  { thing: 'A school swimming pool', unit: 'm', l: [15, 25], w: [6, 9], h: [1, 2], hWord: 'deep' },
   { thing: 'A lunchbox', unit: 'cm', l: [15, 22], w: [6, 9], h: [4, 7] },
   { thing: 'A worm farm', unit: 'cm', l: [30, 50], w: [4, 9], h: [3, 5] },
 ];
@@ -542,7 +544,7 @@ export const prismVolume: QuestionTemplate = {
     const h = rng.int(c.h[0], c.h[1]);
     return {
       type: 'numeric',
-      prompt: `${c.thing} is ${a} ${c.unit} long, ${b} ${c.unit} wide and ${h} ${c.unit} high. What is its volume?`,
+      prompt: `${c.thing} is ${a} ${c.unit} long, ${b} ${c.unit} wide and ${h} ${c.unit} ${c.hWord ?? 'high'}. What is its volume?`,
       answer: a * b * h,
       units: cu(c.unit),
       form: 'integer',
@@ -575,7 +577,7 @@ export const volumeProblems: QuestionTemplate = {
       const name = rng.pick(NAMES);
       return {
         type: 'numeric',
-        prompt: `${name} has two boxes for packing books.\n\n- Box A is ${dimsA[0]} cm long, ${dimsA[1]} cm wide and ${dimsA[2]} cm high.\n- Box B is ${dimsB[0]} cm long, ${dimsB[1]} cm wide and ${dimsB[2]} cm high.\n\nHow much bigger is the volume of the bigger box?`,
+        prompt: `${name} has two small boxes for storing beads.\n\n- Box A is ${dimsA[0]} cm long, ${dimsA[1]} cm wide and ${dimsA[2]} cm high.\n- Box B is ${dimsB[0]} cm long, ${dimsB[1]} cm wide and ${dimsB[2]} cm high.\n\nHow much bigger is the volume of the bigger box?`,
         answer: diff,
         units: 'cm³',
         form: 'integer',
@@ -609,7 +611,7 @@ export const volumeProblems: QuestionTemplate = {
       const h = rng.int(2, 9);
       const base = l * w;
       const v = base * h;
-      const thing = rng.pick(['box', 'container', 'block of cheese', 'storage crate']);
+      const thing = rng.pick(['box', 'container', 'block of cheese', 'gift box']);
       return {
         type: 'numeric',
         prompt: `A ${thing} shaped like a rectangular prism has a volume of ${v} cm³. It is ${l} cm long and ${w} cm wide. How high is it?`,

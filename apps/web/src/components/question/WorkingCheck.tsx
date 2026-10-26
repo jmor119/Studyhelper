@@ -47,7 +47,7 @@ export function WorkingCheck({ uid, questionId }: { uid: string; questionId: str
         </Notice>
       )}
       {feedback && (
-        <div className="mt-3 grid gap-2 text-sm">
+        <div className="mt-3 grid grid-cols-1 gap-2 text-sm">
           {!feedback.readable ? (
             <Notice tone="warn">I couldn’t read that photo clearly. Try again closer up, in good light.</Notice>
           ) : (
