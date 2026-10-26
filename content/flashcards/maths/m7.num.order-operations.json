@@ -1,0 +1,15 @@
+[
+  { "id": "m7.num.order-operations.f01", "front": "What does **GEMA** stand for?", "back": "**G**rouping (brackets), **E**xponents, **M**ultiplicative (× and ÷), **A**dditive (+ and −). Do them in that order." },
+  { "id": "m7.num.order-operations.f02", "front": "What does it mean to **evaluate** an expression?", "back": "Work out its value. For example, $3 + 4 \\times 2$ evaluates to 11." },
+  { "id": "m7.num.order-operations.f03", "front": "What is an **expression**?", "back": "Numbers joined by operations, like $5 \\times (2 + 7)$. It has no equals sign." },
+  { "id": "m7.num.order-operations.f04", "front": "Which comes first, × or ÷?", "back": "Neither. They are partners, so work from left to right: $24 \\div 4 \\times 2 = 6 \\times 2 = 12$." },
+  { "id": "m7.num.order-operations.f05", "front": "Which comes first, + or −?", "back": "Neither. They are partners, so work from left to right: $50 - 18 + 7 = 32 + 7 = 39$." },
+  { "id": "m7.num.order-operations.f06", "front": "What is an **exponent**?", "back": "The small raised number. It says how many times to multiply a number by itself: $3^2 = 3 \\times 3 = 9$." },
+  { "id": "m7.num.order-operations.f07", "front": "What is $5^2$?", "back": "$5 \\times 5 = 25$. It is not $5 \\times 2$." },
+  { "id": "m7.num.order-operations.f08", "front": "What is $2^3$?", "back": "$2 \\times 2 \\times 2 = 8$ (2 cubed)." },
+  { "id": "m7.num.order-operations.f09", "front": "The **commutative** property", "back": "You can swap the order when you add or multiply: $6 + 9 = 9 + 6$ and $4 \\times 7 = 7 \\times 4$." },
+  { "id": "m7.num.order-operations.f10", "front": "The **associative** property", "back": "When you only add, or only multiply, you can change the grouping: $(2 \\times 5) \\times 7 = 2 \\times (5 \\times 7)$." },
+  { "id": "m7.num.order-operations.f11", "front": "The **distributive** property", "back": "Multiply every part inside the bracket: $3 \\times (10 + 4) = 3 \\times 10 + 3 \\times 4 = 42$." },
+  { "id": "m7.num.order-operations.f12", "front": "Is $(2 + 3)^2$ the same as $2^2 + 3^2$?", "back": "No. $(2 + 3)^2 = 5^2 = 25$, but $2^2 + 3^2 = 4 + 9 = 13$. Brackets first." },
+  { "id": "m7.num.order-operations.f13", "front": "What do you do with brackets inside brackets?", "back": "Work out the innermost brackets first, then the outer ones: $[2 + (5 - 3)] \\times 4 = [2 + 2] \\times 4 = 16$." }
+]

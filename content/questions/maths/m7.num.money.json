@@ -1,0 +1,323 @@
+[
+  {
+    "id": "m7.num.money.q001",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Aroha buys a pie for \\$5.20 and a juice for \\$2.50. What is the total cost?",
+    "answer": 7.7,
+    "units": "$",
+    "hints": ["\"Total\" means add the prices.", "Add the dollars, then add the cents."],
+    "solution": "$5.20 + 2.50 = 7.70$, so the total is \\$7.70."
+  },
+  {
+    "id": "m7.num.money.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Kai buys an ice cream for \\$4.30 and pays with a \\$5 note. How much change should he get?",
+    "answer": 0.7,
+    "units": "$",
+    "hints": ["Count on from \\$4.30 to \\$5.00."],
+    "solution": "$5.00 - 4.30 = 0.70$. Counting on: 70 cents takes \\$4.30 up to \\$5.00. Kai gets \\$0.70 (70 cents) change."
+  },
+  {
+    "id": "m7.num.money.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Why are cash payments in New Zealand rounded to the nearest 10 cents?",
+    "options": [
+      { "id": "a", "text": "So that shops can make a bit of extra money" },
+      { "id": "b", "text": "Because card machines can't add up cents" },
+      { "id": "c", "text": "Because prices are always a multiple of 10 cents" },
+      { "id": "d", "text": "Because the smallest coin is 10c, so there are no 1c, 2c or 5c coins" }
+    ],
+    "correct": "d",
+    "feedback": {
+      "a": "Rounding goes down as well as up, so it evens out. The real reason is the coins we have.",
+      "b": "Card payments aren't rounded at all. You pay the exact amount by card.",
+      "c": "Prices can end in any number of cents, like \\$3.47. That's why cash totals need rounding."
+    },
+    "hints": ["Think about the coins in your pocket. What is the smallest one?"],
+    "solution": "New Zealand's smallest coin is 10c. You can't pay \\$3.47 exactly with coins, so cash totals are rounded to the nearest 10 cents."
+  },
+  {
+    "id": "m7.num.money.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Round \\$7.84 to the nearest 10 cents.",
+    "answer": 7.8,
+    "units": "$",
+    "hints": ["Look at the last cents digit: 4.", "1, 2, 3 or 4 cents round down."],
+    "solution": "\\$7.84 ends in 4 cents, so it rounds down to \\$7.80."
+  },
+  {
+    "id": "m7.num.money.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the totals that round **up** when you pay with cash.",
+    "options": [
+      { "id": "a", "text": "\\$8.91" },
+      { "id": "b", "text": "\\$3.47" },
+      { "id": "c", "text": "\\$0.32" },
+      { "id": "d", "text": "\\$12.06" },
+      { "id": "e", "text": "\\$20.13" },
+      { "id": "f", "text": "\\$5.98" }
+    ],
+    "correct": ["b", "d", "f"],
+    "hints": ["Look at the last digit of each amount.", "6, 7, 8 or 9 cents round up."],
+    "solution": "\\$3.47 → \\$3.50, \\$12.06 → \\$12.10 and \\$5.98 → \\$6.00 all round **up**. \\$8.91, \\$0.32 and \\$20.13 end in 1, 2 or 3 cents, so they round down."
+  },
+  {
+    "id": "m7.num.money.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi's shopping comes to \\$23.68. He pays with cash. How much does he pay?",
+    "answer": 23.7,
+    "units": "$",
+    "hints": ["Cash totals are rounded to the nearest 10 cents.", "Does 8 cents round up or down?"],
+    "solution": "\\$23.68 ends in 8 cents, so it rounds up. Hemi pays \\$23.70."
+  },
+  {
+    "id": "m7.num.money.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A jacket costs \\$40. Which is the bigger discount: 25% off, or \\$9 off?",
+    "options": [
+      { "id": "a", "text": "\\$9 off, because 25% of \\$40 is \\$4" },
+      { "id": "b", "text": "25% off, because 25% of \\$40 is \\$10" },
+      { "id": "c", "text": "They are the same discount" },
+      { "id": "d", "text": "\\$9 off, because a dollar amount is always more than a percentage" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "\\$4 is 10% of \\$40. 25% is one quarter, and a quarter of \\$40 is \\$10.",
+      "c": "25% of \\$40 is \\$10, which is \\$1 more than \\$9.",
+      "d": "You have to work out the percentage to compare. Here 25% is worth \\$10."
+    },
+    "hints": ["25% is one quarter.", "Work out a quarter of \\$40, then compare with \\$9."],
+    "solution": "25% of \\$40 is $40 \\div 4 = 10$, so 25% off takes \\$10 off. That is more than \\$9."
+  },
+  {
+    "id": "m7.num.money.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A \\$70 skateboard has 10% off. How much is the discount?",
+    "answer": 7,
+    "units": "$",
+    "hints": ["10% is one tenth.", "Divide by 10."],
+    "solution": "10% of \\$70 is $70 \\div 10 = 7$, so the discount is \\$7."
+  },
+  {
+    "id": "m7.num.money.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A \\$45 school bag is on sale with 20% off. What is the sale price?",
+    "answer": 36,
+    "units": "$",
+    "hints": ["Find 10% first, then double it.", "Take the discount away from \\$45."],
+    "solution": "10% of \\$45 is \\$4.50, so 20% is $2 \\times 4.50 = 9$, a discount of \\$9.\n\nSale price: $45 - 9 = 36$, so \\$36."
+  },
+  {
+    "id": "m7.num.money.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Isla's shopping costs \\$12.37. She pays with a \\$20 note. She says her change should be \\$7.63. What has she forgotten?",
+    "options": [
+      { "id": "a", "text": "Nothing. \\$7.63 is the right change." },
+      { "id": "b", "text": "Cash rounding: \\$12.37 rounds to \\$12.30, so her change is \\$7.70." },
+      { "id": "c", "text": "Cash rounding: \\$12.37 rounds to \\$12.40, so her change is \\$7.60." },
+      { "id": "d", "text": "To round her change to the nearest dollar, so it is \\$8." }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "She can't be given 3 cents, because there is no 1c, 2c or 5c coin. Paying cash, the total is rounded first.",
+      "b": "7 cents rounds **up**, not down.",
+      "d": "Cash is rounded to the nearest 10 cents, not the nearest dollar."
+    },
+    "hints": ["She is paying cash. What happens to the total first?", "Does 7 cents round up or down?"],
+    "solution": "Paying cash, \\$12.37 rounds up to \\$12.40 (7 cents rounds up). Change: $20.00 - 12.40 = 7.60$, so \\$7.60."
+  },
+  {
+    "id": "m7.num.money.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Three friends share a \\$20 pizza bill equally. How much should each person pay, to the nearest cent?",
+    "answer": 6.67,
+    "decimals": 2,
+    "units": "$",
+    "hints": ["Work out $20 \\div 3$ to three decimal places.", "Round to two decimal places (the nearest cent)."],
+    "solution": "$20 \\div 3 = 6.666\\ldots$\n\nThe third decimal place is 6, so round up. Each person pays \\$6.67."
+  },
+  {
+    "id": "m7.num.money.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The amount taken off a price is the [[a]]. The price after it has been taken off is the [[b]]. The money you get back after paying is your [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["discount"], "options": ["discount", "sale price", "change", "total"] },
+      { "id": "b", "accepted": ["sale price"], "options": ["discount", "sale price", "change", "total"] },
+      { "id": "c", "accepted": ["change"], "options": ["discount", "sale price", "change", "total"] }
+    ],
+    "hints": ["In a sale, something is taken off the price.", "What do you call the money the shop gives back to you?"],
+    "solution": "The **discount** is the amount taken off. The **sale price** is the price after the discount. The money you get back is your **change**."
+  },
+  {
+    "id": "m7.num.money.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "At the canteen, Losa buys 3 sushi rolls at \\$3.50 each and 2 juices at \\$2.80 each. She pays with a \\$20 note. How much change does she get?",
+    "answer": 3.9,
+    "units": "$",
+    "hints": ["Find the cost of the sushi and the cost of the juices, then add.", "Take the total away from \\$20."],
+    "solution": "Sushi: $3 \\times 3.50 = 10.50$. Juices: $2 \\times 2.80 = 5.60$.\n\nTotal: $10.50 + 5.60 = 16.10$.\n\nChange: $20.00 - 16.10 = 3.90$, so Losa gets \\$3.90."
+  },
+  {
+    "id": "m7.num.money.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A \\$120 scooter is on sale with 15% off. What is the sale price?",
+    "answer": 102,
+    "units": "$",
+    "hints": ["15% is 10% plus 5%.", "5% is half of 10%."],
+    "solution": "10% of \\$120 is \\$12, and 5% is half of that, \\$6. So 15% is $12 + 6 = 18$, a discount of \\$18.\n\nSale price: $120 - 18 = 102$, so \\$102."
+  },
+  {
+    "id": "m7.num.money.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which pack of muesli bars is better value?\n\n- **Pack A:** 4 bars for \\$3.60\n- **Pack B:** 6 bars for \\$5.10",
+    "options": [
+      { "id": "a", "text": "Pack A, because \\$3.60 is less than \\$5.10" },
+      { "id": "b", "text": "Pack B: it costs \\$0.85 a bar, and Pack A costs \\$0.90 a bar" },
+      { "id": "c", "text": "They are the same value" },
+      { "id": "d", "text": "Pack A: it costs \\$0.85 a bar, and Pack B costs \\$0.90 a bar" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "Pack A has fewer bars, so of course it costs less altogether. Compare the price of one bar.",
+      "c": "Work out one bar from each pack: \\$0.90 and \\$0.85 are different.",
+      "d": "The prices are mixed up. $3.60 \\div 4 = 0.90$ for Pack A, and $5.10 \\div 6 = 0.85$ for Pack B."
+    },
+    "hints": ["Better value means a lower price for each bar.", "Divide each price by the number of bars."],
+    "solution": "Pack A: $3.60 \\div 4 = 0.90$, so \\$0.90 a bar. Pack B: $5.10 \\div 6 = 0.85$, so \\$0.85 a bar. **Pack B** is better value."
+  },
+  {
+    "id": "m7.num.money.q016",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.money.g1",
+    "part": "a",
+    "stem": "Nikau has \\$50 to spend at a sports shop sale. Everything in the shop is 20% off.",
+    "prompt": "A rugby ball normally costs \\$35. What is its sale price?",
+    "answer": 28,
+    "units": "$",
+    "hints": ["Find 10% of \\$35, then double it.", "Take the discount away from \\$35."],
+    "solution": "10% of \\$35 is \\$3.50, so 20% is \\$7. Sale price: $35 - 7 = 28$, so \\$28."
+  },
+  {
+    "id": "m7.num.money.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.money.g1",
+    "part": "b",
+    "stem": "Nikau has \\$50 to spend at a sports shop sale. Everything in the shop is 20% off.",
+    "prompt": "Nikau also buys socks that normally cost \\$13. How much does he spend altogether on the rugby ball and the socks?",
+    "answer": 38.4,
+    "units": "$",
+    "hints": ["Find the sale price of the socks first.", "Add it to the sale price of the rugby ball (\\$28)."],
+    "solution": "Socks: 10% of \\$13 is \\$1.30, so 20% is \\$2.60. Sale price: $13.00 - 2.60 = 10.40$.\n\nAltogether: $28.00 + 10.40 = 38.40$, so \\$38.40."
+  },
+  {
+    "id": "m7.num.money.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.money.g1",
+    "part": "c",
+    "stem": "Nikau has \\$50 to spend at a sports shop sale. Everything in the shop is 20% off.",
+    "prompt": "Nikau pays with his \\$50 in cash. How much change does he get?",
+    "answer": 11.6,
+    "units": "$",
+    "hints": ["Use the total from part (b).", "Does cash rounding change the total? Look at the last digit."],
+    "solution": "The total is \\$38.40, which already ends in 0 cents, so cash rounding doesn't change it.\n\nChange: $50.00 - 38.40 = 11.60$, so \\$11.60."
+  },
+  {
+    "id": "m7.num.money.q019",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A jacket costs \\$60 and has 30% off. Which calculation gives the **sale price**?",
+    "options": [
+      { "id": "a", "text": "$60 - 30$" },
+      { "id": "b", "text": "$60 \\times 0.3$" },
+      { "id": "c", "text": "$60 \\times 0.7$" },
+      { "id": "d", "text": "$60 \\div 30$" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "30% is not \\$30. 30% of \\$60 is \\$18.",
+      "b": "This gives 30% of \\$60, which is the **discount** (\\$18), not the sale price.",
+      "d": "Dividing by 30 doesn't find a percentage. 30% means 30 out of every 100."
+    },
+    "hints": ["With 30% off, what percentage of the price do you still pay?", "70% = 0.7"],
+    "solution": "With 30% off, you pay $100\\% - 30\\% = 70\\%$ of the price. $60 \\times 0.7 = 42$, so the sale price is \\$42. (Check: the discount is $60 \\times 0.3 = 18$, and $60 - 18 = 42$.)"
+  },
+  {
+    "id": "m7.num.money.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "After a 25% discount, a pair of sneakers costs \\$96. What was the price before the discount?",
+    "answer": 128,
+    "units": "$",
+    "hints": ["With 25% off, \\$96 is 75% of the original price.", "If 75% is \\$96, what is 25%? Then what is 100%?"],
+    "solution": "25% off means you pay 75%. So 75% of the original price is \\$96.\n\n25% is $96 \\div 3 = 32$, so 100% is $4 \\times 32 = 128$.\n\nThe original price was \\$128. (Check: 25% of \\$128 is \\$32, and $128 - 32 = 96$.)"
+  },
+  {
+    "id": "m7.num.money.q021",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says: \"Paying with cash always costs more than paying by card, because of cash rounding.\" Is he right? Explain, using examples.",
+    "modelAnswer": "Tama is not right. Cash rounding goes to the nearest 10 cents, so sometimes it goes up and sometimes it goes down. For example, \\$4.38 rounds up to \\$4.40, so cash costs 2 cents more. But \\$4.32 rounds down to \\$4.30, so cash costs 2 cents less. A total like \\$4.30 doesn't change at all.",
+    "rubric": [
+      { "criterion": "Says Tama is wrong, because cash rounding can go down as well as up", "marks": 1 },
+      { "criterion": "Gives a correct example of a total that rounds down (e.g. \\$4.32 → \\$4.30), and may also give one that rounds up", "marks": 1 }
+    ],
+    "hints": ["Which cents round up, and which round down?", "Try a total ending in 2 cents, and one ending in 8 cents."],
+    "solution": "Tama is wrong. Totals ending in 1 to 4 cents round **down**, so cash costs less (\\$4.32 → \\$4.30). Totals ending in 6 to 9 cents round up (\\$4.38 → \\$4.40). So cash is sometimes cheaper, sometimes dearer, and sometimes the same."
+  },
+  {
+    "id": "m7.num.money.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hana's family buys 3 movie tickets at \\$14.50 each and 2 popcorns at \\$6.97 each. They pay with three \\$20 notes. How much change do they get?",
+    "answer": 2.6,
+    "units": "$",
+    "hints": ["Find the exact total first.", "They pay cash, so round the total to the nearest 10 cents before finding the change."],
+    "solution": "Tickets: $3 \\times 14.50 = 43.50$. Popcorn: $2 \\times 6.97 = 13.94$.\n\nTotal: $43.50 + 13.94 = 57.44$. Paying cash, \\$57.44 rounds down to \\$57.40.\n\nThree \\$20 notes make \\$60. Change: $60.00 - 57.40 = 2.60$, so \\$2.60."
+  }
+]

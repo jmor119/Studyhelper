@@ -1,0 +1,342 @@
+[
+  {
+    "id": "m7.alg.linear-patterns.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What are the coordinates of point P?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 312\" width=\"312\" height=\"312\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"288\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"46\" y1=\"288\" x2=\"46\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"68\" y1=\"288\" x2=\"68\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"90\" y1=\"288\" x2=\"90\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"112\" y1=\"288\" x2=\"112\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"288\" x2=\"134\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"156\" y1=\"288\" x2=\"156\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"178\" y1=\"288\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"200\" y1=\"288\" x2=\"200\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"222\" y1=\"288\" x2=\"222\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"244\" y1=\"288\" x2=\"244\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"266\" y1=\"288\" x2=\"266\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"288\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"288\" x2=\"288\" y2=\"288\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"266\" x2=\"288\" y2=\"266\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"288\" y2=\"244\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"288\" y2=\"222\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"288\" y2=\"200\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"288\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"288\" y2=\"112\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"288\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"288\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"288\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"288\" x2=\"156\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"46\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"68\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"90\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"112\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"134\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"178\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"200\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"222\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"244\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"266\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"288\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"144\" y=\"288\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"144\" y=\"266\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"144\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"144\" y=\"222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"144\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"144\" y=\"178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"144\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"144\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"144\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"144\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"144\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"144\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"300\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"156\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"90\" cy=\"68\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"79\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">P</text><circle cx=\"266\" cy=\"200\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"277\" y=\"212\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">Q</text><circle cx=\"46\" cy=\"266\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"35\" y=\"278\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">R</text><circle cx=\"200\" cy=\"90\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"211\" y=\"79\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">S</text></svg>", "alt": "A coordinate grid from −6 to 6 on both axes with four points labelled P, Q, R and S." },
+    "options": [
+      { "id": "a", "text": "$(-3, 4)$" },
+      { "id": "b", "text": "$(4, -3)$" },
+      { "id": "c", "text": "$(3, 4)$" },
+      { "id": "d", "text": "$(-3, -4)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The numbers are the wrong way round. The $x$-coordinate (across) comes first.",
+      "c": "P is to the left of the $y$-axis, so its $x$-coordinate is negative.",
+      "d": "P is above the $x$-axis, so its $y$-coordinate is positive."
+    },
+    "hints": ["Start at the origin. How far left or right is P? That's the first number.", "Then how far up or down? That's the second number."],
+    "solution": "From the origin, P is 3 to the left (so $x = -3$) and 4 up (so $y = 4$). P is at $(-3, 4)$."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "The point $(0, 0)$, where the axes cross, is called the [[a]].\n\nA pattern that goes up by the same amount each time is a [[b]] pattern.",
+    "blanks": [
+      { "id": "a", "accepted": ["origin"], "options": ["origin", "quadrant", "axis"] },
+      { "id": "b", "accepted": ["linear"], "options": ["linear", "doubling", "repeating"] }
+    ],
+    "hints": ["The axes cross at the point where both coordinates are 0.", "A pattern like this makes a straight line on a graph."],
+    "solution": "$(0, 0)$ is the **origin**. A pattern with a constant difference is a **linear** pattern. Its graph is a straight line."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the next term in the pattern $7, 13, 19, 25, \\ldots$?",
+    "answer": 31,
+    "form": "integer",
+    "hints": ["How much does the pattern go up by each time?"],
+    "solution": "The pattern goes up by 6 each time. The next term is $25 + 6 = 31$."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these patterns is **linear**?",
+    "options": [
+      { "id": "a", "text": "$3, 7, 11, 15, \\ldots$" },
+      { "id": "b", "text": "$1, 2, 4, 8, \\ldots$" },
+      { "id": "c", "text": "$1, 4, 9, 16, \\ldots$" },
+      { "id": "d", "text": "$2, 3, 5, 8, \\ldots$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This pattern doubles each time. The jumps are 1, 2, 4, …, which are not the same.",
+      "c": "These are square numbers. The jumps are 3, 5, 7, …, which keep getting bigger.",
+      "d": "The jumps are 1, 2, 3, …, which are not the same."
+    },
+    "hints": ["Find the jump between each pair of terms. In a linear pattern, the jump is always the same."],
+    "solution": "$3, 7, 11, 15$ goes up by 4 every time, so it has a constant difference. It is linear. The other patterns have jumps that change."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which point is in the **fourth** quadrant?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 312\" width=\"312\" height=\"312\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"288\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"46\" y1=\"288\" x2=\"46\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"68\" y1=\"288\" x2=\"68\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"90\" y1=\"288\" x2=\"90\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"112\" y1=\"288\" x2=\"112\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"288\" x2=\"134\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"156\" y1=\"288\" x2=\"156\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"178\" y1=\"288\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"200\" y1=\"288\" x2=\"200\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"222\" y1=\"288\" x2=\"222\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"244\" y1=\"288\" x2=\"244\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"266\" y1=\"288\" x2=\"266\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"288\" y1=\"288\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"288\" x2=\"288\" y2=\"288\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"266\" x2=\"288\" y2=\"266\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"288\" y2=\"244\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"288\" y2=\"222\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"288\" y2=\"200\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"288\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"288\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"288\" y2=\"112\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"288\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"288\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"288\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"288\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"288\" y2=\"156\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"288\" x2=\"156\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"46\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"68\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"90\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"112\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"134\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"178\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"200\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"222\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"244\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"266\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"288\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"144\" y=\"288\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"144\" y=\"266\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"144\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"144\" y=\"222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"144\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"144\" y=\"178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"144\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"144\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"144\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"144\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"144\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"144\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"300\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"156\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"90\" cy=\"68\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"79\" y=\"57\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">P</text><circle cx=\"266\" cy=\"200\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"277\" y=\"212\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">Q</text><circle cx=\"46\" cy=\"266\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"35\" y=\"278\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">R</text><circle cx=\"200\" cy=\"90\" r=\"4.5\" fill=\"#2563eb\"/><text x=\"211\" y=\"79\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\" font-weight=\"bold\">S</text></svg>", "alt": "A coordinate grid from −6 to 6 on both axes with four points labelled P, Q, R and S." },
+    "options": [
+      { "id": "a", "text": "Point Q" },
+      { "id": "b", "text": "Point P" },
+      { "id": "c", "text": "Point R" },
+      { "id": "d", "text": "Point S" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "P is at $(-3, 4)$: left and up. That is the second quadrant.",
+      "c": "R is at $(-5, -5)$: left and down. That is the third quadrant.",
+      "d": "S is at $(2, 3)$: right and up. That is the first quadrant."
+    },
+    "hints": ["The quadrants are numbered anticlockwise, starting at the top right.", "The fourth quadrant is right of the $y$-axis and below the $x$-axis."],
+    "solution": "The fourth quadrant is the bottom right, where $x$ is positive and $y$ is negative. Q is at $(5, -2)$, so Q is in the fourth quadrant."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A pattern has the rule $t = 6n - 2$, where $n$ is the position number. What is the 10th term?",
+    "answer": 58,
+    "form": "integer",
+    "hints": ["Put $n = 10$ into the rule.", "Multiply first, then subtract."],
+    "solution": "$t = 6 \\times 10 - 2 = 60 - 2 = 58$."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q007",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each rule to the same rule in words. ($n$ is the position number.)",
+    "pairs": [
+      { "left": { "id": "r1", "text": "$t = 2n + 5$" }, "right": { "id": "w1", "text": "Multiply the position number by 2, then add 5" } },
+      { "left": { "id": "r2", "text": "$t = 5n + 2$" }, "right": { "id": "w2", "text": "Multiply the position number by 5, then add 2" } },
+      { "left": { "id": "r3", "text": "$t = 5n - 2$" }, "right": { "id": "w3", "text": "Multiply the position number by 5, then subtract 2" } },
+      { "left": { "id": "r4", "text": "$t = n + 5$" }, "right": { "id": "w4", "text": "Add 5 to the position number" } }
+    ],
+    "hints": ["The number in front of $n$ is what you multiply by."],
+    "solution": "$2n + 5$: × 2 then + 5. $5n + 2$: × 5 then + 2. $5n - 2$: × 5 then − 2. $n + 5$: just add 5."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the missing term in this linear pattern? $4, \\square, 14, 19, \\ldots$",
+    "answer": 9,
+    "form": "integer",
+    "hints": ["Use 14 and 19 to find the constant difference."],
+    "solution": "$19 - 14 = 5$, so the pattern goes up by 5. The missing term is $4 + 5 = 9$. Check: $9 + 5 = 14$ ✓"
+  },
+  {
+    "id": "m7.alg.linear-patterns.q009",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these points in order from **left** to **right** on a coordinate grid.",
+    "items": [
+      { "id": "p1", "text": "$(-5, 2)$" },
+      { "id": "p2", "text": "$(-1, -3)$" },
+      { "id": "p3", "text": "$(0, 4)$" },
+      { "id": "p4", "text": "$(3, -1)$" }
+    ],
+    "hints": ["Left and right is decided by the $x$-coordinate (the first number).", "The more negative the $x$-coordinate, the further left the point is."],
+    "solution": "Order the $x$-coordinates: $-5 < -1 < 0 < 3$. So the order is $(-5, 2)$, $(-1, -3)$, $(0, 4)$, $(3, -1)$. The $y$-coordinates don't matter for left and right."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q010",
+    "type": "expression",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Write the rule for this pattern as $t = \\ldots$ in terms of $n$.\n\n| Position ($n$) | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Term ($t$) | 9 | 14 | 19 | 24 |",
+    "answer": "5*n + 4",
+    "variables": ["n"],
+    "form": "any",
+    "hints": ["Find the constant difference. The rule starts with that number times $n$.", "Compare with the first term. What do you need to add?"],
+    "solution": "The terms go up by 5, so the rule starts with $5n$.\n\nWhen $n = 1$, $5n = 5$, but the term is 9. Add 4.\n\nThe rule is $t = 5n + 4$. Check: $5 \\times 3 + 4 = 19$ ✓"
+  },
+  {
+    "id": "m7.alg.linear-patterns.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Isla makes a row of triangles with iceblock sticks. The first three patterns are shown. How many sticks does she need for pattern 15?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 239 115\" width=\"239\" height=\"115\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"20\" y1=\"64\" x2=\"33\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"33\" y1=\"40\" x2=\"46\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"20\" y1=\"64\" x2=\"46\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><text x=\"33\" y=\"86\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><line x1=\"80\" y1=\"64\" x2=\"93\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"93\" y1=\"40\" x2=\"106\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"80\" y1=\"64\" x2=\"106\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"93\" y1=\"40\" x2=\"106\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"106\" y1=\"64\" x2=\"119\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"93\" y1=\"40\" x2=\"119\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><text x=\"99.5\" y=\"86\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><line x1=\"153\" y1=\"64\" x2=\"166\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"166\" y1=\"40\" x2=\"179\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"153\" y1=\"64\" x2=\"179\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"166\" y1=\"40\" x2=\"179\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"179\" y1=\"64\" x2=\"192\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"166\" y1=\"40\" x2=\"192\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"179\" y1=\"64\" x2=\"192\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"192\" y1=\"40\" x2=\"205\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"179\" y1=\"64\" x2=\"205\" y2=\"64\" stroke=\"#b45309\" stroke-width=\"3\"/><text x=\"179\" y=\"86\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>", "alt": "Patterns 1, 2 and 3 of a row of triangles made from sticks, using 3, 5 and 7 sticks." },
+    "answer": 31,
+    "form": "integer",
+    "hints": ["Count the sticks in patterns 1, 2 and 3. How many more does each new triangle need?", "Write a rule, then put in $n = 15$."],
+    "solution": "Patterns 1, 2 and 3 use 3, 5 and 7 sticks. Each new triangle shares a side, so it needs 2 more sticks.\n\nThe rule is $t = 2n + 1$.\n\nPattern 15: $2 \\times 15 + 1 = 31$ sticks."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Liam says the rule for the pattern $4, 7, 10, 13, \\ldots$ is $t = n + 3$, because the pattern goes up by 3. What is the best response?",
+    "options": [
+      { "id": "a", "text": "He is wrong. Going up by 3 each time means multiplying by 3, so the rule is $t = 3n + 1$." },
+      { "id": "b", "text": "He is right." },
+      { "id": "c", "text": "He is wrong. The rule is $t = 4n$." },
+      { "id": "d", "text": "He is wrong. The rule is $t = 3n + 4$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Test it with $n = 2$: $2 + 3 = 5$, but the 2nd term is 7.",
+      "c": "Test it with $n = 2$: $4 \\times 2 = 8$, but the 2nd term is 7.",
+      "d": "Test it with $n = 1$: $3 \\times 1 + 4 = 7$, but the 1st term is 4."
+    },
+    "hints": ["Test Liam's rule on the 2nd or 3rd term.", "A constant difference of 3 means the rule starts with $3n$."],
+    "solution": "The difference of 3 means the rule starts with $3n$. When $n = 1$, $3n = 3$, and the term is 4, so add 1: $t = 3n + 1$.\n\nCheck: $3 \\times 3 + 1 = 10$ ✓. Liam's rule only works for the first term."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The pattern $50, 46, 42, 38, \\ldots$ keeps going down by the same amount. What is the 12th term?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["How much does the pattern go down by each time?", "From the 1st term to the 12th term there are 11 jumps."],
+    "solution": "The pattern goes down by 4 each time. From the 1st term to the 12th term is 11 jumps: $11 \\times 4 = 44$.\n\nThe 12th term is $50 - 44 = 6$."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The points $(1, 3)$, $(2, 5)$ and $(3, 7)$ show a linear pattern as (position, term). Which point is also part of this pattern?",
+    "options": [
+      { "id": "a", "text": "$(4, 9)$" },
+      { "id": "b", "text": "$(4, 8)$" },
+      { "id": "c", "text": "$(5, 10)$" },
+      { "id": "d", "text": "$(9, 4)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The terms go up by 2 each time, not 1. After 7 comes 9.",
+      "c": "The rule is $t = 2n + 1$. For position 5, $t = 11$, not 10.",
+      "d": "The position comes first and the term second. Position 4 has term 9, so the point is $(4, 9)$."
+    },
+    "hints": ["How much does the term go up by each time the position goes up by 1?"],
+    "solution": "The terms go 3, 5, 7, so they go up by 2 each time. Position 4 has term $7 + 2 = 9$. The point is $(4, 9)$."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The graph shows the first four terms of a linear pattern, plotted as points (position, term). What is the term at position 8?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 202 312\" width=\"202\" height=\"312\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"288\" x2=\"24\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"46\" y1=\"288\" x2=\"46\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"68\" y1=\"288\" x2=\"68\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"90\" y1=\"288\" x2=\"90\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"112\" y1=\"288\" x2=\"112\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"288\" x2=\"134\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"156\" y1=\"288\" x2=\"156\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"178\" y1=\"288\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"288\" x2=\"178\" y2=\"288\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"266\" x2=\"178\" y2=\"266\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"244\" x2=\"178\" y2=\"244\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"222\" x2=\"178\" y2=\"222\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"200\" x2=\"178\" y2=\"200\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"178\" x2=\"178\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"178\" y2=\"156\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"134\" x2=\"178\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"90\" x2=\"178\" y2=\"90\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"68\" x2=\"178\" y2=\"68\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"46\" x2=\"178\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"24\" x2=\"178\" y2=\"24\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"24\" y1=\"156\" x2=\"178\" y2=\"156\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"46\" y1=\"288\" x2=\"46\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"24\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"68\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"90\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"112\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"134\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"156\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"178\" y=\"169\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"34\" y=\"288\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−6</text><text x=\"34\" y=\"266\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−5</text><text x=\"34\" y=\"244\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−4</text><text x=\"34\" y=\"222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−3</text><text x=\"34\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−2</text><text x=\"34\" y=\"178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">−1</text><text x=\"34\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"34\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"34\" y=\"90\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"34\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"34\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"34\" y=\"24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"190\" y=\"156\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"46\" y=\"12\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"68\" cy=\"90\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"134\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"112\" cy=\"178\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"134\" cy=\"222\" r=\"5\" fill=\"#2563eb\"/></svg>", "alt": "A coordinate grid with four points at (1, 3), (2, 1), (3, −1) and (4, −3), in a straight line going down." },
+    "answer": -11,
+    "form": "integer",
+    "hints": ["Read the terms from the graph. The $y$-coordinate is the term.", "How much do the terms go down by each time?"],
+    "solution": "The points are $(1, 3)$, $(2, 1)$, $(3, -1)$ and $(4, -3)$, so the terms go down by 2 each time.\n\nKeep going: position 5 is $-5$, 6 is $-7$, 7 is $-9$, 8 is $-11$.\n\nOr use the rule $t = 5 - 2n$: $5 - 2 \\times 8 = 5 - 16 = -11$."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ella makes this row of squares with matchsticks. The rule is $t = 3n + 1$. Ella says she can make one of the patterns using exactly 60 matchsticks. Is she right? Explain how you know.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 278 115\" width=\"278\" height=\"115\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"20\" y1=\"40\" x2=\"46\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"20\" y1=\"66\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"20\" y1=\"40\" x2=\"20\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"46\" y1=\"40\" x2=\"46\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><text x=\"33\" y=\"88\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><line x1=\"80\" y1=\"40\" x2=\"106\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"106\" y1=\"40\" x2=\"132\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"80\" y1=\"66\" x2=\"106\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"106\" y1=\"66\" x2=\"132\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"106\" y1=\"40\" x2=\"106\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"132\" y1=\"40\" x2=\"132\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><text x=\"106\" y=\"88\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><line x1=\"166\" y1=\"40\" x2=\"192\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"192\" y1=\"40\" x2=\"218\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"218\" y1=\"40\" x2=\"244\" y2=\"40\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"166\" y1=\"66\" x2=\"192\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"192\" y1=\"66\" x2=\"218\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"218\" y1=\"66\" x2=\"244\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"166\" y1=\"40\" x2=\"166\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"192\" y1=\"40\" x2=\"192\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"218\" y1=\"40\" x2=\"218\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><line x1=\"244\" y1=\"40\" x2=\"244\" y2=\"66\" stroke=\"#b45309\" stroke-width=\"3\"/><text x=\"205\" y=\"88\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>", "alt": "Patterns 1, 2 and 3 of a row of squares made from matchsticks, using 4, 7 and 10 sticks." },
+    "modelAnswer": "Ella is not right. If a pattern used 60 matchsticks, then $3n + 1 = 60$, so $3n = 59$. 59 is not a multiple of 3, so $n$ is not a whole number. Pattern 19 uses $3 \\times 19 + 1 = 58$ matchsticks and pattern 20 uses 61, so no pattern uses exactly 60.",
+    "rubric": [
+      { "criterion": "Uses the rule (or the patterns either side, 58 and 61) to test 60", "marks": 1 },
+      { "criterion": "Concludes Ella is not right because $n$ would not be a whole number", "marks": 1 }
+    ],
+    "hints": ["Make an equation: $3n + 1 = 60$.", "Is $n$ a whole number?"],
+    "solution": "$3n + 1 = 60$ gives $3n = 59$, which isn't a multiple of 3. Pattern 19 uses 58 sticks and pattern 20 uses 61, so Ella is not right."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "At a school camp, square tables are pushed together in a row. 1 table seats 6 people, 2 tables seat 10 people, and 3 tables seat 14 people. How many tables are needed to seat 50 people?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["Find the rule for the number of people, $t$, for $n$ tables.", "Then solve the equation: rule $= 50$."],
+    "solution": "The pattern 6, 10, 14 goes up by 4, so the rule is $t = 4n + 2$.\n\n$4n + 2 = 50$, so $4n = 48$ and $n = 12$.\n\n12 tables are needed. Check: $4 \\times 12 + 2 = 50$ ✓"
+  },
+  {
+    "id": "m7.alg.linear-patterns.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which rule gives the pattern $17, 14, 11, 8, \\ldots$?",
+    "options": [
+      { "id": "a", "text": "$t = 20 - 3n$" },
+      { "id": "b", "text": "$t = 3n + 14$" },
+      { "id": "c", "text": "$t = 17 - 3n$" },
+      { "id": "d", "text": "$t = n - 3$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This pattern would go **up** by 3: 17, 20, 23, …",
+      "c": "Test it with $n = 1$: $17 - 3 = 14$, but the 1st term is 17.",
+      "d": "Test it with $n = 1$: $1 - 3 = -2$, but the 1st term is 17."
+    },
+    "hints": ["The pattern goes down by 3, so the rule has $- 3n$ in it.", "Test each rule with $n = 1$ and $n = 2$."],
+    "solution": "The pattern goes down by 3 each time. Going back one step from 17 gives 20 (the \"0th\" term), so the rule is $t = 20 - 3n$.\n\nCheck: $n = 1$: $20 - 3 = 17$ ✓, $n = 2$: $20 - 6 = 14$ ✓"
+  },
+  {
+    "id": "m7.alg.linear-patterns.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama is saving for a skateboard. After week 1 he has \\$15, after week 2 he has \\$22, and after week 3 he has \\$29. He keeps saving the same amount each week. In which week will he first have **more than** \\$100?",
+    "answer": 14,
+    "form": "integer",
+    "hints": ["Find the rule for the amount after week $n$.", "Find where the amount would be close to \\$100, then check the weeks either side."],
+    "solution": "He saves \\$7 a week. The rule is $t = 7n + 8$.\n\nWeek 13: $7 \\times 13 + 8 = 91 + 8 = 99$. That's not more than \\$100.\n\nWeek 14: $7 \\times 14 + 8 = 98 + 8 = 106$. That's more than \\$100 ✓\n\nSo the answer is week 14."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q020",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Pattern A has the rule $t = 3n + 10$. Pattern B has the rule $t = 5n$.\n\nRawiri says, \"Pattern B starts smaller, so it will always be smaller than pattern A.\" Is Rawiri right? Use a table or the rules to explain.",
+    "modelAnswer": "Rawiri is not right. Pattern A goes 13, 16, 19, 22, 25, 28, … and pattern B goes 5, 10, 15, 20, 25, 30, …. At position 5 they are both 25. After that, pattern B is bigger, because it goes up by 5 each time and pattern A only goes up by 3.",
+    "rubric": [
+      { "criterion": "Lists or works out terms of both patterns correctly, finding they are equal at position 5", "marks": 1 },
+      { "criterion": "Concludes Rawiri is not right, because B grows faster (5 a step compared with 3) and overtakes A", "marks": 1 }
+    ],
+    "hints": ["Make a table of both patterns for positions 1 to 6.", "Which pattern goes up faster?"],
+    "solution": "A: 13, 16, 19, 22, 25, 28. B: 5, 10, 15, 20, 25, 30. They are equal at position 5, and B is bigger after that, so Rawiri is not right."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The points $(1, 7)$, $(2, 4)$ and $(3, 1)$ show a linear pattern as (position, term). The pattern keeps going. Which quadrant will the point for position 6 be in?",
+    "options": [
+      { "id": "a", "text": "The fourth quadrant" },
+      { "id": "b", "text": "The first quadrant" },
+      { "id": "c", "text": "The third quadrant" },
+      { "id": "d", "text": "The second quadrant" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The terms go down by 3 each time, so they become negative. A negative term puts the point below the $x$-axis.",
+      "c": "The position (the $x$-coordinate) is 6, which is positive. The third quadrant has a negative $x$-coordinate.",
+      "d": "The second quadrant has a negative $x$-coordinate, but the position 6 is positive."
+    },
+    "hints": ["Keep the pattern going: what are the terms for positions 4, 5 and 6?", "Is the point for position 6 right or left of the $y$-axis? Above or below the $x$-axis?"],
+    "solution": "The terms go down by 3: 7, 4, 1, $-2$, $-5$, $-8$. So the point for position 6 is $(6, -8)$.\n\n$x = 6$ is positive and $y = -8$ is negative, so it is in the **fourth quadrant** (bottom right)."
+  },
+  {
+    "id": "m7.alg.linear-patterns.q022",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A counter is at the point $(-3, 2)$. It moves 5 units right and 6 units down. What is the $y$-coordinate of its new position?",
+    "answer": -4,
+    "form": "integer",
+    "hints": ["Up and down moves change the $y$-coordinate.", "Moving down 6 means subtract 6. Use a number line to cross 0."],
+    "solution": "Right 5 changes $x$: $-3 + 5 = 2$. Down 6 changes $y$: $2 - 6 = -4$.\n\nThe new point is $(2, -4)$, so the $y$-coordinate is $-4$."
+  }
+]

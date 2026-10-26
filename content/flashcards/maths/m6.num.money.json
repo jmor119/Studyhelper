@@ -1,0 +1,15 @@
+[
+  { "id": "m6.num.money.f01", "front": "How many **cents** are in 1 **dollar**?", "back": "100 cents." },
+  { "id": "m6.num.money.f02", "front": "How do you write 5 cents in dollars?", "back": "\\$0.05. Cents always take two places after the decimal point." },
+  { "id": "m6.num.money.f03", "front": "What is the difference between \\$4.05 and \\$4.50?", "back": "\\$4.05 is 4 dollars and 5 cents. \\$4.50 is 4 dollars and 50 cents, so it is 45c more." },
+  { "id": "m6.num.money.f04", "front": "What is the **total**?", "back": "All the prices added together." },
+  { "id": "m6.num.money.f05", "front": "How do you work out **change**?", "back": "Change = money you hand over − total cost. You can count up from the price to the money you paid." },
+  { "id": "m6.num.money.f06", "front": "Change from \\$20 for a \\$7.40 sandwich", "back": "Count up: 60c to \\$8, \\$2 to \\$10, \\$10 to \\$20. Change is \\$12.60." },
+  { "id": "m6.num.money.f07", "front": "How do you find 50% of an amount?", "back": "Halve it. 50% of \\$280 is \\$140." },
+  { "id": "m6.num.money.f08", "front": "How do you find 25% of an amount?", "back": "Halve it, then halve again (divide by 4). 25% of \\$36 is \\$9." },
+  { "id": "m6.num.money.f09", "front": "How do you find 10% of an amount?", "back": "Divide by 10. 10% of \\$45 is \\$4.50." },
+  { "id": "m6.num.money.f10", "front": "What is a **discount**?", "back": "An amount taken off the price. Sale price = normal price − discount." },
+  { "id": "m6.num.money.f11", "front": "What is a **budget**?", "back": "A plan for how much money you can spend." },
+  { "id": "m6.num.money.f12", "front": "How do you find the better buy between two packs?", "back": "Work out the price of one item in each pack (or the price of the same number). The cheaper one is better value." },
+  { "id": "m6.num.money.f13", "front": "What coins does New Zealand use?", "back": "10c, 20c, 50c, \\$1 and \\$2. Notes are \\$5, \\$10, \\$20, \\$50 and \\$100." }
+]

@@ -1,0 +1,14 @@
+[
+  { "id": "m7.pro.experimental.f01", "front": "What is an **experiment** in probability?", "back": "Doing something many times and recording what happens, to estimate a probability." },
+  { "id": "m7.pro.experimental.f02", "front": "What is a **trial**?", "back": "One go of an experiment, such as one toss of a coin." },
+  { "id": "m7.pro.experimental.f03", "front": "How do you find an **experimental probability**?", "back": "Number of times the outcome happens ÷ total number of trials." },
+  { "id": "m7.pro.experimental.f04", "front": "What is **relative frequency**?", "back": "Another name for experimental probability: frequency ÷ number of trials." },
+  { "id": "m7.pro.experimental.f05", "front": "Theoretical vs experimental probability", "back": "Theoretical: worked out from equally likely outcomes. Experimental: estimated from the results of trials." },
+  { "id": "m7.pro.experimental.f06", "front": "How do you find an **expected number**?", "back": "Probability × number of trials, e.g. $\\frac{1}{6} \\times 60 = 10$ sixes." },
+  { "id": "m7.pro.experimental.f07", "front": "What is the **Law of Large Numbers**?", "back": "As the number of trials increases, the experimental probability tends to get closer to the theoretical probability." },
+  { "id": "m7.pro.experimental.f08", "front": "Why don't experiments match the theory exactly?", "back": "Chance: each trial is random, so results vary, especially with only a few trials." },
+  { "id": "m7.pro.experimental.f09", "front": "What is a **weighted** die?", "back": "A die made to land on some numbers more often than others. You can only find its probabilities by experiment." },
+  { "id": "m7.pro.experimental.f10", "front": "Why combine results from several groups?", "back": "It gives more trials, so the estimate is more reliable." },
+  { "id": "m7.pro.experimental.f11", "front": "How many trials should you do when comparing with theory?", "back": "At least 30. More trials (100 or more) give a much better comparison." },
+  { "id": "m7.pro.experimental.f12", "front": "After 5 heads in a row, what is P(heads) on the next toss of a fair coin?", "back": "Still $\\frac{1}{2}$. A coin has no memory." }
+]

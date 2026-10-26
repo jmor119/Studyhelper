@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { ButtonLink } from '../../components/ui';
 
 const features = [
-  { icon: <BookOpen className="size-6" />, title: 'Lessons and practice', text: 'Short lessons and endless practice for every Year 9 maths and science topic, marked instantly with worked solutions.' },
+  { icon: <BookOpen className="size-6" />, title: 'Lessons and practice', text: 'Short lessons and endless practice for every topic, marked instantly with worked solutions: maths for Years 6, 7 and 9, and Year 9 science.' },
   { icon: <ClipboardCheck className="size-6" />, title: 'Mock exams', text: 'Timed, exam-style papers across the topics your school covers, with grades and a breakdown by topic.' },
   { icon: <MessageCircle className="size-6" />, title: 'A tutor that teaches', text: 'An AI tutor that gives hints and asks questions — it helps you get there yourself and never does your homework for you.' },
   { icon: <Layers className="size-6" />, title: 'Flashcards that stick', text: 'Spaced-repetition flashcards for key terms and formulas, so you review things just before you’d forget them.' },
@@ -29,7 +29,7 @@ export default function Landing() {
 
       <section className="mx-auto max-w-6xl px-4 pt-10 pb-16 text-center sm:pt-16">
         <p className="mb-3 inline-block rounded-full bg-brand-100 px-3 py-1 text-sm font-semibold text-brand-800 dark:bg-brand-900 dark:text-brand-200">
-          Year 9 Maths & Science · NZ Curriculum
+          Maths for Years 6, 7 &amp; 9 · Year 9 Science · NZ Curriculum
         </p>
         <h1 className="mx-auto max-w-3xl text-4xl font-extrabold tracking-tight sm:text-6xl">
           Study smarter. <span className="text-brand-700 dark:text-brand-400">Walk into exams ready.</span>

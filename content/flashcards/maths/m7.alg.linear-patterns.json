@@ -1,0 +1,14 @@
+[
+  { "id": "m7.alg.linear-patterns.f01", "front": "What is the **origin**?", "back": "The point $(0, 0)$, where the $x$-axis and the $y$-axis cross." },
+  { "id": "m7.alg.linear-patterns.f02", "front": "What is an **ordered pair**?", "back": "Coordinates written as $(x, y)$: across first, then up or down. Order matters: $(2, 5)$ and $(5, 2)$ are different points." },
+  { "id": "m7.alg.linear-patterns.f03", "front": "What do negative coordinates mean?", "back": "A negative $x$ means left of the $y$-axis. A negative $y$ means below the $x$-axis." },
+  { "id": "m7.alg.linear-patterns.f04", "front": "How are the four **quadrants** numbered?", "back": "Anticlockwise from the top right: first $(+, +)$, second $(-, +)$, third $(-, -)$, fourth $(+, -)$." },
+  { "id": "m7.alg.linear-patterns.f05", "front": "What is a **linear pattern**?", "back": "A pattern that goes up or down by the same amount each time, like $5, 8, 11, 14, \\ldots$" },
+  { "id": "m7.alg.linear-patterns.f06", "front": "What is the **constant difference**?", "back": "The amount a linear pattern goes up or down by each time. For $5, 8, 11, \\ldots$ it is 3." },
+  { "id": "m7.alg.linear-patterns.f07", "front": "What is the general rule for a linear pattern?", "back": "$t = a \\times n + d$: $n$ is the position, $a$ is the constant difference, and $d$ fixes the first term." },
+  { "id": "m7.alg.linear-patterns.f08", "front": "How do you find the rule for $4, 7, 10, 13, \\ldots$?", "back": "The difference is 3, so start with $3n$. $3 \\times 1 = 3$, and the first term is 4, so add 1: $t = 3n + 1$." },
+  { "id": "m7.alg.linear-patterns.f09", "front": "What does a linear pattern look like on a graph?", "back": "The points (position, term) lie in a straight line." },
+  { "id": "m7.alg.linear-patterns.f10", "front": "How can you tell if a number is in a pattern?", "back": "Make it equal to the rule and solve. If $n$ is a whole number, the number is in the pattern." },
+  { "id": "m7.alg.linear-patterns.f11", "front": "What is a **conjecture**?", "back": "An idea you think might be true, which you then test, like \"100 is in this pattern\"." },
+  { "id": "m7.alg.linear-patterns.f12", "front": "What is the difference between a **term** and its **position**?", "back": "The term is the number in the pattern. The position says where it is: 1st, 2nd, 3rd, …" }
+]

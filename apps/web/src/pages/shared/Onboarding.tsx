@@ -73,7 +73,7 @@ export default function Onboarding() {
               <Input value={name} onChange={(e) => setName(e.target.value)} required maxLength={60} autoComplete="given-name" />
             </Field>
             {role === 'student' && (
-              <Field label="Year level" hint="Year 9 maths and science are ready now; more years are coming.">
+              <Field label="Year level" hint="Maths is ready for Years 6, 7 and 9, and science for Year 9. More years are coming.">
                 <Select value={year} onChange={(e) => setYear(Number(e.target.value))}>
                   {years.map((y) => (
                     <option key={y} value={y}>

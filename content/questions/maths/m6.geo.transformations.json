@@ -1,0 +1,638 @@
+[
+  {
+    "id": "m6.geo.transformations.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "ref",
+          "text": "Reflection"
+        },
+        "right": {
+          "id": "m1",
+          "text": "A flip over a mirror line"
+        }
+      },
+      {
+        "left": {
+          "id": "tra",
+          "text": "Translation"
+        },
+        "right": {
+          "id": "m2",
+          "text": "A slide, with no turning or flipping"
+        }
+      },
+      {
+        "left": {
+          "id": "rot",
+          "text": "Rotation"
+        },
+        "right": {
+          "id": "m3",
+          "text": "A turn around a fixed point"
+        }
+      },
+      {
+        "left": {
+          "id": "tes",
+          "text": "Tessellation"
+        },
+        "right": {
+          "id": "m4",
+          "text": "Shapes that fit together with no gaps or overlaps"
+        }
+      }
+    ],
+    "hints": [
+      "Think: flip, slide, turn."
+    ],
+    "solution": "Reflection: a flip. Translation: a slide. Rotation: a turn. Tessellation: a pattern of shapes with no gaps or overlaps."
+  },
+  {
+    "id": "m6.geo.transformations.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which transformation turns a shape around a fixed point?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rotation"
+      },
+      {
+        "id": "b",
+        "text": "Reflection"
+      },
+      {
+        "id": "c",
+        "text": "Translation"
+      },
+      {
+        "id": "d",
+        "text": "Tessellation"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A reflection flips a shape over a mirror line.",
+      "c": "A translation slides a shape without turning it.",
+      "d": "A tessellation is a pattern of shapes, not a way of moving one shape."
+    },
+    "hints": [
+      "Think of the wheels on a bike."
+    ],
+    "solution": "A **rotation** turns a shape around a fixed point, called the centre of rotation."
+  },
+  {
+    "id": "m6.geo.transformations.q003",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What do we call the line that a shape is reflected in?",
+    "accepted": [
+      "mirror line",
+      "a mirror line",
+      "the mirror line",
+      "line of reflection",
+      "reflection line",
+      "mirror"
+    ],
+    "hints": [
+      "When you look in one of these, you see your reflection."
+    ],
+    "solution": "It is called the **mirror line**."
+  },
+  {
+    "id": "m6.geo.transformations.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How many degrees are in a half turn?",
+    "answer": 180,
+    "form": "integer",
+    "units": "°",
+    "hints": [
+      "A full turn is 360°."
+    ],
+    "solution": "A half turn is half of 360°: **180°**."
+  },
+  {
+    "id": "m6.geo.transformations.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A quarter turn is [[a]]°. A half turn is [[b]]°. A full turn is [[c]]°.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "90"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "180"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "360"
+        ]
+      }
+    ],
+    "hints": [
+      "Start with the full turn, then halve it, then halve it again."
+    ],
+    "solution": "Full turn: **360°**. Half turn: **180°**. Quarter turn: **90°**."
+  },
+  {
+    "id": "m6.geo.transformations.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The minute hand of a clock moves from 12 to 3. What turn has it made?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A quarter turn clockwise"
+      },
+      {
+        "id": "b",
+        "text": "A quarter turn anticlockwise"
+      },
+      {
+        "id": "c",
+        "text": "A half turn clockwise"
+      },
+      {
+        "id": "d",
+        "text": "A three-quarter turn clockwise"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Clock hands always move clockwise. That is where the word comes from.",
+      "c": "A half turn would take the hand from 12 to 6.",
+      "d": "A three-quarter turn would take the hand from 12 to 9."
+    },
+    "hints": [
+      "12 to 6 is a half turn. How far round is 12 to 3?"
+    ],
+    "solution": "12 to 3 is one quarter of the way round the clock, in the direction clock hands move: **a quarter turn clockwise** (90°)."
+  },
+  {
+    "id": "m6.geo.transformations.q007",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the things that stay the same when a shape is reflected, translated or rotated.",
+    "options": [
+      {
+        "id": "a",
+        "text": "The lengths of its sides"
+      },
+      {
+        "id": "b",
+        "text": "The size of its angles"
+      },
+      {
+        "id": "c",
+        "text": "The number of sides"
+      },
+      {
+        "id": "d",
+        "text": "How big the shape is"
+      },
+      {
+        "id": "e",
+        "text": "Where it is on the page"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "A transformation moves a shape. Does it stretch or squash it?"
+    ],
+    "solution": "Transformations only move a shape, so its **side lengths, angles, number of sides and size** stay the same. Its position on the page changes."
+  },
+  {
+    "id": "m6.geo.transformations.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sam is asked to translate a shape 4 squares to the right. He draws the image with 4 empty squares between the shape and the image. What has Sam done wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He has moved it too far. He should count 4 jumps of one corner, not 4 empty squares."
+      },
+      {
+        "id": "b",
+        "text": "Nothing. Leaving 4 empty squares is correct."
+      },
+      {
+        "id": "c",
+        "text": "He should have flipped the shape over as well."
+      },
+      {
+        "id": "d",
+        "text": "He should have moved it 4 squares up instead."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The empty squares don’t count the whole move. The shape’s own width gets added on, so it moves too far.",
+      "c": "A translation is a slide. It never flips the shape.",
+      "d": "\"To the right\" means across, not up."
+    },
+    "hints": [
+      "Pick one corner of the shape. How far should that corner move?"
+    ],
+    "solution": "In a translation every corner moves the same distance. Each corner should move **4 squares right**. Counting empty squares between the shapes adds the shape’s width, so the image ends up too far away."
+  },
+  {
+    "id": "m6.geo.transformations.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a tessellation, which of these is **not** allowed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gaps between the shapes"
+      },
+      {
+        "id": "b",
+        "text": "Turning some of the shapes"
+      },
+      {
+        "id": "c",
+        "text": "Flipping some of the shapes"
+      },
+      {
+        "id": "d",
+        "text": "Using two different shapes"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Rotating shapes is fine in a tessellation.",
+      "c": "Reflecting shapes is fine in a tessellation.",
+      "d": "A tessellation can use more than one shape, as long as they fit with no gaps or overlaps."
+    },
+    "hints": [
+      "Think of the tiles on a bathroom floor."
+    ],
+    "solution": "A tessellation must have **no gaps** and no overlaps. Turning, flipping and using more than one shape are all fine."
+  },
+  {
+    "id": "m6.geo.transformations.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Shape A was moved to shape B in two steps. Which two steps were they?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 264 192\" width=\"264\" height=\"192\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"12\" y=\"12\" width=\"240\" height=\"168\" fill=\"#ffffff\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"36\" y1=\"12\" x2=\"36\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"60\" y1=\"12\" x2=\"60\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"84\" y1=\"12\" x2=\"84\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"108\" y1=\"12\" x2=\"108\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"132\" y1=\"12\" x2=\"132\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"156\" y1=\"12\" x2=\"156\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"180\" y1=\"12\" x2=\"180\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"204\" y1=\"12\" x2=\"204\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"228\" y1=\"12\" x2=\"228\" y2=\"180\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"12\" y1=\"36\" x2=\"252\" y2=\"36\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"12\" y1=\"60\" x2=\"252\" y2=\"60\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"12\" y1=\"84\" x2=\"252\" y2=\"84\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"12\" y1=\"108\" x2=\"252\" y2=\"108\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"12\" y1=\"132\" x2=\"252\" y2=\"132\" stroke=\"#d1d5db\" stroke-width=\"1\"/><line x1=\"12\" y1=\"156\" x2=\"252\" y2=\"156\" stroke=\"#d1d5db\" stroke-width=\"1\"/><rect x=\"60\" y=\"12\" width=\"24\" height=\"24\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"36\" width=\"24\" height=\"24\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"60\" width=\"24\" height=\"24\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><rect x=\"84\" y=\"60\" width=\"24\" height=\"24\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"84\" width=\"24\" height=\"24\" fill=\"#fed7aa\" stroke=\"#c2410c\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"108\" width=\"24\" height=\"24\" fill=\"#fed7aa\" stroke=\"#c2410c\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"132\" width=\"24\" height=\"24\" fill=\"#fed7aa\" stroke=\"#c2410c\" stroke-width=\"1.5\"/><rect x=\"156\" y=\"132\" width=\"24\" height=\"24\" fill=\"#fed7aa\" stroke=\"#c2410c\" stroke-width=\"1.5\"/><text x=\"72\" y=\"49\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"192\" y=\"121\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">B</text><line x1=\"132\" y1=\"8\" x2=\"132\" y2=\"184\" stroke=\"#dc2626\" stroke-width=\"2.5\" stroke-dasharray=\"5 4\"/></svg>",
+      "alt": "A square grid with a red mirror line going up and down. Blue shape A is on the left of the line and orange shape B is on the right."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Reflect in the mirror line, then translate 3 squares down"
+      },
+      {
+        "id": "b",
+        "text": "Translate 3 squares down only"
+      },
+      {
+        "id": "c",
+        "text": "Reflect in the mirror line only"
+      },
+      {
+        "id": "d",
+        "text": "Rotate a half turn only"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "B is a mirror image of A, so there must be a reflection too.",
+      "c": "A reflection alone would keep B at the same height as A. B is lower.",
+      "d": "A turned shape is not a mirror image. B is a mirror image of A."
+    },
+    "hints": [
+      "Is B a mirror image of A?",
+      "Is B at the same height as A?"
+    ],
+    "solution": "B is a mirror image of A, so A was **reflected** in the mirror line. B is also 3 squares lower, so the image was then **translated 3 squares down**."
+  },
+  {
+    "id": "m6.geo.transformations.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which regular shape does **not** tessellate on its own?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Regular pentagon"
+      },
+      {
+        "id": "b",
+        "text": "Square"
+      },
+      {
+        "id": "c",
+        "text": "Equilateral triangle"
+      },
+      {
+        "id": "d",
+        "text": "Regular hexagon"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Four squares fit around a point: $4 \\times 90° = 360°$.",
+      "c": "Six triangles fit around a point: $6 \\times 60° = 360°$.",
+      "d": "Three hexagons fit around a point: $3 \\times 120° = 360°$."
+    },
+    "hints": [
+      "The corners that meet at a point must add up to 360°."
+    ],
+    "solution": "Each corner of a regular pentagon is 108°. $3 \\times 108° = 324°$ leaves a gap and $4 \\times 108° = 432°$ is too much. So the **regular pentagon** does not tessellate on its own."
+  },
+  {
+    "id": "m6.geo.transformations.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Bees build honeycomb from cells shaped like regular hexagons, with no gaps between them. Each corner of a regular hexagon is 120°. How many hexagons meet at each point?",
+    "answer": 3,
+    "form": "integer",
+    "hints": [
+      "The angles around a point add up to 360°."
+    ],
+    "solution": "$360 \\div 120 = 3$, so **3** hexagons meet at each point."
+  },
+  {
+    "id": "m6.geo.transformations.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "One square tile and two regular octagon tiles meet at a point. Each corner of the square is 90° and each corner of an octagon is 135°. What is the total of the angles at the point?",
+    "answer": 360,
+    "form": "integer",
+    "units": "°",
+    "hints": [
+      "Add one square corner and two octagon corners."
+    ],
+    "solution": "$90 + 135 + 135 = 360$, so the total is **360°**. The tiles fit around the point with no gap."
+  },
+  {
+    "id": "m6.geo.transformations.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ruby rotates a shape a quarter turn clockwise, then another quarter turn clockwise about the same point. Which single turn does the same thing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A half turn"
+      },
+      {
+        "id": "b",
+        "text": "A quarter turn anticlockwise"
+      },
+      {
+        "id": "c",
+        "text": "A full turn"
+      },
+      {
+        "id": "d",
+        "text": "A three-quarter turn clockwise"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Two clockwise quarter turns can’t add up to one turn the other way.",
+      "c": "A full turn is four quarter turns.",
+      "d": "A three-quarter turn is three quarter turns."
+    },
+    "hints": [
+      "Add the two turns: 90° + 90°."
+    ],
+    "solution": "$90° + 90° = 180°$, which is **a half turn**."
+  },
+  {
+    "id": "m6.geo.transformations.q015",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these steps for reflecting a shape on a grid in the right order.",
+    "items": [
+      {
+        "id": "s1",
+        "text": "Pick one corner of the shape."
+      },
+      {
+        "id": "s2",
+        "text": "Count how many squares that corner is from the mirror line."
+      },
+      {
+        "id": "s3",
+        "text": "Count the same number of squares on the other side of the line and mark a dot."
+      },
+      {
+        "id": "s4",
+        "text": "Do the same for every other corner."
+      },
+      {
+        "id": "s5",
+        "text": "Join the dots to draw the image."
+      }
+    ],
+    "hints": [
+      "You can’t join the dots until you have marked them all."
+    ],
+    "solution": "Pick a corner, count its distance from the line, mark the same distance on the other side, repeat for every corner, then join the dots."
+  },
+  {
+    "id": "m6.geo.transformations.q016",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Describe the difference between **reflecting** a shape and **rotating** it.",
+    "modelAnswer": "Reflecting flips the shape over a mirror line, so the image is a mirror image that faces the opposite way. Rotating turns the shape around a fixed point (the centre of rotation), so the image is the same shape turned around, not a mirror image.",
+    "rubric": [
+      {
+        "criterion": "Says a reflection flips the shape over a mirror line (making a mirror image)",
+        "marks": 1
+      },
+      {
+        "criterion": "Says a rotation turns the shape around a fixed point",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "One of them is a flip and one is a turn.",
+      "What does each one need: a line or a point?"
+    ],
+    "solution": "A reflection is a flip over a mirror line and makes a mirror image. A rotation is a turn around a centre of rotation, and the image is not a mirror image."
+  },
+  {
+    "id": "m6.geo.transformations.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Mia translates a shape 3 squares right. Then she translates the image 5 squares left. Which single translation does the same thing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 squares left"
+      },
+      {
+        "id": "b",
+        "text": "8 squares left"
+      },
+      {
+        "id": "c",
+        "text": "2 squares right"
+      },
+      {
+        "id": "d",
+        "text": "8 squares right"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The two moves go in opposite directions, so they partly cancel out.",
+      "c": "It moves further left (5) than right (3), so it ends up to the left.",
+      "d": "The moves go in opposite directions, so you subtract, not add."
+    },
+    "hints": [
+      "Moving right then left partly cancels out.",
+      "Which move is bigger?"
+    ],
+    "solution": "3 right and then 5 left: the 5 left cancels the 3 right and leaves **2 squares left**."
+  },
+  {
+    "id": "m6.geo.transformations.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which statement about rotating a shape a **half turn** is true?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It doesn’t matter whether you turn clockwise or anticlockwise."
+      },
+      {
+        "id": "b",
+        "text": "The image is a mirror image of the shape."
+      },
+      {
+        "id": "c",
+        "text": "The shape becomes twice as big."
+      },
+      {
+        "id": "d",
+        "text": "Turning clockwise and anticlockwise give different images."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rotation never makes a mirror image. Only a reflection does.",
+      "c": "Transformations never change the size of a shape.",
+      "d": "Half of a full turn is 180° either way, so you end up in the same place."
+    },
+    "hints": [
+      "A half turn is 180°. Picture turning 180° each way."
+    ],
+    "solution": "A half turn is 180°. Turning 180° clockwise or 180° anticlockwise ends in the same place, so **the direction doesn’t matter**."
+  },
+  {
+    "id": "m6.geo.transformations.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama is making a tile pattern. Around one point he has placed two regular hexagons (each corner 120°). He wants to fill the rest of the space with equilateral triangles (each corner 60°). How many triangles does he need?",
+    "answer": 2,
+    "form": "integer",
+    "hints": [
+      "How many degrees do the two hexagons use?",
+      "The angles around a point add to 360°. How many 60° corners fill what is left?"
+    ],
+    "solution": "Hexagons: $120 + 120 = 240°$. Space left: $360 - 240 = 120°$. Triangles: $120 \\div 60 = 2$. He needs **2** triangles."
+  },
+  {
+    "id": "m6.geo.transformations.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why regular pentagons can’t tessellate on their own. Each corner of a regular pentagon is 108°.",
+    "modelAnswer": "Where the tiles meet at a point, the corners must add up to exactly 360°. Three pentagons make $3 \\times 108° = 324°$, which leaves a 36° gap. Four pentagons would make 432°, which is too much, so they would overlap. 108 does not go exactly into 360, so regular pentagons can’t tessellate on their own.",
+    "rubric": [
+      {
+        "criterion": "States that the angles around a point must add up to 360°",
+        "marks": 1
+      },
+      {
+        "criterion": "Shows that 108° does not fit exactly into 360° (e.g. 3 × 108° = 324° leaves a gap, or 4 × 108° = 432° overlaps)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What must the corners that meet at a point add up to?",
+      "Try 3 pentagons, then 4."
+    ],
+    "solution": "The corners at a point must make 360°. Three pentagons give 324° (a gap) and four give 432° (an overlap). 108° doesn’t go exactly into 360°, so pentagons can’t tessellate on their own."
+  },
+  {
+    "id": "m6.geo.transformations.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "A shape is reflected in a mirror line that goes up and down. Then the image is reflected in a second mirror line that goes across. Which single transformation would give the same final image?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A half turn about the point where the two lines cross"
+      },
+      {
+        "id": "b",
+        "text": "A quarter turn clockwise about the point where the lines cross"
+      },
+      {
+        "id": "c",
+        "text": "A translation"
+      },
+      {
+        "id": "d",
+        "text": "One reflection in a different mirror line"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Try it with a sketch: the final image is in the opposite corner, which a half turn gives.",
+      "c": "A translation keeps the shape facing the same way. The final image here is upside down and back to front.",
+      "d": "Two flips make the shape face its original way round again, so the result is not a mirror image of the start. It is a turn."
+    },
+    "hints": [
+      "Sketch it on squared paper with an L shape.",
+      "The first flip makes a mirror image. What does the second flip do to that?"
+    ],
+    "solution": "The first reflection flips the shape left to right. The second flips it top to bottom. Together the shape ends up in the opposite corner, upside down but not a mirror image: the same as **a half turn about the point where the lines cross**."
+  }
+]

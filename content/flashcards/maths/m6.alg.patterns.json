@@ -1,0 +1,14 @@
+[
+  { "id": "m6.alg.patterns.f01", "front": "What is a **pattern**?", "back": "A list of numbers or shapes that follows a rule." },
+  { "id": "m6.alg.patterns.f02", "front": "What is a **term**?", "back": "One number in a pattern. In $3, 7, 11, \\ldots$ the terms are 3, 7, 11, …" },
+  { "id": "m6.alg.patterns.f03", "front": "What is the **position** of a term?", "back": "Where it is in the pattern: 1st, 2nd, 3rd, … In $3, 7, 11$ the term 7 is in position 2." },
+  { "id": "m6.alg.patterns.f04", "front": "What is the **constant** in a growing pattern?", "back": "The amount the pattern changes by each time. In $3, 7, 11, 15$ it is 4." },
+  { "id": "m6.alg.patterns.f05", "front": "What two things does a **rule in words** say?", "back": "What to start with, and what to add or subtract each time. E.g. \"Start with 3 and add 4 each time.\"" },
+  { "id": "m6.alg.patterns.f06", "front": "What is a **table of values**?", "back": "A table that shows each position next to its term, so you can see the rule." },
+  { "id": "m6.alg.patterns.f07", "front": "What is a **conjecture**?", "back": "A prediction you think is true but still need to check." },
+  { "id": "m6.alg.patterns.f08", "front": "How many jumps are there from the 1st term to the 20th term?", "back": "19 jumps. Count the jumps, not the terms." },
+  { "id": "m6.alg.patterns.f09", "front": "How do you find the 20th term of $3, 7, 11, 15, \\ldots$?", "back": "First term + 19 jumps of 4: $3 + 19 \\times 4 = 79$." },
+  { "id": "m6.alg.patterns.f10", "front": "What is the rule for $50, 45, 40, 35, \\ldots$?", "back": "Start with 50 and subtract 5 each time." },
+  { "id": "m6.alg.patterns.f11", "front": "Is the 10th term always double the 5th term?", "back": "No. Only if the pattern starts at the same number as its jump, like $4, 8, 12, \\ldots$ Always check." },
+  { "id": "m6.alg.patterns.f12", "front": "How do you check a rule?", "back": "Use it to make the first few terms. They should match the pattern you were given." }
+]

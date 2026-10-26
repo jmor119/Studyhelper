@@ -1,0 +1,334 @@
+[
+  {
+    "id": "m7.alg.equations.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the equation $t + 7 = 12$, the letter $t$ is the [[a]].\n\nThe number that makes the equation true is called the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["unknown"], "options": ["unknown", "coefficient", "formula"] },
+      { "id": "b", "accepted": ["solution"], "options": ["solution", "expression", "term"] }
+    ],
+    "hints": ["We don't know what $t$ is yet. That's what we are trying to find."],
+    "solution": "$t$ is the **unknown**. The number that makes the equation true is the **solution**. Here the solution is $t = 5$, because $5 + 7 = 12$."
+  },
+  {
+    "id": "m7.alg.equations.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is an **equation**?",
+    "options": [
+      { "id": "a", "text": "$3x + 2 = 14$" },
+      { "id": "b", "text": "$3x + 2$" },
+      { "id": "c", "text": "$3x$" },
+      { "id": "d", "text": "$5 + 3 + x$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is an expression. An equation needs an equals sign.",
+      "c": "This is a single term. An equation needs an equals sign with something on each side.",
+      "d": "This is an expression. There is no equals sign, so there is nothing to solve."
+    },
+    "hints": ["Look for the equals sign."],
+    "solution": "An equation has an equals sign, and both sides have the same value. $3x + 2 = 14$ is the only one with an equals sign."
+  },
+  {
+    "id": "m7.alg.equations.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Hemi has some shells. At the beach he finds 6 more, and now he has 21 shells. How many shells did Hemi have at first?",
+    "answer": 15,
+    "form": "integer",
+    "hints": ["Write an equation: $s + 6 = 21$.", "What is the inverse of adding 6?"],
+    "solution": "Let $s$ be the number of shells at first. Then $s + 6 = 21$.\n\nSubtract 6 from both sides: $s = 21 - 6 = 15$.\n\nCheck: $15 + 6 = 21$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the **inverse** of multiplying by 6?",
+    "options": [
+      { "id": "a", "text": "Dividing by 6" },
+      { "id": "b", "text": "Subtracting 6" },
+      { "id": "c", "text": "Adding 6" },
+      { "id": "d", "text": "Multiplying by 6 again" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Subtracting undoes adding. Multiplying is undone by dividing.",
+      "c": "Adding is the opposite of subtracting, not of multiplying.",
+      "d": "Multiplying again makes the number even bigger. It doesn't undo anything."
+    },
+    "hints": ["The inverse operation undoes the first one. Try it: $4 \\times 6 = 24$. How do you get back to 4?"],
+    "solution": "Dividing by 6 undoes multiplying by 6. For example, $4 \\times 6 = 24$ and $24 \\div 6 = 4$."
+  },
+  {
+    "id": "m7.alg.equations.q005",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these steps for solving $4x - 3 = 17$ in the right order.",
+    "items": [
+      { "id": "s1", "text": "Write the equation: $4x - 3 = 17$" },
+      { "id": "s2", "text": "Add 3 to both sides: $4x = 20$" },
+      { "id": "s3", "text": "Divide both sides by 4: $x = 5$" },
+      { "id": "s4", "text": "Check: $4 \\times 5 - 3 = 17$ ✓" }
+    ],
+    "hints": ["Undo the last thing that was done to $x$ first.", "Checking always comes at the end."],
+    "solution": "$x$ was multiplied by 4, then 3 was taken away. Undo in reverse order: add 3 first, then divide by 4. Finally, check by substituting $x = 5$."
+  },
+  {
+    "id": "m7.alg.equations.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai solves $x + 8 = 20$ and gets $x = 28$. What has Kai done wrong?",
+    "options": [
+      { "id": "a", "text": "He added 8 instead of subtracting 8. The answer is $x = 12$." },
+      { "id": "b", "text": "Nothing. $x = 28$ is right." },
+      { "id": "c", "text": "He should have divided by 8." },
+      { "id": "d", "text": "He should have multiplied by 8." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Check it: $28 + 8 = 36$, not 20.",
+      "c": "8 has been added to $x$, not multiplied, so dividing won't undo it.",
+      "d": "Multiplying doesn't undo adding. The inverse of adding 8 is subtracting 8."
+    },
+    "hints": ["Check Kai's answer by putting it back into the equation.", "What is the inverse of adding 8?"],
+    "solution": "8 has been added to $x$, so subtract 8 from both sides: $x = 20 - 8 = 12$.\n\nCheck: $12 + 8 = 20$ ✓. Kai's answer doesn't check: $28 + 8 = 36$."
+  },
+  {
+    "id": "m7.alg.equations.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Solve $\\frac{n}{6} = 9$.",
+    "answer": 54,
+    "form": "integer",
+    "variable": "n",
+    "hints": ["$n$ has been divided by 6. What is the inverse?"],
+    "solution": "Multiply both sides by 6: $n = 9 \\times 6 = 54$.\n\nCheck: $54 \\div 6 = 9$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q008",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each equation to its solution.",
+    "pairs": [
+      { "left": { "id": "e1", "text": "$x + 5 = 12$" }, "right": { "id": "s1", "text": "$x = 7$" } },
+      { "left": { "id": "e2", "text": "$3x = 12$" }, "right": { "id": "s2", "text": "$x = 4$" } },
+      { "left": { "id": "e3", "text": "$x - 4 = 5$" }, "right": { "id": "s3", "text": "$x = 9$" } },
+      { "left": { "id": "e4", "text": "$\\frac{x}{2} = 3$" }, "right": { "id": "s4", "text": "$x = 6$" } }
+    ],
+    "hints": ["Use the inverse operation for each one, or try each solution and check."],
+    "solution": "$x + 5 = 12$ gives $x = 7$. $3x = 12$ gives $x = 4$. $x - 4 = 5$ gives $x = 9$. $\\frac{x}{2} = 3$ gives $x = 6$."
+  },
+  {
+    "id": "m7.alg.equations.q009",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the values of $x$ that make $x + 3 < 8$ true.",
+    "options": [
+      { "id": "a", "text": "$x = 2$" },
+      { "id": "b", "text": "$x = 4$" },
+      { "id": "c", "text": "$x = 5$" },
+      { "id": "d", "text": "$x = 6$" },
+      { "id": "e", "text": "$x = 0$" },
+      { "id": "f", "text": "$x = 7$" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Substitute each value and see if the left side is **less than** 8.", "Is $8 < 8$ true?"],
+    "solution": "$2 + 3 = 5$, $4 + 3 = 7$ and $0 + 3 = 3$ are all less than 8 ✓.\n\n$5 + 3 = 8$ is equal to 8, not less than 8, so $x = 5$ doesn't work. 6 and 7 give 9 and 10, which are too big."
+  },
+  {
+    "id": "m7.alg.equations.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Solve $5s + 3 = 18$.",
+    "answer": 3,
+    "form": "integer",
+    "variable": "s",
+    "hints": ["Undo the + 3 first.", "Then undo the × 5."],
+    "solution": "Subtract 3 from both sides: $5s = 15$.\n\nDivide both sides by 5: $s = 3$.\n\nCheck: $5 \\times 3 + 3 = 18$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Solve $x + 12 = 5$.",
+    "answer": -7,
+    "form": "integer",
+    "variable": "x",
+    "hints": ["Subtract 12 from both sides.", "$5 - 12$: start at 5 on a number line and move 12 to the left."],
+    "solution": "Subtract 12 from both sides: $x = 5 - 12 = -7$.\n\nOn a number line, start at 5 and move 12 to the left. You pass 0 and stop at $-7$.\n\nCheck: $-7 + 12 = 5$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ana has some \\$2 coins and one \\$5 note. Altogether she has \\$17. Which equation could you solve to find $n$, the number of \\$2 coins?",
+    "options": [
+      { "id": "a", "text": "$2n + 5 = 17$" },
+      { "id": "b", "text": "$5n + 2 = 17$" },
+      { "id": "c", "text": "$n + 2 + 5 = 17$" },
+      { "id": "d", "text": "$2n = 17 + 5$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "There are $n$ coins worth \\$2 each, so the coins are worth $2n$. There is only one \\$5 note.",
+      "c": "Each coin is worth \\$2, so $n$ coins are worth $2 \\times n$, not $n + 2$.",
+      "d": "The \\$5 note is part of the \\$17, so the coins are worth $17 - 5$, not $17 + 5$."
+    },
+    "hints": ["How much are $n$ coins worth if each is worth \\$2?", "Then add the note."],
+    "solution": "$n$ coins at \\$2 each are worth $2n$ dollars. Add the \\$5 note: $2n + 5 = 17$.\n\nSolving: $2n = 12$, so $n = 6$. Ana has six \\$2 coins."
+  },
+  {
+    "id": "m7.alg.equations.q013",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Is this number sentence true or false?\n\n$$3 \\times 0.5 + 6 \\ge 2 \\times 4$$\n\nIt is [[a]].",
+    "blanks": [{ "id": "a", "accepted": ["false"], "options": ["true", "false"] }],
+    "hints": ["Work out each side. Multiply before you add.", "$\\ge$ means \"is greater than or equal to\"."],
+    "solution": "Left: $3 \\times 0.5 + 6 = 1.5 + 6 = 7.5$.\n\nRight: $2 \\times 4 = 8$.\n\nIs 7.5 greater than or equal to 8? No, so the number sentence is **false**."
+  },
+  {
+    "id": "m7.alg.equations.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A family goes to a Matariki festival. Adult tickets cost \\$15 and child tickets cost \\$8. The family buys 2 adult tickets and some child tickets, and pays \\$62 altogether. How many child tickets did they buy?",
+    "answer": 4,
+    "form": "integer",
+    "hints": ["Work out the cost of the 2 adult tickets first.", "Let $n$ be the number of child tickets and write an equation."],
+    "solution": "2 adult tickets cost $2 \\times 15 = 30$ dollars.\n\nLet $n$ be the number of child tickets: $8n + 30 = 62$.\n\nSubtract 30: $8n = 32$. Divide by 8: $n = 4$.\n\nCheck: $30 + 4 \\times 8 = 30 + 32 = 62$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Grace wants to solve $7x + 13 = 104$. She starts guessing: $x = 1$, then $x = 2$, then $x = 3$, ….\n\nExplain why this method is slow, then solve the equation using inverse operations.",
+    "modelAnswer": "Guessing one number at a time (trial and error) works, but the answer could be a big number, so it might take a lot of guesses. Inverse operations are faster. Subtract 13 from both sides: $7x = 91$. Divide both sides by 7: $x = 13$. Check: $7 \\times 13 + 13 = 91 + 13 = 104$ ✓",
+    "rubric": [
+      { "criterion": "Explains that trial and error can take many guesses (it works but is slow)", "marks": 1 },
+      { "criterion": "Solves with inverse operations to get $x = 13$", "marks": 1 }
+    ],
+    "hints": ["How many guesses would Grace need if the answer were 13?", "Undo the + 13 first, then the × 7."],
+    "solution": "Trial and error would need 13 guesses if she counts up by 1. Using inverse operations: $7x = 104 - 13 = 91$, so $x = 91 \\div 7 = 13$."
+  },
+  {
+    "id": "m7.alg.equations.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Solve $40 - 3x = 19$.",
+    "answer": 7,
+    "form": "integer",
+    "variable": "x",
+    "hints": ["40 take away something leaves 19. What must the something be?", "So $3x$ equals that number. Now find $x$."],
+    "solution": "$40 - 3x = 19$, so $3x$ must be $40 - 19 = 21$.\n\nDivide by 3: $x = 7$.\n\nCheck: $40 - 3 \\times 7 = 40 - 21 = 19$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Talia solves $3x + 6 = 21$ like this:\n\n- Step 1: $x + 6 = 7$\n- Step 2: $x = 1$\n\nWhere did Talia go wrong?",
+    "options": [
+      { "id": "a", "text": "In Step 1. She divided $3x$ and 21 by 3, but not the 6. She should subtract 6 first: $3x = 15$, so $x = 5$." },
+      { "id": "b", "text": "In Step 2. It should say $x = 13$." },
+      { "id": "c", "text": "She didn't go wrong. $x = 1$ is right." },
+      { "id": "d", "text": "In Step 1. She should have added 6 to both sides first." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Step 2 follows from Step 1 correctly ($7 - 6 = 1$). The mistake happened earlier.",
+      "c": "Check it: $3 \\times 1 + 6 = 9$, not 21.",
+      "d": "6 has been added to $3x$, so the inverse is to subtract 6, not add it."
+    },
+    "hints": ["Check Talia's answer in the original equation.", "In which order should the steps be undone?"],
+    "solution": "Undo the + 6 first: $3x = 21 - 6 = 15$. Then divide by 3: $x = 5$. Check: $3 \\times 5 + 6 = 21$ ✓\n\nTalia divided by 3 first but forgot that the 6 would need dividing too. It's easier to undo the + 6 first."
+  },
+  {
+    "id": "m7.alg.equations.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The length of a rectangle is 3 times its width. The perimeter of the rectangle is 48 cm. Find the width.",
+    "answer": 6,
+    "form": "integer",
+    "units": "cm",
+    "hints": ["Call the width $w$. What is the length?", "Add all four sides, collect like terms, and make it equal to 48."],
+    "solution": "Width $= w$, length $= 3w$.\n\nPerimeter $= w + 3w + w + 3w = 8w$, so $8w = 48$.\n\nDivide by 8: $w = 6$. The width is 6 cm (and the length is 18 cm).\n\nCheck: $6 + 18 + 6 + 18 = 48$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "This triangle has two equal sides of length $x$ cm and a base of 9 cm. Its perimeter is 35 cm. Find $x$.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" width=\"360\" height=\"230\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"70,180 160,40 300,180\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"101\" y=\"104\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">x</text><text x=\"244\" y=\"104\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">x</text><text x=\"185\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">9 cm</text><text x=\"352\" y=\"218\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A triangle with two sides labelled x and a base labelled 9 cm." },
+    "answer": 13,
+    "form": "integer",
+    "units": "cm",
+    "variable": "x",
+    "hints": ["Write the perimeter as an expression: $x + x + 9$.", "Collect like terms, make it equal to 35, then solve."],
+    "solution": "Perimeter $= x + x + 9 = 2x + 9$.\n\n$2x + 9 = 35$, so $2x = 26$ and $x = 13$.\n\nCheck: $13 + 13 + 9 = 35$ ✓"
+  },
+  {
+    "id": "m7.alg.equations.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the **smallest** whole number that makes this number sentence true?\n\n$$5 \\times \\square + 7 > 60$$",
+    "answer": 11,
+    "form": "integer",
+    "hints": ["Try a number, like 10. Is the sentence true?", "Then try the numbers next to it."],
+    "solution": "Try 10: $5 \\times 10 + 7 = 57$, which is not greater than 60 ✗\n\nTry 11: $5 \\times 11 + 7 = 62$, which is greater than 60 ✓\n\nSo the smallest whole number is 11."
+  },
+  {
+    "id": "m7.alg.equations.q021",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write a word problem that could be solved with the equation $4n + 10 = 50$. Then solve the equation.",
+    "modelAnswer": "Example: \"Rawiri buys some movie tickets that cost \\$4 each. He also pays a \\$10 booking fee. He pays \\$50 altogether. How many tickets did he buy?\" Solving: $4n + 10 = 50$, so $4n = 40$ and $n = 10$. He bought 10 tickets. Check: $4 \\times 10 + 10 = 50$ ✓",
+    "rubric": [
+      { "criterion": "Word problem matches the equation: something counted $n$ times at 4 each, plus a one-off 10, making 50", "marks": 1 },
+      { "criterion": "Solves correctly to get $n = 10$", "marks": 1 }
+    ],
+    "hints": ["$4n$ could be $n$ things that cost \\$4 each. What could the 10 be?", "Solve by undoing the + 10, then the × 4."],
+    "solution": "Any story where something worth 4 is counted $n$ times, plus a one-off 10, makes 50. For example, tickets at \\$4 each plus a \\$10 fee, costing \\$50. Solving: $4n = 40$, so $n = 10$."
+  },
+  {
+    "id": "m7.alg.equations.q022",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The balance shows $3x + 4 = 19$. Each box has the same mass $x$, and each counter has a mass of 1. What is $x$?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 115\" width=\"280\" height=\"115\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><g transform=\"translate(0,-70)\"><polygon points=\"140,124 126,152 154,152\" fill=\"#9ca3af\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"14\" y1=\"122\" x2=\"266\" y2=\"122\" stroke=\"#1f2937\" stroke-width=\"4\"/><rect x=\"18\" y=\"94\" width=\"24\" height=\"26\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"30\" y=\"107\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">x</text><rect x=\"45\" y=\"94\" width=\"24\" height=\"26\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"57\" y=\"107\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">x</text><rect x=\"72\" y=\"94\" width=\"24\" height=\"26\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"84\" y=\"107\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">x</text><circle cx=\"107\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"119\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"107\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"119\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"154\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"166\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"214\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"226\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"238\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"114\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"154\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"166\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"214\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"226\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"238\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"102\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"154\" cy=\"90\" r=\"5\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"140\" y=\"172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">3x + 4 = 19</text></g></svg>", "alt": "A balance with three boxes labelled x and 4 counters on the left, and 19 counters on the right. The balance is level." },
+    "answer": 5,
+    "form": "integer",
+    "variable": "x",
+    "hints": ["Take 4 counters off both sides. What is left?", "Share what is left between the 3 boxes."],
+    "solution": "Take 4 counters off both sides: $3x = 15$.\n\nShare between the 3 boxes: $x = 15 \\div 3 = 5$.\n\nCheck: $3 \\times 5 + 4 = 19$ ✓"
+  }
+]

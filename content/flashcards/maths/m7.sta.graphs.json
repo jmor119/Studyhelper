@@ -1,0 +1,13 @@
+[
+  { "id": "m7.sta.graphs.f01", "front": "What is a **statistical question**?", "back": "A question you answer by collecting data, where the answers vary. For example: \"How many hours do Year 7 students sleep?\"" },
+  { "id": "m7.sta.graphs.f02", "front": "What is a **dot plot**?", "back": "A number line with one dot for each value. Dots with the same value stack up. Good for numerical data." },
+  { "id": "m7.sta.graphs.f03", "front": "What is a **bar graph** used for?", "back": "Showing one categorical variable: one bar for each category, with the height showing how many." },
+  { "id": "m7.sta.graphs.f04", "front": "What is a **clustered bar graph**?", "back": "A bar graph with the bars for each group side by side, used to compare two categorical variables." },
+  { "id": "m7.sta.graphs.f05", "front": "What is a **stacked bar graph**?", "back": "One bar for each group, split into parts. Each part's size is its top value take away its bottom value." },
+  { "id": "m7.sta.graphs.f06", "front": "What is a **time-series graph**?", "back": "A graph of data collected over time: time along the horizontal axis, with the points joined by straight lines." },
+  { "id": "m7.sta.graphs.f07", "front": "What should every good graph have?", "back": "A title, axis labels (with units), an even scale, a key if needed, and who the data came from." },
+  { "id": "m7.sta.graphs.f08", "front": "What is the **scale** on a graph?", "back": "The numbers along an axis. They must go up in equal steps, and on a bar graph they start at 0." },
+  { "id": "m7.sta.graphs.f09", "front": "What does a **key** (legend) do?", "back": "It shows which colour stands for which group, such as Year 7 and Year 8." },
+  { "id": "m7.sta.graphs.f10", "front": "What should you do about an **outlier** in a display?", "back": "Check it is correct and try to explain it. Keep it if it is real: outliers aren't always mistakes." },
+  { "id": "m7.sta.graphs.f11", "front": "Which display for two categorical variables?", "back": "A clustered bar graph or a stacked bar graph." }
+]

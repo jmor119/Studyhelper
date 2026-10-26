@@ -1,0 +1,320 @@
+[
+  {
+    "id": "m6.mea.time.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How many minutes are in 1 hour?",
+    "options": [
+      {"id":"a","text":"60"},
+      {"id":"b","text":"100"},
+      {"id":"c","text":"24"},
+      {"id":"d","text":"30"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Time doesn't work in hundreds like metres and centimetres. An hour has 60 minutes.","c":"24 is the number of hours in a day.","d":"30 minutes is half an hour."},
+    "hints": ["The minute hand goes all the way round the clock once in an hour. How many minutes are marked on a clock face?"],
+    "solution": "There are **60 minutes** in 1 hour."
+  },
+  {
+    "id": "m6.mea.time.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each amount of time to the same amount in a smaller unit.",
+    "pairs": [
+      {"left":{"id":"mi","text":"1 minute"},"right":{"id":"x1","text":"60 seconds"}},
+      {"left":{"id":"ho","text":"1 hour"},"right":{"id":"x2","text":"60 minutes"}},
+      {"left":{"id":"da","text":"1 day"},"right":{"id":"x3","text":"24 hours"}},
+      {"left":{"id":"we","text":"1 week"},"right":{"id":"x4","text":"7 days"}}
+    ],
+    "hints": ["Two of them use the number 60."],
+    "solution": "1 minute = 60 seconds, 1 hour = 60 minutes, 1 day = 24 hours and 1 week = 7 days."
+  },
+  {
+    "id": "m6.mea.time.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these times is in the **afternoon**?",
+    "options": [
+      {"id":"a","text":"3:15 pm"},
+      {"id":"b","text":"3:15 am"},
+      {"id":"c","text":"09:30"},
+      {"id":"d","text":"11:45 am"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"am times are between midnight and midday. 3:15 am is very early in the morning.","c":"In 24-hour time, 09:30 is 9:30 am, in the morning.","d":"11:45 am is just before midday, so it is still morning."},
+    "hints": ["pm times are after midday."],
+    "solution": "pm means after midday, so **3:15 pm** is in the afternoon."
+  },
+  {
+    "id": "m6.mea.time.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "am times are between midnight and [[a]]. pm times are between midday and [[b]].",
+    "blanks": [
+      {"id":"a","accepted":["midday"],"options":["midday","midnight"]},
+      {"id":"b","accepted":["midnight"],"options":["midday","midnight"]}
+    ],
+    "hints": ["The morning is am. When does the morning end?"],
+    "solution": "am times are from midnight to **midday** (the morning). pm times are from midday to **midnight** (the afternoon and evening)."
+  },
+  {
+    "id": "m6.mea.time.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ruby says 1.5 hours is the same as 1 hour 50 minutes. Which is correct?",
+    "options": [
+      {"id":"a","text":"1.5 hours = 1 hour 30 minutes, because half an hour is 30 minutes"},
+      {"id":"b","text":"Ruby is right: 1.5 hours = 1 hour 50 minutes"},
+      {"id":"c","text":"1.5 hours = 1 hour 5 minutes"},
+      {"id":"d","text":"1.5 hours = 15 minutes"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Ruby has treated an hour like 100 minutes. 0.5 of an hour is half of 60 minutes.","c":"0.5 means a half, not 5 minutes.","d":"1.5 hours is more than 1 hour, so it must be more than 60 minutes."},
+    "hints": ["0.5 means one half. What is half of 60 minutes?"],
+    "solution": "1.5 hours is one and a half hours. Half an hour is 30 minutes, so 1.5 hours = **1 hour 30 minutes** (90 minutes)."
+  },
+  {
+    "id": "m6.mea.time.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which time is the same as 19:45?",
+    "options": [
+      {"id":"a","text":"7:45 pm"},
+      {"id":"b","text":"9:45 pm"},
+      {"id":"c","text":"7:45 am"},
+      {"id":"d","text":"5:45 pm"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"This takes away 10 from the hour. Take away 12 instead: 19 − 12 = 7.","c":"19 is more than 12, so the time is after midday. It is pm, not am.","d":"Check the hour: 19 − 12 = 7, not 5."},
+    "hints": ["The hour is more than 12, so take away 12."],
+    "solution": "$19 - 12 = 7$, and 19:45 is after midday, so it is **7:45 pm**."
+  },
+  {
+    "id": "m6.mea.time.q007",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these amounts of time in order from **shortest** to **longest**.",
+    "items": [
+      {"id":"d1","text":"100 seconds"},
+      {"id":"d2","text":"2 minutes"},
+      {"id":"d3","text":"1 hour 5 minutes"},
+      {"id":"d4","text":"70 minutes"},
+      {"id":"d5","text":"1 and a half hours"}
+    ],
+    "hints": ["Change them all into minutes (or minutes and seconds) first."],
+    "solution": "100 seconds = 1 min 40 s, then 2 minutes, then 1 hour 5 minutes = 65 minutes, then 70 minutes, then 1 and a half hours = 90 minutes."
+  },
+  {
+    "id": "m6.mea.time.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "How many days are in a leap year?",
+    "answer": 366,
+    "units": "d",
+    "form": "integer",
+    "hints": ["An ordinary year has 365 days. A leap year has one extra day, 29 February."],
+    "solution": "An ordinary year has 365 days. A leap year adds 29 February, so it has **366 days**."
+  },
+  {
+    "id": "m6.mea.time.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "About how long does it take the Moon to go through all of its phases, from one new moon to the next?",
+    "options": [
+      {"id":"a","text":"About 29 and a half days"},
+      {"id":"b","text":"About 7 days"},
+      {"id":"c","text":"About 365 days"},
+      {"id":"d","text":"About 24 hours"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"A week is 7 days, but the Moon's cycle is about four times longer.","c":"365 days is the time Earth takes to go around the Sun: one year.","d":"24 hours is one day, the time Earth takes to spin around once."},
+    "hints": ["This is about the length of a month. The word 'month' comes from 'moon'."],
+    "solution": "The Moon's cycle of phases takes **about 29 and a half days**. This is a lunar month, the basis of lunar calendars like the maramataka."
+  },
+  {
+    "id": "m6.mea.time.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Jack wants to know how long it is from 2:50 pm to 3:20 pm. He writes $320 - 250 = 70$ minutes. What is the correct answer?",
+    "options": [
+      {"id":"a","text":"30 minutes"},
+      {"id":"b","text":"70 minutes"},
+      {"id":"c","text":"1 hour 10 minutes"},
+      {"id":"d","text":"50 minutes"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Jack has treated an hour like 100 minutes. There are only 60 minutes in an hour.","c":"1 hour 10 minutes is the same as 70 minutes, which is not right.","d":"Count on: 2:50 to 3:00 is only 10 minutes."},
+    "hints": ["Count on from 2:50 pm to 3:00 pm first.","Then count on from 3:00 pm to 3:20 pm."],
+    "solution": "2:50 pm → 3:00 pm is 10 minutes. 3:00 pm → 3:20 pm is 20 minutes. $10 + 20 =$ **30 minutes**. Subtracting the numbers doesn't work, because an hour has 60 minutes, not 100."
+  },
+  {
+    "id": "m6.mea.time.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The school day starts at 8:50 am. Morning tea starts at 10:30 am. How many minutes is it from the start of the school day to morning tea?",
+    "answer": 100,
+    "units": "min",
+    "form": "integer",
+    "hints": ["Count on from 8:50 am to 9:00 am first.","Then count on to 10:00 am, and then to 10:30 am."],
+    "solution": "8:50 → 9:00 is 10 minutes. 9:00 → 10:00 is 60 minutes. 10:00 → 10:30 is 30 minutes.\n\n$10 + 60 + 30 = 100$ minutes."
+  },
+  {
+    "id": "m6.mea.time.q012",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the times that are the same as quarter to eight in the evening.",
+    "options": [
+      {"id":"a","text":"7:45 pm"},
+      {"id":"b","text":"19:45"},
+      {"id":"c","text":"8:45 pm"},
+      {"id":"d","text":"07:45"},
+      {"id":"e","text":"20:15"}
+    ],
+    "correct": ["a","b"],
+    "hints": ["Quarter to eight is 15 minutes before 8 o'clock.","Evening times are pm. In 24-hour time, add 12 to the hour."],
+    "solution": "Quarter to eight is 15 minutes before 8:00, which is 7:45. In the evening that is **7:45 pm**, or **19:45** in 24-hour time. 07:45 is in the morning, 8:45 pm is an hour too late, and 20:15 is quarter past eight."
+  },
+  {
+    "id": "m6.mea.time.q013",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain how to work out how long it is from 10:45 am to 1:15 pm. Give the answer.",
+    "modelAnswer": "Count on to the next o'clock first. From 10:45 am to 11:00 am is 15 minutes. From 11:00 am to 1:00 pm is 2 hours. From 1:00 pm to 1:15 pm is 15 minutes. Altogether it is 2 hours and 15 + 15 = 30 minutes, so 2 hours 30 minutes.",
+    "rubric": [
+      {"criterion":"Shows a sensible method, such as counting on to 11:00, then the whole hours, then the minutes","marks":1},
+      {"criterion":"Gets the correct answer: 2 hours 30 minutes (150 minutes)","marks":1}
+    ],
+    "hints": ["Count on to 11:00 am first.","How many whole hours from 11:00 am to 1:00 pm?"],
+    "solution": "10:45 → 11:00 is 15 minutes, 11:00 → 1:00 pm is 2 hours, and 1:00 → 1:15 is 15 minutes. Total: **2 hours 30 minutes**."
+  },
+  {
+    "id": "m6.mea.time.q014",
+    "type": "text",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m6.mea.time.g1",
+    "part": "a",
+    "stem": "Here is part of a train timetable for a Saturday morning.\n\n| Station | Train A | Train B | Train C |\n|---|---|---|---|\n| Southside | 08:05 | 08:35 | 09:20 |\n| Riverbank | 08:17 | 08:47 | 09:32 |\n| Harbour View | 08:31 | 09:01 | 09:46 |\n| City | 08:48 | 09:18 | 10:03 |",
+    "prompt": "What time does Train B arrive at Harbour View? Write the time as it is shown in the timetable.",
+    "accepted": ["09:01","0901","9:01","9.01","09.01","9:01 am","9:01am","9.01 am"],
+    "allowTypos": false,
+    "hints": ["Find the Train B column, then go down to the Harbour View row."],
+    "solution": "Go down the Train B column to the Harbour View row: **09:01** (9:01 am)."
+  },
+  {
+    "id": "m6.mea.time.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m6.mea.time.g1",
+    "part": "b",
+    "stem": "Here is part of a train timetable for a Saturday morning.\n\n| Station | Train A | Train B | Train C |\n|---|---|---|---|\n| Southside | 08:05 | 08:35 | 09:20 |\n| Riverbank | 08:17 | 08:47 | 09:32 |\n| Harbour View | 08:31 | 09:01 | 09:46 |\n| City | 08:48 | 09:18 | 10:03 |",
+    "prompt": "How many minutes does Train A take to go from Southside to the City?",
+    "answer": 43,
+    "units": "min",
+    "form": "integer",
+    "hints": ["Train A leaves Southside at 08:05. When does it get to the City?","Both times are in the same hour, so you can take the minutes away."],
+    "solution": "Train A leaves Southside at 08:05 and arrives in the City at 08:48.\n\n$48 - 5 = 43$, so the trip takes **43 minutes**."
+  },
+  {
+    "id": "m6.mea.time.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m6.mea.time.g1",
+    "part": "c",
+    "stem": "Here is part of a train timetable for a Saturday morning.\n\n| Station | Train A | Train B | Train C |\n|---|---|---|---|\n| Southside | 08:05 | 08:35 | 09:20 |\n| Riverbank | 08:17 | 08:47 | 09:32 |\n| Harbour View | 08:31 | 09:01 | 09:46 |\n| City | 08:48 | 09:18 | 10:03 |",
+    "prompt": "Ana must be in the City by 9:30 am for her netball game. What is the **latest** train she can catch from Riverbank?",
+    "options": [
+      {"id":"a","text":"Train B, leaving Riverbank at 08:47"},
+      {"id":"b","text":"Train A, leaving Riverbank at 08:17"},
+      {"id":"c","text":"Train C, leaving Riverbank at 09:32"},
+      {"id":"d","text":"None of the trains get there in time"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Train A gets there in time (08:48), but Train B is later and still gets there by 9:30 am.","c":"Train C reaches the City at 10:03, which is after 9:30 am. It even leaves Riverbank after 9:30 am.","d":"Look at the City row: Trains A and B both arrive before 9:30 am (09:30)."},
+    "hints": ["9:30 am is 09:30 in 24-hour time.","Look along the City row. Which trains arrive by 09:30?"],
+    "solution": "In the City row, Train A arrives at 08:48 and Train B at 09:18, both before 09:30. Train C arrives at 10:03, too late. The latest train in time is **Train B**, which leaves Riverbank at 08:47."
+  },
+  {
+    "id": "m6.mea.time.q017",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m6.mea.time.g1",
+    "part": "d",
+    "stem": "Here is part of a train timetable for a Saturday morning.\n\n| Station | Train A | Train B | Train C |\n|---|---|---|---|\n| Southside | 08:05 | 08:35 | 09:20 |\n| Riverbank | 08:17 | 08:47 | 09:32 |\n| Harbour View | 08:31 | 09:01 | 09:46 |\n| City | 08:48 | 09:18 | 10:03 |",
+    "prompt": "Hemi gets to Riverbank station at 08:20. He catches the next train to the City. How many minutes is it from when Hemi gets to the station until he arrives in the City?",
+    "answer": 58,
+    "units": "min",
+    "form": "integer",
+    "hints": ["Train A has already left Riverbank by 08:20. Which train does Hemi catch?","Count on from 08:20 to the time that train reaches the City."],
+    "solution": "Train A left Riverbank at 08:17, so Hemi catches Train B at 08:47. It reaches the City at 09:18.\n\nCount on: 08:20 → 09:00 is 40 minutes, and 09:00 → 09:18 is 18 minutes.\n\n$40 + 18 = 58$ minutes."
+  },
+  {
+    "id": "m6.mea.time.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Grace has a 45-minute swimming lesson once a week for 8 weeks. How many hours of swimming lessons is that altogether?",
+    "answer": 6,
+    "units": "h",
+    "form": "integer",
+    "hints": ["Find the total number of minutes first.","Then change the minutes into hours by dividing by 60."],
+    "solution": "$8 \\times 45 = 360$ minutes.\n\n$360 \\div 60 = 6$, so that is **6 hours**."
+  },
+  {
+    "id": "m6.mea.time.q019",
+    "type": "text",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "The ferry from Wellington to Picton leaves at 13:45. The trip takes 3 hours 30 minutes. What time does the ferry arrive? Give your answer in 24-hour time.",
+    "accepted": ["17:15","1715","17.15","17:15 h","1715 hours","1715 hrs"],
+    "allowTypos": false,
+    "hints": ["Add the 3 hours first.","Then add 30 minutes. Remember there are only 60 minutes in an hour."],
+    "solution": "13:45 + 3 hours = 16:45.\n\n16:45 + 30 minutes: 15 minutes takes it to 17:00, and 15 more minutes takes it to 17:15.\n\nThe ferry arrives at **17:15** (5:15 pm)."
+  },
+  {
+    "id": "m6.mea.time.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain the difference between a **solar** calendar and a **lunar** calendar. Give an example of each.",
+    "modelAnswer": "A solar calendar follows the Sun. Its year is based on the time Earth takes to go around the Sun, about 365 days. The Gregorian calendar, which we use for school terms and birthdays, is a solar calendar. A lunar calendar follows the Moon. Its months are based on the Moon's phases, about 29 and a half days each. The maramataka (the Māori lunar calendar) is a lunar calendar.",
+    "rubric": [
+      {"criterion":"Explains that a solar calendar follows the Sun (Earth's trip around the Sun) and a lunar calendar follows the Moon's phases","marks":1},
+      {"criterion":"Gives a correct example of each, e.g. Gregorian (solar) and maramataka or the Chinese calendar (lunar)","marks":1}
+    ],
+    "hints": ["Sol is to do with the Sun, and luna is to do with the Moon."],
+    "solution": "Solar calendars follow the Sun (Earth's year around it), e.g. the Gregorian calendar. Lunar calendars follow the phases of the Moon, e.g. the maramataka."
+  },
+  {
+    "id": "m6.mea.time.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Losa's family drives from Auckland to Taupō. They leave at 9:20 am and arrive at 1:05 pm. They stop for lunch for 35 minutes on the way. How many minutes do they spend actually driving?",
+    "answer": 190,
+    "units": "min",
+    "form": "integer",
+    "hints": ["Work out how long the whole trip takes, from leaving to arriving.","Then take away the time they stopped for lunch."],
+    "solution": "Whole trip: 9:20 am → 10:00 am is 40 minutes, 10:00 am → 1:00 pm is 3 hours (180 minutes), and 1:00 pm → 1:05 pm is 5 minutes.\n\n$40 + 180 + 5 = 225$ minutes.\n\nDriving time: $225 - 35 =$ **190 minutes** (3 hours 10 minutes)."
+  }
+]

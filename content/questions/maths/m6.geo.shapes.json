@@ -1,0 +1,734 @@
+[
+  {
+    "id": "m6.geo.shapes.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which quadrilateral has exactly one pair of parallel sides?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trapezium"
+      },
+      {
+        "id": "b",
+        "text": "Parallelogram"
+      },
+      {
+        "id": "c",
+        "text": "Rectangle"
+      },
+      {
+        "id": "d",
+        "text": "Kite"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A parallelogram has two pairs of parallel sides.",
+      "c": "A rectangle has two pairs of parallel sides, as well as four right angles.",
+      "d": "A kite has two pairs of equal sides next to each other. Its sides are not parallel."
+    },
+    "hints": [
+      "Parallel sides always stay the same distance apart, like railway tracks."
+    ],
+    "solution": "A **trapezium** has exactly one pair of parallel sides. Parallelograms and rectangles have two pairs."
+  },
+  {
+    "id": "m6.geo.shapes.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each quadrilateral to what makes it special.",
+    "pairs": [
+      {
+        "left": {
+          "id": "sq",
+          "text": "Square"
+        },
+        "right": {
+          "id": "p1",
+          "text": "Four equal sides and four right angles"
+        }
+      },
+      {
+        "left": {
+          "id": "re",
+          "text": "Rectangle"
+        },
+        "right": {
+          "id": "p2",
+          "text": "Four right angles"
+        }
+      },
+      {
+        "left": {
+          "id": "rh",
+          "text": "Rhombus"
+        },
+        "right": {
+          "id": "p3",
+          "text": "Four equal sides"
+        }
+      },
+      {
+        "left": {
+          "id": "pa",
+          "text": "Parallelogram"
+        },
+        "right": {
+          "id": "p4",
+          "text": "Two pairs of parallel sides"
+        }
+      },
+      {
+        "left": {
+          "id": "ki",
+          "text": "Kite"
+        },
+        "right": {
+          "id": "p5",
+          "text": "Two pairs of equal sides next to each other"
+        }
+      },
+      {
+        "left": {
+          "id": "tr",
+          "text": "Trapezium"
+        },
+        "right": {
+          "id": "p6",
+          "text": "Exactly one pair of parallel sides"
+        }
+      }
+    ],
+    "hints": [
+      "Start with the ones you are sure about, like the square."
+    ],
+    "solution": "Square: four equal sides and four right angles. Rectangle: four right angles. Rhombus: four equal sides. Parallelogram: two pairs of parallel sides. Kite: two pairs of equal sides next to each other. Trapezium: exactly one pair of parallel sides."
+  },
+  {
+    "id": "m6.geo.shapes.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A triangle with three equal sides is [[a]]. A triangle with two equal sides is [[b]]. A triangle with no equal sides is [[c]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "equilateral"
+        ],
+        "options": [
+          "equilateral",
+          "isosceles",
+          "scalene"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "isosceles"
+        ],
+        "options": [
+          "equilateral",
+          "isosceles",
+          "scalene"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "scalene"
+        ],
+        "options": [
+          "equilateral",
+          "isosceles",
+          "scalene"
+        ]
+      }
+    ],
+    "hints": [
+      "\"Equi\" means equal, like in \"equal\"."
+    ],
+    "solution": "Three equal sides: **equilateral**. Two equal sides: **isosceles**. No equal sides: **scalene**."
+  },
+  {
+    "id": "m6.geo.shapes.q004",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What do we call a 3D shape that has one base, with triangles that meet at a point?",
+    "accepted": [
+      "pyramid",
+      "a pyramid",
+      "pyramids"
+    ],
+    "hints": [
+      "Think of the famous ones in Egypt."
+    ],
+    "solution": "A **pyramid** has one base, and triangle faces that meet at a point called the apex."
+  },
+  {
+    "id": "m6.geo.shapes.q005",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the order of rotational symmetry of a rectangle that is not a square?",
+    "answer": 2,
+    "form": "integer",
+    "hints": [
+      "Imagine turning a tracing of the rectangle around its centre. When does it fit exactly again?"
+    ],
+    "solution": "A rectangle fits onto itself after a half turn (180°) and again after a full turn (360°). That is 2 times, so its order is **2**."
+  },
+  {
+    "id": "m6.geo.shapes.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Is a square also a rectangle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, because it has four right angles."
+      },
+      {
+        "id": "b",
+        "text": "No, because a rectangle must have two long and two short sides."
+      },
+      {
+        "id": "c",
+        "text": "No, because a square has four equal sides."
+      },
+      {
+        "id": "d",
+        "text": "Yes, because it has four sides."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rectangle only needs four right angles. Its sides can all be the same length.",
+      "c": "Having four equal sides does not stop it being a rectangle. It just makes it a special rectangle.",
+      "d": "Having four sides makes it a quadrilateral. A rectangle also needs four right angles."
+    },
+    "hints": [
+      "What does a shape need to be a rectangle?"
+    ],
+    "solution": "A rectangle is a quadrilateral with four right angles. A square has four right angles, so **a square is a special kind of rectangle**."
+  },
+  {
+    "id": "m6.geo.shapes.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere says, \"This shape is not a square. It is standing on its corner, so it is a diamond.\" What is wrong with what Mere says?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 220\" width=\"240\" height=\"220\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"120,192 202,110 120,28 38,110\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"156.05\" y1=\"146.05\" x2=\"165.95\" y2=\"155.95\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"156.05\" y1=\"73.95\" x2=\"165.95\" y2=\"64.05\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"83.95\" y1=\"73.95\" x2=\"74.05\" y2=\"64.05\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"83.95\" y1=\"146.05\" x2=\"74.05\" y2=\"155.95\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"142.48,176.59 144.6,167.4 135.41,169.52\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"60.48,94.59 62.6,85.4 53.41,87.52\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"186.59,87.52 177.4,85.4 179.52,94.59\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"182.35,83.28 173.16,81.16 175.28,90.35\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"104.59,169.52 95.4,167.4 97.52,176.59\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"100.35,165.28 91.16,163.16 93.28,172.35\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"110.81,182.81 120,173.62 129.19,182.81\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"192.81,119.19 183.62,110 192.81,100.81\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"129.19,37.19 120,46.38 110.81,37.19\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"47.19,100.81 56.38,110 47.19,119.19\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "A quadrilateral standing on one corner. Tick marks show all four sides are equal, and right-angle marks show all four angles are right angles."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Turning a shape does not change it. The marks show four equal sides and four right angles, so it is a square."
+      },
+      {
+        "id": "b",
+        "text": "Nothing is wrong. A square must have a flat side at the bottom."
+      },
+      {
+        "id": "c",
+        "text": "It is a rhombus, not a square, because it is tilted."
+      },
+      {
+        "id": "d",
+        "text": "It is a kite, because it points up and down."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A shape keeps its name however it is turned. Its sides and angles stay the same.",
+      "c": "It is a rhombus, but it also has four right angles, so its most exact name is square.",
+      "d": "The way a shape points does not change its name. Look at the marks for sides and angles."
+    },
+    "hints": [
+      "Look at the marks. What do they tell you about the sides and the angles?"
+    ],
+    "solution": "The tick marks show four equal sides, and the small squares show four right angles. That makes it a **square**, whichever way it is turned."
+  },
+  {
+    "id": "m6.geo.shapes.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the quadrilaterals that always have two pairs of parallel sides.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Square"
+      },
+      {
+        "id": "b",
+        "text": "Rectangle"
+      },
+      {
+        "id": "c",
+        "text": "Rhombus"
+      },
+      {
+        "id": "d",
+        "text": "Parallelogram"
+      },
+      {
+        "id": "e",
+        "text": "Kite"
+      },
+      {
+        "id": "f",
+        "text": "Trapezium"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "A parallelogram has two pairs of parallel sides. Which other shapes are special parallelograms?"
+    ],
+    "solution": "Squares, rectangles and rhombuses are all special parallelograms, so all four have **two pairs of parallel sides**. A trapezium has only one pair, and a kite usually has none."
+  },
+  {
+    "id": "m6.geo.shapes.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A triangle has angles of 30°, 60° and 90°. Which name fits it best?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Right-angled triangle"
+      },
+      {
+        "id": "b",
+        "text": "Acute-angled triangle"
+      },
+      {
+        "id": "c",
+        "text": "Obtuse-angled triangle"
+      },
+      {
+        "id": "d",
+        "text": "Equilateral triangle"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "In an acute-angled triangle every angle is less than 90°. This one has a 90° angle.",
+      "c": "An obtuse-angled triangle has an angle bigger than 90°. None of these angles is bigger than 90°.",
+      "d": "An equilateral triangle has three equal angles. These angles are all different."
+    },
+    "hints": [
+      "Look at the biggest angle. Is it less than, equal to, or more than 90°?"
+    ],
+    "solution": "One angle is exactly 90°, so it is a **right-angled triangle**."
+  },
+  {
+    "id": "m6.geo.shapes.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "How many faces does a hexagonal prism have?",
+    "answer": 8,
+    "form": "integer",
+    "hints": [
+      "A hexagon has 6 sides.",
+      "Count the two ends, then the rectangles around the sides."
+    ],
+    "solution": "There are 2 hexagon ends and 6 rectangles around the sides: $2 + 6 = 8$ faces."
+  },
+  {
+    "id": "m6.geo.shapes.q011",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the difference between a prism and a pyramid?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A prism has two matching ends joined by rectangles. A pyramid has one base and triangles that meet at a point."
+      },
+      {
+        "id": "b",
+        "text": "A prism always has a square base. A pyramid always has a triangle base."
+      },
+      {
+        "id": "c",
+        "text": "A prism has curved faces. A pyramid has flat faces."
+      },
+      {
+        "id": "d",
+        "text": "A prism is always taller than a pyramid."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Prisms and pyramids can have bases of any polygon: triangles, squares, pentagons, hexagons and more.",
+      "c": "Prisms and pyramids both have only flat faces.",
+      "d": "Height has nothing to do with it. It is about the shape of the faces."
+    },
+    "hints": [
+      "Think about the faces on the sides of each shape."
+    ],
+    "solution": "A **prism** has two matching ends joined by rectangles. A **pyramid** has one base, and triangles that meet at the apex."
+  },
+  {
+    "id": "m6.geo.shapes.q012",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which shape has rotational symmetry of order 4?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Square"
+      },
+      {
+        "id": "b",
+        "text": "Rectangle"
+      },
+      {
+        "id": "c",
+        "text": "Equilateral triangle"
+      },
+      {
+        "id": "d",
+        "text": "Kite"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rectangle fits onto itself twice in a full turn, so its order is 2.",
+      "c": "An equilateral triangle fits onto itself 3 times in a full turn, so its order is 3.",
+      "d": "A kite only fits back onto itself after a full turn, so its order is 1."
+    },
+    "hints": [
+      "Which shape looks the same after every quarter turn?"
+    ],
+    "solution": "A **square** looks the same after every quarter turn (90°): 4 times in a full turn."
+  },
+  {
+    "id": "m6.geo.shapes.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A parallelogram has no right angles. Which describes its four interior angles?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two acute angles and two obtuse angles"
+      },
+      {
+        "id": "b",
+        "text": "Four acute angles"
+      },
+      {
+        "id": "c",
+        "text": "Four obtuse angles"
+      },
+      {
+        "id": "d",
+        "text": "One acute angle and three obtuse angles"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Look at a drawing of a parallelogram. Two of its corners open wider than a right angle.",
+      "c": "Look at a drawing of a parallelogram. Two of its corners are sharp and narrower than a right angle.",
+      "d": "In a parallelogram, opposite angles are the same size, so the angles come in matching pairs."
+    },
+    "hints": [
+      "Sketch a parallelogram that leans over.",
+      "Opposite angles of a parallelogram are equal."
+    ],
+    "solution": "A leaning parallelogram has two sharp (acute) corners opposite each other and two wide (obtuse) corners opposite each other: **two acute and two obtuse angles**."
+  },
+  {
+    "id": "m6.geo.shapes.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi says, \"A kite has rotational symmetry of order 0, because it never looks the same when you turn it.\" What should Hemi say instead?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Order 1. Every shape looks the same after a full turn, so the lowest order is 1."
+      },
+      {
+        "id": "b",
+        "text": "Order 2. A kite looks the same upside down."
+      },
+      {
+        "id": "c",
+        "text": "Order 4, because it has four sides."
+      },
+      {
+        "id": "d",
+        "text": "Nothing. Order 0 is correct."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Upside down, the kite’s long end points the other way, so it does not fit onto itself.",
+      "c": "The number of sides does not decide the order. A kite only fits onto itself after a full turn.",
+      "d": "After a full turn, every shape is back where it started. That counts once, so the order is at least 1."
+    },
+    "hints": [
+      "What happens when you turn any shape all the way round (360°)?"
+    ],
+    "solution": "After a full turn every shape fits back onto itself, so every shape has order **at least 1**. A shape with no other matching position has order 1."
+  },
+  {
+    "id": "m6.geo.shapes.q015",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these shapes in order of their order of rotational symmetry, from **lowest** to **highest**.",
+    "items": [
+      {
+        "id": "kite",
+        "text": "Kite"
+      },
+      {
+        "id": "rect",
+        "text": "Rectangle"
+      },
+      {
+        "id": "tri",
+        "text": "Equilateral triangle"
+      },
+      {
+        "id": "sq",
+        "text": "Square"
+      },
+      {
+        "id": "hex",
+        "text": "Regular hexagon"
+      }
+    ],
+    "hints": [
+      "Work out the order of each shape first.",
+      "For a regular shape, the order is the number of sides."
+    ],
+    "solution": "Kite: 1. Rectangle: 2. Equilateral triangle: 3. Square: 4. Regular hexagon: 6."
+  },
+  {
+    "id": "m6.geo.shapes.q016",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "An octagonal pyramid has an octagon (8 sides) as its base. How many vertices does it have?",
+    "answer": 9,
+    "form": "integer",
+    "hints": [
+      "Count the corners of the base first.",
+      "Don’t forget the apex at the top."
+    ],
+    "solution": "The octagon base has 8 corners, and there is 1 apex: $8 + 1 = 9$ vertices."
+  },
+  {
+    "id": "m6.geo.shapes.q017",
+    "type": "cloze",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana makes a model of a pentagonal prism. She uses a straw for each edge and a ball of plasticine for each vertex.\n\nShe needs [[a]] straws and [[b]] balls of plasticine.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "15",
+          "fifteen"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "10",
+          "ten"
+        ]
+      }
+    ],
+    "hints": [
+      "A pentagon has 5 sides. Count the edges on the top, on the bottom and going up the sides.",
+      "Each pentagon end has 5 corners."
+    ],
+    "solution": "Edges: $5 + 5 + 5 = 15$, so **15 straws**. Vertices: $5 + 5 = 10$, so **10 balls** of plasticine."
+  },
+  {
+    "id": "m6.geo.shapes.q018",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why every square is a rhombus, but not every rhombus is a square.",
+    "modelAnswer": "A rhombus is any quadrilateral with four equal sides. A square has four equal sides, so every square is a rhombus. A square also needs four right angles. A rhombus can lean over so its angles are not right angles, so not every rhombus is a square.",
+    "rubric": [
+      {
+        "criterion": "Says a square has four equal sides, so it fits the rule for a rhombus",
+        "marks": 1
+      },
+      {
+        "criterion": "Says a rhombus does not have to have right angles (it can lean), so it is not always a square",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What does a shape need to be a rhombus?",
+      "What extra thing does a square need?"
+    ],
+    "solution": "Every square has four equal sides, so it is a rhombus. But a square also needs four right angles, and a rhombus can lean over with no right angles. So not every rhombus is a square."
+  },
+  {
+    "id": "m6.geo.shapes.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "I am a 3D shape. I have 5 faces, 9 edges and 6 vertices. What am I?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Triangular prism"
+      },
+      {
+        "id": "b",
+        "text": "Square-based pyramid"
+      },
+      {
+        "id": "c",
+        "text": "Triangular pyramid"
+      },
+      {
+        "id": "d",
+        "text": "Rectangular prism"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A square-based pyramid has 5 faces, but only 8 edges and 5 vertices.",
+      "c": "A triangular pyramid has 4 faces, 6 edges and 4 vertices.",
+      "d": "A rectangular prism has 6 faces, 12 edges and 8 vertices."
+    },
+    "hints": [
+      "Try each shape: count its faces, edges and vertices.",
+      "6 vertices could mean two ends with 3 corners each."
+    ],
+    "solution": "A triangular prism has 2 triangle ends and 3 rectangles (5 faces), $3 + 3 + 3 = 9$ edges and $3 + 3 = 6$ vertices. So I am a **triangular prism**."
+  },
+  {
+    "id": "m6.geo.shapes.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which has more edges: a hexagonal pyramid or a pentagonal prism?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The hexagonal pyramid"
+      },
+      {
+        "id": "b",
+        "text": "The pentagonal prism"
+      },
+      {
+        "id": "c",
+        "text": "They have the same number of edges"
+      }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "A hexagonal pyramid has $6 + 6 = 12$ edges. Count the edges of the pentagonal prism too.",
+      "c": "Work out both: they are different."
+    },
+    "hints": [
+      "A pyramid has edges around its base and edges going up to the apex.",
+      "A prism has edges around both ends and edges along the sides."
+    ],
+    "solution": "Hexagonal pyramid: $6 + 6 = 12$ edges. Pentagonal prism: $5 + 5 + 5 = 15$ edges. The **pentagonal prism** has more."
+  },
+  {
+    "id": "m6.geo.shapes.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Compare a triangular prism and a triangular pyramid. Give one way they are the **same** and one way they are **different**.",
+    "modelAnswer": "Same: both are 3D shapes with flat faces and a triangle base, so both are named \"triangular\". Different: the prism has two triangle ends joined by three rectangles (5 faces, 9 edges, 6 vertices), but the pyramid has one triangle base with three triangles meeting at a point (4 faces, 6 edges, 4 vertices).",
+    "rubric": [
+      {
+        "criterion": "Gives a correct similarity (e.g. both have a triangle base, both have only flat faces)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a correct difference (e.g. rectangles vs triangles on the sides, two ends vs an apex, or different numbers of faces, edges or vertices)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Think about the shape of the base, and the shape of the side faces."
+    ],
+    "solution": "They are the same because both have a triangle base and flat faces. They are different because the prism has two triangle ends joined by rectangles, while the pyramid has triangles that meet at an apex (so the prism has 5 faces and the pyramid has 4)."
+  },
+  {
+    "id": "m6.geo.shapes.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "I am a quadrilateral. I have four equal sides and rotational symmetry of order 2. What am I?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rhombus (that is not a square)"
+      },
+      {
+        "id": "b",
+        "text": "Square"
+      },
+      {
+        "id": "c",
+        "text": "Rectangle (that is not a square)"
+      },
+      {
+        "id": "d",
+        "text": "Kite (that is not a rhombus)"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A square has four equal sides, but it fits onto itself 4 times in a full turn, so its order is 4.",
+      "c": "A rectangle has order 2, but its sides are not all equal.",
+      "d": "A kite’s sides are not all equal, and it has order 1."
+    },
+    "hints": [
+      "Which quadrilaterals have four equal sides?",
+      "Of those, which one has order 2?"
+    ],
+    "solution": "Only rhombuses and squares have four equal sides. A square has order 4, but a rhombus that is not a square only fits onto itself after a half turn and a full turn: order 2. So I am a **rhombus**."
+  },
+  {
+    "id": "m6.geo.shapes.q023",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A prism has 24 edges. How many faces does it have?",
+    "answer": 10,
+    "form": "integer",
+    "hints": [
+      "A prism has 3 edges for every side of its base.",
+      "Find how many sides the base has, then count the faces."
+    ],
+    "solution": "A prism has 3 × (sides of the base) edges, so the base has $24 \\div 3 = 8$ sides. Faces: 2 ends + 8 rectangles $= 10$ faces."
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "m6.num.money.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each money word to its meaning.",
+    "pairs": [
+      { "left": { "id": "cen", "text": "Cent" }, "right": { "id": "d1", "text": "One hundredth of a dollar" } },
+      { "left": { "id": "tot", "text": "Total" }, "right": { "id": "d2", "text": "All the prices added together" } },
+      { "left": { "id": "cha", "text": "Change" }, "right": { "id": "d3", "text": "The money you get back when you pay more than the price" } },
+      { "left": { "id": "dis", "text": "Discount" }, "right": { "id": "d4", "text": "An amount taken off the normal price" } },
+      { "left": { "id": "bud", "text": "Budget" }, "right": { "id": "d5", "text": "A plan for how much money you can spend" } }
+    ],
+    "hints": ["There are 100 cents in a dollar."],
+    "solution": "Cent: $\\frac{1}{100}$ of a dollar. Total: everything added up. Change: money given back. Discount: money taken off a price. Budget: a spending plan."
+  },
+  {
+    "id": "m6.num.money.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which amount is four dollars and five cents?",
+    "options": [
+      { "id": "a", "text": "\\$4.05" },
+      { "id": "b", "text": "\\$4.50" },
+      { "id": "c", "text": "\\$45.00" },
+      { "id": "d", "text": "\\$0.45" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\\$4.50 is four dollars and **fifty** cents.",
+      "c": "\\$45.00 is forty-five dollars.",
+      "d": "\\$0.45 is only forty-five cents, which is less than one dollar."
+    },
+    "hints": ["The cents always take two places after the decimal point.", "How do you write 5 cents using two places?"],
+    "solution": "Four dollars is \\$4. Five cents takes two places after the point: .05. So four dollars and five cents is **\\$4.05**."
+  },
+  {
+    "id": "m6.num.money.q003",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these amounts in order, from **smallest** to **largest**.",
+    "items": [
+      { "id": "q", "text": "\\$0.95" },
+      { "id": "s", "text": "\\$1.09" },
+      { "id": "p", "text": "\\$1.90" },
+      { "id": "r", "text": "\\$10.01" }
+    ],
+    "hints": ["Compare the dollars first.", "If the dollars are the same, compare the 10-cent place next."],
+    "solution": "\\$0.95 is less than a dollar. \\$1.09 and \\$1.90 both have 1 dollar, but 9 cents is less than 90 cents. \\$10.01 is more than ten dollars.\n\nOrder: \\$0.95, \\$1.09, \\$1.90, \\$10.01."
+  },
+  {
+    "id": "m6.num.money.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "There are [[a]] cents in one dollar, so 50 cents is [[b]] of a dollar.",
+    "blanks": [
+      { "id": "a", "accepted": ["100", "one hundred"] },
+      { "id": "b", "accepted": ["a half"], "options": ["a half", "a quarter", "a tenth"] }
+    ],
+    "hints": ["How many 50c coins make \\$1?"],
+    "solution": "There are **100** cents in a dollar. 50 cents is 50 out of 100, which is **a half** of a dollar. (Two 50c coins make \\$1.)"
+  },
+  {
+    "id": "m6.num.money.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ruby adds \\$2.70 and \\$1.50 and writes \\$3.120. What is the correct total?",
+    "options": [
+      { "id": "a", "text": "\\$4.20" },
+      { "id": "b", "text": "\\$3.12" },
+      { "id": "c", "text": "\\$3.20" },
+      { "id": "d", "text": "\\$4.12" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "120 cents is \\$1.20, not 12 cents.",
+      "c": "70 + 50 = 120 cents, which is \\$1.20. You need to add the extra \\$1 to the dollars.",
+      "d": "120 cents is \\$1.20, so the cents part is 20, not 12."
+    },
+    "hints": ["Add the dollars, then add the cents.", "How many dollars and cents is 120 cents?"],
+    "solution": "Dollars: $2 + 1 = 3$. Cents: $70 + 50 = 120$ cents, which is \\$1.20.\n\nTotal: \\$3 + \\$1.20 = **\\$4.20**. Money only has two places after the point, so \\$3.120 can't be right."
+  },
+  {
+    "id": "m6.num.money.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Grace buys an ice cream for \\$3.60 and pays with a \\$5 note. How much change should she get?",
+    "answer": 1.4,
+    "units": "$",
+    "hints": ["Count up from \\$3.60 to \\$4, then to \\$5."],
+    "solution": "\\$3.60 up to \\$4 is 40c. \\$4 up to \\$5 is \\$1.\n\nChange: 40c + \\$1 = **\\$1.40**. Check: $5.00 - 3.60 = 1.40$ ✓"
+  },
+  {
+    "id": "m6.num.money.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is 50% of \\$280?",
+    "answer": 140,
+    "units": "$",
+    "hints": ["50% is the same as one half."],
+    "solution": "50% is one half. Half of \\$280 is $280 \\div 2 = 140$, so the answer is **\\$140**."
+  },
+  {
+    "id": "m6.num.money.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the correct ways to find 25% of \\$48.",
+    "options": [
+      { "id": "a", "text": "Divide \\$48 by 4" },
+      { "id": "b", "text": "Halve \\$48, then halve the answer again" },
+      { "id": "c", "text": "Divide \\$48 by 25" },
+      { "id": "d", "text": "Take \\$25 away from \\$48" },
+      { "id": "e", "text": "It is \\$12" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["25% is the same as one quarter."],
+    "solution": "25% is one quarter, so divide by 4: $48 \\div 4 = 12$. Halving twice is the same as dividing by 4: $48 \\to 24 \\to 12$. So 25% of \\$48 is **\\$12**.\n\nDividing by 25 or taking away \\$25 does not find 25%."
+  },
+  {
+    "id": "m6.num.money.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Aroha says that 10% of \\$35 is \\$3.05. What is the correct amount?",
+    "options": [
+      { "id": "a", "text": "\\$3.50" },
+      { "id": "b", "text": "\\$3.05" },
+      { "id": "c", "text": "\\$0.35" },
+      { "id": "d", "text": "\\$25.00" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\\$3.05 is 3 dollars and 5 cents. One tenth of \\$35 is 3 dollars and **50** cents.",
+      "c": "\\$0.35 is 1% of \\$35, not 10%.",
+      "d": "This takes \\$10 off. 10% means one tenth, so divide by 10."
+    },
+    "hints": ["10% is one tenth, so divide by 10.", "How do you write half a dollar in cents?"],
+    "solution": "10% is one tenth: $35 \\div 10 = 3.5$. Half a dollar is 50 cents, so 10% of \\$35 is **\\$3.50**. Aroha wrote 5 cents instead of 50 cents."
+  },
+  {
+    "id": "m6.num.money.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A pair of running shoes normally costs \\$120. In a sale they have 25% off. What is the sale price?",
+    "answer": 90,
+    "units": "$",
+    "hints": ["Find 25% of \\$120 first. That is the discount.", "Take the discount away from the normal price."],
+    "solution": "Discount: 25% is one quarter, and $120 \\div 4 = 30$, so \\$30 is taken off.\n\nSale price: $120 - 30 = 90$, so the shoes cost **\\$90**."
+  },
+  {
+    "id": "m6.num.money.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which saves you more money: 50% off a \\$24 T-shirt, or 10% off a \\$150 jacket?",
+    "options": [
+      { "id": "a", "text": "50% off the T-shirt" },
+      { "id": "b", "text": "10% off the jacket" },
+      { "id": "c", "text": "They both save the same amount" }
+    ],
+    "correct": "b",
+    "shuffle": false,
+    "feedback": {
+      "a": "50% is a bigger percentage, but 50% of \\$24 is only \\$12. Work out 10% of \\$150 too.",
+      "c": "Work out both discounts: 50% of \\$24 and 10% of \\$150. They are different."
+    },
+    "hints": ["Work out how many dollars each discount takes off.", "A bigger percentage doesn't always mean more money off."],
+    "solution": "50% of \\$24 is $24 \\div 2 = 12$, so the T-shirt saves \\$12.\n\n10% of \\$150 is $150 \\div 10 = 15$, so the jacket saves \\$15.\n\nThe jacket discount saves more, even though 10% is a smaller percentage."
+  },
+  {
+    "id": "m6.num.money.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.money.g1",
+    "part": "a",
+    "stem": "Losa has \\$20 to spend at the school gala. Prices:\n\n- sausage in bread: \\$3.50\n- bottle of water: \\$2.20\n- face painting: \\$4.50\n- raffle ticket: \\$2.00",
+    "prompt": "Losa buys a sausage in bread, a bottle of water and face painting. How much does she spend?",
+    "answer": 10.2,
+    "units": "$",
+    "hints": ["Add the dollars, then add the cents."],
+    "solution": "Dollars: $3 + 2 + 4 = 9$. Cents: $50 + 20 + 50 = 120$ cents, which is \\$1.20.\n\nTotal: \\$9 + \\$1.20 = **\\$10.20**."
+  },
+  {
+    "id": "m6.num.money.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.money.g1",
+    "part": "b",
+    "stem": "Losa has \\$20 to spend at the school gala. Prices:\n\n- sausage in bread: \\$3.50\n- bottle of water: \\$2.20\n- face painting: \\$4.50\n- raffle ticket: \\$2.00",
+    "prompt": "After buying the sausage in bread, the water and face painting, Losa spends as much as she can of the rest on raffle tickets. What is the greatest number of raffle tickets she can buy?",
+    "answer": 4,
+    "form": "integer",
+    "hints": ["First find how much money Losa has left.", "How many \\$2 tickets fit into that amount?"],
+    "solution": "She has spent \\$10.20, so she has $20.00 - 10.20 = 9.80$ left.\n\n4 tickets cost \\$8 and 5 tickets would cost \\$10, which is too much. So she can buy **4 raffle tickets**."
+  },
+  {
+    "id": "m6.num.money.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.money.g1",
+    "part": "c",
+    "stem": "Losa has \\$20 to spend at the school gala. Prices:\n\n- sausage in bread: \\$3.50\n- bottle of water: \\$2.20\n- face painting: \\$4.50\n- raffle ticket: \\$2.00",
+    "prompt": "How much money does Losa have left at the end, after buying the raffle tickets?",
+    "answer": 1.8,
+    "units": "$",
+    "hints": ["Losa had \\$9.80 left before the raffle tickets.", "Take away the cost of the tickets she bought."],
+    "solution": "Before the raffle: \\$9.80. Four tickets cost $4 \\times 2 = 8$ dollars.\n\n$9.80 - 8.00 = 1.80$, so Losa has **\\$1.80** left."
+  },
+  {
+    "id": "m6.num.money.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Pottles of yoghurt come in two packs.\n\n- **Pack A:** 3 pottles for \\$2.70\n- **Pack B:** 5 pottles for \\$4.00\n\nWhich pack is better value?",
+    "options": [
+      { "id": "a", "text": "Pack A" },
+      { "id": "b", "text": "Pack B" },
+      { "id": "c", "text": "They are the same value" }
+    ],
+    "correct": "b",
+    "shuffle": false,
+    "feedback": {
+      "a": "Pack A costs less altogether, but it has fewer pottles. One pottle in Pack A costs 90c.",
+      "c": "Work out the price of one pottle in each pack. They are different."
+    },
+    "hints": ["Find the price of one pottle in each pack.", "Change the prices to cents, then divide."],
+    "solution": "Pack A: 270 cents ÷ 3 = 90 cents each.\n\nPack B: 400 cents ÷ 5 = 80 cents each.\n\nOne pottle is cheaper in Pack B, so **Pack B** is better value."
+  },
+  {
+    "id": "m6.num.money.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Mia has \\$20. She wants to buy three things that cost \\$6.95, \\$7.95 and \\$4.95. Explain how Mia can use rounding to decide whether she has enough money. Does she have enough?",
+    "modelAnswer": "Round each price to the nearest dollar: \\$6.95 is about \\$7, \\$7.95 is about \\$8 and \\$4.95 is about \\$5. The rounded total is $7 + 8 + 5 = 20$ dollars. Each price was rounded **up** by 5 cents, so the real total is 15 cents less: \\$19.85. That is less than \\$20, so Mia has enough money, with 15 cents left over.",
+    "rubric": [
+      { "criterion": "Rounds the prices to the nearest dollar (\\$7, \\$8 and \\$5) to get about \\$20", "marks": 1 },
+      { "criterion": "Notices that each price was rounded up by 5c, so the real total is \\$19.85 (or works out the exact total)", "marks": 1 },
+      { "criterion": "Says Mia has enough money, with 15c left over", "marks": 1 }
+    ],
+    "hints": ["Round each price to the nearest dollar.", "Did you round each price up or down? By how much?"],
+    "solution": "Rounded: $7 + 8 + 5 = 20$ dollars. Each price was 5c less than the rounded amount, so the real total is $20.00 - 0.15 = 19.85$. Mia has enough, with 15c to spare."
+  },
+  {
+    "id": "m6.num.money.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana gets \\$8 pocket money every week and saves all of it. She wants to buy a bike helmet that costs \\$95. How many weeks does she need to save for?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["Work out $95 \\div 8$.", "Will the money from 11 weeks be enough?"],
+    "solution": "$95 \\div 8 = 11$ r 7. After 11 weeks Ana has $11 \\times 8 = 88$ dollars, which is \\$7 short.\n\nShe needs one more week, so **round up**: **12 weeks** (she will have \\$96)."
+  },
+  {
+    "id": "m6.num.money.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi has \\$50. He buys a rugby ball that normally costs \\$36 but has 25% off. He also buys two pairs of socks at \\$6.50 each. How much money does Hemi have left?",
+    "answer": 10,
+    "units": "$",
+    "hints": ["Find the sale price of the rugby ball first.", "Add the cost of the ball and the socks, then take it away from \\$50."],
+    "solution": "Rugby ball: 25% of \\$36 is $36 \\div 4 = 9$, so it costs $36 - 9 = 27$ dollars.\n\nSocks: $2 \\times 6.50 = 13$ dollars.\n\nTotal: $27 + 13 = 40$ dollars. Left: $50 - 40 = 10$, so Hemi has **\\$10** left."
+  },
+  {
+    "id": "m6.num.money.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Room 9 needs \\$1,200 for camp. They sell 150 sausages at \\$3 each and 96 cupcakes at \\$2.50 each. How much more money do they need?",
+    "answer": 510,
+    "units": "$",
+    "hints": ["Work out the money from sausages and the money from cupcakes.", "For the cupcakes, 2 cupcakes cost \\$5."],
+    "solution": "Sausages: $150 \\times 3 = 450$ dollars.\n\nCupcakes: 2 cupcakes cost \\$5, and 96 cupcakes is 48 pairs, so $48 \\times 5 = 240$ dollars.\n\nRaised: $450 + 240 = 690$ dollars. Still needed: $1{,}200 - 690 = 510$, so they need **\\$510** more."
+  },
+  {
+    "id": "m6.num.money.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Movie tickets normally cost \\$16, but on Tuesdays they are 25% off. Tama has \\$40. How many Tuesday tickets can he buy?",
+    "answer": 3,
+    "form": "integer",
+    "hints": ["Find the Tuesday price first.", "How many lots of the Tuesday price fit into \\$40?"],
+    "solution": "25% of \\$16 is $16 \\div 4 = 4$, so a Tuesday ticket costs $16 - 4 = 12$ dollars.\n\n$40 \\div 12 = 3$ r 4. Three tickets cost \\$36 and four would cost \\$48, which is too much. Tama can buy **3 tickets** (with \\$4 left)."
+  },
+  {
+    "id": "m6.num.money.q021",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What word means the money you get back when you pay with more than the price?",
+    "accepted": ["change", "your change", "the change"],
+    "hints": ["If you pay for a \\$3 pie with a \\$5 note, you get \\$2 of this back."],
+    "solution": "It is called **change**. For example, a \\$3 pie paid for with a \\$5 note gives \\$2 change."
+  },
+  {
+    "id": "m6.num.money.q022",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A rugby ball costs \\$31.20 and a netball costs \\$18.40. How much more does the rugby ball cost?",
+    "answer": 12.8,
+    "units": "$",
+    "hints": ["\"How much more\" means find the difference.", "Count up from \\$18.40 to \\$19, then to \\$20, then to \\$31.20."],
+    "solution": "Count up from \\$18.40: to \\$19 is 60c, to \\$20 is \\$1, to \\$31.20 is \\$11.20.\n\n60c + \\$1 + \\$11.20 = **\\$12.80**. Check: $31.20 - 18.40 = 12.80$ ✓"
+  },
+  {
+    "id": "m6.num.money.q023",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Nikau says \\$4.05 and \\$4.50 are the same amount, because they both have a 4, a 0 and a 5. Explain why Nikau is wrong.",
+    "modelAnswer": "The digits are in different places, so they are worth different amounts. In \\$4.05 the 0 is in the 10-cent place and the 5 is in the 1-cent place, so it is 4 dollars and 5 cents (405 cents). In \\$4.50 the 5 is in the 10-cent place, so it is 4 dollars and 50 cents (450 cents). \\$4.50 is 45 cents more than \\$4.05.",
+    "rubric": [
+      { "criterion": "Explains that the place of each digit changes its value (the 5 is 5 cents in one and 50 cents in the other)", "marks": 1 },
+      { "criterion": "Says \\$4.05 is 4 dollars and 5 cents and \\$4.50 is 4 dollars and 50 cents (or 405c and 450c)", "marks": 1 }
+    ],
+    "hints": ["What is the 5 worth in each amount?"],
+    "solution": "\\$4.05 is 4 dollars and 5 cents. \\$4.50 is 4 dollars and 50 cents. The 5 is in a different place, so it is worth a different amount. They are not the same."
+  }
+]

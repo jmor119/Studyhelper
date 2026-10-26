@@ -1,0 +1,16 @@
+[
+  { "id": "m6.mea.time.f01", "front": "How many seconds are in 1 minute?", "back": "60 seconds" },
+  { "id": "m6.mea.time.f02", "front": "How many minutes are in 1 hour?", "back": "60 minutes" },
+  { "id": "m6.mea.time.f03", "front": "How many hours are in 1 day?", "back": "24 hours" },
+  { "id": "m6.mea.time.f04", "front": "How do you change hours into minutes?", "back": "Multiply by 60. 3 hours = 180 minutes." },
+  { "id": "m6.mea.time.f05", "front": "What does **am** mean?", "back": "A time between midnight and midday (the morning)." },
+  { "id": "m6.mea.time.f06", "front": "What does **pm** mean?", "back": "A time between midday and midnight (the afternoon and evening)." },
+  { "id": "m6.mea.time.f07", "front": "How do you change a pm time into **24-hour time**?", "back": "Add 12 to the hour. 7:40 pm = 19:40." },
+  { "id": "m6.mea.time.f08", "front": "What is 12:30 am (just after midnight) in 24-hour time?", "back": "00:30" },
+  { "id": "m6.mea.time.f09", "front": "What is **elapsed time** (duration)?", "back": "How long something takes, from when it starts to when it finishes." },
+  { "id": "m6.mea.time.f10", "front": "How do you find the time from 2:53 pm to 3:28 pm?", "back": "Count on: 7 minutes to 3:00, then 28 more. 7 + 28 = 35 minutes." },
+  { "id": "m6.mea.time.f11", "front": "How is 1.5 hours written in hours and minutes?", "back": "1 hour 30 minutes. Half an hour is 30 minutes, not 50." },
+  { "id": "m6.mea.time.f12", "front": "What is a **timetable**?", "back": "A table that shows when things happen, like when each bus or train reaches each stop." },
+  { "id": "m6.mea.time.f13", "front": "What is the difference between a solar and a lunar **calendar**?", "back": "A solar calendar (like the Gregorian) follows the Sun. A lunar calendar (like the maramataka) follows the Moon's phases." },
+  { "id": "m6.mea.time.f14", "front": "What is the **maramataka**?", "back": "The Māori lunar calendar. Each night of the Moon's cycle has a name, and different iwi have their own maramataka." }
+]

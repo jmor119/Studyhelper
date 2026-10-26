@@ -1,0 +1,13 @@
+[
+  { "id": "m7.num.fraction-operations.f01", "front": "What is a **unit fraction**?", "back": "A fraction with a numerator of 1, like $\\frac{1}{4}$ or $\\frac{1}{9}$." },
+  { "id": "m7.num.fraction-operations.f02", "front": "In maths, what does \"**of**\" mean in \"$\\frac{2}{3}$ of 12\"?", "back": "Multiply. $\\frac{2}{3}$ of 12 is the same as $12 \\times \\frac{2}{3} = 8$." },
+  { "id": "m7.num.fraction-operations.f03", "front": "How do you find $\\frac{3}{4}$ of 32?", "back": "Divide by the denominator, then multiply by the numerator: $32 \\div 4 = 8$, and $8 \\times 3 = 24$." },
+  { "id": "m7.num.fraction-operations.f04", "front": "How do you work out $3 \\times \\frac{2}{5}$?", "back": "Multiply the numerator by 3 and keep the denominator: $\\frac{6}{5} = 1\\frac{1}{5}$." },
+  { "id": "m7.num.fraction-operations.f05", "front": "Does multiplying by $\\frac{3}{4}$ make a number bigger or smaller?", "back": "Smaller. $\\frac{3}{4}$ is less than 1, so you only take part of the number." },
+  { "id": "m7.num.fraction-operations.f06", "front": "How do you work out $\\frac{2}{3} \\div 4$?", "back": "Multiply the denominator by 4: $\\frac{2}{12}$, which simplifies to $\\frac{1}{6}$." },
+  { "id": "m7.num.fraction-operations.f07", "front": "Why does the denominator get bigger when you divide a fraction by a whole number?", "back": "Sharing cuts every piece into smaller pieces, and smaller pieces have a bigger denominator." },
+  { "id": "m7.num.fraction-operations.f08", "front": "What is $3 \\div \\frac{1}{4}$?", "back": "12. It asks how many quarters fit into 3, and there are 4 quarters in each whole." },
+  { "id": "m7.num.fraction-operations.f09", "front": "Does dividing by a unit fraction make a number bigger or smaller?", "back": "Bigger. You are counting how many small pieces fit into the number." },
+  { "id": "m7.num.fraction-operations.f10", "front": "$\\frac{3}{5}$ of a number is 24. How do you find the number?", "back": "Find one part: $24 \\div 3 = 8$. The whole is 5 parts: $5 \\times 8 = 40$." },
+  { "id": "m7.num.fraction-operations.f11", "front": "Why is $\\frac{5}{4}$ of 32 more than 32?", "back": "$\\frac{5}{4}$ is more than one whole. $\\frac{1}{4}$ of 32 is 8, so $\\frac{5}{4}$ of 32 is $5 \\times 8 = 40$." }
+]

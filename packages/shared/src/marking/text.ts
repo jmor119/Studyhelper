@@ -44,6 +44,10 @@ export function normaliseText(s: string): string {
     .replace(/[\u2018\u2019]/g, "'")
     .replace(/≤/g, '<=')
     .replace(/≥/g, '>=')
+    // Keep negative signs: "−14" (U+2212 minus, dashes) must not become "14".
+    .replace(/[−‒–—﹣－]/g, '-')
+    // Thousands separators: "1,283" and "1 283" both mean 1283.
+    .replace(/(\d)[,   ](?=\d{3}(?!\d))/g, '$1')
     .replace(/[^a-z0-9'.\-+/<>= ]+/g, ' ')
     .replace(/\s*([<>]=?|=)\s*/g, ' $1 ')
     .replace(/\s+/g, ' ')
@@ -82,6 +86,8 @@ function typoAllowance(len: number): number {
   return 2;
 }
 
+const PLAIN_NUMBER = /^-?(?:\d+\.?\d*|\.\d+)$/;
+
 const isPluralOf = (a: string, b: string) => a === `${b}s` || a === `${b}es` || (b.endsWith('y') && a === `${b.slice(0, -1)}ies`);
 
 export function textMatches(given: string, target: string, allowTypos: boolean): boolean {
@@ -89,6 +95,8 @@ export function textMatches(given: string, target: string, allowTypos: boolean):
   const t = normaliseText(target);
   if (!g) return false;
   if (g === t) return true;
+  // Plain numbers match by value: "0.40" = "0.4" = ".4", "07" = "7".
+  if (PLAIN_NUMBER.test(g) && PLAIN_NUMBER.test(t)) return Number(g) === Number(t);
   if (!allowTypos) return false;
   // Numbers and chemical formulae must be exact.
   if (/\d/.test(t)) return false;
@@ -122,7 +130,12 @@ const KNOWN_TERMS = new Set(
   omnivores predator predators prey vertebrate vertebrates invertebrate invertebrates genus genes gene species
   habitat habitats nucleus nuclei neutron neutrons proton protons electron electrons element elements compound
   compounds mixture mixtures solute solvent solution dissolve melt melting freezing boiling exothermic endothermic
-  acid acidic alkali alkaline base neutral mean median mode range maximum minimum quartile`
+  acid acidic alkali alkaline base neutral mean median mode range maximum minimum quartile
+  north south east west north-east north-west south-east south-west northeast northwest southeast southwest
+  tens tenths hundreds hundredths thousands thousandths acute obtuse reflex isosceles scalene equilateral
+  parallelogram trapezium rhombus kite prism prisms pyramid pyramids numerator denominator factor factors
+  multiple multiples prime composite horizontal vertical translation rotation perimeter area volume
+  certain impossible likely unlikely`
     .split(/\s+/)
     .filter(Boolean),
 );

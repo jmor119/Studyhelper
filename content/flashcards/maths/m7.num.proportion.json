@@ -1,0 +1,14 @@
+[
+  { "id": "m7.num.proportion.f01", "front": "What does \"for every 3 red there are 7 blue\" mean?", "back": "The things come in groups of 3 red and 7 blue. It tells you how the amounts are related, not how many there are." },
+  { "id": "m7.num.proportion.f02", "front": "What does it mean to **scale** an amount?", "back": "Multiply (or divide) every part by the same number. Doubling a recipe scales it by 2." },
+  { "id": "m7.num.proportion.f03", "front": "When are two amounts in **proportion**?", "back": "When they grow or shrink by multiplying by the same number. 2 eggs for 6 muffins, 4 eggs for 12 muffins." },
+  { "id": "m7.num.proportion.f04", "front": "What is a **multiplicative** relationship?", "back": "One where you multiply to get from one amount to the other, like \"3 times as many\", not \"3 more\"." },
+  { "id": "m7.num.proportion.f05", "front": "**Parts** and **whole** for \"3 red for every 7 blue\"", "back": "The parts are 3 and 7. The whole group is $3 + 7 = 10$." },
+  { "id": "m7.num.proportion.f06", "front": "3 red for every 7 blue: what fraction are red?", "back": "$\\frac{3}{10}$, because each whole group has 10." },
+  { "id": "m7.num.proportion.f07", "front": "Why isn't $\\frac{3}{7}$ the fraction that are red?", "back": "$\\frac{3}{7}$ compares red with blue (part to part). A fraction of the whole needs the whole group on the bottom." },
+  { "id": "m7.num.proportion.f08", "front": "How do you find the number of groups?", "back": "Divide the amount you know by the amount in one group: 18 red ÷ 3 red per group = 6 groups." },
+  { "id": "m7.num.proportion.f09", "front": "How do you scale a recipe for 4 people to 6 people?", "back": "Halve it to get 2 people, then multiply by 3 to get 6 people." },
+  { "id": "m7.num.proportion.f10", "front": "What is a **rate**?", "back": "A comparison of two different kinds of amount, like \\$1.20 per bar or 60 km per hour." },
+  { "id": "m7.num.proportion.f11", "front": "How do you use \"find one first\"?", "back": "Find the amount for 1, then multiply. 5 bars cost \\$6, so 1 costs \\$1.20 and 8 cost \\$9.60." },
+  { "id": "m7.num.proportion.f12", "front": "What is the most common scaling mistake?", "back": "Adding the same amount to each part instead of multiplying. Doubling 3 cups of flour for every 2 cups of milk gives 6 and 4, not 6 and 5." }
+]

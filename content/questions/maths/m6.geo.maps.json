@@ -1,0 +1,586 @@
+[
+  {
+    "id": "m6.geo.maps.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the grid reference D3, the D tells you the [[a]] and the 3 tells you the [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "row"
+        ],
+        "options": [
+          "row",
+          "column"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "column"
+        ],
+        "options": [
+          "row",
+          "column"
+        ]
+      }
+    ],
+    "hints": [
+      "On our maps, letters go down the side and numbers go along the top."
+    ],
+    "solution": "The letter D is the **row** and the number 3 is the **column**."
+  },
+  {
+    "id": "m6.geo.maps.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "On a map with north at the top, which way is west?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To the left"
+      },
+      {
+        "id": "b",
+        "text": "To the right"
+      },
+      {
+        "id": "c",
+        "text": "Up"
+      },
+      {
+        "id": "d",
+        "text": "Down"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "To the right is east.",
+      "c": "Up is north.",
+      "d": "Down is south."
+    },
+    "hints": [
+      "Going clockwise from the top: north, east, south, west."
+    ],
+    "solution": "With north at the top, **west is to the left** (and east is to the right)."
+  },
+  {
+    "id": "m6.geo.maps.q003",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Look at the school camp map. What is the grid reference of the **Kitchen**? (Write it like B4.)",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 302\" width=\"410\" height=\"302\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"26\" y=\"26\" width=\"308\" height=\"264\" fill=\"#f0fdf4\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"26\" x2=\"70\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"114\" y1=\"26\" x2=\"114\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"158\" y1=\"26\" x2=\"158\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"202\" y1=\"26\" x2=\"202\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"290\" y1=\"26\" x2=\"290\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"70\" x2=\"334\" y2=\"70\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"114\" x2=\"334\" y2=\"114\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"158\" x2=\"334\" y2=\"158\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"202\" x2=\"334\" y2=\"202\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"246\" x2=\"334\" y2=\"246\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"48\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">1</text><text x=\"92\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">2</text><text x=\"136\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">3</text><text x=\"180\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">4</text><text x=\"224\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">5</text><text x=\"268\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">6</text><text x=\"312\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">7</text><text x=\"13\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"13\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"13\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"13\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">D</text><text x=\"13\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"13\" y=\"268\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">F</text><circle cx=\"224\" cy=\"40.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"57.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lookout</text><circle cx=\"92\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Tents</text><circle cx=\"224\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#dc2626\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Kitchen</text><circle cx=\"136\" cy=\"128.96\" r=\"6.16\" fill=\"#9333ea\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"136\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Flagpole</text><circle cx=\"312\" cy=\"128.96\" r=\"6.16\" fill=\"#ea580c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lake</text><circle cx=\"180\" cy=\"172.96\" r=\"6.16\" fill=\"#0891b2\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"180\" y=\"189.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Toilets</text><circle cx=\"92\" cy=\"216.96\" r=\"6.16\" fill=\"#ca8a04\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Hall</text><circle cx=\"224\" cy=\"216.96\" r=\"6.16\" fill=\"#db2777\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Campfire</text><circle cx=\"312\" cy=\"260.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"277.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Wharf</text><line x1=\"374\" y1=\"44\" x2=\"374\" y2=\"88\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"66\" x2=\"396\" y2=\"66\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"374,40 368,52 380,52\" fill=\"#1f2937\"/><text x=\"374\" y=\"32\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><text x=\"374\" y=\"99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">S</text><text x=\"401\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">E</text><text x=\"347\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">W</text></svg>",
+      "alt": "A school camp map on a grid with rows A to F and columns 1 to 7, and a compass with north at the top. Places marked: Lookout, Tents, Kitchen, Flagpole, Lake, Toilets, Hall, Campfire, Wharf."
+    },
+    "accepted": [
+      "B5",
+      "B 5"
+    ],
+    "hints": [
+      "Find the row letter on the left first, then the column number along the top."
+    ],
+    "solution": "The Kitchen is in row B and column 5, so its grid reference is **B5**."
+  },
+  {
+    "id": "m6.geo.maps.q004",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each turn to its size in degrees.",
+    "pairs": [
+      {
+        "left": {
+          "id": "q",
+          "text": "Quarter turn"
+        },
+        "right": {
+          "id": "d90",
+          "text": "90°"
+        }
+      },
+      {
+        "left": {
+          "id": "h",
+          "text": "Half turn"
+        },
+        "right": {
+          "id": "d180",
+          "text": "180°"
+        }
+      },
+      {
+        "left": {
+          "id": "t",
+          "text": "Three-quarter turn"
+        },
+        "right": {
+          "id": "d270",
+          "text": "270°"
+        }
+      },
+      {
+        "left": {
+          "id": "f",
+          "text": "Full turn"
+        },
+        "right": {
+          "id": "d360",
+          "text": "360°"
+        }
+      }
+    ],
+    "hints": [
+      "A full turn is 360°."
+    ],
+    "solution": "Quarter turn: 90°. Half turn: 180°. Three-quarter turn: 270°. Full turn: 360°."
+  },
+  {
+    "id": "m6.geo.maps.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the school camp map. Which place is directly **west** of the Campfire?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 302\" width=\"410\" height=\"302\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"26\" y=\"26\" width=\"308\" height=\"264\" fill=\"#f0fdf4\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"26\" x2=\"70\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"114\" y1=\"26\" x2=\"114\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"158\" y1=\"26\" x2=\"158\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"202\" y1=\"26\" x2=\"202\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"290\" y1=\"26\" x2=\"290\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"70\" x2=\"334\" y2=\"70\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"114\" x2=\"334\" y2=\"114\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"158\" x2=\"334\" y2=\"158\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"202\" x2=\"334\" y2=\"202\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"246\" x2=\"334\" y2=\"246\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"48\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">1</text><text x=\"92\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">2</text><text x=\"136\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">3</text><text x=\"180\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">4</text><text x=\"224\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">5</text><text x=\"268\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">6</text><text x=\"312\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">7</text><text x=\"13\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"13\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"13\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"13\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">D</text><text x=\"13\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"13\" y=\"268\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">F</text><circle cx=\"224\" cy=\"40.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"57.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lookout</text><circle cx=\"92\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Tents</text><circle cx=\"224\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#dc2626\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Kitchen</text><circle cx=\"136\" cy=\"128.96\" r=\"6.16\" fill=\"#9333ea\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"136\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Flagpole</text><circle cx=\"312\" cy=\"128.96\" r=\"6.16\" fill=\"#ea580c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lake</text><circle cx=\"180\" cy=\"172.96\" r=\"6.16\" fill=\"#0891b2\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"180\" y=\"189.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Toilets</text><circle cx=\"92\" cy=\"216.96\" r=\"6.16\" fill=\"#ca8a04\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Hall</text><circle cx=\"224\" cy=\"216.96\" r=\"6.16\" fill=\"#db2777\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Campfire</text><circle cx=\"312\" cy=\"260.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"277.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Wharf</text><line x1=\"374\" y1=\"44\" x2=\"374\" y2=\"88\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"66\" x2=\"396\" y2=\"66\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"374,40 368,52 380,52\" fill=\"#1f2937\"/><text x=\"374\" y=\"32\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><text x=\"374\" y=\"99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">S</text><text x=\"401\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">E</text><text x=\"347\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">W</text></svg>",
+      "alt": "A school camp map on a grid with rows A to F and columns 1 to 7, and a compass with north at the top. Places marked: Lookout, Tents, Kitchen, Flagpole, Lake, Toilets, Hall, Campfire, Wharf."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Hall"
+      },
+      {
+        "id": "b",
+        "text": "Kitchen"
+      },
+      {
+        "id": "c",
+        "text": "Wharf"
+      },
+      {
+        "id": "d",
+        "text": "Toilets"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The Kitchen is north of the Campfire (up the map).",
+      "c": "The Wharf is south-east of the Campfire.",
+      "d": "The Toilets are up and to the left, not straight across."
+    },
+    "hints": [
+      "West is to the left on this map.",
+      "Look along the same row as the Campfire."
+    ],
+    "solution": "The Campfire is in E5. Going left (west) along row E, you reach the **Hall** in E2."
+  },
+  {
+    "id": "m6.geo.maps.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Leo writes that the Toilets on the school camp map are in square 4D. What should he write?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 302\" width=\"410\" height=\"302\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"26\" y=\"26\" width=\"308\" height=\"264\" fill=\"#f0fdf4\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"26\" x2=\"70\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"114\" y1=\"26\" x2=\"114\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"158\" y1=\"26\" x2=\"158\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"202\" y1=\"26\" x2=\"202\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"290\" y1=\"26\" x2=\"290\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"70\" x2=\"334\" y2=\"70\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"114\" x2=\"334\" y2=\"114\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"158\" x2=\"334\" y2=\"158\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"202\" x2=\"334\" y2=\"202\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"246\" x2=\"334\" y2=\"246\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"48\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">1</text><text x=\"92\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">2</text><text x=\"136\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">3</text><text x=\"180\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">4</text><text x=\"224\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">5</text><text x=\"268\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">6</text><text x=\"312\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">7</text><text x=\"13\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"13\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"13\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"13\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">D</text><text x=\"13\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"13\" y=\"268\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">F</text><circle cx=\"224\" cy=\"40.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"57.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lookout</text><circle cx=\"92\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Tents</text><circle cx=\"224\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#dc2626\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Kitchen</text><circle cx=\"136\" cy=\"128.96\" r=\"6.16\" fill=\"#9333ea\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"136\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Flagpole</text><circle cx=\"312\" cy=\"128.96\" r=\"6.16\" fill=\"#ea580c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lake</text><circle cx=\"180\" cy=\"172.96\" r=\"6.16\" fill=\"#0891b2\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"180\" y=\"189.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Toilets</text><circle cx=\"92\" cy=\"216.96\" r=\"6.16\" fill=\"#ca8a04\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Hall</text><circle cx=\"224\" cy=\"216.96\" r=\"6.16\" fill=\"#db2777\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Campfire</text><circle cx=\"312\" cy=\"260.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"277.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Wharf</text><line x1=\"374\" y1=\"44\" x2=\"374\" y2=\"88\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"66\" x2=\"396\" y2=\"66\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"374,40 368,52 380,52\" fill=\"#1f2937\"/><text x=\"374\" y=\"32\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><text x=\"374\" y=\"99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">S</text><text x=\"401\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">E</text><text x=\"347\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">W</text></svg>",
+      "alt": "A school camp map on a grid with rows A to F and columns 1 to 7, and a compass with north at the top. Places marked: Lookout, Tents, Kitchen, Flagpole, Lake, Toilets, Hall, Campfire, Wharf."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "D4, because the letter comes first"
+      },
+      {
+        "id": "b",
+        "text": "4D is correct"
+      },
+      {
+        "id": "c",
+        "text": "C4"
+      },
+      {
+        "id": "d",
+        "text": "D5"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "On our maps the letter (row) is written first, then the number (column).",
+      "c": "C4 is one row too high. Check the row letter.",
+      "d": "D5 is one column too far right. Check the column number."
+    },
+    "hints": [
+      "Which comes first in a grid reference: the letter or the number?"
+    ],
+    "solution": "The Toilets are in row D and column 4. Grid references are written letter first, so it is **D4**."
+  },
+  {
+    "id": "m6.geo.maps.q007",
+    "type": "text",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the school camp map. You start at the Hall (E2) and go 3 squares east. What is the grid reference of the square you finish in?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 302\" width=\"410\" height=\"302\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"26\" y=\"26\" width=\"308\" height=\"264\" fill=\"#f0fdf4\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"26\" x2=\"70\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"114\" y1=\"26\" x2=\"114\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"158\" y1=\"26\" x2=\"158\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"202\" y1=\"26\" x2=\"202\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"290\" y1=\"26\" x2=\"290\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"70\" x2=\"334\" y2=\"70\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"114\" x2=\"334\" y2=\"114\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"158\" x2=\"334\" y2=\"158\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"202\" x2=\"334\" y2=\"202\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"246\" x2=\"334\" y2=\"246\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"48\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">1</text><text x=\"92\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">2</text><text x=\"136\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">3</text><text x=\"180\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">4</text><text x=\"224\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">5</text><text x=\"268\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">6</text><text x=\"312\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">7</text><text x=\"13\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"13\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"13\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"13\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">D</text><text x=\"13\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"13\" y=\"268\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">F</text><circle cx=\"224\" cy=\"40.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"57.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lookout</text><circle cx=\"92\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Tents</text><circle cx=\"224\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#dc2626\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Kitchen</text><circle cx=\"136\" cy=\"128.96\" r=\"6.16\" fill=\"#9333ea\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"136\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Flagpole</text><circle cx=\"312\" cy=\"128.96\" r=\"6.16\" fill=\"#ea580c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lake</text><circle cx=\"180\" cy=\"172.96\" r=\"6.16\" fill=\"#0891b2\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"180\" y=\"189.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Toilets</text><circle cx=\"92\" cy=\"216.96\" r=\"6.16\" fill=\"#ca8a04\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Hall</text><circle cx=\"224\" cy=\"216.96\" r=\"6.16\" fill=\"#db2777\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Campfire</text><circle cx=\"312\" cy=\"260.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"277.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Wharf</text><line x1=\"374\" y1=\"44\" x2=\"374\" y2=\"88\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"66\" x2=\"396\" y2=\"66\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"374,40 368,52 380,52\" fill=\"#1f2937\"/><text x=\"374\" y=\"32\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><text x=\"374\" y=\"99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">S</text><text x=\"401\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">E</text><text x=\"347\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">W</text></svg>",
+      "alt": "A school camp map on a grid with rows A to F and columns 1 to 7, and a compass with north at the top. Places marked: Lookout, Tents, Kitchen, Flagpole, Lake, Toilets, Hall, Campfire, Wharf."
+    },
+    "accepted": [
+      "E5",
+      "E 5"
+    ],
+    "hints": [
+      "East is to the right, so the row stays the same.",
+      "Count 3 squares to the right of column 2."
+    ],
+    "solution": "Going east keeps you in row E. Column $2 + 3 = 5$, so you finish in **E5**, at the Campfire."
+  },
+  {
+    "id": "m6.geo.maps.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "On a map, 1 cm stands for 50 m. The path from the school gate to the field is 7 cm long on the map. How long is the real path, in metres?",
+    "answer": 350,
+    "form": "integer",
+    "units": "m",
+    "hints": [
+      "Each centimetre on the map is 50 m in real life."
+    ],
+    "solution": "$7 \\times 50 = 350$, so the path is **350 m** long."
+  },
+  {
+    "id": "m6.geo.maps.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi is walking north. He makes a half turn and keeps walking. Which way is he walking now?",
+    "options": [
+      {
+        "id": "a",
+        "text": "North"
+      },
+      {
+        "id": "b",
+        "text": "East"
+      },
+      {
+        "id": "c",
+        "text": "South"
+      },
+      {
+        "id": "d",
+        "text": "West"
+      }
+    ],
+    "correct": "c",
+    "shuffle": false,
+    "feedback": {
+      "a": "That is the way he was walking before the turn.",
+      "b": "East is a quarter turn clockwise from north.",
+      "d": "West is a quarter turn anticlockwise from north."
+    },
+    "hints": [
+      "A half turn is 180°. It turns you to face the opposite way."
+    ],
+    "solution": "A half turn faces you the opposite way. The opposite of north is **south**."
+  },
+  {
+    "id": "m6.geo.maps.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The scale on a road map is 1 cm = 2 km. Two towns are 4.5 cm apart on the map. How far apart are they in real life, in kilometres?",
+    "answer": 9,
+    "form": "any",
+    "units": "km",
+    "hints": [
+      "Each centimetre stands for 2 km.",
+      "4 cm is 8 km. What is the extra half centimetre worth?"
+    ],
+    "solution": "$4.5 \\times 2 = 9$, so the towns are **9 km** apart."
+  },
+  {
+    "id": "m6.geo.maps.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which turn leaves you facing the same way as a quarter turn anticlockwise?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A three-quarter turn clockwise"
+      },
+      {
+        "id": "b",
+        "text": "A quarter turn clockwise"
+      },
+      {
+        "id": "c",
+        "text": "A half turn"
+      },
+      {
+        "id": "d",
+        "text": "A full turn"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A quarter turn clockwise leaves you facing the opposite way to a quarter turn anticlockwise.",
+      "c": "A half turn leaves you facing the opposite way to where you started.",
+      "d": "A full turn brings you back to where you started."
+    },
+    "hints": [
+      "Start facing north. Where does a quarter turn anticlockwise leave you?",
+      "Now try each option, starting from north."
+    ],
+    "solution": "From north, a quarter turn anticlockwise faces west. Going clockwise, north → east → south → west is three quarter turns. So **a three-quarter turn clockwise** (270°) does the same."
+  },
+  {
+    "id": "m6.geo.maps.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "On a map, a scale bar shows that 2 cm stands for 1 km. A bush walk is 6 cm long on the map. How long is the walk in real life, in kilometres?",
+    "answer": 3,
+    "form": "integer",
+    "units": "km",
+    "hints": [
+      "How many lots of 2 cm are in 6 cm?"
+    ],
+    "solution": "$6 \\div 2 = 3$ lots of 2 cm, and each lot is 1 km. So the walk is **3 km** long."
+  },
+  {
+    "id": "m6.geo.maps.q013",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the school camp map. Write directions to get from the **Tents** to the **Campfire**. Use compass directions and numbers of squares.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 302\" width=\"410\" height=\"302\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"26\" y=\"26\" width=\"308\" height=\"264\" fill=\"#f0fdf4\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"26\" x2=\"70\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"114\" y1=\"26\" x2=\"114\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"158\" y1=\"26\" x2=\"158\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"202\" y1=\"26\" x2=\"202\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"290\" y1=\"26\" x2=\"290\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"70\" x2=\"334\" y2=\"70\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"114\" x2=\"334\" y2=\"114\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"158\" x2=\"334\" y2=\"158\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"202\" x2=\"334\" y2=\"202\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"246\" x2=\"334\" y2=\"246\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"48\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">1</text><text x=\"92\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">2</text><text x=\"136\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">3</text><text x=\"180\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">4</text><text x=\"224\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">5</text><text x=\"268\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">6</text><text x=\"312\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">7</text><text x=\"13\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"13\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"13\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"13\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">D</text><text x=\"13\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"13\" y=\"268\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">F</text><circle cx=\"224\" cy=\"40.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"57.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lookout</text><circle cx=\"92\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Tents</text><circle cx=\"224\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#dc2626\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Kitchen</text><circle cx=\"136\" cy=\"128.96\" r=\"6.16\" fill=\"#9333ea\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"136\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Flagpole</text><circle cx=\"312\" cy=\"128.96\" r=\"6.16\" fill=\"#ea580c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lake</text><circle cx=\"180\" cy=\"172.96\" r=\"6.16\" fill=\"#0891b2\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"180\" y=\"189.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Toilets</text><circle cx=\"92\" cy=\"216.96\" r=\"6.16\" fill=\"#ca8a04\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Hall</text><circle cx=\"224\" cy=\"216.96\" r=\"6.16\" fill=\"#db2777\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Campfire</text><circle cx=\"312\" cy=\"260.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"277.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Wharf</text><line x1=\"374\" y1=\"44\" x2=\"374\" y2=\"88\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"66\" x2=\"396\" y2=\"66\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"374,40 368,52 380,52\" fill=\"#1f2937\"/><text x=\"374\" y=\"32\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><text x=\"374\" y=\"99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">S</text><text x=\"401\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">E</text><text x=\"347\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">W</text></svg>",
+      "alt": "A school camp map on a grid with rows A to F and columns 1 to 7, and a compass with north at the top. Places marked: Lookout, Tents, Kitchen, Flagpole, Lake, Toilets, Hall, Campfire, Wharf."
+    },
+    "modelAnswer": "Start at the Tents in B2. Go 3 squares south to E2 (the Hall). Then go 3 squares east to E5, the Campfire. (Going 3 squares east first, then 3 squares south, also works.)",
+    "rubric": [
+      {
+        "criterion": "Uses the correct compass directions (south and east)",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses the correct numbers of squares (3 and 3) so the route ends at the Campfire",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "The Tents are in B2 and the Campfire is in E5.",
+      "How many rows down, and how many columns across?"
+    ],
+    "solution": "From B2 to E5 is 3 rows down (south) and 3 columns right (east). For example: go **3 squares south**, then **3 squares east**."
+  },
+  {
+    "id": "m6.geo.maps.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Priya is drawing a map with the scale 1 cm = 250 m. In real life, her house is 2 km from the beach. How long should the line between them be on her map, in centimetres?",
+    "answer": 8,
+    "form": "integer",
+    "units": "cm",
+    "hints": [
+      "Change 2 km into metres first.",
+      "How many lots of 250 m are in that distance?"
+    ],
+    "solution": "2 km = 2000 m. $2000 \\div 250 = 8$, so the line should be **8 cm** long."
+  },
+  {
+    "id": "m6.geo.maps.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Four maps show the same town. Which map scale shows the most detail (makes everything look biggest)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 cm = 10 m"
+      },
+      {
+        "id": "b",
+        "text": "1 cm = 100 m"
+      },
+      {
+        "id": "c",
+        "text": "1 cm = 1 km"
+      },
+      {
+        "id": "d",
+        "text": "1 cm = 10 km"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "On this map each centimetre covers 100 m, so things look smaller than on a 1 cm = 10 m map.",
+      "c": "Each centimetre covers a whole kilometre, so things look small.",
+      "d": "Each centimetre covers 10 km, so this map shows the least detail."
+    },
+    "hints": [
+      "The less real distance each centimetre stands for, the bigger things look."
+    ],
+    "solution": "On a **1 cm = 10 m** map, each centimetre shows only 10 m of the town, so everything is drawn biggest and you can see the most detail."
+  },
+  {
+    "id": "m6.geo.maps.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Aroha says, \"The scale is 1 cm = 100 m, so 5 cm on the map is 500 km.\" What is wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The units: $5 \\times 100$ m is 500 m, not 500 km."
+      },
+      {
+        "id": "b",
+        "text": "Nothing is wrong."
+      },
+      {
+        "id": "c",
+        "text": "It should be 50 m."
+      },
+      {
+        "id": "d",
+        "text": "It should be 5000 m."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The scale is in metres, so the answer must be in metres too.",
+      "c": "That divides by 10 instead of multiplying by 100.",
+      "d": "That multiplies by 1000. The scale says each centimetre is 100 m."
+    },
+    "hints": [
+      "What unit is the scale in?"
+    ],
+    "solution": "$5 \\times 100 = 500$, and the scale is in metres, so it is **500 m** (which is 0.5 km), not 500 km."
+  },
+  {
+    "id": "m6.geo.maps.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why a map needs a scale.",
+    "modelAnswer": "A map is drawn much smaller than the real place, so you can’t read real distances straight off it. The scale tells you how map distances match real distances. For example, with a scale of 1 cm = 100 m, a road that is 3 cm long on the map is 300 m long in real life.",
+    "rubric": [
+      {
+        "criterion": "Says the map is much smaller than the real place",
+        "marks": 1
+      },
+      {
+        "criterion": "Says the scale lets you work out real distances from map distances (an example helps)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Is a map the same size as the real place?",
+      "How would you find a real distance without a scale?"
+    ],
+    "solution": "A map is smaller than real life. The scale tells you what each centimetre on the map stands for, so you can work out real distances."
+  },
+  {
+    "id": "m6.geo.maps.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Each square on a map is 100 m wide. Mere walks 3 squares east, then 2 squares north, then 4 squares west. How far does she walk altogether, in kilometres?",
+    "answer": 0.9,
+    "form": "any",
+    "units": "km",
+    "hints": [
+      "Add up all the squares she walks, whatever the direction.",
+      "Change metres to kilometres by dividing by 1000."
+    ],
+    "solution": "She walks $3 + 2 + 4 = 9$ squares. $9 \\times 100 = 900$ m. $900 \\div 1000 = 0.9$, so she walks **0.9 km**."
+  },
+  {
+    "id": "m6.geo.maps.q019",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Each square on the school camp map is 50 m wide. Start at the Campfire (E5), facing north. Walk 100 m. Turn 90° anticlockwise. Walk another 100 m. Where are you now?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 302\" width=\"410\" height=\"302\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"26\" y=\"26\" width=\"308\" height=\"264\" fill=\"#f0fdf4\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"26\" x2=\"70\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"114\" y1=\"26\" x2=\"114\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"158\" y1=\"26\" x2=\"158\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"202\" y1=\"26\" x2=\"202\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"290\" y1=\"26\" x2=\"290\" y2=\"290\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"70\" x2=\"334\" y2=\"70\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"114\" x2=\"334\" y2=\"114\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"158\" x2=\"334\" y2=\"158\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"202\" x2=\"334\" y2=\"202\" stroke=\"#9ca3af\" stroke-width=\"1\"/><line x1=\"26\" y1=\"246\" x2=\"334\" y2=\"246\" stroke=\"#9ca3af\" stroke-width=\"1\"/><text x=\"48\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">1</text><text x=\"92\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">2</text><text x=\"136\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">3</text><text x=\"180\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">4</text><text x=\"224\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">5</text><text x=\"268\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">6</text><text x=\"312\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">7</text><text x=\"13\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">A</text><text x=\"13\" y=\"92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">B</text><text x=\"13\" y=\"136\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">C</text><text x=\"13\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">D</text><text x=\"13\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><text x=\"13\" y=\"268\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">F</text><circle cx=\"224\" cy=\"40.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"57.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lookout</text><circle cx=\"92\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#16a34a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Tents</text><circle cx=\"224\" cy=\"84.96000000000001\" r=\"6.16\" fill=\"#dc2626\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"101.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Kitchen</text><circle cx=\"136\" cy=\"128.96\" r=\"6.16\" fill=\"#9333ea\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"136\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Flagpole</text><circle cx=\"312\" cy=\"128.96\" r=\"6.16\" fill=\"#ea580c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"145.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Lake</text><circle cx=\"180\" cy=\"172.96\" r=\"6.16\" fill=\"#0891b2\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"180\" y=\"189.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Toilets</text><circle cx=\"92\" cy=\"216.96\" r=\"6.16\" fill=\"#ca8a04\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"92\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Hall</text><circle cx=\"224\" cy=\"216.96\" r=\"6.16\" fill=\"#db2777\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"224\" y=\"233.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"9.5\" fill=\"#1f2937\">Campfire</text><circle cx=\"312\" cy=\"260.96\" r=\"6.16\" fill=\"#2563eb\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"312\" y=\"277.68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10.5\" fill=\"#1f2937\">Wharf</text><line x1=\"374\" y1=\"44\" x2=\"374\" y2=\"88\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"66\" x2=\"396\" y2=\"66\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"374,40 368,52 380,52\" fill=\"#1f2937\"/><text x=\"374\" y=\"32\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><text x=\"374\" y=\"99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">S</text><text x=\"401\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">E</text><text x=\"347\" y=\"66\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">W</text></svg>",
+      "alt": "A school camp map on a grid with rows A to F and columns 1 to 7, and a compass with north at the top. Places marked: Lookout, Tents, Kitchen, Flagpole, Lake, Toilets, Hall, Campfire, Wharf."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Flagpole"
+      },
+      {
+        "id": "b",
+        "text": "Lake"
+      },
+      {
+        "id": "c",
+        "text": "Toilets"
+      },
+      {
+        "id": "d",
+        "text": "Lookout"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is where you end up if you turn clockwise (towards east). Anticlockwise from north is west.",
+      "c": "100 m is 2 squares, not 1, because each square is 50 m.",
+      "d": "This is where you end up if you forget to turn."
+    },
+    "hints": [
+      "Change each distance into squares first. Each square is 50 m.",
+      "Anticlockwise from north is west."
+    ],
+    "solution": "100 m is 2 squares. From E5, walk 2 squares north to C5. Turning 90° anticlockwise from north means you now face west. Walk 2 squares west to C3: the **Flagpole**."
+  },
+  {
+    "id": "m6.geo.maps.q020",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Tama faces north. He makes three quarter turns clockwise, one after another. Then he walks forward. Which way is he walking?",
+    "options": [
+      {
+        "id": "a",
+        "text": "North"
+      },
+      {
+        "id": "b",
+        "text": "East"
+      },
+      {
+        "id": "c",
+        "text": "South"
+      },
+      {
+        "id": "d",
+        "text": "West"
+      }
+    ],
+    "correct": "d",
+    "shuffle": false,
+    "feedback": {
+      "a": "Three quarter turns is not a full turn. A full turn needs four.",
+      "b": "East is after only one quarter turn clockwise.",
+      "c": "South is after two quarter turns clockwise."
+    },
+    "hints": [
+      "Do one quarter turn at a time: north → east → …"
+    ],
+    "solution": "North → east (1) → south (2) → west (3). He is walking **west**."
+  }
+]

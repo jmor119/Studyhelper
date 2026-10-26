@@ -1,0 +1,15 @@
+[
+  { "id": "m6.mea.area-volume.f01", "front": "What is **area**?", "back": "The amount of flat space a shape covers. It is measured in square units, like cm² and m²." },
+  { "id": "m6.mea.area-volume.f02", "front": "How do you find the area of a rectangle?", "back": "Area = length × width. A 6 m by 4 m garden has an area of 24 m²." },
+  { "id": "m6.mea.area-volume.f03", "front": "What is a **square centimetre** (cm²)?", "back": "The area of a square 1 cm long and 1 cm wide. About the size of your fingernail." },
+  { "id": "m6.mea.area-volume.f04", "front": "What is a **square metre** (m²)?", "back": "The area of a square 1 m long and 1 m wide." },
+  { "id": "m6.mea.area-volume.f05", "front": "How do you find the area of a **right-angled triangle**?", "back": "It is half the rectangle with the same base and height: base × height ÷ 2." },
+  { "id": "m6.mea.area-volume.f06", "front": "Which two sides do you use for the area of a right-angled triangle?", "back": "The two sides that meet at the right angle (the base and the height). Not the long sloping side." },
+  { "id": "m6.mea.area-volume.f07", "front": "What is **volume**?", "back": "The amount of space a 3D object takes up. It is measured in cubic units, like cm³ and m³." },
+  { "id": "m6.mea.area-volume.f08", "front": "How do you find the volume of a **rectangular prism** (a box)?", "back": "Volume = length × width × height." },
+  { "id": "m6.mea.area-volume.f09", "front": "What is a **cubic centimetre** (cm³)?", "back": "The volume of a cube with edges 1 cm long. About the size of a small dice." },
+  { "id": "m6.mea.area-volume.f10", "front": "What is the volume of a cube with 3 cm edges?", "back": "$3 \\times 3 \\times 3 = 27$ cm³" },
+  { "id": "m6.mea.area-volume.f11", "front": "What is the difference between area and perimeter?", "back": "Area is the space inside a shape (cm², m²). Perimeter is the distance around its edge (cm, m)." },
+  { "id": "m6.mea.area-volume.f12", "front": "How do you find the area of a shape made of rectangles?", "back": "Split it into rectangles, find the area of each one, then add them together." },
+  { "id": "m6.mea.area-volume.f13", "front": "A rectangle has an area of 42 m² and a length of 7 m. How do you find its width?", "back": "Divide: $42 \\div 7 = 6$, so the width is 6 m." }
+]

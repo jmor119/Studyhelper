@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m7.geo.polygons.f01",
+    "front": "What is a **polygon**?",
+    "back": "A flat, closed shape with straight sides."
+  },
+  {
+    "id": "m7.geo.polygons.f02",
+    "front": "What is a **regular polygon**?",
+    "back": "A polygon with all its sides equal and all its angles equal."
+  },
+  {
+    "id": "m7.geo.polygons.f03",
+    "front": "How many sides: **pentagon**, **hexagon**, **octagon**, decagon?",
+    "back": "5, 6, 8 and 10."
+  },
+  {
+    "id": "m7.geo.polygons.f04",
+    "front": "The interior angles of a triangle add up to…",
+    "back": "180°."
+  },
+  {
+    "id": "m7.geo.polygons.f05",
+    "front": "The interior angles of a quadrilateral add up to…",
+    "back": "360°, because it splits into two triangles."
+  },
+  {
+    "id": "m7.geo.polygons.f06",
+    "front": "**Angle sum** of a polygon with $n$ sides",
+    "back": "$180° \\times (n - 2)$"
+  },
+  {
+    "id": "m7.geo.polygons.f07",
+    "front": "Why do we use $n - 2$ in the angle sum?",
+    "back": "From one corner, a polygon with $n$ sides splits into $n - 2$ triangles."
+  },
+  {
+    "id": "m7.geo.polygons.f08",
+    "front": "What is an **exterior angle**?",
+    "back": "The angle between one side of a polygon and the next side made longer."
+  },
+  {
+    "id": "m7.geo.polygons.f09",
+    "front": "Interior angle + exterior angle at the same corner =",
+    "back": "180°, because they make a straight line."
+  },
+  {
+    "id": "m7.geo.polygons.f10",
+    "front": "The exterior angles of any polygon add up to…",
+    "back": "360°: one full turn as you walk around the shape."
+  },
+  {
+    "id": "m7.geo.polygons.f11",
+    "front": "Each exterior angle of a regular polygon with $n$ sides",
+    "back": "$360° \\div n$"
+  },
+  {
+    "id": "m7.geo.polygons.f12",
+    "front": "Each interior angle of a regular hexagon",
+    "back": "120°. The exterior angle is $360° \\div 6 = 60°$, and $180° - 60° = 120°$."
+  }
+]

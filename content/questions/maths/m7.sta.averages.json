@@ -1,0 +1,347 @@
+[
+  {
+    "id": "m7.sta.averages.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is a **categorical** variable?",
+    "options": [
+      { "id": "a", "text": "The favourite colour of each student" },
+      { "id": "b", "text": "The number of pets each student has" },
+      { "id": "c", "text": "The height of each student" },
+      { "id": "d", "text": "The time each student takes to run 100 m" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The number of pets is counted, so it is discrete numerical data.",
+      "c": "Height is measured, so it is continuous numerical data.",
+      "d": "Time is measured, so it is continuous numerical data."
+    },
+    "hints": ["Categorical answers are names or groups, not numbers."],
+    "solution": "Favourite colour puts students into groups (red, blue, green and so on), so it is **categorical**. The other three have number answers."
+  },
+  {
+    "id": "m7.sta.averages.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the **range** of these numbers: 12, 7, 15, 9, 10",
+    "answer": 8,
+    "form": "integer",
+    "hints": ["The range is the highest value take away the lowest value."],
+    "solution": "Highest: 15. Lowest: 7. Range $= 15 - 7 = 8$."
+  },
+  {
+    "id": "m7.sta.averages.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the **mode** of these numbers: 4, 7, 3, 7, 5, 7, 2",
+    "answer": 7,
+    "form": "integer",
+    "hints": ["The mode is the value that appears most often."],
+    "solution": "7 appears three times. Every other value appears only once, so the mode is **7**."
+  },
+  {
+    "id": "m7.sta.averages.q004",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "mean", "text": "Mean" }, "right": { "id": "d1", "text": "The total of the values divided by the number of values" } },
+      { "left": { "id": "median", "text": "Median" }, "right": { "id": "d2", "text": "The middle value when the data is in order" } },
+      { "left": { "id": "mode", "text": "Mode" }, "right": { "id": "d3", "text": "The value that appears most often" } },
+      { "left": { "id": "range", "text": "Range" }, "right": { "id": "d4", "text": "The highest value take away the lowest value" } }
+    ],
+    "hints": ["Mode and most both start with \"mo\"."],
+    "solution": "Mean: share the total equally (total ÷ number of values). Median: the middle value in order. Mode: the most common value. Range: highest − lowest, which measures spread."
+  },
+  {
+    "id": "m7.sta.averages.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "For the data 2, 3, 3, 4, 13, which is bigger: the mean or the median?",
+    "options": [
+      { "id": "a", "text": "The mean is bigger" },
+      { "id": "b", "text": "The median is bigger" },
+      { "id": "c", "text": "They are the same" },
+      { "id": "d", "text": "You can't tell without more data" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Work them both out. The median is 3, but the 13 pulls the mean up.",
+      "c": "Work them both out: the median is 3 and the mean is 5.",
+      "d": "You have all the data you need. Work out both averages."
+    },
+    "hints": ["Find the median: the middle value.", "Find the mean: total ÷ 5."],
+    "solution": "Median: the middle of 2, 3, **3**, 4, 13 is 3.\n\nMean: $(2 + 3 + 3 + 4 + 13) \\div 5 = 25 \\div 5 = 5$.\n\nThe **mean is bigger**, because the large value 13 pulls it up."
+  },
+  {
+    "id": "m7.sta.averages.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi went fishing off the wharf four times in the holidays. He caught 6, 9, 4 and 5 fish. What is the **mean** number of fish he caught per trip?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Add up all the fish.", "Then divide by the number of trips."],
+    "solution": "Total: $6 + 9 + 4 + 5 = 24$ fish.\n\nMean $= 24 \\div 4 = 6$ fish per trip."
+  },
+  {
+    "id": "m7.sta.averages.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Discrete numerical data is [[a]], like the number of goals in a game. Continuous numerical data is [[b]], like the length of a pāua shell.",
+    "blanks": [
+      { "id": "a", "accepted": ["counted"], "options": ["counted", "measured", "grouped"] },
+      { "id": "b", "accepted": ["measured"], "options": ["counted", "measured", "grouped"] }
+    ],
+    "hints": ["Can you have 3.5 goals in a game? Can a shell be 9.3 cm long?"],
+    "solution": "Discrete data is **counted** (whole numbers, like 3 goals). Continuous data is **measured** and can be any value (like 9.3 cm)."
+  },
+  {
+    "id": "m7.sta.averages.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the variables that are **continuous** numerical.",
+    "options": [
+      { "id": "a", "text": "The height of a sunflower" },
+      { "id": "b", "text": "The mass of a pumpkin" },
+      { "id": "c", "text": "The time to swim one length of the pool" },
+      { "id": "d", "text": "The number of goals in a hockey game" },
+      { "id": "e", "text": "Favourite sport" },
+      { "id": "f", "text": "The number of siblings a student has" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Continuous data is measured, not counted.", "Heights, masses and times are all measured."],
+    "solution": "Height, mass and time are **measured**, so they are continuous. Goals and siblings are counted (discrete), and favourite sport is categorical."
+  },
+  {
+    "id": "m7.sta.averages.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana says the median of 8, 3, 10, 5, 6 is 10, because 10 is in the middle of the list. What has she done wrong?",
+    "options": [
+      { "id": "a", "text": "She didn't put the values in order first. The median is 6." },
+      { "id": "b", "text": "She should have added the values and divided by 5. The median is 6.4." },
+      { "id": "c", "text": "The median is the most common value, so there isn't one." },
+      { "id": "d", "text": "Nothing. The median is 10." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding and dividing gives the mean, not the median.",
+      "c": "The most common value is the mode, not the median.",
+      "d": "The median is the middle value once the data is in order. 10 is the largest value."
+    },
+    "hints": ["What is the first step when you find a median?"],
+    "solution": "Put the values in order first: 3, 5, **6**, 8, 10. The middle value is 6, so the median is **6**. Ana used the middle of the unsorted list."
+  },
+  {
+    "id": "m7.sta.averages.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The heights of six bean seedlings, in centimetres, are 12, 15, 9, 14, 10 and 17. What is the **median** height?",
+    "answer": 13,
+    "units": "cm",
+    "hints": ["Write the heights in order.", "There are six values, so there are two middle values. The median is halfway between them."],
+    "solution": "In order: 9, 10, **12**, **14**, 15, 17\n\nThe two middle values are 12 and 14.\n\nMedian $= (12 + 14) \\div 2 = 26 \\div 2 = 13$ cm"
+  },
+  {
+    "id": "m7.sta.averages.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Losa's scores in five maths quizzes, each out of 10, were 7, 9, 6, 8 and 10. What was her **mean** score?",
+    "answer": 8,
+    "hints": ["Add up all five scores.", "Divide the total by the number of quizzes."],
+    "solution": "Total: $7 + 9 + 6 + 8 + 10 = 40$\n\nMean $= 40 \\div 5 = 8$"
+  },
+  {
+    "id": "m7.sta.averages.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Room 8 voted for their favourite pizza topping. Which average can they use to describe the results?",
+    "options": [
+      { "id": "a", "text": "The mode" },
+      { "id": "b", "text": "The mean" },
+      { "id": "c", "text": "The median" },
+      { "id": "d", "text": "The range" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You can't add up pizza toppings and divide, because they aren't numbers.",
+      "c": "You can't put pizza toppings in number order to find a middle value.",
+      "d": "The range isn't an average, and you can't subtract toppings."
+    },
+    "hints": ["Is the data categorical or numerical?"],
+    "solution": "Pizza topping is **categorical** data. The only average you can find is the **mode**: the most popular topping."
+  },
+  {
+    "id": "m7.sta.averages.q013",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.averages.g1",
+    "part": "a",
+    "stem": "Kai asked every student in Room 3 how many siblings (brothers and sisters) they have. The dot plot shows the results. Each dot is one student.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 178\" width=\"270\" height=\"178\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"126\" x2=\"240\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"126\" x2=\"30\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"126\" x2=\"60\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"90\" y1=\"126\" x2=\"90\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"120\" y1=\"126\" x2=\"120\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"150\" y1=\"126\" x2=\"150\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"180\" y1=\"126\" x2=\"180\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"210\" y1=\"126\" x2=\"210\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"240\" y1=\"126\" x2=\"240\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><circle cx=\"30\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"30\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"135\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Siblings of Room 3 students</text><text x=\"135\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of siblings</text></svg>", "alt": "Dot plot titled \"Siblings of Room 3 students\". 0 siblings: 2 dots, 1: 5 dots, 2: 7 dots, 3: 6 dots, 4: 3 dots, 5: 1 dot, 6: 1 dot. 25 dots altogether." },
+    "prompt": "What is the **mode**?",
+    "answer": 2,
+    "form": "integer",
+    "hints": ["On a dot plot, the mode is the value with the tallest column of dots."],
+    "solution": "The tallest column has 7 dots, above 2. So the mode is **2 siblings**."
+  },
+  {
+    "id": "m7.sta.averages.q014",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.averages.g1",
+    "part": "b",
+    "stem": "Kai asked every student in Room 3 how many siblings (brothers and sisters) they have. The dot plot shows the results. Each dot is one student.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 178\" width=\"270\" height=\"178\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"126\" x2=\"240\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"126\" x2=\"30\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"126\" x2=\"60\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"90\" y1=\"126\" x2=\"90\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"120\" y1=\"126\" x2=\"120\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"150\" y1=\"126\" x2=\"150\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"180\" y1=\"126\" x2=\"180\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"210\" y1=\"126\" x2=\"210\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"240\" y1=\"126\" x2=\"240\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><circle cx=\"30\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"30\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"135\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Siblings of Room 3 students</text><text x=\"135\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of siblings</text></svg>", "alt": "Dot plot titled \"Siblings of Room 3 students\". 0 siblings: 2 dots, 1: 5 dots, 2: 7 dots, 3: 6 dots, 4: 3 dots, 5: 1 dot, 6: 1 dot. 25 dots altogether." },
+    "prompt": "What is the **range**?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Find the lowest and the highest values that have dots."],
+    "solution": "Highest value: 6. Lowest value: 0.\n\nRange $= 6 - 0 = 6$"
+  },
+  {
+    "id": "m7.sta.averages.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.averages.g1",
+    "part": "c",
+    "stem": "Kai asked every student in Room 3 how many siblings (brothers and sisters) they have. The dot plot shows the results. Each dot is one student.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 270 178\" width=\"270\" height=\"178\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"126\" x2=\"240\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"126\" x2=\"30\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"126\" x2=\"60\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"90\" y1=\"126\" x2=\"90\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"120\" y1=\"126\" x2=\"120\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"150\" y1=\"126\" x2=\"150\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"180\" y1=\"126\" x2=\"180\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"210\" y1=\"126\" x2=\"210\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"240\" y1=\"126\" x2=\"240\" y2=\"133\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><circle cx=\"30\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"30\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"135\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Siblings of Room 3 students</text><text x=\"135\" y=\"164\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of siblings</text></svg>", "alt": "Dot plot titled \"Siblings of Room 3 students\". 0 siblings: 2 dots, 1: 5 dots, 2: 7 dots, 3: 6 dots, 4: 3 dots, 5: 1 dot, 6: 1 dot. 25 dots altogether." },
+    "prompt": "What is the **mean** number of siblings? Give your answer as a decimal.",
+    "answer": 2.4,
+    "form": "decimal",
+    "hints": ["How many students are there? Count all the dots.", "Find the total number of siblings: for each column, multiply the value by the number of dots, then add."],
+    "solution": "Number of students: $2 + 5 + 7 + 6 + 3 + 1 + 1 = 25$\n\nTotal siblings: $0 \\times 2 + 1 \\times 5 + 2 \\times 7 + 3 \\times 6 + 4 \\times 3 + 5 \\times 1 + 6 \\times 1$\n\n$= 0 + 5 + 14 + 18 + 12 + 5 + 6 = 60$\n\nMean $= 60 \\div 25 = 2.4$ siblings"
+  },
+  {
+    "id": "m7.sta.averages.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The mean of five numbers is 9. Four of the numbers are 7, 12, 6 and 10. What is the fifth number?",
+    "answer": 10,
+    "hints": ["If the mean of five numbers is 9, what must they add up to?", "Take away the four numbers you know."],
+    "solution": "Total of all five: $5 \\times 9 = 45$\n\nTotal of the four you know: $7 + 12 + 6 + 10 = 35$\n\nFifth number: $45 - 35 = 10$"
+  },
+  {
+    "id": "m7.sta.averages.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "The ages of the people at a birthday party are 11, 12, 11, 12, 11 and 70. Which statement is true?",
+    "options": [
+      { "id": "a", "text": "The mean is much bigger than the median, because 70 is an outlier." },
+      { "id": "b", "text": "The median is much bigger than the mean, because 70 is an outlier." },
+      { "id": "c", "text": "The outlier changes the median a lot, but not the mean." },
+      { "id": "d", "text": "An outlier doesn't change any of the averages." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Work out both. The median is 11.5, but the mean is about 21.",
+      "c": "It's the other way round: the outlier pulls the mean towards it and hardly changes the median.",
+      "d": "The outlier makes a big difference to the mean."
+    },
+    "hints": ["Find the median and the mean.", "Which one does the 70 affect more?"],
+    "solution": "In order: 11, 11, **11**, **12**, 12, 70. Median $= (11 + 12) \\div 2 = 11.5$.\n\nMean $= 127 \\div 6$, which is a bit more than 21.\n\nThe outlier 70 **pulls the mean up**, so the mean is much bigger than the median. The median hardly changes."
+  },
+  {
+    "id": "m7.sta.averages.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai timed his walk to school on five days. His times, in minutes, were 12, 11, 13, 12 and 42. On the day it took 42 minutes, he stopped to help a friend with a flat bike tyre.\n\nWhich average best describes Kai's usual walking time? Explain your choice.",
+    "modelAnswer": "The median (or the mode), which is 12 minutes. 42 is an outlier. It pulls the mean up to 18 minutes ($90 \\div 5$), which is longer than four of his five walks. The median is not affected much by the outlier, so it describes his usual time better.",
+    "rubric": [
+      { "criterion": "Chooses the median (or the mode) and gives its value, 12 minutes", "marks": 1 },
+      { "criterion": "Explains that 42 is an outlier that pulls the mean up (the mean is 18), so the mean is not typical", "marks": 1 }
+    ],
+    "hints": ["Which value is an outlier?", "Work out the mean and the median. Which one is closer to most of his times?"],
+    "solution": "In order: 11, 12, **12**, 13, 42, so the median is 12 minutes. The mean is $90 \\div 5 = 18$ minutes. The outlier 42 pulls the mean up, so the **median (12 minutes)** describes his usual time best."
+  },
+  {
+    "id": "m7.sta.averages.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi's mean score after 4 spelling tests was 15. After his 5th test, his mean score went up to 16. What did Hemi score in his 5th test?",
+    "answer": 20,
+    "hints": ["What was the total of his first 4 scores?", "What must the total of all 5 scores be for a mean of 16?"],
+    "solution": "Total of the first 4 tests: $4 \\times 15 = 60$\n\nTotal of all 5 tests: $5 \\times 16 = 80$\n\n5th test: $80 - 60 = 20$"
+  },
+  {
+    "id": "m7.sta.averages.q020",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Five whole numbers have a mean of 6, a median of 5, a mode of 4 and a range of 6.\n\nWrite the numbers in order from smallest to largest: [[a]], [[b]], [[c]], [[d]], [[e]]",
+    "blanks": [
+      { "id": "a", "accepted": ["4"] },
+      { "id": "b", "accepted": ["4"] },
+      { "id": "c", "accepted": ["5"] },
+      { "id": "d", "accepted": ["7"] },
+      { "id": "e", "accepted": ["10"] }
+    ],
+    "hints": ["The median is the middle (3rd) number. The mode 4 must appear at least twice.", "The total is $5 \\times 6 = 30$. The range tells you how far the largest number is from the smallest."],
+    "solution": "The median is 5, so the 3rd number is 5.\n\nThe mode is 4, so 4 appears at least twice. Both 4s must come before the 5: the numbers start 4, 4, 5.\n\nThe range is 6, so the largest number is $4 + 6 = 10$.\n\nThe total is $5 \\times 6 = 30$, so the 4th number is $30 - 4 - 4 - 5 - 10 = 7$.\n\nThe numbers are **4, 4, 5, 7, 10**."
+  },
+  {
+    "id": "m7.sta.averages.q021",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for a value that is much bigger or much smaller than the rest of the data?",
+    "accepted": ["outlier", "an outlier", "outliers"],
+    "hints": ["It \"lies outside\" the rest of the data."],
+    "solution": "It is an **outlier**. Outliers pull the mean towards them, but hardly change the median."
+  },
+  {
+    "id": "m7.sta.averages.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The mean score in a class quiz was 14. Then a new student joined the class and did the quiz. The class's mean score went **up**.\n\nWhat can you say about the new student's score? Explain why.",
+    "modelAnswer": "The new student's score must be higher than 14. If the new score were exactly 14, the mean would stay at 14. If it were less than 14, the new score would pull the mean down. A score above the mean makes the total grow by more than 14, so sharing the new total between one more person gives a bigger mean.",
+    "rubric": [
+      { "criterion": "States that the new score must be more than 14 (more than the old mean)", "marks": 1 },
+      { "criterion": "Explains why, e.g. a score of exactly 14 keeps the mean the same and a lower score pulls it down, or uses a worked example", "marks": 1 }
+    ],
+    "hints": ["Try an example: what happens to the mean of 14, 14, 14 if you add a 14? A 10? A 20?"],
+    "solution": "The new score must be **more than 14**. For example, 14, 14, 14 has a mean of 14. Adding 20 gives $62 \\div 4 = 15.5$ (up), adding 14 keeps it at 14, and adding 10 gives $52 \\div 4 = 13$ (down)."
+  },
+  {
+    "id": "m7.sta.averages.q023",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put the steps in order to find the median of 8 values.",
+    "items": [
+      { "id": "s1", "text": "Write the values in order from smallest to largest" },
+      { "id": "s2", "text": "Find the two middle values (the 4th and 5th)" },
+      { "id": "s3", "text": "Add the two middle values together" },
+      { "id": "s4", "text": "Divide the result by 2" }
+    ],
+    "hints": ["You always start by putting the data in order."],
+    "solution": "Order the values, find the two middle ones (the 4th and 5th of 8), add them, and divide by 2. The median is halfway between the two middle values."
+  }
+]

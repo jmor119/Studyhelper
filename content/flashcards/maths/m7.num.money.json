@@ -1,0 +1,15 @@
+[
+  { "id": "m7.num.money.f01", "front": "What is the **total**?", "back": "All the prices added together." },
+  { "id": "m7.num.money.f02", "front": "What is **change**?", "back": "The money you get back: the amount you paid take away the total." },
+  { "id": "m7.num.money.f03", "front": "What is **cash rounding**?", "back": "Cash totals in New Zealand are rounded to the nearest 10 cents, because the smallest coin is 10c." },
+  { "id": "m7.num.money.f04", "front": "Cash rounding: which cents round **down**?", "back": "1, 2, 3 or 4 cents. \\$4.33 becomes \\$4.30." },
+  { "id": "m7.num.money.f05", "front": "Cash rounding: which cents round **up**?", "back": "6, 7, 8 or 9 cents. \\$4.37 becomes \\$4.40." },
+  { "id": "m7.num.money.f06", "front": "Cash rounding: what happens to 5 cents?", "back": "The shop decides whether to round up or down. Many shops round down." },
+  { "id": "m7.num.money.f07", "front": "Is a card (EFTPOS) payment rounded?", "back": "No. Only cash is rounded, and only the total, not each item." },
+  { "id": "m7.num.money.f08", "front": "What is a **discount**?", "back": "The amount taken off a price, like \\$9 off, or 20% off." },
+  { "id": "m7.num.money.f09", "front": "What is the **sale price**?", "back": "The price after the discount: original price − discount." },
+  { "id": "m7.num.money.f10", "front": "How do you find 10% of an amount?", "back": "Divide by 10. 10% of \\$45 is \\$4.50." },
+  { "id": "m7.num.money.f11", "front": "How do you find 25% of an amount?", "back": "Divide by 4 (a quarter). 25% of \\$36 is \\$9." },
+  { "id": "m7.num.money.f12", "front": "How many decimal places do money answers have?", "back": "Two (the nearest cent). $10 \\div 3 = 3.333\\ldots$, so \\$3.33." },
+  { "id": "m7.num.money.f13", "front": "How do you find the better buy?", "back": "Work out the price of one item in each pack (the unit price). The lower unit price is better value." }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "id": "m7.num.fraction-operations.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "$\\frac{1}{5}$ is called a [[a]] fraction, because its numerator is 1.",
+    "blanks": [{ "id": "a", "accepted": ["unit"], "options": ["unit", "improper", "mixed"] }],
+    "hints": ["It is one single part of the whole."],
+    "solution": "A fraction with a numerator of 1, like $\\frac{1}{5}$, is a **unit fraction**: one equal part of the whole."
+  },
+  {
+    "id": "m7.num.fraction-operations.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Finding $\\frac{1}{5}$ of a number is the same as…",
+    "options": [
+      { "id": "a", "text": "dividing the number by 5" },
+      { "id": "b", "text": "multiplying the number by 5" },
+      { "id": "c", "text": "taking 5 away from the number" },
+      { "id": "d", "text": "adding 5 to the number" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Multiplying by 5 makes the number bigger. $\\frac{1}{5}$ of something is smaller than the whole thing.",
+      "c": "$\\frac{1}{5}$ means split into 5 equal parts and take one part. That is not the same as subtracting 5.",
+      "d": "$\\frac{1}{5}$ of a number is smaller than the number, so it can't come from adding."
+    },
+    "hints": ["$\\frac{1}{5}$ means split into 5 equal parts and take one of them."],
+    "solution": "To find $\\frac{1}{5}$, split the number into 5 equal parts: that is dividing by 5. For example, $\\frac{1}{5}$ of 40 is $40 \\div 5 = 8$."
+  },
+  {
+    "id": "m7.num.fraction-operations.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find $\\frac{1}{6}$ of 54.",
+    "answer": 9,
+    "form": "integer",
+    "hints": ["Split 54 into 6 equal parts."],
+    "solution": "$54 \\div 6 = 9$, so $\\frac{1}{6}$ of 54 is 9."
+  },
+  {
+    "id": "m7.num.fraction-operations.q004",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "There are 36 students in the school kapa haka group. $\\frac{3}{4}$ of them are performing at the regional festival. How many students are performing?",
+    "answer": 27,
+    "form": "integer",
+    "hints": ["Find $\\frac{1}{4}$ of 36 first.", "$\\frac{3}{4}$ is 3 lots of $\\frac{1}{4}$."],
+    "solution": "$\\frac{1}{4}$ of 36 is $36 \\div 4 = 9$. So $\\frac{3}{4}$ of 36 is $3 \\times 9 = 27$ students."
+  },
+  {
+    "id": "m7.num.fraction-operations.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which calculation gives the same answer as $\\frac{2}{3}$ of 12?",
+    "options": [
+      { "id": "a", "text": "$12 \\times \\frac{2}{3}$" },
+      { "id": "b", "text": "$12 \\div \\frac{2}{3}$" },
+      { "id": "c", "text": "$12 - \\frac{2}{3}$" },
+      { "id": "d", "text": "$12 + \\frac{2}{3}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by $\\frac{2}{3}$ gives 18, which is bigger than 12. $\\frac{2}{3}$ of 12 must be smaller than 12.",
+      "c": "This takes away two-thirds of **one**, not two-thirds of 12.",
+      "d": "Adding makes the answer bigger than 12, but $\\frac{2}{3}$ of 12 is less than 12."
+    },
+    "hints": ["In maths, what does the word \"of\" mean?"],
+    "solution": "\"Of\" means multiply. $\\frac{2}{3}$ of 12 is $12 \\times \\frac{2}{3} = \\frac{24}{3} = 8$. Check: $12 \\div 3 = 4$, and $2 \\times 4 = 8$ ✓"
+  },
+  {
+    "id": "m7.num.fraction-operations.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $5 \\times \\frac{2}{7}$. Give your answer in simplest form.",
+    "answer": 1.4285714285714286,
+    "form": "simplest-fraction",
+    "hints": ["$5 \\times \\frac{2}{7}$ means 5 lots of $\\frac{2}{7}$.", "Multiply the numerator by 5. The denominator stays the same."],
+    "solution": "$5 \\times \\frac{2}{7} = \\frac{5 \\times 2}{7} = \\frac{10}{7} = 1\\frac{3}{7}$"
+  },
+  {
+    "id": "m7.num.fraction-operations.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sione works out $4 \\times \\frac{2}{5} = \\frac{8}{20}$. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He multiplied the denominator by 4 as well. Only the numerator changes, so the answer is $\\frac{8}{5}$." },
+      { "id": "b", "text": "Nothing. $\\frac{8}{20}$ is correct." },
+      { "id": "c", "text": "He should have added, so the answer is $4\\frac{2}{5}$." },
+      { "id": "d", "text": "He should have multiplied the denominator only, so the answer is $\\frac{2}{20}$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{8}{20}$ simplifies to $\\frac{2}{5}$, so Sione's answer is the same as what he started with. 4 lots of $\\frac{2}{5}$ must be bigger than $\\frac{2}{5}$.",
+      "c": "$4 \\times \\frac{2}{5}$ means 4 lots of $\\frac{2}{5}$, not 4 plus $\\frac{2}{5}$.",
+      "d": "Multiplying the denominator makes the pieces smaller. 4 lots of two-fifths is still counted in fifths."
+    },
+    "hints": ["$4 \\times \\frac{2}{5}$ means 4 lots of $\\frac{2}{5}$. Are the pieces still fifths?"],
+    "solution": "4 lots of 2 fifths is 8 fifths: $4 \\times \\frac{2}{5} = \\frac{8}{5} = 1\\frac{3}{5}$. The pieces are still fifths, so the denominator stays as 5."
+  },
+  {
+    "id": "m7.num.fraction-operations.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $7 \\div \\frac{1}{3}$.",
+    "answer": 21,
+    "form": "integer",
+    "hints": ["How many thirds are there in one whole?", "So how many thirds fit into 7?"],
+    "solution": "There are 3 thirds in each whole, so there are $7 \\times 3 = 21$ thirds in 7. $7 \\div \\frac{1}{3} = 21$."
+  },
+  {
+    "id": "m7.num.fraction-operations.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $\\frac{2}{3} \\div 4$. Give your answer in simplest form.",
+    "answer": 0.16666666666666666,
+    "form": "simplest-fraction",
+    "hints": ["Dividing by 4 cuts each third into 4 smaller pieces.", "Multiply the denominator by 4, then simplify."],
+    "solution": "$\\frac{2}{3} \\div 4 = \\frac{2}{3 \\times 4} = \\frac{2}{12} = \\frac{1}{6}$"
+  },
+  {
+    "id": "m7.num.fraction-operations.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Why is $4 \\div \\frac{1}{2}$ bigger than 4?",
+    "options": [
+      { "id": "a", "text": "It asks how many halves fit into 4. There are 2 halves in each whole, so the answer is 8." },
+      { "id": "b", "text": "Dividing always makes a number bigger." },
+      { "id": "c", "text": "It isn't bigger. $4 \\div \\frac{1}{2} = 2$." },
+      { "id": "d", "text": "Because $\\frac{1}{2}$ is bigger than 4." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Dividing by a whole number bigger than 1 makes a number smaller, like $4 \\div 2 = 2$. It is dividing by a number less than 1 that makes it bigger.",
+      "c": "$4 \\div 2 = 2$, but $4 \\div \\frac{1}{2}$ asks how many halves are in 4.",
+      "d": "$\\frac{1}{2}$ is less than 1, so it is much smaller than 4."
+    },
+    "hints": ["Read $4 \\div \\frac{1}{2}$ as \"How many halves fit into 4?\""],
+    "solution": "$4 \\div \\frac{1}{2}$ asks how many halves fit into 4. Each whole has 2 halves, so 4 wholes have $4 \\times 2 = 8$ halves. The pieces are smaller than 1, so more of them fit."
+  },
+  {
+    "id": "m7.num.fraction-operations.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ella has 3 m of ribbon. She cuts it into pieces that are each $\\frac{1}{4}$ m long. How many pieces does she get?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["How many quarter-metres are in 1 metre?"],
+    "solution": "There are 4 quarter-metres in each metre, so there are $3 \\times 4 = 12$ in 3 m. This is $3 \\div \\frac{1}{4} = 12$ pieces."
+  },
+  {
+    "id": "m7.num.fraction-operations.q012",
+    "type": "match",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Match each calculation to its answer.",
+    "pairs": [
+      { "left": { "id": "c1", "text": "$\\frac{1}{2}$ of 10" }, "right": { "id": "r1", "text": "5" } },
+      { "left": { "id": "c2", "text": "$10 \\div \\frac{1}{2}$" }, "right": { "id": "r2", "text": "20" } },
+      { "left": { "id": "c3", "text": "$\\frac{1}{2} \\div 10$" }, "right": { "id": "r3", "text": "$\\frac{1}{20}$" } },
+      { "left": { "id": "c4", "text": "$3 \\times \\frac{1}{2}$" }, "right": { "id": "r4", "text": "$1\\frac{1}{2}$" } },
+      { "left": { "id": "c5", "text": "$\\frac{1}{4}$ of 12" }, "right": { "id": "r5", "text": "3" } }
+    ],
+    "hints": ["Dividing by a half makes a number bigger. Dividing a half by 10 makes a tiny piece."],
+    "solution": "$\\frac{1}{2}$ of 10 = 5. $10 \\div \\frac{1}{2} = 20$ (20 halves in 10). $\\frac{1}{2} \\div 10 = \\frac{1}{20}$. $3 \\times \\frac{1}{2} = \\frac{3}{2} = 1\\frac{1}{2}$. $\\frac{1}{4}$ of 12 = 3."
+  },
+  {
+    "id": "m7.num.fraction-operations.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Kai makes Anzac biscuits. Each batch needs $\\frac{2}{3}$ of a cup of rolled oats. He makes 4 batches. How many cups of oats does he need? Give your answer as a mixed number.",
+    "answer": 2.6666666666666665,
+    "form": "mixed",
+    "hints": ["4 batches means 4 lots of $\\frac{2}{3}$.", "Multiply the numerator by 4, then change to a mixed number."],
+    "solution": "$4 \\times \\frac{2}{3} = \\frac{8}{3}$ cups. $8 \\div 3 = 2$ remainder 2, so that is $2\\frac{2}{3}$ cups."
+  },
+  {
+    "id": "m7.num.fraction-operations.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Find $\\frac{5}{4}$ of 96.",
+    "answer": 120,
+    "form": "integer",
+    "hints": ["Find $\\frac{1}{4}$ of 96 first.", "$\\frac{5}{4}$ is 5 lots of $\\frac{1}{4}$."],
+    "solution": "$\\frac{1}{4}$ of 96 is $96 \\div 4 = 24$. So $\\frac{5}{4}$ of 96 is $5 \\times 24 = 120$.\n\nCheck: $\\frac{5}{4}$ is more than 1, so the answer should be more than 96. It is."
+  },
+  {
+    "id": "m7.num.fraction-operations.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "On a school trip, $\\frac{3}{4}$ of the seats on the bus are full. That is 36 seats. How many seats does the bus have altogether?",
+    "answer": 48,
+    "form": "integer",
+    "hints": ["3 quarters are 36 seats. How many seats is 1 quarter?", "The whole bus is 4 quarters."],
+    "solution": "$\\frac{3}{4}$ is 36 seats, so $\\frac{1}{4}$ is $36 \\div 3 = 12$ seats. The whole bus is $4 \\times 12 = 48$ seats.\n\nCheck: $\\frac{3}{4}$ of 48 is $48 \\div 4 \\times 3 = 36$ ✓"
+  },
+  {
+    "id": "m7.num.fraction-operations.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri pours $1\\frac{1}{2}$ L of milk equally into 6 glasses. How much milk is in each glass? Give your answer as a fraction of a litre in simplest form.",
+    "answer": 0.25,
+    "form": "simplest-fraction",
+    "units": "L",
+    "hints": ["Change $1\\frac{1}{2}$ into an improper fraction.", "Sharing between 6 means dividing by 6."],
+    "solution": "$1\\frac{1}{2} = \\frac{3}{2}$.\n\n$\\frac{3}{2} \\div 6 = \\frac{3}{2 \\times 6} = \\frac{3}{12} = \\frac{1}{4}$\n\nEach glass has $\\frac{1}{4}$ L of milk."
+  },
+  {
+    "id": "m7.num.fraction-operations.q017",
+    "type": "multi",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the calculations that have an answer of 6.",
+    "options": [
+      { "id": "a", "text": "$3 \\div \\frac{1}{2}$" },
+      { "id": "b", "text": "$\\frac{2}{3}$ of 9" },
+      { "id": "c", "text": "$12 \\times \\frac{1}{2}$" },
+      { "id": "d", "text": "$\\frac{1}{2} \\div 3$" },
+      { "id": "e", "text": "$3 \\times \\frac{1}{2}$" },
+      { "id": "f", "text": "$18 \\div \\frac{1}{3}$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["Work out each one. Remember: dividing by a unit fraction makes the number bigger."],
+    "solution": "- $3 \\div \\frac{1}{2} = 6$ ✓ (6 halves in 3)\n- $\\frac{2}{3}$ of 9 $= 6$ ✓\n- $12 \\times \\frac{1}{2} = 6$ ✓\n- $\\frac{1}{2} \\div 3 = \\frac{1}{6}$\n- $3 \\times \\frac{1}{2} = 1\\frac{1}{2}$\n- $18 \\div \\frac{1}{3} = 54$"
+  },
+  {
+    "id": "m7.num.fraction-operations.q018",
+    "type": "order",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these calculations in order of their answers, from **smallest** to **largest**: $6 \\div \\frac{1}{2}$, $6 \\times \\frac{1}{2}$, $\\frac{1}{2} \\div 6$ and $6 \\div \\frac{1}{3}$.",
+    "items": [
+      { "id": "t", "text": "$\\frac{1}{2} \\div 6$" },
+      { "id": "q", "text": "$6 \\times \\frac{1}{2}$" },
+      { "id": "u", "text": "$6 \\div \\frac{1}{2}$" },
+      { "id": "r", "text": "$6 \\div \\frac{1}{3}$" }
+    ],
+    "hints": ["Work out each answer first.", "How many halves are in 6? How many thirds?"],
+    "solution": "$\\frac{1}{2} \\div 6 = \\frac{1}{12}$, $6 \\times \\frac{1}{2} = 3$, $6 \\div \\frac{1}{2} = 12$ and $6 \\div \\frac{1}{3} = 18$.\n\nFrom smallest to largest: $\\frac{1}{2} \\div 6$, $6 \\times \\frac{1}{2}$, $6 \\div \\frac{1}{2}$, $6 \\div \\frac{1}{3}$."
+  },
+  {
+    "id": "m7.num.fraction-operations.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Wiremu says $\\frac{1}{2} \\div 3 = \\frac{3}{2}$. Explain what he has done wrong, and give the correct answer. You can describe a picture to help.",
+    "modelAnswer": "Wiremu has multiplied by 3 instead of dividing. $\\frac{1}{2} \\div 3$ means sharing half of something equally between 3, so each share must be smaller than a half. If you cut a half into 3 equal pieces, each piece is $\\frac{1}{6}$ of the whole. So $\\frac{1}{2} \\div 3 = \\frac{1}{6}$.",
+    "rubric": [
+      { "criterion": "Explains the mistake: he multiplied (or his answer is bigger than $\\frac{1}{2}$, but sharing should make it smaller)", "marks": 1 },
+      { "criterion": "Gives the correct answer $\\frac{1}{6}$ with a reason, e.g. a half cut into 3 pieces makes sixths", "marks": 1 }
+    ],
+    "hints": ["If you share half a pizza between 3 people, does each person get more or less than half?", "How big is each piece compared with the whole pizza?"],
+    "solution": "Sharing makes each piece smaller, so the answer must be less than $\\frac{1}{2}$. Wiremu's answer, $\\frac{3}{2}$, is bigger, because he multiplied. Half cut into 3 equal pieces gives sixths: $\\frac{1}{2} \\div 3 = \\frac{1}{6}$."
+  },
+  {
+    "id": "m7.num.fraction-operations.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "At the school fair, $\\frac{3}{8}$ of the cupcakes were sold in the morning and $\\frac{1}{4}$ were sold in the afternoon. There were 18 cupcakes left at the end. How many cupcakes were there at the start?",
+    "answer": 48,
+    "form": "integer",
+    "hints": ["What fraction of the cupcakes were sold altogether? Use eighths.", "What fraction were left? That fraction is worth 18 cupcakes."],
+    "solution": "Sold: $\\frac{3}{8} + \\frac{1}{4} = \\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$.\n\nLeft: $\\frac{8}{8} - \\frac{5}{8} = \\frac{3}{8}$, which is 18 cupcakes.\n\nSo $\\frac{1}{8}$ is $18 \\div 3 = 6$ cupcakes, and the whole is $8 \\times 6 = 48$ cupcakes.\n\nCheck: 18 sold in the morning, 12 in the afternoon, 18 left. $18 + 12 + 18 = 48$ ✓"
+  },
+  {
+    "id": "m7.num.fraction-operations.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "$\\frac{4}{3}$ of a number is 64. What is the number?",
+    "answer": 48,
+    "form": "integer",
+    "hints": ["$\\frac{4}{3}$ is 4 thirds. How big is one third?", "The whole number is only 3 thirds, so it is smaller than 64."],
+    "solution": "$\\frac{4}{3}$ is 4 thirds, and 4 thirds is 64. So one third is $64 \\div 4 = 16$.\n\nThe whole is 3 thirds: $3 \\times 16 = 48$.\n\nCheck: $\\frac{4}{3}$ of 48 is $48 \\div 3 \\times 4 = 64$ ✓"
+  },
+  {
+    "id": "m7.num.fraction-operations.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mia says, \"Multiplying always makes a number bigger.\" Use $12 \\times \\frac{3}{4}$ to explain why she is not always right.",
+    "modelAnswer": "$12 \\times \\frac{3}{4}$ is the same as $\\frac{3}{4}$ of 12. $\\frac{1}{4}$ of 12 is 3, so $\\frac{3}{4}$ of 12 is 9. 9 is smaller than 12. When you multiply by a fraction less than 1, you are taking only part of the number, so the answer is smaller.",
+    "rubric": [
+      { "criterion": "Works out $12 \\times \\frac{3}{4} = 9$ and notes it is smaller than 12", "marks": 1 },
+      { "criterion": "Explains that multiplying by a fraction less than 1 means taking part of the number (\"of\")", "marks": 1 }
+    ],
+    "hints": ["$12 \\times \\frac{3}{4}$ is the same as $\\frac{3}{4}$ of 12.", "Is $\\frac{3}{4}$ more or less than 1?"],
+    "solution": "$12 \\times \\frac{3}{4} = \\frac{3}{4}$ of $12 = 9$, which is less than 12. Multiplying by a fraction smaller than 1 takes only part of the number, so the answer gets smaller."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  { "id": "m6.num.order-operations.f01", "front": "What is an **operation**?", "back": "Something you do to numbers: add (+), subtract (−), multiply (×) or divide (÷)." },
+  { "id": "m6.num.order-operations.f02", "front": "What is an **expression**?", "back": "A group of numbers and operations, like $3 + 4 \\times 2$." },
+  { "id": "m6.num.order-operations.f03", "front": "What is the **order of operations**?", "back": "1. Brackets  2. Squares  3. × and ÷, left to right  4. + and −, left to right" },
+  { "id": "m6.num.order-operations.f04", "front": "What do **brackets** ( ) tell you?", "back": "Work out the part inside the brackets first." },
+  { "id": "m6.num.order-operations.f05", "front": "$3 + 4 \\times 2 = ?$", "back": "11. Multiply first: $4 \\times 2 = 8$, then $3 + 8 = 11$." },
+  { "id": "m6.num.order-operations.f06", "front": "$(3 + 4) \\times 2 = ?$", "back": "14. Brackets first: $3 + 4 = 7$, then $7 \\times 2 = 14$." },
+  { "id": "m6.num.order-operations.f07", "front": "$20 - 6 + 4 = ?$", "back": "18. + and − have the same rank, so work left to right: $20 - 6 = 14$, then $14 + 4 = 18$." },
+  { "id": "m6.num.order-operations.f08", "front": "$24 \\div 4 \\times 2 = ?$", "back": "12. × and ÷ have the same rank, so work left to right: $24 \\div 4 = 6$, then $6 \\times 2 = 12$." },
+  { "id": "m6.num.order-operations.f09", "front": "When do you work out a **squared** number?", "back": "After brackets, but before × and ÷. $2 + 3^2 = 2 + 9 = 11$." },
+  { "id": "m6.num.order-operations.f10", "front": "$3 \\times 4^2 = ?$", "back": "48. Square first: $4^2 = 16$, then $3 \\times 16 = 48$." },
+  { "id": "m6.num.order-operations.f11", "front": "When do you need brackets in a word problem?", "back": "When a part must be worked out first but wouldn't be otherwise, e.g. change = $20 - (3 \\times 4 + 2)$." }
+]

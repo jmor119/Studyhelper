@@ -1,0 +1,311 @@
+[
+  {
+    "id": "m7.num.multiply-divide.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In $56 \\div 8 = 7$, 56 is the [[a]], 8 is the [[b]] and 7 is the [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["dividend"], "options": ["dividend", "divisor", "quotient", "product"] },
+      { "id": "b", "accepted": ["divisor"], "options": ["dividend", "divisor", "quotient", "product"] },
+      { "id": "c", "accepted": ["quotient"], "options": ["dividend", "divisor", "quotient", "product"] }
+    ],
+    "hints": ["The answer to a division has a special name.", "The divisor is the number you divide by."],
+    "solution": "56 is the **dividend** (the number being divided), 8 is the **divisor** (the number you divide by) and 7 is the **quotient** (the answer)."
+  },
+  {
+    "id": "m7.num.multiply-divide.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Work out $63 \\times 4$.",
+    "answer": 252,
+    "hints": ["Split 63 into 60 and 3.", "Multiply each part by 4, then add."],
+    "solution": "$63 \\times 4 = 60 \\times 4 + 3 \\times 4 = 240 + 12 = 252$"
+  },
+  {
+    "id": "m7.num.multiply-divide.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the **product** of 6 and 9?",
+    "options": [
+      { "id": "a", "text": "15" },
+      { "id": "b", "text": "54" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "69" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "15 is the sum: $6 + 9$. The product is the answer to a multiplication.",
+      "c": "3 is the difference: $9 - 6$. The product is the answer to a multiplication.",
+      "d": "69 just puts the digits side by side. The product is $6 \\times 9$."
+    },
+    "hints": ["\"Product\" is the word for the answer to a multiplication."],
+    "solution": "The product is the answer when you multiply: $6 \\times 9 = 54$."
+  },
+  {
+    "id": "m7.num.multiply-divide.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Work out $96 \\div 3$.",
+    "answer": 32,
+    "hints": ["Split 96 into 90 and 6.", "Divide each part by 3."],
+    "solution": "$96 = 90 + 6$. $90 \\div 3 = 30$ and $6 \\div 3 = 2$, so $96 \\div 3 = 32$.\n\nCheck: $32 \\times 3 = 96$ ✓"
+  },
+  {
+    "id": "m7.num.multiply-divide.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $745 \\div 6$. Write the answer as a whole number and a remainder.\n\n$745 \\div 6 =$ [[q]] remainder [[r]]",
+    "blanks": [
+      { "id": "q", "accepted": ["124"] },
+      { "id": "r", "accepted": ["1"] }
+    ],
+    "hints": ["Split 745 into chunks that 6 divides into easily, starting with 600.", "The remainder is what is left over. It must be smaller than 6."],
+    "solution": "$600 \\div 6 = 100$, $120 \\div 6 = 20$ and $24 \\div 6 = 4$, so $6 \\times 124 = 744$.\n\n$745 - 744 = 1$, so $745 \\div 6 = 124$ remainder 1."
+  },
+  {
+    "id": "m7.num.multiply-divide.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger: $50 \\times 30$ or $500 \\times 3$?",
+    "options": [
+      { "id": "a", "text": "$500 \\times 3$, because 500 is the biggest number" },
+      { "id": "b", "text": "$50 \\times 30$, which is 15 000" },
+      { "id": "c", "text": "They are the same: both are 1500" },
+      { "id": "d", "text": "They are the same: both are 150" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "The biggest number doesn't decide it. Work out both: they are both 1500.",
+      "b": "$50 \\times 30 = 5 \\times 3 \\times 10 \\times 10 = 15 \\times 100 = 1500$, not 15 000.",
+      "d": "Count the zeros: $5 \\times 3 = 15$, and there are two zeros to put back, so 1500."
+    },
+    "hints": ["Both start with $5 \\times 3 = 15$.", "How many zeros does each one have altogether?"],
+    "solution": "$50 \\times 30 = 15 \\times 100 = 1500$ and $500 \\times 3 = 15 \\times 100 = 1500$. Both have two zeros altogether, so they are the same."
+  },
+  {
+    "id": "m7.num.multiply-divide.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A school orders 28 boxes of pencils. Each box holds 24 pencils. How many pencils is that?",
+    "answer": 672,
+    "hints": ["Work out $28 \\times 24$.", "Split 24 into 20 and 4."],
+    "solution": "$28 \\times 24 = 28 \\times 20 + 28 \\times 4 = 560 + 112 = 672$ pencils.\n\nCheck: $30 \\times 20 = 600$, so 672 is a sensible size."
+  },
+  {
+    "id": "m7.num.multiply-divide.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Liam works out $34 \\times 6$ like this.\n\n$30 \\times 6 = 180$\n\n$4 \\times 6 = 24$\n\n$180 + 24 = 184$\n\nWhere is his mistake?",
+    "options": [
+      { "id": "a", "text": "There is no mistake" },
+      { "id": "b", "text": "In the first line: $30 \\times 6 = 18$" },
+      { "id": "c", "text": "In the last line: $180 + 24 = 204$" },
+      { "id": "d", "text": "He should have split the 6 into parts as well" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "Estimate: $34 \\times 6$ is more than $30 \\times 6 = 180$ by another 24, so it must be more than 200.",
+      "b": "$30 \\times 6 = 180$ is right: $3 \\times 6 = 18$, then $\\times 10$.",
+      "d": "Splitting only 34 is fine. The method is right; one step has a slip."
+    },
+    "hints": ["Check each line one at a time.", "Is $180 + 24$ really 184?"],
+    "solution": "The first two lines are right. The slip is in the adding: $180 + 24 = 204$, so $34 \\times 6 = 204$."
+  },
+  {
+    "id": "m7.num.multiply-divide.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $327 \\div 5$. Give your answer as a decimal.",
+    "answer": 65.4,
+    "form": "decimal",
+    "hints": ["Find the whole number part and the remainder first.", "Write the remainder as a fraction of 5, then as a decimal."],
+    "solution": "$5 \\times 65 = 325$, so $327 \\div 5 = 65$ remainder 2.\n\nThe remainder is $\\frac{2}{5} = \\frac{4}{10} = 0.4$, so $327 \\div 5 = 65.4$."
+  },
+  {
+    "id": "m7.num.multiply-divide.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $250 \\div 8$. Give your answer as a mixed number in simplest form.",
+    "answer": 31.25,
+    "form": "mixed",
+    "hints": ["$8 \\times 30 = 240$. How much is left?", "Put the remainder over 8, then simplify."],
+    "solution": "$8 \\times 31 = 248$, and $250 - 248 = 2$. So $250 \\div 8 = 31$ remainder 2.\n\nThe fraction part is $\\frac{2}{8} = \\frac{1}{4}$, so $250 \\div 8 = 31\\frac{1}{4}$."
+  },
+  {
+    "id": "m7.num.multiply-divide.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Mia has 100 photos. Each page of her album holds 6 photos. How many pages can she **completely** fill?",
+    "options": [
+      { "id": "a", "text": "17" },
+      { "id": "b", "text": "16" },
+      { "id": "c", "text": "16.7" },
+      { "id": "d", "text": "4" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "17 pages would need 102 photos. The 17th page would only have 4 photos, so it isn't full.",
+      "c": "You can't fill part of a page and call it full. Only whole pages count here.",
+      "d": "4 is the remainder: the photos left over after 16 full pages."
+    },
+    "hints": ["Work out $100 \\div 6$.", "The question asks for **full** pages. What happens to the leftover photos?"],
+    "solution": "$6 \\times 16 = 96$, so $100 \\div 6 = 16$ remainder 4. Mia can fill **16** pages, with 4 photos left over."
+  },
+  {
+    "id": "m7.num.multiply-divide.q012",
+    "type": "match",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "75 is divided by a number and there is a remainder. Match each question to what you should do with the remainder.",
+    "pairs": [
+      { "left": { "id": "bus", "text": "How many buses are needed for 75 students?" }, "right": { "id": "up", "text": "Round up" } },
+      { "left": { "id": "egg", "text": "How many cartons can 75 eggs completely fill?" }, "right": { "id": "down", "text": "Round down" } },
+      { "left": { "id": "left", "text": "How many eggs are not in a full carton?" }, "right": { "id": "rem", "text": "Give the remainder" } },
+      { "left": { "id": "cash", "text": "How much does each person get when \\$75 is shared?" }, "right": { "id": "dec", "text": "Write it as a decimal" } },
+      { "left": { "id": "piz", "text": "How much pizza does each person get?" }, "right": { "id": "frac", "text": "Write it as a fraction" } }
+    ],
+    "hints": ["Can you leave people behind? Can you sell a part-full carton?", "Money and pizza can both be split into parts."],
+    "solution": "Buses: everyone must fit, so **round up**. Full cartons: only full ones count, so **round down**. Eggs not in a full carton: that's **the remainder**. Money can be split into cents, so use a **decimal**. Pizza can be cut, so use a **fraction**."
+  },
+  {
+    "id": "m7.num.multiply-divide.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is the best estimate of $612 \\times 48$?",
+    "options": [
+      { "id": "a", "text": "3000" },
+      { "id": "b", "text": "24 000" },
+      { "id": "c", "text": "30 000" },
+      { "id": "d", "text": "300 000" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "A zero has gone missing. $600 \\times 50 = 6 \\times 5 \\times 1000 = 30\\,000$.",
+      "b": "This uses $600 \\times 40$, but 48 is much closer to 50 than to 40.",
+      "d": "There is an extra zero. $600 \\times 50 = 30\\,000$."
+    },
+    "hints": ["Round 612 to the nearest hundred and 48 to the nearest ten.", "$6 \\times 5 = 30$. How many zeros go on the end?"],
+    "solution": "$612 \\approx 600$ and $48 \\approx 50$, so $612 \\times 48 \\approx 600 \\times 50 = 30\\,000$. (The exact answer is 29 376.)"
+  },
+  {
+    "id": "m7.num.multiply-divide.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $1512 \\div 18$.",
+    "answer": 84,
+    "hints": ["Write some easy multiples of 18: $18 \\times 10 = 180$, $18 \\times 50 = 900$, $18 \\times 80 = 1440$.", "Take away the biggest one that fits, then see how many 18s are in what is left."],
+    "solution": "$18 \\times 80 = 1440$, and $1512 - 1440 = 72$.\n\n$72 \\div 18 = 4$, because $18 \\times 4 = 72$.\n\nSo $1512 \\div 18 = 80 + 4 = 84$.\n\nCheck: $84 \\times 18 = 1512$ ✓"
+  },
+  {
+    "id": "m7.num.multiply-divide.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "214 students and 18 teachers are going to a show. Each bus seats 45 people. How many buses are needed?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Find the total number of people first.", "Divide by 45. Can anyone be left behind?"],
+    "solution": "People: $214 + 18 = 232$.\n\n$45 \\times 5 = 225$, so $232 \\div 45 = 5$ remainder 7.\n\nFive buses leave 7 people behind, so **6** buses are needed."
+  },
+  {
+    "id": "m7.num.multiply-divide.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $327 \\div 5$ can be written as 65 r 2, as $65\\frac{2}{5}$, and as 65.4. Which one would you use to share \\$327 equally between 5 people?",
+    "modelAnswer": "$5 \\times 65 = 325$, so 5 goes into 327 sixty-five times with 2 left over: 65 r 2. The 2 left over is 2 out of the 5 needed for another one, so it is $\\frac{2}{5}$, which gives $65\\frac{2}{5}$. As a decimal, $\\frac{2}{5} = \\frac{4}{10} = 0.4$, so 65.4. For money I would use the decimal, because money can be split into cents: each person gets \\$65.40.",
+    "rubric": [
+      { "criterion": "Explains the remainder of 2 and that it is $\\frac{2}{5}$, which equals 0.4", "marks": 1 },
+      { "criterion": "Chooses the decimal for sharing money, e.g. \\$65.40 each", "marks": 1 }
+    ],
+    "hints": ["What is $5 \\times 65$? How much is left over?", "What fraction of 5 is the remainder? What is that as a decimal?"],
+    "solution": "$327 = 5 \\times 65 + 2$, so the answer is 65 r 2. The 2 left over is $\\frac{2}{5}$ of another 5, giving $65\\frac{2}{5}$, and $\\frac{2}{5} = 0.4$ gives 65.4. For money, use the decimal: \\$65.40 each."
+  },
+  {
+    "id": "m7.num.multiply-divide.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sausages come in packs of 12, and each pack costs \\$9. Tama needs 50 sausages for a sausage sizzle. What is the least he can spend?",
+    "answer": 45,
+    "units": "$",
+    "hints": ["How many packs does Tama need? He can only buy whole packs.", "Then multiply by the price of a pack."],
+    "solution": "$12 \\times 4 = 48$, so $50 \\div 12 = 4$ remainder 2. Four packs aren't quite enough, so Tama needs **5** packs.\n\n$5 \\times 9 = 45$, so he spends \\$45."
+  },
+  {
+    "id": "m7.num.multiply-divide.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A packhouse packs 4950 kiwifruit into trays of 33. Then the trays are packed into boxes of 12 trays. How many boxes are completely full?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["First find how many trays: $4950 \\div 33$. Try $33 \\times 100$ first.", "Then find how many full boxes of 12 trays that makes."],
+    "solution": "Trays: $33 \\times 100 = 3300$ and $33 \\times 50 = 1650$, and $3300 + 1650 = 4950$. So there are 150 trays.\n\nBoxes: $12 \\times 12 = 144$, so $150 \\div 12 = 12$ remainder 6.\n\n**12** boxes are completely full (6 trays are left over)."
+  },
+  {
+    "id": "m7.num.multiply-divide.q019",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Without working out the exact answers, which of these **must** be wrong?",
+    "options": [
+      { "id": "a", "text": "$49 \\times 51 = 2499$" },
+      { "id": "b", "text": "$38 \\times 62 = 2356$" },
+      { "id": "c", "text": "$71 \\times 29 = 20\\,059$" },
+      { "id": "d", "text": "$19 \\times 21 = 399$" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "$50 \\times 50 = 2500$, and 2499 is very close to that, so it could be right. (It is.)",
+      "b": "$40 \\times 60 = 2400$, and 2356 is close to that, so it could be right. (It is.)",
+      "d": "$20 \\times 20 = 400$, and 399 is very close, so it could be right. (It is.)"
+    },
+    "hints": ["Round each number to the nearest 10 and multiply.", "Which answer is far from its estimate?"],
+    "solution": "$71 \\times 29 \\approx 70 \\times 30 = 2100$, but the answer given is about 20 000. It is about 10 times too big, so it must be wrong. (The exact answer is 2059.)"
+  },
+  {
+    "id": "m7.num.multiply-divide.q020",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ruby says $46 \\times 38 = 1748$. Explain how an estimate can show this answer is reasonable. Then explain how you could check it exactly using division.",
+    "modelAnswer": "Estimate: $46 \\approx 50$ and $38 \\approx 40$, so the answer should be about $50 \\times 40 = 2000$. 1748 is fairly close (both numbers were rounded up, so the real answer should be a bit less than 2000), so it is reasonable. To check exactly, divide the answer by one of the numbers: $1748 \\div 38$ should be 46 (or $1748 \\div 46$ should be 38). $38 \\times 40 = 1520$, $1748 - 1520 = 228 = 38 \\times 6$, so $1748 \\div 38 = 46$ ✓.",
+    "rubric": [
+      { "criterion": "Makes a sensible estimate (e.g. $50 \\times 40 = 2000$) and says 1748 is close to it", "marks": 1 },
+      { "criterion": "Explains that dividing 1748 by 38 should give 46 (or by 46 should give 38)", "marks": 1 }
+    ],
+    "hints": ["Round both numbers to the nearest 10.", "Multiplying and dividing undo each other."],
+    "solution": "Estimate $50 \\times 40 = 2000$; 1748 is close, so it is reasonable. Check exactly: $1748 \\div 38 = 46$, so the multiplication is right."
+  },
+  {
+    "id": "m7.num.multiply-divide.q021",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Four friends share the cost of a \\$75 pizza order equally. How much does each person pay?",
+    "answer": 18.75,
+    "units": "$",
+    "hints": ["Work out $75 \\div 4$.", "Money can be split into cents, so write the remainder as a decimal."],
+    "solution": "$4 \\times 18 = 72$, so $75 \\div 4 = 18$ remainder 3.\n\nThe remainder is $\\frac{3}{4}$ of a dollar, which is 75 cents. Each person pays \\$18.75."
+  }
+]

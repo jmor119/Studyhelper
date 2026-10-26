@@ -1,0 +1,72 @@
+[
+  {
+    "id": "m7.mea.perimeter-area.f01",
+    "front": "What is **perimeter**?",
+    "back": "The total distance around the outside of a shape, measured in units like cm or m."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f02",
+    "front": "What is **area**?",
+    "back": "The amount of flat space inside a shape, measured in square units like cm² or m²."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f03",
+    "front": "Why is area measured in **square units**?",
+    "back": "Area is two-dimensional (length and width), so its units are squared: cm², m²."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f04",
+    "front": "Perimeter of a square",
+    "back": "$P = 4l$"
+  },
+  {
+    "id": "m7.mea.perimeter-area.f05",
+    "front": "Perimeter of a rectangle",
+    "back": "$P = 2(l + w)$: add the length and width, then double."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f06",
+    "front": "Area of a square",
+    "back": "$A = l^2 = l \\times l$"
+  },
+  {
+    "id": "m7.mea.perimeter-area.f07",
+    "front": "Area of a rectangle",
+    "back": "$A = lw = l \\times w$"
+  },
+  {
+    "id": "m7.mea.perimeter-area.f08",
+    "front": "Area of a triangle",
+    "back": "$A = \\frac{1}{2}bh$, using the base and the perpendicular height."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f09",
+    "front": "What is the **perpendicular height** of a triangle?",
+    "back": "The height measured at right angles (90°) to the base. It is not a slanted side."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f10",
+    "front": "How do you find the side of a square from its perimeter?",
+    "back": "Divide the perimeter by 4."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f11",
+    "front": "How do you find the side of a square from its area?",
+    "back": "Find the square root: the number that times itself gives the area. ($\\sqrt{81} = 9$)"
+  },
+  {
+    "id": "m7.mea.perimeter-area.f12",
+    "front": "How do you find the width of a rectangle from its perimeter and length?",
+    "back": "Halve the perimeter, then subtract the length."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f13",
+    "front": "What is a **composite shape**?",
+    "back": "A shape made from simpler shapes, such as two rectangles, or a rectangle and a triangle."
+  },
+  {
+    "id": "m7.mea.perimeter-area.f14",
+    "front": "How do you find the area of a composite shape?",
+    "back": "Decompose it: split it into rectangles and triangles, find each area, then add them."
+  }
+]

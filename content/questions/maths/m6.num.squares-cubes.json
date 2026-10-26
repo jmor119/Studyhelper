@@ -1,0 +1,329 @@
+[
+  {
+    "id": "m6.num.squares-cubes.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What does $6^2$ mean?",
+    "options": [
+      { "id": "a", "text": "$6 \\times 6$" },
+      { "id": "b", "text": "$6 \\times 2$" },
+      { "id": "c", "text": "$6 + 2$" },
+      { "id": "d", "text": "$2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The small 2 doesn't mean \"times 2\". It means two 6s multiplied together.",
+      "c": "The small 2 isn't added on. It tells you how many 6s to multiply together.",
+      "d": "This is six 2s multiplied together. $6^2$ is two 6s multiplied together."
+    },
+    "hints": ["$6^2$ is read as \"6 squared\"."],
+    "solution": "$6^2$ means 6 multiplied by itself: $6 \\times 6 = 36$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Work out $9^2$.",
+    "answer": 81,
+    "form": "integer",
+    "hints": ["Squared means multiply the number by itself."],
+    "solution": "$9^2 = 9 \\times 9 = 81$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In $5 \\times 4 = 20$, the number 20 is the [[a]], and 5 and 4 are [[b]] of 20.",
+    "blanks": [
+      { "id": "a", "accepted": ["product"], "options": ["product", "factor", "multiple"] },
+      { "id": "b", "accepted": ["factors"], "options": ["factors", "multiples", "products"] }
+    ],
+    "hints": ["The answer to a multiplication has a special name.", "Numbers that multiply together to make 20 divide into 20 exactly."],
+    "solution": "20 is the **product** (the answer to the multiplication). 5 and 4 are **factors** of 20, and together they are a factor pair."
+  },
+  {
+    "id": "m6.num.squares-cubes.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How do you say $4^3$?",
+    "options": [
+      { "id": "a", "text": "Four cubed" },
+      { "id": "b", "text": "Four squared" },
+      { "id": "c", "text": "Four times three" },
+      { "id": "d", "text": "Forty-three" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "\"Squared\" is for a small 2, like $4^2$.",
+      "c": "$4^3$ means $4 \\times 4 \\times 4$, not $4 \\times 3$.",
+      "d": "The small 3 is not a digit of the number. It tells you how many 4s to multiply."
+    },
+    "hints": ["A small 2 is read as \"squared\". What is a small 3 read as?"],
+    "solution": "$4^3$ is read as \"four **cubed**\". It means $4 \\times 4 \\times 4 = 64$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q005",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each one to its value.",
+    "pairs": [
+      { "left": { "id": "s3", "text": "$3^2$" }, "right": { "id": "v9", "text": "9" } },
+      { "left": { "id": "c2", "text": "$2^3$" }, "right": { "id": "v8", "text": "8" } },
+      { "left": { "id": "s4", "text": "$4^2$" }, "right": { "id": "v16", "text": "16" } },
+      { "left": { "id": "c5", "text": "$5^3$" }, "right": { "id": "v125", "text": "125" } },
+      { "left": { "id": "s10", "text": "$10^2$" }, "right": { "id": "v100", "text": "100" } }
+    ],
+    "hints": ["A small 2 means two of the number multiplied. A small 3 means three of them."],
+    "solution": "$3^2 = 3 \\times 3 = 9$, $2^3 = 2 \\times 2 \\times 2 = 8$, $4^2 = 16$, $5^3 = 5 \\times 5 \\times 5 = 125$ and $10^2 = 100$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sione says $5^2 = 10$. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He worked out 5 × 2. But $5^2$ means 5 × 5, which is 25." },
+      { "id": "b", "text": "Nothing. $5^2$ is 10." },
+      { "id": "c", "text": "He should have added: $5^2 = 5 + 2 = 7$." },
+      { "id": "d", "text": "He should have worked out 2 × 2 × 2 × 2 × 2, which is 32." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "10 is 5 × 2. Squaring means multiplying a number by itself.",
+      "c": "The small 2 isn't added on. It means two 5s multiplied together.",
+      "d": "That is five 2s multiplied. $5^2$ is two 5s multiplied."
+    },
+    "hints": ["What does the small 2 tell you to do?"],
+    "solution": "$5^2$ means $5 \\times 5 = 25$. Sione multiplied 5 by 2 instead."
+  },
+  {
+    "id": "m6.num.squares-cubes.q007",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the factors of 18.",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "4" },
+      { "id": "e", "text": "6" },
+      { "id": "f", "text": "8" },
+      { "id": "g", "text": "9" },
+      { "id": "h", "text": "36" }
+    ],
+    "correct": ["a", "b", "c", "e", "g"],
+    "hints": ["A factor divides into 18 with nothing left over.", "List the factor pairs, starting with 1 × 18."],
+    "solution": "The factor pairs of 18 are 1 × 18, 2 × 9 and 3 × 6. So the factors in the list are **1, 2, 3, 6 and 9**.\n\n4 and 8 don't divide into 18 exactly. 36 is a **multiple** of 18, not a factor."
+  },
+  {
+    "id": "m6.num.squares-cubes.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What number, multiplied by itself, makes 121?",
+    "answer": 11,
+    "form": "integer",
+    "hints": ["121 is one of the square numbers up to 144.", "Try numbers between 10 and 12."],
+    "solution": "$11 \\times 11 = 121$, so the number is **11**. We can write $11^2 = 121$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger, $2^3$ or $3^2$?",
+    "options": [
+      { "id": "a", "text": "$3^2$, because it is 9 and $2^3$ is 8" },
+      { "id": "b", "text": "$2^3$, because it is 8 and $3^2$ is 6" },
+      { "id": "c", "text": "They are equal, because they use the same numbers" },
+      { "id": "d", "text": "$2^3$, because cubes are always bigger than squares" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$3^2$ is $3 \\times 3 = 9$, not $3 \\times 2$.",
+      "c": "They use the same digits, but $2 \\times 2 \\times 2 = 8$ and $3 \\times 3 = 9$.",
+      "d": "Cubes aren't always bigger. Work out each one: $2^3 = 8$ and $3^2 = 9$."
+    },
+    "hints": ["Work out each one before you compare them."],
+    "solution": "$2^3 = 2 \\times 2 \\times 2 = 8$ and $3^2 = 3 \\times 3 = 9$. So **$3^2$** is bigger."
+  },
+  {
+    "id": "m6.num.squares-cubes.q010",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these in order from **smallest to largest**.",
+    "items": [
+      { "id": "p", "text": "$2^3$" },
+      { "id": "q", "text": "$10$" },
+      { "id": "r", "text": "$4^2$" },
+      { "id": "s", "text": "$5^2$" },
+      { "id": "t", "text": "$3^3$" }
+    ],
+    "hints": ["Work out the value of each one first."],
+    "solution": "$2^3 = 8$, $4^2 = 16$, $5^2 = 25$ and $3^3 = 27$.\n\nSo the order is $2^3$ (8), 10, $4^2$ (16), $5^2$ (25), $3^3$ (27)."
+  },
+  {
+    "id": "m6.num.squares-cubes.q011",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Apart from 1, which number less than 100 is both a square number **and** a cube number?",
+    "accepted": ["64", "sixty-four", "sixty four"],
+    "hints": ["List the cube numbers: 1, 8, 27, 64, …", "Which of those is also a number multiplied by itself?"],
+    "solution": "The cube numbers less than 100 are 1, 8, 27 and 64. Of these, **64** is also a square number, because $8 \\times 8 = 64$. So $64 = 8^2 = 4^3$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Here are the first four patterns of dots. Each pattern is a square. If the patterns keep growing in the same way, how many dots will there be in **Pattern 6**?",
+    "figure": {"svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 136\" width=\"400\" height=\"136\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"50\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"50\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><circle cx=\"120\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"130\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><circle cx=\"210\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"230\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text><circle cx=\"320\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"24\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"44\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"64\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"84\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"84\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"84\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"84\" r=\"6.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"350\" y=\"120\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 4</text></svg>", "alt": "Four dot patterns. Pattern 1 is 1 dot. Pattern 2 is a 2 by 2 square of dots. Pattern 3 is a 3 by 3 square. Pattern 4 is a 4 by 4 square."},
+    "answer": 36,
+    "form": "integer",
+    "hints": ["How many dots are in each row of Pattern 4? How many rows are there?", "Pattern 6 will have the same number of rows as dots in each row."],
+    "solution": "Pattern 1 has 1 dot, Pattern 2 has $2 \\times 2 = 4$, Pattern 3 has $3 \\times 3 = 9$ and Pattern 4 has $4 \\times 4 = 16$.\n\nPattern 6 will have 6 rows of 6 dots: $6^2 = 36$ dots."
+  },
+  {
+    "id": "m6.num.squares-cubes.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The chairs in the school hall are set out in 9 rows, with 9 chairs in each row. 70 people come to the Matariki assembly and each person sits on one chair. How many chairs are empty?",
+    "answer": 11,
+    "form": "integer",
+    "hints": ["How many chairs are there altogether?", "9 rows of 9 is a square number."],
+    "solution": "There are $9 \\times 9 = 81$ chairs. $81 - 70 = 11$, so **11** chairs are empty."
+  },
+  {
+    "id": "m6.num.squares-cubes.q014",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why 36 is a square number but 24 is not. Use factor pairs in your answer.",
+    "modelAnswer": "36 has the factor pair 6 × 6, where both numbers are the same. That means 36 dots can be arranged in a square with 6 rows of 6, so 36 is a square number. The factor pairs of 24 are 1 × 24, 2 × 12, 3 × 8 and 4 × 6. None of them has the same number twice, so 24 dots can't make a square. So 24 is not a square number.",
+    "rubric": [
+      { "criterion": "Shows that 36 = 6 × 6 (a factor pair with the same number twice)", "marks": 1 },
+      { "criterion": "Lists the factor pairs of 24, or explains that no factor pair of 24 has two equal numbers", "marks": 1 }
+    ],
+    "hints": ["A square number is a number times itself.", "List the factor pairs of each number. Look for a pair with the same number twice."],
+    "solution": "$36 = 6 \\times 6$, so 36 is a square number. The factor pairs of 24 are 1 × 24, 2 × 12, 3 × 8 and 4 × 6. No pair has the same number twice, so 24 is not a square number."
+  },
+  {
+    "id": "m6.num.squares-cubes.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hana builds a solid cube that is 4 small cubes long, 4 small cubes wide and 4 small cubes high. Then she takes off the whole top layer. How many small cubes are left?",
+    "answer": 48,
+    "form": "integer",
+    "hints": ["How many small cubes are in the whole cube? Use cubed.", "How many small cubes are in one layer?"],
+    "solution": "The whole cube has $4^3 = 4 \\times 4 \\times 4 = 64$ small cubes.\n\nEach layer has $4 \\times 4 = 16$ small cubes.\n\n$64 - 16 = 48$, so **48** small cubes are left. (That is 3 layers of 16.)"
+  },
+  {
+    "id": "m6.num.squares-cubes.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers has an **odd** number of factors?",
+    "options": [
+      { "id": "a", "text": "36" },
+      { "id": "b", "text": "24" },
+      { "id": "c", "text": "20" },
+      { "id": "d", "text": "30" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "24 has 8 factors: 1, 2, 3, 4, 6, 8, 12, 24.",
+      "c": "20 has 6 factors: 1, 2, 4, 5, 10, 20.",
+      "d": "30 has 8 factors: 1, 2, 3, 5, 6, 10, 15, 30."
+    },
+    "hints": ["List the factor pairs of each number and count the factors.", "What happens when a factor pair has the same number twice?"],
+    "solution": "36 has 9 factors: 1, 2, 3, 4, 6, 9, 12, 18, 36. Its factor pair 6 × 6 gives only one new factor, so the total is odd. This happens for square numbers."
+  },
+  {
+    "id": "m6.num.squares-cubes.q017",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Tama has 24 photos from school camp to stick in an album. He wants the same number of photos on every page, with none left over. He wants **more than 2** but **fewer than 6** photos on each page.\n\nSelect **all** the numbers of photos he could put on each page.",
+    "options": [
+      { "id": "a", "text": "2" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "5" },
+      { "id": "e", "text": "6" },
+      { "id": "f", "text": "8" }
+    ],
+    "correct": ["b", "c"],
+    "hints": ["The number on each page must be a factor of 24.", "It must also be more than 2 and fewer than 6."],
+    "solution": "The factors of 24 are 1, 2, 3, 4, 6, 8, 12 and 24. The ones that are more than 2 and fewer than 6 are **3** and **4**.\n\n5 isn't a factor of 24, and 2, 6 and 8 don't fit his rule."
+  },
+  {
+    "id": "m6.num.squares-cubes.q018",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two different square numbers add up to 100. Neither of them is 0.\n\nThe smaller square number is [[a]] and the larger square number is [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["36"] },
+      { "id": "b", "accepted": ["64"] }
+    ],
+    "hints": ["List the square numbers less than 100: 1, 4, 9, 16, …", "For each one, take it away from 100. Is the answer also a square number?"],
+    "solution": "Try each square number: $100 - 1 = 99$, $100 - 4 = 96$, $100 - 9 = 91$, $100 - 16 = 84$, $100 - 25 = 75$, $100 - 36 = 64$. 64 is a square number!\n\nSo **36** + **64** = 100, which is $6^2 + 8^2 = 100$."
+  },
+  {
+    "id": "m6.num.squares-cubes.q019",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Mia says, \"A number cubed is always bigger than the same number squared.\" Is she right?",
+    "options": [
+      { "id": "a", "text": "No. $1^3$ and $1^2$ are both 1, so they are equal." },
+      { "id": "b", "text": "Yes. Cubing always gives a bigger answer than squaring." },
+      { "id": "c", "text": "No. $2^3$ is smaller than $2^2$." },
+      { "id": "d", "text": "No. A cube is always smaller than a square." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Check 1: $1 \\times 1 \\times 1 = 1$ and $1 \\times 1 = 1$. They are the same.",
+      "c": "$2^3 = 8$ and $2^2 = 4$, so $2^3$ is bigger.",
+      "d": "For 2, 3, 4 and 5, the cube is bigger. For example $3^3 = 27$ and $3^2 = 9$."
+    },
+    "hints": ["Test some numbers: 1, 2, 3.", "One example where it doesn't work is enough to show it isn't always true."],
+    "solution": "For 2 and bigger numbers, the cube is bigger (e.g. $2^3 = 8 > 2^2 = 4$). But for 1, $1^3 = 1$ and $1^2 = 1$ are equal. So Mia is **not** right: it isn't *always* true."
+  },
+  {
+    "id": "m6.num.squares-cubes.q020",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What do we call a number that is made by multiplying a whole number by itself, like 25 = 5 × 5?",
+    "accepted": ["square number", "a square number", "square", "square numbers", "perfect square"],
+    "hints": ["Think of the shape you can make with that many dots."],
+    "solution": "It is a **square number**. 25 dots can make a square with 5 rows of 5."
+  },
+  {
+    "id": "m6.num.squares-cubes.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Leo has some small cubes. If he builds a solid cube 3 cubes long, wide and high, he has 10 cubes left over. How many small cubes would he still need to build a solid cube that is 4 cubes long, wide and high?",
+    "answer": 27,
+    "form": "integer",
+    "hints": ["How many small cubes does Leo have altogether?", "How many small cubes does a 4 by 4 by 4 cube need?"],
+    "solution": "A 3 by 3 by 3 cube uses $3^3 = 27$ small cubes. Leo has $27 + 10 = 37$ small cubes.\n\nA 4 by 4 by 4 cube needs $4^3 = 64$ small cubes.\n\n$64 - 37 = 27$, so Leo needs **27** more small cubes."
+  }
+]

@@ -1,0 +1,15 @@
+[
+  { "id": "m6.num.percentages.f01", "front": "What does **per cent** mean?", "back": "Out of 100. The sign is %." },
+  { "id": "m6.num.percentages.f02", "front": "What is a **percentage**?", "back": "A number out of 100. 35% means 35 out of 100, or $\\frac{35}{100}$." },
+  { "id": "m6.num.percentages.f03", "front": "$\\frac{1}{2}$ as a decimal and a percentage", "back": "$0.5$ and 50%" },
+  { "id": "m6.num.percentages.f04", "front": "$\\frac{1}{4}$ and $\\frac{3}{4}$ as decimals and percentages", "back": "$\\frac{1}{4} = 0.25 = 25\\%$ and $\\frac{3}{4} = 0.75 = 75\\%$" },
+  { "id": "m6.num.percentages.f05", "front": "The fifths as percentages", "back": "$\\frac{1}{5} = 20\\%$, $\\frac{2}{5} = 40\\%$, $\\frac{3}{5} = 60\\%$, $\\frac{4}{5} = 80\\%$" },
+  { "id": "m6.num.percentages.f06", "front": "$\\frac{1}{10}$ as a decimal and a percentage", "back": "$0.1$ and 10%" },
+  { "id": "m6.num.percentages.f07", "front": "What is $0.7$ as a percentage?", "back": "70%, not 7%. $0.7$ is 7 tenths, which is 70 hundredths." },
+  { "id": "m6.num.percentages.f08", "front": "How do you change $0.31$ into a percentage?", "back": "It is 31 hundredths: $0.31 = \\frac{31}{100} = 31\\%$. (Or multiply by 100.)" },
+  { "id": "m6.num.percentages.f09", "front": "How do you find 10% of a number?", "back": "Divide by 10. 10% of 340 is 34." },
+  { "id": "m6.num.percentages.f10", "front": "How do you find 25% and 75% of a number?", "back": "25%: halve, then halve again. 75%: find 25%, then multiply by 3." },
+  { "id": "m6.num.percentages.f11", "front": "How do you find 1% and 20% of a number?", "back": "1%: divide by 100. 20%: find 10% and double it (or divide by 5)." },
+  { "id": "m6.num.percentages.f12", "front": "25% of a number is 8. What is the **whole** (100%)?", "back": "32, because there are 4 lots of 25% in 100%, and $4 \\times 8 = 32$." },
+  { "id": "m6.num.percentages.f13", "front": "How do you **compare** 17 out of 20 with 21 out of 25?", "back": "Change both to percentages: 85% and 84%. So 17 out of 20 is better." }
+]

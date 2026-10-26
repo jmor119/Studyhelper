@@ -1,0 +1,317 @@
+[
+  {
+    "id": "m7.pro.experimental.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In a probability experiment, what is a **trial**?",
+    "options": [
+      { "id": "a", "text": "One go of the experiment, such as one toss of a coin" },
+      { "id": "b", "text": "The result you expect to get" },
+      { "id": "c", "text": "The total number of times you did the experiment" },
+      { "id": "d", "text": "A guess at the answer before you start" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The result you expect comes from the theoretical probability.",
+      "c": "That is the total number of trials, not one trial.",
+      "d": "A guess before you start is a prediction."
+    },
+    "hints": ["If you toss a coin 20 times, how many trials is that?"],
+    "solution": "A **trial** is one go of the experiment. Tossing a coin 20 times is 20 trials."
+  },
+  {
+    "id": "m7.pro.experimental.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Ana tried 20 water-bottle flips. The bottle landed upright 7 times. What is the experimental probability that the bottle lands upright? Give your answer as a fraction.",
+    "answer": 0.35,
+    "form": "fraction",
+    "hints": ["Experimental probability = number of times it happened ÷ total number of trials."],
+    "solution": "It landed upright 7 times out of 20 trials.\n\nExperimental probability $= \\frac{7}{20}$"
+  },
+  {
+    "id": "m7.pro.experimental.q003",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each term to its meaning.",
+    "pairs": [
+      { "left": { "id": "tr", "text": "Trial" }, "right": { "id": "d1", "text": "One go of an experiment" } },
+      { "left": { "id": "rf", "text": "Relative frequency" }, "right": { "id": "d2", "text": "Number of times an outcome happens ÷ number of trials" } },
+      { "left": { "id": "th", "text": "Theoretical probability" }, "right": { "id": "d3", "text": "Worked out by thinking about equally likely outcomes" } },
+      { "left": { "id": "ex", "text": "Experimental probability" }, "right": { "id": "d4", "text": "Estimated from the results of an experiment" } }
+    ],
+    "hints": ["\"Theory\" means working something out by reasoning. \"Experiment\" means trying it out."],
+    "solution": "Trial: one go. Relative frequency: times it happened ÷ trials. Theoretical probability: from equally likely outcomes. Experimental probability: from the results of an experiment (it is the same as the relative frequency)."
+  },
+  {
+    "id": "m7.pro.experimental.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Experimental probability = the number of times the outcome [[a]] ÷ the total number of [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["happens"], "options": ["happens", "is expected", "is guessed"] },
+      { "id": "b", "accepted": ["trials"], "options": ["trials", "outcomes", "people"] }
+    ],
+    "hints": ["You count what actually happened in the experiment."],
+    "solution": "Experimental probability = the number of times the outcome **happens** ÷ the total number of **trials**."
+  },
+  {
+    "id": "m7.pro.experimental.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A fair coin is tossed 50 times. About how many times would you expect it to land on heads?",
+    "answer": 25,
+    "form": "integer",
+    "hints": ["What is the theoretical probability of heads?", "Expected number = probability × number of trials."],
+    "solution": "$P(\\text{heads}) = \\frac{1}{2}$, so expect about $\\frac{1}{2} \\times 50 = 25$ heads."
+  },
+  {
+    "id": "m7.pro.experimental.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi tossed a fair coin 10 times and got 7 heads. What does this show?",
+    "options": [
+      { "id": "a", "text": "Results vary. With only 10 tosses, 7 heads can easily happen with a fair coin." },
+      { "id": "b", "text": "The coin must be weighted towards heads." },
+      { "id": "c", "text": "The probability of heads is $\\frac{7}{10}$ for every coin." },
+      { "id": "d", "text": "The next toss will probably be tails, because tails is \"due\"." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Ten tosses is far too few to decide that. 7 heads out of 10 happens quite often with a fair coin.",
+      "c": "That is only Hemi's experimental probability from a small experiment. Another 10 tosses would probably give a different result.",
+      "d": "A coin has no memory. The chance of tails on the next toss is still $\\frac{1}{2}$."
+    },
+    "hints": ["Is 10 tosses a lot of trials?"],
+    "solution": "Results from a small number of trials **vary** a lot. 7 heads in 10 tosses is quite normal for a fair coin. With many more tosses, the proportion of heads would probably get closer to $\\frac{1}{2}$."
+  },
+  {
+    "id": "m7.pro.experimental.q007",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the situations where you can only find the probability by doing an experiment.",
+    "options": [
+      { "id": "a", "text": "A drawing pin landing point up" },
+      { "id": "b", "text": "A weighted die landing on 6" },
+      { "id": "c", "text": "A water bottle landing upright after a flip" },
+      { "id": "d", "text": "Getting heads when you toss a fair coin" },
+      { "id": "e", "text": "Rolling a 3 on a fair die" },
+      { "id": "f", "text": "Picking a red counter from a bag with 3 red and 7 blue counters" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["You can use theory only when the outcomes are equally likely."],
+    "solution": "A drawing pin, a weighted die and a bottle flip don't have equally likely outcomes, so you must **experiment**. A fair coin, a fair die and a bag of counters all have equally likely outcomes, so you can use theory: $\\frac{1}{2}$, $\\frac{1}{6}$ and $\\frac{3}{10}$."
+  },
+  {
+    "id": "m7.pro.experimental.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai tossed a paper cup many times and recorded how it landed.\n\n| Outcome | Frequency |\n|---|---|\n| On its side | 26 |\n| Upright | 9 |\n| Upside down | 15 |\n\nWhat is the experimental probability that the cup lands upright? Give your answer as a percentage.",
+    "answer": 18,
+    "units": "%",
+    "hints": ["First add up the frequencies to find the total number of trials.", "Write it as a fraction, then make an equivalent fraction out of 100."],
+    "solution": "Total trials: $26 + 9 + 15 = 50$\n\n$P(\\text{upright}) \\approx \\frac{9}{50} = \\frac{18}{100} = 18\\%$"
+  },
+  {
+    "id": "m7.pro.experimental.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "At practice, Talia scored 18 goals from 30 netball shots. In the next game she takes 50 shots. Use her practice results to estimate how many goals she will score.",
+    "answer": 30,
+    "form": "integer",
+    "hints": ["Find her experimental probability of scoring, as a fraction in simplest form.", "Multiply that probability by 50."],
+    "solution": "Experimental probability: $\\frac{18}{30} = \\frac{3}{5}$\n\nEstimate: $\\frac{3}{5} \\times 50 = 30$ goals"
+  },
+  {
+    "id": "m7.pro.experimental.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What does the **Law of Large Numbers** say?",
+    "options": [
+      { "id": "a", "text": "As the number of trials increases, the experimental probability tends to get closer to the theoretical probability." },
+      { "id": "b", "text": "After lots of trials, the results stop changing." },
+      { "id": "c", "text": "If you do enough trials, every outcome becomes equally likely." },
+      { "id": "d", "text": "Large numbers are more likely to come up on a die." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Results always keep varying a little. They just tend to settle closer to the theory.",
+      "c": "Doing more trials doesn't change the probabilities. A weighted die stays weighted.",
+      "d": "On a fair die, every number is equally likely."
+    },
+    "hints": ["It is about what happens to the experimental probability when you do more and more trials."],
+    "solution": "The **Law of Large Numbers**: the more trials you do, the closer the experimental probability tends to get to the theoretical probability. That's why big experiments give more reliable estimates."
+  },
+  {
+    "id": "m7.pro.experimental.q011",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "An experimental probability can also be called the **relative ___**. What is the missing word?",
+    "accepted": ["frequency"],
+    "hints": ["Tally charts often have a column with this heading."],
+    "solution": "**Relative frequency**: the number of times an outcome happens, relative to (divided by) the number of trials."
+  },
+  {
+    "id": "m7.pro.experimental.q012",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.pro.experimental.g1",
+    "part": "a",
+    "stem": "Grace has this spinner. All four sections are the same size: 1 is red and 3 are blue.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" width=\"240\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 120 120 L 120 20 A 100 100 0 0 1 220 120 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"165.25\" y=\"74.75\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">red</text><path d=\"M 120 120 L 220 120 A 100 100 0 0 1 120 220 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"165.25\" y=\"165.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 120 220 A 100 100 0 0 1 20 120 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"74.75\" y=\"165.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 20 120 A 100 100 0 0 1 120 20 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"74.75\" y=\"74.75\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><line x1=\"120\" y1=\"120\" x2=\"137\" y2=\"90.56\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"120\" r=\"6\" fill=\"#1f2937\"/></svg>", "alt": "A spinner with 4 equal sections: 1 red and 3 blue." },
+    "prompt": "Grace spins it 80 times. About how many times would you expect it to land on red?",
+    "answer": 20,
+    "form": "integer",
+    "hints": ["What is the theoretical probability of red?", "Expected number = probability × number of spins."],
+    "solution": "$P(\\text{red}) = \\frac{1}{4}$\n\nExpected number: $\\frac{1}{4} \\times 80 = 20$"
+  },
+  {
+    "id": "m7.pro.experimental.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.pro.experimental.g1",
+    "part": "b",
+    "stem": "Grace has this spinner. All four sections are the same size: 1 is red and 3 are blue.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" width=\"240\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 120 120 L 120 20 A 100 100 0 0 1 220 120 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"165.25\" y=\"74.75\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">red</text><path d=\"M 120 120 L 220 120 A 100 100 0 0 1 120 220 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"165.25\" y=\"165.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 120 220 A 100 100 0 0 1 20 120 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"74.75\" y=\"165.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 20 120 A 100 100 0 0 1 120 20 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"74.75\" y=\"74.75\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><line x1=\"120\" y1=\"120\" x2=\"137\" y2=\"90.56\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"120\" r=\"6\" fill=\"#1f2937\"/></svg>", "alt": "A spinner with 4 equal sections: 1 red and 3 blue." },
+    "prompt": "In Grace's 80 spins, the spinner actually landed on red 26 times. How many more times is that than she would expect?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Use your answer to part (a) for the expected number."],
+    "solution": "Expected: 20. Actual: 26.\n\n$26 - 20 = 6$ more times than expected."
+  },
+  {
+    "id": "m7.pro.experimental.q014",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.pro.experimental.g1",
+    "part": "c",
+    "stem": "Grace has this spinner. All four sections are the same size: 1 is red and 3 are blue.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" width=\"240\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 120 120 L 120 20 A 100 100 0 0 1 220 120 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"165.25\" y=\"74.75\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">red</text><path d=\"M 120 120 L 220 120 A 100 100 0 0 1 120 220 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"165.25\" y=\"165.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 120 220 A 100 100 0 0 1 20 120 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"74.75\" y=\"165.25\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 20 120 A 100 100 0 0 1 120 20 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"74.75\" y=\"74.75\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><line x1=\"120\" y1=\"120\" x2=\"137\" y2=\"90.56\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"120\" r=\"6\" fill=\"#1f2937\"/></svg>", "alt": "A spinner with 4 equal sections: 1 red and 3 blue." },
+    "prompt": "Give **two** reasons why Grace's results might be different from what the theory predicts.",
+    "modelAnswer": "1. Chance: every spin is random, so results vary, and 80 spins is not a huge number of trials. 2. The spinner might not be fair, for example the pointer might stick or the spinner might be bent. (Other reasons: she might have recorded some results wrongly, or she might not have spun it the same way each time.)",
+    "rubric": [
+      { "criterion": "Gives one sensible reason, e.g. random variation or not enough trials", "marks": 1 },
+      { "criterion": "Gives a second, different sensible reason, e.g. the spinner isn't fair, or results were recorded wrongly", "marks": 1 }
+    ],
+    "hints": ["Think about chance, the number of trials, the spinner itself, and the way results were recorded."],
+    "solution": "Good reasons include: random variation; not enough trials; the spinner might be unfair (bent, or the pointer sticks); or mistakes when recording the results."
+  },
+  {
+    "id": "m7.pro.experimental.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Mia tossed a coin 200 times. After every few tosses, she worked out the relative frequency of heads so far. What does her graph show?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 264\" width=\"400\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"220\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Tossing a coin: relative frequency of heads</text><line x1=\"58\" y1=\"214\" x2=\"380\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"58\" y1=\"196\" x2=\"380\" y2=\"196\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178\" x2=\"380\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"178\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.2</text><line x1=\"58\" y1=\"160\" x2=\"380\" y2=\"160\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142\" x2=\"380\" y2=\"142\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"142\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.4</text><line x1=\"58\" y1=\"124\" x2=\"380\" y2=\"124\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106\" x2=\"380\" y2=\"106\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"106\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.6</text><line x1=\"58\" y1=\"88\" x2=\"380\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70\" x2=\"380\" y2=\"70\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"70\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0.8</text><line x1=\"58\" y1=\"52\" x2=\"380\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"380\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"58\" y1=\"214\" x2=\"58\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"58\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"122.4\" y1=\"214\" x2=\"122.4\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"122.4\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">40</text><line x1=\"186.8\" y1=\"214\" x2=\"186.8\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"186.8\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">80</text><line x1=\"251.2\" y1=\"214\" x2=\"251.2\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"251.2\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">120</text><line x1=\"315.6\" y1=\"214\" x2=\"315.6\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"315.6\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">160</text><line x1=\"380\" y1=\"214\" x2=\"380\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"380\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">200</text><line x1=\"58\" y1=\"124\" x2=\"380\" y2=\"124\" stroke=\"#dc2626\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"376\" y=\"115\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#dc2626\">theoretical 0.5</text><polyline points=\"74.1,88.0 90.2,106.0 106.3,130.0 122.4,119.5 138.5,131.2 154.6,124.0 186.8,128.5 219.0,120.4 299.5,126.4 380.0,123.1\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"74.1\" cy=\"88\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"90.2\" cy=\"106\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"106.3\" cy=\"130\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"122.4\" cy=\"119.5\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"138.5\" cy=\"131.2\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"154.6\" cy=\"124\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"186.8\" cy=\"128.5\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"219\" cy=\"120.4\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"299.5\" cy=\"126.4\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"380\" cy=\"123.1\" r=\"3\" fill=\"#2563eb\"/><line x1=\"58\" y1=\"30\" x2=\"58\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"214\" x2=\"380\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"219\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of tosses</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Relative frequency of heads</text></svg>", "alt": "Line graph of the relative frequency of heads against the number of tosses. It starts at 0.7 after 10 tosses, goes up and down, then settles close to a dashed line at 0.5, ending at 0.505 after 200 tosses." },
+    "options": [
+      { "id": "a", "text": "As she tossed more times, the relative frequency settled down close to 0.5." },
+      { "id": "b", "text": "The coin is weighted towards heads." },
+      { "id": "c", "text": "The relative frequency was always exactly 0.5." },
+      { "id": "d", "text": "The more she tossed, the further the relative frequency moved away from 0.5." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It started at 0.7, but by 200 tosses it was 0.505. That is very close to the 0.5 you'd expect for a fair coin.",
+      "c": "It started at 0.7 and moved up and down before settling.",
+      "d": "Look at the right-hand end of the graph. The line gets closer to 0.5, not further away."
+    },
+    "hints": ["Compare the left-hand end of the line with the right-hand end."],
+    "solution": "At first the relative frequency jumps around (0.7 after 10 tosses). As the number of tosses grows, it settles close to 0.5. This is the **Law of Large Numbers** in action."
+  },
+  {
+    "id": "m7.pro.experimental.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Five groups each tossed a bottle cap 20 times and counted how often it landed top up.\n\n| Group | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Top up | 6 | 4 | 7 | 5 | 8 |\n\nThey combined all their results. What is the combined experimental probability that the cap lands top up? Give your answer as a percentage.",
+    "answer": 30,
+    "units": "%",
+    "hints": ["How many tosses were there altogether?", "How many times did it land top up altogether?"],
+    "solution": "Total tosses: $5 \\times 20 = 100$\n\nTotal top up: $6 + 4 + 7 + 5 + 8 = 30$\n\n$\\frac{30}{100} = 30\\%$\n\nThe combined result uses 100 trials, so it is more reliable than any one group's result."
+  },
+  {
+    "id": "m7.pro.experimental.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Two groups dropped the same drawing pin.\n\n- Group A: 20 drops, landed point up 8 times\n- Group B: 200 drops, landed point up 66 times\n\nWhose results give the more reliable estimate of the probability of landing point up?",
+    "options": [
+      { "id": "a", "text": "Group B, because they did many more trials" },
+      { "id": "b", "text": "Group A, because 8 out of 20 is a simpler fraction" },
+      { "id": "c", "text": "Both are equally reliable, because they used the same pin" },
+      { "id": "d", "text": "Neither, because a drawing pin can't be tested" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "How simple the fraction is doesn't matter. What matters is the number of trials.",
+      "c": "The same pin was used, but Group A did far fewer trials, so their result is affected more by chance.",
+      "d": "A drawing pin can only be tested by experiment, and experiments do work."
+    },
+    "hints": ["Think about the Law of Large Numbers."],
+    "solution": "Group B did 200 trials, ten times as many as Group A. More trials give a more reliable estimate, so **Group B's** estimate ($\\frac{66}{200} = 0.33$) is better."
+  },
+  {
+    "id": "m7.pro.experimental.q018",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Talia thinks her die might be weighted. Describe an experiment she could do to find out, and explain how she would use the results to decide.",
+    "modelAnswer": "Talia should roll the die lots of times, for example 120 times or more, and record how many times each number comes up in a tally chart or table. For a fair die, each number should come up about $\\frac{1}{6}$ of the time: about 20 times each in 120 rolls. If one number comes up a lot more (or less) often than that, for example 45 times, the die is probably weighted. Small differences are normal. The more rolls she does, the more she can trust the result.",
+    "rubric": [
+      { "criterion": "Describes rolling the die many times and recording the frequency of each number", "marks": 1 },
+      { "criterion": "Explains comparing each frequency with the expected number for a fair die ($\\frac{1}{6}$ of the rolls), and deciding based on a big difference", "marks": 1 }
+    ],
+    "hints": ["How many times should she roll it? What should she record?", "What results would you expect from a fair die?"],
+    "solution": "Roll it many times, record the frequency of each number, and compare each frequency with $\\frac{1}{6}$ of the total rolls. A number that comes up far more or far less often than expected suggests the die is weighted."
+  },
+  {
+    "id": "m7.pro.experimental.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Noah dropped a drawing pin 80 times, and it landed point up 36 times. Based on his results, about how many times would you expect it to land point up in 200 drops?",
+    "answer": 90,
+    "form": "integer",
+    "hints": ["Write the experimental probability as a fraction in simplest form, or as a decimal.", "Multiply it by 200."],
+    "solution": "Experimental probability: $\\frac{36}{80} = \\frac{9}{20} = 0.45$\n\nExpected in 200 drops: $0.45 \\times 200 = 90$"
+  },
+  {
+    "id": "m7.pro.experimental.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A fair spinner has three equal sections: red, blue and green. It is spun 300 times. Which set of results would be the **most surprising**?",
+    "options": [
+      { "id": "a", "text": "Red 180, blue 60, green 60" },
+      { "id": "b", "text": "Red 104, blue 95, green 101" },
+      { "id": "c", "text": "Red 92, blue 110, green 98" },
+      { "id": "d", "text": "Red 100, blue 97, green 103" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Each colour is close to the expected 100. Small differences like these are normal.",
+      "c": "These are all within about 10 of the expected 100, which is normal variation.",
+      "d": "These are very close to the expected 100 each."
+    },
+    "hints": ["About how many times would you expect each colour in 300 spins?", "Which results are furthest from that?"],
+    "solution": "For a fair spinner you expect about $\\frac{1}{3} \\times 300 = 100$ of each colour. Results within about 10 of 100 are normal. **Red 180** is 80 more than expected, which would be very surprising for a fair spinner. It would suggest the spinner isn't fair."
+  }
+]

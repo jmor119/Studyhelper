@@ -1,0 +1,14 @@
+[
+  {"id":"m6.sta.mean-range.f01","front":"What is **data**?","back":"Information we collect, such as heights, scores or times."},
+  {"id":"m6.sta.mean-range.f02","front":"What is a **value**?","back":"One number in a set of data."},
+  {"id":"m6.sta.mean-range.f03","front":"What is the **mean**?","back":"A kind of average. It tells you about the centre of the data."},
+  {"id":"m6.sta.mean-range.f04","front":"How do you find the mean?","back":"Add up all the values, then divide by how many values there are."},
+  {"id":"m6.sta.mean-range.f05","front":"What is the **range**?","back":"Highest value − lowest value. It tells you how spread out the data is."},
+  {"id":"m6.sta.mean-range.f06","front":"Centre vs spread","back":"Centre: a typical, middle value (the mean). Spread: how far apart the values are (the range)."},
+  {"id":"m6.sta.mean-range.f07","front":"Does the mean have to be a whole number, or one of the values?","back":"No. The mean of 1 and 2 is 1.5."},
+  {"id":"m6.sta.mean-range.f08","front":"Do values of 0 count when you find a mean?","back":"Yes. A 0 adds nothing to the total, but it still counts as a value."},
+  {"id":"m6.sta.mean-range.f09","front":"If you know the mean, how do you find the total?","back":"Total = mean × number of values. A mean of 8 from 4 scores means a total of 32."},
+  {"id":"m6.sta.mean-range.f10","front":"What does a small range tell you?","back":"The values are close together, so they are consistent."},
+  {"id":"m6.sta.mean-range.f11","front":"Why do answers to a statistical question vary?","back":"Because people (and things) are different, so they give different answers."},
+  {"id":"m6.sta.mean-range.f12","front":"What is a **statistical question**?","back":"A question answered by collecting data that varies, e.g. \"How tall are the students in Room 5?\""}
+]

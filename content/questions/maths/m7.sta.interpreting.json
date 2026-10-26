@@ -1,0 +1,362 @@
+[
+  {
+    "id": "m7.sta.interpreting.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "The **range** of a data set tells you about the data's…",
+    "options": [
+      { "id": "a", "text": "spread" },
+      { "id": "b", "text": "centre" },
+      { "id": "c", "text": "shape" },
+      { "id": "d", "text": "trend" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The centre is described by the median (or the mean or mode).",
+      "c": "The shape is about peaks and tails: symmetrical or skewed.",
+      "d": "A trend is the overall direction of a time-series graph."
+    },
+    "hints": ["The range is the highest value take away the lowest value. What does that tell you?"],
+    "solution": "The range measures how far apart the smallest and largest values are, so it tells you about the **spread**."
+  },
+  {
+    "id": "m7.sta.interpreting.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word about shape to its meaning.",
+    "pairs": [
+      { "left": { "id": "sym", "text": "Symmetrical" }, "right": { "id": "d1", "text": "Both tails taper off at about the same rate" } },
+      { "left": { "id": "pos", "text": "Positively skewed" }, "right": { "id": "d2", "text": "The tail on the right is longer" } },
+      { "left": { "id": "neg", "text": "Negatively skewed" }, "right": { "id": "d3", "text": "The tail on the left is longer" } },
+      { "left": { "id": "peak", "text": "Peak" }, "right": { "id": "d4", "text": "The tallest part of the display" } }
+    ],
+    "hints": ["Skew is named after the side with the long tail."],
+    "solution": "Symmetrical: even tails. Positively skewed: long right tail. Negatively skewed: long left tail. Peak: the tallest part."
+  },
+  {
+    "id": "m7.sta.interpreting.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Sione counted the students who biked to school each week for ten weeks. What trend does the time-series graph show?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 394 264\" width=\"394\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"214\" x2=\"378\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"58\" y1=\"178\" x2=\"378\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"178\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"58\" y1=\"142\" x2=\"378\" y2=\"142\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"142\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"58\" y1=\"106\" x2=\"378\" y2=\"106\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"106\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">15</text><line x1=\"58\" y1=\"70\" x2=\"378\" y2=\"70\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"70\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">20</text><line x1=\"58\" y1=\"34\" x2=\"378\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">25</text><polyline points=\"74,156.4 106,142 138,149.2 170,127.6 202,113.2 234,120.4 266,98.8 298,84.4 330,91.6 362,70\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"74\" cy=\"156.4\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"106\" cy=\"142\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"138\" cy=\"149.2\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"127.6\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"202\" cy=\"113.2\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"234\" cy=\"120.4\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"266\" cy=\"98.8\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"298\" cy=\"84.4\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"330\" cy=\"91.6\" r=\"3.8\" fill=\"#2563eb\"/><circle cx=\"362\" cy=\"70\" r=\"3.8\" fill=\"#2563eb\"/><line x1=\"74\" y1=\"214\" x2=\"74\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"74\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">1</text><line x1=\"106\" y1=\"214\" x2=\"106\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"106\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">2</text><line x1=\"138\" y1=\"214\" x2=\"138\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"138\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">3</text><line x1=\"170\" y1=\"214\" x2=\"170\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"170\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">4</text><line x1=\"202\" y1=\"214\" x2=\"202\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"202\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">5</text><line x1=\"234\" y1=\"214\" x2=\"234\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"234\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">6</text><line x1=\"266\" y1=\"214\" x2=\"266\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"266\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">7</text><line x1=\"298\" y1=\"214\" x2=\"298\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"298\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">8</text><line x1=\"330\" y1=\"214\" x2=\"330\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"330\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">9</text><line x1=\"362\" y1=\"214\" x2=\"362\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"362\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"10\" fill=\"#374151\">10</text><line x1=\"58\" y1=\"30\" x2=\"58\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"214\" x2=\"378\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"197\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Students biking to school</text><text x=\"218\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Week</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of students</text></svg>", "alt": "Time-series graph titled \"Students biking to school\". Weeks 1 to 10: 8, 10, 9, 12, 14, 13, 16, 18, 17, 20." },
+    "options": [
+      { "id": "a", "text": "An upward trend" },
+      { "id": "b", "text": "A downward trend" },
+      { "id": "c", "text": "No clear trend" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Compare the start of the graph (8) with the end (20).",
+      "c": "The line dips a few times, but overall it clearly rises."
+    },
+    "hints": ["Look at the overall direction of the line from left to right."],
+    "solution": "The number of students biking rose from 8 in week 1 to 20 in week 10. There are a few small dips, but overall there is an **upward trend**."
+  },
+  {
+    "id": "m7.sta.interpreting.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these describes the **centre** of a data set?",
+    "options": [
+      { "id": "a", "text": "The median" },
+      { "id": "b", "text": "The range" },
+      { "id": "c", "text": "The tails" },
+      { "id": "d", "text": "The title" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The range describes spread, not centre.",
+      "c": "The tails are part of the shape.",
+      "d": "The title tells you what the graph is about, not where its centre is."
+    },
+    "hints": ["Which one is a middle value?"],
+    "solution": "The **median** is the middle value, so it describes the centre of the data."
+  },
+  {
+    "id": "m7.sta.interpreting.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha asked students in Room 2 how many times they have been on a plane. How would you describe the shape of the data?",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 190\" width=\"360\" height=\"190\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"138\" x2=\"330\" y2=\"138\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"138\" x2=\"30\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"138\" x2=\"60\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"90\" y1=\"138\" x2=\"90\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"150\" y1=\"138\" x2=\"150\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"180\" y1=\"138\" x2=\"180\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"210\" y1=\"138\" x2=\"210\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"240\" y1=\"138\" x2=\"240\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><line x1=\"270\" y1=\"138\" x2=\"270\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"270\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"300\" y1=\"138\" x2=\"300\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"300\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"330\" y1=\"138\" x2=\"330\" y2=\"145\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"330\" y=\"155\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><circle cx=\"30\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"30\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"30\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"60\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"106\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"118\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"240\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"300\" cy=\"130\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"180\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Plane trips taken by Room 2 students</text><text x=\"180\" y=\"176\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of plane trips</text></svg>", "alt": "Dot plot titled \"Plane trips taken by Room 2 students\". 0 trips: 3 dots, 1: 8, 2: 6, 3: 4, 4: 3, 5: 2, 6: 1, 7: 1, 9: 1. The peak is at 1 and a long tail stretches to the right." },
+    "options": [
+      { "id": "a", "text": "Positively skewed" },
+      { "id": "b", "text": "Negatively skewed" },
+      { "id": "c", "text": "Symmetrical" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Skew is named after the long tail. Here the long tail is on the right.",
+      "c": "The dots taper off much more slowly on the right than on the left."
+    },
+    "hints": ["Find the peak, then compare the tails on each side of it."],
+    "solution": "The peak is near the left (1 trip) and the dots taper off slowly to the right, so the right tail is longer. The data is **positively skewed**: most students have flown a few times, but a few have flown many times."
+  },
+  {
+    "id": "m7.sta.interpreting.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.interpreting.g1",
+    "part": "a",
+    "stem": "Room 6 students counted how many push-ups they could do in one minute. The dot plot shows the results. Each dot is one student.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 154\" width=\"300\" height=\"154\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"102\" x2=\"270\" y2=\"102\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"102\" x2=\"30\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"102\" x2=\"60\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"90\" y1=\"102\" x2=\"90\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"120\" y1=\"102\" x2=\"120\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"150\" y1=\"102\" x2=\"150\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"180\" y1=\"102\" x2=\"180\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">13</text><line x1=\"210\" y1=\"102\" x2=\"210\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><line x1=\"240\" y1=\"102\" x2=\"240\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">15</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"270\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">16</text><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"240\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"150\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Push-ups in one minute: Room 6</text><text x=\"150\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of push-ups</text></svg>", "alt": "Dot plot titled \"Push-ups in one minute: Room 6\". 9 push-ups: 1 dot, 10: 2, 11: 4, 12: 5, 13: 4, 14: 2, 15: 1. 19 dots altogether." },
+    "prompt": "What is the **range**?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Find the dot furthest to the left and the dot furthest to the right."],
+    "solution": "Maximum: 15. Minimum: 9.\n\nRange $= 15 - 9 = 6$ push-ups"
+  },
+  {
+    "id": "m7.sta.interpreting.q007",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.interpreting.g1",
+    "part": "b",
+    "stem": "Room 6 students counted how many push-ups they could do in one minute. The dot plot shows the results. Each dot is one student.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 154\" width=\"300\" height=\"154\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"102\" x2=\"270\" y2=\"102\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"102\" x2=\"30\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"102\" x2=\"60\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"90\" y1=\"102\" x2=\"90\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"120\" y1=\"102\" x2=\"120\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"150\" y1=\"102\" x2=\"150\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"180\" y1=\"102\" x2=\"180\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">13</text><line x1=\"210\" y1=\"102\" x2=\"210\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><line x1=\"240\" y1=\"102\" x2=\"240\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">15</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"270\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">16</text><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"240\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"150\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Push-ups in one minute: Room 6</text><text x=\"150\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of push-ups</text></svg>", "alt": "Dot plot titled \"Push-ups in one minute: Room 6\". 9 push-ups: 1 dot, 10: 2, 11: 4, 12: 5, 13: 4, 14: 2, 15: 1. 19 dots altogether." },
+    "prompt": "What is the **median**?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["Count the dots. There are 19 altogether.", "The median is the 10th dot, counting from the left."],
+    "solution": "There are 19 dots, so the median is the 10th.\n\nCounting from the left: 9 (1 dot), 10 (dots 2–3), 11 (dots 4–7), 12 (dots 8–12). The 10th dot is above 12.\n\nThe median is **12 push-ups**."
+  },
+  {
+    "id": "m7.sta.interpreting.q008",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.interpreting.g1",
+    "part": "c",
+    "stem": "Room 6 students counted how many push-ups they could do in one minute. The dot plot shows the results. Each dot is one student.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 154\" width=\"300\" height=\"154\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"102\" x2=\"270\" y2=\"102\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"102\" x2=\"30\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"102\" x2=\"60\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"60\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"90\" y1=\"102\" x2=\"90\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"90\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"120\" y1=\"102\" x2=\"120\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"120\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"150\" y1=\"102\" x2=\"150\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"150\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"180\" y1=\"102\" x2=\"180\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"180\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">13</text><line x1=\"210\" y1=\"102\" x2=\"210\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"210\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><line x1=\"240\" y1=\"102\" x2=\"240\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">15</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"109\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"270\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">16</text><circle cx=\"60\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"90\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"120\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"150\" cy=\"46\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"70\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"180\" cy=\"58\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"210\" cy=\"82\" r=\"4.8\" fill=\"#2563eb\"/><circle cx=\"240\" cy=\"94\" r=\"4.8\" fill=\"#2563eb\"/><text x=\"150\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Push-ups in one minute: Room 6</text><text x=\"150\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Number of push-ups</text></svg>", "alt": "Dot plot titled \"Push-ups in one minute: Room 6\". 9 push-ups: 1 dot, 10: 2, 11: 4, 12: 5, 13: 4, 14: 2, 15: 1. 19 dots altogether." },
+    "prompt": "Describe the data. Talk about its shape, its centre and its spread, using numbers from the dot plot.",
+    "modelAnswer": "The dot plot shows how many push-ups 19 Room 6 students did in one minute. Shape: it has one peak, at 12 push-ups, and it is symmetrical, because the dots taper off evenly on both sides. Centre: the median is 12 push-ups. Spread: the results go from 9 to 15 push-ups, so the range is 6.",
+    "rubric": [
+      { "criterion": "Shape: one peak (at 12) and symmetrical", "marks": 1 },
+      { "criterion": "Centre: the median is 12 push-ups", "marks": 1 },
+      { "criterion": "Spread: from 9 to 15, a range of 6", "marks": 1 }
+    ],
+    "hints": ["Shape: where is the peak, and are the tails even?", "Centre: use the median. Spread: give the minimum, maximum and range."],
+    "solution": "One peak at 12, symmetrical shape, median 12 push-ups, and values from 9 to 15 (range 6)."
+  },
+  {
+    "id": "m7.sta.interpreting.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "In **positively** skewed data, the [[a]] tail is longer. In **negatively** skewed data, the [[b]] tail is longer.",
+    "blanks": [
+      { "id": "a", "accepted": ["right"], "options": ["right", "left"] },
+      { "id": "b", "accepted": ["left"], "options": ["right", "left"] }
+    ],
+    "hints": ["On a number line, positive numbers are to the right."],
+    "solution": "Positive skew has a long tail on the **right** (towards bigger numbers). Negative skew has a long tail on the **left**."
+  },
+  {
+    "id": "m7.sta.interpreting.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai looks at a dot plot with its peak on the right and a long tail stretching out to the left. He says, \"The peak is on the right, so it's positively skewed.\" Is he right?",
+    "options": [
+      { "id": "a", "text": "No. The long tail is on the left, so it is negatively skewed." },
+      { "id": "b", "text": "Yes. Positive skew means the peak is on the right." },
+      { "id": "c", "text": "No. Any dot plot with one peak is symmetrical." },
+      { "id": "d", "text": "Yes. Every dot plot with a peak is positively skewed." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is a common mix-up. Skew is named after the long tail, not the peak.",
+      "c": "A dot plot with one peak can be symmetrical or skewed. Look at the tails.",
+      "d": "Dot plots can be symmetrical, positively skewed or negatively skewed."
+    },
+    "hints": ["Is skew named after the peak or after the long tail?"],
+    "solution": "Skew is named after the **long tail**. The long tail is on the left, so the data is **negatively skewed**. Kai has used the peak instead of the tail."
+  },
+  {
+    "id": "m7.sta.interpreting.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.interpreting.g2",
+    "part": "a",
+    "stem": "A school newsletter printed this graph of the cans each class collected for the food bank.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 264\" width=\"290\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"214\" x2=\"274\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">50</text><line x1=\"58\" y1=\"196\" x2=\"274\" y2=\"196\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178\" x2=\"274\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"178\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">52</text><line x1=\"58\" y1=\"160\" x2=\"274\" y2=\"160\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142\" x2=\"274\" y2=\"142\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"142\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">54</text><line x1=\"58\" y1=\"124\" x2=\"274\" y2=\"124\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106\" x2=\"274\" y2=\"106\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"106\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">56</text><line x1=\"58\" y1=\"88\" x2=\"274\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70\" x2=\"274\" y2=\"70\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"70\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">58</text><line x1=\"58\" y1=\"52\" x2=\"274\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"274\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">60</text><rect x=\"72.4\" y=\"178\" width=\"43.2\" height=\"36\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"94\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Room 1</text><rect x=\"144.4\" y=\"70\" width=\"43.2\" height=\"144\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"166\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Room 2</text><rect x=\"216.4\" y=\"124\" width=\"43.2\" height=\"90\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"238\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Room 3</text><line x1=\"58\" y1=\"30\" x2=\"58\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"214\" x2=\"274\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"145\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Cans collected for the food bank</text><text x=\"166\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Class</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of cans</text></svg>", "alt": "Bar graph titled \"Cans collected for the food bank\". The vertical axis starts at 50, not 0. Room 1: 52, Room 2: 58, Room 3: 55. Room 2's bar looks four times as tall as Room 1's." },
+    "prompt": "Why is this graph misleading?",
+    "options": [
+      { "id": "a", "text": "The vertical axis starts at 50, so the differences look much bigger than they are." },
+      { "id": "b", "text": "It doesn't have a title." },
+      { "id": "c", "text": "The bars are not in order from tallest to shortest." },
+      { "id": "d", "text": "It should be a time-series graph." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Look again: the graph does have a title.",
+      "c": "Category bars can go in any order. That doesn't mislead anyone.",
+      "d": "The data wasn't collected over time, so a bar graph is the right choice."
+    },
+    "hints": ["Look at the bottom of the vertical axis."],
+    "solution": "The vertical axis starts at **50**, not 0. Only the parts of the bars above 50 are drawn, so Room 2's bar looks about four times as tall as Room 1's, even though 58 is not much more than 52."
+  },
+  {
+    "id": "m7.sta.interpreting.q012",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m7.sta.interpreting.g2",
+    "part": "b",
+    "stem": "A school newsletter printed this graph of the cans each class collected for the food bank.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 264\" width=\"290\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"214\" x2=\"274\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">50</text><line x1=\"58\" y1=\"196\" x2=\"274\" y2=\"196\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178\" x2=\"274\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"178\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">52</text><line x1=\"58\" y1=\"160\" x2=\"274\" y2=\"160\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142\" x2=\"274\" y2=\"142\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"142\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">54</text><line x1=\"58\" y1=\"124\" x2=\"274\" y2=\"124\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106\" x2=\"274\" y2=\"106\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"106\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">56</text><line x1=\"58\" y1=\"88\" x2=\"274\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70\" x2=\"274\" y2=\"70\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"70\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">58</text><line x1=\"58\" y1=\"52\" x2=\"274\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"274\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">60</text><rect x=\"72.4\" y=\"178\" width=\"43.2\" height=\"36\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"94\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Room 1</text><rect x=\"144.4\" y=\"70\" width=\"43.2\" height=\"144\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"166\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Room 2</text><rect x=\"216.4\" y=\"124\" width=\"43.2\" height=\"90\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"238\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Room 3</text><line x1=\"58\" y1=\"30\" x2=\"58\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"214\" x2=\"274\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"145\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Cans collected for the food bank</text><text x=\"166\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Class</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of cans</text></svg>", "alt": "Bar graph titled \"Cans collected for the food bank\". The vertical axis starts at 50, not 0. Room 1: 52, Room 2: 58, Room 3: 55. Room 2's bar looks four times as tall as Room 1's." },
+    "prompt": "Room 2's bar looks about four times as tall as Room 1's. How many more cans did Room 2 **really** collect than Room 1?",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Read the real values from the scale, not the heights of the bars.", "Then find the difference."],
+    "solution": "Room 2: 58 cans. Room 1: 52 cans.\n\n$58 - 52 = 6$ more cans. That's only a small difference, even though the bars make it look huge."
+  },
+  {
+    "id": "m7.sta.interpreting.q013",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the things you should describe when you interpret a dot plot.",
+    "options": [
+      { "id": "a", "text": "The shape (peaks, and whether it is symmetrical or skewed)" },
+      { "id": "b", "text": "The centre (the median)" },
+      { "id": "c", "text": "The spread (minimum, maximum and range)" },
+      { "id": "d", "text": "Any outliers or unusual values" },
+      { "id": "e", "text": "The colour of the dots" },
+      { "id": "f", "text": "How neatly the dot plot was drawn" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Which features tell you something about the data itself?"],
+    "solution": "Describe the **shape**, **centre**, **spread** and any **unusual values** such as outliers. The colour and neatness don't tell you anything about the data."
+  },
+  {
+    "id": "m7.sta.interpreting.q014",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for the overall direction of a time-series graph (going up, going down, or neither)?",
+    "accepted": ["trend", "a trend", "the trend"],
+    "hints": ["It starts with \"t\"."],
+    "solution": "It is called the **trend**. A time-series graph can show an upward trend, a downward trend, or no clear trend."
+  },
+  {
+    "id": "m7.sta.interpreting.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A website shows a bar graph of the sales of four ice cream flavours. It has a title and axis labels, but there are **no numbers** on the vertical axis. What is the problem?",
+    "options": [
+      { "id": "a", "text": "You can see which flavour sold most, but you can't read how many of each were sold." },
+      { "id": "b", "text": "There is no problem, because bar graphs don't need numbers." },
+      { "id": "c", "text": "You can't tell which flavour sold the most." },
+      { "id": "d", "text": "The graph should have a key." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Without a scale, nobody can tell how many each bar stands for.",
+      "c": "You can still compare the heights of the bars to see which is tallest.",
+      "d": "A key is only needed when there is more than one group."
+    },
+    "hints": ["What can you still tell from the heights of the bars? What can't you tell?"],
+    "solution": "Without numbers on the axis, the graph **can't be read accurately**. You can see which bar is tallest, but not the actual sales, so you can't tell how big the differences are."
+  },
+  {
+    "id": "m7.sta.interpreting.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The owner of Café A shows customers this graph and says, \"We sold four times as many pies as Café B on Saturday!\"\n\nExplain why the owner is wrong.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 264\" width=\"290\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"58\" y1=\"214\" x2=\"274\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">56</text><line x1=\"58\" y1=\"196\" x2=\"274\" y2=\"196\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178\" x2=\"274\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"178\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">58</text><line x1=\"58\" y1=\"160\" x2=\"274\" y2=\"160\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142\" x2=\"274\" y2=\"142\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"142\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">60</text><line x1=\"58\" y1=\"124\" x2=\"274\" y2=\"124\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106\" x2=\"274\" y2=\"106\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"106\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">62</text><line x1=\"58\" y1=\"88\" x2=\"274\" y2=\"88\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70\" x2=\"274\" y2=\"70\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"70\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">64</text><line x1=\"58\" y1=\"52\" x2=\"274\" y2=\"52\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"274\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"50\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">66</text><rect x=\"72.4\" y=\"70\" width=\"43.2\" height=\"144\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"94\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Café A</text><rect x=\"144.4\" y=\"178\" width=\"43.2\" height=\"36\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"166\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Café B</text><rect x=\"216.4\" y=\"124\" width=\"43.2\" height=\"90\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"238\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Café C</text><line x1=\"58\" y1=\"30\" x2=\"58\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"214\" x2=\"274\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"145\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Pies sold on Saturday</text><text x=\"166\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Café</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Pies sold</text></svg>", "alt": "Bar graph titled \"Pies sold on Saturday\". The vertical axis starts at 56, not 0. Café A 64, Café B 58, Café C 61." },
+    "modelAnswer": "The vertical axis starts at 56, not 0, so only the tops of the bars are drawn. That makes Café A's bar look four times as tall as Café B's. But reading the scale, Café A sold 64 pies and Café B sold 58. Café A sold only 6 more pies, which is nowhere near four times as many (four times 58 would be 232).",
+    "rubric": [
+      { "criterion": "Says the vertical axis doesn't start at 0, which makes the difference look bigger", "marks": 1 },
+      { "criterion": "Uses the real values (64 and 58) to show Café A sold only 6 more, not four times as many", "marks": 1 }
+    ],
+    "hints": ["Where does the vertical axis start?", "Read the real number of pies for each café from the scale."],
+    "solution": "The axis starts at 56, so the bars are out of proportion. Café A sold 64 pies and Café B sold 58: only 6 more, not four times as many."
+  },
+  {
+    "id": "m7.sta.interpreting.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A class grew tomato seedlings in the sun and in the shade. Their heights, in centimetres:\n\n**Sun:** 12, 14, 15, 15, 16, 18, 19\n\n**Shade:** 8, 10, 11, 12, 13, 13, 17\n\nWhich conclusion is best supported by the data?",
+    "options": [
+      { "id": "a", "text": "Seedlings in the sun tend to be taller: their median is 15 cm, compared with 12 cm in the shade." },
+      { "id": "b", "text": "Every seedling in the sun is taller than every seedling in the shade." },
+      { "id": "c", "text": "Seedlings in the shade tend to be taller, because their range is bigger." },
+      { "id": "d", "text": "You can't compare the groups, because they have the same number of seedlings." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The groups overlap: one shade seedling is 17 cm, which is taller than some sun seedlings.",
+      "c": "The range tells you about spread, not about which group is taller.",
+      "d": "Groups of the same size are easy to compare. Use the medians and ranges."
+    },
+    "hints": ["Find the median and the range of each group.", "Do the two groups overlap?"],
+    "solution": "Sun: median 15 cm, range $19 - 12 = 7$ cm. Shade: median 12 cm, range $17 - 8 = 9$ cm.\n\nThe sun seedlings have the higher median, so they **tend to** be taller. The groups overlap, so not every sun seedling is taller."
+  },
+  {
+    "id": "m7.sta.interpreting.q018",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A data set has a median of 14 and a range of 6. Its smallest value is 11. What is its largest value?",
+    "answer": 17,
+    "form": "integer",
+    "hints": ["Range = largest value − smallest value.", "You don't need the median for this question."],
+    "solution": "Range = largest − smallest, so largest = smallest + range.\n\nLargest $= 11 + 6 = 17$"
+  },
+  {
+    "id": "m7.sta.interpreting.q019",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Two classes did the same test. Both classes have a median score of 15. Class A's scores have a range of 4, and Class B's scores have a range of 15. Which statement is true?",
+    "options": [
+      { "id": "a", "text": "Class B's scores are much more spread out than Class A's." },
+      { "id": "b", "text": "Class B scored higher than Class A." },
+      { "id": "c", "text": "Class A must have an outlier." },
+      { "id": "d", "text": "The two classes got exactly the same scores." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The medians are the same, so neither class tends to score higher.",
+      "c": "A small range means the scores are close together. If anything, an outlier would make the range bigger.",
+      "d": "Same median doesn't mean same scores. The ranges are very different."
+    },
+    "hints": ["The median tells you about centre. The range tells you about spread."],
+    "solution": "The centres are the same (median 15), but Class B's range (15) is much bigger than Class A's (4). So Class B's scores are **much more spread out**: some students did very well and some did poorly. Class A's scores are bunched close together."
+  },
+  {
+    "id": "m7.sta.interpreting.q020",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "A data set is **positively skewed**: most values are small, with a long tail of bigger values. Which is usually bigger, the mean or the median?",
+    "options": [
+      { "id": "a", "text": "The mean, because the big values in the tail pull it up" },
+      { "id": "b", "text": "The median, because it is the middle value" },
+      { "id": "c", "text": "They are always equal" },
+      { "id": "d", "text": "The median, because the tail pulls it up" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The median stays in the middle of the ordered values, where most of the small values are.",
+      "c": "They are only about equal when the data is symmetrical.",
+      "d": "The tail hardly moves the median, just like an outlier hardly changes it."
+    },
+    "hints": ["Think about what an outlier does to the mean and the median.", "The values in a long tail act a bit like outliers."],
+    "solution": "The big values in the long right tail pull the **mean** up, in the same way that an outlier does. The median stays among the smaller, more common values. So the mean is usually bigger. For example, 1, 1, 2, 2, 3, 9 has a median of 2 but a mean of 3."
+  }
+]

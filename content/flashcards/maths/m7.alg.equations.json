@@ -1,0 +1,15 @@
+[
+  { "id": "m7.alg.equations.f01", "front": "What is an **equation**?", "back": "A number sentence with an equals sign, where both sides have the same value, like $t + 7 = 12$." },
+  { "id": "m7.alg.equations.f02", "front": "What is the **solution** of an equation?", "back": "The value of the unknown that makes the equation true. For $t + 7 = 12$, the solution is $t = 5$." },
+  { "id": "m7.alg.equations.f03", "front": "How do you **check** a solution?", "back": "Substitute it back into the equation. Both sides should come out equal." },
+  { "id": "m7.alg.equations.f04", "front": "What are **inverse operations**?", "back": "Operations that undo each other: + and −, × and ÷." },
+  { "id": "m7.alg.equations.f05", "front": "The golden rule for solving equations", "back": "Whatever you do to one side, do the same to the other side, so it stays balanced." },
+  { "id": "m7.alg.equations.f06", "front": "How do you solve a **two-step** equation like $5s + 3 = 18$?", "back": "Undo the steps in reverse order: subtract 3 first ($5s = 15$), then divide by 5 ($s = 3$)." },
+  { "id": "m7.alg.equations.f07", "front": "Solve $\\frac{k}{3} = 6$", "back": "Multiply both sides by 3: $k = 18$." },
+  { "id": "m7.alg.equations.f08", "front": "What is **trial and error**?", "back": "Guess, check, then improve the guess. It works, but it can be slow." },
+  { "id": "m7.alg.equations.f09", "front": "What is a **linear equation**?", "back": "An equation where the unknown is not squared or cubed, like $3x + 2 = 14$." },
+  { "id": "m7.alg.equations.f10", "front": "What do $<$ and $>$ mean?", "back": "$<$ means \"is less than\" and $>$ means \"is greater than\". The small end points to the smaller number." },
+  { "id": "m7.alg.equations.f11", "front": "What do $\\le$ and $\\ge$ mean?", "back": "$\\le$ is \"less than or equal to\" and $\\ge$ is \"greater than or equal to\". $5 \\le 5$ is true." },
+  { "id": "m7.alg.equations.f12", "front": "What is an **inequality**?", "back": "A number sentence using $<$, $>$, $\\le$ or $\\ge$ instead of $=$." },
+  { "id": "m7.alg.equations.f13", "front": "How do you form an equation from a word problem?", "back": "Use a letter for the number you don't know, then write the facts as an equation, like $3n + 8 = 29$." }
+]

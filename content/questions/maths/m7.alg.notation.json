@@ -1,0 +1,336 @@
+[
+  {
+    "id": "m7.alg.notation.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is a **variable** in algebra?",
+    "options": [
+      { "id": "a", "text": "A letter that stands for a number" },
+      { "id": "b", "text": "A number that can never change" },
+      { "id": "c", "text": "The answer to a calculation" },
+      { "id": "d", "text": "Another way of writing the × sign" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A variable is a letter, and its value can change or be unknown.",
+      "c": "A variable stands for a number. It might be the answer, but it doesn't have to be.",
+      "d": "In algebra we leave the × sign out. A letter like $x$ stands for a number, not for multiplying."
+    },
+    "hints": ["Think about what $n$ means in \"$n$ pies cost $4n$ dollars\"."],
+    "solution": "A **variable** is a letter that stands for a number. The number might be unknown (like $a$ in $3a = 18$) or it might change (like the number of pies someone buys)."
+  },
+  {
+    "id": "m7.alg.notation.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each calculation to the way we write it in algebra.",
+    "pairs": [
+      { "left": { "id": "l1", "text": "$b + b + b$" }, "right": { "id": "r1", "text": "$3b$" } },
+      { "left": { "id": "l2", "text": "$a \\times b$" }, "right": { "id": "r2", "text": "$ab$" } },
+      { "left": { "id": "l3", "text": "$a \\times a$" }, "right": { "id": "r3", "text": "$a^2$" } },
+      { "left": { "id": "l4", "text": "$a \\div 4$" }, "right": { "id": "r4", "text": "$\\frac{a}{4}$" } },
+      { "left": { "id": "l5", "text": "$1 \\times m$" }, "right": { "id": "r5", "text": "$m$" } }
+    ],
+    "hints": ["Adding the same letter again and again gives a number in front. Multiplying a letter by itself gives a small raised number."],
+    "solution": "$b + b + b = 3b$ (three lots of $b$). $a \\times b = ab$ (leave out the × sign). $a \\times a = a^2$ ($a$ squared). $a \\div 4 = \\frac{a}{4}$ (division is written as a fraction). $1 \\times m = m$ (we don't write the 1)."
+  },
+  {
+    "id": "m7.alg.notation.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the term $7y$, the number 7 is the [[a]] and the letter $y$ is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["coefficient"], "options": ["coefficient", "variable", "expression"] },
+      { "id": "b", "accepted": ["variable"], "options": ["coefficient", "variable", "expression"] }
+    ],
+    "hints": ["The number in front of a letter tells you how many lots of the letter there are."],
+    "solution": "The 7 is the **coefficient**: the number in front of the letter. The $y$ is the **variable**: the letter that stands for a number. $7y$ means $7 \\times y$."
+  },
+  {
+    "id": "m7.alg.notation.q004",
+    "type": "expression",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Simplify $4k + k + 2k$.",
+    "answer": "7*k",
+    "variables": ["k"],
+    "form": "simplified",
+    "hints": ["All the terms are like terms.", "$k$ on its own means $1k$."],
+    "solution": "$k$ means $1k$. Add the coefficients: $4 + 1 + 2 = 7$. So $4k + k + 2k = 7k$."
+  },
+  {
+    "id": "m7.alg.notation.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which expression is the same as $2a$?",
+    "options": [
+      { "id": "a", "text": "$a + a$" },
+      { "id": "b", "text": "$a \\times a$" },
+      { "id": "c", "text": "$a + 2$" },
+      { "id": "d", "text": "$\\frac{a}{2}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$a \\times a$ is $a^2$. $2a$ means 2 lots of $a$ added together.",
+      "c": "$a + 2$ adds 2 to $a$. $2a$ means $2 \\times a$.",
+      "d": "$\\frac{a}{2}$ is half of $a$. $2a$ is double $a$."
+    },
+    "hints": ["$2a$ means $2 \\times a$, or 2 lots of $a$."],
+    "solution": "$2a$ means 2 lots of $a$, which is $a + a$. Try $a = 6$: $2a = 12$ and $a + a = 12$ ✓"
+  },
+  {
+    "id": "m7.alg.notation.q006",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the terms that are like terms with $5x$.",
+    "options": [
+      { "id": "a", "text": "$2x$" },
+      { "id": "b", "text": "$x$" },
+      { "id": "c", "text": "$5y$" },
+      { "id": "d", "text": "$5x^2$" },
+      { "id": "e", "text": "$10x$" },
+      { "id": "f", "text": "$5$" }
+    ],
+    "correct": ["a", "b", "e"],
+    "hints": ["Like terms have exactly the same letter part. Ignore the number in front.", "Is $x^2$ the same letter part as $x$?"],
+    "solution": "$2x$, $x$ and $10x$ all have the letter part $x$, so they are like terms with $5x$.\n\n$5y$ has a different letter, $5x^2$ has $x \\times x$, and $5$ has no letter, so none of those are like terms with $5x$."
+  },
+  {
+    "id": "m7.alg.notation.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama simplifies $3a + 4b$ and gets $7ab$. What is the best way to describe Tama's answer?",
+    "options": [
+      { "id": "a", "text": "It is wrong. $3a$ and $4b$ are not like terms, so $3a + 4b$ can't be simplified." },
+      { "id": "b", "text": "It is wrong. The answer should be $12ab$." },
+      { "id": "c", "text": "It is right. $3 + 4 = 7$, so $3a + 4b = 7ab$." },
+      { "id": "d", "text": "It is wrong. The answer should be $7ba$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$12ab$ is what you get from $3a \\times 4b$. This question is adding.",
+      "c": "Try $a = 2$ and $b = 1$: $3a + 4b = 6 + 4 = 10$, but $7ab = 7 \\times 2 \\times 1 = 14$. They are not the same.",
+      "d": "$7ba$ is the same as $7ab$, so it is still wrong. The terms can't be collected at all."
+    },
+    "hints": ["Are $3a$ and $4b$ like terms?", "Try putting in numbers, like $a = 2$ and $b = 1$."],
+    "solution": "$3a$ and $4b$ have different letters, so they are **unlike** terms. They can't be collected, and $3a + 4b$ is already as simple as it gets.\n\nCheck with $a = 2$, $b = 1$: $3a + 4b = 10$ but $7ab = 14$."
+  },
+  {
+    "id": "m7.alg.notation.q008",
+    "type": "expression",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Simplify $6p + 2 + 3p + 7$.",
+    "answer": "9*p + 9",
+    "variables": ["p"],
+    "form": "simplified",
+    "hints": ["Collect the $p$ terms together.", "Then collect the numbers together."],
+    "solution": "$p$ terms: $6p + 3p = 9p$. Numbers: $2 + 7 = 9$.\n\nSo $6p + 2 + 3p + 7 = 9p + 9$. These two terms are not like terms, so we stop here."
+  },
+  {
+    "id": "m7.alg.notation.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "When $n = 5$, which is bigger: $n^2$ or $2n$?",
+    "options": [
+      { "id": "a", "text": "$n^2$. It is 25, and $2n$ is 10." },
+      { "id": "b", "text": "$2n$. It is 25, and $n^2$ is 10." },
+      { "id": "c", "text": "They are the same, because both use a 2 and an $n$." },
+      { "id": "d", "text": "$2n$. It is 52, and $n^2$ is 25." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "These are swapped. $n^2 = n \\times n$ and $2n = 2 \\times n$.",
+      "c": "They use the same symbols, but they mean different things: $n \\times n$ and $2 \\times n$.",
+      "d": "$2n$ means $2 \\times n$. It doesn't mean the digits 2 and 5 side by side."
+    },
+    "hints": ["$n^2$ means $n \\times n$.", "$2n$ means $2 \\times n$."],
+    "solution": "$n^2 = 5 \\times 5 = 25$ and $2n = 2 \\times 5 = 10$. So $n^2$ is bigger when $n = 5$."
+  },
+  {
+    "id": "m7.alg.notation.q010",
+    "type": "expression",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Simplify $5a + 3b - 2a + b$.",
+    "answer": "3*a + 4*b",
+    "variables": ["a", "b"],
+    "form": "simplified",
+    "hints": ["Group the $a$ terms and the $b$ terms. Keep each sign with the term after it.", "$b$ means $1b$."],
+    "solution": "$a$ terms: $5a - 2a = 3a$.\n\n$b$ terms: $3b + b = 4b$.\n\nSo the answer is $3a + 4b$."
+  },
+  {
+    "id": "m7.alg.notation.q011",
+    "type": "expression",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Movie tickets cost $t$ dollars each. Liam buys 3 tickets and a popcorn that costs \\$5. Write an expression for the total cost in dollars.",
+    "answer": "3*t + 5",
+    "variables": ["t"],
+    "form": "simplified",
+    "hints": ["How much do 3 tickets cost, if one costs $t$ dollars?", "Then add the popcorn."],
+    "solution": "3 tickets cost $3 \\times t = 3t$ dollars. Add \\$5 for the popcorn: the total is $3t + 5$ dollars."
+  },
+  {
+    "id": "m7.alg.notation.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "\"5 less than $n$\" is written as [[a]].\n\n\"$n$ shared equally between 5 people\" is written as [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["n − 5"], "options": ["n − 5", "5 − n", "5n", "n ÷ 5"] },
+      { "id": "b", "accepted": ["n/5"], "options": ["n/5", "5/n", "n − 5", "5n"] }
+    ],
+    "hints": ["\"5 less than $n$\": start with $n$, then take away 5.", "Sharing equally is dividing. Which number is being shared?"],
+    "solution": "\"5 less than $n$\" means start with $n$ and take away 5: $n - 5$.\n\nSharing $n$ between 5 people means $n \\div 5$, which is written $\\frac{n}{5}$."
+  },
+  {
+    "id": "m7.alg.notation.q013",
+    "type": "expression",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write a simplified expression for the perimeter of this rectangle.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 200\" width=\"340\" height=\"200\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"70,50 270,50 270,160 70,160\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"170\" y=\"34\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2x + 3</text><text x=\"280\" y=\"105\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">x</text><text x=\"332\" y=\"188\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A rectangle with a long side labelled 2x + 3 and a short side labelled x." },
+    "answer": "6*x + 6",
+    "variables": ["x"],
+    "form": "simplified",
+    "hints": ["A rectangle has two long sides and two short sides.", "Add all four sides, then collect the $x$ terms and the numbers."],
+    "solution": "The four sides are $2x + 3$, $x$, $2x + 3$ and $x$.\n\n$x$ terms: $2x + x + 2x + x = 6x$. Numbers: $3 + 3 = 6$.\n\nThe perimeter is $6x + 6$."
+  },
+  {
+    "id": "m7.alg.notation.q014",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which expression is **not** the same as $6ab$?",
+    "options": [
+      { "id": "a", "text": "$3a + 3b$" },
+      { "id": "b", "text": "$2a \\times 3b$" },
+      { "id": "c", "text": "$3ab + 3ab$" },
+      { "id": "d", "text": "$6ba$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2a \\times 3b = 2 \\times 3 \\times a \\times b = 6ab$, so this one is the same.",
+      "c": "$3ab$ and $3ab$ are like terms: $3ab + 3ab = 6ab$. This one is the same.",
+      "d": "$ba$ is the same as $ab$, because you can multiply in any order. We just usually write the letters in alphabetical order."
+    },
+    "hints": ["Work out or simplify each option.", "You could also try numbers, like $a = 2$ and $b = 5$."],
+    "solution": "$3a + 3b$ has unlike terms, so it can't be simplified to $6ab$. Check with $a = 2$, $b = 5$: $6ab = 60$, but $3a + 3b = 6 + 15 = 21$.\n\nThe other three are all equal to $6ab$."
+  },
+  {
+    "id": "m7.alg.notation.q015",
+    "type": "expression",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Simplify $2a^2 + 5a + 3a^2 - a$.",
+    "answer": "5*a^2 + 4*a",
+    "variables": ["a"],
+    "form": "simplified",
+    "hints": ["Are $a^2$ and $a$ like terms?", "Collect the $a^2$ terms, then the $a$ terms."],
+    "solution": "$a^2$ and $a$ are **not** like terms, because $a^2$ means $a \\times a$.\n\n$a^2$ terms: $2a^2 + 3a^2 = 5a^2$.\n\n$a$ terms: $5a - a = 4a$.\n\nSo the answer is $5a^2 + 4a$."
+  },
+  {
+    "id": "m7.alg.notation.q016",
+    "type": "expression",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha simplifies $7x - 3x$ and writes $4$. Aroha has made a mistake. What is the correct answer?",
+    "answer": "4*x",
+    "variables": ["x"],
+    "form": "simplified",
+    "hints": ["$7x$ means 7 lots of $x$. What is left if you take away 3 lots of $x$?"],
+    "solution": "7 lots of $x$ take away 3 lots of $x$ leaves 4 lots of $x$: $7x - 3x = 4x$.\n\nAroha left out the letter. The answer is $4x$, not 4."
+  },
+  {
+    "id": "m7.alg.notation.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi says that $3a + 2b + a$ simplifies to $6ab$. Explain Hemi's mistake, and give the correct answer.",
+    "modelAnswer": "Hemi has added all the numbers together and joined the letters. But only like terms can be collected. $3a$ and $a$ are like terms, so they make $4a$. $2b$ is not a like term with the $a$ terms, so it stays separate. The correct answer is $4a + 2b$.",
+    "rubric": [
+      { "criterion": "Explains that only like terms can be collected, so the $a$ terms and the $b$ term stay separate", "marks": 1 },
+      { "criterion": "Gives the correct answer $4a + 2b$", "marks": 1 }
+    ],
+    "hints": ["Which of the terms are like terms?"],
+    "solution": "$3a$ and $a$ are like terms: $3a + a = 4a$. $2b$ is a different letter, so it can't join them. The answer is $4a + 2b$, not $6ab$."
+  },
+  {
+    "id": "m7.alg.notation.q018",
+    "type": "expression",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere has $m$ marbles. Sione has 3 more than double the number Mere has. Ana has 5 fewer than Sione. Write a simplified expression for the total number of marbles the three children have.",
+    "answer": "5*m + 1",
+    "variables": ["m"],
+    "form": "simplified",
+    "hints": ["Write an expression for each person first: Mere, then Sione, then Ana.", "Add the three expressions, then collect like terms."],
+    "solution": "Mere: $m$\n\nSione: double $m$ plus 3, so $2m + 3$\n\nAna: 5 fewer than Sione, so $2m + 3 - 5 = 2m - 2$\n\nTotal: $m + 2m + 3 + 2m - 2 = 5m + 1$\n\nCheck with $m = 4$: Mere 4, Sione 11, Ana 6, total 21, and $5 \\times 4 + 1 = 21$ ✓"
+  },
+  {
+    "id": "m7.alg.notation.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mia says, \"$n^2$ is always bigger than $2n$.\" Is Mia right? Explain your answer using some whole numbers for $n$.",
+    "modelAnswer": "Mia is not right. When $n = 1$, $n^2 = 1$ and $2n = 2$, so $2n$ is bigger. When $n = 2$, $n^2 = 4$ and $2n = 4$, so they are equal. When $n = 3$, $n^2 = 9$ and $2n = 6$, so $n^2$ is bigger. $n^2$ is only bigger when $n$ is 3 or more.",
+    "rubric": [
+      { "criterion": "Works out $n^2$ and $2n$ correctly for at least two whole numbers", "marks": 1 },
+      { "criterion": "Says Mia is not right, using $n = 1$ (or $n = 2$) as a counter-example", "marks": 1 }
+    ],
+    "hints": ["Try $n = 1$, $n = 2$ and $n = 3$.", "Remember $n^2 = n \\times n$ and $2n = 2 \\times n$."],
+    "solution": "Try some numbers. $n = 1$: $n^2 = 1$, $2n = 2$. $n = 2$: both are 4. $n = 3$: $n^2 = 9$, $2n = 6$.\n\nSo Mia is not right: for $n = 1$, $2n$ is bigger, and for $n = 2$ they are equal."
+  },
+  {
+    "id": "m7.alg.notation.q020",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for a group of numbers and letters joined by operations, with no equals sign, like $3b + 2$?",
+    "accepted": ["expression", "an expression", "algebraic expression", "expressions"],
+    "hints": ["It isn't an equation, because there is no equals sign."],
+    "solution": "It is an **expression**. An expression has no equals sign. ($3b + 2 = 11$ would be an equation.)"
+  },
+  {
+    "id": "m7.alg.notation.q021",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "When $a = 3$, put these expressions in order from **smallest** value to **largest** value.",
+    "items": [
+      { "id": "i1", "text": "$2a$" },
+      { "id": "i2", "text": "$a^2$" },
+      { "id": "i3", "text": "$4a$" },
+      { "id": "i4", "text": "$a + 10$" }
+    ],
+    "hints": ["Work out the value of each expression when $a = 3$.", "$a^2$ means $3 \\times 3$."],
+    "solution": "$2a = 6$, $a^2 = 9$, $4a = 12$ and $a + 10 = 13$.\n\nSo the order is $2a$, $a^2$, $4a$, $a + 10$."
+  },
+  {
+    "id": "m7.alg.notation.q022",
+    "type": "expression",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The perimeter of this triangle is $9x + 4$. Two of the sides are $2x + 1$ and $3x$. Write a simplified expression for the third side.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" width=\"360\" height=\"230\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"70,180 160,40 300,180\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"101\" y=\"104\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2x + 1</text><text x=\"244\" y=\"104\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3x</text><text x=\"185\" y=\"200\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">?</text><text x=\"352\" y=\"218\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>", "alt": "A triangle with sides labelled 2x + 1 and 3x, and a third side marked with a question mark." },
+    "answer": "4*x + 3",
+    "variables": ["x"],
+    "form": "simplified",
+    "hints": ["First add the two sides you know, and simplify.", "The third side is what you need to add to make the whole perimeter."],
+    "solution": "The two known sides add to $2x + 1 + 3x = 5x + 1$.\n\nThe third side is the rest of the perimeter: from $5x + 1$ up to $9x + 4$ is $4x$ more and $3$ more.\n\nSo the third side is $4x + 3$. Check: $5x + 1 + 4x + 3 = 9x + 4$ ✓"
+  }
+]

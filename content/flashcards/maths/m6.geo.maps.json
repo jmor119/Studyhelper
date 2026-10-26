@@ -1,0 +1,16 @@
+[
+  {"id":"m6.geo.maps.f01","front":"What is a **grid reference**?","back":"A letter and a number that name one square on a map, e.g. B4."},
+  {"id":"m6.geo.maps.f02","front":"In the grid reference C5, which part comes first?","back":"The letter (the row), then the number (the column)."},
+  {"id":"m6.geo.maps.f03","front":"On our maps, what do the letters and the numbers label?","back":"Letters label the rows (down the side). Numbers label the columns (along the top)."},
+  {"id":"m6.geo.maps.f04","front":"What are the four main **compass** points?","back":"North, east, south and west (N, E, S, W)."},
+  {"id":"m6.geo.maps.f05","front":"On a map with north at the top, where are east, south and west?","back":"East is to the right, south is down and west is to the left."},
+  {"id":"m6.geo.maps.f06","front":"**Clockwise** vs **anticlockwise**","back":"Clockwise is the way clock hands move. Anticlockwise is the opposite way."},
+  {"id":"m6.geo.maps.f07","front":"Sizes of turns","back":"Quarter turn: 90°. Half turn: 180°. Three-quarter turn: 270°. Full turn: 360°."},
+  {"id":"m6.geo.maps.f08","front":"You face north and make a quarter turn clockwise. Which way do you face?","back":"East."},
+  {"id":"m6.geo.maps.f09","front":"What does a half turn do?","back":"It leaves you facing the opposite way, e.g. north becomes south."},
+  {"id":"m6.geo.maps.f10","front":"What is a **map scale**?","back":"It tells you what real distance a distance on the map stands for, e.g. 1 cm = 100 m."},
+  {"id":"m6.geo.maps.f11","front":"How do you change a map distance into a real distance?","back":"Multiply by the scale. On a 1 cm = 50 m map, 3 cm is $3 \\times 50 = 150$ m."},
+  {"id":"m6.geo.maps.f12","front":"How do you change a real distance into a map distance?","back":"Divide by the scale. On a 1 cm = 50 m map, 200 m is $200 \\div 50 = 4$ cm."},
+  {"id":"m6.geo.maps.f13","front":"How many metres are in 1 kilometre?","back":"1000 m = 1 km."},
+  {"id":"m6.geo.maps.f14","front":"How do you describe a pathway?","back":"Give a starting point, then each direction, distance and turn in order."}
+]

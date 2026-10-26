@@ -1,0 +1,308 @@
+[
+  {
+    "id": "m7.alg.substitution.q001",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $n + 15$ when $n = 8$.",
+    "answer": 23,
+    "form": "integer",
+    "hints": ["Replace $n$ with 8."],
+    "solution": "$n + 15 = 8 + 15 = 23$."
+  },
+  {
+    "id": "m7.alg.substitution.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the value of $6t$ when $t = 3$?",
+    "options": [
+      { "id": "a", "text": "$18$" },
+      { "id": "b", "text": "$63$" },
+      { "id": "c", "text": "$9$" },
+      { "id": "d", "text": "$2$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$6t$ doesn't mean the digits 6 and 3 side by side. A number next to a letter means multiply.",
+      "c": "$6t$ means $6 \\times t$, not $6 + t$.",
+      "d": "$6t$ means $6 \\times t$, not $6 \\div t$."
+    },
+    "hints": ["$6t$ means $6 \\times t$."],
+    "solution": "$6t = 6 \\times 3 = 18$."
+  },
+  {
+    "id": "m7.alg.substitution.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "To [[a]] means to replace a letter with a number.\n\nA rule like $A = lw$ that connects different amounts is called a [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["substitute"], "options": ["substitute", "simplify", "rearrange"] },
+      { "id": "b", "accepted": ["formula"], "options": ["formula", "term", "coefficient"] }
+    ],
+    "hints": ["The first blank means \"put a number in place of a letter\"."],
+    "solution": "To **substitute** means to replace a letter with a number. A rule like $A = lw$ is a **formula**."
+  },
+  {
+    "id": "m7.alg.substitution.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $\\frac{m}{4}$ when $m = 28$.",
+    "answer": 7,
+    "form": "integer",
+    "hints": ["$\\frac{m}{4}$ means $m \\div 4$."],
+    "solution": "$\\frac{m}{4} = 28 \\div 4 = 7$."
+  },
+  {
+    "id": "m7.alg.substitution.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "When $x = 4$, which expression has the **biggest** value?",
+    "options": [
+      { "id": "a", "text": "$x^2$" },
+      { "id": "b", "text": "$3x$" },
+      { "id": "c", "text": "$x + 10$" },
+      { "id": "d", "text": "$\\frac{x}{2}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$3x = 3 \\times 4 = 12$. Check the others: one of them is bigger.",
+      "c": "$x + 10 = 14$, which is big, but $x^2 = 4 \\times 4 = 16$ is bigger.",
+      "d": "$\\frac{x}{2} = 4 \\div 2 = 2$, which is the smallest."
+    },
+    "hints": ["Work out each expression when $x = 4$.", "$x^2$ means $x \\times x$."],
+    "solution": "$x^2 = 16$, $3x = 12$, $x + 10 = 14$ and $\\frac{x}{2} = 2$. The biggest is $x^2$."
+  },
+  {
+    "id": "m7.alg.substitution.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $ab$ when $a = 7$ and $b = 6$.",
+    "answer": 42,
+    "form": "integer",
+    "hints": ["Letters written next to each other are multiplied."],
+    "solution": "$ab = a \\times b = 7 \\times 6 = 42$."
+  },
+  {
+    "id": "m7.alg.substitution.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $3p + 4$ when $p = 9$.",
+    "answer": 31,
+    "form": "integer",
+    "hints": ["Replace $p$ with 9, then multiply before you add."],
+    "solution": "$3p + 4 = 3 \\times 9 + 4 = 27 + 4 = 31$."
+  },
+  {
+    "id": "m7.alg.substitution.q008",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "When $a = 4$, match each expression to its value.",
+    "pairs": [
+      { "left": { "id": "l1", "text": "$2a$" }, "right": { "id": "r1", "text": "8" } },
+      { "left": { "id": "l2", "text": "$a^2$" }, "right": { "id": "r2", "text": "16" } },
+      { "left": { "id": "l3", "text": "$a + 2$" }, "right": { "id": "r3", "text": "6" } },
+      { "left": { "id": "l4", "text": "$\\frac{a}{2}$" }, "right": { "id": "r4", "text": "2" } },
+      { "left": { "id": "l5", "text": "$a^3$" }, "right": { "id": "r5", "text": "64" } }
+    ],
+    "hints": ["$a^2 = a \\times a$ and $a^3 = a \\times a \\times a$."],
+    "solution": "$2a = 2 \\times 4 = 8$, $a^2 = 4 \\times 4 = 16$, $a + 2 = 6$, $\\frac{a}{2} = 4 \\div 2 = 2$ and $a^3 = 4 \\times 4 \\times 4 = 64$."
+  },
+  {
+    "id": "m7.alg.substitution.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Grace finds the value of $10 - 2k$ when $k = 3$. She works out $10 - 2 = 8$, then $8 \\times 3 = 24$. What is the correct value?",
+    "options": [
+      { "id": "a", "text": "$4$" },
+      { "id": "b", "text": "$24$" },
+      { "id": "c", "text": "$5$" },
+      { "id": "d", "text": "$-13$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This subtracts first. Multiplying comes before subtracting, so work out $2k$ first.",
+      "c": "$2k$ means $2 \\times k$, not $2 + k$.",
+      "d": "$2k$ means $2 \\times 3$, not the digits 2 and 3 side by side."
+    },
+    "hints": ["Write it with the × sign: $10 - 2 \\times 3$.", "Which comes first: × or −?"],
+    "solution": "Multiply first: $2k = 2 \\times 3 = 6$. Then subtract: $10 - 6 = 4$.\n\nGrace did the subtraction first, which breaks the order of operations."
+  },
+  {
+    "id": "m7.alg.substitution.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The perimeter of a rectangle is $P = 2(l + w)$. Find the perimeter of a rectangular vegetable garden with $l = 9$ m and $w = 4$ m.",
+    "answer": 26,
+    "form": "integer",
+    "units": "m",
+    "hints": ["Brackets first: add $l$ and $w$.", "Then multiply by 2."],
+    "solution": "$P = 2 \\times (9 + 4) = 2 \\times 13 = 26$ m."
+  },
+  {
+    "id": "m7.alg.substitution.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The cost in dollars of a school camp for $n$ students is $C = 45n + 120$. Find the cost for 20 students.",
+    "answer": 1020,
+    "form": "integer",
+    "units": "$",
+    "hints": ["Replace $n$ with 20.", "$45 \\times 20$ is the same as $45 \\times 2 \\times 10$."],
+    "solution": "$C = 45 \\times 20 + 120 = 900 + 120 = 1020$.\n\nThe camp costs \\$1020."
+  },
+  {
+    "id": "m7.alg.substitution.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Find the value of $4(x + 3)$ when $x = 5$.",
+    "answer": 32,
+    "form": "integer",
+    "hints": ["$4(x + 3)$ means $4 \\times (x + 3)$.", "Work out the bracket first."],
+    "solution": "Brackets first: $x + 3 = 5 + 3 = 8$. Then $4 \\times 8 = 32$."
+  },
+  {
+    "id": "m7.alg.substitution.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A rectangular deck has an area of 54 m² and a width of 6 m. Use $A = lw$ to find its length.",
+    "answer": 9,
+    "form": "integer",
+    "units": "m",
+    "hints": ["Put the numbers you know into the formula: $54 = l \\times 6$.", "Which number times 6 makes 54?"],
+    "solution": "$A = lw$, so $54 = l \\times 6$.\n\nDivide both sides by 6: $l = 54 \\div 6 = 9$.\n\nThe deck is 9 m long. Check: $9 \\times 6 = 54$ ✓"
+  },
+  {
+    "id": "m7.alg.substitution.q014",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Make $n$ the subject of $t = 3n + 1$.",
+    "options": [
+      { "id": "a", "text": "$n = \\frac{t - 1}{3}$" },
+      { "id": "b", "text": "$n = \\frac{t}{3} - 1$" },
+      { "id": "c", "text": "$n = \\frac{t + 1}{3}$" },
+      { "id": "d", "text": "$n = 3t - 1$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Undo the steps in reverse order. The + 1 was done last, so undo it first, before you divide.",
+      "c": "1 was added, so the inverse is to subtract 1, not add it.",
+      "d": "$n$ was multiplied by 3, so the inverse is to divide by 3, not multiply."
+    },
+    "hints": ["What was done to $n$, and in what order?", "Undo the last step first."],
+    "solution": "$n$ was multiplied by 3, then 1 was added. Undo in reverse order.\n\nSubtract 1 from both sides: $t - 1 = 3n$.\n\nDivide both sides by 3: $n = \\frac{t - 1}{3}$."
+  },
+  {
+    "id": "m7.alg.substitution.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Liam and Isla find the value of $5a^2$ when $a = 3$.\n\n- Liam works out $5 \\times 3 = 15$, then $15^2 = 225$.\n- Isla works out $3^2 = 9$, then $5 \\times 9 = 45$.\n\nWho is right? Explain why.",
+    "modelAnswer": "Isla is right. In $5a^2$, only the $a$ is squared, and the 5 multiplies the answer. By the order of operations, powers (exponents) come before multiplying. So $a^2 = 9$ first, then $5 \\times 9 = 45$. Liam multiplied first, which would be $(5a)^2$.",
+    "rubric": [
+      { "criterion": "Says Isla is right (the answer is 45)", "marks": 1 },
+      { "criterion": "Explains that the power is worked out before multiplying (only $a$ is squared)", "marks": 1 }
+    ],
+    "hints": ["What does the small 2 belong to: the 5, or the $a$?", "Think about GEMA: which comes first, exponents or multiplying?"],
+    "solution": "Isla is right: $5a^2 = 5 \\times 3^2 = 5 \\times 9 = 45$. Powers come before multiplying, and only the $a$ is squared."
+  },
+  {
+    "id": "m7.alg.substitution.q016",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A square and a rectangle have the same area. The square has sides of 6 cm. The rectangle is 9 cm long. How wide is the rectangle?",
+    "answer": 4,
+    "form": "integer",
+    "units": "cm",
+    "hints": ["Find the area of the square first, using $A = l^2$.", "Then use $A = lw$ for the rectangle."],
+    "solution": "Square: $A = 6^2 = 36$ cm².\n\nRectangle: $36 = 9 \\times w$, so $w = 36 \\div 9 = 4$ cm."
+  },
+  {
+    "id": "m7.alg.substitution.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A plumber uses the formula $C = 60h + 50$ to work out the cost in dollars for $h$ hours of work. A job cost \\$290. How many hours did the plumber work?",
+    "answer": 4,
+    "form": "integer",
+    "units": "hours",
+    "hints": ["Put 290 in for $C$: $290 = 60h + 50$.", "Take away the \\$50 call-out part first."],
+    "solution": "$290 = 60h + 50$\n\nSubtract 50: $60h = 240$\n\nDivide by 60: $h = 4$\n\nCheck: $60 \\times 4 + 50 = 240 + 50 = 290$ ✓"
+  },
+  {
+    "id": "m7.alg.substitution.q018",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ruby says, \"If you double the length and double the width of a rectangle, its area doubles too.\" Use the formula $A = lw$ and an example to show whether Ruby is right.",
+    "modelAnswer": "Ruby is not right. For example, a rectangle 3 cm by 2 cm has area $A = 3 \\times 2 = 6$ cm². Doubling both sides gives 6 cm by 4 cm, with area $A = 6 \\times 4 = 24$ cm². 24 is four times 6, not double. Doubling both the length and the width makes the area four times as big.",
+    "rubric": [
+      { "criterion": "Uses $A = lw$ correctly on an example before and after doubling", "marks": 1 },
+      { "criterion": "Concludes Ruby is not right because the area becomes four times as big", "marks": 1 }
+    ],
+    "hints": ["Pick a rectangle, like 3 cm by 2 cm, and find its area.", "Now double both sides and find the new area. How many times bigger is it?"],
+    "solution": "Example: 3 cm by 2 cm gives $A = 6$ cm². Doubled: 6 cm by 4 cm gives $A = 24$ cm². The area is 4 times as big, so Ruby is not right."
+  },
+  {
+    "id": "m7.alg.substitution.q019",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Make $w$ the subject of the formula $P = 2(l + w)$.",
+    "options": [
+      { "id": "a", "text": "$w = \\frac{P}{2} - l$" },
+      { "id": "b", "text": "$w = P - 2l$" },
+      { "id": "c", "text": "$w = 2P - l$" },
+      { "id": "d", "text": "$w = \\frac{P}{2} + l$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Close, but $P - 2l$ is equal to $2w$. You still need to halve it.",
+      "c": "The bracket is multiplied by 2, so the inverse is to divide by 2, not multiply.",
+      "d": "$l$ is added to $w$, so the inverse is to subtract $l$."
+    },
+    "hints": ["The bracket $(l + w)$ is multiplied by 2. Undo that first.", "Then undo the $+ l$."],
+    "solution": "Divide both sides by 2: $\\frac{P}{2} = l + w$.\n\nSubtract $l$ from both sides: $w = \\frac{P}{2} - l$.\n\nCheck with $l = 5$, $w = 3$: $P = 16$, and $\\frac{16}{2} - 5 = 3$ ✓"
+  },
+  {
+    "id": "m7.alg.substitution.q020",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A shoebox is 30 cm long, 20 cm wide and 10 cm high. Use $V = lwh$ to find its volume.",
+    "answer": 6000,
+    "form": "integer",
+    "units": "cm³",
+    "hints": ["Multiply the three measurements.", "$30 \\times 20 = 600$."],
+    "solution": "$V = 30 \\times 20 \\times 10 = 600 \\times 10 = 6000$ cm³."
+  },
+  {
+    "id": "m7.alg.substitution.q021",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the formula $A = lw$, which letter is the **subject**?",
+    "accepted": ["A"],
+    "hints": ["The subject is the letter on its own on one side of the equals sign."],
+    "solution": "$A$ is on its own on the left of the equals sign, so $A$ is the **subject**. The formula tells you how to work out $A$."
+  }
+]

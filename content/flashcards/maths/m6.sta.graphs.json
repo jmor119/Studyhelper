@@ -1,0 +1,15 @@
+[
+  {"id":"m6.sta.graphs.f01","front":"What is a **graph**?","back":"A picture of data that helps you see patterns quickly."},
+  {"id":"m6.sta.graphs.f02","front":"When should you use a **bar graph**?","back":"For counts of things sorted into groups (categories), like favourite fruit."},
+  {"id":"m6.sta.graphs.f03","front":"What is a **dot plot**?","back":"A graph where each dot is one value, stacked above a number line. Good for small sets of number data."},
+  {"id":"m6.sta.graphs.f04","front":"What is **time-series data**?","back":"Data with two numbers for each point, where one of them is a time, e.g. a plant’s height each week."},
+  {"id":"m6.sta.graphs.f05","front":"How is a **time-series graph** drawn?","back":"Time goes along the x-axis in order, the other variable goes up the y-axis, and the points are joined with straight lines."},
+  {"id":"m6.sta.graphs.f06","front":"x-axis vs y-axis","back":"The x-axis goes across the bottom. The y-axis goes up the side."},
+  {"id":"m6.sta.graphs.f07","front":"What is a **scale**?","back":"The numbers along an axis. It should start at 0 and go up in equal steps."},
+  {"id":"m6.sta.graphs.f08","front":"What does a graph’s **title** tell you?","back":"What the graph is about."},
+  {"id":"m6.sta.graphs.f09","front":"What is a **variable**?","back":"The thing being counted or measured, such as height, temperature or favourite sport."},
+  {"id":"m6.sta.graphs.f10","front":"What is a **trend**?","back":"The overall direction of a time-series graph: upward, downward or no clear trend."},
+  {"id":"m6.sta.graphs.f11","front":"Upward vs downward trend","back":"Upward: the values go up over time. Downward: the values go down over time."},
+  {"id":"m6.sta.graphs.f12","front":"What should you check on a graph in the news?","back":"The title, the axis labels and units, and whether the scale starts at 0 with equal steps."},
+  {"id":"m6.sta.graphs.f13","front":"How do you describe a dot plot or bar graph?","back":"Say what the variable is, then describe the shape, the middle group and the spread (smallest to largest)."}
+]

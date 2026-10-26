@@ -1,0 +1,14 @@
+[
+  { "id": "m6.num.decimals.f01", "front": "What is a **tenth**?", "back": "One whole split into 10 equal parts: $\\frac{1}{10} = 0.1$" },
+  { "id": "m6.num.decimals.f02", "front": "What is a **hundredth**?", "back": "One tenth split into 10 equal parts: $\\frac{1}{100} = 0.01$" },
+  { "id": "m6.num.decimals.f03", "front": "What is a **thousandth**?", "back": "One hundredth split into 10 equal parts, or 1 divided by 1000: $\\frac{1}{1000} = 0.001$" },
+  { "id": "m6.num.decimals.f04", "front": "What does the **decimal point** do?", "back": "It separates the whole numbers (on the left) from the parts of a whole (on the right)." },
+  { "id": "m6.num.decimals.f05", "front": "Name the first three **decimal places** in order.", "back": "Tenths, hundredths, thousandths." },
+  { "id": "m6.num.decimals.f06", "front": "Write $\\frac{47}{1000}$ as a decimal.", "back": "$0.047$. The zero holds the empty tenths place." },
+  { "id": "m6.num.decimals.f07", "front": "How do you compare two decimals?", "back": "Line up the decimal points, add zeros so they have the same number of places, then compare digits from the left." },
+  { "id": "m6.num.decimals.f08", "front": "Which is bigger: $0.6$ or $0.45$?", "back": "$0.6$, because $0.6 = 0.60$ and 60 hundredths is more than 45 hundredths. More digits doesn't mean bigger." },
+  { "id": "m6.num.decimals.f09", "front": "Does adding a zero on the end change a decimal? ($0.5$ and $0.50$)", "back": "No. $0.5 = 0.50 = 0.500$. They all mean 5 tenths." },
+  { "id": "m6.num.decimals.f10", "front": "What happens to the digits when you × 10, × 100 or × 1000?", "back": "They move 1, 2 or 3 places to the left. For example, $1.3 \\times 10 = 13$." },
+  { "id": "m6.num.decimals.f11", "front": "What happens to the digits when you ÷ 10, ÷ 100 or ÷ 1000?", "back": "They move 1, 2 or 3 places to the right. For example, $4.5 \\div 100 = 0.045$." },
+  { "id": "m6.num.decimals.f12", "front": "How do you add or subtract decimals?", "back": "Line up the decimal points, fill gaps with zeros, then add or subtract like whole numbers." }
+]

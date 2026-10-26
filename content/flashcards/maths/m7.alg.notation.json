@@ -1,0 +1,15 @@
+[
+  { "id": "m7.alg.notation.f01", "front": "What is a **variable**?", "back": "A letter that stands for a number. The number might be unknown, or it might change." },
+  { "id": "m7.alg.notation.f02", "front": "What is an **expression**?", "back": "Numbers and letters joined by operations, with no equals sign, like $3b + 2$." },
+  { "id": "m7.alg.notation.f03", "front": "What is a **term**?", "back": "One part of an expression. Terms are separated by + and − signs. $3b + 2$ has two terms." },
+  { "id": "m7.alg.notation.f04", "front": "What is a **coefficient**?", "back": "The number in front of a letter. In $7y$ the coefficient is 7." },
+  { "id": "m7.alg.notation.f05", "front": "What are **like terms**?", "back": "Terms with exactly the same letter part, like $3a$ and $5a$. The numbers in front can be different." },
+  { "id": "m7.alg.notation.f06", "front": "What does **simplify** mean?", "back": "Make an expression shorter by collecting like terms: $3a + a + a = 5a$." },
+  { "id": "m7.alg.notation.f07", "front": "How do you write $b + b + b$ or $3 \\times b$?", "back": "$3b$. Leave out the × sign and put the number first." },
+  { "id": "m7.alg.notation.f08", "front": "How do you write $b \\times a$?", "back": "$ab$. Leave out the × sign and put the letters in alphabetical order." },
+  { "id": "m7.alg.notation.f09", "front": "What is the difference between $a^2$ and $2a$?", "back": "$a^2 = a \\times a$, but $2a = a + a$. If $a = 5$: $a^2 = 25$ and $2a = 10$." },
+  { "id": "m7.alg.notation.f10", "front": "What does $a^3$ mean?", "back": "$a \\times a \\times a$, or \"$a$ cubed\"." },
+  { "id": "m7.alg.notation.f11", "front": "How do you write $a \\div 4$ in algebra?", "back": "As a fraction: $\\frac{a}{4}$." },
+  { "id": "m7.alg.notation.f12", "front": "Why do we write $b$ instead of $1b$?", "back": "$1 \\times b$ is just $b$, so we leave out the 1. The coefficient of $b$ is still 1." },
+  { "id": "m7.alg.notation.f13", "front": "How do you write \"5 less than $n$\"?", "back": "$n - 5$. Start with $n$ and take away 5. (Not $5 - n$.)" }
+]

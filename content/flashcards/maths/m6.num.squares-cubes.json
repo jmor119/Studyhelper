@@ -1,0 +1,14 @@
+[
+  { "id": "m6.num.squares-cubes.f01", "front": "What is a **product**?", "back": "The answer when you multiply. In 3 × 4 = 12, the product is 12." },
+  { "id": "m6.num.squares-cubes.f02", "front": "What is a **factor**?", "back": "A number that divides into another number exactly. 6 is a factor of 24." },
+  { "id": "m6.num.squares-cubes.f03", "front": "What is a **factor pair**?", "back": "Two numbers that multiply to make a number. 3 and 8 are a factor pair of 24." },
+  { "id": "m6.num.squares-cubes.f04", "front": "Factor or **multiple**: what's the difference?", "back": "A factor divides into the number (6 is a factor of 24). A multiple is in its times table (48 is a multiple of 24)." },
+  { "id": "m6.num.squares-cubes.f05", "front": "What is a **square number**?", "back": "A number multiplied by itself, like 5 × 5 = 25." },
+  { "id": "m6.num.squares-cubes.f06", "front": "What does $7^2$ mean, and how do you say it?", "back": "\"7 **squared**\": 7 × 7 = 49. Not 7 × 2." },
+  { "id": "m6.num.squares-cubes.f07", "front": "The square numbers up to 144", "back": "1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144" },
+  { "id": "m6.num.squares-cubes.f08", "front": "What is a **cube number**?", "back": "A number multiplied by itself, then by itself again, like 3 × 3 × 3 = 27." },
+  { "id": "m6.num.squares-cubes.f09", "front": "What does $4^3$ mean, and how do you say it?", "back": "\"4 **cubed**\": 4 × 4 × 4 = 64." },
+  { "id": "m6.num.squares-cubes.f10", "front": "The cube numbers up to 125", "back": "1, 8, 27, 64, 125" },
+  { "id": "m6.num.squares-cubes.f11", "front": "Which number up to 125 (apart from 1) is both a square and a cube?", "back": "64, because 8 × 8 = 64 and 4 × 4 × 4 = 64." },
+  { "id": "m6.num.squares-cubes.f12", "front": "How do you find all the factors of a number?", "back": "List factor pairs in order, starting with 1 × the number. Stop when the pairs start to repeat." }
+]

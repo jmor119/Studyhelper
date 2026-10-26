@@ -1,0 +1,15 @@
+[
+  {"id":"m6.geo.transformations.f01","front":"What is a **transformation**?","back":"A move that changes where a shape is (and sometimes which way it faces), but not its size or shape."},
+  {"id":"m6.geo.transformations.f02","front":"What is a **reflection**?","back":"A flip over a mirror line. The image is a mirror image of the shape."},
+  {"id":"m6.geo.transformations.f03","front":"What is a **mirror line**?","back":"The line a shape is reflected in. Each point of the image is the same distance from the line as the matching point of the shape."},
+  {"id":"m6.geo.transformations.f04","front":"What is a **translation**?","back":"A slide with no turning or flipping. Describe it in squares, e.g. \"4 squares right and 2 squares up\"."},
+  {"id":"m6.geo.transformations.f05","front":"What is a **rotation**?","back":"A turn around a fixed point, called the centre of rotation."},
+  {"id":"m6.geo.transformations.f06","front":"How many degrees are a quarter, half and full turn?","back":"Quarter turn: 90°. Half turn: 180°. Full turn: 360°."},
+  {"id":"m6.geo.transformations.f07","front":"Clockwise or anticlockwise?","back":"Clockwise is the way clock hands move. Anticlockwise is the opposite way."},
+  {"id":"m6.geo.transformations.f08","front":"What stays the same after a reflection, translation or rotation?","back":"The size and shape: side lengths and angles don’t change."},
+  {"id":"m6.geo.transformations.f09","front":"How do you describe a translation?","back":"Follow one corner and count the jumps: how many squares left or right, and how many up or down."},
+  {"id":"m6.geo.transformations.f10","front":"What is a **tessellation**?","back":"A pattern of shapes that fit together with no gaps and no overlaps."},
+  {"id":"m6.geo.transformations.f11","front":"Which regular shapes tessellate on their own?","back":"Equilateral triangles, squares and regular hexagons."},
+  {"id":"m6.geo.transformations.f12","front":"How can you tell if tiles fit around a point?","back":"Their corner angles must add up to exactly 360°."},
+  {"id":"m6.geo.transformations.f13","front":"Two transformations in a row: what is the trick?","back":"Do step 1 first. Then do step 2 to the image from step 1, not to the starting shape."}
+]

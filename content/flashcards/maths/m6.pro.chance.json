@@ -1,0 +1,15 @@
+[
+  { "id": "m6.pro.chance.f01", "front": "What is **probability**?", "back": "A number from 0 to 1 that tells you how likely something is to happen." },
+  { "id": "m6.pro.chance.f02", "front": "What probability means **impossible**?", "back": "0. It cannot happen, like rolling a 7 on a normal die." },
+  { "id": "m6.pro.chance.f03", "front": "What probability means **certain**?", "back": "1. It must happen, like rolling a number less than 7 on a normal die." },
+  { "id": "m6.pro.chance.f04", "front": "What probability means **even chance**?", "back": "$\\frac{1}{2}$ (or 0.5), like a coin landing on heads." },
+  { "id": "m6.pro.chance.f05", "front": "**Unlikely** vs **likely**", "back": "Unlikely is between 0 and $\\frac{1}{2}$. Likely is between $\\frac{1}{2}$ and 1." },
+  { "id": "m6.pro.chance.f06", "front": "What is a **trial**?", "back": "One go, like one roll of a die or one spin of a spinner." },
+  { "id": "m6.pro.chance.f07", "front": "What is an **outcome**?", "back": "One possible result of a trial, like rolling a 4." },
+  { "id": "m6.pro.chance.f08", "front": "What is the **sample space**?", "back": "The list of every possible outcome. For a die: 1, 2, 3, 4, 5, 6." },
+  { "id": "m6.pro.chance.f09", "front": "What is an **event**?", "back": "A group of outcomes, like \"rolling an even number\" (2, 4, 6)." },
+  { "id": "m6.pro.chance.f10", "front": "How do you work out $P(\\text{event})$ when outcomes are equally likely?", "back": "Number of ways it can happen ÷ total number of outcomes. E.g. $P(\\text{even}) = \\frac{3}{6}$." },
+  { "id": "m6.pro.chance.f11", "front": "What do the probabilities of all the outcomes add up to?", "back": "1. For example, $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{4} = 1$." },
+  { "id": "m6.pro.chance.f12", "front": "On a spinner, does more sections always mean more likely?", "back": "No. Look at how much of the spinner each colour covers, not how many sections it has." },
+  { "id": "m6.pro.chance.f13", "front": "What is an **experiment**?", "back": "Doing trials, like spinning a spinner many times, to see what happens." }
+]

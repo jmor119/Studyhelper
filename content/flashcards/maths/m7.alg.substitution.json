@@ -1,0 +1,15 @@
+[
+  { "id": "m7.alg.substitution.f01", "front": "What does **substitute** mean?", "back": "Replace a letter with a number, then work out the value." },
+  { "id": "m7.alg.substitution.f02", "front": "What is a **formula**?", "back": "A rule that connects different amounts, like $A = lw$. The plural is **formulae**." },
+  { "id": "m7.alg.substitution.f03", "front": "What is the **subject** of a formula?", "back": "The letter on its own on one side of the equals sign. In $A = lw$, the subject is $A$." },
+  { "id": "m7.alg.substitution.f04", "front": "What does **rearrange** a formula mean?", "back": "Change it so a different letter is the subject, using inverse operations on both sides." },
+  { "id": "m7.alg.substitution.f05", "front": "What is $3a$ when $a = 5$?", "back": "$3 \\times 5 = 15$ (not 35)." },
+  { "id": "m7.alg.substitution.f06", "front": "What is $a^2$ when $a = 6$?", "back": "$6 \\times 6 = 36$ (not 12)." },
+  { "id": "m7.alg.substitution.f07", "front": "Area of a rectangle", "back": "$A = lw$ (length × width). Units are squared, like cm²." },
+  { "id": "m7.alg.substitution.f08", "front": "Perimeter of a rectangle", "back": "$P = 2(l + w)$: add the length and width, then double." },
+  { "id": "m7.alg.substitution.f09", "front": "Perimeter and area of a square with side $l$", "back": "$P = 4l$ and $A = l^2$." },
+  { "id": "m7.alg.substitution.f10", "front": "Volume of a rectangular prism", "back": "$V = lwh$ (length × width × height). Units are cubed, like cm³." },
+  { "id": "m7.alg.substitution.f11", "front": "Make $w$ the subject of $A = lw$", "back": "Divide both sides by $l$: $w = \\frac{A}{l}$." },
+  { "id": "m7.alg.substitution.f12", "front": "What are the **inverse operations**?", "back": "Operations that undo each other: + and −, × and ÷." },
+  { "id": "m7.alg.substitution.f13", "front": "What order do you work in after substituting?", "back": "GEMA: brackets (grouped), exponents, × and ÷, then + and −." }
+]

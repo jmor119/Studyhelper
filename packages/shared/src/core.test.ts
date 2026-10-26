@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CURRICULA, curriculaForYear, getCurriculum, getTopic } from './curriculum';
+import { parseFigureBlock, parseLesson } from './content/lesson';
 import { inviteEmail, inviteMailto } from './invites';
 import { addDays, daysBetween, nzDateKey, weekStart } from './dates';
 import { buildExam, examGrade, type ExamCandidate } from './exam';
@@ -170,5 +171,25 @@ describe('exam builder', () => {
         expect(exam.slice(idxs[0], idxs[0]! + 3).map((s) => s.part)).toEqual(['a', 'b', 'c']);
       }
     }
+  });
+});
+
+describe('lesson figures', () => {
+  const fence = '```';
+  const lesson = (figure: string) =>
+    `---\ntopicId: m6.num.fractions\ntitle: Fractions\n---\nIntro\n\n## Halves\nText\n\n${fence}figure\n${figure}\n${fence}\n`;
+
+  it('accepts a valid figure and keeps it in the section body', () => {
+    const fig = JSON.stringify({ svg: '<svg xmlns="http://www.w3.org/2000/svg"></svg>', alt: 'A bar split in half' });
+    expect(parseFigureBlock(fig)).toEqual({ svg: '<svg xmlns="http://www.w3.org/2000/svg"></svg>', alt: 'A bar split in half' });
+    const parsed = parseLesson(lesson(fig), { subject: 'maths', yearLevel: 6 });
+    expect(parsed.sections[0]!.body).toContain(`${fence}figure`);
+  });
+
+  it('rejects figures without alt text or SVG', () => {
+    expect(parseFigureBlock('{"svg":"<svg></svg>"}')).toMatch(/alt/);
+    expect(parseFigureBlock('{"svg":"<img>","alt":"x"}')).toMatch(/svg/);
+    expect(parseFigureBlock('not json')).toMatch(/JSON/);
+    expect(() => parseLesson(lesson('{"svg":"<svg></svg>"}'), { subject: 'maths', yearLevel: 6 })).toThrow(/Figure 1/);
   });
 });

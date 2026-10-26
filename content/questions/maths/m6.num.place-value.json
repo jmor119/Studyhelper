@@ -1,0 +1,599 @@
+[
+  {
+    "id": "m6.num.place-value.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the value of the digit **6** in 4,618,250?",
+    "options": [
+      {
+        "id": "a",
+        "text": "600,000"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "6,000"
+      },
+      {
+        "id": "d",
+        "text": "60,000"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "6 is the digit, but its value depends on its place in the number.",
+      "c": "6,000 would be a 6 in the thousands place. Count the places from the right again.",
+      "d": "60,000 would be a 6 in the ten thousands place. The 6 is one place further left."
+    },
+    "hints": [
+      "Count the places from the right: ones, tens, hundreds, thousands, …"
+    ],
+    "solution": "In 4,618,250 the 6 is in the **hundred thousands** place, so it is worth $6 \\times 100{,}000 = 600{,}000$."
+  },
+  {
+    "id": "m6.num.place-value.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the number 52.7, the digit 7 is in the [[a]] place and the digit 5 is in the [[b]] place.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "tenths"
+        ],
+        "options": [
+          "tens",
+          "tenths",
+          "ones",
+          "hundredths"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "tens"
+        ],
+        "options": [
+          "tens",
+          "tenths",
+          "ones",
+          "hundredths"
+        ]
+      }
+    ],
+    "hints": [
+      "Places to the left of the decimal point are ones, tens, hundreds, …",
+      "The first place to the right of the decimal point is a part of one whole."
+    ],
+    "solution": "52.7 is 5 **tens**, 2 ones and 7 **tenths**. Tens are to the left of the ones, and tenths are just after the decimal point."
+  },
+  {
+    "id": "m6.num.place-value.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which number is **three million, forty thousand and nine**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3,040,009"
+      },
+      {
+        "id": "b",
+        "text": "3,409"
+      },
+      {
+        "id": "c",
+        "text": "3,400,009"
+      },
+      {
+        "id": "d",
+        "text": "3,004,009"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This leaves out the zeros that hold the empty places. A number in the millions has 7 digits.",
+      "c": "This is three million, **four hundred** thousand and nine.",
+      "d": "This is three million, **four** thousand and nine."
+    },
+    "hints": [
+      "Write each group with three digits: millions, then thousands, then hundreds, tens and ones.",
+      "How do you write forty thousand as a group of three digits?"
+    ],
+    "solution": "Millions: 3. Thousands: forty thousand → 040. Hundreds, tens and ones: nine → 009. Together: **3,040,009**."
+  },
+  {
+    "id": "m6.num.place-value.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which number is **greater**: 98,765 or 102,345?",
+    "options": [
+      {
+        "id": "a",
+        "text": "102,345, because it has more digits"
+      },
+      {
+        "id": "b",
+        "text": "98,765, because 9 is bigger than 1"
+      },
+      {
+        "id": "c",
+        "text": "They are equal, because both use five different digits"
+      },
+      {
+        "id": "d",
+        "text": "You can't tell without adding up the digits"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The 9 is in the ten thousands place, but the 1 is in the hundred thousands place. Compare the number of digits first.",
+      "c": "Using different digits doesn't make numbers equal. Their places give them different values.",
+      "d": "Adding the digits doesn't tell you the size of a number. Count the digits first."
+    },
+    "hints": [
+      "How many digits does each number have?"
+    ],
+    "solution": "102,345 has 6 digits, so it is more than 100,000. 98,765 has only 5 digits, so it is less than 100,000. **102,345** is greater."
+  },
+  {
+    "id": "m6.num.place-value.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Round 4,650 to the nearest hundred.",
+    "options": [
+      {
+        "id": "a",
+        "text": "4,700"
+      },
+      {
+        "id": "b",
+        "text": "4,600"
+      },
+      {
+        "id": "c",
+        "text": "5,000"
+      },
+      {
+        "id": "d",
+        "text": "4,650"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The tens digit is 5. When the digit is 5 or more, you round up.",
+      "c": "5,000 is 4,650 rounded to the nearest thousand, not the nearest hundred.",
+      "d": "Rounding to the nearest hundred makes the tens and ones digits 0."
+    },
+    "hints": [
+      "4,650 is between 4,600 and 4,700.",
+      "Look at the tens digit. What do you do when it is exactly 5?"
+    ],
+    "solution": "4,650 is exactly halfway between 4,600 and 4,700. The tens digit is 5, and 5 rounds up, so the answer is **4,700**."
+  },
+  {
+    "id": "m6.num.place-value.q006",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these numbers in order from **smallest to largest**:\n\n2,909,000,   299,000,   2,990,000,   2,099,000,   2,900,099",
+    "items": [
+      {
+        "id": "p",
+        "text": "299,000"
+      },
+      {
+        "id": "q",
+        "text": "2,099,000"
+      },
+      {
+        "id": "r",
+        "text": "2,900,099"
+      },
+      {
+        "id": "s",
+        "text": "2,909,000"
+      },
+      {
+        "id": "t",
+        "text": "2,990,000"
+      }
+    ],
+    "hints": [
+      "Find the number with fewest digits first.",
+      "For the 7-digit numbers, compare the hundred thousands, then the ten thousands, then the thousands."
+    ],
+    "solution": "299,000 has only 6 digits, so it is the smallest. The others all have 2 millions. Compare the hundred thousands: 2,099,000 has 0, and the rest have 9. Then compare the ten thousands: 2,900,099 and 2,909,000 have 0, and 2,990,000 has 9. Last, compare the thousands: 2,900,099 has 0 and 2,909,000 has 9.\n\nThe order is 299,000, 2,099,000, 2,900,099, 2,909,000, 2,990,000."
+  },
+  {
+    "id": "m6.num.place-value.q007",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "dig",
+          "text": "Digit"
+        },
+        "right": {
+          "id": "m1",
+          "text": "One of the symbols 0 to 9 that we use to write numbers"
+        }
+      },
+      {
+        "left": {
+          "id": "pv",
+          "text": "Place value"
+        },
+        "right": {
+          "id": "m2",
+          "text": "The value a digit has because of where it is in a number"
+        }
+      },
+      {
+        "left": {
+          "id": "rnd",
+          "text": "Round"
+        },
+        "right": {
+          "id": "m3",
+          "text": "Change a number to a nearby number that is easier to use"
+        }
+      },
+      {
+        "left": {
+          "id": "est",
+          "text": "Estimate"
+        },
+        "right": {
+          "id": "m4",
+          "text": "A close answer worked out quickly with easier numbers"
+        }
+      },
+      {
+        "left": {
+          "id": "ten",
+          "text": "Tenth"
+        },
+        "right": {
+          "id": "m5",
+          "text": "One part when a whole is split into 10 equal parts"
+        }
+      }
+    ],
+    "hints": [
+      "An estimate is often found by rounding first."
+    ],
+    "solution": "Digit: a symbol 0 to 9. Place value: the value from a digit's place. Round: change to a nearby, easier number. Estimate: a quick, close answer. Tenth: one of 10 equal parts of a whole."
+  },
+  {
+    "id": "m6.num.place-value.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Each counter stands for one of its column: a counter in the hundreds column is worth 100, a counter in the millions column is worth 1,000,000, and so on. What number does the chart show?",
+    "figure": {"svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 110\" width=\"420\" height=\"110\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"7\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"36\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Millions</text><rect x=\"7\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"21\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"36\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"51\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"21\" cy=\"75\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"36\" cy=\"75\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"65\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"94\" y=\"20\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Hundred</text><text x=\"94\" y=\"34\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">thousands</text><rect x=\"65\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"152\" y=\"20\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Ten</text><text x=\"152\" y=\"34\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">thousands</text><rect x=\"123\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"137\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"152\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"167\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"181\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Thousands</text><rect x=\"181\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"239\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"268\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Hundreds</text><rect x=\"239\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"253\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"253\" cy=\"75\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"75\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"75\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"253\" cy=\"90\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"297\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"326\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Tens</text><rect x=\"297\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"355\" y=\"6\" width=\"58\" height=\"40\" rx=\"0\" fill=\"#dcfce7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"384\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Ones</text><rect x=\"355\" y=\"46\" width=\"58\" height=\"56\" rx=\"0\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><circle cx=\"369\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><circle cx=\"384\" cy=\"60\" r=\"5.5\" fill=\"#2563eb\" stroke=\"#1f2937\" stroke-width=\"2\"/></svg>", "alt": "A place value chart with counters: 5 in the millions column, none in hundred thousands, 3 in ten thousands, none in thousands, 7 in hundreds, none in tens and 2 in ones."},
+    "answer": 5030702,
+    "form": "integer",
+    "hints": [
+      "Count the counters in each column.",
+      "An empty column needs a 0 to hold its place."
+    ],
+    "solution": "Millions: 5. Hundred thousands: 0. Ten thousands: 3. Thousands: 0. Hundreds: 7. Tens: 0. Ones: 2.\n\nThe number is **5,030,702**."
+  },
+  {
+    "id": "m6.num.place-value.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The crowd at a rugby match in Christchurch was 17,486 people. A reporter rounds this to the nearest thousand. What number does the reporter write?",
+    "answer": 17000,
+    "form": "integer",
+    "hints": [
+      "Which two thousands is 17,486 between?",
+      "Look at the hundreds digit."
+    ],
+    "solution": "17,486 is between 17,000 and 18,000. The hundreds digit is 4, which is 4 or less, so round down to **17,000**."
+  },
+  {
+    "id": "m6.num.place-value.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Kai rounds 6.48 to the nearest whole number. He says:\n\n*\"6.48 rounds to 6.5, and 6.5 rounds to 7. So the answer is 7.\"*\n\nWhat mistake has Kai made?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He rounded twice. He should only look at the tenths digit, 4, so 6.48 rounds down to 6."
+      },
+      {
+        "id": "b",
+        "text": "There is no mistake. 6.48 rounded to the nearest whole number is 7."
+      },
+      {
+        "id": "c",
+        "text": "He should have stopped at 6.5, because that is the nearest whole number."
+      },
+      {
+        "id": "d",
+        "text": "He should have looked at the hundredths digit, 8, and rounded up to 7."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "6.48 is less than 6.5, so it is closer to 6 than to 7.",
+      "c": "6.5 is not a whole number. Whole numbers have no tenths or hundredths.",
+      "d": "To round to the nearest whole number, look at the tenths digit, not the hundredths digit."
+    },
+    "hints": [
+      "Is 6.48 more or less than halfway between 6 and 7?",
+      "Which digit do you look at when rounding to the nearest whole number?"
+    ],
+    "solution": "To round to the nearest whole number, look only at the tenths digit. In 6.48 it is 4, so round **down** to 6. Rounding to 6.5 first changes the number, which is why Kai got the wrong answer."
+  },
+  {
+    "id": "m6.num.place-value.q011",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the numbers that round to 3,000 when you round them to the nearest thousand.",
+    "options": [
+      {
+        "id": "a",
+        "text": "2,500"
+      },
+      {
+        "id": "b",
+        "text": "3,499"
+      },
+      {
+        "id": "c",
+        "text": "3,500"
+      },
+      {
+        "id": "d",
+        "text": "2,499"
+      },
+      {
+        "id": "e",
+        "text": "3,090"
+      },
+      {
+        "id": "f",
+        "text": "30,000"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "e"
+    ],
+    "hints": [
+      "Round each number to the nearest thousand by looking at its hundreds digit.",
+      "Which numbers are halfway or more from 2,000 towards 3,000, but less than halfway to 4,000?"
+    ],
+    "solution": "Numbers from 2,500 up to 3,499 round to 3,000. So **2,500**, **3,499** and **3,090** round to 3,000.\n\n3,500 rounds up to 4,000, and 2,499 rounds down to 2,000. 30,000 is thirty thousand, so it stays 30,000."
+  },
+  {
+    "id": "m6.num.place-value.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "How many thousands are there in one million?",
+    "answer": 1000,
+    "form": "integer",
+    "hints": [
+      "How many thousands make ten thousand? A hundred thousand?",
+      "Each place is worth 10 times the place to its right."
+    ],
+    "solution": "10 thousands make 10,000. 100 thousands make 100,000. **1,000** thousands make 1,000,000.\n\n$1{,}000 \\times 1{,}000 = 1{,}000{,}000$"
+  },
+  {
+    "id": "m6.num.place-value.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is the best estimate for $6{,}912 - 2{,}087$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5,000"
+      },
+      {
+        "id": "b",
+        "text": "4,000"
+      },
+      {
+        "id": "c",
+        "text": "9,000"
+      },
+      {
+        "id": "d",
+        "text": "50,000"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This rounds 6,912 down to 6,000. Its hundreds digit is 9, so it rounds up to 7,000.",
+      "c": "9,000 is an estimate of 6,912 **+** 2,087. The question is a subtraction.",
+      "d": "Check the place value. Taking a number away from 6,912 must give less than 6,912."
+    },
+    "hints": [
+      "Round each number to the nearest thousand.",
+      "Then subtract the rounded numbers."
+    ],
+    "solution": "6,912 rounds to 7,000 and 2,087 rounds to 2,000.\n\n$7{,}000 - 2{,}000 = 5{,}000$, so the best estimate is **5,000**. (The exact answer is 4,825.)"
+  },
+  {
+    "id": "m6.num.place-value.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi's school is collecting cans for the food bank. They collected 1,876 cans in Term 1, 2,215 cans in Term 2 and 3,948 cans in Term 3.\n\nEstimate the total by rounding each number to the nearest thousand.",
+    "answer": 8000,
+    "form": "integer",
+    "hints": [
+      "Round each of the three numbers to the nearest thousand.",
+      "Then add the three rounded numbers."
+    ],
+    "solution": "1,876 rounds to 2,000. 2,215 rounds to 2,000. 3,948 rounds to 4,000.\n\n$2{,}000 + 2{,}000 + 4{,}000 = 8{,}000$\n\nThey collected about **8,000** cans. (The exact total is 8,039.)"
+  },
+  {
+    "id": "m6.num.place-value.q015",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha says, \"62,000 is bigger than 9,800 because it has more digits.\"\n\nLiam says, \"No, 9,800 is bigger because 9 is bigger than 6.\"\n\nWho is right? Explain your thinking using place value.",
+    "modelAnswer": "Aroha is right. In 62,000 the 6 is in the ten thousands place, so it is worth 60,000. 9,800 has no ten thousands at all; its 9 is in the thousands place, so it is worth only 9,000. When whole numbers have a different number of digits, the one with more digits is bigger. Liam compared the first digits, but they are in different places.",
+    "rubric": [
+      {
+        "criterion": "Says that Aroha is right (62,000 is bigger)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains with place value, e.g. the 6 is worth 60,000 but the 9 is only worth 9,000, or the first digits are in different places",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What is the 6 in 62,000 worth? What is the 9 in 9,800 worth?"
+    ],
+    "solution": "Aroha is right. The 6 in 62,000 is worth 60,000, but the 9 in 9,800 is worth only 9,000. More digits means a bigger whole number, because the first digit is in a bigger place."
+  },
+  {
+    "id": "m6.num.place-value.q016",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.place-value.g1",
+    "part": "a",
+    "stem": "Ruby has seven digit cards: **5, 0, 8, 2, 1, 9, 4**. She uses every card once to make a 7-digit number.",
+    "prompt": "What is the **largest** number Ruby can make?",
+    "answer": 9854210,
+    "form": "integer",
+    "hints": [
+      "Put the biggest digit in the biggest place.",
+      "Then the next biggest digit, and so on."
+    ],
+    "solution": "Put the digits in order from biggest to smallest: 9, 8, 5, 4, 2, 1, 0. The largest number is **9,854,210**."
+  },
+  {
+    "id": "m6.num.place-value.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.place-value.g1",
+    "part": "b",
+    "stem": "Ruby has seven digit cards: **5, 0, 8, 2, 1, 9, 4**. She uses every card once to make a 7-digit number.",
+    "prompt": "Round Ruby's largest number to the nearest million.",
+    "answer": 10000000,
+    "form": "integer",
+    "hints": [
+      "Which two millions is the number between?",
+      "Look at the hundred thousands digit."
+    ],
+    "solution": "9,854,210 is between 9,000,000 and 10,000,000. The hundred thousands digit is 8, so round up.\n\nOne more than 9 millions is 10 millions, so the answer is **10,000,000** (ten million)."
+  },
+  {
+    "id": "m6.num.place-value.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.place-value.g1",
+    "part": "c",
+    "stem": "Ruby has seven digit cards: **5, 0, 8, 2, 1, 9, 4**. She uses every card once to make a 7-digit number.",
+    "prompt": "What is the **smallest** 7-digit number Ruby can make?",
+    "answer": 1024589,
+    "form": "integer",
+    "hints": [
+      "The smallest digit is 0, but can a 7-digit number start with 0?",
+      "Put the smallest digit you can in the millions place, then use 0 as early as possible."
+    ],
+    "solution": "A 7-digit number can't start with 0, so the millions digit is the next smallest, 1. Then use the other digits from smallest to largest: 0, 2, 4, 5, 8, 9.\n\nThe smallest number is **1,024,589**."
+  },
+  {
+    "id": "m6.num.place-value.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Room 9 has \\$2,000 to spend on library books. Each book costs \\$19, and they want to buy 48 books.\n\nRound both numbers to the nearest ten to **estimate** how much money will be left over.",
+    "answer": 1000,
+    "form": "integer",
+    "units": "$",
+    "hints": [
+      "Round 48 and 19 to the nearest ten, then multiply to estimate the cost.",
+      "Take the estimated cost away from \\$2,000."
+    ],
+    "solution": "48 rounds to 50, and \\$19 rounds to \\$20.\n\nEstimated cost: $50 \\times 20 = 1{,}000$ dollars.\n\nMoney left over: $2{,}000 - 1{,}000 = 1{,}000$ dollars.\n\nAbout **\\$1,000** will be left. (The exact cost is \\$912, so \\$1,088 is left.)"
+  },
+  {
+    "id": "m6.num.place-value.q020",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Wiremu estimates $389 + 412 + 205$ by rounding each number to the nearest hundred.\n\nWhat is his estimate? Will it be a little too high or a little too low? Explain how you know **without** working out the exact answer.",
+    "modelAnswer": "His estimate is 400 + 400 + 200 = 1,000. Rounding 389 up to 400 adds 11. Rounding 412 down to 400 takes away 12, and rounding 205 down to 200 takes away 5. Altogether the rounding took away 17 and added 11, so the numbers went down by 6. That means the estimate is a little too low. (The exact answer is 1,006.)",
+    "rubric": [
+      {
+        "criterion": "Gives the estimate 1,000",
+        "marks": 1
+      },
+      {
+        "criterion": "Says it is too low, explaining that the rounding took away more than it added (or that the numbers went down by 6 overall)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Round each number and add to get the estimate.",
+      "For each number, did rounding make it bigger or smaller, and by how much?"
+    ],
+    "solution": "Estimate: $400 + 400 + 200 = 1{,}000$. Rounding added 11 (389 → 400) but took away 12 (412 → 400) and 5 (205 → 200). Overall the numbers went down by 6, so the estimate is a little **too low**."
+  },
+  {
+    "id": "m6.num.place-value.q021",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name of the first place to the **right** of the decimal point?",
+    "accepted": [
+      "tenths",
+      "tenth",
+      "tenths place",
+      "the tenths place",
+      "tenths column"
+    ],
+    "hints": [
+      "It is a part of one whole, split into 10 equal parts."
+    ],
+    "solution": "The first place after the decimal point is the **tenths** place. Next comes the hundredths place."
+  },
+  {
+    "id": "m6.num.place-value.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "I am a whole number. When you round me to the nearest ten, you get 4,550. When you round me to the nearest hundred, you get 4,500.\n\nWhat is the **largest** number I could be?",
+    "answer": 4549,
+    "form": "integer",
+    "hints": [
+      "Which numbers round to 4,550 to the nearest ten?",
+      "Which of those also round down to 4,500 to the nearest hundred?"
+    ],
+    "solution": "To the nearest ten, the numbers from 4,545 to 4,554 round to 4,550.\n\nTo the nearest hundred, the numbers from 4,450 to 4,549 round to 4,500. (4,550 would round up to 4,600.)\n\nBoth are true for 4,545, 4,546, 4,547, 4,548 and 4,549. The largest is **4,549**."
+  }
+]

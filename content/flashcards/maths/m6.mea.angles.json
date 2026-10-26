@@ -1,0 +1,14 @@
+[
+  { "id": "m6.mea.angles.f01", "front": "What is an **angle**?", "back": "The amount of turn between two lines (arms) that meet at a point (the vertex)." },
+  { "id": "m6.mea.angles.f02", "front": "What unit are angles measured in?", "back": "Degrees (°). A full turn is 360°." },
+  { "id": "m6.mea.angles.f03", "front": "What is an **acute** angle?", "back": "An angle less than 90°." },
+  { "id": "m6.mea.angles.f04", "front": "What is a **right angle**?", "back": "An angle of exactly 90°, a quarter turn. It is marked with a small square." },
+  { "id": "m6.mea.angles.f05", "front": "What is an **obtuse** angle?", "back": "An angle more than 90° but less than 180°." },
+  { "id": "m6.mea.angles.f06", "front": "What is a **reflex** angle?", "back": "An angle more than 180° but less than 360°." },
+  { "id": "m6.mea.angles.f07", "front": "What do **angles on a straight line** add up to?", "back": "180°" },
+  { "id": "m6.mea.angles.f08", "front": "What do **angles at a point** add up to?", "back": "360°" },
+  { "id": "m6.mea.angles.f09", "front": "What are **vertically opposite angles**?", "back": "The angles opposite each other where two straight lines cross. They are always equal." },
+  { "id": "m6.mea.angles.f10", "front": "In $\\angle ABC$, which letter is the vertex?", "back": "The middle letter, B." },
+  { "id": "m6.mea.angles.f11", "front": "How do you choose which scale to read on a **protractor**?", "back": "Line up one arm with the 0 line, then use the scale that starts at 0 on that arm." },
+  { "id": "m6.mea.angles.f12", "front": "How do you measure a reflex angle with a protractor?", "back": "Measure the smaller angle, then take it away from 360°." }
+]

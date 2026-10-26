@@ -1,0 +1,640 @@
+[
+  {
+    "id": "m7.geo.triangles.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What do the three interior angles of a triangle always add up to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "180°"
+      },
+      {
+        "id": "b",
+        "text": "90°"
+      },
+      {
+        "id": "c",
+        "text": "360°"
+      },
+      {
+        "id": "d",
+        "text": "It depends on the triangle"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "90° is one right angle. A triangle's angles add to twice that.",
+      "c": "360° is the angle sum of a quadrilateral (or a full turn).",
+      "d": "The angle sum is the same for every triangle."
+    },
+    "hints": [
+      "The three corners fit together on a straight line."
+    ],
+    "solution": "The angles in any triangle add up to **180°**, the same as angles on a straight line.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name for a triangle with **no** equal sides?",
+    "accepted": [
+      "scalene",
+      "scalene triangle",
+      "a scalene triangle"
+    ],
+    "hints": [
+      "It is not equilateral or isosceles."
+    ],
+    "solution": "A triangle with no equal sides is **scalene**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What size is each angle in an equilateral triangle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60°"
+      },
+      {
+        "id": "b",
+        "text": "90°"
+      },
+      {
+        "id": "c",
+        "text": "45°"
+      },
+      {
+        "id": "d",
+        "text": "180°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Three angles of 90° would add to 270°, which is too much.",
+      "c": "Three angles of 45° would only add to 135°.",
+      "d": "180° is the total of all three angles, not each one."
+    },
+    "hints": [
+      "All three angles are equal, and they add to 180°."
+    ],
+    "solution": "All three angles are equal: $180° \\div 3 = 60°$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q004",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each type of triangle to its description.",
+    "pairs": [
+      {
+        "left": {
+          "id": "ac",
+          "text": "Acute triangle"
+        },
+        "right": {
+          "id": "d1",
+          "text": "All three angles are less than 90°"
+        }
+      },
+      {
+        "left": {
+          "id": "ri",
+          "text": "Right-angled triangle"
+        },
+        "right": {
+          "id": "d2",
+          "text": "One angle is exactly 90°"
+        }
+      },
+      {
+        "left": {
+          "id": "ob",
+          "text": "Obtuse triangle"
+        },
+        "right": {
+          "id": "d3",
+          "text": "One angle is between 90° and 180°"
+        }
+      },
+      {
+        "left": {
+          "id": "eq",
+          "text": "Equilateral triangle"
+        },
+        "right": {
+          "id": "d4",
+          "text": "Three equal sides"
+        }
+      },
+      {
+        "left": {
+          "id": "is",
+          "text": "Isosceles triangle"
+        },
+        "right": {
+          "id": "d5",
+          "text": "At least two equal sides"
+        }
+      },
+      {
+        "left": {
+          "id": "sc",
+          "text": "Scalene triangle"
+        },
+        "right": {
+          "id": "d6",
+          "text": "No equal sides"
+        }
+      }
+    ],
+    "hints": [
+      "Acute, right-angled and obtuse are about angles. Equilateral, isosceles and scalene are about sides."
+    ],
+    "solution": "By angles: acute (all angles less than 90°), right-angled (one 90° angle), obtuse (one angle between 90° and 180°). By sides: equilateral (three equal sides), isosceles (at least two equal sides), scalene (no equal sides).",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the sets of angles that could be the three angles of a triangle.",
+    "options": [
+      {
+        "id": "a",
+        "text": "50°, 60°, 70°"
+      },
+      {
+        "id": "b",
+        "text": "90°, 45°, 45°"
+      },
+      {
+        "id": "c",
+        "text": "100°, 50°, 40°"
+      },
+      {
+        "id": "d",
+        "text": "30°, 30°, 120°"
+      },
+      {
+        "id": "e",
+        "text": "60°, 60°, 70°"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hints": [
+      "Add up each set. Which ones make exactly 180°?"
+    ],
+    "solution": "50 + 60 + 70 = 180 ✓, 90 + 45 + 45 = 180 ✓ and 30 + 30 + 120 = 180 ✓. But 100 + 50 + 40 = 190 and 60 + 60 + 70 = 190, so those are not possible.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Can a triangle have two right angles?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No. Two right angles already make 180°, leaving 0° for the third angle."
+      },
+      {
+        "id": "b",
+        "text": "Yes, if the triangle is big enough."
+      },
+      {
+        "id": "c",
+        "text": "Yes, if it is an isosceles triangle."
+      },
+      {
+        "id": "d",
+        "text": "No, because right angles are only found in squares."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The size of a triangle doesn't change its angle sum. It is always 180°.",
+      "c": "A right-angled isosceles triangle has one right angle and two 45° angles.",
+      "d": "Right-angled triangles have a right angle, so right angles are not only found in squares."
+    },
+    "hints": [
+      "What is 90° + 90°?"
+    ],
+    "solution": "$90° + 90° = 180°$, so there would be nothing left for the third angle. A triangle can have **at most one** right angle.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Hemi draws an isosceles triangle with an angle of 40° between its two equal sides. He says each base angle is also 40°. What is the mistake?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The base angles are the two equal angles. They share $180° - 40° = 140°$, so each is 70°."
+      },
+      {
+        "id": "b",
+        "text": "There is no mistake. All the angles of an isosceles triangle are equal."
+      },
+      {
+        "id": "c",
+        "text": "Each base angle should be $180° - 40° = 140°$."
+      },
+      {
+        "id": "d",
+        "text": "Each base angle should be $40° \\div 2 = 20°$."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Only the two base angles are equal. Three equal angles would make it equilateral.",
+      "c": "140° is the total of the two base angles together. Halve it.",
+      "d": "Then the angles would add to only 80°."
+    },
+    "hints": [
+      "Which two angles are equal in an isosceles triangle?",
+      "What do the angles add up to?"
+    ],
+    "solution": "With 40° at the top, the two base angles make $180° - 40° = 140°$ together, so each is $140° \\div 2 =$ **70°**. Check: 40 + 70 + 70 = 180 ✓",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "One of the angles in a right-angled triangle is 35°. What is the size of the third angle?",
+    "answer": 55,
+    "units": "°",
+    "hints": [
+      "A right-angled triangle has an angle of 90°.",
+      "The three angles add up to 180°."
+    ],
+    "solution": "The angles are 90°, 35° and the third angle. $90° + 35° = 125°$, so the third angle is $180° - 125° = 55°$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "prompt": "In an isosceles triangle, the two base angles are [[a]]. They are opposite the [[b]] sides.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "equal"
+        ],
+        "options": [
+          "equal",
+          "different",
+          "right angles"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "equal"
+        ],
+        "options": [
+          "equal",
+          "longest",
+          "shortest"
+        ]
+      }
+    ],
+    "hints": [
+      "Isosceles triangles have a line of symmetry down the middle."
+    ],
+    "solution": "The base angles of an isosceles triangle are **equal**, and they sit opposite the **equal** sides.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "A triangle has angles of 30°, 60° and 90°. Which name describes it fully?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Right-angled scalene triangle"
+      },
+      {
+        "id": "b",
+        "text": "Right-angled isosceles triangle"
+      },
+      {
+        "id": "c",
+        "text": "Acute scalene triangle"
+      },
+      {
+        "id": "d",
+        "text": "Obtuse scalene triangle"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An isosceles triangle has two equal angles. Here all three angles are different.",
+      "c": "It has a 90° angle, so it is not acute.",
+      "d": "90° is a right angle, not an obtuse angle."
+    },
+    "hints": [
+      "Is there a right angle?",
+      "Are any two angles equal? Equal angles go with equal sides."
+    ],
+    "solution": "It has a 90° angle, so it is **right-angled**. All three angles are different, so no sides are equal: it is **scalene**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Kai measures the angles of a triangle as 62°, 71° and 57°. What can you say about his measurements?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They must be wrong, because they add up to 190°."
+      },
+      {
+        "id": "b",
+        "text": "They are correct, because all the angles are acute."
+      },
+      {
+        "id": "c",
+        "text": "They must be wrong, because a triangle can't have three acute angles."
+      },
+      {
+        "id": "d",
+        "text": "They are correct, because they are all different."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Acute triangles are fine, but the angles must still add to 180°.",
+      "c": "Acute triangles have three acute angles, so that part is fine.",
+      "d": "Different angles are fine (that makes a scalene triangle), but they must add to 180°."
+    },
+    "hints": [
+      "Add up the three angles."
+    ],
+    "solution": "$62 + 71 + 57 = 190$. The angles of a triangle always add to 180°, so at least one measurement **must be wrong**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q012",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the statements that are true.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every equilateral triangle is also isosceles."
+      },
+      {
+        "id": "b",
+        "text": "An obtuse triangle can be isosceles."
+      },
+      {
+        "id": "c",
+        "text": "A right-angled triangle can be equilateral."
+      },
+      {
+        "id": "d",
+        "text": "A scalene triangle can be right-angled."
+      },
+      {
+        "id": "e",
+        "text": "A triangle can have two obtuse angles."
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hints": [
+      "Try to think of an example for each statement.",
+      "Remember: isosceles means at least two equal sides."
+    ],
+    "solution": "True: an equilateral triangle has at least two equal sides, so it is isosceles. A triangle with angles 120°, 30°, 30° is obtuse and isosceles. A 30°, 60°, 90° triangle is right-angled and scalene.\n\nFalse: an equilateral triangle's angles are all 60°, so it can't have a right angle. Two obtuse angles would add to more than 180°.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q013",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "An isosceles triangle has one side extended to make a straight line. You know the outside angle and want to find the top angle. Put the steps in order.",
+    "items": [
+      {
+        "id": "a",
+        "text": "Use angles on a straight line (180°) to find the base angle next to the outside angle."
+      },
+      {
+        "id": "b",
+        "text": "Use the isosceles fact: the other base angle is the same size."
+      },
+      {
+        "id": "c",
+        "text": "Add the two base angles together."
+      },
+      {
+        "id": "d",
+        "text": "Take that total away from 180° to find the top angle."
+      }
+    ],
+    "hints": [
+      "You need a base angle before you can use the isosceles fact."
+    ],
+    "solution": "First find the base angle from the straight line. Then the other base angle is equal. Add them, and take the total from 180° to get the top angle.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q014",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Explain why a triangle cannot have two obtuse angles.",
+    "modelAnswer": "An obtuse angle is more than 90°. Two obtuse angles would add up to more than $90° + 90° = 180°$. But all three angles of a triangle add up to exactly 180°, so there would be nothing left (or less than nothing) for the third angle.",
+    "rubric": [
+      {
+        "criterion": "States that two obtuse angles together are more than 180°",
+        "marks": 1
+      },
+      {
+        "criterion": "Links this to the angle sum of a triangle being 180°",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What is the smallest an obtuse angle can be?"
+    ],
+    "solution": "Two angles each bigger than 90° add to more than 180°, but a triangle's three angles must add to exactly 180°.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "An isosceles triangle has two base angles of 52°. What is the size of its third angle?",
+    "answer": 76,
+    "units": "°",
+    "hints": [
+      "Both base angles are 52°.",
+      "The three angles add up to 180°."
+    ],
+    "solution": "$52° + 52° = 104°$, so the third angle is $180° - 104° = 76°$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "This triangle is equilateral. One side has been extended to make a straight line. Find the size of angle $x$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 244\" width=\"396\" height=\"244\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"296.3\" y1=\"204\" x2=\"376.3\" y2=\"204\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 314.3 204 A 18 18 0 0 0 287.3 188.41\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"312.73\" y=\"175.55\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><polygon points=\"100,204 296.3,204 198.15,34\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"252.42\" y1=\"116\" x2=\"242.03\" y2=\"122\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"143.88\" y1=\"116\" x2=\"154.27\" y2=\"122\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"198.15\" y1=\"210\" x2=\"198.15\" y2=\"198\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"388.3\" y=\"234\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "An equilateral triangle with a tick on every side. The base is extended past one corner, making an outside angle x."
+    },
+    "answer": 120,
+    "units": "°",
+    "variable": "x",
+    "hints": [
+      "What size is each angle inside an equilateral triangle?",
+      "Angles on a straight line add up to 180°."
+    ],
+    "solution": "Each angle in an equilateral triangle is 60°. The angle inside the triangle and $x$ make a straight line, so $x = 180° - 60° = 120°$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Ana solves $x + 2x + 3x = 180$ like this:\n\n$6x = 180$, so $x = 174$.\n\nWhat has she done wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She took away 6 instead of dividing by 6. The answer is $x = 30$."
+      },
+      {
+        "id": "b",
+        "text": "She should have added 6. The answer is $x = 186$."
+      },
+      {
+        "id": "c",
+        "text": "Nothing. $x = 174$ is correct."
+      },
+      {
+        "id": "d",
+        "text": "She collected the terms wrongly. It should be $5x = 180$."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$6x$ means 6 times $x$, so the inverse is dividing by 6.",
+      "c": "Check: if $x = 174$, the angles would be 174°, 348° and 522°. Far too big!",
+      "d": "$x + 2x + 3x$ is $1x + 2x + 3x = 6x$, so she collected the terms correctly."
+    },
+    "hints": [
+      "What does $6x$ mean?",
+      "What is the inverse of multiplying by 6?"
+    ],
+    "solution": "$6x$ means $6 \\times x$, so divide both sides by 6: $x = 180 \\div 6 = 30$. The angles are 30°, 60° and 90°, which add to 180° ✓",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "In a triangle, the middle-sized angle is 3 times the smallest angle. The largest angle is 5 times the smallest angle. What is the size of the largest angle?",
+    "answer": 100,
+    "units": "°",
+    "hints": [
+      "Call the smallest angle $x$. Write the other two angles using $x$.",
+      "All three angles add up to 180°."
+    ],
+    "solution": "The angles are $x$, $3x$ and $5x$.\n\n$x + 3x + 5x = 180$, so $9x = 180$ and $x = 20$.\n\nThe largest angle is $5 \\times 20 = 100°$. Check: 20 + 60 + 100 = 180 ✓",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain how you know that every angle in an equilateral triangle is 60°.",
+    "modelAnswer": "All three sides of an equilateral triangle are equal, so all three angles are equal too (each pair of sides makes it isosceles, so the angles opposite them match). The three angles add up to 180°, so each one is $180° \\div 3 = 60°$.",
+    "rubric": [
+      {
+        "criterion": "Explains that all three angles are equal because all three sides are equal",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses the angle sum: 180° ÷ 3 = 60°",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "If all the sides are equal, what can you say about the angles?"
+    ],
+    "solution": "Equal sides give equal angles, so all three angles are the same. They add to 180°, so each is $180° \\div 3 = 60°$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "In an isosceles triangle, the angle between the equal sides is 30° more than each base angle. What is the size of the angle between the equal sides?",
+    "answer": 80,
+    "units": "°",
+    "hints": [
+      "Call each base angle $x$. Then the top angle is $x + 30$.",
+      "Write an equation using the angle sum, 180°."
+    ],
+    "solution": "The angles are $x$, $x$ and $x + 30$.\n\n$x + x + (x + 30) = 180$, so $3x + 30 = 180$.\n\n$3x = 150$, so $x = 50$.\n\nThe angle between the equal sides is $50 + 30 = 80°$. Check: 50 + 50 + 80 = 180 ✓",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.geo.triangles.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "Triangle ABC has AB = AC. Angle A is twice the size of angle B. Which name describes triangle ABC fully?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Right-angled isosceles triangle"
+      },
+      {
+        "id": "b",
+        "text": "Acute isosceles triangle"
+      },
+      {
+        "id": "c",
+        "text": "Obtuse isosceles triangle"
+      },
+      {
+        "id": "d",
+        "text": "Right-angled scalene triangle"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Work out the angles. Angle A turns out to be exactly 90°.",
+      "c": "Angle A is exactly 90°, which is a right angle, not obtuse.",
+      "d": "AB = AC, so two sides are equal: it is isosceles."
+    },
+    "hints": [
+      "AB = AC, so angles B and C are the base angles and are equal.",
+      "If angle B is $x$, then angle C is $x$ and angle A is $2x$."
+    ],
+    "solution": "AB = AC, so angle B = angle C. Call them $x$. Then angle A is $2x$.\n\n$2x + x + x = 180$, so $4x = 180$ and $x = 45$.\n\nAngle A = 90°, so the triangle is a **right-angled isosceles triangle** (90°, 45°, 45°).",
+    "calculator": "not-allowed"
+  }
+]

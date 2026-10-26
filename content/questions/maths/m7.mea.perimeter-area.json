@@ -1,0 +1,588 @@
+[
+  {
+    "id": "m7.mea.perimeter-area.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which of these units could be used to measure an **area**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "m²"
+      },
+      {
+        "id": "b",
+        "text": "m"
+      },
+      {
+        "id": "c",
+        "text": "m³"
+      },
+      {
+        "id": "d",
+        "text": "kg"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Metres measure length, such as a perimeter.",
+      "c": "Cubic metres measure volume: the space inside a 3D object.",
+      "d": "Kilograms measure mass: how heavy something is."
+    },
+    "hints": [
+      "Area is two-dimensional."
+    ],
+    "solution": "Area is two-dimensional, so it is measured in square units, like **m²**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "What does the **perimeter** of a shape measure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The total distance around the outside"
+      },
+      {
+        "id": "b",
+        "text": "The amount of flat space inside"
+      },
+      {
+        "id": "c",
+        "text": "The distance from one corner to the opposite corner"
+      },
+      {
+        "id": "d",
+        "text": "The length of the longest side"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is the area.",
+      "c": "That is a diagonal, not the perimeter.",
+      "d": "The perimeter includes every side, not just one."
+    },
+    "hints": [
+      "Think of walking all the way around the edge of a field."
+    ],
+    "solution": "The perimeter is the **total distance around the outside** of a shape.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q003",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each measurement to its formula.",
+    "pairs": [
+      {
+        "left": {
+          "id": "sp",
+          "text": "Perimeter of a square"
+        },
+        "right": {
+          "id": "f1",
+          "text": "$P = 4l$"
+        }
+      },
+      {
+        "left": {
+          "id": "rp",
+          "text": "Perimeter of a rectangle"
+        },
+        "right": {
+          "id": "f2",
+          "text": "$P = 2(l + w)$"
+        }
+      },
+      {
+        "left": {
+          "id": "sa",
+          "text": "Area of a square"
+        },
+        "right": {
+          "id": "f3",
+          "text": "$A = l^2$"
+        }
+      },
+      {
+        "left": {
+          "id": "ra",
+          "text": "Area of a rectangle"
+        },
+        "right": {
+          "id": "f4",
+          "text": "$A = lw$"
+        }
+      },
+      {
+        "left": {
+          "id": "ta",
+          "text": "Area of a triangle"
+        },
+        "right": {
+          "id": "f5",
+          "text": "$A = \\frac{1}{2}bh$"
+        }
+      }
+    ],
+    "hints": [
+      "Perimeter formulas add lengths. Area formulas multiply lengths."
+    ],
+    "solution": "Square: $P = 4l$ and $A = l^2$. Rectangle: $P = 2(l + w)$ and $A = lw$. Triangle: $A = \\frac{1}{2}bh$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Area is [[a]]-dimensional, so it is measured in [[b]] units, such as cm².",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "two"
+        ],
+        "options": [
+          "one",
+          "two",
+          "three"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "square"
+        ],
+        "options": [
+          "square",
+          "cubic",
+          "plain"
+        ]
+      }
+    ],
+    "hints": [
+      "Area has a length and a width."
+    ],
+    "solution": "Area has length and width, so it is **two**-dimensional and measured in **square** units.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Rectangle A is 6 cm long and 4 cm wide. Rectangle B is a square with sides of 5 cm. Which has the bigger area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rectangle B"
+      },
+      {
+        "id": "b",
+        "text": "Rectangle A"
+      },
+      {
+        "id": "c",
+        "text": "They have the same area"
+      },
+      {
+        "id": "d",
+        "text": "You cannot tell without a diagram"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A has an area of $6 \\times 4 = 24$ cm². Work out B too.",
+      "c": "They have the same perimeter (20 cm), but not the same area.",
+      "d": "You have all the lengths you need to use the area formulas."
+    },
+    "hints": [
+      "Work out both areas."
+    ],
+    "solution": "A: $6 \\times 4 = 24$ cm². B: $5 \\times 5 = 25$ cm². **Rectangle B** has the bigger area, even though both perimeters are 20 cm.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Sione finds the area of a rectangle 7 cm long and 3 cm wide like this:\n\n$7 + 3 + 7 + 3 = 20$ cm²\n\nWhat has he done wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He found the perimeter. The area is $7 \\times 3 = 21$ cm²."
+      },
+      {
+        "id": "b",
+        "text": "Nothing. The area is 20 cm²."
+      },
+      {
+        "id": "c",
+        "text": "He added too many sides. The area is $7 + 3 = 10$ cm²."
+      },
+      {
+        "id": "d",
+        "text": "He forgot to double. The area is 40 cm²."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding the sides gives the perimeter, 20 cm.",
+      "c": "Adding two sides doesn't give the area either. Multiply the length by the width.",
+      "d": "Doubling the perimeter doesn't give the area."
+    },
+    "hints": [
+      "What does adding all the sides give you?"
+    ],
+    "solution": "Adding all four sides gives the **perimeter** (20 cm). The area is length × width: $7 \\times 3 = 21$ cm².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "A right-angled triangle has two shorter sides of 8 cm and 5 cm that meet at the right angle. What is its area?",
+    "answer": 20,
+    "units": "cm²",
+    "hints": [
+      "The sides that meet at the right angle are the base and the height.",
+      "$A = \\frac{1}{2}bh$"
+    ],
+    "solution": "$A = \\frac{1}{2} \\times 8 \\times 5 = \\frac{1}{2} \\times 40 = 20$ cm².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "A square sandpit has a perimeter of 14 m. How long is each side?",
+    "answer": 3.5,
+    "units": "m",
+    "hints": [
+      "A square has four equal sides.",
+      "Divide the perimeter by 4."
+    ],
+    "solution": "$14 \\div 4 = 3.5$, so each side is **3.5 m**. Check: $4 \\times 3.5 = 14$ ✓",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Ella works out the area of this triangle like this:\n\n$\\frac{1}{2} \\times 12 \\times 10 = 60$ cm²\n\nWhat mistake has she made?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 370 195\" width=\"370\" height=\"195\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"70,147 300,147 223.33,32\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"185\" y=\"162.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">12 cm</text><text x=\"131.31\" y=\"69.03\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">10 cm</text><line x1=\"223.33\" y1=\"32\" x2=\"223.33\" y2=\"147\" stroke=\"#2563eb\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"201.93\" y=\"89.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">6 cm</text><polyline points=\"213.33,147 213.33,137 223.33,137\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"362\" y=\"185\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A triangle with a base of 12 cm, a slanted side of 10 cm, and a dashed perpendicular height of 6 cm."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "She used the slanted side instead of the perpendicular height. The area is 36 cm²."
+      },
+      {
+        "id": "b",
+        "text": "She forgot to halve. The area is 120 cm²."
+      },
+      {
+        "id": "c",
+        "text": "There is no mistake. The area is 60 cm²."
+      },
+      {
+        "id": "d",
+        "text": "She should have added the sides. The area is 28 cm²."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "She did halve. The problem is which length she used for the height.",
+      "c": "The 10 cm side is slanted. The height must meet the base at a right angle.",
+      "d": "Adding sides gives part of a perimeter, not an area."
+    },
+    "hints": [
+      "Which length meets the base at a right angle?"
+    ],
+    "solution": "The 10 cm side is slanted, so it is not the height. The perpendicular height is 6 cm.\n\n$A = \\frac{1}{2} \\times 12 \\times 6 = \\frac{1}{2} \\times 72 = 36$ cm².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q010",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the rectangles that have a perimeter of 24 cm.",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 cm by 6 cm"
+      },
+      {
+        "id": "b",
+        "text": "8 cm by 4 cm"
+      },
+      {
+        "id": "c",
+        "text": "10 cm by 2 cm"
+      },
+      {
+        "id": "d",
+        "text": "12 cm by 2 cm"
+      },
+      {
+        "id": "e",
+        "text": "7 cm by 3 cm"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "$P = 2(l + w)$, so the length and width must add to half of 24."
+    ],
+    "solution": "Half of 24 is 12, so $l + w$ must be 12. That works for 6 + 6, 8 + 4 and 10 + 2. 12 cm by 2 cm has $P = 28$ cm, and 7 cm by 3 cm has $P = 20$ cm.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "A rectangular vegetable garden has an area of 36 m². It is 9 m long. How many metres of fencing are needed to go all the way around it?",
+    "answer": 26,
+    "units": "m",
+    "hints": [
+      "Find the width first, using the area.",
+      "Then find the perimeter."
+    ],
+    "solution": "Width: $36 \\div 9 = 4$ m.\n\nPerimeter: $2(9 + 4) = 2 \\times 13 = 26$ m of fencing.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q012",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these shapes in order of area, from smallest to largest.",
+    "items": [
+      {
+        "id": "a",
+        "text": "A rectangle 9 cm by 2 cm"
+      },
+      {
+        "id": "b",
+        "text": "A rectangle 8 cm by 3 cm"
+      },
+      {
+        "id": "c",
+        "text": "A square with sides of 5 cm"
+      },
+      {
+        "id": "d",
+        "text": "A triangle with base 10 cm and height 6 cm"
+      }
+    ],
+    "hints": [
+      "Work out each area in cm²."
+    ],
+    "solution": "Areas: $9 \\times 2 = 18$, $8 \\times 3 = 24$, $5 \\times 5 = 25$ and $\\frac{1}{2} \\times 10 \\times 6 = 30$ cm². So the order is 18, 24, 25, 30.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q013",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Aroha and Tevita each draw a rectangle with a perimeter of 20 cm. Aroha says their rectangles must have the same area. Is she right? Explain, using an example.",
+    "modelAnswer": "No. Two rectangles can have the same perimeter but different areas. For example, a 9 cm by 1 cm rectangle has $P = 2(9 + 1) = 20$ cm and $A = 9$ cm², but a 5 cm by 5 cm square has $P = 20$ cm and $A = 25$ cm².",
+    "rubric": [
+      {
+        "criterion": "Says Aroha is not right: the same perimeter does not mean the same area",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives two rectangles with perimeter 20 cm and different areas, with working",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Try a long thin rectangle and a square, both with a perimeter of 20 cm."
+    ],
+    "solution": "She is not right. For example, 9 cm × 1 cm and 5 cm × 5 cm both have a perimeter of 20 cm, but their areas are 9 cm² and 25 cm².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A deck is shaped like this. What is its area?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 240\" width=\"346\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"70,192 275.71,192 275.71,123.43 184.29,123.43 184.29,32 70,32\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"172.86\" y=\"207.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">9 m</text><text x=\"296.26\" y=\"157.71\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 m</text><text x=\"127.14\" y=\"16.7\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">5 m</text><text x=\"49.45\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">7 m</text><text x=\"337.71\" y=\"230\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "An L-shaped deck. The bottom is 9 m, the left side is 7 m, the top is 5 m and the lower right side is 3 m. The two sides of the step are not labelled."
+    },
+    "answer": 47,
+    "units": "m²",
+    "hints": [
+      "Work out the two missing lengths using the opposite sides.",
+      "Split the shape into two rectangles."
+    ],
+    "solution": "Missing lengths: the step is $9 - 5 = 4$ m wide and $7 - 3 = 4$ m high.\n\nLeft rectangle: $5 \\times 7 = 35$ m². Right rectangle: $4 \\times 3 = 12$ m².\n\nTotal: $35 + 12 = 47$ m².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A rectangular bedroom floor is 4 m long and 3.5 m wide. Carpet costs \\$30 per square metre. How much will it cost to carpet the floor?",
+    "answer": 420,
+    "units": "$",
+    "hints": [
+      "Find the area of the floor first.",
+      "Then multiply the area by the cost of each square metre."
+    ],
+    "solution": "Area: $4 \\times 3.5 = 14$ m².\n\nCost: $14 \\times 30 = 420$, so it costs **\\$420**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "You double the length **and** the width of a rectangle. What happens to its area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It becomes 4 times as big"
+      },
+      {
+        "id": "b",
+        "text": "It becomes 2 times as big"
+      },
+      {
+        "id": "c",
+        "text": "It stays the same"
+      },
+      {
+        "id": "d",
+        "text": "It becomes 8 times as big"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Doubling just one side would double the area. Here both sides double.",
+      "c": "Bigger sides always give a bigger area.",
+      "d": "Area only has two dimensions. Doubling three lengths (for a volume) would make it 8 times bigger."
+    },
+    "hints": [
+      "Try an example, like a 3 cm by 2 cm rectangle."
+    ],
+    "solution": "Example: 3 cm × 2 cm has area 6 cm². Doubling gives 6 cm × 4 cm, with area 24 cm². $24 = 4 \\times 6$, so the area becomes **4 times** as big (2 × 2).",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "A square is cut out of one corner of a rectangle, making an L-shape. Compared with the rectangle, what happens?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The perimeter stays the same, and the area gets smaller"
+      },
+      {
+        "id": "b",
+        "text": "The perimeter and the area both get smaller"
+      },
+      {
+        "id": "c",
+        "text": "The perimeter gets smaller, and the area stays the same"
+      },
+      {
+        "id": "d",
+        "text": "The perimeter gets bigger, and the area gets smaller"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Two edges are lost, but two new edges of the same lengths appear. The perimeter doesn't change.",
+      "c": "Cutting a piece out always makes the area smaller.",
+      "d": "The two new edges are the same lengths as the two edges that were removed."
+    },
+    "hints": [
+      "Sketch it. Which edges disappear, and which new edges appear?"
+    ],
+    "solution": "The two edges of the corner are replaced by two new edges of exactly the same lengths, so the **perimeter stays the same**. A piece has been removed, so the **area gets smaller**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain why the area of a triangle is half of its base × its perpendicular height.",
+    "modelAnswer": "Draw a rectangle around the triangle with the same base and height. Its area is base × height. The height line splits the rectangle into two smaller rectangles, and the triangle covers exactly half of each one. So the triangle is half of the big rectangle: $A = \\frac{1}{2}bh$.",
+    "rubric": [
+      {
+        "criterion": "Links the triangle to a rectangle with the same base and height (area = base × height)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that the triangle fills exactly half of that rectangle",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Draw a rectangle around the triangle that has the same base and height."
+    ],
+    "solution": "The rectangle around the triangle has area $b \\times h$. The triangle takes up exactly half of it (each part outside the triangle matches a part inside), so $A = \\frac{1}{2}bh$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A square has an area of 64 cm². What is its perimeter?",
+    "answer": 32,
+    "units": "cm",
+    "hints": [
+      "Find the length of a side first.",
+      "Which number times itself is 64?"
+    ],
+    "solution": "$8 \\times 8 = 64$, so each side is 8 cm.\n\nPerimeter: $4 \\times 8 = 32$ cm.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A rectangle has a perimeter of 30 cm. Its length is twice its width. What is its area?",
+    "answer": 50,
+    "units": "cm²",
+    "hints": [
+      "Half the perimeter is the length plus the width.",
+      "If the width is 1 part, the length is 2 parts. How big is each part?"
+    ],
+    "solution": "Half of 30 is 15, so $l + w = 15$. The length is 2 parts and the width is 1 part: 3 parts make 15, so 1 part is 5.\n\nWidth = 5 cm and length = 10 cm. Check: $2(10 + 5) = 30$ ✓\n\nArea: $10 \\times 5 = 50$ cm².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.perimeter-area.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "The end wall of a garden shed is a rectangle with a triangle on top, as shown. One litre of paint covers 8 m². How many litres of paint are needed to paint this wall once?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 366 247\" width=\"366\" height=\"247\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"70,198.67 270,198.67 270,98.67 170,32 70,98.67\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"170\" y=\"213.97\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">6 m</text><text x=\"290.55\" y=\"148.67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 m</text><polyline points=\"70,188.67 80,188.67 80,198.67\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"260,198.67 260,188.67 270,188.67\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"98.67\" x2=\"270\" y2=\"98.67\" stroke=\"#6b7280\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"98.67\" x2=\"170\" y2=\"32\" stroke=\"#2563eb\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><polyline points=\"179,98.67 179,89.67 170,89.67\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"32\" x2=\"306\" y2=\"32\" stroke=\"#d1d5db\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"300\" y1=\"98.67\" x2=\"300\" y2=\"32\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><line x1=\"294\" y1=\"98.67\" x2=\"306\" y2=\"98.67\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><line x1=\"294\" y1=\"32\" x2=\"306\" y2=\"32\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><text x=\"317.55\" y=\"65.33\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2 m</text><text x=\"358\" y=\"236.67\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A house-shaped wall: a rectangle 6 m wide and 3 m high, with a triangle on top whose perpendicular height is 2 m."
+    },
+    "answer": 3,
+    "units": "L",
+    "hints": [
+      "Find the area of the rectangle and the triangle, then add them.",
+      "Then work out how many lots of 8 m² fit into the total."
+    ],
+    "solution": "Rectangle: $6 \\times 3 = 18$ m². Triangle: $\\frac{1}{2} \\times 6 \\times 2 = 6$ m².\n\nTotal: $18 + 6 = 24$ m².\n\nPaint: $24 \\div 8 = 3$ litres.",
+    "calculator": "not-allowed"
+  }
+]

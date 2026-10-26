@@ -1,0 +1,14 @@
+[
+  { "id": "m7.num.multiply-divide.f01", "front": "What is a **product**?", "back": "The answer to a multiplication. The product of 6 and 4 is 24." },
+  { "id": "m7.num.multiply-divide.f02", "front": "What is a **quotient**?", "back": "The answer to a division. In $20 \\div 4 = 5$, the quotient is 5." },
+  { "id": "m7.num.multiply-divide.f03", "front": "**Dividend** or **divisor**?", "back": "The dividend is the number being divided (20 in $20 \\div 4$). The divisor is the number you divide by (4)." },
+  { "id": "m7.num.multiply-divide.f04", "front": "What is a **remainder**?", "back": "The amount left over when a number doesn't divide exactly: $17 \\div 5 = 3$ remainder 2." },
+  { "id": "m7.num.multiply-divide.f05", "front": "Three ways to write $327 \\div 5$", "back": "65 r 2, or $65\\frac{2}{5}$, or 65.4." },
+  { "id": "m7.num.multiply-divide.f06", "front": "How do you write a remainder as a fraction?", "back": "Put the remainder over the divisor: $43 \\div 4 = 10$ r 3 $= 10\\frac{3}{4}$." },
+  { "id": "m7.num.multiply-divide.f07", "front": "When do you **round up** after dividing?", "back": "When everyone or everything must fit, like how many buses or tables are needed." },
+  { "id": "m7.num.multiply-divide.f08", "front": "When do you **round down** after dividing?", "back": "When only full groups count, like how many full boxes or full teams." },
+  { "id": "m7.num.multiply-divide.f09", "front": "How can you work out $47 \\times 23$?", "back": "Split 23 into $20 + 3$: $47 \\times 20 + 47 \\times 3 = 940 + 141 = 1081$." },
+  { "id": "m7.num.multiply-divide.f10", "front": "What is an **estimate**?", "back": "A quick, rough answer using rounded numbers: $47 \\times 23 \\approx 50 \\times 20 = 1000$." },
+  { "id": "m7.num.multiply-divide.f11", "front": "How do you check a division?", "back": "Multiply the quotient by the divisor and add the remainder: $65 \\times 5 + 2 = 327$." },
+  { "id": "m7.num.multiply-divide.f12", "front": "How do you divide by a two-digit number like 24?", "back": "List easy multiples ($24 \\times 10 = 240$, $24 \\times 20 = 480$, …), take away the biggest that fits, and repeat." }
+]

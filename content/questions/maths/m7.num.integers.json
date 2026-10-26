@@ -1,0 +1,347 @@
+[
+  {
+    "id": "m7.num.integers.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is **not** an integer?",
+    "options": [
+      { "id": "a", "text": "$-8$" },
+      { "id": "b", "text": "$0$" },
+      { "id": "c", "text": "$2.5$" },
+      { "id": "d", "text": "$13$" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "$-8$ is a negative whole number, so it is an integer.",
+      "b": "Zero is an integer. Integers are the positive and negative whole numbers and zero.",
+      "d": "13 is a positive whole number, so it is an integer."
+    },
+    "hints": ["Integers are whole numbers. They can be positive, negative or zero."],
+    "solution": "2.5 is not a whole number, so it is not an integer. $-8$, 0 and 13 are all integers."
+  },
+  {
+    "id": "m7.num.integers.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Finish the sentence.\n\nZero is [[a]].",
+    "blanks": [
+      { "id": "a", "accepted": ["neither positive nor negative"], "options": ["positive", "negative", "neither positive nor negative"] }
+    ],
+    "hints": ["Positive numbers are to the right of 0 and negative numbers are to the left. Where is 0 itself?"],
+    "solution": "Zero is **neither positive nor negative**. It is the point that separates the positive numbers from the negative numbers."
+  },
+  {
+    "id": "m7.num.integers.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger, $-3$ or $-8$?",
+    "options": [
+      { "id": "a", "text": "$-3$" },
+      { "id": "b", "text": "$-8$" },
+      { "id": "c", "text": "They are the same size" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "8 is bigger than 3, but $-8$ is further to the left of 0 than $-3$. So $-8$ is smaller.",
+      "c": "$-3$ and $-8$ are at different places on the number line, so they can't be the same."
+    },
+    "hints": ["Picture a number line. Which number is further to the right?", "Think of temperatures: is −3 °C or −8 °C warmer?"],
+    "solution": "$-3$ is closer to 0, so it is further to the right on the number line. That makes $-3$ bigger: $-3 > -8$."
+  },
+  {
+    "id": "m7.num.integers.q004",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for the number you add to another number to make 0? (For example, it is −7 for the number 7.)",
+    "accepted": ["additive inverse", "the additive inverse", "inverse", "additive inverses", "opposite", "opposite number"],
+    "hints": ["The answer has two words. The first word is about adding."],
+    "solution": "It is the **additive inverse**. $7 + (-7) = 0$, so the additive inverse of 7 is $-7$."
+  },
+  {
+    "id": "m7.num.integers.q005",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What integer is 5 less than 2?",
+    "answer": -3,
+    "form": "integer",
+    "hints": ["Start at 2 on a number line and count 5 steps to the left."],
+    "solution": "Start at 2 and move 5 to the left: 1, 0, −1, −2, −3. So 5 less than 2 is **−3** ($2 - 5 = -3$)."
+  },
+  {
+    "id": "m7.num.integers.q006",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these temperatures in order from **coldest** to **warmest**.",
+    "items": [
+      { "id": "n11", "text": "−11 °C" },
+      { "id": "n6", "text": "−6 °C" },
+      { "id": "n2", "text": "−2 °C" },
+      { "id": "z", "text": "0 °C" },
+      { "id": "p4", "text": "4 °C" }
+    ],
+    "hints": ["Picture a thermometer. The coldest temperature is the lowest one."],
+    "solution": "On a thermometer (a vertical number line), from bottom to top: −11 °C, −6 °C, −2 °C, 0 °C, 4 °C."
+  },
+  {
+    "id": "m7.num.integers.q007",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each calculation to its answer.",
+    "pairs": [
+      { "left": { "id": "c1", "text": "$-5 + 8$" }, "right": { "id": "a1", "text": "$3$" } },
+      { "left": { "id": "c2", "text": "$3 - 9$" }, "right": { "id": "a2", "text": "$-6$" } },
+      { "left": { "id": "c3", "text": "$-4 - 4$" }, "right": { "id": "a3", "text": "$-8$" } },
+      { "left": { "id": "c4", "text": "$-7 + 7$" }, "right": { "id": "a4", "text": "$0$" } },
+      { "left": { "id": "c5", "text": "$2 + (-6)$" }, "right": { "id": "a5", "text": "$-4$" } }
+    ],
+    "hints": ["Use a number line: adding a positive number moves right, subtracting moves left.", "Adding a negative number moves left."],
+    "solution": "$-5 + 8 = 3$, $3 - 9 = -6$, $-4 - 4 = -8$, $-7 + 7 = 0$ and $2 + (-6) = 2 - 6 = -4$."
+  },
+  {
+    "id": "m7.num.integers.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai says $-4 - 3 = -1$. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He moved right instead of left. From −4, move 3 to the left to get −7." },
+      { "id": "b", "text": "Nothing. $-4 - 3$ is $-1$." },
+      { "id": "c", "text": "The answer should be 7, because two minus signs make a plus." },
+      { "id": "d", "text": "The answer should be 1, because 4 − 3 = 1." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Subtracting 3 must make the number smaller, but −1 is bigger than −4.",
+      "c": "There is no \"minus a negative\" here. The calculation starts at −4 and takes away 3.",
+      "d": "The 4 is negative. Starting at −4, not 4, changes the answer."
+    },
+    "hints": ["Start at −4 on a number line. Which way does subtracting 3 move you?"],
+    "solution": "Start at −4 and move 3 to the left: −5, −6, −7. So $-4 - 3 = -7$. Kai moved 3 to the right, which is adding."
+  },
+  {
+    "id": "m7.num.integers.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The lowest level of a car park building is level −4. Losa parks there, then goes up 7 levels to the food court.\n\nWhat level is the food court on?",
+    "answer": 3,
+    "form": "integer",
+    "hints": ["Going up means adding. Work out $-4 + 7$."],
+    "solution": "$-4 + 7 = 3$. From −4, it takes 4 levels to reach 0 (the ground floor), then 3 more. The food court is on **level 3**."
+  },
+  {
+    "id": "m7.num.integers.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which pair of numbers are additive inverses?",
+    "options": [
+      { "id": "a", "text": "$-6$ and $6$" },
+      { "id": "b", "text": "$-6$ and $-6$" },
+      { "id": "c", "text": "$6$ and $0$" },
+      { "id": "d", "text": "$3$ and $-6$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$-6 + (-6) = -12$, not 0.",
+      "c": "$6 + 0 = 6$, not 0.",
+      "d": "$3 + (-6) = -3$, not 0."
+    },
+    "hints": ["Additive inverses add to 0."],
+    "solution": "$-6 + 6 = 0$, so $-6$ and 6 are additive inverses. They are the same distance from 0, on opposite sides."
+  },
+  {
+    "id": "m7.num.integers.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The temperature at the top of Mt Ruapehu was −9 °C. At the bottom of the mountain it was 7 °C.\n\nHow many degrees warmer was it at the bottom?",
+    "answer": 16,
+    "units": "°C",
+    "form": "integer",
+    "hints": ["How far is −9 from 0? How far is 7 from 0?", "The temperatures are on opposite sides of 0."],
+    "solution": "From −9 °C up to 0 °C is 9 degrees. From 0 °C up to 7 °C is 7 more. It was $9 + 7 = 16$ °C warmer at the bottom. (This is $7 - (-9) = 16$.)"
+  },
+  {
+    "id": "m7.num.integers.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What integer is exactly halfway between $-6$ and $2$ on a number line?",
+    "options": [
+      { "id": "a", "text": "$-2$" },
+      { "id": "b", "text": "$-4$" },
+      { "id": "c", "text": "$4$" },
+      { "id": "d", "text": "$-3$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$-4$ is 2 steps from $-6$ but 6 steps from 2, so it is not halfway.",
+      "c": "4 is the size of half the gap (8 ÷ 2), but you need to count 4 steps from $-6$.",
+      "d": "$-3$ is half of $-6$. Halfway between two numbers depends on both numbers."
+    },
+    "hints": ["How many steps is it from −6 to 2?", "Go half of that distance from −6."],
+    "solution": "From −6 to 2 is 8 steps. Half of 8 is 4. Start at −6 and move 4 to the right: **−2**. Check: −2 is also 4 steps from 2."
+  },
+  {
+    "id": "m7.num.integers.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $-7 + 15 - 10$.",
+    "answer": -2,
+    "form": "integer",
+    "hints": ["Work from left to right, one step at a time."],
+    "solution": "$-7 + 15 = 8$, then $8 - 10 = -2$."
+  },
+  {
+    "id": "m7.num.integers.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ella owes \\$6 on her school canteen account, so her balance is −\\$6. She puts \\$10 into the account.\n\nWhat is her balance now?",
+    "answer": 4,
+    "units": "$",
+    "form": "integer",
+    "hints": ["Start at −6 and add 10.", "The first \\$6 pays off what she owes."],
+    "solution": "$-6 + 10 = 4$. The first \\$6 brings her balance back to \\$0, and the other \\$4 is left over. Her balance is **\\$4**."
+  },
+  {
+    "id": "m7.num.integers.q015",
+    "type": "text",
+    "difficulty": 3,
+    "groupId": "m7.num.integers.g1",
+    "part": "a",
+    "stem": "Hemi recorded the temperature in Tekapo at 6 am each day for a week.\n\n| Day | Mon | Tue | Wed | Thu | Fri |\n|---|---|---|---|---|---|\n| Temperature (°C) | −5 | −8 | 2 | −1 | 3 |",
+    "calculator": "not-allowed",
+    "prompt": "Which day was the coldest?",
+    "accepted": ["Tuesday", "Tue", "Tues"],
+    "hints": ["The coldest day has the lowest temperature: the one furthest left on a number line."],
+    "solution": "The lowest temperature is −8 °C, on **Tuesday**. −8 is further from 0 than −5 or −1, so it is colder."
+  },
+  {
+    "id": "m7.num.integers.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "groupId": "m7.num.integers.g1",
+    "part": "b",
+    "stem": "Hemi recorded the temperature in Tekapo at 6 am each day for a week.\n\n| Day | Mon | Tue | Wed | Thu | Fri |\n|---|---|---|---|---|---|\n| Temperature (°C) | −5 | −8 | 2 | −1 | 3 |",
+    "calculator": "not-allowed",
+    "prompt": "What is the difference between the warmest and the coldest temperatures?",
+    "answer": 11,
+    "units": "°C",
+    "form": "integer",
+    "hints": ["The warmest is 3 °C and the coldest is −8 °C.", "They are on opposite sides of 0, so add their distances from 0."],
+    "solution": "Warmest: 3 °C (Friday). Coldest: −8 °C (Tuesday).\n\nFrom −8 up to 0 is 8 degrees, and from 0 up to 3 is 3 more. The difference is $8 + 3 = 11$ °C."
+  },
+  {
+    "id": "m7.num.integers.q017",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "groupId": "m7.num.integers.g1",
+    "part": "c",
+    "stem": "Hemi recorded the temperature in Tekapo at 6 am each day for a week.\n\n| Day | Mon | Tue | Wed | Thu | Fri |\n|---|---|---|---|---|---|\n| Temperature (°C) | −5 | −8 | 2 | −1 | 3 |",
+    "calculator": "not-allowed",
+    "prompt": "What was the biggest change in temperature from one day to the next? Give the size of the change in degrees.",
+    "answer": 10,
+    "units": "°C",
+    "form": "integer",
+    "hints": ["Work out the change for each pair of days next to each other: Mon to Tue, Tue to Wed, and so on.", "A change across 0 means adding the two distances from 0."],
+    "solution": "Mon → Tue: −5 to −8, a fall of 3.\n\nTue → Wed: −8 to 2, a rise of $8 + 2 = 10$.\n\nWed → Thu: 2 to −1, a fall of $2 + 1 = 3$.\n\nThu → Fri: −1 to 3, a rise of $1 + 3 = 4$.\n\nThe biggest change was **10 °C**, from Tuesday to Wednesday."
+  },
+  {
+    "id": "m7.num.integers.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain, using a number line, why −8 is less than −3.",
+    "modelAnswer": "On a number line, numbers get smaller as you go left. −8 is 8 steps to the left of 0, but −3 is only 3 steps to the left of 0. So −8 is further left than −3, which means −8 is less than −3. (Like temperatures: −8 °C is colder than −3 °C.)",
+    "rubric": [
+      { "criterion": "Says that −8 is further to the left (further below 0) than −3 on the number line", "marks": 1 },
+      { "criterion": "Links this to size: numbers further left are smaller, so −8 < −3", "marks": 1 }
+    ],
+    "hints": ["Where are −8 and −3 on a number line?", "Which way do numbers get smaller?"],
+    "solution": "−8 is further left on the number line than −3, and numbers get smaller as you move left. So $-8 < -3$."
+  },
+  {
+    "id": "m7.num.integers.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "At midnight in Ranfurly it was −2 °C. The temperature fell 5 °C by 4 am, then rose 11 °C by noon.\n\nWhat was the temperature at noon?",
+    "answer": 4,
+    "units": "°C",
+    "form": "integer",
+    "hints": ["Find the 4 am temperature first.", "A fall means subtract; a rise means add."],
+    "solution": "4 am: $-2 - 5 = -7$ °C.\n\nNoon: $-7 + 11 = 4$ °C."
+  },
+  {
+    "id": "m7.num.integers.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which calculation has the answer $-5$?",
+    "options": [
+      { "id": "a", "text": "$3 - 8$" },
+      { "id": "b", "text": "$-3 - 8$" },
+      { "id": "c", "text": "$-3 + 8$" },
+      { "id": "d", "text": "$8 + (-3)$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$-3 - 8$: start at −3 and move 8 left, which gives −11.",
+      "c": "$-3 + 8$: start at −3 and move 8 right, which gives 5.",
+      "d": "$8 + (-3) = 8 - 3 = 5$."
+    },
+    "hints": ["Work out each one on a number line."],
+    "solution": "$3 - 8$: start at 3 and move 8 left. 3 steps reach 0, then 5 more, so the answer is $-5$."
+  },
+  {
+    "id": "m7.num.integers.q021",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "What number goes in the box?\n\n$\\square - 9 = -4$",
+    "answer": 5,
+    "form": "integer",
+    "hints": ["Work backwards: undo subtracting 9 by adding 9.", "Check your answer by putting it in the box."],
+    "solution": "Undo subtracting 9 by adding 9: $-4 + 9 = 5$.\n\nCheck: $5 - 9 = -4$ ✓"
+  },
+  {
+    "id": "m7.num.integers.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Work out $-6 - (-10)$.",
+    "answer": 4,
+    "form": "integer",
+    "hints": ["Subtracting a negative number is the same as adding its additive inverse.", "So $-6 - (-10)$ is the same as $-6 + 10$."],
+    "solution": "$-6 - (-10) = -6 + 10 = 4$. Taking away a debt of 10 leaves you 10 better off."
+  },
+  {
+    "id": "m7.num.integers.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere says: \"When you subtract, the answer is always smaller than the number you started with.\"\n\nIs she right for integers? Give an example to explain.",
+    "modelAnswer": "No, not always. It is true when you subtract a positive number, but not when you subtract a negative number. For example, $4 - (-3) = 4 + 3 = 7$, and 7 is bigger than 4. Subtracting a negative is the same as adding its additive inverse, so the answer gets bigger.",
+    "rubric": [
+      { "criterion": "Gives a correct example where subtracting makes the answer bigger, e.g. $4 - (-3) = 7$", "marks": 1 },
+      { "criterion": "Concludes Mere is wrong, explaining that subtracting a negative is like adding", "marks": 1 }
+    ],
+    "hints": ["What happens when you subtract a negative number?", "Try $4 - (-3)$."],
+    "solution": "Mere is wrong. $4 - (-3) = 7$, which is bigger than 4. Subtracting a negative number makes the answer bigger."
+  }
+]

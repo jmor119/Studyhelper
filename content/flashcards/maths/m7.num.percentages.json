@@ -1,0 +1,14 @@
+[
+  { "id": "m7.num.percentages.f01", "front": "What does **per cent** mean?", "back": "Out of 100. 35% means 35 out of 100." },
+  { "id": "m7.num.percentages.f02", "front": "What is a **percentage**?", "back": "A fraction with a denominator of 100, written with the % sign: $\\frac{35}{100} = 35\\%$." },
+  { "id": "m7.num.percentages.f03", "front": "How do you change a percentage into a decimal?", "back": "Divide by 100: $45\\% = 0.45$ and $7\\% = 0.07$." },
+  { "id": "m7.num.percentages.f04", "front": "How do you change a decimal into a percentage?", "back": "Multiply by 100: $0.6 = 60\\%$ and $1.25 = 125\\%$." },
+  { "id": "m7.num.percentages.f05", "front": "How do you change $\\frac{3}{20}$ into a percentage?", "back": "Make the denominator 100: $\\frac{3}{20} = \\frac{15}{100} = 15\\%$." },
+  { "id": "m7.num.percentages.f06", "front": "How do you change 35% into a fraction in simplest form?", "back": "Write it over 100 and simplify: $\\frac{35}{100} = \\frac{7}{20}$." },
+  { "id": "m7.num.percentages.f07", "front": "$\\frac{1}{4}$ as a decimal and a percentage?", "back": "$\\frac{1}{4} = 0.25 = 25\\%$. (And $\\frac{3}{4} = 0.75 = 75\\%$.)" },
+  { "id": "m7.num.percentages.f08", "front": "$\\frac{1}{8}$ as a decimal and a percentage?", "back": "$\\frac{1}{8} = 0.125 = 12.5\\%$. It is half of $\\frac{1}{4}$." },
+  { "id": "m7.num.percentages.f09", "front": "Quick ways to find 10%, 5% and 1% of a number?", "back": "10%: divide by 10. 5%: half of 10%. 1%: divide by 100." },
+  { "id": "m7.num.percentages.f10", "front": "How do you find 15% of 120?", "back": "10% is 12 and 5% is 6, so 15% is $12 + 6 = 18$." },
+  { "id": "m7.num.percentages.f11", "front": "40% of a number is 28. How do you find the whole?", "back": "40% is 4 lots of 10%, so 10% is $28 \\div 4 = 7$. 100% is $10 \\times 7 = 70$." },
+  { "id": "m7.num.percentages.f12", "front": "How do you compare $\\frac{2}{5}$, 0.38 and 41%?", "back": "Change them all to percentages: 40%, 38% and 41%. Then compare." }
+]

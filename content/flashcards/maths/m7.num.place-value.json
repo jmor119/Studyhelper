@@ -1,0 +1,15 @@
+[
+  { "id": "m7.num.place-value.f01", "front": "What is **place value**?", "back": "The value a digit has because of where it is in a number. In 352, the 5 is worth 50." },
+  { "id": "m7.num.place-value.f02", "front": "How many times bigger is each place than the place to its right?", "back": "10 times bigger. Hundreds are 10 times bigger than tens." },
+  { "id": "m7.num.place-value.f03", "front": "What is a **power of 10**?", "back": "10 multiplied by itself a number of times, e.g. $10^3 = 10 \\times 10 \\times 10 = 1{,}000$." },
+  { "id": "m7.num.place-value.f04", "front": "What does the exponent in $10^5$ tell you?", "back": "How many 10s are multiplied together. It is also the number of zeros: $10^5 = 100{,}000$." },
+  { "id": "m7.num.place-value.f05", "front": "Write the places from ones to ten thousands as powers of 10.", "back": "Ones 1, tens $10^1$, hundreds $10^2$, thousands $10^3$, ten thousands $10^4$." },
+  { "id": "m7.num.place-value.f06", "front": "What is **expanded form**?", "back": "A number written as each digit times its place value, added up: $4{,}302 = 4 \\times 10^3 + 3 \\times 10^2 + 2$." },
+  { "id": "m7.num.place-value.f07", "front": "What happens to a 0 digit in expanded form?", "back": "It is left out, because 0 times anything is 0. Put the 0 back when you write the number again." },
+  { "id": "m7.num.place-value.f08", "front": "How do you **round** a number?", "back": "Look at the digit to the right of the place you are rounding to. 5 or more rounds up; less than 5 rounds down." },
+  { "id": "m7.num.place-value.f09", "front": "Round 4.96 to the nearest tenth.", "back": "5.0. The 9 tenths round up to 10 tenths, which carries 1 into the ones." },
+  { "id": "m7.num.place-value.f10", "front": "What is an **estimate**?", "back": "A rough answer you work out quickly, usually by rounding the numbers first." },
+  { "id": "m7.num.place-value.f11", "front": "What is a **benchmark**?", "back": "A friendly number such as 0, 1, 10 or 100 that you compare with to check an answer." },
+  { "id": "m7.num.place-value.f12", "front": "Why must $0.73 + 0.8 + 0.999$ be less than 3?", "back": "Each number is less than the benchmark 1, so the total is less than $1 + 1 + 1 = 3$." },
+  { "id": "m7.num.place-value.f13", "front": "Estimate $387 \\times 42$.", "back": "Round to $400 \\times 40$. $4 \\times 4 = 16$, then put back three zeros: 16,000." }
+]

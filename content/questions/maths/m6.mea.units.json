@@ -1,0 +1,310 @@
+[
+  {
+    "id": "m6.mea.units.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which unit is best for measuring the distance from Hamilton to Tauranga?",
+    "options": [
+      {"id":"a","text":"kilometres (km)"},
+      {"id":"b","text":"metres (m)"},
+      {"id":"c","text":"centimetres (cm)"},
+      {"id":"d","text":"millimetres (mm)"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Metres are good for rooms, fields and swimming pools. A trip between two cities is much longer, so the number of metres would be huge.","c":"Centimetres are for small things like a pencil or your hand.","d":"Millimetres are for very small things like an ant or the thickness of a coin."},
+    "hints": ["Is this a short distance or a long trip in the car?"],
+    "solution": "Long distances, like a car trip between two cities, are measured in **kilometres**. 1 km = 1000 m."
+  },
+  {
+    "id": "m6.mea.units.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How many millilitres are in 1 litre?",
+    "options": [
+      {"id":"a","text":"1000 mL"},
+      {"id":"b","text":"100 mL"},
+      {"id":"c","text":"10 mL"},
+      {"id":"d","text":"1 000 000 mL"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"100 goes with centi- (100 cm = 1 m). Milli- means 1000 times smaller.","c":"10 is the number of millimetres in a centimetre, not millilitres in a litre.","d":"That is far too many. Milli- means 1000 times smaller."},
+    "hints": ["Milli- means 1000 times smaller than the base unit."],
+    "solution": "Milli- means 1000 times smaller, so there are **1000 mL** in 1 L."
+  },
+  {
+    "id": "m6.mea.units.q003",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each unit to what it measures.",
+    "pairs": [
+      {"left":{"id":"l","text":"litre (L)"},"right":{"id":"r1","text":"Capacity: how much a container holds"}},
+      {"left":{"id":"kg","text":"kilogram (kg)"},"right":{"id":"r2","text":"Mass: how heavy something is"}},
+      {"left":{"id":"km","text":"kilometre (km)"},"right":{"id":"r3","text":"Length: a long distance"}},
+      {"left":{"id":"c","text":"degree Celsius (°C)"},"right":{"id":"r4","text":"Temperature: how hot or cold something is"}}
+    ],
+    "hints": ["Think about what you would use each unit for at home or at school."],
+    "solution": "Litres measure capacity, kilograms measure mass, kilometres measure long lengths (distances) and degrees Celsius measure temperature."
+  },
+  {
+    "id": "m6.mea.units.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Fill in the gaps.\n\n1 cm = [[a]] mm\n\n1 m = [[b]] cm\n\n1 kg = [[c]] g\n\n1 L = [[d]] mL",
+    "blanks": [
+      {"id":"a","accepted":["10"]},
+      {"id":"b","accepted":["100"]},
+      {"id":"c","accepted":["1000","1,000","1 000"]},
+      {"id":"d","accepted":["1000","1,000","1 000"]}
+    ],
+    "hints": ["Centi- means 100 times smaller. Milli- and kilo- are about 1000."],
+    "solution": "1 cm = **10** mm, 1 m = **100** cm, 1 kg = **1000** g and 1 L = **1000** mL."
+  },
+  {
+    "id": "m6.mea.units.q005",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which tool would you use to measure how much water a drink bottle holds?",
+    "options": [
+      {"id":"a","text":"A measuring jug"},
+      {"id":"b","text":"A ruler"},
+      {"id":"c","text":"Kitchen scales"},
+      {"id":"d","text":"A thermometer"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"A ruler measures length, not how much a bottle holds.","c":"Kitchen scales measure mass (how heavy something is).","d":"A thermometer measures temperature."},
+    "hints": ["How much a container holds is called its capacity."],
+    "solution": "Fill the bottle, then pour the water into a **measuring jug** and read the scale in millilitres. The jug measures capacity."
+  },
+  {
+    "id": "m6.mea.units.q006",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What unit do we use in New Zealand to measure temperature? Write its name.",
+    "accepted": ["degrees Celsius","degree Celsius","Celsius","°C","degrees C","degrees centigrade"],
+    "hints": ["Water freezes at 0 of these units and boils at 100."],
+    "solution": "Temperature is measured in **degrees Celsius** (°C)."
+  },
+  {
+    "id": "m6.mea.units.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these lengths is the **longest**?",
+    "options": [
+      {"id":"a","text":"1600 mm"},
+      {"id":"b","text":"1.5 m"},
+      {"id":"c","text":"140 cm"},
+      {"id":"d","text":"0.9 m"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"1.5 m = 1500 mm. Compare it with 1600 mm.","c":"140 cm = 1.4 m, which is shorter than 1.5 m.","d":"0.9 m is less than 1 m, so it is the shortest."},
+    "hints": ["Change them all into the same unit before you compare.","Try changing them all into metres."],
+    "solution": "In metres: 1600 mm = 1.6 m, 1.5 m, 140 cm = 1.4 m and 0.9 m. The longest is **1600 mm** (1.6 m)."
+  },
+  {
+    "id": "m6.mea.units.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana says 3.5 m is the same as 35 cm. What mistake has she made?",
+    "options": [
+      {"id":"a","text":"She multiplied by 10. There are 100 cm in 1 m, so 3.5 m = 350 cm."},
+      {"id":"b","text":"She should have divided by 100, so 3.5 m = 0.035 cm."},
+      {"id":"c","text":"She has made no mistake. 3.5 m = 35 cm."},
+      {"id":"d","text":"She should have added 100, so 3.5 m = 103.5 cm."}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Centimetres are smaller than metres, so you need more of them. Multiply, don't divide.","c":"35 cm is about the length of a ruler. 3.5 m is much longer than that.","d":"Converting units means multiplying or dividing, not adding."},
+    "hints": ["How many centimetres are in 1 metre?","Is 35 cm a sensible length for 3.5 m? A ruler is 30 cm long."],
+    "solution": "There are 100 cm in 1 m, so multiply by 100: $3.5 \\times 100 = 350$ cm. Ana multiplied by 10 instead."
+  },
+  {
+    "id": "m6.mea.units.q009",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the measurements that are the same as 1.5 kg.",
+    "options": [
+      {"id":"a","text":"1500 g"},
+      {"id":"b","text":"1 kg 500 g"},
+      {"id":"c","text":"150 g"},
+      {"id":"d","text":"1 kg 50 g"},
+      {"id":"e","text":"One and a half kilograms"}
+    ],
+    "correct": ["a","b","e"],
+    "hints": ["1 kg = 1000 g, so half a kilogram is 500 g."],
+    "solution": "1.5 kg is one and a half kilograms: 1 kg and 500 g, which is 1500 g. 150 g is only 0.15 kg, and 1 kg 50 g is 1.05 kg."
+  },
+  {
+    "id": "m6.mea.units.q010",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these masses in order from **lightest** to **heaviest**.",
+    "items": [
+      {"id":"m1","text":"750 g"},
+      {"id":"m2","text":"0.8 kg"},
+      {"id":"m3","text":"1050 g"},
+      {"id":"m4","text":"1.2 kg"}
+    ],
+    "hints": ["Change them all to grams first."],
+    "solution": "In grams: 750 g, 0.8 kg = 800 g, 1050 g, 1.2 kg = 1200 g. So the order is 750 g, 0.8 kg, 1050 g, 1.2 kg."
+  },
+  {
+    "id": "m6.mea.units.q011",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is closest to **1 metre** long?",
+    "options": [
+      {"id":"a","text":"The height of a door handle from the floor"},
+      {"id":"b","text":"The length of a new pencil"},
+      {"id":"c","text":"The width of your fingernail"},
+      {"id":"d","text":"The height of a two-storey house"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"A pencil is about 18 cm, much less than 100 cm.","c":"A fingernail is about 1 cm wide.","d":"A two-storey house is about 8 m tall."},
+    "hints": ["1 m = 100 cm. That is about the height of your waist or a bit higher."],
+    "solution": "A door handle is usually about **1 m** from the floor. The pencil (about 18 cm) and fingernail (about 1 cm) are much shorter, and the house (about 8 m) is much taller."
+  },
+  {
+    "id": "m6.mea.units.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A crayon is lying on a ruler, as shown. Sione says the crayon is 9.5 cm long. Is he right? Work out the real length of the crayon in centimetres.",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 130\" width=\"410\" height=\"130\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"16\" y=\"70\" width=\"378\" height=\"46\" rx=\"3\" fill=\"#fef3c7\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"70\" x2=\"30\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"30\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">0</text><line x1=\"33.5\" y1=\"70\" x2=\"33.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"37\" y1=\"70\" x2=\"37\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"40.5\" y1=\"70\" x2=\"40.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"44\" y1=\"70\" x2=\"44\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"47.5\" y1=\"70\" x2=\"47.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"51\" y1=\"70\" x2=\"51\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"54.5\" y1=\"70\" x2=\"54.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70\" x2=\"58\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"61.5\" y1=\"70\" x2=\"61.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"65\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">1</text><line x1=\"68.5\" y1=\"70\" x2=\"68.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"72\" y1=\"70\" x2=\"72\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"75.5\" y1=\"70\" x2=\"75.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"79\" y1=\"70\" x2=\"79\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"82.5\" y1=\"70\" x2=\"82.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"86\" y1=\"70\" x2=\"86\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"89.5\" y1=\"70\" x2=\"89.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"93\" y1=\"70\" x2=\"93\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"96.5\" y1=\"70\" x2=\"96.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"100\" y1=\"70\" x2=\"100\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"100\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">2</text><line x1=\"103.5\" y1=\"70\" x2=\"103.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"107\" y1=\"70\" x2=\"107\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"110.5\" y1=\"70\" x2=\"110.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"114\" y1=\"70\" x2=\"114\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"117.5\" y1=\"70\" x2=\"117.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"121\" y1=\"70\" x2=\"121\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"124.5\" y1=\"70\" x2=\"124.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"128\" y1=\"70\" x2=\"128\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"131.5\" y1=\"70\" x2=\"131.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"135\" y1=\"70\" x2=\"135\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"135\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">3</text><line x1=\"138.5\" y1=\"70\" x2=\"138.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"142\" y1=\"70\" x2=\"142\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"145.5\" y1=\"70\" x2=\"145.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"149\" y1=\"70\" x2=\"149\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"70\" x2=\"152.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"156\" y1=\"70\" x2=\"156\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"159.5\" y1=\"70\" x2=\"159.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"163\" y1=\"70\" x2=\"163\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"166.5\" y1=\"70\" x2=\"166.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"170\" y1=\"70\" x2=\"170\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"170\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">4</text><line x1=\"173.5\" y1=\"70\" x2=\"173.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"177\" y1=\"70\" x2=\"177\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"180.5\" y1=\"70\" x2=\"180.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"184\" y1=\"70\" x2=\"184\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"187.5\" y1=\"70\" x2=\"187.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"191\" y1=\"70\" x2=\"191\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"194.5\" y1=\"70\" x2=\"194.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"198\" y1=\"70\" x2=\"198\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"201.5\" y1=\"70\" x2=\"201.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"205\" y1=\"70\" x2=\"205\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"205\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">5</text><line x1=\"208.5\" y1=\"70\" x2=\"208.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"212\" y1=\"70\" x2=\"212\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"215.5\" y1=\"70\" x2=\"215.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"219\" y1=\"70\" x2=\"219\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"222.5\" y1=\"70\" x2=\"222.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"226\" y1=\"70\" x2=\"226\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"229.5\" y1=\"70\" x2=\"229.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"233\" y1=\"70\" x2=\"233\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"236.5\" y1=\"70\" x2=\"236.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"240\" y1=\"70\" x2=\"240\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"240\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">6</text><line x1=\"243.5\" y1=\"70\" x2=\"243.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"247\" y1=\"70\" x2=\"247\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"250.5\" y1=\"70\" x2=\"250.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"254\" y1=\"70\" x2=\"254\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"257.5\" y1=\"70\" x2=\"257.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"261\" y1=\"70\" x2=\"261\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"264.5\" y1=\"70\" x2=\"264.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"268\" y1=\"70\" x2=\"268\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"271.5\" y1=\"70\" x2=\"271.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"275\" y1=\"70\" x2=\"275\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"275\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">7</text><line x1=\"278.5\" y1=\"70\" x2=\"278.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"282\" y1=\"70\" x2=\"282\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"285.5\" y1=\"70\" x2=\"285.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"289\" y1=\"70\" x2=\"289\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"292.5\" y1=\"70\" x2=\"292.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"296\" y1=\"70\" x2=\"296\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"299.5\" y1=\"70\" x2=\"299.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"303\" y1=\"70\" x2=\"303\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"306.5\" y1=\"70\" x2=\"306.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"310\" y1=\"70\" x2=\"310\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"310\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">8</text><line x1=\"313.5\" y1=\"70\" x2=\"313.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"317\" y1=\"70\" x2=\"317\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"320.5\" y1=\"70\" x2=\"320.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"324\" y1=\"70\" x2=\"324\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"327.5\" y1=\"70\" x2=\"327.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"331\" y1=\"70\" x2=\"331\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"334.5\" y1=\"70\" x2=\"334.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"338\" y1=\"70\" x2=\"338\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"341.5\" y1=\"70\" x2=\"341.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"345\" y1=\"70\" x2=\"345\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"345\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">9</text><line x1=\"348.5\" y1=\"70\" x2=\"348.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"352\" y1=\"70\" x2=\"352\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"355.5\" y1=\"70\" x2=\"355.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"359\" y1=\"70\" x2=\"359\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"362.5\" y1=\"70\" x2=\"362.5\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"366\" y1=\"70\" x2=\"366\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"369.5\" y1=\"70\" x2=\"369.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"373\" y1=\"70\" x2=\"373\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"376.5\" y1=\"70\" x2=\"376.5\" y2=\"76\" stroke=\"#1f2937\" stroke-width=\"1\"/><line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"86\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"380\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">10</text><text x=\"384\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">cm</text><rect x=\"100\" y=\"30\" width=\"250.5\" height=\"22\" fill=\"#fb923c\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polygon points=\"350.5,30 362.5,41 350.5,52\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"52\" x2=\"100\" y2=\"70\" stroke=\"#2563eb\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"362.5\" y1=\"41\" x2=\"362.5\" y2=\"70\" stroke=\"#2563eb\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/></svg>","alt":"A crayon on a ruler. It starts at 2 cm and ends at 9.5 cm."},
+    "answer": 7.5,
+    "units": "cm",
+    "hints": ["Look at where the crayon starts. Is it at 0?","Length = end reading − start reading."],
+    "solution": "The crayon starts at 2 cm, not at 0, and ends at 9.5 cm. Sione just read the end.\n\nLength $= 9.5 - 2 = 7.5$ cm. The crayon is **7.5 cm** long."
+  },
+  {
+    "id": "m6.mea.units.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Tama writes: 4 kg 50 g = 4.5 kg. What is the correct answer?",
+    "options": [
+      {"id":"a","text":"4.05 kg"},
+      {"id":"b","text":"4.5 kg"},
+      {"id":"c","text":"4.50 kg"},
+      {"id":"d","text":"450 kg"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"0.5 kg is 500 g, not 50 g. Tama needs a zero in the tenths place.","c":"4.50 kg is the same as 4.5 kg, which is 4 kg 500 g.","d":"This is far too heavy. 4 kg and a little bit more is just over 4 kg."},
+    "hints": ["How many kilograms is 50 g? Remember 1000 g = 1 kg.","Is 50 g bigger or smaller than one tenth of a kilogram (100 g)?"],
+    "solution": "50 g = $50 \\div 1000 = 0.05$ kg. So 4 kg 50 g = **4.05 kg**. The 0 holds the tenths place, because 50 g is less than 100 g (one tenth of a kilogram)."
+  },
+  {
+    "id": "m6.mea.units.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A large bottle holds 2 L of milk. Mere pours 3 glasses of milk, and each glass holds 300 mL. How many millilitres of milk are left in the bottle?",
+    "answer": 1100,
+    "units": "mL",
+    "form": "integer",
+    "hints": ["Change 2 L into millilitres first.","How much milk do 3 glasses use?"],
+    "solution": "2 L = 2000 mL. Three glasses use $3 \\times 300 = 900$ mL.\n\n$2000 - 900 = 1100$, so **1100 mL** is left."
+  },
+  {
+    "id": "m6.mea.units.q015",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain how you could **estimate** the height of your classroom ceiling without climbing up to measure it.",
+    "modelAnswer": "I would use a benchmark. A classroom door is about 2 m tall. I would look at how many doors would fit, one on top of the other, up to the ceiling. If it looks like about one and a half doors, the ceiling is about 1.5 × 2 = 3 m high.",
+    "rubric": [
+      {"criterion":"Uses a benchmark with a known size, e.g. a door is about 2 m tall (or their own height)","marks":1},
+      {"criterion":"Explains comparing the ceiling with the benchmark to get an estimate, e.g. about one and a half doors so about 3 m","marks":1}
+    ],
+    "hints": ["Think of something in the room that you already know the height of."],
+    "solution": "Use a benchmark such as a door (about 2 m). If the ceiling looks about one and a half doors high, it is about 3 m high."
+  },
+  {
+    "id": "m6.mea.units.q016",
+    "type": "cloze",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "At athletics day, Hemi's long jump is 3.08 m and Aroha's long jump is 3.8 m.\n\n[[a]] jumped further, by [[b]] cm.",
+    "blanks": [
+      {"id":"a","accepted":["Aroha"],"options":["Hemi","Aroha"]},
+      {"id":"b","accepted":["72","72 cm","72cm"]}
+    ],
+    "marks": 2,
+    "hints": ["Change both jumps into centimetres.","3.08 m and 3.8 m are not the same: look at the tenths digit."],
+    "solution": "Hemi: 3.08 m = 308 cm. Aroha: 3.8 m = 380 cm.\n\n**Aroha** jumped further, by $380 - 308 =$ **72 cm**."
+  },
+  {
+    "id": "m6.mea.units.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A watering can holds 4.5 L. How many 250 mL cups of water would it take to fill it?",
+    "answer": 18,
+    "form": "integer",
+    "hints": ["How many 250 mL cups make 1 L?","Then work out how many cups make 4.5 L."],
+    "solution": "1 L = 1000 mL, and $1000 \\div 250 = 4$, so 4 cups make 1 L.\n\n4 L needs $4 \\times 4 = 16$ cups, and half a litre needs 2 more cups.\n\n$16 + 2 = 18$ cups."
+  },
+  {
+    "id": "m6.mea.units.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Mia walks 750 m to school and 750 m home again every day from Monday to Friday. How many kilometres does she walk in the week?",
+    "answer": 7.5,
+    "units": "km",
+    "marks": 2,
+    "hints": ["How far does Mia walk in one day?","Find the total for 5 days in metres, then change it to kilometres."],
+    "solution": "One day: $750 + 750 = 1500$ m.\n\nFive days: $5 \\times 1500 = 7500$ m.\n\n$7500 \\div 1000 = 7.5$, so Mia walks **7.5 km**."
+  },
+  {
+    "id": "m6.mea.units.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why 2.5 kg is the same as 2500 g. Use what the prefix **kilo-** means in your answer.",
+    "modelAnswer": "Kilo- means 1000 times bigger, so 1 kg = 1000 g. To change kilograms into grams I multiply by 1000. 2.5 × 1000 = 2500, so 2.5 kg = 2500 g. Another way: 2 kg is 2000 g and half a kilogram is 500 g, and 2000 + 500 = 2500 g.",
+    "rubric": [
+      {"criterion":"States that kilo- means 1000 times bigger, so 1 kg = 1000 g","marks":1},
+      {"criterion":"Shows that 2.5 × 1000 = 2500 (or 2000 g + 500 g = 2500 g)","marks":1}
+    ],
+    "hints": ["How many grams are in 1 kg?","What is half a kilogram in grams?"],
+    "solution": "Kilo- means 1000 times bigger, so 1 kg = 1000 g. $2.5 \\times 1000 = 2500$, so 2.5 kg = 2500 g."
+  },
+  {
+    "id": "m6.mea.units.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai is making fruit punch for the school disco. He mixes 1.5 L of orange juice, 750 mL of pineapple juice and 1.25 L of lemonade. How many 250 mL cups can he fill with the punch?",
+    "answer": 14,
+    "form": "integer",
+    "hints": ["Change all the amounts into millilitres and add them up.","How many 250 mL cups are in 1000 mL?"],
+    "solution": "In millilitres: 1.5 L = 1500 mL and 1.25 L = 1250 mL.\n\nTotal: $1500 + 750 + 1250 = 3500$ mL.\n\nThere are 4 cups in every 1000 mL, so 3000 mL fills 12 cups, and the last 500 mL fills 2 more.\n\nKai can fill **14 cups**."
+  },
+  {
+    "id": "m6.mea.units.q021",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ella's whānau buys 3 bottles of juice for a picnic. Each bottle holds 1.25 L. They pour glasses that each hold 200 mL.\n\nThey can pour [[a]] full glasses, and there will be [[b]] mL of juice left over.",
+    "blanks": [
+      {"id":"a","accepted":["18"]},
+      {"id":"b","accepted":["150","150 mL","150mL","150 ml"]}
+    ],
+    "hints": ["Find the total amount of juice in millilitres first.","How many 200 mL glasses fit into 1000 mL? Count on from there."],
+    "solution": "Each bottle is 1250 mL, so 3 bottles hold $3 \\times 1250 = 3750$ mL.\n\n5 glasses use 1000 mL, so 3000 mL fills 15 glasses. The last 750 mL fills 3 more glasses (600 mL), leaving 150 mL.\n\nThey can pour **18** full glasses with **150 mL** left over."
+  }
+]

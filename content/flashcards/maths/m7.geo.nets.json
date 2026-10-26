@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m7.geo.nets.f01",
+    "front": "What is a **3D shape**?",
+    "back": "A solid shape with length, width and height, such as a box or a dice."
+  },
+  {
+    "id": "m7.geo.nets.f02",
+    "front": "What is a **face**?",
+    "back": "A flat surface of a 3D shape."
+  },
+  {
+    "id": "m7.geo.nets.f03",
+    "front": "What is an **edge**?",
+    "back": "A line where two faces meet."
+  },
+  {
+    "id": "m7.geo.nets.f04",
+    "front": "What is a **vertex**? (plural: **vertices**)",
+    "back": "A corner, where edges meet."
+  },
+  {
+    "id": "m7.geo.nets.f05",
+    "front": "What is a **prism**?",
+    "back": "A solid with two identical ends joined by rectangles. It is named after its ends."
+  },
+  {
+    "id": "m7.geo.nets.f06",
+    "front": "What is a **pyramid**?",
+    "back": "A solid with one base and triangle faces that meet at a point (the apex). It is named after its base."
+  },
+  {
+    "id": "m7.geo.nets.f07",
+    "front": "What is a **cross-section**?",
+    "back": "The shape of a slice straight through a solid. A prism has the same cross-section all the way along."
+  },
+  {
+    "id": "m7.geo.nets.f08",
+    "front": "What is a **net**?",
+    "back": "A flat shape that folds up to make a 3D shape. It has one shape for each face."
+  },
+  {
+    "id": "m7.geo.nets.f09",
+    "front": "Prism with $n$-sided ends: faces, edges, vertices",
+    "back": "$n + 2$ faces, $3n$ edges and $2n$ vertices."
+  },
+  {
+    "id": "m7.geo.nets.f10",
+    "front": "Pyramid with an $n$-sided base: faces, edges, vertices",
+    "back": "$n + 1$ faces, $2n$ edges and $n + 1$ vertices."
+  },
+  {
+    "id": "m7.geo.nets.f11",
+    "front": "Cube: faces, edges, vertices",
+    "back": "6 faces, 12 edges and 8 vertices."
+  },
+  {
+    "id": "m7.geo.nets.f12",
+    "front": "How do you spot opposite faces in a cube net?",
+    "back": "In a straight line of three squares, the first and third squares are opposite."
+  }
+]

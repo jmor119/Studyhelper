@@ -1,0 +1,301 @@
+[
+  {
+    "id": "m7.pro.theoretical.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which word best describes an event with a probability of 0?",
+    "options": [
+      { "id": "a", "text": "Impossible" },
+      { "id": "b", "text": "Unlikely" },
+      { "id": "c", "text": "Even chance" },
+      { "id": "d", "text": "Certain" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Unlikely events have a small probability, but it is more than 0. They can still happen.",
+      "c": "An even chance is a probability of $\\frac{1}{2}$.",
+      "d": "Certain events have a probability of 1."
+    },
+    "hints": ["The probability scale goes from 0 to 1. What is at the 0 end?"],
+    "solution": "A probability of 0 means the event can never happen: it is **impossible**. For example, rolling a 7 on a normal die."
+  },
+  {
+    "id": "m7.pro.theoretical.q002",
+    "type": "order",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A fair six-sided die is rolled. Put these events in order from **least** likely to **most** likely.",
+    "items": [
+      { "id": "e1", "text": "Rolling a 7" },
+      { "id": "e2", "text": "Rolling a 6" },
+      { "id": "e3", "text": "Rolling an even number" },
+      { "id": "e4", "text": "Rolling a number less than 6" },
+      { "id": "e5", "text": "Rolling a number less than 7" }
+    ],
+    "hints": ["Count how many of the outcomes 1 to 6 fit each event."],
+    "solution": "Rolling a 7: 0 ways ($0$). Rolling a 6: 1 way ($\\frac{1}{6}$). Even: 3 ways ($\\frac{1}{2}$). Less than 6: 5 ways ($\\frac{5}{6}$). Less than 7: all 6 ways (1, certain)."
+  },
+  {
+    "id": "m7.pro.theoretical.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 4 red and 6 blue counters. Mere takes one counter without looking. What is the probability that it is red? Give your answer as a fraction.",
+    "answer": 0.4,
+    "form": "fraction",
+    "hints": ["How many counters are there altogether?", "How many of them are red?"],
+    "solution": "There are $4 + 6 = 10$ counters, and 4 are red.\n\n$P(\\text{red}) = \\frac{4}{10} = \\frac{2}{5}$"
+  },
+  {
+    "id": "m7.pro.theoretical.q004",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "out", "text": "Outcome" }, "right": { "id": "d1", "text": "One possible result" } },
+      { "left": { "id": "ev", "text": "Event" }, "right": { "id": "d2", "text": "One outcome, or a group of outcomes" } },
+      { "left": { "id": "ss", "text": "Sample space" }, "right": { "id": "d3", "text": "The list of all possible outcomes" } },
+      { "left": { "id": "comp", "text": "Complement" }, "right": { "id": "d4", "text": "Everything in the sample space that is not the event" } }
+    ],
+    "hints": ["For a die, the sample space is 1, 2, 3, 4, 5, 6."],
+    "solution": "Outcome: one result, e.g. rolling a 4. Event: a group of outcomes, e.g. rolling an even number. Sample space: all outcomes, 1 to 6. Complement: everything that isn't the event, e.g. rolling an odd number."
+  },
+  {
+    "id": "m7.pro.theoretical.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A fair six-sided die is rolled. Select **all** the events that have a probability of $\\frac{1}{2}$.",
+    "options": [
+      { "id": "a", "text": "Rolling an even number" },
+      { "id": "b", "text": "Rolling an odd number" },
+      { "id": "c", "text": "Rolling a number greater than 3" },
+      { "id": "d", "text": "Rolling a prime number" },
+      { "id": "e", "text": "Rolling a multiple of 3" },
+      { "id": "f", "text": "Rolling a number less than 3" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["An event with probability $\\frac{1}{2}$ must include 3 of the 6 outcomes.", "List the outcomes for each event."],
+    "solution": "Even: 2, 4, 6. Odd: 1, 3, 5. Greater than 3: 4, 5, 6. Prime: 2, 3, 5. Each has 3 outcomes, so $P = \\frac{3}{6} = \\frac{1}{2}$.\n\nMultiple of 3: 3, 6 and less than 3: 1, 2 each have only 2 outcomes, so $P = \\frac{2}{6} = \\frac{1}{3}$."
+  },
+  {
+    "id": "m7.pro.theoretical.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ethan spins this spinner. All 8 sections are the same size. What is the probability that it lands on **blue or green**? Give your answer as a percentage.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" width=\"240\" height=\"240\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 120 120 L 120 20 A 100 100 0 0 1 190.71 49.29 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"144.49\" y=\"60.87\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">red</text><path d=\"M 120 120 L 190.71 49.29 A 100 100 0 0 1 220 120 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"179.13\" y=\"95.51\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 220 120 A 100 100 0 0 1 190.71 190.71 Z\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"179.13\" y=\"144.49\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">green</text><path d=\"M 120 120 L 190.71 190.71 A 100 100 0 0 1 120 220 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"144.49\" y=\"179.13\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">red</text><path d=\"M 120 120 L 120 220 A 100 100 0 0 1 49.29 190.71 Z\" fill=\"#fde047\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"95.51\" y=\"179.13\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">yellow</text><path d=\"M 120 120 L 49.29 190.71 A 100 100 0 0 1 20 120 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60.87\" y=\"144.49\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">blue</text><path d=\"M 120 120 L 20 120 A 100 100 0 0 1 49.29 49.29 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60.87\" y=\"95.51\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">red</text><path d=\"M 120 120 L 49.29 49.29 A 100 100 0 0 1 120 20 Z\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"95.51\" y=\"60.87\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">green</text><line x1=\"120\" y1=\"120\" x2=\"137\" y2=\"90.56\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"120\" r=\"6\" fill=\"#1f2937\"/></svg>", "alt": "A spinner with 8 equal sections: 3 red, 2 blue, 2 green and 1 yellow." },
+    "answer": 50,
+    "units": "%",
+    "hints": ["How many sections are blue or green?", "Write the probability as a fraction, then change it to a percentage."],
+    "solution": "2 blue + 2 green = 4 of the 8 sections.\n\n$P = \\frac{4}{8} = \\frac{1}{2} = 50\\%$"
+  },
+  {
+    "id": "m7.pro.theoretical.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 3 red, 2 blue and 5 green counters. Mere says, \"There are 3 red counters and 7 others, so $P(\\text{red}) = \\frac{3}{7}$.\" What is her mistake?",
+    "options": [
+      { "id": "a", "text": "She should divide by the total number of counters: $P(\\text{red}) = \\frac{3}{10}$" },
+      { "id": "b", "text": "There is no mistake" },
+      { "id": "c", "text": "She should have written $\\frac{7}{3}$" },
+      { "id": "d", "text": "It should be $\\frac{1}{3}$, because there are three colours" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{3}{7}$ compares red with the other counters. A probability compares red with **all** the counters.",
+      "c": "A probability can't be more than 1, and $\\frac{7}{3}$ is more than 1.",
+      "d": "The colours aren't equally likely, because there are different numbers of each. Count the counters, not the colours."
+    },
+    "hints": ["What goes on the bottom of a probability fraction?"],
+    "solution": "The denominator is the **total** number of equally likely outcomes: $3 + 2 + 5 = 10$ counters. So $P(\\text{red}) = \\frac{3}{10}$."
+  },
+  {
+    "id": "m7.pro.theoretical.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The probability that it rains in Wellington tomorrow is 0.3. What is the probability that it does **not** rain? Give your answer as a decimal.",
+    "answer": 0.7,
+    "form": "decimal",
+    "hints": ["An event and its complement add up to 1."],
+    "solution": "$P(\\text{no rain}) = 1 - 0.3 = 0.7$"
+  },
+  {
+    "id": "m7.pro.theoretical.q009",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Complete: $\\frac{1}{4}$ = [[a]] (as a decimal) = [[b]]% (as a percentage).",
+    "blanks": [
+      { "id": "a", "accepted": ["0.25", ".25"] },
+      { "id": "b", "accepted": ["25"] }
+    ],
+    "hints": ["Make an equivalent fraction out of 100."],
+    "solution": "$\\frac{1}{4} = \\frac{25}{100} = 0.25 = 25\\%$"
+  },
+  {
+    "id": "m7.pro.theoretical.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is more likely: rolling a 6 on a fair die, or getting a 1 on a spinner with five equal sections numbered 1 to 5?",
+    "options": [
+      { "id": "a", "text": "Getting a 1 on the spinner" },
+      { "id": "b", "text": "Rolling a 6 on the die" },
+      { "id": "c", "text": "They are equally likely" },
+      { "id": "d", "text": "You can't tell" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{1}{6}$ is smaller than $\\frac{1}{5}$: the whole is shared into more parts.",
+      "c": "Each has one favourable outcome, but the totals are different (6 and 5).",
+      "d": "You can work out both probabilities and compare them."
+    },
+    "hints": ["Write each probability as a fraction.", "Which is bigger, $\\frac{1}{5}$ or $\\frac{1}{6}$?"],
+    "solution": "$P(\\text{6 on the die}) = \\frac{1}{6}$ and $P(\\text{1 on the spinner}) = \\frac{1}{5}$.\n\n$\\frac{1}{5} = 20\\%$ is bigger than $\\frac{1}{6}$ (about 17%), so the **spinner** is more likely."
+  },
+  {
+    "id": "m7.pro.theoretical.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Two coins are tossed. What is the probability of getting **one head and one tail**? Give your answer as a fraction.",
+    "answer": 0.5,
+    "form": "fraction",
+    "hints": ["List all the outcomes systematically: HH, HT, …", "How many of them have one head and one tail?"],
+    "solution": "The outcomes are HH, HT, TH and TT: 4 equally likely outcomes.\n\nOne head and one tail: HT and TH, so 2 outcomes.\n\n$P = \\frac{2}{4} = \\frac{1}{2}$"
+  },
+  {
+    "id": "m7.pro.theoretical.q012",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for the list of all possible outcomes of an experiment?",
+    "accepted": ["sample space", "the sample space"],
+    "hints": ["It is made of two words. The second one is \"space\"."],
+    "solution": "It is the **sample space**. For a coin it is {heads, tails}; for a die it is {1, 2, 3, 4, 5, 6}."
+  },
+  {
+    "id": "m7.pro.theoretical.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Aroha tosses three coins. The tree diagram shows all the outcomes. What is the probability of getting **exactly two heads**? Give your answer as a fraction.",
+    "figure": { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 356 252\" width=\"356\" height=\"252\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><circle cx=\"14\" cy=\"126\" r=\"3\" fill=\"#1f2937\"/><line x1=\"17\" y1=\"126\" x2=\"98.36\" y2=\"70\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"106\" y=\"70\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><line x1=\"113.64\" y1=\"70\" x2=\"190.36\" y2=\"42\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"198\" y=\"42\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><line x1=\"205.64\" y1=\"42\" x2=\"282.36\" y2=\"28\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"28\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><text x=\"319.64\" y=\"28\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">HHH</text><line x1=\"205.64\" y1=\"42\" x2=\"282.36\" y2=\"56\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><text x=\"319.64\" y=\"56\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">HHT</text><line x1=\"113.64\" y1=\"70\" x2=\"190.36\" y2=\"98\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"198\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><line x1=\"205.64\" y1=\"98\" x2=\"282.36\" y2=\"84\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"84\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><text x=\"319.64\" y=\"84\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">HTH</text><line x1=\"205.64\" y1=\"98\" x2=\"282.36\" y2=\"112\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"112\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><text x=\"319.64\" y=\"112\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">HTT</text><line x1=\"17\" y1=\"126\" x2=\"98.36\" y2=\"182\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"106\" y=\"182\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><line x1=\"113.64\" y1=\"182\" x2=\"190.36\" y2=\"154\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"198\" y=\"154\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><line x1=\"205.64\" y1=\"154\" x2=\"282.36\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"140\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><text x=\"319.64\" y=\"140\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">THH</text><line x1=\"205.64\" y1=\"154\" x2=\"282.36\" y2=\"168\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"168\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><text x=\"319.64\" y=\"168\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">THT</text><line x1=\"113.64\" y1=\"182\" x2=\"190.36\" y2=\"210\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"198\" y=\"210\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><line x1=\"205.64\" y1=\"210\" x2=\"282.36\" y2=\"196\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"196\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">H</text><text x=\"319.64\" y=\"196\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">TTH</text><line x1=\"205.64\" y1=\"210\" x2=\"282.36\" y2=\"224\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"290\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">T</text><text x=\"319.64\" y=\"224\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#2563eb\">TTT</text></svg>", "alt": "Tree diagram for tossing three coins. Each coin branches into H and T. The eight outcomes are HHH, HHT, HTH, HTT, THH, THT, TTH and TTT." },
+    "answer": 0.375,
+    "form": "fraction",
+    "hints": ["How many outcomes are at the end of the branches?", "Which outcomes have exactly two Hs?"],
+    "solution": "There are 8 equally likely outcomes. Exactly two heads: HHT, HTH and THH (3 outcomes).\n\n$P = \\frac{3}{8}$"
+  },
+  {
+    "id": "m7.pro.theoretical.q014",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana says, \"For this spinner, the probability of red is 0.6 and the probability of not red is 0.5.\"\n\nExplain why Ana must have made a mistake.",
+    "modelAnswer": "An event and its complement must add up to 1, because one of them always happens. But $0.6 + 0.5 = 1.1$, which is more than 1. If $P(\\text{red}) = 0.6$, then $P(\\text{not red})$ must be $1 - 0.6 = 0.4$.",
+    "rubric": [
+      { "criterion": "States that an event and its complement must add up to 1", "marks": 1 },
+      { "criterion": "Shows that 0.6 + 0.5 = 1.1 is more than 1, or gives the correct value 0.4", "marks": 1 }
+    ],
+    "hints": ["What do P(red) and P(not red) always add up to?"],
+    "solution": "$P(\\text{red}) + P(\\text{not red})$ must equal 1. Ana's values add to $1.1$, so at least one of them is wrong. If $P(\\text{red}) = 0.6$, then $P(\\text{not red}) = 0.4$."
+  },
+  {
+    "id": "m7.pro.theoretical.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Spinner A has 8 equal sections, and 3 of them are red. Spinner B has 5 equal sections, and 2 of them are red. Which spinner gives the better chance of landing on red?",
+    "options": [
+      { "id": "a", "text": "Spinner B" },
+      { "id": "b", "text": "Spinner A, because it has more red sections" },
+      { "id": "c", "text": "They give the same chance" },
+      { "id": "d", "text": "You can't compare spinners with different numbers of sections" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "More red sections doesn't always mean a better chance. Compare the fraction of each spinner that is red.",
+      "c": "Write both as decimals or percentages: they are not equal.",
+      "d": "You can compare them by writing both probabilities in the same form."
+    },
+    "hints": ["Write each probability as a fraction, then as a decimal or percentage."],
+    "solution": "Spinner A: $\\frac{3}{8} = 0.375$ (37.5%). Spinner B: $\\frac{2}{5} = 0.4$ (40%).\n\n0.4 is bigger, so **Spinner B** gives the better chance."
+  },
+  {
+    "id": "m7.pro.theoretical.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Mateo spins two spinners and adds the numbers. Each spinner has three equal sections numbered 1, 2 and 3. What is the probability that the total is **4**? Give your answer as a fraction in simplest form.",
+    "answer": 0.3333333333333333,
+    "form": "simplest-fraction",
+    "hints": ["Draw a table with spinner 1 down the side and spinner 2 across the top.", "How many cells in the table have a total of 4?"],
+    "solution": "| + | 1 | 2 | 3 |\n|---|---|---|---|\n| **1** | 2 | 3 | 4 |\n| **2** | 3 | 4 | 5 |\n| **3** | 4 | 5 | 6 |\n\nThere are 9 equally likely outcomes, and 3 of them give a total of 4.\n\n$P = \\frac{3}{9} = \\frac{1}{3}$"
+  },
+  {
+    "id": "m7.pro.theoretical.q017",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sione says, \"When you toss two coins, there are three things that can happen: two heads, two tails, or one of each. So the probability of two heads is $\\frac{1}{3}$.\"\n\nExplain Sione's mistake, and give the correct probability of two heads.",
+    "modelAnswer": "Sione's three results are not equally likely. \"One of each\" can happen in two ways: a head then a tail (HT), or a tail then a head (TH). The four equally likely outcomes are HH, HT, TH and TT. Only HH is two heads, so the probability of two heads is $\\frac{1}{4}$.",
+    "rubric": [
+      { "criterion": "Explains that the three results aren't equally likely, because \"one of each\" can happen two ways (HT and TH), giving 4 outcomes", "marks": 1 },
+      { "criterion": "Gives the correct probability, $\\frac{1}{4}$", "marks": 1 }
+    ],
+    "hints": ["Draw a tree diagram for two coins.", "Are Sione's three results equally likely?"],
+    "solution": "The four equally likely outcomes are HH, HT, TH and TT. \"One of each\" covers two of them, so it is twice as likely as two heads. $P(\\text{two heads}) = \\frac{1}{4}$."
+  },
+  {
+    "id": "m7.pro.theoretical.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A bag has only red and blue counters. The probability of picking a red counter is $\\frac{3}{8}$. There are 15 blue counters. How many red counters are there?",
+    "answer": 9,
+    "form": "integer",
+    "hints": ["What is the probability of picking a blue counter?", "If $\\frac{5}{8}$ of the counters are blue, what is $\\frac{1}{8}$ of the counters?"],
+    "solution": "$P(\\text{blue}) = 1 - \\frac{3}{8} = \\frac{5}{8}$, so $\\frac{5}{8}$ of the counters are blue.\n\n$\\frac{5}{8}$ of the counters is 15, so $\\frac{1}{8}$ is $15 \\div 5 = 3$.\n\nRed counters: $\\frac{3}{8}$, which is $3 \\times 3 = 9$.\n\nCheck: 9 red + 15 blue = 24 counters, and $\\frac{9}{24} = \\frac{3}{8}$ ✓"
+  },
+  {
+    "id": "m7.pro.theoretical.q019",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "A spinner can land on red, blue or green. The sections are **not** all the same size. A sign gives the probability of each colour:\n\n- Red: 0.45\n- Blue: 25%\n- Green: $\\frac{3}{10}$\n\nCould these probabilities be correct?",
+    "options": [
+      { "id": "a", "text": "Yes, because they add up to exactly 1" },
+      { "id": "b", "text": "No, because they are written in different forms" },
+      { "id": "c", "text": "No, because they add up to more than 1" },
+      { "id": "d", "text": "Yes, because each one is less than 1" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Probabilities can be written in any form. Change them to the same form to check them.",
+      "c": "Change them all to decimals and add them carefully.",
+      "d": "Each probability must be between 0 and 1, but they must also add up to 1."
+    },
+    "hints": ["Change all three to decimals.", "The probabilities of all the outcomes must add up to 1."],
+    "solution": "$25\\% = 0.25$ and $\\frac{3}{10} = 0.3$.\n\n$0.45 + 0.25 + 0.3 = 1$\n\nThey add up to exactly 1, so **yes**, they could be correct."
+  },
+  {
+    "id": "m7.pro.theoretical.q020",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Raffle tickets numbered 1 to 20 are put in a hat. Liam draws one at random. What is the probability that the number is a multiple of 5? Give your answer as a percentage.",
+    "answer": 20,
+    "units": "%",
+    "hints": ["List the multiples of 5 from 1 to 20.", "Write the probability as a fraction, then make it out of 100."],
+    "solution": "Multiples of 5: 5, 10, 15, 20. That's 4 out of 20.\n\n$\\frac{4}{20} = \\frac{20}{100} = 20\\%$"
+  }
+]

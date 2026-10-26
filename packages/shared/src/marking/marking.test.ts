@@ -181,6 +181,18 @@ describe('expressions', () => {
 describe('textMatches', () => {
   it('is lenient with case, articles, US spelling and small typos', () => {
     expect(textMatches('The Nucleus', 'nucleus', true)).toBe(true);
+    // Negative signs survive, in any dash style; numbers compare by value.
+    expect(textMatches('14', '−14', true)).toBe(false);
+    expect(textMatches('−14', '-14', true)).toBe(true);
+    expect(textMatches('-3', '−3', false)).toBe(true);
+    expect(textMatches('.4', '0.40', true)).toBe(true);
+    expect(textMatches('1,283', '1283', true)).toBe(true);
+    expect(textMatches('1 283', '1283', false)).toBe(true);
+    expect(textMatches('07', '7', false)).toBe(true);
+    // Look-alike subject words are not typos.
+    expect(textMatches('north-west', 'north-east', true)).toBe(false);
+    expect(textMatches('hundreds', 'hundredths', true)).toBe(false);
+    expect(textMatches('paralelogram', 'parallelogram', true)).toBe(true);
     expect(textMatches('vapor', 'vapour', true)).toBe(true);
     expect(textMatches('photosynthesis', 'photosynthesis', true)).toBe(true);
     expect(textMatches('photosyntesis', 'photosynthesis', true)).toBe(true);
@@ -219,7 +231,20 @@ describe('markResponse', () => {
   it('marks numeric answers with tolerance, units and forms', () => {
     const area = q({ type: 'numeric', answer: 12.57, decimals: 2, units: 'cm²' });
     expect(markResponse(area, { type: 'numeric', value: '12.57' }).correct).toBe(true);
-    expect(markResponse(area, { type: 'numeric', value: '12.566' }).correct).toBe(true);
+    // Unrounded: half marks and a reminder; exact value with a trailing zero is fine.
+    const unrounded = markResponse(area, { type: 'numeric', value: '12.566' });
+    expect(unrounded.correct).toBe(false);
+    expect(unrounded.score).toBe(0.5);
+    expect(unrounded.feedback).toMatch(/round/);
+    expect(markResponse(area, { type: 'numeric', value: '12.570' }).correct).toBe(true);
+    // Plural word units and cents for a dollar answer.
+    const cups = q({ type: 'numeric', answer: 1.5, units: 'cups' });
+    expect(markResponse(cups, { type: 'numeric', value: '1.5 cup' }).correct).toBe(true);
+    const metres = q({ type: 'numeric', answer: 4, units: 'm' });
+    expect(markResponse(metres, { type: 'numeric', value: '4 ms' }).correct).toBe(false);
+    const dollars = q({ type: 'numeric', answer: 0.45, units: '$' });
+    expect(markResponse(dollars, { type: 'numeric', value: '45c' }).correct).toBe(true);
+    expect(markResponse(dollars, { type: 'numeric', value: '45' }).correct).toBe(false);
     expect(markResponse(area, { type: 'numeric', value: '12.57 cm^2' }).correct).toBe(true);
     expect(markResponse(area, { type: 'numeric', value: '12.57 m' }).correct).toBe(false);
     expect(markResponse(area, { type: 'numeric', value: '12.6' }).correct).toBe(false);

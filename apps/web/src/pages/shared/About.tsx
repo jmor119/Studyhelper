@@ -95,7 +95,7 @@ export default function About() {
         <section id="what" className="mt-10 scroll-mt-6" aria-labelledby="what-title">
           <H2 id="what-title">What Study Helper is</H2>
           <p className="mt-3">
-            Study Helper is an exam-prep and study app for New Zealand students, starting with Year 9 Mathematics &amp; Statistics and Science. It has short lessons, practice
+            Study Helper is an exam-prep and study app for New Zealand students. It covers Mathematics &amp; Statistics for Years 6, 7 and 9, and Year 9 Science, with more years to come. It has short lessons, practice
             questions marked straight away with worked solutions, mock exams, flashcards, a study planner, and an AI tutor that helps you learn rather than doing the work for
             you.
           </p>

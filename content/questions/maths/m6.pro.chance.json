@@ -1,0 +1,325 @@
+[
+  {
+    "id": "m6.pro.chance.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each chance word to its probability.",
+    "pairs": [
+      { "left": { "id": "imp", "text": "Impossible" }, "right": { "id": "p0", "text": "0" } },
+      { "left": { "id": "unl", "text": "Unlikely" }, "right": { "id": "p1", "text": "Between 0 and $\\frac{1}{2}$" } },
+      { "left": { "id": "even", "text": "Even chance" }, "right": { "id": "p2", "text": "$\\frac{1}{2}$" } },
+      { "left": { "id": "lik", "text": "Likely" }, "right": { "id": "p3", "text": "Between $\\frac{1}{2}$ and 1" } },
+      { "left": { "id": "cert", "text": "Certain" }, "right": { "id": "p4", "text": "1" } }
+    ],
+    "hints": ["Picture the probability line from 0 to 1."],
+    "solution": "Impossible is 0, even chance is $\\frac{1}{2}$ and certain is 1. Unlikely is between 0 and $\\frac{1}{2}$, and likely is between $\\frac{1}{2}$ and 1."
+  },
+  {
+    "id": "m6.pro.chance.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these events is **impossible**?",
+    "options": [
+      { "id": "a", "text": "Rolling a 7 on a normal six-sided die" },
+      { "id": "b", "text": "Getting heads when you toss a coin" },
+      { "id": "c", "text": "Rolling a 6 on a normal six-sided die" },
+      { "id": "d", "text": "Taking a red counter from a bag of only red counters" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Heads is one of the two outcomes, so it is an even chance.",
+      "c": "6 is on the die, so it can happen. It is unlikely, not impossible.",
+      "d": "Every counter is red, so this is certain."
+    },
+    "hints": ["Impossible means it cannot happen at all."],
+    "solution": "A normal die has the numbers 1 to 6. There is no 7, so rolling a 7 is **impossible**."
+  },
+  {
+    "id": "m6.pro.chance.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Choose the right word for each gap.\n\nOne roll of a die is called a [[a]].\n\nRolling a 4 is one [[b]].\n\nThe list 1, 2, 3, 4, 5, 6 is the [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["trial"], "options": ["trial", "outcome", "sample space", "event"] },
+      { "id": "b", "accepted": ["outcome"], "options": ["trial", "outcome", "sample space", "event"] },
+      { "id": "c", "accepted": ["sample space"], "options": ["trial", "outcome", "sample space", "event"] }
+    ],
+    "hints": ["The sample space lists every possible outcome."],
+    "solution": "One go is a **trial**. One result is an **outcome**. The list of every possible outcome is the **sample space**."
+  },
+  {
+    "id": "m6.pro.chance.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 2 red and 3 blue counters. Sione takes one without looking. What is the probability that it is red? Give your answer as a fraction.",
+    "answer": 0.4,
+    "hints": ["How many counters are there altogether?", "The top of the fraction is the number of red counters."],
+    "solution": "There are $2 + 3 = 5$ counters and 2 are red. $P(\\text{red}) = \\frac{2}{5}$."
+  },
+  {
+    "id": "m6.pro.chance.q005",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "The probabilities of all the outcomes always add up to what number?",
+    "accepted": ["1", "one"],
+    "hints": ["Something must happen. What is the probability of something certain?"],
+    "solution": "They add up to **1**, because one of the outcomes is certain to happen."
+  },
+  {
+    "id": "m6.pro.chance.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these probabilities shows the event that is **most likely** to happen?",
+    "options": [
+      { "id": "a", "text": "$\\frac{3}{4}$" },
+      { "id": "b", "text": "0.3" },
+      { "id": "c", "text": "$\\frac{1}{2}$" },
+      { "id": "d", "text": "0.65" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "0.3 is less than a half, so it is unlikely.",
+      "c": "$\\frac{1}{2}$ is an even chance. One of the others is closer to 1.",
+      "d": "0.65 is likely, but $\\frac{3}{4} = 0.75$ is bigger."
+    },
+    "hints": ["The closer a probability is to 1, the more likely it is.", "Write them all as decimals: $\\frac{3}{4} = 0.75$."],
+    "solution": "As decimals: 0.75, 0.3, 0.5 and 0.65. The biggest is 0.75, so $\\frac{3}{4}$ is the most likely."
+  },
+  {
+    "id": "m6.pro.chance.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha rolls a normal six-sided die. What is the probability that she rolls a number greater than 2? Give your answer as a fraction.",
+    "answer": 0.6666666666666666,
+    "hints": ["List the numbers on a die that are greater than 2."],
+    "solution": "3, 4, 5 and 6 are greater than 2. That is 4 of the 6 outcomes, so $P = \\frac{4}{6} = \\frac{2}{3}$."
+  },
+  {
+    "id": "m6.pro.chance.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 3 green and 5 yellow lollies. Isla says, \"The probability of taking a green lolly is $\\frac{3}{5}$.\" What has Isla done wrong?",
+    "options": [
+      { "id": "a", "text": "She put the number of yellow lollies on the bottom. It should be the total: $\\frac{3}{8}$." },
+      { "id": "b", "text": "Nothing. $\\frac{3}{5}$ is right." },
+      { "id": "c", "text": "The fraction is upside down. It should be $\\frac{5}{3}$." },
+      { "id": "d", "text": "She should have used the yellow lollies on top: $\\frac{5}{8}$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The bottom of the fraction must be the total number of lollies, which is 8.",
+      "c": "A probability is never more than 1, and $\\frac{5}{3}$ is more than 1.",
+      "d": "$\\frac{5}{8}$ is the probability of yellow, not green."
+    },
+    "hints": ["How many lollies are there altogether?"],
+    "solution": "There are $3 + 5 = 8$ lollies, so $P(\\text{green}) = \\frac{3}{8}$. Isla used the number of yellow lollies (5) on the bottom instead of the total."
+  },
+  {
+    "id": "m6.pro.chance.q009",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tevita rolls a normal six-sided die once. Select **all** the events that are **likely**.",
+    "options": [
+      { "id": "a", "text": "Rolling a number less than 5" },
+      { "id": "b", "text": "Rolling a 6" },
+      { "id": "c", "text": "Rolling a number greater than 1" },
+      { "id": "d", "text": "Rolling an odd number" },
+      { "id": "e", "text": "Rolling a number that is not 3" },
+      { "id": "f", "text": "Rolling a 7" }
+    ],
+    "correct": ["a", "c", "e"],
+    "hints": ["Likely means more than half of the 6 outcomes: 4, 5 or 6 of them (but not all 6)."],
+    "solution": "Less than 5: 4 outcomes (likely). A 6: 1 outcome (unlikely). Greater than 1: 5 outcomes (likely). Odd: 3 outcomes (even chance). Not 3: 5 outcomes (likely). A 7: 0 outcomes (impossible)."
+  },
+  {
+    "id": "m6.pro.chance.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The spinner has 8 equal sections. Ella spins it once. What is the probability that it lands on red **or** blue? Give your answer as a fraction.",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 125 125 L 125 20 A 105 105 0 0 1 199.25 50.75 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"151.79\" y=\"60.33\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Red</text><path d=\"M 125 125 L 199.25 50.75 A 105 105 0 0 1 230 125 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"189.67\" y=\"98.21\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Blue</text><path d=\"M 125 125 L 230 125 A 105 105 0 0 1 199.25 199.25 Z\" fill=\"#fde047\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"189.67\" y=\"151.79\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Yellow</text><path d=\"M 125 125 L 199.25 199.25 A 105 105 0 0 1 125 230 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"151.79\" y=\"189.67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Red</text><path d=\"M 125 125 L 125 230 A 105 105 0 0 1 50.75 199.25 Z\" fill=\"#fde047\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"98.21\" y=\"189.67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Yellow</text><path d=\"M 125 125 L 50.75 199.25 A 105 105 0 0 1 20 125 Z\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60.33\" y=\"151.79\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Blue</text><path d=\"M 125 125 L 20 125 A 105 105 0 0 1 50.75 50.75 Z\" fill=\"#fca5a5\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"60.33\" y=\"98.21\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Red</text><path d=\"M 125 125 L 50.75 50.75 A 105 105 0 0 1 125 20 Z\" fill=\"#fde047\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"98.21\" y=\"60.33\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Yellow</text><line x1=\"125\" y1=\"125\" x2=\"142\" y2=\"95.56\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"125\" cy=\"125\" r=\"6\" fill=\"#1f2937\"/></svg>","alt":"A spinner with 8 equal sections: red, blue, yellow, red, yellow, blue, red, yellow."},
+    "answer": 0.625,
+    "hints": ["Count the red sections and the blue sections.", "There are 8 equal sections altogether."],
+    "solution": "There are 3 red sections and 2 blue sections: $3 + 2 = 5$. So $P(\\text{red or blue}) = \\frac{5}{8}$."
+  },
+  {
+    "id": "m6.pro.chance.q011",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The dashed lines split this spinner into 4 equal parts. Choose the probability of each colour.\n\n$P(\\text{green})$ = [[g]]\n\n$P(\\text{orange})$ = [[o]]\n\n$P(\\text{purple})$ = [[p]]",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><path d=\"M 125 125 L 125 20 A 105 105 0 0 1 125 230 Z\" fill=\"#86efac\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"125\" y1=\"125\" x2=\"230\" y2=\"125\" stroke=\"#6b7280\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><text x=\"161.77\" y=\"161.77\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Green</text><path d=\"M 125 125 L 125 230 A 105 105 0 0 1 20 125 Z\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75.5\" y=\"174.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Orange</text><path d=\"M 125 125 L 20 125 A 105 105 0 0 1 125 20 Z\" fill=\"#d8b4fe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"75.5\" y=\"75.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" font-weight=\"bold\">Purple</text><line x1=\"125\" y1=\"125\" x2=\"142\" y2=\"95.56\" stroke=\"#1f2937\" stroke-width=\"3\"/><circle cx=\"125\" cy=\"125\" r=\"6\" fill=\"#1f2937\"/></svg>","alt":"A spinner split into 4 equal parts by dashed lines. Green covers 2 parts, orange covers 1 part and purple covers 1 part."},
+    "blanks": [
+      { "id": "g", "accepted": ["1/2"], "options": ["1/2", "1/3", "1/4", "3/4"] },
+      { "id": "o", "accepted": ["1/4"], "options": ["1/2", "1/3", "1/4", "3/4"] },
+      { "id": "p", "accepted": ["1/4"], "options": ["1/2", "1/3", "1/4", "3/4"] }
+    ],
+    "hints": ["How many of the 4 equal parts does each colour cover?", "There are 3 colours, but they are not equally likely."],
+    "solution": "Green covers 2 of the 4 parts: $\\frac{2}{4} = \\frac{1}{2}$. Orange and purple each cover 1 part: $\\frac{1}{4}$. Check: $\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{4} = 1$ ✓"
+  },
+  {
+    "id": "m6.pro.chance.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "In Room 5 there are 30 students. 12 walk to school, 10 come by bus and 8 come by car. The teacher picks one student at random. What is the probability that the student comes by bus? Give your answer as a fraction in simplest form.",
+    "answer": 0.3333333333333333,
+    "form": "simplest-fraction",
+    "hints": ["How many students come by bus? How many students are there altogether?", "Then simplify the fraction."],
+    "solution": "10 of the 30 students come by bus. $P(\\text{bus}) = \\frac{10}{30} = \\frac{1}{3}$."
+  },
+  {
+    "id": "m6.pro.chance.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ana wins if a spinner lands on red. Kai wins if it lands on blue. Which spinner gives them **the same chance** of winning?",
+    "options": [
+      { "id": "a", "text": "4 equal sections: red, blue, red, blue" },
+      { "id": "b", "text": "3 equal sections: red, red, blue" },
+      { "id": "c", "text": "Half red, a quarter blue and a quarter green" },
+      { "id": "d", "text": "5 equal sections: red, blue, red, green, yellow" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Red has 2 of the 3 sections and blue has only 1, so Ana is more likely to win.",
+      "c": "Red covers $\\frac{1}{2}$ but blue only covers $\\frac{1}{4}$.",
+      "d": "Red has 2 of the 5 sections and blue has 1."
+    },
+    "hints": ["Work out $P(\\text{red})$ and $P(\\text{blue})$ for each spinner."],
+    "solution": "On the spinner with red, blue, red, blue, $P(\\text{red}) = \\frac{2}{4}$ and $P(\\text{blue}) = \\frac{2}{4}$. They are equal, so Ana and Kai have the same chance."
+  },
+  {
+    "id": "m6.pro.chance.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 20 marbles. The probability of taking a blue marble is $\\frac{1}{4}$. How many blue marbles are in the bag?",
+    "answer": 5,
+    "form": "integer",
+    "hints": ["$\\frac{1}{4}$ of the marbles are blue.", "Find $\\frac{1}{4}$ of 20."],
+    "solution": "$\\frac{1}{4}$ of 20 is $20 \\div 4 = 5$. There are **5** blue marbles. Check: $\\frac{5}{20} = \\frac{1}{4}$ ✓"
+  },
+  {
+    "id": "m6.pro.chance.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A spinner has only red, blue and green parts. $P(\\text{red}) = \\frac{1}{4}$ and $P(\\text{blue}) = \\frac{1}{2}$. What is $P(\\text{green})$? Give your answer as a fraction.",
+    "answer": 0.25,
+    "hints": ["All the probabilities add up to 1.", "Write $\\frac{1}{2}$ in quarters first."],
+    "solution": "$\\frac{1}{2} = \\frac{2}{4}$, so $\\frac{1}{4} + \\frac{2}{4} = \\frac{3}{4}$. Then $P(\\text{green}) = \\frac{4}{4} - \\frac{3}{4} = \\frac{1}{4}$."
+  },
+  {
+    "id": "m6.pro.chance.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 6 red counters and some other counters. The probability of taking a red counter is $\\frac{2}{5}$. How many counters are in the bag altogether?",
+    "answer": 15,
+    "form": "integer",
+    "hints": ["$\\frac{2}{5}$ of the counters is 6 counters.", "So what is $\\frac{1}{5}$ of the counters?"],
+    "solution": "$\\frac{2}{5}$ of the bag is 6 counters, so $\\frac{1}{5}$ is $6 \\div 2 = 3$ counters. The whole bag is $3 \\times 5 = $ **15** counters. Check: $\\frac{6}{15} = \\frac{2}{5}$ ✓"
+  },
+  {
+    "id": "m6.pro.chance.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Ruby's spinner has 3 equal sections: red, blue and green. She spins red three times in a row. What is the probability that her next spin is red?",
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{3}$, the same as always" },
+      { "id": "b", "text": "Less than $\\frac{1}{3}$, because red can't keep coming up" },
+      { "id": "c", "text": "More than $\\frac{1}{3}$, because red is on a lucky streak" },
+      { "id": "d", "text": "0, because red has already had its turn" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The spinner doesn't remember what happened before. Each spin is a new trial.",
+      "c": "There is no such thing as a streak for a fair spinner. Red still covers 1 of the 3 sections.",
+      "d": "Red is still on the spinner, so it is not impossible."
+    },
+    "hints": ["Has the spinner changed?"],
+    "solution": "The spinner still has 3 equal sections and 1 is red. Each spin is a new trial, so $P(\\text{red}) = \\frac{1}{3}$ every time."
+  },
+  {
+    "id": "m6.pro.chance.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "There are 50 tickets in the school raffle. Kai buys 2 of them. Kai says, \"There are two outcomes: I win or I lose. So my chance of winning is $\\frac{1}{2}$.\" Explain why Kai is wrong, and work out his real chance of winning.",
+    "modelAnswer": "The two outcomes \"win\" and \"lose\" are not equally likely, so you can't use $\\frac{1}{2}$. Each ticket is equally likely to be drawn. Kai has 2 of the 50 tickets, so his chance of winning is $\\frac{2}{50} = \\frac{1}{25}$.",
+    "rubric": [
+      { "criterion": "Explains that winning and losing are not equally likely (each ticket is the equally likely outcome)", "marks": 1 },
+      { "criterion": "Works out $P(\\text{win}) = \\frac{2}{50}$ (or $\\frac{1}{25}$)", "marks": 1 }
+    ],
+    "hints": ["Is winning just as likely as losing?", "Each ticket has the same chance of being drawn."],
+    "solution": "\"Win\" and \"lose\" are not equally likely. With 50 equally likely tickets and 2 of them Kai's, $P(\\text{win}) = \\frac{2}{50} = \\frac{1}{25}$."
+  },
+  {
+    "id": "m6.pro.chance.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A bag has 24 counters. They are red, blue or yellow. $P(\\text{red}) = \\frac{1}{3}$ and $P(\\text{blue}) = \\frac{1}{4}$. How many yellow counters are in the bag?",
+    "answer": 10,
+    "form": "integer",
+    "hints": ["Find $\\frac{1}{3}$ of 24 and $\\frac{1}{4}$ of 24.", "The rest are yellow."],
+    "solution": "Red: $24 \\div 3 = 8$. Blue: $24 \\div 4 = 6$. Yellow: $24 - 8 - 6 = $ **10** counters."
+  },
+  {
+    "id": "m6.pro.chance.q020",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mia makes a spinner with 12 equal sections. She colours them red, blue and yellow so that:\n\n- $P(\\text{red}) = \\frac{1}{2}$, and\n- blue is twice as likely as yellow.\n\nHow many sections are each colour?\n\nRed: [[r]] Blue: [[b]] Yellow: [[y]]",
+    "blanks": [
+      { "id": "r", "accepted": ["6"] },
+      { "id": "b", "accepted": ["4"] },
+      { "id": "y", "accepted": ["2"] }
+    ],
+    "hints": ["Half of 12 sections are red. How many sections are left?", "Blue has twice as many sections as yellow. Try sharing the leftover sections that way."],
+    "solution": "Red: $\\frac{1}{2}$ of 12 = 6 sections. That leaves 6 sections. Blue is double yellow, so split 6 into 4 and 2. Red 6, blue 4, yellow 2. Check: $\\frac{6}{12} + \\frac{4}{12} + \\frac{2}{12} = 1$ ✓"
+  },
+  {
+    "id": "m6.pro.chance.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A spinner has red, blue, green and yellow parts. $P(\\text{red}) = 0.4$, $P(\\text{blue}) = 0.25$ and $P(\\text{green}) = 0.2$. What is $P(\\text{yellow})$? Give your answer as a decimal.",
+    "answer": 0.15,
+    "form": "decimal",
+    "hints": ["All four probabilities add up to 1.", "Add the three you know. Line up the decimal points: 0.40 + 0.25 + 0.20."],
+    "solution": "$0.40 + 0.25 + 0.20 = 0.85$. Then $P(\\text{yellow}) = 1 - 0.85 = 0.15$."
+  },
+  {
+    "id": "m6.pro.chance.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi and Ana play a game with a normal six-sided die. Hemi wins if the die shows 1 or 3. Ana wins if it shows an even number. If it shows 5, they roll again. Is the game fair? Explain your answer.",
+    "modelAnswer": "No, it is not fair. Hemi wins with 1 or 3, which is 2 of the 6 outcomes, so $P(\\text{Hemi}) = \\frac{2}{6}$. Ana wins with 2, 4 or 6, which is 3 of the 6 outcomes, so $P(\\text{Ana}) = \\frac{3}{6}$. Ana has a better chance.",
+    "rubric": [
+      { "criterion": "Works out $P(\\text{Hemi}) = \\frac{2}{6}$ and $P(\\text{Ana}) = \\frac{3}{6}$", "marks": 1 },
+      { "criterion": "Says the game is not fair because Ana has a bigger chance", "marks": 1 }
+    ],
+    "hints": ["List the outcomes where Hemi wins, then the outcomes where Ana wins.", "A fair game gives both players the same chance."],
+    "solution": "Hemi: 1, 3 (2 outcomes). Ana: 2, 4, 6 (3 outcomes). $\\frac{3}{6}$ is more than $\\frac{2}{6}$, so the game is not fair."
+  }
+]

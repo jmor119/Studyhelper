@@ -1,0 +1,394 @@
+[
+  {
+    "id": "m7.num.fractions.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the fraction $\\frac{3}{8}$, the 3 is the [[a]] and the 8 is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["numerator"], "options": ["numerator", "denominator", "mixed number"] },
+      { "id": "b", "accepted": ["denominator"], "options": ["numerator", "denominator", "mixed number"] }
+    ],
+    "hints": ["The bottom number tells you how many equal parts make the whole."],
+    "solution": "The 3 is the **numerator**: it tells you how many parts you have. The 8 is the **denominator**: it tells you how many equal parts make the whole."
+  },
+  {
+    "id": "m7.num.fractions.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which fraction is **equivalent** to $\\frac{3}{4}$?",
+    "options": [
+      { "id": "a", "text": "$\\frac{6}{8}$" },
+      { "id": "b", "text": "$\\frac{4}{5}$" },
+      { "id": "c", "text": "$\\frac{3}{8}$" },
+      { "id": "d", "text": "$\\frac{6}{4}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This adds 1 to the top and the bottom. To make an equivalent fraction, multiply (or divide) the top and the bottom by the same number.",
+      "c": "Only the denominator has changed. $\\frac{3}{8}$ is half of $\\frac{3}{4}$.",
+      "d": "Only the numerator has been doubled. $\\frac{6}{4}$ is more than one whole."
+    },
+    "hints": ["Multiply the numerator and the denominator by the same number."],
+    "solution": "$\\frac{3}{4} = \\frac{3 \\times 2}{4 \\times 2} = \\frac{6}{8}$. Both fractions are at the same point on the number line."
+  },
+  {
+    "id": "m7.num.fractions.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is an **improper fraction**?",
+    "options": [
+      { "id": "a", "text": "$\\frac{9}{4}$" },
+      { "id": "b", "text": "$\\frac{4}{9}$" },
+      { "id": "c", "text": "$2\\frac{1}{4}$" },
+      { "id": "d", "text": "$\\frac{1}{4}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The numerator is smaller than the denominator, so this is less than 1. It is a proper fraction.",
+      "c": "This is a mixed number. It is worth the same as $\\frac{9}{4}$, but it is written with a whole number part.",
+      "d": "This is less than one whole, so it is a proper fraction."
+    },
+    "hints": ["In an improper fraction, the numerator is bigger than the denominator."],
+    "solution": "$\\frac{9}{4}$ has a numerator (9) bigger than its denominator (4), so it is an **improper fraction**. It is more than one whole: $\\frac{9}{4} = 2\\frac{1}{4}$."
+  },
+  {
+    "id": "m7.num.fractions.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number: $\\frac{2}{5} = \\frac{\\square}{20}$",
+    "answer": 8,
+    "form": "integer",
+    "hints": ["What do you multiply 5 by to get 20?", "Do the same thing to the numerator."],
+    "solution": "$5 \\times 4 = 20$, so multiply the numerator by 4 too: $2 \\times 4 = 8$. So $\\frac{2}{5} = \\frac{8}{20}$."
+  },
+  {
+    "id": "m7.num.fractions.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the fractions that are equivalent to $\\frac{2}{3}$.",
+    "options": [
+      { "id": "a", "text": "$\\frac{4}{6}$" },
+      { "id": "b", "text": "$\\frac{10}{15}$" },
+      { "id": "c", "text": "$\\frac{8}{12}$" },
+      { "id": "d", "text": "$\\frac{3}{4}$" },
+      { "id": "e", "text": "$\\frac{4}{9}$" },
+      { "id": "f", "text": "$\\frac{2}{6}$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["For each one, ask: were the top and the bottom multiplied by the same number?"],
+    "solution": "$\\frac{4}{6}$ (both × 2), $\\frac{10}{15}$ (both × 5) and $\\frac{8}{12}$ (both × 4) are equivalent to $\\frac{2}{3}$.\n\n$\\frac{3}{4}$ adds 1 to the top and bottom. $\\frac{4}{9}$ multiplies the top by 2 but the bottom by 3. $\\frac{2}{6}$ only changes the bottom, so it equals $\\frac{1}{3}$."
+  },
+  {
+    "id": "m7.num.fractions.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these fractions is already in **simplest form**?",
+    "options": [
+      { "id": "a", "text": "$\\frac{9}{14}$" },
+      { "id": "b", "text": "$\\frac{6}{15}$" },
+      { "id": "c", "text": "$\\frac{8}{12}$" },
+      { "id": "d", "text": "$\\frac{14}{21}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "6 and 15 can both be divided by 3: $\\frac{6}{15} = \\frac{2}{5}$.",
+      "c": "8 and 12 can both be divided by 4: $\\frac{8}{12} = \\frac{2}{3}$.",
+      "d": "14 and 21 can both be divided by 7: $\\frac{14}{21} = \\frac{2}{3}$."
+    },
+    "hints": ["Look for a number (not 1) that divides into both the top and the bottom."],
+    "solution": "The factors of 9 are 1, 3 and 9. The factors of 14 are 1, 2, 7 and 14. The only common factor is 1, so $\\frac{9}{14}$ is in simplest form."
+  },
+  {
+    "id": "m7.num.fractions.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana simplifies $\\frac{12}{18}$ and writes $\\frac{6}{9}$. Her teacher says she hasn't finished yet. Why not?",
+    "options": [
+      { "id": "a", "text": "6 and 9 can still both be divided by 3, so the answer is $\\frac{2}{3}$." },
+      { "id": "b", "text": "She should take 6 away from the top and bottom, so the answer is $\\frac{6}{12}$." },
+      { "id": "c", "text": "$\\frac{6}{9}$ is not worth the same as $\\frac{12}{18}$, so she needs to start again." },
+      { "id": "d", "text": "She should have divided the top and the bottom by 4 instead." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Subtracting changes the value of a fraction. Only multiplying or dividing the top and bottom by the same number keeps it equivalent.",
+      "c": "Dividing the top and bottom by 2 keeps the value the same, so $\\frac{6}{9}$ is equal to $\\frac{12}{18}$. It just isn't in simplest form yet.",
+      "d": "18 can't be divided exactly by 4, so 4 is not a common factor of 12 and 18."
+    },
+    "hints": ["Do 6 and 9 have a common factor other than 1?"],
+    "solution": "Ana's first step (dividing by 2) was fine, but 6 and 9 still share a factor of 3: $\\frac{6}{9} = \\frac{2}{3}$.\n\nA quicker way is to divide by the highest common factor of 12 and 18, which is 6: $\\frac{12}{18} = \\frac{2}{3}$."
+  },
+  {
+    "id": "m7.num.fractions.q008",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "num", "text": "Numerator" }, "right": { "id": "m1", "text": "The top number of a fraction" } },
+      { "left": { "id": "den", "text": "Denominator" }, "right": { "id": "m2", "text": "How many equal parts make the whole" } },
+      { "left": { "id": "eq", "text": "Equivalent fractions" }, "right": { "id": "m3", "text": "Fractions with the same value, like $\\frac{1}{2}$ and $\\frac{3}{6}$" } },
+      { "left": { "id": "sf", "text": "Simplest form" }, "right": { "id": "m4", "text": "The top and bottom have no common factor except 1" } },
+      { "left": { "id": "imp", "text": "Improper fraction" }, "right": { "id": "m5", "text": "The numerator is bigger than the denominator" } },
+      { "left": { "id": "mix", "text": "Mixed number" }, "right": { "id": "m6", "text": "A whole number and a fraction together" } }
+    ],
+    "hints": ["$\\frac{7}{3}$ is an improper fraction, and $2\\frac{1}{3}$ is a mixed number."],
+    "solution": "Numerator: the top number. Denominator: how many equal parts make the whole. Equivalent fractions: same value. Simplest form: no common factor except 1. Improper fraction: numerator bigger than denominator, like $\\frac{7}{3}$. Mixed number: a whole number and a fraction, like $2\\frac{1}{3}$."
+  },
+  {
+    "id": "m7.num.fractions.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere says $\\frac{1}{8}$ is bigger than $\\frac{1}{6}$, because 8 is bigger than 6. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. Eighths are smaller pieces than sixths, so $\\frac{1}{8}$ is smaller." },
+      { "id": "b", "text": "Yes. A bigger denominator always means a bigger fraction." },
+      { "id": "c", "text": "Yes. $8 - 1 = 7$ is more than $6 - 1 = 5$." },
+      { "id": "d", "text": "No. They are equal because both numerators are 1." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The denominator tells you how many pieces the whole is cut into. More pieces means each piece is smaller.",
+      "c": "Subtracting the numerator from the denominator doesn't tell you the size of a fraction.",
+      "d": "They both have 1 piece, but the pieces are different sizes, so they are not equal."
+    },
+    "hints": ["Imagine a pizza cut into 8 slices and the same pizza cut into 6 slices. Which slices are bigger?"],
+    "solution": "If you cut a pizza into 8 equal slices, each slice is smaller than if you cut it into 6. So $\\frac{1}{8} < \\frac{1}{6}$. Mere is not right.\n\nCheck with a common denominator of 24: $\\frac{1}{8} = \\frac{3}{24}$ and $\\frac{1}{6} = \\frac{4}{24}$."
+  },
+  {
+    "id": "m7.num.fractions.q010",
+    "type": "text",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What do we call a number like $3\\frac{1}{2}$, which has a whole number part and a fraction part?",
+    "accepted": ["mixed number", "a mixed number", "mixed numbers", "mixed fraction"],
+    "hints": ["It mixes a whole number with a fraction."],
+    "solution": "$3\\frac{1}{2}$ is a **mixed number**. It is worth the same as the improper fraction $\\frac{7}{2}$."
+  },
+  {
+    "id": "m7.num.fractions.q011",
+    "type": "order",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these fractions in order from **smallest** to **largest**: $\\frac{2}{3}$, $\\frac{5}{8}$, $\\frac{3}{4}$ and $\\frac{7}{12}$.",
+    "items": [
+      { "id": "w", "text": "$\\frac{7}{12}$" },
+      { "id": "k", "text": "$\\frac{5}{8}$" },
+      { "id": "m", "text": "$\\frac{2}{3}$" },
+      { "id": "p", "text": "$\\frac{3}{4}$" }
+    ],
+    "hints": ["All four denominators go into 24.", "Change each fraction to twenty-fourths, then compare the numerators."],
+    "solution": "Change each fraction to twenty-fourths:\n\n- $\\frac{2}{3} = \\frac{16}{24}$\n- $\\frac{5}{8} = \\frac{15}{24}$\n- $\\frac{3}{4} = \\frac{18}{24}$\n- $\\frac{7}{12} = \\frac{14}{24}$\n\nFrom smallest to largest: $\\frac{7}{12}$, $\\frac{5}{8}$, $\\frac{2}{3}$, $\\frac{3}{4}$."
+  },
+  {
+    "id": "m7.num.fractions.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "In a pen there are 4 chickens for every 3 ducks, and no other birds. What fraction of the birds are ducks?",
+    "options": [
+      { "id": "a", "text": "$\\frac{3}{7}$" },
+      { "id": "b", "text": "$\\frac{3}{4}$" },
+      { "id": "c", "text": "$\\frac{4}{7}$" },
+      { "id": "d", "text": "$\\frac{1}{3}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{3}{4}$ compares the ducks with the chickens. You need the ducks out of **all** the birds.",
+      "c": "That is the fraction of the birds that are chickens.",
+      "d": "Each small group has 7 birds, and 3 of them are ducks."
+    },
+    "hints": ["Think about one small group: 4 chickens and 3 ducks. How many birds is that?"],
+    "solution": "Each small group has $4 + 3 = 7$ birds, and 3 of them are ducks. So $\\frac{3}{7}$ of the birds are ducks. This stays the same however many groups there are."
+  },
+  {
+    "id": "m7.num.fractions.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Liam works out $\\frac{2}{5} + \\frac{1}{4} = \\frac{3}{9}$. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He added the denominators. He needs a common denominator first, and the answer is $\\frac{13}{20}$." },
+      { "id": "b", "text": "Nothing. $\\frac{3}{9}$ is correct." },
+      { "id": "c", "text": "He should have multiplied, so the answer is $\\frac{2}{20}$." },
+      { "id": "d", "text": "He should have kept the bigger denominator, so the answer is $\\frac{3}{5}$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{3}{9}$ is only $\\frac{1}{3}$, which is less than $\\frac{2}{5}$. Adding $\\frac{1}{4}$ should make the answer bigger.",
+      "c": "The question asks you to add, not multiply.",
+      "d": "You can't add quarters and fifths until they are the same kind of piece. Change both to twentieths."
+    },
+    "hints": ["Is $\\frac{3}{9}$ bigger or smaller than $\\frac{2}{5}$?", "Both 5 and 4 go into 20."],
+    "solution": "To add fractions, change them to a common denominator first. Both 5 and 4 go into 20:\n\n$\\frac{2}{5} + \\frac{1}{4} = \\frac{8}{20} + \\frac{5}{20} = \\frac{13}{20}$\n\nLiam added the numerators and the denominators, which doesn't work."
+  },
+  {
+    "id": "m7.num.fractions.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.fractions.g1",
+    "part": "a",
+    "stem": "Hemi's whānau is planting a vegetable garden. They use $\\frac{1}{3}$ of the garden for kūmara and $\\frac{2}{5}$ of it for silverbeet.",
+    "prompt": "What fraction of the garden is used for kūmara and silverbeet altogether? Give your answer in simplest form.",
+    "answer": 0.7333333333333333,
+    "form": "simplest-fraction",
+    "hints": ["Add the two fractions.", "Both 3 and 5 go into 15."],
+    "solution": "$\\frac{1}{3} + \\frac{2}{5} = \\frac{5}{15} + \\frac{6}{15} = \\frac{11}{15}$"
+  },
+  {
+    "id": "m7.num.fractions.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.fractions.g1",
+    "part": "b",
+    "stem": "Hemi's whānau is planting a vegetable garden. They use $\\frac{1}{3}$ of the garden for kūmara and $\\frac{2}{5}$ of it for silverbeet.",
+    "prompt": "What fraction of the garden is left for other vegetables? Give your answer in simplest form.",
+    "answer": 0.26666666666666666,
+    "form": "simplest-fraction",
+    "hints": ["The whole garden is 1, or $\\frac{15}{15}$.", "Take away the fraction already used."],
+    "solution": "The kūmara and silverbeet use $\\frac{11}{15}$ of the garden. The whole garden is $\\frac{15}{15}$.\n\n$\\frac{15}{15} - \\frac{11}{15} = \\frac{4}{15}$ is left for other vegetables."
+  },
+  {
+    "id": "m7.num.fractions.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $3\\frac{1}{2} - 1\\frac{3}{4}$. Give your answer as a mixed number.",
+    "answer": 1.75,
+    "form": "mixed",
+    "hints": ["Change both mixed numbers into improper fractions.", "Then use a common denominator of 4."],
+    "solution": "$3\\frac{1}{2} = \\frac{7}{2} = \\frac{14}{4}$ and $1\\frac{3}{4} = \\frac{7}{4}$.\n\n$\\frac{14}{4} - \\frac{7}{4} = \\frac{7}{4} = 1\\frac{3}{4}$"
+  },
+  {
+    "id": "m7.num.fractions.q017",
+    "type": "cloze",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Complete the working for $2\\frac{1}{3} + 1\\frac{3}{4}$.\n\nAdd the whole numbers: $2 + 1 =$ [[a]].\n\nAdd the fractions: $\\frac{1}{3} + \\frac{3}{4} = \\frac{4}{12} + \\frac{9}{12}$, which is [[b]] twelfths. That is $1\\frac{1}{12}$.\n\nSo the total is [[c]] and $\\frac{1}{12}$.",
+    "blanks": [
+      { "id": "a", "accepted": ["3", "three"] },
+      { "id": "b", "accepted": ["13", "thirteen"] },
+      { "id": "c", "accepted": ["4", "four"] }
+    ],
+    "hints": ["When the denominators are the same, add the numerators only.", "If the fractions add up to more than one whole, carry that whole into the whole-number part."],
+    "solution": "Whole numbers: $2 + 1 = 3$. Fractions: $\\frac{4}{12} + \\frac{9}{12} = \\frac{13}{12} = 1\\frac{1}{12}$.\n\nTotal: $3 + 1\\frac{1}{12} = 4\\frac{1}{12}$."
+  },
+  {
+    "id": "m7.num.fractions.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Losa is baking for the school fair. Her pavlova needs $\\frac{3}{4}$ of a cup of sugar and her biscuits need $\\frac{2}{3}$ of a cup. Losa has 2 cups of sugar. How many cups of sugar will be left? Give your answer as a fraction in simplest form.",
+    "answer": 0.5833333333333334,
+    "form": "simplest-fraction",
+    "hints": ["First add the sugar for the pavlova and the biscuits.", "Then take that away from 2. Both 4 and 3 go into 12."],
+    "solution": "Sugar used: $\\frac{3}{4} + \\frac{2}{3} = \\frac{9}{12} + \\frac{8}{12} = \\frac{17}{12}$ cups.\n\n2 cups is $\\frac{24}{12}$, so the sugar left is $\\frac{24}{12} - \\frac{17}{12} = \\frac{7}{12}$ of a cup."
+  },
+  {
+    "id": "m7.num.fractions.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.fractions.g2",
+    "part": "a",
+    "stem": "In Room 14, $\\frac{2}{5}$ of the students walk to school, $\\frac{1}{3}$ come by bus, and the rest come by car.",
+    "prompt": "What fraction of the students come by car? Give your answer in simplest form.",
+    "answer": 0.26666666666666666,
+    "form": "simplest-fraction",
+    "hints": ["First find the fraction that walk or come by bus.", "The whole class is 1. Use a common denominator of 15."],
+    "solution": "Walk or bus: $\\frac{2}{5} + \\frac{1}{3} = \\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}$.\n\nBy car: $\\frac{15}{15} - \\frac{11}{15} = \\frac{4}{15}$."
+  },
+  {
+    "id": "m7.num.fractions.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.fractions.g2",
+    "part": "b",
+    "stem": "In Room 14, $\\frac{2}{5}$ of the students walk to school, $\\frac{1}{3}$ come by bus, and the rest come by car.",
+    "prompt": "There are 30 students in Room 14. How many of them come by car?",
+    "answer": 8,
+    "form": "integer",
+    "hints": ["Use your answer to part (a).", "Find $\\frac{1}{15}$ of 30 first."],
+    "solution": "$\\frac{4}{15}$ of the students come by car. $\\frac{1}{15}$ of 30 is $30 \\div 15 = 2$, so $\\frac{4}{15}$ of 30 is $4 \\times 2 = 8$ students.\n\nCheck: 12 walk ($\\frac{2}{5}$ of 30) and 10 come by bus ($\\frac{1}{3}$ of 30). $12 + 10 + 8 = 30$ ✓"
+  },
+  {
+    "id": "m7.num.fractions.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $\\frac{2}{3}$ and $\\frac{8}{12}$ are equivalent fractions. You can describe a picture or a number line to help.",
+    "modelAnswer": "If you multiply the numerator and the denominator of $\\frac{2}{3}$ by 4, you get $\\frac{8}{12}$. Multiplying the top and bottom by the same number doesn't change the value. In a picture, if you cut each third of a bar into 4 smaller pieces, the 2 shaded thirds become 8 shaded twelfths, and the shaded part is exactly the same size. So both fractions are at the same point on the number line.",
+    "rubric": [
+      { "criterion": "Says the top and bottom of $\\frac{2}{3}$ are both multiplied by 4 (or that $\\frac{8}{12}$ simplifies to $\\frac{2}{3}$ by dividing both by 4)", "marks": 1 },
+      { "criterion": "Explains that they show the same amount, e.g. the same shaded part of a bar or the same point on a number line", "marks": 1 }
+    ],
+    "hints": ["What do you multiply 3 by to get 12?", "Imagine cutting each third of a bar into smaller pieces."],
+    "solution": "$\\frac{2}{3} = \\frac{2 \\times 4}{3 \\times 4} = \\frac{8}{12}$. Cutting each third into 4 pieces makes twelfths, but the shaded amount stays the same, so the fractions are equal."
+  },
+  {
+    "id": "m7.num.fractions.q022",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which fraction is **closest** to $\\frac{1}{2}$?",
+    "options": [
+      { "id": "a", "text": "$\\frac{4}{7}$" },
+      { "id": "b", "text": "$\\frac{5}{12}$" },
+      { "id": "c", "text": "$\\frac{3}{5}$" },
+      { "id": "d", "text": "$\\frac{2}{9}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{1}{2} = \\frac{6}{12}$, so $\\frac{5}{12}$ is $\\frac{1}{12}$ away. $\\frac{4}{7}$ is only $\\frac{1}{14}$ away, which is closer.",
+      "c": "$\\frac{1}{2} = \\frac{5}{10}$ and $\\frac{3}{5} = \\frac{6}{10}$, so $\\frac{3}{5}$ is $\\frac{1}{10}$ away. That is further than $\\frac{1}{14}$.",
+      "d": "Half of 9 is 4.5, so $\\frac{2}{9}$ is a long way below $\\frac{1}{2}$."
+    },
+    "hints": ["For each fraction, compare it with a half that has the same denominator, like $\\frac{6}{12}$.", "Work out how far each one is from $\\frac{1}{2}$, then compare those gaps."],
+    "solution": "Find each gap from $\\frac{1}{2}$:\n\n- $\\frac{4}{7} - \\frac{1}{2} = \\frac{8}{14} - \\frac{7}{14} = \\frac{1}{14}$\n- $\\frac{1}{2} - \\frac{5}{12} = \\frac{6}{12} - \\frac{5}{12} = \\frac{1}{12}$\n- $\\frac{3}{5} - \\frac{1}{2} = \\frac{6}{10} - \\frac{5}{10} = \\frac{1}{10}$\n- $\\frac{1}{2} - \\frac{2}{9} = \\frac{9}{18} - \\frac{4}{18} = \\frac{5}{18}$\n\nThe smallest gap is $\\frac{1}{14}$, so $\\frac{4}{7}$ is closest to $\\frac{1}{2}$."
+  },
+  {
+    "id": "m7.num.fractions.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha is comparing $\\frac{5}{6}$ and $\\frac{7}{8}$. She says: \"Each fraction is one piece away from a whole. One eighth is smaller than one sixth, so $\\frac{7}{8}$ is closer to 1. That means $\\frac{7}{8}$ is bigger.\" Is Aroha right? Explain your answer.",
+    "modelAnswer": "Yes, Aroha is right. $\\frac{5}{6}$ is $\\frac{1}{6}$ less than 1, and $\\frac{7}{8}$ is $\\frac{1}{8}$ less than 1. Eighths are smaller pieces than sixths, so $\\frac{7}{8}$ is missing less and is closer to 1. I can check with a common denominator of 24: $\\frac{5}{6} = \\frac{20}{24}$ and $\\frac{7}{8} = \\frac{21}{24}$, so $\\frac{7}{8}$ is bigger.",
+    "rubric": [
+      { "criterion": "States that Aroha is right: $\\frac{7}{8}$ is bigger", "marks": 1 },
+      { "criterion": "Explains why, e.g. $\\frac{1}{8} < \\frac{1}{6}$ so $\\frac{7}{8}$ is closer to 1, or compares $\\frac{20}{24}$ and $\\frac{21}{24}$", "marks": 1 }
+    ],
+    "hints": ["How far is each fraction from 1?", "You could check with a common denominator of 24."],
+    "solution": "Aroha is right. $\\frac{5}{6}$ is $\\frac{1}{6}$ short of 1 and $\\frac{7}{8}$ is $\\frac{1}{8}$ short of 1. Since $\\frac{1}{8} < \\frac{1}{6}$, $\\frac{7}{8}$ is closer to 1. Check: $\\frac{20}{24} < \\frac{21}{24}$."
+  },
+  {
+    "id": "m7.num.fractions.q024",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number: $1\\frac{2}{3} + \\square = 3\\frac{1}{4}$. Give your answer as a mixed number in simplest form.",
+    "answer": 1.5833333333333333,
+    "form": "mixed",
+    "hints": ["The missing number is the difference: $3\\frac{1}{4} - 1\\frac{2}{3}$.", "Change both to improper fractions with a denominator of 12."],
+    "solution": "The missing number is $3\\frac{1}{4} - 1\\frac{2}{3}$.\n\n$3\\frac{1}{4} = \\frac{13}{4} = \\frac{39}{12}$ and $1\\frac{2}{3} = \\frac{5}{3} = \\frac{20}{12}$.\n\n$\\frac{39}{12} - \\frac{20}{12} = \\frac{19}{12} = 1\\frac{7}{12}$\n\nCheck: $1\\frac{2}{3} + 1\\frac{7}{12} = 1\\frac{8}{12} + 1\\frac{7}{12} = 2\\frac{15}{12} = 3\\frac{3}{12} = 3\\frac{1}{4}$ ✓"
+  }
+]

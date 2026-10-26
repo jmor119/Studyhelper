@@ -1,0 +1,14 @@
+[
+  { "id": "m7.num.decimals.f01", "front": "What is a **decimal place**?", "back": "A place after the decimal point. The first is tenths, then hundredths, then thousandths." },
+  { "id": "m7.num.decimals.f02", "front": "How do you add or subtract decimals?", "back": "Line up the decimal points, fill empty places with zeros, then add or subtract as normal." },
+  { "id": "m7.num.decimals.f03", "front": "What are the first three **powers of 10**?", "back": "$10^1 = 10$, $10^2 = 100$ and $10^3 = 1000$." },
+  { "id": "m7.num.decimals.f04", "front": "What happens to the digits when you multiply by 100?", "back": "Every digit moves two places to the left: $3.45 \\times 100 = 345$." },
+  { "id": "m7.num.decimals.f05", "front": "What happens to the digits when you divide by 1000?", "back": "Every digit moves three places to the right: $6.2 \\div 1000 = 0.0062$." },
+  { "id": "m7.num.decimals.f06", "front": "How can $7 \\times 5 = 35$ help with $0.7 \\times 5$?", "back": "$0.7$ is 7 tenths, so $0.7 \\times 5$ is 35 tenths $= 3.5$." },
+  { "id": "m7.num.decimals.f07", "front": "How do you change a fraction into a decimal?", "back": "Divide the numerator by the denominator: $\\frac{3}{8} = 3 \\div 8 = 0.375$." },
+  { "id": "m7.num.decimals.f08", "front": "What is a **terminating decimal**?", "back": "A decimal that stops, like $\\frac{5}{16} = 0.3125$." },
+  { "id": "m7.num.decimals.f09", "front": "What is a **recurring decimal**?", "back": "A decimal where a digit or block of digits repeats forever, like $\\frac{1}{3} = 0.333\\ldots = 0.\\dot{3}$." },
+  { "id": "m7.num.decimals.f10", "front": "How do you **round** to the nearest tenth?", "back": "Look at the hundredths digit. 5 or more: round up. 4 or less: round down. $3.47 \\approx 3.5$." },
+  { "id": "m7.num.decimals.f11", "front": "What is $\\frac{2}{3}$ as a decimal, to 2 decimal places?", "back": "$\\frac{2}{3} = 0.666\\ldots \\approx 0.67$." },
+  { "id": "m7.num.decimals.f12", "front": "Which is bigger: 0.7 or 0.65?", "back": "0.7. It has 7 tenths, and 0.65 has only 6 tenths. (0.7 = 0.70.)" }
+]

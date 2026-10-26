@@ -1,0 +1,14 @@
+[
+  { "id": "m6.alg.number-sentences.f01", "front": "What is a **number sentence**?", "back": "A maths sentence made from numbers and signs, like $6 + 4 = 10$. It can be true or false." },
+  { "id": "m6.alg.number-sentences.f02", "front": "What does the **equals** sign ($=$) mean?", "back": "Both sides have the same value. It does not mean \"the answer comes next\"." },
+  { "id": "m6.alg.number-sentences.f03", "front": "What does $<$ mean?", "back": "Is less than. For example, $3 < 8$." },
+  { "id": "m6.alg.number-sentences.f04", "front": "What does $>$ mean?", "back": "Is greater than. For example, $9 > 2$." },
+  { "id": "m6.alg.number-sentences.f05", "front": "What does $\\le$ mean?", "back": "Is less than or equal to. $4 \\le 4$ and $3 \\le 4$ are both true." },
+  { "id": "m6.alg.number-sentences.f06", "front": "What does $\\ge$ mean?", "back": "Is greater than or equal to. $7 \\ge 7$ and $7 \\ge 5$ are both true." },
+  { "id": "m6.alg.number-sentences.f07", "front": "What is an **inequality**?", "back": "A number sentence that compares two amounts using $<$, $>$, $\\le$ or $\\ge$." },
+  { "id": "m6.alg.number-sentences.f08", "front": "Which way does $<$ or $>$ point?", "back": "The open side faces the bigger number. The point faces the smaller number." },
+  { "id": "m6.alg.number-sentences.f09", "front": "How do you check if a number sentence is true?", "back": "Work out each side on its own, then compare the two values." },
+  { "id": "m6.alg.number-sentences.f10", "front": "How do you find the missing number in $\\square + 7 = 15$?", "back": "Undo the + 7 by subtracting: $15 - 7 = 8$. Then check: $8 + 7 = 15$ ✓" },
+  { "id": "m6.alg.number-sentences.f11", "front": "What is the order of operations?", "back": "Brackets, then squares, then × and ÷ (left to right), then + and − (left to right)." },
+  { "id": "m6.alg.number-sentences.f12", "front": "Is $12 < 12$ true or false?", "back": "False. 12 is equal to 12, and $<$ does not include \"equal to\". But $12 \\le 12$ is true." }
+]

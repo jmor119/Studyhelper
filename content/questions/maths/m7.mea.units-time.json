@@ -1,0 +1,718 @@
+[
+  {
+    "id": "m7.mea.units-time.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which prefix means **1000 times bigger** than the base unit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "kilo-"
+      },
+      {
+        "id": "b",
+        "text": "centi-"
+      },
+      {
+        "id": "c",
+        "text": "milli-"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Centi- means 100 times smaller: 100 cm make 1 m.",
+      "c": "Milli- means 1000 times smaller: 1000 mm make 1 m."
+    },
+    "hints": [
+      "Think about kilometres and metres. Which is bigger?"
+    ],
+    "solution": "**Kilo-** means 1000 times bigger: 1 km = 1000 m and 1 kg = 1000 g.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q002",
+    "type": "match",
+    "difficulty": 1,
+    "prompt": "Match each unit to its size.",
+    "pairs": [
+      {
+        "left": {
+          "id": "km",
+          "text": "1 kilometre"
+        },
+        "right": {
+          "id": "r1",
+          "text": "1000 metres"
+        }
+      },
+      {
+        "left": {
+          "id": "cm",
+          "text": "1 centimetre"
+        },
+        "right": {
+          "id": "r2",
+          "text": "one hundredth of a metre"
+        }
+      },
+      {
+        "left": {
+          "id": "mm",
+          "text": "1 millimetre"
+        },
+        "right": {
+          "id": "r3",
+          "text": "one thousandth of a metre"
+        }
+      },
+      {
+        "left": {
+          "id": "kg",
+          "text": "1 kilogram"
+        },
+        "right": {
+          "id": "r4",
+          "text": "1000 grams"
+        }
+      },
+      {
+        "left": {
+          "id": "ml",
+          "text": "1 millilitre"
+        },
+        "right": {
+          "id": "r5",
+          "text": "one thousandth of a litre"
+        }
+      }
+    ],
+    "hints": [
+      "kilo- means 1000 times bigger. centi- means 100 times smaller. milli- means 1000 times smaller."
+    ],
+    "solution": "kilo- = 1000 times bigger (1 km = 1000 m, 1 kg = 1000 g). centi- = 100 times smaller (1 cm is a hundredth of a metre). milli- = 1000 times smaller (1 mm is a thousandth of a metre, 1 mL is a thousandth of a litre).",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "There are [[a]] seconds in a minute, [[b]] minutes in an hour and [[c]] hours in a day.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "60"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "60"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "24"
+        ]
+      }
+    ],
+    "hints": [
+      "Time does not work in tens or hundreds."
+    ],
+    "solution": "60 seconds = 1 minute, 60 minutes = 1 hour and 24 hours = 1 day.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "A millimetre is one [[a]] of a metre. A centimetre is one [[b]] of a metre.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "thousandth"
+        ],
+        "options": [
+          "tenth",
+          "hundredth",
+          "thousandth"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "hundredth"
+        ],
+        "options": [
+          "tenth",
+          "hundredth",
+          "thousandth"
+        ]
+      }
+    ],
+    "hints": [
+      "How many millimetres make 1 metre? How many centimetres make 1 metre?"
+    ],
+    "solution": "1000 mm = 1 m, so 1 mm is one **thousandth** of a metre. 100 cm = 1 m, so 1 cm is one **hundredth** of a metre.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Which is longer: 1.5 km or 1450 m?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1.5 km"
+      },
+      {
+        "id": "b",
+        "text": "1450 m"
+      },
+      {
+        "id": "c",
+        "text": "They are the same length"
+      },
+      {
+        "id": "d",
+        "text": "You cannot compare different units"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "1450 is a bigger number, but metres are a smaller unit. Change 1.5 km into metres first.",
+      "c": "1.5 km is 1500 m, which is 50 m more than 1450 m.",
+      "d": "You can compare them once they are in the same unit."
+    },
+    "hints": [
+      "Change both lengths into the same unit.",
+      "1 km = 1000 m."
+    ],
+    "solution": "$1.5 \\times 1000 = 1500$, so 1.5 km = 1500 m. 1500 m is longer than 1450 m, so **1.5 km** is longer.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Mere says that 3 kg 50 g is the same as 3.5 kg. What is the mistake?",
+    "options": [
+      {
+        "id": "a",
+        "text": "50 g is 0.05 kg, so 3 kg 50 g is 3.05 kg."
+      },
+      {
+        "id": "b",
+        "text": "There is no mistake. 3 kg 50 g is 3.5 kg."
+      },
+      {
+        "id": "c",
+        "text": "50 g is 0.5 kg, so she should have written 3.50 kg."
+      },
+      {
+        "id": "d",
+        "text": "She should have added: 3 + 50 = 53 kg."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "3.5 kg is 3 kg 500 g, which is much more than 3 kg 50 g.",
+      "c": "0.5 kg is 500 g. 50 g is ten times smaller than that.",
+      "d": "You cannot add grams and kilograms until they are in the same unit."
+    },
+    "hints": [
+      "How many grams are in 0.5 kg?"
+    ],
+    "solution": "1 kg = 1000 g, so 50 g = $50 \\div 1000 = 0.05$ kg. So 3 kg 50 g = **3.05 kg**. Mere's answer, 3.5 kg, is 3 kg 500 g.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Tama says 1.5 hours is 1 hour 50 minutes. Is he right?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No. 0.5 of an hour is half an hour, so it is 1 hour 30 minutes."
+      },
+      {
+        "id": "b",
+        "text": "Yes. The 5 after the point means 50 minutes."
+      },
+      {
+        "id": "c",
+        "text": "No. It is 1 hour 5 minutes."
+      },
+      {
+        "id": "d",
+        "text": "No. It is 150 minutes."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "An hour has 60 minutes, not 100. The digits after the point are not minutes.",
+      "c": "0.5 means a half, not 5 minutes.",
+      "d": "150 minutes is 2 hours 30 minutes. 1.5 hours is $60 + 30 = 90$ minutes."
+    },
+    "hints": [
+      "What is 0.5 of an hour?"
+    ],
+    "solution": "0.5 hours is half an hour, which is 30 minutes. So 1.5 hours is **1 hour 30 minutes** (90 minutes).",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q008",
+    "type": "order",
+    "difficulty": 2,
+    "prompt": "Put these masses in order, from lightest to heaviest.",
+    "items": [
+      {
+        "id": "a",
+        "text": "1200 mg"
+      },
+      {
+        "id": "b",
+        "text": "45 g"
+      },
+      {
+        "id": "c",
+        "text": "0.4 kg"
+      },
+      {
+        "id": "d",
+        "text": "450 g"
+      },
+      {
+        "id": "e",
+        "text": "1.2 kg"
+      }
+    ],
+    "hints": [
+      "Change every mass into grams first.",
+      "1 kg = 1000 g and 1 g = 1000 mg."
+    ],
+    "solution": "In grams: 1200 mg = 1.2 g, 45 g, 0.4 kg = 400 g, 450 g, 1.2 kg = 1200 g. So the order is **1200 mg, 45 g, 0.4 kg, 450 g, 1.2 kg**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "About how long does it take to walk 1 km at a normal speed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "about 12 seconds"
+      },
+      {
+        "id": "b",
+        "text": "about 12 minutes"
+      },
+      {
+        "id": "c",
+        "text": "about 2 hours"
+      },
+      {
+        "id": "d",
+        "text": "about 1 minute"
+      }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "Even the fastest sprinters take over 1.5 minutes to run 1 km.",
+      "c": "In 2 hours most people can walk about 10 km.",
+      "d": "1 km in 1 minute would be as fast as a car on a city street."
+    },
+    "hints": [
+      "Most people walk about 5 km in an hour."
+    ],
+    "solution": "People walk about 5 km in an hour. $60 \\div 5 = 12$, so 1 km takes **about 12 minutes**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q010",
+    "type": "multi",
+    "difficulty": 2,
+    "prompt": "Select **all** the amounts that are the same as 2.5 kg.",
+    "options": [
+      {
+        "id": "a",
+        "text": "2500 g"
+      },
+      {
+        "id": "b",
+        "text": "2 kg 500 g"
+      },
+      {
+        "id": "c",
+        "text": "$2\\frac{1}{2}$ kg"
+      },
+      {
+        "id": "d",
+        "text": "250 g"
+      },
+      {
+        "id": "e",
+        "text": "2 kg 50 g"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Change 2.5 kg into grams."
+    ],
+    "solution": "2.5 kg = $2.5 \\times 1000 = 2500$ g = 2 kg 500 g = $2\\frac{1}{2}$ kg. 250 g is far too small, and 2 kg 50 g is 2.05 kg.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A pot of soup for the class shared lunch needs 1.25 L of water. Isla has a 250 mL cup. How many full cups of water does she need?",
+    "answer": 5,
+    "form": "integer",
+    "hints": [
+      "Change 1.25 L into millilitres first.",
+      "How many 250 mL cups make that amount?"
+    ],
+    "solution": "1.25 L = $1.25 \\times 1000 = 1250$ mL.\n\n$1250 \\div 250 = 5$, so she needs **5 cups**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "prompt": "School starts at 8:45 am and finishes at 3:00 pm. How long is the school day?\n\n[[h]] hours and [[m]] minutes",
+    "blanks": [
+      {
+        "id": "h",
+        "accepted": [
+          "6"
+        ]
+      },
+      {
+        "id": "m",
+        "accepted": [
+          "15"
+        ]
+      }
+    ],
+    "hints": [
+      "Count on from 8:45 am to 9:00 am first.",
+      "Then count the whole hours from 9:00 am to 3:00 pm."
+    ],
+    "solution": "From 8:45 am to 9:00 am is 15 minutes. From 9:00 am to 3:00 pm is 6 hours. The school day is **6 hours and 15 minutes**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which time is the same as 17:45?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5:45 pm"
+      },
+      {
+        "id": "b",
+        "text": "7:45 pm"
+      },
+      {
+        "id": "c",
+        "text": "5:45 am"
+      },
+      {
+        "id": "d",
+        "text": "7:45 am"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You have taken away 10 instead of 12. $17 - 12 = 5$.",
+      "c": "17:45 is after midday, so it is pm.",
+      "d": "Just dropping the 1 doesn't work. Take 12 away from the hour."
+    },
+    "hints": [
+      "Hours from 13 to 23 are pm times.",
+      "Take 12 away from the hour."
+    ],
+    "solution": "17 is more than 12, so the time is pm. $17 - 12 = 5$, so 17:45 is **5:45 pm**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "stem": "This timetable shows three morning trains. All times are in 24-hour time.",
+    "groupId": "m7.mea.units-time.trains",
+    "part": "a",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 188\" width=\"396\" height=\"188\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"198\" y=\"17\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">Northern Line train timetable</text><rect x=\"12\" y=\"34\" width=\"372\" height=\"28\" fill=\"#dbeafe\"/><text x=\"20\" y=\"48\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Stop</text><text x=\"189\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 1</text><text x=\"267\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 2</text><text x=\"345\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 3</text><text x=\"20\" y=\"76\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Riverside</text><text x=\"189\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:12</text><text x=\"267\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:42</text><text x=\"345\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:05</text><text x=\"20\" y=\"104\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Kauri Street</text><text x=\"189\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:25</text><text x=\"267\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:55</text><text x=\"345\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:16</text><text x=\"20\" y=\"132\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Hospital</text><text x=\"189\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:41</text><text x=\"267\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:11</text><text x=\"345\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:30</text><text x=\"20\" y=\"160\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">City Centre</text><text x=\"189\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:58</text><text x=\"267\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:28</text><text x=\"345\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:45</text><line x1=\"12\" y1=\"34\" x2=\"384\" y2=\"34\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"62\" x2=\"384\" y2=\"62\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"90\" x2=\"384\" y2=\"90\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"118\" x2=\"384\" y2=\"118\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"146\" x2=\"384\" y2=\"146\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"174\" x2=\"384\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"34\" x2=\"12\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"150\" y1=\"34\" x2=\"150\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"228\" y1=\"34\" x2=\"228\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"306\" y1=\"34\" x2=\"306\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"384\" y1=\"34\" x2=\"384\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/></svg>",
+      "alt": "Northern Line train timetable. Train 1: Riverside 07:12, Kauri Street 07:25, Hospital 07:41, City Centre 07:58. Train 2: Riverside 07:42, Kauri Street 07:55, Hospital 08:11, City Centre 08:28. Train 3: Riverside 08:05, Kauri Street 08:16, Hospital 08:30, City Centre 08:45."
+    },
+    "prompt": "Which train takes the least time to travel from Riverside to City Centre?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Train 1"
+      },
+      {
+        "id": "b",
+        "text": "Train 2"
+      },
+      {
+        "id": "c",
+        "text": "Train 3"
+      },
+      {
+        "id": "d",
+        "text": "They all take the same time"
+      }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "Train 1 takes 46 minutes (07:12 to 07:58). Check the other trains too.",
+      "b": "Train 2 takes 46 minutes (07:42 to 08:28). Check Train 3.",
+      "d": "Trains 1 and 2 take the same time, but Train 3 is quicker."
+    },
+    "hints": [
+      "Work out each train's time from the Riverside row to the City Centre row."
+    ],
+    "solution": "Train 1: 07:12 to 07:58 is 46 minutes. Train 2: 07:42 to 08:28 is 46 minutes. Train 3: 08:05 to 08:45 is 40 minutes. **Train 3** is the quickest.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "stem": "This timetable shows three morning trains. All times are in 24-hour time.",
+    "groupId": "m7.mea.units-time.trains",
+    "part": "b",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 188\" width=\"396\" height=\"188\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"198\" y=\"17\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">Northern Line train timetable</text><rect x=\"12\" y=\"34\" width=\"372\" height=\"28\" fill=\"#dbeafe\"/><text x=\"20\" y=\"48\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Stop</text><text x=\"189\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 1</text><text x=\"267\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 2</text><text x=\"345\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 3</text><text x=\"20\" y=\"76\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Riverside</text><text x=\"189\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:12</text><text x=\"267\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:42</text><text x=\"345\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:05</text><text x=\"20\" y=\"104\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Kauri Street</text><text x=\"189\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:25</text><text x=\"267\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:55</text><text x=\"345\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:16</text><text x=\"20\" y=\"132\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Hospital</text><text x=\"189\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:41</text><text x=\"267\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:11</text><text x=\"345\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:30</text><text x=\"20\" y=\"160\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">City Centre</text><text x=\"189\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:58</text><text x=\"267\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:28</text><text x=\"345\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:45</text><line x1=\"12\" y1=\"34\" x2=\"384\" y2=\"34\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"62\" x2=\"384\" y2=\"62\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"90\" x2=\"384\" y2=\"90\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"118\" x2=\"384\" y2=\"118\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"146\" x2=\"384\" y2=\"146\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"174\" x2=\"384\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"34\" x2=\"12\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"150\" y1=\"34\" x2=\"150\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"228\" y1=\"34\" x2=\"228\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"306\" y1=\"34\" x2=\"306\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"384\" y1=\"34\" x2=\"384\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/></svg>",
+      "alt": "Northern Line train timetable. Train 1: Riverside 07:12, Kauri Street 07:25, Hospital 07:41, City Centre 07:58. Train 2: Riverside 07:42, Kauri Street 07:55, Hospital 08:11, City Centre 08:28. Train 3: Riverside 08:05, Kauri Street 08:16, Hospital 08:30, City Centre 08:45."
+    },
+    "prompt": "How many minutes does Train 2 take to go from Kauri Street to City Centre?",
+    "answer": 33,
+    "units": "min",
+    "form": "integer",
+    "hints": [
+      "Find Train 2's times in the Kauri Street row and the City Centre row.",
+      "Count on to 08:00 first."
+    ],
+    "solution": "Train 2 is at Kauri Street at 07:55 and City Centre at 08:28. From 07:55 to 08:00 is 5 minutes, and from 08:00 to 08:28 is 28 minutes. $5 + 28 = 33$ minutes.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q016",
+    "type": "cloze",
+    "difficulty": 4,
+    "marks": 2,
+    "stem": "This timetable shows three morning trains. All times are in 24-hour time.",
+    "groupId": "m7.mea.units-time.trains",
+    "part": "c",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 396 188\" width=\"396\" height=\"188\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"198\" y=\"17\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"15\" fill=\"#1f2937\" font-weight=\"bold\">Northern Line train timetable</text><rect x=\"12\" y=\"34\" width=\"372\" height=\"28\" fill=\"#dbeafe\"/><text x=\"20\" y=\"48\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Stop</text><text x=\"189\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 1</text><text x=\"267\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 2</text><text x=\"345\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">Train 3</text><text x=\"20\" y=\"76\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Riverside</text><text x=\"189\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:12</text><text x=\"267\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:42</text><text x=\"345\" y=\"76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:05</text><text x=\"20\" y=\"104\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Kauri Street</text><text x=\"189\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:25</text><text x=\"267\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:55</text><text x=\"345\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:16</text><text x=\"20\" y=\"132\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">Hospital</text><text x=\"189\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:41</text><text x=\"267\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:11</text><text x=\"345\" y=\"132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:30</text><text x=\"20\" y=\"160\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">City Centre</text><text x=\"189\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">07:58</text><text x=\"267\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:28</text><text x=\"345\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">08:45</text><line x1=\"12\" y1=\"34\" x2=\"384\" y2=\"34\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"62\" x2=\"384\" y2=\"62\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"90\" x2=\"384\" y2=\"90\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"118\" x2=\"384\" y2=\"118\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"146\" x2=\"384\" y2=\"146\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"174\" x2=\"384\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"12\" y1=\"34\" x2=\"12\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"150\" y1=\"34\" x2=\"150\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"228\" y1=\"34\" x2=\"228\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"306\" y1=\"34\" x2=\"306\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/><line x1=\"384\" y1=\"34\" x2=\"384\" y2=\"174\" stroke=\"#6b7280\" stroke-width=\"1\"/></svg>",
+      "alt": "Northern Line train timetable. Train 1: Riverside 07:12, Kauri Street 07:25, Hospital 07:41, City Centre 07:58. Train 2: Riverside 07:42, Kauri Street 07:55, Hospital 08:11, City Centre 08:28. Train 3: Riverside 08:05, Kauri Street 08:16, Hospital 08:30, City Centre 08:45."
+    },
+    "prompt": "Tama needs to be at the Hospital by 08:15. It takes him 12 minutes to walk from home to Riverside station. What is the latest time he can leave home? Give your answer in 24-hour time.\n\n[[h]] : [[m]]",
+    "blanks": [
+      {
+        "id": "h",
+        "accepted": [
+          "07",
+          "7"
+        ]
+      },
+      {
+        "id": "m",
+        "accepted": [
+          "30"
+        ]
+      }
+    ],
+    "hints": [
+      "Which is the last train that reaches the Hospital by 08:15?",
+      "Find when that train leaves Riverside, then count back 12 minutes."
+    ],
+    "solution": "Train 2 reaches the Hospital at 08:11, which is in time. Train 3 arrives at 08:30, which is too late.\n\nTrain 2 leaves Riverside at 07:42. Count back 12 minutes: **07:30**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q017",
+    "type": "cloze",
+    "difficulty": 4,
+    "prompt": "A bus trip takes 47 minutes. The bus must arrive by 9:10 am. What is the latest time it can leave?\n\n[[h]] : [[m]] [[ap]]",
+    "blanks": [
+      {
+        "id": "h",
+        "accepted": [
+          "8"
+        ]
+      },
+      {
+        "id": "m",
+        "accepted": [
+          "23"
+        ]
+      },
+      {
+        "id": "ap",
+        "accepted": [
+          "am"
+        ],
+        "options": [
+          "am",
+          "pm"
+        ]
+      }
+    ],
+    "hints": [
+      "Count back from 9:10 am.",
+      "Count back 10 minutes to 9:00 am first. How many minutes are left to count back?"
+    ],
+    "solution": "Count back 10 minutes: 9:10 am → 9:00 am. That leaves $47 - 10 = 37$ minutes. Count back 37 minutes from 9:00 am: **8:23 am**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "Liam works out how long it is from 9:50 am to 11:15 am like this:\n\n$11.15 - 9.50 = 1.65$, so 1 hour 65 minutes.\n\nWhat is wrong with his method?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Times are not decimals. There are 60 minutes in an hour, so he should count on: the answer is 1 hour 25 minutes."
+      },
+      {
+        "id": "b",
+        "text": "Nothing. 1 hour 65 minutes is correct."
+      },
+      {
+        "id": "c",
+        "text": "He subtracted the wrong way round. The answer is 1 hour 35 minutes."
+      },
+      {
+        "id": "d",
+        "text": "He should have added the times instead."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "65 minutes is more than an hour, so 1 hour 65 minutes can't be right.",
+      "c": "He subtracted the right way round. The problem is treating the time like a decimal.",
+      "d": "To find how long something takes, you find the difference between the times."
+    },
+    "hints": [
+      "How many minutes are in an hour? Is that the same as 100?"
+    ],
+    "solution": "Count on: 9:50 am to 10:00 am is 10 minutes, 10:00 am to 11:00 am is 60 minutes, and 11:00 am to 11:15 am is 15 minutes. $10 + 60 + 15 = 85$ minutes = **1 hour 25 minutes**. Liam treated the times as decimals, but an hour has 60 minutes, not 100.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Kai writes \"2 hours 30 minutes = 2.3 hours\". Explain why Kai is wrong, and write the correct number of hours.",
+    "modelAnswer": "There are 60 minutes in an hour, not 100, so 30 minutes is not 0.3 of an hour. 30 minutes is half an hour, which is 0.5 hours. So 2 hours 30 minutes = **2.5 hours**. (2.3 hours would be 2 hours and $0.3 \\times 60 = 18$ minutes.)",
+    "rubric": [
+      {
+        "criterion": "Explains that an hour has 60 minutes, so time does not work like decimals",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives the correct answer of 2.5 hours (30 minutes is half an hour)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What fraction of an hour is 30 minutes?"
+    ],
+    "solution": "30 minutes is $\\frac{30}{60} = \\frac{1}{2}$ of an hour = 0.5 hours. So 2 hours 30 minutes is 2.5 hours. Kai treated minutes as if there were 100 in an hour.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q020",
+    "type": "extended",
+    "difficulty": 2,
+    "marks": 2,
+    "prompt": "Explain how to change 3.4 km into metres.",
+    "modelAnswer": "1 km = 1000 m. Metres are a smaller unit, so we need more of them and we multiply: $3.4 \\times 1000 = 3400$. So 3.4 km = **3400 m**. (The digits move three places to the left.)",
+    "rubric": [
+      {
+        "criterion": "States that 1 km = 1000 m and that you multiply (changing to a smaller unit)",
+        "marks": 1
+      },
+      {
+        "criterion": "Gets the correct answer of 3400 m",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How many metres are in 1 km?"
+    ],
+    "solution": "1 km = 1000 m, so multiply by 1000: $3.4 \\times 1000 = 3400$ m.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q021",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A school camp bus leaves Hamilton at 7:40 am. The drive takes $3\\frac{3}{4}$ hours, and there is also a 20-minute stop for morning tea. What time does the bus arrive at camp?\n\n[[h]] : [[m]] [[ap]]",
+    "blanks": [
+      {
+        "id": "h",
+        "accepted": [
+          "11"
+        ]
+      },
+      {
+        "id": "m",
+        "accepted": [
+          "45"
+        ]
+      },
+      {
+        "id": "ap",
+        "accepted": [
+          "am"
+        ],
+        "options": [
+          "am",
+          "pm"
+        ]
+      }
+    ],
+    "hints": [
+      "Change $3\\frac{3}{4}$ hours into hours and minutes.",
+      "Add the stop time to find the whole trip, then count on from 7:40 am."
+    ],
+    "solution": "$\\frac{3}{4}$ of an hour is 45 minutes, so the drive is 3 hours 45 minutes. Add the 20-minute stop: 3 hours 65 minutes = 4 hours 5 minutes.\n\n7:40 am + 4 hours = 11:40 am. 11:40 am + 5 minutes = **11:45 am**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.units-time.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "At sports day, each of the 26 students in Room 8 drinks 350 mL of water. Water comes in 2 L bottles. How many bottles must the class open?",
+    "answer": 5,
+    "form": "integer",
+    "hints": [
+      "Find the total amount of water in millilitres, then change it to litres.",
+      "Part of a bottle still means opening a whole bottle."
+    ],
+    "solution": "$26 \\times 350 = 9100$ mL, which is 9.1 L.\n\n4 bottles hold 8 L, which is not enough. 5 bottles hold 10 L. So the class must open **5 bottles**.",
+    "calculator": "not-allowed"
+  }
+]

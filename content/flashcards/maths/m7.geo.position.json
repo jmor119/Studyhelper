@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m7.geo.position.f01",
+    "front": "What are the four main **compass points**?",
+    "back": "North (N), east (E), south (S) and west (W)."
+  },
+  {
+    "id": "m7.geo.position.f02",
+    "front": "Where is **north-east** (NE)?",
+    "back": "Halfway between north and east: 45° east of north."
+  },
+  {
+    "id": "m7.geo.position.f03",
+    "front": "What are the four halfway compass points?",
+    "back": "North-east (NE), south-east (SE), **south-west** (SW) and north-west (NW)."
+  },
+  {
+    "id": "m7.geo.position.f04",
+    "front": "The angle between two neighbouring compass points",
+    "back": "45°, because $360° \\div 8 = 45°$."
+  },
+  {
+    "id": "m7.geo.position.f05",
+    "front": "Quarter, half and three-quarter **turns** in **degrees**",
+    "back": "90°, 180° and 270°. A full turn is 360°."
+  },
+  {
+    "id": "m7.geo.position.f06",
+    "front": "What does **clockwise** mean?",
+    "back": "The way clock hands move: N → NE → E → SE …"
+  },
+  {
+    "id": "m7.geo.position.f07",
+    "front": "What does **anticlockwise** mean?",
+    "back": "The opposite way to clock hands: N → NW → W → SW …"
+  },
+  {
+    "id": "m7.geo.position.f08",
+    "front": "What is the opposite of NE?",
+    "back": "SW (south-west). Opposite directions are a half turn (180°) apart."
+  },
+  {
+    "id": "m7.geo.position.f09",
+    "front": "In the **coordinates** $(x, y)$, which number comes first?",
+    "back": "The $x$-coordinate (how far across) comes first, then the $y$-coordinate (how far up)."
+  },
+  {
+    "id": "m7.geo.position.f10",
+    "front": "What is a **pathway**?",
+    "back": "A route made of steps, described with directions or turns and distances."
+  },
+  {
+    "id": "m7.geo.position.f11",
+    "front": "How many degrees clockwise is it from N to SE?",
+    "back": "135° (three steps of 45°)."
+  },
+  {
+    "id": "m7.geo.position.f12",
+    "front": "Facing north, you turn 270° clockwise. Which way do you face?",
+    "back": "West. 270° clockwise ends in the same place as 90° anticlockwise."
+  }
+]

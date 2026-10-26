@@ -1,0 +1,624 @@
+[
+  {
+    "id": "m6.sta.graphs.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which graph is best for showing the temperature outside every hour during a school day?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A time-series graph"
+      },
+      {
+        "id": "b",
+        "text": "A bar graph"
+      },
+      {
+        "id": "c",
+        "text": "A dot plot"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Bar graphs suit data sorted into groups. This data changes over time.",
+      "c": "Dot plots show how often each value happens, not how something changes over time."
+    },
+    "hints": [
+      "The temperature is measured again and again over time."
+    ],
+    "solution": "The temperature is measured over time, so it is time-series data. A **time-series graph** shows how it changes."
+  },
+  {
+    "id": "m6.sta.graphs.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "On a time-series graph, what goes along the x-axis (across the bottom)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Time"
+      },
+      {
+        "id": "b",
+        "text": "The biggest values"
+      },
+      {
+        "id": "c",
+        "text": "The title"
+      },
+      {
+        "id": "d",
+        "text": "The categories"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The values go up the y-axis (the side).",
+      "c": "The title goes at the top of the graph.",
+      "d": "Categories go along the bottom of a bar graph, not a time-series graph."
+    },
+    "hints": [
+      "Think about what \"time-series\" means."
+    ],
+    "solution": "On a time-series graph, **time** goes along the x-axis, in order from earliest to latest."
+  },
+  {
+    "id": "m6.sta.graphs.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Look at the bar graph. How many students chose rugby?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"188.29\" x2=\"390\" y2=\"188.29\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"188.29\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"60\" y1=\"162.57\" x2=\"390\" y2=\"162.57\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"162.57\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"60\" y1=\"136.86\" x2=\"390\" y2=\"136.86\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"136.86\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"60\" y1=\"111.14\" x2=\"390\" y2=\"111.14\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"111.14\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"85.43\" x2=\"390\" y2=\"85.43\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"85.43\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"60\" y1=\"59.71\" x2=\"390\" y2=\"59.71\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"59.71\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Favourite sport</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Sport</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of students</text><rect x=\"73.2\" y=\"111.14\" width=\"39.6\" height=\"102.86\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"93\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">rugby</text><rect x=\"139.2\" y=\"59.71\" width=\"39.6\" height=\"154.29\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"159\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">netball</text><rect x=\"205.2\" y=\"136.86\" width=\"39.6\" height=\"77.14\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"225\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">football</text><rect x=\"271.2\" y=\"162.57\" width=\"39.6\" height=\"51.43\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"291\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">cricket</text><rect x=\"337.2\" y=\"85.43\" width=\"39.6\" height=\"128.57\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"357\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">basketball</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "Bar graph titled \"Favourite sport\", with a bar for each of rugby, netball, football, cricket and basketball."
+    },
+    "answer": 8,
+    "form": "integer",
+    "hints": [
+      "Go from the top of the rugby bar straight across to the scale.",
+      "Each gridline goes up by 2."
+    ],
+    "solution": "The rugby bar reaches **8** on the scale."
+  },
+  {
+    "id": "m6.sta.graphs.q004",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What do we call the overall direction that a time-series graph goes in, such as up or down?",
+    "accepted": [
+      "trend",
+      "a trend",
+      "the trend",
+      "trends"
+    ],
+    "hints": [
+      "An \"upward …\" or a \"downward …\"."
+    ],
+    "solution": "It is called a **trend**."
+  },
+  {
+    "id": "m6.sta.graphs.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the things a good graph should have.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A title"
+      },
+      {
+        "id": "b",
+        "text": "A label on each axis"
+      },
+      {
+        "id": "c",
+        "text": "A scale that starts at 0 with equal steps"
+      },
+      {
+        "id": "d",
+        "text": "Units, such as cm or °C, where needed"
+      },
+      {
+        "id": "e",
+        "text": "As many colours as possible"
+      },
+      {
+        "id": "f",
+        "text": "Bars drawn in 3D"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Which things help someone read the graph correctly?"
+    ],
+    "solution": "A good graph needs **a title, axis labels, a scale from 0 with equal steps, and units**. Colours and 3D effects don’t make it easier to read."
+  },
+  {
+    "id": "m6.sta.graphs.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the bar graph. How many more students chose netball than cricket?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"188.29\" x2=\"390\" y2=\"188.29\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"188.29\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"60\" y1=\"162.57\" x2=\"390\" y2=\"162.57\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"162.57\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"60\" y1=\"136.86\" x2=\"390\" y2=\"136.86\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"136.86\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"60\" y1=\"111.14\" x2=\"390\" y2=\"111.14\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"111.14\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"85.43\" x2=\"390\" y2=\"85.43\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"85.43\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"60\" y1=\"59.71\" x2=\"390\" y2=\"59.71\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"59.71\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Favourite sport</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Sport</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of students</text><rect x=\"73.2\" y=\"111.14\" width=\"39.6\" height=\"102.86\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"93\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">rugby</text><rect x=\"139.2\" y=\"59.71\" width=\"39.6\" height=\"154.29\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"159\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">netball</text><rect x=\"205.2\" y=\"136.86\" width=\"39.6\" height=\"77.14\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"225\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">football</text><rect x=\"271.2\" y=\"162.57\" width=\"39.6\" height=\"51.43\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"291\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">cricket</text><rect x=\"337.2\" y=\"85.43\" width=\"39.6\" height=\"128.57\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"357\" y=\"228\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">basketball</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></svg>",
+      "alt": "Bar graph titled \"Favourite sport\", with a bar for each of rugby, netball, football, cricket and basketball."
+    },
+    "answer": 8,
+    "form": "integer",
+    "hints": [
+      "Read the netball and cricket bars first.",
+      "\"How many more\" means subtract."
+    ],
+    "solution": "Netball: 12. Cricket: 4. $12 - 4 = 8$ more students."
+  },
+  {
+    "id": "m6.sta.graphs.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the time-series graph. By how much did the temperature go up from 9 am to 10 am?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"199\" x2=\"390\" y2=\"199\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"199\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"60\" y1=\"184\" x2=\"390\" y2=\"184\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"184\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"60\" y1=\"169\" x2=\"390\" y2=\"169\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"169\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"60\" y1=\"154\" x2=\"390\" y2=\"154\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"154\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"139\" x2=\"390\" y2=\"139\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"139\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"60\" y1=\"124\" x2=\"390\" y2=\"124\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"124\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"60\" y1=\"109\" x2=\"390\" y2=\"109\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"109\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><line x1=\"60\" y1=\"94\" x2=\"390\" y2=\"94\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">16</text><line x1=\"60\" y1=\"79\" x2=\"390\" y2=\"79\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"79\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">18</text><line x1=\"60\" y1=\"64\" x2=\"390\" y2=\"64\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"64\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">20</text><line x1=\"60\" y1=\"49\" x2=\"390\" y2=\"49\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"49\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">22</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">24</text><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Temperature on a summer morning</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Time</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Temperature (°C)</text><line x1=\"87.5\" y1=\"214\" x2=\"87.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"87.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">7 am</text><line x1=\"142.5\" y1=\"214\" x2=\"142.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"142.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">8 am</text><line x1=\"197.5\" y1=\"214\" x2=\"197.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"197.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">9 am</text><line x1=\"252.5\" y1=\"214\" x2=\"252.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"252.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">10 am</text><line x1=\"307.5\" y1=\"214\" x2=\"307.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"307.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">11 am</text><line x1=\"362.5\" y1=\"214\" x2=\"362.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"362.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">12 pm</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"87.5\" y1=\"139\" x2=\"142.5\" y2=\"124\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"142.5\" y1=\"124\" x2=\"197.5\" y2=\"109\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"197.5\" y1=\"109\" x2=\"252.5\" y2=\"79\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"252.5\" y1=\"79\" x2=\"307.5\" y2=\"64\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"307.5\" y1=\"64\" x2=\"362.5\" y2=\"49\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"87.5\" cy=\"139\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"142.5\" cy=\"124\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"197.5\" cy=\"109\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"252.5\" cy=\"79\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"307.5\" cy=\"64\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"362.5\" cy=\"49\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Time-series graph titled \"Temperature on a summer morning\", with times from 7 am to 12 pm along the x-axis and temperature in °C up the y-axis."
+    },
+    "answer": 4,
+    "form": "integer",
+    "units": "°C",
+    "hints": [
+      "Read the temperature at 9 am and at 10 am.",
+      "Each gridline is 2°C."
+    ],
+    "solution": "9 am: 14°C. 10 am: 18°C. $18 - 14 = 4$, so it went up by **4°C**."
+  },
+  {
+    "id": "m6.sta.graphs.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama drew a time-series graph of the temperature. Along the x-axis he wrote the times 9 am, 11 am, 10 am, 12 pm. What is wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The times must be in order, from earliest to latest."
+      },
+      {
+        "id": "b",
+        "text": "Time should go up the y-axis instead."
+      },
+      {
+        "id": "c",
+        "text": "He should have used a bar graph."
+      },
+      {
+        "id": "d",
+        "text": "Nothing is wrong."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "On a time-series graph, time goes along the x-axis.",
+      "c": "Temperature over time is time-series data, so a time-series graph is right.",
+      "d": "11 am comes after 10 am, so the order is wrong."
+    },
+    "hints": [
+      "Read the times from left to right."
+    ],
+    "solution": "Time must go in order along the x-axis: **9 am, 10 am, 11 am, 12 pm**. Otherwise the graph shows the changes in the wrong order."
+  },
+  {
+    "id": "m6.sta.graphs.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "On a time-series graph, [[a]] goes along the x-axis, and the points are joined with [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "time"
+        ],
+        "options": [
+          "time",
+          "the categories",
+          "the title"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "straight lines"
+        ],
+        "options": [
+          "straight lines",
+          "bars",
+          "nothing"
+        ]
+      }
+    ],
+    "hints": [
+      "Think about how the sunflower graph was drawn."
+    ],
+    "solution": "**Time** goes along the x-axis, and the points are joined with **straight lines**."
+  },
+  {
+    "id": "m6.sta.graphs.q010",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these steps for drawing a time-series graph in order.",
+    "items": [
+      {
+        "id": "s1",
+        "text": "Draw the x-axis and the y-axis."
+      },
+      {
+        "id": "s2",
+        "text": "Write the times along the x-axis, in order."
+      },
+      {
+        "id": "s3",
+        "text": "Choose a scale for the y-axis that starts at 0 and goes up in equal steps."
+      },
+      {
+        "id": "s4",
+        "text": "Plot a point for each time."
+      },
+      {
+        "id": "s5",
+        "text": "Join the points with straight lines."
+      },
+      {
+        "id": "s6",
+        "text": "Add a title and label both axes."
+      }
+    ],
+    "hints": [
+      "You need the axes and scales before you can plot points."
+    ],
+    "solution": "Draw the axes, put the times along the x-axis, choose a y-axis scale from 0, plot the points, join them with straight lines, and finally add a title and labels."
+  },
+  {
+    "id": "m6.sta.graphs.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is time-series data?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The height of a seedling, measured every day for two weeks"
+      },
+      {
+        "id": "b",
+        "text": "The favourite colours of 25 students"
+      },
+      {
+        "id": "c",
+        "text": "The shoe size of everyone in Room 8"
+      },
+      {
+        "id": "d",
+        "text": "The number of pets each student has"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is category data: each student picks a colour. It isn’t collected over time.",
+      "c": "Each person has one shoe size. It isn’t collected over time.",
+      "d": "This is number data for different students, not one thing measured over time."
+    },
+    "hints": [
+      "Time-series data measures the same thing again and again over time."
+    ],
+    "solution": "**The height of a seedling, measured every day** is time-series data: each height goes with a day."
+  },
+  {
+    "id": "m6.sta.graphs.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Look at the time-series graph. Which describes the trend?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"197.64\" x2=\"390\" y2=\"197.64\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"197.64\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">100</text><line x1=\"60\" y1=\"181.27\" x2=\"390\" y2=\"181.27\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"181.27\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">200</text><line x1=\"60\" y1=\"164.91\" x2=\"390\" y2=\"164.91\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"164.91\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">300</text><line x1=\"60\" y1=\"148.55\" x2=\"390\" y2=\"148.55\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"148.55\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">400</text><line x1=\"60\" y1=\"132.18\" x2=\"390\" y2=\"132.18\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"132.18\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">500</text><line x1=\"60\" y1=\"115.82\" x2=\"390\" y2=\"115.82\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"115.82\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">600</text><line x1=\"60\" y1=\"99.45\" x2=\"390\" y2=\"99.45\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"99.45\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">700</text><line x1=\"60\" y1=\"83.09\" x2=\"390\" y2=\"83.09\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"83.09\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">800</text><line x1=\"60\" y1=\"66.73\" x2=\"390\" y2=\"66.73\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"66.73\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">900</text><line x1=\"60\" y1=\"50.36\" x2=\"390\" y2=\"50.36\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"50.36\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1000</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1100</text><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Water in the school water tank</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Week</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Water (litres)</text><line x1=\"87.5\" y1=\"214\" x2=\"87.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"87.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 1</text><line x1=\"142.5\" y1=\"214\" x2=\"142.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"142.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 2</text><line x1=\"197.5\" y1=\"214\" x2=\"197.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"197.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 3</text><line x1=\"252.5\" y1=\"214\" x2=\"252.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"252.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 4</text><line x1=\"307.5\" y1=\"214\" x2=\"307.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"307.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 5</text><line x1=\"362.5\" y1=\"214\" x2=\"362.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"362.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 6</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"87.5\" y1=\"50.36\" x2=\"142.5\" y2=\"66.73\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"142.5\" y1=\"66.73\" x2=\"197.5\" y2=\"99.45\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"197.5\" y1=\"99.45\" x2=\"252.5\" y2=\"115.82\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"252.5\" y1=\"115.82\" x2=\"307.5\" y2=\"132.18\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"307.5\" y1=\"132.18\" x2=\"362.5\" y2=\"164.91\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"87.5\" cy=\"50.36\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"142.5\" cy=\"66.73\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"197.5\" cy=\"99.45\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"252.5\" cy=\"115.82\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"307.5\" cy=\"132.18\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"362.5\" cy=\"164.91\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Time-series graph titled \"Water in the school water tank\", with weeks 1 to 6 along the x-axis and water in litres up the y-axis."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A downward trend: the water goes down over time"
+      },
+      {
+        "id": "b",
+        "text": "An upward trend: the water goes up over time"
+      },
+      {
+        "id": "c",
+        "text": "No clear trend"
+      },
+      {
+        "id": "d",
+        "text": "The water goes down by the same amount every week"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Read from left to right: the line goes down.",
+      "c": "The line goes down every week, which is a clear direction.",
+      "d": "Some weeks it drops by 100 litres and some weeks by 200 litres."
+    },
+    "hints": [
+      "Read the graph from left to right."
+    ],
+    "solution": "The water goes from 1000 litres to 300 litres over the six weeks: a **downward trend**."
+  },
+  {
+    "id": "m6.sta.graphs.q013",
+    "type": "match",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Match each graph to the data it suits best.",
+    "pairs": [
+      {
+        "left": {
+          "id": "bar",
+          "text": "Bar graph"
+        },
+        "right": {
+          "id": "u1",
+          "text": "Counts of things sorted into groups, like favourite fruit"
+        }
+      },
+      {
+        "left": {
+          "id": "dot",
+          "text": "Dot plot"
+        },
+        "right": {
+          "id": "u2",
+          "text": "A small set of number data, with one dot for each value"
+        }
+      },
+      {
+        "left": {
+          "id": "ts",
+          "text": "Time-series graph"
+        },
+        "right": {
+          "id": "u3",
+          "text": "Something measured again and again over time"
+        }
+      }
+    ],
+    "hints": [
+      "Which graph has time along the bottom?"
+    ],
+    "solution": "Bar graph: groups (categories). Dot plot: small sets of number data. Time-series graph: data collected over time."
+  },
+  {
+    "id": "m6.sta.graphs.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Look at the dot plot. Which statement describes it best?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 268 172\" width=\"268\" height=\"172\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"136\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Hours of sleep last night</text><line x1=\"26\" y1=\"120\" x2=\"246\" y2=\"120\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"34\" y1=\"120\" x2=\"34\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"34\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"68\" y1=\"120\" x2=\"68\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"68\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><line x1=\"102\" y1=\"120\" x2=\"102\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"102\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"136\" y1=\"120\" x2=\"136\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"136\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"170\" y1=\"120\" x2=\"170\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"170\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"204\" y1=\"120\" x2=\"204\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"204\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"238\" y1=\"120\" x2=\"238\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"238\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><circle cx=\"68\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"85\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"85\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"59\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"46\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"85\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"59\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"204\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"204\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><text x=\"136\" y=\"158\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Hours of sleep</text></svg>",
+      "alt": "Dot plot titled \"Hours of sleep last night\", with one dot for each of 17 students above a number line from 6 to 12 hours."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Most students slept 9 or 10 hours."
+      },
+      {
+        "id": "b",
+        "text": "Most students slept 7 hours."
+      },
+      {
+        "id": "c",
+        "text": "Every student slept 9 hours."
+      },
+      {
+        "id": "d",
+        "text": "The students slept between 9 and 11 hours."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Only one dot is above 7. The tallest columns are above 9 and 10.",
+      "c": "9 hours has the most dots, but other students slept for different times.",
+      "d": "Check the spread: the dots go from 7 hours to 11 hours."
+    },
+    "hints": [
+      "Where are the tallest columns of dots?"
+    ],
+    "solution": "6 students slept 9 hours and 5 slept 10 hours, so **most students (11 out of 17) slept 9 or 10 hours**. The data is spread from 7 to 11 hours."
+  },
+  {
+    "id": "m6.sta.graphs.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The y-axis of a bar graph is labelled 0, 5, 10, 20, 40. What is wrong with the scale?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The steps are not equal."
+      },
+      {
+        "id": "b",
+        "text": "It doesn’t start at 0."
+      },
+      {
+        "id": "c",
+        "text": "The numbers are too big."
+      },
+      {
+        "id": "d",
+        "text": "Nothing is wrong."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "It does start at 0. Look at the gaps between the numbers.",
+      "c": "Big numbers are fine if the data needs them.",
+      "d": "Look at how much the scale goes up by each time."
+    },
+    "hints": [
+      "How much does the scale go up by each time?"
+    ],
+    "solution": "The scale goes up by 5, then 5, then 10, then 20. **The steps are not equal**, so the bars would give the wrong idea."
+  },
+  {
+    "id": "m6.sta.graphs.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Look at the dot plot. How many students slept for **more than** 9 hours?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 268 172\" width=\"268\" height=\"172\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"136\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Hours of sleep last night</text><line x1=\"26\" y1=\"120\" x2=\"246\" y2=\"120\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"34\" y1=\"120\" x2=\"34\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"34\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"68\" y1=\"120\" x2=\"68\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"68\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">7</text><line x1=\"102\" y1=\"120\" x2=\"102\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"102\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"136\" y1=\"120\" x2=\"136\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"136\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">9</text><line x1=\"170\" y1=\"120\" x2=\"170\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"170\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"204\" y1=\"120\" x2=\"204\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"204\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">11</text><line x1=\"238\" y1=\"120\" x2=\"238\" y2=\"126\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"238\" y=\"137\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><circle cx=\"68\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"85\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"85\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"59\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"46\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"85\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"59\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"204\" cy=\"111\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"204\" cy=\"98\" r=\"5\" fill=\"#2563eb\"/><text x=\"136\" y=\"158\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Hours of sleep</text></svg>",
+      "alt": "Dot plot titled \"Hours of sleep last night\", with one dot for each of 17 students above a number line from 6 to 12 hours."
+    },
+    "answer": 7,
+    "form": "integer",
+    "hints": [
+      "\"More than 9\" means 10, 11 or 12 hours. It doesn’t include 9."
+    ],
+    "solution": "5 students slept 10 hours and 2 slept 11 hours: $5 + 2 = 7$ students."
+  },
+  {
+    "id": "m6.sta.graphs.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Describe the trend in this time-series graph. Use numbers from the graph in your answer.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"200.15\" x2=\"390\" y2=\"200.15\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"186.31\" x2=\"390\" y2=\"186.31\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"186.31\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"60\" y1=\"172.46\" x2=\"390\" y2=\"172.46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"158.62\" x2=\"390\" y2=\"158.62\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"158.62\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">20</text><line x1=\"60\" y1=\"144.77\" x2=\"390\" y2=\"144.77\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"130.92\" x2=\"390\" y2=\"130.92\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"130.92\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">30</text><line x1=\"60\" y1=\"117.08\" x2=\"390\" y2=\"117.08\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"103.23\" x2=\"390\" y2=\"103.23\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"103.23\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">40</text><line x1=\"60\" y1=\"89.38\" x2=\"390\" y2=\"89.38\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"75.54\" x2=\"390\" y2=\"75.54\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"75.54\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">50</text><line x1=\"60\" y1=\"61.69\" x2=\"390\" y2=\"61.69\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"47.85\" x2=\"390\" y2=\"47.85\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"47.85\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">60</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Students who walked to school</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Week</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of students</text><line x1=\"83.57\" y1=\"214\" x2=\"83.57\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"83.57\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 1</text><line x1=\"130.71\" y1=\"214\" x2=\"130.71\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"130.71\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 2</text><line x1=\"177.86\" y1=\"214\" x2=\"177.86\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"177.86\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 3</text><line x1=\"225\" y1=\"214\" x2=\"225\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"225\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 4</text><line x1=\"272.14\" y1=\"214\" x2=\"272.14\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"272.14\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 5</text><line x1=\"319.29\" y1=\"214\" x2=\"319.29\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"319.29\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 6</text><line x1=\"366.43\" y1=\"214\" x2=\"366.43\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"366.43\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wk 7</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"83.57\" y1=\"158.62\" x2=\"130.71\" y2=\"144.77\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"130.71\" y1=\"144.77\" x2=\"177.86\" y2=\"117.08\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"177.86\" y1=\"117.08\" x2=\"225\" y2=\"130.92\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"225\" y1=\"130.92\" x2=\"272.14\" y2=\"89.38\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"272.14\" y1=\"89.38\" x2=\"319.29\" y2=\"75.54\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"319.29\" y1=\"75.54\" x2=\"366.43\" y2=\"47.85\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"83.57\" cy=\"158.62\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"130.71\" cy=\"144.77\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"177.86\" cy=\"117.08\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"225\" cy=\"130.92\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"272.14\" cy=\"89.38\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"319.29\" cy=\"75.54\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"366.43\" cy=\"47.85\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Time-series graph titled \"Students who walked to school\", with weeks 1 to 7 along the x-axis and the number of students up the y-axis."
+    },
+    "modelAnswer": "There is an upward trend: more students walked to school as the weeks went on. It went from 20 students in week 1 to 60 students in week 7. There was one small dip, from 35 in week 3 to 30 in week 4, but overall the number went up.",
+    "rubric": [
+      {
+        "criterion": "Says there is an upward trend (the number of walkers goes up over time)",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses numbers from the graph, e.g. from 20 in week 1 to 60 in week 7 (mentioning the dip is a bonus)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Read the graph from left to right.",
+      "Compare the first and last values."
+    ],
+    "solution": "An **upward trend**: from 20 walkers in week 1 to 60 in week 7, with one small dip in week 4."
+  },
+  {
+    "id": "m6.sta.graphs.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A TV news graph shows how many people went to a summer festival: 900 last year and 1000 this year. The y-axis starts at 800, so this year’s bar looks twice as tall as last year’s. Explain why this graph could give people the wrong idea.",
+    "modelAnswer": "The y-axis starts at 800 instead of 0, so the bars only show the part above 800 (100 and 200). That makes this year’s bar look twice as tall. But the crowd only went up by 100 people, from 900 to 1000, which is not double. Starting the scale at 0 would show that the bars are nearly the same height.",
+    "rubric": [
+      {
+        "criterion": "Says the scale does not start at 0, which makes the difference look bigger",
+        "marks": 1
+      },
+      {
+        "criterion": "Says the real increase is only 100 people (900 to 1000), which is nowhere near double",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What number should a bar graph’s scale start at?",
+      "Did the number of people really double?"
+    ],
+    "solution": "The scale starts at 800, not 0, so a small change looks huge. The crowd only grew by 100 (from 900 to 1000), not twice as many."
+  },
+  {
+    "id": "m6.sta.graphs.q019",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Hana counted the kererū in a park each year: 40 in 2022, 44 in 2023, 48 in 2024 and 52 in 2025. Which statement is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "There is an upward trend, with 4 more kererū each year."
+      },
+      {
+        "id": "b",
+        "text": "The number of kererū doubled from 2022 to 2025."
+      },
+      {
+        "id": "c",
+        "text": "There is a downward trend."
+      },
+      {
+        "id": "d",
+        "text": "There is no trend, because it only goes up by 4 each time."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Double 40 is 80. The count only went up to 52.",
+      "c": "The numbers get bigger each year.",
+      "d": "Going up by the same amount each year is still an upward trend."
+    },
+    "hints": [
+      "Is the count going up or down?",
+      "How much does it change each year?"
+    ],
+    "solution": "The count goes 40, 44, 48, 52: up by 4 each year. That is **an upward trend**. It did not double (that would be 80)."
+  },
+  {
+    "id": "m6.sta.graphs.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the time-series graph. How many more ice creams were sold on the weekend (Saturday and Sunday together) than on Monday and Tuesday together?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"202\" x2=\"390\" y2=\"202\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"190\" x2=\"390\" y2=\"190\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"190\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">20</text><line x1=\"60\" y1=\"178\" x2=\"390\" y2=\"178\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"166\" x2=\"390\" y2=\"166\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"166\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">40</text><line x1=\"60\" y1=\"154\" x2=\"390\" y2=\"154\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142\" x2=\"390\" y2=\"142\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"142\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">60</text><line x1=\"60\" y1=\"130\" x2=\"390\" y2=\"130\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"118\" x2=\"390\" y2=\"118\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"118\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">80</text><line x1=\"60\" y1=\"106\" x2=\"390\" y2=\"106\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"94\" x2=\"390\" y2=\"94\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">100</text><line x1=\"60\" y1=\"82\" x2=\"390\" y2=\"82\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"70\" x2=\"390\" y2=\"70\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"70\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">120</text><line x1=\"60\" y1=\"58\" x2=\"390\" y2=\"58\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"60\" y1=\"46\" x2=\"390\" y2=\"46\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"46\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">140</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Ice creams sold at the beach dairy</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Day</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Number of ice creams</text><line x1=\"83.57\" y1=\"214\" x2=\"83.57\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"83.57\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Mon</text><line x1=\"130.71\" y1=\"214\" x2=\"130.71\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"130.71\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Tue</text><line x1=\"177.86\" y1=\"214\" x2=\"177.86\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"177.86\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Wed</text><line x1=\"225\" y1=\"214\" x2=\"225\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"225\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Thu</text><line x1=\"272.14\" y1=\"214\" x2=\"272.14\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"272.14\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Fri</text><line x1=\"319.29\" y1=\"214\" x2=\"319.29\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"319.29\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Sat</text><line x1=\"366.43\" y1=\"214\" x2=\"366.43\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"366.43\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">Sun</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"83.57\" y1=\"166\" x2=\"130.71\" y2=\"178\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"130.71\" y1=\"178\" x2=\"177.86\" y2=\"154\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"177.86\" y1=\"154\" x2=\"225\" y2=\"142\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"225\" y1=\"142\" x2=\"272.14\" y2=\"130\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"272.14\" y1=\"130\" x2=\"319.29\" y2=\"70\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"319.29\" y1=\"70\" x2=\"366.43\" y2=\"46\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"83.57\" cy=\"166\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"130.71\" cy=\"178\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"177.86\" cy=\"154\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"225\" cy=\"142\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"272.14\" cy=\"130\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"319.29\" cy=\"70\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"366.43\" cy=\"46\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Time-series graph titled \"Ice creams sold at the beach dairy\", with the days Monday to Sunday along the x-axis and the number of ice creams up the y-axis."
+    },
+    "answer": 190,
+    "form": "integer",
+    "hints": [
+      "Read the values for Monday, Tuesday, Saturday and Sunday.",
+      "Add each pair, then find the difference."
+    ],
+    "solution": "Weekend: $120 + 140 = 260$. Monday and Tuesday: $40 + 30 = 70$. Difference: $260 - 70 = 190$ more ice creams."
+  },
+  {
+    "id": "m6.sta.graphs.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Look at the time-series graph. What was the mean (average) temperature of the six readings?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 404 264\" width=\"404\" height=\"264\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"214\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"60\" y1=\"199\" x2=\"390\" y2=\"199\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"199\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"60\" y1=\"184\" x2=\"390\" y2=\"184\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"184\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"60\" y1=\"169\" x2=\"390\" y2=\"169\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"169\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><line x1=\"60\" y1=\"154\" x2=\"390\" y2=\"154\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"154\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">8</text><line x1=\"60\" y1=\"139\" x2=\"390\" y2=\"139\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"139\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">10</text><line x1=\"60\" y1=\"124\" x2=\"390\" y2=\"124\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"124\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">12</text><line x1=\"60\" y1=\"109\" x2=\"390\" y2=\"109\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"109\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">14</text><line x1=\"60\" y1=\"94\" x2=\"390\" y2=\"94\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">16</text><line x1=\"60\" y1=\"79\" x2=\"390\" y2=\"79\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"79\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">18</text><line x1=\"60\" y1=\"64\" x2=\"390\" y2=\"64\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"64\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">20</text><line x1=\"60\" y1=\"49\" x2=\"390\" y2=\"49\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"49\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">22</text><line x1=\"60\" y1=\"34\" x2=\"390\" y2=\"34\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"52\" y=\"34\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">24</text><text x=\"225\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Temperature on a summer morning</text><text x=\"225\" y=\"250\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Time</text><text x=\"15\" y=\"124\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\" transform=\"rotate(-90 15 124)\">Temperature (°C)</text><line x1=\"87.5\" y1=\"214\" x2=\"87.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"87.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">7 am</text><line x1=\"142.5\" y1=\"214\" x2=\"142.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"142.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">8 am</text><line x1=\"197.5\" y1=\"214\" x2=\"197.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"197.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">9 am</text><line x1=\"252.5\" y1=\"214\" x2=\"252.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"252.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">10 am</text><line x1=\"307.5\" y1=\"214\" x2=\"307.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"307.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">11 am</text><line x1=\"362.5\" y1=\"214\" x2=\"362.5\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"362.5\" y=\"229\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#1f2937\">12 pm</text><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"214\" x2=\"390\" y2=\"214\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"87.5\" y1=\"139\" x2=\"142.5\" y2=\"124\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"142.5\" y1=\"124\" x2=\"197.5\" y2=\"109\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"197.5\" y1=\"109\" x2=\"252.5\" y2=\"79\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"252.5\" y1=\"79\" x2=\"307.5\" y2=\"64\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x1=\"307.5\" y1=\"64\" x2=\"362.5\" y2=\"49\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"87.5\" cy=\"139\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"142.5\" cy=\"124\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"197.5\" cy=\"109\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"252.5\" cy=\"79\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"307.5\" cy=\"64\" r=\"4\" fill=\"#2563eb\"/><circle cx=\"362.5\" cy=\"49\" r=\"4\" fill=\"#2563eb\"/></svg>",
+      "alt": "Time-series graph titled \"Temperature on a summer morning\", with times from 7 am to 12 pm along the x-axis and temperature in °C up the y-axis."
+    },
+    "answer": 16,
+    "form": "any",
+    "units": "°C",
+    "hints": [
+      "Read all six temperatures from the graph.",
+      "Add them up, then divide by 6."
+    ],
+    "solution": "$10 + 12 + 14 + 18 + 20 + 22 = 96$, and $96 \\div 6 = 16$. The mean temperature was **16°C**."
+  }
+]

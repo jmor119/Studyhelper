@@ -1,0 +1,350 @@
+[
+  {
+    "id": "m7.num.decimals.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the number 4.375, the digit 7 is in the [[a]] place.",
+    "blanks": [{ "id": "a", "accepted": ["hundredths"], "options": ["tenths", "hundredths", "thousandths"] }],
+    "hints": ["The first place after the decimal point is tenths."],
+    "solution": "4.375 has 3 tenths, 7 **hundredths** and 5 thousandths."
+  },
+  {
+    "id": "m7.num.decimals.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these decimals is the **largest**?",
+    "options": [
+      { "id": "a", "text": "$0.71$" },
+      { "id": "b", "text": "$0.7$" },
+      { "id": "c", "text": "$0.65$" },
+      { "id": "d", "text": "$0.099$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$0.7 = 0.70$, which is 1 hundredth less than $0.71$.",
+      "c": "$0.65$ has 6 tenths, but $0.71$ has 7 tenths.",
+      "d": "$0.099$ has the most digits, but it has 0 tenths. It is less than one tenth."
+    },
+    "hints": ["Compare the tenths digits first. If they are the same, compare the hundredths."],
+    "solution": "Write them all with 3 decimal places: 0.710, 0.700, 0.650 and 0.099. The largest is $0.71$."
+  },
+  {
+    "id": "m7.num.decimals.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is $4.2 \\times 10$?",
+    "options": [
+      { "id": "a", "text": "$42$" },
+      { "id": "b", "text": "$4.20$" },
+      { "id": "c", "text": "$40.2$" },
+      { "id": "d", "text": "$0.42$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$4.20$ is the same as $4.2$. Putting a zero on the end of a decimal doesn't multiply it by 10.",
+      "c": "Only the 4 has moved. When you multiply by 10, every digit moves one place to the left.",
+      "d": "$0.42$ is $4.2 \\div 10$. Multiplying by 10 makes the number bigger."
+    },
+    "hints": ["Multiplying by 10 makes a number 10 times bigger. Every digit moves one place to the left."],
+    "solution": "Every digit moves one place to the left: the 4 ones become 4 tens, and the 2 tenths become 2 ones. $4.2 \\times 10 = 42$."
+  },
+  {
+    "id": "m7.num.decimals.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Ruby's dog weighs 8.4 kg and her cat weighs 3.9 kg. What is their total weight?",
+    "answer": 12.3,
+    "units": "kg",
+    "hints": ["Line up the decimal points and add.", "Remember to carry if the tenths add to 10 or more."],
+    "solution": "$8.4 + 3.9 = 12.3$ kg. (4 tenths + 9 tenths = 13 tenths, which is 1 one and 3 tenths.)"
+  },
+  {
+    "id": "m7.num.decimals.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai works out $5.3 + 2.45$ and gets $2.98$. What went wrong?",
+    "options": [
+      { "id": "a", "text": "He lined up the last digits instead of the decimal points. The answer is $7.75$." },
+      { "id": "b", "text": "Nothing. $2.98$ is correct." },
+      { "id": "c", "text": "He should have written 5.3 as 5.03. The answer is $7.48$." },
+      { "id": "d", "text": "He should have rounded both numbers first. The answer is $7$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2.98$ is smaller than $5.3$. Adding should make the answer bigger.",
+      "c": "5.3 is 5 ones and 3 **tenths**, so it is 5.30, not 5.03.",
+      "d": "Rounding is good for estimating, but the question wants the exact answer."
+    },
+    "hints": ["Estimate first: about 5 + 2. Is 2.98 close to that?", "Write 5.3 as 5.30 and line up the decimal points."],
+    "solution": "Kai lined up the numbers from the right, so he added 0.53 + 2.45. Line up the decimal points instead:\n\n$5.30 + 2.45 = 7.75$\n\nThe estimate $5 + 2 = 7$ shows 7.75 makes sense."
+  },
+  {
+    "id": "m7.num.decimals.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $7 - 2.36$.",
+    "answer": 4.64,
+    "hints": ["Write 7 as 7.00 so the decimal places line up.", "You will need to regroup (borrow)."],
+    "solution": "$7.00 - 2.36 = 4.64$"
+  },
+  {
+    "id": "m7.num.decimals.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is $0.6 \\times 5$?",
+    "options": [
+      { "id": "a", "text": "$3$" },
+      { "id": "b", "text": "$30$" },
+      { "id": "c", "text": "$0.03$" },
+      { "id": "d", "text": "$5.6$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$6 \\times 5 = 30$, but $0.6$ is 6 **tenths**. 30 tenths is 3.",
+      "c": "That is far too small. $0.6$ is more than half, so $0.6 \\times 5$ is more than half of 5.",
+      "d": "This adds 0.6 and 5. The question asks you to multiply."
+    },
+    "hints": ["Start with $6 \\times 5$.", "$0.6$ is 6 tenths. How many tenths is the answer?"],
+    "solution": "$6 \\times 5 = 30$, so 6 tenths × 5 = 30 tenths $= 3$."
+  },
+  {
+    "id": "m7.num.decimals.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the numbers that are equal to $0.5$.",
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{2}$" },
+      { "id": "b", "text": "$0.50$" },
+      { "id": "c", "text": "$\\frac{50}{100}$" },
+      { "id": "d", "text": "$\\frac{5}{100}$" },
+      { "id": "e", "text": "$0.05$" },
+      { "id": "f", "text": "$\\frac{1}{5}$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["$0.5$ is 5 tenths. How many hundredths is that?"],
+    "solution": "$0.5 = \\frac{5}{10} = \\frac{50}{100} = \\frac{1}{2} = 0.50$.\n\n$\\frac{5}{100}$ and $0.05$ are 5 hundredths, and $\\frac{1}{5} = 0.2$."
+  },
+  {
+    "id": "m7.num.decimals.q009",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these in order from **smallest** to **largest**: $0.4$, $0.38$, $0.405$ and $0.3$.",
+    "items": [
+      { "id": "v", "text": "$0.3$" },
+      { "id": "s", "text": "$0.38$" },
+      { "id": "w", "text": "$0.4$" },
+      { "id": "p", "text": "$0.405$" }
+    ],
+    "hints": ["Give them all 3 decimal places by adding zeros: 0.400, 0.380, …"],
+    "solution": "With 3 decimal places: 0.400, 0.380, 0.405 and 0.300.\n\nFrom smallest to largest: $0.3$, $0.38$, $0.4$, $0.405$."
+  },
+  {
+    "id": "m7.num.decimals.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $0.4 \\times 30$.",
+    "answer": 12,
+    "hints": ["Start with $4 \\times 3$.", "$0.4 \\times 3$ is in tenths. Then multiply by 10."],
+    "solution": "$4 \\times 3 = 12$, so $0.4 \\times 3 = 1.2$. Then $1.2 \\times 10 = 12$. So $0.4 \\times 30 = 12$."
+  },
+  {
+    "id": "m7.num.decimals.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What does $0.\\dot{3}$ mean?",
+    "options": [
+      { "id": "a", "text": "$0.333\\ldots$, with the 3 repeating forever" },
+      { "id": "b", "text": "$0.3$ exactly" },
+      { "id": "c", "text": "$0.333$ exactly" },
+      { "id": "d", "text": "$0.03$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The dot shows the digit keeps repeating. $0.3$ stops after one digit.",
+      "c": "$0.333$ stops after three digits. The dot means the 3s never stop.",
+      "d": "$0.03$ is 3 hundredths. The dot doesn't move the digit."
+    },
+    "hints": ["A dot above a digit is used for recurring decimals."],
+    "solution": "The dot means the digit repeats forever: $0.\\dot{3} = 0.3333\\ldots$. This is the decimal for $\\frac{1}{3}$, and it is a **recurring decimal**."
+  },
+  {
+    "id": "m7.num.decimals.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "$\\frac{3}{5} = 0.6$ is a [[a]] decimal.\n\n$\\frac{2}{3} = 0.666\\ldots$ is a [[b]] decimal.\n\n$\\frac{7}{20} = 0.35$ is a [[c]] decimal.",
+    "blanks": [
+      { "id": "a", "accepted": ["terminating"], "options": ["terminating", "recurring"] },
+      { "id": "b", "accepted": ["recurring"], "options": ["terminating", "recurring"] },
+      { "id": "c", "accepted": ["terminating"], "options": ["terminating", "recurring"] }
+    ],
+    "hints": ["Does the decimal stop, or does it go on forever?"],
+    "solution": "0.6 and 0.35 stop, so they are **terminating** decimals. 0.666… goes on forever with the 6 repeating, so it is a **recurring** decimal."
+  },
+  {
+    "id": "m7.num.decimals.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Write $\\frac{5}{8}$ as a decimal.",
+    "answer": 0.625,
+    "form": "decimal",
+    "hints": ["$\\frac{5}{8}$ means $5 \\div 8$.", "Write 5 as 5.000 and use short division."],
+    "solution": "$5 \\div 8$: 8 into 50 goes 6, remainder 2. 8 into 20 goes 2, remainder 4. 8 into 40 goes 5.\n\n$\\frac{5}{8} = 0.625$"
+  },
+  {
+    "id": "m7.num.decimals.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ella is training for cross-country. She runs 2.4 km on Monday, 1.75 km on Wednesday and 3.2 km on Friday. How far does she run altogether?",
+    "answer": 7.35,
+    "units": "km",
+    "hints": ["Line up the decimal points. Write 2.4 as 2.40 and 3.2 as 3.20."],
+    "solution": "$2.40 + 1.75 + 3.20 = 7.35$ km"
+  },
+  {
+    "id": "m7.num.decimals.q015",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Round $6.0471$ to the nearest hundredth.",
+    "answer": 6.05,
+    "decimals": 2,
+    "tolerance": 1e-9,
+    "hints": ["The hundredths digit is the second digit after the decimal point.", "Look at the digit straight after it."],
+    "solution": "The hundredths digit is 4. The next digit (thousandths) is 7, which is 5 or more, so round up: $6.0471 \\approx 6.05$."
+  },
+  {
+    "id": "m7.num.decimals.q016",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which number rounds to $3.5$ when you round to the nearest tenth?",
+    "options": [
+      { "id": "a", "text": "$3.47$" },
+      { "id": "b", "text": "$3.44$" },
+      { "id": "c", "text": "$3.55$" },
+      { "id": "d", "text": "$3.405$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The hundredths digit is 4, so $3.44$ rounds down to $3.4$.",
+      "c": "The hundredths digit is 5, so $3.55$ rounds up to $3.6$.",
+      "d": "The hundredths digit is 0, so $3.405$ rounds down to $3.4$."
+    },
+    "hints": ["For each one, look at the hundredths digit.", "5 or more rounds up. 4 or less rounds down."],
+    "solution": "$3.47$: the hundredths digit is 7, so round up to $3.5$. It is between 3.4 and 3.5 but past the halfway point, 3.45."
+  },
+  {
+    "id": "m7.num.decimals.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "You know that $36 \\times 8 = 288$. Use this to work out $3.6 \\times 80$.",
+    "answer": 288,
+    "hints": ["How is 3.6 related to 36? How is 80 related to 8?"],
+    "solution": "$3.6 = 36 \\div 10$ and $80 = 8 \\times 10$. Dividing by 10 and multiplying by 10 cancel out, so $3.6 \\times 80 = 36 \\times 8 = 288$."
+  },
+  {
+    "id": "m7.num.decimals.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A mince and cheese pie costs \\$4.50. The coach buys 6 pies for the team. How much does the coach spend?",
+    "answer": 27,
+    "units": "$",
+    "hints": ["Split 4.50 into 4 and 0.50.", "Multiply each part by 6, then add."],
+    "solution": "$4 \\times 6 = 24$ and $0.5 \\times 6 = 3$, so $4.50 \\times 6 = 27$. The coach spends \\$27.00."
+  },
+  {
+    "id": "m7.num.decimals.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A stack of 1000 sheets of paper is 9.6 cm tall. How thick is one sheet of paper, in centimetres?",
+    "answer": 0.0096,
+    "units": "cm",
+    "hints": ["Share the height equally between 1000 sheets.", "Dividing by 1000 moves every digit three places to the right."],
+    "solution": "$9.6 \\div 1000 = 0.0096$ cm. Every digit moves three places to the right, and zeros fill the empty places."
+  },
+  {
+    "id": "m7.num.decimals.q020",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Mia says $\\frac{2}{3} = 0.67$ exactly. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. $\\frac{2}{3} = 0.666\\ldots$ is recurring. $0.67$ is $\\frac{2}{3}$ rounded to 2 decimal places." },
+      { "id": "b", "text": "Yes. $2 \\div 3 = 0.67$ exactly." },
+      { "id": "c", "text": "No. $\\frac{2}{3} = 0.23$." },
+      { "id": "d", "text": "No. $\\frac{2}{3} = 0.6$ exactly." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "When you divide 2 by 3, there is always a remainder of 2, so the 6s never stop. 0.67 is a rounded value.",
+      "c": "$\\frac{2}{3}$ means $2 \\div 3$, not the digits 2 and 3 written after a decimal point.",
+      "d": "$0.6 = \\frac{6}{10} = \\frac{3}{5}$, which is less than $\\frac{2}{3}$."
+    },
+    "hints": ["Try $2 \\div 3$ with short division. Does it ever stop?"],
+    "solution": "$2 \\div 3 = 0.666\\ldots$: each step leaves a remainder of 2, so the 6 repeats forever. It is a recurring decimal. Rounded to 2 decimal places it is $0.67$, but that is not exact."
+  },
+  {
+    "id": "m7.num.decimals.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ruby has a 1.5 kg bag of flour. She uses 0.375 kg to make scones and 0.45 kg to make pancakes. Next she wants to bake a cake that needs 0.8 kg of flour. How much more flour does she need to buy?",
+    "answer": 0.125,
+    "units": "kg",
+    "hints": ["Step 1: how much flour has Ruby used?", "Step 2: how much is left? Step 3: compare that with 0.8 kg."],
+    "solution": "**Used:** $0.375 + 0.450 = 0.825$ kg.\n\n**Left:** $1.500 - 0.825 = 0.675$ kg.\n\n**Still needed:** $0.800 - 0.675 = 0.125$ kg.\n\nRuby needs to buy 0.125 kg more flour."
+  },
+  {
+    "id": "m7.num.decimals.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain how you can use $7 \\times 6 = 42$ to work out $0.7 \\times 6$ and $0.07 \\times 60$.",
+    "modelAnswer": "$0.7$ is 7 tenths, so $0.7 \\times 6$ is 42 tenths, which is $4.2$. For $0.07 \\times 60$: $0.07$ is 7 hundredths, so $0.07 \\times 6 = 42$ hundredths $= 0.42$. 60 is 10 times 6, so the answer is 10 times bigger: $0.42 \\times 10 = 4.2$. Both answers are 4.2.",
+    "rubric": [
+      { "criterion": "Shows $0.7 \\times 6 = 4.2$ using tenths or dividing 42 by 10", "marks": 1 },
+      { "criterion": "Shows $0.07 \\times 60 = 4.2$ using place value (hundredths, then × 10)", "marks": 1 }
+    ],
+    "hints": ["$0.7$ is 7 tenths. $0.07$ is 7 hundredths.", "60 is 6 × 10."],
+    "solution": "$0.7 \\times 6 = 42$ tenths $= 4.2$. $0.07 \\times 60 = 0.07 \\times 6 \\times 10 = 0.42 \\times 10 = 4.2$."
+  },
+  {
+    "id": "m7.num.decimals.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $\\frac{1}{8}$ is a terminating decimal but $\\frac{1}{6}$ is a recurring decimal. Show your division for each one.",
+    "modelAnswer": "$\\frac{1}{8} = 1 \\div 8$. 8 into 10 goes 1, remainder 2. 8 into 20 goes 2, remainder 4. 8 into 40 goes 5, remainder 0. The remainder is 0, so the division stops: $\\frac{1}{8} = 0.125$, a terminating decimal. $\\frac{1}{6} = 1 \\div 6$. 6 into 10 goes 1, remainder 4. 6 into 40 goes 6, remainder 4. 6 into 40 goes 6, remainder 4 again… The remainder 4 keeps coming back, so the 6 repeats forever: $\\frac{1}{6} = 0.1666\\ldots$, a recurring decimal.",
+    "rubric": [
+      { "criterion": "Shows $1 \\div 8 = 0.125$", "marks": 1 },
+      { "criterion": "Shows $1 \\div 6 = 0.1666\\ldots$", "marks": 1 },
+      { "criterion": "Explains the difference: for $\\frac{1}{8}$ the remainder becomes 0, but for $\\frac{1}{6}$ the same remainder keeps repeating", "marks": 1 }
+    ],
+    "hints": ["Use short division for $1 \\div 8$ and $1 \\div 6$.", "Watch the remainders. Does one reach 0? Does one keep coming back?"],
+    "solution": "$1 \\div 8 = 0.125$: the remainder reaches 0, so it stops (terminating). $1 \\div 6 = 0.1666\\ldots$: the remainder 4 keeps coming back, so the 6 repeats forever (recurring)."
+  }
+]

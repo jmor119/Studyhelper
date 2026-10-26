@@ -1,0 +1,67 @@
+[
+  {
+    "id": "m7.mea.volume.f01",
+    "front": "What is **volume**?",
+    "back": "The amount of space a 3D object takes up, measured in cubic units like cm³ or m³."
+  },
+  {
+    "id": "m7.mea.volume.f02",
+    "front": "Why is volume measured in **cubic units**?",
+    "back": "Volume is three-dimensional (length, width and height), so its units are cubed: cm³, m³."
+  },
+  {
+    "id": "m7.mea.volume.f03",
+    "front": "What is a **cubic centimetre** (cm³)?",
+    "back": "The space inside a cube with edges of 1 cm."
+  },
+  {
+    "id": "m7.mea.volume.f04",
+    "front": "Volume of a **rectangular prism**",
+    "back": "$V = l \\times w \\times h$ (or $V = lwh$)"
+  },
+  {
+    "id": "m7.mea.volume.f05",
+    "front": "Volume of a **cube**",
+    "back": "$V = l^3 = l \\times l \\times l$"
+  },
+  {
+    "id": "m7.mea.volume.f06",
+    "front": "What are the **dimensions** of a box?",
+    "back": "Its length, width and height."
+  },
+  {
+    "id": "m7.mea.volume.f07",
+    "front": "How do you find a missing height from the volume?",
+    "back": "Divide the volume by the area of the base (length × width)."
+  },
+  {
+    "id": "m7.mea.volume.f08",
+    "front": "How do you find the edge of a cube with a volume of 64 cm³?",
+    "back": "Find the number that multiplies by itself three times to make 64: $4 \\times 4 \\times 4 = 64$, so 4 cm."
+  },
+  {
+    "id": "m7.mea.volume.f09",
+    "front": "How do you find the volume of a solid made from two boxes?",
+    "back": "Split it into two rectangular prisms, find each volume, then add."
+  },
+  {
+    "id": "m7.mea.volume.f10",
+    "front": "What is **capacity**?",
+    "back": "How much a container can hold, often measured in mL or L."
+  },
+  {
+    "id": "m7.mea.volume.f11",
+    "front": "1 cm³ holds how much water?",
+    "back": "1 mL."
+  },
+  {
+    "id": "m7.mea.volume.f12",
+    "front": "How many cm³ make 1 litre?",
+    "back": "1000 cm³ = 1 L (a 10 cm cube)."
+  },
+  {
+    "id": "m7.mea.volume.f13",
+    "front": "How many litres are in 1 m³?",
+    "back": "1000 L."
+  }
+]

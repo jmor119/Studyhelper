@@ -1,0 +1,319 @@
+[
+  {
+    "id": "m6.mea.area-volume.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which unit would you use for the **area** of a netball court?",
+    "options": [
+      {"id":"a","text":"m²"},
+      {"id":"b","text":"m"},
+      {"id":"c","text":"m³"},
+      {"id":"d","text":"cm²"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Metres measure length, like the distance along one side of the court.","c":"Cubic metres measure volume, the space taken up by a 3D object.","d":"Square centimetres are for small areas, like a stamp or a photo. A court is much bigger."},
+    "hints": ["Area is measured in squares. Is a netball court small or big?"],
+    "solution": "Area is measured in square units. A netball court is big, so we use **square metres (m²)**."
+  },
+  {
+    "id": "m6.mea.area-volume.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What does **volume** measure?",
+    "options": [
+      {"id":"a","text":"The amount of space a 3D object takes up"},
+      {"id":"b","text":"The amount of flat space a shape covers"},
+      {"id":"c","text":"The distance around the edge of a shape"},
+      {"id":"d","text":"How heavy an object is"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"That is area, measured in cm² or m².","c":"That is perimeter, measured in cm or m.","d":"That is mass, measured in g or kg."},
+    "hints": ["Think about filling a box with cubes."],
+    "solution": "Volume is the **amount of space a 3D object takes up**. It is measured in cubic units, such as cm³ and m³."
+  },
+  {
+    "id": "m6.mea.area-volume.q003",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each measurement to the best unit.",
+    "pairs": [
+      {"left":{"id":"p","text":"The length of a pencil"},"right":{"id":"u1","text":"cm"}},
+      {"left":{"id":"ph","text":"The area of a photo"},"right":{"id":"u2","text":"cm²"}},
+      {"left":{"id":"bx","text":"The volume of a shoebox"},"right":{"id":"u3","text":"cm³"}},
+      {"left":{"id":"fd","text":"The area of a rugby field"},"right":{"id":"u4","text":"m²"}},
+      {"left":{"id":"ct","text":"The volume of a shipping container"},"right":{"id":"u5","text":"m³"}}
+    ],
+    "hints": ["Length has no little number, area has a little 2 and volume has a little 3."],
+    "solution": "Lengths use cm or m, areas use cm² or m², and volumes use cm³ or m³. Small things use centimetres and big things use metres."
+  },
+  {
+    "id": "m6.mea.area-volume.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A right-angled triangle is [[a]] of the rectangle with the same base and height.",
+    "blanks": [
+      {"id":"a","accepted":["half"],"options":["half","double","a quarter","the same size"]}
+    ],
+    "hints": ["Imagine cutting a rectangle from one corner to the opposite corner."],
+    "solution": "Cutting a rectangle along its diagonal makes two equal right-angled triangles, so each triangle is **half** of the rectangle."
+  },
+  {
+    "id": "m6.mea.area-volume.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A rectangle is 5 cm long and 3 cm wide. Leo says its area is 16 cm². What did Leo do?",
+    "options": [
+      {"id":"a","text":"He added all four sides, which gives the perimeter, not the area."},
+      {"id":"b","text":"He multiplied 5 by 3 correctly."},
+      {"id":"c","text":"He added the length and the width."},
+      {"id":"d","text":"He multiplied the length by 2."}
+    ],
+    "correct": "a",
+    "feedback": {"b":"$5 \\times 3 = 15$, not 16.","c":"$5 + 3 = 8$, not 16.","d":"$5 \\times 2 = 10$, not 16."},
+    "hints": ["Work out 5 + 3 + 5 + 3. What do you get?"],
+    "solution": "$5 + 3 + 5 + 3 = 16$, so Leo found the **perimeter** (the distance around). The area is $5 \\times 3 = 15$ cm²."
+  },
+  {
+    "id": "m6.mea.area-volume.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which rectangle has the **bigger** area?\n\n- Rectangle A is 6 cm long and 4 cm wide.\n- Rectangle B is 5 cm long and 5 cm wide.",
+    "options": [
+      {"id":"a","text":"Rectangle B"},
+      {"id":"b","text":"Rectangle A"},
+      {"id":"c","text":"They have the same area"},
+      {"id":"d","text":"You can't tell without a picture"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"A is longer, but work out both areas: $6 \\times 4 = 24$ and $5 \\times 5 = 25$.","c":"Both have a perimeter of 20 cm, but their areas are different.","d":"You only need the lengths and widths to find each area."},
+    "hints": ["Find the area of each rectangle: length × width."],
+    "solution": "A: $6 \\times 4 = 24$ cm². B: $5 \\times 5 = 25$ cm². **Rectangle B** has the bigger area, by 1 cm²."
+  },
+  {
+    "id": "m6.mea.area-volume.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A cube has edges that are 2 cm long. What is its volume?",
+    "options": [
+      {"id":"a","text":"8 cm³"},
+      {"id":"b","text":"6 cm³"},
+      {"id":"c","text":"4 cm³"},
+      {"id":"d","text":"24 cm³"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"This adds the edges: 2 + 2 + 2. Volume needs multiplying.","c":"This is $2 \\times 2$, the area of one face. You need to multiply by the height too.","d":"This is the area of all 6 faces added together, not the volume."},
+    "hints": ["Volume = length × width × height. All three are 2 cm."],
+    "solution": "$2 \\times 2 \\times 2 = 8$, so the volume is **8 cm³**. 8 is the cube number $2^3$."
+  },
+  {
+    "id": "m6.mea.area-volume.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The school is laying square pieces of turf, each 1 m², in a courtyard. The courtyard is a rectangle 9 m long and 7 m wide. How many pieces of turf are needed?",
+    "answer": 63,
+    "form": "integer",
+    "hints": ["Each piece covers 1 m². What is the area of the courtyard?"],
+    "solution": "Area $= 9 \\times 7 = 63$ m². Each piece covers 1 m², so **63 pieces** are needed."
+  },
+  {
+    "id": "m6.mea.area-volume.q009",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these rectangles in order of area, from **smallest** to **biggest**.",
+    "items": [
+      {"id":"r1","text":"2 cm by 10 cm"},
+      {"id":"r2","text":"3 cm by 8 cm"},
+      {"id":"r3","text":"5 cm by 5 cm"},
+      {"id":"r4","text":"4 cm by 7 cm"}
+    ],
+    "hints": ["Work out the area of each rectangle first."],
+    "solution": "Areas: $2 \\times 10 = 20$, $3 \\times 8 = 24$, $5 \\times 5 = 25$, $4 \\times 7 = 28$ (all in cm²). So the order is 2 by 10, 3 by 8, 5 by 5, 4 by 7."
+  },
+  {
+    "id": "m6.mea.area-volume.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Grace finds the area of a right-angled triangle with a base of 8 cm and a height of 6 cm. She writes $8 \\times 6 = 48$ cm². What has she forgotten?",
+    "options": [
+      {"id":"a","text":"To halve it. The area is 24 cm²."},
+      {"id":"b","text":"To double it. The area is 96 cm²."},
+      {"id":"c","text":"Nothing. The area is 48 cm²."},
+      {"id":"d","text":"To add the long side as well."}
+    ],
+    "correct": "a",
+    "feedback": {"b":"The triangle is smaller than the rectangle, not bigger.","c":"48 cm² is the area of the whole rectangle. The triangle is only half of it.","d":"The long sloping side is not used to find the area."},
+    "hints": ["A right-angled triangle is half of a rectangle."],
+    "solution": "$8 \\times 6 = 48$ cm² is the rectangle. The triangle is half of it: $48 \\div 2 = 24$ cm². Grace forgot **to halve it**."
+  },
+  {
+    "id": "m6.mea.area-volume.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A rectangular flag is 120 cm long and 80 cm wide. It is cut along its diagonal into two right-angled triangles. What is the area of **one** triangle?",
+    "answer": 4800,
+    "units": "cm²",
+    "form": "integer",
+    "hints": ["Find the area of the whole flag first.","Each triangle is half of the flag."],
+    "solution": "Flag: $120 \\times 80 = 9600$ cm². Each triangle is half: $9600 \\div 2 = 4800$ cm²."
+  },
+  {
+    "id": "m6.mea.area-volume.q012",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the boxes that have a volume of 24 cm³.",
+    "options": [
+      {"id":"a","text":"2 cm × 3 cm × 4 cm"},
+      {"id":"b","text":"1 cm × 4 cm × 6 cm"},
+      {"id":"c","text":"2 cm × 2 cm × 6 cm"},
+      {"id":"d","text":"3 cm × 3 cm × 3 cm"},
+      {"id":"e","text":"2 cm × 4 cm × 4 cm"}
+    ],
+    "correct": ["a","b","c"],
+    "hints": ["Multiply the three numbers for each box."],
+    "solution": "$2 \\times 3 \\times 4 = 24$, $1 \\times 4 \\times 6 = 24$ and $2 \\times 2 \\times 6 = 24$. But $3 \\times 3 \\times 3 = 27$ and $2 \\times 4 \\times 4 = 32$."
+  },
+  {
+    "id": "m6.mea.area-volume.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A rectangular poster has an area of 600 cm². It is 30 cm wide. How tall is it?",
+    "answer": 20,
+    "units": "cm",
+    "form": "integer",
+    "hints": ["Width × height = area. What times 30 gives 600?"],
+    "solution": "$30 \\times 20 = 600$, so the poster is **20 cm** tall. (Or $600 \\div 30 = 20$.)"
+  },
+  {
+    "id": "m6.mea.area-volume.q014",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Box A is 10 cm × 2 cm × 3 cm. Box B is 5 cm × 4 cm × 3 cm. Which statement is true?",
+    "options": [
+      {"id":"a","text":"They have the same volume."},
+      {"id":"b","text":"Box A has the bigger volume, because it is longer."},
+      {"id":"c","text":"Box B has the bigger volume, because it is wider."},
+      {"id":"d","text":"You can't compare them because they are different shapes."}
+    ],
+    "correct": "a",
+    "feedback": {"b":"Being longer doesn't always mean a bigger volume. Work out both volumes.","c":"Being wider doesn't always mean a bigger volume. Work out both volumes.","d":"You can compare any two volumes by working them out."},
+    "hints": ["Work out length × width × height for each box."],
+    "solution": "A: $10 \\times 2 \\times 3 = 60$ cm³. B: $5 \\times 4 \\times 3 = 60$ cm³. They have **the same volume**."
+  },
+  {
+    "id": "m6.mea.area-volume.q015",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why the area of a right-angled triangle is half the area of the rectangle with the same base and height. You can draw a sketch to help.",
+    "modelAnswer": "If you draw the rectangle and then cut it from one corner to the opposite corner, you get two right-angled triangles. The two triangles are exactly the same size, so each one is half of the rectangle. That means the triangle's area is the rectangle's area (base × height) divided by 2.",
+    "rubric": [
+      {"criterion":"Describes cutting the rectangle along its diagonal into two triangles","marks":1},
+      {"criterion":"Explains that the two triangles are the same size, so each is half of the rectangle (base × height ÷ 2)","marks":1}
+    ],
+    "hints": ["What happens if you cut a rectangle from one corner to the opposite corner?"],
+    "solution": "A diagonal cuts a rectangle into two identical right-angled triangles, so each triangle is half the rectangle: area = base × height ÷ 2."
+  },
+  {
+    "id": "m6.mea.area-volume.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A pool is 10 m long and 5 m wide. Around it is concrete, which makes a bigger rectangle 14 m long and 9 m wide. What is the area of the **concrete**?",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 426 280\" width=\"426\" height=\"280\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"40,20 376,20 376,236 40,236\" fill=\"#e5e7eb\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"88,68 328,68 328,188 88,188\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"208\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">pool</text><text x=\"208\" y=\"252\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">14 m</text><text x=\"398\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">9 m</text><text x=\"208\" y=\"176\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">10 m</text><text x=\"308\" y=\"128\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">5 m</text><text x=\"416\" y=\"270\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>","alt":"A 10 m by 5 m pool inside a 14 m by 9 m rectangle of concrete"},
+    "answer": 76,
+    "units": "m²",
+    "form": "integer",
+    "hints": ["Find the area of the big rectangle, including the pool.","Then take away the area of the pool."],
+    "solution": "Big rectangle: $14 \\times 9 = 126$ m². Pool: $10 \\times 5 = 50$ m².\n\nConcrete: $126 - 50 = 76$ m²."
+  },
+  {
+    "id": "m6.mea.area-volume.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which is the best estimate for the area of a classroom floor?",
+    "options": [
+      {"id":"a","text":"About 60 m²"},
+      {"id":"b","text":"About 6 m²"},
+      {"id":"c","text":"About 600 m²"},
+      {"id":"d","text":"About 60 cm²"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"6 m² is about the size of a small bathroom. Your class wouldn't fit!","c":"600 m² is bigger than a netball court. That is too big for one classroom.","d":"60 cm² is smaller than this page of your exercise book."},
+    "hints": ["A classroom is about 8 m long and 8 m wide. Estimate 8 × 8."],
+    "solution": "A classroom is roughly 8 m by 8 m, and $8 \\times 8 = 64$, so **about 60 m²** is the best estimate."
+  },
+  {
+    "id": "m6.mea.area-volume.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which is the best estimate for the volume of a school lunchbox?",
+    "options": [
+      {"id":"a","text":"About 1500 cm³"},
+      {"id":"b","text":"About 15 cm³"},
+      {"id":"c","text":"About 15 m³"},
+      {"id":"d","text":"About 150 000 cm³"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"15 cm³ is only about 15 small dice. A lunchbox holds much more.","c":"15 m³ is bigger than a room. That is far too big.","d":"150 000 cm³ is about the size of a big chilly bin or bigger."},
+    "hints": ["A lunchbox might be about 20 cm long, 12 cm wide and 6 cm high."],
+    "solution": "About 20 cm × 12 cm × 6 cm: $20 \\times 12 = 240$ and $240 \\times 6 = 1440$, so **about 1500 cm³**."
+  },
+  {
+    "id": "m6.mea.area-volume.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri says a box that is 4 cm × 3 cm × 2 cm has the same volume as a box that is 2 cm × 6 cm × 2 cm. Is he right? Show your working and explain.",
+    "modelAnswer": "Yes, he is right. The first box: 4 × 3 × 2 = 24 cm³. The second box: 2 × 6 × 2 = 24 cm³. Both volumes are 24 cm³, so they are the same, even though the boxes are different shapes.",
+    "rubric": [
+      {"criterion":"Works out both volumes correctly (24 cm³ each)","marks":1},
+      {"criterion":"Concludes that Rawiri is right because the volumes are equal","marks":1}
+    ],
+    "hints": ["Work out length × width × height for each box."],
+    "solution": "$4 \\times 3 \\times 2 = 24$ cm³ and $2 \\times 6 \\times 2 = 24$ cm³, so Rawiri is right."
+  },
+  {
+    "id": "m6.mea.area-volume.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A fish tank is 50 cm long, 30 cm wide and 40 cm high. It is filled with water up to 10 cm below the top. What is the volume of the water?",
+    "answer": 45000,
+    "units": "cm³",
+    "form": "integer",
+    "hints": ["How deep is the water? It is not 40 cm.","Volume of water = length × width × depth of the water."],
+    "solution": "The water is $40 - 10 = 30$ cm deep.\n\n$50 \\times 30 = 1500$, and $1500 \\times 30 = 45\\,000$.\n\nThe water has a volume of **45 000 cm³**."
+  },
+  {
+    "id": "m6.mea.area-volume.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha is tiling a wall that is 3 m wide and 2 m high. Each tile is a square 50 cm by 50 cm. How many tiles does she need to cover the wall?",
+    "answer": 24,
+    "form": "integer",
+    "hints": ["How many 50 cm tiles fit across 1 m?","Work out how many tiles fit across the wall and how many fit up the wall."],
+    "solution": "Two 50 cm tiles fit in 1 m.\n\nAcross 3 m: $3 \\times 2 = 6$ tiles. Up 2 m: $2 \\times 2 = 4$ tiles.\n\n$6 \\times 4 = 24$, so Aroha needs **24 tiles**."
+  }
+]

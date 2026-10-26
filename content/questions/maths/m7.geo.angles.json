@@ -1,0 +1,704 @@
+[
+  {
+    "id": "m7.geo.angles.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Two angles are **complementary**. What do they add up to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "90°"
+      },
+      {
+        "id": "b",
+        "text": "180°"
+      },
+      {
+        "id": "c",
+        "text": "360°"
+      },
+      {
+        "id": "d",
+        "text": "45°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Angles that add to 180° are supplementary. Complementary angles make a right angle.",
+      "c": "360° is a full turn: the angles around a point.",
+      "d": "Two equal complementary angles would each be 45°, but together they make 90°."
+    },
+    "hints": [
+      "Think of the two parts of a right angle."
+    ],
+    "solution": "Complementary angles add up to **90°**: together they make a right angle. (Supplementary angles add up to 180°.)"
+  },
+  {
+    "id": "m7.geo.angles.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "comp",
+          "text": "Complementary"
+        },
+        "right": {
+          "id": "m1",
+          "text": "Two angles that add up to 90°"
+        }
+      },
+      {
+        "left": {
+          "id": "supp",
+          "text": "Supplementary"
+        },
+        "right": {
+          "id": "m2",
+          "text": "Two angles that add up to 180°"
+        }
+      },
+      {
+        "left": {
+          "id": "vo",
+          "text": "Vertically opposite"
+        },
+        "right": {
+          "id": "m3",
+          "text": "Angles directly across from each other where two lines cross"
+        }
+      },
+      {
+        "left": {
+          "id": "perp",
+          "text": "Perpendicular"
+        },
+        "right": {
+          "id": "m4",
+          "text": "Lines that meet at a right angle"
+        }
+      },
+      {
+        "left": {
+          "id": "par",
+          "text": "Parallel"
+        },
+        "right": {
+          "id": "m5",
+          "text": "Lines that go the same way and never meet"
+        }
+      }
+    ],
+    "hints": [
+      "**C**omplementary makes a **c**orner (a right angle). **S**upplementary makes a **s**traight line."
+    ],
+    "solution": "Complementary: add to 90°. Supplementary: add to 180°. Vertically opposite: across from each other where two lines cross. Perpendicular: meet at a right angle. Parallel: never meet."
+  },
+  {
+    "id": "m7.geo.angles.q003",
+    "type": "multi",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which pairs of angles are **supplementary**? Select all that apply.",
+    "options": [
+      {
+        "id": "a",
+        "text": "100° and 80°"
+      },
+      {
+        "id": "b",
+        "text": "45° and 45°"
+      },
+      {
+        "id": "c",
+        "text": "120° and 60°"
+      },
+      {
+        "id": "d",
+        "text": "90° and 90°"
+      },
+      {
+        "id": "e",
+        "text": "150° and 40°"
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hints": [
+      "Supplementary angles add up to 180°. Add each pair."
+    ],
+    "solution": "$100 + 80 = 180$ ✓, $120 + 60 = 180$ ✓ and $90 + 90 = 180$ ✓.\n\n$45 + 45 = 90$, so that pair is complementary, not supplementary. $150 + 40 = 190$, which is too much."
+  },
+  {
+    "id": "m7.geo.angles.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "When two straight lines cross, the angles directly opposite each other are [[a]]. Two angles next to each other on a straight line add up to [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "equal"
+        ],
+        "options": [
+          "equal",
+          "supplementary",
+          "complementary"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "180°"
+        ],
+        "options": [
+          "90°",
+          "180°",
+          "360°"
+        ]
+      }
+    ],
+    "hints": [
+      "Picture an X shape. The top and bottom angles look the same, and so do the left and right ones."
+    ],
+    "solution": "Vertically opposite angles are **equal**. Angles next to each other on a straight line add up to **180°**."
+  },
+  {
+    "id": "m7.geo.angles.q005",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What does a small square drawn in the corner of an angle mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The angle is a right angle (90°)"
+      },
+      {
+        "id": "b",
+        "text": "The angle is 45°"
+      },
+      {
+        "id": "c",
+        "text": "The two lines are parallel"
+      },
+      {
+        "id": "d",
+        "text": "The angle is a reflex angle"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A 45° angle has no special mark. The square means a right angle.",
+      "c": "Parallel lines are shown with matching arrows, and they never meet, so they have no corner.",
+      "d": "A reflex angle is bigger than 180°. The square shows exactly 90°."
+    },
+    "hints": [
+      "Think of the corner of a square."
+    ],
+    "solution": "A small square in the corner shows a **right angle**, 90°. It also tells you the two lines are perpendicular."
+  },
+  {
+    "id": "m7.geo.angles.q006",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How do we show on a diagram that two lines are **parallel**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Matching arrows on the lines"
+      },
+      {
+        "id": "b",
+        "text": "A small square where the lines meet"
+      },
+      {
+        "id": "c",
+        "text": "Matching dashes across the lines"
+      },
+      {
+        "id": "d",
+        "text": "Drawing the lines the same length"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A small square shows a right angle, so the lines are perpendicular. Parallel lines never meet.",
+      "c": "Matching dashes (ticks) show that two lines are the same length.",
+      "d": "Parallel lines can be any length. What matters is that they go the same way."
+    },
+    "hints": [
+      "The marks look like little arrowheads pointing the same way."
+    ],
+    "solution": "Parallel lines are marked with **matching arrows**. If there are two pairs of parallel lines, one pair gets single arrows (>) and the other gets double arrows (>>)."
+  },
+  {
+    "id": "m7.geo.angles.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these angles does **not** have a complement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "95°"
+      },
+      {
+        "id": "b",
+        "text": "40°"
+      },
+      {
+        "id": "c",
+        "text": "1°"
+      },
+      {
+        "id": "d",
+        "text": "89°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The complement of 40° is $90° - 40° = 50°$.",
+      "c": "The complement of 1° is 89°.",
+      "d": "The complement of 89° is 1°."
+    },
+    "hints": [
+      "The complement of an angle is what you add to it to make 90°."
+    ],
+    "solution": "An angle and its complement add up to 90°. **95°** is already more than 90°, so there is nothing you can add to it to make 90°."
+  },
+  {
+    "id": "m7.geo.angles.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana says: “Angle $x$ and the 70° angle are alternate angles, so $x = 70°$.” What is wrong with Ana’s thinking?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"70\" x2=\"370\" y2=\"105\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"235\" x2=\"370\" y2=\"195\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"255\" y1=\"20\" x2=\"120\" y2=\"285\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><circle cx=\"219.59\" cy=\"89.52\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"152.83\" cy=\"220.55\" r=\"3\" fill=\"#1f2937\"/><path d=\"M 195.71 87.06 A 24 24 0 0 0 208.69 110.9\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"182.1\" y=\"109.92\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">70°</text><path d=\"M 176.67 217.74 A 24 24 0 0 0 163.73 199.16\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"182.55\" y=\"199.85\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><text x=\"392\" y=\"290\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Two lines with no arrow marks, crossed by a third line. A 70° angle is below the top line on the left of the crossing line; x is above the bottom line on the right."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The lines are not marked as parallel, so alternate angles might not be equal"
+      },
+      {
+        "id": "b",
+        "text": "Nothing is wrong. Alternate angles are always equal"
+      },
+      {
+        "id": "c",
+        "text": "They are corresponding angles, not alternate angles"
+      },
+      {
+        "id": "d",
+        "text": "Alternate angles add up to 180°, so $x = 110°$"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Alternate angles are only equal when the two lines are parallel. Look for arrow marks.",
+      "c": "Their positions make a Z shape, so they are in alternate positions.",
+      "d": "When lines are parallel, alternate angles are equal. They don’t add to 180°."
+    },
+    "hints": [
+      "Look at the two lines that the third line crosses. Are they marked with arrows?"
+    ],
+    "solution": "Ana has found the right positions: the angles make a Z shape. But alternate angles are only equal when the lines are **parallel**. These lines have no arrow marks (and they are not parallel: they would meet if you made them longer). So we can’t say $x = 70°$."
+  },
+  {
+    "id": "m7.geo.angles.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A straight road crosses a straight railway line. One of the angles where they cross is 58°. Find the other three angles.\n\n$a$ = [[a]]°\n\n$b$ = [[b]]°\n\n$c$ = [[c]]°",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"380\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"190\" y1=\"140\" x2=\"313.1\" y2=\"118.29\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"140\" x2=\"236.83\" y2=\"24.1\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"140\" x2=\"66.9\" y2=\"161.71\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"140\" x2=\"143.17\" y2=\"255.9\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><circle cx=\"190\" cy=\"140\" r=\"3.5\" fill=\"#1f2937\"/><path d=\"M 215.61 135.49 A 26 26 0 0 0 199.74 115.89\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"224.62\" y=\"111.97\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">58°</text><path d=\"M 203.49 106.62 A 36 36 0 0 0 154.55 146.25\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"159.22\" y=\"101.99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">a</text><path d=\"M 164.39 144.51 A 26 26 0 0 0 180.26 164.11\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"160.12\" y=\"164.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">b</text><path d=\"M 176.51 173.38 A 36 36 0 0 0 225.45 133.75\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"220.78\" y=\"178.01\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">c</text><text x=\"372\" y=\"260\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A road and a railway line crossing. The angles in order around the crossing point are 58°, a, b and c."
+    },
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "122",
+          "122 degrees"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "58",
+          "58 degrees"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "122",
+          "122 degrees"
+        ]
+      }
+    ],
+    "hints": [
+      "Angle $b$ is directly opposite the 58° angle.",
+      "Angles $a$ and $c$ are each on a straight line with the 58° angle."
+    ],
+    "solution": "$b$ is vertically opposite 58°, so $b = 58°$.\n\n$a$ is next to 58° on a straight line, so $a = 180° - 58° = 122°$.\n\n$c$ is vertically opposite $a$, so $c = 122°$.\n\nCheck: $58 + 122 + 58 + 122 = 360$ ✓"
+  },
+  {
+    "id": "m7.geo.angles.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A pair of scissors is opened so that the two blades make an angle of 35°. The blades and handles are straight and cross at the screw. What is the angle between the two handles?",
+    "answer": 35,
+    "units": "°",
+    "hints": [
+      "The blades and handles make an X shape where they cross.",
+      "The angle between the handles is directly opposite the angle between the blades."
+    ],
+    "solution": "The angle between the handles is **vertically opposite** the angle between the blades, so it is equal: **35°**."
+  },
+  {
+    "id": "m7.geo.angles.q011",
+    "type": "text",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for a line that crosses two or more other lines?",
+    "accepted": [
+      "transversal",
+      "a transversal",
+      "transversal line"
+    ],
+    "hints": [
+      "It is the line that cuts across the parallel lines in an F or Z shape."
+    ],
+    "solution": "A line that crosses two or more other lines is a **transversal**."
+  },
+  {
+    "id": "m7.geo.angles.q012",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says corresponding angles on parallel lines always add up to 180°. Is he right?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No. Corresponding angles are equal"
+      },
+      {
+        "id": "b",
+        "text": "Yes. They always add up to 180°"
+      },
+      {
+        "id": "c",
+        "text": "Only when the lines are perpendicular"
+      },
+      {
+        "id": "d",
+        "text": "No. They add up to 90°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Corresponding angles are in the same position at each crossing, so they are the same size.",
+      "c": "Corresponding angles are equal whatever angle the transversal crosses at.",
+      "d": "Corresponding angles don’t add to a total. They are equal."
+    },
+    "hints": [
+      "Corresponding angles make an F shape. What is true about the two angles in an F?"
+    ],
+    "solution": "Corresponding angles sit in the same position at each crossing (an F shape), so they are **equal**. Tama may be thinking of angles on a straight line, which add up to 180°."
+  },
+  {
+    "id": "m7.geo.angles.q013",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The angles $x°$, $2x°$ and 30° sit on a straight line. Put these steps in order to find $x$.",
+    "items": [
+      {
+        "id": "s1",
+        "text": "Angles on a straight line add to 180°, so $x + 2x + 30 = 180$"
+      },
+      {
+        "id": "s2",
+        "text": "Collect like terms: $3x + 30 = 180$"
+      },
+      {
+        "id": "s3",
+        "text": "Subtract 30 from both sides: $3x = 150$"
+      },
+      {
+        "id": "s4",
+        "text": "Divide both sides by 3: $x = 50$"
+      },
+      {
+        "id": "s5",
+        "text": "Check: $50 + 100 + 30 = 180$ ✓"
+      }
+    ],
+    "hints": [
+      "Start with the angle fact, and finish with a check."
+    ],
+    "solution": "Write the equation from the angle fact, collect like terms, undo the + 30, undo the × 3, then check: $x + 2x + 30 = 180$ → $3x + 30 = 180$ → $3x = 150$ → $x = 50$."
+  },
+  {
+    "id": "m7.geo.angles.q014",
+    "type": "cloze",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The lines marked with arrows are parallel. Complete the working.\n\n$x$ = [[x]]° because [[r1]] angles are equal.\n\n$y$ = [[y]]° because angles on a [[r2]] add to 180°.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"85\" x2=\"370\" y2=\"85\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"215\" x2=\"370\" y2=\"215\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polyline points=\"321.5,89.9 328.5,85 321.5,80.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"321.5,219.9 328.5,215 321.5,210.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,89.9 78.5,85 71.5,80.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,219.9 78.5,215 71.5,210.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"237.93\" y1=\"17.71\" x2=\"162.07\" y2=\"282.29\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><path d=\"M 240.64 85 A 22 22 0 0 0 224.7 63.85\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"251.07\" y=\"60.56\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">74°</text><path d=\"M 203.36 215 A 22 22 0 0 0 187.43 193.85\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"208.79\" y=\"194.33\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><path d=\"M 187.43 193.85 A 22 22 0 0 0 159.36 215\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"160.33\" y=\"187.09\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">y</text><circle cx=\"218.64\" cy=\"85\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"181.36\" cy=\"215\" r=\"3\" fill=\"#1f2937\"/><text x=\"392\" y=\"290\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Two parallel lines crossed by a transversal. At the top crossing, 74° is above the line on the right. At the bottom crossing, x is above the line on the right and y is above the line on the left."
+    },
+    "blanks": [
+      {
+        "id": "x",
+        "accepted": [
+          "74",
+          "74 degrees"
+        ]
+      },
+      {
+        "id": "r1",
+        "accepted": [
+          "corresponding"
+        ],
+        "options": [
+          "corresponding",
+          "alternate",
+          "vertically opposite"
+        ]
+      },
+      {
+        "id": "y",
+        "accepted": [
+          "106",
+          "106 degrees"
+        ]
+      },
+      {
+        "id": "r2",
+        "accepted": [
+          "straight line"
+        ],
+        "options": [
+          "straight line",
+          "right angle",
+          "point"
+        ]
+      }
+    ],
+    "hints": [
+      "$x$ is in the same position as the 74° angle, at the other crossing.",
+      "$x$ and $y$ sit side by side on a straight line."
+    ],
+    "solution": "$x = 74°$ because **corresponding** angles are equal (an F shape).\n\n$y = 180° - 74° = 106°$ because angles on a **straight line** add to 180°."
+  },
+  {
+    "id": "m7.geo.angles.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The angles $x°$ and $3x°$ make a straight line. Hemi writes:\n\n$x + 3x = 180$, so $3x = 180$, so $x = 60$.\n\nWhat mistake has Hemi made?",
+    "options": [
+      {
+        "id": "a",
+        "text": "$x + 3x$ is $4x$, not $3x$. The answer is $x = 45$"
+      },
+      {
+        "id": "b",
+        "text": "He should have used 90°, not 180°"
+      },
+      {
+        "id": "c",
+        "text": "He should have subtracted: $3x - x = 180$"
+      },
+      {
+        "id": "d",
+        "text": "There is no mistake: $x = 60$"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The angles make a straight line, so 180° is right.",
+      "c": "The two angles are added together to make the straight line.",
+      "d": "Check: if $x = 60$, the angles are 60° and 180°, which add to 240°, not 180°."
+    },
+    "hints": [
+      "Check Hemi’s answer: what are the two angles if $x = 60$?",
+      "How many lots of $x$ are there in $x + 3x$?"
+    ],
+    "solution": "$x + 3x = 4x$ (there are four lots of $x$). So $4x = 180$ and $x = 45$.\n\nCheck: $45° + 135° = 180°$ ✓"
+  },
+  {
+    "id": "m7.geo.angles.q016",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two straight lines cross, making angles $a$, $b$, $c$ and $d$ in order around the point. Explain why $a$ and $c$ must be equal.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"380\" height=\"270\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"190\" y1=\"140\" x2=\"315\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"140\" x2=\"242.83\" y2=\"26.71\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"140\" x2=\"65\" y2=\"140\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"140\" x2=\"137.17\" y2=\"253.29\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><circle cx=\"190\" cy=\"140\" r=\"3.5\" fill=\"#1f2937\"/><path d=\"M 216 140 A 26 26 0 0 0 200.99 116.44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"222.11\" y=\"119.55\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">a</text><path d=\"M 205.21 107.37 A 36 36 0 0 0 154 140\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"163.67\" y=\"98.67\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">b</text><path d=\"M 164 140 A 26 26 0 0 0 179.01 163.56\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"157.89\" y=\"160.45\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">c</text><path d=\"M 174.79 172.63 A 36 36 0 0 0 226 140\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"216.33\" y=\"181.33\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">d</text><text x=\"372\" y=\"260\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Two straight lines crossing, with angles a, b, c and d in order around the point. a and c are opposite each other."
+    },
+    "modelAnswer": "Angles $a$ and $b$ are on a straight line, so $a + b = 180°$. Angles $b$ and $c$ are also on a straight line, so $b + c = 180°$. So $a$ and $c$ are both \"180° take away $b$\", which means $a = c$. For example, if $b = 110°$, then $a = 70°$ and $c = 70°$.",
+    "rubric": [
+      {
+        "criterion": "Uses angles on a straight line: $a + b = 180°$ and $b + c = 180°$",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that $a$ and $c$ are both $180° - b$, so they are equal (a worked example that shows this is fine)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Which pairs of angles sit together on a straight line?",
+      "Try it with a number: what if $b = 110°$?"
+    ],
+    "solution": "$a + b = 180°$ and $b + c = 180°$ (angles on a straight line). Both $a$ and $c$ are what you add to $b$ to make 180°, so $a = c$. This is why vertically opposite angles are always equal."
+  },
+  {
+    "id": "m7.geo.angles.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Three angles make a straight line. The second angle is twice the size of the first. The third angle is 20° more than the first. How big is the first angle?",
+    "answer": 40,
+    "units": "°",
+    "hints": [
+      "Call the first angle $x$. Then the second is $2x$ and the third is $x + 20$.",
+      "The three angles add to 180°. Collect like terms and solve."
+    ],
+    "solution": "Let the first angle be $x°$.\n\n$x + 2x + x + 20 = 180$\n\nCollect like terms: $4x + 20 = 180$\n\nSubtract 20: $4x = 160$, so $x = 40$.\n\nThe first angle is **40°**. Check: $40 + 80 + 60 = 180$ ✓"
+  },
+  {
+    "id": "m7.geo.angles.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two straight lines cross. One of the angles is 4 times the size of the angle next to it. How big is the smaller angle?",
+    "answer": 36,
+    "units": "°",
+    "hints": [
+      "Angles next to each other on a straight line add to 180°.",
+      "Call the smaller angle $x$. Then the bigger one is $4x$."
+    ],
+    "solution": "The two angles are next to each other on a straight line, so $x + 4x = 180$.\n\n$5x = 180$, so $x = 36$.\n\nThe smaller angle is **36°** (and the bigger one is 144°)."
+  },
+  {
+    "id": "m7.geo.angles.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The lines marked with arrows are parallel. Find the size of angle $x$. Give a reason for each step.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"85\" x2=\"370\" y2=\"85\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"215\" x2=\"370\" y2=\"215\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polyline points=\"321.5,89.9 328.5,85 321.5,80.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"321.5,219.9 328.5,215 321.5,210.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,89.9 78.5,85 71.5,80.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,219.9 78.5,215 71.5,210.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"100.46\" y1=\"31.38\" x2=\"299.54\" y2=\"268.62\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><path d=\"M 167.46 85 A 22 22 0 0 0 131.32 68.15\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"162.35\" y=\"48.77\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">130°</text><path d=\"M 268.68 231.85 A 22 22 0 0 0 276.54 215\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"284.91\" y=\"229.16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><circle cx=\"145.46\" cy=\"85\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"254.54\" cy=\"215\" r=\"3\" fill=\"#1f2937\"/><text x=\"392\" y=\"290\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Two parallel lines crossed by a transversal. At the top crossing, 130° is above the line on the right. At the bottom crossing, x is below the line on the right."
+    },
+    "modelAnswer": "The angle above the bottom line on the right is in the same position as the 130° angle, so it is also 130° (corresponding angles are equal). Angle $x$ is next to it on a straight line, so $x = 180° - 130° = 50°$ (angles on a straight line add to 180°).",
+    "rubric": [
+      {
+        "criterion": "Finds $x = 50°$",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a correct reason for each step (for example corresponding angles, then angles on a straight line)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "First copy the 130° angle to the bottom crossing, in the same position.",
+      "Then look at how $x$ sits next to that angle."
+    ],
+    "solution": "Step 1: the angle in the same position at the bottom crossing is 130° (corresponding angles are equal).\n\nStep 2: $x$ is on a straight line with it, so $x = 180° - 130° = 50°$ (angles on a straight line add to 180°).\n\nOther correct routes are fine too, such as vertically opposite angles followed by alternate angles."
+  },
+  {
+    "id": "m7.geo.angles.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The bottom line is a straight line. Find the size of the angle marked $(2x - 10)°$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 215\" width=\"380\" height=\"215\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"190\" y1=\"175\" x2=\"315\" y2=\"175\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"175\" x2=\"282.89\" y2=\"91.36\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"175\" x2=\"147.25\" y2=\"57.54\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"175\" x2=\"65\" y2=\"175\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><circle cx=\"190\" cy=\"175\" r=\"3.5\" fill=\"#1f2937\"/><path d=\"M 216 175 A 26 26 0 0 0 209.32 157.6\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"228.12\" y=\"160.37\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x°</text><path d=\"M 209.32 157.6 A 26 26 0 0 0 181.11 150.57\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"203.61\" y=\"120.41\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">(x + 30)°</text><path d=\"M 181.11 150.57 A 26 26 0 0 0 164 175\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"135.01\" y=\"136.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">(2x − 10)°</text><text x=\"372\" y=\"205\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Three angles on a straight line: x°, (x + 30)° and (2x − 10)°."
+    },
+    "answer": 70,
+    "units": "°",
+    "hints": [
+      "First write an equation: the three angles add to 180°.",
+      "Solve for $x$, then substitute it into $2x - 10$."
+    ],
+    "solution": "$x + x + 30 + 2x - 10 = 180$\n\nCollect like terms: $4x + 20 = 180$\n\nSubtract 20: $4x = 160$, so $x = 40$.\n\nThe angle is $2 \\times 40 - 10 = 70°$.\n\nCheck: $40 + 70 + 70 = 180$ ✓"
+  },
+  {
+    "id": "m7.geo.angles.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Lines AB and CD are crossed by a third line. Two corresponding angles are 74° and 76°. What can you say about lines AB and CD?",
+    "options": [
+      {
+        "id": "a",
+        "text": "AB and CD are not parallel"
+      },
+      {
+        "id": "b",
+        "text": "AB and CD are parallel"
+      },
+      {
+        "id": "c",
+        "text": "AB and CD are perpendicular"
+      },
+      {
+        "id": "d",
+        "text": "You can’t tell anything about them"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "If the lines were parallel, the corresponding angles would be equal. 74° and 76° are not equal.",
+      "c": "Perpendicular means meeting at 90°. Nothing here tells you that.",
+      "d": "You can tell something: parallel lines always make equal corresponding angles."
+    },
+    "hints": [
+      "What is true about corresponding angles when the lines are parallel?"
+    ],
+    "solution": "If AB and CD were parallel, the corresponding angles would be equal. Here they are 74° and 76°, so the lines are **not parallel**. If you made them long enough, they would meet."
+  },
+  {
+    "id": "m7.geo.angles.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The lines marked with arrows are parallel. Find the value of $x$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"400\" height=\"300\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"30\" y1=\"85\" x2=\"370\" y2=\"85\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><line x1=\"30\" y1=\"215\" x2=\"370\" y2=\"215\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polyline points=\"321.5,89.9 328.5,85 321.5,80.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"321.5,219.9 328.5,215 321.5,210.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,89.9 78.5,85 71.5,80.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><polyline points=\"71.5,219.9 78.5,215 71.5,210.1\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.8\"/><line x1=\"176.38\" y1=\"16.06\" x2=\"223.62\" y2=\"283.94\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><path d=\"M 210.54 85 A 22 22 0 0 0 184.72 63.33\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"214.2\" y=\"54.42\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">3x°</text><path d=\"M 215.28 236.67 A 22 22 0 0 0 233.46 215\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"256.29\" y=\"252.62\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">(x + 40)°</text><circle cx=\"188.54\" cy=\"85\" r=\"3\" fill=\"#1f2937\"/><circle cx=\"211.46\" cy=\"215\" r=\"3\" fill=\"#1f2937\"/><text x=\"392\" y=\"290\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "Two parallel lines crossed by a transversal. At the top crossing, 3x° is above the line on the right. At the bottom crossing, (x + 40)° is below the line on the right."
+    },
+    "answer": 35,
+    "hints": [
+      "Copy the $3x°$ angle to the bottom crossing, in the same position (corresponding angles).",
+      "That copied angle and $(x + 40)°$ sit on a straight line, so they add to 180°."
+    ],
+    "solution": "The angle in the same position at the bottom crossing is also $3x°$ (corresponding angles).\n\nIt is on a straight line with $(x + 40)°$, so $3x + x + 40 = 180$.\n\nCollect like terms: $4x + 40 = 180$\n\nSubtract 40: $4x = 140$, so $x = 35$.\n\nCheck: $3 \\times 35 = 105°$ and $35 + 40 = 75°$, and $105 + 75 = 180$ ✓"
+  }
+]

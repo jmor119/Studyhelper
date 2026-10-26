@@ -1,0 +1,13 @@
+[
+  { "id": "m6.num.negatives.f01", "front": "What is a **negative number**?", "back": "A number less than zero, written with a negative sign, like −4." },
+  { "id": "m6.num.negatives.f02", "front": "How do you say −4?", "back": "\"Negative four\"." },
+  { "id": "m6.num.negatives.f03", "front": "What is a **positive number**?", "back": "A number greater than zero, like 4." },
+  { "id": "m6.num.negatives.f04", "front": "Is **zero** positive or negative?", "back": "Neither. Zero sits between the negative and positive numbers." },
+  { "id": "m6.num.negatives.f05", "front": "Where are negative numbers on a **number line** that goes across?", "back": "To the left of 0." },
+  { "id": "m6.num.negatives.f06", "front": "Where are negative numbers on a thermometer?", "back": "Below 0. A **temperature** of −3 °C is 3 degrees below zero." },
+  { "id": "m6.num.negatives.f07", "front": "Which is smaller: −8 or −3?", "back": "−8. It is further left on the number line (further from 0)." },
+  { "id": "m6.num.negatives.f08", "front": "Count back in 2s from 4", "back": "4, 2, 0, −2, −4, −6, …" },
+  { "id": "m6.num.negatives.f09", "front": "It is −3 °C and it warms up by 8 degrees. What is the temperature now?", "back": "Up 3 to reach 0 °C, then 5 more: 5 °C." },
+  { "id": "m6.num.negatives.f10", "front": "What is a **debt**?", "back": "Money you owe. Owing \\$5 can be written as −\\$5." },
+  { "id": "m6.num.negatives.f11", "front": "How many degrees from −4 °C up to 6 °C?", "back": "4 degrees up to 0 °C, then 6 more: 10 degrees." }
+]

@@ -1,0 +1,17 @@
+[
+  { "id": "m7.num.primes-factors.f01", "front": "What is a **factor**?", "back": "A number that divides exactly into another number. The factors of 12 are 1, 2, 3, 4, 6 and 12." },
+  { "id": "m7.num.primes-factors.f02", "front": "What is a **multiple**?", "back": "A number in the times table of another number. The multiples of 5 are 5, 10, 15, 20, …" },
+  { "id": "m7.num.primes-factors.f03", "front": "What is a **prime number**?", "back": "A whole number with exactly two factors: 1 and itself, e.g. 2, 3, 5, 7, 11." },
+  { "id": "m7.num.primes-factors.f04", "front": "What is a **composite number**?", "back": "A whole number with more than two factors, e.g. $15 = 3 \\times 5$." },
+  { "id": "m7.num.primes-factors.f05", "front": "Is 1 prime or composite?", "back": "Neither. It has only one factor." },
+  { "id": "m7.num.primes-factors.f06", "front": "The prime numbers to 50", "back": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47" },
+  { "id": "m7.num.primes-factors.f07", "front": "The prime numbers from 50 to 100", "back": "53, 59, 61, 67, 71, 73, 79, 83, 89, 97" },
+  { "id": "m7.num.primes-factors.f08", "front": "Divisibility rules for 2, 5 and 10", "back": "2: last digit even. 5: last digit 0 or 5. 10: last digit 0." },
+  { "id": "m7.num.primes-factors.f09", "front": "Divisibility rules for 3 and 9", "back": "Add the digits. Divisible by 3 if the total is a multiple of 3; by 9 if it is a multiple of 9." },
+  { "id": "m7.num.primes-factors.f10", "front": "Divisibility rules for 4 and 8", "back": "4: the last two digits make a number divisible by 4. 8: the last three digits make a number divisible by 8." },
+  { "id": "m7.num.primes-factors.f11", "front": "Divisibility rule for 6", "back": "It must pass the tests for 2 **and** 3: even, with digits adding to a multiple of 3." },
+  { "id": "m7.num.primes-factors.f12", "front": "What is the **HCF** of two numbers?", "back": "The highest common factor: the biggest number that divides into both. The HCF of 24 and 36 is 12." },
+  { "id": "m7.num.primes-factors.f13", "front": "What is the **LCM** of two numbers?", "back": "The lowest common multiple: the smallest number both divide into. The LCM of 6 and 8 is 24." },
+  { "id": "m7.num.primes-factors.f14", "front": "HCF or LCM: sharing things into equal groups with none left over?", "back": "HCF. The group size (or number of groups) must divide into both amounts." },
+  { "id": "m7.num.primes-factors.f15", "front": "HCF or LCM: when will two repeating things next happen together?", "back": "LCM. Each one happens at multiples of its own gap, so find the first shared multiple." }
+]

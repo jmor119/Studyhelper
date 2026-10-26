@@ -1,0 +1,330 @@
+[
+  {
+    "id": "m6.num.division.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "div", "text": "Divide" }, "right": { "id": "d1", "text": "Share into equal parts, or make equal groups" } },
+      { "left": { "id": "dsr", "text": "Divisor" }, "right": { "id": "d2", "text": "The number you divide by" } },
+      { "left": { "id": "quo", "text": "Quotient" }, "right": { "id": "d3", "text": "The answer to a division" } },
+      { "left": { "id": "rem", "text": "Remainder" }, "right": { "id": "d4", "text": "The amount left over after making equal groups" } },
+      { "left": { "id": "uni", "text": "Unit fraction" }, "right": { "id": "d5", "text": "A fraction with 1 on top, like $\\frac{1}{6}$" } }
+    ],
+    "hints": ["In $23 \\div 5 = 4$ r 3, the 5 is the divisor and 4 is the quotient."],
+    "solution": "Divide: share or group equally. Divisor: the number you divide by. Quotient: the answer. Remainder: what is left over. Unit fraction: a fraction with a numerator of 1."
+  },
+  {
+    "id": "m6.num.division.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In $45 \\div 9 = 5$, the 9 is the [[a]] and the 5 is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["divisor"], "options": ["divisor", "quotient", "remainder"] },
+      { "id": "b", "accepted": ["quotient"], "options": ["divisor", "quotient", "remainder"] }
+    ],
+    "hints": ["The answer to a division has a special name."],
+    "solution": "9 is the **divisor** (the number you divide by) and 5 is the **quotient** (the answer). There is no remainder."
+  },
+  {
+    "id": "m6.num.division.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which multiplication fact helps you work out $63 \\div 7$?",
+    "options": [
+      { "id": "a", "text": "$7 \\times 9 = 63$" },
+      { "id": "b", "text": "$7 \\times 7 = 49$" },
+      { "id": "c", "text": "$63 \\times 7 = 441$" },
+      { "id": "d", "text": "$6 \\times 7 = 42$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This fact makes 49, not 63.",
+      "c": "This multiplies 63 by 7. You need the number that 7 is multiplied by to make 63.",
+      "d": "This fact makes 42, not 63. The 6 in 63 is not the answer."
+    },
+    "hints": ["Think: 7 times what number makes 63?"],
+    "solution": "Dividing undoes multiplying. $7 \\times 9 = 63$, so $63 \\div 7 = 9$."
+  },
+  {
+    "id": "m6.num.division.q004",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the numbers that could be the remainder when you divide a whole number by 6.",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "5" },
+      { "id": "d", "text": "6" },
+      { "id": "e", "text": "8" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["If 6 or more are left over, could you make another group of 6?"],
+    "solution": "The remainder must be smaller than the divisor. When you divide by 6, the remainder can be 1, 2, 3, 4 or 5. A remainder of 6 or 8 is impossible, because another group of 6 would fit."
+  },
+  {
+    "id": "m6.num.division.q005",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $95 \\div 4$. Write the quotient in the first box and the remainder in the second box.\n\n$95 \\div 4 =$ [[q]] r [[r]]",
+    "blanks": [
+      { "id": "q", "accepted": ["23"] },
+      { "id": "r", "accepted": ["3", "r3", "r 3"] }
+    ],
+    "hints": ["How many 4s fit into 9? Carry what is left to the 5."],
+    "solution": "$9 \\div 4 = 2$ r 1. Carry the 1 to make 15. $15 \\div 4 = 3$ r 3.\n\nSo $95 \\div 4 = 23$ r 3. Check: $23 \\times 4 + 3 = 92 + 3 = 95$ ✓"
+  },
+  {
+    "id": "m6.num.division.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri shares 84 stickers equally between 7 friends. How many stickers does each friend get?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["Work out $84 \\div 7$.", "Think: 7 times what number makes 84?"],
+    "solution": "$84 \\div 7 = 12$, because $7 \\times 12 = 84$. Each friend gets **12 stickers**."
+  },
+  {
+    "id": "m6.num.division.q007",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Tama worked out $4{,}236 \\div 6$ and got 76. What mistake did he make?",
+    "options": [
+      { "id": "a", "text": "He didn't write a 0 when 6 didn't go into 3" },
+      { "id": "b", "text": "He should have rounded his answer up to 77" },
+      { "id": "c", "text": "He forgot to carry the 3 to the next digit" },
+      { "id": "d", "text": "He didn't make a mistake: 76 is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "There is no remainder here, so there is nothing to round. The problem is a missing digit.",
+      "c": "Tama did carry the 3 to make 36. The problem is that he left out a digit in the answer.",
+      "d": "Check: $76 \\times 6 = 456$, not 4,236. The answer is much too small."
+    },
+    "hints": ["Do the short division yourself, one digit at a time.", "What should you write when the divisor doesn't go into a digit?"],
+    "solution": "$42 \\div 6 = 7$. Then 6 doesn't go into 3, so write **0** and carry the 3. $36 \\div 6 = 6$.\n\nThe answer is **706**, not 76. Check: $706 \\times 6 = 4{,}236$ ✓"
+  },
+  {
+    "id": "m6.num.division.q008",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $45 \\div 7$. Write the remainder as a fraction, so your answer is a mixed number.",
+    "answer": 6.428571428571429,
+    "form": "mixed",
+    "hints": ["First find the quotient and the remainder.", "A remainder of 1 when you divide by 7 is $\\frac{1}{7}$."],
+    "solution": "$7 \\times 6 = 42$ and $45 - 42 = 3$, so $45 \\div 7 = 6$ r 3.\n\nThe remainder 3 out of 7 is $\\frac{3}{7}$. So $45 \\div 7 = 6\\frac{3}{7}$."
+  },
+  {
+    "id": "m6.num.division.q009",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Four friends share 3 pizzas equally. How much pizza does each friend get?",
+    "options": [
+      { "id": "a", "text": "$\\frac{3}{4}$ of a pizza" },
+      { "id": "b", "text": "$\\frac{4}{3}$ of a pizza" },
+      { "id": "c", "text": "$1\\frac{1}{3}$ pizzas" },
+      { "id": "d", "text": "$\\frac{1}{4}$ of a pizza" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{4}{3}$ is more than 1 whole pizza each. With 3 pizzas and 4 people, nobody can get a whole pizza.",
+      "c": "This would need more than 4 pizzas. Each friend gets less than one pizza.",
+      "d": "$\\frac{1}{4}$ is what each friend would get from just **one** pizza. There are 3 pizzas."
+    },
+    "hints": ["The answer is $3 \\div 4$.", "Cut each pizza into 4 equal pieces. How many pieces does each friend get?"],
+    "solution": "Cut each pizza into quarters: that makes 12 quarters. Each friend gets $12 \\div 4 = 3$ quarters, which is $\\frac{3}{4}$ of a pizza. So $3 \\div 4 = \\frac{3}{4}$."
+  },
+  {
+    "id": "m6.num.division.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "213 students are going to the swimming pool. Each van can take 8 students. How many vans are needed?",
+    "answer": 27,
+    "form": "integer",
+    "hints": ["Work out $213 \\div 8$.", "What happens to the students left over?"],
+    "solution": "$213 \\div 8 = 26$ r 5, because $26 \\times 8 = 208$.\n\n26 vans would leave 5 students behind, so they need one more. **Round up**: **27 vans**."
+  },
+  {
+    "id": "m6.num.division.q011",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put the steps for working out $1{,}283 \\div 5$ with short division in order.",
+    "items": [
+      { "id": "s", "text": "5 doesn't go into 1, so carry the 1 to make 12" },
+      { "id": "p", "text": "$12 \\div 5 = 2$ r 2, so write 2 and carry the 2 to make 28" },
+      { "id": "u", "text": "$28 \\div 5 = 5$ r 3, so write 5 and carry the 3 to make 33" },
+      { "id": "q", "text": "$33 \\div 5 = 6$ r 3, so write 6" },
+      { "id": "t", "text": "Write the answer: 256 r 3" }
+    ],
+    "hints": ["Short division works from left to right, starting with the biggest place value."],
+    "solution": "Start with the thousands digit and move right, carrying each remainder: 12, then 28, then 33.\n\n$1{,}283 \\div 5 = 256$ r 3. Check: $256 \\times 5 + 3 = 1{,}280 + 3 = 1{,}283$ ✓"
+  },
+  {
+    "id": "m6.num.division.q012",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the remainder when 100 is divided by 7?",
+    "answer": 2,
+    "form": "integer",
+    "hints": ["Which number in the 7 times table is just below 100?"],
+    "solution": "$7 \\times 14 = 98$, and $100 - 98 = 2$. So $100 \\div 7 = 14$ r 2, and the remainder is **2**."
+  },
+  {
+    "id": "m6.num.division.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number: $\\square \\div 8 = 245$ r 5",
+    "answer": 1965,
+    "form": "integer",
+    "hints": ["Multiplying undoes dividing.", "Don't forget to add the remainder back on."],
+    "solution": "Quotient × divisor + remainder = the starting number.\n\n$245 \\times 8 = 1{,}960$, and $1{,}960 + 5 = 1{,}965$.\n\nCheck: $1{,}965 \\div 8 = 245$ r 5 ✓"
+  },
+  {
+    "id": "m6.num.division.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "5 friends earn \\$37 at a car wash. They share the money equally. How much does each friend get?",
+    "answer": 7.4,
+    "units": "$",
+    "hints": ["Work out $37 \\div 5$.", "Change the dollars left over into cents and share them too."],
+    "solution": "$37 \\div 5 = 7$ r 2, so each friend gets \\$7 and there is \\$2 left.\n\n\\$2 is 200 cents, and $200 \\div 5 = 40$ cents.\n\nEach friend gets **\\$7.40**."
+  },
+  {
+    "id": "m6.num.division.q015",
+    "type": "multi",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the correct ways to write the answer to $17 \\div 4$.",
+    "options": [
+      { "id": "a", "text": "4 r 1" },
+      { "id": "b", "text": "$4\\frac{1}{4}$" },
+      { "id": "c", "text": "4.25" },
+      { "id": "d", "text": "4.1" },
+      { "id": "e", "text": "$4\\frac{1}{17}$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["First find the quotient and remainder.", "The remainder 1 is 1 out of 4, not 1 out of 10."],
+    "solution": "$17 \\div 4 = 4$ r 1. The remainder 1 shared into 4 parts is $\\frac{1}{4}$, so the answer is $4\\frac{1}{4}$. As a decimal, $\\frac{1}{4} = 0.25$, so it is 4.25.\n\n4.1 is wrong: r 1 does not mean 0.1. $4\\frac{1}{17}$ is wrong: you share the remainder by the divisor (4), not by 17."
+  },
+  {
+    "id": "m6.num.division.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger: $\\frac{1}{3}$ of 50, or $\\frac{1}{4}$ of 70?",
+    "options": [
+      { "id": "a", "text": "$\\frac{1}{3}$ of 50" },
+      { "id": "b", "text": "$\\frac{1}{4}$ of 70" },
+      { "id": "c", "text": "They are equal" }
+    ],
+    "correct": "b",
+    "shuffle": false,
+    "feedback": {
+      "a": "$\\frac{1}{3}$ is a bigger fraction than $\\frac{1}{4}$, but 50 is less than 70. Work out both: $50 \\div 3$ and $70 \\div 4$.",
+      "c": "Work out $50 \\div 3$ and $70 \\div 4$. They are close, but not equal."
+    },
+    "hints": ["Finding $\\frac{1}{3}$ of a number means dividing it by 3.", "Work out $50 \\div 3$ and $70 \\div 4$, and write the remainders as fractions."],
+    "solution": "$\\frac{1}{3}$ of 50 $= 50 \\div 3 = 16$ r 2 $= 16\\frac{2}{3}$.\n\n$\\frac{1}{4}$ of 70 $= 70 \\div 4 = 17$ r 2 $= 17\\frac{2}{4} = 17\\frac{1}{2}$.\n\n$17\\frac{1}{2}$ is bigger, so $\\frac{1}{4}$ of 70 is bigger."
+  },
+  {
+    "id": "m6.num.division.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.division.g1",
+    "part": "a",
+    "stem": "158 students and 12 adults are going on a trip to the museum. Each van carries 8 people.",
+    "prompt": "How many vans are needed?",
+    "answer": 22,
+    "form": "integer",
+    "hints": ["Find the total number of people first.", "Then divide by 8 and think about the people left over."],
+    "solution": "Total: $158 + 12 = 170$ people.\n\n$170 \\div 8 = 21$ r 2, because $21 \\times 8 = 168$.\n\n21 vans leave 2 people behind, so **round up**: **22 vans**."
+  },
+  {
+    "id": "m6.num.division.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.division.g1",
+    "part": "b",
+    "stem": "158 students and 12 adults are going on a trip to the museum. Each van carries 8 people.",
+    "prompt": "Ella says they need 21 vans, because $170 \\div 8 = 21$ r 2. Explain why Ella is wrong.",
+    "modelAnswer": "21 vans can only carry $21 \\times 8 = 168$ people. The remainder of 2 means 2 people would be left with no van. Everyone needs to go, so they must round up to 22 vans.",
+    "rubric": [
+      { "criterion": "Explains that the remainder means 2 people would have no van (21 vans only carry 168)", "marks": 1 },
+      { "criterion": "Says they must round up, so 22 vans are needed", "marks": 1 }
+    ],
+    "hints": ["How many people can 21 vans carry?", "What happens to the remainder of 2?"],
+    "solution": "21 vans carry $21 \\times 8 = 168$ people, which leaves 2 people behind. Because everyone has to fit, round up: they need 22 vans."
+  },
+  {
+    "id": "m6.num.division.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "A bakery makes 250 muffins. It packs them in boxes of 6 and sells each full box for \\$8. The muffins left over are sold for \\$1 each. How much money does the bakery make if it sells every muffin?",
+    "answer": 332,
+    "units": "$",
+    "form": "integer",
+    "hints": ["How many full boxes are there, and how many muffins are left over? Work out $250 \\div 6$.", "Work out the money from the boxes and the money from the leftover muffins, then add."],
+    "solution": "$250 \\div 6 = 41$ r 4, because $41 \\times 6 = 246$. So there are 41 full boxes and 4 muffins left over.\n\nBoxes: $41 \\times 8 = 328$ dollars. Leftovers: $4 \\times 1 = 4$ dollars.\n\nTotal: $328 + 4 = 332$, so the bakery makes **\\$332**."
+  },
+  {
+    "id": "m6.num.division.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "I am thinking of a number between 40 and 60. When I divide it by 6, the remainder is 5. When I divide it by 5, the remainder is 4. What is my number?",
+    "answer": 59,
+    "form": "integer",
+    "hints": ["Work systematically. List the numbers between 40 and 60 that are 5 more than a number in the 6 times table.", "Now check each one: which has a remainder of 4 when you divide by 5?"],
+    "solution": "Numbers between 40 and 60 with remainder 5 when divided by 6: $36 + 5 = 41$, $42 + 5 = 47$, $48 + 5 = 53$, $54 + 5 = 59$.\n\nDivide each by 5: $41 \\div 5 = 8$ r 1, $47 \\div 5 = 9$ r 2, $53 \\div 5 = 10$ r 3, $59 \\div 5 = 11$ r 4 ✓\n\nThe number is **59**."
+  },
+  {
+    "id": "m6.num.division.q021",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain how you can check that $2{,}347 \\div 4 = 586$ r 3 is correct, **without** dividing again.",
+    "modelAnswer": "Use multiplication, because it undoes division. Multiply the quotient by the divisor: $586 \\times 4 = 2{,}344$. Then add the remainder: $2{,}344 + 3 = 2{,}347$. That is the number we started with, so the answer is correct. Also, the remainder 3 is smaller than the divisor 4, which it has to be.",
+    "rubric": [
+      { "criterion": "Multiplies the quotient by the divisor ($586 \\times 4 = 2{,}344$)", "marks": 1 },
+      { "criterion": "Adds the remainder and shows it gives 2,347", "marks": 1 }
+    ],
+    "hints": ["Which operation undoes division?", "What do you do with the remainder?"],
+    "solution": "$586 \\times 4 = 2{,}344$, and $2{,}344 + 3 = 2{,}347$ ✓. Quotient × divisor + remainder gives back the number you started with."
+  },
+  {
+    "id": "m6.num.division.q022",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Work out $48 \\div 6$.",
+    "answer": 8,
+    "form": "integer",
+    "hints": ["Think: 6 times what number makes 48?"],
+    "solution": "$6 \\times 8 = 48$, so $48 \\div 6 = 8$."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  { "id": "m7.sta.averages.f01", "front": "What is a **variable**?", "back": "Something you count, measure or ask about, like height or favourite sport." },
+  { "id": "m7.sta.averages.f02", "front": "What is a **categorical** variable?", "back": "One that puts things into groups, like eye colour or favourite fruit. The answers are words, not numbers." },
+  { "id": "m7.sta.averages.f03", "front": "What is a **discrete numerical** variable?", "back": "One that is counted, so the values are whole numbers, like the number of siblings." },
+  { "id": "m7.sta.averages.f04", "front": "What is a **continuous numerical** variable?", "back": "One that is measured and can be any value, like height (1.47 m) or time." },
+  { "id": "m7.sta.averages.f05", "front": "How do you find the **mean**?", "back": "Add up all the values, then divide by the number of values." },
+  { "id": "m7.sta.averages.f06", "front": "How do you find the **median**?", "back": "Put the values in order and take the middle one. With two middle values, the median is halfway between them." },
+  { "id": "m7.sta.averages.f07", "front": "What is the **mode**?", "back": "The value that appears most often. It is the only average for categorical data." },
+  { "id": "m7.sta.averages.f08", "front": "What is the **range**?", "back": "The highest value take away the lowest value. It measures spread." },
+  { "id": "m7.sta.averages.f09", "front": "What are the three measures of **central tendency**?", "back": "The mean, the median and the mode." },
+  { "id": "m7.sta.averages.f10", "front": "What is an **outlier**?", "back": "A value much bigger or much smaller than the rest of the data. It isn't always a mistake." },
+  { "id": "m7.sta.averages.f11", "front": "How does an outlier affect the mean and the median?", "back": "It pulls the mean towards it, but hardly changes the median." },
+  { "id": "m7.sta.averages.f12", "front": "The mean of 5 values is 8. What is their total?", "back": "Total = mean × number of values = $5 \\times 8 = 40$." }
+]

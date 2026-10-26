@@ -1,0 +1,522 @@
+[
+  {
+    "id": "m6.sta.mean-range.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What does the **range** tell you about a set of data?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How spread out the values are"
+      },
+      {
+        "id": "b",
+        "text": "The middle or typical value"
+      },
+      {
+        "id": "c",
+        "text": "The total of all the values"
+      },
+      {
+        "id": "d",
+        "text": "Which value appears most often"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The mean tells you about the centre of the data.",
+      "c": "The total is all the values added up. The range is a difference.",
+      "d": "That is a different idea. The range compares the highest and lowest values."
+    },
+    "hints": [
+      "Range = highest value − lowest value."
+    ],
+    "solution": "The range is the highest value minus the lowest value, so it tells you **how spread out** the data is."
+  },
+  {
+    "id": "m6.sta.mean-range.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How do you find the **mean** of a set of numbers?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Add them all up, then divide by how many numbers there are"
+      },
+      {
+        "id": "b",
+        "text": "Put them in order and pick the middle one"
+      },
+      {
+        "id": "c",
+        "text": "Take the lowest number away from the highest"
+      },
+      {
+        "id": "d",
+        "text": "Find the number that appears the most"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That gives a different kind of middle value, not the mean.",
+      "c": "That gives the range, which measures spread.",
+      "d": "That is not the mean. The mean uses every value."
+    },
+    "hints": [
+      "The mean evens the values out."
+    ],
+    "solution": "**Mean = total of all the values ÷ number of values.**"
+  },
+  {
+    "id": "m6.sta.mean-range.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the range of these numbers: 3, 9, 4, 12, 7.",
+    "answer": 9,
+    "form": "integer",
+    "hints": [
+      "Find the highest and lowest numbers."
+    ],
+    "solution": "Highest: 12. Lowest: 3. Range: $12 - 3 = 9$."
+  },
+  {
+    "id": "m6.sta.mean-range.q004",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "data",
+          "text": "Data"
+        },
+        "right": {
+          "id": "m1",
+          "text": "Information we collect, such as scores or heights"
+        }
+      },
+      {
+        "left": {
+          "id": "value",
+          "text": "Value"
+        },
+        "right": {
+          "id": "m2",
+          "text": "One number in a set of data"
+        }
+      },
+      {
+        "left": {
+          "id": "mean",
+          "text": "Mean"
+        },
+        "right": {
+          "id": "m3",
+          "text": "Total of the values ÷ number of values"
+        }
+      },
+      {
+        "left": {
+          "id": "range",
+          "text": "Range"
+        },
+        "right": {
+          "id": "m4",
+          "text": "Highest value − lowest value"
+        }
+      },
+      {
+        "left": {
+          "id": "spread",
+          "text": "Spread"
+        },
+        "right": {
+          "id": "m5",
+          "text": "How far apart the values are"
+        }
+      }
+    ],
+    "hints": [
+      "Start with mean and range: which one adds and divides?"
+    ],
+    "solution": "Data: information we collect. Value: one number in the data. Mean: total ÷ number of values. Range: highest − lowest. Spread: how far apart the values are."
+  },
+  {
+    "id": "m6.sta.mean-range.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the mean of 6, 8, 10, 12 and 4.",
+    "answer": 8,
+    "form": "any",
+    "hints": [
+      "Add all five numbers first.",
+      "Then divide the total by 5."
+    ],
+    "solution": "$6 + 8 + 10 + 12 + 4 = 40$, and $40 \\div 5 = 8$. The mean is **8**."
+  },
+  {
+    "id": "m6.sta.mean-range.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana works out the mean of 5, 6 and 10 like this: $(5 + 6 + 10) \\div 2 = 10.5$. What has she done wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She should divide by 3, because there are 3 values. The mean is 7."
+      },
+      {
+        "id": "b",
+        "text": "She should take the numbers away instead of adding them."
+      },
+      {
+        "id": "c",
+        "text": "She should divide by 10, the biggest number."
+      },
+      {
+        "id": "d",
+        "text": "Nothing. 10.5 is correct."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "To find a mean you add the values. Subtracting is for the range.",
+      "c": "You divide by how many values there are, not by the biggest value.",
+      "d": "A mean can’t be bigger than every value. 10.5 is bigger than all three numbers."
+    },
+    "hints": [
+      "How many values are there?"
+    ],
+    "solution": "There are 3 values, so divide by 3: $21 \\div 3 = 7$. The mean is **7**."
+  },
+  {
+    "id": "m6.sta.mean-range.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says the range of 8, 3, 15 and 6 is $15 - 8 = 7$. What should it be?",
+    "options": [
+      {
+        "id": "a",
+        "text": "12, because the lowest value is 3, not 8"
+      },
+      {
+        "id": "b",
+        "text": "7. Tama is right."
+      },
+      {
+        "id": "c",
+        "text": "9, because $15 - 6 = 9$"
+      },
+      {
+        "id": "d",
+        "text": "32, because $8 + 3 + 15 + 6 = 32$"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Tama used the first number in the list, but the lowest value is 3.",
+      "c": "6 is the last number in the list, not the lowest.",
+      "d": "That is the total. The range is the highest value take away the lowest."
+    },
+    "hints": [
+      "Which number in the list is the lowest?"
+    ],
+    "solution": "Highest: 15. Lowest: 3. Range: $15 - 3 = 12$. Tama used the first number instead of the lowest."
+  },
+  {
+    "id": "m6.sta.mean-range.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The dot plot shows how many pets 9 students have. What is the range?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 268 133\" width=\"268\" height=\"133\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><text x=\"136\" y=\"16\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">Pets at home</text><line x1=\"26\" y1=\"81\" x2=\"246\" y2=\"81\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"34\" y1=\"81\" x2=\"34\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"34\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">0</text><line x1=\"68\" y1=\"81\" x2=\"68\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"68\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">1</text><line x1=\"102\" y1=\"81\" x2=\"102\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"102\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">2</text><line x1=\"136\" y1=\"81\" x2=\"136\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"136\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">3</text><line x1=\"170\" y1=\"81\" x2=\"170\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"170\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">4</text><line x1=\"204\" y1=\"81\" x2=\"204\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"204\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">5</text><line x1=\"238\" y1=\"81\" x2=\"238\" y2=\"87\" stroke=\"#1f2937\" stroke-width=\"1\"/><text x=\"238\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#374151\">6</text><circle cx=\"34\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"68\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"68\" cy=\"59\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"59\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"102\" cy=\"46\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"136\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"170\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><circle cx=\"238\" cy=\"72\" r=\"5\" fill=\"#2563eb\"/><text x=\"136\" y=\"119\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">Number of pets</text></svg>",
+      "alt": "Dot plot titled \"Pets at home\" with one dot for each of 9 students, above a number line from 0 to 6."
+    },
+    "answer": 6,
+    "form": "integer",
+    "hints": [
+      "Find the dot furthest to the left and the dot furthest to the right."
+    ],
+    "solution": "The lowest value is 0 pets and the highest is 6 pets. Range: $6 - 0 = 6$."
+  },
+  {
+    "id": "m6.sta.mean-range.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri counted the kererū in his backyard every morning for 5 days: 4, 6, 3, 5 and 7. What was the mean number of kererū?",
+    "answer": 5,
+    "form": "any",
+    "hints": [
+      "Add the five counts.",
+      "Divide by the number of days."
+    ],
+    "solution": "$4 + 6 + 3 + 5 + 7 = 25$, and $25 \\div 5 = 5$. The mean is **5 kererū** each morning."
+  },
+  {
+    "id": "m6.sta.mean-range.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The heights of three students are 1.42 m, 1.36 m and 1.51 m. What is their mean height?",
+    "answer": 1.43,
+    "form": "any",
+    "units": "m",
+    "hints": [
+      "Line up the decimal points when you add.",
+      "Divide the total by 3."
+    ],
+    "solution": "$1.42 + 1.36 + 1.51 = 4.29$ m, and $4.29 \\div 3 = 1.43$. The mean height is **1.43 m**."
+  },
+  {
+    "id": "m6.sta.mean-range.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Can the mean be a number that is not one of the values in the data?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes. For example, the mean of 1 and 2 is 1.5."
+      },
+      {
+        "id": "b",
+        "text": "No. The mean must be one of the values."
+      },
+      {
+        "id": "c",
+        "text": "No. The mean must always be a whole number."
+      },
+      {
+        "id": "d",
+        "text": "Only if one of the values is 0."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Try the mean of 1 and 2: $3 \\div 2 = 1.5$, which is not in the data.",
+      "c": "Means are often decimals, especially for measured data.",
+      "d": "Zeros don’t matter here. Any data can have a mean that isn’t one of its values."
+    },
+    "hints": [
+      "Try finding the mean of 1 and 2."
+    ],
+    "solution": "**Yes.** The mean of 1 and 2 is $3 \\div 2 = 1.5$, which isn’t one of the values."
+  },
+  {
+    "id": "m6.sta.mean-range.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Kai’s football team scored 0, 3, 1, 0 and 6 goals in five games. What was the mean number of goals per game?",
+    "answer": 2,
+    "form": "any",
+    "hints": [
+      "The games with 0 goals still count as games."
+    ],
+    "solution": "$0 + 3 + 1 + 0 + 6 = 10$. There were 5 games, so $10 \\div 5 = 2$ goals per game."
+  },
+  {
+    "id": "m6.sta.mean-range.q013",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi asked, \"How many hours of sleep do students in our class get?\" He got lots of different answers. Explain why.",
+    "modelAnswer": "The answers vary from person to person. Students go to bed and wake up at different times, some have sport or early starts, and some find it harder to get to sleep. So each student gives a different number of hours.",
+    "rubric": [
+      {
+        "criterion": "Says that answers to a statistical question vary from person to person",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a sensible reason, e.g. different bedtimes, early starts, different routines",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Do all students go to bed at the same time?"
+    ],
+    "solution": "Answers vary because each person is different: different bedtimes, wake-up times and routines. That is why a statistical question gets lots of different answers."
+  },
+  {
+    "id": "m6.sta.mean-range.q014",
+    "type": "cloze",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The Tūī team scored 9, 8 and 10 goals in their games. The Kea team scored 7, 8, 6 and 7 goals in theirs.\n\nThe [[a]] team has the higher mean, by [[b]] goals per game.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "Tūī"
+        ],
+        "options": [
+          "Tūī",
+          "Kea"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "2",
+          "two"
+        ]
+      }
+    ],
+    "hints": [
+      "Find each team’s mean: total ÷ number of games.",
+      "The teams played different numbers of games, so don’t compare the totals."
+    ],
+    "solution": "Tūī: $9 + 8 + 10 = 27$, and $27 \\div 3 = 9$. Kea: $7 + 8 + 6 + 7 = 28$, and $28 \\div 4 = 7$.\n\nKea scored more goals in total, but the **Tūī** team has the higher mean, by $9 - 7 = 2$ goals per game."
+  },
+  {
+    "id": "m6.sta.mean-range.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which set of data has the biggest range?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20, 21, 30"
+      },
+      {
+        "id": "b",
+        "text": "1, 5, 9"
+      },
+      {
+        "id": "c",
+        "text": "10, 12, 14"
+      },
+      {
+        "id": "d",
+        "text": "50, 52, 55"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The range is $9 - 1 = 8$. Check the others.",
+      "c": "The range is $14 - 10 = 4$.",
+      "d": "These are the biggest numbers, but the range is only $55 - 50 = 5$."
+    },
+    "hints": [
+      "Work out highest − lowest for each set.",
+      "Big numbers don’t always mean a big range."
+    ],
+    "solution": "Ranges: $30 - 20 = 10$, $9 - 1 = 8$, $14 - 10 = 4$ and $55 - 50 = 5$. So **20, 21, 30** has the biggest range."
+  },
+  {
+    "id": "m6.sta.mean-range.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Mia recorded the rainfall each day for a week: 0 mm, 12 mm, 4 mm, 0 mm, 9 mm, 5 mm and 5 mm. What was the mean daily rainfall?",
+    "answer": 5,
+    "form": "any",
+    "units": "mm",
+    "hints": [
+      "There are 7 days, even though two of them had no rain.",
+      "Add the rainfall, then divide by 7."
+    ],
+    "solution": "$0 + 12 + 4 + 0 + 9 + 5 + 5 = 35$ mm, and $35 \\div 7 = 5$. The mean is **5 mm** a day."
+  },
+  {
+    "id": "m6.sta.mean-range.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two netball shooters are trying out for the final.\n\n- Mere: mean of 8 goals a game, range of 2 goals\n- Losa: mean of 9 goals a game, range of 10 goals\n\nWho would you choose for the final? Explain your choice using the mean **and** the range.",
+    "modelAnswer": "I would choose Mere. Losa has a slightly higher mean (9 compared with 8), so on average she scores one more goal a game. But Losa’s range is 10, so her scores go up and down a lot. Mere’s range is only 2, so she is much more consistent: you can count on her scoring about 8 every game. (Choosing Losa is fine too, if you explain that her higher mean means she usually scores more, even though she is less consistent.)",
+    "rubric": [
+      {
+        "criterion": "Uses the mean correctly: Losa scores more on average",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses the range correctly: Mere is more consistent, and makes a choice with a reason",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What does a higher mean tell you?",
+      "What does a smaller range tell you?"
+    ],
+    "solution": "Losa scores more on average (higher mean), but Mere is more consistent (smaller range). A good answer chooses one shooter and uses both facts to explain why."
+  },
+  {
+    "id": "m6.sta.mean-range.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The mean of four numbers is 15. Three of the numbers are 12, 18 and 14. What is the fourth number?",
+    "answer": 16,
+    "form": "integer",
+    "hints": [
+      "If the mean of 4 numbers is 15, what is their total?",
+      "Take away the three numbers you know."
+    ],
+    "solution": "The total must be $4 \\times 15 = 60$. The three known numbers add to $12 + 18 + 14 = 44$. The fourth number is $60 - 44 = 16$."
+  },
+  {
+    "id": "m6.sta.mean-range.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Eight students get a mean of \\$6 pocket money each week. A new student who gets \\$15 a week joins the group. What is the new mean pocket money for the nine students?",
+    "answer": 7,
+    "form": "any",
+    "units": "$",
+    "hints": [
+      "Find the total for the eight students first: 8 × 6.",
+      "Add the new student’s money, then divide by 9."
+    ],
+    "solution": "Total for 8 students: $8 \\times 6 = 48$ dollars. New total: $48 + 15 = 63$ dollars. New mean: $63 \\div 9 = 7$, so **\\$7** a week."
+  },
+  {
+    "id": "m6.sta.mean-range.q020",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Every value in a set of data goes up by 2. What happens to the mean and the range?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The mean goes up by 2, and the range stays the same."
+      },
+      {
+        "id": "b",
+        "text": "The mean and the range both go up by 2."
+      },
+      {
+        "id": "c",
+        "text": "The mean stays the same, and the range goes up by 2."
+      },
+      {
+        "id": "d",
+        "text": "The mean and the range both stay the same."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The highest and lowest values both go up by 2, so the gap between them doesn’t change.",
+      "c": "Adding 2 to every value makes the total bigger, so the mean goes up.",
+      "d": "The total goes up, so the mean goes up too."
+    },
+    "hints": [
+      "Try it with 1, 2 and 6. Then try 3, 4 and 8."
+    ],
+    "solution": "Try 1, 2, 6 (mean 3, range 5) and 3, 4, 8 (mean 5, range 5). **The mean goes up by 2, but the range stays the same**, because the highest and lowest both move up by 2."
+  }
+]

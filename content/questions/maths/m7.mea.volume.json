@@ -1,0 +1,550 @@
+[
+  {
+    "id": "m7.mea.volume.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "Which unit is used to measure **volume**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "cm³"
+      },
+      {
+        "id": "b",
+        "text": "cm²"
+      },
+      {
+        "id": "c",
+        "text": "cm"
+      },
+      {
+        "id": "d",
+        "text": "kg"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "cm² is a unit of area: flat space.",
+      "c": "cm is a unit of length.",
+      "d": "kg is a unit of mass: how heavy something is."
+    },
+    "hints": [
+      "Volume is three-dimensional."
+    ],
+    "solution": "Volume has three dimensions, so it uses cubic units such as **cm³**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q002",
+    "type": "text",
+    "difficulty": 1,
+    "prompt": "What is the name of a 3D shape with six square faces, all the same size?",
+    "accepted": [
+      "cube",
+      "a cube"
+    ],
+    "hints": [
+      "A dice is usually this shape."
+    ],
+    "solution": "It is a **cube**. All its edges are the same length.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "prompt": "Volume is [[a]]-dimensional, so it is measured in [[b]] units, such as m³.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "three"
+        ],
+        "options": [
+          "one",
+          "two",
+          "three"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "cubic"
+        ],
+        "options": [
+          "square",
+          "cubic",
+          "plain"
+        ]
+      }
+    ],
+    "hints": [
+      "Volume has length, width and height."
+    ],
+    "solution": "Volume has length, width and height, so it is **three**-dimensional and measured in **cubic** units.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "prompt": "A cube has edges of 3 cm. What is its volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "27 cm³"
+      },
+      {
+        "id": "b",
+        "text": "9 cm³"
+      },
+      {
+        "id": "c",
+        "text": "18 cm³"
+      },
+      {
+        "id": "d",
+        "text": "36 cm³"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$3 \\times 3 = 9$ is the area of one face. A volume needs three lengths.",
+      "c": "18 is $3 \\times 6$. Cubing means $3 \\times 3 \\times 3$.",
+      "d": "36 cm is the total length of all 12 edges, not the volume."
+    },
+    "hints": [
+      "$V = l^3 = l \\times l \\times l$"
+    ],
+    "solution": "$V = 3 \\times 3 \\times 3 = 9 \\times 3 = 27$ cm³.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q005",
+    "type": "match",
+    "difficulty": 2,
+    "prompt": "Match each volume to the same amount.",
+    "pairs": [
+      {
+        "left": {
+          "id": "a",
+          "text": "1 cm³"
+        },
+        "right": {
+          "id": "r1",
+          "text": "1 mL"
+        }
+      },
+      {
+        "left": {
+          "id": "b",
+          "text": "1000 cm³"
+        },
+        "right": {
+          "id": "r2",
+          "text": "1 L"
+        }
+      },
+      {
+        "left": {
+          "id": "c",
+          "text": "500 cm³"
+        },
+        "right": {
+          "id": "r3",
+          "text": "0.5 L"
+        }
+      },
+      {
+        "left": {
+          "id": "d",
+          "text": "1 m³"
+        },
+        "right": {
+          "id": "r4",
+          "text": "1000 L"
+        }
+      }
+    ],
+    "hints": [
+      "1 cm³ holds 1 mL, and 1000 mL = 1 L."
+    ],
+    "solution": "1 cm³ = 1 mL. 1000 cm³ = 1000 mL = 1 L. 500 cm³ = 0.5 L. 1 m³ = 1000 L.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Box A is 10 cm by 5 cm by 2 cm. Box B is 4 cm by 4 cm by 6 cm. Which box has the bigger volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Box A"
+      },
+      {
+        "id": "b",
+        "text": "Box B"
+      },
+      {
+        "id": "c",
+        "text": "They have the same volume"
+      },
+      {
+        "id": "d",
+        "text": "You cannot tell without a picture"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Box B is $4 \\times 4 \\times 6 = 96$ cm³. Work out Box A too.",
+      "c": "Work out both volumes: 100 cm³ and 96 cm³.",
+      "d": "You have all three lengths for each box, so you can use $V = lwh$."
+    },
+    "hints": [
+      "Find both volumes with $V = l \\times w \\times h$."
+    ],
+    "solution": "Box A: $10 \\times 5 \\times 2 = 100$ cm³. Box B: $4 \\times 4 \\times 6 = 96$ cm³. **Box A** is bigger.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "prompt": "Ruby says the volume of a box 5 cm long, 4 cm wide and 3 cm high is $5 + 4 + 3 = 12$ cm³. What is her mistake?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She added the lengths. She should multiply: the volume is 60 cm³."
+      },
+      {
+        "id": "b",
+        "text": "There is no mistake."
+      },
+      {
+        "id": "c",
+        "text": "She should have multiplied just two lengths: 20 cm³."
+      },
+      {
+        "id": "d",
+        "text": "She should have doubled her answer: 24 cm³."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding the lengths does not give a volume.",
+      "c": "$5 \\times 4 = 20$ is the area of the base. You still need to multiply by the height.",
+      "d": "Doubling the sum of the lengths does not give the volume."
+    },
+    "hints": [
+      "What is the formula for the volume of a rectangular prism?"
+    ],
+    "solution": "$V = l \\times w \\times h = 5 \\times 4 \\times 3 = 60$ cm³. Ruby added instead of multiplying.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "prompt": "The bottom of a box is covered by one layer of 12 cubes. The box is exactly 5 cubes high. How many cubes fill the box?",
+    "answer": 60,
+    "form": "integer",
+    "hints": [
+      "Each layer has the same number of cubes."
+    ],
+    "solution": "5 layers of 12 cubes: $12 \\times 5 = 60$ cubes.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A chilly bin holds 24 L. What is that in cubic centimetres (cm³)?",
+    "answer": 24000,
+    "units": "cm³",
+    "hints": [
+      "1 L = 1000 cm³."
+    ],
+    "solution": "$24 \\times 1000 = 24{,}000$ cm³.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q010",
+    "type": "multi",
+    "difficulty": 3,
+    "prompt": "Select **all** the rectangular prisms that have a volume of 24 cm³.",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 cm by 3 cm by 4 cm"
+      },
+      {
+        "id": "b",
+        "text": "1 cm by 4 cm by 6 cm"
+      },
+      {
+        "id": "c",
+        "text": "2 cm by 2 cm by 6 cm"
+      },
+      {
+        "id": "d",
+        "text": "3 cm by 3 cm by 3 cm"
+      },
+      {
+        "id": "e",
+        "text": "2 cm by 5 cm by 3 cm"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hints": [
+      "Multiply the three lengths for each prism."
+    ],
+    "solution": "$2 \\times 3 \\times 4 = 24$, $1 \\times 4 \\times 6 = 24$ and $2 \\times 2 \\times 6 = 24$. But $3 \\times 3 \\times 3 = 27$ and $2 \\times 5 \\times 3 = 30$.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "prompt": "A box has a volume of 360 cm³. Its base is 9 cm long and 8 cm wide. How high is the box?",
+    "answer": 5,
+    "units": "cm",
+    "hints": [
+      "Find the area of the base first.",
+      "Volume = base area × height."
+    ],
+    "solution": "Base area: $9 \\times 8 = 72$ cm².\n\nHeight: $360 \\div 72 = 5$ cm.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "prompt": "Which statement about volume and capacity is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Volume is the space an object takes up. Capacity is how much a container can hold."
+      },
+      {
+        "id": "b",
+        "text": "Volume and capacity are measured in square units."
+      },
+      {
+        "id": "c",
+        "text": "Capacity can only be measured in cm³."
+      },
+      {
+        "id": "d",
+        "text": "A solid block of wood has a capacity but no volume."
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Square units (like cm²) are for area. Volume uses cubic units.",
+      "c": "Capacity is usually measured in mL and L (1 cm³ = 1 mL).",
+      "d": "It is the other way round: a solid block takes up space (volume) but can't hold anything."
+    },
+    "hints": [
+      "Think about a drink bottle and a brick."
+    ],
+    "solution": "**Volume** is the space an object takes up. **Capacity** is how much a container can hold, often in mL or L.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q013",
+    "type": "order",
+    "difficulty": 3,
+    "prompt": "Put these amounts in order, from smallest to largest.",
+    "items": [
+      {
+        "id": "a",
+        "text": "0.5 L"
+      },
+      {
+        "id": "b",
+        "text": "800 cm³"
+      },
+      {
+        "id": "c",
+        "text": "1 L"
+      },
+      {
+        "id": "d",
+        "text": "1200 mL"
+      },
+      {
+        "id": "e",
+        "text": "1500 cm³"
+      }
+    ],
+    "hints": [
+      "Change everything into mL. 1 cm³ = 1 mL and 1 L = 1000 mL."
+    ],
+    "solution": "In mL: 0.5 L = 500, 800 cm³ = 800, 1 L = 1000, 1200 mL = 1200, 1500 cm³ = 1500. So the order is **0.5 L, 800 cm³, 1 L, 1200 mL, 1500 cm³**.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q014",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "prompt": "Two boxes have exactly the same volume, but they are different shapes. Explain how this can happen, and give an example.",
+    "modelAnswer": "Volume is length × width × height, and different sets of three numbers can multiply to the same answer. For example, a box 2 cm × 3 cm × 4 cm and a box 1 cm × 4 cm × 6 cm both have a volume of 24 cm³, but one is long and flat and the other is more like a cube.",
+    "rubric": [
+      {
+        "criterion": "Explains that different lengths can multiply to give the same volume",
+        "marks": 1
+      },
+      {
+        "criterion": "Gives a correct example of two different boxes with the same volume",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Find two different sets of three numbers that multiply to 24."
+    ],
+    "solution": "Different dimensions can give the same product. 2 × 3 × 4 = 24 and 1 × 4 × 6 = 24, so both boxes have a volume of 24 cm³.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "prompt": "A sandpit is a rectangular prism 2 m long and 1.5 m wide. It is filled with sand to a depth of 0.4 m. What volume of sand is in the sandpit?",
+    "answer": 1.2,
+    "units": "m³",
+    "hints": [
+      "Multiply the length and the width first.",
+      "Then multiply by the depth."
+    ],
+    "solution": "$2 \\times 1.5 = 3$ m², then $3 \\times 0.4 = 1.2$ m³.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "prompt": "You double every edge of a cube. How many times bigger is the new volume?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8 times"
+      },
+      {
+        "id": "b",
+        "text": "2 times"
+      },
+      {
+        "id": "c",
+        "text": "4 times"
+      },
+      {
+        "id": "d",
+        "text": "6 times"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "All three lengths double, not just one.",
+      "c": "That is what happens to the area of each face. Volume has a third dimension too.",
+      "d": "Try an example: a 1 cm cube and a 2 cm cube."
+    },
+    "hints": [
+      "Try it with a cube of edge 1 cm and a cube of edge 2 cm."
+    ],
+    "solution": "A 1 cm cube has volume 1 cm³. A 2 cm cube has volume $2 \\times 2 \\times 2 = 8$ cm³. Each dimension doubles, so the volume is $2 \\times 2 \\times 2 =$ **8 times** bigger.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "A cube has a volume of 125 cm³. What is the area of one of its faces?",
+    "answer": 25,
+    "units": "cm²",
+    "hints": [
+      "Find the length of an edge first.",
+      "Each face is a square."
+    ],
+    "solution": "$5 \\times 5 \\times 5 = 125$, so each edge is 5 cm.\n\nEach face is a 5 cm square: $5 \\times 5 = 25$ cm².",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "This wooden toy block is made from two rectangular prisms. What is its volume?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 331 228\" width=\"331\" height=\"228\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"207.73,184 250.9,153.77 250.9,105.86 207.73,136.09\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"135.86,136.09 207.73,136.09 250.9,105.86 179.03,105.86\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"135.86,136.09 179.03,105.86 179.03,34 135.86,64.23\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"64,64.23 135.86,64.23 179.03,34 107.17,34\" fill=\"#bfdbfe\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"64,184 207.73,184 207.73,136.09 135.86,136.09 135.86,64.23 64,64.23\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"135.86\" y=\"202\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">6 cm</text><text x=\"38.6\" y=\"124.11\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">5 cm</text><text x=\"143.1\" y=\"21\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 cm</text><text x=\"224.96\" y=\"92.86\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">3 cm</text><text x=\"275.3\" y=\"129.82\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">2 cm</text><text x=\"254.71\" y=\"177.89\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\">4 cm</text><text x=\"322.9\" y=\"218\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A step-shaped block 4 cm deep. The front is 6 cm wide at the bottom and 5 cm high on the left. The tall part is 3 cm wide. The low part is 3 cm wide and 2 cm high."
+    },
+    "answer": 84,
+    "units": "cm³",
+    "hints": [
+      "Split the block into a tall box and a low box.",
+      "Both boxes are 4 cm deep."
+    ],
+    "solution": "Tall part: $3 \\times 5 \\times 4 = 60$ cm³. Low part: $3 \\times 2 \\times 4 = 24$ cm³.\n\nTotal: $60 + 24 = 84$ cm³.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "prompt": "Explain why 1 litre is the same as 1000 cm³.",
+    "modelAnswer": "1 litre is 1000 mL, and each cubic centimetre holds 1 mL, so 1000 cm³ hold 1000 mL = 1 L. You can also picture a cube with 10 cm edges: its volume is $10 \\times 10 \\times 10 = 1000$ cm³, and it holds exactly 1 litre.",
+    "rubric": [
+      {
+        "criterion": "Uses the fact that 1 cm³ holds 1 mL (or describes a 10 cm cube)",
+        "marks": 1
+      },
+      {
+        "criterion": "Links this to 1 L = 1000 mL, or shows 10 × 10 × 10 = 1000 cm³",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "How many mL are in 1 L? How much does 1 cm³ hold?"
+    ],
+    "solution": "1 cm³ holds 1 mL and 1 L = 1000 mL, so 1 L = 1000 cm³. A 10 cm cube shows this: $10 \\times 10 \\times 10 = 1000$ cm³.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "prompt": "A water tank on a farm is a rectangular prism 2 m long, 1 m wide and 1.5 m high. How many litres of water does it hold when full?",
+    "answer": 3000,
+    "units": "L",
+    "hints": [
+      "Find the volume in m³ first.",
+      "1 m³ holds 1000 L."
+    ],
+    "solution": "$V = 2 \\times 1 \\times 1.5 = 3$ m³.\n\n$3 \\times 1000 = 3000$ L.",
+    "calculator": "not-allowed"
+  },
+  {
+    "id": "m7.mea.volume.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "prompt": "Small boxes that are 20 cm long, 10 cm wide and 10 cm high are packed into a carton that is 60 cm long, 40 cm wide and 30 cm high. The boxes all face the same way. How many boxes fit in the carton?",
+    "answer": 36,
+    "form": "integer",
+    "hints": [
+      "How many boxes fit along the length? Along the width? Up the height?",
+      "Multiply those three numbers."
+    ],
+    "solution": "Along the length: $60 \\div 20 = 3$. Along the width: $40 \\div 10 = 4$. Up the height: $30 \\div 10 = 3$.\n\n$3 \\times 4 \\times 3 = 36$ boxes.\n\nCheck with volumes: carton $60 \\times 40 \\times 30 = 72{,}000$ cm³, box $20 \\times 10 \\times 10 = 2000$ cm³, and $72{,}000 \\div 2000 = 36$ ✓",
+    "calculator": "not-allowed"
+  }
+]

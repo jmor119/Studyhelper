@@ -1,0 +1,319 @@
+[
+  {
+    "id": "m6.num.order-operations.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In $6 + 4 \\times 3$, which operation do you do **first**?",
+    "options": [
+      { "id": "a", "text": "The multiplication, $4 \\times 3$" },
+      { "id": "b", "text": "The addition, $6 + 4$" },
+      { "id": "c", "text": "Whichever one you like, because it doesn't matter" },
+      { "id": "d", "text": "Neither. You add all three numbers." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Working left to right is only for operations with the same rank. × comes before +.",
+      "c": "It does matter: doing + first gives 30, but the correct answer is 18.",
+      "d": "There is a × sign, so you can't just add all the numbers."
+    },
+    "hints": ["Which comes earlier in the order of operations: × or +?"],
+    "solution": "× and ÷ come before + and −. So work out $4 \\times 3 = 12$ first, then $6 + 12 = 18$."
+  },
+  {
+    "id": "m6.num.order-operations.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Work out $5 + 3 \\times 2$.",
+    "answer": 11,
+    "form": "integer",
+    "hints": ["Do the × before the +."],
+    "solution": "Multiply first: $3 \\times 2 = 6$. Then add: $5 + 6 = 11$."
+  },
+  {
+    "id": "m6.num.order-operations.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "The order of operations: first work out any [[a]], then squares, then × and ÷, and last of all [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["brackets"], "options": ["brackets", "adding and subtracting", "squares"] },
+      { "id": "b", "accepted": ["adding and subtracting"], "options": ["brackets", "adding and subtracting", "squares"] }
+    ],
+    "hints": ["Something that shows which part to do first comes at the start."],
+    "solution": "Work out **brackets** first, then squares, then × and ÷ (left to right), and last of all **adding and subtracting** (left to right)."
+  },
+  {
+    "id": "m6.num.order-operations.q004",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What do we call the symbols ( ) that show which part of a calculation to do first?",
+    "accepted": ["brackets", "bracket", "parentheses", "round brackets"],
+    "hints": ["They come first in the order of operations."],
+    "solution": "They are **brackets**. Whatever is inside the brackets is worked out first."
+  },
+  {
+    "id": "m6.num.order-operations.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger: $(4 + 5) \\times 2$ or $4 + 5 \\times 2$?",
+    "options": [
+      { "id": "a", "text": "$(4 + 5) \\times 2$" },
+      { "id": "b", "text": "$4 + 5 \\times 2$" },
+      { "id": "c", "text": "They are equal, because they use the same numbers" },
+      { "id": "d", "text": "You can't compare them" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$4 + 5 \\times 2 = 4 + 10 = 14$, but $(4 + 5) \\times 2 = 9 \\times 2 = 18$.",
+      "c": "The brackets change the order, so the answers are different: 18 and 14.",
+      "d": "Work out each one using the order of operations, then compare."
+    },
+    "hints": ["Work out each one. Brackets first; without brackets, × comes before +."],
+    "solution": "$(4 + 5) \\times 2 = 9 \\times 2 = 18$ and $4 + 5 \\times 2 = 4 + 10 = 14$. So **$(4 + 5) \\times 2$** is bigger."
+  },
+  {
+    "id": "m6.num.order-operations.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Liam worked out $20 - 8 + 2$ like this:\n\n$8 + 2 = 10$, then $20 - 10 = 10$.\n\nWhat should the answer be?",
+    "options": [
+      { "id": "a", "text": "14" },
+      { "id": "b", "text": "10" },
+      { "id": "c", "text": "30" },
+      { "id": "d", "text": "26" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is Liam's answer. He added before subtracting, but + and − have the same rank.",
+      "c": "30 adds all three numbers. The 8 is being taken away.",
+      "d": "Check your working: $20 - 8 = 12$, then add 2."
+    },
+    "hints": ["+ and − have the same rank, so work from left to right."],
+    "solution": "Work from left to right: $20 - 8 = 12$, then $12 + 2 = 14$. Liam added first, which isn't the right order."
+  },
+  {
+    "id": "m6.num.order-operations.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $(12 - 4) \\times 3$.",
+    "answer": 24,
+    "form": "integer",
+    "hints": ["Work out the brackets first."],
+    "solution": "Brackets first: $12 - 4 = 8$. Then multiply: $8 \\times 3 = 24$."
+  },
+  {
+    "id": "m6.num.order-operations.q008",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put the steps for working out $3 + 4^2 \\times 2$ in the correct order.",
+    "items": [
+      { "id": "p", "text": "Work out $4^2 = 16$" },
+      { "id": "q", "text": "Work out $16 \\times 2 = 32$" },
+      { "id": "r", "text": "Work out $3 + 32 = 35$" }
+    ],
+    "hints": ["There are no brackets. What comes next in the order of operations?"],
+    "solution": "There are no brackets, so the square comes first: $4^2 = 16$. Then multiply: $16 \\times 2 = 32$. Then add: $3 + 32 = 35$."
+  },
+  {
+    "id": "m6.num.order-operations.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $36 \\div (2 + 4) \\times 3$.",
+    "answer": 18,
+    "form": "integer",
+    "hints": ["Brackets first.", "Then ÷ and × from left to right."],
+    "solution": "Brackets first: $2 + 4 = 6$. Now it is $36 \\div 6 \\times 3$.\n\nLeft to right: $36 \\div 6 = 6$, then $6 \\times 3 = 18$."
+  },
+  {
+    "id": "m6.num.order-operations.q010",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ana buys 4 packets of 6 sausages for the school sausage sizzle. 5 sausages get burnt. How many sausages are **not** burnt?",
+    "answer": 19,
+    "form": "integer",
+    "hints": ["How many sausages are there altogether?", "Write it as one calculation: what is done first?"],
+    "solution": "$4 \\times 6 - 5$. Multiply first: $4 \\times 6 = 24$. Then subtract: $24 - 5 = 19$. **19** sausages are not burnt."
+  },
+  {
+    "id": "m6.num.order-operations.q011",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the expressions that are equal to 20.",
+    "options": [
+      { "id": "a", "text": "$(2 + 3) \\times 4$" },
+      { "id": "b", "text": "$2 + 3 \\times 4$" },
+      { "id": "c", "text": "$4^2 + 4$" },
+      { "id": "d", "text": "$30 - 5 \\times 2$" },
+      { "id": "e", "text": "$(30 - 5) \\times 2$" },
+      { "id": "f", "text": "$10 + 10 \\div 2$" }
+    ],
+    "correct": ["a", "c", "d"],
+    "hints": ["Work out each expression using the order of operations."],
+    "solution": "$(2 + 3) \\times 4 = 5 \\times 4 = 20$ ✓\n\n$2 + 3 \\times 4 = 2 + 12 = 14$\n\n$4^2 + 4 = 16 + 4 = 20$ ✓\n\n$30 - 5 \\times 2 = 30 - 10 = 20$ ✓\n\n$(30 - 5) \\times 2 = 25 \\times 2 = 50$\n\n$10 + 10 \\div 2 = 10 + 5 = 15$"
+  },
+  {
+    "id": "m6.num.order-operations.q012",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $10 - 2 \\times 3$ is 4, and not 24.",
+    "modelAnswer": "In the order of operations, × comes before −. So you work out 2 × 3 = 6 first, and then 10 − 6 = 4. You only get 24 if you do 10 − 2 = 8 first and then 8 × 3, which is the wrong order. To get 24 you would need brackets: (10 − 2) × 3.",
+    "rubric": [
+      { "criterion": "Says that × comes before − (so 2 × 3 = 6 is worked out first)", "marks": 1 },
+      { "criterion": "Explains that 24 comes from doing 10 − 2 first, which is the wrong order (or that it would need brackets)", "marks": 1 }
+    ],
+    "hints": ["Which operation comes first: × or −?", "How would someone get 24?"],
+    "solution": "× comes before −, so $10 - 2 \\times 3 = 10 - 6 = 4$. The answer 24 comes from working out $10 - 2$ first, which would need brackets: $(10 - 2) \\times 3 = 24$."
+  },
+  {
+    "id": "m6.num.order-operations.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "At the school gala, Room 4 sells 12 pies at \\$5 each and 20 drinks at \\$2 each. How much money do they make altogether?",
+    "answer": 100,
+    "form": "integer",
+    "units": "$",
+    "hints": ["Work out the money from pies and the money from drinks.", "Write it as one calculation: $12 \\times 5 + 20 \\times 2$."],
+    "solution": "$12 \\times 5 + 20 \\times 2$\n\nMultiply first: $12 \\times 5 = 60$ and $20 \\times 2 = 40$. Then add: $60 + 40 = 100$.\n\nThey make **\\$100**."
+  },
+  {
+    "id": "m6.num.order-operations.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$\\square + 6 \\times 4 = 30$",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Work out $6 \\times 4$ first.", "What do you add to that to make 30?"],
+    "solution": "× comes first: $6 \\times 4 = 24$. So $\\square + 24 = 30$.\n\n$30 - 24 = 6$, so the missing number is **6**.\n\nCheck: $6 + 6 \\times 4 = 6 + 24 = 30$ ✓"
+  },
+  {
+    "id": "m6.num.order-operations.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Put brackets in to make this true: $2 + 3 \\times 4 + 1 = 25$",
+    "options": [
+      { "id": "a", "text": "$(2 + 3) \\times (4 + 1)$" },
+      { "id": "b", "text": "$(2 + 3) \\times 4 + 1$" },
+      { "id": "c", "text": "$2 + 3 \\times (4 + 1)$" },
+      { "id": "d", "text": "$2 + (3 \\times 4) + 1$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$(2 + 3) \\times 4 + 1 = 5 \\times 4 + 1 = 21$.",
+      "c": "$2 + 3 \\times (4 + 1) = 2 + 3 \\times 5 = 17$.",
+      "d": "These brackets don't change anything: $2 + 12 + 1 = 15$."
+    },
+    "hints": ["Work out each option. Brackets first.", "25 is $5 \\times 5$. Can you make two 5s?"],
+    "solution": "$(2 + 3) \\times (4 + 1) = 5 \\times 5 = 25$ ✓"
+  },
+  {
+    "id": "m6.num.order-operations.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Tevita had 50 stickers. He gave 4 friends 6 stickers each. Which calculation shows how many stickers he has left?",
+    "options": [
+      { "id": "a", "text": "$50 - 4 \\times 6$" },
+      { "id": "b", "text": "$(50 - 4) \\times 6$" },
+      { "id": "c", "text": "$50 - 4 + 6$" },
+      { "id": "d", "text": "$(50 - 6) \\times 4$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This takes the number of friends away from the stickers, then multiplies. That doesn't match the story.",
+      "c": "He gave away 4 lots of 6, so you need $4 \\times 6$.",
+      "d": "This takes away only 6 stickers, then multiplies what is left by 4."
+    },
+    "hints": ["How many stickers did he give away altogether?", "Does the multiplication need brackets, or does × already come first?"],
+    "solution": "He gave away $4 \\times 6 = 24$ stickers. × comes before −, so no brackets are needed: $50 - 4 \\times 6 = 50 - 24 = 26$ stickers left."
+  },
+  {
+    "id": "m6.num.order-operations.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out $(3 + 2)^2 - 3^2 - 2^2$.",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["Brackets first, then the squares.", "Then subtract from left to right."],
+    "solution": "Brackets: $3 + 2 = 5$. Squares: $5^2 = 25$, $3^2 = 9$ and $2^2 = 4$.\n\nNow it is $25 - 9 - 4$. Left to right: $25 - 9 = 16$, then $16 - 4 = 12$."
+  },
+  {
+    "id": "m6.num.order-operations.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere's whānau of 2 adults and 3 children goes to the pools. Adult entry is \\$8 and child entry is \\$5. They also buy 5 ice blocks at \\$2 each. How much do they spend altogether?",
+    "answer": 41,
+    "form": "integer",
+    "units": "$",
+    "hints": ["Work out three amounts: adult entry, child entry and ice blocks.", "Write it as one calculation: $2 \\times 8 + 3 \\times 5 + 5 \\times 2$."],
+    "solution": "$2 \\times 8 + 3 \\times 5 + 5 \\times 2$\n\nMultiply first: $16 + 15 + 10$.\n\nThen add: $16 + 15 = 31$, and $31 + 10 = 41$.\n\nThey spend **\\$41**."
+  },
+  {
+    "id": "m6.num.order-operations.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "You can put **one pair** of brackets anywhere in $8 + 4 \\times 5 - 3$. What is the **biggest** answer you can make?",
+    "answer": 57,
+    "form": "integer",
+    "hints": ["Try putting brackets around different parts and work out each one.", "Multiplying a bigger number by 5 makes a bigger answer."],
+    "solution": "Without brackets: $8 + 20 - 3 = 25$.\n\n$(8 + 4) \\times 5 - 3 = 12 \\times 5 - 3 = 60 - 3 = 57$\n\n$8 + 4 \\times (5 - 3) = 8 + 4 \\times 2 = 16$\n\n$(8 + 4 \\times 5) - 3$ and $8 + (4 \\times 5 - 3)$ are both 25.\n\nThe biggest answer is **57**."
+  },
+  {
+    "id": "m6.num.order-operations.q020",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write a story problem that matches $(15 + 9) \\div 4$. Then work out the answer.",
+    "modelAnswer": "There are 15 boys and 9 girls in Room 7. They get into teams of 4 for a relay race. How many teams are there? (15 + 9) ÷ 4 = 24 ÷ 4 = 6, so there are 6 teams.",
+    "rubric": [
+      { "criterion": "Writes a story where 15 and 9 are added first, and then the total is shared or grouped into 4s", "marks": 1 },
+      { "criterion": "Works out the answer correctly: (15 + 9) ÷ 4 = 24 ÷ 4 = 6", "marks": 1 }
+    ],
+    "hints": ["The brackets mean 15 and 9 are put together first.", "Then the total is shared equally, or split into groups of 4."],
+    "solution": "Any story where two amounts (15 and 9) are joined, then shared or grouped into 4s, works. For example: 15 boys and 9 girls get into teams of 4. $(15 + 9) \\div 4 = 24 \\div 4 = 6$ teams."
+  },
+  {
+    "id": "m6.num.order-operations.q021",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi says $2 \\times 3^2 = 36$. What has he done wrong?",
+    "options": [
+      { "id": "a", "text": "He multiplied first and then squared 6. Squares come first: $2 \\times 9 = 18$." },
+      { "id": "b", "text": "Nothing. $2 \\times 3^2 = 36$." },
+      { "id": "c", "text": "He should have squared the 2 as well: $2^2 \\times 3^2 = 36$." },
+      { "id": "d", "text": "He should have doubled the 3: $2 \\times 6 = 12$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Squares come before × and ÷, so $3^2$ is worked out first.",
+      "c": "The small 2 is only on the 3. The 2 is not squared.",
+      "d": "Squaring means multiplying a number by itself: $3 \\times 3$, not $3 \\times 2$."
+    },
+    "hints": ["Which comes first in the order of operations: squares or ×?"],
+    "solution": "Squares come before ×. So $3^2 = 9$ first, then $2 \\times 9 = 18$. Hemi worked out $(2 \\times 3)^2 = 6^2 = 36$ instead."
+  }
+]

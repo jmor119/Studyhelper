@@ -1,0 +1,14 @@
+[
+  { "id": "m7.sta.interpreting.f01", "front": "What four things do you describe when you interpret a display?", "back": "Its shape, centre, spread, and any other features (like outliers or a trend), using the variable and its units." },
+  { "id": "m7.sta.interpreting.f02", "front": "What are the **tails** of a display?", "back": "The parts that taper off on each side of the peak." },
+  { "id": "m7.sta.interpreting.f03", "front": "What does **symmetrical** mean for a display?", "back": "Both tails taper off at about the same rate, so the two sides look alike." },
+  { "id": "m7.sta.interpreting.f04", "front": "What is **positively skewed** data?", "back": "Data with a longer tail on the right, e.g. the number of pets students have." },
+  { "id": "m7.sta.interpreting.f05", "front": "What is **negatively skewed** data?", "back": "Data with a longer tail on the left, e.g. scores on an easy quiz." },
+  { "id": "m7.sta.interpreting.f06", "front": "Is skew named after the peak or the tail?", "back": "The long tail. A peak on the left means a long right tail: positive skew." },
+  { "id": "m7.sta.interpreting.f07", "front": "Which measure describes the **centre** of a display?", "back": "The median (the middle value)." },
+  { "id": "m7.sta.interpreting.f08", "front": "Which measures describe the **spread** of a display?", "back": "The minimum, the maximum and the range (maximum − minimum)." },
+  { "id": "m7.sta.interpreting.f09", "front": "What is a **trend**?", "back": "The overall direction of a time-series graph: upward, downward, or no clear trend." },
+  { "id": "m7.sta.interpreting.f10", "front": "Why say \"tends to\" when comparing groups?", "back": "Because the groups usually overlap: one group's median is higher, but not every value is." },
+  { "id": "m7.sta.interpreting.f11", "front": "How can a bar graph be **misleading**?", "back": "If the vertical axis doesn't start at 0, small differences look big." },
+  { "id": "m7.sta.interpreting.f12", "front": "When can't a graph be read accurately?", "back": "When it is missing a title, axis labels or the numbers on an axis." }
+]

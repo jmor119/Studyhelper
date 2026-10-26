@@ -1,0 +1,685 @@
+[
+  {
+    "id": "m7.geo.position.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is **not** one of the eight compass points?",
+    "options": [
+      {
+        "id": "a",
+        "text": "EN"
+      },
+      {
+        "id": "b",
+        "text": "NE"
+      },
+      {
+        "id": "c",
+        "text": "SW"
+      },
+      {
+        "id": "d",
+        "text": "NW"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "NE (north-east) is the point halfway between north and east.",
+      "c": "SW (south-west) is the point halfway between south and west.",
+      "d": "NW (north-west) is the point halfway between north and west."
+    },
+    "hints": [
+      "The names of the halfway points always start with N or S."
+    ],
+    "solution": "**EN** is not a compass point. The point halfway between east and north is called NE (north-east), because the halfway names always start with north or south."
+  },
+  {
+    "id": "m7.geo.position.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Two labels are missing from this compass rose. What should go at A and B?\n\nA = [[a]]\n\nB = [[b]]",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" width=\"300\" height=\"250\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"150\" y1=\"125\" x2=\"150\" y2=\"49\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"150,40 155,49 145,49\" fill=\"#1f2937\"/><text x=\"150\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">N</text><line x1=\"150\" y1=\"125\" x2=\"184.51\" y2=\"90.49\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><polygon points=\"190.87,84.13 188.04,94.03 180.97,86.96\" fill=\"#6b7280\"/><text x=\"200.77\" y=\"74.23\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">NE</text><line x1=\"150\" y1=\"125\" x2=\"226\" y2=\"125\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"235,125 226,130 226,120\" fill=\"#1f2937\"/><text x=\"249\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">E</text><line x1=\"150\" y1=\"125\" x2=\"184.51\" y2=\"159.51\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><polygon points=\"190.87,165.87 180.97,163.04 188.04,155.97\" fill=\"#6b7280\"/><text x=\"200.77\" y=\"175.77\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#dc2626\" font-weight=\"bold\">A</text><line x1=\"150\" y1=\"125\" x2=\"150\" y2=\"201\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"150,210 145,201 155,201\" fill=\"#1f2937\"/><text x=\"150\" y=\"224\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">S</text><line x1=\"150\" y1=\"125\" x2=\"115.49\" y2=\"159.51\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><polygon points=\"109.13,165.87 111.96,155.97 119.03,163.04\" fill=\"#6b7280\"/><text x=\"99.23\" y=\"175.77\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">SW</text><line x1=\"150\" y1=\"125\" x2=\"74\" y2=\"125\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"65,125 74,120 74,130\" fill=\"#1f2937\"/><text x=\"51\" y=\"125\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#dc2626\" font-weight=\"bold\">B</text><line x1=\"150\" y1=\"125\" x2=\"115.49\" y2=\"90.49\" stroke=\"#6b7280\" stroke-width=\"1.5\"/><polygon points=\"109.13,84.13 119.03,86.96 111.96,94.03\" fill=\"#6b7280\"/><text x=\"99.23\" y=\"74.23\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1f2937\">NW</text></svg>",
+      "alt": "An eight-point compass rose. N, NE, E, S, SW and NW are labelled. The point between E and S is labelled A, and the point between SW and NW is labelled B."
+    },
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "SE"
+        ],
+        "options": [
+          "N",
+          "NE",
+          "E",
+          "SE",
+          "S",
+          "SW",
+          "W",
+          "NW"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "W"
+        ],
+        "options": [
+          "N",
+          "NE",
+          "E",
+          "SE",
+          "S",
+          "SW",
+          "W",
+          "NW"
+        ]
+      }
+    ],
+    "hints": [
+      "A is halfway between east and south.",
+      "B is opposite east."
+    ],
+    "solution": "A is halfway between east and south, so it is **SE** (south-east). B is opposite E, so it is **W** (west)."
+  },
+  {
+    "id": "m7.geo.position.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How many degrees are there in a quarter turn?",
+    "answer": 90,
+    "units": "°",
+    "hints": [
+      "A full turn is 360°. A quarter turn is one quarter of that."
+    ],
+    "solution": "A full turn is 360°, so a quarter turn is $360° \\div 4 = 90°$. It is a right angle."
+  },
+  {
+    "id": "m7.geo.position.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "On most maps, which direction is at the top?",
+    "options": [
+      {
+        "id": "n",
+        "text": "North (N)"
+      },
+      {
+        "id": "s",
+        "text": "South (S)"
+      },
+      {
+        "id": "e",
+        "text": "East (E)"
+      },
+      {
+        "id": "w",
+        "text": "West (W)"
+      }
+    ],
+    "correct": "n",
+    "feedback": {
+      "s": "South is usually at the bottom of a map.",
+      "e": "East is usually on the right of a map.",
+      "w": "West is usually on the left of a map."
+    },
+    "hints": [
+      "Maps often have an arrow with a letter on it to show this direction."
+    ],
+    "solution": "**North** is at the top of most maps. Many maps have a north arrow to show this. East is then on the right, south at the bottom and west on the left."
+  },
+  {
+    "id": "m7.geo.position.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A weather vane on the school roof points north-west. The wind changes, and the vane turns 90° clockwise. Which way does it point now?",
+    "options": [
+      {
+        "id": "ne",
+        "text": "North-east (NE)"
+      },
+      {
+        "id": "sw",
+        "text": "South-west (SW)"
+      },
+      {
+        "id": "w",
+        "text": "West (W)"
+      },
+      {
+        "id": "n",
+        "text": "North (N)"
+      }
+    ],
+    "correct": "ne",
+    "feedback": {
+      "sw": "That is a half turn (180°) from north-west.",
+      "w": "West is 45° anticlockwise from north-west. Clockwise goes the other way: NW → N → NE.",
+      "n": "North is only 45° clockwise from north-west. 90° is two steps."
+    },
+    "hints": [
+      "90° is two steps of 45°.",
+      "Clockwise from NW goes NW → N → …"
+    ],
+    "solution": "90° is two steps of 45°. Clockwise from NW: NW → N → **NE**."
+  },
+  {
+    "id": "m7.geo.position.q006",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each turn to its size in degrees.",
+    "pairs": [
+      {
+        "left": {
+          "id": "eighth",
+          "text": "One-eighth of a turn"
+        },
+        "right": {
+          "id": "d45",
+          "text": "45°"
+        }
+      },
+      {
+        "left": {
+          "id": "quarter",
+          "text": "Quarter turn"
+        },
+        "right": {
+          "id": "d90",
+          "text": "90°"
+        }
+      },
+      {
+        "left": {
+          "id": "half",
+          "text": "Half turn"
+        },
+        "right": {
+          "id": "d180",
+          "text": "180°"
+        }
+      },
+      {
+        "left": {
+          "id": "three",
+          "text": "Three-quarter turn"
+        },
+        "right": {
+          "id": "d270",
+          "text": "270°"
+        }
+      },
+      {
+        "left": {
+          "id": "full",
+          "text": "Full turn"
+        },
+        "right": {
+          "id": "d360",
+          "text": "360°"
+        }
+      }
+    ],
+    "hints": [
+      "A full turn is 360°. Halve it, then halve it again."
+    ],
+    "solution": "Full turn 360°, half turn 180°, quarter turn 90°, three-quarter turn 270°, one-eighth of a turn 45°."
+  },
+  {
+    "id": "m7.geo.position.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ruby is facing west. She turns 90° clockwise. She says she is now facing south. Which direction is she really facing?",
+    "options": [
+      {
+        "id": "n",
+        "text": "North (N)"
+      },
+      {
+        "id": "s",
+        "text": "South (S)"
+      },
+      {
+        "id": "e",
+        "text": "East (E)"
+      },
+      {
+        "id": "nw",
+        "text": "North-west (NW)"
+      }
+    ],
+    "correct": "n",
+    "feedback": {
+      "s": "South is 90° **anticlockwise** from west. Clockwise goes W → NW → N.",
+      "e": "East is a half turn (180°) from west.",
+      "nw": "North-west is only 45° from west. 90° is two steps."
+    },
+    "hints": [
+      "Clockwise is the way clock hands move: N → E → S → W → N.",
+      "From west, which way does a clock hand go next?"
+    ],
+    "solution": "Clockwise from west: W → NW → **N**. That is two steps of 45°, which is 90°. Ruby turned the wrong way round in her head: south is 90° anticlockwise from west."
+  },
+  {
+    "id": "m7.geo.position.q008",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "You are facing north. Which of these turns leave you facing **west**? Select all that apply.",
+    "options": [
+      {
+        "id": "a",
+        "text": "90° anticlockwise"
+      },
+      {
+        "id": "b",
+        "text": "270° clockwise"
+      },
+      {
+        "id": "c",
+        "text": "90° clockwise"
+      },
+      {
+        "id": "d",
+        "text": "180° clockwise"
+      },
+      {
+        "id": "e",
+        "text": "270° anticlockwise"
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "hints": [
+      "Try each turn on a compass rose, counting 45° steps.",
+      "A turn one way plus the same direction’s turn the other way make 360°."
+    ],
+    "solution": "90° anticlockwise from N: N → NW → **W** ✓. 270° clockwise from N: N → E → S → **W** ✓.\n\n90° clockwise gives east, 180° gives south, and 270° anticlockwise gives east."
+  },
+  {
+    "id": "m7.geo.position.q009",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "groupId": "m7.geo.position.camp",
+    "part": "a",
+    "stem": "This map shows a school camp. North is at the top of the map. Each grid square is 50 metres across.",
+    "prompt": "What are the coordinates of the hall?\n\n( [[x]] , [[y]] )",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 388 268\" width=\"388\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"242\" x2=\"62\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"98\" y1=\"242\" x2=\"98\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"242\" x2=\"134\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"170\" y1=\"242\" x2=\"170\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"206\" y1=\"242\" x2=\"206\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"242\" x2=\"242\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"278\" y1=\"242\" x2=\"278\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"314\" y1=\"242\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"206\" x2=\"314\" y2=\"206\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"170\" x2=\"314\" y2=\"170\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"134\" x2=\"314\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"98\" x2=\"314\" y2=\"98\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"62\" x2=\"314\" y2=\"62\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"26\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"62\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"98\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"134\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"170\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"206\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"242\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"278\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"314\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"14\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"14\" y=\"170\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"14\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"14\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"14\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"14\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"326\" y=\"242\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"26\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"62\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"70\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Tents</text><circle cx=\"134\" cy=\"170\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"142\" y=\"159\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Flagpole</text><circle cx=\"98\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"106\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Hall</text><circle cx=\"206\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"214\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Lake</text><circle cx=\"278\" cy=\"134\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"286\" y=\"123\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Kitchen</text><circle cx=\"242\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"250\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Toilets</text><line x1=\"362\" y1=\"70\" x2=\"362\" y2=\"49\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polygon points=\"362,40 367,49 357,49\" fill=\"#1f2937\"/><text x=\"362\" y=\"30\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">N</text></svg>",
+      "alt": "A map of a school camp with north at the top. Tents at (1, 1), Flagpole at (3, 2), Hall at (2, 5), Lake at (5, 5), Kitchen at (7, 3), Toilets at (6, 1)."
+    },
+    "blanks": [
+      {
+        "id": "x",
+        "accepted": [
+          "2"
+        ]
+      },
+      {
+        "id": "y",
+        "accepted": [
+          "5"
+        ]
+      }
+    ],
+    "hints": [
+      "Go across first (the $x$-coordinate), then up (the $y$-coordinate)."
+    ],
+    "solution": "The hall is 2 across and 5 up, so it is at $(2, 5)$."
+  },
+  {
+    "id": "m7.geo.position.q010",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.geo.position.camp",
+    "part": "b",
+    "stem": "This map shows a school camp. North is at the top of the map. Each grid square is 50 metres across.",
+    "prompt": "In which direction is the lake from the tents?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 388 268\" width=\"388\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"242\" x2=\"62\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"98\" y1=\"242\" x2=\"98\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"242\" x2=\"134\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"170\" y1=\"242\" x2=\"170\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"206\" y1=\"242\" x2=\"206\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"242\" x2=\"242\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"278\" y1=\"242\" x2=\"278\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"314\" y1=\"242\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"206\" x2=\"314\" y2=\"206\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"170\" x2=\"314\" y2=\"170\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"134\" x2=\"314\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"98\" x2=\"314\" y2=\"98\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"62\" x2=\"314\" y2=\"62\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"26\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"62\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"98\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"134\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"170\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"206\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"242\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"278\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"314\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"14\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"14\" y=\"170\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"14\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"14\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"14\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"14\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"326\" y=\"242\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"26\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"62\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"70\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Tents</text><circle cx=\"134\" cy=\"170\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"142\" y=\"159\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Flagpole</text><circle cx=\"98\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"106\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Hall</text><circle cx=\"206\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"214\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Lake</text><circle cx=\"278\" cy=\"134\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"286\" y=\"123\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Kitchen</text><circle cx=\"242\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"250\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Toilets</text><line x1=\"362\" y1=\"70\" x2=\"362\" y2=\"49\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polygon points=\"362,40 367,49 357,49\" fill=\"#1f2937\"/><text x=\"362\" y=\"30\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">N</text></svg>",
+      "alt": "A map of a school camp with north at the top. Tents at (1, 1), Flagpole at (3, 2), Hall at (2, 5), Lake at (5, 5), Kitchen at (7, 3), Toilets at (6, 1)."
+    },
+    "options": [
+      {
+        "id": "ne",
+        "text": "North-east (NE)"
+      },
+      {
+        "id": "sw",
+        "text": "South-west (SW)"
+      },
+      {
+        "id": "nw",
+        "text": "North-west (NW)"
+      },
+      {
+        "id": "se",
+        "text": "South-east (SE)"
+      }
+    ],
+    "correct": "ne",
+    "feedback": {
+      "sw": "That is the direction of the tents from the lake. Start at the tents and look towards the lake.",
+      "nw": "The lake is to the right (east) of the tents, not to the left.",
+      "se": "The lake is above (north of) the tents on the map."
+    },
+    "hints": [
+      "Start at the tents. Is the lake up or down the map? Left or right?",
+      "The lake is the same number of squares across as it is up. That is a diagonal."
+    ],
+    "solution": "From the tents $(1, 1)$ to the lake $(5, 5)$ is 4 squares east and 4 squares north. Equal steps make a diagonal, so the lake is **north-east** of the tents."
+  },
+  {
+    "id": "m7.geo.position.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.geo.position.camp",
+    "part": "c",
+    "stem": "This map shows a school camp. North is at the top of the map. Each grid square is 50 metres across.",
+    "prompt": "Ruby walks from the flagpole to the kitchen along the grid lines. She goes east and then north. How far does she walk?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 388 268\" width=\"388\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"242\" x2=\"62\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"98\" y1=\"242\" x2=\"98\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"242\" x2=\"134\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"170\" y1=\"242\" x2=\"170\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"206\" y1=\"242\" x2=\"206\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"242\" x2=\"242\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"278\" y1=\"242\" x2=\"278\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"314\" y1=\"242\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"206\" x2=\"314\" y2=\"206\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"170\" x2=\"314\" y2=\"170\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"134\" x2=\"314\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"98\" x2=\"314\" y2=\"98\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"62\" x2=\"314\" y2=\"62\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"26\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"62\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"98\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"134\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"170\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"206\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"242\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"278\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"314\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"14\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"14\" y=\"170\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"14\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"14\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"14\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"14\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"326\" y=\"242\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"26\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"62\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"70\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Tents</text><circle cx=\"134\" cy=\"170\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"142\" y=\"159\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Flagpole</text><circle cx=\"98\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"106\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Hall</text><circle cx=\"206\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"214\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Lake</text><circle cx=\"278\" cy=\"134\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"286\" y=\"123\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Kitchen</text><circle cx=\"242\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"250\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Toilets</text><line x1=\"362\" y1=\"70\" x2=\"362\" y2=\"49\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polygon points=\"362,40 367,49 357,49\" fill=\"#1f2937\"/><text x=\"362\" y=\"30\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">N</text></svg>",
+      "alt": "A map of a school camp with north at the top. Tents at (1, 1), Flagpole at (3, 2), Hall at (2, 5), Lake at (5, 5), Kitchen at (7, 3), Toilets at (6, 1)."
+    },
+    "answer": 250,
+    "units": "m",
+    "hints": [
+      "Count the squares east, then the squares north.",
+      "Each square is 50 metres."
+    ],
+    "solution": "From the flagpole $(3, 2)$ to the kitchen $(7, 3)$: 4 squares east and 1 square north, which is 5 squares.\n\n$5 \\times 50 = 250$ metres."
+  },
+  {
+    "id": "m7.geo.position.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.geo.position.camp",
+    "part": "d",
+    "stem": "This map shows a school camp. North is at the top of the map. Each grid square is 50 metres across.",
+    "prompt": "Kai starts at the kitchen. He walks 100 m south, then 50 m west. Where does he end up?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 388 268\" width=\"388\" height=\"268\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"62\" y1=\"242\" x2=\"62\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"98\" y1=\"242\" x2=\"98\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"134\" y1=\"242\" x2=\"134\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"170\" y1=\"242\" x2=\"170\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"206\" y1=\"242\" x2=\"206\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"242\" y1=\"242\" x2=\"242\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"278\" y1=\"242\" x2=\"278\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"314\" y1=\"242\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"206\" x2=\"314\" y2=\"206\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"170\" x2=\"314\" y2=\"170\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"134\" x2=\"314\" y2=\"134\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"98\" x2=\"314\" y2=\"98\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"62\" x2=\"314\" y2=\"62\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"26\" x2=\"314\" y2=\"26\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"26\" y1=\"242\" x2=\"314\" y2=\"242\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"26\" y1=\"242\" x2=\"26\" y2=\"26\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"62\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"98\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"134\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"170\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"206\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"242\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"278\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">7</text><text x=\"314\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">8</text><text x=\"14\" y=\"206\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">1</text><text x=\"14\" y=\"170\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">2</text><text x=\"14\" y=\"134\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">3</text><text x=\"14\" y=\"98\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">4</text><text x=\"14\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">5</text><text x=\"14\" y=\"26\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#4b5563\">6</text><text x=\"326\" y=\"242\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">x</text><text x=\"26\" y=\"14\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">y</text><circle cx=\"62\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"70\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Tents</text><circle cx=\"134\" cy=\"170\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"142\" y=\"159\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Flagpole</text><circle cx=\"98\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"106\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Hall</text><circle cx=\"206\" cy=\"62\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"214\" y=\"51\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Lake</text><circle cx=\"278\" cy=\"134\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"286\" y=\"123\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Kitchen</text><circle cx=\"242\" cy=\"206\" r=\"5\" fill=\"#1d4ed8\"/><text x=\"250\" y=\"195\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"#1d4ed8\" font-weight=\"bold\">Toilets</text><line x1=\"362\" y1=\"70\" x2=\"362\" y2=\"49\" stroke=\"#1f2937\" stroke-width=\"2.2\"/><polygon points=\"362,40 367,49 357,49\" fill=\"#1f2937\"/><text x=\"362\" y=\"30\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#1f2937\" font-weight=\"bold\">N</text></svg>",
+      "alt": "A map of a school camp with north at the top. Tents at (1, 1), Flagpole at (3, 2), Hall at (2, 5), Lake at (5, 5), Kitchen at (7, 3), Toilets at (6, 1)."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "At the toilets"
+      },
+      {
+        "id": "b",
+        "text": "At the flagpole"
+      },
+      {
+        "id": "c",
+        "text": "At the lake"
+      },
+      {
+        "id": "d",
+        "text": "At the tents"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The flagpole is 4 squares west of the kitchen. Kai only walks 1 square west.",
+      "c": "The lake is north of the kitchen, but Kai walks south.",
+      "d": "The tents are much further west than 50 m."
+    },
+    "hints": [
+      "Each square is 50 m, so 100 m is 2 squares.",
+      "South is down the map and west is to the left."
+    ],
+    "solution": "100 m south is 2 squares down: from $(7, 3)$ to $(7, 1)$. Then 50 m west is 1 square left: $(6, 1)$. That is the **toilets**."
+  },
+  {
+    "id": "m7.geo.position.q013",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which direction is exactly opposite north-west?",
+    "accepted": [
+      "south-east",
+      "SE",
+      "south east",
+      "southeast"
+    ],
+    "allowTypos": false,
+    "hints": [
+      "Opposite means a half turn, 180°, away.",
+      "Swap north with south, and west with east."
+    ],
+    "solution": "The opposite of north-west is **south-east** (SE)."
+  },
+  {
+    "id": "m7.geo.position.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "How many degrees clockwise from north is south-west?",
+    "answer": 225,
+    "units": "°",
+    "hints": [
+      "Count the 45° steps clockwise: N → NE → E → …",
+      "South is 180° clockwise from north. How much further is south-west?"
+    ],
+    "solution": "Clockwise from N to SW is 5 steps: NE, E, SE, S, SW.\n\n$5 \\times 45° = 225°$"
+  },
+  {
+    "id": "m7.geo.position.q015",
+    "type": "cloze",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A delivery robot is at $(-2, 1)$. It must get to $(3, -1)$, moving only along the grid lines. Complete the directions.\n\nGo [[a]] units east, then [[b]] units south.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "5",
+          "five"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "2",
+          "two"
+        ]
+      }
+    ],
+    "hints": [
+      "East changes the $x$-coordinate. How far is it from $x = -2$ to $x = 3$?",
+      "South changes the $y$-coordinate. How far is it from $y = 1$ to $y = -1$?"
+    ],
+    "solution": "Across: from $-2$ to $3$ is $3 - (-2) = 5$ units east. (Count: −1, 0, 1, 2, 3.)\n\nDown: from $1$ to $-1$ is 2 units south.\n\nSo: **5 units east, then 2 units south**."
+  },
+  {
+    "id": "m7.geo.position.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Nikau walks 3 km north and then 3 km east. In which direction is he now from where he started?",
+    "options": [
+      {
+        "id": "ne",
+        "text": "North-east (NE)"
+      },
+      {
+        "id": "nw",
+        "text": "North-west (NW)"
+      },
+      {
+        "id": "e",
+        "text": "East (E)"
+      },
+      {
+        "id": "n",
+        "text": "North (N)"
+      }
+    ],
+    "correct": "ne",
+    "feedback": {
+      "nw": "He walked east, which is to the right of north, so he must be on the east side.",
+      "e": "He also walked 3 km north, so he isn’t directly east of the start.",
+      "n": "He also walked 3 km east, so he isn’t directly north of the start."
+    },
+    "hints": [
+      "Sketch it on a grid: 3 squares up, then 3 squares right.",
+      "Equal distances north and east make a diagonal line back to the start."
+    ],
+    "solution": "He went the same distance north as east, so a straight line from the start to where he is now is a diagonal, exactly halfway between north and east. He is **north-east** of the start."
+  },
+  {
+    "id": "m7.geo.position.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why walking 2 km north and then 2 km east puts you exactly north-east of where you started, but walking 2 km north and then 5 km east does not.",
+    "modelAnswer": "North-east is exactly halfway between north and east, at 45°. If you walk the same distance north as east (2 km and 2 km), the straight line back to the start is a diagonal at exactly 45°, so you are north-east of the start. If you walk 2 km north and 5 km east, you have gone much further east than north, so the line back to the start is closer to east than to north. You are somewhere between north-east and east, not exactly north-east.",
+    "rubric": [
+      {
+        "criterion": "Says that equal distances north and east give a diagonal at 45°, halfway between north and east",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that with 2 km north and 5 km east the direction is closer to east, so it isn’t exactly north-east",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Sketch both routes on squared paper.",
+      "North-east is exactly halfway between north and east."
+    ],
+    "solution": "Equal steps north and east make a 45° diagonal, which is exactly north-east. With 5 km east but only 2 km north, the line from the start leans much more towards east, so it is between north-east and east."
+  },
+  {
+    "id": "m7.geo.position.q018",
+    "type": "mcq",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi faces north-east. He turns 135° anticlockwise, and then 270° clockwise. Which way is he facing now?",
+    "options": [
+      {
+        "id": "s",
+        "text": "South (S)"
+      },
+      {
+        "id": "n",
+        "text": "North (N)"
+      },
+      {
+        "id": "w",
+        "text": "West (W)"
+      },
+      {
+        "id": "se",
+        "text": "South-east (SE)"
+      }
+    ],
+    "correct": "s",
+    "feedback": {
+      "n": "Check the first turn: 135° anticlockwise from NE is three steps: N, NW, W.",
+      "w": "West is where Hemi faces after the first turn. He still has to turn 270° clockwise.",
+      "se": "Count the second turn again: 270° is six steps of 45°."
+    },
+    "hints": [
+      "Do one turn at a time. 135° is three steps of 45°, and 270° is six steps.",
+      "Or combine the turns: 270° clockwise and 135° anticlockwise leave 135° clockwise overall."
+    ],
+    "solution": "First turn: 135° anticlockwise from NE is 3 steps: N, NW, **W**.\n\nSecond turn: 270° clockwise from W is 6 steps: NW, N, NE, E, SE, **S**.\n\nCheck: overall he turns $270° - 135° = 135°$ clockwise, and 135° clockwise from NE is S ✓."
+  },
+  {
+    "id": "m7.geo.position.q019",
+    "type": "cloze",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "On an orienteering course, Mere starts at $(1, 1)$ facing east. She walks 3 squares forward, turns 45° anticlockwise and walks 2 squares forward (diagonally), then turns 135° clockwise and walks 4 squares forward.\n\nWhere does she finish, and which way is she facing?\n\nFinish: ( [[x]] , [[y]] ), facing [[dir]]",
+    "blanks": [
+      {
+        "id": "x",
+        "accepted": [
+          "6"
+        ]
+      },
+      {
+        "id": "y",
+        "accepted": [
+          "-1"
+        ]
+      },
+      {
+        "id": "dir",
+        "accepted": [
+          "S"
+        ],
+        "options": [
+          "N",
+          "NE",
+          "E",
+          "SE",
+          "S",
+          "SW",
+          "W",
+          "NW"
+        ]
+      }
+    ],
+    "hints": [
+      "Keep track of the direction after each turn. 45° anticlockwise from east is a halfway direction.",
+      "One diagonal square towards NE is 1 across and 1 up."
+    ],
+    "solution": "1. Facing E, walk 3: $(1, 1) \\to (4, 1)$.\n2. Turn 45° anticlockwise to face NE. Walk 2 diagonally: $(4, 1) \\to (6, 3)$.\n3. Turn 135° clockwise: NE → E → SE → **S**. Walk 4: $(6, 3) \\to (6, -1)$.\n\nMere finishes at $(6, -1)$, facing **south**."
+  },
+  {
+    "id": "m7.geo.position.q020",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Two trampers leave the same hut. One walks 4 km north-east. The other walks 4 km south-west. Where is the second tramper compared with the first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "8 km south-west of the first tramper"
+      },
+      {
+        "id": "b",
+        "text": "8 km north-east of the first tramper"
+      },
+      {
+        "id": "c",
+        "text": "4 km south-west of the first tramper"
+      },
+      {
+        "id": "d",
+        "text": "At the same place as the first tramper"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "That is where the first tramper is compared with the second.",
+      "c": "4 km is how far each tramper is from the hut. They are on opposite sides of it.",
+      "d": "North-east and south-west are opposite directions, so they walked away from each other."
+    },
+    "hints": [
+      "North-east and south-west are opposite directions.",
+      "Start at the first tramper and walk back to the hut, then on to the second tramper."
+    ],
+    "solution": "NE and SW are opposite directions, so the hut is exactly between them on a straight line. From the first tramper, go 4 km south-west to the hut, then another 4 km south-west to the second tramper: **8 km south-west**."
+  }
+]

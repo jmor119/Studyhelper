@@ -1,0 +1,16 @@
+[
+  { "id": "m6.mea.units.f01", "front": "What does the prefix **milli-** mean?", "back": "1000 times smaller. 1 millimetre is one thousandth of a metre." },
+  { "id": "m6.mea.units.f02", "front": "What does the prefix **centi-** mean?", "back": "100 times smaller. 1 centimetre is one hundredth of a metre." },
+  { "id": "m6.mea.units.f03", "front": "What does the prefix **kilo-** mean?", "back": "1000 times bigger. 1 kilometre = 1000 metres." },
+  { "id": "m6.mea.units.f04", "front": "How many millimetres are in 1 centimetre?", "back": "10 mm = 1 cm" },
+  { "id": "m6.mea.units.f05", "front": "How many centimetres are in 1 metre?", "back": "100 cm = 1 m" },
+  { "id": "m6.mea.units.f06", "front": "How many metres are in 1 kilometre?", "back": "1000 m = 1 km" },
+  { "id": "m6.mea.units.f07", "front": "How many grams are in 1 kilogram?", "back": "1000 g = 1 kg" },
+  { "id": "m6.mea.units.f08", "front": "How many millilitres are in 1 litre?", "back": "1000 mL = 1 L" },
+  { "id": "m6.mea.units.f09", "front": "Changing to a **smaller** unit (like m to cm): multiply or divide?", "back": "Multiply. You need more of the smaller units: 3 m = 300 cm." },
+  { "id": "m6.mea.units.f10", "front": "Changing to a **bigger** unit (like g to kg): multiply or divide?", "back": "Divide. You need fewer of the bigger units: 2500 g = 2.5 kg." },
+  { "id": "m6.mea.units.f11", "front": "Write 2 kg 50 g in kilograms.", "back": "2.05 kg. 50 g is 0.05 kg, so the tenths digit is 0." },
+  { "id": "m6.mea.units.f12", "front": "What is a **benchmark**?", "back": "Something you already know the size of, used to help you estimate. A door is about 2 m tall." },
+  { "id": "m6.mea.units.f13", "front": "How do you work out what each small mark on a scale is worth?", "back": "Take the gap between two labelled numbers and divide it by the number of spaces between them." },
+  { "id": "m6.mea.units.f14", "front": "What does a thermometer measure, and in what unit?", "back": "Temperature, in degrees Celsius (°C). Water freezes at 0 °C and boils at 100 °C." }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "id": "m6.alg.number-sentences.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each sign to what it means.",
+    "pairs": [
+      { "left": { "id": "eq", "text": "$=$" }, "right": { "id": "m1", "text": "is equal to" } },
+      { "left": { "id": "lt", "text": "$<$" }, "right": { "id": "m2", "text": "is less than" } },
+      { "left": { "id": "gt", "text": "$>$" }, "right": { "id": "m3", "text": "is greater than" } },
+      { "left": { "id": "le", "text": "$\\le$" }, "right": { "id": "m4", "text": "is less than or equal to" } },
+      { "left": { "id": "ge", "text": "$\\ge$" }, "right": { "id": "m5", "text": "is greater than or equal to" } }
+    ],
+    "hints": ["The open side of $<$ or $>$ faces the bigger number.", "A line under the sign means \"or equal to\"."],
+    "solution": "$=$ is equal to. $<$ is less than. $>$ is greater than. $\\le$ is less than or equal to. $\\ge$ is greater than or equal to."
+  },
+  {
+    "id": "m6.alg.number-sentences.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What does the **equals** sign ($=$) mean in a number sentence?",
+    "options": [
+      { "id": "a", "text": "Both sides have the same value." },
+      { "id": "b", "text": "The answer comes next." },
+      { "id": "c", "text": "Add all the numbers together." },
+      { "id": "d", "text": "The right side is bigger." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is a common mix-up. In $4 + 5 = 3 + 6$ there is no single \"answer\" after the sign. The two sides just have the same value.",
+      "c": "The equals sign doesn't tell you to do anything. It says the two sides are worth the same.",
+      "d": "That would be $<$ (the left side is less than the right side)."
+    },
+    "hints": ["Think about $4 + 5 = 3 + 6$. Is that true?"],
+    "solution": "The equals sign means \"has the same value as\". For example, $4 + 5 = 3 + 6$ is true because both sides are 9."
+  },
+  {
+    "id": "m6.alg.number-sentences.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$$\\square + 9 = 23$$",
+    "answer": 14,
+    "form": "integer",
+    "hints": ["What do you add to 9 to make 23?", "Subtraction undoes addition."],
+    "solution": "$23 - 9 = 14$, so the missing number is 14. Check: $14 + 9 = 23$ ✓"
+  },
+  {
+    "id": "m6.alg.number-sentences.q004",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Choose the sign that makes each number sentence true.\n\n$4\\,503$ [[a]] $4\\,530$\n\n$7 \\times 8$ [[b]] $54$\n\n$36 \\div 4$ [[c]] $9$",
+    "blanks": [
+      { "id": "a", "accepted": ["<"], "options": ["<", ">", "="] },
+      { "id": "b", "accepted": [">"], "options": ["<", ">", "="] },
+      { "id": "c", "accepted": ["="], "options": ["<", ">", "="] }
+    ],
+    "hints": ["Work out any calculations first.", "Compare the hundreds digits, then the tens digits, for the first one."],
+    "solution": "$4\\,503 < 4\\,530$ (0 tens is less than 3 tens). $7 \\times 8 = 56$, and $56 > 54$. $36 \\div 4 = 9$, so the two sides are equal."
+  },
+  {
+    "id": "m6.alg.number-sentences.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which number sentence is **true**?",
+    "options": [
+      { "id": "a", "text": "$12 - 5 = 3 + 4$" },
+      { "id": "b", "text": "$6 \\times 3 = 9 + 8$" },
+      { "id": "c", "text": "$20 \\div 4 = 2 + 4$" },
+      { "id": "d", "text": "$15 + 6 = 7 \\times 4$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$6 \\times 3 = 18$ but $9 + 8 = 17$. Close, but not equal.",
+      "c": "$20 \\div 4 = 5$ but $2 + 4 = 6$.",
+      "d": "$15 + 6 = 21$ but $7 \\times 4 = 28$."
+    },
+    "hints": ["Work out both sides of each number sentence."],
+    "solution": "$12 - 5 = 7$ and $3 + 4 = 7$. Both sides are 7, so $12 - 5 = 3 + 4$ is true."
+  },
+  {
+    "id": "m6.alg.number-sentences.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$$\\square \\div 6 = 8$$",
+    "answer": 48,
+    "form": "integer",
+    "hints": ["Which number shared into 6 equal groups gives 8 in each group?", "Multiplication undoes division."],
+    "solution": "$8 \\times 6 = 48$, so the missing number is 48. Check: $48 \\div 6 = 8$ ✓"
+  },
+  {
+    "id": "m6.alg.number-sentences.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says the missing number in $14 + 7 = \\square + 9$ is 21. What has Tama done wrong?",
+    "options": [
+      { "id": "a", "text": "He wrote the total of the left side. The box needs 12, because $12 + 9 = 21$." },
+      { "id": "b", "text": "Nothing. 21 is the right answer." },
+      { "id": "c", "text": "He forgot to add the 9. The answer is 30." },
+      { "id": "d", "text": "He should have subtracted. The answer is $14 - 7 = 7$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Check it: $21 + 9 = 30$, but the left side is only 21. The two sides don't match.",
+      "c": "Adding everything gives 30, but the equals sign doesn't mean \"add it all up\". The sides must have the same value.",
+      "d": "The left side is $14 + 7$, which is 21, not 7."
+    },
+    "hints": ["Put 21 in the box. Is the right side the same as the left side?"],
+    "solution": "The left side is $14 + 7 = 21$. The right side must also be 21, so $\\square + 9 = 21$ and $\\square = 12$. Tama wrote 21 because he thought the answer comes straight after the equals sign."
+  },
+  {
+    "id": "m6.alg.number-sentences.q008",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Write the sign that means \"is greater than or equal to\". (You can type it as >= if you can't find the sign.)",
+    "accepted": ["≥", ">=", "=>"],
+    "hints": ["It looks like the \"greater than\" sign with a line underneath."],
+    "solution": "The sign is $\\ge$. The line underneath means \"or equal to\"."
+  },
+  {
+    "id": "m6.alg.number-sentences.q009",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the numbers that make this number sentence true when they go in the box.\n\n$$\\square + 4 \\le 10$$",
+    "options": [
+      { "id": "n4", "text": "4" },
+      { "id": "n5", "text": "5" },
+      { "id": "n6", "text": "6" },
+      { "id": "n7", "text": "7" },
+      { "id": "n8", "text": "8" }
+    ],
+    "correct": ["n4", "n5", "n6"],
+    "shuffle": false,
+    "hints": ["Try each number in the box.", "$\\le$ means \"less than or equal to\", so 10 itself is allowed."],
+    "solution": "$4 + 4 = 8$ ✓, $5 + 4 = 9$ ✓, $6 + 4 = 10$ ✓ (equal is allowed), $7 + 4 = 11$ ✗, $8 + 4 = 12$ ✗. So the numbers are 4, 5 and 6."
+  },
+  {
+    "id": "m6.alg.number-sentences.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$$3 \\times \\square + 5 = 26$$",
+    "answer": 7,
+    "form": "integer",
+    "hints": ["Work backwards. Undo the + 5 first.", "Then undo the × 3."],
+    "solution": "$3 \\times \\square$ plus 5 makes 26, so $3 \\times \\square = 26 - 5 = 21$. Then $\\square = 21 \\div 3 = 7$. Check: $3 \\times 7 + 5 = 21 + 5 = 26$ ✓"
+  },
+  {
+    "id": "m6.alg.number-sentences.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ana works out $20 - 3 \\times 4$ and gets 68. What has she done wrong?",
+    "options": [
+      { "id": "a", "text": "She worked from left to right. $3 \\times 4$ comes first, so the answer is 8." },
+      { "id": "b", "text": "Nothing. 68 is correct." },
+      { "id": "c", "text": "She should have added 12. The answer is 32." },
+      { "id": "d", "text": "She multiplied 20 by 3 first. The answer is 56." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "68 is $(20 - 3) \\times 4 = 17 \\times 4$. Without brackets, multiplying comes before subtracting.",
+      "c": "The sign in front of $3 \\times 4$ is minus, so you take away 12.",
+      "d": "$20 \\times 3 - 4 = 56$ is a different calculation. The 3 is multiplied by the 4, not by the 20."
+    },
+    "hints": ["In the order of operations, which comes first: × or −?"],
+    "solution": "Multiplication comes before subtraction: $20 - 3 \\times 4 = 20 - 12 = 8$. Ana did $20 - 3 = 17$ first, then $17 \\times 4 = 68$."
+  },
+  {
+    "id": "m6.alg.number-sentences.q012",
+    "type": "cloze",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Work out each side of this number sentence.\n\n$$6 \\times 6 \\ge 5 \\times 5 + 3^2$$\n\nLeft side = [[l]]\n\nRight side = [[r]]\n\nSo the number sentence is [[tf]].",
+    "blanks": [
+      { "id": "l", "accepted": ["36"] },
+      { "id": "r", "accepted": ["34"] },
+      { "id": "tf", "accepted": ["true"], "options": ["true", "false"] }
+    ],
+    "hints": ["Work out $3^2$ and $5 \\times 5$ before you add.", "$\\ge$ means \"greater than or equal to\"."],
+    "solution": "Left: $6 \\times 6 = 36$. Right: $5 \\times 5 + 3^2 = 25 + 9 = 34$. 36 is greater than 34, so the number sentence is **true**."
+  },
+  {
+    "id": "m6.alg.number-sentences.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Kai has \\$50. He buys a book for \\$12 and 3 drinks that cost \\$4 each. This number sentence shows how much money he has left:\n\n$$50 - 12 - 3 \\times 4 = \\square$$\n\nWhat number goes in the box?",
+    "answer": 26,
+    "form": "integer",
+    "units": "$",
+    "hints": ["Work out $3 \\times 4$ first: that's the cost of the drinks.", "Then subtract from left to right."],
+    "solution": "$3 \\times 4 = 12$ (the drinks). Then $50 - 12 - 12 = 38 - 12 = 26$. Kai has **\\$26** left."
+  },
+  {
+    "id": "m6.alg.number-sentences.q014",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these from **smallest** to **largest** value.",
+    "items": [
+      { "id": "a", "text": "$30 - 8$" },
+      { "id": "b", "text": "$48 \\div 2$" },
+      { "id": "c", "text": "$5^2$" },
+      { "id": "d", "text": "$3 \\times 9$" }
+    ],
+    "hints": ["Work out the value of each one first."],
+    "solution": "$30 - 8 = 22$, $48 \\div 2 = 24$, $5^2 = 25$ and $3 \\times 9 = 27$. So the order is $30 - 8 < 48 \\div 2 < 5^2 < 3 \\times 9$."
+  },
+  {
+    "id": "m6.alg.number-sentences.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "groupId": "m6.alg.number-sentences.g1",
+    "part": "a",
+    "stem": "Mere had some stickers. She gave 15 of them to her brother. Now she has 28 stickers left.",
+    "calculator": "not-allowed",
+    "prompt": "Which number sentence matches the story? (The box is the number of stickers Mere started with.)",
+    "options": [
+      { "id": "a", "text": "$\\square - 15 = 28$" },
+      { "id": "b", "text": "$28 - 15 = \\square$" },
+      { "id": "c", "text": "$\\square + 15 = 28$" },
+      { "id": "d", "text": "$15 - \\square = 28$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This takes 15 away from the stickers she has left. But the 28 is what's left after giving 15 away.",
+      "c": "She gave stickers away, so the story is about taking away, not adding.",
+      "d": "She started with the unknown number and took 15 away from it, not the other way round."
+    },
+    "hints": ["She started with an unknown number (the box). What happened to it?"],
+    "solution": "Mere started with $\\square$ stickers, took away 15, and had 28 left: $\\square - 15 = 28$."
+  },
+  {
+    "id": "m6.alg.number-sentences.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "groupId": "m6.alg.number-sentences.g1",
+    "part": "b",
+    "stem": "Mere had some stickers. She gave 15 of them to her brother. Now she has 28 stickers left.",
+    "calculator": "not-allowed",
+    "prompt": "How many stickers did Mere have to start with?",
+    "answer": 43,
+    "form": "integer",
+    "hints": ["Solve $\\square - 15 = 28$.", "Addition undoes subtraction."],
+    "solution": "$\\square - 15 = 28$, so $\\square = 28 + 15 = 43$. Check: $43 - 15 = 28$ ✓ Mere started with 43 stickers."
+  },
+  {
+    "id": "m6.alg.number-sentences.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the **largest** whole number that makes this number sentence true?\n\n$$7 \\times \\square < 50$$",
+    "answer": 7,
+    "form": "integer",
+    "hints": ["Count in 7s and stop before you pass 50.", "$<$ means \"less than\"."],
+    "solution": "$7 \\times 7 = 49$, which is less than 50 ✓. $7 \\times 8 = 56$, which is more than 50 ✗. So the largest whole number is **7**."
+  },
+  {
+    "id": "m6.alg.number-sentences.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Hana says that 4 makes the number sentence $\\square \\times 3 > 12$ true. Is she right?",
+    "options": [
+      { "id": "a", "text": "No. $4 \\times 3 = 12$, and 12 is not greater than 12." },
+      { "id": "b", "text": "Yes. $4 \\times 3 = 12$, so it works." },
+      { "id": "c", "text": "Yes. 4 is greater than 3." },
+      { "id": "d", "text": "No. The number in the box must be less than 4." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$4 \\times 3$ is equal to 12. The sign is $>$, which does not include \"equal to\".",
+      "c": "You need to work out $4 \\times 3$ and compare it with 12, not compare 4 with 3.",
+      "d": "Numbers less than 4 give less than 12. The box needs a number bigger than 4, like 5."
+    },
+    "hints": ["Work out $4 \\times 3$.", "Does $>$ include \"equal to\"?"],
+    "solution": "$4 \\times 3 = 12$. The sentence would say $12 > 12$, which is false. Hana is not right. (5 would work: $15 > 12$.)"
+  },
+  {
+    "id": "m6.alg.number-sentences.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$$\\square \\div 4 + 3^2 = 15$$",
+    "answer": 24,
+    "form": "integer",
+    "hints": ["Work out $3^2$ first.", "Then work backwards: undo the + first, then the ÷ 4."],
+    "solution": "$3^2 = 9$, so $\\square \\div 4 + 9 = 15$. That means $\\square \\div 4 = 15 - 9 = 6$, so $\\square = 6 \\times 4 = 24$. Check: $24 \\div 4 + 9 = 6 + 9 = 15$ ✓"
+  },
+  {
+    "id": "m6.alg.number-sentences.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Room 8 has \\$100 for their class trip to the zoo. They must pay \\$16 for the bus. Zoo tickets cost \\$7 each.\n\nThe number of tickets they can buy must make $7 \\times \\square + 16 \\le 100$ true. What is the greatest number of tickets they can buy?",
+    "answer": 12,
+    "form": "integer",
+    "hints": ["Take away the bus money first.", "How many lots of \\$7 fit into what is left? Remember $\\le$ allows \"equal to\"."],
+    "solution": "After the bus there is $100 - 16 = 84$ dollars left. $7 \\times 12 = 84$, which uses all of it (that's allowed, because of $\\le$). $7 \\times 13 = 91$ is too much. So they can buy **12** tickets."
+  },
+  {
+    "id": "m6.alg.number-sentences.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$$6 \\times \\square - 2^2 = 4 \\times 8$$",
+    "answer": 6,
+    "form": "integer",
+    "hints": ["Work out $2^2$ and $4 \\times 8$ first.", "Then work backwards: undo the − 4, then the × 6."],
+    "solution": "$2^2 = 4$ and $4 \\times 8 = 32$, so $6 \\times \\square - 4 = 32$. Then $6 \\times \\square = 36$, so $\\square = 36 \\div 6 = 6$. Check: $6 \\times 6 - 4 = 36 - 4 = 32$ ✓"
+  },
+  {
+    "id": "m6.alg.number-sentences.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $5 \\times 4 > 20$ is **false** but $5 \\times 4 \\ge 20$ is **true**.",
+    "modelAnswer": "$5 \\times 4 = 20$. The sign $>$ means \"is greater than\", and 20 is not greater than 20, so $5 \\times 4 > 20$ is false. The sign $\\ge$ means \"is greater than or equal to\". 20 is equal to 20, so $5 \\times 4 \\ge 20$ is true.",
+    "rubric": [
+      { "criterion": "Works out that $5 \\times 4 = 20$, so the two sides are equal", "marks": 1 },
+      { "criterion": "Explains that $>$ does not include \"equal to\" but $\\ge$ does", "marks": 1 }
+    ],
+    "hints": ["Work out $5 \\times 4$ first.", "What does the line under $\\ge$ mean?"],
+    "solution": "$5 \\times 4 = 20$. $>$ does not allow the sides to be equal, so $20 > 20$ is false. $\\ge$ does allow equal, so $20 \\ge 20$ is true."
+  },
+  {
+    "id": "m6.alg.number-sentences.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Nikau says $3 + 5 \\times 2 = 16$. Explain his mistake and give the correct answer.",
+    "modelAnswer": "Nikau worked from left to right: $3 + 5 = 8$, then $8 \\times 2 = 16$. But the order of operations says multiply before adding. $5 \\times 2 = 10$, then $3 + 10 = 13$. The correct answer is 13.",
+    "rubric": [
+      { "criterion": "Says he added first (worked left to right) when he should have multiplied first", "marks": 1 },
+      { "criterion": "Gives the correct value, 13", "marks": 1 }
+    ],
+    "hints": ["Which comes first, + or ×?", "How did Nikau get 16?"],
+    "solution": "Multiply first: $5 \\times 2 = 10$, then $3 + 10 = 13$. Nikau added first ($3 + 5 = 8$, then $8 \\times 2 = 16$), which breaks the order of operations."
+  }
+]

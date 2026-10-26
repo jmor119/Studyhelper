@@ -1,0 +1,15 @@
+[
+  { "id": "m7.num.fractions.f01", "front": "What is the **numerator** of a fraction?", "back": "The top number. It tells you how many parts you have." },
+  { "id": "m7.num.fractions.f02", "front": "What is the **denominator** of a fraction?", "back": "The bottom number. It tells you how many equal parts make the whole." },
+  { "id": "m7.num.fractions.f03", "front": "What are **equivalent fractions**?", "back": "Fractions with the same value, at the same point on the number line, like $\\frac{1}{2} = \\frac{2}{4} = \\frac{5}{10}$." },
+  { "id": "m7.num.fractions.f04", "front": "How do you make an equivalent fraction?", "back": "Multiply (or divide) the numerator and the denominator by the same number: $\\frac{3}{4} = \\frac{6}{8}$." },
+  { "id": "m7.num.fractions.f05", "front": "When is a fraction in **simplest form**?", "back": "When the numerator and denominator have no common factor except 1, like $\\frac{3}{4}$." },
+  { "id": "m7.num.fractions.f06", "front": "How do you simplify $\\frac{18}{24}$?", "back": "Divide the top and bottom by their HCF, 6: $\\frac{18}{24} = \\frac{3}{4}$." },
+  { "id": "m7.num.fractions.f07", "front": "Improper fraction or mixed number: what's the difference?", "back": "An **improper fraction** has a numerator bigger than its denominator ($\\frac{11}{4}$). A **mixed number** has a whole number and a fraction ($2\\frac{3}{4}$)." },
+  { "id": "m7.num.fractions.f08", "front": "How do you change $\\frac{11}{4}$ into a mixed number?", "back": "Divide: $11 \\div 4 = 2$ remainder 3, so $\\frac{11}{4} = 2\\frac{3}{4}$." },
+  { "id": "m7.num.fractions.f09", "front": "How do you change $3\\frac{2}{5}$ into an improper fraction?", "back": "Whole × denominator + numerator: $3 \\times 5 + 2 = 17$, so $\\frac{17}{5}$." },
+  { "id": "m7.num.fractions.f10", "front": "What is a **common denominator**?", "back": "A denominator that two or more fractions share. Both 3 and 4 go into 12, so 12 is a common denominator for thirds and quarters." },
+  { "id": "m7.num.fractions.f11", "front": "How do you add or subtract fractions?", "back": "Change them to a common denominator, then add or subtract the numerators. The denominator stays the same." },
+  { "id": "m7.num.fractions.f12", "front": "Which is bigger: $\\frac{1}{6}$ or $\\frac{1}{8}$?", "back": "$\\frac{1}{6}$. A bigger denominator means the whole is cut into more, smaller pieces." },
+  { "id": "m7.num.fractions.f13", "front": "There are 3 boys for every 4 girls. What fraction are boys?", "back": "$\\frac{3}{7}$. Each group has $3 + 4 = 7$ students, and 3 of them are boys." }
+]

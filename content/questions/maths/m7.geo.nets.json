@@ -1,0 +1,591 @@
+[
+  {
+    "id": "m7.geo.nets.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      {
+        "left": {
+          "id": "face",
+          "text": "Face"
+        },
+        "right": {
+          "id": "m1",
+          "text": "A flat surface of a 3D shape"
+        }
+      },
+      {
+        "left": {
+          "id": "edge",
+          "text": "Edge"
+        },
+        "right": {
+          "id": "m2",
+          "text": "A line where two faces meet"
+        }
+      },
+      {
+        "left": {
+          "id": "vert",
+          "text": "Vertex"
+        },
+        "right": {
+          "id": "m3",
+          "text": "A corner, where edges meet"
+        }
+      },
+      {
+        "left": {
+          "id": "net",
+          "text": "Net"
+        },
+        "right": {
+          "id": "m4",
+          "text": "A flat shape that folds up to make a 3D shape"
+        }
+      },
+      {
+        "left": {
+          "id": "cs",
+          "text": "Cross-section"
+        },
+        "right": {
+          "id": "m5",
+          "text": "The shape you see when you slice straight through a solid"
+        }
+      }
+    ],
+    "hints": [
+      "Picture a cardboard box. The flat sides, the folds and the corners each have a name."
+    ],
+    "solution": "Face: a flat surface. Edge: where two faces meet. Vertex: a corner. Net: a flat shape that folds into a solid. Cross-section: the shape of a slice through a solid."
+  },
+  {
+    "id": "m7.geo.nets.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which 3D shape has 6 faces that are all squares?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cube"
+      },
+      {
+        "id": "b",
+        "text": "Square-based pyramid"
+      },
+      {
+        "id": "c",
+        "text": "Triangular prism"
+      },
+      {
+        "id": "d",
+        "text": "Hexagonal prism"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A square-based pyramid has only one square face. The other four are triangles.",
+      "c": "A triangular prism has 2 triangles and 3 rectangles.",
+      "d": "A hexagonal prism has 2 hexagons and 6 rectangles."
+    },
+    "hints": [
+      "Think of a dice."
+    ],
+    "solution": "A **cube** has 6 faces, and every one is a square."
+  },
+  {
+    "id": "m7.geo.nets.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these everyday objects is shaped like a prism?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A tissue box"
+      },
+      {
+        "id": "b",
+        "text": "A cricket ball"
+      },
+      {
+        "id": "c",
+        "text": "An ice cream cone"
+      },
+      {
+        "id": "d",
+        "text": "A party hat"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A ball is a sphere. It has a curved surface and no flat faces.",
+      "c": "A cone has a curved surface, so it isn’t a prism.",
+      "d": "A party hat is a cone shape, with a curved surface."
+    },
+    "hints": [
+      "A prism has two matching ends joined by flat rectangles."
+    ],
+    "solution": "A **tissue box** is a rectangular prism: two matching rectangle ends joined by rectangles. The other objects have curved surfaces."
+  },
+  {
+    "id": "m7.geo.nets.q004",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which shapes are faces of a **pentagonal prism**? Select all that apply.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pentagon"
+      },
+      {
+        "id": "b",
+        "text": "Rectangle"
+      },
+      {
+        "id": "c",
+        "text": "Triangle"
+      },
+      {
+        "id": "d",
+        "text": "Hexagon"
+      },
+      {
+        "id": "e",
+        "text": "Circle"
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "hints": [
+      "A prism is named after the shape of its two ends.",
+      "What shape are the faces that join the two ends of any prism?"
+    ],
+    "solution": "A pentagonal prism has 2 **pentagon** ends joined by 5 **rectangles**. It has no triangles, hexagons or circles."
+  },
+  {
+    "id": "m7.geo.nets.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai says a square-based pyramid has 8 edges: 4 around the base and 4 going up to the top. Grace says it has 5 edges. Who is right?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kai: it has 8 edges"
+      },
+      {
+        "id": "b",
+        "text": "Grace: it has 5 edges"
+      },
+      {
+        "id": "c",
+        "text": "Neither: it has 12 edges"
+      },
+      {
+        "id": "d",
+        "text": "Neither: it has 4 edges"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A square-based pyramid has 5 faces and 5 vertices. Grace may have counted those instead of the edges.",
+      "c": "12 is the number of edges of a cube.",
+      "d": "That only counts the edges around the base. Don’t forget the sloping edges."
+    },
+    "hints": [
+      "Count the edges around the base first, then the edges going up to the top point."
+    ],
+    "solution": "**Kai** is right. There are 4 edges around the square base and 4 sloping edges up to the apex: $4 + 4 = 8$ edges."
+  },
+  {
+    "id": "m7.geo.nets.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A prism has two identical [[a]] joined by [[b]]. A pyramid has one [[c]], and triangle faces that meet at a point called the [[d]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "ends"
+        ],
+        "options": [
+          "ends",
+          "triangles",
+          "points"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "rectangles"
+        ],
+        "options": [
+          "rectangles",
+          "triangles",
+          "circles"
+        ]
+      },
+      {
+        "id": "c",
+        "accepted": [
+          "base"
+        ],
+        "options": [
+          "base",
+          "end",
+          "apex"
+        ]
+      },
+      {
+        "id": "d",
+        "accepted": [
+          "apex"
+        ],
+        "options": [
+          "apex",
+          "edge",
+          "base"
+        ]
+      }
+    ],
+    "hints": [
+      "Think of a tent (a prism) and a square-based pyramid."
+    ],
+    "solution": "A prism has two identical **ends** joined by **rectangles**. A pyramid has one **base**, and triangle faces that meet at the **apex**."
+  },
+  {
+    "id": "m7.geo.nets.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A tent is shaped like a triangular prism, and it has a floor. Each face is cut from one piece of material. How many pieces are needed?",
+    "answer": 5,
+    "form": "integer",
+    "hints": [
+      "A triangular prism has two triangle ends. How many rectangles join them?"
+    ],
+    "solution": "A triangular prism has 2 triangle ends and 3 rectangles (two sloping sides and the floor): $2 + 3 = 5$ pieces."
+  },
+  {
+    "id": "m7.geo.nets.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A net is made of 2 hexagons and 6 rectangles. Which solid does it fold into?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hexagonal prism"
+      },
+      {
+        "id": "b",
+        "text": "Hexagonal pyramid"
+      },
+      {
+        "id": "c",
+        "text": "Rectangular prism"
+      },
+      {
+        "id": "d",
+        "text": "Octagonal prism"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A hexagonal pyramid has one hexagon and 6 triangles, not rectangles.",
+      "c": "A rectangular prism has 6 faces, and they are all rectangles.",
+      "d": "Count the faces: an octagonal prism has 2 octagons and 8 rectangles."
+    },
+    "hints": [
+      "Two matching shapes joined by rectangles means it is a prism.",
+      "The two matching shapes are the ends. What are they?"
+    ],
+    "solution": "Two matching hexagon ends joined by 6 rectangles make a **hexagonal prism**."
+  },
+  {
+    "id": "m7.geo.nets.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A tissue box is a rectangular prism. How many edges does it have?",
+    "answer": 12,
+    "form": "integer",
+    "hints": [
+      "Count the edges around the top, around the bottom, and going up the sides."
+    ],
+    "solution": "4 edges around the top, 4 around the bottom and 4 joining them: $4 + 4 + 4 = 12$ edges."
+  },
+  {
+    "id": "m7.geo.nets.q010",
+    "type": "cloze",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ella is making a model of a hexagonal pyramid. She uses straws for the edges and balls of plasticine for the vertices. How many of each does she need?\n\nStraws: [[s]]\n\nBalls of plasticine: [[b]]",
+    "blanks": [
+      {
+        "id": "s",
+        "accepted": [
+          "12"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "7"
+        ]
+      }
+    ],
+    "hints": [
+      "The base is a hexagon, with 6 edges and 6 corners.",
+      "Then there are the edges going up to the apex, and the apex itself."
+    ],
+    "solution": "Edges: 6 around the base and 6 up to the apex, so **12 straws**.\n\nVertices: 6 on the base and 1 at the apex, so **7 balls**."
+  },
+  {
+    "id": "m7.geo.nets.q011",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What do we call a flat shape that can be folded up to make a 3D shape?",
+    "accepted": [
+      "net",
+      "a net"
+    ],
+    "hints": [
+      "It is also the name of something used for fishing."
+    ],
+    "solution": "It is called a **net**."
+  },
+  {
+    "id": "m7.geo.nets.q012",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which solid has the same cross-section all the way along when you slice it parallel to its ends?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A triangular prism"
+      },
+      {
+        "id": "b",
+        "text": "A square-based pyramid"
+      },
+      {
+        "id": "c",
+        "text": "A triangular pyramid"
+      },
+      {
+        "id": "d",
+        "text": "A ball (sphere)"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Slices of a pyramid get smaller towards the apex.",
+      "c": "Slices of a pyramid get smaller towards the apex.",
+      "d": "Slices of a ball are circles of different sizes."
+    },
+    "hints": [
+      "Imagine slicing it like a loaf of bread. Is every slice the same?"
+    ],
+    "solution": "A **prism** has the same cross-section all the way along. Every slice of a triangular prism is the same triangle. Slices of a pyramid or a ball change size."
+  },
+  {
+    "id": "m7.geo.nets.q013",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A net for a hexagonal pyramid has [[a]] hexagon and [[b]] triangles.",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "1",
+          "one"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "6",
+          "six"
+        ]
+      }
+    ],
+    "hints": [
+      "A net has one shape for each face.",
+      "How many sides does the base have? Each side has a triangle on it."
+    ],
+    "solution": "A hexagonal pyramid has a hexagon base and a triangle on each of its 6 sides. So the net has **1** hexagon and **6** triangles."
+  },
+  {
+    "id": "m7.geo.nets.q014",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain the difference between a prism and a pyramid.",
+    "modelAnswer": "A prism has two identical ends that are joined by rectangles, so it is the same shape all the way along. A pyramid has only one base, and its other faces are triangles that slope up and meet at one point, the apex. For example, a triangular prism has 2 triangles and 3 rectangles, but a triangular pyramid has 4 triangles.",
+    "rubric": [
+      {
+        "criterion": "Says a prism has two identical ends joined by rectangles (or has the same cross-section all along)",
+        "marks": 1
+      },
+      {
+        "criterion": "Says a pyramid has one base and triangle faces that meet at a point (the apex)",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Think about the ends of each shape, and what shape the other faces are."
+    ],
+    "solution": "A prism: two matching ends joined by rectangles. A pyramid: one base, with triangles meeting at the apex."
+  },
+  {
+    "id": "m7.geo.nets.q015",
+    "type": "cloze",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A prism has 18 edges. How many faces and how many vertices does it have?\n\nFaces: [[f]]\n\nVertices: [[v]]",
+    "blanks": [
+      {
+        "id": "f",
+        "accepted": [
+          "8"
+        ]
+      },
+      {
+        "id": "v",
+        "accepted": [
+          "12"
+        ]
+      }
+    ],
+    "hints": [
+      "A prism with $n$-sided ends has $3n$ edges. Find $n$ first.",
+      "Then use faces $= n + 2$ and vertices $= 2n$."
+    ],
+    "solution": "$3n = 18$, so $n = 6$: it is a hexagonal prism.\n\nFaces: $6 + 2 = 8$. Vertices: $2 \\times 6 = 12$."
+  },
+  {
+    "id": "m7.geo.nets.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "On a dice, opposite faces add up to 7. This is a net for a dice, with some of the numbers filled in. What number should go on the face marked X?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 264 208\" width=\"264\" height=\"208\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"20,76 76,76 76,132 20,132\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"48\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"18\" fill=\"#1f2937\" font-weight=\"bold\">1</text><polygon points=\"76,76 132,76 132,132 76,132\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"104\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"18\" fill=\"#1f2937\" font-weight=\"bold\">2</text><polygon points=\"132,76 188,76 188,132 132,132\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"160\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"18\" fill=\"#1f2937\" font-weight=\"bold\"></text><polygon points=\"188,76 244,76 244,132 188,132\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"216\" y=\"104\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"18\" fill=\"#1f2937\" font-weight=\"bold\">X</text><polygon points=\"76,20 132,20 132,76 76,76\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"104\" y=\"48\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"18\" fill=\"#1f2937\" font-weight=\"bold\">3</text><polygon points=\"76,132 132,132 132,188 76,188\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"104\" y=\"160\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"18\" fill=\"#1f2937\" font-weight=\"bold\"></text></svg>",
+      "alt": "A cube net: a row of four squares with one square above and one below the second square. The row reads 1, 2, blank, X from left to right. The square above the 2 shows 3, and the square below the 2 is blank."
+    },
+    "answer": 5,
+    "form": "integer",
+    "hints": [
+      "In a straight line of three squares, the first and third end up opposite each other.",
+      "Which numbered square is two places away from X in the row?"
+    ],
+    "solution": "In the row of four, the 2 and X are two squares apart, so they end up opposite each other on the dice.\n\nOpposite faces add to 7, so $X = 7 - 2 = 5$."
+  },
+  {
+    "id": "m7.geo.nets.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which of these solids has the **same** number of faces as vertices?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Square-based pyramid"
+      },
+      {
+        "id": "b",
+        "text": "Cube"
+      },
+      {
+        "id": "c",
+        "text": "Triangular prism"
+      },
+      {
+        "id": "d",
+        "text": "Pentagonal prism"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A cube has 6 faces but 8 vertices.",
+      "c": "A triangular prism has 5 faces but 6 vertices.",
+      "d": "A pentagonal prism has 7 faces but 10 vertices."
+    },
+    "hints": [
+      "Count the faces and the vertices of each solid.",
+      "For a pyramid with an $n$-sided base, both numbers are $n + 1$."
+    ],
+    "solution": "A square-based pyramid has 5 faces (1 square and 4 triangles) and 5 vertices (4 on the base and the apex). In fact every pyramid has the same number of faces as vertices: $n + 1$."
+  },
+  {
+    "id": "m7.geo.nets.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Sione glues 3 cubes together in a straight row to make one long box shape. How many edges does the new shape have?",
+    "answer": 12,
+    "form": "integer",
+    "hints": [
+      "What kind of 3D shape is the long box?",
+      "The glued faces are now inside the shape, so their edges are not edges any more."
+    ],
+    "solution": "The new shape is a rectangular prism (a long box). Every rectangular prism has 4 edges around each end and 4 joining them, so it has **12** edges, the same as one cube. (It is not $3 \\times 12 = 36$, because the glued faces are hidden inside.)"
+  },
+  {
+    "id": "m7.geo.nets.q019",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why a net of six squares with a 2 by 2 block of squares in it can never fold into a cube.",
+    "modelAnswer": "In a 2 by 2 block, four squares all meet at one point in the middle. When a cube is folded, only three faces meet at each corner (vertex). So the four squares around that point can’t all fit: two of them would end up on top of each other, and another face of the cube would be left open.",
+    "rubric": [
+      {
+        "criterion": "Says that only three faces of a cube meet at each corner (vertex)",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains that four squares meeting at one point can’t fold to fit, so two would overlap and a face would be missing",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Look at the point in the middle of a 2 by 2 block. How many squares meet there?",
+      "How many faces meet at each corner of a cube?"
+    ],
+    "solution": "Four squares meet at the centre of a 2 by 2 block, but only three faces meet at any corner of a cube. Folding would force two squares onto the same face, leaving one face open."
+  },
+  {
+    "id": "m7.geo.nets.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A prism and a pyramid each have 12 edges. How many faces do they have **altogether**?",
+    "answer": 13,
+    "form": "integer",
+    "hints": [
+      "Prism: $3n$ edges. Pyramid: $2n$ edges. Find $n$ for each one.",
+      "Then use faces $= n + 2$ for the prism and $n + 1$ for the pyramid."
+    ],
+    "solution": "Prism: $3n = 12$, so $n = 4$. It is a rectangular prism with $4 + 2 = 6$ faces.\n\nPyramid: $2n = 12$, so $n = 6$. It is a hexagonal pyramid with $6 + 1 = 7$ faces.\n\nAltogether: $6 + 7 = 13$ faces."
+  }
+]

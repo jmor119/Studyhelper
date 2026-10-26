@@ -1,0 +1,282 @@
+[
+  {
+    "id": "m7.num.proportion.q001",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "At the swimming sports, there is 1 teacher for every 8 students. There are 5 teachers. How many students are there?",
+    "answer": 40,
+    "hints": ["Each teacher goes with 8 students.", "So multiply the number of teachers by 8."],
+    "solution": "Each group is 1 teacher and 8 students. There are 5 groups, so $5 \\times 8 = 40$ students."
+  },
+  {
+    "id": "m7.num.proportion.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A recipe uses 2 cups of flour for every 1 cup of sugar. Which of these follows the same recipe?",
+    "options": [
+      { "id": "a", "text": "4 cups of flour and 3 cups of sugar" },
+      { "id": "b", "text": "3 cups of flour and 2 cups of sugar" },
+      { "id": "c", "text": "6 cups of flour and 3 cups of sugar" },
+      { "id": "d", "text": "2 cups of flour and 2 cups of sugar" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "This adds 2 cups to each amount. To keep the same recipe, multiply both amounts by the same number.",
+      "b": "This adds 1 cup to each amount. There should be twice as much flour as sugar.",
+      "d": "This has the same amount of flour and sugar, but the recipe needs twice as much flour as sugar."
+    },
+    "hints": ["There must always be twice as much flour as sugar.", "Scaling means multiplying, not adding."],
+    "solution": "6 cups of flour and 3 cups of sugar is the recipe multiplied by 3: $2 \\times 3 = 6$ and $1 \\times 3 = 3$. There is still twice as much flour as sugar."
+  },
+  {
+    "id": "m7.num.proportion.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "A recipe for 6 muffins uses 2 eggs. How many eggs are needed for 18 muffins?",
+    "answer": 6,
+    "hints": ["How many times bigger is 18 than 6?", "Multiply the eggs by the same number."],
+    "solution": "$18 = 6 \\times 3$, so make the recipe 3 times. $2 \\times 3 = 6$ eggs."
+  },
+  {
+    "id": "m7.num.proportion.q004",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "To scale a recipe **up**, you multiply every amount by the same number. What do you do to every amount to scale a recipe **down**? (One word)",
+    "accepted": ["divide", "divide it", "divide them", "divide by the same number", "divide every amount", "divide each amount"],
+    "keywords": { "any": ["divide", "divided", "divides", "dividing", "division"] },
+    "hints": ["Scaling down makes every amount smaller by the same number of times.", "Which operation undoes multiplying?"],
+    "solution": "You **divide** every amount by the same number. For example, to halve a recipe, divide every amount by 2."
+  },
+  {
+    "id": "m7.num.proportion.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a bag, there are 3 red balls for every 7 blue balls. There are 18 red balls. How many blue balls are there?",
+    "answer": 42,
+    "hints": ["The balls come in groups of 3 red and 7 blue.", "How many groups of 3 red make 18?"],
+    "solution": "$18 \\div 3 = 6$ groups. Each group has 7 blue balls, so there are $6 \\times 7 = 42$ blue balls."
+  },
+  {
+    "id": "m7.num.proportion.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A pancake recipe uses 3 cups of flour for every 2 cups of milk. Ruby wants to use 6 cups of flour. She adds 3 more cups to each amount, so she uses 5 cups of milk. What is her mistake?",
+    "options": [
+      { "id": "a", "text": "No mistake. She added the same amount to both, so it is fair." },
+      { "id": "b", "text": "She added instead of multiplying. 6 cups is 2 × 3, so she needs 2 × 2 = 4 cups of milk." },
+      { "id": "c", "text": "She needs 9 cups of milk, because 6 + 3 = 9." },
+      { "id": "d", "text": "She needs 3 cups of milk, the same as the extra flour she added." }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "Adding the same amount changes the recipe. With 6 cups of flour and 5 of milk, the pancakes would be much runnier.",
+      "c": "This adds again instead of multiplying. Doubling the flour means doubling the milk.",
+      "d": "The milk needs to be scaled from 2 cups, not matched to the extra flour."
+    },
+    "hints": ["How many times bigger is 6 cups than 3 cups?", "Every amount must be multiplied by that same number."],
+    "solution": "6 cups of flour is $2 \\times 3$, so the recipe has been doubled. The milk must be doubled too: $2 \\times 2 = 4$ cups. Ruby added 3 cups to each amount, which doesn't keep the same mix."
+  },
+  {
+    "id": "m7.num.proportion.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "At an animal shelter, there are 2 cats for every 3 dogs. What fraction of the cats and dogs are cats? Give your answer in simplest form.",
+    "answer": 0.4,
+    "form": "simplest-fraction",
+    "hints": ["Think about one group of cats and dogs. How many animals are in it?", "The fraction is the number of cats over the whole group."],
+    "solution": "One group has $2 + 3 = 5$ animals, and 2 of them are cats. So $\\frac{2}{5}$ of the cats and dogs are cats."
+  },
+  {
+    "id": "m7.num.proportion.q008",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each \"for every\" statement to the fraction of beads that are red.",
+    "pairs": [
+      { "left": { "id": "s1", "text": "For every 1 red bead there are 3 blue beads" }, "right": { "id": "f1", "text": "$\\frac{1}{4}$ are red" } },
+      { "left": { "id": "s2", "text": "For every 1 red bead there is 1 blue bead" }, "right": { "id": "f2", "text": "$\\frac{1}{2}$ are red" } },
+      { "left": { "id": "s3", "text": "For every 3 red beads there is 1 blue bead" }, "right": { "id": "f3", "text": "$\\frac{3}{4}$ are red" } },
+      { "left": { "id": "s4", "text": "For every 2 red beads there are 3 blue beads" }, "right": { "id": "f4", "text": "$\\frac{2}{5}$ are red" } }
+    ],
+    "hints": ["Add the parts to find the whole group.", "The fraction red is the red part over the whole group."],
+    "solution": "1 red, 3 blue: whole group 4, so $\\frac{1}{4}$. 1 red, 1 blue: whole group 2, so $\\frac{1}{2}$. 3 red, 1 blue: whole group 4, so $\\frac{3}{4}$. 2 red, 3 blue: whole group 5, so $\\frac{2}{5}$."
+  },
+  {
+    "id": "m7.num.proportion.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "On a farm, there are 4 sheep for every 3 cows. There are 24 sheep. How many sheep and cows are there altogether?",
+    "answer": 42,
+    "hints": ["How many groups of 4 sheep are there?", "Each group has 4 sheep and 3 cows."],
+    "solution": "$24 \\div 4 = 6$ groups. Each group has $4 + 3 = 7$ animals, so there are $6 \\times 7 = 42$ sheep and cows altogether."
+  },
+  {
+    "id": "m7.num.proportion.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "There are 45 students in the kapa haka group. For every 4 girls there are 5 boys. How many girls are in the group?",
+    "answer": 20,
+    "hints": ["One group has $4 + 5 = 9$ students.", "How many groups of 9 make 45?"],
+    "solution": "One group has 9 students. $45 \\div 9 = 5$ groups. Each group has 4 girls, so there are $5 \\times 4 = 20$ girls.\n\nCheck: $5 \\times 5 = 25$ boys, and $20 + 25 = 45$ ✓"
+  },
+  {
+    "id": "m7.num.proportion.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "In a class, there are 5 boys for every 4 girls. Kai says $\\frac{5}{4}$ of the class are boys. What is wrong with this?",
+    "options": [
+      { "id": "a", "text": "Nothing. There are 5 boys for every 4 girls, so $\\frac{5}{4}$ are boys." },
+      { "id": "b", "text": "It should be $\\frac{4}{5}$, because the smaller number goes on top." },
+      { "id": "c", "text": "$\\frac{5}{4}$ compares boys with girls. Boys are $\\frac{5}{9}$ of the class." },
+      { "id": "d", "text": "It should be $\\frac{4}{9}$, because there are 9 in each group." }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "$\\frac{5}{4}$ is more than 1 whole, so it can't be a fraction of the class. A fraction of the class needs the whole class group on the bottom.",
+      "b": "$\\frac{4}{5}$ compares girls with boys. Neither one uses the whole group.",
+      "d": "The whole group of 9 is right, but $\\frac{4}{9}$ is the fraction of girls."
+    },
+    "hints": ["How many students are in one group of boys and girls?", "A fraction of the whole has the whole group on the bottom."],
+    "solution": "One group has $5 + 4 = 9$ students, and 5 of them are boys. So $\\frac{5}{9}$ of the class are boys. Kai's $\\frac{5}{4}$ compares the boys with the girls (part to part), not with the whole class."
+  },
+  {
+    "id": "m7.num.proportion.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A fruit punch recipe for 4 people uses 600 mL of juice. How much juice is needed for 10 people?",
+    "answer": 1500,
+    "units": "mL",
+    "hints": ["10 isn't a whole number of times 4. Find the juice for 2 people first.", "10 people is 5 lots of 2 people."],
+    "solution": "For 2 people: $600 \\div 2 = 300$ mL.\n\nFor 10 people: $300 \\times 5 = 1500$ mL (that's 1.5 L)."
+  },
+  {
+    "id": "m7.num.proportion.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "6 kiwifruit cost \\$2.40. At the same price each, how much do 10 kiwifruit cost?",
+    "answer": 4,
+    "units": "$",
+    "hints": ["Find the cost of 1 kiwifruit first.", "Then multiply by 10."],
+    "solution": "One kiwifruit costs $2.40 \\div 6 = 0.40$, which is 40 cents.\n\n10 kiwifruit cost $10 \\times 0.40 = 4.00$, so \\$4.00."
+  },
+  {
+    "id": "m7.num.proportion.q014",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a garden bird count, there were 2 tūī for every 5 sparrows. There were 21 more sparrows than tūī. How many tūī were there?",
+    "answer": 14,
+    "hints": ["In each group of 2 tūī and 5 sparrows, how many more sparrows are there?", "How many groups make a difference of 21?"],
+    "solution": "In each group there are $5 - 2 = 3$ more sparrows than tūī.\n\n$21 \\div 3 = 7$ groups, so there were $7 \\times 2 = 14$ tūī.\n\nCheck: $7 \\times 5 = 35$ sparrows, and $35 - 14 = 21$ ✓"
+  },
+  {
+    "id": "m7.num.proportion.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A recipe for 12 Anzac biscuits uses 90 g of butter. Ella uses 225 g of butter and scales the rest of the recipe to match. How many biscuits does she make?",
+    "answer": 30,
+    "form": "integer",
+    "hints": ["225 g isn't a whole number of times 90 g. Try half the recipe: how much butter is that, and how many biscuits?", "How many lots of 45 g are in 225 g?"],
+    "solution": "Half the recipe: 45 g of butter makes 6 biscuits.\n\n$225 \\div 45 = 5$, so Ella makes 5 half-recipes: $5 \\times 6 = 30$ biscuits."
+  },
+  {
+    "id": "m7.num.proportion.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Four groups make orange drink from cordial and water. Which drink tastes the **strongest** (has the most cordial for the amount of water)?",
+    "options": [
+      { "id": "a", "text": "2 cups of cordial for every 8 cups of water" },
+      { "id": "b", "text": "3 cups of cordial for every 9 cups of water" },
+      { "id": "c", "text": "1 cup of cordial for every 5 cups of water" },
+      { "id": "d", "text": "4 cups of cordial for every 20 cups of water" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "Scale down: 2 for every 8 is 1 cup of cordial for every 4 cups of water. Drink b is 1 for every 3, which is stronger.",
+      "c": "1 cup of cordial for every 5 cups of water is the weakest mix (tied with d).",
+      "d": "It has the most cordial, but also lots of water. 4 for every 20 is the same as 1 for every 5."
+    },
+    "hints": ["Scale each mix down to 1 cup of cordial.", "The fewer cups of water for each cup of cordial, the stronger the drink."],
+    "solution": "Scale each mix to 1 cup of cordial: a) 1 for every 4, b) 1 for every 3, c) 1 for every 5, d) 1 for every 5. Drink **b** has the least water for each cup of cordial, so it is the strongest."
+  },
+  {
+    "id": "m7.num.proportion.q017",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A necklace has 3 red beads for every 7 blue beads. Explain why this does **not** mean that $\\frac{3}{7}$ of the beads are red.",
+    "modelAnswer": "The beads come in groups of 3 red and 7 blue, so each group has $3 + 7 = 10$ beads. A fraction of all the beads needs the whole group on the bottom, so $\\frac{3}{10}$ of the beads are red. $\\frac{3}{7}$ compares the red beads with the blue beads (part to part), not with all the beads.",
+    "rubric": [
+      { "criterion": "Says the whole group is 10 beads, so $\\frac{3}{10}$ of the beads are red", "marks": 1 },
+      { "criterion": "Explains that $\\frac{3}{7}$ compares red with blue (part to part) instead of red with all the beads", "marks": 1 }
+    ],
+    "hints": ["How many beads are in one group?", "What does the 7 in $\\frac{3}{7}$ count?"],
+    "solution": "One group has 10 beads, so $\\frac{3}{10}$ are red. $\\frac{3}{7}$ compares red beads with blue beads, not with the whole necklace."
+  },
+  {
+    "id": "m7.num.proportion.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "At a school, for every 3 students who walk to school, 4 come by bus and 1 bikes. 20 students come by bus. How many students are there altogether?",
+    "answer": 40,
+    "hints": ["One group has $3 + 4 + 1$ students.", "How many groups have 20 students coming by bus?"],
+    "solution": "Each group has 4 students who come by bus. $20 \\div 4 = 5$ groups.\n\nEach group has $3 + 4 + 1 = 8$ students, so there are $5 \\times 8 = 40$ students altogether."
+  },
+  {
+    "id": "m7.num.proportion.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "To make concrete, a builder uses 1 bucket of cement for every 2 buckets of sand and 3 buckets of gravel. She needs 48 buckets of the mix altogether. How many buckets of sand does she need?",
+    "answer": 16,
+    "hints": ["One group has $1 + 2 + 3$ buckets.", "How many groups make 48 buckets?"],
+    "solution": "One group has $1 + 2 + 3 = 6$ buckets. $48 \\div 6 = 8$ groups.\n\nEach group has 2 buckets of sand, so she needs $8 \\times 2 = 16$ buckets of sand."
+  },
+  {
+    "id": "m7.num.proportion.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Aroha cycles 18 km in 1 hour 30 minutes. At the same speed, how far does she cycle in 2 hours?",
+    "answer": 24,
+    "units": "km",
+    "hints": ["1 hour 30 minutes is 3 lots of 30 minutes.", "How far does she cycle in 30 minutes? How many lots of 30 minutes are in 2 hours?"],
+    "solution": "1 hour 30 minutes is 90 minutes, or 3 lots of 30 minutes. In 30 minutes she cycles $18 \\div 3 = 6$ km.\n\n2 hours is 4 lots of 30 minutes, so she cycles $4 \\times 6 = 24$ km."
+  },
+  {
+    "id": "m7.num.proportion.q021",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two classes make fruit punch. Room 5 uses 2 L of juice for every 3 L of lemonade. Room 6 uses 3 L of juice for every 5 L of lemonade. Which punch tastes more of juice? Explain how you know.",
+    "modelAnswer": "Make the amount of juice the same. Room 5's recipe times 3 is 6 L of juice for every 9 L of lemonade. Room 6's recipe times 2 is 6 L of juice for every 10 L of lemonade. With the same juice, Room 5 uses less lemonade, so Room 5's punch tastes more of juice. (Or: juice is $\\frac{2}{5} = \\frac{16}{40}$ of Room 5's punch and $\\frac{3}{8} = \\frac{15}{40}$ of Room 6's punch.)",
+    "rubric": [
+      { "criterion": "Compares the two mixes fairly, e.g. scales both to 6 L of juice, or finds the fraction of juice in each ($\\frac{2}{5}$ and $\\frac{3}{8}$)", "marks": 1 },
+      { "criterion": "Concludes correctly that Room 5's punch tastes more of juice, with a reason", "marks": 1 }
+    ],
+    "hints": ["You can't compare 2 for every 3 with 3 for every 5 directly. Make one of the amounts the same.", "Try scaling both recipes to 6 L of juice."],
+    "solution": "Scale both to 6 L of juice: Room 5 has 9 L of lemonade and Room 6 has 10 L. Room 5 has less lemonade for the same juice, so **Room 5's** punch tastes more of juice."
+  }
+]

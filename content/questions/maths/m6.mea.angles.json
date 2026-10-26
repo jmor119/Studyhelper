@@ -1,0 +1,308 @@
+[
+  {
+    "id": "m6.mea.angles.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How many degrees are in a full turn?",
+    "options": [
+      {"id":"a","text":"360°"},
+      {"id":"b","text":"180°"},
+      {"id":"c","text":"100°"},
+      {"id":"d","text":"90°"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"180° is half a turn: a straight line.","c":"Angles are not measured in hundreds like centimetres. A full turn is 360°.","d":"90° is a quarter turn: a right angle."},
+    "hints": ["A quarter turn is 90°. How many quarter turns make a full turn?"],
+    "solution": "A full turn is 4 quarter turns: $4 \\times 90 = 360$°."
+  },
+  {
+    "id": "m6.mea.angles.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each type of angle to its size.",
+    "pairs": [
+      {"left":{"id":"ac","text":"Acute"},"right":{"id":"s1","text":"Less than 90°"}},
+      {"left":{"id":"ri","text":"Right angle"},"right":{"id":"s2","text":"Exactly 90°"}},
+      {"left":{"id":"ob","text":"Obtuse"},"right":{"id":"s3","text":"Between 90° and 180°"}},
+      {"left":{"id":"st","text":"Straight angle"},"right":{"id":"s4","text":"Exactly 180°"}},
+      {"left":{"id":"re","text":"Reflex"},"right":{"id":"s5","text":"Between 180° and 360°"}}
+    ],
+    "hints": ["A right angle is a square corner. A straight angle is a straight line."],
+    "solution": "Acute: less than 90°. Right: exactly 90°. Obtuse: between 90° and 180°. Straight: exactly 180°. Reflex: between 180° and 360°."
+  },
+  {
+    "id": "m6.mea.angles.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which tool do we use to measure an angle?",
+    "options": [
+      {"id":"a","text":"A protractor"},
+      {"id":"b","text":"A ruler"},
+      {"id":"c","text":"A thermometer"},
+      {"id":"d","text":"Kitchen scales"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"A ruler measures length. It can't measure the amount of turn.","c":"A thermometer measures temperature in degrees Celsius. Angles are measured in degrees too, but with a different tool.","d":"Kitchen scales measure mass."},
+    "hints": ["It is shaped like half a circle, with numbers from 0 to 180."],
+    "solution": "A **protractor** measures angles in degrees."
+  },
+  {
+    "id": "m6.mea.angles.q004",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name for an angle that is more than 180° but less than 360°?",
+    "accepted": ["reflex","reflex angle","a reflex angle"],
+    "hints": ["It goes the long way round, more than a straight line."],
+    "solution": "An angle between 180° and 360° is a **reflex** angle."
+  },
+  {
+    "id": "m6.mea.angles.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A clock shows exactly 3 o'clock. What is the angle between the hour hand and the minute hand?",
+    "answer": 90,
+    "units": "°",
+    "form": "integer",
+    "hints": ["The minute hand points to 12 and the hour hand points to 3.","From 12 to 3 is a quarter of the way round the clock."],
+    "solution": "From 12 to 3 is a quarter turn. A full turn is 360°, so a quarter turn is $360 \\div 4 = 90$°. The angle is a right angle, **90°**."
+  },
+  {
+    "id": "m6.mea.angles.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Losa measures an angle with a protractor and says it is 130°. But the angle is clearly smaller than a right angle. What mistake has she most likely made?",
+    "options": [
+      {"id":"a","text":"She read the wrong scale. The angle is 50°."},
+      {"id":"b","text":"She didn't make a mistake. The angle is 130°."},
+      {"id":"c","text":"She should have added 90°. The angle is 220°."},
+      {"id":"d","text":"She should have halved it. The angle is 65°."}
+    ],
+    "correct": "a",
+    "feedback": {"b":"130° is obtuse, bigger than a right angle. That can't be right for an angle smaller than a square corner.","c":"Adding 90° would make it even bigger. The angle is acute.","d":"Halving isn't part of reading a protractor."},
+    "hints": ["A protractor has two scales. What do the two numbers at each mark add up to?"],
+    "solution": "The two scales on a protractor add to 180° at each mark. Losa read the wrong one: the real angle is $180 - 130 =$ **50°**, which is acute."
+  },
+  {
+    "id": "m6.mea.angles.q007",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What does $\\angle PQR$ mean?",
+    "options": [
+      {"id":"a","text":"The angle at Q, between the arms going to P and R"},
+      {"id":"b","text":"The angle at P, between the arms going to Q and R"},
+      {"id":"c","text":"The angle at R, between the arms going to P and Q"},
+      {"id":"d","text":"The length of the line from P to R"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"The first letter is not the vertex. That would be written $\\angle QPR$.","c":"The last letter is not the vertex. That would be written $\\angle PRQ$.","d":"The ∠ sign means an angle, not a length."},
+    "hints": ["The middle letter tells you where the vertex is."],
+    "solution": "In angle notation the **middle letter is the vertex**. $\\angle PQR$ is the angle at Q, between QP and QR."
+  },
+  {
+    "id": "m6.mea.angles.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "A ladder leans against a wall. It makes an angle of 70° with the flat ground on one side. What is the angle between the ladder and the ground on the **other** side?",
+    "answer": 110,
+    "units": "°",
+    "form": "integer",
+    "hints": ["The ground is a straight line.","Angles on a straight line add up to 180°."],
+    "solution": "The two angles are on a straight line (the ground), so they add to 180°.\n\n$180 - 70 = 110$, so the other angle is **110°**."
+  },
+  {
+    "id": "m6.mea.angles.q009",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these angles in order from **smallest** to **largest**.",
+    "items": [
+      {"id":"a1","text":"45°"},
+      {"id":"a2","text":"A right angle"},
+      {"id":"a3","text":"120°"},
+      {"id":"a4","text":"A straight angle"},
+      {"id":"a5","text":"200°"}
+    ],
+    "hints": ["A right angle is 90° and a straight angle is 180°."],
+    "solution": "45°, a right angle (90°), 120°, a straight angle (180°), 200°."
+  },
+  {
+    "id": "m6.mea.angles.q010",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the statements that are true.",
+    "options": [
+      {"id":"a","text":"Angles on a straight line add up to 180°."},
+      {"id":"b","text":"Angles at a point add up to 360°."},
+      {"id":"c","text":"Vertically opposite angles are equal."},
+      {"id":"d","text":"Vertically opposite angles add up to 180°."},
+      {"id":"e","text":"A reflex angle is less than 180°."}
+    ],
+    "correct": ["a","b","c"],
+    "hints": ["Think about a straight line (half a turn) and a full turn."],
+    "solution": "True: angles on a straight line add to 180°, angles at a point add to 360°, and vertically opposite angles are equal. False: vertically opposite angles are equal (they don't have to add to 180°), and a reflex angle is **more** than 180°."
+  },
+  {
+    "id": "m6.mea.angles.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Two angles are on a straight line. One is 65°. Mere says the other angle is 295°, because $360 - 65 = 295$. What should the answer be?",
+    "options": [
+      {"id":"a","text":"115°, because angles on a straight line add to 180°"},
+      {"id":"b","text":"295°, Mere is right"},
+      {"id":"c","text":"65°, because the angles are equal"},
+      {"id":"d","text":"25°, because the angles add to 90°"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"360° is for angles all the way round a point. A straight line is only half a turn.","c":"Angles next to each other on a straight line are only equal if they are both 90°.","d":"Angles that add to 90° make a right angle, not a straight line."},
+    "hints": ["How many degrees are on a straight line?"],
+    "solution": "Mere used 360°, which is for a full turn. On a straight line the angles add to 180°: $180 - 65 =$ **115°**."
+  },
+  {
+    "id": "m6.mea.angles.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A round pizza is cut from the centre into 8 equal slices. What is the angle at the centre of each slice?",
+    "answer": 45,
+    "units": "°",
+    "form": "integer",
+    "hints": ["All the angles at the centre go the whole way round.","Angles at a point add to 360°. Share that equally between 8 slices."],
+    "solution": "The angles at the centre make a full turn of 360°.\n\n$360 \\div 8 = 45$, so each slice has an angle of **45°**."
+  },
+  {
+    "id": "m6.mea.angles.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hana is facing north. She turns clockwise until she is facing south. How many degrees has she turned?",
+    "answer": 180,
+    "units": "°",
+    "form": "integer",
+    "hints": ["North to east is a quarter turn clockwise.","How many quarter turns from north to south?"],
+    "solution": "North → east is 90°, and east → south is another 90°.\n\n$90 + 90 = 180$, so Hana turned **180°** (half a turn)."
+  },
+  {
+    "id": "m6.mea.angles.q014",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two straight lines cross. One of the angles is 40°. Explain why the angle **vertically opposite** it must also be 40°. Use angles on a straight line in your answer.",
+    "modelAnswer": "The angle next to the 40° angle is on a straight line with it, so it is 180 − 40 = 140°. The angle opposite the 40° angle is also next to that 140° angle on the other straight line, so it is 180 − 140 = 40°. So the vertically opposite angles are both 40°.",
+    "rubric": [
+      {"criterion":"Uses angles on a straight line to find the angle next to 40° (140°)","marks":1},
+      {"criterion":"Uses the other straight line to show the opposite angle is 180 − 140 = 40°","marks":1}
+    ],
+    "hints": ["First find the angle next to the 40° angle.","The opposite angle is next to that angle too, on the other line."],
+    "solution": "The neighbouring angle is $180 - 40 = 140$°. The opposite angle sits on the other straight line with that 140° angle, so it is $180 - 140 = 40$°."
+  },
+  {
+    "id": "m6.mea.angles.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger: the smaller angle between the hands of a clock at 4 o'clock, or at 8 o'clock?",
+    "options": [
+      {"id":"a","text":"They are the same size."},
+      {"id":"b","text":"The angle at 8 o'clock"},
+      {"id":"c","text":"The angle at 4 o'clock"},
+      {"id":"d","text":"You can't tell without measuring."}
+    ],
+    "correct": "a",
+    "feedback": {"b":"8 is a bigger number, but the hour hand is 4 hours away from 12 going the other way.","c":"At 4 o'clock the hour hand is 4 hours from 12. At 8 o'clock it is also 4 hours from 12, going the other way.","d":"You can work it out: each hour on a clock is $360 \\div 12 = 30$°."},
+    "hints": ["Each hour on a clock face is 360° ÷ 12 = 30°.","At 8 o'clock, how many hours is the hour hand from 12 the short way round?"],
+    "solution": "Each hour is $360 \\div 12 = 30$°. At 4 o'clock the hands are 4 hours apart: $4 \\times 30 = 120$°. At 8 o'clock they are also 4 hours apart the short way (from 8 up to 12): 120°. **They are the same size.**"
+  },
+  {
+    "id": "m6.mea.angles.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Two straight lines cross, making four angles. One of the angles is 58°. What is the **total** of the other three angles?",
+    "answer": 302,
+    "units": "°",
+    "form": "integer",
+    "hints": ["All four angles are around one point.","Angles at a point add up to 360°."],
+    "solution": "The four angles are at a point, so they add to 360°.\n\n$360 - 58 = 302$°.\n\n(Check: the other three are 122°, 58° and 122°, and $122 + 58 + 122 = 302$.)"
+  },
+  {
+    "id": "m6.mea.angles.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Sione is facing west. He turns clockwise through 270°. Which way is he facing now?",
+    "options": [
+      {"id":"a","text":"South"},
+      {"id":"b","text":"North"},
+      {"id":"c","text":"East"},
+      {"id":"d","text":"West"}
+    ],
+    "correct": "a",
+    "feedback": {"b":"That is a 90° turn clockwise from west. Sione turns three times as far.","c":"That is a 180° turn (half a turn) from west.","d":"He would face west again only after a full turn of 360°."},
+    "hints": ["270° is three quarter turns.","Clockwise from west, the next direction is north."],
+    "solution": "270° is 3 quarter turns. Clockwise from west: north (90°), east (180°), south (270°). Sione faces **south**."
+  },
+  {
+    "id": "m6.mea.angles.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain how you can use a protractor to measure a **reflex** angle, even though a protractor only goes up to 180°.",
+    "modelAnswer": "Measure the smaller angle between the two arms with the protractor. The smaller angle and the reflex angle go all the way round, so together they make 360°. Take the smaller angle away from 360°. For example, if the smaller angle is 70°, the reflex angle is 360 − 70 = 290°.",
+    "rubric": [
+      {"criterion":"Says to measure the smaller angle between the arms","marks":1},
+      {"criterion":"Explains taking it away from 360° because the two angles make a full turn (example optional)","marks":1}
+    ],
+    "hints": ["The reflex angle and the smaller angle together make a full turn."],
+    "solution": "Measure the smaller angle, then subtract it from 360°, because the two angles together make a full turn."
+  },
+  {
+    "id": "m6.mea.angles.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A clock shows exactly 2 o'clock. What is the size of the **reflex** angle between the hour hand and the minute hand?",
+    "answer": 300,
+    "units": "°",
+    "form": "integer",
+    "hints": ["Each hour on a clock face is 360° ÷ 12 = 30°.","Find the smaller angle first, then take it away from 360°."],
+    "solution": "Each hour is $360 \\div 12 = 30$°. At 2 o'clock the hands are 2 hours apart: $2 \\times 30 = 60$°.\n\nThe reflex angle is $360 - 60 =$ **300°**."
+  },
+  {
+    "id": "m6.mea.angles.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "There are four angles around a point. One is a right angle, one is 80°, and the other two are equal. What is the size of each of the two equal angles?",
+    "answer": 95,
+    "units": "°",
+    "form": "integer",
+    "hints": ["Angles at a point add to 360°. A right angle is 90°.","Take away the angles you know, then share what is left between the two equal angles."],
+    "solution": "Angles at a point add to 360°.\n\nKnown angles: $90 + 80 = 170$°.\n\nThe two equal angles together: $360 - 170 = 190$°.\n\nEach one: $190 \\div 2 =$ **95°**."
+  },
+  {
+    "id": "m6.mea.angles.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai cuts a round cake from the centre. The first piece has an angle of 60°, the second 75° and the third 90°. He cuts the rest of the cake into 3 equal pieces. What is the angle at the centre of each of those pieces?",
+    "answer": 45,
+    "units": "°",
+    "form": "integer",
+    "hints": ["All the angles at the centre add up to 360°.","Find how much of the 360° is left, then share it between 3 pieces."],
+    "solution": "Angles at the centre add to 360°.\n\nFirst three pieces: $60 + 75 + 90 = 225$°.\n\nLeft over: $360 - 225 = 135$°.\n\nEach of the 3 equal pieces: $135 \\div 3 =$ **45°**."
+  }
+]

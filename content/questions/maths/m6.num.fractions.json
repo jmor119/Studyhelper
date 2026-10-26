@@ -1,0 +1,328 @@
+[
+  {
+    "id": "m6.num.fractions.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the fraction $\\frac{3}{8}$, the 3 is the [[a]] and the 8 is the [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["numerator"], "options": ["numerator", "denominator", "whole"] },
+      { "id": "b", "accepted": ["denominator"], "options": ["numerator", "denominator", "whole"] }
+    ],
+    "hints": ["The bottom number tells you how many equal parts the whole is split into."],
+    "solution": "3 is the **numerator** (how many parts you have). 8 is the **denominator** (how many equal parts make the whole)."
+  },
+  {
+    "id": "m6.num.fractions.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which fraction is equivalent to $\\frac{1}{2}$?",
+    "options": [
+      { "id": "a", "text": "$\\frac{4}{8}$" },
+      { "id": "b", "text": "$\\frac{2}{3}$" },
+      { "id": "c", "text": "$\\frac{1}{4}$" },
+      { "id": "d", "text": "$\\frac{2}{1}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This adds 1 to the top and the bottom. To make an equivalent fraction, multiply both by the same number.",
+      "c": "Only the denominator was doubled. Quarters are smaller pieces, so $\\frac{1}{4}$ is less than $\\frac{1}{2}$.",
+      "d": "This is $\\frac{1}{2}$ turned upside down. $\\frac{2}{1}$ is 2 wholes."
+    },
+    "hints": ["Multiply the numerator and the denominator by the same number."],
+    "solution": "$\\frac{1}{2} = \\frac{1 \\times 4}{2 \\times 4} = \\frac{4}{8}$"
+  },
+  {
+    "id": "m6.num.fractions.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number: $\\frac{2}{5} = \\frac{\\square}{20}$",
+    "answer": 8,
+    "form": "integer",
+    "hints": ["What do you multiply 5 by to get 20?", "Do the same to the numerator."],
+    "solution": "$5 \\times 4 = 20$, so multiply the numerator by 4 too: $2 \\times 4 = 8$. So $\\frac{2}{5} = \\frac{8}{20}$."
+  },
+  {
+    "id": "m6.num.fractions.q004",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to an example or meaning.",
+    "pairs": [
+      { "left": { "id": "num", "text": "Numerator" }, "right": { "id": "r1", "text": "The top number of a fraction" } },
+      { "left": { "id": "den", "text": "Denominator" }, "right": { "id": "r2", "text": "The bottom number of a fraction" } },
+      { "left": { "id": "imp", "text": "Improper fraction" }, "right": { "id": "r3", "text": "$\\frac{7}{4}$" } },
+      { "left": { "id": "mix", "text": "Mixed number" }, "right": { "id": "r4", "text": "$1\\frac{3}{4}$" } },
+      { "left": { "id": "eqv", "text": "Equivalent fractions" }, "right": { "id": "r5", "text": "$\\frac{2}{3}$ and $\\frac{4}{6}$" } }
+    ],
+    "hints": ["An improper fraction has a numerator bigger than its denominator."],
+    "solution": "Numerator: the top number. Denominator: the bottom number. Improper fraction: $\\frac{7}{4}$ (the top is bigger than the bottom). Mixed number: $1\\frac{3}{4}$ (a whole number and a fraction). Equivalent fractions: $\\frac{2}{3}$ and $\\frac{4}{6}$ (same value)."
+  },
+  {
+    "id": "m6.num.fractions.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which fraction is already in **simplest form**?",
+    "options": [
+      { "id": "a", "text": "$\\frac{5}{8}$" },
+      { "id": "b", "text": "$\\frac{6}{9}$" },
+      { "id": "c", "text": "$\\frac{4}{10}$" },
+      { "id": "d", "text": "$\\frac{10}{12}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "6 and 9 can both be divided by 3: $\\frac{6}{9} = \\frac{2}{3}$.",
+      "c": "4 and 10 can both be divided by 2: $\\frac{4}{10} = \\frac{2}{5}$.",
+      "d": "10 and 12 can both be divided by 2: $\\frac{10}{12} = \\frac{5}{6}$."
+    },
+    "hints": ["Look for a number (other than 1) that divides into both the top and the bottom."],
+    "solution": "5 and 8 have no common factor except 1, so $\\frac{5}{8}$ is in simplest form. The others can all be simplified."
+  },
+  {
+    "id": "m6.num.fractions.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write $\\frac{12}{16}$ in simplest form.",
+    "answer": 0.75,
+    "form": "simplest-fraction",
+    "hints": ["Find a number that divides into both 12 and 16.", "Keep dividing until the only common factor is 1."],
+    "solution": "4 divides into both 12 and 16: $\\frac{12 \\div 4}{16 \\div 4} = \\frac{3}{4}$."
+  },
+  {
+    "id": "m6.num.fractions.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write $\\frac{17}{5}$ as a mixed number.",
+    "answer": 3.4,
+    "form": "mixed",
+    "hints": ["How many whole groups of 5 are there in 17?", "The amount left over is the numerator of the fraction part."],
+    "solution": "$17 \\div 5 = 3$ remainder 2, so $\\frac{17}{5} = 3\\frac{2}{5}$."
+  },
+  {
+    "id": "m6.num.fractions.q008",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Choose the symbol that makes this true.\n\n$\\frac{2}{3}$ [[s]] $\\frac{7}{12}$",
+    "blanks": [{ "id": "s", "accepted": [">"], "options": ["<", ">", "="] }],
+    "hints": ["12 is a multiple of 3. Change $\\frac{2}{3}$ into twelfths."],
+    "solution": "$\\frac{2}{3} = \\frac{8}{12}$. 8 twelfths is more than 7 twelfths, so $\\frac{2}{3} > \\frac{7}{12}$."
+  },
+  {
+    "id": "m6.num.fractions.q009",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Liam says $\\frac{1}{8}$ is bigger than $\\frac{1}{4}$ because 8 is bigger than 4. What is wrong with his thinking?",
+    "options": [
+      { "id": "a", "text": "Eighths are smaller pieces than quarters, so $\\frac{1}{8}$ is smaller." },
+      { "id": "b", "text": "Nothing. 8 is bigger than 4, so $\\frac{1}{8}$ is bigger." },
+      { "id": "c", "text": "They are equal, because both numerators are 1." },
+      { "id": "d", "text": "You can't compare fractions with different denominators." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A bigger denominator means the whole is cut into more pieces, so each piece is smaller.",
+      "c": "Both are one piece, but the pieces are different sizes.",
+      "d": "You can compare them. Change quarters into eighths: $\\frac{1}{4} = \\frac{2}{8}$."
+    },
+    "hints": ["Imagine a pizza cut into 8 slices and another cut into 4. Which slices are bigger?"],
+    "solution": "Cutting a whole into 8 pieces makes smaller pieces than cutting it into 4. $\\frac{1}{4} = \\frac{2}{8}$, so $\\frac{1}{8} < \\frac{1}{4}$."
+  },
+  {
+    "id": "m6.num.fractions.q010",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these fractions in order from **smallest to largest**.",
+    "items": [
+      { "id": "p", "text": "$\\frac{1}{2}$" },
+      { "id": "q", "text": "$\\frac{5}{8}$" },
+      { "id": "r", "text": "$\\frac{3}{4}$" },
+      { "id": "s", "text": "$\\frac{7}{8}$" }
+    ],
+    "hints": ["Change them all into eighths."],
+    "solution": "In eighths: $\\frac{1}{2} = \\frac{4}{8}$, $\\frac{5}{8}$, $\\frac{3}{4} = \\frac{6}{8}$, $\\frac{7}{8}$. So the order is $\\frac{1}{2}$, $\\frac{5}{8}$, $\\frac{3}{4}$, $\\frac{7}{8}$."
+  },
+  {
+    "id": "m6.num.fractions.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $\\frac{1}{3} + \\frac{5}{12}$. Give your answer in simplest form.",
+    "answer": 0.75,
+    "form": "simplest-fraction",
+    "hints": ["12 is a multiple of 3. Change $\\frac{1}{3}$ into twelfths.", "Add the numerators, then simplify."],
+    "solution": "$\\frac{1}{3} = \\frac{4}{12}$, so $\\frac{4}{12} + \\frac{5}{12} = \\frac{9}{12} = \\frac{3}{4}$."
+  },
+  {
+    "id": "m6.num.fractions.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $\\frac{9}{10} - \\frac{2}{5}$. Give your answer in simplest form.",
+    "answer": 0.5,
+    "form": "simplest-fraction",
+    "hints": ["10 is a multiple of 5. Change $\\frac{2}{5}$ into tenths.", "Subtract the numerators, then simplify."],
+    "solution": "$\\frac{2}{5} = \\frac{4}{10}$, so $\\frac{9}{10} - \\frac{4}{10} = \\frac{5}{10} = \\frac{1}{2}$."
+  },
+  {
+    "id": "m6.num.fractions.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Sione worked out $\\frac{1}{2} + \\frac{1}{4} = \\frac{2}{6}$. What should the answer be?",
+    "options": [
+      { "id": "a", "text": "$\\frac{3}{4}$" },
+      { "id": "b", "text": "$\\frac{2}{6}$" },
+      { "id": "c", "text": "$\\frac{2}{4}$" },
+      { "id": "d", "text": "$\\frac{1}{8}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Sione added the denominators. The answer must be bigger than $\\frac{1}{2}$, but $\\frac{2}{6}$ is smaller.",
+      "c": "This adds the numerators without changing $\\frac{1}{2}$ into quarters first.",
+      "d": "This multiplies the fractions instead of adding them."
+    },
+    "hints": ["Change $\\frac{1}{2}$ into quarters first."],
+    "solution": "$\\frac{1}{2} = \\frac{2}{4}$, so $\\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$. Never add the denominators."
+  },
+  {
+    "id": "m6.num.fractions.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "How many fifths are there in $3\\frac{4}{5}$?",
+    "answer": 19,
+    "form": "integer",
+    "hints": ["Each whole has 5 fifths. How many fifths are in 3 wholes?", "Then add the 4 extra fifths."],
+    "solution": "3 wholes have $3 \\times 5 = 15$ fifths. Add 4 more: $15 + 4 = 19$. So $3\\frac{4}{5} = \\frac{19}{5}$."
+  },
+  {
+    "id": "m6.num.fractions.q015",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which fraction is the **largest**?",
+    "options": [
+      { "id": "a", "text": "$\\frac{5}{6}$" },
+      { "id": "b", "text": "$\\frac{7}{12}$" },
+      { "id": "c", "text": "$\\frac{2}{3}$" },
+      { "id": "d", "text": "$\\frac{3}{4}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{7}{12}$ has the biggest numbers, but it is the smallest of these fractions.",
+      "c": "$\\frac{2}{3} = \\frac{8}{12}$, which is less than $\\frac{5}{6} = \\frac{10}{12}$.",
+      "d": "$\\frac{3}{4} = \\frac{9}{12}$, which is less than $\\frac{5}{6} = \\frac{10}{12}$."
+    },
+    "hints": ["All the denominators divide into 12.", "Change each fraction into twelfths."],
+    "solution": "In twelfths: $\\frac{5}{6} = \\frac{10}{12}$, $\\frac{7}{12}$, $\\frac{2}{3} = \\frac{8}{12}$, $\\frac{3}{4} = \\frac{9}{12}$. The largest is $\\frac{5}{6}$."
+  },
+  {
+    "id": "m6.num.fractions.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Work out $2\\frac{3}{4} + 1\\frac{5}{8}$. Give your answer as a mixed number in simplest form.",
+    "answer": 4.375,
+    "form": "mixed",
+    "hints": ["Add the whole numbers, then add the fractions.", "Change $\\frac{3}{4}$ into eighths before you add."],
+    "solution": "Wholes: $2 + 1 = 3$.\n\nFractions: $\\frac{3}{4} = \\frac{6}{8}$, so $\\frac{6}{8} + \\frac{5}{8} = \\frac{11}{8} = 1\\frac{3}{8}$.\n\nTotal: $3 + 1\\frac{3}{8} = 4\\frac{3}{8}$."
+  },
+  {
+    "id": "m6.num.fractions.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Work out $4\\frac{1}{3} - 1\\frac{5}{6}$. Give your answer as a mixed number in simplest form.",
+    "answer": 2.5,
+    "form": "mixed",
+    "hints": ["Change both mixed numbers into improper fractions with denominator 6.", "Subtract, then simplify and change back to a mixed number."],
+    "solution": "$4\\frac{1}{3} = \\frac{13}{3} = \\frac{26}{6}$ and $1\\frac{5}{6} = \\frac{11}{6}$.\n\n$\\frac{26}{6} - \\frac{11}{6} = \\frac{15}{6} = \\frac{5}{2} = 2\\frac{1}{2}$"
+  },
+  {
+    "id": "m6.num.fractions.q018",
+    "type": "cloze",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Choose the symbol that makes this true.\n\n$\\frac{11}{4}$ [[s]] $2\\frac{5}{8}$",
+    "blanks": [{ "id": "s", "accepted": [">"], "options": ["<", ">", "="] }],
+    "hints": ["Change the mixed number into an improper fraction.", "Then write both fractions in eighths."],
+    "solution": "$2\\frac{5}{8} = \\frac{21}{8}$ and $\\frac{11}{4} = \\frac{22}{8}$. 22 eighths is more than 21 eighths, so $\\frac{11}{4} > 2\\frac{5}{8}$."
+  },
+  {
+    "id": "m6.num.fractions.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "A pancake recipe needs $\\frac{3}{4}$ of a cup of flour. A muffin recipe needs $\\frac{5}{8}$ of a cup of flour. How much flour is needed for both recipes? Give your answer in simplest form.",
+    "answer": 1.375,
+    "form": "simplest-fraction",
+    "hints": ["\"Both recipes\" means add.", "Change $\\frac{3}{4}$ into eighths."],
+    "solution": "$\\frac{3}{4} = \\frac{6}{8}$, so $\\frac{6}{8} + \\frac{5}{8} = \\frac{11}{8} = 1\\frac{3}{8}$ cups of flour."
+  },
+  {
+    "id": "m6.num.fractions.q020",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Ruby ate $\\frac{1}{4}$ of a pizza and Grace ate $\\frac{3}{8}$ of the same pizza. What fraction of the pizza is left?",
+    "answer": 0.375,
+    "form": "simplest-fraction",
+    "hints": ["First add the two fractions that were eaten.", "The whole pizza is $\\frac{8}{8}$."],
+    "solution": "Eaten: $\\frac{1}{4} + \\frac{3}{8} = \\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}$.\n\nLeft: $\\frac{8}{8} - \\frac{5}{8} = \\frac{3}{8}$."
+  },
+  {
+    "id": "m6.num.fractions.q021",
+    "type": "extended",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Explain why $\\frac{3}{4}$ and $\\frac{6}{8}$ are equivalent fractions.",
+    "modelAnswer": "If you multiply the numerator and the denominator of $\\frac{3}{4}$ by 2, you get $\\frac{6}{8}$. This is like cutting every quarter into 2 equal pieces: the whole now has 8 pieces, and the 3 quarters become 6 eighths. The amount shaded is the same, so the fractions have the same value.",
+    "rubric": [
+      { "criterion": "Shows that the top and bottom of 3/4 are both multiplied by 2 to make 6/8", "marks": 1 },
+      { "criterion": "Explains that the amount stays the same, e.g. each quarter is cut into 2 eighths", "marks": 1 }
+    ],
+    "hints": ["What do you multiply 4 by to get 8?", "Think about cutting each quarter into smaller pieces."],
+    "solution": "$\\frac{3}{4} = \\frac{3 \\times 2}{4 \\times 2} = \\frac{6}{8}$. Cutting each quarter in half makes eighths, and 3 quarters become 6 eighths, so the amount is the same."
+  },
+  {
+    "id": "m6.num.fractions.q022",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Rawiri's whānau had $3\\frac{1}{2}$ L of milk at the start of the week. They drank $1\\frac{3}{4}$ L on Monday and $\\frac{5}{8}$ L on Tuesday. How much milk is left? Give your answer in simplest form.",
+    "answer": 1.125,
+    "form": "simplest-fraction",
+    "units": "L",
+    "hints": ["Change everything into eighths.", "Take away both amounts from the starting amount."],
+    "solution": "In eighths: $3\\frac{1}{2} = \\frac{28}{8}$, $1\\frac{3}{4} = \\frac{14}{8}$ and $\\frac{5}{8}$.\n\n$\\frac{28}{8} - \\frac{14}{8} - \\frac{5}{8} = \\frac{9}{8} = 1\\frac{1}{8}$ L left."
+  },
+  {
+    "id": "m6.num.fractions.q023",
+    "type": "extended",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Hana says $\\frac{2}{3} + \\frac{1}{6} = \\frac{3}{9}$. Explain her mistake, and work out the correct answer.",
+    "modelAnswer": "Hana added the numerators and added the denominators. You can only add fractions when they have the same denominator. 6 is a multiple of 3, so change $\\frac{2}{3}$ into sixths: $\\frac{2}{3} = \\frac{4}{6}$. Then $\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$. Her answer can't be right anyway, because $\\frac{3}{9} = \\frac{1}{3}$ is smaller than $\\frac{2}{3}$.",
+    "rubric": [
+      { "criterion": "Explains that she added the denominators, or that the denominators must be the same before adding", "marks": 1 },
+      { "criterion": "Gives the correct answer 5/6 with working, e.g. 2/3 = 4/6", "marks": 1 }
+    ],
+    "hints": ["What must be true about the denominators before you add fractions?"],
+    "solution": "Change $\\frac{2}{3}$ to $\\frac{4}{6}$, then $\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$. Hana's mistake was adding the denominators."
+  }
+]

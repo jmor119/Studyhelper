@@ -1,0 +1,14 @@
+[
+  { "id": "m6.alg.coordinates.f01", "front": "What is a **coordinate plane**?", "back": "A grid made where two perpendicular number lines (the x-axis and y-axis) meet at 0. It is also called an XY graph." },
+  { "id": "m6.alg.coordinates.f02", "front": "Which way does the **x-axis** go?", "back": "Across (horizontal)." },
+  { "id": "m6.alg.coordinates.f03", "front": "Which way does the **y-axis** go?", "back": "Up (vertical)." },
+  { "id": "m6.alg.coordinates.f04", "front": "What is the **origin**?", "back": "The point $(0, 0)$, where the x-axis and y-axis meet." },
+  { "id": "m6.alg.coordinates.f05", "front": "What is an **ordered pair**?", "back": "Two numbers in brackets, $(x, y)$, that give the position of a point." },
+  { "id": "m6.alg.coordinates.f06", "front": "In $(x, y)$, which number comes first?", "back": "$x$, how far across. Then $y$, how far up. \"Along the hallway, then up the stairs.\"" },
+  { "id": "m6.alg.coordinates.f07", "front": "Are $(2, 5)$ and $(5, 2)$ the same point?", "back": "No. $(2, 5)$ is 2 across and 5 up. $(5, 2)$ is 5 across and 2 up." },
+  { "id": "m6.alg.coordinates.f08", "front": "Where is a point like $(0, 6)$?", "back": "On the y-axis. It is 0 across and 6 up." },
+  { "id": "m6.alg.coordinates.f09", "front": "Where is a point like $(6, 0)$?", "back": "On the x-axis. It is 6 across and 0 up." },
+  { "id": "m6.alg.coordinates.f10", "front": "What does it mean to **plot** a point?", "back": "To find its place on the grid using its coordinates, and mark it." },
+  { "id": "m6.alg.coordinates.f11", "front": "Which coordinate changes when you move right or left?", "back": "The x-coordinate (the first number). Up or down changes the y-coordinate." },
+  { "id": "m6.alg.coordinates.f12", "front": "How do you plot a growing pattern?", "back": "Use (position, term) as each point. Position is x and term is y." }
+]

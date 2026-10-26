@@ -1,0 +1,15 @@
+[
+  { "id": "m6.num.fractions.f01", "front": "What is the **numerator**?", "back": "The top number of a fraction. It tells you how many parts you have." },
+  { "id": "m6.num.fractions.f02", "front": "What is the **denominator**?", "back": "The bottom number of a fraction. It tells you how many equal parts the whole is split into." },
+  { "id": "m6.num.fractions.f03", "front": "What are **equivalent fractions**?", "back": "Fractions that have the same value, like $\\frac{3}{4}$ and $\\frac{6}{8}$." },
+  { "id": "m6.num.fractions.f04", "front": "How do you make an equivalent fraction?", "back": "Multiply (or divide) the numerator and the denominator by the same number." },
+  { "id": "m6.num.fractions.f05", "front": "What is a **common factor**?", "back": "A number that divides exactly into two numbers. 3 is a common factor of 12 and 18." },
+  { "id": "m6.num.fractions.f06", "front": "When is a fraction in **simplest form**?", "back": "When the numerator and denominator have no common factor except 1, like $\\frac{2}{3}$." },
+  { "id": "m6.num.fractions.f07", "front": "What is an **improper fraction**?", "back": "A fraction with a numerator bigger than (or equal to) its denominator, like $\\frac{11}{4}$." },
+  { "id": "m6.num.fractions.f08", "front": "What is a **mixed number**?", "back": "A whole number and a fraction together, like $2\\frac{3}{4}$." },
+  { "id": "m6.num.fractions.f09", "front": "How do you change $\\frac{11}{4}$ into a mixed number?", "back": "Divide: $11 \\div 4 = 2$ remainder 3, so $\\frac{11}{4} = 2\\frac{3}{4}$." },
+  { "id": "m6.num.fractions.f10", "front": "How do you change $3\\frac{2}{5}$ into an improper fraction?", "back": "Whole × denominator + numerator: $3 \\times 5 + 2 = 17$, so $\\frac{17}{5}$." },
+  { "id": "m6.num.fractions.f11", "front": "What must be true before you add or subtract fractions?", "back": "They must have the same denominator. Then add or subtract the numerators and keep the denominator." },
+  { "id": "m6.num.fractions.f12", "front": "Which is bigger: $\\frac{1}{8}$ or $\\frac{1}{4}$?", "back": "$\\frac{1}{4}$. A bigger denominator means the whole is cut into more, smaller pieces." },
+  { "id": "m6.num.fractions.f13", "front": "How do you compare $\\frac{3}{4}$ and $\\frac{5}{8}$?", "back": "Give them the same denominator: $\\frac{3}{4} = \\frac{6}{8}$, which is more than $\\frac{5}{8}$." }
+]

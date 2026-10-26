@@ -1,0 +1,14 @@
+[
+  { "id": "m6.num.fractions-of-amounts.f01", "front": "What is a **unit fraction**?", "back": "A fraction with 1 as the numerator, like $\\frac{1}{3}$ or $\\frac{1}{8}$." },
+  { "id": "m6.num.fractions-of-amounts.f02", "front": "What is a **non-unit fraction**?", "back": "A fraction with a numerator bigger than 1, like $\\frac{3}{4}$ or $\\frac{2}{5}$." },
+  { "id": "m6.num.fractions-of-amounts.f03", "front": "What does **of** mean in \"$\\frac{3}{4}$ of 20\"?", "back": "Find that part of the whole: split 20 into 4 equal parts and take 3 of them." },
+  { "id": "m6.num.fractions-of-amounts.f04", "front": "How do you find a unit fraction of an amount?", "back": "Divide by the denominator. $\\frac{1}{5}$ of 40 is $40 \\div 5 = 8$." },
+  { "id": "m6.num.fractions-of-amounts.f05", "front": "How do you find a non-unit fraction of an amount?", "back": "Divide by the denominator, then multiply by the numerator. $\\frac{3}{4}$ of 28: $28 \\div 4 = 7$, $7 \\times 3 = 21$." },
+  { "id": "m6.num.fractions-of-amounts.f06", "front": "$\\frac{1}{6}$ of a number is 9. How do you find the **whole**?", "back": "Multiply by the denominator: $6 \\times 9 = 54$." },
+  { "id": "m6.num.fractions-of-amounts.f07", "front": "$\\frac{3}{4}$ of a number is 90. How do you find the whole?", "back": "Divide by the numerator to find one part ($90 \\div 3 = 30$), then multiply by the denominator ($4 \\times 30 = 120$)." },
+  { "id": "m6.num.fractions-of-amounts.f08", "front": "How many minutes are in $\\frac{3}{4}$ of an hour?", "back": "45 minutes ($60 \\div 4 \\times 3$)." },
+  { "id": "m6.num.fractions-of-amounts.f09", "front": "How many grams are in $\\frac{1}{4}$ of a kilogram?", "back": "250 g ($1000 \\div 4$)." },
+  { "id": "m6.num.fractions-of-amounts.f10", "front": "How many centimetres are in $\\frac{1}{5}$ of a metre?", "back": "20 cm ($100 \\div 5$)." },
+  { "id": "m6.num.fractions-of-amounts.f11", "front": "You give away $\\frac{3}{8}$ of something. What fraction is left?", "back": "$\\frac{5}{8}$, because $\\frac{8}{8} - \\frac{3}{8} = \\frac{5}{8}$." },
+  { "id": "m6.num.fractions-of-amounts.f12", "front": "What is a **bar model**?", "back": "A bar split into equal parts that shows a fraction problem: which part you know and which part you need to find." }
+]

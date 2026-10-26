@@ -1,0 +1,15 @@
+[
+  { "id": "m7.num.powers-roots.f01", "front": "What is the **base** of a power?", "back": "The number being multiplied. In $5^3$ the base is 5." },
+  { "id": "m7.num.powers-roots.f02", "front": "What is the **exponent** of a power?", "back": "The small raised number. It says how many times the base is multiplied: in $5^3$ it is 3." },
+  { "id": "m7.num.powers-roots.f03", "front": "What is a **power**?", "back": "A number written with a base and an exponent, like $5^3$, meaning $5 \\times 5 \\times 5$." },
+  { "id": "m7.num.powers-roots.f04", "front": "How do you read $7^5$?", "back": "\"7 raised to the power of 5\", or \"7 to the power of 5\"." },
+  { "id": "m7.num.powers-roots.f05", "front": "What does **squared** mean?", "back": "To the power of 2: $6^2 = 6 \\times 6 = 36$." },
+  { "id": "m7.num.powers-roots.f06", "front": "What does **cubed** mean?", "back": "To the power of 3: $4^3 = 4 \\times 4 \\times 4 = 64$." },
+  { "id": "m7.num.powers-roots.f07", "front": "The square numbers to 144", "back": "1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144" },
+  { "id": "m7.num.powers-roots.f08", "front": "The cube numbers to 125", "back": "1, 8, 27, 64, 125" },
+  { "id": "m7.num.powers-roots.f09", "front": "What is a **square root**?", "back": "The number that multiplies by itself to make the given number: $\\sqrt{49} = 7$ because $7 \\times 7 = 49$." },
+  { "id": "m7.num.powers-roots.f10", "front": "What is the **radical sign**?", "back": "The symbol √, which means \"the square root of\"." },
+  { "id": "m7.num.powers-roots.f11", "front": "Is $5^3$ the same as $5 \\times 3$?", "back": "No. $5^3 = 5 \\times 5 \\times 5 = 125$, but $5 \\times 3 = 15$." },
+  { "id": "m7.num.powers-roots.f12", "front": "Between which two whole numbers is $\\sqrt{50}$?", "back": "7 and 8, because $7^2 = 49$ and $8^2 = 64$." },
+  { "id": "m7.num.powers-roots.f13", "front": "A square has an area of 64 cm². How long is each side?", "back": "$\\sqrt{64} = 8$ cm, because $8 \\times 8 = 64$." }
+]

@@ -1,0 +1,559 @@
+[
+  {
+    "id": "m7.geo.polygons.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What makes a polygon **regular**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All its sides are equal and all its angles are equal"
+      },
+      {
+        "id": "b",
+        "text": "All its sides are equal"
+      },
+      {
+        "id": "c",
+        "text": "It has at least one right angle"
+      },
+      {
+        "id": "d",
+        "text": "It has five or more sides"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A rhombus has four equal sides, but its angles are not all equal, so it is not regular.",
+      "c": "Most regular polygons, such as an equilateral triangle, have no right angles.",
+      "d": "An equilateral triangle and a square are regular, and they have fewer than five sides."
+    },
+    "hints": [
+      "Think about a rhombus: its sides are all equal. Is it regular?"
+    ],
+    "solution": "A regular polygon has **all sides equal and all angles equal**. A square is regular. A rhombus is not, because its angles are not all equal."
+  },
+  {
+    "id": "m7.geo.polygons.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each polygon to its number of sides.",
+    "pairs": [
+      {
+        "left": {
+          "id": "quad",
+          "text": "Quadrilateral"
+        },
+        "right": {
+          "id": "s4",
+          "text": "4 sides"
+        }
+      },
+      {
+        "left": {
+          "id": "pent",
+          "text": "Pentagon"
+        },
+        "right": {
+          "id": "s5",
+          "text": "5 sides"
+        }
+      },
+      {
+        "left": {
+          "id": "hex",
+          "text": "Hexagon"
+        },
+        "right": {
+          "id": "s6",
+          "text": "6 sides"
+        }
+      },
+      {
+        "left": {
+          "id": "oct",
+          "text": "Octagon"
+        },
+        "right": {
+          "id": "s8",
+          "text": "8 sides"
+        }
+      },
+      {
+        "left": {
+          "id": "dec",
+          "text": "Decagon"
+        },
+        "right": {
+          "id": "s10",
+          "text": "10 sides"
+        }
+      }
+    ],
+    "hints": [
+      "An octopus has 8 arms. A decade is 10 years."
+    ],
+    "solution": "Quadrilateral 4, pentagon 5, hexagon 6, octagon 8, decagon 10."
+  },
+  {
+    "id": "m7.geo.polygons.q003",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name of a polygon with 6 sides?",
+    "accepted": [
+      "hexagon",
+      "a hexagon"
+    ],
+    "hints": [
+      "Honeycomb cells are this shape."
+    ],
+    "solution": "A polygon with 6 sides is a **hexagon**."
+  },
+  {
+    "id": "m7.geo.polygons.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What do the interior angles of a quadrilateral add up to?",
+    "answer": 360,
+    "units": "°",
+    "hints": [
+      "A line between two opposite corners cuts a quadrilateral into two triangles.",
+      "Each triangle’s angles add up to 180°."
+    ],
+    "solution": "A quadrilateral splits into 2 triangles, so its angles add up to $2 \\times 180° = 360°$."
+  },
+  {
+    "id": "m7.geo.polygons.q005",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which of these are **regular** polygons? Select all that apply.",
+    "options": [
+      {
+        "id": "a",
+        "text": "A square"
+      },
+      {
+        "id": "b",
+        "text": "An equilateral triangle"
+      },
+      {
+        "id": "c",
+        "text": "A rectangle that is 4 cm long and 2 cm wide"
+      },
+      {
+        "id": "d",
+        "text": "A rhombus with angles of 60° and 120°"
+      },
+      {
+        "id": "e",
+        "text": "A hexagon with every side 3 cm and every angle 120°"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "e"
+    ],
+    "hints": [
+      "Check two things for each shape: are all the sides equal, and are all the angles equal?"
+    ],
+    "solution": "The square, the equilateral triangle and the hexagon have all sides equal **and** all angles equal, so they are regular.\n\nThe rectangle has equal angles but its sides are not all equal. The rhombus has equal sides but its angles are not all equal."
+  },
+  {
+    "id": "m7.geo.polygons.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "From one corner, a polygon with $n$ sides can be split into [[a]] triangles. So its interior angles add up to 180° × [[b]].",
+    "blanks": [
+      {
+        "id": "a",
+        "accepted": [
+          "n − 2"
+        ],
+        "options": [
+          "n",
+          "n − 1",
+          "n − 2",
+          "n + 2"
+        ]
+      },
+      {
+        "id": "b",
+        "accepted": [
+          "(n − 2)"
+        ],
+        "options": [
+          "n",
+          "(n − 1)",
+          "(n − 2)",
+          "(n + 2)"
+        ]
+      }
+    ],
+    "hints": [
+      "Try it with a square ($n = 4$). How many triangles do you get from one corner?"
+    ],
+    "solution": "A polygon with $n$ sides splits into $n - 2$ triangles from one corner (a square makes 2, a pentagon makes 3). So the angle sum is $180° \\times (n - 2)$."
+  },
+  {
+    "id": "m7.geo.polygons.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Nikau is making a kite to fly during Matariki. Three of the corners of his kite have angles of 120°, 85° and 85°. What is the angle $x$ at the bottom corner?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 295\" width=\"380\" height=\"295\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"190,40 277,90 190,214 103,90\" fill=\"#fecaca\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"214\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><line x1=\"103\" y1=\"90\" x2=\"277\" y2=\"90\" stroke=\"#9ca3af\" stroke-width=\"1.5\"/><path d=\"M 190 214 q 12 18 0 34 q -12 16 0 30\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.6\"/><path d=\"M 172.66 49.97 A 20 20 0 0 0 207.34 49.97\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"190\" y=\"72\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">120°</text><path d=\"M 259.66 80.03 A 20 20 0 0 0 265.51 106.37\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"239.91\" y=\"98.24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">85°</text><path d=\"M 114.49 106.37 A 20 20 0 0 0 120.34 80.03\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"140.09\" y=\"98.24\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">85°</text><path d=\"M 202.64 195.99 A 22 22 0 0 0 177.36 195.99\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"190\" y=\"180\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><text x=\"372\" y=\"285\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A kite shape with angles of 120° at the top, 85° at each side and x at the bottom."
+    },
+    "answer": 70,
+    "units": "°",
+    "hints": [
+      "A kite has four sides, so it is a quadrilateral.",
+      "The angles of a quadrilateral add up to 360°."
+    ],
+    "solution": "The kite is a quadrilateral, so its angles add up to 360°.\n\n$120° + 85° + 85° = 290°$\n\n$x = 360° - 290° = 70°$"
+  },
+  {
+    "id": "m7.geo.polygons.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mia says the interior angles of a pentagon add up to $5 \\times 180° = 900°$. What has she done wrong?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A pentagon splits into 3 triangles, not 5, so the angles add up to 540°"
+      },
+      {
+        "id": "b",
+        "text": "Nothing. A pentagon has 5 sides, so 900° is right"
+      },
+      {
+        "id": "c",
+        "text": "She should have used 360° for each side: $5 \\times 360° = 1800°$"
+      },
+      {
+        "id": "d",
+        "text": "All polygons have angles that add up to 360°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Try drawing it: from one corner a pentagon only splits into 3 triangles.",
+      "c": "360° is the angle sum of a quadrilateral, not something you use for each side.",
+      "d": "Only quadrilaterals have angles that add up to 360°. The more sides, the bigger the angle sum."
+    },
+    "hints": [
+      "Draw a pentagon and split it into triangles from one corner. How many triangles do you get?"
+    ],
+    "solution": "From one corner, a pentagon splits into $5 - 2 = 3$ triangles. Its angles add up to $3 \\times 180° = 540°$, not 900°."
+  },
+  {
+    "id": "m7.geo.polygons.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "You draw lines from one corner of a polygon with 12 sides to every other corner you can. How many triangles do you make?",
+    "answer": 10,
+    "form": "integer",
+    "hints": [
+      "The two corners next to your corner are already joined to it by sides.",
+      "A polygon with $n$ sides splits into $n - 2$ triangles."
+    ],
+    "solution": "A polygon with $n$ sides splits into $n - 2$ triangles, so this one makes $12 - 2 = 10$ triangles."
+  },
+  {
+    "id": "m7.geo.polygons.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What is the size of each interior angle of a regular hexagon?",
+    "options": [
+      {
+        "id": "a",
+        "text": "120°"
+      },
+      {
+        "id": "b",
+        "text": "60°"
+      },
+      {
+        "id": "c",
+        "text": "720°"
+      },
+      {
+        "id": "d",
+        "text": "108°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "60° is each **exterior** angle ($360° \\div 6$). The interior angle is $180° - 60°$.",
+      "c": "720° is the total of all six interior angles. Share it between the six corners.",
+      "d": "108° is the interior angle of a regular pentagon."
+    },
+    "hints": [
+      "Each exterior angle is $360° \\div 6$.",
+      "Interior angle = 180° − exterior angle."
+    ],
+    "solution": "Each exterior angle is $360° \\div 6 = 60°$, so each interior angle is $180° - 60° = 120°$.\n\nOr: the angle sum is $180° \\times 4 = 720°$, and $720° \\div 6 = 120°$."
+  },
+  {
+    "id": "m7.geo.polygons.q011",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these regular polygons in order of the size of one interior angle, from smallest to largest.",
+    "items": [
+      {
+        "id": "tri",
+        "text": "Equilateral triangle"
+      },
+      {
+        "id": "sq",
+        "text": "Square"
+      },
+      {
+        "id": "pent",
+        "text": "Regular pentagon"
+      },
+      {
+        "id": "hex",
+        "text": "Regular hexagon"
+      },
+      {
+        "id": "oct",
+        "text": "Regular octagon"
+      }
+    ],
+    "hints": [
+      "The more sides a regular polygon has, the smaller its exterior angles.",
+      "Smaller exterior angles mean bigger interior angles."
+    ],
+    "solution": "Equilateral triangle 60°, square 90°, regular pentagon 108°, regular hexagon 120°, regular octagon 135°. More sides means bigger interior angles."
+  },
+  {
+    "id": "m7.geo.polygons.q012",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why the interior angles of any quadrilateral add up to 360°. You can draw a sketch to help.",
+    "modelAnswer": "Draw a line from one corner of the quadrilateral to the opposite corner. This cuts it into two triangles. The angles of each triangle add up to 180°, and together the angles of the two triangles make up all the angles of the quadrilateral. So the angles of the quadrilateral add up to $2 \\times 180° = 360°$.",
+    "rubric": [
+      {
+        "criterion": "Splits the quadrilateral into two triangles (with a diagonal)",
+        "marks": 1
+      },
+      {
+        "criterion": "Uses the triangle angle sum: $2 \\times 180° = 360°$",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "What do the angles of a triangle add up to?",
+      "Can you cut a quadrilateral into triangles?"
+    ],
+    "solution": "A diagonal splits the quadrilateral into two triangles. Each has angles adding to 180°, and their angles together make the quadrilateral’s angles, so the total is $2 \\times 180° = 360°$."
+  },
+  {
+    "id": "m7.geo.polygons.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "A stop sign is a regular octagon. What is the size of each interior angle?",
+    "answer": 135,
+    "units": "°",
+    "hints": [
+      "A regular octagon has 8 equal exterior angles that add up to 360°.",
+      "Interior angle = 180° − exterior angle."
+    ],
+    "solution": "Each exterior angle is $360° \\div 8 = 45°$.\n\nEach interior angle is $180° - 45° = 135°$."
+  },
+  {
+    "id": "m7.geo.polygons.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "In a honeycomb, regular hexagons fit together with no gaps. Each interior angle of a regular hexagon is 120°. How many hexagons meet at each point?",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 290\" width=\"380\" height=\"290\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"190,140 250.62,105 250.62,35 190,0 129.38,35 129.38,105\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"190,140 129.38,105 68.76,140 68.76,210 129.38,245 190,210\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><polygon points=\"190,140 190,210 250.62,245 311.24,210 311.24,140 250.62,105\" fill=\"#fde68a\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 205.59 131 A 18 18 0 0 0 174.41 131\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"190\" y=\"110\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">120°</text><path d=\"M 174.41 131 A 18 18 0 0 0 190 158\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"155.29\" y=\"160.04\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">120°</text><path d=\"M 190 158 A 18 18 0 0 0 205.59 131\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"224.71\" y=\"160.04\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">120°</text></svg>",
+      "alt": "Three regular hexagons meeting at one point. Each hexagon has a 120° angle at that point."
+    },
+    "answer": 3,
+    "form": "integer",
+    "hints": [
+      "The angles around a point add up to 360°.",
+      "How many lots of 120° make 360°?"
+    ],
+    "solution": "The angles around a point add up to 360°, and $360° \\div 120° = 3$. So **3** hexagons meet at each point, with no gaps."
+  },
+  {
+    "id": "m7.geo.polygons.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Can a regular polygon have exterior angles of 50°?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No, because 360 ÷ 50 is not a whole number"
+      },
+      {
+        "id": "b",
+        "text": "Yes, it would have 50 sides"
+      },
+      {
+        "id": "c",
+        "text": "Yes, it would have 7 sides"
+      },
+      {
+        "id": "d",
+        "text": "No, because exterior angles must be more than 90°"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "A regular polygon with 50 sides has exterior angles of $360° \\div 50 = 7.2°$.",
+      "c": "$7 \\times 50° = 350°$, which is not 360°. A regular 7-sided polygon has exterior angles of about 51.4°.",
+      "d": "Exterior angles can be small. A regular octagon has exterior angles of 45°."
+    },
+    "hints": [
+      "The number of sides is 360 ÷ the exterior angle.",
+      "Can a polygon have a part of a side?"
+    ],
+    "solution": "The number of sides would be $360 \\div 50 = 7.2$. A polygon must have a whole number of sides, so this is **not possible**."
+  },
+  {
+    "id": "m7.geo.polygons.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "This pentagon has two right angles. The other three angles are all equal. Find the size of each of the equal angles, $x$.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 280\" width=\"380\" height=\"280\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"71.83,244.51 320,244.51 297,86.9 182.54,30.49 60,99.05\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><polyline points=\"70.78,231.55 83.78,231.55 84.83,244.51\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><polyline points=\"307,244.51 305.12,231.64 318.12,231.64\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><path d=\"M 299.89 106.69 A 20 20 0 0 1 279.06 78.06\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"270.89\" y=\"105.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><path d=\"M 200.48 39.33 A 20 20 0 0 1 165.09 40.26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"183.38\" y=\"62.58\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><path d=\"M 77.45 89.28 A 20 20 0 0 1 61.62 118.98\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"88.02\" y=\"113.99\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x</text><text x=\"372\" y=\"270\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A pentagon shaped like a house, with right angles at the two bottom corners and three equal angles x at the other corners."
+    },
+    "answer": 120,
+    "units": "°",
+    "hints": [
+      "Find the angle sum of a pentagon first.",
+      "Take away the two right angles, then share what is left between the three equal angles."
+    ],
+    "solution": "Angle sum of a pentagon: $180° \\times 3 = 540°$.\n\nTake away the two right angles: $540° - 90° - 90° = 360°$.\n\nShare between the three equal angles: $x = 360° \\div 3 = 120°$."
+  },
+  {
+    "id": "m7.geo.polygons.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Each interior angle of a regular pentagon is 108°. Can regular pentagons fit together around a point with no gaps or overlaps?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No. Three leave a 36° gap, and four would overlap"
+      },
+      {
+        "id": "b",
+        "text": "Yes. Three fit exactly"
+      },
+      {
+        "id": "c",
+        "text": "Yes. Four fit exactly"
+      },
+      {
+        "id": "d",
+        "text": "Yes. Any regular polygon fits around a point"
+      }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$3 \\times 108° = 324°$, which is less than 360°.",
+      "c": "$4 \\times 108° = 432°$, which is more than 360°.",
+      "d": "Only some do. The angles at the point must add to exactly 360°."
+    },
+    "hints": [
+      "The angles around a point must add to exactly 360°.",
+      "Try $3 \\times 108°$ and $4 \\times 108°$."
+    ],
+    "solution": "Around a point the angles must add to 360°.\n\n$3 \\times 108° = 324°$ leaves a gap of $360° - 324° = 36°$.\n\n$4 \\times 108° = 432°$ is too much, so they would overlap.\n\nSo regular pentagons **can’t** fit together around a point."
+  },
+  {
+    "id": "m7.geo.polygons.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hana says: “A hexagon has more corners than a triangle, so its exterior angles must add up to more.” Is she right? Explain your answer.",
+    "modelAnswer": "Hana is not right. The exterior angles of any polygon add up to 360°. If you walk around the edge of any polygon, turning at each corner, you make exactly one full turn by the time you are back where you started. A hexagon has more turns than a triangle, but each turn is smaller, so the total is still 360°. For example, a regular triangle has exterior angles of 120° (3 × 120° = 360°) and a regular hexagon has 60° (6 × 60° = 360°).",
+    "rubric": [
+      {
+        "criterion": "States that Hana is wrong because the exterior angles of every polygon add up to 360°",
+        "marks": 1
+      },
+      {
+        "criterion": "Explains why, for example one full turn when walking around the shape, or a correct example such as 3 × 120° and 6 × 60°",
+        "marks": 1
+      }
+    ],
+    "hints": [
+      "Imagine walking all the way around each shape. How much do you turn altogether?"
+    ],
+    "solution": "No. Exterior angles always add to 360° (one full turn). A hexagon has more corners, but each exterior angle is smaller: a regular triangle has $3 \\times 120° = 360°$ and a regular hexagon has $6 \\times 60° = 360°$."
+  },
+  {
+    "id": "m7.geo.polygons.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The interior angles of a polygon add up to 1980°. How many sides does it have?",
+    "answer": 13,
+    "form": "integer",
+    "hints": [
+      "How many lots of 180° make 1980°? That is the number of triangles.",
+      "The polygon has 2 more sides than it has triangles."
+    ],
+    "solution": "$1980 \\div 180 = 11$, so the polygon splits into 11 triangles.\n\nNumber of sides $= 11 + 2 = 13$.\n\nCheck: $180° \\times (13 - 2) = 180° \\times 11 = 1980°$ ✓"
+  },
+  {
+    "id": "m7.geo.polygons.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write an equation and solve it to find the value of $x$ in this pentagon.",
+    "figure": {
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 280\" width=\"380\" height=\"280\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><polygon points=\"60,232.01 267.74,232.01 320,132.06 265.34,58.87 126.7,42.99\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"2\"/><path d=\"M 66.66 213.14 A 20 20 0 0 1 80 232.01\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"88.93\" y=\"211.53\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">x°</text><path d=\"M 247.74 232.01 A 20 20 0 0 1 277.01 214.28\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"248.54\" y=\"200.29\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">2x°</text><path d=\"M 310.73 149.79 A 20 20 0 0 1 308.03 116.04\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"278.94\" y=\"135.35\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">110°</text><path d=\"M 277.31 74.9 A 20 20 0 0 1 245.47 56.6\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"246.94\" y=\"90.89\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">2x°</text><path d=\"M 146.57 45.27 A 20 20 0 0 1 120.04 61.86\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"1.8\"/><text x=\"147.51\" y=\"76.27\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"#2563eb\">110°</text><text x=\"372\" y=\"270\" text-anchor=\"end\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"#6b7280\">Not to scale</text></svg>",
+      "alt": "A pentagon with interior angles x°, 2x°, 110°, 2x° and 110°."
+    },
+    "answer": 64,
+    "hints": [
+      "The angles of a pentagon add up to 540°.",
+      "Write $x + 2x + 2x + 110 + 110 = 540$, then collect like terms."
+    ],
+    "solution": "The angles of a pentagon add up to $180° \\times 3 = 540°$.\n\n$x + 2x + 2x + 110 + 110 = 540$\n\nCollect like terms: $5x + 220 = 540$\n\nSubtract 220: $5x = 320$\n\nDivide by 5: $x = 64$\n\nCheck: $64 + 128 + 128 + 110 + 110 = 540$ ✓"
+  },
+  {
+    "id": "m7.geo.polygons.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In a regular polygon, each interior angle is 4 times the size of each exterior angle. How many sides does the polygon have?",
+    "answer": 10,
+    "form": "integer",
+    "hints": [
+      "At each corner, the interior and exterior angles add up to 180°.",
+      "If the exterior angle is $e$, the interior angle is $4e$, so $e + 4e = 180$."
+    ],
+    "solution": "Let each exterior angle be $e$. Then $e + 4e = 180$, so $5e = 180$ and $e = 36°$.\n\nThe exterior angles add up to 360°, so the number of sides is $360 \\div 36 = 10$.\n\nCheck: interior angle $= 144° = 4 \\times 36°$ ✓"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {"id":"m6.geo.shapes.f01","front":"What is a **quadrilateral**?","back":"A flat shape with four straight sides."},
+  {"id":"m6.geo.shapes.f02","front":"What does **parallel** mean?","back":"Lines that always stay the same distance apart and never meet, like railway tracks."},
+  {"id":"m6.geo.shapes.f03","front":"What is a **trapezium**?","back":"A quadrilateral with exactly one pair of parallel sides."},
+  {"id":"m6.geo.shapes.f04","front":"What is a **parallelogram**?","back":"A quadrilateral with two pairs of parallel sides. Its opposite sides are also equal."},
+  {"id":"m6.geo.shapes.f05","front":"What is a **kite**?","back":"A quadrilateral with two pairs of equal sides next to each other."},
+  {"id":"m6.geo.shapes.f06","front":"What is a **rhombus**?","back":"A quadrilateral with four equal sides."},
+  {"id":"m6.geo.shapes.f07","front":"What makes a quadrilateral a **rectangle**?","back":"Four right angles."},
+  {"id":"m6.geo.shapes.f08","front":"What is a **square**?","back":"A quadrilateral with four equal sides and four right angles. It is also a rectangle, a rhombus and a parallelogram."},
+  {"id":"m6.geo.shapes.f09","front":"What do tick marks, arrows and small squares show on a shape?","back":"Tick marks: equal sides. Arrows: parallel sides. A small square: a right angle."},
+  {"id":"m6.geo.shapes.f10","front":"What is an **interior angle**?","back":"An angle inside a shape, where two sides meet."},
+  {"id":"m6.geo.shapes.f11","front":"Equilateral, isosceles and scalene triangles","back":"Equilateral: 3 equal sides. Isosceles: 2 equal sides. Scalene: no equal sides."},
+  {"id":"m6.geo.shapes.f12","front":"What is the **order of rotational symmetry**?","back":"The number of times a shape looks exactly the same during one full turn (360°)."},
+  {"id":"m6.geo.shapes.f13","front":"Prism vs pyramid","back":"Prism: two matching ends joined by rectangles. Pyramid: one base, with triangles meeting at a point (the apex)."},
+  {"id":"m6.geo.shapes.f14","front":"Face, edge and vertex","back":"Face: a flat surface. Edge: where two faces meet. Vertex: a corner."},
+  {"id":"m6.geo.shapes.f15","front":"Faces, edges and vertices of a triangular prism","back":"5 faces, 9 edges and 6 vertices."}
+]

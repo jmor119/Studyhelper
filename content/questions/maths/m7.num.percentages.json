@@ -1,0 +1,320 @@
+[
+  {
+    "id": "m7.num.percentages.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Per cent means \"out of [[a]]\".",
+    "blanks": [{ "id": "a", "accepted": ["100", "one hundred", "a hundred", "hundred"] }],
+    "hints": ["Think of the word \"century\": 100 years."],
+    "solution": "Per cent means **out of 100**. So 35% means 35 out of 100, or $\\frac{35}{100}$."
+  },
+  {
+    "id": "m7.num.percentages.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these is the same as 30%?",
+    "options": [
+      { "id": "a", "text": "$0.3$" },
+      { "id": "b", "text": "$0.03$" },
+      { "id": "c", "text": "$3$" },
+      { "id": "d", "text": "$\\frac{1}{30}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$0.03$ is 3 hundredths, which is 3%.",
+      "c": "3 is three wholes, which is 300%.",
+      "d": "$\\frac{1}{30}$ is one part out of 30. 30% is 30 parts out of 100."
+    },
+    "hints": ["30% means 30 out of 100. Write that as a fraction, then as a decimal."],
+    "solution": "$30\\% = \\frac{30}{100} = \\frac{3}{10} = 0.3$"
+  },
+  {
+    "id": "m7.num.percentages.q003",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each fraction to its percentage.",
+    "pairs": [
+      { "left": { "id": "h", "text": "$\\frac{1}{2}$" }, "right": { "id": "p50", "text": "50%" } },
+      { "left": { "id": "q", "text": "$\\frac{1}{4}$" }, "right": { "id": "p25", "text": "25%" } },
+      { "left": { "id": "tq", "text": "$\\frac{3}{4}$" }, "right": { "id": "p75", "text": "75%" } },
+      { "left": { "id": "f", "text": "$\\frac{1}{5}$" }, "right": { "id": "p20", "text": "20%" } },
+      { "left": { "id": "t", "text": "$\\frac{1}{10}$" }, "right": { "id": "p10", "text": "10%" } }
+    ],
+    "hints": ["Make each denominator 100. For example, $\\frac{1}{5} = \\frac{20}{100}$."],
+    "solution": "$\\frac{1}{2} = 50\\%$, $\\frac{1}{4} = 25\\%$, $\\frac{3}{4} = 75\\%$, $\\frac{1}{5} = 20\\%$ and $\\frac{1}{10} = 10\\%$."
+  },
+  {
+    "id": "m7.num.percentages.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Find 50% of 86.",
+    "answer": 43,
+    "form": "integer",
+    "hints": ["50% is the same as one half."],
+    "solution": "50% is half: $86 \\div 2 = 43$."
+  },
+  {
+    "id": "m7.num.percentages.q005",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "The grid has 100 small squares. What percentage of the grid is shaded?",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 240\" width=\"260\" height=\"240\" font-family=\"sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"20\" y=\"10\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"32\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"54\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"76\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"98\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"120\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"142\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"164\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"186\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"208\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"10\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"32\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"54\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"76\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"98\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"120\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"142\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"164\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"186\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"42\" y=\"208\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"10\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"32\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"54\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"76\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"98\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"120\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"142\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"164\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"186\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"64\" y=\"208\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"10\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"32\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"54\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"76\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"98\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"120\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"142\" width=\"22\" height=\"22\" fill=\"#60a5fa\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"86\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"10\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"32\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"54\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"76\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"98\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"120\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"142\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"108\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"10\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"32\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"54\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"76\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"98\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"120\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"142\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"130\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"10\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"32\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"54\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"76\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"98\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"120\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"142\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"152\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"10\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"32\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"54\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"76\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"98\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"120\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"142\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"174\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"10\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"32\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"54\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"76\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"98\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"120\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"142\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"196\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"10\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"32\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"54\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"76\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"98\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"120\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"142\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"164\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"186\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"218\" y=\"208\" width=\"22\" height=\"22\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1\"/><rect x=\"20\" y=\"10\" width=\"220\" height=\"220\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"2\"/></svg>","alt":"A 10 by 10 grid of 100 small squares. Three full columns and 7 squares of the next column are shaded."},
+    "answer": 37,
+    "units": "%",
+    "hints": ["Count the shaded squares. Each full column has 10 squares."],
+    "solution": "3 full columns are $3 \\times 10 = 30$ squares, plus 7 more makes 37 squares. 37 out of 100 is $37\\%$."
+  },
+  {
+    "id": "m7.num.percentages.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Leo says that $0.6$ is the same as 6%. Is he right?",
+    "options": [
+      { "id": "a", "text": "No. $0.6$ is 6 tenths, which is 60 hundredths, so $0.6 = 60\\%$." },
+      { "id": "b", "text": "Yes. You just remove the decimal point." },
+      { "id": "c", "text": "No. $0.6 = 0.6\\%$." },
+      { "id": "d", "text": "No. $0.6 = 600\\%$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Removing the decimal point doesn't always give the percentage. Multiply by 100 instead: $0.6 \\times 100 = 60$.",
+      "c": "$0.6\\%$ is less than 1%. $0.6$ is more than half, so it must be more than 50%.",
+      "d": "600% is six wholes. $0.6$ is less than one whole, so it is less than 100%."
+    },
+    "hints": ["How many hundredths is 6 tenths?"],
+    "solution": "$0.6 = \\frac{6}{10} = \\frac{60}{100} = 60\\%$. To change a decimal to a percentage, multiply by 100."
+  },
+  {
+    "id": "m7.num.percentages.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find 20% of 45.",
+    "answer": 9,
+    "form": "integer",
+    "hints": ["Find 10% first.", "20% is double 10%."],
+    "solution": "10% of 45 is 4.5, so 20% is $2 \\times 4.5 = 9$. (Or: $20\\% = \\frac{1}{5}$, and $45 \\div 5 = 9$.)"
+  },
+  {
+    "id": "m7.num.percentages.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write $\\frac{3}{20}$ as a percentage.",
+    "answer": 15,
+    "units": "%",
+    "hints": ["What do you multiply 20 by to get 100?"],
+    "solution": "$20 \\times 5 = 100$, so $\\frac{3}{20} = \\frac{15}{100} = 15\\%$."
+  },
+  {
+    "id": "m7.num.percentages.q009",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Write $0.07$ as a percentage.",
+    "answer": 7,
+    "units": "%",
+    "hints": ["$0.07$ is 7 hundredths."],
+    "solution": "$0.07 = \\frac{7}{100} = 7\\%$. (Multiply by 100: $0.07 \\times 100 = 7$.)"
+  },
+  {
+    "id": "m7.num.percentages.q010",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the ways to find 25% of 80.",
+    "options": [
+      { "id": "a", "text": "$80 \\div 4$" },
+      { "id": "b", "text": "Halve 80, then halve again" },
+      { "id": "c", "text": "$\\frac{1}{4} \\times 80$" },
+      { "id": "d", "text": "$80 \\div 25$" },
+      { "id": "e", "text": "$80 - 25$" },
+      { "id": "f", "text": "$80 \\times 25$" }
+    ],
+    "correct": ["a", "b", "c"],
+    "hints": ["What fraction is the same as 25%?"],
+    "solution": "$25\\% = \\frac{1}{4}$, so 25% of 80 is $80 \\div 4 = 20$. Halving twice also divides by 4: $80 \\to 40 \\to 20$.\n\n$80 \\div 25$, $80 - 25$ and $80 \\times 25$ don't give 20."
+  },
+  {
+    "id": "m7.num.percentages.q011",
+    "type": "order",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these in order from **smallest** to **largest**: $0.45$, $\\frac{2}{5}$, 42% and $\\frac{1}{2}$.",
+    "items": [
+      { "id": "s", "text": "$\\frac{2}{5}$" },
+      { "id": "u", "text": "$42\\%$" },
+      { "id": "p", "text": "$0.45$" },
+      { "id": "w", "text": "$\\frac{1}{2}$" }
+    ],
+    "hints": ["Change them all to percentages."],
+    "solution": "$0.45 = 45\\%$, $\\frac{2}{5} = 40\\%$, $42\\%$ and $\\frac{1}{2} = 50\\%$.\n\nFrom smallest to largest: $\\frac{2}{5}$, $42\\%$, $0.45$, $\\frac{1}{2}$."
+  },
+  {
+    "id": "m7.num.percentages.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "There are 240 tickets for the school production. 35% of them are sold on the first day. How many tickets are sold on the first day?",
+    "answer": 84,
+    "form": "integer",
+    "hints": ["Find 10% first, then 5%.", "35% is 3 lots of 10%, plus 5%."],
+    "solution": "10% of 240 is 24, so 30% is $3 \\times 24 = 72$. 5% is half of 10%: 12.\n\n35% is $72 + 12 = 84$ tickets."
+  },
+  {
+    "id": "m7.num.percentages.q013",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Which is the **largest**?",
+    "options": [
+      { "id": "a", "text": "$41\\%$" },
+      { "id": "b", "text": "$\\frac{3}{8}$" },
+      { "id": "c", "text": "$0.36$" },
+      { "id": "d", "text": "$\\frac{2}{5}$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$\\frac{3}{8} = 0.375 = 37.5\\%$, which is less than 41%.",
+      "c": "$0.36 = 36\\%$, which is less than 41%.",
+      "d": "$\\frac{2}{5} = \\frac{40}{100} = 40\\%$. Close, but 41% is bigger."
+    },
+    "hints": ["Change them all into percentages.", "$\\frac{1}{8} = 12.5\\%$."],
+    "solution": "As percentages: $\\frac{3}{8} = 37.5\\%$, $0.36 = 36\\%$, $\\frac{2}{5} = 40\\%$ and $41\\%$. The largest is $41\\%$."
+  },
+  {
+    "id": "m7.num.percentages.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "25% of the students in Room 6 have a pet dog. That is 7 students. How many students are in Room 6?",
+    "answer": 28,
+    "form": "integer",
+    "hints": ["25% is one quarter of the class.", "How many lots of 25% make 100%?"],
+    "solution": "25% is 7 students. 100% is 4 lots of 25%: $4 \\times 7 = 28$ students."
+  },
+  {
+    "id": "m7.num.percentages.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere scored 40% of her netball team's goals in a game. She scored 18 goals. How many goals did the team score altogether?",
+    "answer": 45,
+    "form": "integer",
+    "hints": ["40% is 2 lots of 20%. Find 20% first.", "The whole team's goals are 100%. How many lots of 20% make 100%?"],
+    "solution": "40% is 18 goals, so 20% is $18 \\div 2 = 9$ goals.\n\n100% is 5 lots of 20%: $5 \\times 9 = 45$ goals.\n\nCheck: 10% of 45 is 4.5, so 40% is $4 \\times 4.5 = 18$ ✓"
+  },
+  {
+    "id": "m7.num.percentages.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "To find 15% of 60, Ana works out $60 \\div 15 = 4$. What has she done wrong?",
+    "options": [
+      { "id": "a", "text": "Dividing by 15 doesn't find 15%. 10% of 60 is 6 and 5% is 3, so 15% is 9." },
+      { "id": "b", "text": "Nothing. 15% of 60 is 4." },
+      { "id": "c", "text": "She should have subtracted: $60 - 15 = 45$." },
+      { "id": "d", "text": "She should have multiplied: $60 \\times 15 = 900$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$60 \\div 15$ finds $\\frac{1}{15}$ of 60, which is about 6.7%, not 15%.",
+      "c": "$60 - 15$ takes away 15, not 15%. That leaves most of the 60.",
+      "d": "15% of 60 must be less than 60, so 900 is far too big."
+    },
+    "hints": ["Find 10% of 60 first. Then find 5%."],
+    "solution": "10% of 60 is 6, and 5% is half of that, 3. So 15% of 60 is $6 + 3 = 9$. Dividing by 15 finds one-fifteenth, which is a different amount."
+  },
+  {
+    "id": "m7.num.percentages.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "80 students were asked their favourite winter sport. 45% chose rugby, 30% chose netball and the rest chose football. How many students chose football?",
+    "answer": 20,
+    "form": "integer",
+    "hints": ["All the students together make 100%. What percentage chose football?", "Then find that percentage of 80."],
+    "solution": "Football: $100\\% - 45\\% - 30\\% = 25\\%$.\n\n25% is a quarter: $80 \\div 4 = 20$ students."
+  },
+  {
+    "id": "m7.num.percentages.q018",
+    "type": "cloze",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Complete the working to find 35% of 340.\n\n10% of 340 = [[a]]\n\n5% of 340 = [[b]]\n\n30% of 340 = [[c]]\n\nSo 35% of 340 = [[d]]",
+    "blanks": [
+      { "id": "a", "accepted": ["34"] },
+      { "id": "b", "accepted": ["17"] },
+      { "id": "c", "accepted": ["102"] },
+      { "id": "d", "accepted": ["119"] }
+    ],
+    "hints": ["10% means divide by 10.", "5% is half of 10%, and 30% is 3 lots of 10%."],
+    "solution": "10% = $340 \\div 10 = 34$. 5% = half of 34 = 17. 30% = $3 \\times 34 = 102$. 35% = $102 + 17 = 119$."
+  },
+  {
+    "id": "m7.num.percentages.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "How much bigger is 40% of 35 than 15% of 80?",
+    "answer": 2,
+    "form": "integer",
+    "hints": ["Work out each percentage separately.", "Then find the difference."],
+    "solution": "40% of 35: 10% is 3.5, so 40% is $4 \\times 3.5 = 14$.\n\n15% of 80: 10% is 8 and 5% is 4, so 15% is 12.\n\n$14 - 12 = 2$"
+  },
+  {
+    "id": "m7.num.percentages.q020",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $\\frac{1}{2}$, $0.5$ and 50% all mean the same amount. You can describe a picture, such as a hundred square, to help.",
+    "modelAnswer": "On a hundred square, shading half the grid means shading 50 of the 100 squares. 50 out of 100 is 50%. As a fraction it is $\\frac{50}{100}$, which simplifies to $\\frac{1}{2}$. As a decimal, 50 hundredths is 5 tenths, which is 0.5. So all three describe the same amount: half.",
+    "rubric": [
+      { "criterion": "Links them through hundredths: 50% = $\\frac{50}{100}$ = 0.50 (or 5 tenths)", "marks": 1 },
+      { "criterion": "Shows that $\\frac{50}{100}$ simplifies to $\\frac{1}{2}$, or uses a picture showing half is 50 out of 100", "marks": 1 }
+    ],
+    "hints": ["What does per cent mean?", "How many squares out of 100 make half?"],
+    "solution": "Half of 100 squares is 50 squares, so $\\frac{1}{2} = \\frac{50}{100} = 50\\%$. 50 hundredths is the same as 5 tenths, so it is also 0.5."
+  },
+  {
+    "id": "m7.num.percentages.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi has read 65% of his book. He has 63 pages left to read. How many pages are in the whole book?",
+    "answer": 180,
+    "form": "integer",
+    "hints": ["What percentage of the book is left to read?", "That percentage is worth 63 pages. Find 5% first."],
+    "solution": "Left to read: $100\\% - 65\\% = 35\\%$, which is 63 pages.\n\n35% is 7 lots of 5%, so 5% is $63 \\div 7 = 9$ pages.\n\n100% is 20 lots of 5%: $20 \\times 9 = 180$ pages.\n\nCheck: 35% of 180 is 63 ✓"
+  },
+  {
+    "id": "m7.num.percentages.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri scored 18 out of 25 on a spelling test. Isla scored 14 out of 20 on a different spelling test. Who did better? Use percentages to explain your answer.",
+    "modelAnswer": "Rawiri: $\\frac{18}{25} = \\frac{72}{100} = 72\\%$ (multiply the top and bottom by 4). Isla: $\\frac{14}{20} = \\frac{70}{100} = 70\\%$ (multiply the top and bottom by 5). 72% is more than 70%, so Rawiri did better, even though the tests had different totals.",
+    "rubric": [
+      { "criterion": "Changes Rawiri's score to 72%", "marks": 1 },
+      { "criterion": "Changes Isla's score to 70%", "marks": 1 },
+      { "criterion": "Concludes that Rawiri did better because 72% > 70%", "marks": 1 }
+    ],
+    "hints": ["The tests have different totals, so compare percentages.", "Make each denominator 100."],
+    "solution": "$\\frac{18}{25} = 72\\%$ and $\\frac{14}{20} = 70\\%$. Rawiri did better. Percentages let you compare scores out of different totals."
+  }
+]

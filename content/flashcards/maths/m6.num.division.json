@@ -1,0 +1,14 @@
+[
+  { "id": "m6.num.division.f01", "front": "What does **divide** mean?", "back": "Share into equal parts, or make equal groups." },
+  { "id": "m6.num.division.f02", "front": "What is the **divisor**?", "back": "The number you divide by. In $23 \\div 5$, the divisor is 5." },
+  { "id": "m6.num.division.f03", "front": "What is the **quotient**?", "back": "The answer to a division. In $45 \\div 9 = 5$, the quotient is 5." },
+  { "id": "m6.num.division.f04", "front": "What is the **remainder**?", "back": "The amount left over after making equal groups. $23 \\div 5 = 4$ r 3, so the remainder is 3." },
+  { "id": "m6.num.division.f05", "front": "How big can a remainder be?", "back": "It must be smaller than the divisor. If it isn't, another group fits." },
+  { "id": "m6.num.division.f06", "front": "What is a **unit fraction**?", "back": "A fraction with 1 on top, like $\\frac{1}{6}$. Finding $\\frac{1}{6}$ of a number means dividing it by 6." },
+  { "id": "m6.num.division.f07", "front": "What is $\\frac{1}{6}$ of 31?", "back": "$31 \\div 6 = 5$ r 1, so it is $5\\frac{1}{6}$." },
+  { "id": "m6.num.division.f08", "front": "Write $47 \\div 4$ as a decimal", "back": "$47 \\div 4 = 11$ r 3, and $\\frac{3}{4} = 0.75$, so it is 11.75." },
+  { "id": "m6.num.division.f09", "front": "In short division, what do you do when the divisor doesn't go into a digit?", "back": "Write 0 in the answer and carry that digit to the next one." },
+  { "id": "m6.num.division.f10", "front": "How do you check $1{,}283 \\div 5 = 256$ r 3?", "back": "Quotient × divisor + remainder: $256 \\times 5 + 3 = 1{,}280 + 3 = 1{,}283$ ✓" },
+  { "id": "m6.num.division.f11", "front": "When do you **round up** the answer to a division problem?", "back": "When everyone or everything needs a place, e.g. vans for students or tables for guests." },
+  { "id": "m6.num.division.f12", "front": "When do you **round down** the answer to a division problem?", "back": "When only full groups count, e.g. full boxes or complete teams." }
+]

@@ -1,0 +1,14 @@
+[
+  { "id": "m6.num.place-value.f01", "front": "What is a **digit**?", "back": "One of the symbols 0, 1, 2, 3, 4, 5, 6, 7, 8 or 9 that we use to write numbers." },
+  { "id": "m6.num.place-value.f02", "front": "What is **place value**?", "back": "The value a digit has because of its place. In 4,618,250 the 6 is worth 600,000." },
+  { "id": "m6.num.place-value.f03", "front": "Why is our number system called **base 10**?", "back": "Each place is worth 10 times as much as the place to its right." },
+  { "id": "m6.num.place-value.f04", "front": "How many thousands make a **million**?", "back": "A thousand thousands: 1,000 × 1,000 = 1,000,000." },
+  { "id": "m6.num.place-value.f05", "front": "Name the places from ones up to millions.", "back": "Ones, tens, hundreds, thousands, ten thousands, hundred thousands, millions." },
+  { "id": "m6.num.place-value.f06", "front": "How do you compare two whole numbers?", "back": "Count the digits first: more digits means bigger. If they have the same number of digits, compare from the left." },
+  { "id": "m6.num.place-value.f07", "front": "What does it mean to **round** a number?", "back": "Change it to a nearby number that is easier to use, like 3,487 → 3,500." },
+  { "id": "m6.num.place-value.f08", "front": "The rule for rounding", "back": "Look at the digit to the right of the place you are rounding to. 5 or more: round up. 4 or less: round down." },
+  { "id": "m6.num.place-value.f09", "front": "What is a **tenth**? What is a **hundredth**?", "back": "A tenth is one of 10 equal parts of a whole (0.1). A hundredth is one of 100 equal parts (0.01)." },
+  { "id": "m6.num.place-value.f10", "front": "How do you round a decimal to the nearest tenth?", "back": "Look at the hundredths digit. 14.67 rounds to 14.7, because 7 is 5 or more." },
+  { "id": "m6.num.place-value.f11", "front": "What is an **estimate**?", "back": "A close answer worked out quickly with rounded numbers, e.g. 48 × 31 ≈ 50 × 30 = 1,500." },
+  { "id": "m6.num.place-value.f12", "front": "What do $<$ and $>$ mean?", "back": "$<$ means \"is less than\" and $>$ means \"is greater than\". The pointy end points to the smaller number." }
+]

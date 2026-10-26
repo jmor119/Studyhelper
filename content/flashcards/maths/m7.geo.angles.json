@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m7.geo.angles.f01",
+    "front": "What are **complementary** angles?",
+    "back": "Two angles that add up to 90°. Together they make a right angle."
+  },
+  {
+    "id": "m7.geo.angles.f02",
+    "front": "What are **supplementary** angles?",
+    "back": "Two angles that add up to 180°. Together they make a straight line."
+  },
+  {
+    "id": "m7.geo.angles.f03",
+    "front": "What are **adjacent** angles?",
+    "back": "Angles that sit side by side, sharing a vertex and an arm."
+  },
+  {
+    "id": "m7.geo.angles.f04",
+    "front": "What are **vertically opposite** angles?",
+    "back": "The angles directly across from each other where two straight lines cross. They are equal."
+  },
+  {
+    "id": "m7.geo.angles.f05",
+    "front": "Angles on a straight line add up to…",
+    "back": "180°."
+  },
+  {
+    "id": "m7.geo.angles.f06",
+    "front": "Angles around a point add up to…",
+    "back": "360°."
+  },
+  {
+    "id": "m7.geo.angles.f07",
+    "front": "What does **perpendicular** mean?",
+    "back": "Meeting at a right angle (90°). It is shown with a small square in the corner."
+  },
+  {
+    "id": "m7.geo.angles.f08",
+    "front": "What are **parallel** lines?",
+    "back": "Lines that go the same way and never meet. They are shown with matching arrows."
+  },
+  {
+    "id": "m7.geo.angles.f09",
+    "front": "What is a **transversal**?",
+    "back": "A line that crosses two or more other lines."
+  },
+  {
+    "id": "m7.geo.angles.f10",
+    "front": "**Corresponding angles** (F shape)",
+    "back": "In the same position at each crossing of parallel lines. They are equal."
+  },
+  {
+    "id": "m7.geo.angles.f11",
+    "front": "**Alternate angles** (Z shape)",
+    "back": "Between the parallel lines, on opposite sides of the transversal. They are equal."
+  },
+  {
+    "id": "m7.geo.angles.f12",
+    "front": "$x°$ and $2x°$ make a straight line. How do you find $x$?",
+    "back": "$x + 2x = 180$, so $3x = 180$ and $x = 60$."
+  }
+]

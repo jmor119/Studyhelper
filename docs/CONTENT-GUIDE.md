@@ -169,3 +169,64 @@ Keep everything at **Year 9 level** as defined by the topic outcomes. Don't drif
 - At least 3 templates covering difficulties 1–5 between them, where the topic allows.
 - At least 6 bank questions for what templates can't do well: concept MCQs, "explain" questions, vocabulary, interpreting displays, and choosing a method.
 - At least 8 flashcards (key terms, formulas, facts).
+
+## 10. Years 6 and 7 (primary and intermediate maths)
+
+Topics are in `curriculum/nz/year6-maths.ts` (ids `m6.*`) and `year7-maths.ts` (`m7.*`). The source notes, with each year's official vocabulary, are in `docs/research/nz-curriculum-year6-7-maths.md` §3. Everything in §1–§9 applies, with these changes.
+
+**Audience.** Year 6 students are 10–11 years old; Year 7 students are 11–12.
+- Short sentences, everyday words, and one idea per sentence. Aim for a reading age of about 9 for Year 6 and 10 for Year 7.
+- Bold and explain each new word the first time it appears, using the words in that year's official vocabulary list.
+- Contexts children know: school, sport, kai and baking, pets, pocket money, the beach, the marae, holidays, school camps, Matariki, weather, buses and trains.
+- Friendly numbers: whole numbers and simple fractions unless the topic is about decimals.
+- Money is NZ dollars, e.g. a $4.50 pie or a $1.20 bus fare. Keep amounts realistic.
+- Tone: encouraging, like a good primary or intermediate teacher. No sarcasm or trick questions, and no "this is easy".
+
+**No calculators.** Every Year 6 and 7 topic is `calculator: "not-allowed"`. Choose numbers that can be worked out by hand or mentally at that year level.
+
+**Stay in scope.** Use only what the topic's outcomes and the research notes list for that year, plus earlier years. Examples:
+- **Year 6:**
+  - Multiply by at most a two-digit number, and divide by a one-digit number only.
+  - Decimals go to three places.
+  - Add or subtract fractions only when one denominator is a multiple of the other.
+  - Percentages are only 1%, 10%, 20%, 25%, 50% and 75%.
+  - Negative numbers are for ordering and counting only: no adding or subtracting negative numbers.
+  - The order of operations has no GEMA name. Coordinates are first quadrant only.
+  - Area is rectangles and right-angled triangles. Volume is rectangular prisms.
+  - Probability is theoretical with equally likely outcomes: no tree diagrams.
+- **Year 7:**
+  - Integers: add and subtract on a number line only. No multiplying or dividing negatives.
+  - Equations are one- or two-step with integer solutions. No brackets, and no unknowns on both sides.
+  - LCM is of numbers under 10; HCF is of numbers under 100.
+  - Fraction × whole number, fraction ÷ whole number and whole number ÷ unit fraction only. No fraction × fraction.
+  - No circles (radius and circumference are Year 8). No Pythagoras.
+  - Statistics includes median and mode; there are no box plots.
+  - Tree diagrams are fine.
+
+**Difficulty is relative to the year**, using the scale in §6. A 5 is the top end of *that* year, not Year 9. For example, Year 6 difficulty 1 is "Round 3 487 to the nearest hundred", and difficulty 5 is a multi-step money problem with a percentage and a remainder.
+
+**Marks.** Mostly 1 mark. Use 2 for two-step or "explain" questions, and 3 at most.
+
+**Templates.**
+- Year 6 goes in `templates/maths/y6/<strand>/<topic-slug>.ts` and Year 7 in `y7/`. The file is already created and registered.
+- Fill its `templates` array. Put helpers in the same file, or in a file named `<topic-slug>-helpers.ts` beside it.
+- Don't edit shared files (`format.ts`, `svg.ts`, `registry.ts`, other topics' files). If you need something shared, copy it locally.
+
+**Lessons for younger students.**
+- 3–5 sections of about 100–180 words each, with a worked example in almost every section.
+- Use pictures where they help, such as a number line, array or fraction bar. Put each picture in a fenced `figure` block (any year level can use these):
+  ````
+  ```figure
+  { "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 60\">…</svg>", "alt": "A bar split into 4 equal parts with 3 shaded", "caption": "3/4 shaded" }
+  ```
+  ````
+  - The figure shows where you put it, on a white background, with `alt` text required.
+  - Keep each SVG under 20 000 characters and about 420 × 320 px.
+  - Use the same SVG style as question figures: dark strokes, `font-family="sans-serif"`, and no scripts or external images.
+  - It has to be valid JSON, so escape quotes inside the SVG as `\"`.
+
+**Targets per topic.**
+- 1 lesson.
+- At least 4 templates covering difficulties 1–5 between them.
+- At least 18 bank questions, mixing concept MCQs, "which is bigger", "spot the mistake", explain-your-thinking (`extended` with a simple rubric), and word problems.
+- At least 10 flashcards.

@@ -1,0 +1,14 @@
+[
+  { "id": "m7.pro.theoretical.f01", "front": "What is an **outcome**?", "back": "One possible result, e.g. rolling a 4 on a die." },
+  { "id": "m7.pro.theoretical.f02", "front": "What is the **sample space**?", "back": "The list of all possible outcomes, e.g. 1, 2, 3, 4, 5, 6 for a die." },
+  { "id": "m7.pro.theoretical.f03", "front": "What is an **event**?", "back": "One outcome or a group of outcomes, e.g. rolling an even number (2, 4, 6)." },
+  { "id": "m7.pro.theoretical.f04", "front": "How do you calculate a probability when outcomes are **equally likely**?", "back": "$P(\\text{event}) = \\frac{\\text{number of ways it can happen}}{\\text{total number of outcomes}}$" },
+  { "id": "m7.pro.theoretical.f05", "front": "What range of values can a probability have?", "back": "From 0 (impossible) to 1 (certain), or 0% to 100%." },
+  { "id": "m7.pro.theoretical.f06", "front": "What do the probabilities of all the outcomes add up to?", "back": "1 (or 100%)." },
+  { "id": "m7.pro.theoretical.f07", "front": "What is the **complement** of an event?", "back": "Everything in the sample space that is not the event. $P(\\text{not } A) = 1 - P(A)$." },
+  { "id": "m7.pro.theoretical.f08", "front": "Write $\\frac{3}{4}$ as a decimal and a percentage.", "back": "$0.75$ and $75\\%$" },
+  { "id": "m7.pro.theoretical.f09", "front": "How do you compare probabilities written in different forms?", "back": "Change them all to the same form, e.g. all percentages." },
+  { "id": "m7.pro.theoretical.f10", "front": "What is a **tree diagram** for?", "back": "Listing all the outcomes of a two-step (or more) experiment systematically, one branch for each choice." },
+  { "id": "m7.pro.theoretical.f11", "front": "How many outcomes are there when you toss two coins?", "back": "4: HH, HT, TH, TT. \"One of each\" happens in 2 ways." },
+  { "id": "m7.pro.theoretical.f12", "front": "How many outcomes are there when you roll two dice?", "back": "$6 \\times 6 = 36$. A two-way table shows them all." }
+]

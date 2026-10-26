@@ -44,6 +44,8 @@ function markNumeric(q: QuestionOfType<'numeric'>, value: string): MarkResult {
     return result(q, 0, { feedback: 'Write it as a decimal, not a percentage.' });
   }
   if (parsed.percent && !expectsPercent) v /= 100;
+  // "45c" for a dollar answer means $0.45.
+  if (q.units === '$' && parsed.unit && /^(?:c|cents?)$/i.test(parsed.unit)) v /= 100;
 
   const tolerance =
     q.tolerance ?? (q.decimals !== undefined ? 0.5 * 10 ** -q.decimals + 1e-9 : 1e-9 * Math.max(1, Math.abs(q.answer)));
@@ -54,8 +56,9 @@ function markNumeric(q: QuestionOfType<'numeric'>, value: string): MarkResult {
   if (close && parsed.unit && q.units && q.units !== '$' && q.units !== '%') {
     const given = normaliseUnit(parsed.unit);
     const wanted = normaliseUnit(q.units);
-    // "46°" is fine for a temperature in °C.
-    if (given !== wanted && !(wanted === '°c' && given === '°')) {
+    // "46°" is fine for a temperature in °C; "1 cup" is fine for cups (word units only, so "ms" ≠ "m").
+    const plural = (a: string, b: string) => b.length >= 3 && /^[a-z]+$/.test(b) && a === `${b}s`;
+    if (given !== wanted && !(wanted === '°c' && given === '°') && !plural(given, wanted) && !plural(wanted, given)) {
       return result(q, 0, { feedback: `Check your units — the answer should be in ${q.units}.` });
     }
   }
@@ -97,11 +100,12 @@ function markNumeric(q: QuestionOfType<'numeric'>, value: string): MarkResult {
       break;
   }
 
-  const feedback =
-    q.decimals !== undefined && parsed.decimalPlaces > q.decimals
-      ? `Correct — remember to round to ${q.decimals} decimal place${q.decimals === 1 ? '' : 's'}.`
-      : undefined;
-  return result(q, 1, feedback ? { feedback } : {});
+  // Unrounded answers ("14.67" when asked for 1 decimal place) earn half marks, unless the value is
+  // exactly right with extra zeros ("14.70").
+  if (q.decimals !== undefined && parsed.decimalPlaces > q.decimals && !targets.some((t) => Math.abs(v - t) <= 1e-9 * Math.max(1, Math.abs(t)))) {
+    return result(q, 0.5, { feedback: `Nearly — round your answer to ${q.decimals} decimal place${q.decimals === 1 ? '' : 's'}.` });
+  }
+  return result(q, 1);
 }
 
 function markExpression(q: QuestionOfType<'expression'>, value: string): MarkResult {

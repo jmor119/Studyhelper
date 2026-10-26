@@ -1,0 +1,72 @@
+[
+  {
+    "id": "m7.mea.units-time.f01",
+    "front": "What are the three metric **base units** for length, mass and capacity?",
+    "back": "The metre (m), the gram (g) and the litre (L)."
+  },
+  {
+    "id": "m7.mea.units-time.f02",
+    "front": "What does the prefix **kilo-** mean?",
+    "back": "1000 times bigger: 1 km = 1000 m and 1 kg = 1000 g."
+  },
+  {
+    "id": "m7.mea.units-time.f03",
+    "front": "What does the prefix **centi-** mean?",
+    "back": "100 times smaller: 100 cm = 1 m."
+  },
+  {
+    "id": "m7.mea.units-time.f04",
+    "front": "What does the prefix **milli-** mean?",
+    "back": "1000 times smaller: 1000 mm = 1 m and 1000 mL = 1 L."
+  },
+  {
+    "id": "m7.mea.units-time.f05",
+    "front": "How many millimetres are in 1 centimetre?",
+    "back": "10 mm = 1 cm."
+  },
+  {
+    "id": "m7.mea.units-time.f06",
+    "front": "Changing to a smaller unit: multiply or divide?",
+    "back": "Multiply. You need more of the smaller units. (2.5 m = 250 cm)"
+  },
+  {
+    "id": "m7.mea.units-time.f07",
+    "front": "Changing to a bigger unit: multiply or divide?",
+    "back": "Divide. You need fewer of the bigger units. (750 g = 0.75 kg)"
+  },
+  {
+    "id": "m7.mea.units-time.f08",
+    "front": "What is 4 L 50 mL in litres?",
+    "back": "4.05 L, because 50 mL is $\\frac{50}{1000}$ of a litre."
+  },
+  {
+    "id": "m7.mea.units-time.f09",
+    "front": "How many minutes are in $\\frac{3}{4}$ of an hour?",
+    "back": "45 minutes: $60 \\div 4 = 15$ and $3 \\times 15 = 45$."
+  },
+  {
+    "id": "m7.mea.units-time.f10",
+    "front": "How many minutes are in 1.5 hours?",
+    "back": "90 minutes (1 hour 30 minutes), not 1 hour 50 minutes."
+  },
+  {
+    "id": "m7.mea.units-time.f11",
+    "front": "What is a **duration**?",
+    "back": "How long something takes, e.g. a 95-minute movie."
+  },
+  {
+    "id": "m7.mea.units-time.f12",
+    "front": "How do you find a duration from 2:53 pm to 3:28 pm?",
+    "back": "Count on: 7 minutes to 3:00 pm, then 28 more, so 35 minutes."
+  },
+  {
+    "id": "m7.mea.units-time.f13",
+    "front": "How do you write 4:15 pm in **24-hour time**?",
+    "back": "Add 12 to the hour: 16:15."
+  },
+  {
+    "id": "m7.mea.units-time.f14",
+    "front": "How do you read a **timetable**?",
+    "back": "Each row is a stop and each column is one bus or train. Read down a column to follow one trip."
+  }
+]

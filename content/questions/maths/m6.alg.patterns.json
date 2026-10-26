@@ -1,0 +1,313 @@
+[
+  {
+    "id": "m6.alg.patterns.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "term", "text": "Term" }, "right": { "id": "d1", "text": "One number in a pattern" } },
+      { "left": { "id": "pos", "text": "Position" }, "right": { "id": "d2", "text": "Where a term is in the pattern: 1st, 2nd, 3rd, …" } },
+      { "left": { "id": "rule", "text": "Rule" }, "right": { "id": "d3", "text": "Tells you how to make the pattern" } },
+      { "left": { "id": "const", "text": "Constant" }, "right": { "id": "d4", "text": "The amount the pattern changes by each time" } },
+      { "left": { "id": "table", "text": "Table of values" }, "right": { "id": "d5", "text": "Shows each position next to its term" } },
+      { "left": { "id": "conj", "text": "Conjecture" }, "right": { "id": "d6", "text": "A prediction that still needs checking" } }
+    ],
+    "hints": ["In $3, 7, 11, \\ldots$ the number 7 is in position 2."],
+    "solution": "Term: one number in the pattern. Position: where it is. Rule: how to make the pattern. Constant: the amount of change each time. Table of values: positions next to terms. Conjecture: a prediction to check."
+  },
+  {
+    "id": "m6.alg.patterns.q002",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the next term in this pattern?\n\n$$4, \\; 9, \\; 14, \\; 19, \\; \\ldots$$",
+    "answer": 24,
+    "form": "integer",
+    "hints": ["How much is added each time?"],
+    "solution": "The pattern adds 5 each time: $19 + 5 = 24$."
+  },
+  {
+    "id": "m6.alg.patterns.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the **constant** (the amount of change each time) in the pattern $5, 8, 11, 14, \\ldots$?",
+    "options": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "5" },
+      { "id": "c", "text": "14" },
+      { "id": "d", "text": "4" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "5 is the first term, not the amount it changes by.",
+      "c": "14 is the last term shown.",
+      "d": "4 is how many terms are shown. Look at the jump from one term to the next."
+    },
+    "hints": ["Find the difference between two terms next to each other."],
+    "solution": "$8 - 5 = 3$, $11 - 8 = 3$ and $14 - 11 = 3$. The constant is **3**."
+  },
+  {
+    "id": "m6.alg.patterns.q004",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the next term in this pattern?\n\n$$60, \\; 54, \\; 48, \\; 42, \\; \\ldots$$",
+    "answer": 36,
+    "form": "integer",
+    "hints": ["Are the terms getting bigger or smaller?", "How much do they change by each time?"],
+    "solution": "The pattern takes away 6 each time: $42 - 6 = 36$."
+  },
+  {
+    "id": "m6.alg.patterns.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which rule describes the pattern $7, 10, 13, 16, \\ldots$?",
+    "options": [
+      { "id": "a", "text": "Start with 7 and add 3 each time." },
+      { "id": "b", "text": "Start with 3 and add 7 each time." },
+      { "id": "c", "text": "Start with 10 and add 3 each time." },
+      { "id": "d", "text": "Start with 7 and add 7 each time." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This swaps the two numbers. It would make $3, 10, 17, \\ldots$",
+      "c": "10 is the second term. The rule starts with the first term.",
+      "d": "Check the jumps: $10 - 7 = 3$."
+    },
+    "hints": ["What is the first term?", "How much is added each time?"],
+    "solution": "The first term is 7 and each term is 3 more than the one before. Rule: **start with 7 and add 3 each time.**"
+  },
+  {
+    "id": "m6.alg.patterns.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "The rule for a pattern is: **start with 6 and add 5 each time.** Fill in the table of values.\n\n| Position | Term |\n|---|---|\n| 1 | 6 |\n| 2 | [[a]] |\n| 3 | [[b]] |\n| 4 | [[c]] |",
+    "blanks": [
+      { "id": "a", "accepted": ["11"] },
+      { "id": "b", "accepted": ["16"] },
+      { "id": "c", "accepted": ["21"] }
+    ],
+    "hints": ["Position 1 is the starting number.", "Add 5 to get each new term."],
+    "solution": "$6 + 5 = 11$, $11 + 5 = 16$, $16 + 5 = 21$."
+  },
+  {
+    "id": "m6.alg.patterns.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "One term is missing from this pattern. What is it?\n\n$$12, \\; 19, \\; ?, \\; 33, \\; 40, \\; \\ldots$$",
+    "answer": 26,
+    "form": "integer",
+    "hints": ["Use two terms next to each other to find the jump.", "Add the jump to the term before the gap."],
+    "solution": "The jump is $19 - 12 = 7$. The missing term is $19 + 7 = 26$. Check: $26 + 7 = 33$ ✓"
+  },
+  {
+    "id": "m6.alg.patterns.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Leo says the next term in $2, 6, 10, 14, \\ldots$ is 16. What has Leo done wrong?",
+    "options": [
+      { "id": "a", "text": "He added 2. The pattern adds 4 each time, so the next term is 18." },
+      { "id": "b", "text": "Nothing. 16 is right." },
+      { "id": "c", "text": "He should double 14. The next term is 28." },
+      { "id": "d", "text": "He should add the first term, 2. The next term is 16." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Check the jumps: $6 - 2 = 4$. The jump from 14 to 16 is only 2.",
+      "c": "The pattern adds the same amount each time. It doesn't double.",
+      "d": "The first term is not the jump. The jump is $6 - 2 = 4$."
+    },
+    "hints": ["Find the jump between the first two terms."],
+    "solution": "Every jump is 4 ($6 - 2$, $10 - 6$, $14 - 10$), so the next term is $14 + 4 = 18$. Leo added 2, which is the starting number, not the jump."
+  },
+  {
+    "id": "m6.alg.patterns.q009",
+    "type": "text",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What word means a prediction about a pattern that you still need to check?",
+    "accepted": ["conjecture", "a conjecture", "conjectures"],
+    "hints": ["It starts with \"con\"."],
+    "solution": "A **conjecture** is a prediction you think is true, but you still need to check it."
+  },
+  {
+    "id": "m6.alg.patterns.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Here is a growing pattern made from tiles. If the pattern carries on, how many tiles will Pattern 7 have?",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 374 122\" width=\"374\" height=\"122\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"18\" y=\"50\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"36\" y=\"50\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"54\" y=\"50\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"36\" y=\"68\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"45\" y=\"106\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><rect x=\"106\" y=\"32\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"124\" y=\"32\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"142\" y=\"32\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"160\" y=\"32\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"178\" y=\"32\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"142\" y=\"50\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"142\" y=\"68\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"151\" y=\"106\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><rect x=\"230\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"248\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"266\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"338\" y=\"14\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"32\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"50\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"284\" y=\"68\" width=\"18\" height=\"18\" fill=\"#fdba74\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"293\" y=\"106\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>","alt":"A tile pattern of T shapes. Pattern 1 has 4 tiles, Pattern 2 has 7 tiles and Pattern 3 has 10 tiles."},
+    "answer": 22,
+    "form": "integer",
+    "hints": ["Count the tiles in the first three patterns.", "How many tiles are added each time? From Pattern 1 to Pattern 7, how many jumps is that?"],
+    "solution": "Pattern 1 has 4 tiles, Pattern 2 has 7 and Pattern 3 has 10, so 3 tiles are added each time.\n\nFrom Pattern 1 to Pattern 7 there are 6 jumps: $4 + 6 \\times 3 = 4 + 18 = 22$.\n\nPattern 7 has **22** tiles."
+  },
+  {
+    "id": "m6.alg.patterns.q011",
+    "type": "cloze",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "The table shows a pattern.\n\n| Position | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Term | 50 | 46 | 42 | 38 | 34 |\n\nComplete the rule in words:\n\nStart with [[s]] and [[op]] [[c]] each time.",
+    "blanks": [
+      { "id": "s", "accepted": ["50"] },
+      { "id": "op", "accepted": ["subtract"], "options": ["add", "subtract"] },
+      { "id": "c", "accepted": ["4"] }
+    ],
+    "hints": ["The rule starts with the term in position 1.", "Are the terms going up or down? By how much?"],
+    "solution": "Position 1 is 50, and each term is 4 less than the one before. Rule: **start with 50 and subtract 4 each time.**"
+  },
+  {
+    "id": "m6.alg.patterns.q012",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ruby finds the 10th term of $3, 7, 11, 15, \\ldots$ without writing out every term. Put her working in order.",
+    "items": [
+      { "id": "a", "text": "The pattern adds 4 each time." },
+      { "id": "b", "text": "From the 1st term to the 10th term there are 9 jumps of 4." },
+      { "id": "c", "text": "9 jumps of 4 is 9 × 4 = 36." },
+      { "id": "d", "text": "Add the first term: 3 + 36 = 39." },
+      { "id": "e", "text": "So the 10th term is 39." }
+    ],
+    "hints": ["You need to know the jump before you can count the jumps.", "Each step uses the answer from the step before."],
+    "solution": "Find the jump (4) → count the jumps (9) → $9 \\times 4 = 36$ → add the first term: $3 + 36 = 39$ → the 10th term is 39."
+  },
+  {
+    "id": "m6.alg.patterns.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Rawiri has \\$12 in his money box. He puts in \\$5 every week. How much money will be in the money box after 6 weeks?",
+    "answer": 42,
+    "form": "integer",
+    "units": "$",
+    "hints": ["Start with \\$12 and add \\$5 for each week.", "How much do 6 weeks add?"],
+    "solution": "Rule: start with \\$12 and add \\$5 each week. 6 weeks add $6 \\times 5 = 30$ dollars. $12 + 30 = 42$, so there will be **\\$42**."
+  },
+  {
+    "id": "m6.alg.patterns.q014",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In this matchstick pattern, Pattern 1 uses 4 matches, Pattern 2 uses 7 and Pattern 3 uses 10. Explain why only 3 more matches are needed each time, even though a square has 4 sides.",
+    "figure": {"svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 308 84\" width=\"308\" height=\"84\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><line x1=\"18\" y1=\"14\" x2=\"52\" y2=\"14\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"18\" y1=\"48\" x2=\"52\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"18\" y1=\"14\" x2=\"18\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"52\" y1=\"14\" x2=\"52\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><text x=\"35\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 1</text><line x1=\"86\" y1=\"14\" x2=\"120\" y2=\"14\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"86\" y1=\"48\" x2=\"120\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"120\" y1=\"14\" x2=\"154\" y2=\"14\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"120\" y1=\"48\" x2=\"154\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"86\" y1=\"14\" x2=\"86\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"120\" y1=\"14\" x2=\"120\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"154\" y1=\"14\" x2=\"154\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><text x=\"120\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 2</text><line x1=\"188\" y1=\"14\" x2=\"222\" y2=\"14\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"188\" y1=\"48\" x2=\"222\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"222\" y1=\"14\" x2=\"256\" y2=\"14\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"222\" y1=\"48\" x2=\"256\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"256\" y1=\"14\" x2=\"290\" y2=\"14\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"256\" y1=\"48\" x2=\"290\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"188\" y1=\"14\" x2=\"188\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"222\" y1=\"14\" x2=\"222\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"256\" y1=\"14\" x2=\"256\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><line x1=\"290\" y1=\"14\" x2=\"290\" y2=\"48\" stroke=\"#92400e\" stroke-width=\"4\"/><text x=\"239\" y=\"68\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">Pattern 3</text></svg>","alt":"A matchstick pattern. Pattern 1 is one square made from 4 matches. Pattern 2 is two squares in a row made from 7 matches. Pattern 3 is three squares in a row made from 10 matches."},
+    "modelAnswer": "Each new square is joined onto the end of the row, so it shares one side with the square before it. That side is already there. The new square only needs 3 new matches: one for the top, one for the bottom and one for the far side.",
+    "rubric": [
+      { "criterion": "Says the new square shares a side (a match) with the square before it", "marks": 1 },
+      { "criterion": "Says only the top, bottom and one end are needed, so 3 new matches", "marks": 1 }
+    ],
+    "hints": ["Look at where Pattern 2 joins onto Pattern 1.", "Which side of the new square is already there?"],
+    "solution": "The new square shares a side with the last square, so only 3 new matches are needed: the top, the bottom and the end."
+  },
+  {
+    "id": "m6.alg.patterns.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "What is the 20th term of this pattern?\n\n$$3, \\; 8, \\; 13, \\; 18, \\; \\ldots$$",
+    "answer": 98,
+    "form": "integer",
+    "hints": ["How many jumps are there from the 1st term to the 20th term?", "Each jump adds 5."],
+    "solution": "The pattern starts with 3 and adds 5 each time. From the 1st to the 20th term there are 19 jumps.\n\n$3 + 19 \\times 5 = 3 + 95 = 98$"
+  },
+  {
+    "id": "m6.alg.patterns.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Sofia looks at the pattern $4, 7, 10, 13, \\ldots$ and makes a conjecture: \"All the terms are odd numbers.\" Is she right?",
+    "options": [
+      { "id": "a", "text": "No. The terms go even, odd, even, odd: 4, 7, 10, 13, …" },
+      { "id": "b", "text": "Yes, because 7 and 13 are odd." },
+      { "id": "c", "text": "Yes, because you add an odd number (3) each time." },
+      { "id": "d", "text": "No. All the terms are even." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Some terms are odd, but not all. Check the first term.",
+      "c": "Adding an odd number swaps between odd and even each time.",
+      "d": "7 and 13 are odd, so the terms are not all even."
+    },
+    "hints": ["Test the conjecture on every term you can see."],
+    "solution": "4 is even, 7 is odd, 10 is even, 13 is odd. Adding 3 (an odd number) switches between even and odd each time. So the conjecture is **false**."
+  },
+  {
+    "id": "m6.alg.patterns.q017",
+    "type": "multi",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "The pattern $2, 5, 8, 11, \\ldots$ carries on forever. Select **all** the numbers that are in the pattern.",
+    "options": [
+      { "id": "a", "text": "14" },
+      { "id": "b", "text": "20" },
+      { "id": "c", "text": "23" },
+      { "id": "d", "text": "30" },
+      { "id": "e", "text": "32" }
+    ],
+    "correct": ["a", "b", "c", "e"],
+    "shuffle": false,
+    "hints": ["The pattern starts at 2 and adds 3 each time.", "Take 2 away from a number. Is the answer a multiple of 3?"],
+    "solution": "A number is in the pattern if it is 2 plus some jumps of 3.\n\n$14 - 2 = 12 = 4 \\times 3$ ✓, $20 - 2 = 18 = 6 \\times 3$ ✓, $23 - 2 = 21 = 7 \\times 3$ ✓, $30 - 2 = 28$ is not a multiple of 3 ✗, $32 - 2 = 30 = 10 \\times 3$ ✓."
+  },
+  {
+    "id": "m6.alg.patterns.q018",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "In the pattern $5, 8, 11, 14, \\ldots$, which term number is 47? (Give the position, e.g. 3 for the 3rd term.)",
+    "answer": 15,
+    "form": "integer",
+    "hints": ["How far is 47 from the first term?", "How many jumps of 3 is that?"],
+    "solution": "From 5 to 47 is $47 - 5 = 42$. $42 \\div 3 = 14$ jumps. 14 jumps after the 1st term is the **15th** term. Check: $5 + 14 \\times 3 = 47$ ✓"
+  },
+  {
+    "id": "m6.alg.patterns.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "One paper cup is 12 cm tall. When you stack cups inside each other, each extra cup adds 2 cm to the height. How many cups are in a stack that is 40 cm tall?",
+    "answer": 15,
+    "form": "integer",
+    "hints": ["Rule: start with 12 cm and add 2 cm for each extra cup.", "How much taller than 12 cm is the stack? How many extra cups is that?"],
+    "solution": "The stack is $40 - 12 = 28$ cm taller than one cup. $28 \\div 2 = 14$ extra cups. With the first cup, that is $1 + 14 = $ **15** cups. Check: $12 + 14 \\times 2 = 40$ ✓"
+  },
+  {
+    "id": "m6.alg.patterns.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Two patterns carry on forever.\n\n- Pattern A: start with 50 and add 2 each time.\n- Pattern B: start with 10 and add 6 each time.\n\nAt which position do the two patterns have the same term? (Give the position number.)",
+    "answer": 11,
+    "form": "integer",
+    "hints": ["Make a table with both patterns side by side.", "Each time, B gains 4 on A. How far behind does B start?"],
+    "solution": "B starts $50 - 10 = 40$ behind A. Each jump, B catches up by $6 - 2 = 4$. It takes $40 \\div 4 = 10$ jumps, so they meet at position $1 + 10 = $ **11**.\n\nCheck: A is $50 + 10 \\times 2 = 70$ and B is $10 + 10 \\times 6 = 70$ ✓"
+  },
+  {
+    "id": "m6.alg.patterns.q021",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Here is a pattern: $6, 10, 14, 18, \\ldots$\n\nTia makes a conjecture: \"The 100th term will be 400.\" Is she right? Explain how you know.",
+    "modelAnswer": "No. The pattern starts with 6 and adds 4 each time. From the 1st term to the 100th term there are 99 jumps of 4, so the 100th term is $6 + 99 \\times 4 = 6 + 396 = 402$. Tia probably did $100 \\times 4$, which forgets that the pattern starts at 6, not 4.",
+    "rubric": [
+      { "criterion": "Uses the start (6) and 99 jumps of 4 to find the 100th term", "marks": 1 },
+      { "criterion": "Gets 402 and says Tia is not right", "marks": 1 }
+    ],
+    "hints": ["How many jumps are there from the 1st term to the 100th term?", "$99 \\times 4 = 396$."],
+    "solution": "$6 + 99 \\times 4 = 402$, so the 100th term is 402, not 400. Tia's conjecture is false."
+  }
+]

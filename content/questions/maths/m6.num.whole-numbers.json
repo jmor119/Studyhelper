@@ -1,0 +1,314 @@
+[
+  {
+    "id": "m6.num.whole-numbers.q001",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each word to its meaning.",
+    "pairs": [
+      { "left": { "id": "sum", "text": "Sum" }, "right": { "id": "d1", "text": "The answer when you add" } },
+      { "left": { "id": "dif", "text": "Difference" }, "right": { "id": "d2", "text": "The answer when you subtract" } },
+      { "left": { "id": "pro", "text": "Product" }, "right": { "id": "d3", "text": "The answer when you multiply" } },
+      { "left": { "id": "est", "text": "Estimate" }, "right": { "id": "d4", "text": "A rough answer worked out with rounded numbers" } },
+      { "left": { "id": "par", "text": "Partition" }, "right": { "id": "d5", "text": "Split a number into parts, like 47 = 40 + 7" } }
+    ],
+    "hints": ["In $6 \\times 4 = 24$, the 24 is the product."],
+    "solution": "Sum: the answer to an addition. Difference: the answer to a subtraction. Product: the answer to a multiplication. Estimate: a rough answer using rounded numbers. Partition: split a number into parts, such as tens and ones."
+  },
+  {
+    "id": "m6.num.whole-numbers.q002",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In $6 \\times 7 = 42$, the number 42 is the [[a]].\n\nIn $50 - 12 = 38$, the number 38 is the [[b]].\n\nIn $25 + 16 = 41$, the number 41 is the [[c]].",
+    "blanks": [
+      { "id": "a", "accepted": ["product"], "options": ["sum", "difference", "product"] },
+      { "id": "b", "accepted": ["difference"], "options": ["sum", "difference", "product"] },
+      { "id": "c", "accepted": ["sum"], "options": ["sum", "difference", "product"] }
+    ],
+    "hints": ["Think about which operation is used in each number sentence."],
+    "solution": "Multiplying gives a **product** (42). Subtracting gives a **difference** (38). Adding gives a **sum** (41)."
+  },
+  {
+    "id": "m6.num.whole-numbers.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which is the most **efficient** way to work out $499 + 236$ in your head?",
+    "options": [
+      { "id": "a", "text": "Add 500, then take away 1" },
+      { "id": "b", "text": "Count on from 499 in ones" },
+      { "id": "c", "text": "Add 500, then add 1 more" },
+      { "id": "d", "text": "Write it out with the column method" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Counting on 236 ones would work, but it is very slow and easy to lose count.",
+      "c": "499 is 1 less than 500, so after adding 500 you must take 1 away, not add 1.",
+      "d": "The column method works, but 499 is so close to 500 that there is a much quicker way in your head."
+    },
+    "hints": ["499 is very close to a friendly number."],
+    "solution": "499 is 1 less than 500. So add 500 and take away 1: $236 + 500 = 736$, and $736 - 1 = 735$."
+  },
+  {
+    "id": "m6.num.whole-numbers.q004",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "When you add with the column method, why do you start with the ones column?",
+    "options": [
+      { "id": "a", "text": "So you can regroup any extra into the next column to the left" },
+      { "id": "b", "text": "Because the ones are the biggest part of the number" },
+      { "id": "c", "text": "Because starting with the ones makes the answer smaller" },
+      { "id": "d", "text": "So that the answer always has fewer digits" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The ones are the smallest place, not the biggest.",
+      "c": "Where you start doesn't change the correct answer. It just makes regrouping easier.",
+      "d": "The number of digits in the answer depends on the numbers, not on where you start."
+    },
+    "hints": ["What happens when a column adds up to 10 or more?"],
+    "solution": "When a column adds to 10 or more, you **regroup** 10 of them as 1 in the next column on the left. Starting with the ones means you always know what to carry before you add the next column."
+  },
+  {
+    "id": "m6.num.whole-numbers.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "At a Matariki festival, 2,348 people came on Friday and 3,795 people came on Saturday. How many people came altogether?",
+    "answer": 6143,
+    "form": "integer",
+    "hints": ["\"Altogether\" means add.", "Use the column method and start with the ones."],
+    "solution": "$$\\begin{array}{rr} & 2{,}348 \\\\ + & 3{,}795 \\\\ \\hline & 6{,}143 \\end{array}$$\n\nOnes: $8 + 5 = 13$, write 3 and regroup 1 ten. Tens: $4 + 9 + 1 = 14$, write 4 and regroup 1 hundred. Hundreds: $3 + 7 + 1 = 11$, write 1 and regroup 1 thousand. Thousands: $2 + 3 + 1 = 6$.\n\n**6,143 people** came altogether."
+  },
+  {
+    "id": "m6.num.whole-numbers.q006",
+    "type": "multi",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the calculations that give the same answer as $36 \\times 25$.",
+    "options": [
+      { "id": "a", "text": "$36 \\times 20 + 36 \\times 5$" },
+      { "id": "b", "text": "$30 \\times 25 + 6 \\times 25$" },
+      { "id": "c", "text": "$36 \\times 2 + 36 \\times 5$" },
+      { "id": "d", "text": "$900$" },
+      { "id": "e", "text": "$36 + 25$" }
+    ],
+    "correct": ["a", "b", "d"],
+    "hints": ["You can partition either number into tens and ones.", "Watch out: the 2 in 25 means 2 tens."],
+    "solution": "Partition 25 into $20 + 5$: $36 \\times 20 + 36 \\times 5 = 720 + 180 = 900$ ✓\n\nPartition 36 into $30 + 6$: $30 \\times 25 + 6 \\times 25 = 750 + 150 = 900$ ✓\n\n$36 \\times 2 + 36 \\times 5$ uses 2 instead of 20, so it is wrong ($72 + 180 = 252$). $36 + 25 = 61$ adds instead of multiplying."
+  },
+  {
+    "id": "m6.num.whole-numbers.q007",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these products in order, from **smallest** to **largest**.",
+    "items": [
+      { "id": "p", "text": "$9 \\times 99$" },
+      { "id": "q", "text": "$50 \\times 19$" },
+      { "id": "r", "text": "$12 \\times 80$" },
+      { "id": "s", "text": "$48 \\times 21$" }
+    ],
+    "hints": ["Work out each product. Look for quick ways, like $9 \\times 100 - 9$.", "$50 \\times 19$ is half of $100 \\times 19$."],
+    "solution": "$9 \\times 99 = 900 - 9 = 891$\n\n$50 \\times 19 = 1{,}900 \\div 2 = 950$\n\n$12 \\times 80 = 12 \\times 8 \\times 10 = 960$\n\n$48 \\times 21 = 48 \\times 20 + 48 = 960 + 48 = 1{,}008$\n\nOrder: 891, 950, 960, 1,008."
+  },
+  {
+    "id": "m6.num.whole-numbers.q008",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Losa worked out $703 - 258$ like this:\n\n$$\\begin{array}{rr} & 703 \\\\ - & 258 \\\\ \\hline & 555 \\end{array}$$\n\nWhat mistake did Losa make?",
+    "options": [
+      { "id": "a", "text": "She took the smaller digit from the bigger one in each column instead of renaming" },
+      { "id": "b", "text": "She added the two numbers instead of subtracting them" },
+      { "id": "c", "text": "She lined up the numbers in the wrong columns" },
+      { "id": "d", "text": "She didn't make a mistake: 555 is correct" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Adding would give $703 + 258 = 961$, not 555.",
+      "c": "The ones, tens and hundreds are lined up correctly.",
+      "d": "Check by adding: $555 + 258 = 813$, not 703. So 555 can't be right."
+    },
+    "hints": ["Look at the ones column: is 3 bigger or smaller than 8?", "Check by adding Losa's answer to 258."],
+    "solution": "In the ones, Losa did $8 - 3 = 5$ and in the tens she did $5 - 0 = 5$. You can't swap the digits round.\n\nCorrect method: 3 is smaller than 8 and there are 0 tens, so rename 1 hundred as 10 tens, then 1 ten as 10 ones. Ones: $13 - 8 = 5$. Tens: $9 - 5 = 4$. Hundreds: $6 - 2 = 4$.\n\n$703 - 258 = 445$. Check: $445 + 258 = 703$ ✓"
+  },
+  {
+    "id": "m6.num.whole-numbers.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Nikau says $34 \\times 26 = 272$. An estimate shows this can't be right. What is the correct answer?",
+    "answer": 884,
+    "form": "integer",
+    "hints": ["Estimate: round each number to the nearest ten. Is 272 close?", "Work out $34 \\times 6$ and $34 \\times 20$, then add them."],
+    "solution": "Estimate: $30 \\times 30 = 900$, so 272 is far too small. (Nikau probably did $34 \\times 6 + 34 \\times 2$ and forgot the 2 means 20.)\n\n$34 \\times 6 = 204$ and $34 \\times 20 = 680$.\n\n$204 + 680 = 884$."
+  },
+  {
+    "id": "m6.num.whole-numbers.q010",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which operation do you need for each problem?\n\n1. A netball team scores 23 goals in the first half and 18 in the second half. How many goals did they score? [[a]]\n2. 14 buses each carry 48 students. How many students is that? [[b]]\n3. A book has 312 pages. Ana has read 178 of them. How many pages are left? [[c]]",
+    "blanks": [
+      { "id": "a", "accepted": ["add"], "options": ["add", "subtract", "multiply"] },
+      { "id": "b", "accepted": ["multiply"], "options": ["add", "subtract", "multiply"] },
+      { "id": "c", "accepted": ["subtract"], "options": ["add", "subtract", "multiply"] }
+    ],
+    "hints": ["\"Each\" often means equal groups.", "\"Left\" often means take away."],
+    "solution": "1. Two amounts put together: **add** ($23 + 18 = 41$ goals).\n2. 14 equal groups of 48: **multiply** ($14 \\times 48 = 672$ students).\n3. How many are left: **subtract** ($312 - 178 = 134$ pages)."
+  },
+  {
+    "id": "m6.num.whole-numbers.q011",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Here is the written method for $46 \\times 23$:\n\n$$\\begin{array}{rr} & 46 \\\\ \\times & 23 \\\\ \\hline & 138 \\\\ + & 920 \\\\ \\hline & 1{,}058 \\end{array}$$\n\nExplain why the second line is 920 and not 92.",
+    "modelAnswer": "The second line is 46 multiplied by the 2 in 23. That 2 is in the tens place, so it means 2 tens, which is 20. $46 \\times 20 = 920$, which is 10 times bigger than $46 \\times 2 = 92$. That is why the second line ends in a 0.",
+    "rubric": [
+      { "criterion": "Says the 2 in 23 is in the tens place, so it means 20 (2 tens)", "marks": 1 },
+      { "criterion": "Explains that $46 \\times 20 = 920$, which is 10 times $46 \\times 2$ (so it ends in 0)", "marks": 1 }
+    ],
+    "hints": ["What is the 2 in 23 really worth?"],
+    "solution": "The 2 in 23 means 2 tens, or 20. So the second line is $46 \\times 20 = 920$. That is 10 times bigger than $46 \\times 2 = 92$, which is why it ends in a zero."
+  },
+  {
+    "id": "m6.num.whole-numbers.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number: $\\square + 2{,}568 = 7{,}103$",
+    "answer": 4535,
+    "form": "integer",
+    "hints": ["Subtraction undoes addition.", "Work out $7{,}103 - 2{,}568$."],
+    "solution": "The missing number is $7{,}103 - 2{,}568$.\n\nOnes: 3 is smaller than 8 and there are 0 tens, so rename 1 hundred as 10 tens, then 1 ten as 10 ones: $13 - 8 = 5$. Tens: $9 - 6 = 3$. Hundreds: now 0 is smaller than 5, so rename 1 thousand as 10 hundreds: $10 - 5 = 5$. Thousands: $6 - 2 = 4$.\n\nThe missing number is **4,535**. Check: $4{,}535 + 2{,}568 = 7{,}103$ ✓"
+  },
+  {
+    "id": "m6.num.whole-numbers.q013",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tickets for the school production cost \\$12 for adults and \\$7 for children. On Friday night, 86 adults and 134 children came. How much money was collected?",
+    "answer": 1970,
+    "units": "$",
+    "form": "integer",
+    "hints": ["Work out the money from adults and the money from children separately.", "Then add the two amounts."],
+    "solution": "Adults: $86 \\times 12 = 86 \\times 10 + 86 \\times 2 = 860 + 172 = 1{,}032$.\n\nChildren: $134 \\times 7 = 700 + 210 + 28 = 938$.\n\nTotal: $1{,}032 + 938 = 1{,}970$, so **\\$1,970** was collected."
+  },
+  {
+    "id": "m6.num.whole-numbers.q014",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger: $49 \\times 51$ or $50 \\times 50$?",
+    "options": [
+      { "id": "a", "text": "$50 \\times 50$ is bigger" },
+      { "id": "b", "text": "$49 \\times 51$ is bigger" },
+      { "id": "c", "text": "They are equal" }
+    ],
+    "correct": "a",
+    "shuffle": false,
+    "feedback": {
+      "b": "Work it out: $49 \\times 51 = 49 \\times 50 + 49 = 2{,}450 + 49 = 2{,}499$.",
+      "c": "They are very close, but not equal. Work out $49 \\times 51$ exactly."
+    },
+    "hints": ["$50 \\times 50 = 2{,}500$.", "$49 \\times 51$ is 49 lots of 50, plus one more 49."],
+    "solution": "$50 \\times 50 = 2{,}500$.\n\n$49 \\times 51 = 49 \\times 50 + 49 \\times 1 = 2{,}450 + 49 = 2{,}499$.\n\nSo $50 \\times 50$ is bigger, by just 1."
+  },
+  {
+    "id": "m6.num.whole-numbers.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A farmer plants 24 rows of kūmara, with 135 plants in each row. How many kūmara plants is that?",
+    "answer": 3240,
+    "form": "integer",
+    "hints": ["There are 24 equal rows, so multiply.", "Work out $135 \\times 4$ and $135 \\times 20$, then add them."],
+    "solution": "$135 \\times 24$:\n\n$135 \\times 4 = 540$\n\n$135 \\times 20 = 2{,}700$\n\n$540 + 2{,}700 = 3{,}240$, so there are **3,240 plants**.\n\nEstimate to check: $100 \\times 24 = 2{,}400$ and $150 \\times 24 = 3{,}600$, so 3,240 is sensible."
+  },
+  {
+    "id": "m6.num.whole-numbers.q016",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.whole-numbers.g1",
+    "part": "a",
+    "stem": "The Year 6 classes are collecting cans for the food bank. Room 5 collects 1,248 cans, Room 6 collects 987 cans and Room 7 collects 1,365 cans.",
+    "prompt": "How many cans do the three rooms collect altogether?",
+    "answer": 3600,
+    "form": "integer",
+    "hints": ["Add two of the numbers first, then add the third.", "Line up the digits by place value."],
+    "solution": "$1{,}248 + 987 = 2{,}235$\n\n$2{,}235 + 1{,}365 = 3{,}600$\n\nThey collect **3,600 cans**."
+  },
+  {
+    "id": "m6.num.whole-numbers.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.whole-numbers.g1",
+    "part": "b",
+    "stem": "The Year 6 classes are collecting cans for the food bank. Room 5 collects 1,248 cans, Room 6 collects 987 cans and Room 7 collects 1,365 cans.",
+    "prompt": "Their goal is 5,000 cans. How many more cans do they need to reach the goal?",
+    "answer": 1400,
+    "form": "integer",
+    "hints": ["First find the total collected so far.", "Then find the difference between the total and 5,000."],
+    "solution": "Total so far: $1{,}248 + 987 + 1{,}365 = 3{,}600$ cans.\n\nStill needed: $5{,}000 - 3{,}600 = 1{,}400$ cans."
+  },
+  {
+    "id": "m6.num.whole-numbers.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "A school buys 28 new chairs at \\$45 each and 6 new tables at \\$189 each. How much does the school spend altogether?",
+    "answer": 2394,
+    "units": "$",
+    "form": "integer",
+    "hints": ["Find the cost of the chairs and the cost of the tables separately.", "Then add them together."],
+    "solution": "Chairs: $28 \\times 45 = 28 \\times 40 + 28 \\times 5 = 1{,}120 + 140 = 1{,}260$.\n\nTables: $6 \\times 189 = 600 + 480 + 54 = 1{,}134$.\n\nTotal: $1{,}260 + 1{,}134 = 2{,}394$, so the school spends **\\$2,394**."
+  },
+  {
+    "id": "m6.num.whole-numbers.q019",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi says: \"To work out $398 \\times 6$, I can work out $400 \\times 6$ and then take away 2.\"\n\nIs Hemi right? Explain your thinking, and give the correct answer.",
+    "modelAnswer": "Hemi is not right. 398 is 2 less than 400, so $398 \\times 6$ is 6 lots of 398. Each lot is 2 less than 400, so altogether it is $2 \\times 6 = 12$ less than $400 \\times 6$, not 2 less. $400 \\times 6 = 2{,}400$, and $2{,}400 - 12 = 2{,}388$. So $398 \\times 6 = 2{,}388$.",
+    "rubric": [
+      { "criterion": "Says Hemi is not right", "marks": 1 },
+      { "criterion": "Explains that there are 6 lots of 2 too many, so you take away $2 \\times 6 = 12$", "marks": 1 },
+      { "criterion": "Gives the correct answer, 2,388", "marks": 1 }
+    ],
+    "hints": ["$398 \\times 6$ means 6 lots of 398.", "How much too big is each lot of 400?"],
+    "solution": "$400 \\times 6 = 2{,}400$. But each of the 6 lots is 2 too big, so take away $6 \\times 2 = 12$: $2{,}400 - 12 = 2{,}388$. Hemi only took away 2, so his answer (2,398) would be wrong."
+  },
+  {
+    "id": "m6.num.whole-numbers.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Use each of the digits 3, 5, 7 and 8 **once** to make a two-digit number multiplied by a two-digit number, like $35 \\times 78$. What is the **largest** product you can make?",
+    "answer": 6225,
+    "form": "integer",
+    "hints": ["The biggest digits should go in the tens places.", "Work systematically: try 8_ × 7_ with 3 and 5 in each of the ones places."],
+    "solution": "Put the two biggest digits (8 and 7) in the tens places. That leaves 3 and 5 for the ones places, so there are two choices:\n\n$83 \\times 75 = 83 \\times 70 + 83 \\times 5 = 5{,}810 + 415 = 6{,}225$\n\n$85 \\times 73 = 85 \\times 70 + 85 \\times 3 = 5{,}950 + 255 = 6{,}205$\n\nThe largest product is **6,225**."
+  },
+  {
+    "id": "m6.num.whole-numbers.q021",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the special name for the answer to a multiplication?",
+    "accepted": ["product", "the product"],
+    "hints": ["In $3 \\times 5 = 15$, the 15 has this name."],
+    "solution": "The answer to a multiplication is the **product**. In $3 \\times 5 = 15$, 15 is the product."
+  }
+]

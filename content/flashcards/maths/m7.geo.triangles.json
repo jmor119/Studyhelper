@@ -1,0 +1,67 @@
+[
+  {
+    "id": "m7.geo.triangles.f01",
+    "front": "What is an **acute triangle**?",
+    "back": "A triangle with three acute angles: all less than 90°."
+  },
+  {
+    "id": "m7.geo.triangles.f02",
+    "front": "What is a **right-angled triangle**?",
+    "back": "A triangle with one right angle (exactly 90°), shown by a small square."
+  },
+  {
+    "id": "m7.geo.triangles.f03",
+    "front": "What is an **obtuse triangle**?",
+    "back": "A triangle with one obtuse angle: between 90° and 180°."
+  },
+  {
+    "id": "m7.geo.triangles.f04",
+    "front": "What is an **equilateral** triangle?",
+    "back": "A triangle with three equal sides. All its angles are 60°."
+  },
+  {
+    "id": "m7.geo.triangles.f05",
+    "front": "What is an **isosceles** triangle?",
+    "back": "A triangle with at least two equal sides. Its two base angles are equal."
+  },
+  {
+    "id": "m7.geo.triangles.f06",
+    "front": "What is a **scalene** triangle?",
+    "back": "A triangle with no equal sides (and no equal angles)."
+  },
+  {
+    "id": "m7.geo.triangles.f07",
+    "front": "What are the **base angles** of an isosceles triangle?",
+    "back": "The two equal angles, opposite the equal sides."
+  },
+  {
+    "id": "m7.geo.triangles.f08",
+    "front": "What do the angles in a triangle add up to?",
+    "back": "180°."
+  },
+  {
+    "id": "m7.geo.triangles.f09",
+    "front": "What is an **interior angle**?",
+    "back": "An angle inside a shape, between two of its sides."
+  },
+  {
+    "id": "m7.geo.triangles.f10",
+    "front": "What do matching tick marks on two sides mean?",
+    "back": "Those sides are the same length."
+  },
+  {
+    "id": "m7.geo.triangles.f11",
+    "front": "How do you find the third angle of a triangle?",
+    "back": "Add the two angles you know, then take the total away from 180°."
+  },
+  {
+    "id": "m7.geo.triangles.f12",
+    "front": "Why can a triangle not have two right angles?",
+    "back": "$90° + 90° = 180°$ would leave 0° for the third angle."
+  },
+  {
+    "id": "m7.geo.triangles.f13",
+    "front": "What do angles on a straight line add up to?",
+    "back": "180°. This helps when a side of a triangle is extended."
+  }
+]

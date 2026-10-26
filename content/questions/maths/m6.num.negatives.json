@@ -1,0 +1,342 @@
+[
+  {
+    "id": "m6.num.negatives.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which of these numbers is **neither** positive nor negative?",
+    "options": [
+      { "id": "a", "text": "0" },
+      { "id": "b", "text": "−1" },
+      { "id": "c", "text": "1" },
+      { "id": "d", "text": "10" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "−1 is less than 0, so it is a negative number.",
+      "c": "1 is greater than 0, so it is a positive number.",
+      "d": "10 is greater than 0, so it is a positive number."
+    },
+    "hints": ["Positive numbers are greater than 0. Negative numbers are less than 0."],
+    "solution": "**Zero** is neither positive nor negative. It sits between the negative numbers and the positive numbers on a number line."
+  },
+  {
+    "id": "m6.num.negatives.q002",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "How do you say the number −9 in words?",
+    "accepted": ["negative nine", "negative 9"],
+    "hints": ["The sign in front tells you the number is less than zero. What word do we use for that?"],
+    "solution": "−9 is said \"**negative nine**\". The negative sign shows it is 9 less than zero."
+  },
+  {
+    "id": "m6.num.negatives.q003",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "On a number line that goes across the page, where are the negative numbers?",
+    "options": [
+      { "id": "a", "text": "To the left of 0" },
+      { "id": "b", "text": "To the right of 0" },
+      { "id": "c", "text": "Between 0 and 1" },
+      { "id": "d", "text": "After the biggest positive number" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The positive numbers are to the right of 0.",
+      "c": "Numbers between 0 and 1, like 0.5, are fractions or decimals. They are positive.",
+      "d": "The positive numbers keep going to the right forever. Negative numbers are on the other side of 0."
+    },
+    "hints": ["Numbers get smaller as you move left. What is smaller than 0?"],
+    "solution": "Negative numbers are to the **left** of 0. On a thermometer, which goes up and down, they are below 0."
+  },
+  {
+    "id": "m6.num.negatives.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which temperature is colder: −5 °C or −2 °C?",
+    "options": [
+      { "id": "a", "text": "−5 °C, because it is further below zero" },
+      { "id": "b", "text": "−2 °C, because 2 is smaller than 5" },
+      { "id": "c", "text": "They are the same, because they are both negative" },
+      { "id": "d", "text": "You can't compare negative temperatures" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "−2 °C is only 2 degrees below zero. −5 °C is 5 degrees below zero, which is colder.",
+      "c": "Both are below zero, but one is further below zero than the other.",
+      "d": "You can compare them on a thermometer. Lower down is colder."
+    },
+    "hints": ["Picture a thermometer. Which temperature is lower down?"],
+    "solution": "−5 °C is 5 degrees below zero and −2 °C is 2 degrees below zero. So **−5 °C** is colder."
+  },
+  {
+    "id": "m6.num.negatives.q005",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "What temperature does this thermometer show?",
+    "figure": {"svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 320\" width=\"170\" height=\"320\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"14\"><rect width=\"100%\" height=\"100%\" fill=\"#ffffff\"/><rect x=\"52\" y=\"12\" width=\"16\" height=\"268\" rx=\"8\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"2\"/><rect x=\"56\" y=\"234.6\" width=\"8\" height=\"49.4\" fill=\"#dc2626\"/><circle cx=\"60\" cy=\"292\" r=\"16\" fill=\"#dc2626\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"68\" y1=\"258\" x2=\"82\" y2=\"258\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"258\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">−10</text><line x1=\"68\" y1=\"250.2\" x2=\"76\" y2=\"250.2\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"242.4\" x2=\"76\" y2=\"242.4\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"234.6\" x2=\"76\" y2=\"234.6\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"226.8\" x2=\"76\" y2=\"226.8\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"219\" x2=\"82\" y2=\"219\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"219\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">−5</text><line x1=\"68\" y1=\"211.2\" x2=\"76\" y2=\"211.2\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"203.4\" x2=\"76\" y2=\"203.4\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"195.6\" x2=\"76\" y2=\"195.6\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"187.8\" x2=\"76\" y2=\"187.8\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"180\" x2=\"82\" y2=\"180\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"180\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\" font-weight=\"bold\">0</text><line x1=\"68\" y1=\"172.2\" x2=\"76\" y2=\"172.2\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"164.4\" x2=\"76\" y2=\"164.4\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"156.6\" x2=\"76\" y2=\"156.6\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"148.8\" x2=\"76\" y2=\"148.8\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"141\" x2=\"82\" y2=\"141\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"141\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">5</text><line x1=\"68\" y1=\"133.2\" x2=\"76\" y2=\"133.2\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"125.4\" x2=\"76\" y2=\"125.4\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"117.6\" x2=\"76\" y2=\"117.6\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"109.8\" x2=\"76\" y2=\"109.8\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"102\" x2=\"82\" y2=\"102\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"102\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">10</text><line x1=\"68\" y1=\"94.2\" x2=\"76\" y2=\"94.2\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"86.4\" x2=\"76\" y2=\"86.4\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"78.6\" x2=\"76\" y2=\"78.6\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"70.8\" x2=\"76\" y2=\"70.8\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"63\" x2=\"82\" y2=\"63\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"63\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">15</text><line x1=\"68\" y1=\"55.2\" x2=\"76\" y2=\"55.2\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"47.4\" x2=\"76\" y2=\"47.4\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"39.6\" x2=\"76\" y2=\"39.6\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"31.8\" x2=\"76\" y2=\"31.8\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><line x1=\"68\" y1=\"24\" x2=\"82\" y2=\"24\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"88\" y=\"24\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">20</text><text x=\"90\" y=\"8\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"#1f2937\">°C</text></svg>", "alt": "A thermometer marked in °C from −10 to 20, with labels every 5 degrees."},
+    "answer": -7,
+    "form": "integer",
+    "units": "°C",
+    "hints": ["Each small mark is 1 degree.", "Is the top of the red line above or below 0?"],
+    "solution": "The red line stops 2 marks below −5. Counting down from −5: −6, −7. The temperature is **−7 °C**."
+  },
+  {
+    "id": "m6.num.negatives.q006",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these temperatures in order from **coldest to warmest**:\n\n3 °C,   −8 °C,   0 °C,   −1 °C,   −12 °C",
+    "items": [
+      { "id": "p", "text": "−12 °C" },
+      { "id": "q", "text": "−8 °C" },
+      { "id": "r", "text": "−1 °C" },
+      { "id": "s", "text": "0 °C" },
+      { "id": "t", "text": "3 °C" }
+    ],
+    "hints": ["The coldest temperature is the one furthest below zero."],
+    "solution": "Below zero, the further from 0 the colder: −12 °C, −8 °C, −1 °C. Then 0 °C, then 3 °C.\n\nThe order is −12 °C, −8 °C, −1 °C, 0 °C, 3 °C."
+  },
+  {
+    "id": "m6.num.negatives.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Choose $<$ or $>$ to make each one true.\n\n$-6$ [[a]] $-2$\n\n$0$ [[b]] $-4$",
+    "blanks": [
+      { "id": "a", "accepted": ["<"], "options": ["<", ">"] },
+      { "id": "b", "accepted": [">"], "options": ["<", ">"] }
+    ],
+    "hints": ["On a number line, the number further left is smaller.", "The pointy end points to the smaller number."],
+    "solution": "−6 is further left than −2, so $-6 < -2$.\n\n0 is to the right of every negative number, so $0 > -4$."
+  },
+  {
+    "id": "m6.num.negatives.q008",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Count back in 2s. What number comes next?\n\n$3,\\ 1,\\ -1,\\ \\square$",
+    "answer": -3,
+    "form": "integer",
+    "hints": ["Count back 2 from −1. Use a number line if it helps."],
+    "solution": "Count back 2 from −1: −2, −3. The next number is **−3**."
+  },
+  {
+    "id": "m6.num.negatives.q009",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each situation to the number that describes it.",
+    "pairs": [
+      { "left": { "id": "below", "text": "5 degrees below zero" }, "right": { "id": "n1", "text": "−5 °C" } },
+      { "left": { "id": "above", "text": "5 degrees above zero" }, "right": { "id": "n2", "text": "5 °C" } },
+      { "left": { "id": "owe", "text": "Owing your brother 5 dollars" }, "right": { "id": "n3", "text": "−\\$5" } },
+      { "left": { "id": "save", "text": "Having 5 dollars saved" }, "right": { "id": "n4", "text": "\\$5" } }
+    ],
+    "hints": ["Below zero and owing money are both shown with negative numbers."],
+    "solution": "5 degrees below zero is −5 °C, and 5 degrees above zero is 5 °C. Owing \\$5 is a debt, written −\\$5. Having \\$5 saved is \\$5."
+  },
+  {
+    "id": "m6.num.negatives.q010",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "At 5 am in Twizel the temperature was −4 °C. By 11 am it had warmed up by 9 degrees. What was the temperature at 11 am?",
+    "answer": 5,
+    "form": "integer",
+    "units": "°C",
+    "hints": ["Warming up means counting up.", "How many degrees does it take to get from −4 °C to 0 °C?"],
+    "solution": "Count up 4 degrees from −4 °C to reach 0 °C. That leaves $9 - 4 = 5$ more degrees. The temperature at 11 am was **5 °C**."
+  },
+  {
+    "id": "m6.num.negatives.q011",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ruby says, \"−10 is bigger than −3, because 10 is bigger than 3.\" Is she right?",
+    "options": [
+      { "id": "a", "text": "No. −10 is further to the left on the number line, so it is smaller than −3." },
+      { "id": "b", "text": "Yes. 10 is bigger than 3, so −10 is bigger than −3." },
+      { "id": "c", "text": "Yes. A negative number with two digits is bigger than one with one digit." },
+      { "id": "d", "text": "No. They are equal, because they are both negative." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "For negative numbers it works the other way: the further from 0, the smaller the number.",
+      "c": "That rule works for positive whole numbers, but not for negative numbers.",
+      "d": "Both are negative, but −10 is further from 0 than −3, so they are not equal."
+    },
+    "hints": ["Picture −10 and −3 on a number line. Which one is further left?", "Think of temperatures: is −10 °C warmer or colder than −3 °C?"],
+    "solution": "Ruby is not right. −10 is further left than −3 on a number line, so $-10 < -3$. A temperature of −10 °C is colder than −3 °C."
+  },
+  {
+    "id": "m6.num.negatives.q012",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "What number is exactly **halfway** between −6 and 2 on a number line?",
+    "answer": -2,
+    "form": "integer",
+    "hints": ["How many steps is it from −6 to 2?", "Halfway is half of those steps from either end."],
+    "solution": "From −6 up to 0 is 6 steps, and from 0 up to 2 is 2 steps, so −6 and 2 are 8 steps apart.\n\nHalf of 8 is 4. Count up 4 from −6: −5, −4, −3, −2. The halfway number is **−2**.\n\nCheck: from −2 up to 2 is also 4 steps ✓"
+  },
+  {
+    "id": "m6.num.negatives.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Start at −6 and count back in 2s. −6 is the 1st number you say. What is the **4th** number you say?",
+    "answer": -12,
+    "form": "integer",
+    "hints": ["Write the numbers down as you count: −6, …", "Counting back makes the numbers smaller, so they move further from 0."],
+    "solution": "Counting back in 2s: 1st −6, 2nd −8, 3rd −10, 4th −12. The 4th number is **−12**."
+  },
+  {
+    "id": "m6.num.negatives.q014",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Sione owes his sister \\$7. He earns \\$10 mowing lawns and pays back what he owes. How much money does Sione have left?",
+    "answer": 3,
+    "form": "integer",
+    "units": "$",
+    "hints": ["Sione's money starts at −\\$7.", "Count up \\$10 from −\\$7, going through \\$0."],
+    "solution": "Sione starts at −\\$7. Earning \\$10 moves him up 10. It takes \\$7 to get to \\$0, which leaves $10 - 7 = 3$.\n\nSione has **\\$3** left."
+  },
+  {
+    "id": "m6.num.negatives.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "One winter morning it was −9 °C at the top of a ski field on Ruapehu and 13 °C in Taupō. How many degrees warmer was it in Taupō?",
+    "answer": 22,
+    "form": "integer",
+    "units": "°C",
+    "hints": ["Count from −9 °C up to 0 °C first.", "Then count from 0 °C up to 13 °C, and add the two parts."],
+    "solution": "From −9 °C up to 0 °C is 9 degrees. From 0 °C up to 13 °C is 13 degrees.\n\n$9 + 13 = 22$, so it was **22 degrees** warmer in Taupō."
+  },
+  {
+    "id": "m6.num.negatives.q016",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why −3 is bigger than −7. You can use a number line or a thermometer in your explanation.",
+    "modelAnswer": "On a number line, −3 is 3 steps to the left of 0 and −7 is 7 steps to the left of 0. Numbers get smaller as you go left, so −7 is smaller and −3 is bigger. On a thermometer, −3 °C is only 3 degrees below zero but −7 °C is 7 degrees below zero, so −3 °C is warmer.",
+    "rubric": [
+      { "criterion": "Says that −3 is closer to 0 (or −7 is further from 0 / further below zero)", "marks": 1 },
+      { "criterion": "Uses a number line or thermometer: numbers further left (or lower down) are smaller", "marks": 1 }
+    ],
+    "hints": ["Where are −3 and −7 on a number line?", "Which is further from 0?"],
+    "solution": "−7 is further to the left of 0 than −3. On a number line, numbers further left are smaller, so −3 is bigger. (On a thermometer, −3 °C is warmer than −7 °C.)"
+  },
+  {
+    "id": "m6.num.negatives.q017",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "The temperature in Alexandra was 4 °C at midnight and −3 °C at 6 am. What happened to the temperature?",
+    "options": [
+      { "id": "a", "text": "It dropped by 7 degrees" },
+      { "id": "b", "text": "It dropped by 1 degree" },
+      { "id": "c", "text": "It rose by 7 degrees" },
+      { "id": "d", "text": "It dropped by 3 degrees" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "4 − 3 = 1 ignores the negative sign. −3 °C is 3 degrees below zero, not above.",
+      "c": "−3 °C is colder than 4 °C, so the temperature went down, not up.",
+      "d": "It dropped 3 degrees below zero, but it also had to drop 4 degrees to reach zero first."
+    },
+    "hints": ["Count down from 4 °C to 0 °C, then keep going to −3 °C."],
+    "solution": "From 4 °C down to 0 °C is 4 degrees. From 0 °C down to −3 °C is 3 more degrees. Altogether it **dropped by 7 degrees**."
+  },
+  {
+    "id": "m6.num.negatives.q018",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A freezer is at −18 °C. The power goes off, and the temperature inside rises by 3 degrees every hour. What is the temperature inside the freezer after 5 hours?",
+    "answer": -3,
+    "form": "integer",
+    "units": "°C",
+    "hints": ["Count up in 3s from −18, once for each hour.", "Keep track of how many hours you have counted."],
+    "solution": "Count up in 3s from −18 °C:\n\nAfter 1 hour −15 °C, 2 hours −12 °C, 3 hours −9 °C, 4 hours −6 °C, 5 hours −3 °C.\n\nAfter 5 hours it is **−3 °C**. It is still below zero."
+  },
+  {
+    "id": "m6.num.negatives.q019",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.negatives.g1",
+    "part": "a",
+    "stem": "Here are the lowest overnight temperatures at Lake Tekapo for one week in July.\n\n| Day | Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n|---|---|---|---|---|---|---|---|\n| Temperature (°C) | −2 | −5 | 1 | −7 | −3 | 0 | −4 |",
+    "prompt": "Which night was the **coldest**?",
+    "options": [
+      { "id": "a", "text": "Thursday" },
+      { "id": "b", "text": "Wednesday" },
+      { "id": "c", "text": "Tuesday" },
+      { "id": "d", "text": "Sunday" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Wednesday was 1 °C, which is above zero. That was the warmest night.",
+      "c": "Tuesday was −5 °C. Thursday was even further below zero.",
+      "d": "Sunday was −4 °C. Thursday was further below zero."
+    },
+    "hints": ["The coldest temperature is the one furthest below zero."],
+    "solution": "The temperature furthest below zero is −7 °C, on **Thursday**."
+  },
+  {
+    "id": "m6.num.negatives.q020",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.negatives.g1",
+    "part": "b",
+    "stem": "Here are the lowest overnight temperatures at Lake Tekapo for one week in July.\n\n| Day | Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n|---|---|---|---|---|---|---|---|\n| Temperature (°C) | −2 | −5 | 1 | −7 | −3 | 0 | −4 |",
+    "prompt": "On how many nights was the temperature **below** 0 °C?",
+    "answer": 5,
+    "form": "integer",
+    "hints": ["Below 0 °C means a negative temperature.", "Is 0 °C below 0 °C?"],
+    "solution": "The negative temperatures are −2, −5, −7, −3 and −4. Saturday was 0 °C, which is not below zero, and Wednesday was 1 °C.\n\nSo the temperature was below 0 °C on **5** nights."
+  },
+  {
+    "id": "m6.num.negatives.q021",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m6.num.negatives.g1",
+    "part": "c",
+    "stem": "Here are the lowest overnight temperatures at Lake Tekapo for one week in July.\n\n| Day | Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n|---|---|---|---|---|---|---|---|\n| Temperature (°C) | −2 | −5 | 1 | −7 | −3 | 0 | −4 |",
+    "prompt": "How many degrees warmer was the **warmest** night than the **coldest** night?",
+    "answer": 8,
+    "form": "integer",
+    "units": "°C",
+    "hints": ["Find the warmest and the coldest temperatures first.", "Count from the coldest up to 0 °C, then on to the warmest."],
+    "solution": "The warmest night was 1 °C (Wednesday) and the coldest was −7 °C (Thursday).\n\nFrom −7 °C up to 0 °C is 7 degrees, and from 0 °C up to 1 °C is 1 more. The warmest night was **8 degrees** warmer."
+  },
+  {
+    "id": "m6.num.negatives.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Kai says, \"If I start at 10 and count back in 3s, I will say −8.\"\n\nIs Kai right? Show how you know.",
+    "modelAnswer": "Yes, Kai is right. Counting back in 3s from 10 gives 10, 7, 4, 1, −2, −5, −8. So −8 is the 7th number he says.",
+    "rubric": [
+      { "criterion": "Counts back in 3s correctly past zero: 10, 7, 4, 1, −2, −5, −8", "marks": 1 },
+      { "criterion": "Says that Kai is right, because −8 is in the list", "marks": 1 }
+    ],
+    "hints": ["Write the numbers down as you count back in 3s from 10.", "Keep going past 0 into the negative numbers."],
+    "solution": "10, 7, 4, 1, −2, −5, −8. Kai is **right**: −8 is the 7th number he says."
+  }
+]

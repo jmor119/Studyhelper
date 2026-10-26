@@ -1,4 +1,6 @@
 import type { Subject } from '../types';
+import { year6Maths } from './nz/year6-maths';
+import { year7Maths } from './nz/year7-maths';
 import { year9Maths } from './nz/year9-maths';
 import { year9Science } from './nz/year9-science';
 import type { Curriculum, Topic } from './types';
@@ -6,7 +8,7 @@ import type { Curriculum, Topic } from './types';
 export * from './types';
 
 /** Every curriculum the app knows about. Add new year levels here. */
-export const CURRICULA: readonly Curriculum[] = [year9Maths, year9Science];
+export const CURRICULA: readonly Curriculum[] = [year6Maths, year7Maths, year9Maths, year9Science];
 
 const topicIndex = new Map<string, Topic>();
 for (const c of CURRICULA) {

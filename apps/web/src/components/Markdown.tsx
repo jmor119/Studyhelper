@@ -4,6 +4,7 @@ import ReactMarkdown, { type Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import clsx from 'clsx';
+import { parseFigureBlock } from '@study-helper/shared/content/lesson';
 
 // Markdown + KaTeX. Raw HTML in markdown is never rendered (react-markdown default), so content
 // from the AI or the shared bank can't inject markup. KaTeX runs with trust disabled.
@@ -25,6 +26,10 @@ function textOf(node: ReactNode): string {
 const baseComponents: Components = {
   code({ className, children, ...rest }) {
     const cls = className ?? '';
+    if (cls.includes('language-figure')) {
+      const fig = parseFigureBlock(textOf(children).trim());
+      return typeof fig === 'string' ? null : <Figure {...fig} />;
+    }
     if (cls.includes('math-inline') || cls.includes('math-display')) {
       const display = cls.includes('math-display');
       return (

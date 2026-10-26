@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m7.geo.transformations.f01",
+    "front": "What is a **transformation**?",
+    "back": "A way of moving a shape: a translation, a reflection or a rotation."
+  },
+  {
+    "id": "m7.geo.transformations.f02",
+    "front": "**Object** and **image**",
+    "back": "The object is the starting shape. The image is the shape after the transformation. The image of $A$ is written $A'$."
+  },
+  {
+    "id": "m7.geo.transformations.f03",
+    "front": "What is a **translation**?",
+    "back": "A slide. Every point moves the same distance in the same direction."
+  },
+  {
+    "id": "m7.geo.transformations.f04",
+    "front": "What is a **reflection**?",
+    "back": "A flip over a mirror line. The image is a mirror image."
+  },
+  {
+    "id": "m7.geo.transformations.f05",
+    "front": "What is a **rotation**?",
+    "back": "A turn about a fixed point, the centre of rotation."
+  },
+  {
+    "id": "m7.geo.transformations.f06",
+    "front": "Reflect $(x, y)$ in the $x$-axis",
+    "back": "$(x, -y)$: the $y$-coordinate changes sign."
+  },
+  {
+    "id": "m7.geo.transformations.f07",
+    "front": "Reflect $(x, y)$ in the $y$-axis",
+    "back": "$(-x, y)$: the $x$-coordinate changes sign."
+  },
+  {
+    "id": "m7.geo.transformations.f08",
+    "front": "Rotate $(x, y)$ by 180° about the origin",
+    "back": "$(-x, -y)$: both coordinates change sign."
+  },
+  {
+    "id": "m7.geo.transformations.f09",
+    "front": "**Clockwise** or **anticlockwise**?",
+    "back": "Clockwise is the way clock hands move. Anticlockwise is the opposite way."
+  },
+  {
+    "id": "m7.geo.transformations.f10",
+    "front": "What three things describe a rotation?",
+    "back": "The centre of rotation, the angle and the direction."
+  },
+  {
+    "id": "m7.geo.transformations.f11",
+    "front": "What stays the same after a translation, reflection or rotation?",
+    "back": "The shape and size: side lengths, angles and area."
+  },
+  {
+    "id": "m7.geo.transformations.f12",
+    "front": "270° clockwise is the same as…",
+    "back": "90° anticlockwise."
+  }
+]

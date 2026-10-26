@@ -1,0 +1,15 @@
+[
+  { "id": "m7.num.integers.f01", "front": "What is an **integer**?", "back": "A positive or negative whole number, or zero: …, −2, −1, 0, 1, 2, …" },
+  { "id": "m7.num.integers.f02", "front": "Where are **negative** numbers on a number line?", "back": "To the left of 0 on a horizontal number line, and below 0 on a vertical one." },
+  { "id": "m7.num.integers.f03", "front": "Is zero positive or negative?", "back": "Neither. It separates the positive numbers from the negative numbers." },
+  { "id": "m7.num.integers.f04", "front": "Is there a biggest or smallest integer?", "back": "No. The number line carries on forever in both directions." },
+  { "id": "m7.num.integers.f05", "front": "What is an **additive inverse**?", "back": "The number you add to get 0. The additive inverse of 5 is −5, because $5 + (-5) = 0$." },
+  { "id": "m7.num.integers.f06", "front": "Which is smaller, −9 or −2?", "back": "−9. It is further left on the number line (further below 0)." },
+  { "id": "m7.num.integers.f07", "front": "Adding a positive number on a number line", "back": "Move right. $-3 + 7$: start at −3, move 7 right, land on 4." },
+  { "id": "m7.num.integers.f08", "front": "Subtracting a positive number on a number line", "back": "Move left. $2 - 6$: start at 2, move 6 left, land on −4." },
+  { "id": "m7.num.integers.f09", "front": "What does adding a negative number do?", "back": "The same as subtracting: $5 + (-8) = 5 - 8 = -3$." },
+  { "id": "m7.num.integers.f10", "front": "What does subtracting a negative number do?", "back": "The same as adding its additive inverse: $4 - (-3) = 4 + 3 = 7$." },
+  { "id": "m7.num.integers.f11", "front": "The temperature is −4 °C and rises 9 °C. What is it now?", "back": "$-4 + 9 = 5$ °C." },
+  { "id": "m7.num.integers.f12", "front": "How do you find the gap between two numbers on opposite sides of 0?", "back": "Add their distances from 0. From −5 to 6 is $5 + 6 = 11$." },
+  { "id": "m7.num.integers.f13", "front": "What does a balance of −\\$12 mean?", "back": "You owe \\$12. You need \\$12 just to get back to \\$0." }
+]

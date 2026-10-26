@@ -1,0 +1,349 @@
+[
+  {
+    "id": "m7.num.place-value.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In $10^5$, what does the 5 tell you?",
+    "options": [
+      { "id": "a", "text": "Five 10s are multiplied together." },
+      { "id": "b", "text": "10 is multiplied by 5." },
+      { "id": "c", "text": "The number has 5 digits." },
+      { "id": "d", "text": "Five 10s are added together." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$10 \\times 5 = 50$, but $10^5$ is much bigger than that. The exponent counts how many 10s are multiplied.",
+      "c": "$10^5 = 100{,}000$, which has 6 digits. It has 5 **zeros**.",
+      "d": "Adding five 10s gives 50. An exponent means multiplying, not adding."
+    },
+    "hints": ["The small raised number is called the exponent.", "Write $10^2$ as a multiplication to see the pattern."],
+    "solution": "The exponent 5 means five 10s multiplied together: $10^5 = 10 \\times 10 \\times 10 \\times 10 \\times 10 = 100{,}000$."
+  },
+  {
+    "id": "m7.num.place-value.q002",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each power of 10 to its value.",
+    "pairs": [
+      { "left": { "id": "p1", "text": "$10^1$" }, "right": { "id": "v1", "text": "10" } },
+      { "left": { "id": "p2", "text": "$10^2$" }, "right": { "id": "v2", "text": "100" } },
+      { "left": { "id": "p3", "text": "$10^3$" }, "right": { "id": "v3", "text": "1,000" } },
+      { "left": { "id": "p4", "text": "$10^4$" }, "right": { "id": "v4", "text": "10,000" } },
+      { "left": { "id": "p6", "text": "$10^6$" }, "right": { "id": "v6", "text": "1,000,000" } }
+    ],
+    "hints": ["The exponent tells you how many zeros come after the 1."],
+    "solution": "$10^1 = 10$, $10^2 = 100$, $10^3 = 1{,}000$, $10^4 = 10{,}000$ and $10^6 = 1{,}000{,}000$ (one million)."
+  },
+  {
+    "id": "m7.num.place-value.q003",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the number 4,072,315, the digit 7 is in the [[a]] place.",
+    "blanks": [
+      { "id": "a", "accepted": ["ten thousands"], "options": ["thousands", "ten thousands", "hundred thousands", "millions"] }
+    ],
+    "hints": ["Count the places from the right: ones, tens, hundreds, thousands, …"],
+    "solution": "4,072,315 has 4 millions, 0 hundred thousands, **7 ten thousands**, 2 thousands, 3 hundreds, 1 ten and 5 ones. The 7 is worth $7 \\times 10^4 = 70{,}000$."
+  },
+  {
+    "id": "m7.num.place-value.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the value of the digit 8 in 3.18?",
+    "options": [
+      { "id": "a", "text": "8 hundredths" },
+      { "id": "b", "text": "8 tenths" },
+      { "id": "c", "text": "8 tens" },
+      { "id": "d", "text": "8 hundreds" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The first place after the decimal point is tenths. The 8 is in the second place.",
+      "c": "Places to the right of the decimal point are smaller than 1. Tens are to the left of the ones.",
+      "d": "Hundreds are to the left of the decimal point. The 8 is to the right."
+    },
+    "hints": ["The places after the decimal point are tenths, then hundredths, then thousandths."],
+    "solution": "In 3.18, the 1 is in the tenths place and the 8 is in the **hundredths** place. It is worth $\\frac{8}{100} = 0.08$."
+  },
+  {
+    "id": "m7.num.place-value.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Which is the expanded form of 60,409?",
+    "options": [
+      { "id": "a", "text": "$6 \\times 10^4 + 4 \\times 10^2 + 9$" },
+      { "id": "b", "text": "$6 \\times 10^4 + 4 \\times 10^3 + 9$" },
+      { "id": "c", "text": "$6 \\times 10^3 + 4 \\times 10^2 + 9$" },
+      { "id": "d", "text": "$6 \\times 10^5 + 4 \\times 10^3 + 9 \\times 10$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This is $60{,}000 + 4{,}000 + 9 = 64{,}009$. The 4 in 60,409 is in the hundreds place.",
+      "c": "This is $6{,}000 + 400 + 9 = 6{,}409$. The zero in the thousands place has been missed.",
+      "d": "Each exponent is one too big. The 6 is in the ten thousands place, which is $10^4$, not $10^5$."
+    },
+    "hints": ["Write down the place of each non-zero digit.", "Ten thousands is $10^4$ and hundreds is $10^2$."],
+    "solution": "60,409 has 6 ten thousands, 0 thousands, 4 hundreds, 0 tens and 9 ones.\n\n$60{,}409 = 6 \\times 10^4 + 4 \\times 10^2 + 9$"
+  },
+  {
+    "id": "m7.num.place-value.q006",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Choose <, > or = to make each statement true.\n\n$10^4$ [[a]] $9{,}999$\n\n$10^3$ [[b]] $1{,}000$\n\n$10^5$ [[c]] $500{,}000$",
+    "blanks": [
+      { "id": "a", "accepted": [">"], "options": ["<", ">", "="] },
+      { "id": "b", "accepted": ["="], "options": ["<", ">", "="] },
+      { "id": "c", "accepted": ["<"], "options": ["<", ">", "="] }
+    ],
+    "hints": ["Write each power of 10 as an ordinary number first."],
+    "solution": "$10^4 = 10{,}000$, which is 1 more than 9,999, so $10^4 > 9{,}999$.\n\n$10^3 = 1{,}000$, so $10^3 = 1{,}000$.\n\n$10^5 = 100{,}000$, which is less than 500,000, so $10^5 < 500{,}000$."
+  },
+  {
+    "id": "m7.num.place-value.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Round 7,649,500 to the nearest $10^6$ (the nearest million).",
+    "answer": 8000000,
+    "form": "integer",
+    "hints": ["Find the millions digit, then look at the digit just to its right."],
+    "solution": "The millions digit is 7. The next digit (hundred thousands) is 6, which is 5 or more, so round up: **8,000,000**."
+  },
+  {
+    "id": "m7.num.place-value.q008",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Hemi rounded 4.96 to the nearest tenth. He wrote 4.10. What should he have written?",
+    "options": [
+      { "id": "a", "text": "5.0" },
+      { "id": "b", "text": "4.9" },
+      { "id": "c", "text": "4.10" },
+      { "id": "d", "text": "4.0" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The hundredths digit is 6, which is 5 or more, so the tenths must round up, not down.",
+      "c": "4.10 is the same as 4.1, which is much smaller than 4.96. When 9 tenths round up they make 10 tenths, which is 1 whole.",
+      "d": "This throws away the 9 tenths. 4.96 is very close to 5, not 4."
+    },
+    "hints": ["Look at the hundredths digit. Do the tenths round up or down?", "What happens when 9 tenths become 10 tenths?"],
+    "solution": "The tenths digit is 9 and the next digit is 6, so round up. 9 tenths + 1 tenth = 10 tenths = 1 whole, which carries into the ones. So 4.96 rounds to **5.0**."
+  },
+  {
+    "id": "m7.num.place-value.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Round 0.749 to the nearest hundredth.",
+    "answer": 0.75,
+    "decimals": 2,
+    "tolerance": 0.000001,
+    "hints": ["The hundredths digit is 4. Look at the thousandths digit next to it."],
+    "solution": "The hundredths digit is 4 and the thousandths digit is 9. 9 is 5 or more, so round up: **0.75**."
+  },
+  {
+    "id": "m7.num.place-value.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Mia adds $0.8 + 0.75 + 0.9 + 0.66$ and gets 4.11. Without adding exactly, how can you tell she has made a mistake?",
+    "options": [
+      { "id": "a", "text": "Each of the four numbers is less than 1, so the total must be less than 4." },
+      { "id": "b", "text": "Each number is less than 1, so the total must be less than 1." },
+      { "id": "c", "text": "0.9 is nearly 1, so the total must be more than 4." },
+      { "id": "d", "text": "Each number rounds to 1, so the total must be exactly 4." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Numbers less than 1 can add to more than 1. For example, $0.8 + 0.75$ is already more than 1.",
+      "c": "Nearly 1 is still less than 1. Four numbers that are each less than 1 add to less than 4.",
+      "d": "Rounding gives an estimate, not the exact answer. Each number is less than 1, so the total is less than 4."
+    },
+    "hints": ["Use 1 as a benchmark. Is each number more or less than 1?"],
+    "solution": "Each number is less than 1, so the total must be less than $1 + 1 + 1 + 1 = 4$. Mia's answer of 4.11 is too big. (The exact total is 3.11.)"
+  },
+  {
+    "id": "m7.num.place-value.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Ruby's whānau drove 387 km on Saturday and 412 km on Sunday. Round each distance to the nearest hundred kilometres to estimate the total distance.",
+    "answer": 800,
+    "units": "km",
+    "form": "integer",
+    "hints": ["Round 387 and 412 to the nearest hundred first.", "Then add the rounded numbers."],
+    "solution": "$387 \\approx 400$ and $412 \\approx 400$.\n\nEstimate: $400 + 400 = 800$ km. (The exact total is 799 km, so the estimate is very close.)"
+  },
+  {
+    "id": "m7.num.place-value.q012",
+    "type": "text",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "What word means a rough answer that you work out quickly, usually by rounding the numbers first?",
+    "accepted": ["estimate", "an estimate", "estimation", "approximation", "approximate answer"],
+    "hints": ["You do this before you calculate, to check your answer is sensible."],
+    "solution": "An **estimate**. For example, $49 \\times 21$ is about $50 \\times 20 = 1{,}000$."
+  },
+  {
+    "id": "m7.num.place-value.q013",
+    "type": "order",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Put these numbers in order from **smallest** to **largest**.",
+    "items": [
+      { "id": "e3", "text": "$10^3$" },
+      { "id": "n9500", "text": "$9{,}500$" },
+      { "id": "e4", "text": "$10^4$" },
+      { "id": "two-e4", "text": "$2 \\times 10^4$" },
+      { "id": "n100001", "text": "$100{,}001$" }
+    ],
+    "hints": ["Write each power of 10 as an ordinary number first."],
+    "solution": "$10^3 = 1{,}000$, $10^4 = 10{,}000$ and $2 \\times 10^4 = 20{,}000$.\n\nSmallest to largest: $10^3$, 9,500, $10^4$, $2 \\times 10^4$, 100,001."
+  },
+  {
+    "id": "m7.num.place-value.q014",
+    "type": "cloze",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A whole number, rounded to the nearest ten, is 350.\n\nThe smallest it could be is [[a]] and the largest it could be is [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["345"] },
+      { "id": "b", "accepted": ["354"] }
+    ],
+    "hints": ["Which whole numbers round to 350? Think about the halfway points 345 and 355.", "Halfway numbers round up."],
+    "solution": "345 is halfway between 340 and 350, and halfway numbers round up, so 345 rounds to 350. 355 would round up to 360, so the largest is 354.\n\nThe numbers 345 to 354 all round to 350."
+  },
+  {
+    "id": "m7.num.place-value.q015",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which number is 1,000 times bigger than $10^2$?",
+    "options": [
+      { "id": "a", "text": "$10^5$" },
+      { "id": "b", "text": "$10^6$" },
+      { "id": "c", "text": "$10^3$" },
+      { "id": "d", "text": "$1{,}100$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "This multiplies the exponents ($2 \\times 3$). Multiplying by 1,000 adds three more zeros, so add 3 to the exponent.",
+      "c": "$10^3$ is 1,000 itself. You need 1,000 lots of 100.",
+      "d": "This adds 1,000 to 100. \"Times bigger\" means multiply."
+    },
+    "hints": ["$10^2 = 100$. What is $100 \\times 1{,}000$?", "Count the zeros in your answer."],
+    "solution": "$10^2 \\times 1{,}000 = 100 \\times 1{,}000 = 100{,}000$, which has 5 zeros. So it is $10^5$."
+  },
+  {
+    "id": "m7.num.place-value.q016",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "How many lots of $10^3$ make $10^6$?",
+    "answer": 1000,
+    "form": "integer",
+    "hints": ["Write both as ordinary numbers.", "How many thousands are in a million?"],
+    "solution": "$10^3 = 1{,}000$ and $10^6 = 1{,}000{,}000$.\n\n$1{,}000{,}000 \\div 1{,}000 = 1{,}000$, so it takes **1,000** lots of $10^3$ to make $10^6$."
+  },
+  {
+    "id": "m7.num.place-value.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "A school orders 28 boxes of exercise books. Each box holds 48 books. Estimate the total number of books by rounding each number to the nearest ten.",
+    "answer": 1500,
+    "form": "integer",
+    "hints": ["Round 28 and 48 to the nearest ten.", "Multiply the rounded numbers: use a basic fact, then put back the zeros."],
+    "solution": "$28 \\approx 30$ and $48 \\approx 50$.\n\n$30 \\times 50$: $3 \\times 5 = 15$, then put back two zeros: **1,500** books. (The exact answer is 1,344.)"
+  },
+  {
+    "id": "m7.num.place-value.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Liam says $0.9 + 0.95 + 0.99$ must be more than 3, because every number is close to 1.\n\nIs he right? Explain your thinking using a benchmark.",
+    "modelAnswer": "No, Liam is wrong. Each number is less than the benchmark 1, so the total must be less than $1 + 1 + 1 = 3$. Being close to 1 is not the same as being 1. (The total is actually 2.84.)",
+    "rubric": [
+      { "criterion": "Says Liam is wrong: the total is less than 3", "marks": 1 },
+      { "criterion": "Explains using a benchmark: each number is less than 1, so three of them add to less than 3", "marks": 1 }
+    ],
+    "hints": ["Is each number more or less than 1?", "What do three 1s add to?"],
+    "solution": "Each number is less than 1, so the total is less than 3. Liam is wrong. The exact total is $0.9 + 0.95 + 0.99 = 2.84$."
+  },
+  {
+    "id": "m7.num.place-value.q019",
+    "type": "numeric",
+    "difficulty": 4,
+    "groupId": "m7.num.place-value.g1",
+    "part": "a",
+    "stem": "The crowd at a rugby game at Eden Park was reported as 42,600, rounded to the nearest hundred.",
+    "calculator": "not-allowed",
+    "prompt": "What is the smallest the crowd could have been?",
+    "answer": 42550,
+    "form": "integer",
+    "hints": ["Find the halfway point between 42,500 and 42,600.", "Does a halfway number round up or down?"],
+    "solution": "Halfway between 42,500 and 42,600 is 42,550. Halfway numbers round up, so 42,550 rounds to 42,600. The smallest the crowd could have been is **42,550**."
+  },
+  {
+    "id": "m7.num.place-value.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "groupId": "m7.num.place-value.g1",
+    "part": "b",
+    "stem": "The crowd at a rugby game at Eden Park was reported as 42,600, rounded to the nearest hundred.",
+    "calculator": "not-allowed",
+    "prompt": "What is the largest the crowd could have been?",
+    "answer": 42649,
+    "form": "integer",
+    "hints": ["Find the halfway point between 42,600 and 42,700.", "That halfway number rounds up to 42,700, so it is too big."],
+    "solution": "Halfway between 42,600 and 42,700 is 42,650, which rounds **up** to 42,700. So the largest whole number that rounds to 42,600 is **42,649**."
+  },
+  {
+    "id": "m7.num.place-value.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "groupId": "m7.num.place-value.g1",
+    "part": "c",
+    "stem": "The crowd at a rugby game at Eden Park was reported as 42,600, rounded to the nearest hundred.",
+    "calculator": "not-allowed",
+    "prompt": "A newspaper rounded the **exact** crowd to the nearest thousand instead. Which number did it print?",
+    "options": [
+      { "id": "a", "text": "43,000" },
+      { "id": "b", "text": "42,000" },
+      { "id": "c", "text": "42,600" },
+      { "id": "d", "text": "40,000" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "The exact crowd was between 42,550 and 42,649, so its hundreds digit is 5 or 6. That rounds up, not down.",
+      "c": "42,600 is the crowd to the nearest hundred. To the nearest thousand, the answer must end in 000.",
+      "d": "40,000 is the crowd rounded to the nearest ten thousand."
+    },
+    "hints": ["Use your answers to parts (a) and (b): the exact crowd was between them.", "What is the hundreds digit of every number in that range?"],
+    "solution": "The exact crowd was between 42,550 and 42,649. Every number in that range has a hundreds digit of 5 or 6, so it rounds **up** to **43,000** to the nearest thousand."
+  },
+  {
+    "id": "m7.num.place-value.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere worked out $6.2 \\times 49$ and got 30.38.\n\nUse an estimate to explain whether her answer is reasonable.",
+    "modelAnswer": "Round to $6 \\times 50 = 300$. The answer should be about 300, so 30.38 is not reasonable: it is about ten times too small. (The exact answer is 303.8, so she probably put the decimal point in the wrong place.)",
+    "rubric": [
+      { "criterion": "Makes a sensible estimate, e.g. $6 \\times 50 = 300$", "marks": 1 },
+      { "criterion": "Concludes that 30.38 is not reasonable because it is about ten times smaller than the estimate", "marks": 1 }
+    ],
+    "hints": ["Round 6.2 to the nearest whole number and 49 to the nearest ten.", "Compare your estimate with Mere's answer."],
+    "solution": "Estimate: $6.2 \\approx 6$ and $49 \\approx 50$, so the answer is about $6 \\times 50 = 300$. Mere's answer, 30.38, is about ten times too small, so it is not reasonable. The exact answer is 303.8."
+  }
+]

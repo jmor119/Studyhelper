@@ -1,0 +1,323 @@
+[
+  {
+    "id": "m6.num.decimals.q001",
+    "type": "cloze",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In the number $0.479$, the 4 is in the [[a]] place, the 7 is in the [[b]] place and the 9 is in the [[c]] place.",
+    "blanks": [
+      { "id": "a", "accepted": ["tenths"], "options": ["ones", "tenths", "hundredths", "thousandths"] },
+      { "id": "b", "accepted": ["hundredths"], "options": ["ones", "tenths", "hundredths", "thousandths"] },
+      { "id": "c", "accepted": ["thousandths"], "options": ["ones", "tenths", "hundredths", "thousandths"] }
+    ],
+    "hints": ["The first place after the decimal point is tenths."],
+    "solution": "After the decimal point the places go **tenths**, **hundredths**, **thousandths**. So 4 is tenths, 7 is hundredths and 9 is thousandths."
+  },
+  {
+    "id": "m6.num.decimals.q002",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which decimal is the same as $\\frac{3}{10}$?",
+    "options": [
+      { "id": "a", "text": "$0.3$" },
+      { "id": "b", "text": "$0.03$" },
+      { "id": "c", "text": "$3.1$" },
+      { "id": "d", "text": "$0.003$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$0.03$ is 3 hundredths. You need 3 tenths.",
+      "c": "$3.1$ is 3 wholes and 1 tenth. The fraction $\\frac{3}{10}$ is less than 1 whole.",
+      "d": "$0.003$ is 3 thousandths. You need 3 tenths."
+    },
+    "hints": ["Tenths go in the first place after the decimal point."],
+    "solution": "$\\frac{3}{10}$ is 3 tenths. Tenths are the first place after the decimal point, so it is $0.3$."
+  },
+  {
+    "id": "m6.num.decimals.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Write $\\frac{9}{1000}$ as a decimal.",
+    "answer": 0.009,
+    "form": "decimal",
+    "hints": ["Thousandths need three places after the decimal point.", "Use zeros to fill the tenths and hundredths places."],
+    "solution": "$\\frac{9}{1000}$ is 9 thousandths. The 9 goes in the third place after the decimal point, with zeros holding the tenths and hundredths places: $0.009$."
+  },
+  {
+    "id": "m6.num.decimals.q004",
+    "type": "match",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Match each fraction to its decimal.",
+    "pairs": [
+      { "left": { "id": "f1", "text": "$\\frac{7}{10}$" }, "right": { "id": "d1", "text": "$0.7$" } },
+      { "left": { "id": "f2", "text": "$\\frac{7}{100}$" }, "right": { "id": "d2", "text": "$0.07$" } },
+      { "left": { "id": "f3", "text": "$\\frac{7}{1000}$" }, "right": { "id": "d3", "text": "$0.007$" } },
+      { "left": { "id": "f4", "text": "$\\frac{77}{100}$" }, "right": { "id": "d4", "text": "$0.77$" } }
+    ],
+    "hints": ["Tenths fill one decimal place, hundredths fill two and thousandths fill three."],
+    "solution": "$\\frac{7}{10} = 0.7$, $\\frac{7}{100} = 0.07$, $\\frac{7}{1000} = 0.007$ and $\\frac{77}{100} = 0.77$."
+  },
+  {
+    "id": "m6.num.decimals.q005",
+    "type": "text",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "What is the name of the **third** place after the decimal point?",
+    "accepted": ["thousandths", "thousandth", "thousandths place", "the thousandths place"],
+    "hints": ["The first place is tenths and the second place is hundredths."],
+    "solution": "The places after the decimal point are tenths, hundredths and then **thousandths**."
+  },
+  {
+    "id": "m6.num.decimals.q006",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Tama says $0.25$ is bigger than $0.3$ because 25 is bigger than 3. Is he right?",
+    "options": [
+      { "id": "a", "text": "No. $0.3 = 0.30$, and 30 hundredths is more than 25 hundredths." },
+      { "id": "b", "text": "Yes. 25 is bigger than 3, so $0.25$ is bigger." },
+      { "id": "c", "text": "Yes. $0.25$ has more digits, so it is bigger." },
+      { "id": "d", "text": "No. $0.25$ and $0.3$ are equal." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "You can't compare the digits after the decimal point like whole numbers. Give both numbers the same number of decimal places first.",
+      "c": "More digits does not make a decimal bigger. Compare the tenths first: 3 tenths is more than 2 tenths.",
+      "d": "$0.25 = 0.25$ and $0.3 = 0.30$. They are not equal."
+    },
+    "hints": ["Add a zero to $0.3$ so it has two decimal places.", "Then compare the tenths digits first."],
+    "solution": "Write $0.3$ as $0.30$. Then compare $0.30$ with $0.25$. The tenths digit 3 is bigger than 2, so $0.3 > 0.25$. Tama is not right."
+  },
+  {
+    "id": "m6.num.decimals.q007",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "How many **thousandths** are there in $0.6$?",
+    "answer": 600,
+    "form": "integer",
+    "hints": ["Write $0.6$ with three decimal places.", "One tenth is the same as 100 thousandths."],
+    "solution": "$0.6 = 0.600$. That is 600 thousandths, because each tenth is 100 thousandths and $6 \\times 100 = 600$."
+  },
+  {
+    "id": "m6.num.decimals.q008",
+    "type": "order",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Put these numbers in order from **smallest to largest**.",
+    "items": [
+      { "id": "p", "text": "$1.05$" },
+      { "id": "q", "text": "$1.45$" },
+      { "id": "r", "text": "$1.5$" },
+      { "id": "s", "text": "$1.505$" }
+    ],
+    "hints": ["Give each number three decimal places by adding zeros on the end."],
+    "solution": "With three decimal places: $1.050$, $1.450$, $1.500$, $1.505$. So the order is $1.05$, $1.45$, $1.5$, $1.505$."
+  },
+  {
+    "id": "m6.num.decimals.q009",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "$5.062$ is 5 ones, [[a]] tenths, [[b]] hundredths and [[c]] thousandths.",
+    "blanks": [
+      { "id": "a", "accepted": ["0", "zero"] },
+      { "id": "b", "accepted": ["6", "six"] },
+      { "id": "c", "accepted": ["2", "two"] }
+    ],
+    "hints": ["Read the digits after the decimal point in order: tenths, hundredths, thousandths."],
+    "solution": "After the decimal point the digits are 0, 6 and 2. So there are **0** tenths, **6** hundredths and **2** thousandths. The 0 holds the empty tenths place."
+  },
+  {
+    "id": "m6.num.decimals.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Mere worked out $4.5 + 2.36$ and got $2.81$. What did she do wrong?",
+    "options": [
+      { "id": "a", "text": "She lined up the last digits instead of the decimal points. The answer is $6.86$." },
+      { "id": "b", "text": "She forgot to carry a ten. The answer is $2.91$." },
+      { "id": "c", "text": "Nothing. $2.81$ is correct." },
+      { "id": "d", "text": "She should have subtracted. The answer is $2.14$." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "Carrying isn't the problem. Adding $4.5$ to anything should give an answer bigger than $4.5$.",
+      "c": "$2.81$ is smaller than $4.5$. Adding a positive number must make it bigger.",
+      "d": "The question is an addition, so you add."
+    },
+    "hints": ["Is $2.81$ bigger or smaller than $4.5$?", "Write $4.5$ as $4.50$ and line up the decimal points."],
+    "solution": "Mere lined up the 5 in $4.5$ with the 6 in $2.36$. Line up the decimal points instead:\n\n$$\\begin{array}{r} 4.50 \\\\ +\\ 2.36 \\\\ \\hline 6.86 \\end{array}$$"
+  },
+  {
+    "id": "m6.num.decimals.q011",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $7 - 2.35$.",
+    "answer": 4.65,
+    "hints": ["Write 7 as $7.00$.", "Line up the decimal points, then subtract."],
+    "solution": "$$\\begin{array}{r} 7.00 \\\\ -\\ 2.35 \\\\ \\hline 4.65 \\end{array}$$"
+  },
+  {
+    "id": "m6.num.decimals.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Work out $0.054 \\times 100$.",
+    "answer": 5.4,
+    "hints": ["Multiplying by 100 makes a number 100 times bigger.", "Move every digit two places to the left."],
+    "solution": "Each digit moves two places to the left. The 5 hundredths become 5 ones and the 4 thousandths become 4 tenths: $0.054 \\times 100 = 5.4$."
+  },
+  {
+    "id": "m6.num.decimals.q013",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi's dog has a mass of $12.4$ kg. His cat has a mass of $4.65$ kg. How much heavier is the dog than the cat?",
+    "answer": 7.75,
+    "units": "kg",
+    "hints": ["\"How much heavier\" means find the difference, so subtract.", "Write $12.4$ as $12.40$."],
+    "solution": "$$\\begin{array}{r} 12.40 \\\\ -\\ 4.65 \\\\ \\hline 7.75 \\end{array}$$\n\nThe dog is $7.75$ kg heavier."
+  },
+  {
+    "id": "m6.num.decimals.q014",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the numbers that are equal to $0.5$.",
+    "options": [
+      { "id": "a", "text": "$0.50$" },
+      { "id": "b", "text": "$0.500$" },
+      { "id": "c", "text": "$\\frac{1}{2}$" },
+      { "id": "d", "text": "$\\frac{5}{10}$" },
+      { "id": "e", "text": "$0.05$" },
+      { "id": "f", "text": "$\\frac{5}{100}$" }
+    ],
+    "correct": ["a", "b", "c", "d"],
+    "hints": ["Adding zeros on the end of a decimal does not change it.", "$0.5$ is 5 tenths."],
+    "solution": "$0.5 = 0.50 = 0.500$ (zeros on the end don't change the value). $0.5$ is 5 tenths, which is $\\frac{5}{10} = \\frac{1}{2}$.\n\n$0.05$ and $\\frac{5}{100}$ are 5 hundredths, which is much smaller."
+  },
+  {
+    "id": "m6.num.decimals.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Grace ran 100 m in $12.35$ seconds. In her next race she was $0.4$ seconds faster. What was her time in the next race?",
+    "answer": 11.95,
+    "units": "s",
+    "hints": ["Faster means less time, so subtract.", "Write $0.4$ as $0.40$ and line up the decimal points."],
+    "solution": "Faster means a smaller time, so subtract:\n\n$$\\begin{array}{r} 12.35 \\\\ -\\ 0.40 \\\\ \\hline 11.95 \\end{array}$$\n\nHer new time was $11.95$ seconds."
+  },
+  {
+    "id": "m6.num.decimals.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "A bag of 100 identical marbles has a mass of 450 g. Which calculation finds the mass of **one** marble?",
+    "options": [
+      { "id": "a", "text": "$450 \\div 100 = 4.5$ g" },
+      { "id": "b", "text": "$450 \\times 100 = 45{,}000$ g" },
+      { "id": "c", "text": "$450 \\div 10 = 45$ g" },
+      { "id": "d", "text": "$450 - 100 = 350$ g" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "One marble must be lighter than the whole bag, so you need to divide, not multiply.",
+      "c": "There are 100 marbles, not 10, so divide by 100.",
+      "d": "Taking away 100 doesn't share the mass between the marbles."
+    },
+    "hints": ["The total mass is shared equally between 100 marbles."],
+    "solution": "Share 450 g between 100 marbles: $450 \\div 100 = 4.5$ g. Each digit moves two places to the right."
+  },
+  {
+    "id": "m6.num.decimals.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number: $3.7 \\times \\square = 3700$",
+    "answer": 1000,
+    "form": "integer",
+    "hints": ["How many places has the 3 moved to the left?", "Moving 1 place is × 10, 2 places is × 100 and 3 places is × 1000."],
+    "solution": "The 3 has moved from the ones place to the thousands place. That is three places to the left, so the missing number is 1000: $3.7 \\times 1000 = 3700$."
+  },
+  {
+    "id": "m6.num.decimals.q018",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Which number is between $2.4$ and $2.41$?",
+    "options": [
+      { "id": "a", "text": "$2.405$" },
+      { "id": "b", "text": "$2.45$" },
+      { "id": "c", "text": "$2.399$" },
+      { "id": "d", "text": "$2.5$" }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "$2.45 = 2.450$, which is bigger than $2.41 = 2.410$.",
+      "c": "$2.399$ is just smaller than $2.4 = 2.400$.",
+      "d": "$2.5$ is bigger than $2.41$."
+    },
+    "hints": ["Write $2.4$ and $2.41$ with three decimal places.", "Which numbers come between 2.400 and 2.410?"],
+    "solution": "$2.4 = 2.400$ and $2.41 = 2.410$. A number between them is $2.405$, because 2.400 < 2.405 < 2.410."
+  },
+  {
+    "id": "m6.num.decimals.q019",
+    "type": "extended",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Mia says $0.8$ is smaller than $0.75$ because it has fewer digits. Explain why Mia is wrong. Use place value in your answer.",
+    "modelAnswer": "Mia is wrong because $0.8$ is bigger. $0.8$ is the same as $0.80$, which is 80 hundredths. $0.75$ is 75 hundredths. 80 hundredths is more than 75 hundredths. You can also compare the tenths: 8 tenths is more than 7 tenths. The number of digits doesn't tell you which decimal is bigger.",
+    "rubric": [
+      { "criterion": "Says that 0.8 is bigger, or writes 0.8 as 0.80", "marks": 1 },
+      { "criterion": "Explains using place value, e.g. 8 tenths is more than 7 tenths, or 80 hundredths is more than 75 hundredths", "marks": 1 }
+    ],
+    "hints": ["Write $0.8$ with two decimal places.", "Compare the tenths digits."],
+    "solution": "$0.8 = 0.80$. Comparing tenths, 8 tenths is more than 7 tenths, so $0.8 > 0.75$. More digits does not mean a bigger number."
+  },
+  {
+    "id": "m6.num.decimals.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Ana is making a fruit salad. She uses $0.75$ kg of apples, $0.6$ kg of bananas and $0.325$ kg of grapes. What is the total mass of the fruit?",
+    "answer": 1.675,
+    "units": "kg",
+    "hints": ["Add two of the masses first, then add the third.", "Give every number three decimal places so the decimal points line up."],
+    "solution": "$0.750 + 0.600 = 1.350$\n\n$1.350 + 0.325 = 1.675$\n\nThe total mass is $1.675$ kg."
+  },
+  {
+    "id": "m6.num.decimals.q021",
+    "type": "numeric",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "A 2 L bottle of juice is full. Kai pours out $0.375$ L, Isla pours out $0.45$ L and Leo pours out $0.6$ L. How much juice is left in the bottle?",
+    "answer": 0.575,
+    "units": "L",
+    "hints": ["First find how much juice was poured out altogether.", "Then take that away from 2 L. Write 2 as $2.000$."],
+    "solution": "Poured out: $0.375 + 0.450 + 0.600 = 1.425$ L.\n\nLeft: $2.000 - 1.425 = 0.575$ L."
+  },
+  {
+    "id": "m6.num.decimals.q022",
+    "type": "extended",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "marks": 2,
+    "prompt": "Explain what happens to the digits of $3.45$ when you multiply it by 100. Then give the answer.",
+    "modelAnswer": "Multiplying by 100 makes the number 100 times bigger, so every digit moves two places to the left. The 3 ones become 3 hundreds, the 4 tenths become 4 tens and the 5 hundredths become 5 ones. So $3.45 \\times 100 = 345$.",
+    "rubric": [
+      { "criterion": "Says every digit moves two places to the left (or each digit becomes 100 times bigger)", "marks": 1 },
+      { "criterion": "Gives the correct answer, 345", "marks": 1 }
+    ],
+    "hints": ["How many places do the digits move when you multiply by 100?"],
+    "solution": "Every digit moves two places to the left: $3.45 \\times 100 = 345$."
+  }
+]

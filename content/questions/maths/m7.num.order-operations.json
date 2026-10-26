@@ -1,0 +1,335 @@
+[
+  {
+    "id": "m7.num.order-operations.q001",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "In **GEMA**, what does the **E** stand for?",
+    "options": [
+      { "id": "a", "text": "Equals" },
+      { "id": "b", "text": "Exponents" },
+      { "id": "c", "text": "Estimate" },
+      { "id": "d", "text": "Even numbers" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "The equals sign isn't an operation, so it isn't part of the order. E is for exponents, like the 2 in $5^2$.",
+      "c": "Estimating is useful for checking, but it isn't a step in the order of operations.",
+      "d": "Even numbers don't change the order. E is for exponents, like squares and cubes."
+    },
+    "hints": ["The four letters are the four steps: Grouping, ?, Multiplicative, Additive.", "This step includes squares and cubes."],
+    "solution": "GEMA stands for **G**rouping (brackets), **E**xponents (squares and cubes), **M**ultiplicative (× and ÷) and **A**dditive (+ and −). So E is for **exponents**."
+  },
+  {
+    "id": "m7.num.order-operations.q002",
+    "type": "order",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Put the steps of the order of operations (GEMA) in the order you do them.",
+    "items": [
+      { "id": "g", "text": "Grouping: brackets" },
+      { "id": "e", "text": "Exponents: squares and cubes" },
+      { "id": "m", "text": "Multiplicative: × and ÷, left to right" },
+      { "id": "a", "text": "Additive: + and −, left to right" }
+    ],
+    "hints": ["The letters of GEMA give the order."],
+    "solution": "**G**rouping first, then **E**xponents, then **M**ultiplicative (× and ÷), then **A**dditive (+ and −)."
+  },
+  {
+    "id": "m7.num.order-operations.q003",
+    "type": "numeric",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Evaluate $9 + 3 \\times 5$.",
+    "answer": 24,
+    "hints": ["Which comes first: + or ×?"],
+    "solution": "Multiply first: $3 \\times 5 = 15$. Then add: $9 + 15 = 24$."
+  },
+  {
+    "id": "m7.num.order-operations.q004",
+    "type": "mcq",
+    "difficulty": 1,
+    "calculator": "not-allowed",
+    "prompt": "Which is bigger: $(4 + 6) \\times 2$ or $4 + 6 \\times 2$?",
+    "options": [
+      { "id": "a", "text": "$4 + 6 \\times 2$, which is 20" },
+      { "id": "b", "text": "They are the same: both are 20" },
+      { "id": "c", "text": "$(4 + 6) \\times 2$, which is 20" },
+      { "id": "d", "text": "They are the same: both are 16" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "Without brackets, multiply first: $4 + 6 \\times 2 = 4 + 12 = 16$.",
+      "b": "The brackets change the order. $(4 + 6) \\times 2 = 20$, but $4 + 6 \\times 2 = 16$.",
+      "d": "With brackets, the addition is done first: $(4 + 6) \\times 2 = 10 \\times 2 = 20$."
+    },
+    "hints": ["Work out each one separately.", "Brackets first. With no brackets, multiply before you add."],
+    "solution": "$(4 + 6) \\times 2 = 10 \\times 2 = 20$, and $4 + 6 \\times 2 = 4 + 12 = 16$. So $(4 + 6) \\times 2$ is bigger."
+  },
+  {
+    "id": "m7.num.order-operations.q005",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Mere says $24 \\div 4 \\times 2 = 3$. What mistake did she make?",
+    "options": [
+      { "id": "a", "text": "She multiplied first. × and ÷ go from left to right, so the answer is 12." },
+      { "id": "b", "text": "No mistake. × always comes before ÷, so the answer is 3." },
+      { "id": "c", "text": "She should have added first, so the answer is 30." },
+      { "id": "d", "text": "She divided first. × comes before ÷, so the answer is 3." }
+    ],
+    "correct": "a",
+    "feedback": {
+      "b": "× doesn't beat ÷. They are partners, so you work from left to right: $24 \\div 4 = 6$ comes first.",
+      "c": "There is no addition in this expression.",
+      "d": "Mere's answer of 3 came from $24 \\div 8$, so she multiplied first. And × and ÷ are partners: go left to right."
+    },
+    "hints": ["× and ÷ are partners in GEMA. Which one do you do first?", "Work from left to right."],
+    "solution": "× and ÷ are partners, so work from left to right: $24 \\div 4 \\times 2 = 6 \\times 2 = 12$. Mere did $4 \\times 2 = 8$ first, then $24 \\div 8 = 3$."
+  },
+  {
+    "id": "m7.num.order-operations.q006",
+    "type": "numeric",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Evaluate $50 - 18 + 7$.",
+    "answer": 39,
+    "hints": ["+ and − are partners.", "Work from left to right."],
+    "solution": "Work from left to right: $50 - 18 = 32$, then $32 + 7 = 39$.\n\n(If you added $18 + 7$ first, you would get $50 - 25 = 25$, which is wrong.)"
+  },
+  {
+    "id": "m7.num.order-operations.q007",
+    "type": "cloze",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "To [[a]] an expression means to work out its value. In $6^2$, the small raised 2 is called an [[b]].",
+    "blanks": [
+      { "id": "a", "accepted": ["evaluate"], "options": ["evaluate", "estimate", "expand"] },
+      { "id": "b", "accepted": ["exponent"], "options": ["exponent", "expression", "operation"] }
+    ],
+    "hints": ["Both words start with \"e\" and are in this topic's vocabulary."],
+    "solution": "To **evaluate** an expression means to work out its value. The small raised number is an **exponent**: $6^2 = 6 \\times 6 = 36$."
+  },
+  {
+    "id": "m7.num.order-operations.q008",
+    "type": "match",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "prompt": "Match each property to an example of it.",
+    "pairs": [
+      { "left": { "id": "com", "text": "Commutative" }, "right": { "id": "r1", "text": "$8 + 3 = 3 + 8$" } },
+      { "left": { "id": "ass", "text": "Associative" }, "right": { "id": "r2", "text": "$(2 \\times 5) \\times 7 = 2 \\times (5 \\times 7)$" } },
+      { "left": { "id": "dis", "text": "Distributive" }, "right": { "id": "r3", "text": "$4 \\times (10 + 2) = 4 \\times 10 + 4 \\times 2$" } },
+      { "left": { "id": "gem", "text": "GEMA" }, "right": { "id": "r4", "text": "A way to remember the order of operations" } }
+    ],
+    "hints": ["Commutative: the order swaps. Associative: the grouping changes. Distributive: a bracket is multiplied out."],
+    "solution": "**Commutative:** the numbers swap places ($8 + 3 = 3 + 8$). **Associative:** the brackets move ($(2 \\times 5) \\times 7 = 2 \\times (5 \\times 7)$). **Distributive:** the 4 multiplies each part of the bracket. **GEMA** helps you remember the order of operations."
+  },
+  {
+    "id": "m7.num.order-operations.q009",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Evaluate $4 + 3 \\times 2^3$.",
+    "answer": 28,
+    "hints": ["Exponents come before multiplying.", "$2^3 = 2 \\times 2 \\times 2$."],
+    "solution": "$4 + 3 \\times 2^3$\n\n$= 4 + 3 \\times 8$ (exponent)\n\n$= 4 + 24$ (multiply)\n\n$= 28$ (add)"
+  },
+  {
+    "id": "m7.num.order-operations.q010",
+    "type": "mcq",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Hemi works out $(3 + 2)^2$ like this: $3^2 + 2^2 = 9 + 4 = 13$. Is he right?",
+    "options": [
+      { "id": "a", "text": "Yes. Square each number, then add them." },
+      { "id": "b", "text": "No. $(3 + 2)^2 = 5 \\times 2 = 10$" },
+      { "id": "c", "text": "No. $(3 + 2)^2 = 3 + 2 \\times 2 = 7$" },
+      { "id": "d", "text": "No. Work out the bracket first: $5^2 = 25$" }
+    ],
+    "correct": "d",
+    "feedback": {
+      "a": "The exponent is outside the brackets, so it squares the whole bracket. Work out $3 + 2$ first.",
+      "b": "$5^2$ means $5 \\times 5$, not $5 \\times 2$.",
+      "c": "The brackets keep $3 + 2$ together, and the exponent squares all of it."
+    },
+    "hints": ["G comes before E in GEMA.", "What is $3 + 2$? Now square it."],
+    "solution": "Brackets first: $3 + 2 = 5$. Then the exponent: $5^2 = 5 \\times 5 = 25$. Hemi's method gives 13, which is wrong: $(3 + 2)^2$ is not the same as $3^2 + 2^2$."
+  },
+  {
+    "id": "m7.num.order-operations.q011",
+    "type": "mcq",
+    "difficulty": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.order-operations.g1",
+    "part": "a",
+    "stem": "At the school fair, Aroha buys 3 sausages at \\$2 each and 4 drinks at \\$3 each.",
+    "prompt": "Which expression gives the total cost in dollars?",
+    "options": [
+      { "id": "a", "text": "$(3 + 4) \\times (2 + 3)$" },
+      { "id": "b", "text": "$3 \\times 2 + 4 \\times 3$" },
+      { "id": "c", "text": "$3 + 2 \\times 4 + 3$" },
+      { "id": "d", "text": "$3 \\times (2 + 4) \\times 3$" }
+    ],
+    "correct": "b",
+    "feedback": {
+      "a": "This multiplies the number of items by the total of the two prices. It would mean every item costs \\$5.",
+      "c": "This adds the numbers of items to the prices. Each item's cost should be number × price.",
+      "d": "The 4 is the number of drinks, not a price. Sausages cost $3 \\times 2$ and drinks cost $4 \\times 3$."
+    },
+    "hints": ["Sausages: how many, times the price of one.", "Drinks: the same, then add the two costs."],
+    "solution": "Sausages cost $3 \\times 2$ dollars and drinks cost $4 \\times 3$ dollars. The total is $3 \\times 2 + 4 \\times 3$. GEMA means the multiplications are done first, which is just what we want."
+  },
+  {
+    "id": "m7.num.order-operations.q012",
+    "type": "numeric",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.order-operations.g1",
+    "part": "b",
+    "stem": "At the school fair, Aroha buys 3 sausages at \\$2 each and 4 drinks at \\$3 each.",
+    "prompt": "Evaluate $3 \\times 2 + 4 \\times 3$ to find the total cost.",
+    "answer": 18,
+    "units": "$",
+    "hints": ["Do both multiplications first.", "Then add."],
+    "solution": "$3 \\times 2 + 4 \\times 3 = 6 + 12 = 18$, so the total cost is \\$18."
+  },
+  {
+    "id": "m7.num.order-operations.q013",
+    "type": "extended",
+    "difficulty": 3,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "groupId": "m7.num.order-operations.g1",
+    "part": "c",
+    "stem": "At the school fair, Aroha buys 3 sausages at \\$2 each and 4 drinks at \\$3 each.",
+    "prompt": "Kai works out $3 \\times 2 + 4 \\times 3$ from left to right and gets 30. Explain what Kai did wrong, and why the cost must be \\$18.",
+    "modelAnswer": "Kai worked from left to right: $3 \\times 2 = 6$, then $6 + 4 = 10$, then $10 \\times 3 = 30$. But GEMA says multiply before you add, so both multiplications come first: $6 + 12 = 18$. It makes sense too: the sausages cost \\$6 and the drinks cost \\$12, so the total is \\$18.",
+    "rubric": [
+      { "criterion": "Says that Kai added before finishing the multiplications (he worked left to right instead of following GEMA)", "marks": 1 },
+      { "criterion": "Shows the correct working $6 + 12 = 18$, or explains that sausages cost \\$6 and drinks cost \\$12", "marks": 1 }
+    ],
+    "hints": ["How did Kai get 30? Try working left to right yourself.", "What does GEMA say about × and +?"],
+    "solution": "Kai did $3 \\times 2 = 6$, $6 + 4 = 10$, $10 \\times 3 = 30$. GEMA says do × before +, so $3 \\times 2 + 4 \\times 3 = 6 + 12 = 18$. The sausages cost \\$6 and the drinks cost \\$12, so \\$18 is right."
+  },
+  {
+    "id": "m7.num.order-operations.q014",
+    "type": "multi",
+    "difficulty": 3,
+    "calculator": "not-allowed",
+    "prompt": "Select **all** the expressions that are equal to 20.",
+    "options": [
+      { "id": "a", "text": "$2 + 3 \\times 6$" },
+      { "id": "b", "text": "$(2 + 3) \\times 6$" },
+      { "id": "c", "text": "$36 \\div 6 \\times 3$" },
+      { "id": "d", "text": "$2 \\times 3^2 + 2$" },
+      { "id": "e", "text": "$(1 + 3)^2$" },
+      { "id": "f", "text": "$50 - 3 \\times 10$" }
+    ],
+    "correct": ["a", "d", "f"],
+    "hints": ["Evaluate each expression using GEMA.", "Be careful with $36 \\div 6 \\times 3$: work from left to right."],
+    "solution": "a) $2 + 18 = 20$ ✓\n\nb) $5 \\times 6 = 30$\n\nc) $6 \\times 3 = 18$\n\nd) $2 \\times 9 + 2 = 18 + 2 = 20$ ✓\n\ne) $4^2 = 16$\n\nf) $50 - 30 = 20$ ✓"
+  },
+  {
+    "id": "m7.num.order-operations.q015",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Evaluate $5 \\times (12 - 4) \\div 2^2 + 7$.",
+    "answer": 17,
+    "hints": ["Brackets first, then the exponent.", "Then × and ÷ from left to right, and the + last."],
+    "solution": "$5 \\times (12 - 4) \\div 2^2 + 7$\n\n$= 5 \\times 8 \\div 2^2 + 7$ (brackets)\n\n$= 5 \\times 8 \\div 4 + 7$ (exponent)\n\n$= 40 \\div 4 + 7$ (× and ÷, left to right)\n\n$= 10 + 7$\n\n$= 17$ (add)"
+  },
+  {
+    "id": "m7.num.order-operations.q016",
+    "type": "mcq",
+    "difficulty": 4,
+    "calculator": "not-allowed",
+    "prompt": "Where should the brackets go to make this true?\n\n$6 + 4 \\times 5 - 3 = 20$",
+    "options": [
+      { "id": "a", "text": "$6 + 4 \\times (5 - 3)$" },
+      { "id": "b", "text": "$(6 + 4) \\times 5 - 3$" },
+      { "id": "c", "text": "$6 + (4 \\times 5 - 3)$" },
+      { "id": "d", "text": "$(6 + 4) \\times (5 - 3)$" }
+    ],
+    "correct": "d",
+    "feedback": {
+      "a": "This gives $6 + 4 \\times 2 = 6 + 8 = 14$.",
+      "b": "This gives $10 \\times 5 - 3 = 50 - 3 = 47$.",
+      "c": "This gives $6 + 17 = 23$. The brackets don't change anything here, because × already comes before + and −."
+    },
+    "hints": ["Without brackets, the answer is 23.", "Try each option. Work out the brackets first."],
+    "solution": "$(6 + 4) \\times (5 - 3) = 10 \\times 2 = 20$ ✓"
+  },
+  {
+    "id": "m7.num.order-operations.q017",
+    "type": "numeric",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Ms Ngata buys 6 netballs that cost \\$49 each. Use the distributive property to work out the total cost in your head.",
+    "answer": 294,
+    "units": "$",
+    "hints": ["49 is 1 less than 50.", "Work out $6 \\times 50$, then take away 6 lots of 1."],
+    "solution": "$6 \\times 49 = 6 \\times (50 - 1) = 6 \\times 50 - 6 \\times 1 = 300 - 6 = 294$\n\nThe netballs cost \\$294."
+  },
+  {
+    "id": "m7.num.order-operations.q018",
+    "type": "extended",
+    "difficulty": 4,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Explain why $4 \\times 17 \\times 25$ is easy to work out in your head. Use the word **commutative** or **associative** in your answer.",
+    "modelAnswer": "When you only multiply, you can change the order (commutative) and the grouping (associative) without changing the answer. So $4 \\times 17 \\times 25 = (4 \\times 25) \\times 17 = 100 \\times 17 = 1700$. Multiplying by 100 is easy.",
+    "rubric": [
+      { "criterion": "Explains that the order or grouping can be changed when you only multiply, using the word commutative or associative", "marks": 1 },
+      { "criterion": "Pairs $4 \\times 25 = 100$ and gets $100 \\times 17 = 1700$", "marks": 1 }
+    ],
+    "hints": ["Which two of the numbers multiply to make a very friendly number?", "Can you change the order when you only multiply?"],
+    "solution": "Change the order and grouping (commutative and associative properties): $4 \\times 17 \\times 25 = (4 \\times 25) \\times 17 = 100 \\times 17 = 1700$."
+  },
+  {
+    "id": "m7.num.order-operations.q019",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Evaluate $[3 + (8 - 5)^2] \\times 4 - 6^2 \\div 9$.",
+    "answer": 44,
+    "hints": ["Start with the innermost brackets.", "Finish the square brackets, then exponents, then × and ÷, then −."],
+    "solution": "$[3 + (8 - 5)^2] \\times 4 - 6^2 \\div 9$\n\n$= [3 + 3^2] \\times 4 - 6^2 \\div 9$ (inner brackets)\n\n$= [3 + 9] \\times 4 - 6^2 \\div 9$ (exponent inside the brackets)\n\n$= 12 \\times 4 - 6^2 \\div 9$ (finish the brackets)\n\n$= 12 \\times 4 - 36 \\div 9$ (exponent)\n\n$= 48 - 4$ (× and ÷)\n\n$= 44$ (subtract)"
+  },
+  {
+    "id": "m7.num.order-operations.q020",
+    "type": "numeric",
+    "difficulty": 5,
+    "marks": 2,
+    "calculator": "not-allowed",
+    "prompt": "Find the missing number.\n\n$(\\square + 3) \\times 4 - 2^3 = 28$",
+    "answer": 6,
+    "hints": ["Work backwards. What must $(\\square + 3) \\times 4$ be, if taking away $2^3 = 8$ leaves 28?", "Then undo the × 4, then undo the + 3."],
+    "solution": "$2^3 = 8$, so $(\\square + 3) \\times 4 - 8 = 28$.\n\nThat means $(\\square + 3) \\times 4 = 36$, so $\\square + 3 = 9$, and $\\square = 6$.\n\nCheck: $(6 + 3) \\times 4 - 2^3 = 9 \\times 4 - 8 = 36 - 8 = 28$ ✓"
+  },
+  {
+    "id": "m7.num.order-operations.q021",
+    "type": "mcq",
+    "difficulty": 5,
+    "calculator": "not-allowed",
+    "prompt": "Which number sentence is **true**?",
+    "options": [
+      { "id": "a", "text": "$3 + 5^2 = 64$" },
+      { "id": "b", "text": "$(10 - 4) \\div 2 = 10 - 4 \\div 2$" },
+      { "id": "c", "text": "$8 \\times 7 \\le 8 \\times 5 + 4^2$" },
+      { "id": "d", "text": "$2^3 \\times 3 = 6^3$" }
+    ],
+    "correct": "c",
+    "feedback": {
+      "a": "The exponent belongs to the 5 only: $3 + 25 = 28$. 64 would be $(3 + 5)^2$.",
+      "b": "The left side is $6 \\div 2 = 3$. The right side is $10 - 2 = 8$. They aren't equal.",
+      "d": "$2^3 \\times 3 = 8 \\times 3 = 24$, but $6^3 = 216$. The exponent only applies to the 2."
+    },
+    "hints": ["Work out both sides of each sentence using GEMA.", "$\\le$ means \"is less than or equal to\"."],
+    "solution": "$8 \\times 7 = 56$, and $8 \\times 5 + 4^2 = 40 + 16 = 56$. $56 \\le 56$ is true, because 56 is equal to 56."
+  }
+]

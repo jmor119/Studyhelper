@@ -1,0 +1,15 @@
+[
+  { "id": "m6.num.whole-numbers.f01", "front": "What is a **sum**?", "back": "The answer when you add. In $25 + 16 = 41$, the sum is 41." },
+  { "id": "m6.num.whole-numbers.f02", "front": "What is a **difference**?", "back": "The answer when you subtract. In $50 - 12 = 38$, the difference is 38." },
+  { "id": "m6.num.whole-numbers.f03", "front": "What is a **product**?", "back": "The answer when you multiply. In $6 \\times 7 = 42$, the product is 42." },
+  { "id": "m6.num.whole-numbers.f04", "front": "What does **partition** mean?", "back": "Split a number into parts, such as $347 = 300 + 40 + 7$." },
+  { "id": "m6.num.whole-numbers.f05", "front": "What does **regroup** mean when you add in columns?", "back": "When a column adds to 10 or more, swap 10 of them for 1 in the next column to the left." },
+  { "id": "m6.num.whole-numbers.f06", "front": "What do you do in column subtraction when the top digit is too small?", "back": "Rename 1 from the next column to the left as 10, e.g. 1 ten becomes 10 ones." },
+  { "id": "m6.num.whole-numbers.f07", "front": "What is the **column method**?", "back": "A written method: line up the digits by place value and work one column at a time, starting with the ones." },
+  { "id": "m6.num.whole-numbers.f08", "front": "What is an **estimate**?", "back": "A rough answer worked out with rounded numbers, e.g. $48 \\times 31 \\approx 50 \\times 30 = 1{,}500$." },
+  { "id": "m6.num.whole-numbers.f09", "front": "What does **efficient** mean in maths?", "back": "The quickest way to get the answer that you can still do correctly." },
+  { "id": "m6.num.whole-numbers.f10", "front": "A quick way to work out $299 + 456$ in your head", "back": "Add 300, then take away 1: $756 - 1 = 755$." },
+  { "id": "m6.num.whole-numbers.f11", "front": "How do you work out $542 \\times 12$?", "back": "Split 12 into $10 + 2$: $542 \\times 2 = 1{,}084$ and $542 \\times 10 = 5{,}420$. Add them: 6,504." },
+  { "id": "m6.num.whole-numbers.f12", "front": "Why does the second line of $46 \\times 23$ end in a 0?", "back": "The 2 in 23 means 2 tens, so the line is $46 \\times 20 = 920$, which is 10 times $46 \\times 2$." },
+  { "id": "m6.num.whole-numbers.f13", "front": "How can you check a subtraction answer?", "back": "Add your answer to the number you took away. You should get back the number you started with." }
+]
