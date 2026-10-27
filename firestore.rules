@@ -33,13 +33,13 @@ service cloud.firestore {
     // ---------- user profiles ----------
     match /users/{userId} {
       allow read: if isSelf(userId) || isLinkedParentOf(userId) || isLinkedStudentOf(userId) || isAdmin();
-      // Created by the completeOnboarding function. Users may edit only cosmetic fields.
+      // Created by the completeOnboarding function. Users may edit their name and preferences.
+      // The profile picture, frame, title and colour theme are unlocked rewards, set by setLook.
       allow create, delete: if false;
       allow update: if isSelf(userId)
-        && changedKeys().hasOnly(['displayName', 'avatar', 'prefs'])
+        && changedKeys().hasOnly(['displayName', 'prefs'])
         && isShortString(request.resource.data.displayName, 60)
         && request.resource.data.displayName.size() >= 1
-        && isOptionalShortString(request.resource.data, 'avatar', 16)
         && (!('prefs' in request.resource.data) || validPrefs(request.resource.data.prefs));
 
       function validPrefs(p) {
@@ -62,6 +62,11 @@ service cloud.firestore {
     // ---------- family links (written by acceptInvite / createChildAccount / unlink) ----------
     match /links/{linkId} {
       allow read: if signedIn() && (resource.data.parentUid == uid() || resource.data.studentUid == uid());
+      allow write: if false;
+    }
+    // Co-parents (written by acceptInvite / removeCoParent). Either parent can read the pair.
+    match /coparents/{pairId} {
+      allow read: if signedIn() && uid() in resource.data.parents;
       allow write: if false;
     }
     match /invites/{code} { allow read, write: if false; }
@@ -148,6 +153,29 @@ service cloud.firestore {
           && isOptionalShortString(request.resource.data, 'reward', 200)
           && request.resource.data.status in ['active', 'paused', 'achieved', 'archived'];
         allow delete: if isLinkedParentOf(studentId);
+      }
+
+      // Rewards a linked parent promises for reaching a level. Cloud Functions mark them earned;
+      // parents mark them given. (The character collection under rewards/ is functions-only.)
+      match /levelRewards/{rewardId} {
+        allow create: if isLinkedParentOf(studentId)
+          && request.resource.data.keys().hasOnly(['level', 'reward', 'createdBy', 'createdByName', 'createdAt', 'status'])
+          && request.resource.data.createdBy == uid()
+          && validLevelReward(request.resource.data)
+          && isShortString(request.resource.data.createdByName, 60)
+          && request.resource.data.createdAt is number
+          && request.resource.data.status == 'active';
+        allow update: if isLinkedParentOf(studentId)
+          && changedKeys().hasOnly(['level', 'reward', 'status', 'givenAt'])
+          && validLevelReward(request.resource.data)
+          && request.resource.data.status in ['active', 'earned', 'given']
+          && (!('givenAt' in request.resource.data) || request.resource.data.givenAt is number);
+        allow delete: if isLinkedParentOf(studentId);
+
+        function validLevelReward(d) {
+          return d.level is int && d.level >= 2 && d.level <= 200
+            && d.reward is string && d.reward.size() >= 1 && d.reward.size() <= 120;
+        }
       }
     }
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="golden-moa-glow" cx="64" cy="64" r="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff6c9" stop-opacity=".95"/>
+      <stop offset=".6" stop-color="#fde68a" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#fcd34d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="golden-moa-gold" x1="30" y1="16" x2="96" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset=".45" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#e0890c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#golden-moa-glow)"/>
+  <g stroke="#1f2937" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M47 98h10v14H47zM65 98h10v14H65z" fill="#c98a1a"/>
+    <path d="M52 111l-7 5M52 111v6M52 111l7 5M70 111l-7 5M70 111v6M70 111l7 5" stroke-width="7"/>
+    <path d="M52 111l-7 5M52 111v6M52 111l7 5M70 111l-7 5M70 111v6M70 111l7 5" stroke="#c98a1a" stroke-width="3"/>
+    <path d="M94 26c6 0 11 3 13 9-5 0-9-1-13-3z" fill="#fdf0c4"/>
+    <path d="M66 68c-3-10-1-22 4-30-2-10 4-18 12-18 8 0 13 5 13 11 0 5-4 8-8 9-3 6-3 14-1 20 1 4 2 8 2 12z" fill="url(#golden-moa-gold)"/>
+    <path d="M22 80c0-14 12-22 30-22 14 0 28 4 36 14 4 6 4 14 0 20l2 6h-8l2 7-8-3-2 7-6-6-4 7-4-7-8 6-2-7-8 4v-7l-8 3 1-7-9 1 3-7-7-1z" fill="url(#golden-moa-gold)"/>
+  </g>
+  <path d="M62 100c12-2 22-8 26-18 0 8-3 14-8 17z" fill="#d9820c" opacity=".75"/>
+  <path d="M30 70c4-6 12-10 22-10M73 36c2-6 6-10 11-11" fill="none" stroke="#fffbe6" stroke-width="4.5" stroke-linecap="round" opacity=".9"/>
+  <g fill="none" stroke="#c2700c" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M38 70q-2 6 0 12M50 66q-2 6 0 12M62 68q-2 6 0 12M44 84q-2 6 0 12M56 82q-2 6 0 12M70 80q-2 6 0 12M80 76q-2 5 0 10M74 46q-2 5 0 10M82 52q-2 5 0 10"/>
+  </g>
+  <g fill="#fff">
+    <path d="M42 72l1.4 3.6 3.6 1.4-3.6 1.4-1.4 3.6-1.4-3.6-3.6-1.4 3.6-1.4zM79 44l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1zM26 36l2 5 5 2-5 2-2 5-2-5-5-2 5-2zM106 62l1.6 4 4 1.6-4 1.6-1.6 4-1.6-4-4-1.6 4-1.6zM48 30l1.2 3 3 1.2-3 1.2-1.2 3-1.2-3-3-1.2 3-1.2z"/>
+    <circle cx="18" cy="92" r="1.6"/><circle cx="104" cy="94" r="1.8"/><circle cx="38" cy="20" r="1.4"/><circle cx="110" cy="44" r="1.3"/>
+  </g>
+  <ellipse cx="77" cy="36" rx="3.6" ry="2.6" fill="#f9a8b8" opacity=".75"/>
+  <circle cx="79" cy="28" r="5" fill="#1f2937"/>
+  <circle cx="89.5" cy="27" r="4.6" fill="#1f2937"/>
+  <circle cx="80.8" cy="26.2" r="2" fill="#fff"/>
+  <circle cx="91.2" cy="25.3" r="1.8" fill="#fff"/>
+  <circle cx="77.9" cy="30.2" r=".9" fill="#fff"/>
+  <circle cx="88.4" cy="29" r=".9" fill="#fff"/>
+</svg>

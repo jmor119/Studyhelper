@@ -27,7 +27,12 @@ export interface UserProfile {
   username?: string;
   /** uid of the parent who created this account, if any. */
   managedBy?: string;
+  /** Profile picture: a character id (see rewards.ts). Set through the setLook function. */
   avatar?: string;
+  /** Students: equipped profile frame, title and colour theme ids (rewards.ts). */
+  frame?: string;
+  title?: string;
+  palette?: string;
   prefs?: UserPrefs;
   createdAt: number;
 }
@@ -51,7 +56,19 @@ export interface FamilyLink {
   studentName: string;
   createdAt: number;
   createdBy: string;
+  /** Set when the link was made because two parents are co-parents (the coparents doc id). */
+  coParent?: string;
 }
+
+/** coparents/{uidA_uidB} (uids sorted). Co-parents share all of each other's children. */
+export interface CoParentLink {
+  parents: [string, string];
+  names: Record<string, string>;
+  createdAt: number;
+  createdBy: string;
+}
+
+export const coParentId = (a: string, b: string) => [a, b].sort().join('_');
 
 export interface StudentStats {
   xp: number;

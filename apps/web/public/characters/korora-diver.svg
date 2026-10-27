@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="korora-diver-brass" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#fde9a8"/><stop offset=".45" stop-color="#e8ae46"/><stop offset="1" stop-color="#b9792a"/>
+    </radialGradient>
+    <clipPath id="korora-diver-glass"><circle cx="62" cy="54" r="18"/></clipPath>
+  </defs>
+  <g stroke="#1f2937" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M41 97c-6 2-11 5-13 10 6 2 11 0 15-4zM87 97c6 2 11 5 13 10-6 2-11 0-15-4z" fill="#4f6fbf"/>
+    <ellipse cx="64" cy="102" rx="26" ry="12" fill="#5878c8"/>
+    <rect x="58" y="8" width="12" height="9" rx="2" fill="#c98a2f"/>
+    <circle cx="64" cy="52" r="36" fill="url(#korora-diver-brass)"/>
+    <path d="M32 84c10 7 54 7 64 0l4 11c-12 9-60 9-72 0z" fill="#d89a3a"/>
+    <ellipse cx="95" cy="54" rx="4" ry="9" fill="#9fd4ef"/>
+    <circle cx="62" cy="54" r="23" fill="#c98a2f"/>
+  </g>
+  <ellipse cx="62" cy="106" rx="15" ry="5" fill="#fff"/>
+  <g clip-path="url(#korora-diver-glass)">
+    <rect x="40" y="34" width="44" height="40" fill="#5878c8"/>
+    <ellipse cx="61" cy="74" rx="20" ry="11" fill="#fff"/>
+    <ellipse cx="49" cy="61" rx="5" ry="3.5" fill="#f9a8b8" opacity=".7"/>
+    <ellipse cx="75" cy="60" rx="5" ry="3.5" fill="#f9a8b8" opacity=".7"/>
+    <path d="M57 57q5-3 10 0-2 6-5 9-4-3-5-9z" fill="#3a4250" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="53" cy="51" r="6" fill="#1f2937"/>
+    <circle cx="71" cy="50" r="6.5" fill="#1f2937"/>
+    <circle cx="55.2" cy="48.8" r="2.3" fill="#fff"/>
+    <circle cx="73.4" cy="47.8" r="2.5" fill="#fff"/>
+    <circle cx="51.8" cy="53.6" r="1" fill="#fff"/>
+    <circle cx="69.8" cy="52.6" r="1.1" fill="#fff"/>
+    <circle cx="62" cy="54" r="18" fill="#bfe8ff" opacity=".22"/>
+    <path d="M49 46c3-5 8-8 13-9" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" opacity=".85"/>
+  </g>
+  <circle cx="62" cy="54" r="18" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <g fill="#7a4f1c">
+    <circle cx="47.5" cy="39.5" r="2"/><circle cx="76.5" cy="39.5" r="2"/><circle cx="47.5" cy="68.5" r="2"/><circle cx="76.5" cy="68.5" r="2"/>
+    <circle cx="44" cy="93" r="2"/><circle cx="64" cy="96" r="2"/><circle cx="84" cy="93" r="2"/>
+  </g>
+  <path d="M40 30c4-6 10-10 17-12" fill="none" stroke="#fff6d6" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="53" cy="114" rx="8" ry="4" fill="#f6a8ad"/>
+    <ellipse cx="75" cy="114" rx="8" ry="4" fill="#f6a8ad"/>
+    <g fill="#dbeafe">
+      <circle cx="98" cy="25" r="5"/><circle cx="108" cy="37" r="3.5"/><circle cx="25" cy="34" r="3"/>
+    </g>
+  </g>
+  <g fill="#fff">
+    <circle cx="99.5" cy="23.5" r="1.5"/><circle cx="109" cy="36" r="1"/>
+  </g>
+  <path d="M22 62q1 6 6 7-5 1-6 7-1-6-6-7 5-1 6-7zM110 70q1 5 5 6-4 1-5 6-1-5-5-6 4-1 5-6z" fill="#fde047" stroke="#1f2937" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

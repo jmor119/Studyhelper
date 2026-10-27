@@ -1,4 +1,4 @@
-import { inviteEmail, inviteMailto, type Role } from '@study-helper/shared';
+import { inviteEmail, inviteMailto, type InviteKind, type Role } from '@study-helper/shared';
 import { Check, Copy, Mail } from 'lucide-react';
 import { useState, type FormEvent } from 'react';
 import { api, errorMessage } from '../../lib/api';
@@ -10,21 +10,23 @@ export interface InviteForEmail {
   expiresAt: number;
   /** Role of the person being invited. */
   forRole: Role;
+  kind?: InviteKind;
 }
 
 /**
  * "Email the invite": sends it from Study Helper when an email service is connected; otherwise opens
  * the user's own email app with the message ready to send (and offers to copy it as a fallback).
  */
-export function InviteEmail({ invite, fromName }: { invite: InviteForEmail; fromName: string }) {
+export function InviteEmail({ invite, fromName, childNames }: { invite: InviteForEmail; fromName: string; childNames?: string[] }) {
   const [email, setEmail] = useState('');
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<{ kind: 'sent' | 'mailto'; to: string } | null>(null);
   const [error, setError] = useState('');
   const [copied, setCopied] = useState(false);
 
-  const message = { fromName, forRole: invite.forRole, url: invite.url, code: invite.code, expiresAt: invite.expiresAt };
-  const who = invite.forRole === 'student' ? 'your child' : 'your parent';
+  const coParent = invite.kind === 'coparent';
+  const message = { fromName, forRole: invite.forRole, kind: invite.kind, childNames, url: invite.url, code: invite.code, expiresAt: invite.expiresAt };
+  const who = coParent ? 'your co-parent' : invite.forRole === 'student' ? 'your child' : 'your parent';
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
@@ -71,7 +73,7 @@ export function InviteEmail({ invite, fromName }: { invite: InviteForEmail; from
             type="email"
             inputMode="email"
             autoComplete="off"
-            placeholder={invite.forRole === 'student' ? 'child@example.com' : 'parent@example.com'}
+            placeholder={coParent ? 'co-parent@example.com' : invite.forRole === 'student' ? 'child@example.com' : 'parent@example.com'}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="min-w-0 flex-1"

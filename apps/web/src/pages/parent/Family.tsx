@@ -2,6 +2,7 @@ import type { FamilyLink } from '@study-helper/shared';
 import { collection, orderBy, query, where } from 'firebase/firestore';
 import { Link2, ShieldCheck, UserPlus, Users } from 'lucide-react';
 import { useState } from 'react';
+import { CoParents } from '../../components/family/CoParents';
 import { AddChildModal } from '../../components/parent/AddChildModal';
 import { AiStatusCard } from '../../components/parent/AiStatusCard';
 import { ChildCard } from '../../components/parent/ChildCard';
@@ -84,6 +85,7 @@ export default function Family() {
       )}
 
       <div className="mt-6 grid grid-cols-1 gap-4">
+        <CoParents links={links.data} />
         <AiStatusCard />
         <div className="flex items-start gap-3 rounded-2xl bg-surface p-4 text-sm ring-1 ring-line">
           <ShieldCheck className="mt-0.5 size-5 shrink-0 text-brand-700 dark:text-brand-300" aria-hidden="true" />

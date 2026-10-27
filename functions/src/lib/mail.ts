@@ -1,6 +1,6 @@
 import { logger } from 'firebase-functions';
 import { defineSecret } from 'firebase-functions/params';
-import { isEmulator } from './firebase';
+import { db, isEmulator } from './firebase';
 
 // Outgoing email through Resend's SMTP service (shared with the owner's Chronological app, whose
 // verified sending domain is fiercespeed.nz). Credentials live in Secret Manager; functions that
@@ -58,4 +58,27 @@ export async function sendMail(mail: OutgoingMail): Promise<boolean> {
   } finally {
     transport.close();
   }
+}
+
+/** mail/{id}: email waiting to be sent by the deliverMail trigger (server-only). */
+export interface QueuedMail {
+  toUid: string;
+  kind: string;
+  subject: string;
+  text: string;
+  html: string;
+  status: 'queued' | 'sent' | 'failed' | 'skipped';
+  createdAt: number;
+  /** cleanup deletes it after this. */
+  expiresAt: number;
+  sentAt?: number;
+}
+
+/**
+ * Queues an email to a user. Functions that don't hold the mail secrets (e.g. answer marking) use this
+ * instead of sendMail; the deliverMail trigger sends it moments later.
+ */
+export async function queueMail(toUid: string, kind: string, mail: Pick<OutgoingMail, 'subject' | 'text' | 'html'>): Promise<void> {
+  const now = Date.now();
+  await db.collection('mail').add({ toUid, kind, ...mail, status: 'queued', createdAt: now, expiresAt: now + 30 * 86_400_000 } satisfies QueuedMail);
 }

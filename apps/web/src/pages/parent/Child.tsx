@@ -1,15 +1,15 @@
-import type { FamilyLink, Goal, StudentStats, UserProfile } from '@study-helper/shared';
+import { getTitle, type FamilyLink, type Goal, type StudentStats, type UserProfile } from '@study-helper/shared';
 import { collection, doc, orderBy, query } from 'firebase/firestore';
 import { UserX } from 'lucide-react';
 import { useParams, useSearchParams } from 'react-router';
 import { AccountTab } from '../../components/parent/AccountTab';
 import { ActivityTab } from '../../components/parent/ActivityTab';
 import { ChatsTab } from '../../components/parent/ChatsTab';
-import { Avatar } from '../../components/parent/ChildCard';
 import { ExamsTab } from '../../components/parent/ExamsTab';
 import { GoalsTab } from '../../components/parent/GoalsTab';
 import { OverviewTab, type ChildTab } from '../../components/parent/OverviewTab';
 import { TopicsTab } from '../../components/parent/TopicsTab';
+import { ProfilePicture } from '../../components/rewards/ProfilePicture';
 import { ButtonLink, EmptyState, Notice, PageHeader, Spinner, Tabs } from '../../components/ui';
 import { useUser } from '../../lib/auth';
 import { db } from '../../lib/firebase';
@@ -70,13 +70,14 @@ function ChildView({ uid, parentUid, link }: { uid: string; parentUid: string; l
         back={{ to: '/parent', label: 'Family' }}
         title={
           <span className="flex min-w-0 items-center gap-3">
-            <Avatar name={name} avatar={p.avatar} className="size-11 text-lg" />
+            <ProfilePicture name={name} avatar={p.avatar} frame={p.frame} size="md" />
             <span className="min-w-0 break-words">{name}</span>
           </span>
         }
         subtitle={
           <>
             Year {p.yearLevel ?? 9}
+            {p.title && getTitle(p.title) && <> · {getTitle(p.title)!.name}</>}
             {p.username ? <> · signs in with the username {p.username}</> : <> · own account</>}
           </>
         }
@@ -92,7 +93,7 @@ function ChildView({ uid, parentUid, link }: { uid: string; parentUid: string; l
         {tab === 'activity' && <ActivityTab uid={uid} name={name} />}
         {tab === 'exams' && <ExamsTab uid={uid} name={name} />}
         {tab === 'chats' && <ChatsTab uid={uid} name={name} />}
-        {tab === 'goals' && <GoalsTab uid={uid} parentUid={parentUid} name={name} goals={goals} />}
+        {tab === 'goals' && <GoalsTab uid={uid} parentUid={parentUid} name={name} goals={goals} stats={stats.data} />}
         {tab === 'account' && <AccountTab uid={uid} parentUid={parentUid} profile={p} />}
       </div>
     </div>

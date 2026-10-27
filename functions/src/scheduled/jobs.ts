@@ -97,7 +97,7 @@ export const promoteQuestions = onSchedule({ schedule: 'every day 03:00', timeZo
   logger.info('questions promoted', { promoted });
 });
 
-/** Removes expired invites, OAuth state and rate-limit windows. */
+/** Removes expired invites, OAuth state, rate-limit windows and old queued mail. */
 export const cleanup = onSchedule({ schedule: 'every day 04:00', timeZone: TZ }, async () => {
   const now = Date.now();
   const expired = async (collection: string) => {
@@ -111,6 +111,7 @@ export const cleanup = onSchedule({ schedule: 'every day 04:00', timeZone: TZ },
     oauthCodes: await expired('oauthCodes'),
     oauthTokens: await expired('oauthTokens'),
     rateLimits: await expired('rateLimits'),
+    mail: await expired('mail'),
   };
   logger.info('cleanup', counts);
 });

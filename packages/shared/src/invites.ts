@@ -3,13 +3,25 @@ import type { Role } from './types';
 // The wording of a family invite email. Used both for the "open in my email app" version (mailto)
 // and for emails the server sends when an email service is configured.
 
+/** 'family' links a parent and a student; 'coparent' links two parents who share their children. */
+export type InviteKind = 'family' | 'coparent';
+
 export interface InviteEmailInput {
   fromName: string;
   /** The role of the person being invited. */
   forRole: Role;
+  kind?: InviteKind;
+  /** Co-parent invites: the children the two parents will share. */
+  childNames?: string[];
   url: string;
   code: string;
   expiresAt: number;
+}
+
+/** "Sem", "Sem and Norah", "Sem, Norah and Aroha". */
+export function listNames(names: readonly string[]): string {
+  if (names.length <= 1) return names[0] ?? '';
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
 }
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -21,18 +33,21 @@ export function inviteEmail(i: InviteEmailInput): { subject: string; text: strin
     day: 'numeric',
     month: 'long',
   }).format(new Date(i.expiresAt));
+  const kids = listNames(i.childNames ?? []);
   const why =
-    i.forRole === 'student'
-      ? `${i.fromName} has invited you to link your Study Helper account with theirs, so they can see how your study is going and set goals with you.`
-      : `${i.fromName} has invited you to link with their Study Helper account, so you can see how their study is going and set goals with them.`;
-  const subject = `${i.fromName} invited you to Study Helper`;
+    i.kind === 'coparent'
+      ? `${i.fromName} has invited you to be a co-parent on Study Helper. You'll both see how ${kids || 'your children'} ${i.childNames?.length === 1 ? 'is' : 'are'} getting on, and you can set goals and rewards together.`
+      : i.forRole === 'student'
+        ? `${i.fromName} has invited you to link your Study Helper account with theirs, so they can see how your study is going and set goals with you.`
+        : `${i.fromName} has invited you to link with their Study Helper account, so you can see how their study is going and set goals with them.`;
+  const subject = i.kind === 'coparent' ? `${i.fromName} invited you to be a co-parent on Study Helper` : `${i.fromName} invited you to Study Helper`;
   const text = [
     'Kia ora,',
     '',
     why,
     '',
     `1. Open this link: ${i.url}`,
-    `2. Sign in, or create a free ${i.forRole} account if you don't have one yet.`,
+    `2. Sign in, or create a free ${i.kind === 'coparent' ? 'parent' : i.forRole} account if you don't have one yet.`,
     '3. Choose "Accept and link".',
     '',
     `You can also enter this code in Settings → Family: ${i.code}`,

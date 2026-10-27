@@ -18,6 +18,7 @@ import {
 } from '@study-helper/shared';
 import type { DocumentReference, Transaction } from 'firebase-admin/firestore';
 import { db, FieldValue } from './firebase';
+import { handleLevelUp } from './levelup';
 
 const SEEN_LIMIT = 300;
 
@@ -74,6 +75,8 @@ export interface ProgressResult {
   xpGained: number;
   xp: number;
   level: number;
+  /** The level before this answer; higher `level` means they just levelled up. */
+  previousLevel: number;
   streak: number;
   mastery: number;
   masteryLevel: string;
@@ -208,6 +211,7 @@ export async function recordAttempt(
       xpGained,
       xp: stats.xp,
       level: stats.level,
+      previousLevel: levelForXp(prevStats.xp),
       streak: stats.streak,
       mastery: m.mastery,
       masteryLevel: level.id,
@@ -223,6 +227,7 @@ export async function recordAttempt(
       .update({ 'stats.attempts': FieldValue.increment(1), 'stats.correct': FieldValue.increment(mark.correct ? 1 : 0) })
       .catch(() => undefined);
   }
+  if (result.level > result.previousLevel) await handleLevelUp(uid, result.level);
   return result;
 }
 
@@ -259,11 +264,11 @@ export async function recordPendingAttempt(
 export async function recordActivity(
   uid: string,
   activity: { xp: number; flashcards?: number; exams?: number; examPercent?: number; minutes?: number },
-): Promise<{ xpGained: number; newBadges: string[]; goalsAchieved: string[] }> {
+): Promise<{ xpGained: number; newBadges: string[]; goalsAchieved: string[]; level: number; previousLevel: number }> {
   const now = Date.now();
   const today = nzDateKey(now);
   const studentRef = db.doc(`students/${uid}`);
-  return db.runTransaction(async (tx) => {
+  const result = await db.runTransaction(async (tx) => {
     const snap = await tx.get(studentRef);
     const prev = (snap.data() as StudentStats | undefined) ?? emptyStats(now);
     const newDay = prev.lastActiveDate !== today;
@@ -292,6 +297,8 @@ export async function recordActivity(
       newDay,
     );
     tx.set(studentRef, stats);
-    return { xpGained: activity.xp, newBadges: badges, goalsAchieved };
+    return { xpGained: activity.xp, newBadges: badges, goalsAchieved, level: stats.level, previousLevel: levelForXp(prev.xp) };
   });
+  if (result.level > result.previousLevel) await handleLevelUp(uid, result.level);
+  return result;
 }

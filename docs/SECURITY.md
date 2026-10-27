@@ -5,18 +5,20 @@
 - **The server is the source of truth for anything that matters.** Progress, XP, mastery, streaks, family links, the shared question bank, AI keys, usage and OAuth state are written only by Cloud Functions, which use the Admin SDK and are not subject to rules. The browser can't forge progress or links.
 - **Answers never reach the browser before an attempt.** The bank is split: `bank/*` (public question data) and `bankAnswers/*` (answer keys, never client-readable). Marking runs on the server. Template questions are rebuilt from their seed on the server.
 - **Family access is explicit.** A parent can read a student's data only while a `links/{parentUid}_{studentUid}` document exists. Links are created only by the `acceptInvite` and `createChildAccount` functions. Both sides must take part (single-use invite codes, 7-day expiry), or the parent created the child account.
+- **Co-parents.** A parent can invite another parent (a `coparent` invite, which only parents can create or accept). Accepting records `coparents/{uidA_uidB}` and links each parent to the other's children. Children either of them gains later are shared too. Those links carry `coParent`, so `removeCoParent` deletes exactly them; links made any other way stay. Being a co-parent grants nothing by itself: all access still goes through `links/*`.
 - **Least privilege for client writes.** Clients may write only small, validated, low-stakes documents: profile cosmetics, flashcard scheduling, study plans, study settings, and parent-set goals. Every field is checked with `keys().hasOnly(...)` and type and range checks.
 
 ## Firestore rules summary
 
 | Data | Read | Write |
 |---|---|---|
-| `users/{uid}` | self, linked family, admins | self: `displayName`, `avatar`, `prefs` (validated) |
+| `users/{uid}` | self, linked family, admins | self: `displayName`, `prefs` (validated). Picture, frame, title and colour theme: `setLook` (checks they're unlocked) |
 | `users/{uid}/private/*` | self | functions |
 | `links/*` | either party | functions |
+| `coparents/*` | the two parents | functions |
 | `bank/*` | signed-in: verified/unverified; `pending` only for the contributor's family; admins: all | functions |
 | `bankAnswers/*`, `bankFlags/*`, `noteAnswers/*` | none | functions |
-| `students/{uid}/**` | student, linked parents, admins | functions, except: `cards/*`, `plans/*`, `settings/study` (student, validated) and `goals/*` (linked parents, validated) |
+| `students/{uid}/**` | student, linked parents, admins | functions, except: `cards/*`, `plans/*`, `settings/study` (student, validated) and `goals/*`, `levelRewards/*` (linked parents, validated). The character collection (`rewards/collection`) is functions-only, and eggs are rolled server-side with OS randomness |
 | `usage/{uid}/**` | owner, admins | functions |
 | `secrets/*`, `apiTokens/*`, `oauth*/*`, `invites/*`, `usernames/*`, `rateLimits/*`, `mail/*` | none | functions |
 

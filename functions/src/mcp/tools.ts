@@ -1,10 +1,20 @@
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import {
   allTopics,
+  CHARACTERS,
   describeAnswer,
+  FRAMES,
+  getCharacter,
   getTopic,
+  isUnlocked,
+  LEVEL_REWARD_MAX_LENGTH,
+  levelForXp,
   masteryLevel,
+  PALETTES,
+  pendingEggs,
   SUBJECTS,
+  TITLES,
+  type CharacterCollection,
   type MasteryRecord,
   type QuestionResponse,
   type UserProfile,
@@ -15,13 +25,40 @@ import { practiceSetFor, submitAnswerFor } from '../callables/practice';
 import { db } from '../lib/firebase';
 import { loadQuestion } from '../lib/questions';
 import { rateLimit } from '../lib/ratelimit';
-import { isLinked, linkedParents, linkedStudents } from '../lib/users';
+import { coParentsOf, getProfile, isLinked, linkedParents, linkedStudents } from '../lib/users';
 
 // MCP tools, registered per request for the authenticated user and filtered by role.
 // Tools never return answers to questions the student hasn't attempted yet.
 
 const json = (value: unknown) => ({ content: [{ type: 'text' as const, text: JSON.stringify(value, null, 2) }] });
 const error = (message: string) => ({ content: [{ type: 'text' as const, text: message }], isError: true });
+
+/** Level-up unlocks: hatched characters, unopened eggs, and frames/themes/titles unlocked so far. */
+async function collectionSummary(studentUid: string) {
+  const [statsSnap, colSnap, rewards] = await Promise.all([
+    db.doc(`students/${studentUid}`).get(),
+    db.doc(`students/${studentUid}/rewards/collection`).get(),
+    db.collection(`students/${studentUid}/levelRewards`).orderBy('level').get(),
+  ]);
+  const xp = (statsSnap.data()?.xp as number | undefined) ?? 0;
+  const badges = (statsSnap.data()?.badges as string[] | undefined) ?? [];
+  const level = levelForXp(xp);
+  const owned = (colSnap.data() as CharacterCollection | undefined)?.characters ?? [];
+  const names = (defs: readonly { name: string; level?: number; badge?: string }[]) => defs.filter((d) => isUnlocked(d as never, level, badges)).map((d) => d.name);
+  return {
+    level,
+    characters: owned.map((o) => ({ name: getCharacter(o.id)?.name ?? 'One-of-a-kind robot', rarity: getCharacter(o.id)?.rarity ?? 'unique', fromLevel: o.level })),
+    creaturesCollected: `${owned.filter((o) => getCharacter(o.id)).length} of ${CHARACTERS.length}`,
+    unopenedEggs: pendingEggs(level, owned).length,
+    framesUnlocked: names(FRAMES),
+    colourThemesUnlocked: names(PALETTES),
+    titlesUnlocked: names(TITLES),
+    levelRewards: rewards.docs.map((d) => {
+      const r = d.data();
+      return { id: d.id, level: r.level, reward: r.reward, from: r.createdByName, status: r.status === 'given' ? 'given' : level >= r.level ? 'earned' : 'not yet' };
+    }),
+  };
+}
 
 async function studentSummary(studentUid: string) {
   const [statsSnap, masterySnap, recent, exams] = await Promise.all([
@@ -236,6 +273,16 @@ export async function buildMcpServer(uid: string, profile: UserProfile, isAdminU
     );
 
     server.registerTool(
+      'get_my_collection',
+      {
+        title: 'My collection',
+        description: 'Characters hatched from level-up eggs, unopened eggs, unlocked frames, colour themes and titles, and level rewards from family.',
+        inputSchema: {},
+      },
+      async () => json(await collectionSummary(uid)),
+    );
+
+    server.registerTool(
       'get_study_plans',
       { title: 'Study plans', description: 'Exam dates and study plans the student has set up.', inputSchema: {} },
       async () => json((await db.collection(`students/${uid}/plans`).get()).docs.map((d) => ({ id: d.id, ...d.data() }))),
@@ -309,6 +356,42 @@ export async function buildMcpServer(uid: string, profile: UserProfile, isAdminU
         const ref = await db.collection(`students/${studentUid}/goals`).add({ ...goal, createdBy: uid, createdAt: Date.now(), progress: 0, status: 'active' });
         return json({ goalId: ref.id });
       },
+    );
+
+    server.registerTool(
+      'set_level_reward',
+      {
+        title: 'Set a level reward',
+        description: 'Promise a linked child a reward for reaching a level (e.g. Level 10 = pick the movie). They see it in the app; parents are emailed when it is earned.',
+        inputSchema: { studentUid: z.string(), level: z.number().int().min(2).max(200), reward: z.string().min(1).max(LEVEL_REWARD_MAX_LENGTH) },
+      },
+      async ({ studentUid, level, reward }) => {
+        await requireChild(studentUid);
+        const ref = await db.collection(`students/${studentUid}/levelRewards`).add({
+          level,
+          reward,
+          createdBy: uid,
+          createdByName: profile.displayName,
+          createdAt: Date.now(),
+          status: 'active',
+        });
+        return json({ rewardId: ref.id });
+      },
+    );
+
+    server.registerTool(
+      'get_child_collection',
+      { title: "Child's unlocks", description: 'What a linked child has unlocked by levelling up, and their level rewards.', inputSchema: { studentUid: z.string() } },
+      async ({ studentUid }) => {
+        await requireChild(studentUid);
+        return json(await collectionSummary(studentUid));
+      },
+    );
+
+    server.registerTool(
+      'list_co_parents',
+      { title: 'Co-parents', description: 'Other parents you share your children with. Invite or remove them in the app (Family page).', inputSchema: {} },
+      async () => json(await Promise.all((await coParentsOf(uid)).map(async (c) => ({ name: (await getProfile(c.uid))?.displayName ?? c.name, uid: c.uid })))),
     );
 
     server.registerTool(

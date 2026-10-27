@@ -1,11 +1,13 @@
 import { nzDateKey } from '@study-helper/shared/dates';
 import { currentStreak, levelForXp, xpForLevel } from '@study-helper/shared/gamification';
+import { getTitle, pendingEggs } from '@study-helper/shared/rewards';
 import clsx from 'clsx';
 import {
   BookOpen,
   Brain,
   CalendarDays,
   ClipboardCheck,
+  Egg,
   Flame,
   GraduationCap,
   Home,
@@ -21,9 +23,12 @@ import {
   Users,
 } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
-import { NavLink, Outlet, useNavigate } from 'react-router';
+import { Link, NavLink, Outlet, useNavigate } from 'react-router';
 import { useAuth } from '../../lib/auth';
 import { usingEmulators } from '../../lib/firebase';
+import { useCharacterCollection } from '../../lib/rewards';
+import { LevelUpCelebration } from '../rewards/LevelUpCelebration';
+import { ProfilePicture } from '../rewards/ProfilePicture';
 
 interface NavItem {
   to: string;
@@ -41,6 +46,7 @@ const studentNav: NavItem[] = [
   { to: '/help', label: 'Homework help', icon: <GraduationCap className="size-5" /> },
   { to: '/notes', label: 'My notes', icon: <NotebookPen className="size-5" /> },
   { to: '/progress', label: 'Progress', icon: <TrendingUp className="size-5" /> },
+  { to: '/collection', label: 'My collection', icon: <Egg className="size-5" /> },
 ];
 
 const parentNav: NavItem[] = [
@@ -49,6 +55,29 @@ const parentNav: NavItem[] = [
 ];
 
 const mobileStudent = ['/home', '/learn', '/exams', '/tutor'];
+
+/** The signed-in user's picture; for students it links to their collection and flags unopened eggs. */
+function MyPicture() {
+  const { user, profile, stats } = useAuth();
+  const isStudent = profile?.role === 'student';
+  const collection = useCharacterCollection(isStudent && user ? user.uid : null);
+  if (!profile) return null;
+  const eggs = isStudent && stats && !collection.loading ? pendingEggs(levelForXp(stats.xp), collection.data?.characters ?? []).length : 0;
+  return (
+    <Link
+      to={isStudent ? '/collection' : '/settings'}
+      className="relative rounded-full outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+      aria-label={eggs ? `My collection — ${eggs} egg${eggs === 1 ? '' : 's'} to hatch` : isStudent ? 'My collection' : 'Settings'}
+    >
+      <ProfilePicture name={profile.displayName} avatar={profile.avatar} frame={profile.frame} size="xs" />
+      {eggs > 0 && (
+        <span className="absolute -top-1 -right-1 flex size-4 items-center justify-center rounded-full bg-rose-500 text-[10px] font-bold text-white ring-2 ring-surface">
+          {eggs}
+        </span>
+      )}
+    </Link>
+  );
+}
 
 function StreakXp() {
   const { stats } = useAuth();
@@ -108,8 +137,15 @@ export function AppShell() {
         </div>
         <nav className="flex-1 space-y-1 overflow-y-auto px-3">{nav.map((n) => link(n))}</nav>
         <div className="border-t border-line p-3">
-          <p className="truncate px-3 text-sm font-semibold">{profile?.displayName}</p>
-          <p className="px-3 text-xs text-muted">{isParent ? 'Parent' : `Year ${profile?.yearLevel ?? ''} student`}</p>
+          <div className="flex items-center gap-3 px-3">
+            {profile && <ProfilePicture name={profile.displayName} avatar={profile.avatar} frame={profile.frame} size="sm" />}
+            <div className="min-w-0">
+              <p className="truncate text-sm font-semibold">{profile?.displayName}</p>
+              <p className="truncate text-xs text-muted">
+                {isParent ? 'Parent' : (profile?.title && getTitle(profile.title)?.name) || `Year ${profile?.yearLevel ?? ''} student`}
+              </p>
+            </div>
+          </div>
           <button
             onClick={async () => {
               await signOut();
@@ -131,6 +167,7 @@ export function AppShell() {
         <div className="hidden lg:block">{usingEmulators && <span className="rounded bg-amber-200 px-2 py-0.5 text-xs font-bold text-amber-900">Local dev (emulators)</span>}</div>
         <div className="flex items-center gap-3">
           {!isParent && <StreakXp />}
+          <MyPicture />
           <button className="rounded-lg p-2 lg:hidden" onClick={() => setMenuOpen(true)} aria-label="Menu">
             <Menu className="size-5" />
           </button>
@@ -140,6 +177,8 @@ export function AppShell() {
       <main className="mx-auto w-full min-w-0 max-w-5xl px-4 pt-6 pb-28 lg:px-8 lg:pb-12">
         <Outlet />
       </main>
+
+      {!isParent && <LevelUpCelebration />}
 
       {/* Bottom nav (phones/tablets) */}
       <nav className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 gap-1 border-t border-line bg-surface px-2 pt-1 pb-[max(env(safe-area-inset-bottom),0.4rem)] lg:hidden">

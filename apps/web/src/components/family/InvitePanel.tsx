@@ -1,3 +1,4 @@
+import type { InviteKind } from '@study-helper/shared';
 import { Link2 } from 'lucide-react';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { api, errorMessage } from '../../lib/api';
@@ -12,9 +13,20 @@ const dateTime = new Intl.DateTimeFormat('en-NZ', { weekday: 'short', day: 'nume
 
 /**
  * One family invite: email it, or share the code/link yourself. Used by "Add a child", "Link an
- * existing account" and Settings so they all behave the same.
+ * existing account", "Invite a co-parent" and Settings so they all behave the same.
  */
-export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolean; intro?: ReactNode }) {
+export function InvitePanel({
+  autoCreate = false,
+  intro,
+  kind = 'family',
+  childNames,
+}: {
+  autoCreate?: boolean;
+  intro?: ReactNode;
+  kind?: InviteKind;
+  /** Co-parent invites: the children who'll be shared (for the email wording). */
+  childNames?: string[];
+}) {
   const { profile } = useAuth();
   const [invite, setInvite] = useState<Invite | null>(null);
   const [busy, setBusy] = useState(false);
@@ -25,7 +37,7 @@ export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolea
     setBusy(true);
     setError('');
     try {
-      setInvite(await api.createInvite({}));
+      setInvite(await api.createInvite({ kind }));
     } catch (e) {
       setError(errorMessage(e));
     } finally {
@@ -42,7 +54,8 @@ export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolea
   }, [autoCreate]);
 
   const isParent = profile?.role === 'parent';
-  const them = isParent ? 'your child' : 'your parent';
+  const coParent = kind === 'coparent';
+  const them = coParent ? 'your co-parent' : isParent ? 'your child' : 'your parent';
 
   if (!invite) {
     return (
@@ -63,7 +76,7 @@ export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolea
   return (
     <div className="grid grid-cols-1 gap-5">
       {intro}
-      <InviteEmail invite={invite} fromName={profile?.displayName ?? (isParent ? 'Your parent' : 'Your child')} />
+      <InviteEmail invite={invite} fromName={profile?.displayName ?? (isParent ? 'Your parent' : 'Your child')} childNames={childNames} />
 
       <div className="rounded-2xl bg-brand-50 p-4 dark:bg-brand-950/40">
         <p className="text-sm font-semibold">Or share it another way</p>
@@ -80,8 +93,15 @@ export function InvitePanel({ autoCreate = false, intro }: { autoCreate?: boolea
         <h3 className="text-sm font-bold">What {them} does</h3>
         <ol className="mt-1.5 grid list-decimal gap-1 pl-5 text-sm">
           <li>Opens the link in the email (or goes to Settings → Family and enters the code).</li>
-          <li>Signs in, or creates their own account with their email or Google.</li>
-          <li>Taps “Accept and link”. {isParent ? 'They’ll appear on your Family page straight away.' : 'You’ll be linked straight away.'}</li>
+          <li>Signs in, or creates their own {coParent ? 'parent ' : ''}account with their email or Google.</li>
+          <li>
+            Taps “Accept and link”.{' '}
+            {coParent
+              ? 'You’ll both see all your children straight away, and any child either of you adds later.'
+              : isParent
+                ? 'They’ll appear on your Family page straight away.'
+                : 'You’ll be linked straight away.'}
+          </li>
         </ol>
       </div>
 

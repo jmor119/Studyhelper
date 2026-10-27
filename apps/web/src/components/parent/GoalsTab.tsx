@@ -1,4 +1,4 @@
-import { nzDateKey, type Goal, type GoalMetric, type GoalPeriod } from '@study-helper/shared';
+import { nzDateKey, type Goal, type GoalMetric, type GoalPeriod, type StudentStats } from '@study-helper/shared';
 import { addDoc, collection, deleteDoc, deleteField, doc, updateDoc } from 'firebase/firestore';
 import { Archive, Gift, Pause, Pencil, Play, Plus, RotateCcw, Trash2, Trophy } from 'lucide-react';
 import { useId, useState, type FormEvent } from 'react';
@@ -6,6 +6,7 @@ import { errorMessage } from '../../lib/api';
 import { db } from '../../lib/firebase';
 import { Badge, Button, Card, Field, Input, Modal, Notice, ProgressBar, Select, Spinner, useToast } from '../ui';
 import { CardTitle } from './bits';
+import { CollectionCard, LevelRewardsCard } from './LevelRewardsCard';
 import { formatDate, GOAL_STATUS, goalProgress, metricInfo, METRICS, periodLabel, PERIODS, plural, suggestGoalTitle, unitFor } from './format';
 
 type GoalRow = Goal & { id: string };
@@ -114,7 +115,11 @@ function CreateGoalForm({ uid, parentUid, name }: { uid: string; parentUid: stri
             </Select>
           </Field>
         </div>
-        <Field label="Title" hint={titleEdited ? `${name} sees this on their home screen.` : 'Suggested from your choices — edit it if you like.'} error={submitted ? titleProblem : null}>
+        <Field
+          label="Title"
+          hint={titleEdited ? `${name} sees this on their home screen.` : 'Suggested from your choices — edit it if you like.'}
+          error={submitted ? titleProblem : null}
+        >
           <Input
             value={titleEdited ? title : suggested}
             onChange={(e) => {
@@ -258,7 +263,11 @@ function GoalItem({ uid, goal, today, onDelete }: { uid: string; goal: GoalRow; 
             {goal.achievedCount ? `Achieved ${plural(goal.achievedCount, 'time')}` : 'Not achieved yet'}
           </li>
         )}
-        {goal.achievedAt && <li>{recurring ? 'Last achieved' : 'Achieved'} {formatDate(goal.achievedAt)}</li>}
+        {goal.achievedAt && (
+          <li>
+            {recurring ? 'Last achieved' : 'Achieved'} {formatDate(goal.achievedAt)}
+          </li>
+        )}
         <li>Set {formatDate(goal.createdAt)}</li>
       </ul>
 
@@ -310,11 +319,13 @@ export function GoalsTab({
   parentUid,
   name,
   goals,
+  stats,
 }: {
   uid: string;
   parentUid: string;
   name: string;
   goals: { data: GoalRow[]; loading: boolean; error: Error | null };
+  stats: StudentStats | null;
 }) {
   const toast = useToast();
   const today = nzDateKey();
@@ -343,74 +354,81 @@ export function GoalsTab({
   const archived = goals.data.filter((g) => g.status === 'archived');
 
   return (
-    <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:items-start">
-      <div className="order-2 grid min-w-0 grid-cols-1 gap-5 lg:order-1">
-        {goals.loading ? (
-          <Spinner label="Loading goals" />
-        ) : goals.error ? (
-          <Notice tone="bad">We couldn’t load {name}’s goals.</Notice>
-        ) : !goals.data.length ? (
-          <Card>
-            <p className="font-semibold">No goals yet</p>
-            <p className="mt-1 text-sm text-muted">
-              Goals show on {name}’s home screen with a progress bar, and they get a message when they reach one. Progress is counted automatically as they study.
-            </p>
-          </Card>
-        ) : (
-          <>
-            {groups.map((g) =>
-              g.items.length ? (
-                <section key={g.title} aria-labelledby={`goals-${g.title}`}>
-                  <h2 id={`goals-${g.title}`} className="mb-2 font-bold">
-                    {g.title} <span className="font-normal text-muted">({g.items.length})</span>
-                  </h2>
-                  <ul className="grid grid-cols-1 gap-3">
-                    {g.items.map((goal) => (
+    <div className="grid grid-cols-1 gap-5">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:items-start">
+        <LevelRewardsCard uid={uid} name={name} stats={stats} />
+        <CollectionCard uid={uid} name={name} />
+      </div>
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:items-start">
+        <div className="order-2 grid min-w-0 grid-cols-1 gap-5 lg:order-1">
+          {goals.loading ? (
+            <Spinner label="Loading goals" />
+          ) : goals.error ? (
+            <Notice tone="bad">We couldn’t load {name}’s goals.</Notice>
+          ) : !goals.data.length ? (
+            <Card>
+              <p className="font-semibold">No goals yet</p>
+              <p className="mt-1 text-sm text-muted">
+                Goals show on {name}’s home screen with a progress bar, and they get a message when they reach one. Progress is counted automatically as they
+                study.
+              </p>
+            </Card>
+          ) : (
+            <>
+              {groups.map((g) =>
+                g.items.length ? (
+                  <section key={g.title} aria-labelledby={`goals-${g.title}`}>
+                    <h2 id={`goals-${g.title}`} className="mb-2 font-bold">
+                      {g.title} <span className="font-normal text-muted">({g.items.length})</span>
+                    </h2>
+                    <ul className="grid grid-cols-1 gap-3">
+                      {g.items.map((goal) => (
+                        <GoalItem key={goal.id} uid={uid} goal={goal} today={today} onDelete={setDeleting} />
+                      ))}
+                    </ul>
+                  </section>
+                ) : null,
+              )}
+              {archived.length > 0 && (
+                <details>
+                  <summary className="cursor-pointer font-bold">
+                    Archived <span className="font-normal text-muted">({archived.length})</span>
+                  </summary>
+                  <ul className="mt-2 grid grid-cols-1 gap-3">
+                    {archived.map((goal) => (
                       <GoalItem key={goal.id} uid={uid} goal={goal} today={today} onDelete={setDeleting} />
                     ))}
                   </ul>
-                </section>
-              ) : null,
-            )}
-            {archived.length > 0 && (
-              <details>
-                <summary className="cursor-pointer font-bold">
-                  Archived <span className="font-normal text-muted">({archived.length})</span>
-                </summary>
-                <ul className="mt-2 grid grid-cols-1 gap-3">
-                  {archived.map((goal) => (
-                    <GoalItem key={goal.id} uid={uid} goal={goal} today={today} onDelete={setDeleting} />
-                  ))}
-                </ul>
-              </details>
-            )}
-          </>
-        )}
-      </div>
-      <div className="order-1 min-w-0 lg:order-2">
-        <CreateGoalForm uid={uid} parentUid={parentUid} name={name} />
-      </div>
+                </details>
+              )}
+            </>
+          )}
+        </div>
+        <div className="order-1 min-w-0 lg:order-2">
+          <CreateGoalForm uid={uid} parentUid={parentUid} name={name} />
+        </div>
 
-      <Modal
-        open={!!deleting}
-        onClose={() => setDeleting(null)}
-        title="Delete this goal?"
-        footer={
-          <>
-            <Button variant="secondary" onClick={() => setDeleting(null)}>
-              Keep it
-            </Button>
-            <Button variant="danger" loading={deleteBusy} onClick={confirmDelete}>
-              Delete goal
-            </Button>
-          </>
-        }
-      >
-        <p>
-          “{deleting?.title}” will be removed for {name}, along with its progress{deleting?.achievedCount ? ' and achievement count' : ''}. To keep a record
-          instead, archive it.
-        </p>
-      </Modal>
+        <Modal
+          open={!!deleting}
+          onClose={() => setDeleting(null)}
+          title="Delete this goal?"
+          footer={
+            <>
+              <Button variant="secondary" onClick={() => setDeleting(null)}>
+                Keep it
+              </Button>
+              <Button variant="danger" loading={deleteBusy} onClick={confirmDelete}>
+                Delete goal
+              </Button>
+            </>
+          }
+        >
+          <p>
+            “{deleting?.title}” will be removed for {name}, along with its progress{deleting?.achievedCount ? ' and achievement count' : ''}. To keep a record
+            instead, archive it.
+          </p>
+        </Modal>
+      </div>
     </div>
   );
 }

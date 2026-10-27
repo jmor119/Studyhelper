@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { auth, bucket, CHILD_EMAIL_DOMAIN, db } from '../lib/firebase';
 import { fail, HttpsError, parseInput, requireAuth } from '../lib/http';
 import { rateLimit } from '../lib/ratelimit';
-import { getProfile, isLinked, linkId, linkedParents, linkedStudents, requireProfile } from '../lib/users';
+import { coParentsOf, getProfile, isLinked, linkId, linkedParents, linkedStudents, requireProfile, shareWithCoParents } from '../lib/users';
 
 const DisplayName = z.string().trim().min(1).max(60);
 const YearLevel = z.number().int().min(1).max(13);
@@ -117,6 +117,7 @@ export const createChildAccount = onCall(async (req) => {
     createdBy: parentUid,
   });
   await batch.commit();
+  await shareWithCoParents(parentUid, childUid, input.displayName);
   return { uid: childUid, username: input.username };
 });
 
@@ -200,6 +201,8 @@ export const deleteMyAccount = onCall(async (req) => {
     }
     const links = await db.collection('links').where('parentUid', '==', uid).get();
     await Promise.all(links.docs.map((d) => d.ref.delete()));
+    // Co-parents keep the children they share; only the partnership goes.
+    await Promise.all((await coParentsOf(uid)).map((c) => db.doc(`coparents/${c.pair}`).delete()));
   } else if (profile?.role === 'student') {
     await deleteStudentData(uid);
   }
@@ -213,10 +216,11 @@ export const exportMyData = onCall(async (req) => {
   const profile = await getProfile(uid);
   const out: Record<string, unknown> = { exportedAt: new Date().toISOString(), profile };
   out.links = profile?.role === 'student' ? await linkedParents(uid) : await linkedStudents(uid);
+  if (profile?.role === 'parent') out.coParents = (await coParentsOf(uid)).map(({ uid: id, name }) => ({ uid: id, name }));
   if (profile?.role === 'student') {
     const studentRef = db.doc(`students/${uid}`);
     out.stats = (await studentRef.get()).data();
-    for (const sub of ['mastery', 'exams', 'goals', 'plans', 'cards', 'settings', 'uploads', 'noteSets']) {
+    for (const sub of ['mastery', 'exams', 'goals', 'levelRewards', 'rewards', 'plans', 'cards', 'settings', 'uploads', 'noteSets']) {
       out[sub] = (await studentRef.collection(sub).limit(2000).get()).docs.map((d) => ({ id: d.id, ...d.data() }));
     }
     out.attempts = (await studentRef.collection('attempts').orderBy('createdAt', 'desc').limit(5000).get()).docs.map((d) => d.data());

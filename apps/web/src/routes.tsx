@@ -74,6 +74,7 @@ export const router = createBrowserRouter([
           { path: '/notes', element: page(() => import('./pages/student/Notes')) },
           { path: '/notes/:setId', element: page(() => import('./pages/student/Notes')) },
           { path: '/progress', element: page(() => import('./pages/student/Progress')) },
+          { path: '/collection', element: page(() => import('./pages/student/Collection')) },
         ],
       },
       {

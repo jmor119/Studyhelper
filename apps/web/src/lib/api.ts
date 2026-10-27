@@ -1,4 +1,4 @@
-import type { MarkResult, PublicQuestion, QuestionResponse, Role } from '@study-helper/shared';
+import type { EggKind, InviteKind, MarkResult, PublicQuestion, QuestionResponse, Role } from '@study-helper/shared';
 import { httpsCallable } from 'firebase/functions';
 import { functions } from './firebase';
 
@@ -14,6 +14,7 @@ export interface ProgressResult {
   xpGained: number;
   xp: number;
   level: number;
+  previousLevel: number;
   streak: number;
   mastery: number;
   masteryLevel: string;
@@ -69,11 +70,18 @@ export const api = {
   deleteMyAccount: call<Record<string, never>, { ok: true }>('deleteMyAccount'),
   exportMyData: call<Record<string, never>, Record<string, unknown>>('exportMyData'),
 
-  createInvite: call<Record<string, never>, { code: string; url: string; expiresAt: number; forRole: Role }>('createInvite'),
+  createInvite: call<{ kind?: InviteKind }, { code: string; url: string; expiresAt: number; forRole: Role; kind: InviteKind }>('createInvite'),
   emailInvite: call<{ code: string; email: string }, { emailed: boolean }>('emailInvite'),
-  peekInvite: call<{ code: string }, { fromName: string; fromRole: Role; forRole: Role }>('peekInvite'),
-  acceptInvite: call<{ code: string }, { alreadyLinked: boolean; otherUid: string; otherName: string }>('acceptInvite'),
+  peekInvite: call<{ code: string }, { fromName: string; fromRole: Role; forRole: Role; kind: InviteKind; childNames?: string[] }>('peekInvite'),
+  acceptInvite: call<
+    { code: string },
+    { alreadyLinked: boolean; otherUid: string; otherName: string; kind: InviteKind; shared?: number; skipped?: string[] }
+  >('acceptInvite'),
+  removeCoParent: call<{ otherUid: string }, { ok: true; unlinked: number }>('removeCoParent'),
   unlink: call<{ otherUid: string }, { ok: true }>('unlink'),
+
+  openEgg: call<Record<string, never>, { id: string; level: number; kind: EggKind; remaining: number; equipped: boolean }>('openEgg'),
+  setLook: call<{ avatar?: string | null; frame?: string | null; title?: string | null; palette?: string | null }, { ok: true }>('setLook'),
 
   getPracticeSet: call<
     { topicId: string; count?: number; difficulty?: number; mode?: 'adaptive' | 'mistakes' },
@@ -87,7 +95,7 @@ export const api = {
   flagQuestion: call<{ questionId: string; reason: string; comment?: string }, { ok: true }>('flagQuestion'),
   logActivity: call<
     { kind: 'flashcards' | 'lesson'; count?: number; topicId?: string; minutes?: number },
-    { xpGained: number; newBadges: string[]; goalsAchieved: string[] }
+    { xpGained: number; newBadges: string[]; goalsAchieved: string[]; level: number; previousLevel: number }
   >('logActivity'),
 
   startExam: call<

@@ -1,4 +1,4 @@
-import { AI_PROVIDERS, nzDateKey, nzMonthKey, type AiProvider, type FamilyLink, type Role, type UserPrefs, type UserProfile } from '@study-helper/shared';
+import { AI_PROVIDERS, CHARACTERS, nzDateKey, nzMonthKey, type AiProvider, type FamilyLink, type Role, type UserPrefs, type UserProfile } from '@study-helper/shared';
 import clsx from 'clsx';
 import { EmailAuthProvider, reauthenticateWithCredential, updatePassword, type User } from 'firebase/auth';
 import { collection, doc, orderBy, query, updateDoc, where } from 'firebase/firestore';
@@ -8,6 +8,7 @@ import { Link, useLocation, useNavigate } from 'react-router';
 import { modelLabel, useAiStatus } from '../../components/assist/ai';
 import { CopyButton, CopyField } from '../../components/assist/CopyButton';
 import { InviteEmail } from '../../components/family/InviteEmail';
+import { CharacterImage, characterName, ProfilePicture } from '../../components/rewards/ProfilePicture';
 import { Badge, Button, Card, Field, Input, Modal, Notice, PageHeader, ProgressBar, Select, Spinner, useToast } from '../../components/ui';
 import { api, errorMessage } from '../../lib/api';
 import { useUser } from '../../lib/auth';
@@ -211,6 +212,69 @@ export default function Settings() {
 // ---------------------------------------------------------------------------------------------
 // Profile
 
+/** Students unlock pictures by levelling up; parents can pick any of the common characters. */
+function PictureChooser({ profile }: { profile: Profile }) {
+  const toast = useToast();
+  const [busy, setBusy] = useState<string | null>(null);
+  const pick = async (avatar: string | null) => {
+    setBusy(avatar ?? 'none');
+    try {
+      await api.setLook({ avatar });
+      toast(avatar ? `${characterName(avatar)} is your new picture.` : 'Picture removed.', 'good');
+    } catch (e) {
+      toast(errorMessage(e), 'bad');
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  if (profile.role === 'student') {
+    return (
+      <div className="mt-6 flex items-center gap-3">
+        <ProfilePicture name={profile.displayName} avatar={profile.avatar} frame={profile.frame} size="lg" />
+        <p className="text-sm">
+          Your profile picture, frame, title and colour theme are in{' '}
+          <Link to="/collection" className="font-semibold text-brand-700 underline dark:text-brand-300">
+            My collection
+          </Link>
+          . Level up to unlock more.
+        </p>
+      </div>
+    );
+  }
+  const options = CHARACTERS.filter((c) => c.rarity === 'common');
+  return (
+    <fieldset className="mt-6">
+      <legend className="mb-2 text-sm font-semibold">Profile picture</legend>
+      <div className="flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={() => profile.avatar && void pick(null)}
+          aria-pressed={!profile.avatar}
+          aria-label="No picture (show my initial)"
+          className={clsx('rounded-full p-0.5', !profile.avatar ? 'ring-2 ring-brand-500' : 'opacity-80 hover:opacity-100', busy === 'none' && 'animate-pulse')}
+        >
+          <ProfilePicture name={profile.displayName} size="md" />
+        </button>
+        {options.map((c) => (
+          <button
+            key={c.id}
+            type="button"
+            onClick={() => profile.avatar !== c.id && void pick(c.id)}
+            aria-pressed={profile.avatar === c.id}
+            aria-label={c.name}
+            title={c.name}
+            className={clsx('rounded-full p-0.5', profile.avatar === c.id ? 'ring-2 ring-brand-500' : 'opacity-80 hover:opacity-100', busy === c.id && 'animate-pulse')}
+          >
+            <CharacterImage id={c.id} className="size-12" />
+          </button>
+        ))}
+      </div>
+      <p className="mt-1.5 text-xs text-muted">Your children unlock the rarer characters by levelling up.</p>
+    </fieldset>
+  );
+}
+
 function ProfileSection({ uid, profile }: { uid: string; profile: Profile }) {
   const toast = useToast();
   const isStudent = profile.role === 'student';
@@ -273,6 +337,8 @@ function ProfileSection({ uid, profile }: { uid: string; profile: Profile }) {
           </Button>
         </div>
       </form>
+
+      <PictureChooser profile={profile} />
 
       <fieldset className="mt-6">
         <legend className="mb-2 text-sm font-semibold">Appearance</legend>
@@ -422,7 +488,14 @@ function FamilySection({ profile, links }: { profile: Profile; links: Links }) {
     setAcceptError('');
     try {
       const res = await api.acceptInvite({ code: code.trim() });
-      toast(res.alreadyLinked ? `You’re already linked with ${res.otherName}.` : `You’re now linked with ${res.otherName}! 🎉`, 'good');
+      toast(
+        res.alreadyLinked
+          ? `You’re already linked with ${res.otherName}.`
+          : res.kind === 'coparent'
+            ? `You and ${res.otherName} are now co-parents! 🎉`
+            : `You’re now linked with ${res.otherName}! 🎉`,
+        'good',
+      );
       setCode('');
     } catch (err) {
       setAcceptError(errorMessage(err));
@@ -496,6 +569,10 @@ function FamilySection({ profile, links }: { profile: Profile; links: Links }) {
           Child doesn’t have an account yet?{' '}
           <Link to="/parent" className="font-semibold text-brand-700 underline dark:text-brand-300">
             Create one from the Family page
+          </Link>
+          . Want your partner to see them too?{' '}
+          <Link to="/parent" className="font-semibold text-brand-700 underline dark:text-brand-300">
+            Invite a co-parent
           </Link>
           .
         </p>

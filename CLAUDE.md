@@ -10,6 +10,8 @@ NZ Year 9 Maths & Science study app (expanding to other years). npm workspaces: 
 - Security: anything trust-related is written only by Cloud Functions. Client-writable docs are strictly validated in `firestore.rules`. If you change the rules, update `tests/rules/rules.test.ts`. See `docs/SECURITY.md`.
 - Answers never go to the browser before an attempt (`bank` vs `bankAnswers`). Marking happens in functions.
 - AI calls go through `functions/src/ai/providers.ts` (Anthropic or OpenAI, bring your own key). Default Claude model: `claude-opus-5-5`. System prompts live in `functions/src/ai/prompts.ts`; keep them free of timestamps or ids so prompt caching works.
+- Level-up unlocks (eggs, characters, frames, colour themes, titles, parent level rewards) are defined in `packages/shared/src/rewards.ts`. Eggs are rolled by the `openEgg` function; looks are set only through `setLook`. Character art rules: `docs/CHARACTER-ART.md`.
+- Co-parents: `coparents/{a_b}` pairs; links they create carry `coParent` so `removeCoParent` removes exactly those.
 - Web pages use the UI kit in `apps/web/src/components/ui` and semantic colour tokens (`bg-surface`, `text-muted`, `border-line`, `brand-*`), which handle dark mode. Responsive grids need an explicit `grid-cols-1`.
 
 ## Commands

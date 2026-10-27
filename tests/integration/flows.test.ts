@@ -9,7 +9,7 @@ import {
 } from '@study-helper/shared';
 import { deleteApp, initializeApp, type FirebaseApp } from 'firebase/app';
 import { connectAuthEmulator, createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut, type Auth } from 'firebase/auth';
-import { addDoc, collection, connectFirestoreEmulator, doc, getDoc, getDocs, getFirestore, orderBy, query, type Firestore } from 'firebase/firestore';
+import { addDoc, collection, connectFirestoreEmulator, doc, getDoc, getDocs, getFirestore, orderBy, query, where, type Firestore } from 'firebase/firestore';
 import { connectFunctionsEmulator, getFunctions, httpsCallable, type Functions } from 'firebase/functions';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 
@@ -186,6 +186,98 @@ describe('family', () => {
 
   it('parents can unlink, but not from accounts they manage', async () => {
     await expect(parent.call('unlink', { otherUid: kidUid })).rejects.toThrow(/created by the parent/);
+  });
+});
+
+describe('co-parents', () => {
+  it('shares each parent’s children both ways once a co-parent invite is accepted', async () => {
+    const parent2Uid = parent2.auth.currentUser!.uid;
+    await expect(student.call('createInvite', { kind: 'coparent' })).rejects.toThrow(/parent/i);
+    const invite = await parent.call<{ code: string; forRole: string; kind: string }>('createInvite', { kind: 'coparent' });
+    expect(invite.forRole).toBe('parent');
+    expect(invite.kind).toBe('coparent');
+    const peek = await parent2.call('peekInvite', { code: invite.code });
+    expect(peek.kind).toBe('coparent');
+    expect(peek.childNames).toEqual(['Kiri']);
+    await expect(student.call('acceptInvite', { code: invite.code })).rejects.toThrow(/parent account/);
+
+    const accepted = await parent2.call('acceptInvite', { code: invite.code });
+    expect(accepted.kind).toBe('coparent');
+    expect(accepted.shared).toBe(2); // Kiri → Robin, Sam → Pat
+    expect((await getDoc(doc(parent2.db, 'students', kidUid))).exists()).toBe(true);
+    expect((await getDoc(doc(parent.db, 'students', studentUid))).exists()).toBe(true);
+    const pairs = await getDocs(query(collection(parent2.db, 'coparents'), where('parents', 'array-contains', parent2Uid)));
+    expect(pairs.size).toBe(1);
+  });
+
+  it('shares children added later with the co-parent', async () => {
+    const res = await parent.call('createChildAccount', { displayName: 'Mere', username: `mere${run}`.slice(0, 20), password: 'kidpass123', yearLevel: 7 });
+    expect((await getDoc(doc(parent2.db, 'students', res.uid))).exists()).toBe(true);
+  });
+
+  it('removing a co-parent unlinks only the shared children', async () => {
+    const parent2Uid = parent2.auth.currentUser!.uid;
+    const res = await parent2.call('removeCoParent', { otherUid: parentUid });
+    expect(res.unlinked).toBe(3); // Kiri and Mere from Robin, Sam from Pat
+    await expect(getDoc(doc(parent2.db, 'students', kidUid))).rejects.toThrow();
+    await expect(getDoc(doc(parent.db, 'students', studentUid))).rejects.toThrow();
+    // Their own children stay.
+    expect((await getDoc(doc(parent.db, 'students', kidUid))).exists()).toBe(true);
+    expect((await getDoc(doc(parent2.db, 'students', studentUid))).exists()).toBe(true);
+    const pairs = await getDocs(query(collection(parent2.db, 'coparents'), where('parents', 'array-contains', parent2Uid)));
+    expect(pairs.size).toBe(0);
+  });
+});
+
+describe('level-up unlocks', () => {
+  it('marks a parent’s level reward earned and gives an egg when the student levels up', async () => {
+    const parent2Uid = parent2.auth.currentUser!.uid;
+    const rewardRef = await addDoc(collection(parent2.db, 'students', studentUid, 'levelRewards'), {
+      level: 2,
+      reward: 'Pick the movie',
+      createdBy: parent2Uid,
+      createdByName: 'Robin',
+      createdAt: Date.now(),
+      status: 'active',
+    });
+    await expect(student.call('openEgg')).rejects.toThrow(/No eggs/);
+    let level = 1;
+    for (let round = 0; round < 6 && level < 2; round++) {
+      const set = await student.call<{ questions: PublicQuestion[] }>('getPracticeSet', { topicId: 'm9.num.integers', count: 8 });
+      for (const q of set.questions.filter((x) => x.id.startsWith('tpl:'))) {
+        const res = await student.call('submitAnswer', { questionId: q.id, response: rightAnswer(q), hintsUsed: 0, timeMs: 5000 });
+        level = res.level;
+        if (level >= 2) {
+          expect(res.previousLevel).toBe(1);
+          break;
+        }
+      }
+    }
+    expect(level).toBe(2);
+    expect((await getDoc(rewardRef)).data()?.status).toBe('earned');
+
+    const egg = await student.call('openEgg');
+    expect(egg.level).toBe(2);
+    expect(egg.kind).toBe('creature');
+    expect(egg.equipped).toBe(true);
+    const collectionDoc = await getDoc(doc(student.db, 'students', studentUid, 'rewards', 'collection'));
+    expect(collectionDoc.data()?.characters.map((c: { id: string }) => c.id)).toEqual([egg.id]);
+    expect((await getDoc(doc(student.db, 'users', studentUid))).data()?.avatar).toBe(egg.id);
+    await expect(student.call('openEgg')).rejects.toThrow(/No eggs/);
+  });
+
+  it('only lets students use what they have unlocked', async () => {
+    await expect(student.call('setLook', { avatar: 'golden-moa' })).rejects.toThrow(/unlocked/);
+    await expect(student.call('setLook', { frame: 'bronze' })).rejects.toThrow(/unlocked/); // level 3
+    await expect(student.call('setLook', { palette: 'ocean' })).rejects.toThrow(/unlocked/); // level 4
+    await student.call('setLook', { title: 'rookie', frame: null });
+    expect((await getDoc(doc(student.db, 'users', studentUid))).data()?.title).toBe('rookie');
+    await student.call('setLook', { title: null });
+    expect((await getDoc(doc(student.db, 'users', studentUid))).data()?.title).toBeUndefined();
+
+    await parent.call('setLook', { avatar: 'kiwi' });
+    await expect(parent.call('setLook', { avatar: 'golden-moa' })).rejects.toThrow(/common/);
+    await expect(parent.call('setLook', { frame: 'bronze' })).rejects.toThrow(/students/);
   });
 });
 

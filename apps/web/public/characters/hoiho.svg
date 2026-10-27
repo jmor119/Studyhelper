@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs><clipPath id="hoiho-head"><path d="M66 16c19 0 31 16 32 36 1 10 7 19 7 32 0 16-17 22-39 22s-39-6-39-22c0-13 6-22 7-32 1-20 13-36 32-36z"/></clipPath></defs>
+  <g stroke="#1f2937" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 64c-8 5-13 14-14 25 6 0 12-4 16-11z" fill="#64748b"/>
+    <path d="M99 60c8 4 14 13 15 25-7 1-13-3-17-10z" fill="#64748b"/>
+  </g>
+  <path d="M66 16c19 0 31 16 32 36 1 10 7 19 7 32 0 16-17 22-39 22s-39-6-39-22c0-13 6-22 7-32 1-20 13-36 32-36z" fill="#75849b"/>
+  <path d="M28 41c16-5 34-7 48-7 14 0 24 4 32 12v14c-8-8-20-12-32-12-14 0-32 1-48 4z" fill="#fde68a" clip-path="url(#hoiho-head)"/>
+  <g fill="none" stroke="#e9dfa8" stroke-width="2" stroke-linecap="round">
+    <path d="M60 21l2 5M70 21l1 5M80 23l-1 5M88 28l-2 4"/>
+  </g>
+  <path d="M66 16c19 0 31 16 32 36 1 10 7 19 7 32 0 16-17 22-39 22s-39-6-39-22c0-13 6-22 7-32 1-20 13-36 32-36z" fill="none" stroke="#1f2937" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M33 68c5-8 14-12 25-12s20 4 25 12c5 8 6 17 4 22-3 9-14 12-29 12s-26-3-29-12c-2-5-1-14 4-22z" fill="#fff"/>
+  <path d="M58 99c13 0 23-3 27-11-6 5-14 7-27 7z" fill="#dbe2ef"/>
+  <path d="M86 100c10-3 16-11 17-22-3 9-9 15-17 18z" fill="#5b687e"/>
+  <path d="M42 30c3-4 7-7 11-9" fill="none" stroke="#a3b0c2" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="52" cy="107" rx="9" ry="4.5" fill="#f4a3a0"/>
+    <ellipse cx="78" cy="107" rx="9" ry="4.5" fill="#f4a3a0"/>
+    <path d="M55 50q7-3 13 0-2 9-8 13-4-5-5-13z" fill="#e8907f"/>
+  </g>
+  <ellipse cx="41" cy="60" rx="6" ry="4" fill="#f9a8b8" opacity=".6"/>
+  <ellipse cx="85" cy="58" rx="6" ry="4" fill="#f9a8b8" opacity=".6"/>
+  <g stroke="#1f2937" stroke-width="1.5">
+    <circle cx="48" cy="44" r="8.5" fill="#facc15"/>
+    <circle cx="75" cy="42" r="9" fill="#facc15"/>
+  </g>
+  <circle cx="48" cy="44" r="6" fill="#1f2937"/>
+  <circle cx="75" cy="42" r="6.5" fill="#1f2937"/>
+  <circle cx="50.5" cy="41.5" r="2.4" fill="#fff"/>
+  <circle cx="77.5" cy="39.5" r="2.6" fill="#fff"/>
+  <circle cx="46.5" cy="46.5" r="1.1" fill="#fff"/>
+  <circle cx="73.5" cy="44.5" r="1.2" fill="#fff"/>
+</svg>

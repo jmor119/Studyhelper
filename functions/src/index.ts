@@ -12,7 +12,8 @@ export {
   deleteMyAccount,
   exportMyData,
 } from './callables/account';
-export { createInvite, emailInvite, peekInvite, acceptInvite, unlink } from './callables/family';
+export { createInvite, emailInvite, peekInvite, acceptInvite, removeCoParent, unlink } from './callables/family';
+export { openEgg, setLook } from './callables/rewards';
 export { getPracticeSet, submitAnswer, selfMark, flagQuestion, logActivity } from './callables/practice';
 export { startExam, submitExam, selfMarkExam } from './callables/exams';
 export { adminReviewQueue, adminSetQuestionStatus, adminStats } from './callables/admin';
@@ -27,3 +28,4 @@ export { oauthGetRequest, oauthDecide, createApiToken, listConnections, revokeCo
 export { mcp } from './mcp/server';
 
 export { weeklySummary, promoteQuestions, cleanup } from './scheduled/jobs';
+export { deliverMail } from './triggers/mail';

@@ -1,23 +1,28 @@
 import {
   buildStudyPlan,
   currentStreak,
+  describeUnlocks,
   formatDateKey,
   getTopic,
   levelForXp,
   nzDateKey,
+  pendingEggs,
+  unlocksAtLevel,
   weekStart,
   xpForLevel,
   type Goal,
 } from '@study-helper/shared';
 import { collection, getCountFromServer, query, where } from 'firebase/firestore';
-import { BookOpen, CalendarDays, ClipboardCheck, Flame, GraduationCap, Layers, MessageCircle, Sparkles, Target } from 'lucide-react';
+import { BookOpen, CalendarDays, ClipboardCheck, Flame, Gift, GraduationCap, Layers, MessageCircle, Sparkles, Target } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router';
+import { EggGraphic } from '../../components/rewards/EggOpener';
 import { NoYearContent } from '../../components/study/NoYearContent';
 import { Badge, ButtonLink, Card, ProgressBar, ProgressRing } from '../../components/ui';
 import { useUser } from '../../lib/auth';
 import { db } from '../../lib/firebase';
 import { useQuery } from '../../lib/hooks';
+import { useCharacterCollection, useLevelRewards } from '../../lib/rewards';
 import { LEVEL_TONE, levelFor, topicsForStudent, useMastery, useStudySettings } from '../../lib/study';
 
 interface PlanDoc {
@@ -42,6 +47,8 @@ export default function Home() {
   const goals = useQuery<Goal>(query(collection(db, 'students', user.uid, 'goals'), where('status', '==', 'active')), `goals:${user.uid}`);
   const plans = useQuery<PlanDoc>(collection(db, 'students', user.uid, 'plans'), `plans:${user.uid}`);
   const [dueCards, setDueCards] = useState<number | null>(null);
+  const characters = useCharacterCollection(user.uid);
+  const levelRewards = useLevelRewards(user.uid);
 
   useEffect(() => {
     getCountFromServer(query(collection(db, 'students', user.uid, 'cards'), where('due', '<=', Date.now())))
@@ -53,6 +60,9 @@ export default function Home() {
   const level = levelForXp(stats?.xp ?? 0);
   const dailyGoal = profile.prefs?.dailyGoal ?? 20;
   const todayCount = stats?.todayDate === today ? stats.todayCount : 0;
+  const eggs = characters.loading ? [] : pendingEggs(level, characters.data?.characters ?? []);
+  const nextUnlocks = describeUnlocks(unlocksAtLevel(level + 1));
+  const promised = levelRewards.data.filter((r) => r.status !== 'given');
 
   const topics = topicsForStudent(profile.yearLevel);
   const school = new Set(settings.data?.schoolTopics ?? []);
@@ -93,6 +103,19 @@ export default function Home() {
         </div>
       )}
 
+      {eggs.length > 0 && (
+        <Link
+          to="/collection"
+          className="mb-4 flex items-center gap-4 rounded-2xl border-2 border-amber-300 bg-amber-50 p-4 transition-shadow hover:shadow-md dark:border-amber-700 dark:bg-amber-950/30"
+        >
+          <EggGraphic kind={eggs[0]!.kind} className="egg-idle h-16 w-14 shrink-0" />
+          <span className="min-w-0">
+            <span className="block text-lg font-extrabold">{eggs.length === 1 ? 'You’ve got an egg to hatch!' : `You’ve got ${eggs.length} eggs to hatch!`}</span>
+            <span className="text-sm text-muted">Tap to see what’s inside — it could be your new profile picture.</span>
+          </span>
+        </Link>
+      )}
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <Card className="flex items-center gap-4">
           <ProgressRing value={(todayCount / dailyGoal) * 100} color="var(--color-good)">
@@ -124,6 +147,11 @@ export default function Home() {
           </div>
           <ProgressBar className="mt-3" tone="xp" value={(stats?.xp ?? 0) - xpForLevel(level)} max={xpForLevel(level + 1) - xpForLevel(level)} />
           <p className="mt-1.5 text-xs text-muted">{xpForLevel(level + 1) - (stats?.xp ?? 0)} XP to level {level + 1}</p>
+          {nextUnlocks.length > 0 && (
+            <Link to="/collection" className="mt-1 block text-xs font-semibold text-brand-700 dark:text-brand-300">
+              Unlocks {nextUnlocks.join(', ')}
+            </Link>
+          )}
         </Card>
       </div>
 
@@ -146,6 +174,31 @@ export default function Home() {
                     </span>
                   </div>
                   <ProgressBar className="mt-1.5" tone="good" value={progress} max={g.target} />
+                </li>
+              );
+            })}
+          </ul>
+        </Card>
+      )}
+
+      {promised.length > 0 && (
+        <Card className="mt-4">
+          <h2 className="flex items-center gap-2 font-bold">
+            <Gift className="size-5 text-brand-700" /> Level rewards from your family
+          </h2>
+          <ul className="mt-3 grid grid-cols-1 gap-3">
+            {promised.slice(0, 3).map((r) => {
+              const xp = stats?.xp ?? 0;
+              const earned = level >= r.level;
+              return (
+                <li key={r.id}>
+                  <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
+                    <span className="font-semibold">
+                      Level {r.level}: {r.reward}
+                    </span>
+                    <span className="text-muted">{earned ? `🎉 Earned! Tell ${r.createdByName}` : `${(xpForLevel(r.level) - xp).toLocaleString('en-NZ')} XP to go`}</span>
+                  </div>
+                  <ProgressBar className="mt-1.5" tone="xp" value={Math.min(xp, xpForLevel(r.level))} max={xpForLevel(r.level)} />
                 </li>
               );
             })}

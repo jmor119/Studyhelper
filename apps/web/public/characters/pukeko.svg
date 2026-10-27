@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 86v24l-7 3m7-3l3 7m-3-7l10 3M72 86v24l-7 3m7-3l3 7m-3-7l10 3" stroke="#1f2937" stroke-width="8.5"/>
+    <path d="M52 86v24l-7 3m7-3l3 7m-3-7l10 3M72 86v24l-7 3m7-3l3 7m-3-7l10 3" stroke="#f2622e" stroke-width="4"/>
+  </g>
+  <g stroke="#1f2937" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 62L20 50c-3-2-6 1-5 4l9 20z" fill="#25277a"/>
+    <path d="M34 74l-18-2c-3 0-4 3-2 5l16 12z" fill="#fff"/>
+  </g>
+  <path d="M60 18c23 0 35 18 35 39 0 21-14 33-35 33S25 78 25 57c0-21 12-39 35-39z" fill="#4c4cc6"/>
+  <path d="M48 20c-14 4-23 18-23 37 0 9 3 16 7 21 7-7 11-17 12-29 1-11 2-21 4-29z" fill="#2d2f8a"/>
+  <path d="M64 87c16-1 27-10 29-25-5 12-15 20-29 22z" fill="#3a3aa2"/>
+  <path d="M60 18c23 0 35 18 35 39 0 21-14 33-35 33S25 78 25 57c0-21 12-39 35-39z" fill="none" stroke="#1f2937" stroke-width="3"/>
+  <path d="M38 38c4-8 10-13 18-16" fill="none" stroke="#7a7ae8" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <path d="M90 50c-6 0-11-5-12-13-1-7 0-12 4-12s9 4 11 10c2 6 2 12-3 15z" fill="#e5313a" stroke="#1f2937" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M86 46c9-1 18 3 24 10 2 2 1 4-1 5-7 3-15 4-23 3z" fill="#e5313a" stroke="#1f2937" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M108 59c-6 0-13 0-20-1" fill="none" stroke="#9f1d24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M82 30c-1 2-1 5 0 8" fill="none" stroke="#ff8c8c" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="50" cy="62" rx="6" ry="4" fill="#f9a8b8" opacity=".6"/>
+  <ellipse cx="77" cy="60" rx="6" ry="4" fill="#f9a8b8" opacity=".6"/>
+  <circle cx="54" cy="47" r="7.5" fill="#1f2937"/>
+  <circle cx="72" cy="48" r="7" fill="#1f2937"/>
+  <circle cx="56.5" cy="44.5" r="2.8" fill="#fff"/>
+  <circle cx="74.5" cy="45.5" r="2.6" fill="#fff"/>
+  <circle cx="52.5" cy="50.5" r="1.3" fill="#fff"/>
+  <circle cx="70.5" cy="51" r="1.2" fill="#fff"/>
+</svg>

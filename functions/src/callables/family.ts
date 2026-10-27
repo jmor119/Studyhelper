@@ -1,4 +1,5 @@
-import { inviteEmail, type UserProfile } from '@study-helper/shared';
+import { coParentId, inviteEmail, type CoParentLink, type FamilyLink, type InviteKind, type UserProfile } from '@study-helper/shared';
+import type { DocumentReference, Transaction } from 'firebase-admin/firestore';
 import { onCall } from 'firebase-functions/https';
 import { z } from 'zod';
 import { inviteCode } from '../lib/crypto';
@@ -6,16 +7,18 @@ import { appBaseUrl, auth, CHILD_EMAIL_DOMAIN, db } from '../lib/firebase';
 import { MAIL_SECRETS, mailAvailable, sendMail } from '../lib/mail';
 import { fail, parseInput, requireAuth } from '../lib/http';
 import { rateLimit } from '../lib/ratelimit';
-import { linkedParents, linkedStudents, linkId, requireProfile } from '../lib/users';
+import { linkedParents, linkedStudents, linkId, MAX_PARENTS, requireProfile, shareWithCoParents } from '../lib/users';
 
 const INVITE_DAYS = 7;
-const MAX_PARENTS = 4;
 const MAX_CHILDREN = 12;
+const MAX_COPARENTS = 3;
 
 interface Invite {
   fromUid: string;
   fromRole: UserProfile['role'];
   fromName: string;
+  /** Missing on invites made before co-parents existed (they're all 'family'). */
+  kind?: InviteKind;
   createdAt: number;
   expiresAt: number;
   usedBy?: string;
@@ -27,10 +30,20 @@ function normaliseCode(raw: string): string {
   return s.length === 8 ? `${s.slice(0, 4)}-${s.slice(4)}` : raw.toUpperCase();
 }
 
-/** A student invites a parent, or a parent invites a student. The other side accepts. */
+const forRoleOf = (invite: Pick<Invite, 'fromRole' | 'kind'>): UserProfile['role'] =>
+  invite.kind === 'coparent' || invite.fromRole === 'student' ? 'parent' : 'student';
+
+const childNamesOf = async (parentUid: string) => (await linkedStudents(parentUid)).map((l) => l.studentName).sort();
+
+/**
+ * A student invites a parent, or a parent invites a student. A parent can also invite a co-parent:
+ * another parent, and the two then share all their children. The other side accepts.
+ */
 export const createInvite = onCall(async (req) => {
   const uid = requireAuth(req);
   const me = await requireProfile(uid);
+  const { kind } = parseInput(z.object({ kind: z.enum(['family', 'coparent']).default('family') }), req.data ?? {});
+  if (kind === 'coparent' && me.role !== 'parent') throw fail.denied('Only parent accounts can invite a co-parent.');
   await rateLimit(`invite:${uid}`, 20, 86400, "You've made a lot of invites today — try again tomorrow.");
   const code = inviteCode();
   const now = Date.now();
@@ -38,6 +51,7 @@ export const createInvite = onCall(async (req) => {
     fromUid: uid,
     fromRole: me.role,
     fromName: me.displayName,
+    kind,
     createdAt: now,
     expiresAt: now + INVITE_DAYS * 86_400_000,
   };
@@ -46,7 +60,8 @@ export const createInvite = onCall(async (req) => {
     code,
     url: `${appBaseUrl()}/join/${code}`,
     expiresAt: invite.expiresAt,
-    forRole: me.role === 'parent' ? 'student' : 'parent',
+    forRole: forRoleOf(invite),
+    kind,
   };
 });
 
@@ -70,7 +85,9 @@ export const emailInvite = onCall({ secrets: MAIL_SECRETS }, async (req) => {
   await rateLimit(`invite-email:${uid}`, 10, 86400, "You've emailed a lot of invites today — try again tomorrow.");
   const message = inviteEmail({
     fromName: invite.fromName,
-    forRole: invite.fromRole === 'parent' ? 'student' : 'parent',
+    forRole: forRoleOf(invite),
+    kind: invite.kind ?? 'family',
+    ...(invite.kind === 'coparent' && { childNames: await childNamesOf(uid) }),
     url: `${appBaseUrl()}/join/${normaliseCode(input.code)}`,
     code: normaliseCode(input.code),
     expiresAt: invite.expiresAt,
@@ -90,8 +107,83 @@ export const peekInvite = onCall(async (req) => {
   const snap = await db.doc(`invites/${normaliseCode(code)}`).get();
   const invite = snap.data() as Invite | undefined;
   if (!invite || invite.usedBy || invite.expiresAt < Date.now()) throw fail.notFound('That invite');
-  return { fromName: invite.fromName, fromRole: invite.fromRole, forRole: invite.fromRole === 'parent' ? 'student' : 'parent' };
+  const kind = invite.kind ?? 'family';
+  return {
+    fromName: invite.fromName,
+    fromRole: invite.fromRole,
+    forRole: forRoleOf(invite),
+    kind,
+    ...(kind === 'coparent' && { childNames: await childNamesOf(invite.fromUid) }),
+  };
 });
+
+/**
+ * Accepting a co-parent invite: records the pair and shares each parent's children with the other.
+ * Those links are marked `coParent`, so removing the co-parent removes exactly those links.
+ */
+async function acceptCoParent(tx: Transaction, inviteRef: DocumentReference, invite: Invite, me: UserProfile) {
+  const uid = me.uid;
+  if (me.role !== 'parent') throw fail.precondition('This invite is for a parent account. Sign in with a parent account to accept it.');
+  const pair = coParentId(uid, invite.fromUid);
+  const pairRef = db.doc(`coparents/${pair}`);
+  const [pairSnap, inviterSnap, mine, theirs, myKids, theirKids] = await Promise.all([
+    tx.get(pairRef),
+    tx.get(db.doc(`users/${invite.fromUid}`)),
+    tx.get(db.collection('coparents').where('parents', 'array-contains', uid)),
+    tx.get(db.collection('coparents').where('parents', 'array-contains', invite.fromUid)),
+    tx.get(db.collection('links').where('parentUid', '==', uid)),
+    tx.get(db.collection('links').where('parentUid', '==', invite.fromUid)),
+  ]);
+  const inviter = inviterSnap.data() as UserProfile | undefined;
+  if (!inviter || inviter.role !== 'parent') throw fail.notFound('That invite');
+  const used = { usedBy: uid, usedAt: Date.now() };
+  if (pairSnap.exists) {
+    tx.update(inviteRef, used);
+    return { alreadyLinked: true, otherUid: invite.fromUid, otherName: inviter.displayName, kind: 'coparent' as const, shared: 0, skipped: [] as string[] };
+  }
+  if (mine.size >= MAX_COPARENTS) throw fail.precondition(`You can have up to ${MAX_COPARENTS} co-parents.`);
+  if (theirs.size >= MAX_COPARENTS) throw fail.precondition(`${inviter.displayName} already has ${MAX_COPARENTS} co-parents.`);
+
+  // Their children are shared with me, and mine with them.
+  const plan = [
+    ...theirKids.docs.map((d) => ({ parentUid: uid, parentName: me.displayName, link: d.data() as FamilyLink })),
+    ...myKids.docs.map((d) => ({ parentUid: invite.fromUid, parentName: inviter.displayName, link: d.data() as FamilyLink })),
+  ];
+  const childUids = [...new Set(plan.map((p) => p.link.studentUid))];
+  const existing = await Promise.all(childUids.map((c) => tx.get(db.collection('links').where('studentUid', '==', c))));
+  const parentsOf = new Map(childUids.map((c, i) => [c, new Set(existing[i]!.docs.map((d) => d.data().parentUid as string))]));
+
+  const now = Date.now();
+  let shared = 0;
+  const skipped: string[] = [];
+  for (const { parentUid, parentName, link } of plan) {
+    const parents = parentsOf.get(link.studentUid)!;
+    if (parents.has(parentUid)) continue;
+    if (parents.size >= MAX_PARENTS) {
+      skipped.push(link.studentName);
+      continue;
+    }
+    parents.add(parentUid);
+    tx.set(db.doc(`links/${linkId(parentUid, link.studentUid)}`), {
+      parentUid,
+      studentUid: link.studentUid,
+      parentName,
+      studentName: link.studentName,
+      createdAt: now,
+      createdBy: invite.fromUid,
+      coParent: pair,
+    } satisfies FamilyLink);
+    shared++;
+  }
+  tx.set(pairRef, {
+    parents: [uid, invite.fromUid].sort() as [string, string],
+    names: { [uid]: me.displayName, [invite.fromUid]: inviter.displayName },
+    createdAt: now,
+    createdBy: invite.fromUid,
+  } satisfies CoParentLink);
+  tx.update(inviteRef, used);
+  return { alreadyLinked: false, otherUid: invite.fromUid, otherName: inviter.displayName, kind: 'coparent' as const, shared, skipped };
+}
 
 export const acceptInvite = onCall(async (req) => {
   const uid = requireAuth(req);
@@ -100,11 +192,12 @@ export const acceptInvite = onCall(async (req) => {
   const me = await requireProfile(uid);
   const inviteRef = db.doc(`invites/${normaliseCode(code)}`);
 
-  return db.runTransaction(async (tx) => {
+  const result = await db.runTransaction(async (tx) => {
     const snap = await tx.get(inviteRef);
     const invite = snap.data() as Invite | undefined;
     if (!invite || invite.usedBy || invite.expiresAt < Date.now()) throw fail.notFound('That invite');
     if (invite.fromUid === uid) throw fail.precondition("You can't accept your own invite.");
+    if (invite.kind === 'coparent') return acceptCoParent(tx, inviteRef, invite, me);
     if (invite.fromRole === me.role) {
       throw fail.precondition(
         invite.fromRole === 'parent'
@@ -117,7 +210,7 @@ export const acceptInvite = onCall(async (req) => {
     const ref = db.doc(`links/${linkId(parentUid, studentUid)}`);
     if ((await tx.get(ref)).exists) {
       tx.update(inviteRef, { usedBy: uid, usedAt: Date.now() });
-      return { alreadyLinked: true, otherUid: invite.fromUid, otherName: invite.fromName };
+      return { alreadyLinked: true, otherUid: invite.fromUid, otherName: invite.fromName, kind: 'family' as const };
     }
     const [parents, children] = await Promise.all([linkedParents(studentUid), linkedStudents(parentUid)]);
     if (parents.length >= MAX_PARENTS) throw fail.precondition(`A student can link up to ${MAX_PARENTS} parents.`);
@@ -126,8 +219,35 @@ export const acceptInvite = onCall(async (req) => {
     const studentName = me.role === 'student' ? me.displayName : invite.fromName;
     tx.set(ref, { parentUid, studentUid, parentName, studentName, createdAt: Date.now(), createdBy: invite.fromUid });
     tx.update(inviteRef, { usedBy: uid, usedAt: Date.now() });
-    return { alreadyLinked: false, otherUid: invite.fromUid, otherName: invite.fromName };
+    return {
+      alreadyLinked: false,
+      otherUid: invite.fromUid,
+      otherName: invite.fromName,
+      kind: 'family' as const,
+      newLink: { parentUid, studentUid, studentName },
+    };
   });
+  // A newly linked child is shared with the parent's co-parents too.
+  const newLink = 'newLink' in result ? result.newLink : undefined;
+  if (newLink) await shareWithCoParents(newLink.parentUid, newLink.studentUid, newLink.studentName);
+  const { alreadyLinked, otherUid, otherName, kind } = result;
+  return { alreadyLinked, otherUid, otherName, kind, ...('shared' in result && { shared: result.shared, skipped: result.skipped }) };
+});
+
+/** Ends a co-parent partnership. Children shared because of it are unlinked; other links stay. */
+export const removeCoParent = onCall(async (req) => {
+  const uid = requireAuth(req);
+  const { otherUid } = parseInput(z.object({ otherUid: z.string().min(1) }), req.data);
+  const pair = coParentId(uid, otherUid);
+  const ref = db.doc(`coparents/${pair}`);
+  const snap = await ref.get();
+  if (!snap.exists || !(snap.data() as CoParentLink).parents.includes(uid)) throw fail.notFound('That co-parent');
+  const links = await db.collection('links').where('coParent', '==', pair).get();
+  const batch = db.batch();
+  links.docs.forEach((d) => batch.delete(d.ref));
+  batch.delete(ref);
+  await batch.commit();
+  return { ok: true, unlinked: links.size };
 });
 
 export const unlink = onCall(async (req) => {
@@ -140,9 +260,7 @@ export const unlink = onCall(async (req) => {
   if (!(await ref.get()).exists) throw fail.notFound('That link');
   const student = await requireProfile(studentUid, 'student');
   if (student.managedBy === parentUid) {
-    throw fail.precondition(
-      'This child account was created by the parent and depends on them. Delete the account instead of unlinking.',
-    );
+    throw fail.precondition('This child account was created by the parent and depends on them. Delete the account instead of unlinking.');
   }
   await ref.delete();
   return { ok: true };

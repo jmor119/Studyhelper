@@ -1,20 +1,14 @@
-import { currentStreak, levelForXp, nzDateKey, type FamilyLink, type StudentStats, type UserProfile } from '@study-helper/shared';
-import { AlertTriangle, ChevronRight, Flame, Sparkles, ThumbsUp } from 'lucide-react';
+import { currentStreak, getTitle, levelForXp, nzDateKey, type FamilyLink, type StudentStats, type UserProfile } from '@study-helper/shared';
+import { AlertTriangle, ChevronRight, Flame, Gift, Sparkles, ThumbsUp } from 'lucide-react';
 import { doc } from 'firebase/firestore';
 import { Link } from 'react-router';
 import { db } from '../../lib/firebase';
 import { useDoc } from '../../lib/hooks';
+import { useLevelRewards } from '../../lib/rewards';
 import { LEVEL_TONE, levelFor, useMastery } from '../../lib/study';
+import { ProfilePicture } from '../rewards/ProfilePicture';
 import { Badge } from '../ui';
 import { dayLabel, formatMinutes, plural, topicTitle, weakestTopic, weekSummary } from './format';
-
-export function Avatar({ name, avatar, className = 'size-12 text-lg' }: { name: string; avatar?: string; className?: string }) {
-  return (
-    <span aria-hidden="true" className={`inline-flex shrink-0 items-center justify-center rounded-full bg-brand-100 font-bold text-brand-800 dark:bg-brand-900/60 dark:text-brand-200 ${className}`}>
-      {avatar || name.trim().charAt(0).toUpperCase() || '?'}
-    </span>
-  );
-}
 
 /** One linked child on the Family page, with live stats. */
 export function ChildCard({ link }: { link: FamilyLink }) {
@@ -22,6 +16,7 @@ export function ChildCard({ link }: { link: FamilyLink }) {
   const profile = useDoc<UserProfile>(doc(db, 'users', childUid), `users/${childUid}`);
   const statsState = useDoc<StudentStats>(doc(db, 'students', childUid), `students/${childUid}`);
   const mastery = useMastery(childUid);
+  const rewards = useLevelRewards(childUid);
   const today = nzDateKey();
 
   const stats = statsState.data;
@@ -32,11 +27,13 @@ export function ChildCard({ link }: { link: FamilyLink }) {
   const weakest = weakestTopic(mastery.data);
   const weakLevel = weakest ? levelFor(weakest) : null;
   const needsWork = !!weakest && weakest.mastery < 50;
+  const earned = rewards.data.filter((r) => r.status !== 'given' && levelForXp(xp) >= r.level);
+  const title = profile.data?.title ? getTitle(profile.data.title)?.name : undefined;
 
   return (
     <article className="relative flex min-w-0 flex-col gap-4 rounded-2xl border border-line bg-surface p-5 shadow-sm transition-shadow hover:shadow-md has-[a:focus-visible]:ring-2 has-[a:focus-visible]:ring-brand-500">
       <div className="flex items-center gap-3">
-        <Avatar name={name} avatar={profile.data?.avatar} />
+        <ProfilePicture name={name} avatar={profile.data?.avatar} frame={profile.data?.frame} size="md" />
         <div className="min-w-0 flex-1">
           <h2 className="truncate text-lg font-bold">
             <Link to={`/parent/child/${childUid}`} className="outline-none after:absolute after:inset-0 after:rounded-2xl">
@@ -46,6 +43,7 @@ export function ChildCard({ link }: { link: FamilyLink }) {
           </h2>
           <p className="truncate text-sm text-muted">
             {profile.data?.yearLevel ? `Year ${profile.data.yearLevel}` : 'Student'}
+            {title && <> · {title}</>}
             {profile.data?.username && <> · signs in as {profile.data.username}</>}
           </p>
         </div>
@@ -75,6 +73,15 @@ export function ChildCard({ link }: { link: FamilyLink }) {
           <dd className="mt-0.5 truncate font-bold">{dayLabel(stats?.lastActiveDate, today)}</dd>
         </div>
       </dl>
+
+      {earned.length > 0 && (
+        <p className="flex items-start gap-2 rounded-xl bg-amber-50 px-3 py-2 text-sm dark:bg-amber-950/40">
+          <Gift className="mt-0.5 size-4 shrink-0 text-xp" aria-hidden="true" />
+          <span>
+            <b>Reward earned:</b> {earned.map((r) => r.reward).join(', ')}
+          </span>
+        </p>
+      )}
 
       <div>
         <p className="text-sm font-semibold">This week</p>

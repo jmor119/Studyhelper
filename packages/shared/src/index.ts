@@ -19,3 +19,4 @@ export * from './exam';
 export * from './content/lesson';
 export { correctResponseFor, wrongResponseFor } from './testing/correct-response';
 export * from './invites';
+export * from './rewards';

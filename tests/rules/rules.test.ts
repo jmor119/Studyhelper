@@ -64,6 +64,13 @@ beforeEach(async () => {
     await setDoc(doc(db, 'bank', 'q3'), { topicId: 'm9.alg.equations', status: 'retired', prompt: 'z' });
     await setDoc(doc(db, 'bankAnswers', 'q1'), { answer: 4 });
     await setDoc(doc(db, 'students', STUDENT), { xp: 100, streak: 2 });
+    await setDoc(doc(db, 'students', STUDENT, 'rewards', 'collection'), { characters: [{ id: 'kiwi', level: 2, at: now }], updatedAt: now });
+    await setDoc(doc(db, 'coparents', `${PARENT}_${OTHER_PARENT}`), {
+      parents: [PARENT, OTHER_PARENT],
+      names: { [PARENT]: 'Parent A', [OTHER_PARENT]: 'Parent B' },
+      createdAt: now,
+      createdBy: PARENT,
+    });
     await setDoc(doc(db, 'students', STUDENT, 'attempts', 'a1'), { topicId: 'm9.alg.equations', correct: true });
     await setDoc(doc(db, 'secrets', PARENT), { anthropic: 'encrypted' });
     await setDoc(doc(db, 'usage', PARENT, 'months', '2026-10'), { tokens: 100 });
@@ -91,6 +98,11 @@ describe('users', () => {
     await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { yearLevel: 13 }));
     await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { prefs: { theme: 'neon' } }));
     await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { displayName: '' }));
+    // Pictures, frames, titles and colour themes are unlocked rewards, set only by setLook.
+    await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { avatar: 'golden-moa' }));
+    await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { frame: 'galaxy' }));
+    await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { palette: 'gold' }));
+    await assertFails(updateDoc(doc(as(STUDENT), 'users', STUDENT), { title: 'grand-wizard' }));
     await assertFails(updateDoc(doc(as(PARENT), 'users', STUDENT), { displayName: 'Changed by parent' }));
     await assertFails(setDoc(doc(as('newUser'), 'users', 'newUser'), { role: 'parent', displayName: 'X' }));
   });
@@ -114,6 +126,21 @@ describe('links', () => {
       setDoc(doc(as(OTHER_PARENT), 'links', `${OTHER_PARENT}_${STUDENT}`), { parentUid: OTHER_PARENT, studentUid: STUDENT }),
     );
     await assertFails(deleteDoc(doc(as(STUDENT), 'links', `${PARENT}_${STUDENT}`)));
+  });
+});
+
+describe('co-parents', () => {
+  it('are readable by the two parents only and never writable by clients', async () => {
+    const pair = `${PARENT}_${OTHER_PARENT}`;
+    await assertSucceeds(getDoc(doc(as(PARENT), 'coparents', pair)));
+    await assertSucceeds(getDoc(doc(as(OTHER_PARENT), 'coparents', pair)));
+    await assertFails(getDoc(doc(as(STUDENT), 'coparents', pair)));
+    await assertSucceeds(getDocs(query(collection(as(PARENT), 'coparents'), where('parents', 'array-contains', PARENT))));
+    await assertFails(getDocs(query(collection(as(STUDENT), 'coparents'), where('parents', 'array-contains', PARENT))));
+    await assertFails(setDoc(doc(as(STUDENT), 'coparents', `${STUDENT}_x`), { parents: [STUDENT, 'x'] }));
+    await assertFails(deleteDoc(doc(as(PARENT), 'coparents', pair)));
+    // Being someone's co-parent doesn't by itself give access to children they haven't shared.
+    await assertFails(getDoc(doc(as(OTHER_PARENT), 'students', STUDENT)));
   });
 });
 
@@ -220,6 +247,36 @@ describe('student progress', () => {
     await assertFails(updateDoc(doc(as(STUDENT), 'students', STUDENT, 'goals', 'g1'), { status: 'achieved' }));
     await assertFails(updateDoc(doc(as(PARENT), 'students', STUDENT, 'goals', 'g1'), { progress: 100 }));
     await assertSucceeds(updateDoc(doc(as(PARENT), 'students', STUDENT, 'goals', 'g1'), { status: 'paused' }));
+  });
+});
+
+describe('level rewards', () => {
+  const reward = { level: 10, reward: 'Pick the movie', createdBy: PARENT, createdByName: 'Parent A', createdAt: Date.now(), status: 'active' };
+
+  it('lets linked parents (only) promise rewards for a level', async () => {
+    await assertSucceeds(setDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r1'), reward));
+    await assertFails(setDoc(doc(as(OTHER_PARENT), 'students', STUDENT, 'levelRewards', 'r2'), { ...reward, createdBy: OTHER_PARENT }));
+    await assertFails(setDoc(doc(as(STUDENT), 'students', STUDENT, 'levelRewards', 'r3'), { ...reward, createdBy: STUDENT }));
+    await assertFails(setDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r4'), { ...reward, status: 'earned' }));
+    await assertFails(setDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r5'), { ...reward, level: 1 }));
+    await assertFails(setDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r6'), { ...reward, reward: 'x'.repeat(121) }));
+    await assertFails(setDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r7'), { ...reward, earnedAt: 1 }));
+    await assertSucceeds(getDoc(doc(as(STUDENT), 'students', STUDENT, 'levelRewards', 'r1')));
+  });
+
+  it('lets parents mark rewards given, but not students', async () => {
+    await assertSucceeds(setDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r1'), reward));
+    await assertFails(updateDoc(doc(as(STUDENT), 'students', STUDENT, 'levelRewards', 'r1'), { status: 'given' }));
+    await assertFails(updateDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r1'), { createdBy: OTHER_PARENT }));
+    await assertSucceeds(updateDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r1'), { status: 'given', givenAt: Date.now() }));
+    await assertSucceeds(deleteDoc(doc(as(PARENT), 'students', STUDENT, 'levelRewards', 'r1')));
+  });
+
+  it('keeps the character collection server-written', async () => {
+    await assertSucceeds(getDoc(doc(as(STUDENT), 'students', STUDENT, 'rewards', 'collection')));
+    await assertSucceeds(getDoc(doc(as(PARENT), 'students', STUDENT, 'rewards', 'collection')));
+    await assertFails(getDoc(doc(as(OTHER_PARENT), 'students', STUDENT, 'rewards', 'collection')));
+    await assertFails(setDoc(doc(as(STUDENT), 'students', STUDENT, 'rewards', 'collection'), { characters: [{ id: 'golden-moa', level: 2, at: 1 }] }));
   });
 });
 

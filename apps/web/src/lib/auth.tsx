@@ -52,6 +52,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     document.documentElement.classList.toggle('dark', dark);
   }, [theme]);
 
+  // Students' unlocked colour theme recolours the brand palette (see styles.css).
+  const palette = profileState.data?.palette;
+  useEffect(() => {
+    if (palette) document.documentElement.dataset.palette = palette;
+    else delete document.documentElement.dataset.palette;
+  }, [palette]);
+
   const value: AuthState = {
     user,
     profile: profileState.data,
